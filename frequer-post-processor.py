@@ -6,6 +6,7 @@ import statistics
 from collections import defaultdict
 import spacy
 from pathlib import Path
+import math
 
 def load_frequency_data(input_file):
     """Load frequency data from JSON file."""
@@ -207,213 +208,186 @@ def generate_lemmatization_rule(lemma, correct_lemma):
     """Generate a lemmatization rule that can be added to the lookup table."""
     return f'lemma_lookup["{lemma}"] = ["{correct_lemma}"]'
 
-def generate_markdown_report(flagged_lemmas_by_category, nlp, output_file, lemma_ranks):
-    """Generate a markdown report with all flagged lemmas for manual review."""
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.write("# Frequer Post-Processing Report\n\n")
-        f.write("This report contains lemmas flagged for review based on various heuristics.\n\n")
+def generate_chunked_markdown_reports(flagged_lemmas_by_category, nlp, output_base, lemma_ranks, chunk_size=1000):
+    """
+    Generate multiple markdown reports with flagged lemmas grouped by rank chunks.
+    Each file will contain lemmas from a specific rank range (1-1000, 1001-2000, etc.)
+    """
+    # Determine the total number of chunks needed
+    max_rank = max(lemma_ranks.values())
+    num_chunks = math.ceil(max_rank / chunk_size)
+    
+    print(f"Generating {num_chunks} review files (chunk size: {chunk_size})...")
+    
+    # Categories of flagged lemmas for the report
+    categories = {
+        "form_ratio": "Forms with Frequency Significantly Higher than Median",
+        "plural_lemma": "Potential Plural Lemmas Instead of Singular",
+        "inconsistent_lemma": "Inconsistent Lemmatization",
+        "short_lemma": "Very Short Lemmas",
+        "non_lowercase": "Non-Lowercase Lemmas (Potential Proper Nouns)",
+    }
+    
+    # For each chunk of ranks
+    for chunk_idx in range(num_chunks):
+        start_rank = chunk_idx * chunk_size + 1
+        end_rank = min((chunk_idx + 1) * chunk_size, max_rank)
         
-        # Write each category of flagged lemmas
-        categories = {
-            "form_ratio": "Forms with Frequency Significantly Higher than Median",
-            "plural_lemma": "Potential Plural Lemmas Instead of Singular",
-            "inconsistent_lemma": "Inconsistent Lemmatization",
-            "short_lemma": "Very Short Lemmas",
-            "non_lowercase": "Non-Lowercase Lemmas (Potential Proper Nouns)",
-        }
+        # Create a filtered dictionary of flagged lemmas that fall within this chunk's rank range
+        chunk_flagged_by_category = {}
+        for reason, flagged_lemmas in flagged_lemmas_by_category.items():
+            chunk_flagged_by_category[reason] = {
+                lemma: info for lemma, info in flagged_lemmas.items() 
+                if start_rank <= lemma_ranks.get(lemma, 0) <= end_rank
+            }
         
-        for reason, label in categories.items():
-            flagged_lemmas = flagged_lemmas_by_category.get(reason, {})
+        # Count total flagged lemmas in this chunk
+        total_flagged_in_chunk = set()
+        for reason, flagged in chunk_flagged_by_category.items():
+            total_flagged_in_chunk.update(flagged.keys())
+        
+        # Skip generating a file if there are no flagged lemmas in this chunk
+        if not total_flagged_in_chunk:
+            print(f"No flagged lemmas in rank range {start_rank}-{end_rank}, skipping file")
+            continue
+        
+        # Create output filename
+        output_file = f"{output_base}_rank{start_rank}-{end_rank}.md"
+        
+        print(f"Creating report for ranks {start_rank}-{end_rank} with {len(total_flagged_in_chunk)} flagged lemmas")
+        
+        with open(output_file, 'w', encoding='utf-8') as f:
+            # Write header
+            f.write(f"# Frequer Post-Processing Report: Ranks {start_rank}-{end_rank}\n\n")
+            f.write(f"This report contains lemmas flagged for review based on various heuristics.\n")
+            f.write(f"Lemmas in this file are ranked between {start_rank} and {end_rank} by frequency.\n\n")
             
-            if not flagged_lemmas:
-                continue
+            # Write each category of flagged lemmas
+            for reason, label in categories.items():
+                flagged_lemmas = chunk_flagged_by_category.get(reason, {})
                 
-            f.write(f"## {label} ({len(flagged_lemmas)} items)\n\n")
-            
-            for lemma, info in sorted(flagged_lemmas.items(), 
-                                      key=lambda x: sum(x[1]["data"]["forms"].values()), 
-                                      reverse=True):
-                data = info["data"]
-                details = info["details"]
-                
-                # Get frequency rank (position in overall frequency list)
-                rank = lemma_ranks.get(lemma, "Unknown")
-                
-                f.write(f"### Lemma: `{lemma}` (Rank: #{rank})\n\n")
-                f.write(f"- **Total frequency**: {sum(data['forms'].values())}\n")
-                f.write(f"- **Log10 rate per billion**: {data['log10_rate_per_billion']}\n")
-                f.write(f"- **Current lemmatization**: `{test_lemmatization(nlp, lemma)}`\n\n")
-                
-                # Display forms with their lemmatization
-                f.write("**Forms and their lemmatization:**\n\n")
-                f.write("| Form | Frequency | Lemmatization |\n")
-                f.write("|------|----------:|---------------|\n")
-                
-                # For form_ratio, sort and display the most frequent forms first
-                if reason == "form_ratio":
-                    # Display highest frequency forms first
-                    for form, freq, ratio in info.get("highest_forms", []):
-                        f.write(f"| `{form}` | {freq} | `{test_lemmatization(nlp, form)}` |\n")
+                if not flagged_lemmas:
+                    continue
                     
-                    # Then display a few of the lowest frequency forms for comparison
-                    f.write("\n**Lowest frequency forms (for comparison):**\n\n")
+                f.write(f"## {label} ({len(flagged_lemmas)} items)\n\n")
+                
+                for lemma, info in sorted(flagged_lemmas.items(), 
+                                          key=lambda x: lemma_ranks.get(x[0], 0)):
+                    data = info["data"]
+                    details = info["details"]
+                    
+                    # Get frequency rank
+                    rank = lemma_ranks.get(lemma, "Unknown")
+                    
+                    f.write(f"### Lemma: `{lemma}` (Rank: #{rank})\n\n")
+                    f.write(f"- **Total frequency**: {sum(data['forms'].values())}\n")
+                    f.write(f"- **Log10 rate per billion**: {data['log10_rate_per_billion']}\n")
+                    f.write(f"- **Current lemmatization**: `{test_lemmatization(nlp, lemma)}`\n\n")
+                    
+                    # Display forms with their lemmatization
+                    f.write("**Forms and their lemmatization:**\n\n")
                     f.write("| Form | Frequency | Lemmatization |\n")
                     f.write("|------|----------:|---------------|\n")
                     
-                    for form, freq in info.get("lowest_forms", []):
-                        f.write(f"| `{form}` | {freq} | `{test_lemmatization(nlp, form)}` |\n")
-                else:
-                    # For other reasons, just display all forms in frequency order
-                    for form, freq in sorted(data["forms"].items(), key=lambda x: x[1], reverse=True):
-                        f.write(f"| `{form}` | {freq} | `{test_lemmatization(nlp, form)}` |\n")
-                
-                f.write("\n**Reason for flagging:**\n\n")
-                
-                if reason == "form_ratio":
-                    for detail in details:
-                        f.write(f"- Form `{detail['form']}` has frequency {detail['frequency']}, "
-                                f"which is {detail['ratio']:.1f}x the median frequency ({detail['median_frequency']}).\n")
-                
-                elif reason == "plural_lemma":
-                    for detail in details:
-                        f.write(f"- Lemma `{detail['lemma']}` appears to be a plural form. "
-                                f"Potential singular form: `{detail['potential_singular']}` "
-                                f"which lemmatizes to `{detail['singular_lemma']}` "
-                                f"(Frequency: {detail['singular_lemma_frequency']}).\n")
-                
-                elif reason == "inconsistent_lemma":
-                    for detail in details:
-                        f.write(f"- Lemma `{detail['lemma']}` is lemmatized as `{detail['spacy_lemma']}` by spaCy. "
-                                f"The alternative lemma has frequency {detail['spacy_lemma_frequency']}.\n")
+                    # For form_ratio, sort and display the most frequent forms first
+                    if reason == "form_ratio":
+                        # Display highest frequency forms first
+                        for form, freq, ratio in info.get("highest_forms", []):
+                            f.write(f"| `{form}` | {freq} | `{test_lemmatization(nlp, form)}` |\n")
                         
-                    # Display information about the spaCy lemma entry
-                    spacy_lemma = details[0]["spacy_lemma"]
-                    if "spacy_lemma_data" in info:
-                        spacy_data = info["spacy_lemma_data"]
-                        f.write(f"\n**Alternative lemma entry (`{spacy_lemma}`) information:**\n\n")
-                        f.write(f"- **Rank**: #{lemma_ranks.get(spacy_lemma, 'Unknown')}\n")
-                        f.write(f"- **Total frequency**: {sum(spacy_data['forms'].values())}\n")
-                        f.write(f"- **Forms**: {', '.join([f'`{form}`' for form in list(spacy_data['forms'].keys())[:10]])}"
-                               f"{' and more...' if len(spacy_data['forms']) > 10 else ''}\n")
-                
-                elif reason == "short_lemma":
-                    for detail in details:
-                        f.write(f"- Lemma is only {detail['length']} characters long. "
-                                f"Verify this is a valid word.\n")
+                        # Then display a few of the lowest frequency forms for comparison
+                        f.write("\n**Lowest frequency forms (for comparison):**\n\n")
+                        f.write("| Form | Frequency | Lemmatization |\n")
+                        f.write("|------|----------:|---------------|\n")
+                        
+                        for form, freq in info.get("lowest_forms", []):
+                            f.write(f"| `{form}` | {freq} | `{test_lemmatization(nlp, form)}` |\n")
+                    else:
+                        # For other reasons, just display all forms in frequency order
+                        for form, freq in sorted(data["forms"].items(), key=lambda x: x[1], reverse=True):
+                            f.write(f"| `{form}` | {freq} | `{test_lemmatization(nlp, form)}` |\n")
                     
-                    # Display lemmatization of all forms
-                    if "form_lemmatizations" in info:
-                        f.write("\n**Form lemmatizations:**\n\n")
-                        for form, lemmatization in info["form_lemmatizations"]:
-                            f.write(f"- `{lemmatization}`\n")
-                
-                elif reason == "non_lowercase":
-                    for detail in details:
-                        f.write(f"- Lemma `{detail['lemma']}` contains uppercase characters. "
-                                f"Lowercase form would be `{detail['lowercase']}`.\n")
-                
-                f.write("\n**Example lemmatization rules to fix (if needed):**\n\n")
-                f.write("```python\n")
-                
-                if reason == "plural_lemma" and details:
-                    singular_lemma = details[0]["singular_lemma"]
-                    f.write(f"{generate_lemmatization_rule(lemma, singular_lemma)}\n")
+                    f.write("\n**Reason for flagging:**\n\n")
                     
-                    # Add rules for all forms to map to the singular form
-                    for form in data["forms"]:
-                        if form != singular_lemma:
-                            f.write(f"{generate_lemmatization_rule(form, singular_lemma)}\n")
-                
-                elif reason == "inconsistent_lemma" and details:
-                    spacy_lemma = details[0]["spacy_lemma"]
-                    f.write(f"{generate_lemmatization_rule(lemma, spacy_lemma)}\n")
+                    if reason == "form_ratio":
+                        for detail in details:
+                            f.write(f"- Form `{detail['form']}` has frequency {detail['frequency']}, "
+                                    f"which is {detail['ratio']:.1f}x the median frequency ({detail['median_frequency']}).\n")
                     
-                    # Add rules for all forms
-                    for form in data["forms"]:
-                        f.write(f"{generate_lemmatization_rule(form, spacy_lemma)}\n")
-                
-                else:
-                    f.write(f"# To be determined based on review. Some possibilities:\n")
-                    f.write(f"{generate_lemmatization_rule(lemma, 'correct_lemma_here')}\n")
+                    elif reason == "plural_lemma":
+                        for detail in details:
+                            f.write(f"- Lemma `{detail['lemma']}` appears to be a plural form. "
+                                    f"Potential singular form: `{detail['potential_singular']}` "
+                                    f"which lemmatizes to `{detail['singular_lemma']}` "
+                                    f"(Frequency: {detail['singular_lemma_frequency']}).\n")
                     
-                    # For non-lowercase, suggest mapping to lowercase version
-                    if reason == "non_lowercase":
-                        f.write(f"# If this should be lowercase:\n")
-                        lowercase = lemma.lower()
-                        f.write(f"{generate_lemmatization_rule(lemma, lowercase)}\n")
-                
-                f.write("```\n\n")
-                f.write("---\n\n")
-        
-        # Generate prompts for LLM review
-        f.write("## LLM Review Prompts\n\n")
-        
-        # 1. Lemmatization mistakes prompt
-        f.write("### Prompt for Lemmatization Review\n\n")
-        f.write("```\n")
-        f.write("You are a linguistic expert. I'm working on creating a frequency list for language learners.\n\n")
-        f.write("Please review the following lemmas and their forms, which have been flagged for potential lemmatization issues:\n\n")
-        f.write("1. Identify any clear lemmatization mistakes\n")
-        f.write("2. Suggest the correct lemma for each entry\n")
-        f.write("3. Note any entries that appear to be from a different language\n")
-        f.write("4. Provide your confidence level for each assessment (high, medium, low)\n\n")
-        f.write("Your output should be a JSON array with entries following this format:\n")
-        f.write('{\n  "lemma": "original_lemma",\n  "correct_lemma": "suggested_correction",\n  "foreign_language": true/false,\n  "confidence": "high/medium/low",\n  "notes": "Brief explanation"\n}\n')
-        f.write("```\n\n")
-        
-        # 2. Proper nouns prompt
-        f.write("### Prompt for Proper Nouns Review\n\n")
-        f.write("```\n")
-        f.write("You are a linguistic expert. I'm working on creating a frequency list for language learners.\n\n")
-        f.write("Please review the following non-lowercase lemmas, which are likely proper nouns:\n\n")
-        f.write("1. Categorize each proper noun into one of these categories:\n")
-        f.write("   - ESSENTIAL: Proper nouns that language learners should know (countries, major cities, continents, etc.)\n")
-        f.write("   - USEFUL: Proper nouns that are somewhat useful (common organizations, famous landmarks, etc.)\n")
-        f.write("   - NONESSENTIAL: Proper nouns that language learners can safely ignore (personal names, brand names, etc.)\n")
-        f.write("   - NOT_PROPER_NOUN: Words that appear to be capitalized for other reasons (beginning of sentences, errors, etc.)\n\n")
-        f.write("2. Provide your confidence level for each assessment (high, medium, low)\n\n")
-        f.write("Your output should be a JSON array with entries following this format:\n")
-        f.write('{\n  "lemma": "ProperNoun",\n  "category": "ESSENTIAL/USEFUL/NONESSENTIAL/NOT_PROPER_NOUN",\n  "confidence": "high/medium/low",\n  "notes": "Brief explanation"\n}\n')
-        f.write("```\n\n")
-        
-    print(f"Markdown report generated: {output_file}")
-
-def prepare_llm_data(lemmas, max_lemmas=10000, output_file=None):
-    """
-    Prepare data for LLM review by selecting the top lemmas.
-    Returns JSON string and optionally writes to a file.
-    """
-    # Sort lemmas by frequency
-    sorted_lemmas = sorted(
-        lemmas.items(),
-        key=lambda x: sum(x[1]["forms"].values()),
-        reverse=True
-    )
+                    elif reason == "inconsistent_lemma":
+                        for detail in details:
+                            f.write(f"- Lemma `{detail['lemma']}` is lemmatized as `{detail['spacy_lemma']}` by spaCy. "
+                                    f"The alternative lemma has frequency {detail['spacy_lemma_frequency']}.\n")
+                            
+                        # Display information about the spaCy lemma entry
+                        spacy_lemma = details[0]["spacy_lemma"]
+                        if "spacy_lemma_data" in info:
+                            spacy_data = info["spacy_lemma_data"]
+                            f.write(f"\n**Alternative lemma entry (`{spacy_lemma}`) information:**\n\n")
+                            f.write(f"- **Rank**: #{lemma_ranks.get(spacy_lemma, 'Unknown')}\n")
+                            f.write(f"- **Total frequency**: {sum(spacy_data['forms'].values())}\n")
+                            f.write(f"- **Forms**: {', '.join([f'`{form}`' for form in list(spacy_data['forms'].keys())[:10]])}"
+                                  f"{' and more...' if len(spacy_data['forms']) > 10 else ''}\n")
+                    
+                    elif reason == "short_lemma":
+                        for detail in details:
+                            f.write(f"- Lemma is only {detail['length']} characters long. "
+                                    f"Verify this is a valid word.\n")
+                        
+                        # Display lemmatization of all forms
+                        if "form_lemmatizations" in info:
+                            f.write("\n**Form lemmatizations:**\n\n")
+                            for form, lemmatization in info["form_lemmatizations"]:
+                                f.write(f"- `{lemmatization}`\n")
+                    
+                    elif reason == "non_lowercase":
+                        for detail in details:
+                            f.write(f"- Lemma `{detail['lemma']}` contains uppercase characters. "
+                                    f"Lowercase form would be `{detail['lowercase']}`.\n")
+                    
+                    f.write("\n**Example lemmatization rules to fix (if needed):**\n\n")
+                    f.write("```python\n")
+                    
+                    if reason == "plural_lemma" and details:
+                        singular_lemma = details[0]["singular_lemma"]
+                        f.write(f"{generate_lemmatization_rule(lemma, singular_lemma)}\n")
+                        
+                        # Add rules for all forms to map to the singular form
+                        for form in data["forms"]:
+                            if form != singular_lemma:
+                                f.write(f"{generate_lemmatization_rule(form, singular_lemma)}\n")
+                    
+                    elif reason == "inconsistent_lemma" and details:
+                        spacy_lemma = details[0]["spacy_lemma"]
+                        f.write(f"{generate_lemmatization_rule(lemma, spacy_lemma)}\n")
+                        
+                        # Add rules for all forms
+                        for form in data["forms"]:
+                            f.write(f"{generate_lemmatization_rule(form, spacy_lemma)}\n")
+                    
+                    else:
+                        f.write(f"# To be determined based on review. Some possibilities:\n")
+                        f.write(f"{generate_lemmatization_rule(lemma, 'correct_lemma_here')}\n")
+                        
+                        # For non-lowercase, suggest mapping to lowercase version
+                        if reason == "non_lowercase":
+                            f.write(f"# If this should be lowercase:\n")
+                            lowercase = lemma.lower()
+                            f.write(f"{generate_lemmatization_rule(lemma, lowercase)}\n")
+                    
+                    f.write("```\n\n")
+                    f.write("---\n\n")
+            
+        print(f"Report generated: {output_file}")
     
-    # Take top N lemmas
-    top_lemmas = sorted_lemmas[:max_lemmas]
-    
-    # Create simpler format for LLM review
-    llm_data = []
-    for idx, (lemma, data) in enumerate(top_lemmas):
-        forms_data = {form: freq for form, freq in data["forms"].items()}
-        llm_data.append({
-            "rank": idx + 1,
-            "lemma": lemma,
-            "total_frequency": sum(data["forms"].values()),
-            "forms": forms_data
-        })
-    
-    # Convert to JSON string
-    json_data = json.dumps(llm_data, ensure_ascii=False, indent=2)
-    
-    # Write to file if output_file is provided
-    if output_file:
-        with open(output_file, 'w', encoding='utf-8') as f:
-            f.write(json_data)
-        print(f"LLM data file generated: {output_file}")
-    
-    return json_data
+    return
 
 def main():
     parser = argparse.ArgumentParser(description="Post-process the filtered output from frequer script")
@@ -422,10 +396,10 @@ def main():
     parser.add_argument("--output-dir", "-o", default=".", help="Directory to save output files")
     parser.add_argument("--form-ratio-threshold", type=float, default=1000.0, 
                         help="Threshold for flagging forms with frequency much higher than median")
-    parser.add_argument("--max-llm-lemmas", type=int, default=10000, 
-                        help="Maximum number of top lemmas to include in LLM data")
-    parser.add_argument("--max-review-lemmas", type=int, default=20000,
-                        help="Maximum number of top lemmas to include in manual review (default: 20000)")
+    parser.add_argument("--chunk-size", type=int, default=1000,
+                        help="Number of lemmas per rank chunk for separate review files (default: 1000)")
+    parser.add_argument("--max-review-lemmas", type=int, default=10000,
+                        help="Maximum number of top lemmas to include in manual review (default: 10000)")
     
     args = parser.parse_args()
     
@@ -446,6 +420,7 @@ def main():
     
     # Generate base filename for outputs
     input_base_name = Path(args.input_file).stem
+    output_base = output_dir / input_base_name
     
     # Create a dictionary mapping lemmas to their frequency rank
     print("Computing lemma frequency ranks...")
@@ -492,17 +467,16 @@ def main():
     print(f"Found {len(all_flagged)} total lemmas to flag for review.")
     print(f"After filtering to top {args.max_review_lemmas} lemmas: {len(all_flagged_filtered)} lemmas to review.")
     
-    # Generate markdown report with filtered lemmas
-    markdown_output = output_dir / f"{input_base_name}_review.md"
-    generate_markdown_report(flagged_by_category_filtered, nlp, markdown_output, lemma_ranks)
-    
-    # Prepare LLM data
-    llm_output = output_dir / f"{input_base_name}_llm_data.json"
-    prepare_llm_data(lemmas, args.max_llm_lemmas, llm_output)
+    # Generate chunked markdown reports
+    generate_chunked_markdown_reports(
+        flagged_by_category_filtered, 
+        nlp, 
+        output_base, 
+        lemma_ranks, 
+        args.chunk_size
+    )
     
     print("Post-processing complete!")
-    print(f"Markdown report: {markdown_output}")
-    print(f"LLM data file: {llm_output}")
     
     # Print summary statistics
     print("\nSummary of flagged items (after filtering to top lemmas):")
