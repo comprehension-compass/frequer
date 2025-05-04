@@ -16,14 +16,38 @@ Lemmas in this file are ranked between 5001 and 6000 by frequency.
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
 | `esposo` | 72066 | `esposo -> esposar` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `Esposo` | 4678 | `Esposo -> Esposo` |
+| `esposado` | 1089 | `esposado -> esposar` |
+| `esposaron` | 424 | `esposaron -> esposar` |
+| `esposados` | 420 | `esposados -> esposar` |
+| `esposadas` | 341 | `esposadas -> esposar` |
+| `esposada` | 324 | `esposada -> esposar` |
+| `ESPOSO` | 260 | `ESPOSO -> ESPOSO` |
+| `esposó` | 142 | `esposó -> esposar` |
+| `esposar` | 120 | `esposar -> esposar` |
+| `esposan` | 51 | `esposan -> esposar` |
+| `esposando` | 32 | `esposando -> esposar` |
+| `esposaban` | 28 | `esposaban -> esposar` |
+| `esposaba` | 19 | `esposaba -> esposar` |
+| `esposen` | 10 | `esposen -> esposar` |
+| `esposara` | 10 | `esposara -> esposar` |
+| `espose` | 10 | `espose -> esposar` |
+| `esposé` | 9 | `esposé -> esposar` |
+| `esposaran` | 9 | `esposaran -> esposar` |
+| `esposaría` | 6 | `esposaría -> esposar` |
+| `esposamos` | 4 | `esposamos -> esposar` |
+| `esposará` | 3 | `esposará -> esposar` |
+| `esposaré` | 2 | `esposaré -> esposar` |
+| `esposes` | 2 | `esposes -> esposar` |
 | `esposad` | 1 | `esposad -> esposar` |
 | `esposarás` | 1 | `esposarás -> esposar` |
 | `esposarían` | 1 | `esposarían -> esposar` |
+| `esposaríamos` | 1 | `esposaríamos -> esposar` |
+| `esposarán` | 1 | `esposarán -> esposar` |
+| `esposase` | 1 | `esposase -> esposar` |
+| `esposaremos` | 1 | `esposaremos -> esposar` |
+| `esposaste` | 1 | `esposaste -> esposar` |
+| `esposarías` | 1 | `esposarías -> esposar` |
 
 **Reason for flagging:**
 
@@ -32,8 +56,6 @@ Lemmas in this file are ranked between 5001 and 6000 by frequency.
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["esposar"] = ["correct_lemma_here"]
 ```
 
 ---
@@ -50,14 +72,18 @@ lemma_lookup["esposar"] = ["correct_lemma_here"]
 |------|----------:|---------------|
 | `quinto` | 56671 | `quinto -> quintar` |
 | `Quinto` | 19808 | `Quinto -> Quinto` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `QUINTO` | 1246 | `QUINTO -> QUINTO` |
+| `quinte` | 48 | `quinte -> quintar` |
+| `quintes` | 6 | `quintes -> quintar` |
+| `quintados` | 4 | `quintados -> quintar` |
+| `quintando` | 4 | `quintando -> quintar` |
+| `quintó` | 2 | `quintó -> quintar` |
+| `quinté` | 2 | `quinté -> quintar` |
+| `quintadas` | 2 | `quintadas -> quintar` |
 | `quintada` | 1 | `quintada -> quintar` |
 | `quintamos` | 1 | `quintamos -> quintar` |
 | `quinten` | 1 | `quinten -> quintar` |
+| `quintaba` | 1 | `quintaba -> quintar` |
 
 **Reason for flagging:**
 
@@ -67,8 +93,7 @@ lemma_lookup["esposar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["quintar"] = ["correct_lemma_here"]
+lemma_lookup["Quinto"] = ["quinto"]
 ```
 
 ---
@@ -84,14 +109,38 @@ lemma_lookup["quintar"] = ["correct_lemma_here"]
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
 | `lucro` | 72332 | `lucro -> lucrar` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `Lucro` | 2620 | `Lucro -> Lucro` |
+| `LUCRO` | 866 | `LUCRO -> LUCRO` |
+| `lucrar` | 588 | `lucrar -> lucrar` |
+| `Lucre` | 352 | `Lucre -> Lucre` |
+| `lucran` | 313 | `lucran -> lucrar` |
+| `lucra` | 124 | `lucra -> lucrar` |
+| `lucre` | 102 | `lucre -> lucrar` |
+| `lucrando` | 95 | `lucrando -> lucrar` |
+| `lucrado` | 47 | `lucrado -> lucrar` |
+| `lucren` | 45 | `lucren -> lucrar` |
+| `lucraron` | 41 | `lucraron -> lucrar` |
+| `lucraban` | 28 | `lucraban -> lucrar` |
+| `lucró` | 21 | `lucró -> lucrar` |
+| `lucrarán` | 17 | `lucrarán -> lucrar` |
+| `lucramos` | 15 | `lucramos -> lucrar` |
+| `lucraba` | 8 | `lucraba -> lucrar` |
+| `lucres` | 5 | `lucres -> lucrar` |
+| `lucrara` | 5 | `lucrara -> lucrar` |
+| `lucraremos` | 3 | `lucraremos -> lucrar` |
+| `lucréis` | 2 | `lucréis -> lucrar` |
+| `lucrará` | 2 | `lucrará -> lucrar` |
+| `lucremos` | 2 | `lucremos -> lucrar` |
+| `lucradas` | 2 | `lucradas -> lucrar` |
+| `lucrase` | 2 | `lucrase -> lucrar` |
+| `lucrarían` | 2 | `lucrarían -> lucrar` |
 | `lucraras` | 1 | `lucraras -> lucrar` |
 | `lucrados` | 1 | `lucrados -> lucrar` |
 | `lucraste` | 1 | `lucraste -> lucrar` |
+| `lucras` | 1 | `lucras -> lucrar` |
+| `lucrada` | 1 | `lucrada -> lucrar` |
+| `lucrasen` | 1 | `lucrasen -> lucrar` |
+| `lucraran` | 1 | `lucraran -> lucrar` |
 
 **Reason for flagging:**
 
@@ -100,8 +149,6 @@ lemma_lookup["quintar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["lucrar"] = ["correct_lemma_here"]
 ```
 
 ---
@@ -118,14 +165,28 @@ lemma_lookup["lucrar"] = ["correct_lemma_here"]
 |------|----------:|---------------|
 | `peticiones` | 61022 | `peticiones -> peticionar` |
 | `Peticiones` | 14568 | `Peticiones -> Peticiones` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
-| `peticionaremos` | 1 | `peticionaremos -> peticionar` |
-| `peticionaría` | 2 | `peticionaría -> peticionar` |
+| `PETICIONES` | 314 | `PETICIONES -> PETICIONES` |
+| `peticionar` | 270 | `peticionar -> peticionar` |
+| `peticionada` | 58 | `peticionada -> peticionar` |
+| `peticionó` | 33 | `peticionó -> peticionar` |
+| `peticionado` | 32 | `peticionado -> peticionar` |
+| `peticiona` | 32 | `peticiona -> peticionar` |
+| `peticionando` | 31 | `peticionando -> peticionar` |
+| `peticionan` | 14 | `peticionan -> peticionar` |
+| `peticionaron` | 14 | `peticionaron -> peticionar` |
+| `peticione` | 12 | `peticione -> peticionar` |
+| `peticionados` | 9 | `peticionados -> peticionar` |
+| `peticionara` | 6 | `peticionara -> peticionar` |
+| `peticionadas` | 5 | `peticionadas -> peticionar` |
+| `peticiono` | 5 | `peticiono -> peticionar` |
+| `peticionamos` | 4 | `peticionamos -> peticionar` |
+| `peticionará` | 4 | `peticionará -> peticionar` |
 | `peticionen` | 3 | `peticionen -> peticionar` |
+| `peticionaban` | 3 | `peticionaban -> peticionar` |
+| `peticionaba` | 3 | `peticionaba -> peticionar` |
+| `peticionas` | 3 | `peticionas -> peticionar` |
+| `peticionaría` | 2 | `peticionaría -> peticionar` |
+| `peticionaremos` | 1 | `peticionaremos -> peticionar` |
 
 **Reason for flagging:**
 
@@ -135,8 +196,7 @@ lemma_lookup["lucrar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["peticionar"] = ["correct_lemma_here"]
+lemma_lookup["Peticiones"] = ["peticiones"]
 ```
 
 ---
@@ -152,14 +212,36 @@ lemma_lookup["peticionar"] = ["correct_lemma_here"]
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
 | `huelga` | 57212 | `huelga -> holgar` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `Huelga` | 8722 | `Huelga -> Huelga` |
+| `holgado` | 3774 | `holgado -> holgar` |
+| `holgada` | 2560 | `holgada -> holgar` |
+| `holgados` | 1015 | `holgados -> holgar` |
+| `holgadas` | 867 | `holgadas -> holgar` |
+| `Holgado` | 726 | `Holgado -> Holgado` |
+| `HUELGA` | 540 | `HUELGA -> HUELGA` |
+| `huelgo` | 157 | `huelgo -> holgar` |
+| `holgará` | 126 | `holgará -> holgar` |
+| `holgaron` | 107 | `holgaron -> holgar` |
+| `huelgan` | 88 | `huelgan -> holgar` |
+| `holgó` | 47 | `holgó -> holgar` |
+| `holgar` | 42 | `holgar -> holgar` |
+| `huelgue` | 36 | `huelgue -> holgar` |
+| `holgaste` | 27 | `holgaste -> holgar` |
+| `holgaréis` | 26 | `holgaréis -> holgar` |
+| `holgaré` | 24 | `holgaré -> holgar` |
+| `holgarás` | 23 | `holgarás -> holgar` |
+| `holgaba` | 21 | `holgaba -> holgar` |
+| `huelgues` | 20 | `huelgues -> holgar` |
+| `holgara` | 11 | `holgara -> holgar` |
+| `huelguen` | 8 | `huelguen -> holgar` |
+| `holgaban` | 7 | `holgaban -> holgar` |
+| `holgando` | 6 | `holgando -> holgar` |
+| `holgase` | 2 | `holgase -> holgar` |
 | `holgarían` | 1 | `holgarían -> holgar` |
 | `holgares` | 1 | `holgares -> holgar` |
 | `holgarías` | 1 | `holgarías -> holgar` |
+| `holgasen` | 1 | `holgasen -> holgar` |
+| `holgué` | 1 | `holgué -> holgar` |
 
 **Reason for flagging:**
 
@@ -168,8 +250,6 @@ lemma_lookup["peticionar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["holgar"] = ["correct_lemma_here"]
 ```
 
 ---
@@ -185,14 +265,33 @@ lemma_lookup["holgar"] = ["correct_lemma_here"]
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
 | `soleado` | 35639 | `soleado -> solear` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `soleada` | 16866 | `soleada -> solear` |
+| `soleados` | 8933 | `soleados -> solear` |
+| `Soleado` | 5780 | `Soleado -> Soleado` |
+| `soleadas` | 5638 | `soleadas -> solear` |
+| `Soleada` | 1424 | `Soleada -> Soleada` |
+| `Solea` | 396 | `Solea -> Solea` |
+| `SOLEADO` | 390 | `SOLEADO -> SOLEADO` |
+| `SOLEADA` | 172 | `SOLEADA -> SOLEADA` |
+| `Soleares` | 158 | `Soleares -> Soleares` |
+| `Soleadas` | 134 | `Soleadas -> Soleadas` |
+| `soleares` | 130 | `soleares -> solear` |
+| `solea` | 112 | `solea -> solear` |
+| `soleo` | 32 | `soleo -> solear` |
+| `solead` | 23 | `solead -> solear` |
+| `solear` | 21 | `solear -> solear` |
+| `soleando` | 5 | `soleando -> solear` |
+| `soleas` | 4 | `soleas -> solear` |
+| `solean` | 4 | `solean -> solear` |
+| `soleó` | 2 | `soleó -> solear` |
+| `solee` | 2 | `solee -> solear` |
+| `soleaba` | 2 | `soleaba -> solear` |
+| `soleara` | 2 | `soleara -> solear` |
 | `soleamos` | 1 | `soleamos -> solear` |
 | `soleará` | 1 | `soleará -> solear` |
 | `soleemos` | 1 | `soleemos -> solear` |
+| `soleen` | 1 | `soleen -> solear` |
+| `soleare` | 1 | `soleare -> solear` |
 
 **Reason for flagging:**
 
@@ -201,8 +300,6 @@ lemma_lookup["holgar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["solear"] = ["correct_lemma_here"]
 ```
 
 ---
@@ -219,14 +316,19 @@ lemma_lookup["solear"] = ["correct_lemma_here"]
 |------|----------:|---------------|
 | `salario` | 64496 | `salario -> salariar` |
 | `Salario` | 9636 | `Salario -> Salario` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `SALARIO` | 308 | `SALARIO -> SALARIO` |
+| `salariado` | 138 | `salariado -> salariar` |
+| `salaries` | 79 | `salaries -> salariar` |
+| `salariados` | 18 | `salariados -> salariar` |
+| `salaria` | 9 | `salaria -> salariar` |
+| `salarias` | 5 | `salarias -> salariar` |
+| `salarió` | 4 | `salarió -> salariar` |
+| `salariares` | 3 | `salariares -> salariar` |
+| `salarié` | 2 | `salarié -> salariar` |
+| `salariadas` | 2 | `salariadas -> salariar` |
+| `salariada` | 2 | `salariada -> salariar` |
 | `salariar` | 1 | `salariar -> salariar` |
 | `salarian` | 1 | `salarian -> salariar` |
-| `salarié` | 2 | `salarié -> salariar` |
 
 **Reason for flagging:**
 
@@ -236,8 +338,7 @@ lemma_lookup["solear"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["salariar"] = ["correct_lemma_here"]
+lemma_lookup["Salario"] = ["salario"]
 ```
 
 ---
@@ -253,14 +354,50 @@ lemma_lookup["salariar"] = ["correct_lemma_here"]
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
 | `estrecho` | 40490 | `estrecho -> estrechar` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `Estrecho` | 19722 | `Estrecho -> Estrecho` |
+| `estrechar` | 5344 | `estrechar -> estrechar` |
+| `estrechan` | 1521 | `estrechan -> estrechar` |
+| `estrechando` | 1289 | `estrechando -> estrechar` |
+| `estrechó` | 1133 | `estrechó -> estrechar` |
+| `estrechado` | 857 | `estrechado -> estrechar` |
+| `estrechen` | 534 | `estrechen -> estrechar` |
+| `Estrechar` | 510 | `Estrechar -> Estrechar` |
+| `estrecharon` | 416 | `estrecharon -> estrechar` |
+| `estrechada` | 384 | `estrechada -> estrechar` |
+| `ESTRECHO` | 352 | `ESTRECHO -> ESTRECHO` |
+| `estreche` | 301 | `estreche -> estrechar` |
+| `estrechadas` | 268 | `estrechadas -> estrechar` |
+| `estrechaba` | 245 | `estrechaba -> estrechar` |
+| `estrecharán` | 222 | `estrecharán -> estrechar` |
+| `Estrechando` | 154 | `Estrechando -> Estrechando` |
+| `estrechamos` | 145 | `estrechamos -> estrechar` |
+| `estrechará` | 137 | `estrechará -> estrechar` |
+| `estreché` | 122 | `estreché -> estrechar` |
+| `estrechados` | 114 | `estrechados -> estrechar` |
+| `estrechaban` | 109 | `estrechaban -> estrechar` |
+| `estrechara` | 37 | `estrechara -> estrechar` |
+| `estrecharía` | 25 | `estrecharía -> estrechar` |
+| `estrecharan` | 24 | `estrecharan -> estrechar` |
+| `estreches` | 24 | `estreches -> estrechar` |
+| `estrecharé` | 23 | `estrecharé -> estrechar` |
+| `estrechemos` | 19 | `estrechemos -> estrechar` |
+| `estrecharemos` | 19 | `estrecharemos -> estrechar` |
+| `estrechaste` | 12 | `estrechaste -> estrechar` |
+| `estrecharás` | 8 | `estrecharás -> estrechar` |
+| `estrecharían` | 7 | `estrecharían -> estrechar` |
+| `estrecháis` | 5 | `estrecháis -> estrechar` |
+| `estrechasen` | 5 | `estrechasen -> estrechar` |
+| `estrechad` | 5 | `estrechad -> estrechar` |
+| `estrechase` | 4 | `estrechase -> estrechar` |
+| `estrechábamos` | 3 | `estrechábamos -> estrechar` |
+| `estrechabas` | 3 | `estrechabas -> estrechar` |
+| `estrechare` | 3 | `estrechare -> estrechar` |
+| `estrecháramos` | 2 | `estrecháramos -> estrechar` |
 | `estrechareis` | 1 | `estrechareis -> estrechar` |
 | `estrecharías` | 1 | `estrecharías -> estrechar` |
 | `estrecharas` | 1 | `estrecharas -> estrechar` |
+| `estrechéis` | 1 | `estrechéis -> estrechar` |
+| `estrechases` | 1 | `estrechases -> estrechar` |
 
 **Reason for flagging:**
 
@@ -269,8 +406,6 @@ lemma_lookup["salariar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["estrechar"] = ["correct_lemma_here"]
 ```
 
 ---
@@ -286,14 +421,46 @@ lemma_lookup["estrechar"] = ["correct_lemma_here"]
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
 | `huella` | 58800 | `huella -> hollar` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
-| `hollarías` | 1 | `hollarías -> hollar` |
+| `Huella` | 11080 | `Huella -> Huella` |
+| `hollada` | 660 | `hollada -> hollar` |
+| `hollado` | 616 | `hollado -> hollar` |
+| `HUELLA` | 520 | `HUELLA -> HUELLA` |
+| `hollar` | 442 | `hollar -> hollar` |
+| `hollaba` | 279 | `hollaba -> hollar` |
+| `hollará` | 211 | `hollará -> hollar` |
+| `hollados` | 185 | `hollados -> hollar` |
+| `hollaron` | 183 | `hollaron -> hollar` |
+| `hollarán` | 160 | `hollarán -> hollar` |
+| `holló` | 136 | `holló -> hollar` |
+| `Hollarás` | 128 | `Hollarás -> Hollarás` |
+| `hollarás` | 118 | `hollarás -> hollar` |
+| `hollare` | 100 | `hollare -> hollar` |
+| `hollé` | 96 | `hollé -> hollar` |
+| `hollaréis` | 89 | `hollaréis -> hollar` |
+| `hollaré` | 89 | `hollaré -> hollar` |
+| `huellan` | 63 | `huellan -> hollar` |
+| `holláis` | 60 | `holláis -> hollar` |
+| `holléis` | 56 | `holléis -> hollar` |
+| `hollaban` | 46 | `hollaban -> hollar` |
+| `hollareis` | 38 | `hollareis -> hollar` |
+| `huellen` | 31 | `huellen -> hollar` |
+| `hollaremos` | 25 | `hollaremos -> hollar` |
+| `hollabas` | 21 | `hollabas -> hollar` |
+| `holladas` | 18 | `holladas -> hollar` |
+| `huelle` | 16 | `huelle -> hollar` |
+| `hollaste` | 16 | `hollaste -> hollar` |
+| `hollando` | 7 | `hollando -> hollar` |
+| `huello` | 7 | `huello -> hollar` |
+| `hollasen` | 6 | `hollasen -> hollar` |
+| `hollamos` | 6 | `hollamos -> hollar` |
+| `huelles` | 5 | `huelles -> hollar` |
+| `hollaría` | 4 | `hollaría -> hollar` |
+| `hollara` | 4 | `hollara -> hollar` |
+| `hollemos` | 3 | `hollemos -> hollar` |
+| `hollad` | 3 | `hollad -> hollar` |
 | `holláramos` | 2 | `holláramos -> hollar` |
 | `hollaran` | 2 | `hollaran -> hollar` |
+| `hollarías` | 1 | `hollarías -> hollar` |
 
 **Reason for flagging:**
 
@@ -302,8 +469,6 @@ lemma_lookup["estrechar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["hollar"] = ["correct_lemma_here"]
 ```
 
 ---
@@ -320,14 +485,31 @@ lemma_lookup["hollar"] = ["correct_lemma_here"]
 |------|----------:|---------------|
 | `ajo` | 56344 | `ajo -> ajar` |
 | `Ajo` | 13492 | `Ajo -> Ajo` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `Aja` | 2076 | `Aja -> Aja` |
+| `AJA` | 1104 | `AJA -> AJA` |
+| `AJO` | 382 | `AJO -> AJO` |
+| `ajado` | 149 | `ajado -> ajar` |
+| `ajada` | 96 | `ajada -> ajar` |
+| `aja` | 65 | `aja -> ajar` |
+| `ajadas` | 63 | `ajadas -> ajar` |
+| `ajados` | 49 | `ajados -> ajar` |
+| `aje` | 29 | `aje -> ajar` |
+| `ajar` | 17 | `ajar -> ajar` |
+| `ajará` | 9 | `ajará -> ajar` |
+| `ajando` | 9 | `ajando -> ajar` |
+| `ajen` | 6 | `ajen -> ajar` |
+| `ajó` | 6 | `ajó -> ajar` |
+| `ajas` | 5 | `ajas -> ajar` |
+| `ajad` | 3 | `ajad -> ajar` |
+| `ajaban` | 2 | `ajaban -> ajar` |
+| `ajan` | 2 | `ajan -> ajar` |
+| `ajaba` | 2 | `ajaba -> ajar` |
 | `ajemos` | 1 | `ajemos -> ajar` |
 | `ajaría` | 1 | `ajaría -> ajar` |
 | `ajasen` | 1 | `ajasen -> ajar` |
+| `ajamos` | 1 | `ajamos -> ajar` |
+| `ajé` | 1 | `ajé -> ajar` |
+| `ajara` | 1 | `ajara -> ajar` |
 
 **Reason for flagging:**
 
@@ -337,8 +519,7 @@ lemma_lookup["hollar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["ajar"] = ["correct_lemma_here"]
+lemma_lookup["Ajo"] = ["ajo"]
 ```
 
 ---
@@ -353,16 +534,23 @@ lemma_lookup["ajar"] = ["correct_lemma_here"]
 
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
-| `estuche` | 31816 | `estuche -> estuchar` |
 | `Estuche` | 40326 | `Estuche -> Estuche` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `estuche` | 31816 | `estuche -> estuchar` |
+| `ESTUCHE` | 1118 | `ESTUCHE -> ESTUCHE` |
+| `Estuchado` | 464 | `Estuchado -> Estuchado` |
+| `estuchado` | 99 | `estuchado -> estuchar` |
+| `estuchados` | 18 | `estuchados -> estuchar` |
+| `estuchada` | 14 | `estuchada -> estuchar` |
+| `estucho` | 7 | `estucho -> estuchar` |
+| `estuchadas` | 7 | `estuchadas -> estuchar` |
+| `estuchar` | 6 | `estuchar -> estuchar` |
+| `estuchaste` | 3 | `estuchaste -> estuchar` |
+| `estuchando` | 2 | `estuchando -> estuchar` |
 | `estuchan` | 1 | `estuchan -> estuchar` |
 | `estuchen` | 1 | `estuchen -> estuchar` |
 | `estuchas` | 1 | `estuchas -> estuchar` |
+| `estuchamos` | 1 | `estuchamos -> estuchar` |
+| `estucha` | 1 | `estucha -> estuchar` |
 
 **Reason for flagging:**
 
@@ -372,8 +560,7 @@ lemma_lookup["ajar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["estuchar"] = ["correct_lemma_here"]
+lemma_lookup["estuche"] = ["Estuche"]
 ```
 
 ---
@@ -389,14 +576,40 @@ lemma_lookup["estuchar"] = ["correct_lemma_here"]
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
 | `lazo` | 38497 | `lazo -> lazar` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `Lazo` | 13528 | `Lazo -> Lazo` |
+| `Lace` | 12378 | `Lace -> Lace` |
+| `lazada` | 2154 | `lazada -> lazar` |
+| `Lazar` | 1866 | `Lazar -> Lazar` |
+| `lazadas` | 984 | `lazadas -> lazar` |
+| `Laza` | 690 | `Laza -> Laza` |
+| `LACE` | 656 | `LACE -> LACE` |
+| `Laces` | 650 | `Laces -> Laces` |
+| `LAZO` | 620 | `LAZO -> LAZO` |
+| `lace` | 609 | `lace -> lazar` |
+| `Lazada` | 382 | `Lazada -> Lazada` |
+| `lazado` | 191 | `lazado -> lazar` |
+| `lazar` | 77 | `lazar -> lazar` |
+| `laces` | 62 | `laces -> lazar` |
+| `laza` | 50 | `laza -> lazar` |
+| `lazó` | 47 | `lazó -> lazar` |
+| `lazando` | 24 | `lazando -> lazar` |
+| `lazas` | 18 | `lazas -> lazar` |
+| `lazados` | 17 | `lazados -> lazar` |
+| `lazare` | 16 | `lazare -> lazar` |
+| `lazaron` | 12 | `lazaron -> lazar` |
+| `lazan` | 6 | `lazan -> lazar` |
+| `lazaban` | 5 | `lazaban -> lazar` |
+| `lazaba` | 3 | `lazaba -> lazar` |
+| `lazamos` | 3 | `lazamos -> lazar` |
+| `lazara` | 2 | `lazara -> lazar` |
+| `lazaría` | 2 | `lazaría -> lazar` |
 | `lacemos` | 1 | `lacemos -> lazar` |
 | `lazad` | 1 | `lazad -> lazar` |
 | `lazará` | 1 | `lazará -> lazar` |
+| `lazarás` | 1 | `lazarás -> lazar` |
+| `lacé` | 1 | `lacé -> lazar` |
+| `lazáis` | 1 | `lazáis -> lazar` |
+| `lacen` | 1 | `lacen -> lazar` |
 
 **Reason for flagging:**
 
@@ -405,8 +618,6 @@ lemma_lookup["estuchar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["lazar"] = ["correct_lemma_here"]
 ```
 
 ---
@@ -421,18 +632,20 @@ lemma_lookup["lazar"] = ["correct_lemma_here"]
 
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
-| `aduanas` | 17884 | `aduanas -> aduanar` |
-| `aduana` | 18833 | `aduana -> aduanar` |
 | `Aduanas` | 25774 | `Aduanas -> Aduanas` |
+| `aduana` | 18833 | `aduana -> aduanar` |
+| `aduanas` | 17884 | `aduanas -> aduanar` |
 | `Aduana` | 10036 | `Aduana -> Aduana` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `ADUANAS` | 428 | `ADUANAS -> ADUANAS` |
+| `ADUANA` | 256 | `ADUANA -> ADUANA` |
+| `aduanan` | 4 | `aduanan -> aduanar` |
+| `aduanara` | 2 | `aduanara -> aduanar` |
+| `aduane` | 2 | `aduane -> aduanar` |
 | `aduano` | 1 | `aduano -> aduanar` |
 | `aduanes` | 1 | `aduanes -> aduanar` |
 | `aduanados` | 1 | `aduanados -> aduanar` |
+| `aduanares` | 1 | `aduanares -> aduanar` |
+| `aduanado` | 1 | `aduanado -> aduanar` |
 
 **Reason for flagging:**
 
@@ -444,8 +657,9 @@ lemma_lookup["lazar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["aduanar"] = ["correct_lemma_here"]
+lemma_lookup["aduanas"] = ["Aduanas"]
+lemma_lookup["aduana"] = ["Aduanas"]
+lemma_lookup["Aduana"] = ["Aduanas"]
 ```
 
 ---
@@ -461,14 +675,52 @@ lemma_lookup["aduanar"] = ["correct_lemma_here"]
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
 | `bote` | 50874 | `bote -> botar` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `Bote` | 13582 | `Bote -> Bote` |
+| `botar` | 2197 | `botar -> botar` |
+| `botado` | 1042 | `botado -> botar` |
+| `BOTE` | 586 | `BOTE -> BOTE` |
+| `Boto` | 524 | `Boto -> Boto` |
+| `botó` | 465 | `botó -> botar` |
+| `botando` | 365 | `botando -> botar` |
+| `Botar` | 324 | `Botar -> Botar` |
+| `Botan` | 276 | `Botan -> Botan` |
+| `botan` | 265 | `botan -> botar` |
+| `boto` | 201 | `boto -> botar` |
+| `Botado` | 176 | `Botado -> Botado` |
+| `botados` | 153 | `botados -> botar` |
+| `botaron` | 142 | `botaron -> botar` |
+| `botada` | 141 | `botada -> botar` |
+| `BOTO` | 106 | `BOTO -> BOTO` |
+| `boten` | 96 | `boten -> botar` |
+| `botamos` | 59 | `botamos -> botar` |
+| `boté` | 56 | `boté -> botar` |
+| `botaba` | 50 | `botaba -> botar` |
+| `botará` | 42 | `botará -> botar` |
+| `botadas` | 38 | `botadas -> botar` |
+| `botaban` | 33 | `botaban -> botar` |
+| `botara` | 20 | `botara -> botar` |
+| `botaran` | 17 | `botaran -> botar` |
+| `botaría` | 14 | `botaría -> botar` |
+| `botarán` | 13 | `botarán -> botar` |
+| `botábamos` | 12 | `botábamos -> botar` |
+| `botemos` | 11 | `botemos -> botar` |
+| `botarás` | 10 | `botarás -> botar` |
+| `botaste` | 8 | `botaste -> botar` |
+| `botaré` | 8 | `botaré -> botar` |
+| `botarían` | 5 | `botarían -> botar` |
+| `botaremos` | 4 | `botaremos -> botar` |
+| `botéis` | 4 | `botéis -> botar` |
+| `botaras` | 3 | `botaras -> botar` |
+| `botarías` | 3 | `botarías -> botar` |
+| `botáis` | 3 | `botáis -> botar` |
+| `botáramos` | 2 | `botáramos -> botar` |
+| `botase` | 2 | `botase -> botar` |
+| `botarais` | 2 | `botarais -> botar` |
+| `botabas` | 2 | `botabas -> botar` |
 | `botad` | 1 | `botad -> botar` |
 | `botasen` | 1 | `botasen -> botar` |
 | `botaréis` | 1 | `botaréis -> botar` |
+| `botaríamos` | 1 | `botaríamos -> botar` |
 
 **Reason for flagging:**
 
@@ -477,8 +729,6 @@ lemma_lookup["aduanar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["botar"] = ["correct_lemma_here"]
 ```
 
 ---
@@ -494,11 +744,42 @@ lemma_lookup["botar"] = ["correct_lemma_here"]
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
 | `saldo` | 54996 | `saldo -> saldar` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `Saldo` | 10370 | `Saldo -> Saldo` |
+| `saldar` | 2554 | `saldar -> saldar` |
+| `saldó` | 747 | `saldó -> saldar` |
+| `saldado` | 594 | `saldado -> saldar` |
+| `SALDO` | 454 | `SALDO -> SALDO` |
+| `salda` | 356 | `salda -> saldar` |
+| `saldada` | 251 | `saldada -> saldar` |
+| `Salda` | 248 | `Salda -> Salda` |
+| `saldaron` | 208 | `saldaron -> saldar` |
+| `saldadas` | 139 | `saldadas -> saldar` |
+| `saldados` | 116 | `saldados -> saldar` |
+| `salde` | 95 | `salde -> saldar` |
+| `saldando` | 83 | `saldando -> saldar` |
+| `saldan` | 83 | `saldan -> saldar` |
+| `saldará` | 79 | `saldará -> saldar` |
+| `saldarán` | 47 | `saldarán -> saldar` |
+| `saldas` | 37 | `saldas -> saldar` |
+| `salden` | 29 | `salden -> saldar` |
+| `saldarías` | 28 | `saldarías -> saldar` |
+| `saldaría` | 23 | `saldaría -> saldar` |
+| `saldes` | 19 | `saldes -> saldar` |
+| `saldara` | 19 | `saldara -> saldar` |
+| `saldaban` | 16 | `saldaban -> saldar` |
+| `saldaba` | 16 | `saldaba -> saldar` |
+| `saldemos` | 14 | `saldemos -> saldar` |
+| `saldé` | 13 | `saldé -> saldar` |
+| `saldamos` | 12 | `saldamos -> saldar` |
+| `saldarían` | 8 | `saldarían -> saldar` |
+| `saldaran` | 8 | `saldaran -> saldar` |
+| `saldaré` | 7 | `saldaré -> saldar` |
+| `saldaste` | 6 | `saldaste -> saldar` |
+| `saldad` | 4 | `saldad -> saldar` |
+| `saldaremos` | 4 | `saldaremos -> saldar` |
+| `saldarás` | 3 | `saldarás -> saldar` |
+| `saldase` | 3 | `saldase -> saldar` |
+| `saldasen` | 3 | `saldasen -> saldar` |
 | `saldáramos` | 1 | `saldáramos -> saldar` |
 | `saldábamos` | 1 | `saldábamos -> saldar` |
 | `saldéis` | 1 | `saldéis -> saldar` |
@@ -510,8 +791,6 @@ lemma_lookup["botar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["saldar"] = ["correct_lemma_here"]
 ```
 
 ---
@@ -527,14 +806,34 @@ lemma_lookup["saldar"] = ["correct_lemma_here"]
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
 | `pautas` | 44533 | `pautas -> pautar` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `Pautas` | 13130 | `Pautas -> Pautas` |
+| `pauta` | 9246 | `pauta -> pautar` |
+| `Pauta` | 1124 | `Pauta -> Pauta` |
+| `pautado` | 833 | `pautado -> pautar` |
+| `pautada` | 574 | `pautada -> pautar` |
+| `PAUTAS` | 472 | `PAUTAS -> PAUTAS` |
+| `pautadas` | 337 | `pautadas -> pautar` |
+| `pautados` | 258 | `pautados -> pautar` |
+| `pautar` | 231 | `pautar -> pautar` |
+| `PAUTA` | 164 | `PAUTA -> PAUTA` |
+| `pautan` | 104 | `pautan -> pautar` |
+| `pautó` | 42 | `pautó -> pautar` |
+| `pautando` | 38 | `pautando -> pautar` |
+| `pautaron` | 33 | `pautaron -> pautar` |
+| `pautará` | 19 | `pautará -> pautar` |
+| `paute` | 19 | `paute -> pautar` |
+| `pauten` | 13 | `pauten -> pautar` |
+| `pautaban` | 10 | `pautaban -> pautar` |
+| `pautamos` | 8 | `pautamos -> pautar` |
+| `pautarán` | 6 | `pautarán -> pautar` |
+| `pautaremos` | 6 | `pautaremos -> pautar` |
+| `pautaba` | 5 | `pautaba -> pautar` |
+| `pautes` | 5 | `pautes -> pautar` |
+| `pauto` | 2 | `pauto -> pautar` |
 | `pautara` | 1 | `pautara -> pautar` |
 | `pautaría` | 1 | `pautaría -> pautar` |
 | `pautemos` | 1 | `pautemos -> pautar` |
+| `pautasen` | 1 | `pautasen -> pautar` |
 
 **Reason for flagging:**
 
@@ -543,8 +842,6 @@ lemma_lookup["saldar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["pautar"] = ["correct_lemma_here"]
 ```
 
 ---
@@ -560,17 +857,34 @@ lemma_lookup["pautar"] = ["correct_lemma_here"]
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
 | `pinzas` | 22227 | `pinzas -> pinzar` |
-| `pinza` | 16510 | `pinza -> pinzar` |
 | `Pinzas` | 16984 | `Pinzas -> Pinzas` |
+| `pinza` | 16510 | `pinza -> pinzar` |
 | `Pinza` | 13308 | `Pinza -> Pinza` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `PINZA` | 600 | `PINZA -> PINZA` |
+| `PINZAS` | 396 | `PINZAS -> PINZAS` |
+| `pinzado` | 311 | `pinzado -> pinzar` |
+| `pinzar` | 144 | `pinzar -> pinzar` |
+| `pinzados` | 90 | `pinzados -> pinzar` |
+| `pinzando` | 32 | `pinzando -> pinzar` |
+| `pince` | 28 | `pince -> pinzar` |
+| `pinzadas` | 25 | `pinzadas -> pinzar` |
+| `pinzada` | 15 | `pinzada -> pinzar` |
+| `pinzan` | 14 | `pinzan -> pinzar` |
+| `pinzó` | 8 | `pinzó -> pinzar` |
+| `pinces` | 7 | `pinces -> pinzar` |
+| `pinzareis` | 5 | `pinzareis -> pinzar` |
+| `pinzamos` | 4 | `pinzamos -> pinzar` |
+| `pinzo` | 4 | `pinzo -> pinzar` |
+| `pincen` | 4 | `pincen -> pinzar` |
+| `pinzará` | 4 | `pinzará -> pinzar` |
+| `pincéis` | 2 | `pincéis -> pinzar` |
+| `pinzaba` | 2 | `pinzaba -> pinzar` |
+| `pinzaremos` | 2 | `pinzaremos -> pinzar` |
 | `pinzases` | 1 | `pinzases -> pinzar` |
 | `pinzaras` | 1 | `pinzaras -> pinzar` |
 | `pinzad` | 1 | `pinzad -> pinzar` |
+| `pinzarían` | 1 | `pinzarían -> pinzar` |
+| `pincé` | 1 | `pincé -> pinzar` |
 
 **Reason for flagging:**
 
@@ -582,8 +896,9 @@ lemma_lookup["pautar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["pinzar"] = ["correct_lemma_here"]
+lemma_lookup["pinza"] = ["pinzas"]
+lemma_lookup["Pinzas"] = ["pinzas"]
+lemma_lookup["Pinza"] = ["pinzas"]
 ```
 
 ---
@@ -599,16 +914,29 @@ lemma_lookup["pinzar"] = ["correct_lemma_here"]
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
 | `sonda` | 34793 | `sonda -> sondar` |
-| `sondas` | 11428 | `sondas -> sondar` |
 | `Sonda` | 15722 | `Sonda -> Sonda` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `sondas` | 11428 | `sondas -> sondar` |
+| `Sondas` | 3828 | `Sondas -> Sondas` |
+| `SONDA` | 2996 | `SONDA -> SONDA` |
+| `SONDAS` | 246 | `SONDAS -> SONDAS` |
+| `Sonde` | 156 | `Sonde -> Sonde` |
+| `sonde` | 108 | `sonde -> sondar` |
+| `sondar` | 90 | `sondar -> sondar` |
+| `sondan` | 12 | `sondan -> sondar` |
+| `sondado` | 12 | `sondado -> sondar` |
+| `sondo` | 10 | `sondo -> sondar` |
+| `sondando` | 10 | `sondando -> sondar` |
+| `sondados` | 8 | `sondados -> sondar` |
+| `sondada` | 7 | `sondada -> sondar` |
+| `sondaban` | 3 | `sondaban -> sondar` |
+| `sondares` | 3 | `sondares -> sondar` |
+| `sondes` | 3 | `sondes -> sondar` |
+| `sondaron` | 3 | `sondaron -> sondar` |
+| `sondase` | 2 | `sondase -> sondar` |
+| `sondaremos` | 2 | `sondaremos -> sondar` |
+| `sondadas` | 2 | `sondadas -> sondar` |
 | `sondará` | 1 | `sondará -> sondar` |
 | `sondó` | 1 | `sondó -> sondar` |
-| `sondase` | 2 | `sondase -> sondar` |
 
 **Reason for flagging:**
 
@@ -619,8 +947,8 @@ lemma_lookup["pinzar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["sondar"] = ["correct_lemma_here"]
+lemma_lookup["sondas"] = ["sonda"]
+lemma_lookup["Sonda"] = ["sonda"]
 ```
 
 ---
@@ -636,11 +964,42 @@ lemma_lookup["sondar"] = ["correct_lemma_here"]
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
 | `pausa` | 34030 | `pausa -> pausar` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `Pausa` | 8338 | `Pausa -> Pausa` |
+| `pausas` | 7118 | `pausas -> pausar` |
+| `pausar` | 4413 | `pausar -> pausar` |
+| `Pause` | 3022 | `Pause -> Pause` |
+| `PAUSE` | 2340 | `PAUSE -> PAUSE` |
+| `Pausar` | 1716 | `Pausar -> Pausar` |
+| `pausado` | 1634 | `pausado -> pausar` |
+| `pausada` | 1244 | `pausada -> pausar` |
+| `PAUSA` | 1230 | `PAUSA -> PAUSA` |
+| `pause` | 751 | `pause -> pausar` |
+| `Pausas` | 374 | `Pausas -> Pausas` |
+| `pausadas` | 230 | `pausadas -> pausar` |
+| `pausados` | 214 | `pausados -> pausar` |
+| `pausará` | 186 | `pausará -> pausar` |
+| `pausando` | 120 | `pausando -> pausar` |
+| `pausan` | 107 | `pausan -> pausar` |
+| `pausó` | 107 | `pausó -> pausar` |
+| `pauses` | 40 | `pauses -> pausar` |
+| `pausen` | 35 | `pausen -> pausar` |
+| `pausarán` | 32 | `pausarán -> pausar` |
+| `pausaron` | 31 | `pausaron -> pausar` |
+| `pauso` | 28 | `pauso -> pausar` |
+| `pausamos` | 25 | `pausamos -> pausar` |
+| `pausaba` | 16 | `pausaba -> pausar` |
+| `pausemos` | 14 | `pausemos -> pausar` |
+| `pausaban` | 9 | `pausaban -> pausar` |
+| `pausara` | 9 | `pausara -> pausar` |
+| `pausé` | 9 | `pausé -> pausar` |
+| `pausaste` | 8 | `pausaste -> pausar` |
+| `pausaremos` | 7 | `pausaremos -> pausar` |
+| `pausaría` | 7 | `pausaría -> pausar` |
+| `pausad` | 3 | `pausad -> pausar` |
+| `pausábamos` | 2 | `pausábamos -> pausar` |
+| `pausaran` | 2 | `pausaran -> pausar` |
+| `pausarás` | 2 | `pausarás -> pausar` |
+| `pausabas` | 2 | `pausabas -> pausar` |
 | `pausaré` | 1 | `pausaré -> pausar` |
 | `pausarían` | 1 | `pausarían -> pausar` |
 | `pausaríamos` | 1 | `pausaríamos -> pausar` |
@@ -652,8 +1011,6 @@ lemma_lookup["sondar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["pausar"] = ["correct_lemma_here"]
 ```
 
 ---
@@ -668,16 +1025,20 @@ lemma_lookup["pausar"] = ["correct_lemma_here"]
 
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
-| `arroyo` | 18282 | `arroyo -> arroyar` |
 | `Arroyo` | 47842 | `Arroyo -> Arroyo` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `arroyo` | 18282 | `arroyo -> arroyar` |
+| `ARROYO` | 932 | `ARROYO -> ARROYO` |
+| `arroyada` | 80 | `arroyada -> arroyar` |
+| `arroyó` | 12 | `arroyó -> arroyar` |
+| `arroyado` | 11 | `arroyado -> arroyar` |
+| `arroyando` | 10 | `arroyando -> arroyar` |
+| `arroyadas` | 6 | `arroyadas -> arroyar` |
+| `arroyar` | 5 | `arroyar -> arroyar` |
+| `arroya` | 4 | `arroya -> arroyar` |
 | `arroyados` | 1 | `arroyados -> arroyar` |
 | `arroyas` | 1 | `arroyas -> arroyar` |
 | `arroye` | 1 | `arroye -> arroyar` |
+| `arroyen` | 1 | `arroyen -> arroyar` |
 
 **Reason for flagging:**
 
@@ -687,8 +1048,7 @@ lemma_lookup["pausar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["arroyar"] = ["correct_lemma_here"]
+lemma_lookup["arroyo"] = ["Arroyo"]
 ```
 
 ---
@@ -704,14 +1064,48 @@ lemma_lookup["arroyar"] = ["correct_lemma_here"]
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
 | `Concilio` | 43860 | `Concilio -> Concilio` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `conciliar` | 10953 | `conciliar -> conciliar` |
+| `concilio` | 7650 | `concilio -> conciliar` |
+| `Conciliar` | 948 | `Conciliar -> Conciliar` |
+| `conciliares` | 752 | `conciliares -> conciliar` |
+| `concilia` | 535 | `concilia -> conciliar` |
+| `CONCILIO` | 284 | `CONCILIO -> CONCILIO` |
+| `concilian` | 256 | `concilian -> conciliar` |
+| `conciliando` | 228 | `conciliando -> conciliar` |
+| `concilie` | 194 | `concilie -> conciliar` |
+| `Concilia` | 166 | `Concilia -> Concilia` |
+| `Conciliares` | 144 | `Conciliares -> Conciliares` |
+| `conciliado` | 136 | `conciliado -> conciliar` |
+| `concilien` | 121 | `concilien -> conciliar` |
+| `conciliados` | 74 | `conciliados -> conciliar` |
+| `conciliadas` | 59 | `conciliadas -> conciliar` |
+| `conciliada` | 55 | `conciliada -> conciliar` |
+| `conciliaba` | 50 | `conciliaba -> conciliar` |
+| `concilió` | 46 | `concilió -> conciliar` |
+| `conciliamos` | 44 | `conciliamos -> conciliar` |
+| `conciliará` | 36 | `conciliará -> conciliar` |
+| `concilies` | 30 | `concilies -> conciliar` |
+| `conciliaron` | 30 | `conciliaron -> conciliar` |
+| `conciliarán` | 24 | `conciliarán -> conciliar` |
+| `concilias` | 23 | `concilias -> conciliar` |
+| `conciliara` | 22 | `conciliara -> conciliar` |
+| `conciliaban` | 17 | `conciliaban -> conciliar` |
+| `conciliaría` | 8 | `conciliaría -> conciliar` |
+| `conciliaremos` | 8 | `conciliaremos -> conciliar` |
+| `conciliarías` | 7 | `conciliarías -> conciliar` |
+| `conciliemos` | 7 | `conciliemos -> conciliar` |
+| `conciliáis` | 6 | `conciliáis -> conciliar` |
+| `conciliaran` | 6 | `conciliaran -> conciliar` |
+| `conciliad` | 4 | `conciliad -> conciliar` |
+| `conciliarás` | 4 | `conciliarás -> conciliar` |
+| `conciliaré` | 3 | `conciliaré -> conciliar` |
+| `conciliaras` | 2 | `conciliaras -> conciliar` |
+| `conciliase` | 2 | `conciliase -> conciliar` |
 | `concilié` | 1 | `concilié -> conciliar` |
 | `conciliasen` | 1 | `conciliasen -> conciliar` |
 | `conciliarían` | 1 | `conciliarían -> conciliar` |
+| `conciliéis` | 1 | `conciliéis -> conciliar` |
+| `conciliáramos` | 1 | `conciliáramos -> conciliar` |
 
 **Reason for flagging:**
 
@@ -720,8 +1114,6 @@ lemma_lookup["arroyar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["conciliar"] = ["correct_lemma_here"]
 ```
 
 ---
@@ -737,14 +1129,39 @@ lemma_lookup["conciliar"] = ["correct_lemma_here"]
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
 | `esmalte` | 34948 | `esmalte -> esmaltar` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `Esmalte` | 16326 | `Esmalte -> Esmalte` |
+| `esmaltado` | 7069 | `esmaltado -> esmaltar` |
+| `esmaltada` | 2787 | `esmaltada -> esmaltar` |
+| `Esmaltado` | 1318 | `Esmaltado -> Esmaltado` |
+| `esmaltados` | 1231 | `esmaltados -> esmaltar` |
+| `esmaltadas` | 1135 | `esmaltadas -> esmaltar` |
+| `ESMALTE` | 568 | `ESMALTE -> ESMALTE` |
+| `esmaltar` | 365 | `esmaltar -> esmaltar` |
+| `Esmaltada` | 308 | `Esmaltada -> Esmaltada` |
+| `Esmaltados` | 232 | `Esmaltados -> Esmaltados` |
+| `ESMALTADO` | 122 | `ESMALTADO -> ESMALTADO` |
+| `Esmaltadas` | 110 | `Esmaltadas -> Esmaltadas` |
+| `esmaltó` | 65 | `esmaltó -> esmaltar` |
+| `esmalta` | 54 | `esmalta -> esmaltar` |
+| `esmaltan` | 34 | `esmaltan -> esmaltar` |
+| `esmaltando` | 19 | `esmaltando -> esmaltar` |
+| `esmalto` | 14 | `esmalto -> esmaltar` |
+| `esmaltaron` | 7 | `esmaltaron -> esmaltar` |
+| `esmalté` | 4 | `esmalté -> esmaltar` |
+| `esmaltad` | 3 | `esmaltad -> esmaltar` |
+| `esmaltamos` | 3 | `esmaltamos -> esmaltar` |
+| `esmaltaba` | 3 | `esmaltaba -> esmaltar` |
+| `esmaltarán` | 2 | `esmaltarán -> esmaltar` |
+| `esmaltaremos` | 2 | `esmaltaremos -> esmaltar` |
+| `esmaltaban` | 2 | `esmaltaban -> esmaltar` |
+| `esmaltará` | 2 | `esmaltará -> esmaltar` |
 | `esmaltaría` | 1 | `esmaltaría -> esmaltar` |
 | `esmaltáis` | 1 | `esmaltáis -> esmaltar` |
 | `esmaltaren` | 1 | `esmaltaren -> esmaltar` |
+| `esmaltaran` | 1 | `esmaltaran -> esmaltar` |
+| `esmaltara` | 1 | `esmaltara -> esmaltar` |
+| `esmalten` | 1 | `esmalten -> esmaltar` |
+| `esmaltas` | 1 | `esmaltas -> esmaltar` |
 
 **Reason for flagging:**
 
@@ -753,8 +1170,6 @@ lemma_lookup["conciliar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["esmaltar"] = ["correct_lemma_here"]
 ```
 
 ---
@@ -770,14 +1185,49 @@ lemma_lookup["esmaltar"] = ["correct_lemma_here"]
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
 | `leve` | 45530 | `leve -> levar` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `levas` | 6782 | `levas -> levar` |
+| `leva` | 5362 | `leva -> levar` |
+| `Leva` | 2158 | `Leva -> Leva` |
+| `Leve` | 1164 | `Leve -> Leve` |
+| `Levada` | 1076 | `Levada -> Levada` |
+| `Levas` | 608 | `Levas -> Levas` |
+| `Levan` | 604 | `Levan -> Levan` |
+| `levar` | 568 | `levar -> levar` |
+| `levadas` | 311 | `levadas -> levar` |
+| `levada` | 179 | `levada -> levar` |
+| `Levadas` | 174 | `Levadas -> Levadas` |
+| `levado` | 167 | `levado -> levar` |
+| `LEVE` | 128 | `LEVE -> LEVE` |
+| `Levar` | 126 | `Levar -> Levar` |
+| `LEVA` | 118 | `LEVA -> LEVA` |
+| `levaron` | 74 | `levaron -> levar` |
+| `levan` | 68 | `levan -> levar` |
+| `levó` | 61 | `levó -> levar` |
+| `levando` | 53 | `levando -> levar` |
+| `leven` | 46 | `leven -> levar` |
+| `levará` | 45 | `levará -> levar` |
+| `levamos` | 37 | `levamos -> levar` |
+| `levo` | 36 | `levo -> levar` |
+| `levare` | 22 | `levare -> levar` |
+| `levaba` | 21 | `levaba -> levar` |
+| `levados` | 21 | `levados -> levar` |
+| `levaban` | 14 | `levaban -> levar` |
+| `levarán` | 14 | `levarán -> levar` |
+| `levara` | 10 | `levara -> levar` |
+| `levaremos` | 8 | `levaremos -> levar` |
+| `levaran` | 8 | `levaran -> levar` |
+| `levé` | 6 | `levé -> levar` |
+| `leváramos` | 5 | `leváramos -> levar` |
+| `levaste` | 3 | `levaste -> levar` |
+| `levaría` | 3 | `levaría -> levar` |
+| `levéis` | 2 | `levéis -> levar` |
+| `levábamos` | 2 | `levábamos -> levar` |
 | `levarás` | 1 | `levarás -> levar` |
 | `levase` | 1 | `levase -> levar` |
 | `leváis` | 1 | `leváis -> levar` |
+| `levaré` | 1 | `levaré -> levar` |
+| `levad` | 1 | `levad -> levar` |
+| `levasen` | 1 | `levasen -> levar` |
 
 **Reason for flagging:**
 
@@ -786,8 +1236,6 @@ lemma_lookup["esmaltar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["levar"] = ["correct_lemma_here"]
 ```
 
 ---
@@ -802,16 +1250,29 @@ lemma_lookup["levar"] = ["correct_lemma_here"]
 
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
-| `amnistía` | 6275 | `amnistía -> amnistiar` |
 | `Amnistía` | 58106 | `Amnistía -> Amnistía` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `amnistía` | 6275 | `amnistía -> amnistiar` |
+| `amnistías` | 502 | `amnistías -> amnistiar` |
+| `amnistiar` | 130 | `amnistiar -> amnistiar` |
+| `Amnistías` | 130 | `Amnistías -> Amnistías` |
+| `amnistiados` | 82 | `amnistiados -> amnistiar` |
+| `amnistiado` | 67 | `amnistiado -> amnistiar` |
+| `amnistió` | 33 | `amnistió -> amnistiar` |
+| `amnistiadas` | 12 | `amnistiadas -> amnistiar` |
+| `amnistiara` | 6 | `amnistiara -> amnistiar` |
+| `amnistiaron` | 4 | `amnistiaron -> amnistiar` |
+| `amnistiaba` | 4 | `amnistiaba -> amnistiar` |
+| `amnistiada` | 3 | `amnistiada -> amnistiar` |
+| `amnistiaría` | 2 | `amnistiaría -> amnistiar` |
+| `amnistíe` | 2 | `amnistíe -> amnistiar` |
+| `amnistiando` | 2 | `amnistiando -> amnistiar` |
+| `amnistiaban` | 2 | `amnistiaban -> amnistiar` |
 | `amnistío` | 1 | `amnistío -> amnistiar` |
 | `amnistiaran` | 1 | `amnistiaran -> amnistiar` |
 | `amnistíen` | 1 | `amnistíen -> amnistiar` |
+| `amnistiarían` | 1 | `amnistiarían -> amnistiar` |
+| `amnistiará` | 1 | `amnistiará -> amnistiar` |
+| `amnistían` | 1 | `amnistían -> amnistiar` |
 
 **Reason for flagging:**
 
@@ -821,8 +1282,7 @@ lemma_lookup["levar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["amnistiar"] = ["correct_lemma_here"]
+lemma_lookup["amnistía"] = ["Amnistía"]
 ```
 
 ---
@@ -838,11 +1298,27 @@ lemma_lookup["amnistiar"] = ["correct_lemma_here"]
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
 | `cemento` | 46810 | `cemento -> cementar` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `Cemento` | 12462 | `Cemento -> Cemento` |
+| `cementado` | 1409 | `cementado -> cementar` |
+| `CEMENTO` | 824 | `CEMENTO -> CEMENTO` |
+| `cementados` | 535 | `cementados -> cementar` |
+| `cementada` | 386 | `cementada -> cementar` |
+| `cementadas` | 225 | `cementadas -> cementar` |
+| `cementar` | 203 | `cementar -> cementar` |
+| `cementa` | 164 | `cementa -> cementar` |
+| `cementan` | 130 | `cementan -> cementar` |
+| `Cementado` | 102 | `Cementado -> Cementado` |
+| `cementó` | 86 | `cementó -> cementar` |
+| `cementaron` | 41 | `cementaron -> cementar` |
+| `cementando` | 33 | `cementando -> cementar` |
+| `cemente` | 29 | `cemente -> cementar` |
+| `cementará` | 16 | `cementará -> cementar` |
+| `cementaría` | 5 | `cementaría -> cementar` |
+| `cementarán` | 4 | `cementarán -> cementar` |
+| `cementen` | 4 | `cementen -> cementar` |
+| `cementara` | 3 | `cementara -> cementar` |
+| `cementaban` | 2 | `cementaban -> cementar` |
+| `cementaremos` | 2 | `cementaremos -> cementar` |
 | `cementarías` | 1 | `cementarías -> cementar` |
 | `cementamos` | 1 | `cementamos -> cementar` |
 | `cementaba` | 1 | `cementaba -> cementar` |
@@ -854,8 +1330,6 @@ lemma_lookup["amnistiar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["cementar"] = ["correct_lemma_here"]
 ```
 
 ---
@@ -873,14 +1347,29 @@ lemma_lookup["cementar"] = ["correct_lemma_here"]
 | `climatizada` | 34729 | `climatizada -> climatizar` |
 | `climatizado` | 12032 | `climatizado -> climatizar` |
 | `climatizadas` | 9357 | `climatizadas -> climatizar` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `Climatizada` | 2982 | `Climatizada -> Climatizada` |
+| `climatizados` | 2058 | `climatizados -> climatizar` |
+| `Climatizado` | 648 | `Climatizado -> Climatizado` |
+| `climatizar` | 424 | `climatizar -> climatizar` |
+| `Climatizadas` | 290 | `Climatizadas -> Climatizadas` |
+| `CLIMATIZADA` | 280 | `CLIMATIZADA -> CLIMATIZADA` |
+| `climatiza` | 125 | `climatiza -> climatizar` |
+| `climatizad` | 22 | `climatizad -> climatizar` |
+| `climatizan` | 19 | `climatizan -> climatizar` |
+| `climatice` | 8 | `climatice -> climatizar` |
+| `climatizando` | 8 | `climatizando -> climatizar` |
+| `climatizas` | 6 | `climatizas -> climatizar` |
+| `climaticen` | 3 | `climaticen -> climatizar` |
+| `climatizamos` | 2 | `climatizamos -> climatizar` |
+| `climatizó` | 2 | `climatizó -> climatizar` |
+| `climatices` | 2 | `climatices -> climatizar` |
 | `climatizo` | 1 | `climatizo -> climatizar` |
 | `climatizaba` | 1 | `climatizaba -> climatizar` |
 | `climatizará` | 1 | `climatizará -> climatizar` |
+| `climatizábamos` | 1 | `climatizábamos -> climatizar` |
+| `climatizaron` | 1 | `climatizaron -> climatizar` |
+| `climatizaremos` | 1 | `climatizaremos -> climatizar` |
+| `climaticé` | 1 | `climaticé -> climatizar` |
 
 **Reason for flagging:**
 
@@ -891,8 +1380,8 @@ lemma_lookup["cementar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["climatizar"] = ["correct_lemma_here"]
+lemma_lookup["climatizado"] = ["climatizada"]
+lemma_lookup["climatizadas"] = ["climatizada"]
 ```
 
 ---
@@ -908,14 +1397,11 @@ lemma_lookup["climatizar"] = ["correct_lemma_here"]
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
 | `Letonia` | 62094 | `Letonia -> Letonia` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `LETONIA` | 284 | `LETONIA -> LETONIA` |
+| `letonia` | 53 | `letonia -> letonio` |
+| `letonio` | 7 | `letonio -> letonio` |
 | `letonios` | 1 | `letonios -> letonio` |
 | `letonias` | 1 | `letonias -> letonio` |
-| `letonio` | 7 | `letonio -> letonio` |
 
 **Reason for flagging:**
 
@@ -924,8 +1410,6 @@ lemma_lookup["climatizar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["letonio"] = ["correct_lemma_here"]
 ```
 
 ---
@@ -942,14 +1426,30 @@ lemma_lookup["letonio"] = ["correct_lemma_here"]
 |------|----------:|---------------|
 | `caché` | 36833 | `caché -> cachar` |
 | `Cache` | 14288 | `Cache -> Cache` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `cache` | 4066 | `cache -> cachar` |
+| `Caché` | 4038 | `Caché -> Caché` |
+| `Cacho` | 1960 | `Cacho -> Cacho` |
+| `CACHE` | 532 | `CACHE -> CACHE` |
+| `cacho` | 249 | `cacho -> cachar` |
+| `cachar` | 40 | `cachar -> cachar` |
+| `cachado` | 12 | `cachado -> cachar` |
+| `cachan` | 11 | `cachan -> cachar` |
+| `cachando` | 10 | `cachando -> cachar` |
+| `cachó` | 9 | `cachó -> cachar` |
+| `cachara` | 8 | `cachara -> cachar` |
+| `cacharon` | 7 | `cacharon -> cachar` |
+| `cachados` | 4 | `cachados -> cachar` |
+| `cachadas` | 4 | `cachadas -> cachar` |
+| `cachamos` | 3 | `cachamos -> cachar` |
+| `cacharán` | 2 | `cacharán -> cachar` |
+| `cachaste` | 2 | `cachaste -> cachar` |
+| `cachen` | 2 | `cachen -> cachar` |
 | `cacharas` | 1 | `cacharas -> cachar` |
 | `cachada` | 1 | `cachada -> cachar` |
 | `cacharía` | 1 | `cacharía -> cachar` |
+| `cacharan` | 1 | `cacharan -> cachar` |
+| `cacharían` | 1 | `cacharían -> cachar` |
+| `cachaba` | 1 | `cachaba -> cachar` |
 
 **Reason for flagging:**
 
@@ -959,8 +1459,7 @@ lemma_lookup["letonio"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["cachar"] = ["correct_lemma_here"]
+lemma_lookup["Cache"] = ["caché"]
 ```
 
 ---
@@ -976,11 +1475,26 @@ lemma_lookup["cachar"] = ["correct_lemma_here"]
 | Form | Frequency | Lemmatization |
 |------|----------:|---------------|
 | `diente` | 40725 | `diente -> dentar` |
-
-**Lowest frequency forms (for comparison):**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
+| `Diente` | 7144 | `Diente -> Diente` |
+| `dentada` | 4642 | `dentada -> dentar` |
+| `dentadas` | 2978 | `dentadas -> dentar` |
+| `dentado` | 2459 | `dentado -> dentar` |
+| `Dentada` | 1650 | `Dentada -> Dentada` |
+| `dentados` | 1322 | `dentados -> dentar` |
+| `DIENTE` | 466 | `DIENTE -> DIENTE` |
+| `Dentado` | 388 | `Dentado -> Dentado` |
+| `Dentadas` | 150 | `Dentadas -> Dentadas` |
+| `dentar` | 61 | `dentar -> dentar` |
+| `dienta` | 32 | `dienta -> dentar` |
+| `dientas` | 27 | `dientas -> dentar` |
+| `dentare` | 6 | `dentare -> dentar` |
+| `dentó` | 5 | `dentó -> dentar` |
+| `diento` | 5 | `diento -> dentar` |
+| `dentando` | 4 | `dentando -> dentar` |
+| `dentaría` | 4 | `dentaría -> dentar` |
+| `denté` | 3 | `denté -> dentar` |
+| `dentarías` | 3 | `dentarías -> dentar` |
+| `dientan` | 2 | `dientan -> dentar` |
 | `dentad` | 1 | `dentad -> dentar` |
 | `dienten` | 1 | `dienten -> dentar` |
 | `dentaban` | 1 | `dentaban -> dentar` |
@@ -992,8 +1506,6 @@ lemma_lookup["cachar"] = ["correct_lemma_here"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-# To be determined based on review. Some possibilities:
-lemma_lookup["dentar"] = ["correct_lemma_here"]
 ```
 
 ---
