@@ -44,6 +44,7 @@ Lemmas in this file are ranked between 1001 and 2000 by frequency.
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["redes"] = ["redes"]
 ```
 
 ---
@@ -128,6 +129,7 @@ Lemmas in this file are ranked between 1001 and 2000 by frequency.
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["copia"] = ["copia"]
 ```
 
 ---
@@ -184,6 +186,7 @@ Lemmas in this file are ranked between 1001 and 2000 by frequency.
 
 ```python
 lemma_lookup["radio"] = ["Radio"]
+lemma_lookup["Radio"] = ["Radio"]
 ```
 
 ---
@@ -263,6 +266,7 @@ lemma_lookup["radio"] = ["Radio"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["fotografía"] = ["fotografía"]
 lemma_lookup["fotografías"] = ["fotografía"]
 ```
 
@@ -333,6 +337,7 @@ lemma_lookup["fotografías"] = ["fotografía"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["ducha"] = ["ducha"]
 lemma_lookup["duchas"] = ["ducha"]
 lemma_lookup["Ducha"] = ["ducha"]
 ```
@@ -413,6 +418,7 @@ lemma_lookup["Ducha"] = ["ducha"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["Resumen"] = ["Resumen"]
 ```
 
 ---
@@ -456,6 +462,7 @@ lemma_lookup["Ducha"] = ["ducha"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["fines"] = ["fines"]
 ```
 
 ---
@@ -535,6 +542,7 @@ lemma_lookup["Ducha"] = ["ducha"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["barra"] = ["barra"]
 ```
 
 ---
@@ -616,6 +624,7 @@ lemma_lookup["Ducha"] = ["ducha"]
 
 ```python
 lemma_lookup["filtro"] = ["Filtro"]
+lemma_lookup["Filtro"] = ["Filtro"]
 ```
 
 ---
@@ -661,6 +670,7 @@ lemma_lookup["filtro"] = ["Filtro"]
 
 ```python
 lemma_lookup["cuarta"] = ["cuarto"]
+lemma_lookup["cuarto"] = ["cuarto"]
 lemma_lookup["Cuarto"] = ["cuarto"]
 ```
 
@@ -736,6 +746,7 @@ lemma_lookup["Cuarto"] = ["cuarto"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["potencia"] = ["potencia"]
 lemma_lookup["Potencia"] = ["potencia"]
 ```
 
@@ -805,6 +816,7 @@ lemma_lookup["Potencia"] = ["potencia"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["licencia"] = ["licencia"]
 lemma_lookup["Licencia"] = ["licencia"]
 ```
 
@@ -880,6 +892,7 @@ lemma_lookup["Licencia"] = ["licencia"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["caliente"] = ["caliente"]
 ```
 
 ---
@@ -905,6 +918,7 @@ lemma_lookup["Licencia"] = ["licencia"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["Alibaba.com"] = ["Alibaba.com"]
 ```
 
 ---
@@ -955,6 +969,7 @@ lemma_lookup["Licencia"] = ["licencia"]
 ```python
 lemma_lookup["conferencia"] = ["Conferencia"]
 lemma_lookup["conferencias"] = ["Conferencia"]
+lemma_lookup["Conferencia"] = ["Conferencia"]
 lemma_lookup["Conferencias"] = ["Conferencia"]
 ```
 
@@ -1034,6 +1049,7 @@ lemma_lookup["Conferencias"] = ["Conferencia"]
 
 ```python
 lemma_lookup["premio"] = ["Premio"]
+lemma_lookup["Premio"] = ["Premio"]
 ```
 
 ---
@@ -1083,6 +1099,7 @@ lemma_lookup["premio"] = ["Premio"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["solar"] = ["solar"]
 lemma_lookup["solares"] = ["solar"]
 lemma_lookup["Solar"] = ["solar"]
 ```
@@ -1166,6 +1183,7 @@ lemma_lookup["Solar"] = ["solar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["adelante"] = ["adelante"]
 ```
 
 ---
@@ -1241,6 +1259,7 @@ lemma_lookup["Solar"] = ["solar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["arriba"] = ["arriba"]
 ```
 
 ---
@@ -1290,6 +1309,7 @@ lemma_lookup["Solar"] = ["solar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["entorno"] = ["entorno"]
 lemma_lookup["Entorno"] = ["entorno"]
 ```
 
@@ -1343,6 +1363,7 @@ lemma_lookup["Entorno"] = ["entorno"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["manga"] = ["manga"]
 lemma_lookup["mango"] = ["manga"]
 lemma_lookup["mangas"] = ["manga"]
 lemma_lookup["Manga"] = ["manga"]
@@ -1403,6 +1424,7 @@ lemma_lookup["Mangas"] = ["manga"]
 
 ```python
 lemma_lookup["capas"] = ["capa"]
+lemma_lookup["capa"] = ["capa"]
 lemma_lookup["Cape"] = ["capa"]
 ```
 
@@ -1455,6 +1477,7 @@ lemma_lookup["Cape"] = ["capa"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["grado"] = ["grado"]
 lemma_lookup["Grado"] = ["grado"]
 ```
 
@@ -1528,6 +1551,7 @@ lemma_lookup["Grado"] = ["grado"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["impacto"] = ["impacto"]
 ```
 
 ---
@@ -1606,6 +1630,7 @@ lemma_lookup["Grado"] = ["grado"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["Oriente"] = ["Oriente"]
 ```
 
 ---
@@ -1688,6 +1713,7 @@ lemma_lookup["Grado"] = ["grado"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["tejido"] = ["tejido"]
 ```
 
 ---
@@ -1751,6 +1777,7 @@ lemma_lookup["Grado"] = ["grado"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["libertad"] = ["libertad"]
 lemma_lookup["Libertad"] = ["libertad"]
 ```
 
@@ -1806,6 +1833,7 @@ lemma_lookup["Libertad"] = ["libertad"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["principio"] = ["principio"]
 lemma_lookup["Principio"] = ["principio"]
 ```
 
@@ -1882,6 +1910,7 @@ lemma_lookup["Principio"] = ["principio"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["figura"] = ["figura"]
 ```
 
 ---
@@ -1958,6 +1987,7 @@ lemma_lookup["Principio"] = ["principio"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["presencia"] = ["presencia"]
 ```
 
 ---
@@ -2041,6 +2071,7 @@ lemma_lookup["Principio"] = ["principio"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["pesca"] = ["pesca"]
 ```
 
 ---
@@ -2121,6 +2152,7 @@ lemma_lookup["Principio"] = ["principio"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["duro"] = ["duro"]
 ```
 
 ---
@@ -2166,6 +2198,7 @@ lemma_lookup["Principio"] = ["principio"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["vidrio"] = ["vidrio"]
 lemma_lookup["Vidrio"] = ["vidrio"]
 ```
 
@@ -2251,6 +2284,7 @@ lemma_lookup["Vidrio"] = ["vidrio"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["paseo"] = ["paseo"]
 lemma_lookup["Paseo"] = ["paseo"]
 ```
 
@@ -2307,6 +2341,7 @@ lemma_lookup["Paseo"] = ["paseo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["Granada"] = ["Granada"]
 ```
 
 ---
@@ -2362,6 +2397,7 @@ lemma_lookup["Paseo"] = ["paseo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["Valle"] = ["Valle"]
 ```
 
 ---
@@ -2437,6 +2473,7 @@ lemma_lookup["Paseo"] = ["paseo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["pelo"] = ["pelo"]
 ```
 
 ---
@@ -2521,6 +2558,7 @@ lemma_lookup["Paseo"] = ["paseo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["Porto"] = ["Porto"]
 ```
 
 ---
@@ -2582,6 +2620,7 @@ lemma_lookup["Paseo"] = ["paseo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["pena"] = ["pena"]
 lemma_lookup["pene"] = ["pena"]
 ```
 
@@ -2648,6 +2687,7 @@ lemma_lookup["pene"] = ["pena"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["prensa"] = ["prensa"]
 lemma_lookup["Prensa"] = ["prensa"]
 ```
 
@@ -2733,6 +2773,7 @@ lemma_lookup["Prensa"] = ["prensa"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["escala"] = ["escala"]
 ```
 
 ---
@@ -2799,6 +2840,7 @@ lemma_lookup["Prensa"] = ["prensa"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["objeto"] = ["objeto"]
 ```
 
 ---
@@ -2852,6 +2894,7 @@ lemma_lookup["Prensa"] = ["prensa"]
 
 ```python
 lemma_lookup["regla"] = ["reglas"]
+lemma_lookup["reglas"] = ["reglas"]
 lemma_lookup["Reglas"] = ["reglas"]
 lemma_lookup["Regla"] = ["reglas"]
 ```
@@ -2928,6 +2971,7 @@ lemma_lookup["Regla"] = ["reglas"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["resto"] = ["resto"]
 ```
 
 ---
@@ -3011,6 +3055,7 @@ lemma_lookup["Regla"] = ["reglas"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["regalo"] = ["regalo"]
 ```
 
 ---
@@ -3087,6 +3132,7 @@ lemma_lookup["Regla"] = ["reglas"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["aventura"] = ["aventura"]
 lemma_lookup["Aventura"] = ["aventura"]
 ```
 
@@ -3158,6 +3204,7 @@ lemma_lookup["Aventura"] = ["aventura"]
 lemma_lookup["templo"] = ["Templo"]
 lemma_lookup["templado"] = ["Templo"]
 lemma_lookup["Temple"] = ["Templo"]
+lemma_lookup["Templo"] = ["Templo"]
 ```
 
 ---
@@ -3249,6 +3296,7 @@ lemma_lookup["Temple"] = ["Templo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["marcha"] = ["marcha"]
 ```
 
 ---
@@ -3293,6 +3341,7 @@ lemma_lookup["Temple"] = ["Templo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["medicina"] = ["medicina"]
 lemma_lookup["medicinas"] = ["medicina"]
 lemma_lookup["Medicina"] = ["medicina"]
 ```
@@ -3384,6 +3433,7 @@ lemma_lookup["Medicina"] = ["medicina"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["Bailar"] = ["Bailar"]
 ```
 
 ---
@@ -3427,6 +3477,7 @@ lemma_lookup["Medicina"] = ["medicina"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["justo"] = ["justo"]
 lemma_lookup["Justo"] = ["justo"]
 ```
 
@@ -3493,6 +3544,7 @@ lemma_lookup["Justo"] = ["justo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["Lima"] = ["Lima"]
 ```
 
 ---
@@ -3572,6 +3624,7 @@ lemma_lookup["Justo"] = ["justo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["cena"] = ["cena"]
 ```
 
 ---
@@ -3633,6 +3686,7 @@ lemma_lookup["Justo"] = ["justo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["sede"] = ["sede"]
 lemma_lookup["seda"] = ["sede"]
 lemma_lookup["Sede"] = ["sede"]
 lemma_lookup["Seda"] = ["sede"]
@@ -3698,6 +3752,7 @@ lemma_lookup["Seda"] = ["sede"]
 
 ```python
 lemma_lookup["militares"] = ["militar"]
+lemma_lookup["militar"] = ["militar"]
 lemma_lookup["Militar"] = ["militar"]
 ```
 
@@ -3766,6 +3821,7 @@ lemma_lookup["Militar"] = ["militar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["placer"] = ["placer"]
 lemma_lookup["Place"] = ["placer"]
 ```
 
@@ -3831,6 +3887,7 @@ lemma_lookup["Place"] = ["placer"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["receta"] = ["receta"]
 ```
 
 ---
@@ -3869,6 +3926,7 @@ lemma_lookup["Place"] = ["placer"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["humano"] = ["humano"]
 lemma_lookup["Humano"] = ["humano"]
 ```
 
@@ -3931,6 +3989,7 @@ lemma_lookup["Humano"] = ["humano"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["Copa"] = ["Copa"]
 ```
 
 ---
@@ -3999,6 +4058,7 @@ lemma_lookup["Humano"] = ["humano"]
 lemma_lookup["reseñas"] = ["Reseña"]
 lemma_lookup["reseña"] = ["Reseña"]
 lemma_lookup["Reseñas"] = ["Reseña"]
+lemma_lookup["Reseña"] = ["Reseña"]
 ```
 
 ---
@@ -4074,6 +4134,7 @@ lemma_lookup["Reseñas"] = ["Reseña"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["esfuerzo"] = ["esfuerzo"]
 ```
 
 ---
@@ -4110,6 +4171,7 @@ lemma_lookup["Reseñas"] = ["Reseña"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["antiguo"] = ["antiguo"]
 lemma_lookup["Antiguo"] = ["antiguo"]
 ```
 
@@ -4199,6 +4261,7 @@ lemma_lookup["Antiguo"] = ["antiguo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["pecado"] = ["pecado"]
 ```
 
 ---
@@ -4265,6 +4328,7 @@ lemma_lookup["Antiguo"] = ["antiguo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["descuento"] = ["descuento"]
 lemma_lookup["Descuento"] = ["descuento"]
 ```
 
@@ -4306,6 +4370,7 @@ lemma_lookup["Descuento"] = ["descuento"]
 
 ```python
 lemma_lookup["torre"] = ["Torre"]
+lemma_lookup["Torre"] = ["Torre"]
 ```
 
 ---
@@ -4359,6 +4424,7 @@ lemma_lookup["torre"] = ["Torre"]
 
 ```python
 lemma_lookup["revistas"] = ["revista"]
+lemma_lookup["revista"] = ["revista"]
 lemma_lookup["Revista"] = ["revista"]
 ```
 
@@ -4420,6 +4486,7 @@ lemma_lookup["Revista"] = ["revista"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["embarazo"] = ["embarazo"]
 lemma_lookup["embarazada"] = ["embarazo"]
 ```
 
@@ -4469,6 +4536,7 @@ lemma_lookup["embarazada"] = ["embarazo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["arena"] = ["arena"]
 lemma_lookup["Arena"] = ["arena"]
 lemma_lookup["Arenas"] = ["arena"]
 ```
@@ -4546,6 +4614,7 @@ lemma_lookup["Arenas"] = ["arena"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["motivo"] = ["motivo"]
 ```
 
 ---
@@ -4596,6 +4665,7 @@ lemma_lookup["Arenas"] = ["arena"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["ciclo"] = ["ciclo"]
 lemma_lookup["Ciclo"] = ["ciclo"]
 ```
 
@@ -4657,6 +4727,7 @@ lemma_lookup["Ciclo"] = ["ciclo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["Visa"] = ["Visa"]
 ```
 
 ---
@@ -4727,6 +4798,7 @@ lemma_lookup["Ciclo"] = ["ciclo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["renta"] = ["renta"]
 lemma_lookup["Renta"] = ["renta"]
 ```
 
@@ -4789,6 +4861,7 @@ lemma_lookup["Renta"] = ["renta"]
 
 ```python
 lemma_lookup["reglamento"] = ["Reglamento"]
+lemma_lookup["Reglamento"] = ["Reglamento"]
 ```
 
 ---
@@ -4851,6 +4924,7 @@ lemma_lookup["reglamento"] = ["Reglamento"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["deporte"] = ["deporte"]
 lemma_lookup["Deporte"] = ["deporte"]
 ```
 
@@ -4910,6 +4984,7 @@ lemma_lookup["Deporte"] = ["deporte"]
 
 ```python
 lemma_lookup["sierra"] = ["Sierra"]
+lemma_lookup["Sierra"] = ["Sierra"]
 ```
 
 ---
@@ -4980,6 +5055,7 @@ lemma_lookup["sierra"] = ["Sierra"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["apropiado"] = ["apropiado"]
 lemma_lookup["apropiada"] = ["apropiado"]
 ```
 
@@ -5024,6 +5100,7 @@ lemma_lookup["apropiada"] = ["apropiado"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["amigo"] = ["amigo"]
 lemma_lookup["AMIGO"] = ["amigo"]
 lemma_lookup["Amigo"] = ["amigo"]
 ```
@@ -5064,6 +5141,7 @@ lemma_lookup["Amigo"] = ["amigo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["elemento"] = ["elemento"]
 lemma_lookup["Elemento"] = ["elemento"]
 ```
 
@@ -5140,6 +5218,7 @@ lemma_lookup["Elemento"] = ["elemento"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["Liga"] = ["Liga"]
 ```
 
 ---
@@ -5199,6 +5278,7 @@ lemma_lookup["Elemento"] = ["elemento"]
 ```python
 lemma_lookup["papas"] = ["Papa"]
 lemma_lookup["papa"] = ["Papa"]
+lemma_lookup["Papa"] = ["Papa"]
 ```
 
 ---
@@ -5250,6 +5330,7 @@ lemma_lookup["papa"] = ["Papa"]
 
 ```python
 lemma_lookup["secreto"] = ["Secretaría"]
+lemma_lookup["Secretaría"] = ["Secretaría"]
 ```
 
 ---
@@ -5320,6 +5401,7 @@ lemma_lookup["secreto"] = ["Secretaría"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["batalla"] = ["batalla"]
 lemma_lookup["batallas"] = ["batalla"]
 lemma_lookup["Batalla"] = ["batalla"]
 ```
@@ -5371,6 +5453,7 @@ lemma_lookup["Batalla"] = ["batalla"]
 
 ```python
 lemma_lookup["anillo"] = ["Anillo"]
+lemma_lookup["Anillo"] = ["Anillo"]
 ```
 
 ---
@@ -5411,6 +5494,7 @@ lemma_lookup["anillo"] = ["Anillo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["Orlando"] = ["Orlando"]
 ```
 
 ---
@@ -5496,6 +5580,7 @@ lemma_lookup["anillo"] = ["Anillo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["implica"] = ["implica"]
 ```
 
 ---
@@ -5560,6 +5645,7 @@ lemma_lookup["anillo"] = ["Anillo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["hielo"] = ["hielo"]
 ```
 
 ---
@@ -5627,6 +5713,7 @@ lemma_lookup["anillo"] = ["Anillo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["razones"] = ["razones"]
 ```
 
 ---
@@ -5690,6 +5777,7 @@ lemma_lookup["anillo"] = ["Anillo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["encuesta"] = ["encuesta"]
 lemma_lookup["encuestas"] = ["encuesta"]
 lemma_lookup["encuestados"] = ["encuesta"]
 lemma_lookup["Encuesta"] = ["encuesta"]
@@ -5742,6 +5830,7 @@ lemma_lookup["Encuesta"] = ["encuesta"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["encima"] = ["encima"]
 lemma_lookup["Encima"] = ["encima"]
 ```
 
@@ -5768,6 +5857,7 @@ lemma_lookup["Encima"] = ["encima"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["VIH"] = ["VIH"]
 ```
 
 ---
@@ -5816,6 +5906,7 @@ lemma_lookup["Encima"] = ["encima"]
 ```python
 lemma_lookup["escritura"] = ["Escrituras"]
 lemma_lookup["Escritura"] = ["Escrituras"]
+lemma_lookup["Escrituras"] = ["Escrituras"]
 ```
 
 ---
@@ -5887,6 +5978,7 @@ lemma_lookup["Escritura"] = ["Escrituras"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["estaciones"] = ["estaciones"]
 lemma_lookup["Estaciones"] = ["estaciones"]
 ```
 
@@ -5946,6 +6038,7 @@ lemma_lookup["Estaciones"] = ["estaciones"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["presupuesto"] = ["presupuesto"]
 lemma_lookup["Presupuesto"] = ["presupuesto"]
 ```
 
@@ -5998,6 +6091,7 @@ lemma_lookup["Presupuesto"] = ["presupuesto"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["esperanza"] = ["esperanza"]
 lemma_lookup["esperanzas"] = ["esperanza"]
 lemma_lookup["Esperanza"] = ["esperanza"]
 ```

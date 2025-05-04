@@ -44,6 +44,7 @@ Lemmas in this file are ranked between 7001 and 8000 by frequency.
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["recambio"] = ["recambio"]
 lemma_lookup["Recambio"] = ["recambio"]
 ```
 
@@ -94,6 +95,7 @@ lemma_lookup["Recambio"] = ["recambio"]
 
 ```python
 lemma_lookup["boxeo"] = ["Boxeo"]
+lemma_lookup["Boxeo"] = ["Boxeo"]
 ```
 
 ---
@@ -140,6 +142,7 @@ lemma_lookup["boxeo"] = ["Boxeo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["truco"] = ["truco"]
 lemma_lookup["TRUCO"] = ["truco"]
 ```
 
@@ -172,6 +175,7 @@ lemma_lookup["TRUCO"] = ["truco"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["Bruce"] = ["Bruce"]
 ```
 
 ---
@@ -221,6 +225,7 @@ lemma_lookup["TRUCO"] = ["truco"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["abanico"] = ["abanico"]
 ```
 
 ---
@@ -271,6 +276,7 @@ lemma_lookup["TRUCO"] = ["truco"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["cableado"] = ["cableado"]
 ```
 
 ---
@@ -307,6 +313,7 @@ lemma_lookup["TRUCO"] = ["truco"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["ladrillo"] = ["ladrillo"]
 lemma_lookup["Ladrillo"] = ["ladrillo"]
 ```
 
@@ -359,6 +366,7 @@ lemma_lookup["Ladrillo"] = ["ladrillo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["sistematizada"] = ["sistematizada"]
 ```
 
 ---
@@ -405,6 +413,7 @@ lemma_lookup["Ladrillo"] = ["ladrillo"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["bufé"] = ["bufé"]
 ```
 
 ---
@@ -440,6 +449,7 @@ lemma_lookup["Ladrillo"] = ["ladrillo"]
 
 ```python
 lemma_lookup["single"] = ["Single"]
+lemma_lookup["Single"] = ["Single"]
 ```
 
 ---
@@ -480,6 +490,7 @@ lemma_lookup["single"] = ["Single"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["contorno"] = ["contorno"]
 lemma_lookup["Contorno"] = ["contorno"]
 ```
 
@@ -537,6 +548,7 @@ lemma_lookup["Contorno"] = ["contorno"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["obvio"] = ["obvio"]
 ```
 
 ---
@@ -603,6 +615,7 @@ lemma_lookup["Contorno"] = ["contorno"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["Socorro"] = ["Socorro"]
 ```
 
 ---
@@ -653,6 +666,7 @@ lemma_lookup["Contorno"] = ["contorno"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["anestesia"] = ["anestesia"]
 ```
 
 ---
@@ -694,6 +708,7 @@ lemma_lookup["Contorno"] = ["contorno"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
+lemma_lookup["tercio"] = ["tercio"]
 ```
 
 ---

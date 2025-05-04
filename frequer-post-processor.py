@@ -4,9 +4,10 @@ import argparse
 import re
 import statistics
 from collections import defaultdict
-import spacy
 from pathlib import Path
 import math
+
+from create_model import create_model
 
 def load_frequency_data(input_file):
     """Load frequency data from JSON file."""
@@ -46,16 +47,15 @@ def check_lemma_form_ratio(lemmas, ratio_threshold=100):
                 high_ratio_forms.append((form, freq, freq / median_freq))
         
         if high_ratio_forms:
-            # Also find the lowest frequency forms for comparison
-            sorted_forms = sorted(forms.items(), key=lambda x: x[1])
-            lowest_forms = sorted_forms[:min(3, len(sorted_forms))]
+            # Find the most common form
+            most_common_form = max(forms.items(), key=lambda x: x[1])[0]
             
             flagged_lemmas[lemma] = {
                 "data": data,
                 "reason": "form_ratio",
                 "details": [],
                 "highest_forms": high_ratio_forms,
-                "lowest_forms": lowest_forms
+                "most_common_form": most_common_form
             }
             
             for form, freq, ratio in high_ratio_forms:
@@ -248,7 +248,6 @@ def generate_chunked_markdown_reports(flagged_lemmas_by_category, nlp, output_ba
         
         # Skip generating a file if there are no flagged lemmas in this chunk
         if not total_flagged_in_chunk:
-            print(f"No flagged lemmas in rank range {start_rank}-{end_rank}, skipping file")
             continue
         
         # Create output filename
@@ -289,18 +288,10 @@ def generate_chunked_markdown_reports(flagged_lemmas_by_category, nlp, output_ba
                     f.write("| Form | Frequency | Lemmatization |\n")
                     f.write("|------|----------:|---------------|\n")
                     
-                    # For form_ratio, sort and display the most frequent forms first
+                    # For form_ratio, display ALL forms ordered by frequency
                     if reason == "form_ratio":
-                        # Display highest frequency forms first
-                        for form, freq, ratio in info.get("highest_forms", []):
-                            f.write(f"| `{form}` | {freq} | `{test_lemmatization(nlp, form)}` |\n")
-                        
-                        # Then display a few of the lowest frequency forms for comparison
-                        f.write("\n**Lowest frequency forms (for comparison):**\n\n")
-                        f.write("| Form | Frequency | Lemmatization |\n")
-                        f.write("|------|----------:|---------------|\n")
-                        
-                        for form, freq in info.get("lowest_forms", []):
+                        # Display all forms in frequency order
+                        for form, freq in sorted(data["forms"].items(), key=lambda x: x[1], reverse=True):
                             f.write(f"| `{form}` | {freq} | `{test_lemmatization(nlp, form)}` |\n")
                     else:
                         # For other reasons, just display all forms in frequency order
@@ -355,7 +346,15 @@ def generate_chunked_markdown_reports(flagged_lemmas_by_category, nlp, output_ba
                     f.write("\n**Example lemmatization rules to fix (if needed):**\n\n")
                     f.write("```python\n")
                     
-                    if reason == "plural_lemma" and details:
+                    if reason == "form_ratio":
+                        # For form_ratio, suggest mapping all forms with high ratio to the most common form
+                        most_common_form = info.get("most_common_form", "")
+                        if most_common_form:
+                            for detail in details:
+                                high_ratio_form = detail["form"]
+                                f.write(f"{generate_lemmatization_rule(high_ratio_form, most_common_form)}\n")
+                    
+                    elif reason == "plural_lemma" and details:
                         singular_lemma = details[0]["singular_lemma"]
                         f.write(f"{generate_lemmatization_rule(lemma, singular_lemma)}\n")
                         
@@ -409,9 +408,10 @@ def main():
     
     # Load spaCy model for lemmatization
     print(f"Loading spaCy model for language: {args.lang}")
-    nlp = spacy.blank(args.lang)
-    nlp.add_pipe("lemmatizer", config={"mode": "lookup"})
-    nlp.initialize()
+    nlp = create_model(args.lang)
+    if nlp is None:
+        print(f"Error: Could not load spaCy model for language '{args.lang}'.")
+        raise SystemExit(1)
     
     # Load frequency data
     data = load_frequency_data(args.input_file)
