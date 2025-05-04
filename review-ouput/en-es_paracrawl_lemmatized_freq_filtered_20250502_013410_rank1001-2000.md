@@ -9,7 +9,7 @@ Lemmas in this file are ranked between 1001 and 2000 by frequency.
 
 - **Total frequency**: 633389
 - **Log10 rate per billion**: 5.09
-- **Current lemmatization**: `redar -> redar`
+- **Current lemmatization of lemma**: `redar -> redar`
 
 **Forms and their lemmatization:**
 
@@ -53,7 +53,7 @@ lemma_lookup["redes"] = ["redes"]
 
 - **Total frequency**: 631083
 - **Log10 rate per billion**: 5.08
-- **Current lemmatization**: `copiar -> copiar`
+- **Current lemmatization of lemma**: `copiar -> copiar`
 
 **Forms and their lemmatization:**
 
@@ -138,7 +138,7 @@ lemma_lookup["copia"] = ["copia"]
 
 - **Total frequency**: 630973
 - **Log10 rate per billion**: 4.99
-- **Current lemmatization**: `radiar -> radiar`
+- **Current lemmatization of lemma**: `radiar -> radiar`
 
 **Forms and their lemmatization:**
 
@@ -195,7 +195,7 @@ lemma_lookup["Radio"] = ["Radio"]
 
 - **Total frequency**: 628845
 - **Log10 rate per billion**: 5.05
-- **Current lemmatization**: `fotografiar -> fotografiar`
+- **Current lemmatization of lemma**: `fotografiar -> fotografiar`
 
 **Forms and their lemmatization:**
 
@@ -276,7 +276,7 @@ lemma_lookup["fotografías"] = ["fotografía"]
 
 - **Total frequency**: 618701
 - **Log10 rate per billion**: 5.05
-- **Current lemmatization**: `duchar -> duchar`
+- **Current lemmatization of lemma**: `duchar -> duchar`
 
 **Forms and their lemmatization:**
 
@@ -348,7 +348,7 @@ lemma_lookup["Ducha"] = ["ducha"]
 
 - **Total frequency**: 611439
 - **Log10 rate per billion**: 4.93
-- **Current lemmatization**: `resumir -> resumir`
+- **Current lemmatization of lemma**: `resumir -> resumir`
 
 **Forms and their lemmatization:**
 
@@ -427,7 +427,7 @@ lemma_lookup["Resumen"] = ["Resumen"]
 
 - **Total frequency**: 597786
 - **Log10 rate per billion**: 5.07
-- **Current lemmatization**: `finar -> finar`
+- **Current lemmatization of lemma**: `finar -> finar`
 
 **Forms and their lemmatization:**
 
@@ -471,7 +471,7 @@ lemma_lookup["fines"] = ["fines"]
 
 - **Total frequency**: 595864
 - **Log10 rate per billion**: 5.03
-- **Current lemmatization**: `barrer -> barrer`
+- **Current lemmatization of lemma**: `barrer -> barrer`
 
 **Forms and their lemmatization:**
 
@@ -551,7 +551,7 @@ lemma_lookup["barra"] = ["barra"]
 
 - **Total frequency**: 594953
 - **Log10 rate per billion**: 4.97
-- **Current lemmatization**: `filtrar -> filtrar`
+- **Current lemmatization of lemma**: `filtrar -> filtrar`
 
 **Forms and their lemmatization:**
 
@@ -633,7 +633,7 @@ lemma_lookup["Filtro"] = ["Filtro"]
 
 - **Total frequency**: 594676
 - **Log10 rate per billion**: 5.03
-- **Current lemmatization**: `cuartar -> cuartar`
+- **Current lemmatization of lemma**: `cuartar -> cuartar`
 
 **Forms and their lemmatization:**
 
@@ -680,7 +680,7 @@ lemma_lookup["Cuarto"] = ["cuarto"]
 
 - **Total frequency**: 593996
 - **Log10 rate per billion**: 5.01
-- **Current lemmatization**: `potenciar -> potenciar`
+- **Current lemmatization of lemma**: `potenciar -> potenciar`
 
 **Forms and their lemmatization:**
 
@@ -756,7 +756,7 @@ lemma_lookup["Potencia"] = ["potencia"]
 
 - **Total frequency**: 593254
 - **Log10 rate per billion**: 5.02
-- **Current lemmatization**: `licenciar -> licenciar`
+- **Current lemmatization of lemma**: `licenciar -> licenciar`
 
 **Forms and their lemmatization:**
 
@@ -826,7 +826,7 @@ lemma_lookup["Licencia"] = ["licencia"]
 
 - **Total frequency**: 588769
 - **Log10 rate per billion**: 5.05
-- **Current lemmatization**: `calentar -> calentar`
+- **Current lemmatization of lemma**: `calentar -> calentar`
 
 **Forms and their lemmatization:**
 
@@ -901,7 +901,7 @@ lemma_lookup["caliente"] = ["caliente"]
 
 - **Total frequency**: 578301
 - **Log10 rate per billion**: 4.79
-- **Current lemmatization**: `alibaba.com -> alibaba.com`
+- **Current lemmatization of lemma**: `alibaba.com -> alibaba.com`
 
 **Forms and their lemmatization:**
 
@@ -927,7 +927,7 @@ lemma_lookup["Alibaba.com"] = ["Alibaba.com"]
 
 - **Total frequency**: 578054
 - **Log10 rate per billion**: 4.96
-- **Current lemmatization**: `conferenciar -> conferenciar`
+- **Current lemmatization of lemma**: `conferenciar -> conferenciar`
 
 **Forms and their lemmatization:**
 
@@ -979,7 +979,7 @@ lemma_lookup["Conferencias"] = ["Conferencia"]
 
 - **Total frequency**: 562743
 - **Log10 rate per billion**: 4.93
-- **Current lemmatization**: `premiar -> premiar`
+- **Current lemmatization of lemma**: `premiar -> premiar`
 
 **Forms and their lemmatization:**
 
@@ -1058,7 +1058,7 @@ lemma_lookup["Premio"] = ["Premio"]
 
 - **Total frequency**: 546053
 - **Log10 rate per billion**: 4.98
-- **Current lemmatization**: `solar -> solar`
+- **Current lemmatization of lemma**: `solar -> solar`
 
 **Forms and their lemmatization:**
 
@@ -1110,7 +1110,7 @@ lemma_lookup["Solar"] = ["solar"]
 
 - **Total frequency**: 533367
 - **Log10 rate per billion**: 5.04
-- **Current lemmatization**: `adelantar -> adelantar`
+- **Current lemmatization of lemma**: `adelantar -> adelantar`
 
 **Forms and their lemmatization:**
 
@@ -1192,7 +1192,7 @@ lemma_lookup["adelante"] = ["adelante"]
 
 - **Total frequency**: 527437
 - **Log10 rate per billion**: 5.01
-- **Current lemmatization**: `arribar -> arribar`
+- **Current lemmatization of lemma**: `arribar -> arribar`
 
 **Forms and their lemmatization:**
 
@@ -1268,7 +1268,7 @@ lemma_lookup["arriba"] = ["arriba"]
 
 - **Total frequency**: 526453
 - **Log10 rate per billion**: 5.03
-- **Current lemmatization**: `entornar -> entornar`
+- **Current lemmatization of lemma**: `entornar -> entornar`
 
 **Forms and their lemmatization:**
 
@@ -1319,7 +1319,7 @@ lemma_lookup["Entorno"] = ["entorno"]
 
 - **Total frequency**: 517673
 - **Log10 rate per billion**: 4.92
-- **Current lemmatization**: `mangar -> mangar`
+- **Current lemmatization of lemma**: `mangar -> mangar`
 
 **Forms and their lemmatization:**
 
@@ -1378,7 +1378,7 @@ lemma_lookup["Mangas"] = ["manga"]
 
 - **Total frequency**: 517077
 - **Log10 rate per billion**: 4.96
-- **Current lemmatization**: `capar -> capar`
+- **Current lemmatization of lemma**: `capar -> capar`
 
 **Forms and their lemmatization:**
 
@@ -1434,7 +1434,7 @@ lemma_lookup["Cape"] = ["capa"]
 
 - **Total frequency**: 517031
 - **Log10 rate per billion**: 4.95
-- **Current lemmatization**: `gradar -> gradar`
+- **Current lemmatization of lemma**: `gradar -> gradar`
 
 **Forms and their lemmatization:**
 
@@ -1487,7 +1487,7 @@ lemma_lookup["Grado"] = ["grado"]
 
 - **Total frequency**: 514039
 - **Log10 rate per billion**: 5.01
-- **Current lemmatization**: `impactar -> impactar`
+- **Current lemmatization of lemma**: `impactar -> impactar`
 
 **Forms and their lemmatization:**
 
@@ -1560,7 +1560,7 @@ lemma_lookup["impacto"] = ["impacto"]
 
 - **Total frequency**: 510344
 - **Log10 rate per billion**: 4.89
-- **Current lemmatization**: `orientar -> orientar`
+- **Current lemmatization of lemma**: `orientar -> orientar`
 
 **Forms and their lemmatization:**
 
@@ -1639,7 +1639,7 @@ lemma_lookup["Oriente"] = ["Oriente"]
 
 - **Total frequency**: 508629
 - **Log10 rate per billion**: 4.96
-- **Current lemmatization**: `tejer -> tejer`
+- **Current lemmatization of lemma**: `tejer -> tejer`
 
 **Forms and their lemmatization:**
 
@@ -1722,7 +1722,7 @@ lemma_lookup["tejido"] = ["tejido"]
 
 - **Total frequency**: 505867
 - **Log10 rate per billion**: 4.97
-- **Current lemmatization**: `libertar -> libertar`
+- **Current lemmatization of lemma**: `libertar -> libertar`
 
 **Forms and their lemmatization:**
 
@@ -1787,7 +1787,7 @@ lemma_lookup["Libertad"] = ["libertad"]
 
 - **Total frequency**: 495258
 - **Log10 rate per billion**: 5.0
-- **Current lemmatization**: `principiar -> principiar`
+- **Current lemmatization of lemma**: `principiar -> principiar`
 
 **Forms and their lemmatization:**
 
@@ -1843,7 +1843,7 @@ lemma_lookup["Principio"] = ["principio"]
 
 - **Total frequency**: 493769
 - **Log10 rate per billion**: 4.94
-- **Current lemmatization**: `figurar -> figurar`
+- **Current lemmatization of lemma**: `figurar -> figurar`
 
 **Forms and their lemmatization:**
 
@@ -1919,7 +1919,7 @@ lemma_lookup["figura"] = ["figura"]
 
 - **Total frequency**: 493090
 - **Log10 rate per billion**: 5.0
-- **Current lemmatization**: `presenciar -> presenciar`
+- **Current lemmatization of lemma**: `presenciar -> presenciar`
 
 **Forms and their lemmatization:**
 
@@ -1996,7 +1996,7 @@ lemma_lookup["presencia"] = ["presencia"]
 
 - **Total frequency**: 489710
 - **Log10 rate per billion**: 4.93
-- **Current lemmatization**: `pescar -> pescar`
+- **Current lemmatization of lemma**: `pescar -> pescar`
 
 **Forms and their lemmatization:**
 
@@ -2080,7 +2080,7 @@ lemma_lookup["pesca"] = ["pesca"]
 
 - **Total frequency**: 485993
 - **Log10 rate per billion**: 4.99
-- **Current lemmatization**: `durar -> durar`
+- **Current lemmatization of lemma**: `durar -> durar`
 
 **Forms and their lemmatization:**
 
@@ -2161,7 +2161,7 @@ lemma_lookup["duro"] = ["duro"]
 
 - **Total frequency**: 484485
 - **Log10 rate per billion**: 4.94
-- **Current lemmatization**: `vidriar -> vidriar`
+- **Current lemmatization of lemma**: `vidriar -> vidriar`
 
 **Forms and their lemmatization:**
 
@@ -2208,7 +2208,7 @@ lemma_lookup["Vidrio"] = ["vidrio"]
 
 - **Total frequency**: 482749
 - **Log10 rate per billion**: 4.9
-- **Current lemmatization**: `pasear -> pasear`
+- **Current lemmatization of lemma**: `pasear -> pasear`
 
 **Forms and their lemmatization:**
 
@@ -2294,7 +2294,7 @@ lemma_lookup["Paseo"] = ["paseo"]
 
 - **Total frequency**: 482669
 - **Log10 rate per billion**: 4.78
-- **Current lemmatization**: `granar -> granar`
+- **Current lemmatization of lemma**: `granar -> granar`
 
 **Forms and their lemmatization:**
 
@@ -2350,7 +2350,7 @@ lemma_lookup["Granada"] = ["Granada"]
 
 - **Total frequency**: 481919
 - **Log10 rate per billion**: 4.83
-- **Current lemmatization**: `vallar -> vallar`
+- **Current lemmatization of lemma**: `vallar -> vallar`
 
 **Forms and their lemmatization:**
 
@@ -2406,7 +2406,7 @@ lemma_lookup["Valle"] = ["Valle"]
 
 - **Total frequency**: 468649
 - **Log10 rate per billion**: 4.97
-- **Current lemmatization**: `pelar -> pelar`
+- **Current lemmatization of lemma**: `pelar -> pelar`
 
 **Forms and their lemmatization:**
 
@@ -2482,7 +2482,7 @@ lemma_lookup["pelo"] = ["pelo"]
 
 - **Total frequency**: 468454
 - **Log10 rate per billion**: 4.77
-- **Current lemmatization**: `portar -> portar`
+- **Current lemmatization of lemma**: `portar -> portar`
 
 **Forms and their lemmatization:**
 
@@ -2567,7 +2567,7 @@ lemma_lookup["Porto"] = ["Porto"]
 
 - **Total frequency**: 468212
 - **Log10 rate per billion**: 4.98
-- **Current lemmatization**: `penar -> penar`
+- **Current lemmatization of lemma**: `penar -> penar`
 
 **Forms and their lemmatization:**
 
@@ -2630,7 +2630,7 @@ lemma_lookup["pene"] = ["pena"]
 
 - **Total frequency**: 460148
 - **Log10 rate per billion**: 4.9
-- **Current lemmatization**: `prensar -> prensar`
+- **Current lemmatization of lemma**: `prensar -> prensar`
 
 **Forms and their lemmatization:**
 
@@ -2697,7 +2697,7 @@ lemma_lookup["Prensa"] = ["prensa"]
 
 - **Total frequency**: 459264
 - **Log10 rate per billion**: 4.94
-- **Current lemmatization**: `escalar -> escalar`
+- **Current lemmatization of lemma**: `escalar -> escalar`
 
 **Forms and their lemmatization:**
 
@@ -2782,7 +2782,7 @@ lemma_lookup["escala"] = ["escala"]
 
 - **Total frequency**: 453953
 - **Log10 rate per billion**: 4.96
-- **Current lemmatization**: `objetar -> objetar`
+- **Current lemmatization of lemma**: `objetar -> objetar`
 
 **Forms and their lemmatization:**
 
@@ -2849,7 +2849,7 @@ lemma_lookup["objeto"] = ["objeto"]
 
 - **Total frequency**: 446547
 - **Log10 rate per billion**: 4.91
-- **Current lemmatization**: `reglar -> reglar`
+- **Current lemmatization of lemma**: `reglar -> reglar`
 
 **Forms and their lemmatization:**
 
@@ -2905,7 +2905,7 @@ lemma_lookup["Regla"] = ["reglas"]
 
 - **Total frequency**: 443410
 - **Log10 rate per billion**: 4.96
-- **Current lemmatization**: `restar -> restar`
+- **Current lemmatization of lemma**: `restar -> restar`
 
 **Forms and their lemmatization:**
 
@@ -2980,7 +2980,7 @@ lemma_lookup["resto"] = ["resto"]
 
 - **Total frequency**: 441496
 - **Log10 rate per billion**: 4.92
-- **Current lemmatization**: `regalar -> regalar`
+- **Current lemmatization of lemma**: `regalar -> regalar`
 
 **Forms and their lemmatization:**
 
@@ -3064,7 +3064,7 @@ lemma_lookup["regalo"] = ["regalo"]
 
 - **Total frequency**: 440787
 - **Log10 rate per billion**: 4.87
-- **Current lemmatization**: `aventurar -> aventurar`
+- **Current lemmatization of lemma**: `aventurar -> aventurar`
 
 **Forms and their lemmatization:**
 
@@ -3142,7 +3142,7 @@ lemma_lookup["Aventura"] = ["aventura"]
 
 - **Total frequency**: 440598
 - **Log10 rate per billion**: 4.84
-- **Current lemmatization**: `templar -> templar`
+- **Current lemmatization of lemma**: `templar -> templar`
 
 **Forms and their lemmatization:**
 
@@ -3213,7 +3213,7 @@ lemma_lookup["Templo"] = ["Templo"]
 
 - **Total frequency**: 434627
 - **Log10 rate per billion**: 4.93
-- **Current lemmatization**: `marchar -> marchar`
+- **Current lemmatization of lemma**: `marchar -> marchar`
 
 **Forms and their lemmatization:**
 
@@ -3305,7 +3305,7 @@ lemma_lookup["marcha"] = ["marcha"]
 
 - **Total frequency**: 426596
 - **Log10 rate per billion**: 4.85
-- **Current lemmatization**: `medicinar -> medicinar`
+- **Current lemmatization of lemma**: `medicinar -> medicinar`
 
 **Forms and their lemmatization:**
 
@@ -3352,7 +3352,7 @@ lemma_lookup["Medicina"] = ["medicina"]
 
 - **Total frequency**: 423523
 - **Log10 rate per billion**: 4.8
-- **Current lemmatization**: `bailar -> bailar`
+- **Current lemmatization of lemma**: `bailar -> bailar`
 
 **Forms and their lemmatization:**
 
@@ -3442,7 +3442,7 @@ lemma_lookup["Bailar"] = ["Bailar"]
 
 - **Total frequency**: 421414
 - **Log10 rate per billion**: 4.89
-- **Current lemmatization**: `justar -> justar`
+- **Current lemmatization of lemma**: `justar -> justar`
 
 **Forms and their lemmatization:**
 
@@ -3487,7 +3487,7 @@ lemma_lookup["Justo"] = ["justo"]
 
 - **Total frequency**: 416062
 - **Log10 rate per billion**: 4.66
-- **Current lemmatization**: `limar -> limar`
+- **Current lemmatization of lemma**: `limar -> limar`
 
 **Forms and their lemmatization:**
 
@@ -3553,7 +3553,7 @@ lemma_lookup["Lima"] = ["Lima"]
 
 - **Total frequency**: 415097
 - **Log10 rate per billion**: 4.87
-- **Current lemmatization**: `cenar -> cenar`
+- **Current lemmatization of lemma**: `cenar -> cenar`
 
 **Forms and their lemmatization:**
 
@@ -3633,7 +3633,7 @@ lemma_lookup["cena"] = ["cena"]
 
 - **Total frequency**: 412160
 - **Log10 rate per billion**: 4.86
-- **Current lemmatization**: `sedar -> sedar`
+- **Current lemmatization of lemma**: `sedar -> sedar`
 
 **Forms and their lemmatization:**
 
@@ -3698,7 +3698,7 @@ lemma_lookup["Seda"] = ["sede"]
 
 - **Total frequency**: 410320
 - **Log10 rate per billion**: 4.89
-- **Current lemmatization**: `militar -> militar`
+- **Current lemmatization of lemma**: `militar -> militar`
 
 **Forms and their lemmatization:**
 
@@ -3762,7 +3762,7 @@ lemma_lookup["Militar"] = ["militar"]
 
 - **Total frequency**: 401727
 - **Log10 rate per billion**: 4.81
-- **Current lemmatization**: `placer -> placer`
+- **Current lemmatization of lemma**: `placer -> placer`
 
 **Forms and their lemmatization:**
 
@@ -3831,7 +3831,7 @@ lemma_lookup["Place"] = ["placer"]
 
 - **Total frequency**: 398790
 - **Log10 rate per billion**: 4.85
-- **Current lemmatization**: `recetar -> recetar`
+- **Current lemmatization of lemma**: `recetar -> recetar`
 
 **Forms and their lemmatization:**
 
@@ -3896,7 +3896,7 @@ lemma_lookup["receta"] = ["receta"]
 
 - **Total frequency**: 397980
 - **Log10 rate per billion**: 4.89
-- **Current lemmatization**: `humanar -> humanar`
+- **Current lemmatization of lemma**: `humanar -> humanar`
 
 **Forms and their lemmatization:**
 
@@ -3936,7 +3936,7 @@ lemma_lookup["Humano"] = ["humano"]
 
 - **Total frequency**: 396133
 - **Log10 rate per billion**: 4.73
-- **Current lemmatization**: `copar -> copar`
+- **Current lemmatization of lemma**: `copar -> copar`
 
 **Forms and their lemmatization:**
 
@@ -3998,7 +3998,7 @@ lemma_lookup["Copa"] = ["Copa"]
 
 - **Total frequency**: 391623
 - **Log10 rate per billion**: 4.76
-- **Current lemmatization**: `reseñar -> reseñar`
+- **Current lemmatization of lemma**: `reseñar -> reseñar`
 
 **Forms and their lemmatization:**
 
@@ -4067,7 +4067,7 @@ lemma_lookup["Reseña"] = ["Reseña"]
 
 - **Total frequency**: 391589
 - **Log10 rate per billion**: 4.91
-- **Current lemmatization**: `esforzar -> esforzar`
+- **Current lemmatization of lemma**: `esforzar -> esforzar`
 
 **Forms and their lemmatization:**
 
@@ -4143,7 +4143,7 @@ lemma_lookup["esfuerzo"] = ["esfuerzo"]
 
 - **Total frequency**: 389184
 - **Log10 rate per billion**: 4.83
-- **Current lemmatization**: `antiguar -> antiguar`
+- **Current lemmatization of lemma**: `antiguar -> antiguar`
 
 **Forms and their lemmatization:**
 
@@ -4181,7 +4181,7 @@ lemma_lookup["Antiguo"] = ["antiguo"]
 
 - **Total frequency**: 388998
 - **Log10 rate per billion**: 4.9
-- **Current lemmatization**: `pecar -> pecar`
+- **Current lemmatization of lemma**: `pecar -> pecar`
 
 **Forms and their lemmatization:**
 
@@ -4270,7 +4270,7 @@ lemma_lookup["pecado"] = ["pecado"]
 
 - **Total frequency**: 377383
 - **Log10 rate per billion**: 4.83
-- **Current lemmatization**: `descontar -> descontar`
+- **Current lemmatization of lemma**: `descontar -> descontar`
 
 **Forms and their lemmatization:**
 
@@ -4338,7 +4338,7 @@ lemma_lookup["Descuento"] = ["descuento"]
 
 - **Total frequency**: 377150
 - **Log10 rate per billion**: 4.7
-- **Current lemmatization**: `torrar -> torrar`
+- **Current lemmatization of lemma**: `torrar -> torrar`
 
 **Forms and their lemmatization:**
 
@@ -4379,7 +4379,7 @@ lemma_lookup["Torre"] = ["Torre"]
 
 - **Total frequency**: 376705
 - **Log10 rate per billion**: 4.82
-- **Current lemmatization**: `revistar -> revistar`
+- **Current lemmatization of lemma**: `revistar -> revistar`
 
 **Forms and their lemmatization:**
 
@@ -4434,7 +4434,7 @@ lemma_lookup["Revista"] = ["revista"]
 
 - **Total frequency**: 374979
 - **Log10 rate per billion**: 4.87
-- **Current lemmatization**: `embarazar -> embarazar`
+- **Current lemmatization of lemma**: `embarazar -> embarazar`
 
 **Forms and their lemmatization:**
 
@@ -4496,7 +4496,7 @@ lemma_lookup["embarazada"] = ["embarazo"]
 
 - **Total frequency**: 374719
 - **Log10 rate per billion**: 4.78
-- **Current lemmatization**: `arenar -> arenar`
+- **Current lemmatization of lemma**: `arenar -> arenar`
 
 **Forms and their lemmatization:**
 
@@ -4547,7 +4547,7 @@ lemma_lookup["Arenas"] = ["arena"]
 
 - **Total frequency**: 361217
 - **Log10 rate per billion**: 4.87
-- **Current lemmatization**: `motivar -> motivar`
+- **Current lemmatization of lemma**: `motivar -> motivar`
 
 **Forms and their lemmatization:**
 
@@ -4623,7 +4623,7 @@ lemma_lookup["motivo"] = ["motivo"]
 
 - **Total frequency**: 353007
 - **Log10 rate per billion**: 4.84
-- **Current lemmatization**: `ciclar -> ciclar`
+- **Current lemmatization of lemma**: `ciclar -> ciclar`
 
 **Forms and their lemmatization:**
 
@@ -4675,7 +4675,7 @@ lemma_lookup["Ciclo"] = ["ciclo"]
 
 - **Total frequency**: 352432
 - **Log10 rate per billion**: 4.7
-- **Current lemmatization**: `visar -> visar`
+- **Current lemmatization of lemma**: `visar -> visar`
 
 **Forms and their lemmatization:**
 
@@ -4736,7 +4736,7 @@ lemma_lookup["Visa"] = ["Visa"]
 
 - **Total frequency**: 351718
 - **Log10 rate per billion**: 4.75
-- **Current lemmatization**: `rentar -> rentar`
+- **Current lemmatization of lemma**: `rentar -> rentar`
 
 **Forms and their lemmatization:**
 
@@ -4808,7 +4808,7 @@ lemma_lookup["Renta"] = ["renta"]
 
 - **Total frequency**: 343791
 - **Log10 rate per billion**: 4.61
-- **Current lemmatization**: `reglamentar -> reglamentar`
+- **Current lemmatization of lemma**: `reglamentar -> reglamentar`
 
 **Forms and their lemmatization:**
 
@@ -4870,7 +4870,7 @@ lemma_lookup["Reglamento"] = ["Reglamento"]
 
 - **Total frequency**: 341645
 - **Log10 rate per billion**: 4.78
-- **Current lemmatization**: `deportar -> deportar`
+- **Current lemmatization of lemma**: `deportar -> deportar`
 
 **Forms and their lemmatization:**
 
@@ -4934,7 +4934,7 @@ lemma_lookup["Deporte"] = ["deporte"]
 
 - **Total frequency**: 341180
 - **Log10 rate per billion**: 4.61
-- **Current lemmatization**: `serrar -> serrar`
+- **Current lemmatization of lemma**: `serrar -> serrar`
 
 **Forms and their lemmatization:**
 
@@ -4993,7 +4993,7 @@ lemma_lookup["Sierra"] = ["Sierra"]
 
 - **Total frequency**: 338993
 - **Log10 rate per billion**: 4.85
-- **Current lemmatization**: `apropiar -> apropiar`
+- **Current lemmatization of lemma**: `apropiar -> apropiar`
 
 **Forms and their lemmatization:**
 
@@ -5065,7 +5065,7 @@ lemma_lookup["apropiada"] = ["apropiado"]
 
 - **Total frequency**: 337630
 - **Log10 rate per billion**: 4.82
-- **Current lemmatization**: `amigar -> amigar`
+- **Current lemmatization of lemma**: `amigar -> amigar`
 
 **Forms and their lemmatization:**
 
@@ -5111,7 +5111,7 @@ lemma_lookup["Amigo"] = ["amigo"]
 
 - **Total frequency**: 337535
 - **Log10 rate per billion**: 4.83
-- **Current lemmatization**: `elementar -> elementar`
+- **Current lemmatization of lemma**: `elementar -> elementar`
 
 **Forms and their lemmatization:**
 
@@ -5151,7 +5151,7 @@ lemma_lookup["Elemento"] = ["elemento"]
 
 - **Total frequency**: 332982
 - **Log10 rate per billion**: 4.68
-- **Current lemmatization**: `ligar -> ligar`
+- **Current lemmatization of lemma**: `ligar -> ligar`
 
 **Forms and their lemmatization:**
 
@@ -5227,7 +5227,7 @@ lemma_lookup["Liga"] = ["Liga"]
 
 - **Total frequency**: 332272
 - **Log10 rate per billion**: 4.64
-- **Current lemmatization**: `papar -> papar`
+- **Current lemmatization of lemma**: `papar -> papar`
 
 **Forms and their lemmatization:**
 
@@ -5287,7 +5287,7 @@ lemma_lookup["Papa"] = ["Papa"]
 
 - **Total frequency**: 331297
 - **Log10 rate per billion**: 4.7
-- **Current lemmatization**: `secretar -> secretar`
+- **Current lemmatization of lemma**: `secretar -> secretar`
 
 **Forms and their lemmatization:**
 
@@ -5339,7 +5339,7 @@ lemma_lookup["Secretaría"] = ["Secretaría"]
 
 - **Total frequency**: 328891
 - **Log10 rate per billion**: 4.77
-- **Current lemmatization**: `batallar -> batallar`
+- **Current lemmatization of lemma**: `batallar -> batallar`
 
 **Forms and their lemmatization:**
 
@@ -5412,7 +5412,7 @@ lemma_lookup["Batalla"] = ["batalla"]
 
 - **Total frequency**: 328383
 - **Log10 rate per billion**: 4.7
-- **Current lemmatization**: `anillar -> anillar`
+- **Current lemmatization of lemma**: `anillar -> anillar`
 
 **Forms and their lemmatization:**
 
@@ -5462,7 +5462,7 @@ lemma_lookup["Anillo"] = ["Anillo"]
 
 - **Total frequency**: 324964
 - **Log10 rate per billion**: 4.54
-- **Current lemmatization**: `orlar -> orlar`
+- **Current lemmatization of lemma**: `orlar -> orlar`
 
 **Forms and their lemmatization:**
 
@@ -5503,7 +5503,7 @@ lemma_lookup["Orlando"] = ["Orlando"]
 
 - **Total frequency**: 324474
 - **Log10 rate per billion**: 4.83
-- **Current lemmatization**: `implicar -> implicar`
+- **Current lemmatization of lemma**: `implicar -> implicar`
 
 **Forms and their lemmatization:**
 
@@ -5589,7 +5589,7 @@ lemma_lookup["implica"] = ["implica"]
 
 - **Total frequency**: 324350
 - **Log10 rate per billion**: 4.78
-- **Current lemmatization**: `helar -> helar`
+- **Current lemmatization of lemma**: `helar -> helar`
 
 **Forms and their lemmatization:**
 
@@ -5654,7 +5654,7 @@ lemma_lookup["hielo"] = ["hielo"]
 
 - **Total frequency**: 320715
 - **Log10 rate per billion**: 4.81
-- **Current lemmatization**: `razonar -> razonar`
+- **Current lemmatization of lemma**: `razonar -> razonar`
 
 **Forms and their lemmatization:**
 
@@ -5722,7 +5722,7 @@ lemma_lookup["razones"] = ["razones"]
 
 - **Total frequency**: 320438
 - **Log10 rate per billion**: 4.78
-- **Current lemmatization**: `encuestar -> encuestar`
+- **Current lemmatization of lemma**: `encuestar -> encuestar`
 
 **Forms and their lemmatization:**
 
@@ -5789,7 +5789,7 @@ lemma_lookup["Encuesta"] = ["encuesta"]
 
 - **Total frequency**: 312128
 - **Log10 rate per billion**: 4.81
-- **Current lemmatization**: `encimar -> encimar`
+- **Current lemmatization of lemma**: `encimar -> encimar`
 
 **Forms and their lemmatization:**
 
@@ -5840,7 +5840,7 @@ lemma_lookup["Encima"] = ["encima"]
 
 - **Total frequency**: 311050
 - **Log10 rate per billion**: 4.52
-- **Current lemmatization**: `vih -> vih`
+- **Current lemmatization of lemma**: `vih -> vih`
 
 **Forms and their lemmatization:**
 
@@ -5866,7 +5866,7 @@ lemma_lookup["VIH"] = ["VIH"]
 
 - **Total frequency**: 310975
 - **Log10 rate per billion**: 4.66
-- **Current lemmatization**: `escriturar -> escriturar`
+- **Current lemmatization of lemma**: `escriturar -> escriturar`
 
 **Forms and their lemmatization:**
 
@@ -5915,7 +5915,7 @@ lemma_lookup["Escrituras"] = ["Escrituras"]
 
 - **Total frequency**: 306618
 - **Log10 rate per billion**: 4.74
-- **Current lemmatization**: `estacionar -> estacionar`
+- **Current lemmatization of lemma**: `estacionar -> estacionar`
 
 **Forms and their lemmatization:**
 
@@ -5988,7 +5988,7 @@ lemma_lookup["Estaciones"] = ["estaciones"]
 
 - **Total frequency**: 306211
 - **Log10 rate per billion**: 4.77
-- **Current lemmatization**: `presupuestar -> presupuestar`
+- **Current lemmatization of lemma**: `presupuestar -> presupuestar`
 
 **Forms and their lemmatization:**
 
@@ -6048,7 +6048,7 @@ lemma_lookup["Presupuesto"] = ["presupuesto"]
 
 - **Total frequency**: 304352
 - **Log10 rate per billion**: 4.76
-- **Current lemmatization**: `esperanzar -> esperanzar`
+- **Current lemmatization of lemma**: `esperanzar -> esperanzar`
 
 **Forms and their lemmatization:**
 
@@ -6104,7 +6104,7 @@ lemma_lookup["Esperanza"] = ["esperanza"]
 
 - **Total frequency**: 557033
 - **Log10 rate per billion**: 5.01
-- **Current lemmatization**: `gas -> gas`
+- **Current lemmatization of lemma**: `gas -> gas`
 
 **Forms and their lemmatization:**
 
@@ -6141,7 +6141,7 @@ lemma_lookup["GASES"] = ["gar"]
 
 - **Total frequency**: 468991
 - **Log10 rate per billion**: 4.92
-- **Current lemmatization**: `lunes -> lunes`
+- **Current lemmatization of lemma**: `lunes -> lunes`
 
 **Forms and their lemmatization:**
 
@@ -6170,7 +6170,7 @@ lemma_lookup["LUNES"] = ["lun"]
 
 - **Total frequency**: 373123
 - **Log10 rate per billion**: 4.6
-- **Current lemmatization**: `luis -> luis`
+- **Current lemmatization of lemma**: `luis -> luis`
 
 **Forms and their lemmatization:**
 
@@ -6201,7 +6201,7 @@ lemma_lookup["Luis"] = ["luir"]
 
 - **Total frequency**: 340374
 - **Log10 rate per billion**: 4.78
-- **Current lemmatization**: `martes -> martes`
+- **Current lemmatization of lemma**: `martes -> martes`
 
 **Forms and their lemmatization:**
 
@@ -6226,13 +6226,13 @@ lemma_lookup["Martes"] = ["mart"]
 
 ---
 
-## Inconsistent Lemmatization (49 items)
+## Inconsistent Lemmatization (47 items)
 
 ### Lemma: `documento` (Rank: #1028)
 
 - **Total frequency**: 620844
 - **Log10 rate per billion**: 5.08
-- **Current lemmatization**: `documento -> documentar`
+- **Current lemmatization of lemma**: `documento -> documentar`
 
 **Forms and their lemmatization:**
 
@@ -6255,10 +6255,7 @@ lemma_lookup["Martes"] = ["mart"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["documento"] = ["documentar"]
-lemma_lookup["documentos"] = ["documentar"]
-lemma_lookup["DOCUMENTOS"] = ["documentar"]
-lemma_lookup["Documentos"] = ["documentar"]
+lemma_lookup["documento"] = ["documento"]
 ```
 
 ---
@@ -6267,7 +6264,7 @@ lemma_lookup["Documentos"] = ["documentar"]
 
 - **Total frequency**: 613389
 - **Log10 rate per billion**: 5.05
-- **Current lemmatization**: `tienda -> tender`
+- **Current lemmatization of lemma**: `tienda -> tender`
 
 **Forms and their lemmatization:**
 
@@ -6290,10 +6287,7 @@ lemma_lookup["Documentos"] = ["documentar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["tienda"] = ["tender"]
-lemma_lookup["tiendas"] = ["tender"]
-lemma_lookup["TIENDAS"] = ["tender"]
-lemma_lookup["Tiendas"] = ["tender"]
+lemma_lookup["tienda"] = ["tienda"]
 ```
 
 ---
@@ -6302,7 +6296,7 @@ lemma_lookup["Tiendas"] = ["tender"]
 
 - **Total frequency**: 603389
 - **Log10 rate per billion**: 5.08
-- **Current lemmatization**: `activo -> activar`
+- **Current lemmatization of lemma**: `activo -> activar`
 
 **Forms and their lemmatization:**
 
@@ -6331,16 +6325,7 @@ lemma_lookup["Tiendas"] = ["tender"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["activo"] = ["activar"]
-lemma_lookup["activos"] = ["activar"]
-lemma_lookup["activa"] = ["activar"]
-lemma_lookup["activas"] = ["activar"]
-lemma_lookup["ACTIVOS"] = ["activar"]
-lemma_lookup["Activas"] = ["activar"]
-lemma_lookup["ACTIVAS"] = ["activar"]
-lemma_lookup["ACTIVA"] = ["activar"]
-lemma_lookup["Activos"] = ["activar"]
-lemma_lookup["Activa"] = ["activar"]
+lemma_lookup["activo"] = ["activo"]
 ```
 
 ---
@@ -6349,7 +6334,7 @@ lemma_lookup["Activa"] = ["activar"]
 
 - **Total frequency**: 600216
 - **Log10 rate per billion**: 5.06
-- **Current lemmatization**: `prueba -> probar`
+- **Current lemmatization of lemma**: `prueba -> probar`
 
 **Forms and their lemmatization:**
 
@@ -6372,10 +6357,7 @@ lemma_lookup["Activa"] = ["activar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["prueba"] = ["probar"]
-lemma_lookup["pruebas"] = ["probar"]
-lemma_lookup["Pruebas"] = ["probar"]
-lemma_lookup["PRUEBAS"] = ["probar"]
+lemma_lookup["prueba"] = ["prueba"]
 ```
 
 ---
@@ -6384,7 +6366,7 @@ lemma_lookup["PRUEBAS"] = ["probar"]
 
 - **Total frequency**: 599202
 - **Log10 rate per billion**: 5.05
-- **Current lemmatization**: `antiguo -> antiguar`
+- **Current lemmatization of lemma**: `antiguo -> antiguar`
 
 **Forms and their lemmatization:**
 
@@ -6413,16 +6395,7 @@ lemma_lookup["PRUEBAS"] = ["probar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["antiguo"] = ["antiguar"]
-lemma_lookup["antiguas"] = ["antiguar"]
-lemma_lookup["antigua"] = ["antiguar"]
-lemma_lookup["antiguos"] = ["antiguar"]
-lemma_lookup["ANTIGUA"] = ["antiguar"]
-lemma_lookup["Antiguas"] = ["antiguar"]
-lemma_lookup["ANTIGUAS"] = ["antiguar"]
-lemma_lookup["Antigua"] = ["antiguar"]
-lemma_lookup["Antiguos"] = ["antiguar"]
-lemma_lookup["ANTIGUOS"] = ["antiguar"]
+lemma_lookup["antiguo"] = ["antiguo"]
 ```
 
 ---
@@ -6431,7 +6404,7 @@ lemma_lookup["ANTIGUOS"] = ["antiguar"]
 
 - **Total frequency**: 597530
 - **Log10 rate per billion**: 5.02
-- **Current lemmatization**: `centro -> centrar`
+- **Current lemmatization of lemma**: `centro -> centrar`
 
 **Forms and their lemmatization:**
 
@@ -6454,10 +6427,7 @@ lemma_lookup["ANTIGUOS"] = ["antiguar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["centro"] = ["centrar"]
-lemma_lookup["centros"] = ["centrar"]
-lemma_lookup["CENTROS"] = ["centrar"]
-lemma_lookup["Centros"] = ["centrar"]
+lemma_lookup["centro"] = ["centro"]
 ```
 
 ---
@@ -6466,7 +6436,7 @@ lemma_lookup["Centros"] = ["centrar"]
 
 - **Total frequency**: 594664
 - **Log10 rate per billion**: 5.08
-- **Current lemmatization**: `proceso -> procesar`
+- **Current lemmatization of lemma**: `proceso -> procesar`
 
 **Forms and their lemmatization:**
 
@@ -6489,10 +6459,7 @@ lemma_lookup["Centros"] = ["centrar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["proceso"] = ["procesar"]
-lemma_lookup["procesos"] = ["procesar"]
-lemma_lookup["PROCESOS"] = ["procesar"]
-lemma_lookup["Procesos"] = ["procesar"]
+lemma_lookup["proceso"] = ["proceso"]
 ```
 
 ---
@@ -6501,7 +6468,7 @@ lemma_lookup["Procesos"] = ["procesar"]
 
 - **Total frequency**: 588273
 - **Log10 rate per billion**: 5.07
-- **Current lemmatization**: `falto -> faltar`
+- **Current lemmatization of lemma**: `falto -> faltar`
 
 **Forms and their lemmatization:**
 
@@ -6528,14 +6495,7 @@ lemma_lookup["Procesos"] = ["procesar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["falto"] = ["faltar"]
-lemma_lookup["falta"] = ["faltar"]
-lemma_lookup["faltas"] = ["faltar"]
-lemma_lookup["faltos"] = ["faltar"]
-lemma_lookup["Falta"] = ["faltar"]
-lemma_lookup["Faltas"] = ["faltar"]
-lemma_lookup["FALTA"] = ["faltar"]
-lemma_lookup["FALTAS"] = ["faltar"]
+lemma_lookup["falto"] = ["falto"]
 ```
 
 ---
@@ -6544,7 +6504,7 @@ lemma_lookup["FALTAS"] = ["faltar"]
 
 - **Total frequency**: 579898
 - **Log10 rate per billion**: 5.02
-- **Current lemmatization**: `baño -> bañar`
+- **Current lemmatization of lemma**: `baño -> bañar`
 
 **Forms and their lemmatization:**
 
@@ -6567,10 +6527,7 @@ lemma_lookup["FALTAS"] = ["faltar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["baño"] = ["bañar"]
-lemma_lookup["baños"] = ["bañar"]
-lemma_lookup["BAÑOS"] = ["bañar"]
-lemma_lookup["Baños"] = ["bañar"]
+lemma_lookup["baño"] = ["baño"]
 ```
 
 ---
@@ -6579,7 +6536,7 @@ lemma_lookup["Baños"] = ["bañar"]
 
 - **Total frequency**: 576660
 - **Log10 rate per billion**: 4.86
-- **Current lemmatization**: `latino -> latinar`
+- **Current lemmatization of lemma**: `latino -> latinar`
 
 **Forms and their lemmatization:**
 
@@ -6608,16 +6565,7 @@ lemma_lookup["Baños"] = ["bañar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["latino"] = ["latinar"]
-lemma_lookup["latinas"] = ["latinar"]
-lemma_lookup["latina"] = ["latinar"]
-lemma_lookup["latinos"] = ["latinar"]
-lemma_lookup["Latinas"] = ["latinar"]
-lemma_lookup["Latinos"] = ["latinar"]
-lemma_lookup["LATINOS"] = ["latinar"]
-lemma_lookup["Latina"] = ["latinar"]
-lemma_lookup["LATINAS"] = ["latinar"]
-lemma_lookup["LATINA"] = ["latinar"]
+lemma_lookup["latino"] = ["latino"]
 ```
 
 ---
@@ -6626,7 +6574,7 @@ lemma_lookup["LATINA"] = ["latinar"]
 
 - **Total frequency**: 571960
 - **Log10 rate per billion**: 5.04
-- **Current lemmatization**: `beneficio -> beneficiar`
+- **Current lemmatization of lemma**: `beneficio -> beneficiar`
 
 **Forms and their lemmatization:**
 
@@ -6649,10 +6597,7 @@ lemma_lookup["LATINA"] = ["latinar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["beneficio"] = ["beneficiar"]
-lemma_lookup["beneficios"] = ["beneficiar"]
-lemma_lookup["Beneficios"] = ["beneficiar"]
-lemma_lookup["BENEFICIOS"] = ["beneficiar"]
+lemma_lookup["beneficio"] = ["beneficio"]
 ```
 
 ---
@@ -6661,7 +6606,7 @@ lemma_lookup["BENEFICIOS"] = ["beneficiar"]
 
 - **Total frequency**: 540152
 - **Log10 rate per billion**: 5.0
-- **Current lemmatization**: `anuncio -> anunciar`
+- **Current lemmatization of lemma**: `anuncio -> anunciar`
 
 **Forms and their lemmatization:**
 
@@ -6684,10 +6629,7 @@ lemma_lookup["BENEFICIOS"] = ["beneficiar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["anuncio"] = ["anunciar"]
-lemma_lookup["anuncios"] = ["anunciar"]
-lemma_lookup["Anuncios"] = ["anunciar"]
-lemma_lookup["ANUNCIOS"] = ["anunciar"]
+lemma_lookup["anuncio"] = ["anuncio"]
 ```
 
 ---
@@ -6696,7 +6638,7 @@ lemma_lookup["ANUNCIOS"] = ["anunciar"]
 
 - **Total frequency**: 531056
 - **Log10 rate per billion**: 5.0
-- **Current lemmatization**: `objetivo -> objetivar`
+- **Current lemmatization of lemma**: `objetivo -> objetivar`
 
 **Forms and their lemmatization:**
 
@@ -6723,14 +6665,7 @@ lemma_lookup["ANUNCIOS"] = ["anunciar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["objetivo"] = ["objetivar"]
-lemma_lookup["objetivos"] = ["objetivar"]
-lemma_lookup["objetiva"] = ["objetivar"]
-lemma_lookup["objetivas"] = ["objetivar"]
-lemma_lookup["Objetivos"] = ["objetivar"]
-lemma_lookup["Objetiva"] = ["objetivar"]
-lemma_lookup["OBJETIVOS"] = ["objetivar"]
-lemma_lookup["OBJETIVA"] = ["objetivar"]
+lemma_lookup["objetivo"] = ["objetivo"]
 ```
 
 ---
@@ -6739,7 +6674,7 @@ lemma_lookup["OBJETIVA"] = ["objetivar"]
 
 - **Total frequency**: 509958
 - **Log10 rate per billion**: 4.98
-- **Current lemmatization**: `hermano -> hermanar`
+- **Current lemmatization of lemma**: `hermano -> hermanar`
 
 **Forms and their lemmatization:**
 
@@ -6768,16 +6703,7 @@ lemma_lookup["OBJETIVA"] = ["objetivar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["hermano"] = ["hermanar"]
-lemma_lookup["hermana"] = ["hermanar"]
-lemma_lookup["hermanos"] = ["hermanar"]
-lemma_lookup["hermanas"] = ["hermanar"]
-lemma_lookup["HERMANAS"] = ["hermanar"]
-lemma_lookup["Hermana"] = ["hermanar"]
-lemma_lookup["HERMANA"] = ["hermanar"]
-lemma_lookup["HERMANOS"] = ["hermanar"]
-lemma_lookup["Hermanos"] = ["hermanar"]
-lemma_lookup["Hermanas"] = ["hermanar"]
+lemma_lookup["hermano"] = ["hermano"]
 ```
 
 ---
@@ -6786,7 +6712,7 @@ lemma_lookup["Hermanas"] = ["hermanar"]
 
 - **Total frequency**: 468963
 - **Log10 rate per billion**: 4.96
-- **Current lemmatization**: `corto -> cortar`
+- **Current lemmatization of lemma**: `corto -> cortar`
 
 **Forms and their lemmatization:**
 
@@ -6815,16 +6741,7 @@ lemma_lookup["Hermanas"] = ["hermanar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["corto"] = ["cortar"]
-lemma_lookup["corta"] = ["cortar"]
-lemma_lookup["cortas"] = ["cortar"]
-lemma_lookup["cortos"] = ["cortar"]
-lemma_lookup["Corta"] = ["cortar"]
-lemma_lookup["CORTOS"] = ["cortar"]
-lemma_lookup["Cortos"] = ["cortar"]
-lemma_lookup["CORTAS"] = ["cortar"]
-lemma_lookup["CORTA"] = ["cortar"]
-lemma_lookup["Cortas"] = ["cortar"]
+lemma_lookup["corto"] = ["corto"]
 ```
 
 ---
@@ -6833,7 +6750,7 @@ lemma_lookup["Cortas"] = ["cortar"]
 
 - **Total frequency**: 468590
 - **Log10 rate per billion**: 4.96
-- **Current lemmatization**: `requisito -> requerir`
+- **Current lemmatization of lemma**: `requisito -> requerir`
 
 **Forms and their lemmatization:**
 
@@ -6856,10 +6773,7 @@ lemma_lookup["Cortas"] = ["cortar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["requisito"] = ["requerir"]
-lemma_lookup["requisitos"] = ["requerir"]
-lemma_lookup["Requisitos"] = ["requerir"]
-lemma_lookup["REQUISITOS"] = ["requerir"]
+lemma_lookup["requisito"] = ["requisito"]
 ```
 
 ---
@@ -6868,7 +6782,7 @@ lemma_lookup["REQUISITOS"] = ["requerir"]
 
 - **Total frequency**: 460712
 - **Log10 rate per billion**: 4.8
-- **Current lemmatization**: `marino -> marinar`
+- **Current lemmatization of lemma**: `marino -> marinar`
 
 **Forms and their lemmatization:**
 
@@ -6897,16 +6811,7 @@ lemma_lookup["REQUISITOS"] = ["requerir"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["marino"] = ["marinar"]
-lemma_lookup["marinas"] = ["marinar"]
-lemma_lookup["marinos"] = ["marinar"]
-lemma_lookup["marina"] = ["marinar"]
-lemma_lookup["Marina"] = ["marinar"]
-lemma_lookup["MARINAS"] = ["marinar"]
-lemma_lookup["Marinas"] = ["marinar"]
-lemma_lookup["MARINOS"] = ["marinar"]
-lemma_lookup["Marinos"] = ["marinar"]
-lemma_lookup["MARINA"] = ["marinar"]
+lemma_lookup["marino"] = ["marino"]
 ```
 
 ---
@@ -6915,7 +6820,7 @@ lemma_lookup["MARINA"] = ["marinar"]
 
 - **Total frequency**: 456977
 - **Log10 rate per billion**: 4.98
-- **Current lemmatization**: `conocido -> conocer`
+- **Current lemmatization of lemma**: `conocido -> conocer`
 
 **Forms and their lemmatization:**
 
@@ -6944,16 +6849,7 @@ lemma_lookup["MARINA"] = ["marinar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["conocido"] = ["conocer"]
-lemma_lookup["conocidas"] = ["conocer"]
-lemma_lookup["conocidos"] = ["conocer"]
-lemma_lookup["conocida"] = ["conocer"]
-lemma_lookup["Conocida"] = ["conocer"]
-lemma_lookup["CONOCIDA"] = ["conocer"]
-lemma_lookup["Conocidos"] = ["conocer"]
-lemma_lookup["CONOCIDAS"] = ["conocer"]
-lemma_lookup["Conocidas"] = ["conocer"]
-lemma_lookup["CONOCIDOS"] = ["conocer"]
+lemma_lookup["conocido"] = ["conocido"]
 ```
 
 ---
@@ -6962,7 +6858,7 @@ lemma_lookup["CONOCIDOS"] = ["conocer"]
 
 - **Total frequency**: 456355
 - **Log10 rate per billion**: 4.83
-- **Current lemmatization**: `deporte -> deportar`
+- **Current lemmatization of lemma**: `deporte -> deportar`
 
 **Forms and their lemmatization:**
 
@@ -6985,10 +6881,7 @@ lemma_lookup["CONOCIDOS"] = ["conocer"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["deporte"] = ["deportar"]
-lemma_lookup["deportes"] = ["deportar"]
-lemma_lookup["Deportes"] = ["deportar"]
-lemma_lookup["DEPORTES"] = ["deportar"]
+lemma_lookup["deporte"] = ["deporte"]
 ```
 
 ---
@@ -6997,7 +6890,7 @@ lemma_lookup["DEPORTES"] = ["deportar"]
 
 - **Total frequency**: 436715
 - **Log10 rate per billion**: 4.9
-- **Current lemmatization**: `deseo -> desear`
+- **Current lemmatization of lemma**: `deseo -> desear`
 
 **Forms and their lemmatization:**
 
@@ -7020,10 +6913,7 @@ lemma_lookup["DEPORTES"] = ["deportar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["deseo"] = ["desear"]
-lemma_lookup["deseos"] = ["desear"]
-lemma_lookup["Deseos"] = ["desear"]
-lemma_lookup["DESEOS"] = ["desear"]
+lemma_lookup["deseo"] = ["deseo"]
 ```
 
 ---
@@ -7032,7 +6922,7 @@ lemma_lookup["DESEOS"] = ["desear"]
 
 - **Total frequency**: 427614
 - **Log10 rate per billion**: 4.95
-- **Current lemmatization**: `reciente -> recentar`
+- **Current lemmatization of lemma**: `reciente -> recentar`
 
 **Forms and their lemmatization:**
 
@@ -7055,10 +6945,7 @@ lemma_lookup["DESEOS"] = ["desear"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["reciente"] = ["recentar"]
-lemma_lookup["recientes"] = ["recentar"]
-lemma_lookup["Recientes"] = ["recentar"]
-lemma_lookup["RECIENTES"] = ["recentar"]
+lemma_lookup["reciente"] = ["reciente"]
 ```
 
 ---
@@ -7067,7 +6954,7 @@ lemma_lookup["RECIENTES"] = ["recentar"]
 
 - **Total frequency**: 424176
 - **Log10 rate per billion**: 4.92
-- **Current lemmatization**: `principio -> principiar`
+- **Current lemmatization of lemma**: `principio -> principiar`
 
 **Forms and their lemmatization:**
 
@@ -7090,10 +6977,7 @@ lemma_lookup["RECIENTES"] = ["recentar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["principio"] = ["principiar"]
-lemma_lookup["principios"] = ["principiar"]
-lemma_lookup["PRINCIPIOS"] = ["principiar"]
-lemma_lookup["Principios"] = ["principiar"]
+lemma_lookup["principio"] = ["principio"]
 ```
 
 ---
@@ -7102,7 +6986,7 @@ lemma_lookup["Principios"] = ["principiar"]
 
 - **Total frequency**: 414050
 - **Log10 rate per billion**: 4.9
-- **Current lemmatization**: `objeto -> objetar`
+- **Current lemmatization of lemma**: `objeto -> objetar`
 
 **Forms and their lemmatization:**
 
@@ -7125,10 +7009,7 @@ lemma_lookup["Principios"] = ["principiar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["objeto"] = ["objetar"]
-lemma_lookup["objetos"] = ["objetar"]
-lemma_lookup["Objetos"] = ["objetar"]
-lemma_lookup["OBJETOS"] = ["objetar"]
+lemma_lookup["objeto"] = ["objeto"]
 ```
 
 ---
@@ -7137,7 +7018,7 @@ lemma_lookup["OBJETOS"] = ["objetar"]
 
 - **Total frequency**: 410598
 - **Log10 rate per billion**: 4.88
-- **Current lemmatization**: `campo -> campar`
+- **Current lemmatization of lemma**: `campo -> campar`
 
 **Forms and their lemmatization:**
 
@@ -7160,10 +7041,7 @@ lemma_lookup["OBJETOS"] = ["objetar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["campo"] = ["campar"]
-lemma_lookup["campos"] = ["campar"]
-lemma_lookup["Campos"] = ["campar"]
-lemma_lookup["CAMPOS"] = ["campar"]
+lemma_lookup["campo"] = ["campo"]
 ```
 
 ---
@@ -7172,7 +7050,7 @@ lemma_lookup["CAMPOS"] = ["campar"]
 
 - **Total frequency**: 406373
 - **Log10 rate per billion**: 4.87
-- **Current lemmatization**: `fuerza -> forzar`
+- **Current lemmatization of lemma**: `fuerza -> forzar`
 
 **Forms and their lemmatization:**
 
@@ -7195,10 +7073,7 @@ lemma_lookup["CAMPOS"] = ["campar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["fuerza"] = ["forzar"]
-lemma_lookup["fuerzas"] = ["forzar"]
-lemma_lookup["FUERZAS"] = ["forzar"]
-lemma_lookup["Fuerzas"] = ["forzar"]
+lemma_lookup["fuerza"] = ["fuerza"]
 ```
 
 ---
@@ -7207,7 +7082,7 @@ lemma_lookup["Fuerzas"] = ["forzar"]
 
 - **Total frequency**: 405575
 - **Log10 rate per billion**: 4.87
-- **Current lemmatization**: `acepto -> aceptar`
+- **Current lemmatization of lemma**: `acepto -> aceptar`
 
 **Forms and their lemmatization:**
 
@@ -7234,14 +7109,7 @@ lemma_lookup["Fuerzas"] = ["forzar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["acepto"] = ["aceptar"]
-lemma_lookup["acepta"] = ["aceptar"]
-lemma_lookup["aceptas"] = ["aceptar"]
-lemma_lookup["aceptos"] = ["aceptar"]
-lemma_lookup["ACEPTAS"] = ["aceptar"]
-lemma_lookup["Aceptas"] = ["aceptar"]
-lemma_lookup["ACEPTA"] = ["aceptar"]
-lemma_lookup["Acepta"] = ["aceptar"]
+lemma_lookup["acepto"] = ["acepto"]
 ```
 
 ---
@@ -7250,7 +7118,7 @@ lemma_lookup["Acepta"] = ["aceptar"]
 
 - **Total frequency**: 400386
 - **Log10 rate per billion**: 4.89
-- **Current lemmatization**: `espacio -> espaciar`
+- **Current lemmatization of lemma**: `espacio -> espaciar`
 
 **Forms and their lemmatization:**
 
@@ -7273,53 +7141,7 @@ lemma_lookup["Acepta"] = ["aceptar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["espacio"] = ["espaciar"]
-lemma_lookup["espacios"] = ["espaciar"]
-lemma_lookup["ESPACIOS"] = ["espaciar"]
-lemma_lookup["Espacios"] = ["espaciar"]
-```
-
----
-
-### Lemma: `cuenta` (Rank: #1566)
-
-- **Total frequency**: 398394
-- **Log10 rate per billion**: 4.86
-- **Current lemmatization**: `cuenta -> contar`
-
-**Forms and their lemmatization:**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
-| `cuentas` | 296786 | `cuentas -> cuenta` |
-| `Cuentas` | 85346 | `Cuentas -> Cuentas` |
-| `CTA` | 13638 | `CTA -> CTA` |
-| `CUENTAS` | 2350 | `CUENTAS -> CUENTAS` |
-| `Cta` | 198 | `Cta -> Cta` |
-| `cta` | 57 | `cta -> cuenta` |
-| `ctas` | 19 | `ctas -> cuenta` |
-
-**Reason for flagging:**
-
-- Lemma `cuenta` is lemmatized as `contar` by spaCy. The alternative lemma has frequency 4662190.
-
-**Alternative lemma entry (`contar`) information:**
-
-- **Rank**: #92
-- **Total frequency**: 4662190
-- **Forms**: `cuenta`, `contará`, `contaron`, `cuentan`, `contado`, `contéis`, `contamos`, `contados`, `contaba`, `contaría` and more...
-
-**Example lemmatization rules to fix (if needed):**
-
-```python
-lemma_lookup["cuenta"] = ["contar"]
-lemma_lookup["cuentas"] = ["contar"]
-lemma_lookup["ctas"] = ["contar"]
-lemma_lookup["cta"] = ["contar"]
-lemma_lookup["CUENTAS"] = ["contar"]
-lemma_lookup["Cta"] = ["contar"]
-lemma_lookup["CTA"] = ["contar"]
-lemma_lookup["Cuentas"] = ["contar"]
+lemma_lookup["espacio"] = ["espacio"]
 ```
 
 ---
@@ -7328,7 +7150,7 @@ lemma_lookup["Cuentas"] = ["contar"]
 
 - **Total frequency**: 396288
 - **Log10 rate per billion**: 4.87
-- **Current lemmatization**: `gasto -> gastar`
+- **Current lemmatization of lemma**: `gasto -> gastar`
 
 **Forms and their lemmatization:**
 
@@ -7351,10 +7173,7 @@ lemma_lookup["Cuentas"] = ["contar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["gasto"] = ["gastar"]
-lemma_lookup["gastos"] = ["gastar"]
-lemma_lookup["GASTOS"] = ["gastar"]
-lemma_lookup["Gastos"] = ["gastar"]
+lemma_lookup["gasto"] = ["gasto"]
 ```
 
 ---
@@ -7363,7 +7182,7 @@ lemma_lookup["Gastos"] = ["gastar"]
 
 - **Total frequency**: 395860
 - **Log10 rate per billion**: 4.86
-- **Current lemmatization**: `pueblo -> poblar`
+- **Current lemmatization of lemma**: `pueblo -> poblar`
 
 **Forms and their lemmatization:**
 
@@ -7386,10 +7205,7 @@ lemma_lookup["Gastos"] = ["gastar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["pueblo"] = ["poblar"]
-lemma_lookup["pueblos"] = ["poblar"]
-lemma_lookup["PUEBLOS"] = ["poblar"]
-lemma_lookup["Pueblos"] = ["poblar"]
+lemma_lookup["pueblo"] = ["pueblo"]
 ```
 
 ---
@@ -7398,7 +7214,7 @@ lemma_lookup["Pueblos"] = ["poblar"]
 
 - **Total frequency**: 395506
 - **Log10 rate per billion**: 4.86
-- **Current lemmatization**: `hecho -> hacer`
+- **Current lemmatization of lemma**: `hecho -> hacer`
 
 **Forms and their lemmatization:**
 
@@ -7421,10 +7237,7 @@ lemma_lookup["Pueblos"] = ["poblar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["hecho"] = ["hacer"]
-lemma_lookup["hechos"] = ["hacer"]
-lemma_lookup["Hechos"] = ["hacer"]
-lemma_lookup["HECHOS"] = ["hacer"]
+lemma_lookup["hecho"] = ["hecho"]
 ```
 
 ---
@@ -7433,7 +7246,7 @@ lemma_lookup["HECHOS"] = ["hacer"]
 
 - **Total frequency**: 388275
 - **Log10 rate per billion**: 4.87
-- **Current lemmatization**: `impuesto -> imponer`
+- **Current lemmatization of lemma**: `impuesto -> imponer`
 
 **Forms and their lemmatization:**
 
@@ -7456,45 +7269,7 @@ lemma_lookup["HECHOS"] = ["hacer"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["impuesto"] = ["imponer"]
-lemma_lookup["impuestos"] = ["imponer"]
-lemma_lookup["Impuestos"] = ["imponer"]
-lemma_lookup["IMPUESTOS"] = ["imponer"]
-```
-
----
-
-### Lemma: `trabajo` (Rank: #1614)
-
-- **Total frequency**: 386997
-- **Log10 rate per billion**: 4.86
-- **Current lemmatization**: `trabajo -> trabajar`
-
-**Forms and their lemmatization:**
-
-| Form | Frequency | Lemmatization |
-|------|----------:|---------------|
-| `trabajos` | 296495 | `trabajos -> trabajo` |
-| `Trabajos` | 86078 | `Trabajos -> Trabajos` |
-| `TRABAJOS` | 4424 | `TRABAJOS -> TRABAJOS` |
-
-**Reason for flagging:**
-
-- Lemma `trabajo` is lemmatized as `trabajar` by spaCy. The alternative lemma has frequency 5262980.
-
-**Alternative lemma entry (`trabajar`) information:**
-
-- **Rank**: #73
-- **Total frequency**: 5262980
-- **Forms**: `trabajo`, `trabajar`, `trabajando`, `trabaja`, `trabajado`, `trabajaron`, `trabajamos`, `trabajaba`, `trabajan`, `trabajaban` and more...
-
-**Example lemmatization rules to fix (if needed):**
-
-```python
-lemma_lookup["trabajo"] = ["trabajar"]
-lemma_lookup["trabajos"] = ["trabajar"]
-lemma_lookup["TRABAJOS"] = ["trabajar"]
-lemma_lookup["Trabajos"] = ["trabajar"]
+lemma_lookup["impuesto"] = ["impuesto"]
 ```
 
 ---
@@ -7503,7 +7278,7 @@ lemma_lookup["Trabajos"] = ["trabajar"]
 
 - **Total frequency**: 379870
 - **Log10 rate per billion**: 4.8
-- **Current lemmatization**: `mueble -> moblar`
+- **Current lemmatization of lemma**: `mueble -> moblar`
 
 **Forms and their lemmatization:**
 
@@ -7526,10 +7301,7 @@ lemma_lookup["Trabajos"] = ["trabajar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["mueble"] = ["moblar"]
-lemma_lookup["muebles"] = ["moblar"]
-lemma_lookup["Muebles"] = ["moblar"]
-lemma_lookup["MUEBLES"] = ["moblar"]
+lemma_lookup["mueble"] = ["mueble"]
 ```
 
 ---
@@ -7538,7 +7310,7 @@ lemma_lookup["MUEBLES"] = ["moblar"]
 
 - **Total frequency**: 369404
 - **Log10 rate per billion**: 4.87
-- **Current lemmatization**: `ingreso -> ingresar`
+- **Current lemmatization of lemma**: `ingreso -> ingresar`
 
 **Forms and their lemmatization:**
 
@@ -7561,10 +7333,7 @@ lemma_lookup["MUEBLES"] = ["moblar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["ingreso"] = ["ingresar"]
-lemma_lookup["ingresos"] = ["ingresar"]
-lemma_lookup["Ingresos"] = ["ingresar"]
-lemma_lookup["INGRESOS"] = ["ingresar"]
+lemma_lookup["ingreso"] = ["ingreso"]
 ```
 
 ---
@@ -7573,7 +7342,7 @@ lemma_lookup["INGRESOS"] = ["ingresar"]
 
 - **Total frequency**: 365060
 - **Log10 rate per billion**: 4.75
-- **Current lemmatization**: `piso -> pisar`
+- **Current lemmatization of lemma**: `piso -> pisar`
 
 **Forms and their lemmatization:**
 
@@ -7596,10 +7365,7 @@ lemma_lookup["INGRESOS"] = ["ingresar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["piso"] = ["pisar"]
-lemma_lookup["pisos"] = ["pisar"]
-lemma_lookup["Pisos"] = ["pisar"]
-lemma_lookup["PISOS"] = ["pisar"]
+lemma_lookup["piso"] = ["piso"]
 ```
 
 ---
@@ -7608,7 +7374,7 @@ lemma_lookup["PISOS"] = ["pisar"]
 
 - **Total frequency**: 362642
 - **Log10 rate per billion**: 4.86
-- **Current lemmatization**: `interno -> internar`
+- **Current lemmatization of lemma**: `interno -> internar`
 
 **Forms and their lemmatization:**
 
@@ -7637,16 +7403,7 @@ lemma_lookup["PISOS"] = ["pisar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["interno"] = ["internar"]
-lemma_lookup["internas"] = ["internar"]
-lemma_lookup["internos"] = ["internar"]
-lemma_lookup["interna"] = ["internar"]
-lemma_lookup["Internas"] = ["internar"]
-lemma_lookup["INTERNAS"] = ["internar"]
-lemma_lookup["INTERNA"] = ["internar"]
-lemma_lookup["Interna"] = ["internar"]
-lemma_lookup["Internos"] = ["internar"]
-lemma_lookup["INTERNOS"] = ["internar"]
+lemma_lookup["interno"] = ["interno"]
 ```
 
 ---
@@ -7655,7 +7412,7 @@ lemma_lookup["INTERNOS"] = ["internar"]
 
 - **Total frequency**: 353727
 - **Log10 rate per billion**: 4.84
-- **Current lemmatization**: `daño -> dañar`
+- **Current lemmatization of lemma**: `daño -> dañar`
 
 **Forms and their lemmatization:**
 
@@ -7678,10 +7435,7 @@ lemma_lookup["INTERNOS"] = ["internar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["daño"] = ["dañar"]
-lemma_lookup["daños"] = ["dañar"]
-lemma_lookup["Daños"] = ["dañar"]
-lemma_lookup["DAÑOS"] = ["dañar"]
+lemma_lookup["daño"] = ["daño"]
 ```
 
 ---
@@ -7690,7 +7444,7 @@ lemma_lookup["DAÑOS"] = ["dañar"]
 
 - **Total frequency**: 348288
 - **Log10 rate per billion**: 4.8
-- **Current lemmatization**: `destino -> destinar`
+- **Current lemmatization of lemma**: `destino -> destinar`
 
 **Forms and their lemmatization:**
 
@@ -7713,10 +7467,7 @@ lemma_lookup["DAÑOS"] = ["dañar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["destino"] = ["destinar"]
-lemma_lookup["destinos"] = ["destinar"]
-lemma_lookup["DESTINOS"] = ["destinar"]
-lemma_lookup["Destinos"] = ["destinar"]
+lemma_lookup["destino"] = ["destino"]
 ```
 
 ---
@@ -7725,7 +7476,7 @@ lemma_lookup["Destinos"] = ["destinar"]
 
 - **Total frequency**: 343292
 - **Log10 rate per billion**: 4.8
-- **Current lemmatization**: `informe -> informar`
+- **Current lemmatization of lemma**: `informe -> informar`
 
 **Forms and their lemmatization:**
 
@@ -7748,10 +7499,7 @@ lemma_lookup["Destinos"] = ["destinar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["informe"] = ["informar"]
-lemma_lookup["informes"] = ["informar"]
-lemma_lookup["INFORMES"] = ["informar"]
-lemma_lookup["Informes"] = ["informar"]
+lemma_lookup["informe"] = ["informe"]
 ```
 
 ---
@@ -7760,7 +7508,7 @@ lemma_lookup["Informes"] = ["informar"]
 
 - **Total frequency**: 340207
 - **Log10 rate per billion**: 4.81
-- **Current lemmatization**: `rueda -> rodar`
+- **Current lemmatization of lemma**: `rueda -> rodar`
 
 **Forms and their lemmatization:**
 
@@ -7783,10 +7531,7 @@ lemma_lookup["Informes"] = ["informar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["rueda"] = ["rodar"]
-lemma_lookup["ruedas"] = ["rodar"]
-lemma_lookup["Ruedas"] = ["rodar"]
-lemma_lookup["RUEDAS"] = ["rodar"]
+lemma_lookup["rueda"] = ["rueda"]
 ```
 
 ---
@@ -7795,7 +7540,7 @@ lemma_lookup["RUEDAS"] = ["rodar"]
 
 - **Total frequency**: 333051
 - **Log10 rate per billion**: 4.65
-- **Current lemmatization**: `serie -> seriar`
+- **Current lemmatization of lemma**: `serie -> seriar`
 
 **Forms and their lemmatization:**
 
@@ -7818,10 +7563,7 @@ lemma_lookup["RUEDAS"] = ["rodar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["serie"] = ["seriar"]
-lemma_lookup["series"] = ["seriar"]
-lemma_lookup["Series"] = ["seriar"]
-lemma_lookup["SERIES"] = ["seriar"]
+lemma_lookup["serie"] = ["serie"]
 ```
 
 ---
@@ -7830,7 +7572,7 @@ lemma_lookup["SERIES"] = ["seriar"]
 
 - **Total frequency**: 330433
 - **Log10 rate per billion**: 4.81
-- **Current lemmatization**: `calle -> callar`
+- **Current lemmatization of lemma**: `calle -> callar`
 
 **Forms and their lemmatization:**
 
@@ -7853,10 +7595,7 @@ lemma_lookup["SERIES"] = ["seriar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["calle"] = ["callar"]
-lemma_lookup["calles"] = ["callar"]
-lemma_lookup["CALLES"] = ["callar"]
-lemma_lookup["Calles"] = ["callar"]
+lemma_lookup["calle"] = ["calle"]
 ```
 
 ---
@@ -7865,7 +7604,7 @@ lemma_lookup["Calles"] = ["callar"]
 
 - **Total frequency**: 329251
 - **Log10 rate per billion**: 4.81
-- **Current lemmatization**: `nombre -> nombrar`
+- **Current lemmatization of lemma**: `nombre -> nombrar`
 
 **Forms and their lemmatization:**
 
@@ -7888,10 +7627,7 @@ lemma_lookup["Calles"] = ["callar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["nombre"] = ["nombrar"]
-lemma_lookup["nombres"] = ["nombrar"]
-lemma_lookup["Nombres"] = ["nombrar"]
-lemma_lookup["NOMBRES"] = ["nombrar"]
+lemma_lookup["nombre"] = ["nombre"]
 ```
 
 ---
@@ -7900,7 +7636,7 @@ lemma_lookup["NOMBRES"] = ["nombrar"]
 
 - **Total frequency**: 328881
 - **Log10 rate per billion**: 4.66
-- **Current lemmatization**: `asiento -> asentir`
+- **Current lemmatization of lemma**: `asiento -> asentir`
 
 **Forms and their lemmatization:**
 
@@ -7923,10 +7659,7 @@ lemma_lookup["NOMBRES"] = ["nombrar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["asiento"] = ["asentir"]
-lemma_lookup["asientos"] = ["asentir"]
-lemma_lookup["Asientos"] = ["asentir"]
-lemma_lookup["ASIENTOS"] = ["asentir"]
+lemma_lookup["asiento"] = ["asiento"]
 ```
 
 ---
@@ -7935,7 +7668,7 @@ lemma_lookup["ASIENTOS"] = ["asentir"]
 
 - **Total frequency**: 328729
 - **Log10 rate per billion**: 4.8
-- **Current lemmatization**: `quedo -> quedar`
+- **Current lemmatization of lemma**: `quedo -> quedar`
 
 **Forms and their lemmatization:**
 
@@ -7961,13 +7694,7 @@ lemma_lookup["ASIENTOS"] = ["asentir"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["quedo"] = ["quedar"]
-lemma_lookup["queda"] = ["quedar"]
-lemma_lookup["quedas"] = ["quedar"]
-lemma_lookup["quedos"] = ["quedar"]
-lemma_lookup["Quedas"] = ["quedar"]
-lemma_lookup["Queda"] = ["quedar"]
-lemma_lookup["QUEDA"] = ["quedar"]
+lemma_lookup["quedo"] = ["quedo"]
 ```
 
 ---
@@ -7976,7 +7703,7 @@ lemma_lookup["QUEDA"] = ["quedar"]
 
 - **Total frequency**: 317863
 - **Log10 rate per billion**: 4.8
-- **Current lemmatization**: `lleno -> llenar`
+- **Current lemmatization of lemma**: `lleno -> llenar`
 
 **Forms and their lemmatization:**
 
@@ -8004,15 +7731,7 @@ lemma_lookup["QUEDA"] = ["quedar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["lleno"] = ["llenar"]
-lemma_lookup["llena"] = ["llenar"]
-lemma_lookup["llenos"] = ["llenar"]
-lemma_lookup["llenas"] = ["llenar"]
-lemma_lookup["Llenos"] = ["llenar"]
-lemma_lookup["LLENOS"] = ["llenar"]
-lemma_lookup["Llenas"] = ["llenar"]
-lemma_lookup["LLENA"] = ["llenar"]
-lemma_lookup["Llena"] = ["llenar"]
+lemma_lookup["lleno"] = ["lleno"]
 ```
 
 ---
@@ -8021,7 +7740,7 @@ lemma_lookup["Llena"] = ["llenar"]
 
 - **Total frequency**: 314151
 - **Log10 rate per billion**: 4.71
-- **Current lemmatization**: `premio -> premiar`
+- **Current lemmatization of lemma**: `premio -> premiar`
 
 **Forms and their lemmatization:**
 
@@ -8044,10 +7763,7 @@ lemma_lookup["Llena"] = ["llenar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["premio"] = ["premiar"]
-lemma_lookup["premios"] = ["premiar"]
-lemma_lookup["PREMIOS"] = ["premiar"]
-lemma_lookup["Premios"] = ["premiar"]
+lemma_lookup["premio"] = ["premio"]
 ```
 
 ---
@@ -8056,7 +7772,7 @@ lemma_lookup["Premios"] = ["premiar"]
 
 - **Total frequency**: 308413
 - **Log10 rate per billion**: 4.77
-- **Current lemmatization**: `frecuente -> frecuentar`
+- **Current lemmatization of lemma**: `frecuente -> frecuentar`
 
 **Forms and their lemmatization:**
 
@@ -8079,10 +7795,7 @@ lemma_lookup["Premios"] = ["premiar"]
 **Example lemmatization rules to fix (if needed):**
 
 ```python
-lemma_lookup["frecuente"] = ["frecuentar"]
-lemma_lookup["frecuentes"] = ["frecuentar"]
-lemma_lookup["FRECUENTES"] = ["frecuentar"]
-lemma_lookup["Frecuentes"] = ["frecuentar"]
+lemma_lookup["frecuente"] = ["frecuente"]
 ```
 
 ---
@@ -8093,7 +7806,7 @@ lemma_lookup["Frecuentes"] = ["frecuentar"]
 
 - **Total frequency**: 630830
 - **Log10 rate per billion**: 4.83
-- **Current lemmatization**: `ca -> ca`
+- **Current lemmatization of lemma**: `ca -> ca`
 
 **Forms and their lemmatization:**
 
@@ -8134,7 +7847,7 @@ lemma_lookup["ca"] = ["correct_lemma_here"]
 
 - **Total frequency**: 611692
 - **Log10 rate per billion**: 4.81
-- **Current lemmatization**: `ue -> ue`
+- **Current lemmatization of lemma**: `ue -> ue`
 
 **Forms and their lemmatization:**
 
@@ -8167,7 +7880,7 @@ lemma_lookup["ue"] = ["correct_lemma_here"]
 
 - **Total frequency**: 610239
 - **Log10 rate per billion**: 5.03
-- **Current lemmatization**: `fe -> fe`
+- **Current lemmatization of lemma**: `fe -> fe`
 
 **Forms and their lemmatization:**
 
@@ -8206,7 +7919,7 @@ lemma_lookup["fe"] = ["correct_lemma_here"]
 
 - **Total frequency**: 588176
 - **Log10 rate per billion**: 4.81
-- **Current lemmatization**: `n. -> n.`
+- **Current lemmatization of lemma**: `n. -> n.`
 
 **Forms and their lemmatization:**
 
@@ -8237,7 +7950,7 @@ lemma_lookup["n."] = ["correct_lemma_here"]
 
 - **Total frequency**: 557016
 - **Log10 rate per billion**: 4.77
-- **Current lemmatization**: `st -> st`
+- **Current lemmatization of lemma**: `st -> st`
 
 **Forms and their lemmatization:**
 
@@ -8272,7 +7985,7 @@ lemma_lookup["st"] = ["correct_lemma_here"]
 
 - **Total frequency**: 548810
 - **Log10 rate per billion**: 4.82
-- **Current lemmatization**: `t -> t`
+- **Current lemmatization of lemma**: `t -> t`
 
 **Forms and their lemmatization:**
 
@@ -8303,7 +8016,7 @@ lemma_lookup["t"] = ["correct_lemma_here"]
 
 - **Total frequency**: 528278
 - **Log10 rate per billion**: 4.75
-- **Current lemmatization**: `ip -> ip`
+- **Current lemmatization of lemma**: `ip -> ip`
 
 **Forms and their lemmatization:**
 
@@ -8338,7 +8051,7 @@ lemma_lookup["ip"] = ["correct_lemma_here"]
 
 - **Total frequency**: 483061
 - **Log10 rate per billion**: 4.74
-- **Current lemmatization**: `v -> v`
+- **Current lemmatization of lemma**: `v -> v`
 
 **Forms and their lemmatization:**
 
@@ -8369,7 +8082,7 @@ lemma_lookup["v"] = ["correct_lemma_here"]
 
 - **Total frequency**: 471200
 - **Log10 rate per billion**: 5.0
-- **Current lemmatization**: `á -> á`
+- **Current lemmatization of lemma**: `á -> á`
 
 **Forms and their lemmatization:**
 
@@ -8400,7 +8113,7 @@ lemma_lookup["á"] = ["correct_lemma_here"]
 
 - **Total frequency**: 456229
 - **Log10 rate per billion**: 4.77
-- **Current lemmatization**: `d -> d`
+- **Current lemmatization of lemma**: `d -> d`
 
 **Forms and their lemmatization:**
 
@@ -8431,7 +8144,7 @@ lemma_lookup["d"] = ["correct_lemma_here"]
 
 - **Total frequency**: 433116
 - **Log10 rate per billion**: 4.66
-- **Current lemmatization**: `hd -> hd`
+- **Current lemmatization of lemma**: `hd -> hd`
 
 **Forms and their lemmatization:**
 
@@ -8464,7 +8177,7 @@ lemma_lookup["hd"] = ["correct_lemma_here"]
 
 - **Total frequency**: 417296
 - **Log10 rate per billion**: 4.67
-- **Current lemmatization**: `k -> k`
+- **Current lemmatization of lemma**: `k -> k`
 
 **Forms and their lemmatization:**
 
@@ -8495,7 +8208,7 @@ lemma_lookup["k"] = ["correct_lemma_here"]
 
 - **Total frequency**: 397537
 - **Log10 rate per billion**: 4.71
-- **Current lemmatization**: `oh -> oh`
+- **Current lemmatization of lemma**: `oh -> oh`
 
 **Forms and their lemmatization:**
 
@@ -8528,7 +8241,7 @@ lemma_lookup["oh"] = ["correct_lemma_here"]
 
 - **Total frequency**: 396534
 - **Log10 rate per billion**: 4.7
-- **Current lemmatization**: `n -> n`
+- **Current lemmatization of lemma**: `n -> n`
 
 **Forms and their lemmatization:**
 
@@ -8559,7 +8272,7 @@ lemma_lookup["n"] = ["correct_lemma_here"]
 
 - **Total frequency**: 391251
 - **Log10 rate per billion**: 4.62
-- **Current lemmatization**: `hp -> hp`
+- **Current lemmatization of lemma**: `hp -> hp`
 
 **Forms and their lemmatization:**
 
@@ -8592,7 +8305,7 @@ lemma_lookup["hp"] = ["correct_lemma_here"]
 
 - **Total frequency**: 389443
 - **Log10 rate per billion**: 4.84
-- **Current lemmatization**: `by -> by`
+- **Current lemmatization of lemma**: `by -> by`
 
 **Forms and their lemmatization:**
 
@@ -8625,7 +8338,7 @@ lemma_lookup["by"] = ["correct_lemma_here"]
 
 - **Total frequency**: 384509
 - **Log10 rate per billion**: 4.87
-- **Current lemmatization**: `to -> to`
+- **Current lemmatization of lemma**: `to -> to`
 
 **Forms and their lemmatization:**
 
@@ -8658,7 +8371,7 @@ lemma_lookup["to"] = ["correct_lemma_here"]
 
 - **Total frequency**: 382048
 - **Log10 rate per billion**: 4.61
-- **Current lemmatization**: `ce -> ce`
+- **Current lemmatization of lemma**: `ce -> ce`
 
 **Forms and their lemmatization:**
 
@@ -8691,7 +8404,7 @@ lemma_lookup["ce"] = ["correct_lemma_here"]
 
 - **Total frequency**: 359746
 - **Log10 rate per billion**: 4.59
-- **Current lemmatization**: `gb -> gb`
+- **Current lemmatization of lemma**: `gb -> gb`
 
 **Forms and their lemmatization:**
 
@@ -8724,7 +8437,7 @@ lemma_lookup["gb"] = ["correct_lemma_here"]
 
 - **Total frequency**: 355442
 - **Log10 rate per billion**: 4.61
-- **Current lemmatization**: `mb -> mb`
+- **Current lemmatization of lemma**: `mb -> mb`
 
 **Forms and their lemmatization:**
 
@@ -8757,7 +8470,7 @@ lemma_lookup["mb"] = ["correct_lemma_here"]
 
 - **Total frequency**: 348956
 - **Log10 rate per billion**: 4.58
-- **Current lemmatization**: `us -> us`
+- **Current lemmatization of lemma**: `us -> us`
 
 **Forms and their lemmatization:**
 
@@ -8790,7 +8503,7 @@ lemma_lookup["us"] = ["correct_lemma_here"]
 
 - **Total frequency**: 334488
 - **Log10 rate per billion**: 4.57
-- **Current lemmatization**: `r -> r`
+- **Current lemmatization of lemma**: `r -> r`
 
 **Forms and their lemmatization:**
 
@@ -8821,7 +8534,7 @@ lemma_lookup["r"] = ["correct_lemma_here"]
 
 - **Total frequency**: 327475
 - **Log10 rate per billion**: 4.84
-- **Current lemmatization**: `°C -> °C`
+- **Current lemmatization of lemma**: `°C -> °C`
 
 **Forms and their lemmatization:**
 
@@ -8850,7 +8563,7 @@ lemma_lookup["°C"] = ["correct_lemma_here"]
 
 - **Total frequency**: 316227
 - **Log10 rate per billion**: 4.54
-- **Current lemmatization**: `cd -> cd`
+- **Current lemmatization of lemma**: `cd -> cd`
 
 **Forms and their lemmatization:**
 
@@ -8883,7 +8596,7 @@ lemma_lookup["cd"] = ["correct_lemma_here"]
 
 - **Total frequency**: 309141
 - **Log10 rate per billion**: 4.59
-- **Current lemmatization**: `f -> f`
+- **Current lemmatization of lemma**: `f -> f`
 
 **Forms and their lemmatization:**
 
@@ -8914,7 +8627,7 @@ lemma_lookup["f"] = ["correct_lemma_here"]
 
 - **Total frequency**: 302188
 - **Log10 rate per billion**: 4.78
-- **Current lemmatization**: `m2 -> m2`
+- **Current lemmatization of lemma**: `m2 -> m2`
 
 **Forms and their lemmatization:**
 
@@ -8947,7 +8660,7 @@ lemma_lookup["m2"] = ["correct_lemma_here"]
 
 - **Total frequency**: 327475
 - **Log10 rate per billion**: 4.84
-- **Current lemmatization**: `°C -> °C`
+- **Current lemmatization of lemma**: `°C -> °C`
 
 **Forms and their lemmatization:**
 

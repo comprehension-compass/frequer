@@ -281,7 +281,7 @@ def generate_chunked_markdown_reports(flagged_lemmas_by_category, nlp, output_ba
                     f.write(f"### Lemma: `{lemma}` (Rank: #{rank})\n\n")
                     f.write(f"- **Total frequency**: {sum(data['forms'].values())}\n")
                     f.write(f"- **Log10 rate per billion**: {data['log10_rate_per_billion']}\n")
-                    f.write(f"- **Current lemmatization**: `{test_lemmatization(nlp, lemma)}`\n\n")
+                    f.write(f"- **Current lemmatization of lemma**: `{test_lemmatization(nlp, lemma)}`\n\n")
                     
                     # Display forms with their lemmatization
                     f.write("**Forms and their lemmatization:**\n\n")
@@ -365,11 +365,7 @@ def generate_chunked_markdown_reports(flagged_lemmas_by_category, nlp, output_ba
                     
                     elif reason == "inconsistent_lemma" and details:
                         spacy_lemma = details[0]["spacy_lemma"]
-                        f.write(f"{generate_lemmatization_rule(lemma, spacy_lemma)}\n")
-                        
-                        # Add rules for all forms
-                        for form in data["forms"]:
-                            f.write(f"{generate_lemmatization_rule(form, spacy_lemma)}\n")
+                        f.write(f"{generate_lemmatization_rule(lemma, lemma)}\n")
                     
                     else:
                         f.write(f"# To be determined based on review. Some possibilities:\n")
