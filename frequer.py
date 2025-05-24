@@ -217,7 +217,9 @@ def process_sentence_batch(batch, nlp):
     
     for doc in nlp.pipe(batch, batch_size=100):
         for token in doc:
-            if not token.is_punct and not token.is_space:
+            # remove any tokens that are non-linguistic
+            # including punctuation, spaces, numbers, special characters, tokens with no letters, urls, email addresses etc.
+            if not token.is_punct and not token.is_space and not token.is_digit and not token.is_bracket and not token.is_currency and not token.like_url and not token.like_email:
                 lemma = token.lemma_
                 form = token.text
                 local_lemma_counts[lemma] += 1
@@ -615,7 +617,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Process a large corpus file in chunks and create frequency lists")
     parser.add_argument("lang", help="Language code (e.g., 'es' for Spanish)")
     parser.add_argument("input_file", help="Path to the input TSV file")
-    parser.add_argument("--format", choices=["tatoeba", "paracrawl"], default="tatoeba", 
+    parser.add_argument("--format", choices=["tatoeba", "paracrawl"], default="paracrawl", 
                         help="Format of the input file: 'tatoeba' (id,lang,text) or 'paracrawl' (eng,target_lang)")
     parser.add_argument("--chunk-size", type=int, default=10000000, help="Number of sentences to process per chunk")
     parser.add_argument("--min-frequency", type=int, default=3, help="Minimum frequency threshold for lemmas")
