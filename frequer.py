@@ -665,11 +665,6 @@ if __name__ == "__main__":
         print(f"Limited to first {max_lines} lines (test mode)")
     print(f"Start time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     
-    # Delete checkpoint file if not resuming
-    if os.path.exists(checkpoint_file) and not args.resume:
-        print(f"Removing previous checkpoint file: {checkpoint_file}")
-        os.remove(checkpoint_file)
-    
     result_all, result_filtered, stats = process_sentences_in_chunks(
         input_file_path, 
         nlp, 
