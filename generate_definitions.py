@@ -22,6 +22,44 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+@dataclass
+class TokenUsage:
+    """Track token usage for API calls"""
+    read_cached_input_tokens: int = 0
+    written_cached_input_tokens: int = 0
+    uncached_input_tokens: int = 0
+    output_tokens: int = 0
+    
+    def add_anthropic_usage(self, usage_data):
+        """Add Anthropic token usage from API response"""
+        if hasattr(usage_data, 'cache_read_input_tokens'):
+            self.read_cached_input_tokens += usage_data.cache_read_input_tokens or 0
+        if hasattr(usage_data, 'cache_creation_input_tokens'):
+            self.written_cached_input_tokens += usage_data.cache_creation_input_tokens or 0
+        if hasattr(usage_data, 'input_tokens'):
+            # For Anthropic, input_tokens already represents uncached input tokens
+            self.uncached_input_tokens += usage_data.input_tokens or 0
+        if hasattr(usage_data, 'output_tokens'):
+            self.output_tokens += usage_data.output_tokens or 0
+    
+    def add_openai_usage(self, usage_data):
+        """Add OpenAI token usage from API response"""
+        # OpenAI doesn't charge for cache writes, so always 0
+        self.written_cached_input_tokens += 0
+        
+        # Get cached tokens from prompt_tokens_details
+        cached_tokens = 0
+        if hasattr(usage_data, 'prompt_tokens_details') and hasattr(usage_data.prompt_tokens_details, 'cached_tokens'):
+            cached_tokens = usage_data.prompt_tokens_details.cached_tokens or 0
+            self.read_cached_input_tokens += cached_tokens
+        
+        # Calculate uncached input tokens: total prompt tokens - cached tokens
+        total_prompt_tokens = usage_data.prompt_tokens or 0
+        self.uncached_input_tokens += max(0, total_prompt_tokens - cached_tokens)
+        
+        if hasattr(usage_data, 'completion_tokens'):
+            self.output_tokens += usage_data.completion_tokens or 0
+
 # STATIC PROMPT CONTENT - DEFINED ONCE
 STATIC_PROMPT_CONTENT = """You are a Spanish language expert creating concise, English-speaking language learner-focused definitions for Spanish lemmas.
 
@@ -467,10 +505,11 @@ def create_definition_prompt_for_openai(lemmas: List[str]) -> str:
 
 class LLMProvider(ABC):
     def __init__(self):
-        pass
-    
+        self.token_usage = TokenUsage()
+
     @abstractmethod
     def generate_definitions(self, model: str, lemmas: List[str], batch_size: int) -> List[LemmaInfo]:
+        """Generate definitions for a list of lemmas."""
         pass
 
     def _parse_response(self, response: str, original_lemmas: List[str]) -> List[LemmaInfo]:
@@ -617,6 +656,15 @@ class AnthropicProvider(LLMProvider):
                     temperature=0.1
                 )
                 
+                # Track token usage
+                if hasattr(response, 'usage'):
+                    self.token_usage.add_anthropic_usage(response.usage)
+                    logger.info(f"Token usage - Input: {response.usage.input_tokens}, Output: {response.usage.output_tokens}, "
+                              f"Cache Read: {getattr(response.usage, 'cache_read_input_tokens', 0)}, "
+                              f"Cache Creation: {getattr(response.usage, 'cache_creation_input_tokens', 0)}")
+                else:
+                    logger.warning("No usage data found in Anthropic response: {response}")
+                
                 response_text = response.content[0].text
                 logger.debug(f"Raw response: {response_text}")
                 
@@ -677,6 +725,14 @@ class OpenAIProvider(LLMProvider):
                     }],
                     temperature=0.1
                 )
+                
+                # Track token usage
+                if hasattr(response, 'usage'):
+                    self.token_usage.add_openai_usage(response.usage)
+                    logger.info(f"Token usage - Prompt: {response.usage.prompt_tokens}, Completion: {response.usage.completion_tokens}, "
+                              f"Cached: {getattr(response.usage.prompt_tokens_details, 'cached_tokens', 0) if hasattr(response.usage, 'prompt_tokens_details') else 0}")
+                else:
+                    logger.warning("No usage data found in OpenAI response: {response}")
                 
                 response_text = response.choices[0].message.content
                 logger.debug(f"Raw response: {response_text}")
@@ -749,7 +805,13 @@ def process_lemma_file(
         "batch_size": batch_size,
         "limit": limit,
         "start": start,
-        "timestamp": datetime.now().strftime("%Y%m%d_%H%M%S")
+        "timestamp": datetime.now().strftime("%Y%m%d_%H%M%S"),
+        "token_usage": {
+            "read_cached_input_tokens": provider.token_usage.read_cached_input_tokens,
+            "written_cached_input_tokens": provider.token_usage.written_cached_input_tokens,
+            "uncached_input_tokens": provider.token_usage.uncached_input_tokens,
+            "output_tokens": provider.token_usage.output_tokens
+        }
     }
 
     full_output_data = {
@@ -763,6 +825,13 @@ def process_lemma_file(
     
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(full_output_data, f, ensure_ascii=False, indent=2)
+    
+    # Log token usage summary
+    logger.info("=== TOKEN USAGE SUMMARY ===")
+    logger.info(f"Read Cached: {provider.token_usage.read_cached_input_tokens}, "
+               f"Written Cached: {provider.token_usage.written_cached_input_tokens}, "
+               f"Uncached Input: {provider.token_usage.uncached_input_tokens}, "
+               f"Output: {provider.token_usage.output_tokens}")
     
     logger.info(f"Results saved to: {output_file}")
 
