@@ -22,6 +22,62 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# LLM Pricing (per 1M tokens)
+LLM_PRICING = {
+    # OpenAI Models
+    "gpt-4.1": {
+        "provider": "openai",
+        "input": 2.00,
+        "cached_input": 0.50,
+        "output": 8.00,
+        "cache_writes": 0.00  # Free
+    },
+    "gpt-4.1-mini": {
+        "provider": "openai", 
+        "input": 0.40,
+        "cached_input": 0.10,
+        "output": 1.60,
+        "cache_writes": 0.00  # Free
+    },
+    "gpt-4.1-nano": {
+        "provider": "openai",
+        "input": 0.10,
+        "cached_input": 0.025,
+        "output": 0.40,
+        "cache_writes": 0.00  # Free
+    },
+    "gpt-4o-mini": {
+        "provider": "openai",
+        "input": 0.15,
+        "cached_input": 0.075,
+        "output": 0.60,
+        "cache_writes": 0.00  # Free
+    },
+    
+    # Anthropic Models (using 5m cache writes pricing)
+    "claude-sonnet-4": {
+        "provider": "anthropic",
+        "input": 3.00,
+        "cached_input": 0.30,  # Cache hits
+        "output": 15.00,
+        "cache_writes": 3.75  # 5m cache writes
+    },
+    "claude-haiku-3.5": {
+        "provider": "anthropic",
+        "input": 0.80,
+        "cached_input": 0.08,  # Cache hits
+        "output": 4.00,
+        "cache_writes": 1.00  # 5m cache writes
+    },
+    "claude-haiku-3": {
+        "provider": "anthropic",
+        "input": 0.25,
+        "cached_input": 0.03,  # Cache hits
+        "output": 1.25,
+        "cache_writes": 0.30  # 5m cache writes
+    }
+}
+
 @dataclass
 class TokenUsage:
     """Track token usage for API calls"""
@@ -59,6 +115,36 @@ class TokenUsage:
         
         if hasattr(usage_data, 'completion_tokens'):
             self.output_tokens += usage_data.completion_tokens or 0
+    
+    def calculate_cost(self, model_name: str) -> Dict[str, float]:
+        """Calculate cost breakdown based on token usage and model pricing"""
+        if model_name not in LLM_PRICING:
+            return {
+                "uncached_input_cost": 0.0,
+                "cached_input_cost": 0.0,
+                "cache_write_cost": 0.0,
+                "output_cost": 0.0,
+                "total_cost": 0.0,
+                "error": f"Pricing not found for model: {model_name}"
+            }
+        
+        pricing = LLM_PRICING[model_name]
+        
+        # Convert tokens to millions for pricing calculation
+        uncached_input_cost = (self.uncached_input_tokens / 1_000_000) * pricing["input"]
+        cached_input_cost = (self.read_cached_input_tokens / 1_000_000) * pricing["cached_input"]
+        cache_write_cost = (self.written_cached_input_tokens / 1_000_000) * pricing["cache_writes"]
+        output_cost = (self.output_tokens / 1_000_000) * pricing["output"]
+        
+        total_cost = uncached_input_cost + cached_input_cost + cache_write_cost + output_cost
+        
+        return {
+            "uncached_input_cost": round(uncached_input_cost, 6),
+            "cached_input_cost": round(cached_input_cost, 6),
+            "cache_write_cost": round(cache_write_cost, 6),
+            "output_cost": round(output_cost, 6),
+            "total_cost": round(total_cost, 6)
+        }
 
 # STATIC PROMPT CONTENT - DEFINED ONCE
 STATIC_PROMPT_CONTENT = """You are a Spanish language expert creating concise, English-speaking language learner-focused definitions for Spanish lemmas.
@@ -459,12 +545,6 @@ def create_definition_prompt(lemmas: List[str]) -> str:
     """
     return STATIC_PROMPT_CONTENT + create_variable_prompt_content(lemmas)
 
-def get_static_instructions_hash() -> str:
-    """
-    Generate a hash of the static instruction portion of the prompt.
-    This is used for cache key generation.
-    """
-    return hashlib.md5(STATIC_PROMPT_CONTENT.encode()).hexdigest()
 
 def create_definition_prompt_for_anthropic(lemmas: List[str]) -> tuple[list, list]:
     """
@@ -758,6 +838,74 @@ class OpenAIProvider(LLMProvider):
                     ]
                 time.sleep(2 ** attempt)  # Exponential backoff
 
+def generate_definitions_for_lemmas(
+    lemmas: List[str],
+    provider: LLMProvider,
+    model: str,
+    batch_size: int = 5
+) -> Dict[str, Any]:
+    """
+    Generate definitions for a list of lemmas using the specified LLM provider.
+    Returns a dictionary with results and metadata.
+    
+    Args:
+        lemmas: List of lemmas to process
+        provider: LLM provider instance to use for generating definitions
+        model: Model name to use for generating definitions
+        batch_size: Number of lemmas to process in each batch
+        
+    Returns:
+        Dictionary containing:
+        - results: List of LemmaInfo objects
+        - token_usage: TokenUsage object
+        - cost_breakdown: Cost breakdown dictionary
+        - metadata: Processing metadata
+    """
+    logger.info(f"Generating definitions for {len(lemmas)} lemmas using {model}")
+    
+    results = provider.generate_definitions(model, lemmas, batch_size)
+    
+    # Calculate costs
+    cost_breakdown = provider.token_usage.calculate_cost(model)
+    
+    # Log token usage summary
+    logger.info("=== TOKEN USAGE SUMMARY ===")
+    logger.info(f"Read Cached: {provider.token_usage.read_cached_input_tokens}, "
+               f"Written Cached: {provider.token_usage.written_cached_input_tokens}, "
+               f"Uncached Input: {provider.token_usage.uncached_input_tokens}, "
+               f"Output: {provider.token_usage.output_tokens}")
+    
+    # Log cost breakdown
+    if "error" not in cost_breakdown:
+        logger.info("=== COST BREAKDOWN ===")
+        logger.info(f"Uncached Input: ${cost_breakdown['uncached_input_cost']:.6f}")
+        logger.info(f"Cached Input: ${cost_breakdown['cached_input_cost']:.6f}")
+        logger.info(f"Cache Writes: ${cost_breakdown['cache_write_cost']:.6f}")
+        logger.info(f"Output: ${cost_breakdown['output_cost']:.6f}")
+        logger.info(f"TOTAL COST: ${cost_breakdown['total_cost']:.6f}")
+    else:
+        logger.warning(f"Cost calculation error: {cost_breakdown['error']}")
+    
+    metadata = {
+        "model": model,
+        "num_lemmas": len(lemmas),
+        "batch_size": batch_size,
+        "timestamp": datetime.now().strftime("%Y%m%d_%H%M%S"),
+        "token_usage": {
+            "read_cached_input_tokens": provider.token_usage.read_cached_input_tokens,
+            "written_cached_input_tokens": provider.token_usage.written_cached_input_tokens,
+            "uncached_input_tokens": provider.token_usage.uncached_input_tokens,
+            "output_tokens": provider.token_usage.output_tokens
+        },
+        "cost_breakdown": cost_breakdown,
+        "cost_per_10k_lemmas": cost_breakdown["total_cost"] * 10000 / len(lemmas) if len(lemmas) > 0 else 0
+    }
+    
+    return {
+        "results": results,
+        "metadata": metadata
+    }
+
 def process_lemma_file(
     input_file: str,
     output_file: str,
@@ -770,68 +918,84 @@ def process_lemma_file(
     """
     Process a JSON file containing lemmas and generate definitions using the specified LLM provider.
     
+    Expected input format:
+    {
+      "lemmas": {
+        "lemma_name": {
+          "forms": {"form1": count1, "form2": count2, ...},
+          "frequency": total_frequency,
+          "log10_rate_per_billion": rate_value
+        }
+      }
+    }
+    
     Args:
         input_file: Path to the input JSON file containing lemmas and frequencies
         output_file: Path to save the output JSON file with definitions
         provider: LLM provider instance to use for generating definitions
+        model: Model name to use for generating definitions
         batch_size: Number of lemmas to process in each batch
         limit: Optional maximum number of lemmas to process
+        start: Starting index for processing lemmas
     """
     logger.info(f"Processing lemma file: {input_file}")
     
+    # Read input file
     with open(input_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
-    lemmas = list(data.keys())
+    # Validate input structure
+    if "lemmas" not in data:
+        raise ValueError("Input file must contain a 'lemmas' key at the root level")
+    
+    lemmas_data = data["lemmas"]
+    if not isinstance(lemmas_data, dict):
+        raise ValueError("'lemmas' must be a dictionary")
+    
+    # Extract lemmas with optional slicing
+    lemmas = list(lemmas_data.keys())
     if limit:
         logger.info(f"Retrieving {limit} lemmas starting at index {start}: {start} - {start + limit}")
         lemmas = lemmas[start:start + limit]
     
-    results = provider.generate_definitions(model, lemmas, batch_size)
+    # Generate definitions using the core function
+    generation_result = generate_definitions_for_lemmas(lemmas, provider, model, batch_size)
     
-    # Merge results with original frequency data
+    # Merge results with original lemma data
     output_data = {}
-    for lemma_info in results:
-        output_data[lemma_info.lemma] = {
-            "frequency": data[lemma_info.lemma],
+    for lemma_info in generation_result["results"]:
+        # Start with all original data for this lemma
+        lemma_output = lemmas_data[lemma_info.lemma].copy()
+        
+        # Add the generated definition information
+        lemma_output.update({
             "definitions": [vars(def_) for def_ in lemma_info.definitions],
             "should_learn": lemma_info.should_learn,
             "has_error": lemma_info.has_error,
             "error_description": lemma_info.error_description
-        }
+        })
+        
+        output_data[lemma_info.lemma] = lemma_output
 
-    header = {
-        "model": model,
-        "batch_size": batch_size,
+    # Add file-specific metadata
+    header = generation_result["metadata"].copy()
+    header.update({
         "limit": limit,
-        "start": start,
-        "timestamp": datetime.now().strftime("%Y%m%d_%H%M%S"),
-        "token_usage": {
-            "read_cached_input_tokens": provider.token_usage.read_cached_input_tokens,
-            "written_cached_input_tokens": provider.token_usage.written_cached_input_tokens,
-            "uncached_input_tokens": provider.token_usage.uncached_input_tokens,
-            "output_tokens": provider.token_usage.output_tokens
-        }
-    }
+        "start": start
+    })
 
     full_output_data = {
         "header": header,
         "lemmas": output_data
     }
     
+    # Write output file
     output_dir = os.path.dirname(output_file)
     if output_dir:
         os.makedirs(output_dir, exist_ok=True)
     
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(full_output_data, f, ensure_ascii=False, indent=2)
-    
-    # Log token usage summary
-    logger.info("=== TOKEN USAGE SUMMARY ===")
-    logger.info(f"Read Cached: {provider.token_usage.read_cached_input_tokens}, "
-               f"Written Cached: {provider.token_usage.written_cached_input_tokens}, "
-               f"Uncached Input: {provider.token_usage.uncached_input_tokens}, "
-               f"Output: {provider.token_usage.output_tokens}")
     
     logger.info(f"Results saved to: {output_file}")
 
