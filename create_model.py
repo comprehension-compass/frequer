@@ -851,6 +851,10 @@ def create_model(lang):
         lemma_lookup["matices"] = ["matiz"]
         lemma_lookup["recuento"] = ["recuento"]
         lemma_lookup["abismo"] = ["abismo"]
+        lemma_lookup["derecha"] = ["derecha"]
+        lemma_lookup["derechas"] = ["derecha"]
+        lemma_lookup["paulo"] = ["paulo"]
+        lemma_lookup["paula"] = ["paula"]
         
         lemmatizer.cache = {}   
 

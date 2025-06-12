@@ -71,3 +71,41 @@ Processing speed: 321155.35 words/sec, 18236.21 sentences/sec
 
 Wordfreq Comparison:
   Common lemmas found: 703/1000, 1494/2000, 3808/5000
+
+## Definition evaluation
+
+=== QUALITY SCORES ===
+2025-06-12 18:33:18,955 - __main__ - INFO - o4-mini: 8.40/10 (n=5)
+2025-06-12 18:33:18,955 - __main__ - INFO - claude-3.5-haiku: 7.80/10 (n=5)
+2025-06-12 18:33:18,958 - __main__ - INFO - gpt-4.1-mini: 7.60/10 (n=5)
+2025-06-12 18:33:18,958 - __main__ - INFO - claude-3-haiku: 7.20/10 (n=5)
+2025-06-12 18:33:18,958 - __main__ - INFO - gpt-4.1-nano: 6.40/10 (n=5)
+2025-06-12 18:33:18,958 - __main__ - INFO - gpt-4o-mini: 6.00/10 (n=5)
+2025-06-12 18:33:18,958 - __main__ - INFO -
+=== COST ANALYSIS ===
+2025-06-12 18:33:18,958 - __main__ - INFO - gpt-4.1-nano: $0.002565 ($1.03 per 10k definitions)
+2025-06-12 18:33:18,958 - __main__ - INFO - gpt-4o-mini: $0.004107 ($1.64 per 10k definitions)
+2025-06-12 18:33:18,960 - __main__ - INFO - claude-3-haiku: $0.007956 ($3.18 per 10k definitions)
+2025-06-12 18:33:18,998 - __main__ - INFO - gpt-4.1-mini: $0.013234 ($5.29 per 10k definitions)
+2025-06-12 18:33:18,998 - __main__ - INFO - claude-3.5-haiku: $0.025234 ($10.09 per 10k definitions)
+2025-06-12 18:33:18,998 - __main__ - INFO - o4-mini: $0.094771 ($37.91 per 10k definitions)
+
+=== QUALITY SCORES ===
+2025-06-12 20:25:56,918 - __main__ - INFO - o4-mini: 8.20/10 (n=5)
+2025-06-12 20:25:56,918 - __main__ - INFO - claude-4-sonnet: 8.00/10 (n=5)
+2025-06-12 20:25:56,918 - __main__ - INFO - claude-3.5-haiku: 7.60/10 (n=5)
+2025-06-12 20:25:56,918 - __main__ - INFO -
+=== COST ANALYSIS ===
+2025-06-12 20:25:56,918 - __main__ - INFO - claude-3.5-haiku: $0.026525 ($10.61 per 10k definitions)        
+2025-06-12 20:25:56,918 - __main__ - INFO - claude-4-sonnet: $0.081618 ($32.65 per 10k definitions)
+2025-06-12 20:25:56,918 - __main__ - INFO - o4-mini: $0.099045 ($39.62 per 10k definitions)
+
+=== QUALITY SCORES ===
+2025-06-12 20:42:55,416 - __main__ - INFO - claude-4-sonnet: 8.20/10 (n=5)
+2025-06-12 20:42:55,416 - __main__ - INFO - claude-3.5-haiku: 7.40/10 (n=5)
+2025-06-12 20:42:55,420 - __main__ - INFO - o4-mini: 6.60/10 (n=5)
+2025-06-12 20:42:55,422 - __main__ - INFO -
+=== COST ANALYSIS ===
+2025-06-12 20:42:55,422 - __main__ - INFO - claude-3.5-haiku: $0.025990 ($10.40 per 10k definitions)        
+2025-06-12 20:42:55,422 - __main__ - INFO - o4-mini: $0.085331 ($34.13 per 10k definitions)
+2025-06-12 20:42:55,424 - __main__ - INFO - claude-4-sonnet: $0.100086 ($40.03 per 10k definitions)

@@ -1,0 +1,1046 @@
+{
+  "header": {
+    "model": "o4-mini-2025-04-16",
+    "num_lemmas": 25,
+    "batch_size": 5,
+    "timestamp": "20250612_204149",
+    "token_usage": {
+      "read_cached_input_tokens": 23040,
+      "written_cached_input_tokens": 0,
+      "uncached_input_tokens": 854,
+      "output_tokens": 17740
+    },
+    "cost_breakdown": {
+      "uncached_input_cost": 0.000939,
+      "cached_input_cost": 0.006336,
+      "cache_write_cost": 0.0,
+      "output_cost": 0.078056,
+      "total_cost": 0.085331
+    },
+    "cost_per_10k_lemmas": 34.132400000000004,
+    "limit": null,
+    "start": 0
+  },
+  "lemmas": {
+    "excursión": {
+      "forms": {
+        "excursión": 92239,
+        "excursiones": 94214,
+        "Excursiones": 55576,
+        "EXCURSIONES": 2094,
+        "EXCURSIÓN": 1164,
+        "Excursión": 85816
+      },
+      "frequency": 258778,
+      "log10_rate_per_billion": 4.74,
+      "definitions": [
+        {
+          "definition": "outing, short trip",
+          "gloss": "trip",
+          "part_of_speech": "noun",
+          "example_sentence": "Hicimos una {{c1:excursión}} a la montaña.",
+          "example_translation": "We took a trip to the mountain.",
+          "gender": "feminine",
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        }
+      ],
+      "should_learn": true,
+      "has_error": false,
+      "error_description": null
+    },
+    "cáncer": {
+      "forms": {
+        "cánceres": 27903,
+        "cáncer": 517693,
+        "Cáncer": 131590,
+        "CáNCER": 10,
+        "CÁNCERES": 16,
+        "CÁNCER": 2168,
+        "Cánceres": 1610
+      },
+      "frequency": 613293,
+      "log10_rate_per_billion": 5.12,
+      "definitions": [
+        {
+          "definition": "cancer (disease)",
+          "gloss": "cancer",
+          "part_of_speech": "noun",
+          "example_sentence": "El {{c1:cáncer}} es una enfermedad grave.",
+          "example_translation": "Cancer is a serious disease.",
+          "gender": "masculine",
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        }
+      ],
+      "should_learn": true,
+      "has_error": false,
+      "error_description": null
+    },
+    "implante": {
+      "forms": {
+        "implante": 26784,
+        "implantes": 38717,
+        "Implantes": 8516,
+        "IMPLANTeS": 6,
+        "IMPLANTES": 510,
+        "IMPLANTE": 184,
+        "Implante": 3420
+      },
+      "frequency": 71819,
+      "log10_rate_per_billion": 4.19,
+      "definitions": [
+        {
+          "definition": "implant (medical device)",
+          "gloss": "implant",
+          "part_of_speech": "noun",
+          "example_sentence": "El doctor puso un {{c1:implante}} dental ayer.",
+          "example_translation": "The doctor put in a dental implant yesterday.",
+          "gender": "masculine",
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        }
+      ],
+      "should_learn": true,
+      "has_error": false,
+      "error_description": null
+    },
+    "auricular": {
+      "forms": {
+        "auriculares": 71722,
+        "auricular": 30557,
+        "Auriculares": 76204,
+        "AURICULAR": 414,
+        "Auricular": 16876,
+        "AURICULARES": 580
+      },
+      "frequency": 149316,
+      "log10_rate_per_billion": 4.51,
+      "definitions": [
+        {
+          "definition": "earpiece, telephone receiver",
+          "gloss": "earpiece",
+          "part_of_speech": "noun",
+          "example_sentence": "Levanta el {{c1:auricular}} para contestar.",
+          "example_translation": "Lift the handset to answer.",
+          "gender": "masculine",
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        },
+        {
+          "definition": "relating to the ear",
+          "gloss": "aural",
+          "part_of_speech": "adjective",
+          "example_sentence": "Él tiene dolor {{c1:auricular}}.",
+          "example_translation": "He has ear pain.",
+          "gender": "both",
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        }
+      ],
+      "should_learn": true,
+      "has_error": false,
+      "error_description": null
+    },
+    "montreal": {
+      "forms": {
+        "montreal": 129,
+        "MONTREAL": 1482,
+        "Montreal": 286182,
+        "MOntreal": 6
+      },
+      "frequency": 143964,
+      "log10_rate_per_billion": 4.49,
+      "definitions": [
+        {
+          "definition": "Montreal (city in Canada)",
+          "gloss": "Montreal",
+          "part_of_speech": "noun",
+          "example_sentence": "Visitamos {{c1:montreal}} el año pasado.",
+          "example_translation": "We visited Montreal last year.",
+          "gender": "feminine",
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        }
+      ],
+      "should_learn": false,
+      "has_error": false,
+      "error_description": null
+    },
+    "olor": {
+      "forms": {
+        "olor": 79700,
+        "olores": 32291,
+        "Olor": 5762,
+        "OLORES": 178,
+        "Olores": 1968,
+        "OLOR": 362
+      },
+      "frequency": 116126,
+      "log10_rate_per_billion": 4.4,
+      "definitions": [
+        {
+          "definition": "smell, odor",
+          "gloss": "smell",
+          "part_of_speech": "noun",
+          "example_sentence": "El {{c1:olor}} de las flores es dulce.",
+          "example_translation": "The smell of the flowers is sweet.",
+          "gender": "masculine",
+          "verb_group": null,
+          "accompanying_preposition": "a",
+          "case_triggered": null,
+          "transitiveness": null
+        }
+      ],
+      "should_learn": true,
+      "has_error": false,
+      "error_description": null
+    },
+    "center": {
+      "forms": {
+        "center": 9189,
+        "Center": 301614,
+        "CENTER": 4594
+      },
+      "frequency": 162293,
+      "log10_rate_per_billion": 4.54,
+      "definitions": [
+        {
+          "definition": "center (English word, not Spanish)",
+          "gloss": "center",
+          "part_of_speech": "noun",
+          "example_sentence": "La palabra {{c1:center}} no existe en español.",
+          "example_translation": "The word center does not exist in Spanish.",
+          "gender": "masculine",
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        }
+      ],
+      "should_learn": false,
+      "has_error": false,
+      "error_description": null
+    },
+    "desafío": {
+      "forms": {
+        "desafíos": 151466,
+        "desafío": 111845,
+        "desafÍos": 8,
+        "DESAFÍO": 1062,
+        "DESAFíO": 14,
+        "Desafíos": 14700,
+        "DESAFÍOS": 930,
+        "Desafío": 28558
+      },
+      "frequency": 285947,
+      "log10_rate_per_billion": 4.79,
+      "definitions": [
+        {
+          "definition": "challenge",
+          "gloss": "challenge",
+          "part_of_speech": "noun",
+          "example_sentence": "El {{c1:desafío}} fue difícil.",
+          "example_translation": "The challenge was difficult.",
+          "gender": "masculine",
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        }
+      ],
+      "should_learn": true,
+      "has_error": false,
+      "error_description": null
+    },
+    "introducción": {
+      "forms": {
+        "introducción": 109708,
+        "introducciones": 1830,
+        "Introducción": 277314,
+        "Introducciones": 804,
+        "introducciÓn": 10,
+        "INTRODUCCIÓN": 18856,
+        "INTRODUCCiÓN": 8,
+        "INtroducción": 6,
+        "INTRODUCCIóN": 70,
+        "IntroducciÓn": 6,
+        "INTRODUCCIONES": 16
+      },
+      "frequency": 260083,
+      "log10_rate_per_billion": 4.75,
+      "definitions": [
+        {
+          "definition": "introduction",
+          "gloss": "introduction",
+          "part_of_speech": "noun",
+          "example_sentence": "La {{c1:introducción}} del libro es breve.",
+          "example_translation": "The book's introduction is brief.",
+          "gender": "feminine",
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        }
+      ],
+      "should_learn": true,
+      "has_error": false,
+      "error_description": null
+    },
+    "ilimitado": {
+      "forms": {
+        "ilimitado": 63040,
+        "ilimitada": 21112,
+        "ilimitadas": 16336,
+        "ilimitados": 17552,
+        "Ilimitadas": 1394,
+        "Ilimitados": 1540,
+        "ILIMITADO": 1062,
+        "Ilimitado": 7654,
+        "ILIMITADOS": 256,
+        "Ilimitada": 1150,
+        "ILIMITADAS": 238,
+        "iLimitada": 8,
+        "ILIMITADA": 302
+      },
+      "frequency": 124842,
+      "log10_rate_per_billion": 4.43,
+      "definitions": [
+        {
+          "definition": "unlimited",
+          "gloss": "unlimited",
+          "part_of_speech": "adjective",
+          "example_sentence": "El acceso es {{c1:ilimitado}}.",
+          "example_translation": "Access is unlimited.",
+          "gender": "masculine",
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        }
+      ],
+      "should_learn": true,
+      "has_error": false,
+      "error_description": null
+    },
+    "seco": {
+      "forms": {
+        "seca": 105882,
+        "seco": 146068,
+        "secos": 57572,
+        "secas": 36198,
+        "SECA": 1202,
+        "Seca": 17976,
+        "Secos": 3422,
+        "SECO": 2138,
+        "SeCo": 24,
+        "Secas": 2352,
+        "SECOS": 390,
+        "Seco": 25140,
+        "SeCoS": 950,
+        "SECAS": 198
+      },
+      "frequency": 372616,
+      "log10_rate_per_billion": 4.9,
+      "definitions": [
+        {
+          "definition": "dry",
+          "gloss": "dry",
+          "part_of_speech": "adjective",
+          "example_sentence": "El aire está {{c1:seco}}.",
+          "example_translation": "The air is dry.",
+          "gender": "masculine",
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        }
+      ],
+      "should_learn": true,
+      "has_error": false,
+      "error_description": null
+    },
+    "aviv": {
+      "forms": {
+        "aviv": 130,
+        "AVIV": 416,
+        "Aviv": 126540
+      },
+      "frequency": 63608,
+      "log10_rate_per_billion": 4.14,
+      "definitions": [
+        {
+          "definition": "non-Spanish word",
+          "gloss": "nonsense",
+          "part_of_speech": "noun",
+          "example_sentence": "La palabra {{c1:aviv}} no existe en español.",
+          "example_translation": "The word aviv does not exist in Spanish.",
+          "gender": null,
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        }
+      ],
+      "should_learn": false,
+      "has_error": true,
+      "error_description": "non-Spanish word"
+    },
+    "a.": {
+      "forms": {
+        "a.": 44262,
+        "A.": 230286
+      },
+      "frequency": 159405,
+      "log10_rate_per_billion": 4.53,
+      "definitions": [
+        {
+          "definition": "non-standard abbreviation",
+          "gloss": "abbreviation",
+          "part_of_speech": "noun",
+          "example_sentence": "La expresión {{c1:a.}} no existe en español.",
+          "example_translation": "The expression 'a.' does not exist in Spanish.",
+          "gender": null,
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        }
+      ],
+      "should_learn": false,
+      "has_error": true,
+      "error_description": "non-Spanish abbreviation"
+    },
+    "calmo": {
+      "forms": {
+        "calma": 56552,
+        "calmas": 1006,
+        "calmos": 261,
+        "Calmas": 218,
+        "Calma": 20798,
+        "CALMAS": 12,
+        "Calmos": 12,
+        "CALMA": 766
+      },
+      "frequency": 68722,
+      "log10_rate_per_billion": 4.17,
+      "definitions": [
+        {
+          "definition": "calm",
+          "gloss": "calm",
+          "part_of_speech": "adjective",
+          "example_sentence": "El mar está {{c1:calmo}} hoy.",
+          "example_translation": "The sea is calm today.",
+          "gender": "masculine",
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        }
+      ],
+      "should_learn": true,
+      "has_error": false,
+      "error_description": null
+    },
+    "invocar": {
+      "forms": {
+        "invocan": 3993,
+        "invocando": 3352,
+        "invocamos": 1319,
+        "invoca": 6268,
+        "invocado": 5138,
+        "invocó": 3041,
+        "invoquen": 787,
+        "invocadas": 804,
+        "invocar": 11649,
+        "invoco": 1697,
+        "invoque": 1547,
+        "invocarán": 532,
+        "invocaron": 853,
+        "invocas": 249,
+        "invocados": 1035,
+        "invoqué": 685,
+        "invocáis": 418,
+        "invocad": 355,
+        "invoquemos": 198,
+        "invocarás": 157,
+        "invocada": 1468,
+        "invocare": 1123,
+        "invocaban": 538,
+        "invocaba": 655,
+        "invocará": 809,
+        "invoquéis": 71,
+        "invocase": 62,
+        "invocáremos": 33,
+        "invocaré": 660,
+        "invocaremos": 147,
+        "invocaréis": 152,
+        "invocaste": 64,
+        "invocaría": 127,
+        "invocara": 207,
+        "invocaren": 99,
+        "invocaras": 7,
+        "invoques": 91,
+        "invocáramos": 20,
+        "invocasen": 19,
+        "invocásemos": 5,
+        "invocaran": 49,
+        "invocarais": 7,
+        "invocasteis": 2,
+        "invocarían": 9,
+        "invocábamos": 22,
+        "invocabais": 18,
+        "invocaríamos": 7,
+        "invocabas": 5,
+        "invocareis": 3,
+        "invocaseis": 1,
+        "invocares": 2,
+        "invocaríais": 1,
+        "INVOCADO": 42,
+        "INVOCO": 20,
+        "INVOQUE": 78,
+        "Invocarás": 8,
+        "INVOCAN": 6,
+        "Invocaban": 84,
+        "Invocaran": 6,
+        "INVOCA": 32,
+        "Invocaste": 26,
+        "Invocadas": 26,
+        "Invocan": 108,
+        "INVOCANDO": 26,
+        "Invoquen": 166,
+        "Invocaba": 20,
+        "Invocamos": 328,
+        "Invocaré": 428,
+        "Invoque": 178,
+        "Invocas": 414,
+        "Invocaron": 82,
+        "INVOCARE": 20,
+        "Invocaremos": 30,
+        "INVOCAR": 36,
+        "Invocado": 1906,
+        "Invoca": 7476,
+        "Invocará": 130,
+        "Invoqué": 278,
+        "Invocad": 476,
+        "Invocase": 6,
+        "INVOCAMOS": 12,
+        "Invoquemos": 338,
+        "Invocara": 24,
+        "Invocarán": 72,
+        "Invoco": 808,
+        "Invocaréis": 28,
+        "Invocáis": 14,
+        "Invocados": 566,
+        "Invocar": 7394,
+        "Invoques": 42,
+        "Invocando": 858,
+        "Invocó": 814,
+        "Invocada": 3384
+      },
+      "frequency": 63955,
+      "log10_rate_per_billion": 4.14,
+      "definitions": [
+        {
+          "definition": "to invoke, call upon",
+          "gloss": "invoke",
+          "part_of_speech": "verb",
+          "example_sentence": "Los magos {{c1:invocan}} a los espíritus.",
+          "example_translation": "The magicians invoke the spirits.",
+          "gender": null,
+          "verb_group": "1st conjugation (-ar)",
+          "accompanying_preposition": "a",
+          "case_triggered": null,
+          "transitiveness": "transitive"
+        }
+      ],
+      "should_learn": true,
+      "has_error": false,
+      "error_description": null
+    },
+    "presente": {
+      "forms": {
+        "presentes": 234060,
+        "presente": 703385,
+        "PRESENTES": 2142,
+        "PRESENTE": 9210,
+        "Presentes": 2558,
+        "Presente": 21604
+      },
+      "frequency": 955202,
+      "log10_rate_per_billion": 5.31,
+      "definitions": [
+        {
+          "definition": "gift, present",
+          "gloss": "present",
+          "part_of_speech": "noun",
+          "example_sentence": "Ella abrió el {{c1:presente}}.",
+          "example_translation": "She opened the present.",
+          "gender": "masculine",
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        },
+        {
+          "definition": "present time",
+          "gloss": "present",
+          "part_of_speech": "noun",
+          "example_sentence": "Vivimos en el {{c1:presente}}.",
+          "example_translation": "We live in the present.",
+          "gender": "masculine",
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        },
+        {
+          "definition": "present, here",
+          "gloss": "present",
+          "part_of_speech": "adjective",
+          "example_sentence": "Estoy {{c1:presente}} en la reunión.",
+          "example_translation": "I am present at the meeting.",
+          "gender": "both",
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        }
+      ],
+      "should_learn": true,
+      "has_error": false,
+      "error_description": null
+    },
+    "ayudarlo": {
+      "forms": {
+        "ayudarlo": 73070,
+        "Ayudarlo": 872,
+        "AYUDARLO": 92
+      },
+      "frequency": 73552,
+      "log10_rate_per_billion": 4.2,
+      "definitions": [],
+      "should_learn": false,
+      "has_error": true,
+      "error_description": "Not a valid lemma: contains enclitic pronoun lo"
+    },
+    "oporto": {
+      "forms": {
+        "oporto": 927,
+        "oportos": 38,
+        "OPorto": 42,
+        "OPORTO": 410,
+        "Oporto": 158730,
+        "Oportos": 82
+      },
+      "frequency": 80597,
+      "log10_rate_per_billion": 4.24,
+      "definitions": [
+        {
+          "definition": "Porto (city in Portugal)",
+          "gloss": "Porto",
+          "part_of_speech": "noun",
+          "example_sentence": "Visitamos {{c1:Oporto}} el año pasado.",
+          "example_translation": "We visited Porto last year.",
+          "gender": null,
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        }
+      ],
+      "should_learn": true,
+      "has_error": false,
+      "error_description": null
+    },
+    "it": {
+      "forms": {
+        "it": 23139,
+        "iT": 210,
+        "IT": 90174,
+        "It": 34668
+      },
+      "frequency": 85665,
+      "log10_rate_per_billion": 4.26,
+      "definitions": [
+        {
+          "definition": "it (English pronoun)",
+          "gloss": "it",
+          "part_of_speech": "pronoun",
+          "example_sentence": "La palabra {{c1:it}} es un pronombre en inglés.",
+          "example_translation": "The word ‘it’ is an English pronoun.",
+          "gender": null,
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        }
+      ],
+      "should_learn": false,
+      "has_error": false,
+      "error_description": null
+    },
+    "grabar": {
+      "forms": {
+        "grabada": 26023,
+        "grabado": 74501,
+        "graban": 4622,
+        "graba": 12242,
+        "grabar": 77395,
+        "grabados": 26303,
+        "grabadas": 14040,
+        "grabe": 2748,
+        "grabaron": 3402,
+        "graben": 738,
+        "grabará": 1567,
+        "grababan": 422,
+        "grababa": 886,
+        "grabando": 8250,
+        "grabó": 9905,
+        "grabamos": 2450,
+        "grabarán": 640,
+        "grabé": 1112,
+        "grabas": 912,
+        "grabaran": 188,
+        "grabo": 716,
+        "grabes": 472,
+        "grabemos": 151,
+        "grabad": 40,
+        "grabaseis": 1,
+        "grabase": 63,
+        "grabasen": 30,
+        "grabábamos": 132,
+        "grabara": 380,
+        "grabaría": 240,
+        "grabaremos": 242,
+        "grabasteis": 92,
+        "grabaréis": 11,
+        "grabáis": 8,
+        "grabarás": 337,
+        "grabaste": 185,
+        "grabáramos": 46,
+        "grababas": 17,
+        "grabarían": 79,
+        "grabaré": 249,
+        "grabásemos": 6,
+        "grabéis": 12,
+        "grabare": 5,
+        "grabaríamos": 15,
+        "grabaras": 7,
+        "grabarías": 2,
+        "grabases": 1,
+        "grabareis": 2,
+        "grababais": 2,
+        "grabarais": 1,
+        "Grabábamos": 6,
+        "Grabar": 15950,
+        "GRABADO": 590,
+        "Grabó": 684,
+        "GRABARÁ": 10,
+        "Grabamos": 1356,
+        "Grabaréis": 8,
+        "Grabasteis": 36,
+        "Graba": 10152,
+        "Grabará": 62,
+        "GRABE": 48,
+        "Grabando": 1224,
+        "Grabé": 432,
+        "GRABES": 8,
+        "Grabemos": 36,
+        "Grababan": 12,
+        "GRABADOS": 1062,
+        "Grabes": 50,
+        "Grabaremos": 312,
+        "GRABEN": 8,
+        "GRABAR": 620,
+        "Grabo": 266,
+        "Grabarán": 22,
+        "Grabados": 2832,
+        "GRABÉ": 6,
+        "Graben": 1078,
+        "Grabara": 12,
+        "Grababa": 42,
+        "GRABARÁN": 6,
+        "Grabaste": 56,
+        "GRABA": 76,
+        "GRABO": 18,
+        "Grabas": 350,
+        "Graban": 168,
+        "GRABANDO": 48,
+        "Grabaría": 8,
+        "GRABADAS": 42,
+        "Grabaré": 62,
+        "Grabaron": 324,
+        "GRABADA": 92,
+        "Grabada": 902,
+        "Grabarás": 44,
+        "Grabad": 70,
+        "Grabadas": 404,
+        "Grabe": 5212,
+        "GRABAN": 18,
+        "Grabado": 19996,
+        "GRABÓ": 6
+      },
+      "frequency": 304303,
+      "log10_rate_per_billion": 4.82,
+      "definitions": [
+        {
+          "definition": "to record (audio or video)",
+          "gloss": "record",
+          "part_of_speech": "verb",
+          "example_sentence": "Quiero {{c1:grabar}} tu voz.",
+          "example_translation": "I want to record your voice.",
+          "gender": null,
+          "verb_group": "1st conjugation (-ar)",
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": "transitive"
+        }
+      ],
+      "should_learn": true,
+      "has_error": false,
+      "error_description": null
+    },
+    "diciembre": {
+      "forms": {
+        "diciembre": 533790,
+        "diciembres": 26,
+        "Diciembre": 197336,
+        "Diciembres": 78,
+        "DICIEMBRE": 6428
+      },
+      "frequency": 635737,
+      "log10_rate_per_billion": 5.14,
+      "definitions": [
+        {
+          "definition": "December",
+          "gloss": "December",
+          "part_of_speech": "noun",
+          "example_sentence": "La fiesta es en {{c1:diciembre}}.",
+          "example_translation": "The party is in December.",
+          "gender": "masculine",
+          "verb_group": null,
+          "accompanying_preposition": "en",
+          "case_triggered": null,
+          "transitiveness": null
+        }
+      ],
+      "should_learn": true,
+      "has_error": false,
+      "error_description": null
+    },
+    "arco": {
+      "forms": {
+        "arcos": 24464,
+        "arco": 89585,
+        "Arcos": 31160,
+        "Arco": 74068,
+        "ARCOS": 836,
+        "ARCO": 8952
+      },
+      "frequency": 171557,
+      "log10_rate_per_billion": 4.57,
+      "definitions": [
+        {
+          "definition": "arch",
+          "gloss": "arch",
+          "part_of_speech": "noun",
+          "example_sentence": "El {{c1:arco}} de la puerta es estrecho.",
+          "example_translation": "The arch of the door is narrow.",
+          "gender": "masculine",
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        },
+        {
+          "definition": "bow (weapon)",
+          "gloss": "bow",
+          "part_of_speech": "noun",
+          "example_sentence": "El arquero usa un {{c1:arco}}.",
+          "example_translation": "The archer uses a bow.",
+          "gender": "masculine",
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        }
+      ],
+      "should_learn": true,
+      "has_error": false,
+      "error_description": null
+    },
+    "austin": {
+      "forms": {
+        "austin": 211,
+        "Austin": 160574,
+        "AUSTIN": 8532
+      },
+      "frequency": 84764,
+      "log10_rate_per_billion": 4.26,
+      "definitions": [
+        {
+          "definition": "Austin (capital of Texas, USA)",
+          "gloss": "Austin",
+          "part_of_speech": "noun",
+          "example_sentence": "Visitamos {{c1:Austin}} el año pasado.",
+          "example_translation": "We visited Austin last year.",
+          "gender": null,
+          "verb_group": null,
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": null
+        }
+      ],
+      "should_learn": false,
+      "has_error": false,
+      "error_description": null
+    },
+    "provincia": {
+      "forms": {
+        "provincia": 252793,
+        "provincias": 44693,
+        "prov": 185,
+        "PROVINCIA": 3352,
+        "Provincia": 300322,
+        "Provincias": 11662,
+        "PROVINCIAS": 498,
+        "Prov": 3292,
+        "PROV": 2638
+      },
+      "frequency": 458553,
+      "log10_rate_per_billion": 4.99,
+      "definitions": [
+        {
+          "definition": "province",
+          "gloss": "province",
+          "part_of_speech": "noun",
+          "example_sentence": "La {{c1:provincia}} de Cádiz es hermosa.",
+          "example_translation": "The province of Cádiz is beautiful.",
+          "gender": "feminine",
+          "verb_group": null,
+          "accompanying_preposition": "de",
+          "case_triggered": null,
+          "transitiveness": null
+        }
+      ],
+      "should_learn": true,
+      "has_error": false,
+      "error_description": null
+    },
+    "acoger": {
+      "forms": {
+        "acogerán": 2054,
+        "acoger": 25015,
+        "acogió": 10451,
+        "acogida": 51800,
+        "acoge": 43066,
+        "acoja": 1652,
+        "acogía": 1018,
+        "acogieran": 105,
+        "acogieron": 2741,
+        "acogemos": 2069,
+        "acogerá": 9007,
+        "acogiendo": 2384,
+        "acogido": 11819,
+        "acogisteis": 321,
+        "acogen": 7445,
+        "acojo": 663,
+        "acogiese": 175,
+        "acogiste": 37,
+        "acogeremos": 219,
+        "acogí": 103,
+        "acogían": 325,
+        "acogiere": 127,
+        "acogimos": 255,
+        "acojan": 898,
+        "acogiéramos": 9,
+        "acogería": 251,
+        "acogiera": 245,
+        "acoged": 118,
+        "acogerían": 77,
+        "acogéis": 51,
+        "acoges": 103,
+        "acojas": 48,
+        "acojamos": 165,
+        "acojáis": 58,
+        "acogeré": 53,
+        "acogeréis": 37,
+        "acogeríamos": 15,
+        "acogieseis": 2,
+        "acogiesen": 18,
+        "acogiésemos": 4,
+        "acogíamos": 8,
+        "acogerás": 16,
+        "acogierais": 1,
+        "acogerías": 1,
+        "acogías": 1,
+        "acogieren": 1,
+        "acogieras": 1,
+        "ACOGIENDO": 150,
+        "Acoged": 392,
+        "Acogerá": 136,
+        "Acojo": 628,
+        "ACOGIDO": 16,
+        "Acoger": 1528,
+        "Acogerán": 10,
+        "Acogieron": 106,
+        "Acojan": 52,
+        "Acogió": 414,
+        "Acogeremos": 84,
+        "Acogiendo": 978,
+        "ACOGE": 364,
+        "Acogemos": 2494,
+        "Acogimos": 100,
+        "ACOGIÓ": 8,
+        "Acogen": 230,
+        "Acojamos": 188,
+        "ACOGER": 64,
+        "ACOGEN": 52,
+        "Acogería": 12,
+        "Acogido": 168,
+        "Acogían": 8,
+        "Acogeríamos": 6,
+        "Acogida": 5270,
+        "Acoge": 2458,
+        "ACOGERÁ": 96,
+        "Acogí": 42,
+        "Acoja": 238,
+        "Acogía": 34,
+        "Acogeré": 8,
+        "ACOGIDA": 342
+      },
+      "frequency": 183370,
+      "log10_rate_per_billion": 4.6,
+      "definitions": [
+        {
+          "definition": "to welcome, to receive",
+          "gloss": "welcome",
+          "part_of_speech": "verb",
+          "example_sentence": "La escuela {{c1:acoge}} nuevos estudiantes.",
+          "example_translation": "The school welcomes new students.",
+          "gender": null,
+          "verb_group": "irregular",
+          "accompanying_preposition": null,
+          "case_triggered": null,
+          "transitiveness": "transitive"
+        }
+      ],
+      "should_learn": true,
+      "has_error": false,
+      "error_description": null
+    }
+  }
+}

@@ -14,6 +14,7 @@ import anthropic
 from openai import OpenAI
 import hashlib
 from datetime import datetime
+import re
 
 # Set up logging
 logging.basicConfig(
@@ -24,58 +25,72 @@ logger = logging.getLogger(__name__)
 
 # LLM Pricing (per 1M tokens)
 LLM_PRICING = {
-    # OpenAI Models
-    "gpt-4.1": {
-        "provider": "openai",
-        "input": 2.00,
-        "cached_input": 0.50,
-        "output": 8.00,
-        "cache_writes": 0.00  # Free
-    },
-    "gpt-4.1-mini": {
+    # OpenAI Models (full model names)
+    "gpt-4.1-mini-2025-04-14": {
         "provider": "openai", 
         "input": 0.40,
         "cached_input": 0.10,
         "output": 1.60,
         "cache_writes": 0.00  # Free
     },
-    "gpt-4.1-nano": {
+    "gpt-4.1-nano-2025-04-14": {
         "provider": "openai",
         "input": 0.10,
         "cached_input": 0.025,
         "output": 0.40,
         "cache_writes": 0.00  # Free
     },
-    "gpt-4o-mini": {
+    "gpt-4o-mini-2024-07-18": {
         "provider": "openai",
         "input": 0.15,
         "cached_input": 0.075,
         "output": 0.60,
         "cache_writes": 0.00  # Free
     },
+    "o4-mini-2025-04-16": {
+        "provider": "openai",
+        "input": 1.10,
+        "cached_input": 0.275,
+        "output": 4.40,
+        "cache_writes": 0.00  # Free
+    },
+    "o3-2025-04-16": {
+        "provider": "openai",
+        "input": 2.00,
+        "cached_input": 0.50,
+        "output": 8.00,
+        "cache_writes": 0.00  # Free
+    },
     
     # Anthropic Models (using 5m cache writes pricing)
-    "claude-sonnet-4": {
+    "claude-sonnet-4-20250514": {
         "provider": "anthropic",
         "input": 3.00,
         "cached_input": 0.30,  # Cache hits
         "output": 15.00,
         "cache_writes": 3.75  # 5m cache writes
     },
-    "claude-haiku-3.5": {
+    "claude-3-5-haiku-20241022": {
         "provider": "anthropic",
         "input": 0.80,
         "cached_input": 0.08,  # Cache hits
         "output": 4.00,
         "cache_writes": 1.00  # 5m cache writes
     },
-    "claude-haiku-3": {
+    "claude-3-haiku-20240307": {
         "provider": "anthropic",
         "input": 0.25,
         "cached_input": 0.03,  # Cache hits
         "output": 1.25,
         "cache_writes": 0.30  # 5m cache writes
     }
+}
+
+# Anthropic model max_tokens mapping
+ANTHROPIC_MAX_TOKENS = {
+    "claude-sonnet-4-20250514": 64000,
+    "claude-3-5-haiku-20241022": 8192,
+    "claude-3-haiku-20240307": 4096,
 }
 
 @dataclass
@@ -152,8 +167,12 @@ STATIC_PROMPT_CONTENT = """You are a Spanish language expert creating concise, E
 EXTREMELY IMPORTANT - LEMMA FIELD REQUIREMENTS:
 - The "lemma" field in your response MUST be EXACTLY the same as provided in the word list
 - Do NOT translate, modify, capitalize, or change the lemma in any way
-- Do NOT add accents, remove accents, or alter the spelling
-- Copy each lemma EXACTLY as written in the provided list
+- Do NOT add accents, remove accents, or alter the spelling in ANY way
+- CRITICAL: Preserve ALL accents exactly (ó, é, í, á, ú, ü, ñ, etc.)
+- Copy each lemma EXACTLY character-by-character as written in the provided list
+- Example: If given "estación", respond with "estación" - NOT "estacion"
+- Example: If given "mamá", respond with "mamá" - NOT "mama"
+- ANY modification to the lemma will cause processing errors
 
 CRITICAL - AVOID CROSS-LANGUAGE CONFUSION:
 - You are analyzing SPANISH lemmas from SPANISH text corpora
@@ -180,16 +199,24 @@ VERB CONJUGATION ACCURACY (CRITICAL):
 - -ir verbs: "3rd conjugation (-ir)" (vivir, escribir, salir)
 - Irregular verbs: "irregular" (ser, estar, ir, haber, tener, hacer, decir, poder, querer)
 - Stem changing verbs: provide the category of the verb and add (stem changing) after the verb group
-- DOUBLE-CHECK: Verify the infinitive ending before assigning conjugation group
+- CRITICAL: Always verify that the conjugation group assigned is correct
 
 GRAMMATICAL METADATA ACCURACY:
-- Gender: Only assign to nouns and adjectives that actually have gender
-- Transitiveness: Verify if verbs actually take direct objects
-- Part of speech: Be precise - distinguish between adjectives and nouns carefully, if multiple parts of speech are possible, consider whether two separate definitions are needed
-- Prepositions: Only include if the word commonly requires a specific preposition
+- Gender: Only assign to nouns and adjectives that actually have gender, the gender should match the original lemma, not the gender of the word in the example sentence
+- Verb group: Only assign to verbs, and ensure the group matches the original lemma
+- Transitiveness: Verify if verbs actually take direct objects - be precise about transitive/intransitive
+- Part of speech: Be precise - distinguish between adjectives and nouns or adverbs and adjectives carefully
+- MULTIPLE MEANINGS: If a word has multiple important meanings or parts of speech, provide separate definitions
+- Prepositions: Identify and include all preposition patterns that are relevant for learners
 
 INSTRUCTIONS:
 Create definitions that are helpful for Spanish language learners. Prioritize clarity and conciseness over comprehensive dictionary-style explanations.
+
+COMPREHENSIVE COVERAGE REQUIREMENTS:
+- ALWAYS check if a word has multiple important meanings or parts of speech
+- Provide separate definitions for each significant meaning (e.g., "trabajador" as noun AND adjective)
+- Include secondary meanings that are common and educationally valuable
+- Don't limit yourself to just the most common meaning if others are important
 
 DEFINITION GUIDELINES:
 - If there's a direct English translation that covers the meaning well, use that as the definition
@@ -202,6 +229,20 @@ GLOSS GUIDELINES:
 - Choose the most frequent/useful translation for learners
 - If multiple meanings exist, choose the most common one for the gloss
 
+EXAMPLE SENTENCE GUIDELINES:
+- Create a short, natural Spanish sentence that demonstrates the word's meaning clearly
+- Use only words that are more common than the target word, or of similar frequency if necessary
+- Make the meaning obvious from context where possible
+- Format as an Anki cloze deletion: {{c1:target_word_form}} - use EXACTLY this format, no extra braces
+- The cloze can contain any inflected form of the lemma (conjugated verbs, plural nouns, etc.)
+- CRITICAL: Ensure the word form in the example matches the part of speech being defined
+- Keep sentences concise (ideally 5-10 words)
+- Avoid complex grammar or rare vocabulary
+- The sentence should be immediately understandable to intermediate Spanish learners
+- When a word commonly requires a specific preposition, include that preposition in the example sentence to show the pattern
+- Provide a natural English translation of the example sentence that maintains the same meaning and context
+- Ensure the example sentence is natural Spanish as would be spoken by a native speaker
+
 EXAMPLES:
 
 Example 1 - Direct translation available:
@@ -212,6 +253,8 @@ Example 1 - Direct translation available:
       "definition": "cat",
       "gloss": "cat",
       "part_of_speech": "noun",
+      "example_sentence": "Mi {{c1:gato}} duerme en la cama.",
+      "example_translation": "My cat sleeps on the bed.",
       "gender": "masculine",
       "verb_group": null,
       "accompanying_preposition": null,
@@ -224,14 +267,16 @@ Example 1 - Direct translation available:
   "error_description": null
 }
 
-Example 2 - Multiple meanings, concise definitions:
+Example 2 - Multiple meanings, comprehensive coverage:
 {
-  "lemma": "banco",
+  "lemma": "trabajador",
   "definitions": [
     {
-      "definition": "bank (financial institution)",
-      "gloss": "bank",
+      "definition": "worker, employee",
+      "gloss": "worker",
       "part_of_speech": "noun",
+      "example_sentence": "El {{c1:trabajador}} llegó temprano.",
+      "example_translation": "The worker arrived early.",
       "gender": "masculine",
       "verb_group": null,
       "accompanying_preposition": null,
@@ -239,9 +284,11 @@ Example 2 - Multiple meanings, concise definitions:
       "transitiveness": null
     },
     {
-      "definition": "bench (seat)",
-      "gloss": "bench",
-      "part_of_speech": "noun",
+      "definition": "hardworking, diligent",
+      "gloss": "hardworking",
+      "part_of_speech": "adjective",
+      "example_sentence": "Es una persona muy {{c1:trabajadora}}.",
+      "example_translation": "She is a very hardworking person.",
       "gender": "masculine",
       "verb_group": null,
       "accompanying_preposition": null,
@@ -254,19 +301,21 @@ Example 2 - Multiple meanings, concise definitions:
   "error_description": null
 }
 
-Example 3 - Verb with correct conjugation:
+Example 3 - Verb with correct conjugation and preposition:
 {
-  "lemma": "obtener",
+  "lemma": "responder",
   "definitions": [
     {
-      "definition": "to obtain, get",
-      "gloss": "obtain",
+      "definition": "to respond, answer",
+      "gloss": "respond",
       "part_of_speech": "verb",
+      "example_sentence": "Voy a {{c1:responder}} a tu pregunta.",
+      "example_translation": "I'm going to respond to your question.",
       "gender": null,
       "verb_group": "2nd conjugation (-er)",
-      "accompanying_preposition": null,
+      "accompanying_preposition": "a",
       "case_triggered": null,
-      "transitiveness": "transitive"
+      "transitiveness": "intransitive"
     }
   ],
   "should_learn": true,
@@ -282,6 +331,8 @@ Example 4 - Cultural concept requiring explanation:
       "definition": "time spent talking at the table after a meal",
       "gloss": "after-dinner",
       "part_of_speech": "noun",
+      "example_sentence": "La {{c1:sobremesa}} duró dos horas.",
+      "example_translation": "The after-dinner conversation lasted two hours.",
       "gender": "feminine",
       "verb_group": null,
       "accompanying_preposition": null,
@@ -302,6 +353,8 @@ Example 5 - Preposition with common usage:
       "definition": "on, about",
       "gloss": "on",
       "part_of_speech": "preposition",
+      "example_sentence": "El libro está {{c1:sobre}} la mesa.",
+      "example_translation": "The book is on the table.",
       "gender": null,
       "verb_group": null,
       "accompanying_preposition": null,
@@ -322,6 +375,8 @@ Example 6 - Non-integrated English word (should_learn: false):
       "definition": "marketing (English business term)",
       "gloss": "marketing",
       "part_of_speech": "noun",
+      "example_sentence": "La empresa usa {{c1:marketing}} digital.",
+      "example_translation": "The company uses digital marketing.",
       "gender": "masculine",
       "verb_group": null,
       "accompanying_preposition": null,
@@ -342,6 +397,8 @@ Example 7 - Place name (should_learn: false):
       "definition": "Madeira (Portuguese island)",
       "gloss": "Madeira",
       "part_of_speech": "noun",
+      "example_sentence": "Visitamos {{c1:Madeira}} el año pasado.",
+      "example_translation": "We visited Madeira last year.",
       "gender": "feminine",
       "verb_group": null,
       "accompanying_preposition": null,
@@ -354,14 +411,16 @@ Example 7 - Place name (should_learn: false):
   "error_description": null
 }
 
-Example 8 - Integrated loanword (should_learn: true):
+Example 8 - Adjective with proper gender specification:
 {
-  "lemma": "fútbol",
+  "lemma": "mínimo",
   "definitions": [
     {
-      "definition": "soccer, football",
-      "gloss": "soccer",
-      "part_of_speech": "noun",
+      "definition": "minimum, minimal",
+      "gloss": "minimum",
+      "part_of_speech": "adjective",
+      "example_sentence": "Necesitas el tiempo {{c1:mínimo}} posible.",
+      "example_translation": "You need the minimum time possible.",
       "gender": "masculine",
       "verb_group": null,
       "accompanying_preposition": null,
@@ -382,11 +441,93 @@ Example 9 - Stem changing verb (should_learn: true):
       "definition": "to sleep",
       "gloss": "sleep",
       "part_of_speech": "verb",
+      "example_sentence": "Los niños {{c1:duermen}} temprano.",
+      "example_translation": "The children sleep early.",
       "gender": null,
       "verb_group": "3rd conjugation (-ir) (stem changing)",
       "accompanying_preposition": null,
       "case_triggered": null,
       "transitiveness": "intransitive"
+    }
+  ],
+  "should_learn": true,
+  "has_error": false,
+  "error_description": null
+}
+
+Example 10 - Noun with multiple definitions and different preposition patterns (should_learn: true):
+{
+  "lemma": "derecho",
+  "definitions": [
+    {
+      "definition": "right (entitlement)",
+      "gloss": "right",
+      "part_of_speech": "noun",
+      "example_sentence": "Todos tienen {{c1:derecho}} a la educación.",
+      "example_translation": "Everyone has the right to education.",
+      "gender": "masculine",
+      "verb_group": null,
+      "accompanying_preposition": "a",
+      "case_triggered": null,
+      "transitiveness": null
+    },
+    {
+      "definition": "law (legal system)",
+      "gloss": "law",
+      "part_of_speech": "noun",
+      "example_sentence": "Estudia {{c1:derecho}} en la universidad.",
+      "example_translation": "He studies law at the university.",
+      "gender": "masculine",
+      "verb_group": null,
+      "accompanying_preposition": null,
+      "case_triggered": null,
+      "transitiveness": null
+    },
+    {
+      "definition": "straight ahead",
+      "gloss": "straight",
+      "part_of_speech": "adverb",
+      "example_sentence": "Sigue {{c1:derecho}} hasta el semáforo.",
+      "example_translation": "Go straight until the traffic light.",
+      "gender": null,
+      "verb_group": null,
+      "accompanying_preposition": null,
+      "case_triggered": null,
+      "transitiveness": null
+    }
+  ],
+  "should_learn": true,
+  "has_error": false,
+  "error_description": null
+}
+
+Example 11 - Comprehensive coverage of multiple meanings:
+{
+  "lemma": "navegador",
+  "definitions": [
+    {
+      "definition": "web browser",
+      "gloss": "browser",
+      "part_of_speech": "noun",
+      "example_sentence": "Abre el {{c1:navegador}} para buscar información.",
+      "example_translation": "Open the browser to search for information.",
+      "gender": "masculine",
+      "verb_group": null,
+      "accompanying_preposition": null,
+      "case_triggered": null,
+      "transitiveness": null
+    },
+    {
+      "definition": "navigator (person who navigates)",
+      "gloss": "navigator",
+      "part_of_speech": "noun",
+      "example_sentence": "El {{c1:navegador}} guió el barco al puerto.",
+      "example_translation": "The navigator guided the ship to port.",
+      "gender": "masculine",
+      "verb_group": null,
+      "accompanying_preposition": null,
+      "case_triggered": null,
+      "transitiveness": null
     }
   ],
   "should_learn": true,
@@ -433,6 +574,12 @@ transitiveness - MUST be one of:
 - "impersonal" (impersonal verbs like llover)
 - null (for non-verbs)
 
+accompanying_preposition - Should contain:
+- The specific preposition that commonly follows the word (e.g., "a", "de", "en", "por", "con", "para", "desde", "hasta", "sobre", "bajo", "contra", "hacia", "ante", "tras", etc.)
+- null (for words that don't commonly require a specific preposition)
+- Examples for NOUNS: "derecho a", "miedo de/a", "interés en/por", "capacidad de/para", "problema con", "confianza en", "preocupación por", "lucha contra", "camino hacia"
+- Examples for VERBS: "pensar en", "soñar con", "depender de", "consistir en", "preocuparse por", "enamorarse de", "tratar de", "dejar de", "empezar a", "invitar a"
+
 case_triggered - MUST be one of:
 - "accusative" (direct object case)
 - "dative" (indirect object case)
@@ -476,8 +623,13 @@ FORMATTING REQUIREMENTS:
 - Use exact values from the specifications above
 - Ensure JSON is properly formatted with correct boolean types
 - Focus on the most common/useful meanings for learners
+- CRITICAL: Use proper JSON formatting - no trailing commas, proper quotes, valid structure
 
-CRITICAL: Return ONLY the JSON response with no additional text, explanations, or markdown formatting.
+JSON OUTPUT REQUIREMENTS:
+- Return ONLY valid JSON with no additional text, explanations, or markdown formatting
+- Do NOT wrap in code blocks or add any commentary
+- Ensure all quotes are properly escaped
+- Verify JSON structure is complete and valid before responding
 
 Return the response in this exact JSON format:
 {"lemmas": [
@@ -488,6 +640,8 @@ Return the response in this exact JSON format:
                 "definition": "concise, learner-friendly definition or direct English translation",
                 "gloss": "single English word translation",
                 "part_of_speech": "one of the specified values above",
+                "example_sentence": "Short Spanish sentence with {{c1:word_form}} cloze deletion",
+                "example_translation": "Natural English translation of the example sentence",
                 "gender": "masculine/feminine/both/null",
                 "verb_group": "one of the specified values above",
                 "accompanying_preposition": "preposition string or null",
@@ -524,6 +678,8 @@ class Definition:
     definition: str
     gloss: str  # Single English word that best covers the meaning
     part_of_speech: str
+    example_sentence: str  # Anki cloze sentence with {{c1: word}} format
+    example_translation: str  # English translation of the example sentence
     gender: Optional[str] = None
     verb_group: Optional[str] = None
     accompanying_preposition: Optional[str] = None
@@ -537,6 +693,36 @@ class LemmaInfo:
     should_learn: bool
     has_error: bool
     error_description: Optional[str] = None
+
+def normalize_cloze_format(text: str) -> str:
+    """
+    Normalize cloze deletion format to always be {{c1:word}}.
+    Handles cases with 1, 3, 4, 5, or 6 braces and converts them to exactly 2.
+    
+    Examples:
+    - {c1:word} -> {{c1:word}}
+    - {{{c1:word}}} -> {{c1:word}}
+    - {{{{c1:word}}}} -> {{c1:word}}
+    - {{{{{c1:word}}}}} -> {{c1:word}}
+    - {{{{{{c1:word}}}}}} -> {{c1:word}}
+    """
+    if not text:
+        return text
+    
+    # Pattern to match cloze deletions with varying numbers of braces
+    # This matches: 1-6 opening braces, c1:, content, 1-6 closing braces
+    pattern = r'\{+c1:([^}]+)\}+'
+    
+    def replace_cloze(match):
+        # Extract the content between c1: and the closing braces
+        content = match.group(1)
+        # Return normalized format with exactly 2 braces
+        return f"{{{{c1:{content}}}}}"
+    
+    # Replace all cloze deletions with normalized format
+    normalized = re.sub(pattern, replace_cloze, text)
+    
+    return normalized
 
 def create_definition_prompt(lemmas: List[str]) -> str:
     """
@@ -633,19 +819,30 @@ class LLMProvider(ABC):
                         response_text = response_text[start_idx:end_idx]
             
             data = json.loads(response_text)
-            parsed_results = [
-                LemmaInfo(
+            parsed_results = []
+            
+            for item in data['lemmas']:
+                # Process definitions and normalize cloze format
+                normalized_definitions = []
+                for def_dict in item['definitions']:
+                    # Create a copy of the definition dict
+                    normalized_def_dict = def_dict.copy()
+                    # Normalize the example sentence cloze format
+                    if 'example_sentence' in normalized_def_dict:
+                        original_sentence = normalized_def_dict['example_sentence']
+                        normalized_sentence = normalize_cloze_format(original_sentence)
+                        if original_sentence != normalized_sentence:
+                            logger.debug(f"Normalized cloze: '{original_sentence}' -> '{normalized_sentence}'")
+                        normalized_def_dict['example_sentence'] = normalized_sentence
+                    normalized_definitions.append(Definition(**normalized_def_dict))
+                
+                parsed_results.append(LemmaInfo(
                     lemma=item['lemma'],
-                    definitions=[
-                        Definition(**def_dict)
-                        for def_dict in item['definitions']
-                    ],
+                    definitions=normalized_definitions,
                     should_learn=item['should_learn'],
                     has_error=item['has_error'],
                     error_description=item.get('error_description')
-                )
-                for item in data['lemmas']
-            ]
+                ))
             
             # Validate that we got exactly the right lemmas
             validation_error = self._validate_lemma_response(parsed_results, original_lemmas)
@@ -661,15 +858,8 @@ class LLMProvider(ABC):
         except Exception as e:
             logger.error(f"Error parsing response: {str(e)}")
             logger.error(f"Response content: {response[:500]}...")
-            return [
-                LemmaInfo(
-                    lemma=lemma,
-                    definitions=[],
-                    should_learn=False,
-                    has_error=True,
-                    error_description="Failed to parse LLM response"
-                ) for lemma in original_lemmas
-            ]
+            # Re-raise the exception to trigger retry logic
+            raise ValueError(f"Failed to parse LLM response: {str(e)}")
 
     def _validate_lemma_response(self, parsed_results: List[LemmaInfo], expected_lemmas: List[str]) -> Optional[str]:
         """
@@ -695,7 +885,7 @@ class LLMProvider(ABC):
         
         return None  # Validation passed
 
-    def _generate_with_retry(self, lemmas: List[str], max_retries: int = 2) -> List[LemmaInfo]:
+    def _generate_with_retry(self, lemmas: List[str], max_retries: int = 3) -> List[LemmaInfo]:
         """
         Generate definitions with retry logic for validation failures.
         This method should be implemented by subclasses.
@@ -720,7 +910,7 @@ class AnthropicProvider(LLMProvider):
             
         return results
 
-    def _generate_with_retry(self, model:str, lemmas: List[str], max_retries: int = 2) -> List[LemmaInfo]:
+    def _generate_with_retry(self, model:str, lemmas: List[str], max_retries: int = 3) -> List[LemmaInfo]:
         """Generate definitions with retry logic."""
         for attempt in range(max_retries + 1):
             try:
@@ -729,23 +919,59 @@ class AnthropicProvider(LLMProvider):
                 # Create prompt with caching support
                 system_messages, user_messages = create_definition_prompt_for_anthropic(lemmas)
                 
-                response = self.client.messages.create(
-                    model=model,
-                    system=system_messages,
-                    messages=user_messages,
-                    temperature=0.1
-                )
+                # Use streaming for Claude Sonnet 4 due to long processing times
+                if model == "claude-sonnet-4-20250514":
+                    logger.info("Using streaming for Claude Sonnet 4...")
+                    
+                    stream = self.client.messages.stream(
+                        model=model,
+                        max_tokens=ANTHROPIC_MAX_TOKENS.get(model, 4096),
+                        system=system_messages,
+                        messages=user_messages,
+                        temperature=0.1
+                    )
+                    
+                    response_text = ""
+                    usage_data = None
+                    
+                    with stream as stream_context:
+                        for event in stream_context:
+                            if event.type == "content_block_delta":
+                                response_text += event.delta.text
+                            elif event.type == "message_stop":
+                                # Get usage data from the final message
+                                usage_data = stream_context.get_final_message().usage
+                    
+                    # Track token usage for streaming
+                    if usage_data:
+                        self.token_usage.add_anthropic_usage(usage_data)
+                        logger.info(f"Token usage - Input: {usage_data.input_tokens}, Output: {usage_data.output_tokens}, "
+                                  f"Cache Read: {getattr(usage_data, 'cache_read_input_tokens', 0)}, "
+                                  f"Cache Creation: {getattr(usage_data, 'cache_creation_input_tokens', 0)}")
+                    else:
+                        logger.warning("No usage data found in Anthropic streaming response")
                 
-                # Track token usage
-                if hasattr(response, 'usage'):
-                    self.token_usage.add_anthropic_usage(response.usage)
-                    logger.info(f"Token usage - Input: {response.usage.input_tokens}, Output: {response.usage.output_tokens}, "
-                              f"Cache Read: {getattr(response.usage, 'cache_read_input_tokens', 0)}, "
-                              f"Cache Creation: {getattr(response.usage, 'cache_creation_input_tokens', 0)}")
                 else:
-                    logger.warning("No usage data found in Anthropic response: {response}")
+                    # Use regular (non-streaming) for other Anthropic models
+                    response = self.client.messages.create(
+                        model=model,
+                        max_tokens=ANTHROPIC_MAX_TOKENS.get(model, 4096),
+                        system=system_messages,
+                        messages=user_messages,
+                        temperature=0.1
+                    )
+                    
+                    # Track token usage
+                    if hasattr(response, 'usage'):
+                        self.token_usage.add_anthropic_usage(response.usage)
+                        logger.info(f"Token usage - Input: {response.usage.input_tokens}, Output: {response.usage.output_tokens}, "
+                                  f"Cache Read: {getattr(response.usage, 'cache_read_input_tokens', 0)}, "
+                                  f"Cache Creation: {getattr(response.usage, 'cache_creation_input_tokens', 0)}")
+                    else:
+                        logger.warning("No usage data found in Anthropic response: {response}")
+                    
+                    response_text = response.content[0].text
                 
-                response_text = response.content[0].text
                 logger.debug(f"Raw response: {response_text}")
                 
                 # Parse and validate response using base class method
@@ -754,9 +980,25 @@ class AnthropicProvider(LLMProvider):
                 return parsed_results
                 
             except Exception as e:
-                logger.warning(f"Attempt {attempt + 1} failed: {str(e)}")
+                error_type = type(e).__name__
+                error_msg = str(e)
+                
+                # Determine retry reason category
+                if "json" in error_msg.lower() or "parse" in error_msg.lower():
+                    retry_reason = "JSON_PARSING_ERROR"
+                elif "validation" in error_msg.lower() or "missing lemmas" in error_msg.lower() or "extra lemmas" in error_msg.lower():
+                    retry_reason = "VALIDATION_ERROR"
+                elif "api" in error_msg.lower() or "rate" in error_msg.lower() or "quota" in error_msg.lower():
+                    retry_reason = "API_ERROR"
+                else:
+                    retry_reason = "UNKNOWN_ERROR"
+                
+                logger.warning(f"ANTHROPIC RETRY {attempt + 1}/{max_retries + 1} - {retry_reason} for batch {lemmas}")
+                logger.warning(f"Error details: {error_type}: {error_msg}")
+                
                 if attempt == max_retries:
-                    logger.error(f"All {max_retries + 1} attempts failed for batch: {lemmas}")
+                    logger.error(f"ANTHROPIC FINAL FAILURE after {max_retries + 1} attempts for batch: {lemmas}")
+                    logger.error(f"Final error: {error_type}: {error_msg}")
                     # Return error entries for all lemmas
                     return [
                         LemmaInfo(
@@ -764,10 +1006,13 @@ class AnthropicProvider(LLMProvider):
                             definitions=[],
                             should_learn=True,
                             has_error=True,
-                            error_description=f"Failed to generate definition after {max_retries + 1} attempts: {str(e)}"
+                            error_description=f"Failed after {max_retries + 1} attempts. Final error: {retry_reason} - {error_msg}"
                         ) for lemma in lemmas
                     ]
-                time.sleep(2 ** attempt)  # Exponential backoff
+                
+                backoff_time = 2 ** attempt
+                logger.info(f"Waiting {backoff_time}s before retry {attempt + 2}...")
+                time.sleep(backoff_time)  # Exponential backoff
 
 class OpenAIProvider(LLMProvider):
     def __init__(self, api_key: Optional[str] = None):
@@ -787,7 +1032,7 @@ class OpenAIProvider(LLMProvider):
             
         return results
 
-    def _generate_with_retry(self, model:str, lemmas: List[str], max_retries: int = 2) -> List[LemmaInfo]:
+    def _generate_with_retry(self, model:str, lemmas: List[str], max_retries: int = 3) -> List[LemmaInfo]:
         """Generate definitions with retry logic and OpenAI automatic caching."""
         for attempt in range(max_retries + 1):
             try:
@@ -797,14 +1042,20 @@ class OpenAIProvider(LLMProvider):
                 prompt = create_definition_prompt_for_openai(lemmas)
                 
                 # Make API call - OpenAI will automatically cache if prompt is 1024+ tokens
-                response = self.client.chat.completions.create(
-                    model=model,
-                    messages=[{
+                # o4-mini only supports default temperature (1), other models can use 0.1
+                api_params = {
+                    "model": model,
+                    "messages": [{
                         "role": "user", 
                         "content": prompt
-                    }],
-                    temperature=0.1
-                )
+                    }]
+                }
+                
+                # Only set temperature for models that support it (not o4-mini or o3)
+                if not model.startswith("o4-") and not model.startswith("o3-"):
+                    api_params["temperature"] = 0.1
+                
+                response = self.client.chat.completions.create(**api_params)
                 
                 # Track token usage
                 if hasattr(response, 'usage'):
@@ -823,9 +1074,25 @@ class OpenAIProvider(LLMProvider):
                 return parsed_results
                 
             except Exception as e:
-                logger.warning(f"Attempt {attempt + 1} failed: {str(e)}")
+                error_type = type(e).__name__
+                error_msg = str(e)
+                
+                # Determine retry reason category
+                if "json" in error_msg.lower() or "parse" in error_msg.lower():
+                    retry_reason = "JSON_PARSING_ERROR"
+                elif "validation" in error_msg.lower() or "missing lemmas" in error_msg.lower() or "extra lemmas" in error_msg.lower():
+                    retry_reason = "VALIDATION_ERROR"
+                elif "api" in error_msg.lower() or "rate" in error_msg.lower() or "quota" in error_msg.lower():
+                    retry_reason = "API_ERROR"
+                else:
+                    retry_reason = "UNKNOWN_ERROR"
+                
+                logger.warning(f"OPENAI RETRY {attempt + 1}/{max_retries + 1} - {retry_reason} for batch {lemmas}")
+                logger.warning(f"Error details: {error_type}: {error_msg}")
+                
                 if attempt == max_retries:
-                    logger.error(f"All {max_retries + 1} attempts failed for batch: {lemmas}")
+                    logger.error(f"OPENAI FINAL FAILURE after {max_retries + 1} attempts for batch: {lemmas}")
+                    logger.error(f"Final error: {error_type}: {error_msg}")
                     # Return error entries for all lemmas
                     return [
                         LemmaInfo(
@@ -833,10 +1100,13 @@ class OpenAIProvider(LLMProvider):
                             definitions=[],
                             should_learn=True,
                             has_error=True,
-                            error_description=f"Failed to generate definition after {max_retries + 1} attempts: {str(e)}"
+                            error_description=f"Failed after {max_retries + 1} attempts. Final error: {retry_reason} - {error_msg}"
                         ) for lemma in lemmas
                     ]
-                time.sleep(2 ** attempt)  # Exponential backoff
+                
+                backoff_time = 2 ** attempt
+                logger.info(f"Waiting {backoff_time}s before retry {attempt + 2}...")
+                time.sleep(backoff_time)  # Exponential backoff
 
 def generate_definitions_for_lemmas(
     lemmas: List[str],
@@ -1007,6 +1277,9 @@ def main():
         "gpt-4.1-mini": {"provider": "openai", "model_id": "gpt-4.1-mini-2025-04-14"},
         "gpt-4.1-nano": {"provider": "openai", "model_id": "gpt-4.1-nano-2025-04-14"},
         "gpt-4o-mini": {"provider": "openai", "model_id": "gpt-4o-mini-2024-07-18"},
+        "o4-mini": {"provider": "openai", "model_id": "o4-mini-2025-04-16"},
+        "o3": {"provider": "openai", "model_id": "o3-2025-04-16"},
+        "claude-4-sonnet": {"provider": "anthropic", "model_id": "claude-sonnet-4-20250514"},
         "claude-3.5-haiku": {"provider": "anthropic", "model_id": "claude-3-5-haiku-20241022"},
         "claude-3-haiku": {"provider": "anthropic", "model_id": "claude-3-haiku-20240307"}
     }
@@ -1048,6 +1321,7 @@ def main():
     if args.model:
         model_config = MODEL_OPTIONS[args.model]
         provider_type = model_config["provider"]
+        model_id = model_config["model_id"]
     else:
         raise ValueError("Model not specified")
     
@@ -1058,7 +1332,7 @@ def main():
         args.input_file,
         args.output_file,
         provider,
-        args.model,
+        model_id,
         args.batch_size,
         args.limit,
         args.start

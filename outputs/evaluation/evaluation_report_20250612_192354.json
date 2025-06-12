@@ -1,0 +1,272 @@
+{
+  "evaluation_metadata": {
+    "timestamp": "20250612_192354",
+    "models_evaluated": [
+      "o4-mini",
+      "claude-3.5-haiku",
+      "claude-4-sonnet",
+      "o3"
+    ],
+    "num_words": 25,
+    "evaluation_words": [
+      "denominar",
+      "nevada",
+      "complicar",
+      "facturar",
+      "competición",
+      "imaginación",
+      "p.",
+      "azúcar",
+      "implicación",
+      "ciudadanía",
+      "confusión",
+      "transformar",
+      "piloto",
+      "in",
+      "tender",
+      "cosmético",
+      "musical",
+      "aficionado",
+      "disputar",
+      "casco",
+      "max",
+      "ceremonia",
+      "navidad",
+      "opinión",
+      "ensalada"
+    ],
+    "top_n_selection": 5000
+  },
+  "model_mapping": {
+    "Model A": "claude-4-sonnet",
+    "Model B": "o4-mini",
+    "Model C": "claude-3.5-haiku",
+    "Model D": "o3"
+  },
+  "cost_analysis": {
+    "o4-mini": {
+      "uncached_input_cost": 0.006004,
+      "cached_input_cost": 0.005069,
+      "cache_write_cost": 0.0,
+      "output_cost": 0.07293,
+      "total_cost": 0.084003,
+      "cost_per_10k_definitions": 33.6012
+    },
+    "claude-3.5-haiku": {
+      "uncached_input_cost": 0.000446,
+      "cached_input_cost": 0.001672,
+      "cache_write_cost": 0.005226,
+      "output_cost": 0.020764,
+      "total_cost": 0.028109,
+      "cost_per_10k_definitions": 11.243599999999999
+    },
+    "claude-4-sonnet": {
+      "uncached_input_cost": 0.0,
+      "cached_input_cost": 0.0,
+      "cache_write_cost": 0.0,
+      "output_cost": 0.0,
+      "total_cost": 0.0,
+      "cost_per_10k_definitions": 0.0
+    },
+    "o3": {
+      "uncached_input_cost": 0.0,
+      "cached_input_cost": 0.0,
+      "cache_write_cost": 0.0,
+      "output_cost": 0.0,
+      "total_cost": 0.0,
+      "cost_per_10k_definitions": 0.0
+    }
+  },
+  "quality_scores": {
+    "claude-4-sonnet": {
+      "average_score": 0.6,
+      "total_evaluations": 5,
+      "score_distribution": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    "o4-mini": {
+      "average_score": 7.8,
+      "total_evaluations": 5,
+      "score_distribution": [
+        9,
+        8,
+        7,
+        8,
+        7
+      ]
+    },
+    "claude-3.5-haiku": {
+      "average_score": 8.2,
+      "total_evaluations": 5,
+      "score_distribution": [
+        8,
+        7,
+        9,
+        9,
+        8
+      ]
+    },
+    "o3": {
+      "average_score": 0.6,
+      "total_evaluations": 5,
+      "score_distribution": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    }
+  },
+  "detailed_evaluations": [
+    {
+      "model_evaluations": {
+        "Model A": {
+          "score": 0,
+          "comment": "Model A failed to provide any definitions due to technical errors across all five words. Cannot evaluate educational value as no content was generated."
+        },
+        "Model B": {
+          "score": 9,
+          "comment": "Excellent performance with accurate definitions, proper grammatical metadata, and natural example sentences. Successfully identifies multiple meanings for 'facturar' (billing and luggage check-in), demonstrating comprehensive coverage that would be highly valuable for learners."
+        },
+        "Model C": {
+          "score": 8,
+          "comment": "Very good accuracy and clarity with appropriate example sentences and correct grammatical information. Provides solid single definitions for each word, though misses the secondary meaning of 'facturar' as luggage check-in, which slightly reduces comprehensiveness."
+        },
+        "Model D": {
+          "score": 0,
+          "comment": "Model D failed to provide any definitions due to technical errors across all five words. Cannot evaluate educational value as no content was generated."
+        }
+      },
+      "comparative_analysis": "Only Models B and C provided functional definitions. Model B demonstrates superior educational value by identifying multiple meanings where relevant (particularly for 'facturar'), while Model C provides solid but less comprehensive coverage. Both models show excellent accuracy in their definitions, proper use of grammatical metadata (feminine gender for nouns, 1st conjugation for verbs), and natural example sentences with appropriate cloze deletions. Model B's inclusion of both 'billing' and 'luggage check-in' meanings for 'facturar' gives it a clear advantage for learners who might encounter either usage. Both working models use contextually appropriate inflected forms in their cloze deletions and provide natural English translations.",
+      "words_evaluated": [
+        "denominar",
+        "nevada",
+        "complicar",
+        "facturar",
+        "competición"
+      ]
+    },
+    {
+      "model_evaluations": {
+        "Model A": {
+          "score": 1,
+          "comment": "Complete system failure with no definitions provided for any words due to technical errors. Cannot be evaluated for educational value as no content was generated."
+        },
+        "Model B": {
+          "score": 8,
+          "comment": "Solid performance with accurate definitions and appropriate grammatical metadata. Excels at identifying multiple meanings (as with 'implicación') and preposition patterns, though some definitions could be more detailed for enhanced learner comprehension."
+        },
+        "Model C": {
+          "score": 7,
+          "comment": "Good accuracy with slightly more detailed definitions than Model B, but less comprehensive in covering multiple meanings. Example sentences are natural and translations are accurate, providing solid educational value."
+        },
+        "Model D": {
+          "score": 1,
+          "comment": "Complete system failure with no definitions provided for any words due to technical access errors. Cannot be evaluated for educational value as no content was generated."
+        }
+      },
+      "comparative_analysis": "Only Models B and C provided functional definitions, making this primarily a two-way comparison. Model B demonstrates superior educational design by consistently identifying multiple meanings (particularly evident with 'implicación' where it provides both 'involvement' and 'consequence' meanings) and systematically noting preposition patterns ('en' and 'de' for implicación, 'a' for p.). Model C provides slightly more descriptive definitions but misses important secondary meanings and preposition patterns. Both models show accurate grammatical metadata and natural example sentences. Model B's approach of separating distinct meanings into separate entries makes it more valuable for learners who need to understand context-specific usage. The technical failures of Models A and D highlight the importance of system reliability in educational applications.",
+      "words_evaluated": [
+        "imaginación",
+        "p.",
+        "azúcar",
+        "implicación",
+        "ciudadanía"
+      ]
+    },
+    {
+      "model_evaluations": {
+        "Model A": {
+          "score": 1,
+          "comment": "Model A failed to provide any definitions due to technical errors across all words. Cannot evaluate educational value as no content was generated."
+        },
+        "Model B": {
+          "score": 7,
+          "comment": "Provides accurate, clear definitions with correct grammatical metadata and natural example sentences. However, misses important secondary meanings (like 'piloto' as adjective) and could benefit from more comprehensive coverage of polysemous words."
+        },
+        "Model C": {
+          "score": 9,
+          "comment": "Excellent performance with comprehensive coverage including multiple meanings where appropriate (piloto as noun/adjective, tender's different senses). Definitions are clear, examples are natural, and grammatical information is accurate and detailed."
+        },
+        "Model D": {
+          "score": 1,
+          "comment": "Model D failed to provide any definitions due to technical errors across all words. Cannot evaluate educational value as no content was generated."
+        }
+      },
+      "comparative_analysis": "Model C significantly outperforms the others by providing comprehensive definitions that capture multiple meanings of polysemous words, which is crucial for learner comprehension. While Model B offers solid basic definitions, it lacks the depth needed for words like 'piloto' that function as both noun and adjective. Model C also provides more detailed explanations (e.g., 'confusion, state of being mixed up' vs. just 'confusion') and better identifies verb patterns like stem-changing conjugations. Both working models correctly handle the non-Spanish word 'in' appropriately. Models A and D are unusable due to technical failures.",
+      "words_evaluated": [
+        "confusión",
+        "transformar",
+        "piloto",
+        "in",
+        "tender"
+      ]
+    },
+    {
+      "model_evaluations": {
+        "Model A": {
+          "score": 0,
+          "comment": "Model A failed to provide any definitions due to technical errors across all words evaluated. Cannot assess educational value without any functional output."
+        },
+        "Model B": {
+          "score": 8,
+          "comment": "Provides accurate, clear definitions with natural example sentences and correct grammatical metadata. Successfully identifies multiple meanings for most words and includes appropriate preposition patterns, though could benefit from more comprehensive coverage of secondary meanings."
+        },
+        "Model C": {
+          "score": 9,
+          "comment": "Excellent comprehensive coverage with consistently accurate definitions and well-crafted examples. Superior identification of multiple meanings (both adjective/noun uses, secondary definitions like 'casco antiguo') and clear, learner-friendly explanations with high educational value."
+        },
+        "Model D": {
+          "score": 0,
+          "comment": "Model D failed to provide any definitions due to technical access errors across all words evaluated. Cannot assess educational value without any functional output."
+        }
+      },
+      "comparative_analysis": "Model C demonstrates superior performance by consistently providing comprehensive definitions that cover multiple meanings and uses of each word. For example, it correctly identifies both adjective and noun uses of 'cosmético' and 'musical', includes the important 'amateur' meaning of 'aficionado', and recognizes the 'old town' meaning of 'casco' alongside the primary 'helmet' definition. Model B provides solid, accurate definitions but with less comprehensive coverage of secondary meanings. Both functional models use appropriate cloze deletion formats with correctly inflected forms and natural example sentences. Models A and D are non-functional due to technical issues, making them unsuitable for educational purposes.",
+      "words_evaluated": [
+        "cosmético",
+        "musical",
+        "aficionado",
+        "disputar",
+        "casco"
+      ]
+    },
+    {
+      "model_evaluations": {
+        "Model A": {
+          "score": 1,
+          "comment": "Complete system failure with no usable definitions provided due to technical errors. Cannot be evaluated for educational value as no content was generated."
+        },
+        "Model B": {
+          "score": 7,
+          "comment": "Provides accurate, concise definitions with correct grammatical metadata and natural example sentences. However, definitions are quite basic and could benefit from more descriptive context or additional meanings where relevant."
+        },
+        "Model C": {
+          "score": 8,
+          "comment": "Delivers consistently accurate definitions with enhanced descriptive detail (e.g., 'formal event or ritual' for ceremonia, 'mixed vegetable dish' for ensalada). Example sentences are natural and translations are precise, offering better educational value through more comprehensive explanations."
+        },
+        "Model D": {
+          "score": 1,
+          "comment": "Complete system failure with no usable definitions provided due to technical errors. Cannot be evaluated for educational value as no content was generated."
+        }
+      },
+      "comparative_analysis": "Only Models B and C provided functional definitions, making this primarily a comparison between two working systems versus two failed ones. Model C consistently outperforms Model B by providing more descriptive and contextually rich definitions while maintaining the same level of accuracy. Model C's approach of adding clarifying phrases (e.g., 'formal event or ritual', 'mixed vegetable dish', 'personal view or judgment') significantly enhances educational value for learners who need to quickly understand word meanings in context. Both working models correctly handle grammatical metadata, gender assignments, and provide natural example sentences with accurate translations. The key differentiator is Model C's superior definitional depth without sacrificing clarity.",
+      "words_evaluated": [
+        "max",
+        "ceremonia",
+        "navidad",
+        "opinión",
+        "ensalada"
+      ]
+    }
+  ],
+  "summary": {
+    "best_quality": "claude-3.5-haiku",
+    "lowest_cost": "claude-4-sonnet"
+  }
+}

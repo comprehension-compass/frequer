@@ -1,0 +1,231 @@
+{
+  "evaluation_metadata": {
+    "timestamp": "20250612_202556",
+    "models_evaluated": [
+      "claude-4-sonnet",
+      "claude-3.5-haiku",
+      "o4-mini"
+    ],
+    "num_words": 25,
+    "evaluation_words": [
+      "peligroso",
+      "encender",
+      "moto",
+      "llevar",
+      "ensalada",
+      "adentrar",
+      "punta",
+      "pasajero",
+      "jurar",
+      "vidrio",
+      "adicional",
+      "cerrar",
+      "excelente",
+      "fortalecer",
+      "ip",
+      "studio",
+      "incrementar",
+      "importar",
+      "significativo",
+      "personalizar",
+      "hecho",
+      "html",
+      "invisible",
+      "castillo",
+      "fiable"
+    ],
+    "top_n_selection": 5000
+  },
+  "model_mapping": {
+    "Model A": "claude-3.5-haiku",
+    "Model B": "o4-mini",
+    "Model C": "claude-4-sonnet"
+  },
+  "cost_analysis": {
+    "claude-4-sonnet": {
+      "uncached_input_cost": 0.001674,
+      "cached_input_cost": 0.007839,
+      "cache_write_cost": 0.0,
+      "output_cost": 0.072105,
+      "total_cost": 0.081618,
+      "cost_per_10k_definitions": 32.6472
+    },
+    "claude-3.5-haiku": {
+      "uncached_input_cost": 0.000446,
+      "cached_input_cost": 0.001672,
+      "cache_write_cost": 0.005226,
+      "output_cost": 0.01918,
+      "total_cost": 0.026525,
+      "cost_per_10k_definitions": 10.61
+    },
+    "o4-mini": {
+      "uncached_input_cost": 0.006003,
+      "cached_input_cost": 0.005069,
+      "cache_write_cost": 0.0,
+      "output_cost": 0.087974,
+      "total_cost": 0.099045,
+      "cost_per_10k_definitions": 39.617999999999995
+    }
+  },
+  "quality_scores": {
+    "claude-3.5-haiku": {
+      "average_score": 7.6,
+      "total_evaluations": 5,
+      "score_distribution": [
+        7,
+        7,
+        8,
+        8,
+        8
+      ]
+    },
+    "o4-mini": {
+      "average_score": 8.2,
+      "total_evaluations": 5,
+      "score_distribution": [
+        9,
+        8,
+        9,
+        8,
+        7
+      ]
+    },
+    "claude-4-sonnet": {
+      "average_score": 8.0,
+      "total_evaluations": 5,
+      "score_distribution": [
+        8,
+        7,
+        9,
+        8,
+        8
+      ]
+    }
+  },
+  "detailed_evaluations": [
+    {
+      "model_evaluations": {
+        "Model A": {
+          "score": 7,
+          "comment": "Provides accurate basic definitions with correct grammatical metadata and natural example sentences. However, consistently offers only single definitions for polysemous words like 'encender' and 'llevar', missing important secondary meanings that learners would encounter in reading contexts."
+        },
+        "Model B": {
+          "score": 9,
+          "comment": "Excellent comprehensive coverage with multiple meanings for key verbs like 'encender' and 'llevar', providing learners with essential semantic distinctions. Accurately identifies stem-changing verb patterns and includes helpful preposition information, though occasionally over-specifies accompanying prepositions."
+        },
+        "Model C": {
+          "score": 8,
+          "comment": "Solid performance with accurate definitions and proper identification of stem-changing verbs. Provides clear, learner-friendly examples with natural translations, but like Model A, tends to provide single definitions where multiple meanings would be more helpful for comprehension."
+        }
+      },
+      "comparative_analysis": "Model B stands out for its comprehensive approach to polysemous words, providing multiple definitions that significantly enhance learning value - particularly evident in 'encender' (turn on vs. light) and 'llevar' (carry vs. wear). Model C shows technical accuracy in identifying stem-changing verbs but matches Model A's limitation of single definitions. All models demonstrate consistent accuracy in basic grammatical metadata and natural example sentences, but Model B's inclusion of multiple meanings makes it substantially more valuable for learners encountering these common words in varied contexts.",
+      "words_evaluated": [
+        "peligroso",
+        "encender",
+        "moto",
+        "llevar",
+        "ensalada"
+      ]
+    },
+    {
+      "model_evaluations": {
+        "Model A": {
+          "score": 7,
+          "comment": "Generally accurate definitions with correct grammatical metadata, but has some issues with transitiveness classification (marking 'adentrar' as transitive when it's typically pronominal) and inconsistent preposition identification. Example sentences are natural and appropriate for learners, though some could be more varied."
+        },
+        "Model B": {
+          "score": 8,
+          "comment": "Strong performance with accurate definitions and excellent coverage of multiple meanings, particularly for 'jurar' where it includes both 'swear an oath' and 'curse' meanings. Example sentences are well-crafted and natural, with good variety in sentence structures that enhance learning value."
+        },
+        "Model C": {
+          "score": 7,
+          "comment": "Solid accuracy in definitions and grammatical metadata, with particularly good handling of reflexive verbs ('adentrarnos'). However, misses some important secondary meanings and shows less comprehensive coverage compared to other models, which reduces overall educational value for learners."
+        }
+      },
+      "comparative_analysis": "Model B demonstrates the strongest educational value by consistently providing multiple meanings where appropriate (notably for 'jurar' and 'pasajero'), while maintaining accuracy across all entries. Model A and Model C are comparable in basic accuracy but differ in their approach to verb classification and example variety. Model A tends to be more conservative with meanings but has some technical issues with transitiveness, while Model C shows good attention to reflexive constructions but lacks comprehensive meaning coverage. All models handle the cloze deletion format correctly and provide natural example sentences, but Model B's inclusion of secondary meanings makes it most valuable for learners encountering these words in varied contexts.",
+      "words_evaluated": [
+        "adentrar",
+        "punta",
+        "pasajero",
+        "jurar",
+        "vidrio"
+      ]
+    },
+    {
+      "model_evaluations": {
+        "Model A": {
+          "score": 8,
+          "comment": "Provides accurate definitions with good grammatical metadata and natural example sentences. Includes helpful synonyms like 'shut' for 'cerrar' and 'reinforce' for 'fortalecer', though verb group classification for 'cerrar' lacks the stem-changing detail that Models B and C provide."
+        },
+        "Model B": {
+          "score": 9,
+          "comment": "Excellent accuracy with consistently natural example sentences and proper grammatical classifications. Correctly identifies 'cerrar' as stem-changing and uses appropriate inflected forms in cloze deletions. Definitions are clear and learner-friendly with high educational value."
+        },
+        "Model C": {
+          "score": 9,
+          "comment": "Outstanding performance with comprehensive definitions including helpful synonyms and accurate grammatical metadata. Example sentences are well-crafted and contextually rich, particularly the 'excelente oportunidad para aprender' example which provides meaningful context for learners."
+        }
+      },
+      "comparative_analysis": "All three models perform very well with accurate definitions and appropriate example sentences. The key differentiator is in grammatical detail: Models B and C correctly identify 'cerrar' as a stem-changing verb, while Model A omits this important information. Model A compensates by providing useful synonyms ('shut', 'reinforce'), while Model C excels in creating contextually rich examples. Model B strikes the best balance of accuracy and clarity. All models appropriately mark 'IP' as not essential for learning and correctly identify it as feminine gender. The differences are subtle but Models B and C edge ahead due to more complete grammatical information.",
+      "words_evaluated": [
+        "adicional",
+        "cerrar",
+        "excelente",
+        "fortalecer",
+        "ip"
+      ]
+    },
+    {
+      "model_evaluations": {
+        "Model A": {
+          "score": 8,
+          "comment": "Provides accurate definitions with good coverage of multiple meanings, particularly strong with 'importar' showing both 'import' and 'matter' meanings. Example sentences are natural and appropriate, though some definitions could be slightly more comprehensive (e.g., 'significativo' could include more nuanced meanings)."
+        },
+        "Model B": {
+          "score": 8,
+          "comment": "Delivers consistently accurate definitions with clear, learner-friendly explanations. Notable strength in identifying grammatical patterns like dative case for 'importar' when meaning 'to matter'. Example sentences are well-constructed and translations are natural, though occasionally less detailed than other models."
+        },
+        "Model C": {
+          "score": 8,
+          "comment": "Offers accurate and comprehensive definitions with good attention to multiple meanings, presenting them in logical order of frequency/importance. Example sentences are contextually rich and educational, with natural translations that help learners understand practical usage."
+        }
+      },
+      "comparative_analysis": "All three models perform very similarly with high accuracy and educational value. Model A provides the most detailed definitions (e.g., 'significant, meaningful' vs just 'significant'), while Model B excels in grammatical analysis by correctly identifying case patterns. Model C shows good prioritization of meanings by frequency. The main differences are stylistic rather than substantive - all models correctly identify parts of speech, verb conjugations, gender, and transitivity. Example sentences across all models are natural and appropriate for learners, with only minor variations in context complexity.",
+      "words_evaluated": [
+        "studio",
+        "incrementar",
+        "importar",
+        "significativo",
+        "personalizar"
+      ]
+    },
+    {
+      "model_evaluations": {
+        "Model A": {
+          "score": 8,
+          "comment": "Consistently accurate definitions with appropriate grammatical metadata and natural example sentences. Provides comprehensive coverage including multiple meanings for 'hecho' and includes helpful contextual information like 'past participle of hacer'."
+        },
+        "Model B": {
+          "score": 7,
+          "comment": "Generally solid definitions with good example sentences, but shows some inconsistencies like using feminine 'hecha' in the cloze while marking gender as masculine, and identifying a preposition pattern for 'html' that may not be essential for learners."
+        },
+        "Model C": {
+          "score": 8,
+          "comment": "Accurate and clear definitions with well-constructed example sentences that provide good context. Maintains consistency in grammatical metadata and offers practical examples that would help learners understand word usage in real contexts."
+        }
+      },
+      "comparative_analysis": "All three models perform well overall with accurate basic definitions and appropriate example sentences. Model A stands out for its comprehensive approach, particularly in explaining 'hecho' as both noun and past participle with clear grammatical context. Model B shows good attention to detail by identifying preposition patterns but has a notable grammatical inconsistency with 'hecho/hecha'. Model C provides consistently solid entries with practical, contextually rich examples. The main differences lie in completeness of explanations and consistency of grammatical information rather than fundamental accuracy issues.",
+      "words_evaluated": [
+        "hecho",
+        "html",
+        "invisible",
+        "castillo",
+        "fiable"
+      ]
+    }
+  ],
+  "summary": {
+    "best_quality": "o4-mini",
+    "lowest_cost": "claude-3.5-haiku"
+  }
+}

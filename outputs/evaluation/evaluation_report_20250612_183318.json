@@ -1,0 +1,354 @@
+{
+  "evaluation_metadata": {
+    "timestamp": "20250612_183318",
+    "models_evaluated": [
+      "claude-3-haiku",
+      "gpt-4o-mini",
+      "o4-mini",
+      "gpt-4.1-nano",
+      "claude-3.5-haiku",
+      "gpt-4.1-mini"
+    ],
+    "num_words": 25,
+    "evaluation_words": [
+      "palo",
+      "idea",
+      "big",
+      "comunitario",
+      "traer",
+      "impulsar",
+      "maquinaria",
+      "dosis",
+      "marzo",
+      "fallo",
+      "ingresar",
+      "autor",
+      "realizarse",
+      "vulnerable",
+      "fiable",
+      "juvenil",
+      "concentración",
+      "mixto",
+      "naturaleza",
+      "fama",
+      "universo",
+      "exigir",
+      "avenida",
+      "infinito",
+      "ford"
+    ],
+    "top_n_selection": 5000
+  },
+  "model_mapping": {
+    "Model A": "gpt-4.1-mini",
+    "Model B": "claude-3-haiku",
+    "Model C": "gpt-4o-mini",
+    "Model D": "gpt-4.1-nano",
+    "Model E": "claude-3.5-haiku",
+    "Model F": "o4-mini"
+  },
+  "cost_analysis": {
+    "claude-3-haiku": {
+      "uncached_input_cost": 0.000139,
+      "cached_input_cost": 0.000627,
+      "cache_write_cost": 0.001568,
+      "output_cost": 0.005623,
+      "total_cost": 0.007956,
+      "cost_per_10k_definitions": 3.1824
+    },
+    "gpt-4o-mini": {
+      "uncached_input_cost": 0.00151,
+      "cached_input_cost": 0.001037,
+      "cache_write_cost": 0.0,
+      "output_cost": 0.001561,
+      "total_cost": 0.004107,
+      "cost_per_10k_definitions": 1.6428000000000003
+    },
+    "o4-mini": {
+      "uncached_input_cost": 0.011065,
+      "cached_input_cost": 0.003802,
+      "cache_write_cost": 0.0,
+      "output_cost": 0.079904,
+      "total_cost": 0.094771,
+      "cost_per_10k_definitions": 37.9084
+    },
+    "gpt-4.1-nano": {
+      "uncached_input_cost": 0.000597,
+      "cached_input_cost": 0.000448,
+      "cache_write_cost": 0.0,
+      "output_cost": 0.00152,
+      "total_cost": 0.002565,
+      "cost_per_10k_definitions": 1.026
+    },
+    "claude-3.5-haiku": {
+      "uncached_input_cost": 0.000444,
+      "cached_input_cost": 0.001672,
+      "cache_write_cost": 0.005226,
+      "output_cost": 0.017892,
+      "total_cost": 0.025234,
+      "cost_per_10k_definitions": 10.0936
+    },
+    "gpt-4.1-mini": {
+      "uncached_input_cost": 0.005869,
+      "cached_input_cost": 0.000922,
+      "cache_write_cost": 0.0,
+      "output_cost": 0.006443,
+      "total_cost": 0.013234,
+      "cost_per_10k_definitions": 5.2936000000000005
+    }
+  },
+  "quality_scores": {
+    "gpt-4.1-mini": {
+      "average_score": 7.6,
+      "total_evaluations": 5,
+      "score_distribution": [
+        8,
+        7,
+        8,
+        7,
+        8
+      ]
+    },
+    "claude-3-haiku": {
+      "average_score": 7.2,
+      "total_evaluations": 5,
+      "score_distribution": [
+        8,
+        8,
+        6,
+        8,
+        6
+      ]
+    },
+    "gpt-4o-mini": {
+      "average_score": 6.0,
+      "total_evaluations": 5,
+      "score_distribution": [
+        6,
+        6,
+        5,
+        6,
+        7
+      ]
+    },
+    "gpt-4.1-nano": {
+      "average_score": 6.4,
+      "total_evaluations": 5,
+      "score_distribution": [
+        7,
+        7,
+        5,
+        7,
+        6
+      ]
+    },
+    "claude-3.5-haiku": {
+      "average_score": 7.8,
+      "total_evaluations": 5,
+      "score_distribution": [
+        8,
+        9,
+        7,
+        7,
+        8
+      ]
+    },
+    "o4-mini": {
+      "average_score": 8.4,
+      "total_evaluations": 5,
+      "score_distribution": [
+        8,
+        8,
+        8,
+        9,
+        9
+      ]
+    }
+  },
+  "detailed_evaluations": [
+    {
+      "model_evaluations": {
+        "Model A": {
+          "score": 8,
+          "comment": "Provides accurate definitions with correct grammatical metadata and natural example sentences. Properly identifies 'big' as non-Spanish and includes comprehensive verb information for 'traer', though verb conjugation group is incorrectly listed as 3rd conjugation instead of irregular."
+        },
+        "Model B": {
+          "score": 8,
+          "comment": "Delivers clear, accurate definitions with good example sentences and proper grammatical information. Correctly identifies 'big' as English but lacks an example sentence, and accurately categorizes 'traer' as 3rd conjugation irregular verb."
+        },
+        "Model C": {
+          "score": 6,
+          "comment": "Shows significant accuracy issues, particularly treating 'big' as a Spanish word with grammatically incorrect example sentences. Provides basic but adequate definitions for other words, though verb conjugation information for 'traer' is incorrect (listed as 2nd conjugation)."
+        },
+        "Model D": {
+          "score": 7,
+          "comment": "Generally accurate definitions with appropriate examples, but contains critical grammatical errors including incorrect verb conjugation groups for 'traer' (listed as 1st conjugation) and problematic treatment of 'big' as Spanish in example sentences."
+        },
+        "Model E": {
+          "score": 8,
+          "comment": "Provides accurate definitions with natural examples and correctly identifies 'traer' as irregular. Properly recognizes 'big' as non-Spanish, though could benefit from providing an example sentence to demonstrate this point more clearly."
+        },
+        "Model F": {
+          "score": 8,
+          "comment": "Offers clear, accurate definitions with appropriate examples and correct identification of 'big' as English. Properly categorizes 'traer' as irregular and uses natural, conjugated verb forms in examples that match grammatical context well."
+        }
+      },
+      "comparative_analysis": "Models A, B, E, and F perform consistently well with accurate definitions and proper grammatical metadata, while Models C and D show concerning accuracy issues. The key differentiator is the treatment of 'big' - Models A, B, E, and F correctly identify it as non-Spanish, while Models C and D incorrectly treat it as Spanish with ungrammatical examples. For 'traer', most models correctly identify it as transitive, but there are inconsistencies in verb conjugation classification, with only Models B, E, and F properly noting its irregular nature. All models handle basic vocabulary like 'palo', 'idea', and 'comunitario' competently with natural examples and correct grammatical information.",
+      "words_evaluated": [
+        "palo",
+        "idea",
+        "big",
+        "comunitario",
+        "traer"
+      ]
+    },
+    {
+      "model_evaluations": {
+        "Model A": {
+          "score": 7,
+          "comment": "Generally accurate definitions with correct grammatical metadata, but has some issues like awkward phrasing in 'impulsar' example and identifies preposition 'en' for 'marzo' which is contextual rather than inherent. Missing multiple meanings for 'fallo' reduces educational value."
+        },
+        "Model B": {
+          "score": 8,
+          "comment": "Solid performance with natural example sentences and accurate definitions. Provides clear, learner-friendly explanations with good contextual examples like 'La nueva tecnología impulsa el crecimiento' and 'El médico recetó una dosis diaria', though could benefit from including multiple meanings for some words."
+        },
+        "Model C": {
+          "score": 6,
+          "comment": "Contains a critical error by incorrectly classifying 'impulsar' as 2nd conjugation (-er) when it's clearly 1st conjugation (-ar). Also has overly simple examples that provide less educational context, reducing overall value for learners despite accurate basic definitions."
+        },
+        "Model D": {
+          "score": 7,
+          "comment": "Accurate definitions with appropriate examples, but has inconsistencies like missing gender for 'marzo' and incorrectly identifying preposition 'a' for 'impulsar'. Generally reliable but lacks the comprehensiveness needed for optimal learning support."
+        },
+        "Model E": {
+          "score": 9,
+          "comment": "Excellent comprehensive coverage with multiple meanings provided for 'fallo' (failure/court ruling) and rich definitions like 'machinery, equipment, mechanical systems'. Consistently accurate grammatical metadata and natural example sentences make this highly valuable for learners."
+        },
+        "Model F": {
+          "score": 8,
+          "comment": "Strong performance with accurate definitions and good coverage of multiple meanings for 'fallo'. Natural example sentences and correct grammatical information, though some definitions could be more detailed for enhanced educational value."
+        }
+      },
+      "comparative_analysis": "Model E stands out for providing comprehensive coverage including multiple meanings (especially for 'fallo') and detailed definitions that enhance learning. Models B and F follow closely with natural examples and accurate information. Model C is significantly weakened by the conjugation error for 'impulsar', while Models A and D have minor but notable inconsistencies in preposition identification and grammatical metadata. The key differentiator is the inclusion of multiple meanings and contextually rich examples that help learners understand word usage in different situations.",
+      "words_evaluated": [
+        "impulsar",
+        "maquinaria",
+        "dosis",
+        "marzo",
+        "fallo"
+      ]
+    },
+    {
+      "model_evaluations": {
+        "Model A": {
+          "score": 8,
+          "comment": "Strong performance with comprehensive coverage of multiple meanings and accurate grammatical metadata. Provides both transitive and intransitive uses of 'ingresar' with appropriate prepositions, though some verb conjugation classifications need attention (correctly identifies 1st conjugation for -ar verbs)."
+        },
+        "Model B": {
+          "score": 6,
+          "comment": "Generally accurate definitions but lacks comprehensiveness, often providing only single meanings where multiple exist. Contains some errors in grammatical metadata (incorrectly classifies 'ingresar' as 2nd conjugation and 'realizarse' as stem-changing) which could mislead learners."
+        },
+        "Model C": {
+          "score": 5,
+          "comment": "Provides basic accurate definitions but has significant grammatical errors, particularly incorrectly classifying 'ingresar' as 2nd conjugation (-er) when it's clearly 1st conjugation (-ar). Limited coverage of multiple meanings reduces educational value for comprehensive understanding."
+        },
+        "Model D": {
+          "score": 5,
+          "comment": "Offers clear, simple definitions but suffers from major grammatical classification errors (wrong verb conjugation groups) and incomplete coverage of word meanings. The example sentence for 'realizarse' is grammatically problematic, using infinitive where conjugated form is needed."
+        },
+        "Model E": {
+          "score": 7,
+          "comment": "Provides accurate definitions with good coverage of multiple meanings in single entries. However, contains a notable formatting error in the 'vulnerable' example with incorrect cloze deletion format ({{c1:vulnerable}}s instead of {{c1:vulnerables}}) and correctly identifies transitiveness as reflexive for 'realizarse'."
+        },
+        "Model F": {
+          "score": 8,
+          "comment": "Excellent comprehensive coverage with multiple definitions where appropriate and consistently accurate grammatical metadata. Example sentences are natural and well-constructed, with good identification of preposition patterns (notably 'de' for 'autor'). Minor weakness in occasionally brief definitions."
+        }
+      },
+      "comparative_analysis": "Model A and Model F demonstrate the strongest overall performance with comprehensive multiple-meaning coverage and accurate grammatical information. Model F slightly edges ahead with better preposition identification. Models B, C, and D show concerning patterns of grammatical metadata errors, particularly in verb conjugation classification, which significantly impacts their educational value. Model E falls in the middle with good content but formatting issues. The key differentiator is accuracy of grammatical metadata combined with completeness of meaning coverage.",
+      "words_evaluated": [
+        "ingresar",
+        "autor",
+        "realizarse",
+        "vulnerable",
+        "fiable"
+      ]
+    },
+    {
+      "model_evaluations": {
+        "Model A": {
+          "score": 7,
+          "comment": "Provides accurate definitions with good grammatical metadata and natural example sentences. Identifies some preposition patterns (concentración 'en', fama 'en') but has a gender error for 'juvenil' (marked as 'both' but example shows masculine usage). Generally solid educational value."
+        },
+        "Model B": {
+          "score": 8,
+          "comment": "Consistently accurate definitions with clear, learner-friendly language and natural example sentences. Good grammatical metadata throughout with no significant errors. Provides solid educational value though could benefit from identifying more preposition patterns and multiple meanings."
+        },
+        "Model C": {
+          "score": 6,
+          "comment": "Accurate but sometimes overly brief definitions that may lack clarity for learners. Has a significant gender error marking 'juvenil' as masculine only when it should be invariable. Example sentences are adequate but translations could be more natural in some cases."
+        },
+        "Model D": {
+          "score": 7,
+          "comment": "Provides detailed, descriptive definitions that are educational and accurate. Example sentences are natural and appropriate for learners. Consistent grammatical metadata, though could improve by identifying preposition patterns and multiple meanings more systematically."
+        },
+        "Model E": {
+          "score": 7,
+          "comment": "Offers clear, concise definitions with good example sentences and accurate translations. Grammatical metadata is generally correct and consistent. Solid educational value though lacks identification of preposition patterns and multiple meanings that would enhance learning."
+        },
+        "Model F": {
+          "score": 9,
+          "comment": "Excellent comprehensive coverage with multiple meanings for key words like 'naturaleza' and 'fama'. Consistently accurate definitions, natural example sentences, and proper grammatical metadata. Highest educational value with clear, learner-focused approach throughout."
+        }
+      },
+      "comparative_analysis": "Model F stands out for providing multiple meanings where appropriate (naturaleza: nature/essence, fama: fame/reputation), which significantly enhances educational value. Models B, D, and E provide consistently solid definitions but miss opportunities for comprehensive coverage. Model A shows good preposition identification but has a gender classification error. Model C has the most significant issues with overly brief definitions and a clear gender error for 'juvenil'. All models handle the cloze format correctly and provide natural example sentences, but Model F's comprehensive approach and attention to multiple meanings makes it most valuable for language learners seeking to understand words in various contexts.",
+      "words_evaluated": [
+        "juvenil",
+        "concentración",
+        "mixto",
+        "naturaleza",
+        "fama"
+      ]
+    },
+    {
+      "model_evaluations": {
+        "Model A": {
+          "score": 8,
+          "comment": "Provides accurate definitions with correct grammatical metadata and natural example sentences. Definitions are clear and learner-friendly, though sometimes basic. Correctly identifies verb conjugation as 2nd conjugation (-ir) for 'exigir' and provides appropriate transitivity information."
+        },
+        "Model B": {
+          "score": 6,
+          "comment": "Generally accurate definitions but contains a critical error in verb conjugation classification, incorrectly labeling 'exigir' as 1st conjugation (-ar) when it's clearly 3rd conjugation (-ir). Example sentences are well-constructed and translations are natural, but this grammatical error significantly impacts educational value."
+        },
+        "Model C": {
+          "score": 7,
+          "comment": "Accurate definitions with correct verb conjugation identification and appropriate example sentences. However, definitions tend to be more minimal and less descriptive than ideal for learners. The accompanying_preposition field shows 'null' as a string rather than null value, indicating minor formatting inconsistency."
+        },
+        "Model D": {
+          "score": 6,
+          "comment": "Provides accurate basic definitions but has significant grammatical metadata errors, including incorrect verb conjugation classification (2nd conjugation -er instead of 3rd conjugation -ir for 'exigir') and questionable gender assignment ('both' for 'infinito'). These errors reduce educational reliability despite natural example sentences."
+        },
+        "Model E": {
+          "score": 8,
+          "comment": "Consistently accurate definitions with correct grammatical classifications, including proper identification of 'exigir' as 3rd conjugation (-ir). Example sentences are natural and appropriate for learners. Provides reliable educational content with clear, concise definitions."
+        },
+        "Model F": {
+          "score": 9,
+          "comment": "Excellent performance with accurate definitions, correct grammatical metadata, and natural example sentences. Stands out by providing multiple meanings for 'infinito' (both adjective and noun), demonstrating comprehensive coverage. Consistently reliable for educational use with high attention to detail."
+        }
+      },
+      "comparative_analysis": "Model F demonstrates the strongest overall performance by providing comprehensive coverage including multiple meanings where appropriate (infinito as both adjective and noun) while maintaining accuracy across all grammatical metadata. Models A and E show solid, reliable performance with correct verb conjugations and clear definitions. Model B, despite good example quality, is significantly hampered by the critical error of misclassifying 'exigir' as 1st conjugation. Model D shows similar grammatical metadata issues with incorrect conjugation classification. Model C provides accurate but minimal definitions. The key differentiator is grammatical accuracy - models that correctly identify verb conjugations and other metadata provide much higher educational value for Spanish learners.",
+      "words_evaluated": [
+        "universo",
+        "exigir",
+        "avenida",
+        "infinito",
+        "ford"
+      ]
+    }
+  ],
+  "summary": {
+    "best_quality": "o4-mini",
+    "lowest_cost": "gpt-4.1-nano"
+  }
+}

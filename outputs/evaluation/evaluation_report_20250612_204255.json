@@ -1,0 +1,231 @@
+{
+  "evaluation_metadata": {
+    "timestamp": "20250612_204255",
+    "models_evaluated": [
+      "claude-4-sonnet",
+      "claude-3.5-haiku",
+      "o4-mini"
+    ],
+    "num_words": 25,
+    "evaluation_words": [
+      "excursión",
+      "cáncer",
+      "implante",
+      "auricular",
+      "montreal",
+      "olor",
+      "center",
+      "desafío",
+      "introducción",
+      "ilimitado",
+      "seco",
+      "aviv",
+      "a.",
+      "calmo",
+      "invocar",
+      "presente",
+      "ayudarlo",
+      "oporto",
+      "it",
+      "grabar",
+      "diciembre",
+      "arco",
+      "austin",
+      "provincia",
+      "acoger"
+    ],
+    "top_n_selection": 5000
+  },
+  "model_mapping": {
+    "Model A": "o4-mini",
+    "Model B": "claude-4-sonnet",
+    "Model C": "claude-3.5-haiku"
+  },
+  "cost_analysis": {
+    "claude-4-sonnet": {
+      "uncached_input_cost": 0.001662,
+      "cached_input_cost": 0.006271,
+      "cache_write_cost": 0.019598,
+      "output_cost": 0.072555,
+      "total_cost": 0.100086,
+      "cost_per_10k_definitions": 40.0344
+    },
+    "claude-3.5-haiku": {
+      "uncached_input_cost": 0.000443,
+      "cached_input_cost": 0.001672,
+      "cache_write_cost": 0.005226,
+      "output_cost": 0.018648,
+      "total_cost": 0.02599,
+      "cost_per_10k_definitions": 10.395999999999999
+    },
+    "o4-mini": {
+      "uncached_input_cost": 0.000939,
+      "cached_input_cost": 0.006336,
+      "cache_write_cost": 0.0,
+      "output_cost": 0.078056,
+      "total_cost": 0.085331,
+      "cost_per_10k_definitions": 34.132400000000004
+    }
+  },
+  "quality_scores": {
+    "o4-mini": {
+      "average_score": 6.6,
+      "total_evaluations": 5,
+      "score_distribution": [
+        7,
+        6,
+        6,
+        6,
+        8
+      ]
+    },
+    "claude-4-sonnet": {
+      "average_score": 8.2,
+      "total_evaluations": 5,
+      "score_distribution": [
+        9,
+        8,
+        8,
+        9,
+        7
+      ]
+    },
+    "claude-3.5-haiku": {
+      "average_score": 7.4,
+      "total_evaluations": 5,
+      "score_distribution": [
+        8,
+        7,
+        7,
+        7,
+        8
+      ]
+    }
+  },
+  "detailed_evaluations": [
+    {
+      "model_evaluations": {
+        "Model A": {
+          "score": 7,
+          "comment": "Generally accurate definitions with good example sentences, but has some notable issues including incorrect gender assignment for Montreal (feminine instead of masculine) and missing important modern meanings like 'headphones' for auricular. The preposition identification is inconsistent, missing some common patterns."
+        },
+        "Model B": {
+          "score": 9,
+          "comment": "Excellent overall performance with accurate definitions, natural example sentences, and good identification of multiple meanings. Shows strong attention to modern usage (headphones vs. telephone receiver) and correctly identifies accompanying prepositions. Minor weakness in overly technical translation for auricular adjective."
+        },
+        "Model C": {
+          "score": 8,
+          "comment": "Solid performance with accurate definitions and appropriate examples. Good coverage of multiple meanings and modern usage contexts. Slightly less natural in some translations and preposition identification, but consistently reliable for learner comprehension."
+        }
+      },
+      "comparative_analysis": "Model B demonstrates the strongest educational value with comprehensive coverage of both traditional and modern meanings (especially evident in 'auricular' where it prioritizes headphones over telephone receiver), accurate grammatical metadata, and natural example sentences. Model C performs well but is slightly less nuanced in translations and preposition patterns. Model A, while generally solid, has critical errors in gender assignment and misses important contemporary usage patterns that would confuse modern learners.",
+      "words_evaluated": [
+        "excursión",
+        "cáncer",
+        "implante",
+        "auricular",
+        "montreal"
+      ]
+    },
+    {
+      "model_evaluations": {
+        "Model A": {
+          "score": 6,
+          "comment": "Generally accurate definitions with correct grammatical metadata, but has some issues with preposition identification (incorrectly lists 'a' for 'olor') and creates awkward example sentences that don't feel natural for learners. The handling of the English word 'center' is appropriate but the example sentence is unnecessarily meta-linguistic."
+        },
+        "Model B": {
+          "score": 8,
+          "comment": "Consistently accurate definitions with natural, learner-friendly example sentences that demonstrate practical usage. Provides good synonym coverage (e.g., 'unlimited, limitless') and maintains appropriate difficulty level throughout. Minor weakness in not identifying any preposition patterns where relevant."
+        },
+        "Model C": {
+          "score": 7,
+          "comment": "Accurate definitions with good synonym variety and natural example sentences, but has minor issues like redundant definitions ('challenge, challenge' for desafío) and inconsistent gender marking (missing gender for 'center'). Overall solid educational value with room for refinement in consistency."
+        }
+      },
+      "comparative_analysis": "Model B demonstrates the most consistent quality across all words, providing natural example sentences that would genuinely help learners understand usage in context. Model A struggles with naturalness and has a preposition error, while Model C shows good synonym coverage but lacks consistency in formatting and has some redundancy issues. All models correctly handle the cloze deletion format and appropriately mark the English word 'center' as not suitable for learning. Model B's examples like 'Tenemos tiempo ilimitado para terminar' are particularly effective for demonstrating practical usage.",
+      "words_evaluated": [
+        "olor",
+        "center",
+        "desafío",
+        "introducción",
+        "ilimitado"
+      ]
+    },
+    {
+      "model_evaluations": {
+        "Model A": {
+          "score": 6,
+          "comment": "Shows good accuracy for standard Spanish words like 'seco' and 'invocar' with appropriate grammatical metadata, but incorrectly dismisses legitimate entries like 'aviv' and 'a.' as non-Spanish, reducing educational value. The preposition identification for 'invocar' is helpful but inconsistently applied."
+        },
+        "Model B": {
+          "score": 8,
+          "comment": "Demonstrates strong overall performance with accurate definitions and natural example sentences across all words. Correctly identifies 'aviv' as a Hebrew name and handles abbreviations appropriately, though could provide more comprehensive coverage of multiple meanings for some entries."
+        },
+        "Model C": {
+          "score": 7,
+          "comment": "Provides generally accurate definitions with good example sentences, but contains a significant error in verb conjugation classification (calling 'invocar' 2nd conjugation instead of 1st). Shows appropriate caution with uncertain entries like 'aviv' but sometimes lacks decisiveness in providing clear guidance to learners."
+        }
+      },
+      "comparative_analysis": "Model B consistently provides the most reliable and learner-friendly definitions across the evaluation set, correctly handling both standard Spanish vocabulary and edge cases like proper nouns and abbreviations. Model A shows strong technical knowledge for core Spanish words but fails by incorrectly rejecting legitimate entries, which could mislead learners. Model C demonstrates good definitional accuracy but is undermined by a fundamental grammatical error and occasional uncertainty that reduces its educational utility. Model B strikes the best balance between accuracy, completeness, and practical value for language learners.",
+      "words_evaluated": [
+        "seco",
+        "aviv",
+        "a.",
+        "calmo",
+        "invocar"
+      ]
+    },
+    {
+      "model_evaluations": {
+        "Model A": {
+          "score": 6,
+          "comment": "Shows good accuracy for basic definitions and proper grammatical metadata, but has a critical flaw in rejecting 'ayudarlo' as invalid when it's a common and useful form for learners. Missing important secondary meanings like 'engrave' for 'grabar' also reduces educational value."
+        },
+        "Model B": {
+          "score": 9,
+          "comment": "Excellent comprehensive coverage with consistently accurate definitions and natural example sentences. Successfully handles complex cases like 'ayudarlo' and provides multiple meanings where appropriate. High educational value with only minor inconsistencies in should_learn flags."
+        },
+        "Model C": {
+          "score": 7,
+          "comment": "Generally accurate definitions with good grammatical metadata, but shows some confusion about linguistic concepts (calling 'ayudarlo' reflexive when it's not) and provides less comprehensive coverage of multiple meanings compared to Model B."
+        }
+      },
+      "comparative_analysis": "Model B demonstrates superior performance by providing the most comprehensive and educationally valuable definitions. It correctly handles all word forms including the challenging 'ayudarlo' case, provides multiple meanings where relevant (e.g., 'grabar' as both record and engrave), and maintains consistent accuracy. Model A shows good basic competency but fails critically on 'ayudarlo' and misses important secondary meanings. Model C falls between the two, with generally solid definitions but some technical inaccuracies and less thorough coverage. For language learners, Model B would be most helpful for understanding words encountered in reading contexts.",
+      "words_evaluated": [
+        "presente",
+        "ayudarlo",
+        "oporto",
+        "it",
+        "grabar"
+      ]
+    },
+    {
+      "model_evaluations": {
+        "Model A": {
+          "score": 8,
+          "comment": "Strong performance with accurate definitions and good identification of multiple meanings (arco) and preposition patterns (diciembre, provincia). Example sentences are natural and appropriate, though verb group classification for acoger could be more precise (marked as 'irregular' rather than specifying the stem change)."
+        },
+        "Model B": {
+          "score": 7,
+          "comment": "Generally accurate definitions with clear, learner-friendly explanations and natural example sentences. However, inconsistently identifies preposition patterns and combines multiple meanings into single definitions rather than separating them, which reduces clarity for learners seeking specific meanings."
+        },
+        "Model C": {
+          "score": 8,
+          "comment": "Excellent clarity with comprehensive definitions that include helpful clarifications (e.g., 'twelfth month', 'administrative region'). Creative example usage (arco iris) demonstrates broader vocabulary knowledge, though the preposition identification for acoger appears questionable in the given context."
+        }
+      },
+      "comparative_analysis": "All three models perform well on basic accuracy and provide natural example sentences. Model A excels at identifying multiple distinct meanings and preposition patterns, making it most useful for learners encountering words in different contexts. Model B offers the most concise definitions but sometimes oversimplifies by combining meanings. Model C provides the most educational value through detailed explanations and creative examples, though it occasionally makes questionable grammatical annotations. For the proper noun 'austin', all models appropriately mark it as not essential for learning while providing accurate context.",
+      "words_evaluated": [
+        "diciembre",
+        "arco",
+        "austin",
+        "provincia",
+        "acoger"
+      ]
+    }
+  ],
+  "summary": {
+    "best_quality": "claude-4-sonnet",
+    "lowest_cost": "claude-3.5-haiku"
+  }
+}
