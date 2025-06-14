@@ -1228,12 +1228,69 @@ def process_lemma_file(
         logger.info(f"Retrieving {limit} lemmas starting at index {start}: {start} - {start + limit}")
         lemmas = lemmas[start:start + limit]
     
-    # Generate definitions using the core function
-    generation_result = generate_definitions_for_lemmas(lemmas, provider, model, batch_size)
+    # Process in chunks of 1000
+    chunk_size = 1000
+    total_processed = 0
+    all_results = []
     
-    # Merge results with original lemma data
-    output_data = {}
-    for lemma_info in generation_result["results"]:
+    for chunk_start in range(0, len(lemmas), chunk_size):
+        chunk_end = min(chunk_start + chunk_size, len(lemmas))
+        chunk_lemmas = lemmas[chunk_start:chunk_end]
+        
+        logger.info(f"Processing chunk {chunk_start//chunk_size + 1}: lemmas {chunk_start} to {chunk_end}")
+        
+        # Generate definitions for this chunk
+        generation_result = generate_definitions_for_lemmas(chunk_lemmas, provider, model, batch_size)
+        all_results.extend(generation_result["results"])
+        total_processed += len(chunk_lemmas)
+        
+        # Create output data for this chunk
+        output_data = {}
+        for lemma_info in generation_result["results"]:
+            # Start with all original data for this lemma
+            lemma_output = lemmas_data[lemma_info.lemma].copy()
+            
+            # Add the generated definition information
+            lemma_output.update({
+                "definitions": [vars(def_) for def_ in lemma_info.definitions],
+                "should_learn": lemma_info.should_learn,
+                "has_error": lemma_info.has_error,
+                "error_description": lemma_info.error_description
+            })
+            
+            output_data[lemma_info.lemma] = lemma_output
+
+        # Add file-specific metadata
+        header = generation_result["metadata"].copy()
+        header.update({
+            "limit": limit,
+            "start": start,
+            "chunk_start": chunk_start,
+            "chunk_end": chunk_end,
+            "total_processed": total_processed
+        })
+
+        # Create chunk output filename
+        chunk_output_file = output_file.replace('.json', f'_chunk_{chunk_start//chunk_size + 1}.json')
+        
+        full_output_data = {
+            "header": header,
+            "lemmas": output_data
+        }
+        
+        # Write chunk output file
+        output_dir = os.path.dirname(chunk_output_file)
+        if output_dir:
+            os.makedirs(output_dir, exist_ok=True)
+        
+        with open(chunk_output_file, 'w', encoding='utf-8') as f:
+            json.dump(full_output_data, f, ensure_ascii=False, indent=2)
+        
+        logger.info(f"Chunk results saved to: {chunk_output_file}")
+    
+    # Create final combined output
+    final_output_data = {}
+    for lemma_info in all_results:
         # Start with all original data for this lemma
         lemma_output = lemmas_data[lemma_info.lemma].copy()
         
@@ -1245,29 +1302,39 @@ def process_lemma_file(
             "error_description": lemma_info.error_description
         })
         
-        output_data[lemma_info.lemma] = lemma_output
+        final_output_data[lemma_info.lemma] = lemma_output
 
-    # Add file-specific metadata
-    header = generation_result["metadata"].copy()
-    header.update({
+    # Add final metadata
+    final_header = {
+        "model": model,
+        "num_lemmas": len(all_results),
+        "batch_size": batch_size,
+        "timestamp": datetime.now().strftime("%Y%m%d_%H%M%S"),
+        "token_usage": {
+            "read_cached_input_tokens": provider.token_usage.read_cached_input_tokens,
+            "written_cached_input_tokens": provider.token_usage.written_cached_input_tokens,
+            "uncached_input_tokens": provider.token_usage.uncached_input_tokens,
+            "output_tokens": provider.token_usage.output_tokens
+        },
         "limit": limit,
-        "start": start
-    })
+        "start": start,
+        "total_processed": total_processed
+    }
 
-    full_output_data = {
-        "header": header,
-        "lemmas": output_data
+    full_final_output = {
+        "header": final_header,
+        "lemmas": final_output_data
     }
     
-    # Write output file
+    # Write final output file
     output_dir = os.path.dirname(output_file)
     if output_dir:
         os.makedirs(output_dir, exist_ok=True)
     
     with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(full_output_data, f, ensure_ascii=False, indent=2)
+        json.dump(full_final_output, f, ensure_ascii=False, indent=2)
     
-    logger.info(f"Results saved to: {output_file}")
+    logger.info(f"Final combined results saved to: {output_file}")
 
 def main():
     import argparse
