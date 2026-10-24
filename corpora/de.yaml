@@ -1,0 +1,77 @@
+# German corpus manifest. Corpus text is never committed.
+language:
+  code: de
+  tokenizer: spacy-de
+  lemma_package: honeyeater_lemma_de
+  lemma_pattern: '^[A-Za-zÄÖÜäöüß]+(?:-[A-Za-zÄÖÜäöüß]+)*$'
+  fold_case: false
+  lowercase_forms: true
+  readings: false
+  pos_source: backend
+  top_n: 50000
+  forms_kept: 5
+hygiene: {min_chars: 20, max_chars: 600, min_alpha_ratio: 0.6, gap_filter: true, langid_min_prob: 0.5}
+parts: 100
+checks:
+  review_top_n: 10000
+  form_ratio_threshold: 1000.0
+  plural_suffixes: [e, en, n, er, s]
+  short_lemma_max_len: 2
+sources:
+  - name: hplt-v2-de
+    kind: hplt
+    licence: CC0-1.0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/
+    notes: >-
+      HPLT v2.0 cleaned shards (CC0 dedication over CommonCrawl / Internet Archive
+      web text). Each file is ~50-70 GB compressed, so it is streamed and never
+      stored; a run reads the first max_chars_per_url characters of each URL.
+      The full map is https://data.hplt-project.org/two/cleaned/deu_Latn_map.txt;
+      append URLs here to count more. Documents arrive grouped by crawl file, so
+      read several URLs rather than one deeply.
+    segment_lang: deu_Latn
+    urls:
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/10.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/11.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/12.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/13.jsonl.zst
+    shard_chars: 20000000
+    max_chars_per_url: 1500000000
+  - name: tatoeba-deu
+    kind: tsv
+    licence: CC-BY-2.0-FR
+    licence_url: https://tatoeba.org/en/terms_of_use
+    notes: >-
+      Tatoeba deu export (CC BY 2.0 FR; a subset is CC0). Attribution to
+      Tatoeba contributors is the only obligation and is recorded in
+      reference/licenses/de.md. Conversational top-up; the export is
+      re-generated weekly, so the sha256 is recorded per run, not pinned.
+    urls:
+      - https://downloads.tatoeba.org/exports/per_language/deu/deu_sentences.tsv.bz2
+    column: 2
+    pseudo_doc_lines: 50
+    shard_chars: 20000000
+    hygiene: {min_chars: 3, max_chars: 300, min_alpha_ratio: 0.5, gap_filter: true, langid_min_prob: 0.0}
+pilot:
+  shard_chars: 2500000
+  urls: {hplt-v2-de: 2}
+  max_chars_per_url:
+    hplt-v2-de: 9000000
+    tatoeba-deu: 1500000
+observed:
+  hplt-v2-de:
+  - date: '2026-10-24'
+    documents: 4473
+    lines: 59414
+    partial: true
+    scope: pilot
+    shards: 8
+    tokens: 1386834
+  tatoeba-deu:
+  - date: '2026-10-24'
+    documents: 716
+    lines: 35705
+    partial: true
+    scope: pilot
+    shards: 1
+    tokens: 248652

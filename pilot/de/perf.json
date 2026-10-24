@@ -1,0 +1,119 @@
+{
+ "language": "de",
+ "scope": "pilot",
+ "tokens": 1635486,
+ "documents": 5189,
+ "lemma_types_ranked": 129167,
+ "snapshot_entries": 50000,
+ "stages": [
+  {
+   "stage": "fetch_decode",
+   "what": "download, decompress, parse (main process)",
+   "core_seconds": 12.92,
+   "tokens_per_second": 126630
+  },
+  {
+   "stage": "hygiene",
+   "what": "length/alpha/GAP/dedup filters (main process)",
+   "core_seconds": 3.18,
+   "tokens_per_second": 513594
+  },
+  {
+   "stage": "langid",
+   "what": "py3langid (main process)",
+   "core_seconds": 7.55,
+   "tokens_per_second": 216722
+  },
+  {
+   "stage": "read_shard",
+   "what": "read the cleaned shard file (worker)",
+   "core_seconds": 0.17,
+   "tokens_per_second": 9703875
+  },
+  {
+   "stage": "segment",
+   "what": "backend sentence segmentation (worker)",
+   "core_seconds": 829.15,
+   "tokens_per_second": 1972
+  },
+  {
+   "stage": "tokenize",
+   "what": "backend tokenization (worker)",
+   "core_seconds": 34.3,
+   "tokens_per_second": 47677
+  },
+  {
+   "stage": "backend_lemma",
+   "what": "backend lemmatize + override file (worker)",
+   "core_seconds": 2.03,
+   "tokens_per_second": 805748
+  },
+  {
+   "stage": "lemma_step",
+   "what": "LemmaRelease.lemmatise, incl. model where needed (worker)",
+   "core_seconds": 147.23,
+   "tokens_per_second": 11109
+  },
+  {
+   "stage": "count",
+   "what": "tally lemmas, forms, POS, readings (worker)",
+   "core_seconds": 8.89,
+   "tokens_per_second": 183993
+  },
+  {
+   "stage": "worker_total",
+   "what": "everything a worker does per shard",
+   "core_seconds": 1029.83,
+   "tokens_per_second": 1588
+  }
+ ],
+ "build_seconds": {
+  "merge": 3.58,
+  "rank": 1.55,
+  "snapshot": 2.21,
+  "report": 118.03
+ },
+ "worker_peak_rss_mb": 447,
+ "build_process_peak_rss_mb": 898,
+ "host_tokens": 0,
+ "token_provenance": {
+  "model": 86539,
+  "backend": 393112,
+  "table": 1155835
+ },
+ "step_mismatch_sentences": 0,
+ "sentences": 161257,
+ "checks": {
+  "form_ratio": 1,
+  "plural": 1867,
+  "consistency": 664,
+  "short": 186,
+  "case": 1649
+ },
+ "count_wall_seconds": 531.4,
+ "workers": 3,
+ "main_process_peak_rss_mb": 150,
+ "urls": {
+  "hplt-v2-de.00": {
+   "url": "https://data.hplt-project.org/two/cleaned/deu_Latn/10.jsonl.zst",
+   "raw_chars": 9000055,
+   "compressed_bytes_read": 4194304,
+   "closed_by": "cap",
+   "sha256": null
+  },
+  "hplt-v2-de.01": {
+   "url": "https://data.hplt-project.org/two/cleaned/deu_Latn/11.jsonl.zst",
+   "raw_chars": 9000482,
+   "compressed_bytes_read": 4194304,
+   "closed_by": "cap",
+   "sha256": null
+  },
+  "tatoeba-deu.00": {
+   "url": "https://downloads.tatoeba.org/exports/per_language/deu/deu_sentences.tsv.bz2",
+   "raw_chars": 1501237,
+   "compressed_bytes_read": 1048576,
+   "closed_by": "cap",
+   "sha256": null
+  }
+ }
+}

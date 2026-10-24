@@ -172,3 +172,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# frequer runtime state: corpus text and counts are never committed
+data/
+out/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/

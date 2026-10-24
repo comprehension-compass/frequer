@@ -1,0 +1,74 @@
+# Spanish corpus manifest. Corpus text is never committed.
+language:
+  code: es
+  tokenizer: spacy-es
+  lemma_package: honeyeater_lemma_es
+  lemma_pattern: '^[a-záéíóúüñ]+(?:-[a-záéíóúüñ]+)*$'
+  fold_case: true
+  lowercase_forms: false
+  readings: false
+  # spacy-es is a blank pipeline with a lookup lemmatizer: it tags nothing.
+  pos_source: model
+  pos_sample_every: 8
+  top_n: 50000
+  forms_kept: 5
+hygiene: {min_chars: 20, max_chars: 600, min_alpha_ratio: 0.6, gap_filter: true, langid_min_prob: 0.5}
+parts: 100
+checks:
+  review_top_n: 10000
+  form_ratio_threshold: 1000.0
+  plural_suffixes: [s, es]
+  short_lemma_max_len: 2
+sources:
+  - name: paracrawl-en-es
+    kind: tsv
+    licence: CC0-1.0
+    licence_url: https://paracrawl.eu/
+    notes: >-
+      ParaCrawl release 9, en-es, tab-separated (English, Spanish); only the
+      Spanish side (column 1) is counted. 25.1 GB compressed. ParaCrawl
+      dedicates its releases to the public domain (reference/licenses/es.md).
+      Read up to max_chars_per_url characters of the Spanish side from the start.
+    urls:
+      - https://web-language-models.s3.amazonaws.com/paracrawl/release9/en-es/en-es.txt.gz
+    column: 1
+    pseudo_doc_lines: 50
+    shard_chars: 20000000
+    max_chars_per_url: 2000000000
+  - name: tatoeba-spa
+    kind: tsv
+    licence: CC-BY-2.0-FR
+    licence_url: https://tatoeba.org/en/terms_of_use
+    notes: >-
+      Tatoeba spa export (CC BY 2.0 FR; a subset is CC0). Attribution to
+      Tatoeba contributors is the only obligation and is recorded in
+      reference/licenses/es.md. Conversational top-up; the export is
+      re-generated weekly, so the sha256 is recorded per run, not pinned.
+    urls:
+      - https://downloads.tatoeba.org/exports/per_language/spa/spa_sentences.tsv.bz2
+    column: 2
+    pseudo_doc_lines: 50
+    shard_chars: 20000000
+    hygiene: {min_chars: 3, max_chars: 300, min_alpha_ratio: 0.5, gap_filter: true, langid_min_prob: 0.0}
+pilot:
+  shard_chars: 2000000
+  max_chars_per_url:
+    paracrawl-en-es: 14000000
+    tatoeba-spa: 1500000
+observed:
+  paracrawl-en-es:
+  - date: '2026-10-24'
+    documents: 2589
+    lines: 99390
+    partial: true
+    scope: pilot
+    shards: 7
+    tokens: 1974498
+  tatoeba-spa:
+  - date: '2026-10-24'
+    documents: 792
+    lines: 39449
+    partial: true
+    scope: pilot
+    shards: 1
+    tokens: 269370
