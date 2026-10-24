@@ -56,9 +56,9 @@ class LanguageConfig(Strict):
     #: backend that tags nothing).
     pos_source: Literal["backend", "model"] = "backend"
     #: Tokens the lemma step resolves to their host's lemma (a Japanese ending):
-    #: ``count`` adds them to the host lemma's frequency (what the runtime's lemmas
-    #: say), ``skip`` leaves them out so each word is counted once.
-    host_tokens: Literal["count", "skip"] = "count"
+    #: ``skip`` (decided 2026-10-24) leaves them out, so 行っ|た counts 行く once;
+    #: ``count`` would add each ending to its host and inflate verbs.
+    host_tokens: Literal["count", "skip"] = "skip"
     pos_sample_every: int = 8
     top_n: int = 50_000
     forms_kept: int = 5

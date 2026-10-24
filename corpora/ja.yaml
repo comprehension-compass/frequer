@@ -7,7 +7,7 @@ language:
   fold_case: false
   lowercase_forms: false
   readings: true
-  host_tokens: count
+  host_tokens: skip  # an ending is part of its host word: count the word once (2026-10-24)
   pos_source: backend
   top_n: 50000
   forms_kept: 5
