@@ -89,6 +89,15 @@ def find_release_dir(package: str, explicit: Path | None) -> Path:
     return Path(next(iter(spec.submodule_search_locations)))
 
 
+def setup_django() -> None:
+    """Bring up Django from ``honeyeater/backend`` so ``nlp.*`` and ``lexicon.*`` import."""
+    logging.disable(logging.WARNING)  # the backend and procrastinate log JSON at INFO
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings.test")
+    import django
+
+    django.setup()
+
+
 class Runtime:
     """Backend + lemma release + override file for one language."""
 
@@ -99,11 +108,7 @@ class Runtime:
         lemma_dir: Path | None = None,
         wheel: Path | None = None,
     ) -> None:
-        logging.disable(logging.WARNING)  # the backend and procrastinate log JSON at INFO
-        os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings.test")
-        import django
-
-        django.setup()
+        setup_django()
         from nlp import registry
         from nlp.lemma_step import load_release
         from nlp.sentence_stage import apply_override
@@ -213,11 +218,12 @@ def trace(
     resolved: list[str] = []
     for i, word in enumerate(words):
         guess = model_raw[i] if model_raw is not None else None
-        if word in lookup.table and lookup.table[word] is not None:
-            raw, layer = lookup.table[word], "table"
+        key = lookup.key(word)
+        if key is not None and lookup.table[key] is not None:
+            raw, layer = lookup.table[key], "table"
         elif guess is None:  # the step needed the model but the trace saw no run
             return [False] * len(words), ["model"] * len(words), True
-        elif word in lookup.table:
+        elif key is not None:
             raw, layer = guess, "model"
         else:
             raw = lookup.unseen(word, backend[i], guess)
