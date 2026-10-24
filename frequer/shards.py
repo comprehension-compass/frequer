@@ -14,8 +14,8 @@ import gzip
 import hashlib
 import json
 import time
-from collections.abc import Iterator
-from dataclasses import dataclass, field
+from collections.abc import Callable, Iterator
+from dataclasses import asdict, dataclass, field
 from pathlib import Path
 
 from frequer.config import Hygiene, SourceConfig
@@ -31,6 +31,24 @@ class Limits:
 
     max_chars: int | None = None
     max_urls: int | None = None
+    #: Only these URL indices (None = all): lets worker processes take one URL each.
+    url_indices: tuple[int, ...] | None = None
+    #: Keep every ``stride``-th document (see :func:`frequer.sources.iter_docs`).
+    stride: int = 1
+
+
+@dataclass(frozen=True)
+class CutMode:
+    """How shards are written: counting (default) or the form inventory.
+
+    The inventory keeps repeated lines (it filters them itself, across documents, after the
+    whole run), tags each document with an integer of its own choosing (its site) and treats
+    the cleaned shard file in ``keep_dir`` as the done marker, so a rerun skips it.
+    """
+
+    dedup: bool = True
+    keep_dir: Path | None = None
+    tag: Callable[[RawDoc], int] | None = None
 
 
 @dataclass
@@ -46,6 +64,7 @@ class ShardJob:
     lines: int
     dropped: dict[str, int]
     config: str
+    rejected: int = 0
     seconds: dict[str, float] = field(default_factory=dict)
 
 
@@ -54,18 +73,22 @@ def part_of(doc_id: str, parts: int) -> int:
     return int.from_bytes(hashlib.blake2b(doc_id.encode(), digest_size=8).digest(), "big") % parts
 
 
-def config_hash(source: SourceConfig, hygiene: Hygiene, parts: int, lang: str) -> str:
+def config_hash(source: SourceConfig, hygiene: Hygiene, parts: int, lang: str, variant: str = "") -> str:
     """Identity of everything that decides a shard's content; counts from another config never mix."""
-    payload = json.dumps(
-        [FORMAT, lang, source.name, source.shard_chars, source.pseudo_doc_lines, source.column,
-         source.segment_lang, hygiene.model_dump(), parts],
-        sort_keys=True,
-    )
+    items: list[object] = [FORMAT, lang, source.name, source.shard_chars, source.pseudo_doc_lines,
+                           source.column, source.segment_lang, hygiene.model_dump(), parts]
+    if variant:
+        items.append(variant)
+    payload = json.dumps(items, sort_keys=True)
     return hashlib.sha256(payload.encode()).hexdigest()[:16]
 
 
 def counts_path(counts_dir: Path, source: str, url_index: int, shard_index: int) -> Path:
     return counts_dir / f"{source}.{url_index:02d}.{shard_index:05d}.json.gz"
+
+
+def shard_file(keep_dir: Path, source: str, url_index: int, shard_index: int) -> Path:
+    return keep_dir / f"{source}.{url_index:02d}.{shard_index:05d}.tsv.gz"
 
 
 def marker_path(work_dir: Path, source: str, url_index: int) -> Path:
@@ -97,9 +120,10 @@ class _UrlCutter:
     """State of cutting one URL's documents into shards."""
 
     def __init__(self, *, lang: str, source: SourceConfig, hygiene: Hygiene, parts: int, url_index: int,
-                 work_dir: Path, counts_dir: Path, chash: str, classify: Classifier) -> None:
+                 work_dir: Path, counts_dir: Path, chash: str, classify: Classifier, mode: CutMode) -> None:
         self.lang, self.source, self.hygiene, self.parts = lang, source, hygiene, parts
         self.url_index, self.work_dir, self.counts_dir, self.chash = url_index, work_dir, counts_dir, chash
+        self.mode = mode
         self.timed = _Timed(classify)
         self.shard_index = 0
         self.shard_raw = 0
@@ -107,16 +131,17 @@ class _UrlCutter:
 
     def _reset(self) -> None:
         self.rows: list[tuple[int, int, str]] = []
+        self.rejects: list[tuple[int, int, str]] = []
         self.doc_no = 0
         self.fetch_s = 0.0
         self.hygiene_s = 0.0
         self.langid_before = self.timed.seconds
-        self.line_filter = LineFilter(self.hygiene, self.lang, self.timed)
+        self.line_filter = LineFilter(self.hygiene, self.lang, self.timed, dedup=self.mode.dedup)
         self.shard_raw = 0
 
     @property
     def target(self) -> Path:
-        return counts_path(self.counts_dir, self.source.name, self.url_index, self.shard_index)
+        return done_path(self.mode, self.counts_dir, self.source.name, self.url_index, self.shard_index)
 
     def add(self, doc: RawDoc) -> None:
         """Clean one document into the open shard (or just count its size when the shard is done)."""
@@ -124,8 +149,16 @@ class _UrlCutter:
         if self.target.exists():
             return
         t0 = time.perf_counter()
-        part = part_of(doc.doc_id, self.parts)
-        kept = [c for line in doc.lines if (c := self.line_filter.accept(line)) is not None]
+        part = self.mode.tag(doc) if self.mode.tag else part_of(doc.doc_id, self.parts)
+        # The inventory counts a line once per document; counting dedups the whole shard instead.
+        lines = doc.lines if self.mode.dedup else list(dict.fromkeys(doc.lines))
+        kept: list[str] = []
+        for line in lines:
+            cleaned = self.line_filter.accept(line)
+            if cleaned is not None:
+                kept.append(cleaned)
+            elif self.mode.keep_dir and (drop := self.line_filter.last_drop) and drop[0] == "langid":
+                self.rejects.append((self.doc_no, part, drop[1]))
         if kept:
             self.rows.extend((self.doc_no, part, c) for c in kept)
             self.doc_no += 1
@@ -136,32 +169,48 @@ class _UrlCutter:
         job: ShardJob | None = None
         if not self.target.exists():
             path = self.work_dir / f"{self.source.name}.{self.url_index:02d}.{self.shard_index:05d}.tsv.gz"
-            _write_shard(path, self.rows)
+            if self.mode.keep_dir:
+                path = self.target
+                _write_shard(path.with_suffix("").with_suffix(".rej.tsv.gz"), self.rejects)
+            else:
+                _write_shard(path, self.rows)
             langid = self.timed.seconds - self.langid_before
             job = ShardJob(
                 source=self.source.name, url_index=self.url_index, shard_index=self.shard_index, path=path,
                 counts_path=self.target, closed_by=reason, raw_chars=self.shard_raw, docs=self.doc_no,
                 lines=len(self.rows), dropped=dict(self.line_filter.dropped), config=self.chash,
+                rejected=len(self.rejects),
                 seconds={"fetch_decode": self.fetch_s, "hygiene": self.hygiene_s - langid, "langid": langid},
             )
+            if self.mode.keep_dir:  # the shard file is the done marker, so it lands last
+                meta = path.with_suffix("").with_suffix(".meta.json")
+                meta.write_text(json.dumps(asdict(job), default=str), encoding="utf-8")
+                _write_shard(path, self.rows)
         self.shard_index += 1
         self._reset()
         return job
 
 
+def done_path(mode: CutMode, counts_dir: Path, source: str, url_index: int, shard_index: int) -> Path:
+    """The file whose existence means this shard is finished."""
+    if mode.keep_dir:
+        return shard_file(mode.keep_dir, source, url_index, shard_index)
+    return counts_path(counts_dir, source, url_index, shard_index)
+
+
 def _skippable(marker: Path, chash: str, cap: int | None, source: str, url_index: int,
-               counts_dir: Path) -> bool:
+               counts_dir: Path, mode: CutMode) -> bool:
     """True when this URL was fully cut under the same configuration and every shard is counted."""
     if not marker.exists():
         return False
     info = json.loads(marker.read_text(encoding="utf-8"))
     if info["config"] == chash and info["cap"] == cap and all(
-        counts_path(counts_dir, source, url_index, k).exists() for k in range(info["shards"])
+        done_path(mode, counts_dir, source, url_index, k).exists() for k in range(info["shards"])
     ):
         return True
     if info["config"] == chash and info["closed_by"] == "cap" and info["shards"]:
         # The last shard was cut short by a cap that has since changed: recount it.
-        counts_path(counts_dir, source, url_index, info["shards"] - 1).unlink(missing_ok=True)
+        done_path(mode, counts_dir, source, url_index, info["shards"] - 1).unlink(missing_ok=True)
     marker.unlink()
     return False
 
@@ -177,20 +226,26 @@ def produce_shards(
     limits: Limits,
     classify: Classifier,
     url_stats: dict[str, dict[str, object]],
+    mode: CutMode = CutMode(),  # noqa: B008 - frozen
 ) -> Iterator[ShardJob]:
     """Yield a :class:`ShardJob` for every shard of ``source`` that still needs counting."""
-    chash = config_hash(source, hygiene, parts, lang)
+    variant = f"inventory;stride={limits.stride}" if mode.keep_dir else (
+        f"stride={limits.stride}" if limits.stride > 1 else "")
+    chash = config_hash(source, hygiene, parts, lang, variant)
     urls = source.urls[: limits.max_urls] if limits.max_urls else source.urls
     cap = limits.max_chars if limits.max_chars is not None else source.max_chars_per_url
     for url_index, url in enumerate(urls):
+        if limits.url_indices is not None and url_index not in limits.url_indices:
+            continue
         marker = marker_path(work_dir, source.name, url_index)
-        if _skippable(marker, chash, cap, source.name, url_index, counts_dir):
+        if _skippable(marker, chash, cap, source.name, url_index, counts_dir, mode):
             continue
         raw = open_raw(url)
         stream = decompress(raw, url)
         cutter = _UrlCutter(lang=lang, source=source, hygiene=hygiene, parts=parts, url_index=url_index,
-                            work_dir=work_dir, counts_dir=counts_dir, chash=chash, classify=classify)
-        docs = iter(iter_docs(source, url_index, stream))
+                            work_dir=work_dir, counts_dir=counts_dir, chash=chash, classify=classify,
+                            mode=mode)
+        docs = iter(iter_docs(source, url_index, stream, limits.stride))
         raw_total = 0
         closed_by = "eof"
         while True:

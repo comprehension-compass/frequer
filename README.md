@@ -50,6 +50,7 @@ original post-processing ideas the review report now carries on.
 | `checks.py`, `compare.py`, `report.py` | the review report |
 | `units.py` | the **unit-count hook** (nothing is invented; see below) |
 | `run.py`, `build.py`, `cli.py`, `perf.py` | orchestration, build, commands, throughput table |
+| `forms.py`, `forms_run.py`, `select.py` | the **form inventory** and candidate selection (below) |
 
 ## Running it
 
@@ -71,6 +72,12 @@ python -m frequer pilot es --data-dir /big/disk --workers 3 \
 python -m frequer count es --data-dir /big/disk --workers 8     # the full corpus, resumable
 python -m frequer build es --data-dir /big/disk --out-dir out/es --score frequency   # --scope pilot labels a pilot build
 python -m frequer sync-manifest es --counts-dir /big/disk/es/counts
+```
+
+```bash
+python -m frequer forms es --data-dir /big/disk --tokens 50000000 --workers 2 --out-dir out/inventory
+python -m frequer select es --forms out/inventory/forms-es.tsv --lookup lookup.json \
+    --curated es-curated.tsv --case-fold --top 1000 --min-docs 5
 ```
 
 `FREQUER_DEPS` is **appended** to `sys.path`, so it can never shadow a package the
@@ -192,6 +199,38 @@ default `NoUnits`; the shard files, merge and sidecar already carry a `units` ta
 (`{unit: [frequency, documents]}`). To count units, implement `UnitCounter` and pass it where
 `counting.init_worker` builds `_STATE["units"]`.
 
+## Form inventory and candidate selection
+
+`forms` is a tokenizer-only mode (no lemma step) that finds the most frequent surface forms the
+lemmatiser's labels lack (`docs/plans/custom-lemmatisers-and-units.md` §7.1, "Next labelling pass").
+The manifest's `forms:` block says how: the tokenizer (`spacy_blank` = `spacy.blank(code).tokenizer`,
+or the Honeyeater `backend`, as for Japanese), the script, and per source a `share` of the token
+budget, an optional `stride` and a calibrated `raw_chars_per_token`.
+
+1. **Fetch.** One worker per source URL, through the same fetch, hygiene (py3langid runs **per line**)
+   and shard code as `count`. HPLT is spread over *every* shard in the manifest's map, each read to a
+   character cap derived from the budget (documents arrive grouped by crawl file, so many shallow
+   reads beat one deep one). ParaCrawl and Tatoeba are read whole with a `stride` over their 50-line
+   pseudo-documents, so the sample spans the file. Cleaned shards are kept (a few MB gzipped) until
+   the merge; the raw stream is never stored.
+2. **Repeated lines.** A line (normalised as in `hygiene.near_key`: case, digits, punctuation erased)
+   seen in 3 or more different documents is dropped everywhere: menus, cookie banners, footers.
+   Exact in bounded memory (two 64-bit words per line occurrence, sorted and de-duplicated).
+3. **Tokenize** each shard minus those lines; a word token has at least one letter. Per form: total
+   count, distinct documents, distinct sites (the HPLT URL host; for ParaCrawl and Tatoeba the
+   pseudo-document, so there `sites == docs`). Resumable per shard.
+
+`forms-<lang>.tsv` is `# <JSON header>`, then `form, count, docs, sites` by descending count. The
+header records tokens read, per-source URLs and caps, the hygiene drops, and what the repeated-line
+filter and language ID removed.
+
+`select` writes `candidates-<lang>.tsv` (`rank, form, count, docs, sites, score`) and a
+`candidates-<lang>.json` with the token mass each exclusion took and the top-N coverage. Excluded:
+forms in `lookup.json` or the curated TSV (and, with `--case-fold`, capitalised variants of those);
+the default-ignore classes by rule, using Honeyeater's own `lexicon.lemma_defaults` helpers
+(not language, number, foreign script, acronym) plus URL and e-mail patterns; forms in fewer than
+`--min-docs` documents or 3 sites. Score is `count * docs / (docs + 20)`.
+
 ## Manifests
 
 `corpora/<lang>.yaml` holds the source URLs, licence, expected sha256 where known, hygiene bounds,
@@ -212,6 +251,7 @@ Corpus text is never committed (`data/` is ignored).
 cd /path/to/frequer && /path/to/honeyeater/backend/.venv/bin/python -m pytest
 ```
 
-Only the pure cores are tested: the dispersion measures (limits, a dense reference, chance level)
-and the shard merge (any split of documents merges to the same totals). Type checks:
+Only the pure cores are tested: the dispersion measures (limits, a dense reference, chance level),
+the shard merge (any split of documents merges to the same totals), and the inventory's
+repeated-line filter, forms merge and selection exclusions. Type checks:
 `mypy --strict` and `ruff check` over `frequer/` and `tests/`.

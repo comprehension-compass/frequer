@@ -35,8 +35,21 @@ sources:
       - https://data.hplt-project.org/two/cleaned/deu_Latn/11.jsonl.zst
       - https://data.hplt-project.org/two/cleaned/deu_Latn/12.jsonl.zst
       - https://data.hplt-project.org/two/cleaned/deu_Latn/13.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/14.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/15.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/16.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/17.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/1.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/2.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/3.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/4.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/5.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/6.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/7.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/8.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/9.jsonl.zst
     shard_chars: 20000000
-    max_chars_per_url: 1500000000
+    max_chars_per_url: 350000000
   - name: tatoeba-deu
     kind: tsv
     licence: CC-BY-2.0-FR
@@ -52,6 +65,15 @@ sources:
     pseudo_doc_lines: 50
     shard_chars: 20000000
     hygiene: {min_chars: 3, max_chars: 300, min_alpha_ratio: 0.5, gap_filter: true, langid_min_prob: 0.0}
+# `frequer forms`: tokenizer-only inventory (see frequer/forms_run.py). spaCy's blank-German
+# tokenizer gives the app's tokens. Web text gets 90% of the token budget, spread over every HPLT
+# shard in the map (a per-URL character cap); Tatoeba the rest, every other pseudo-document (the whole file is about 36M characters).
+forms:
+  script: latin
+  tokenizer: spacy_blank
+  sources:
+    hplt-v2-de: {share: 0.9, raw_chars_per_token: 11.6}
+    tatoeba-deu: {share: 0.1, stride: 2}
 pilot:
   shard_chars: 2500000
   urls: {hplt-v2-de: 2}

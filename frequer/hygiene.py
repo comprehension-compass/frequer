@@ -65,10 +65,16 @@ def make_classifier() -> Classifier:
 
 
 class LineFilter:
-    """One shard's filter. ``accept`` returns the cleaned line, or None when dropped."""
+    """One shard's filter. ``accept`` returns the cleaned line, or None when dropped.
 
-    def __init__(self, cfg: Hygiene, lang: str, classify: Classifier) -> None:
-        self.cfg, self.lang, self._classify = cfg, lang, classify
+    ``dedup=False`` skips the exact and near-duplicate tests: the form inventory counts, per
+    line, the documents it occurs in, so it removes repeated lines itself after the whole run.
+    """
+
+    def __init__(self, cfg: Hygiene, lang: str, classify: Classifier, *, dedup: bool = True) -> None:
+        self.cfg, self.lang, self._classify, self._dedup = cfg, lang, classify, dedup
+        #: The last dropped line's reason and cleaned text (the inventory keeps langid rejects).
+        self.last_drop: tuple[str, str] | None = None
         self._exact: set[int] = set()
         self._near: set[int] = set()
         self.dropped: Counter[str] = Counter()
@@ -76,28 +82,31 @@ class LineFilter:
 
     def accept(self, raw: str) -> str | None:
         line = clean_line(raw)
+        self.last_drop = None
         cfg = self.cfg
         if not cfg.min_chars <= len(line) <= cfg.max_chars:
-            return self._drop("length")
+            return self._drop("length", line)
         if alpha_ratio(line) < cfg.min_alpha_ratio:
-            return self._drop("alpha")
+            return self._drop("alpha", line)
         if cfg.gap_filter and GAP.search(line):
-            return self._drop("gap")
-        exact = exact_key(line)
-        if exact in self._exact:
-            return self._drop("exact_dup")
-        self._exact.add(exact)
-        near = near_key(line)
-        if near in self._near:
-            return self._drop("near_dup")
-        self._near.add(near)
+            return self._drop("gap", line)
+        if self._dedup:
+            exact = exact_key(line)
+            if exact in self._exact:
+                return self._drop("exact_dup", line)
+            self._exact.add(exact)
+            near = near_key(line)
+            if near in self._near:
+                return self._drop("near_dup", line)
+            self._near.add(near)
         if cfg.langid_min_prob > 0:  # 0 trusts the source's own language label (Tatoeba)
             lang, prob = self._classify(line)
             if lang != self.lang or prob < cfg.langid_min_prob:
-                return self._drop("langid")
+                return self._drop("langid", line)
         self.kept += 1
         return line
 
-    def _drop(self, reason: str) -> str | None:
+    def _drop(self, reason: str, line: str) -> str | None:
         self.dropped[reason] += 1
+        self.last_drop = (reason, line)
         return None

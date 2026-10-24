@@ -4,9 +4,9 @@ version = "0.1.0"
 description = "Builds the per-language top-N lemma frequency snapshots Honeyeater loads."
 requires-python = ">=3.13"
 license = { text = "MIT" }
-# Run with Honeyeater's backend interpreter (it carries spaCy, SudachiPy, py3langid,
+# Run with Honeyeater's backend interpreter (it carries spaCy, SudachiPy, py3langid, numpy,
 # pydantic, PyYAML and requests); only zstandard (and optionally wordfreq) are extra.
-dependencies = ["pydantic>=2", "pyyaml", "requests", "py3langid", "zstandard"]
+dependencies = ["pydantic>=2", "pyyaml", "requests", "py3langid", "zstandard", "numpy"]
 
 [project.optional-dependencies]
 wordfreq = ["wordfreq"]
@@ -29,6 +29,6 @@ python_version = "3.13"
 exclude = ["^legacy/"]
 
 [[tool.mypy.overrides]]
-module = ["zstandard", "py3langid.*", "wordfreq", "nlp.*", "django", "spacy.*", "yaml", "config.*"]
+module = ["zstandard", "py3langid.*", "wordfreq", "nlp.*", "lexicon.*", "django", "spacy.*", "yaml", "config.*"]
 ignore_missing_imports = true
 follow_imports = "skip"

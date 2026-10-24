@@ -1,4 +1,4 @@
-"""Command line: ``python -m frequer {count,build,pilot,sync-manifest} <lang>``."""
+"""Command line: ``python -m frequer {count,build,pilot,sync-manifest,forms,select} <lang>``."""
 
 from __future__ import annotations
 
@@ -11,8 +11,10 @@ from pathlib import Path
 from frequer.build import BuildOptions, build_language
 from frequer.config import Observed, load_manifest, write_observed
 from frequer.counts import iter_counts, read_shard
+from frequer.forms_run import run_forms
 from frequer.ranking import SCORES
 from frequer.run import RunDirs, count_language
+from frequer.select import run_select
 from frequer.shards import Limits
 
 
@@ -58,11 +60,38 @@ def main(argv: list[str] | None = None) -> None:
     sm.add_argument("lang")
     sm.add_argument("--counts-dir", type=Path, required=True)
     sm.add_argument("--scope", default="full")
+    fm = sub.add_parser("forms", help="tokenizer-only form inventory: counts, documents, sites per form")
+    fm.add_argument("lang")
+    fm.add_argument("--data-dir", type=Path, default=Path(os.environ.get("FREQUER_DATA", "data")))
+    fm.add_argument("--out-dir", type=Path, default=Path("out"))
+    fm.add_argument("--tokens", type=int, default=50_000_000, help="word-token budget over all sources")
+    fm.add_argument("--workers", type=int, default=2)
+    fm.add_argument("--keep-shards", action="store_true", help="keep the cleaned shards after the merge")
+    sl = sub.add_parser("select", help="rank the forms the labels lack into candidates-<lang>.tsv")
+    sl.add_argument("lang")
+    sl.add_argument("--forms", type=Path, required=True)
+    sl.add_argument("--lookup", type=Path, required=True, help="the release's lookup.json")
+    sl.add_argument("--curated", type=Path, help="curated TSV; first column is a listed form")
+    sl.add_argument("--case-fold", action="store_true", help="also exclude capitalised forms whose lower case is listed")
+    sl.add_argument("--top", type=int, default=1000)
+    sl.add_argument("--min-docs", type=int, default=5)
+    sl.add_argument("--out-dir", type=Path, help="default: next to --forms")
     args = parser.parse_args(argv)
     manifest = load_manifest(args.lang)
     names = args.sources.split(",") if getattr(args, "sources", None) else None
 
-    if args.cmd == "count":
+    if args.cmd == "forms":
+        header = run_forms(manifest, data_dir=args.data_dir, out_dir=args.out_dir, tokens=args.tokens,
+                           workers=args.workers, keep_shards=args.keep_shards)
+        print(json.dumps({k: v for k, v in header.items() if k != "sources"}, indent=1))
+    elif args.cmd == "select":
+        if manifest.forms is None:
+            raise SystemExit(f"{args.lang}: the manifest has no forms: block")
+        stats = run_select(args.lang, forms=args.forms, lookup=args.lookup, curated=args.curated,
+                           case_fold=args.case_fold, top=args.top, min_docs=args.min_docs,
+                           script=manifest.forms.script, out_dir=args.out_dir or args.forms.parent)
+        print(json.dumps(stats, indent=1))
+    elif args.cmd == "count":
         dirs = RunDirs(args.data_dir / args.lang)
         summary = count_language(
             manifest, dirs, workers=args.workers, shard_chars=args.shard_chars, sources=names,

@@ -109,6 +109,29 @@ class PilotConfig(Strict):
     urls: dict[str, int] = Field(default_factory=dict)
 
 
+class FormsSource(Strict):
+    """How ``frequer forms`` reads one source (see :mod:`frequer.forms_run`)."""
+
+    #: Fraction of ``--tokens`` this source supplies; split evenly over its URLs.
+    share: float = 1.0
+    #: Keep every ``stride``-th document (pseudo-document for TSV): a stride above 1 reads the
+    #: whole file and spreads the sample over it, with no per-URL character cap.
+    stride: int = 1
+    #: Raw characters read per word token that survives hygiene (calibrated on a slice);
+    #: turns a token budget into a per-URL character cap.
+    raw_chars_per_token: float = 8.0
+
+
+class FormsConfig(Strict):
+    """The tokenizer-only form inventory: data, never a language branch."""
+
+    #: ``lexicon.models.Script`` value the default-ignore rule checks forms against.
+    script: str
+    #: ``spacy_blank`` = ``spacy.blank(code).tokenizer``; ``backend`` = the registry backend's tokenize.
+    tokenizer: Literal["spacy_blank", "backend"]
+    sources: dict[str, FormsSource]
+
+
 class Observed(Strict):
     scope: str
     date: str
@@ -127,6 +150,7 @@ class Manifest(Strict):
     checks: ChecksConfig = Field(default_factory=ChecksConfig)
     sources: list[SourceConfig]
     pilot: PilotConfig
+    forms: FormsConfig | None = None
     #: Token counts per source once fetched (``frequer sync-manifest``).
     observed: dict[str, list[Observed]] = Field(default_factory=dict)
 

@@ -50,6 +50,15 @@ sources:
     pseudo_doc_lines: 50
     shard_chars: 20000000
     hygiene: {min_chars: 3, max_chars: 300, min_alpha_ratio: 0.5, gap_filter: true, langid_min_prob: 0.0}
+# `frequer forms`: tokenizer-only inventory (see frequer/forms_run.py). spaCy's blank-Spanish
+# tokenizer gives the app's tokens. ParaCrawl is read whole, keeping every 85th 50-line
+# pseudo-document (about 270M lines in the file) so the sample spans all of it; Tatoeba the rest, whole.
+forms:
+  script: latin
+  tokenizer: spacy_blank
+  sources:
+    paracrawl-en-es: {share: 0.9, stride: 85}
+    tatoeba-spa: {share: 0.1, raw_chars_per_token: 5.0}
 pilot:
   shard_chars: 2000000
   max_chars_per_url:

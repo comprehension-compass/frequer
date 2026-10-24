@@ -36,8 +36,25 @@ sources:
       - https://data.hplt-project.org/two/cleaned/jpn_Jpan/11.jsonl.zst
       - https://data.hplt-project.org/two/cleaned/jpn_Jpan/12.jsonl.zst
       - https://data.hplt-project.org/two/cleaned/jpn_Jpan/13.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/jpn_Jpan/14.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/jpn_Jpan/15.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/jpn_Jpan/16.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/jpn_Jpan/17.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/jpn_Jpan/18.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/jpn_Jpan/19.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/jpn_Jpan/20.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/jpn_Jpan/21.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/jpn_Jpan/1.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/jpn_Jpan/2.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/jpn_Jpan/3.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/jpn_Jpan/4.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/jpn_Jpan/5.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/jpn_Jpan/6.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/jpn_Jpan/7.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/jpn_Jpan/8.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/jpn_Jpan/9.jsonl.zst
     shard_chars: 20000000
-    max_chars_per_url: 1000000000
+    max_chars_per_url: 190000000
   - name: tatoeba-jpn
     kind: tsv
     licence: CC-BY-2.0-FR
@@ -53,6 +70,15 @@ sources:
     pseudo_doc_lines: 50
     shard_chars: 20000000
     hygiene: {min_chars: 2, max_chars: 150, min_alpha_ratio: 0.5, gap_filter: true, langid_min_prob: 0.0}
+# `frequer forms`: tokenizer-only inventory (see frequer/forms_run.py). Tokens come from the
+# sudachi-ja backend's segment + tokenize, as the app produces them. Web text gets 90% of the
+# token budget over every HPLT shard in the map; Tatoeba the rest, whole.
+forms:
+  script: jpan
+  tokenizer: backend
+  sources:
+    hplt-v2-ja: {share: 0.9, raw_chars_per_token: 2.5}
+    tatoeba-jpn: {share: 0.1, raw_chars_per_token: 5.0}
 pilot:
   shard_chars: 1200000
   urls: {hplt-v2-ja: 2}

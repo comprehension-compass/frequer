@@ -20,6 +20,7 @@ from collections.abc import Iterator
 from dataclasses import dataclass
 from pathlib import Path
 from typing import IO, TYPE_CHECKING
+from urllib.parse import urlsplit
 
 from frequer.config import SourceConfig
 
@@ -35,6 +36,8 @@ READ_TIMEOUT = 90
 class RawDoc:
     doc_id: str
     lines: list[str]
+    #: The site the document came from (the HPLT record's URL host); a pseudo-document is its own site.
+    site: str = ""
 
 
 class HttpStream(io.RawIOBase):
@@ -144,8 +147,19 @@ def decompress(raw: io.RawIOBase, url: str) -> IO[bytes]:
     return buffered
 
 
-def _hplt_docs(lines: Iterator[str], source: SourceConfig) -> Iterator[RawDoc]:
-    for raw in lines:
+def site_of(url: str) -> str:
+    """The host of a document URL, without a leading ``www.``; empty when it has none."""
+    try:
+        host = urlsplit(url).hostname or ""
+    except ValueError:
+        return ""
+    return host.lower().removeprefix("www.")
+
+
+def _hplt_docs(lines: Iterator[str], source: SourceConfig, stride: int) -> Iterator[RawDoc]:
+    for n, raw in enumerate(lines):
+        if stride > 1 and n % stride:
+            continue
         try:
             doc = json.loads(raw)
         except ValueError:
@@ -158,30 +172,41 @@ def _hplt_docs(lines: Iterator[str], source: SourceConfig) -> Iterator[RawDoc]:
         if source.segment_lang and len(langs) == len(segments):
             segments = [s for s, lang in zip(segments, langs, strict=True) if lang == source.segment_lang]
         if segments:
-            yield RawDoc(str(doc.get("id", "")), segments)
+            doc_id = str(doc.get("id", ""))
+            yield RawDoc(doc_id, segments, site_of(str(doc.get("u") or "")) or doc_id)
 
 
-def _tsv_docs(lines: Iterator[str], source: SourceConfig, url_index: int) -> Iterator[RawDoc]:
+def _tsv_docs(lines: Iterator[bytes], source: SourceConfig, url_index: int, stride: int) -> Iterator[RawDoc]:
+    """Pseudo-documents of ``pseudo_doc_lines`` consecutive lines; a stride skips whole groups unparsed."""
     group: list[str] = []
     index = 0
-    for raw in lines:
-        cols = raw.rstrip("\n").split("\t")
+    size = source.pseudo_doc_lines
+    for n, raw in enumerate(lines):
+        if stride > 1 and (n // size) % stride:
+            continue
+        cols = raw.decode("utf-8", errors="replace").rstrip("\n").split("\t")
         if len(cols) <= source.column:
             continue
         group.append(cols[source.column])
-        if len(group) >= source.pseudo_doc_lines:
-            yield RawDoc(f"{source.name}:{url_index}:{index}", group)
+        if len(group) >= size:
+            doc_id = f"{source.name}:{url_index}:{index}"
+            yield RawDoc(doc_id, group, doc_id)
             group, index = [], index + 1
     if group:
-        yield RawDoc(f"{source.name}:{url_index}:{index}", group)
+        doc_id = f"{source.name}:{url_index}:{index}"
+        yield RawDoc(doc_id, group, doc_id)
 
 
 def iter_docs(
-    source: SourceConfig, url_index: int, stream: IO[bytes]
+    source: SourceConfig, url_index: int, stream: IO[bytes], stride: int = 1
 ) -> Iterator[RawDoc]:
-    """Documents of one decompressed source stream, in file order."""
-    text = io.TextIOWrapper(stream, encoding="utf-8", errors="replace", newline="\n")
+    """Documents of one decompressed source stream, in file order.
+
+    ``stride`` keeps every ``stride``-th document (HPLT) or pseudo-document (TSV), so a
+    whole file can be sampled evenly without reading the rest of the pipeline.
+    """
     if source.kind == "hplt":
-        yield from _hplt_docs(iter(text), source)
+        text = io.TextIOWrapper(stream, encoding="utf-8", errors="replace", newline="\n")
+        yield from _hplt_docs(iter(text), source, stride)
     else:
-        yield from _tsv_docs(iter(text), source, url_index)
+        yield from _tsv_docs(iter(stream), source, url_index, stride)
