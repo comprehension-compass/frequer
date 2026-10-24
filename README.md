@@ -69,7 +69,7 @@ uv pip install --python .venv/bin/python --target /path/to/wheel-site --no-deps 
 python -m frequer pilot es --data-dir /big/disk --workers 3 \
     --lemma-dir /path/to/wheel-site/honeyeater_lemma_es --wheel honeyeater_lemma_es-<v>-py3-none-any.whl
 python -m frequer count es --data-dir /big/disk --workers 8     # the full corpus, resumable
-python -m frequer build es --data-dir /big/disk --out-dir out/es --score frequency
+python -m frequer build es --data-dir /big/disk --out-dir out/es --score frequency   # --scope pilot labels a pilot build
 python -m frequer sync-manifest es --counts-dir /big/disk/es/counts
 ```
 
