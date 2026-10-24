@@ -16,7 +16,7 @@ import os
 import re
 import subprocess
 import time
-from collections.abc import Callable, Iterator, Mapping, Sequence
+from collections.abc import Callable, Iterator, Sequence
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
@@ -164,7 +164,7 @@ class Runtime:
             lemmas = self.release.lemmatise(words, spaces, backend_lemmas)
             tick("lemma_step", time.perf_counter() - t0)
             raw = self.release.last_raw
-            host, provenance, mismatch = trace(self.release.table, words, backend_lemmas, raw, lemmas)
+            host, provenance, mismatch = trace(self.release.lookup, words, backend_lemmas, raw, lemmas)
             yield AnalysedSentence(
                 words=words, spaces=spaces, pos=[t.pos for t in tokens], candidates=candidates,
                 lemmas=lemmas, host=host, provenance=provenance,
@@ -194,7 +194,7 @@ class Runtime:
 
 
 def trace(
-    table: Mapping[str, str | None],
+    lookup: Any,  # nlp.lemma_step.Lookup
     words: Sequence[str],
     backend: Sequence[str | None],
     model_raw: Sequence[str] | None,
@@ -202,7 +202,8 @@ def trace(
 ) -> tuple[list[bool], list[str], bool]:
     """Which layer decided each token, and which tokens took their host's lemma.
 
-    Replays the step's three-way choice (table, backend, model) only to
+    Replays the step's choice (table; model for an ambiguous form; the
+    unseen-form rule between backend and model) only to
     *attribute* tokens; the lemmas themselves always come from
     ``LemmaRelease.lemmatise``. If the replay disagrees with it the runtime has
     changed under us, and the third value says so (counted per shard).
@@ -211,17 +212,16 @@ def trace(
     provenance: list[str] = []
     resolved: list[str] = []
     for i, word in enumerate(words):
-        if word in table:
-            raw, layer = table[word], "table"
-        elif backend[i] is not None:
-            raw, layer = backend[i], "backend"
-        else:
-            raw, layer = None, "model"
-        if raw is None:
-            raw = model_raw[i] if model_raw is not None else None
-            layer = "model"
-        if raw is None:  # the step would have dropped it; the lists would not align
+        guess = model_raw[i] if model_raw is not None else None
+        if word in lookup.table and lookup.table[word] is not None:
+            raw, layer = lookup.table[word], "table"
+        elif guess is None:  # the step needed the model but the trace saw no run
             return [False] * len(words), ["model"] * len(words), True
+        elif word in lookup.table:
+            raw, layer = guess, "model"
+        else:
+            raw = lookup.unseen(word, backend[i], guess)
+            layer = "model" if raw == guess else "backend"
         is_host = raw == HOST
         host.append(is_host)
         provenance.append(layer)
@@ -256,7 +256,7 @@ def _traced(base: Any) -> Any:
                 doc = proc(doc)
             return [token.pos_ for token in doc]
 
-    return Traced(version=base.version, table=base.table, pipeline=base.pipeline)
+    return Traced(version=base.version, lookup=base.lookup, pipeline=base.pipeline)
 
 
 @dataclass
