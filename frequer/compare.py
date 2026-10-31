@@ -149,8 +149,17 @@ def wordfreq_comparison(
             summed[lemma] += f
     theirs = [lm for lm, _ in sorted(summed.items(), key=lambda kv: -kv[1])[:top_n]]
     mine = list(ours[:top_n])
-    both = set(mine) & set(theirs)
-    return WordfreqComparison(top_n, len(both), [m for m in mine if m not in both][:25],
+    # wordfreq's forms are lower-cased, so a German noun met alone comes back lower-case:
+    # compare without case (and without a homograph key).
+    def fold(lemma: str) -> str:
+        at = lemma.find("#", 1)
+        return (lemma if at < 0 else lemma[:at]).lower()
+
+    folded = {fold(t) for t in theirs}
+    mine_folded = {fold(m) for m in mine}
+    both = {m for m in mine if fold(m) in folded} | {t for t in theirs if fold(t) in mine_folded}
+    shared = sum(1 for m in mine if fold(m) in folded)
+    return WordfreqComparison(top_n, shared, [m for m in mine if m not in both][:25],
                               [t for t in theirs if t not in both][:25])
 
 
