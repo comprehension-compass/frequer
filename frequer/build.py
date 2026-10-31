@@ -79,6 +79,9 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
     live = compare.load_live_ranks(live_path) if live_path.exists() else None
     shift = compare.live_shift(live, [r.lemma for r in ranked]) if live else None
     found = checks.run_checks(ranked, manifest.checks, runtime.lemma_of_word)
+    # The word checks say nothing useful about a unit headword (*werden + Partizip II*).
+    units = {r.lemma for r in ranked if snapshot.unit_kind(r.stats.kinds)}
+    found = {name: [f for f in flags if f.lemma not in units] for name, flags in found.items()}
     zipf = compare.zipf_lookup()
     window = ranked[: manifest.checks.review_top_n]
     classify = make_classifier()
