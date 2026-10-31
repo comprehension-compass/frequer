@@ -12,12 +12,13 @@ STAGES = {
     "hygiene": "length/alpha/GAP/dedup filters (main process)",
     "langid": "py3langid (main process)",
     "read_shard": "read the cleaned shard file (worker)",
-    "segment": "backend sentence segmentation (worker)",
-    "tokenize": "backend tokenization (worker)",
-    "backend_lemma": "backend lemmatize + override file (worker)",
-    "lemma_step": "LemmaRelease.lemmatise, incl. model where needed (worker)",
-    "pos_model": "model POS on sampled sentences (worker)",
-    "count": "tally lemmas, forms, POS, readings (worker)",
+    "segment": "backend sentence segmentation (worker; German: the full parse)",
+    "sentence_stage": "analyse_sentence minus the release: tokenize, candidates, numbers, unit merge (worker)",
+    "lemma_step": "the release's lemma + UPOS (model on every sentence) (worker)",
+    "units": "the release's unit step: list candidates, spancat, parts list, splitter (worker)",
+    "count": "tally lemmas, forms, POS, readings, units (worker)",
+    "cooc": "co-occurrence n-grams, pairs, marginals (worker)",
+    "cooc_write": "write the sorted co-occurrence file (worker)",
 }
 
 

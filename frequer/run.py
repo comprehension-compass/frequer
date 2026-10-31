@@ -18,7 +18,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from frequer import counting
+from frequer import combos, counting
 from frequer.config import Manifest
 from frequer.hygiene import make_classifier
 from frequer.shards import Limits, produce_shards
@@ -76,6 +76,14 @@ def count_language(
             results.append(res)
             log(f"counted {res['source']} {res['shard']}: {res['tokens']:,} tokens in "
                 f"{res['seconds']:.0f}s (worker peak {res['rss_mb']:.0f} MB)")
+        fold(manifest.cooc.compact_every)
+
+    def fold(at_least: int) -> None:
+        if manifest.cooc.enabled:
+            t0 = time.time()
+            folded = combos.compact(dirs.counts, at_least=at_least)
+            if folded:
+                log(f"folded {folded} co-occurrence shard files into {combos.ACC} in {time.time() - t0:.0f}s")
 
     pool: ProcessPoolExecutor | None = None
     if workers > 0:
@@ -107,6 +115,7 @@ def count_language(
                     drain(block=True)
         while pending:
             drain(block=True)
+        fold(1)
     finally:
         if pool is not None:
             pool.shutdown(wait=True, cancel_futures=True)

@@ -8,7 +8,6 @@ language:
   lowercase_forms: false
   readings: true
   host_tokens: skip  # an ending is part of its host word: count the word once (2026-10-24)
-  pos_source: backend
   top_n: 50000
   forms_kept: 5
 hygiene: {min_chars: 6, max_chars: 400, min_alpha_ratio: 0.6, gap_filter: true, langid_min_prob: 0.5}

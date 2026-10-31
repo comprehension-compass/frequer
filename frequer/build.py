@@ -8,7 +8,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from frequer import checks, compare, perf, report, snapshot
+from frequer import checks, combos, compare, perf, report, snapshot
 from frequer.config import Manifest
 from frequer.counting import peak_rss_mb
 from frequer.hygiene import make_classifier
@@ -49,8 +49,8 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
     ranked = rank_rows(rows, opts.score)
     timings["rank"] = time.perf_counter() - t0
 
-    runtime = Runtime(cfg, lemma_dir=opts.lemma_dir, wheel=opts.wheel)
-    for key in ("lemma_sha256", "overrides_sha256", "honeyeater_commit"):
+    runtime = Runtime(cfg, lemma_dir=opts.lemma_dir, wheel=opts.wheel, fallback=cfg.fallback)
+    for key in ("lemma_sha256", "fallback", "honeyeater_commit"):
         if getattr(runtime.info, key) != result.runtime[key]:
             raise SystemExit(f"the installed runtime's {key} differs from the one the shards were counted with")
 
@@ -63,6 +63,16 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
         snapshot.write_snapshot(out_dir / f"{cfg.code}.json", head, entries)
         snapshot.write_sidecar(out_dir / f"{cfg.code}.dispersion.json.gz", head, ranked, result.merged, top_n)
     timings["snapshot"] = time.perf_counter() - t0
+
+    cooc: combos.CoocResult | None = None
+    if manifest.cooc.enabled:
+        t0 = time.perf_counter()
+        cooc = combos.build_cooc(
+            counts_dir, out_dir, lang=cfg.code, cfg=manifest.cooc, release_dir=runtime.release_dir,
+            pair_windows=runtime.pair_windows(), pair_head=runtime.pair_headword,
+            header={k: head[k] for k in ("source", "corpus", "built", "lemma_release", "honeyeater")},
+        )
+        timings["cooc"] = time.perf_counter() - t0
 
     t0 = time.perf_counter()
     live_path = opts.live_snapshot or runtime.root / "reference" / "lemmas" / f"{cfg.code}.json"
@@ -82,7 +92,7 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
     alts = compare.alternative_rankings(rows, opts.score)
     text = report.render(
         lang=cfg.code, scope=opts.scope, head=head, result=result, ranked=ranked, shift=shift, checks=found,
-        wf=wf, wordfreq_note=note, foreign=foreign, proper=proper, alts=alts,
+        wf=wf, wordfreq_note=note, foreign=foreign, proper=proper, alts=alts, cooc=cooc,
         live_label=f"the live snapshot (`reference/lemmas/{cfg.code}.json`)",
     )
     report.write(out_dir / "report.md", text)
@@ -93,8 +103,13 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
         "documents": result.merged.docs, "lemma_types_ranked": len(ranked), "snapshot_entries": len(entries),
         "stages": perf.stage_table(result), "build_seconds": {k: round(v, 2) for k, v in timings.items()},
         "worker_peak_rss_mb": round(result.peak_rss_mb), "build_process_peak_rss_mb": round(peak_rss_mb()),
-        "host_tokens": result.host_tokens, "token_provenance": dict(result.token_provenance),
-        "step_mismatch_sentences": result.step_mismatch_sentences, "sentences": result.sentences,
+        "host_tokens": result.host_tokens, "occurrence_kinds": dict(result.occurrence_kinds),
+        "uncounted_occurrences": result.uncounted_occurrences, "sentences": result.sentences,
+        "units_found": len(result.merged.units),
+        "cooc": None if cooc is None else {
+            "merged_rows_at_min_count": cooc.merged_rows, "scored": cooc.scored, "by_kind": cooc.by_kind,
+            "shipped_rows": len(cooc.shipped), "table_bytes": cooc.table_bytes, "queue_rows": len(cooc.queue),
+        },
         "checks": {k: len(v) for k, v in found.items()},
     }
     (out_dir / "perf.json").write_text(json.dumps(summary, indent=1), encoding="utf-8")

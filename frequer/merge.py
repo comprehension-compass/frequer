@@ -39,11 +39,9 @@ class MergeResult:
     seconds: Counter[str]
     peak_rss_mb: float
     host_tokens: int
-    step_mismatch_sentences: int
     sentences: int
-    token_provenance: Counter[str]
-    override_tokens: int
-    override_conflicts: Counter[tuple[str, str, str]]
+    occurrence_kinds: Counter[str]
+    uncounted_occurrences: int
 
 
 def merge_counts(counts_dir: Path, parts: int, candidates: int | None) -> MergeResult:
@@ -56,12 +54,11 @@ def merge_counts(counts_dir: Path, parts: int, candidates: int | None) -> MergeR
     merged = Merged(parts=parts)
     sources: dict[str, SourceTotals] = {}
     seconds: Counter[str] = Counter()
-    provenance: Counter[str] = Counter()
+    kinds: Counter[str] = Counter()
     runtime: dict[str, Any] | None = None
     lang = ""
     peak = 0.0
-    host = mismatch = sentences = override_tokens = 0
-    conflicts: Counter[tuple[str, str, str]] = Counter()
+    host = sentences = uncounted = 0
     for source, path in files:
         shard = read_shard(path)
         if runtime is None:
@@ -79,20 +76,14 @@ def merge_counts(counts_dir: Path, parts: int, candidates: int | None) -> MergeR
         totals.dropped.update(shard["hygiene_dropped"])
         stats = shard["stats"]
         seconds.update(stats["seconds"])
-        provenance.update(stats["token_provenance"])
+        kinds.update(stats["occurrence_kinds"])
         peak = max(peak, stats["worker_peak_rss_mb"])
         host += stats["host_tokens"]
-        mismatch += stats["step_mismatch_sentences"]
         sentences += stats["sentences"]
-        override_tokens += stats["override_tokens"]
-        for surface, wanted, got, n in stats["override_conflicts"]:
-            conflicts[(surface, wanted, got)] += n
+        uncounted += stats["uncounted_occurrences"]
         merge_shard(merged, shard, source, keep)
     assert runtime is not None
-    return MergeResult(
-        merged, runtime, lang, sources, seconds, peak, host, mismatch, sentences, provenance,
-        override_tokens, conflicts,
-    )
+    return MergeResult(merged, runtime, lang, sources, seconds, peak, host, sentences, kinds, uncounted)
 
 
 def dumps(obj: Any) -> str:

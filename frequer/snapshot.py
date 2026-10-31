@@ -20,6 +20,7 @@ from datetime import date
 from pathlib import Path
 from typing import Any
 
+from frequer import __version__
 from frequer.config import REPO_ROOT, Manifest
 from frequer.counts import Merged
 from frequer.merge import MergeResult
@@ -61,6 +62,16 @@ def reading_for(row: Row, forms: dict[str, int], pos: str, citation: Citation) -
     return str(cited.reading), str(getattr(cited.source, "value", cited.source))
 
 
+#: Occurrence kinds a snapshot entry names as ``unit`` (a one-token compound is a plain word entry).
+UNIT_KINDS = ("compound", "phrase", "construction")
+
+
+def unit_kind(kinds: Counter[str]) -> str:
+    """The entry's unit type: its majority occurrence kind, where that is a unit."""
+    kind = majority(kinds)
+    return kind if kind in UNIT_KINDS else ""
+
+
 def build_entries(
     ranked: list[Row], merged: Merged, manifest: Manifest, citation: Citation | None
 ) -> dict[str, dict[str, Any]]:
@@ -76,6 +87,9 @@ def build_entries(
             "pos": pos,
             "forms": forms,
         }
+        kind = unit_kind(stats.kinds)
+        if kind:
+            entry["unit"] = kind
         if cfg.readings:
             assert citation is not None
             reading, source = reading_for(row, forms, pos, citation)
@@ -88,17 +102,15 @@ def build_entries(
 
 def header(result: MergeResult, manifest: Manifest, score: str, weights: dict[str, float], scope: str) -> dict[str, Any]:
     rt = result.runtime
-    cfg = manifest.language
     pos_tagger = (
-        f"{rt['lemma_package']} {rt['lemma_version']} morphologizer, every "
-        f"{cfg.pos_sample_every}th sentence (per-lemma majority)"
-        if cfg.pos_source == "model"
-        else f"{rt['tokenizer']} backend UD tag (per-lemma majority; lemma-step host tokens not voted)"
+        f"{rt['lemma_package']} {rt['lemma_version']} UPOS on every token, as the sentence stage "
+        "assigns it (per-lemma majority; a multi-token unit is X)"
     )
     return {
         "source": (
             f"honeyeater-frequer {frequer_commit()[:12]} ({scope}): production {rt['tokenizer']} "
-            f"backend + {rt['lemma_package']} {rt['lemma_version']} lemma step + {rt['overrides_path']}"
+            f"backend through nlp.sentence_stage.analyse_sentence with {rt['lemma_package']} "
+            f"{rt['lemma_version']} (fallback {rt['fallback']}, units {'on' if rt['units'] else 'off'})"
         ),
         "corpus": " + ".join(result.sources),
         "pos_tagger": pos_tagger,
@@ -108,7 +120,16 @@ def header(result: MergeResult, manifest: Manifest, score: str, weights: dict[st
             "sha256": rt["lemma_sha256"], "wheel_sha256": rt["wheel_sha256"], "theta": rt["theta"],
         },
         "honeyeater": {"commit": rt["honeyeater_commit"], "dirty": rt["honeyeater_dirty"]},
-        "overrides": f"{rt['overrides_path']} sha256:{rt['overrides_sha256']}",
+        "overrides": (
+            f"none applied to lemmas (a release language keeps only the desk's database rows, not "
+            f"available offline); {rt['overrides_path']} sha256:{rt['overrides_sha256']} feeds the "
+            f"backend fallback only"
+        ),
+        "units": {
+            "counted": "a compound replaces its member words (a compound is a word); a phrase or "
+                       "construction counts next to its member words",
+            "entry_field": "unit (compound, phrase, construction) on multi-token unit entries",
+        },
         "corpus_manifest": [
             {
                 "name": name, "licence": manifest.source(name).licence, "urls": manifest.source(name).urls,
@@ -120,7 +141,7 @@ def header(result: MergeResult, manifest: Manifest, score: str, weights: dict[st
         "tokens": result.merged.tokens,
         "documents": result.merged.docs,
         "ranking": {"score": score, "source_weights": weights, "parts": manifest.parts},
-        "frequer": {"version": "0.1.0", "commit": frequer_commit()},
+        "frequer": {"version": __version__, "commit": frequer_commit()},
     }
 
 

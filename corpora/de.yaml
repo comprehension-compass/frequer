@@ -7,7 +7,6 @@ language:
   fold_case: false
   lowercase_forms: true
   readings: false
-  pos_source: backend
   top_n: 50000
   forms_kept: 5
 hygiene: {min_chars: 20, max_chars: 600, min_alpha_ratio: 0.6, gap_filter: true, langid_min_prob: 0.5}
@@ -75,11 +74,11 @@ forms:
     hplt-v2-de: {share: 0.9, raw_chars_per_token: 11.6}
     tatoeba-deu: {share: 0.1, stride: 2}
 pilot:
-  shard_chars: 2500000
-  urls: {hplt-v2-de: 2}
+  shard_chars: 4000000
+  urls: {hplt-v2-de: 4}
   max_chars_per_url:
-    hplt-v2-de: 9000000
-    tatoeba-deu: 1500000
+    hplt-v2-de: 22000000
+    tatoeba-deu: 3500000
 observed:
   hplt-v2-de:
   - date: '2026-10-24'

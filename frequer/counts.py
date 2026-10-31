@@ -17,7 +17,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
-FORMAT = 1
+FORMAT = 2
 
 
 class ShardAccumulator:
@@ -35,7 +35,9 @@ class ShardAccumulator:
         self.part: Counter[tuple[str, int]] = Counter()
         self.readings: Counter[tuple[str, str]] = Counter()
         self.reading_source: dict[tuple[str, str], str] = {}
-        #: Hook for unit counts (reflexive/separable verbs, set phrases): unit key -> [frequency, documents].
+        #: Occurrence kinds per key (``word``, ``compound1``, ``compound``, ``phrase``, ...).
+        self.kinds: Counter[tuple[str, str]] = Counter()
+        #: Every unit the release found, claimed or not: ``"<type>\t<headword>"`` -> [frequency, documents].
         self.units: dict[str, list[int]] = {}
 
     def add_document(self, part: int, lemma_counts: Counter[str]) -> None:
@@ -49,13 +51,15 @@ class ShardAccumulator:
 
     def to_dict(self) -> dict[str, Any]:
         entries: dict[str, dict[str, Any]] = {
-            lemma: {"f": f, "d": self.df[lemma], "p": {}, "w": {}, "s": {}}
+            lemma: {"f": f, "d": self.df[lemma], "p": {}, "w": {}, "s": {}, "k": {}}
             for lemma, f in self.freq.items()
         }
         for (lemma, pos), n in self.pos.items():
             entries[lemma]["p"][pos] = n
         for (lemma, form), n in self.forms.items():
             entries[lemma]["w"][form] = n
+        for (lemma, kind), n in self.kinds.items():
+            entries[lemma]["k"][kind] = n
         for (lemma, part), n in self.part.items():
             entries[lemma]["s"][str(part)] = n
         for (lemma, reading), n in self.readings.items():
@@ -96,6 +100,7 @@ class LemmaStats:
     parts: Counter[int] = field(default_factory=Counter)
     readings: Counter[str] = field(default_factory=Counter)
     reading_source: dict[str, str] = field(default_factory=dict)
+    kinds: Counter[str] = field(default_factory=Counter)
 
 
 @dataclass
@@ -143,6 +148,7 @@ def merge_shard(
         stats.by_source[source] += entry["f"]
         stats.pos.update(entry["p"])
         stats.forms.update(entry["w"])
+        stats.kinds.update(entry["k"])
         for part, n in entry["s"].items():
             stats.parts[int(part)] += n
         for reading, n in entry.get("r", {}).items():

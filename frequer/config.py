@@ -51,15 +51,13 @@ class LanguageConfig(Strict):
     lowercase_forms: bool = False
     #: Emit hiragana readings derived exactly as ``build_ja_snapshot.py`` does.
     readings: bool = False
-    #: Where a token's POS comes from: the backend's own tag, or the lemma
-    #: model's morphologizer on every ``pos_sample_every``-th sentence (for a
-    #: backend that tags nothing).
-    pos_source: Literal["backend", "model"] = "backend"
     #: Tokens the lemma step resolves to their host's lemma (a Japanese ending):
     #: ``skip`` (decided 2026-10-24) leaves them out, so 行っ|た counts 行く once;
     #: ``count`` would add each ending to its host and inflate verbs.
     host_tokens: Literal["count", "skip"] = "skip"
-    pos_sample_every: int = 8
+    #: The release's unseen-form fallback (``spacy-list`` or ``backend``); None
+    #: takes the pinned checkout's ``reference/lemma-releases.json`` entry.
+    fallback: Literal["spacy-list", "backend"] | None = None
     top_n: int = 50_000
     forms_kept: int = 5
 
@@ -132,6 +130,30 @@ class FormsConfig(Strict):
     sources: dict[str, FormsSource]
 
 
+class CoocConfig(Strict):
+    """The co-occurrence pass (:mod:`frequer.cooc`, :mod:`frequer.assoc`)."""
+
+    enabled: bool = True
+    n_min: int = 2
+    n_max: int = 4
+    #: Items below this merged count are dropped before scoring (Evert 2005 §4.1:
+    #: association scores are unreliable for f < 3-5).
+    min_count: int = 5
+    #: Shipped table: at most this many rows, the highest ``g2_min`` among the
+    #: positively associated (p < 0.001) ones with at least ``ship_min_docs`` documents.
+    ship_rows: int = 400_000
+    ship_min_docs: int = 3
+    #: The labelling queue: this many top combinations not on the unit list.
+    queue_rows: int = 2000
+    #: ``npmi_min`` floor for the labelling queue (ranked by ``g2_min`` above it).
+    queue_min_npmi: float = 0.25
+    #: UPOS (a key's majority) that may not open or close a queued n-gram.
+    queue_edge_ban: list[str] = Field(default_factory=lambda: ["DET", "CCONJ"])
+    #: During ``count``, fold finished shard co-occurrence files into one running
+    #: file every this many shards, so disk holds one merged file plus a few shards.
+    compact_every: int = 8
+
+
 class Observed(Strict):
     scope: str
     date: str
@@ -151,6 +173,7 @@ class Manifest(Strict):
     sources: list[SourceConfig]
     pilot: PilotConfig
     forms: FormsConfig | None = None
+    cooc: CoocConfig = Field(default_factory=CoocConfig)
     #: Token counts per source once fetched (``frequer sync-manifest``).
     observed: dict[str, list[Observed]] = Field(default_factory=dict)
 

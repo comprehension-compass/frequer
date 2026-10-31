@@ -41,20 +41,64 @@ def _movers(ms: Sequence[Mover]) -> list[list[object]]:
              f"{m.new_rank - m.old_rank:+,}" if m.old_rank and m.new_rank else "-"] for m in ms]
 
 
-def _override_section(result: MergeResult) -> list[str]:
-    """Where the override file and the lemma step disagree on a token."""
-    conflicts = result.override_conflicts
-    wrong = sum(conflicts.values())
+def _units_section(result: MergeResult, ranked: Sequence[Row]) -> list[str]:
+    """What the release's unit component found, and where units rank."""
+    units = result.merged.units
+    kinds = result.occurrence_kinds
+    total = sum(kinds.values()) or 1
+    by_type: dict[str, list[int]] = {}
+    for name, (f, _d) in units.items():
+        t = name.split("\t", 1)[0]
+        acc = by_type.setdefault(t, [0, 0])
+        acc[0] += 1
+        acc[1] += f
     out = [
-        "### Override file against the lemma step", "",
-        f"The backend's lemma has the override file applied before the lemma step, but the step prefers "
-        f"its list for a form it knows. Of {result.override_tokens:,} tokens whose surface the override file "
-        f"names, the step emitted a different lemma for {wrong:,}"
-        + (f" (top {min(len(conflicts), 25)} below, as counted in the {len(conflicts):,} kept per shard)." if conflicts else "."),
-        "",
+        "## Units", "",
+        "Counted occurrences by kind: " + ", ".join(f"{k} {v:,} ({v / total:.2%})" for k, v in sorted(kinds.items()))
+        + ". A compound replaces its member words (a compound is a word); a phrase or construction "
+        "counts next to its member words.", "",
     ]
-    rows = [(f"`{s}`", f"`{w}`", f"`{g}`", f"{n:,}") for (s, w, g), n in conflicts.most_common(25)]
-    return out + _table(["surface", "override says", "step emitted", "tokens"], rows)
+    out += _table(["unit type", "distinct headwords found", "occurrences found"],
+                  [(t, f"{n:,}", f"{f:,}") for t, (n, f) in sorted(by_type.items())])
+    ranks = {r.lemma: i for i, r in enumerate(ranked, start=1)}
+
+    def rank_of(head: str) -> int | str:
+        return ranks.get(head) or ranks.get(head.lower()) or "-"
+
+    top = sorted(units.items(), key=lambda kv: -kv[1][0])
+    for t in sorted(by_type):
+        rows = [(f"`{name.split(chr(9), 1)[1]}`", f"{f:,}", f"{d:,}", rank_of(name.split(chr(9), 1)[1]))
+                for name, (f, d) in top if name.startswith(t + "\t")][:SHOW]
+        out += [f"### Top {t} units", ""]
+        out += _table(["headword", "found", "documents", "snapshot rank"], rows)
+    return out
+
+
+def _cooc_section(cooc: Any) -> list[str]:
+    if cooc is None:
+        return []
+    meta = cooc.meta
+    out = [
+        "## Co-occurrence (association) table", "",
+        f"{meta['tokens']:,} tokens, {meta['sentences']:,} sentences. After merging and dropping items seen fewer "
+        f"than {meta['min_count']} times: {cooc.merged_rows:,} items (unigrams, UPOS votes, n-grams, pairs); "
+        f"{cooc.scored:,} n-grams and pairs scored ("
+        + ", ".join(f"{k} {v:,}" for k, v in sorted(cooc.by_kind.items())) + "). "
+        f"Shipped: {len(cooc.shipped):,} rows, {cooc.table_bytes / 1e6:.1f} MB gzipped (`{cooc.table_path.name}`). "
+        "Measures and the selection are in README §Co-occurrence.", "",
+        "### Labelling queue: top associated combinations not on the unit list", "",
+        f"`{cooc.queue_path.name}` holds {len(cooc.queue):,}; the first {SHOW * 2} here.", "",
+    ]
+    rows = [(k, q.row.kind, f"`{q.row.keys}`", q.head and f"`{q.head}`", f"{q.row.f:,}", f"{q.row.d:,}",
+             _n(q.row.pmi_min, 2), _n(q.row.npmi_min, 2), f"{q.row.g2_min:,.0f}", q.contains)
+            for k, q in enumerate(cooc.queue[: SHOW * 2], start=1)]
+    out += _table(["#", "kind", "keys", "head", "f", "docs", "PMI min", "NPMI min", "G2 min", "extends listed"], rows)
+    pairs = [q for q in cooc.queue if q.row.kind == "p"][:SHOW]
+    out += ["### Verb pairs in the queue", ""]
+    out += _table(["keys", "head", "f", "docs", "PMI", "NPMI", "G2"],
+                  [(f"`{q.row.keys}`", f"`{q.head}`", f"{q.row.f:,}", f"{q.row.d:,}", _n(q.row.pmi_min, 2),
+                    _n(q.row.npmi_min, 2), f"{q.row.g2_min:,.0f}") for q in pairs])
+    return out
 
 
 def render(
@@ -72,6 +116,7 @@ def render(
     proper: Sequence[Flag],
     alts: Sequence[AltRanking],
     live_label: str,
+    cooc: Any = None,
 ) -> str:
     merged = result.merged
     rt = result.runtime
@@ -81,8 +126,8 @@ def render(
         f"- Tokens counted: {merged.tokens:,} in {merged.docs:,} documents, {merged.shards} shards, "
         f"{merged.parts} dispersion parts.",
         f"- Lemma release: `{rt['lemma_package']}` {rt['lemma_version']} (sha256 `{rt['lemma_sha256'][:16]}`); "
-        f"honeyeater `{rt['honeyeater_commit'][:12]}`{' (dirty)' if rt['honeyeater_dirty'] else ''}; "
-        f"overrides sha256 `{rt['overrides_sha256'][:16]}`.",
+        f"fallback `{rt['fallback']}`, units {'on' if rt['units'] else 'off'}; "
+        f"honeyeater `{rt['honeyeater_commit'][:12]}`{' (dirty)' if rt['honeyeater_dirty'] else ''}.",
         "",
         "## Corpus and hygiene", "",
     ]
@@ -91,17 +136,13 @@ def render(
         [(name, t.shards, f"{t.docs:,}", f"{t.lines:,}", f"{t.tokens:,}",
           ", ".join(f"{k} {v:,}" for k, v in sorted(t.dropped.items()))) for name, t in result.sources.items()],
     )
-    prov = result.token_provenance
-    total = sum(prov.values()) or 1
     out += [
-        "## How the runtime decided the lemmas", "",
-        "Tokens by deciding layer: " + ", ".join(f"{k} {v / total:.1%}" for k, v in sorted(prov.items())) + ".",
-        f"Tokens the lemma step resolved to their host's lemma: {result.host_tokens:,}. "
-        f"Sentences where an independent replay of the step disagreed with it: "
-        f"{result.step_mismatch_sentences:,} of {result.sentences:,}.", "",
+        f"Japanese-style host tokens (an ending that took its host's lemma): {result.host_tokens:,}. "
+        f"Occurrences not counted (punctuation, a lemma failing the language pattern): "
+        f"{result.uncounted_occurrences:,}. Sentences: {result.sentences:,}.", "",
     ]
-
-    out += _override_section(result)
+    out += _units_section(result, ranked)
+    out += _cooc_section(cooc)
     out += [f"## Rank shifts against {live_label}", ""]
     if shift is None:
         out += ["_No live snapshot to compare with._", ""]

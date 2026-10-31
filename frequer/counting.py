@@ -1,4 +1,4 @@
-"""Count one cleaned shard through the runtime into a shard counts file."""
+"""Count one cleaned shard through the runtime into a counts file and a co-occurrence file."""
 
 from __future__ import annotations
 
@@ -13,10 +13,10 @@ from typing import Any
 
 from frequer import __version__
 from frequer.config import Manifest
+from frequer.cooc import CoocAccumulator
 from frequer.counts import ShardAccumulator, write_shard
-from frequer.runtime import AnalysedSentence, Runtime, StageClock
+from frequer.runtime import Runtime, StageClock
 from frequer.shards import ShardJob
-from frequer.units import NoUnits, UnitCounter
 
 _STATE: dict[str, Any] = {}
 
@@ -32,8 +32,8 @@ def init_worker(lang: str, manifest_root: str | None, lemma_dir: str | None,
         manifest.language,
         lemma_dir=Path(lemma_dir) if lemma_dir else None,
         wheel=Path(wheel) if wheel else None,
+        fallback=manifest.language.fallback,
     )
-    _STATE["units"] = NoUnits()
 
 
 def peak_rss_mb() -> float:
@@ -49,31 +49,18 @@ def _read_rows(path: Path) -> list[tuple[int, int, str]]:
     return rows
 
 
-def _vote_pos(
-    acc: ShardAccumulator, lemma: str, i: int, sent: AnalysedSentence, tags: list[str] | None,
-    from_model: bool,
-) -> None:
-    if from_model:
-        if tags is not None:
-            acc.pos[(lemma, tags[i])] += 1
-    elif not sent.host[i]:
-        acc.pos[(lemma, sent.pos[i])] += 1
-
-
 def count_rows(
     rows: list[tuple[int, int, str]],
     runtime: Runtime,
     manifest: Manifest,
-    units: UnitCounter,
     clock: StageClock,
+    cooc: CoocAccumulator | None = None,
 ) -> tuple[ShardAccumulator, dict[str, Any]]:
     """Run ``rows`` (doc, part, line) through the runtime and tally them."""
     lang = manifest.language
     acc = ShardAccumulator(manifest.parts)
-    prov: Counter[str] = Counter()
-    sentences = host_tokens = mismatches = override_tokens = 0
-    conflicts: Counter[tuple[str, str, str]] = Counter()
-    from_model = lang.pos_source == "model"
+    kinds: Counter[str] = Counter()
+    sentences = host_tokens = skipped = 0
     for _doc, group in groupby(rows, key=lambda r: r[0]):
         batch = list(group)
         part = batch[0][1]
@@ -82,59 +69,47 @@ def count_rows(
         for _d, _p, line in batch:
             for sent in runtime.sentences(line, clock):
                 sentences += 1
-                mismatches += sent.mismatch
-                tags: list[str] | None = None
-                if from_model and sentences % lang.pos_sample_every == 0:
-                    t0 = time.perf_counter()
-                    tags = runtime.tag(sent.words, sent.spaces)
-                    clock("pos_model", time.perf_counter() - t0)
                 t0 = time.perf_counter()
-                for i, word in enumerate(sent.words):
-                    key = None if sent.punct[i] else runtime.key(sent.lemmas[i])
-                    if key is None:
-                        continue
-                    lemma = key
-                    if sent.host[i]:
+                for occ in sent.occurrences:
+                    if occ.host:
                         host_tokens += 1
                         if lang.host_tokens == "skip":
                             continue
-                    prov[sent.provenance[i]] += 1
-                    wanted = runtime.overrides.get(word.lower())
-                    if wanted is not None and not sent.host[i]:
-                        override_tokens += 1
-                        if wanted != lemma:
-                            conflicts[(word.lower(), wanted, lemma)] += 1
-                    local[lemma] += 1
-                    if not sent.host[i]:
-                        acc.forms[(lemma, word.lower() if lang.lowercase_forms else word)] += 1
-                    _vote_pos(acc, lemma, i, sent, tags, from_model)
-                    cand = sent.candidates[i]
-                    if lang.readings and cand is not None and cand.lemma == lemma and cand.reading:
-                        acc.readings[(lemma, cand.reading)] += 1
-                        source = cand.reading_source
-                        acc.reading_source.setdefault(
-                            (lemma, cand.reading), str(getattr(source, "value", source))
-                        )
-                for unit in units.units(sent):
-                    acc.units.setdefault(unit, [0, 0])[0] += 1
-                    doc_units.add(unit)
+                    key = runtime.key(occ.lemma, occ.kind)
+                    if key is None:
+                        skipped += 1
+                        continue
+                    kinds[occ.kind] += 1
+                    local[key] += 1
+                    acc.kinds[(key, occ.kind)] += 1
+                    acc.forms[(key, occ.surface.lower() if lang.lowercase_forms else occ.surface)] += 1
+                    acc.pos[(key, occ.pos)] += 1
+                    if lang.readings and occ.reading:
+                        acc.readings[(key, occ.reading)] += 1
+                        acc.reading_source.setdefault((key, occ.reading), occ.reading_source or "dictionary")
+                for unit in sent.units or ():
+                    name = f"{unit.type}\t{unit.lemma}"
+                    acc.units.setdefault(name, [0, 0])[0] += 1
+                    doc_units.add(name)
                 clock("count", time.perf_counter() - t0)
+                if cooc is not None:
+                    t0 = time.perf_counter()
+                    cooc.add_sentence(runtime.cooc_keys(sent), sent.upos, runtime.pair_spans(sent))
+                    clock("cooc", time.perf_counter() - t0)
         for unit in doc_units:
             acc.units[unit][1] += 1
         acc.add_document(part, local)
+        if cooc is not None:
+            cooc.end_document()
     stats = {
-        "sentences": sentences, "host_tokens": host_tokens, "step_mismatch_sentences": mismatches,
-        "token_provenance": dict(prov),
-        # Where the override file names a lemma the lemma step did not emit (the step
-        # prefers its list over the backend's overridden lemma): [surface, override, step, n].
-        "override_tokens": override_tokens,
-        "override_conflicts": [[*k, n] for k, n in conflicts.most_common(200)],
+        "sentences": sentences, "host_tokens": host_tokens, "occurrence_kinds": dict(kinds),
+        "uncounted_occurrences": skipped,
     }
     return acc, stats
 
 
 def count_shard(job: ShardJob) -> dict[str, Any]:
-    """Worker entry point: count, write the counts file, delete the shard file."""
+    """Worker entry point: count, write the counts and co-occurrence files, delete the shard file."""
     runtime: Runtime = _STATE["runtime"]
     manifest: Manifest = _STATE["manifest"]
     clock = StageClock()
@@ -142,11 +117,20 @@ def count_shard(job: ShardJob) -> dict[str, Any]:
     t0 = time.perf_counter()
     rows = _read_rows(job.path)
     clock("read_shard", time.perf_counter() - t0)
-    acc, stats = count_rows(rows, runtime, manifest, _STATE["units"], clock)
+    cfg = manifest.cooc
+    cooc = CoocAccumulator(cfg.n_min, cfg.n_max) if cfg.enabled else None
+    acc, stats = count_rows(rows, runtime, manifest, clock, cooc)
     body = acc.to_dict()
+    shard_id = f"{job.source}.{job.url_index:02d}.{job.shard_index:05d}"
+    if cooc is not None:
+        t0 = time.perf_counter()
+        cooc.write(job.cooc_path, {"shard": shard_id, "lang": manifest.language.code,
+                                   "lemma_sha256": runtime.info.lemma_sha256})
+        clock("cooc_write", time.perf_counter() - t0)
+        stats["cooc_items"] = len(cooc.f)
     meta = {
         "frequer": __version__, "lang": manifest.language.code, "config_hash": job.config,
-        "runtime": asdict(runtime.info),
+        "runtime": asdict(runtime.info), "shard": shard_id,
         "source": job.source, "url_index": job.url_index, "shard_index": job.shard_index,
         "closed_by": job.closed_by, "raw_chars": job.raw_chars, "lines": job.lines,
         "hygiene_dropped": job.dropped,

@@ -67,6 +67,11 @@ class ShardJob:
     rejected: int = 0
     seconds: dict[str, float] = field(default_factory=dict)
 
+    @property
+    def cooc_path(self) -> Path:
+        """The shard's co-occurrence file, next to its counts file (:mod:`frequer.cooc`)."""
+        return cooc_path(self.counts_path)
+
 
 def part_of(doc_id: str, parts: int) -> int:
     """The corpus part (hash bucket) a document belongs to; stable across processes."""
@@ -85,6 +90,10 @@ def config_hash(source: SourceConfig, hygiene: Hygiene, parts: int, lang: str, v
 
 def counts_path(counts_dir: Path, source: str, url_index: int, shard_index: int) -> Path:
     return counts_dir / f"{source}.{url_index:02d}.{shard_index:05d}.json.gz"
+
+
+def cooc_path(counts: Path) -> Path:
+    return counts.with_name(counts.name.removesuffix(".json.gz") + ".cooc.gz")
 
 
 def shard_file(keep_dir: Path, source: str, url_index: int, shard_index: int) -> Path:

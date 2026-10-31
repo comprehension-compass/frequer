@@ -7,9 +7,6 @@ language:
   fold_case: true
   lowercase_forms: false
   readings: false
-  # spacy-es is a blank pipeline with a lookup lemmatizer: it tags nothing.
-  pos_source: model
-  pos_sample_every: 8
   top_n: 50000
   forms_kept: 5
 hygiene: {min_chars: 20, max_chars: 600, min_alpha_ratio: 0.6, gap_filter: true, langid_min_prob: 0.5}
@@ -60,10 +57,10 @@ forms:
     paracrawl-en-es: {share: 0.9, stride: 85}
     tatoeba-spa: {share: 0.1, raw_chars_per_token: 5.0}
 pilot:
-  shard_chars: 2000000
+  shard_chars: 4000000
   max_chars_per_url:
-    paracrawl-en-es: 14000000
-    tatoeba-spa: 1500000
+    paracrawl-en-es: 46000000
+    tatoeba-spa: 3500000
 observed:
   paracrawl-en-es:
   - date: '2026-10-24'
