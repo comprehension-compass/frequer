@@ -1,116 +1,139 @@
 {
  "language": "es",
  "scope": "pilot",
- "tokens": 2243868,
- "documents": 3381,
- "lemma_types_ranked": 66916,
+ "tokens": 7388304,
+ "documents": 10252,
+ "lemma_types_ranked": 141164,
  "snapshot_entries": 50000,
  "stages": [
   {
    "stage": "fetch_decode",
    "what": "download, decompress, parse (main process)",
-   "core_seconds": 2.73,
-   "tokens_per_second": 822402
+   "core_seconds": 4.71,
+   "tokens_per_second": 1567818
   },
   {
    "stage": "hygiene",
    "what": "length/alpha/GAP/dedup filters (main process)",
-   "core_seconds": 3.8,
-   "tokens_per_second": 591097
+   "core_seconds": 15.22,
+   "tokens_per_second": 485514
   },
   {
    "stage": "langid",
    "what": "py3langid (main process)",
-   "core_seconds": 11.78,
-   "tokens_per_second": 190560
+   "core_seconds": 48.74,
+   "tokens_per_second": 151591
   },
   {
    "stage": "read_shard",
    "what": "read the cleaned shard file (worker)",
-   "core_seconds": 0.21,
-   "tokens_per_second": 10881256
+   "core_seconds": 0.76,
+   "tokens_per_second": 9734723
   },
   {
    "stage": "segment",
-   "what": "backend sentence segmentation (worker)",
-   "core_seconds": 33.67,
-   "tokens_per_second": 66641
+   "what": "backend sentence segmentation (worker; German: the full parse)",
+   "core_seconds": 121.64,
+   "tokens_per_second": 60739
   },
   {
-   "stage": "tokenize",
-   "what": "backend tokenization (worker)",
-   "core_seconds": 19.38,
-   "tokens_per_second": 115811
-  },
-  {
-   "stage": "backend_lemma",
-   "what": "backend lemmatize + override file (worker)",
-   "core_seconds": 34.98,
-   "tokens_per_second": 64141
+   "stage": "sentence_stage",
+   "what": "analyse_sentence minus the release: tokenize, candidates, numbers, unit merge (worker)",
+   "core_seconds": 438.53,
+   "tokens_per_second": 16848
   },
   {
    "stage": "lemma_step",
-   "what": "LemmaRelease.lemmatise, incl. model where needed (worker)",
-   "core_seconds": 227.37,
-   "tokens_per_second": 9869
+   "what": "the release's lemma + UPOS (model on every sentence) (worker)",
+   "core_seconds": 1204.72,
+   "tokens_per_second": 6133
   },
   {
-   "stage": "pos_model",
-   "what": "model POS on sampled sentences (worker)",
-   "core_seconds": 36.46,
-   "tokens_per_second": 61535
+   "stage": "units",
+   "what": "the release's unit step: list candidates, spancat, parts list, splitter (worker)",
+   "core_seconds": 1094.89,
+   "tokens_per_second": 6748
   },
   {
    "stage": "count",
-   "what": "tally lemmas, forms, POS, readings (worker)",
-   "core_seconds": 8.71,
-   "tokens_per_second": 257531
+   "what": "tally lemmas, forms, POS, readings, units (worker)",
+   "core_seconds": 50.82,
+   "tokens_per_second": 145391
+  },
+  {
+   "stage": "cooc",
+   "what": "co-occurrence n-grams, pairs, marginals (worker)",
+   "core_seconds": 78.45,
+   "tokens_per_second": 94179
+  },
+  {
+   "stage": "cooc_write",
+   "what": "write the sorted co-occurrence file (worker)",
+   "core_seconds": 30.91,
+   "tokens_per_second": 239048
   },
   {
    "stage": "worker_total",
    "what": "everything a worker does per shard",
-   "core_seconds": 370.19,
-   "tokens_per_second": 6061
+   "core_seconds": 3114.05,
+   "tokens_per_second": 2373
   }
  ],
  "build_seconds": {
-  "merge": 2.49,
-  "rank": 1.05,
-  "snapshot": 2.71,
-  "report": 5.84
+  "merge": 9.71,
+  "rank": 2.38,
+  "snapshot": 2.82,
+  "cooc": 14.2,
+  "report": 43.96
  },
- "worker_peak_rss_mb": 447,
- "build_process_peak_rss_mb": 694,
+ "worker_peak_rss_mb": 991,
+ "build_process_peak_rss_mb": 1106,
  "host_tokens": 0,
- "token_provenance": {
-  "model": 228104,
-  "table": 1607978,
-  "backend": 407786
+ "occurrence_kinds": {
+  "word": 7003717,
+  "construction": 147498,
+  "compound": 48751,
+  "compound1": 55485,
+  "phrase": 132853
  },
- "step_mismatch_sentences": 0,
- "sentences": 145921,
+ "uncounted_occurrences": 110070,
+ "sentences": 435871,
+ "units_found": 3815,
+ "cooc": {
+  "merged_rows_at_min_count": 376721,
+  "scored": 309577,
+  "by_kind": {
+   "n2": 122412,
+   "n3": 130028,
+   "n4": 56019,
+   "p2": 1118
+  },
+  "shipped_rows": 195099,
+  "table_bytes": 3301013,
+  "queue_rows": 2000
+ },
  "checks": {
-  "form_ratio": 1,
-  "plural": 179,
-  "consistency": 233,
-  "short": 180,
-  "case": 0
+  "form_ratio": 15,
+  "plural": 195,
+  "consistency": 306,
+  "short": 184,
+  "case": 2
  },
- "count_wall_seconds": 161.6,
- "workers": 3,
- "main_process_peak_rss_mb": 149,
+ "count_wall_seconds": 1775.0,
+ "workers": 2,
+ "main_process_peak_rss_mb": 169,
  "urls": {
   "paracrawl-en-es.00": {
    "url": "https://web-language-models.s3.amazonaws.com/paracrawl/release9/en-es/en-es.txt.gz",
-   "raw_chars": 14004304,
-   "compressed_bytes_read": 12582912,
+   "raw_chars": 46004845,
+   "compressed_bytes_read": 39845888,
    "closed_by": "cap",
    "sha256": null
   },
   "tatoeba-spa.00": {
    "url": "https://downloads.tatoeba.org/exports/per_language/spa/spa_sentences.tsv.bz2",
-   "raw_chars": 1501848,
-   "compressed_bytes_read": 1048576,
+   "raw_chars": 3500937,
+   "compressed_bytes_read": 2097152,
    "closed_by": "cap",
    "sha256": null
   }
