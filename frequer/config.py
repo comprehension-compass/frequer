@@ -93,6 +93,9 @@ class SourceConfig(Strict):
     shard_chars: int = 20_000_000
     #: Full-run cap on raw characters read from each URL (None reads to the end).
     max_chars_per_url: int | None = None
+    #: Full run: keep every ``stride``-th document (pseudo-document for TSV), so a cap
+    #: spreads over the whole file instead of its first crawl.
+    stride: int = 1
     #: Weight of this source's frequency in ranking scores (the blend knob).
     weight: float = 1.0
     hygiene: Hygiene | None = None

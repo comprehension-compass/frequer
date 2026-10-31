@@ -94,7 +94,8 @@ def count_rows(
                 clock("count", time.perf_counter() - t0)
                 if cooc is not None:
                     t0 = time.perf_counter()
-                    cooc.add_sentence(runtime.cooc_keys(sent), sent.upos, runtime.pair_spans(sent))
+                    cooc.add_sentence(runtime.cooc_keys(sent), sent.upos, runtime.pair_spans(sent),
+                                     runtime.unit_tokens(sent))
                     clock("cooc", time.perf_counter() - t0)
         for unit in doc_units:
             acc.units[unit][1] += 1

@@ -95,7 +95,8 @@ def main(argv: list[str] | None = None) -> None:
         dirs = RunDirs(args.data_dir / args.lang)
         summary = count_language(
             manifest, dirs, workers=args.workers, shard_chars=args.shard_chars, sources=names,
-            limits=lambda _n: Limits(max_chars=args.max_chars, max_urls=args.max_urls),
+            limits=lambda n: Limits(max_chars=args.max_chars, max_urls=args.max_urls,
+                                    stride=manifest.source(n).stride),
             lemma_dir=args.lemma_dir, wheel=args.wheel,
         )
         print(json.dumps(summary, indent=1))

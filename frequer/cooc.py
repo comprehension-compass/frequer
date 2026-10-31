@@ -15,7 +15,9 @@ taken off (``See#Fem`` -> ``see``). Per sentence:
   the release's reflexive pronoun, *se* / *sich*; a verb with a separated
   particle, *kommt ... an*), keeping those with no boundary token between the
   members. The key puts the verb first, then the other members in text order
-  (``freuen sich``, ``kommen an``, ``setzen sich auseinander``);
+  (``freuen sich``, ``kommen an``, ``setzen sich auseinander``); ``q`` counts the
+  same pair again where no member is a token of a unit the release found (the
+  passive *se utiliza* is the listed *se + verbo* construction, not a new verb);
 - ``u``: every non-boundary key once (the marginals), and ``t``: its UPOS votes
   (``key UPOS``), so a report can tell function words from content words.
 
@@ -36,8 +38,8 @@ from pathlib import Path
 from typing import Any
 
 FORMAT = 1
-#: Item kinds: n-gram, verb pair, unigram marginal, unigram UPOS vote.
-NGRAM, PAIR, UNIGRAM, TAG = "n", "p", "u", "t"
+#: Item kinds: n-gram, verb pair, verb pair no release unit covers, unigram marginal, unigram UPOS vote.
+NGRAM, PAIR, FREE_PAIR, UNIGRAM, TAG = "n", "p", "q", "u", "t"
 VERBS = frozenset({"VERB", "AUX"})
 
 
@@ -96,9 +98,11 @@ class CoocAccumulator:
         self._doc: set[str] = set()
 
     def add_sentence(
-        self, keys: Sequence[str], upos: Sequence[str], pairs: Iterable[Sequence[int]] = ()
+        self, keys: Sequence[str], upos: Sequence[str], pairs: Iterable[Sequence[int]] = (),
+        covered: frozenset[int] = frozenset(),
     ) -> None:
-        """Count one sentence: ``keys``/``upos`` per token, ``pairs`` as token indices."""
+        """Count one sentence: ``keys``/``upos`` per token, ``pairs`` as token indices,
+        ``covered`` the tokens of the release's units."""
         self.sentences += 1
         items: list[str] = []
         for key, tag in zip(keys, upos, strict=True):
@@ -111,6 +115,8 @@ class CoocAccumulator:
             pk = pair_key(keys, upos, tokens)
             if pk is not None:
                 items.append(f"{PAIR}\t{pk}")
+                if not covered.intersection(tokens):
+                    items.append(f"{FREE_PAIR}\t{pk}")
         self.f.update(items)
         self._doc.update(items)
 

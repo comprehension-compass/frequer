@@ -265,6 +265,8 @@ class Runtime:
         members = {o for offs in groups.values() for o in offs[1:]}
         pos_of = {t.offset: t.pos or "X" for t in tokens}
         previous: str | None = None
+        # Only a release that keys endings by their form (``host_keys``: Japanese) has host tokens.
+        endings = bool(self.units_release and self.units_release.settings.candidates.host_keys)
         for (_p, _s, offset), lemma in sorted(keys.items(), key=lambda kv: index[kv[0][2]]):
             if offset in members:
                 continue
@@ -281,7 +283,7 @@ class Runtime:
             reading = str(getattr(entry, "reading", "") or "")
             source = getattr(entry, "reading_source", "")
             k = idx[0]
-            host = (
+            host = endings and (
                 len(idx) == 1 and k > 0 and lemmas[k] == lemmas[k - 1] and words[k] != lemmas[k]
                 and lemma == previous
             )
@@ -344,6 +346,11 @@ class Runtime:
         if cand.reflexive is None and not cand.particle_pairs:
             return []
         return [tokens for source, tokens in open_spans(cand, sent.lemmas, sent.upos) if source == "pair"]
+
+    @staticmethod
+    def unit_tokens(sent: AnalysedSentence) -> frozenset[int]:
+        """Every token (fixed or slot) of a unit the release found in ``sent``."""
+        return frozenset(t for unit in sent.units or () for t in unit.members)
 
     def pair_windows(self) -> dict[int, float]:
         """Window size per pair length, for the expected frequency (``assoc``)."""

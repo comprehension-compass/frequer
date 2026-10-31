@@ -14,7 +14,9 @@
   among those with ``npmi_min`` >= ``queue_min_npmi``, dropping n-grams of
   function words only, n-grams with a ``queue_edge_ban`` UPOS at either edge
   (a determiner or conjunction at the edge is a fragment: *el mejor*, *tener
-  uno*), an auxiliary with a reflexive (the impersonal *se ha*), and n-grams that
+  uno*), an auxiliary with a reflexive (the impersonal *se ha*), a pair seen
+  inside a release unit at least half the time (*se utiliza* is the listed
+  *se + verbo* construction), and n-grams that
   are mostly the inside of a longer queued one. UPOS is each key's majority vote.
 """
 
@@ -29,7 +31,7 @@ from pathlib import Path
 from typing import Any
 
 from frequer import assoc
-from frequer.cooc import PAIR, bare_key, merge_files, read_items, read_meta
+from frequer.cooc import FREE_PAIR, PAIR, bare_key, merge_files, read_items, read_meta
 
 ACC = "cooc-acc.gz"
 MERGED = "cooc-merged.gz"
@@ -142,6 +144,8 @@ class Queued:
     row: assoc.Scored
     head: str
     contains: str
+    #: For a pair: its occurrences where no member was a token of a release unit.
+    free: int = 0
 
 
 def queue(
@@ -153,6 +157,7 @@ def queue(
     min_npmi: float,
     top: int,
     edge_ban: frozenset[str] = frozenset(),
+    free: dict[str, int] | None = None,
 ) -> list[Queued]:
     """The labelling queue (module docstring), best first."""
     picked: list[Queued] = []
@@ -163,9 +168,13 @@ def queue(
         if row.kind == PAIR:
             head = heads.get(row.keys, "")
             # An auxiliary with a reflexive is the impersonal se/sich (se ha, se puede), not a verb.
+            unexplained = (free or {}).get(row.keys, 0)
             if tags.get(parts[0]) == "AUX" or units.pair_listed(parts, head):
                 continue
-            picked.append(Queued(row, head, ""))
+            # Mostly inside a unit the release already found (se utiliza: se + verbo): not new.
+            if free is not None and unexplained < 0.5 * row.f:
+                continue
+            picked.append(Queued(row, head, "", unexplained))
             continue
         if all(tags.get(p, "X") in FUNCTION_UPOS for p in parts):
             continue
@@ -245,8 +254,11 @@ def build_cooc(
         for line in assoc.table_lines(shipped, heads):
             fp.write(line + "\n")
     units = UnitList.from_release(release_dir)
+    free = {item.split("\t", 1)[1]: f for item, f, _d in read_items(merged) if item[0] == FREE_PAIR}
+    # Counts from before the unit-free pair count carry none: no filter then.
+    free_or_none = free or None
     picked = queue(shipped, units, tags, heads, min_npmi=cfg.queue_min_npmi, top=cfg.queue_rows,
-                   edge_ban=frozenset(cfg.queue_edge_ban))
+                   edge_ban=frozenset(cfg.queue_edge_ban), free=free_or_none)
     qpath = out_dir / f"{lang}.cooc-queue.tsv"
     write_queue(qpath, picked, tags)
     return CoocResult(meta, scored, by_kind, shipped, picked, table, table.stat().st_size, qpath,
@@ -254,11 +266,13 @@ def build_cooc(
 
 
 def write_queue(path: Path, picked: Iterable[Queued], tags: dict[str, str]) -> None:
-    cols = ["rank", "kind", "keys", "upos", "head", "f", "d", "pmi_min", "npmi_min", "g2_min", "extends_listed"]
+    cols = ["rank", "kind", "keys", "upos", "head", "f", "d", "pmi_min", "npmi_min", "g2_min", "extends_listed",
+            "pair_outside_units"]
     with path.open("w", encoding="utf-8") as fp:
         fp.write("\t".join(cols) + "\n")
         for k, q in enumerate(picked, start=1):
             r = q.row
             upos = " ".join(tags.get(p, "X") for p in r.keys.split(" "))
             fp.write("\t".join([str(k), r.kind, r.keys, upos, q.head, str(r.f), str(r.d), assoc.fmt(r.pmi_min),
-                                assoc.fmt(r.npmi_min), f"{r.g2_min:.1f}", q.contains]) + "\n")
+                                assoc.fmt(r.npmi_min), f"{r.g2_min:.1f}", q.contains,
+                                str(q.free) if r.kind == PAIR else ""]) + "\n")

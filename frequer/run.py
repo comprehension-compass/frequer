@@ -23,6 +23,9 @@ from frequer.config import Manifest
 from frequer.hygiene import make_classifier
 from frequer.shards import Limits, produce_shards
 
+#: Shards a worker counts before it is replaced by a fresh process (bounded memory on long runs).
+RECYCLE_AFTER = 12
+
 
 @dataclass(frozen=True)
 class RunDirs:
@@ -90,6 +93,8 @@ def count_language(
         pool = ProcessPoolExecutor(
             max_workers=workers, mp_context=multiprocessing.get_context("spawn"),
             initializer=counting.init_worker, initargs=init_args,
+            # A worker's spaCy string stores and memos grow with every shard: start a fresh one now and then.
+            max_tasks_per_child=RECYCLE_AFTER,
         )
     else:
         counting.init_worker(*init_args)
