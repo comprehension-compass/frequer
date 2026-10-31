@@ -25,13 +25,17 @@ sources:
       ParaCrawl release 9, en-es, tab-separated (English, Spanish); only the
       Spanish side (column 1) is counted. 25.1 GB compressed. ParaCrawl
       dedicates its releases to the public domain (reference/licenses/es.md).
-      Read up to max_chars_per_url characters of the Spanish side from the start.
+      The full run reads the whole file and keeps every 14th 50-line pseudo-document
+      (stride), about 300M counted tokens spread over every crawl in it: the live
+      snapshot counted the whole Spanish side (~4.8B tokens; rank 50,000 at ~1,400
+      occurrences), and 1/14 of it leaves rank 50,000 near 100 (plan §7). The head of
+      the file is one site's templates (the 2026-10-31 pilot), so never cap without a stride.
     urls:
       - https://web-language-models.s3.amazonaws.com/paracrawl/release9/en-es/en-es.txt.gz
     column: 1
     pseudo_doc_lines: 50
     shard_chars: 20000000
-    max_chars_per_url: 2000000000
+    stride: 14
   - name: tatoeba-spa
     kind: tsv
     licence: CC-BY-2.0-FR

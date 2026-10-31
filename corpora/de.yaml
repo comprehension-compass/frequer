@@ -48,7 +48,8 @@ sources:
       - https://data.hplt-project.org/two/cleaned/deu_Latn/8.jsonl.zst
       - https://data.hplt-project.org/two/cleaned/deu_Latn/9.jsonl.zst
     shard_chars: 20000000
-    max_chars_per_url: 350000000
+    # 17 URLs x 185M raw characters at ~11 raw characters per counted token (pilot) ~ 285M tokens.
+    max_chars_per_url: 185000000
   - name: tatoeba-deu
     kind: tsv
     licence: CC-BY-2.0-FR

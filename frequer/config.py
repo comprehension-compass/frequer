@@ -154,7 +154,7 @@ class CoocConfig(Strict):
     queue_edge_ban: list[str] = Field(default_factory=lambda: ["DET", "CCONJ"])
     #: During ``count``, fold finished shard co-occurrence files into one running
     #: file every this many shards, so disk holds one merged file plus a few shards.
-    compact_every: int = 8
+    compact_every: int = 16
 
 
 class Observed(Strict):
