@@ -161,6 +161,12 @@ def accent_merges(lemmas: Mapping[str, LemmaStats], ratio: float,
         for fn in fns:
             if fn(spelling) != spelling:
                 by_plain[fn(spelling)].add(spelling)
+    # Every lemma spelt plainly the same way, case aside (bewusst + Bewusst): when they together outnumber the
+    # accented spelling, the plain one is the standard spelling (bewusst, not the old bewußt) and nothing merges.
+    plain_total: Counter[str] = Counter()
+    for lemma, st in lemmas.items():
+        if not is_unit(lemma):
+            plain_total[base_of(lemma).lower()] += st.freq
     out: list[Merge] = []
     for lemma, st in lemmas.items():
         b = base_of(lemma)
@@ -173,7 +179,7 @@ def accent_merges(lemmas: Mapping[str, LemmaStats], ratio: float,
         if len(targets) != 1:
             continue
         (target, n), = targets.items()
-        if n >= ratio * st.freq:
+        if n >= ratio * st.freq and plain_total[b.lower()] < n:
             out.append(Merge(lemma, target, st.freq, f"accented spelling {n:,} vs {st.freq:,}"))
     return sorted(out, key=lambda m: -m.source_freq)
 

@@ -43,3 +43,11 @@ def test_umlaut_fold_merges_both_plain_spellings_into_the_umlaut_lemma() -> None
     maps = [{"ä": "a", "ö": "o", "ü": "u"}, {"ä": "ae", "ö": "oe", "ü": "ue", "ß": "ss"}]
     got = {(m.source, m.target) for m in accent_merges(lemmas, 5, maps)}
     assert got == {("fur", "für"), ("fuer", "für")}  # schon/schön: two words, not 5x apart
+
+
+def test_a_dominant_plain_spelling_is_never_merged_into_an_old_one() -> None:
+    from frequer.junk import accent_merges
+
+    lemmas = {"bewusst": _st(50_000, {"bewusst": 50_000}), "Bewusst": _st(600, {"bewusst": 600}),
+              "bewußt": _st(4_000, {"bewußt": 4_000})}
+    assert accent_merges(lemmas, 5, [{"ß": "ss"}]) == []
