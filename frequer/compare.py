@@ -169,10 +169,21 @@ def zipf_lookup() -> Callable[[str, str], float] | None:
     except ImportError:
         return None
 
+    from wordfreq import get_frequency_dict
+
+    tables: dict[str, dict[str, float]] = {}
+
     def zipf(word: str, lang: str) -> float:
         try:
             return float(zipf_frequency(word, lang))
         except Exception:
-            return 0.0
+            # wordfreq tokenizes its input first, and for some languages (ja: MeCab) the tokenizer is an
+            # optional dependency; a whole word is then looked up in the frequency table directly.
+            try:
+                table = tables.setdefault(lang, get_frequency_dict(lang))
+            except Exception:
+                return 0.0
+            f = table.get(word.lower(), 0.0)
+            return round(math.log10(f * 1e9), 2) if f > 0 else 0.0
 
     return zipf
