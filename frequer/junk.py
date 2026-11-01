@@ -33,8 +33,8 @@ marks ``keep`` (two real words: *secretaria* / *secretaría*). ñ is a letter, n
 ``review_top``, and so does any lemma in the proper-noun middle band whatever its other flags. English
 acronyms and names collect correlated flags (foreign, shape, proper noun), so those flags are not independent
 evidence. The reviewed decision is committed in ``corpora/review/<code>.tsv`` (``lemma, decision,
-reason``; decision ``keep``, ``drop`` or ``merge:<lemma>``) and applied by the build; a merge target counts as
-reviewed. An unreviewed single flag
+reason``; decision ``keep``, ``drop``, ``merge:<lemma>`` or ``pending-names``: a place name left to the
+learnable-names list, kept until it arrives) and applied by the build; a merge target counts as reviewed. An unreviewed single flag
 is kept and reported as pending. A ``merge:`` decision moves the counts like an accent merge.
 """
 
@@ -102,8 +102,8 @@ def load_review(lang: str, root: Path = MANIFEST_DIR) -> Review | None:
             continue
         parts = line.split("\t")
         decision = parts[1].strip() if len(parts) > 1 else ""
-        if decision not in ("keep", "drop") and not decision.startswith("merge:"):
-            raise SystemExit(f"{path}:{n}: decision {decision!r} is not keep, drop or merge:<lemma>")
+        if decision not in ("keep", "drop", "pending-names") and not decision.startswith("merge:"):
+            raise SystemExit(f"{path}:{n}: decision {decision!r} is not keep, drop, pending-names or merge:<lemma>")
         decisions[parts[0]] = (decision, parts[2].strip() if len(parts) > 2 else "")
     return Review(path, hashlib.sha256(raw).hexdigest(), decisions)
 
@@ -317,6 +317,8 @@ def route(ranked: Sequence[str], flags: Flags, review: Review | None, review_top
             action = "propn-drop"
         elif decision == "drop":
             action = "review-drop"
+        elif decision == "pending-names":
+            action = "pending-names"  # a place name: decided by the learnable-names list, kept until then
         elif decision == "keep" or (lemma in targets and decision != "drop"):
             action = "review-keep"
         elif any(rule == "propn_band" for rule, _e in fl) or len(fl) == 1:
@@ -325,7 +327,7 @@ def route(ranked: Sequence[str], flags: Flags, review: Review | None, review_top
             action = "drop"
         else:
             action = "keep"
-        if action in ("keep", "review-keep", "pending"):
+        if action in ("keep", "review-keep", "pending", "pending-names"):
             kept += 1
         out.append(Routed(lemma, rank, action, fl))
     return out
