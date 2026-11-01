@@ -824,6 +824,43 @@
     }
    },
    "passes": 0
+  },
+  {
+   "tokens": 350250058,
+   "shards": 207,
+   "sources": {
+    "hplt-v2-de-deep": 65690337,
+    "hplt-v2-de": 278449807,
+    "tatoeba-deu": 6109914
+   },
+   "mix": "full",
+   "bands": {
+    "5000": {
+     "change": 0.0086,
+     "median_shift": 18,
+     "freq_at_n": 5139,
+     "split_half": 0.0264
+    },
+    "10000": {
+     "change": 0.0093,
+     "median_shift": 39,
+     "freq_at_n": 1974,
+     "split_half": 0.0332
+    },
+    "20000": {
+     "change": 0.0147,
+     "median_shift": 102.0,
+     "freq_at_n": 779,
+     "split_half": 0.05065
+    },
+    "50000": {
+     "change": 0.02214,
+     "median_shift": 403,
+     "freq_at_n": 229,
+     "split_half": 0.07866
+    }
+   },
+   "passes": 0
   }
  ],
  "decision": "continue",
