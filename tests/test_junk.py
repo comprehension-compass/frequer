@@ -48,9 +48,11 @@ def test_dictionary_proper_noun_evidence() -> None:
 
 def test_places_are_pending_names_unless_reviewed() -> None:
     flags = junk.Flags(propn_place={"東京": "place", "京都": "place"}, propn_drop={"田中": "person"})
-    review = junk.Review(None, "", {"京都": ("keep", "")})  # type: ignore[arg-type]
-    actions = {r.lemma: r.action for r in junk.route(["東京", "京都", "田中", "猫"], flags, review, 10)}
-    assert actions == {"東京": "pending-names", "京都": "review-keep", "田中": "propn-drop", "猫": "keep"}
+    flags.propn_drop["令和"] = "person"  # an era name the dictionary also lists as a given name
+    review = junk.Review(None, "", {"京都": ("keep", ""), "令和": ("keep", "")})  # type: ignore[arg-type]
+    actions = {r.lemma: r.action for r in junk.route(["東京", "京都", "田中", "令和", "猫"], flags, review, 10)}
+    assert actions == {"東京": "pending-names", "京都": "review-keep", "田中": "propn-drop", "令和": "review-keep",
+                       "猫": "keep"}
 
 
 def test_citation_reads_token_separated_forms_and_exempts_units() -> None:
