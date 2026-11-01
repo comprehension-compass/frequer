@@ -1,0 +1,42 @@
+{
+ "checkpoints": [
+  {
+   "tokens": 105726244,
+   "shards": 40,
+   "sources": {
+    "paracrawl-en-es": 102399277,
+    "tatoeba-spa": 3326967
+   },
+   "mix": "full",
+   "bands": {
+    "5000": {
+     "change": null,
+     "median_shift": null,
+     "freq_at_n": 1318,
+     "split_half": 0.0138
+    },
+    "10000": {
+     "change": null,
+     "median_shift": null,
+     "freq_at_n": 334,
+     "split_half": 0.0245
+    },
+    "20000": {
+     "change": null,
+     "median_shift": null,
+     "freq_at_n": 66,
+     "split_half": 0.052
+    },
+    "50000": {
+     "change": null,
+     "median_shift": null,
+     "freq_at_n": 7,
+     "split_half": 0.19014
+    }
+   },
+   "passes": 0
+  }
+ ],
+ "decision": "continue",
+ "stopped_at": null
+}
