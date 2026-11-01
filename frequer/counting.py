@@ -23,11 +23,13 @@ _STATE: dict[str, Any] = {}
 
 
 def init_worker(lang: str, manifest_root: str | None, lemma_dir: str | None,
-                wheel: str | None) -> None:
+                wheel: str | None, cooc: bool = True) -> None:
     """Per-process setup: load the runtime once, reuse it for every shard."""
     from frequer.config import MANIFEST_DIR, load_manifest
 
     manifest = load_manifest(lang, Path(manifest_root) if manifest_root else MANIFEST_DIR)
+    if not cooc:
+        manifest = manifest.model_copy(update={"cooc": manifest.cooc.model_copy(update={"enabled": False})})
     _STATE["manifest"] = manifest
     _STATE["runtime"] = Runtime(
         manifest.language,

@@ -92,7 +92,8 @@ def run_checkpoints(
     done = {row["tokens"] for row in state["checkpoints"]}
     shards = converge.finished_shards(counts_dir, out_dir / "checkpoints" / converge.LEDGER)
     last: tuple[int, MergeResult, list[Row]] | None = None
-    for tokens, names in converge.due(shards, done):
+    # Shards arriving together (from remote parts) make one checkpoint: the newest prefix.
+    for tokens, names in converge.due(shards, done)[-1:]:
         result, ranked = _rank(manifest, counts_dir, names)
         r = ranked_of(ranked, result.merged.tokens, names)
         converge.save_ranked(out_dir / "checkpoints" / f"{tokens}.json.gz", r)

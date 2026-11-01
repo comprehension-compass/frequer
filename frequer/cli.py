@@ -5,16 +5,19 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import subprocess
+import sys
 from datetime import date
 from pathlib import Path
 
+from frequer import transport
 from frequer.build import BuildOptions, build_language
 from frequer.checkpoint import run_checkpoints
 from frequer.config import Observed, load_manifest, write_observed
 from frequer.counts import iter_counts, read_shard
 from frequer.forms_run import run_forms
 from frequer.ranking import SCORES
-from frequer.run import RunDirs, count_language
+from frequer.run import RunDirs, count_language, parse_part
 from frequer.select import run_select
 from frequer.shards import Limits
 
@@ -51,6 +54,8 @@ def main(argv: list[str] | None = None) -> None:
     c.add_argument("--checkpoints", action="store_true",
                    help="take convergence checkpoints as shards finish and stop when the list has converged")
     c.add_argument("--out-dir", type=Path, help="where checkpoints go (default out/<lang>; give build the same)")
+    c.add_argument("--part", help="i/N: count only part i of N (README §Distributed counting)")
+    c.add_argument("--no-cooc", action="store_true", help="skip the co-occurrence pass (remote parts)")
     ck = sub.add_parser("checkpoint", help="take the convergence checkpoints that are due; print the decision")
     _common(ck)
     ck.add_argument("--out-dir", type=Path)
@@ -84,6 +89,23 @@ def main(argv: list[str] | None = None) -> None:
     sl.add_argument("--top", type=int, default=1000)
     sl.add_argument("--min-docs", type=int, default=5)
     sl.add_argument("--out-dir", type=Path, help="default: next to --forms")
+    sh = sub.add_parser("ship", help="push this part's finished shard counts to its git branch (remote parts)")
+    sh.add_argument("lang")
+    sh.add_argument("--data-dir", type=Path, default=Path(os.environ.get("FREQUER_DATA", "data")))
+    sh.add_argument("--repo", type=Path, required=True, help="a scratch clone used for the shard branch")
+    sh.add_argument("--part", required=True, help="i/N, as given to count")
+    sh.add_argument("--prefix", help="branch prefix (default <lang>-shards-)")
+    sh.add_argument("--count-pid", type=int, help="the count's pid (started with setsid); ship until it ends")
+    sh.add_argument("--interval", type=int, default=120)
+    co = sub.add_parser("coordinate", help="receive remote parts' shards, take checkpoints, stop on convergence")
+    _common(co)
+    co.add_argument("--repo", type=Path, required=True, help="a scratch clone used to fetch the shard branches")
+    co.add_argument("--parts", type=int, required=True, help="N, as in --part i/N")
+    co.add_argument("--prefix")
+    co.add_argument("--out-dir", type=Path)
+    co.add_argument("--local-pid", type=int, help="the local part's count pid (started with setsid)")
+    co.add_argument("--interval", type=int, default=180)
+    co.add_argument("--cleanup", action="store_true", help="delete the shard branches and exit (after the build)")
     args = parser.parse_args(argv)
     manifest = load_manifest(args.lang)
     names = args.sources.split(",") if getattr(args, "sources", None) else None
@@ -101,14 +123,46 @@ def main(argv: list[str] | None = None) -> None:
         print(json.dumps(stats, indent=1))
     elif args.cmd == "count":
         dirs = RunDirs(args.data_dir / args.lang)
+        if args.no_cooc:
+            manifest = manifest.model_copy(update={"cooc": manifest.cooc.model_copy(update={"enabled": False})})
         summary = count_language(
-            manifest, dirs, workers=args.workers, shard_chars=args.shard_chars, sources=names,
+            manifest, dirs, part=parse_part(args.part) if args.part else None, workers=args.workers, shard_chars=args.shard_chars, sources=names,
             limits=lambda n: Limits(max_chars=args.max_chars, max_urls=args.max_urls,
                                     stride=manifest.source(n).stride),
             lemma_dir=args.lemma_dir, wheel=args.wheel,
             checkpoints_out=(args.out_dir or Path("out") / args.lang) if args.checkpoints else None,
         )
         print(json.dumps(summary, indent=1))
+    elif args.cmd == "ship":
+        i, _n = parse_part(args.part)
+        transport.ship(args.lang, args.data_dir / args.lang / "counts", args.repo,
+                       prefix=args.prefix or f"{args.lang}-shards-", part=i, count_pid=args.count_pid,
+                       interval=args.interval)
+    elif args.cmd == "coordinate":
+        prefix = args.prefix or f"{args.lang}-shards-"
+        if args.cleanup:
+            print(json.dumps(transport.cleanup(args.repo, prefix)))
+            return
+        out = args.out_dir or Path("out") / args.lang
+        cmd = [sys.executable, "-m", "frequer", "checkpoint", args.lang, "--data-dir", str(args.data_dir),
+               "--out-dir", str(out)]
+        cmd += ["--lemma-dir", str(args.lemma_dir)] if args.lemma_dir else []
+        cmd += ["--wheel", str(args.wheel)] if args.wheel else []
+
+        def checkpoint() -> str:
+            done = subprocess.run(cmd, capture_output=True, text=True)
+            for line in done.stdout.splitlines():
+                if line.startswith("checkpoint"):
+                    print(line, flush=True)
+            if done.returncode != 0:
+                print(f"checkpoint failed: {done.stderr[-2000:]}", flush=True)
+                return "continue"
+            return str(json.loads(done.stdout.splitlines()[-1])["decision"])
+
+        why = transport.coordinate(args.lang, args.data_dir / args.lang / "counts", args.repo, prefix=prefix,
+                                   parts=args.parts, local_pid=args.local_pid, checkpoint=checkpoint,
+                                   interval=args.interval, log=lambda m: print(m, flush=True))
+        print(json.dumps({"ended": why}))
     elif args.cmd == "checkpoint":
         dirs = RunDirs(args.data_dir / args.lang)
         state = run_checkpoints(manifest, dirs.counts, args.out_dir or Path("out") / args.lang,
