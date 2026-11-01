@@ -60,16 +60,26 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
     rank_of = {r.lemma: i for i, r in enumerate(ranked, start=1)}
     exclusions = exclude.load(cfg.code)
     ranked, dropped = exclude.apply(ranked, lambda r: r.lemma, exclusions)
-    learnable = propn.load(runtime.root, cfg.code)
-    ranked, propn_dropped, names_kept = propn.apply(
-        ranked, lambda r: r.lemma, lambda r: snapshot.majority(r.stats.pos, "X"), learnable, rank_of)
+    propn_head: dict[str, Any] = {"rule": "none"}
+    propn_text: list[str] = []
+    propn_dropped: list[propn.Dropped] = []
+    if cfg.propn_rule == "capitalised_mid_sentence":
+        learnable = propn.load_names(runtime.root, cfg.code)
+        tally = propn.load_case(cfg.code)
+        ranked, propn_dropped, names_kept, case_kept = propn.apply(
+            ranked, lambda r: r.lemma, lambda r: snapshot.majority(r.stats.pos, "X"), lambda r: r.stats.forms,
+            learnable, tally, cfg.propn_capitalised_min, rank_of)
+        propn_head = propn.header_entry(learnable, tally, cfg.propn_capitalised_min, propn_dropped, names_kept,
+                                        case_kept, top_n, runtime.root, REPO_ROOT)
+        propn_text = propn.render(learnable, tally, cfg.propn_capitalised_min, propn_dropped, names_kept,
+                                  case_kept, top_n)
 
     t0 = time.perf_counter()
     head = snapshot.header(result, manifest, opts.score, weights, opts.scope)
     excluded = exclude.header_entry(exclusions, dropped, top_n, REPO_ROOT)
     if excluded is not None:
         head["exclusions"] = excluded
-    head["proper_nouns"] = propn.header_entry(learnable, propn_dropped, names_kept, top_n, runtime.root)
+    head["proper_nouns"] = propn_head
     citation = runtime.backend.lemma_citation if cfg.readings else None
     entries = snapshot.build_entries(ranked[:top_n], result.merged, manifest, citation)
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -113,7 +123,7 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
         live_label=f"the live snapshot (`reference/lemmas/{cfg.code}.json`)",
     )
     text += "\n".join(exclude.render(exclusions, dropped, top_n))
-    text += "\n" + "\n".join(propn.render(learnable, propn_dropped, names_kept, top_n))
+    text += "\n" + "\n".join(propn_text)
     names = [p.name for _s, p in iter_counts(counts_dir)]
     state = final_record(out_dir, ranked, result.merged.tokens,
                          mix=mix_of(manifest, counts_dir.parent / "work", names))
@@ -136,7 +146,7 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
         },
         "checks": {k: len(v) for k, v in found.items()},
         "excluded_from_top_n": sum(1 for d in dropped if d.rank <= top_n),
-        "proper_nouns_dropped_from_top_n": sum(1 for r, _ in propn_dropped if r <= top_n),
+        "proper_nouns_dropped_from_top_n": sum(1 for d in propn_dropped if d.rank <= top_n),
     }
     (out_dir / "perf.json").write_text(json.dumps(summary, indent=1), encoding="utf-8")
     return summary

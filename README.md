@@ -283,13 +283,16 @@ records the file's sha256 and what it dropped from the top N, and `report.md` li
 list was reviewed twice independently against the developer's criterion (an English word goes, an
 established loan stays), with disagreements adjudicated (`full/es/exclusions.md`).
 
-**Proper nouns** (`frequer/propn.py`, every language; developer direction 2026-11-01). A lemma whose majority
-tag is PROPN is dropped unless its case-folded text is in the pinned Honeyeater checkout's
-`reference/learnable-names/<code>.json`. That file holds CLDR territories, ISO 639-1 language names and
-exemplar cities, the list the app's default writer uses (`backend/lexicon/learnable_names.py`). The app
-already default-ignores the rest, so the rule matches what the app does. The header's `proper_nouns` key
-records the file's sha256 and what the rule dropped and kept, and `report.md` lists them. The exclusion
-list is applied first, then this rule; reported ranks are the ones before either.
+**Proper nouns** (`frequer/propn.py`; per language, `language.propn_rule`; developer direction
+2026-11-01). With `capitalised_mid_sentence` (es), a PROPN-majority lemma is dropped when at least
+`propn_capitalised_min` (0.5) of its occurrences in running text are capitalised. Learnable names always stay:
+those in the pinned Honeyeater checkout's `reference/learnable-names/<code>.json` (CLDR territories, ISO 639-1
+language names, exemplar cities; the app's default-writer list). The counts keep surface forms with case but
+not position, so `corpora/case/<code>.tsv.gz` gives each capitalised form's sentence-initial, running-text and
+title-case-line occurrences, re-read from the counted sample by `corpora/case/tally_<code>.py` (tokenizer only).
+de and ja use `none`: German capitalises every noun and Japanese has no case. The header's `proper_nouns` key
+records both files' sha256 and what the rule dropped and kept, and `report.md` lists them. The exclusion list
+is applied first; reported ranks are the ones before either filter.
 
 ### The review report
 

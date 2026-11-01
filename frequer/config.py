@@ -60,6 +60,12 @@ class LanguageConfig(Strict):
     fallback: Literal["spacy-list", "backend"] | None = None
     top_n: int = 50_000
     forms_kept: int = 5
+    #: The snapshot's proper-noun rule (``frequer/propn.py``): ``none`` keeps every lemma (de, ja: German
+    #: capitalises every noun and Japanese has no case, so neither can use the case test);
+    #: ``capitalised_mid_sentence`` drops a PROPN-majority lemma that is not a learnable name when at least
+    #: ``propn_capitalised_min`` of its mid-sentence occurrences are capitalised (``corpora/case/<code>.tsv.gz``).
+    propn_rule: Literal["none", "capitalised_mid_sentence"] = "none"
+    propn_capitalised_min: float = 0.5
 
 
 class ChecksConfig(Strict):
