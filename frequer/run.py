@@ -14,7 +14,7 @@ import multiprocessing
 import subprocess
 import sys
 import time
-from collections.abc import Callable, Iterable, Iterator
+from collections.abc import Callable, Iterable, Iterator, Sequence
 from concurrent.futures import FIRST_COMPLETED, Future, ProcessPoolExecutor, wait
 from dataclasses import dataclass, replace
 from pathlib import Path
@@ -56,7 +56,7 @@ def parse_part(text: str) -> tuple[int, int]:
     return i, n
 
 
-def _url_indices(urls: list[str], limits: Limits) -> list[int]:
+def _url_indices(urls: Sequence[object], limits: Limits) -> list[int]:
     count = min(len(urls), limits.max_urls) if limits.max_urls else len(urls)
     return [k for k in range(count) if limits.url_indices is None or k in limits.url_indices]
 
@@ -177,7 +177,7 @@ def count_language(
                     parts=manifest.parts, work_dir=dirs.work, counts_dir=dirs.counts,
                     limits=replace(lim, url_indices=(k,)), classify=classify, url_stats=url_stats,
                 )
-                for k in _url_indices(source.urls, lim)
+                for k in _url_indices(source.virtual_urls(), lim)
                 if part is None or source.first or k % part[1] == part[0]
             )
             for job in jobs:

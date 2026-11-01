@@ -6,13 +6,18 @@
 set -euo pipefail
 LANG_CODE=$1; PART=$2; WORKERS=${3:-4}
 HE_COMMIT=c07c701585902f15fee2ef96a45893b1a5476940          # the counting runtime; shards are stamped with it
-WHEEL=honeyeater_lemma_ja-1.5.0-py3-none-any.whl
-WHEEL_SHA=742044e86967a1cec324c9773881c4a5684166de9f7ebae880472e542fa46ac1
+case "$LANG_CODE" in   # the lemma release each language counts with (its wheel is on <lang>-shards-setup)
+  ja) WHEEL=honeyeater_lemma_ja-1.5.0-py3-none-any.whl
+      WHEEL_SHA=742044e86967a1cec324c9773881c4a5684166de9f7ebae880472e542fa46ac1 ;;
+  es) WHEEL=honeyeater_lemma_es-1.5.0-py3-none-any.whl
+      WHEEL_SHA=89ddf9f6ebda6dc32a6ff156634030f228c855f00ecbc3d08b57935dba2a92e1 ;;
+  *)  echo "no wheel recorded for $LANG_CODE" >&2; exit 1 ;;
+esac
 FQ=$(cd "$(dirname "$0")/.." && pwd)
 WORK=${WORK:-$HOME/frequer-part}
 mkdir -p "$WORK"
 
-# 1. the pinned runtime: a detached, clean worktree at HE_COMMIT, with the Japanese dictionary group
+# 1. the pinned runtime: a detached, clean worktree at HE_COMMIT (with the Japanese dictionary group)
 git -C "$HONEYEATER" fetch -q origin "$HE_COMMIT" || git -C "$HONEYEATER" fetch -q origin
 [ -d "$WORK/he" ] || git -C "$HONEYEATER" worktree add --detach "$WORK/he" "$HE_COMMIT"
 (cd "$WORK/he/backend" && uv sync -q --group nlp-models)

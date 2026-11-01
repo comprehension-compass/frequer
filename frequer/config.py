@@ -102,12 +102,26 @@ class SourceConfig(Strict):
     #: Full run: keep every ``stride``-th document (pseudo-document for TSV), so a cap
     #: spreads over the whole file instead of its first crawl.
     stride: int = 1
+    #: A single-URL source read at a stride can be read several times at different offsets (pseudo-documents
+    #: ``n`` with ``n % stride == offset``): each offset is a **virtual URL** (index k reads offset
+    #: ``stride_offsets[k]``), so the passes never overlap, shard names stay distinct, and ``count --part i/N``
+    #: splits the offsets between machines. Index 0 must be offset 0, the pass a plain stride reads.
+    stride_offsets: list[int] | None = None
     #: Weight of this source's frequency in ranking scores (the blend knob).
     weight: float = 1.0
     hygiene: Hygiene | None = None
     #: Count this (small) source before the others, so every convergence checkpoint holds it
     #: whole and a run that stops early never leaves it out (the Tatoeba top-ups).
     first: bool = False
+
+    def virtual_urls(self) -> list[tuple[str, int]]:
+        """``(url, stride offset)`` per URL index: the URLs at offset 0, or one URL at each ``stride_offsets``."""
+        if not self.stride_offsets:
+            return [(u, 0) for u in self.urls]
+        if len(self.urls) != 1 or self.stride_offsets[0] != 0 or len(set(self.stride_offsets)) != len(
+                self.stride_offsets) or not all(0 <= o < self.stride for o in self.stride_offsets):
+            raise ValueError(f"{self.name}: stride_offsets needs one URL, distinct offsets in [0, stride), 0 first")
+        return [(self.urls[0], o) for o in self.stride_offsets]
 
 
 class PilotConfig(Strict):

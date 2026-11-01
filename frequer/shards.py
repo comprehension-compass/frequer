@@ -241,9 +241,10 @@ def produce_shards(
     variant = f"inventory;stride={limits.stride}" if mode.keep_dir else (
         f"stride={limits.stride}" if limits.stride > 1 else "")
     chash = config_hash(source, hygiene, parts, lang, variant)
-    urls = source.urls[: limits.max_urls] if limits.max_urls else source.urls
+    virtual = source.virtual_urls()
+    urls = virtual[: limits.max_urls] if limits.max_urls else virtual
     cap = limits.max_chars if limits.max_chars is not None else source.max_chars_per_url
-    for url_index, url in enumerate(urls):
+    for url_index, (url, offset) in enumerate(urls):
         if limits.url_indices is not None and url_index not in limits.url_indices:
             continue
         marker = marker_path(work_dir, source.name, url_index)
@@ -254,7 +255,7 @@ def produce_shards(
         cutter = _UrlCutter(lang=lang, source=source, hygiene=hygiene, parts=parts, url_index=url_index,
                             work_dir=work_dir, counts_dir=counts_dir, chash=chash, classify=classify,
                             mode=mode)
-        docs = iter(iter_docs(source, url_index, stream, limits.stride))
+        docs = iter(iter_docs(source, url_index, stream, limits.stride, offset))
         raw_total = 0
         closed_by = "eof"
         while True:
@@ -288,6 +289,6 @@ def produce_shards(
             encoding="utf-8",
         )
         url_stats[f"{source.name}.{url_index:02d}"] = {
-            "url": url, "raw_chars": raw_total, "compressed_bytes_read": raw.pos,
+            "url": url, "stride_offset": offset, "raw_chars": raw_total, "compressed_bytes_read": raw.pos,
             "closed_by": closed_by, "sha256": sha,
         }
