@@ -8,14 +8,26 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from frequer import checks, combos, compare, converge, exclude, filters, perf, propn, report, snapshot
+from frequer import (
+    checks,
+    combos,
+    compare,
+    converge,
+    exclude,
+    filters,
+    junk_report,
+    perf,
+    propn,
+    report,
+    snapshot,
+)
 from frequer.checkpoint import final_record, mix_of
 from frequer.config import REPO_ROOT, Manifest
 from frequer.counting import peak_rss_mb
 from frequer.counts import iter_counts
 from frequer.hygiene import make_classifier
 from frequer.merge import merge_counts
-from frequer.ranking import SCORES, build_rows, rank_rows
+from frequer.ranking import SCORES, build_rows
 from frequer.runtime import Runtime
 
 #: wordfreq's code for each language is the manifest's own code.
@@ -45,23 +57,21 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
     result = merge_counts(counts_dir, manifest.parts, opts.candidates or top_n * CANDIDATE_FACTOR)
     timings["merge"] = time.perf_counter() - t0
 
-    t0 = time.perf_counter()
-    weights = {s.name: s.weight for s in manifest.sources}
-    rows = build_rows(result.merged, weights)
-    ranked = rank_rows(rows, opts.score)
-    timings["rank"] = time.perf_counter() - t0
-
     runtime = Runtime(cfg, lemma_dir=opts.lemma_dir, wheel=opts.wheel, fallback=cfg.fallback)
     for key in ("lemma_sha256", "fallback", "honeyeater_commit"):
         if getattr(runtime.info, key) != result.runtime[key]:
             raise SystemExit(f"the installed runtime's {key} differs from the one the shards were counted with")
 
-    # The reviewed exclusion list, then the proper-noun rule; ranks reported are those before either.
-    flt = filters.apply(manifest, ranked, runtime.root)
+    # Merges, rank, then the exclusion list, the proper-noun rule and the junk rules (frequer/filters.py).
+    t0 = time.perf_counter()
+    weights = {s.name: s.weight for s in manifest.sources}
+    flt = filters.apply(manifest, result.merged, weights, opts.score, runtime.root)
+    rows = build_rows(result.merged, weights)
     ranked, exclusions, dropped, propn_dropped = flt.ranked, flt.exclusions, flt.excluded, flt.propn_dropped
+    timings["rank"] = time.perf_counter() - t0
     propn_head: dict[str, Any] = {"rule": "none"}
     propn_text: list[str] = []
-    if flt.learnable is not None and flt.tally is not None:
+    if cfg.propn_rule == "capitalised_mid_sentence" and flt.learnable is not None and flt.tally is not None:
         propn_head = propn.header_entry(flt.learnable, flt.tally, cfg.propn_capitalised_min, propn_dropped,
                                         flt.names_kept, flt.case_kept, top_n, runtime.root, REPO_ROOT)
         propn_text = propn.render(flt.learnable, flt.tally, cfg.propn_capitalised_min, propn_dropped,
@@ -73,6 +83,8 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
     if excluded is not None:
         head["exclusions"] = excluded
     head["proper_nouns"] = propn_head
+    if flt.flags is not None:
+        head["junk"] = junk_report.header_entry(manifest, flt, top_n, REPO_ROOT)
     citation = runtime.backend.lemma_citation if cfg.readings else None
     entries = snapshot.build_entries(ranked[:top_n], result.merged, manifest, citation)
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -117,6 +129,9 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
     )
     text += "\n".join(exclude.render(exclusions, dropped, top_n))
     text += "\n" + "\n".join(propn_text)
+    if flt.flags is not None:
+        text += "\n" + "\n".join(junk_report.render(manifest, flt, top_n))
+        junk_report.write_flags(out_dir / f"{cfg.code}.flags.tsv", flt)
     names = [p.name for _s, p in iter_counts(counts_dir)]
     state = final_record(out_dir, ranked, result.merged.tokens,
                          mix=mix_of(manifest, counts_dir.parent / "work", names))

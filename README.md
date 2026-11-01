@@ -303,6 +303,26 @@ de and ja use `none`: German capitalises every noun and Japanese has no case. Th
 records both files' sha256 and what the rule dropped and kept, and `report.md` lists them. The exclusion list
 is applied first; reported ranks are the ones before either filter.
 
+### Junk-filter heuristics
+
+`frequer/junk.py` (per language, `language.junk`; every rule off by default). It works from the existing
+counts, so a change never needs a recount. Rules (each writes a flag with its evidence):
+* `diversity`: the lemma reaches under 0.6 of the documents its frequency would reach at random;
+* `citation`: its spelling is (almost) never written as a word under any lemma;
+* `foreign`: wordfreq English well above the language's own;
+* `shape`: hyphen, digit, whole-word doubling, a cut-off ending, a length extreme;
+* `propn_band`: proper nouns by running-text capitalisation, >= 90 % dropped and <= 20 % kept, the middle
+  band flagged.
+
+`accent_ratio` merges an unaccented spelling's counts into the lemma owning its accented spelling, when that
+is at least that many times as frequent and owned by exactly one lemma (ñ is a letter, not an accent).
+Routing: 2+ flags are dropped. A single flag, or any flag in the proper-noun middle band, within `review_top`
+goes to review, and the decision is committed in `corpora/review/<code>.tsv` (`keep`, `drop`,
+`merge:<lemma>`; a `keep` also vetoes an accent merge). The build applies the decisions, writes
+`<lang>.flags.tsv`, and reports per-rule hits, their overlap, the merges, a sample of the 2-flag drops and
+what is still pending. Merges, the exclusion list, the proper-noun rule and these rules all run in
+`frequer/filters.py`, so the convergence checkpoints judge the same list.
+
 ### The review report
 
 `report.md` per build:
