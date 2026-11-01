@@ -114,7 +114,7 @@ def main(argv: list[str] | None = None) -> None:
         state = run_checkpoints(manifest, dirs.counts, args.out_dir or Path("out") / args.lang,
                                 lemma_dir=args.lemma_dir, wheel=args.wheel, write_snapshot=not args.no_snapshot)
         print(json.dumps({"decision": state["decision"], "stopped_at": state.get("stopped_at"),
-                          "checkpoints": [c["tokens"] for c in state["checkpoints"]]}))
+                          "checkpoints": len(state["checkpoints"])}))
     elif args.cmd == "build":
         dirs = RunDirs(args.data_dir / args.lang)
         out = args.out_dir or Path("out") / args.lang

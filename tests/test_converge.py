@@ -1,55 +1,52 @@
-"""The convergence checkpoints' pure core: band comparison, schedule, stopping rule."""
+"""The convergence checkpoints' pure core: band comparison, split halves, mix, stopping rule."""
 
 from __future__ import annotations
 
 import json
 from pathlib import Path
+from typing import Any
 
 from frequer.checkpoint import mix_of
 from frequer.config import load_manifest
-from frequer.converge import Ranked, compare, due, meets, should_stop
+from frequer.converge import Ranked, compare, disagreement, due, run_length, split_halves
 
 
-def ranked(lemmas: list[str], tokens: int = 1) -> Ranked:
+def ranked(lemmas: list[str]) -> Ranked:
     n = len(lemmas)
-    return Ranked(tokens, (), tuple(lemmas), tuple(range(n, 0, -1)), tuple(float(x) for x in range(n, 0, -1)))
+    return Ranked(1, (), tuple(lemmas), tuple(range(n, 0, -1)), tuple(float(x) for x in range(n, 0, -1)))
 
 
-def test_compare_overlap_rank_stability_and_tail() -> None:
-    prev = ranked(["a", "b", "c", "d"])
-    cur = ranked(["b", "a", "c", "e"])
-    band = compare(prev, cur, bands=(2, 4))["bands"]
-    assert band["2"]["overlap"] == 1.0
-    assert band["2"]["spearman"] == -1.0  # a and b swapped
-    assert band["4"]["overlap"] == 0.75  # d left the top 4
-    assert band["4"]["median_shift"] == 1  # shifts 1, 1, 0
-    assert band["4"]["freq_at_n"] == 1 and band["4"]["complete"]
+def test_change_and_rank_shift_against_the_previous_checkpoint() -> None:
+    c = compare(ranked(["a", "b", "c", "d"]), ranked(["b", "a", "c", "e"]), bands=(2, 4))
+    assert c["2"]["change"] == 0.0
+    assert c["4"]["change"] == 0.25  # e is new to the top 4
+    assert c["4"]["median_shift"] == 1  # shifts 1, 1, 0
+    assert disagreement(["a"], ["a"], 2) is None  # a band wider than the list is undecided
 
 
-def test_band_wider_than_the_list_is_incomplete_and_never_passes() -> None:
-    c = compare(ranked(["a"]), ranked(["a"]), bands=(20_000, 50_000))
-    assert not c["bands"]["50000"]["complete"]
-    assert not meets(c)
+def test_split_halves_deal_alternately_within_each_source_and_drop_an_odd_newest() -> None:
+    names = ["w.00.0", "t.00.0", "w.01.0", "w.02.0", "w.03.0", "w.04.0", "t.00.1"]
+    a, b = split_halves(names)
+    assert a == ["w.00.0", "w.02.0", "t.00.0"]
+    assert b == ["w.01.0", "w.03.0", "t.00.1"]  # w.04.0, the newest of an odd five, is left out
 
 
-def test_stopping_rule_needs_two_consecutive_passes() -> None:
-    def comparison(o20: float, o50: float) -> dict[str, object]:
-        return {"bands": {"20000": {"overlap": o20, "complete": True},
-                          "50000": {"overlap": o50, "complete": True}}}
+def test_stop_needs_three_consecutive_full_mix_passes() -> None:
+    def row(mix: str, s20: float | None, s50: float | None) -> dict[str, Any]:
+        return {"mix": mix, "bands": {"20000": {"split_half": s20}, "50000": {"split_half": s50}}}
 
-    good, weak = comparison(0.985, 0.96), comparison(0.985, 0.94)
-    assert not should_stop([good])
-    assert not should_stop([good, weak])
-    assert not should_stop([good, weak, good])
-    assert should_stop([weak, good, good])
+    good, weak = row("full", 0.04, 0.09), row("full", 0.04, 0.11)
+    assert run_length([good, good]) == 2
+    assert run_length([good, good, good]) == 3
+    assert run_length([good, good, weak]) == 0
+    assert run_length([row("web only", 0.01, 0.01), good, good]) == 2
+    assert run_length([good, row("full", 0.04, None)]) == 0  # fewer than 50k lemmas per half
 
 
-def test_due_takes_the_shortest_prefix_reaching_each_target() -> None:
-    shards = [("s1", 6_000_000, 1.0), ("s2", 6_000_000, 2.0), ("s3", 30_000_000, 3.0)]
-    got = due(shards, done=set())
-    # 12M reaches 10M; 42M reaches 25M (not 50M).
-    assert got == [(10_000_000, ["s1", "s2"]), (25_000_000, ["s1", "s2", "s3"])]
-    assert due(shards, done={10_000_000}) == [(25_000_000, ["s1", "s2", "s3"])]
+def test_due_takes_a_checkpoint_after_every_shard() -> None:
+    shards = [("s1", 6, 1.0), ("s2", 6, 2.0), ("s3", 30, 3.0)]
+    assert due(shards, done=set()) == [(6, ["s1"]), (12, ["s1", "s2"]), (42, ["s1", "s2", "s3"])]
+    assert due(shards, done={6, 12}) == [(42, ["s1", "s2", "s3"])]
 
 
 def test_mix_needs_every_first_source_whole_and_every_other_source(tmp_path: Path) -> None:

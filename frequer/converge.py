@@ -1,27 +1,27 @@
-"""Convergence checkpoints and the stopping rule (developer direction, 2026-11-01).
+"""Convergence checkpoints and the stopping rule (developer spec, 2026-11-01).
 
-A list that is good enough for pre-generation does not need the whole corpus
-manifest: counting can stop once more text no longer moves the list. So, at
-cumulative token counts of 10M, 25M, 50M, 100M and every 50M after, the shards
-counted so far (in the order they finished) are merged into a **checkpoint**,
-and each checkpoint is compared with the one before it, per band N in
-5k / 10k / 20k / 50k:
+A list good enough for pre-generation does not need the whole corpus manifest:
+counting stops once the list is stable. After **every counted shard** the shards
+counted so far (in the order they finished) are merged into a checkpoint, which
+gets one row in ``convergence.md`` / ``convergence.json``: total tokens, tokens
+per source, the source mix, and per band N in 5k / 10k / 20k / 50k:
 
-- ``overlap``: the share of the previous top N still in the top N;
-- ``spearman`` and ``median_shift``: rank stability of the lemmas in both top-N
-  lists (Spearman on their ranks; median absolute rank shift);
-- ``freq_at_n`` / ``dp_at_n``: the raw frequency and the dispersion-adjusted
-  score (``f x (1 - DP_norm)``) of the lemma at rank N.
+- ``change``: the share of the top N that was not in the previous checkpoint's top N;
+- ``median_shift``: median absolute rank shift of the lemmas in both top-N lists;
+- ``freq_at_n``: the raw frequency of the lemma at rank N;
+- ``split_half``: 1 - overlap of the top N ranked from half A against half B, the
+  shards split alternately into A and B within each source (both halves have the
+  same source mix; a source with an odd count leaves its newest shard out).
 
-**Stopping rule:** stop once two consecutive comparisons both give top-20k
-overlap >= 98 % and top-50k overlap >= 95 % (or when the manifest runs out),
-then build the final snapshot from what was counted.
+**Stopping rule:** stop when three consecutive full-mix checkpoints give split-half
+disagreement <= 5 % at top 20k and <= 10 % at top 50k, then build the final
+snapshot from everything counted. Two independent halves differ about twice as
+much as either differs from the converged list, so split-half disagreement
+estimates (twice) the change the rest of the corpus would still make; the
+**calibration** table (each checkpoint against the final list) checks that.
 
-A checkpoint's ranking (top ``KEEP`` lemmas) is kept under
-``<out>/checkpoints/<tokens>.json.gz`` so later comparisons need no re-merge;
-``<out>/convergence.json`` holds every comparison and the decision, and the
-latest checkpoint snapshot (the loader's format) is
-``<out>/checkpoint-<tokens>/<lang>.json``; older checkpoint snapshots are removed.
+Each checkpoint's ranking (top ``KEEP``) is kept in ``checkpoints/<tokens>.json.gz``;
+the latest checkpoint snapshot (the loader's format) is ``checkpoint-<tokens>/<lang>.json``.
 """
 
 from __future__ import annotations
@@ -30,7 +30,7 @@ import gzip
 import json
 import shutil
 import statistics
-from collections.abc import Iterator, Sequence
+from collections.abc import Sequence
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
@@ -40,26 +40,16 @@ from frequer.counts import iter_counts, read_shard
 BANDS = (5_000, 10_000, 20_000, 50_000)
 #: Lemmas kept per checkpoint ranking (the widest band).
 KEEP = max(BANDS)
-FIRST = (10_000_000, 25_000_000, 50_000_000, 100_000_000)
-STEP = 50_000_000
-#: Stop when this many consecutive comparisons all meet every threshold.
-STOP_RUN = 2
-STOP_OVERLAP = {20_000: 0.98, 50_000: 0.95}
+#: Split-half disagreement ceilings for a passing checkpoint.
+STOP_SPLIT = {20_000: 0.05, 50_000: 0.10}
+#: Consecutive passing full-mix checkpoints that stop the run.
+STOP_RUN = 3
 LEDGER = "ledger.json"
-
-
-def schedule() -> Iterator[int]:
-    """Checkpoint targets in tokens: 10M, 25M, 50M, 100M, 150M, 200M, ..."""
-    yield from FIRST
-    t = FIRST[-1]
-    while True:
-        t += STEP
-        yield t
 
 
 @dataclass(frozen=True)
 class Ranked:
-    """One checkpoint's ranking: lemma, raw frequency, dispersion-adjusted score."""
+    """One ranking's head: lemma, raw frequency, dispersion-adjusted score."""
 
     tokens: int
     shards: tuple[str, ...]
@@ -68,70 +58,68 @@ class Ranked:
     dp: tuple[float, ...]
 
 
-def spearman(xs: Sequence[float], ys: Sequence[float]) -> float | None:
-    """Spearman's rho of two equal-length sequences of distinct ranks."""
-    n = len(xs)
-    if n < 2:
+def disagreement(a: Sequence[str], b: Sequence[str], n: int) -> float | None:
+    """Share of ``b``'s top ``n`` not in ``a``'s top ``n`` (None when either is shorter than ``n``)."""
+    if len(a) < n or len(b) < n:
         return None
-
-    def ranks(v: Sequence[float]) -> list[int]:
-        order = sorted(range(n), key=lambda i: v[i])
-        out = [0] * n
-        for r, i in enumerate(order):
-            out[i] = r
-        return out
-
-    rx, ry = ranks(xs), ranks(ys)
-    d2 = sum((a - b) ** 2 for a, b in zip(rx, ry, strict=True))
-    return 1.0 - 6.0 * d2 / (n * (n * n - 1))
+    top = set(a[:n])
+    return sum(1 for x in b[:n] if x not in top) / n
 
 
 def compare(prev: Ranked, cur: Ranked, bands: Sequence[int] = BANDS) -> dict[str, Any]:
-    """The band metrics of ``cur`` against ``prev`` (module docstring)."""
-    out: dict[str, Any] = {"tokens": cur.tokens, "previous_tokens": prev.tokens, "bands": {}}
+    """``cur`` against the previous checkpoint, per band."""
+    out: dict[str, Any] = {}
     for n in bands:
         a = {lemma: i for i, lemma in enumerate(prev.lemmas[:n])}
-        b = {lemma: i for i, lemma in enumerate(cur.lemmas[:n])}
-        common = [lemma for lemma in a if lemma in b]
-        size = min(n, len(prev.lemmas))
-        band: dict[str, Any] = {
-            "overlap": len(common) / size if size else None,
-            "spearman": spearman([a[x] for x in common], [b[x] for x in common]),
-            "median_shift": statistics.median(abs(a[x] - b[x]) for x in common) if common else None,
-            "freq_at_n": cur.freq[n - 1] if len(cur.freq) >= n else None,
-            "dp_at_n": round(cur.dp[n - 1], 2) if len(cur.dp) >= n else None,
-            "complete": len(prev.lemmas) >= n and len(cur.lemmas) >= n,
+        shifts = [abs(a[x] - i) for i, x in enumerate(cur.lemmas[:n]) if x in a]
+        out[str(n)] = {
+            "change": disagreement(prev.lemmas, cur.lemmas, n),
+            "median_shift": statistics.median(shifts) if shifts else None,
         }
-        out["bands"][str(n)] = band
     return out
 
 
-def meets(comparison: dict[str, Any]) -> bool:
-    """True when one comparison passes every stopping threshold."""
-    for n, floor in STOP_OVERLAP.items():
-        band = comparison["bands"].get(str(n))
-        if band is None or not band["complete"] or band["overlap"] is None or band["overlap"] < floor:
+def split_halves(names: Sequence[str]) -> tuple[list[str], list[str]]:
+    """Shards (in finishing order) dealt alternately into halves A and B within each source;
+    a source with an odd count leaves its newest shard out."""
+    by_source: dict[str, list[str]] = {}
+    for name in names:
+        by_source.setdefault(name.split(".", 1)[0], []).append(name)
+    a: list[str] = []
+    b: list[str] = []
+    for shards in by_source.values():
+        even = shards[: len(shards) - len(shards) % 2]
+        a += even[0::2]
+        b += even[1::2]
+    return a, b
+
+
+def passes(row: dict[str, Any]) -> bool:
+    """One checkpoint passes: full mix and split-half disagreement under every ceiling."""
+    if row.get("mix") != "full":
+        return False
+    for n, ceiling in STOP_SPLIT.items():
+        value = row["bands"].get(str(n), {}).get("split_half")
+        if value is None or value > ceiling:
             return False
     return True
 
 
-def should_stop(comparisons: Sequence[dict[str, Any]]) -> bool:
-    """The stopping rule: the last ``STOP_RUN`` comparisons all pass."""
-    return len(comparisons) >= STOP_RUN and all(meets(c) for c in comparisons[-STOP_RUN:])
+def run_length(rows: Sequence[dict[str, Any]]) -> int:
+    """Consecutive passing checkpoints at the end of ``rows``."""
+    k = 0
+    for row in reversed(rows):
+        if not passes(row):
+            break
+        k += 1
+    return k
 
 
-# -- the checkpoint runner -------------------------------------------------
-
-
-def _shard_tokens(path: Path) -> int:
-    return int(read_shard(path)["tokens"])
+# -- bookkeeping -------------------------------------------------------------
 
 
 def finished_shards(counts_dir: Path, ledger_path: Path) -> list[tuple[str, int, float]]:
-    """``(name, tokens, mtime)`` of every counted shard, in the order they finished.
-
-    Token totals are cached in the ledger, so a shard file is read once.
-    """
+    """``(name, tokens, mtime)`` of every counted shard, in the order they finished (tokens cached)."""
     ledger: dict[str, list[float]] = {}
     if ledger_path.exists():
         ledger = json.loads(ledger_path.read_text(encoding="utf-8"))
@@ -141,7 +129,7 @@ def finished_shards(counts_dir: Path, ledger_path: Path) -> list[tuple[str, int,
         mtime = path.stat().st_mtime
         cached = ledger.get(path.name)
         if cached is None or cached[1] != mtime:
-            cached = [float(_shard_tokens(path)), mtime]
+            cached = [float(read_shard(path)["tokens"]), mtime]
             ledger[path.name] = cached
             changed = True
         out.append((path.name, int(cached[0]), mtime))
@@ -153,19 +141,15 @@ def finished_shards(counts_dir: Path, ledger_path: Path) -> list[tuple[str, int,
 
 
 def due(shards: Sequence[tuple[str, int, float]], done: set[int]) -> list[tuple[int, list[str]]]:
-    """Checkpoints not yet taken: ``(target, shard names)``, the shortest prefix reaching each target."""
+    """Checkpoints not yet taken, one after every finished shard: ``(cumulative tokens, shard names)``."""
     out: list[tuple[int, list[str]]] = []
     cum = 0
     names: list[str] = []
-    targets = schedule()
-    target = next(targets)
     for name, tokens, _mtime in shards:
         cum += tokens
         names.append(name)
-        while cum >= target:
-            if target not in done:
-                out.append((target, list(names)))
-            target = next(targets)
+        if cum not in done:
+            out.append((cum, list(names)))
     return out
 
 
@@ -183,38 +167,60 @@ def load_ranked(path: Path) -> Ranked:
     return Ranked(b["tokens"], tuple(b["shards"]), tuple(b["lemmas"]), tuple(b["freq"]), tuple(b["dp"]))
 
 
+def _pct(x: Any) -> str:
+    return "-" if x is None else f"{x:.1%}"
+
+
+def _num(x: Any) -> str:
+    return "-" if x is None else f"{x:,.0f}"
+
+
 def render_table(state: dict[str, Any]) -> list[str]:
-    """The convergence section of the build report."""
+    """The convergence section: one row per checkpoint, then the calibration table if built."""
     out = ["## Convergence", "",
-           "Each checkpoint merges the shards counted so far (in the order they finished) and is compared "
-           "with the previous one. Overlap: share of the previous top N still in the top N; Spearman and "
-           "median |rank shift| over the lemmas in both; f@N and dp@N: raw frequency and dispersion-adjusted "
-           "score (`f x (1 - DP_norm)`) of the lemma at rank N. Stopping rule: two consecutive checkpoints with "
-           f"top-20k overlap >= {STOP_OVERLAP[20_000]:.0%} and top-50k overlap >= {STOP_OVERLAP[50_000]:.0%}, judged "
-           "only on full-mix checkpoints (every `first` source whole, every other source present) compared with "
-           "the previous full-mix one; `web only` rows lack the Tatoeba top-up.", ""]
-    cols = ["tokens", "mix", "per source"]
+           "One row per counted shard: the shards counted so far, in the order they finished. Per band N: "
+           "**chg** = share of the top N not in the previous checkpoint's top N; **shift** = median |rank shift| "
+           "of the lemmas in both; **f@N** = raw frequency at rank N; **split** = split-half disagreement "
+           "(1 - overlap of the top N ranked from half A against half B, shards dealt alternately within each "
+           "source; a source with an odd count leaves its newest shard out). Stopping rule: "
+           f"{STOP_RUN} consecutive full-mix checkpoints with split <= {STOP_SPLIT[20_000]:.0%} at 20k and "
+           f"<= {STOP_SPLIT[50_000]:.0%} at 50k.", ""]
+    cols = ["tokens", "per source", "mix"]
     for n in BANDS:
         k = f"{n // 1000}k"
-        cols += [f"{k} overlap", f"{k} rho", f"{k} med shift", f"f@{k}", f"dp@{k}"]
+        cols += [f"{k} chg", f"{k} shift", f"f@{k}", f"{k} split"]
+    cols.append("stop")
     out += ["| " + " | ".join(cols) + " |", "|" + " --- |" * len(cols)]
-
-    def num(x: Any, fmt: str) -> str:
-        return "-" if x is None else format(x, fmt)
-
-    for ck in state["checkpoints"]:
-        mix = ck.get("mix", "-") + ("" if ck.get("judged") or ck["target"] == "final" or not ck.get("comparison")
-                                    else " (not judged)")
-        row = [f"{ck['tokens']:,}", mix, ", ".join(f"{k} {v:,}" for k, v in ck.get("sources", {}).items())]
-        cmp_ = ck.get("comparison")
+    for row in state["checkpoints"]:
+        cells = [f"{row['tokens']:,}", ", ".join(f"{k} {v:,}" for k, v in row["sources"].items()), row["mix"]]
         for n in BANDS:
-            band = (cmp_ or {}).get("bands", {}).get(str(n), {})
-            row += [num(band.get("overlap"), ".1%"), num(band.get("spearman"), ".3f"),
-                    num(band.get("median_shift"), ",.0f"),
-                    num(ck["freq_at"].get(str(n)), ","), num(ck["dp_at"].get(str(n)), ",.1f")]
-        out.append("| " + " | ".join(row) + " |")
+            band = row["bands"].get(str(n), {})
+            cells += [_pct(band.get("change")), _num(band.get("median_shift")),
+                      _num(band.get("freq_at_n")), _pct(band.get("split_half"))]
+        cells.append(f"{row['passes']}/{STOP_RUN}")
+        out.append("| " + " | ".join(cells) + " |")
+    final = state.get("final")
     out += ["", f"Decision: **{state.get('decision', 'continue')}**"
-            + (f" at {state['stopped_at']:,} tokens." if state.get("stopped_at") else "."), ""]
+            + (f" at {state['stopped_at']:,} tokens." if state.get("stopped_at") else ".")]
+    if final:
+        out += [f"Final list: {final['tokens']:,} tokens ({final['mix']}).", "",
+                "### Calibration", "",
+                "Each checkpoint's full-data top N against the final list's top N (**vs final**: share of the "
+                "final top N not in the checkpoint's), next to its split-half disagreement. If split-half "
+                "estimates the remaining change, split ~ 2 x vs final.", ""]
+        cols = ["tokens"]
+        for n in BANDS:
+            k = f"{n // 1000}k"
+            cols += [f"{k} split", f"{k} vs final", f"{k} ratio"]
+        out += ["| " + " | ".join(cols) + " |", "|" + " --- |" * len(cols)]
+        for row in state["checkpoints"]:
+            cells = [f"{row['tokens']:,}"]
+            for n in BANDS:
+                band = row["bands"].get(str(n), {})
+                split, vs = band.get("split_half"), band.get("vs_final")
+                cells += [_pct(split), _pct(vs), "-" if not split or not vs else f"{split / vs:.2f}"]
+            out.append("| " + " | ".join(cells) + " |")
+    out.append("")
     return out
 
 

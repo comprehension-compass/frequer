@@ -101,9 +101,8 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
         live_label=f"the live snapshot (`reference/lemmas/{cfg.code}.json`)",
     )
     names = [p.name for _s, p in iter_counts(counts_dir)]
-    state = final_record(out_dir, ranked, result.merged.tokens, names,
-                         mix=mix_of(manifest, counts_dir.parent / "work", names),
-                         sources={name: t.tokens for name, t in result.sources.items()})
+    state = final_record(out_dir, ranked, result.merged.tokens,
+                         mix=mix_of(manifest, counts_dir.parent / "work", names))
     if state is not None:
         text += "\n" + "\n".join(converge.render_table(state)) + "\n"
     report.write(out_dir / "report.md", text)
