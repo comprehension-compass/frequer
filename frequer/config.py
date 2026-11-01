@@ -40,10 +40,15 @@ class Hygiene(Strict):
 class JunkConfig(Strict):
     """The junk-filter heuristics (``frequer/junk.py``); a rule runs only when listed in ``rules``."""
 
-    rules: list[Literal["diversity", "citation", "foreign", "shape", "propn_band"]] = Field(default_factory=list)
+    rules: list[Literal["diversity", "citation", "foreign", "shape", "propn_band", "propn_usage"]] = Field(
+        default_factory=list)
     #: Merge an unaccented spelling into the lemma owning its accented spelling when that is this many
     #: times as frequent (None: no accent merges; languages without accents leave it off).
     accent_ratio: float | None = None
+    #: The plain spellings an accented one is written as, one letter map per way of writing it (German: drop the
+    #: umlaut, ``ü`` -> ``u``; or transliterate, ``ü`` -> ``ue``, ``ß`` -> ``ss``). Empty: strip every diacritic
+    #: except the tilde of ñ (Spanish).
+    fold_maps: list[dict[str, str]] = Field(default_factory=list)
     #: Flag a lemma in fewer than this share of the documents its frequency would reach at random.
     diversity_max_clumping: float = 0.6
     diversity_min_freq: int = 20
@@ -62,6 +67,12 @@ class JunkConfig(Strict):
     short_zipf_min: float = 3.5
     propn_drop: float = 0.9
     propn_keep: float = 0.2
+    #: ``propn_usage`` (a language whose nouns are all capitalised, so case says nothing): names rarely take an
+    #: indefinite or negative article or an attributive adjective. Every PROPN-majority lemma is flagged for
+    #: review with the share of its occurrences right after one of ``propn_usage_determiners`` or an
+    #: ADJ-majority word (from the co-occurrence bigrams); under ``propn_usage_name_max`` reads as a name.
+    propn_usage_determiners: list[str] = Field(default_factory=list)
+    propn_usage_name_max: float = 0.03
     #: Single-flag lemmas within this many kept ranks go to review.
     review_top: int = 20_000
     #: Within ``review_top``, send 2+-flag lemmas to review too instead of dropping them: the citation and shape

@@ -23,11 +23,18 @@ recount. Each rule writes a flag with its evidence:
                dropped (acts alone). At most ``propn_keep``: kept, no flag. Between the two, or with no case
                evidence (an all-capitals acronym): flagged.
 
+``propn_usage`` Proper nouns where case is no evidence (German capitalises every noun): every PROPN-majority
+               lemma is flagged, with the share of its occurrences right after an indefinite or negative article
+               or an attributive adjective (names rarely take one: *ein Haus*, *das neue Haus*, but *Berlin*).
+               Like ``propn_band`` it sends the lemma to review whatever its other flags, never drops it alone.
+
 ``accent`` (``accent_ratio``) merges rather than flags. An unaccented spelling whose accented spelling is at least
 ``accent_ratio`` times as frequent moves its counts into the lemma that owns the accented spelling: the
 accented lemma itself (*sabiduria* -> *sabiduría*), or the lemma of the accented form (*recibio* -> *recibir*).
 It applies only when exactly one lemma owns the accented spellings, and never to a lemma the review file
-marks ``keep`` (two real words: *secretaria* / *secretaría*). ñ is a letter, not an accent.
+marks ``keep`` (two real words: *secretaria* / *secretaría*). ñ is a letter, not an accent. ``fold_maps``
+replaces the diacritic strip with explicit letter maps (German: *fur* and *fuer* -> *für*; ß stays a letter
+except in the ``ss`` transliteration).
 
 **Routing.** A lemma with 2+ flags is dropped (or, with ``review_multi_flag``, reviewed within ``review_top``). One with exactly 1 flag goes to review if it ranks within
 ``review_top``, and so does any lemma in the proper-noun middle band whatever its other flags. English
@@ -54,7 +61,8 @@ from frequer.config import MANIFEST_DIR, JunkConfig
 from frequer.counts import LemmaStats, Merged
 from frequer.snapshot import unit_kind
 
-RULES = ("diversity", "citation", "foreign", "shape", "propn_band")
+RULES = ("diversity", "citation", "foreign", "shape", "propn_band", "propn_usage")
+PROPN_REVIEW = ("propn_band", "propn_usage")
 VOWELS = set("aeiouáéíóúüàèìòùâêîôûäëïöy")
 
 
@@ -119,26 +127,44 @@ class Merge:
     evidence: str
 
 
-def accent_merges(lemmas: Mapping[str, LemmaStats], ratio: float) -> list[Merge]:
+def folds(maps: Sequence[Mapping[str, str]]) -> list[Callable[[str], str]]:
+    """The plain spellings of a word: ``strip_accents``, or one function per letter map (``fold_maps``)."""
+    if not maps:
+        return [strip_accents]
+    def translator(table: dict[int, str]) -> Callable[[str], str]:
+        return lambda text: text.translate(table)
+
+    return [translator(str.maketrans(dict(m))) for m in maps]
+
+
+def accent_merges(lemmas: Mapping[str, LemmaStats], ratio: float,
+                  fold_maps: Sequence[Mapping[str, str]] = ()) -> list[Merge]:
     """Unaccented lemmas whose accented spelling is >= ``ratio`` times as frequent, owned by exactly one lemma."""
+    fns = folds(fold_maps)
+
+    def accented(text: str) -> bool:
+        return any(fn(text) != text for fn in fns)
+
     owners: dict[str, Counter[str]] = defaultdict(Counter)  # accented spelling (lower) -> lemma -> count
     for lemma, st in lemmas.items():
         if is_unit(lemma):
             continue
         b = base_of(lemma)
-        if strip_accents(b) != b:
+        if accented(b):
             owners[b.lower()][lemma] += st.freq
         for form, n in st.forms.items():
             f = form.lower()
-            if strip_accents(f) != f:
+            if accented(f):
                 owners[f][lemma] += n
-    by_plain: dict[str, list[str]] = defaultdict(list)
+    by_plain: dict[str, set[str]] = defaultdict(set)
     for spelling in owners:
-        by_plain[strip_accents(spelling)].append(spelling)
+        for fn in fns:
+            if fn(spelling) != spelling:
+                by_plain[fn(spelling)].add(spelling)
     out: list[Merge] = []
     for lemma, st in lemmas.items():
         b = base_of(lemma)
-        if is_unit(lemma) or strip_accents(b) != b or b.lower() not in by_plain:
+        if is_unit(lemma) or accented(b) or b.lower() not in by_plain:
             continue
         targets: Counter[str] = Counter()
         for spelling in by_plain[b.lower()]:
@@ -233,6 +259,7 @@ def compute_flags(
     candidates: Sequence[Candidate], cfg: JunkConfig, *, total_docs: int,
     zipf: Callable[[str, str], float] | None, lang: str, kept: frozenset[str],
     propn_share: Callable[[Candidate], tuple[float | None, bool]] | None,
+    propn_usage: Callable[[Candidate], float | None] | None = None,
 ) -> Flags:
     """Every enabled rule over ``candidates`` (in rank order)."""
     out = Flags()
@@ -274,6 +301,14 @@ def compute_flags(
             why = shape_evidence(b, cfg, own)
             if why:
                 out.add(c.lemma, "shape", why)
+        if "propn_usage" in on and propn_usage is not None and c.pos == "PROPN":
+            usage = propn_usage(c)
+            if usage is None:
+                out.add(c.lemma, "propn_usage", "proper noun; no article or adjective evidence")
+            else:
+                reads = "name-like" if usage < cfg.propn_usage_name_max else "common-noun-like"
+                out.add(c.lemma, "propn_usage", f"proper noun; {usage:.1%} of occurrences after an indefinite "
+                                                f"article or an adjective ({reads})")
         if "propn_band" in on and propn_share is not None and c.pos == "PROPN":
             share, learnable = propn_share(c)
             if learnable:
@@ -322,7 +357,7 @@ def route(ranked: Sequence[str], flags: Flags, review: Review | None, review_top
             action = "pending-names"  # a place name: decided by the learnable-names list, kept until then
         elif decision == "keep" or (lemma in targets and decision != "drop"):
             action = "review-keep"
-        elif any(rule == "propn_band" for rule, _e in fl) or len(fl) == 1 or (review_multi_flag and fl):
+        elif any(rule in PROPN_REVIEW for rule, _e in fl) or len(fl) == 1 or (review_multi_flag and fl):
             action = "pending" if kept < review_top else ("keep" if len(fl) == 1 else "drop")
         elif len(fl) >= 2:
             action = "drop"

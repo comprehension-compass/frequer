@@ -13,7 +13,7 @@ from collections.abc import Mapping
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from frequer import compare, exclude, junk, propn, snapshot
+from frequer import compare, exclude, junk, propn, propn_usage, snapshot
 from frequer.config import Manifest
 from frequer.counts import Merged
 from frequer.ranking import Row, build_rows, rank_rows
@@ -45,7 +45,7 @@ class Filtered:
 
 
 def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], score: str = "frequency",
-          root: Path | None = None) -> Filtered:
+          root: Path | None = None, cooc: Path | None = None) -> Filtered:
     """Merge, rank and filter ``merged`` (merges change ``merged`` in place, so the snapshot reflects them)."""
     cfg = manifest.language
     jc = cfg.junk
@@ -59,7 +59,7 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
     if jc.accent_ratio:
         taken = {m.source for m in merges}
         vetoed = {k for k, (d, _r) in out.review.decisions.items() if d == "keep"} if out.review else set()
-        merges += [m for m in junk.accent_merges(merged.lemmas, jc.accent_ratio)
+        merges += [m for m in junk.accent_merges(merged.lemmas, jc.accent_ratio, jc.fold_maps)
                    if m.source not in taken and m.source not in vetoed]
     out.merges = junk.apply_merges(merged, merges)
 
@@ -90,10 +90,19 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
 
         candidates = [junk.Candidate(r.lemma, r.stats.freq, snapshot.majority(r.stats.pos, "X"), r.stats.forms,
                                      r.stats.df) for r in ranked]
+        usage_of: dict[str, float] | None = None
+        if "propn_usage" in jc.rules and cooc is not None and cooc.exists():
+            usage_of = propn_usage.load(cooc, jc.propn_usage_determiners,
+                                        {junk.base_of(c.lemma).lower() for c in candidates if c.pos == "PROPN"})
+
+        def usage(c: junk.Candidate) -> float | None:
+            assert usage_of is not None
+            return usage_of.get(junk.base_of(c.lemma).lower())
+
         out.flags = junk.compute_flags(
             candidates, jc, total_docs=merged.docs, zipf=compare.zipf_lookup(), lang=cfg.code,
             kept=out.exclusions.kept if out.exclusions else frozenset(),
-            propn_share=share if needs_case else None)
+            propn_share=share if needs_case else None, propn_usage=usage if usage_of is not None else None)
         out.routed = junk.route([r.lemma for r in ranked], out.flags, out.review, jc.review_top, jc.review_multi_flag)
         keep = {r.lemma for r in out.routed if r.action in ("keep", "review-keep", "pending", "pending-names")}
         ranked = [r for r in ranked if r.lemma in keep]

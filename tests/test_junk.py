@@ -29,3 +29,17 @@ def test_routing_by_flag_count() -> None:
     flags = junk.compute_flags(cands, cfg, total_docs=1000, zipf=None, lang="es", kept=frozenset(), propn_share=None)
     routed = {r.lemma: r.action for r in junk.route([c.lemma for c in cands], flags, None, 10)}
     assert routed == {"casa": "keep", "jugabl": "drop", "wi-fi": "pending", "cantar": "keep"}
+
+
+def test_umlaut_fold_merges_both_plain_spellings_into_the_umlaut_lemma() -> None:
+    from frequer.counts import LemmaStats
+    from frequer.junk import accent_merges
+
+    lemmas = {"für": LemmaStats(freq=1000, forms=Counter({"für": 1000})),
+              "fur": LemmaStats(freq=20, forms=Counter({"fur": 20})),
+              "fuer": LemmaStats(freq=10, forms=Counter({"fuer": 10})),
+              "schon": LemmaStats(freq=900, forms=Counter({"schon": 900})),
+              "schön": LemmaStats(freq=1000, forms=Counter({"schön": 1000}))}
+    maps = [{"ä": "a", "ö": "o", "ü": "u"}, {"ä": "ae", "ö": "oe", "ü": "ue", "ß": "ss"}]
+    got = {(m.source, m.target) for m in accent_merges(lemmas, 5, maps)}
+    assert got == {("fur", "für"), ("fuer", "für")}  # schon/schön: two words, not 5x apart

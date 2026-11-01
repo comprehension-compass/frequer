@@ -65,7 +65,8 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
     # Merges, rank, then the exclusion list, the proper-noun rule and the junk rules (frequer/filters.py).
     t0 = time.perf_counter()
     weights = {s.name: s.weight for s in manifest.sources}
-    flt = filters.apply(manifest, result.merged, weights, opts.score, runtime.root)
+    flt = filters.apply(manifest, result.merged, weights, opts.score, runtime.root,
+                        cooc=counts_dir.parent / combos.MERGED)
     rows = build_rows(result.merged, weights)
     ranked, exclusions, dropped, propn_dropped = flt.ranked, flt.exclusions, flt.excluded, flt.propn_dropped
     timings["rank"] = time.perf_counter() - t0
