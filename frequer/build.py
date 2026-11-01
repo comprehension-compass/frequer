@@ -8,7 +8,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from frequer import checks, combos, compare, converge, exclude, perf, report, snapshot
+from frequer import checks, combos, compare, converge, exclude, perf, propn, report, snapshot
 from frequer.checkpoint import final_record, mix_of
 from frequer.config import REPO_ROOT, Manifest
 from frequer.counting import peak_rss_mb
@@ -49,8 +49,6 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
     weights = {s.name: s.weight for s in manifest.sources}
     rows = build_rows(result.merged, weights)
     ranked = rank_rows(rows, opts.score)
-    exclusions = exclude.load(cfg.code)
-    ranked, dropped = exclude.apply(ranked, lambda r: r.lemma, exclusions)
     timings["rank"] = time.perf_counter() - t0
 
     runtime = Runtime(cfg, lemma_dir=opts.lemma_dir, wheel=opts.wheel, fallback=cfg.fallback)
@@ -58,11 +56,20 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
         if getattr(runtime.info, key) != result.runtime[key]:
             raise SystemExit(f"the installed runtime's {key} differs from the one the shards were counted with")
 
+    # The reviewed exclusion list, then the proper-noun rule; ranks reported are those before either.
+    rank_of = {r.lemma: i for i, r in enumerate(ranked, start=1)}
+    exclusions = exclude.load(cfg.code)
+    ranked, dropped = exclude.apply(ranked, lambda r: r.lemma, exclusions)
+    learnable = propn.load(runtime.root, cfg.code)
+    ranked, propn_dropped, names_kept = propn.apply(
+        ranked, lambda r: r.lemma, lambda r: snapshot.majority(r.stats.pos, "X"), learnable, rank_of)
+
     t0 = time.perf_counter()
     head = snapshot.header(result, manifest, opts.score, weights, opts.scope)
     excluded = exclude.header_entry(exclusions, dropped, top_n, REPO_ROOT)
     if excluded is not None:
         head["exclusions"] = excluded
+    head["proper_nouns"] = propn.header_entry(learnable, propn_dropped, names_kept, top_n, runtime.root)
     citation = runtime.backend.lemma_citation if cfg.readings else None
     entries = snapshot.build_entries(ranked[:top_n], result.merged, manifest, citation)
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -106,6 +113,7 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
         live_label=f"the live snapshot (`reference/lemmas/{cfg.code}.json`)",
     )
     text += "\n".join(exclude.render(exclusions, dropped, top_n))
+    text += "\n" + "\n".join(propn.render(learnable, propn_dropped, names_kept, top_n))
     names = [p.name for _s, p in iter_counts(counts_dir)]
     state = final_record(out_dir, ranked, result.merged.tokens,
                          mix=mix_of(manifest, counts_dir.parent / "work", names))
@@ -128,6 +136,7 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
         },
         "checks": {k: len(v) for k, v in found.items()},
         "excluded_from_top_n": sum(1 for d in dropped if d.rank <= top_n),
+        "proper_nouns_dropped_from_top_n": sum(1 for r, _ in propn_dropped if r <= top_n),
     }
     (out_dir / "perf.json").write_text(json.dumps(summary, indent=1), encoding="utf-8")
     return summary
