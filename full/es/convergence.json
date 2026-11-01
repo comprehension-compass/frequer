@@ -1,0 +1,217 @@
+{
+ "checkpoints": [
+  {
+   "tokens": 751237,
+   "shards": 1,
+   "sources": {
+    "tatoeba-spa": 751237
+   },
+   "mix": "partial (lacks paracrawl-en-es, tatoeba-spa)",
+   "bands": {
+    "5000": {
+     "change": null,
+     "median_shift": null,
+     "freq_at_n": 6,
+     "split_half": null
+    },
+    "10000": {
+     "change": null,
+     "median_shift": null,
+     "freq_at_n": 2,
+     "split_half": null
+    },
+    "20000": {
+     "change": null,
+     "median_shift": null,
+     "freq_at_n": null,
+     "split_half": null
+    },
+    "50000": {
+     "change": null,
+     "median_shift": null,
+     "freq_at_n": null,
+     "split_half": null
+    }
+   },
+   "passes": 0
+  },
+  {
+   "tokens": 1510432,
+   "shards": 2,
+   "sources": {
+    "tatoeba-spa": 1510432
+   },
+   "mix": "partial (lacks paracrawl-en-es, tatoeba-spa)",
+   "bands": {
+    "5000": {
+     "change": 0.077,
+     "median_shift": 153,
+     "freq_at_n": 12,
+     "split_half": 0.1552
+    },
+    "10000": {
+     "change": 0.1168,
+     "median_shift": 391.0,
+     "freq_at_n": 3,
+     "split_half": 0.2349
+    },
+    "20000": {
+     "change": null,
+     "median_shift": 1024,
+     "freq_at_n": 1,
+     "split_half": null
+    },
+    "50000": {
+     "change": null,
+     "median_shift": 1194.0,
+     "freq_at_n": null,
+     "split_half": null
+    }
+   },
+   "passes": 0
+  },
+  {
+   "tokens": 2256931,
+   "shards": 3,
+   "sources": {
+    "tatoeba-spa": 2256931
+   },
+   "mix": "partial (lacks paracrawl-en-es, tatoeba-spa)",
+   "bands": {
+    "5000": {
+     "change": 0.067,
+     "median_shift": 127,
+     "freq_at_n": 19,
+     "split_half": 0.1552
+    },
+    "10000": {
+     "change": 0.1016,
+     "median_shift": 331.0,
+     "freq_at_n": 5,
+     "split_half": 0.2349
+    },
+    "20000": {
+     "change": 0.1714,
+     "median_shift": 952.0,
+     "freq_at_n": 1,
+     "split_half": null
+    },
+    "50000": {
+     "change": null,
+     "median_shift": 1737.0,
+     "freq_at_n": null,
+     "split_half": null
+    }
+   },
+   "passes": 0
+  },
+  {
+   "tokens": 2594302,
+   "shards": 4,
+   "sources": {
+    "tatoeba-spa": 2594302
+   },
+   "mix": "partial (lacks paracrawl-en-es, tatoeba-spa)",
+   "bands": {
+    "5000": {
+     "change": 0.0382,
+     "median_shift": 67,
+     "freq_at_n": 23,
+     "split_half": 0.1452
+    },
+    "10000": {
+     "change": 0.0632,
+     "median_shift": 188.0,
+     "freq_at_n": 7,
+     "split_half": 0.2128
+    },
+    "20000": {
+     "change": 0.1068,
+     "median_shift": 583.0,
+     "freq_at_n": 2,
+     "split_half": 0.32
+    },
+    "50000": {
+     "change": null,
+     "median_shift": 2126.0,
+     "freq_at_n": null,
+     "split_half": null
+    }
+   },
+   "passes": 0
+  },
+  {
+   "tokens": 3326967,
+   "shards": 5,
+   "sources": {
+    "tatoeba-spa": 3326967
+   },
+   "mix": "partial (lacks paracrawl-en-es)",
+   "bands": {
+    "5000": {
+     "change": 0.0468,
+     "median_shift": 86.0,
+     "freq_at_n": 31,
+     "split_half": 0.1452
+    },
+    "10000": {
+     "change": 0.0662,
+     "median_shift": 234.0,
+     "freq_at_n": 10,
+     "split_half": 0.2128
+    },
+    "20000": {
+     "change": 0.09855,
+     "median_shift": 651,
+     "freq_at_n": 2,
+     "split_half": 0.32
+    },
+    "50000": {
+     "change": null,
+     "median_shift": 2873.5,
+     "freq_at_n": null,
+     "split_half": null
+    }
+   },
+   "passes": 0
+  },
+  {
+   "tokens": 6254960,
+   "shards": 6,
+   "sources": {
+    "paracrawl-en-es": 2927993,
+    "tatoeba-spa": 3326967
+   },
+   "mix": "full",
+   "bands": {
+    "5000": {
+     "change": 0.1852,
+     "median_shift": 570.0,
+     "freq_at_n": 79,
+     "split_half": 0.1452
+    },
+    "10000": {
+     "change": 0.1921,
+     "median_shift": 1084,
+     "freq_at_n": 24,
+     "split_half": 0.2128
+    },
+    "20000": {
+     "change": 0.22135,
+     "median_shift": 2047,
+     "freq_at_n": 7,
+     "split_half": 0.32
+    },
+    "50000": {
+     "change": null,
+     "median_shift": 4786,
+     "freq_at_n": 1,
+     "split_half": null
+    }
+   },
+   "passes": 0
+  }
+ ],
+ "decision": "continue",
+ "stopped_at": null
+}
