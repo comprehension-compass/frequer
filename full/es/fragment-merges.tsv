@@ -1,0 +1,22 @@
+# Proposed merges for the lemmatiser fragments auto-dropped on citation + shape (2026-11-01). NOT APPLIED:
+# the developer decides. Columns: fragment, proposed target, status (clear | ambiguous), surface forms counted
+# (105.7M tokens), why. Applying one = adding `<fragment>\tmerge:<target>\t<reason>` to corpora/review/es.tsv.
+# Two release-1.5.0 truncation patterns: plural -bles/-les loses -es (muelles -> muell, puzles -> puzl), and an
+# infinitive with the clitic "les" is cut to -rl (ofrecerles -> ofrecerl). Worth a honeyeater-lemmatiser fix.
+muell	muelle	clear	muelles 640, Muelles 6, muell 2	plural of muelle (spring, pier)
+personalizabl	personalizable	clear	personalizables 405	plural adjective
+ofrecerl	ofrecer	clear	ofrecerles 312, Ofrecerles 1	infinitive + les
+dobl	doble	clear	dobles 219, dobl 1	plural of doble
+encuentr	encontrar	ambiguous	encuentrán 184, encuentrás 1	misspelt "se encuentran" (verb encontrar); encuentro (noun) is not what the forms show, but the accent makes the source uncertain
+brindarl	brindar	clear	brindarles 159	infinitive + les
+puzl	puzle	clear	puzles 145, Puzles 10	plural of puzle
+descargabl	descargable	clear	descargables 151	plural adjective
+enseñarl	enseñar	clear	enseñarles 102	infinitive + les
+proporcionarl	proporcionar	clear	proporcionarles 96	infinitive + les
+multipl	múltiple	clear	multiples 91	unaccented plural of múltiple
+azafr	azafrán	clear	azafrán 90	the whole word, cut short as a lemma
+increibl	increíble	clear	increibles 87, Increibles 1	unaccented plural of increíble
+mostrarl	mostrar	clear	mostrarles 88	infinitive + les
+coleccionabl	coleccionable	clear	coleccionables 82, Coleccionables 1	plural adjective
+psiquiatr	psiquiatría	ambiguous	psiquiatría 72	the forms are all psiquiatría (the field), not psiquiatra (the doctor); marked ambiguous only because the coordinator listed both
+prevenibl	prevenible	clear	prevenibles (by the pattern; below the window in this build)	plural adjective
