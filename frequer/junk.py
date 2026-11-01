@@ -197,6 +197,9 @@ class Candidate:
     pos: str
     forms: Mapping[str, int]
     docs: int
+    #: Mostly met as a multi-token unit (a compound, phrase or construction): exempt from citation and shape,
+    #: whatever its key looks like (ja keys have no spaces: 毎日新聞, 〜として).
+    unit: bool = False
 
 
 @dataclass
@@ -289,9 +292,11 @@ def compute_flags(
         for c in candidates:
             for f, n in c.forms.items():
                 surface[f.lower()] += n
+                if " " in f:  # a multi-token form, as a language without word spaces writes it (の で: ので)
+                    surface[f.replace(" ", "").lower()] += n
     for c in candidates:
         b = base_of(c.lemma)
-        if "citation" in on and not is_unit(c.lemma) and c.pos not in ("NUM", "PROPN") \
+        if "citation" in on and not is_unit(c.lemma) and not c.unit and c.pos not in ("NUM", "PROPN") \
                 and not (verb_shape and verb_shape.search(b)):
             seen = surface[b.lower()]
             if seen < cfg.citation_max_share * c.freq:
@@ -301,11 +306,11 @@ def compute_flags(
             en, mine = zipf(b, "en"), zipf(b, lang)
             if en >= cfg.foreign_en_min and en - mine >= cfg.foreign_margin:
                 out.add(c.lemma, "foreign", f"wordfreq zipf en {en:.1f} vs {lang} {mine:.1f}")
-        if "shape" in on and not is_unit(c.lemma) and c.lemma not in kept:
+        if "shape" in on and not is_unit(c.lemma) and not c.unit and c.lemma not in kept:
             why = shape_evidence(b, cfg, own)
             if why:
                 out.add(c.lemma, "shape", why)
-        if "propn_band" in on and propn_dict is not None:
+        if "propn_band" in on and propn_dict is not None and c.pos != "NUM":  # 六十四 is also a given name
             entries, learnable = propn_dict(c)
             verdict = None if learnable else dictionary_verdict(entries, c.pos == "PROPN")
             if verdict is not None:

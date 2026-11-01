@@ -102,7 +102,7 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
             return lookup(junk.base_of(c.lemma)), junk.base_of(c.lemma).casefold() in names
 
         candidates = [junk.Candidate(r.lemma, r.stats.freq, snapshot.majority(r.stats.pos, "X"), r.stats.forms,
-                                     r.stats.df) for r in ranked]
+                                     r.stats.df, unit=bool(snapshot.unit_kind(r.stats.kinds))) for r in ranked]
         out.flags = junk.compute_flags(
             candidates, jc, total_docs=merged.docs, zipf=compare.zipf_lookup(), lang=cfg.code,
             kept=out.exclusions.kept if out.exclusions else frozenset(),
