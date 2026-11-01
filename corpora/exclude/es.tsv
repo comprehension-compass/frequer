@@ -1391,3 +1391,490 @@ lii	exclude-numeral	developer 2026-11-01: roman numerals excluded
 lix	exclude-numeral	developer 2026-11-01: roman numerals excluded
 lvi	exclude-numeral	developer 2026-11-01: roman numerals excluded
 lxii	exclude-numeral	developer 2026-11-01: roman numerals excluded
+hp	exclude-foreign	developer 2026-11-01: brand acronym excluded
+lg	exclude-foreign	developer 2026-11-01: brand acronym excluded
+di	exclude-foreign	developer 2026-11-01: foreign name particle excluded
+da	exclude-foreign	developer 2026-11-01: foreign name particle excluded
+du	exclude-foreign	developer 2026-11-01: foreign name particle excluded
+do	exclude-foreign	developer 2026-11-01: foreign name particle excluded
+der	exclude-foreign	developer 2026-11-01: foreign name particle excluded
+dei	exclude-foreign	developer 2026-11-01: foreign name particle excluded
+van	exclude-foreign	developer 2026-11-01: foreign name particle excluded
+von	exclude-foreign	developer 2026-11-01: foreign name particle excluded
+und	exclude-foreign	developer 2026-11-01: foreign function word excluded
+dal	exclude-foreign	developer 2026-11-01: foreign name particle excluded
+nel	exclude-foreign	developer 2026-11-01: foreign name particle excluded
+della	exclude-foreign	developer 2026-11-01: foreign name particle excluded
+au	exclude-foreign	developer 2026-11-01: foreign name particle excluded
+aux	exclude-foreign	developer 2026-11-01: foreign name particle excluded
+# Reviewed keeps (the foreign rule never flags these)
+aclu	keep-spanish	proper noun (acronym)
+acunar	keep-spanish	Spanish verb
+aerobic	keep-loan	gym loan
+air france	keep-spanish	proper noun
+ajar	keep-spanish	Spanish verb
+all-in	keep-loan	poker term
+all-star	keep-loan	sports term used in Spanish
+american idol	keep-spanish	proper noun
+andres	keep-spanish	proper noun
+ano	keep-spanish	Spanish word (anus)
+array	keep-loan	programming term
+as	keep-spanish	Spanish as (ace)
+associated press	keep-spanish	proper noun
+back-end	keep-loan	IT term
+back-office	keep-loan	business loan
+background	keep-loan	tener background is established colloquial/professional Spanish
+backlinks	keep-loan	SEO term used in Spanish
+backstage	keep-loan	common loan
+bacteria	keep-spanish	Spanish bacteria
+bagels	keep-loan	food loan
+bankroll	keep-loan	poker term
+banners	keep-loan	banner used in Spanish
+bbq	keep-loan	salsa BBQ on Spanish menus
+beat	keep-loan	music beat
+beisbol	keep-spanish	accepted Spanish variant
+best-seller	keep-loan	established loan
+bet-el	keep-spanish	proper noun (biblical place)
+beverly hills	keep-spanish	proper noun
+big bang	keep-loan	el Big Bang is used as-is in Spanish
+bit	keep-loan	computing term, Spanish bits
+blister	keep-loan	blíster
+body	keep-loan	body (baby garment)
+boho	keep-loan	boho fashion
+bomber	keep-loan	chaqueta bomber
+bondage	keep-loan	used in Spanish
+bonus	keep-loan	established loan
+born	keep-spanish	proper noun (El Born district)
+borne	keep-spanish	Spanish terminal/borne
+box	keep-loan	box (boxing) in Latin America
+bracket	keep-loan	dental brackets
+brackets	keep-loan	standard dental term
+branding	keep-loan	established loan
+briefing	keep-loan	established business loan
+british columbia	keep-spanish	proper noun
+brunch	keep-loan	established loan
+buffer	keep-loan	computing term
+bug	keep-loan	software bug
+bugs	keep-spanish	proper noun (Bugs Bunny)
+bulb#Maoc	keep-spanish	examples are Spanish bulbo; key needs checking (see question)
+bullpen	keep-loan	baseball term
+burger king	keep-spanish	proper noun
+buy-in	keep-loan	poker term used in Spanish
+bypass	keep-loan	bypass gástrico
+c-class	keep-spanish	proper noun (car model)
+cameo	keep-loan	film cameo
+campana	keep-spanish	Spanish bell
+can	keep-spanish	Spanish can (dog)/Catalan place
+canola	keep-loan	established loan (aceite de canola)
+capacitor	keep-spanish	Spanish word
+cardigan	keep-loan	fashion loan
+cardinal	keep-spanish	Spanish word
+cases	keep-spanish	Spanish verb form of casar
+cashback	keep-loan	e-commerce loan
+caucus	keep-loan	used in Spanish political journalism (los caucus de Iowa)
+celiaco	keep-spanish	RAE-accepted variant of celíaco
+ceno	keep-spanish	Spanish verb form of cenar
+chance	keep-loan	Latin American "chance"
+chances	keep-loan	Latin American chances
+charter	keep-loan	vuelo chárter
+check-in	keep-loan	established travel term
+check-out	keep-loan	established travel term
+checklist	keep-loan	established loan
+checkout	keep-loan	check-out in hotels/shops
+chill-out	keep-loan	used in Spanish
+circa	keep-loan	Latinism used in Spanish dating
+clarks	keep-spanish	proper noun (brand)
+clipper	keep-loan	clipper ship
+cluster	keep-loan	computing term
+clutch	keep-loan	bolso clutch
+coaching	keep-loan	established loan
+cockpit	keep-loan	aviation loan
+cocktail	keep-loan	cóctel loan
+coctel	keep-spanish	accepted variant of cóctel
+comic	keep-loan	cómic, used in Spanish
+commit	keep-loan	developer loan
+concierge	keep-loan	hotel concierge
+contactless	keep-loan	payment term used in Spanish
+contender	keep-spanish	Spanish verb contender
+continuum	keep-loan	Latinism used in Spanish academic prose
+controversial	keep-spanish	Spanish word
+cookie	keep-loan	established web term
+cool	keep-loan	colloquial Spanish
+country	keep-loan	música country, rally cross country: established genre/sport term
+coventry	keep-spanish	proper noun
+cover	keep-loan	cover musical
+creative commons	keep-spanish	proper noun
+cristobal	keep-spanish	proper noun (unaccented Cristóbal)
+crosse	keep-spanish	proper noun (La Crosse place/brand)
+crossover	keep-loan	vehicle type
+crystal palace	keep-spanish	proper noun
+cuan	keep-spanish	Spanish cuan
+curling	keep-loan	sport loan
+cyber-shot	keep-spanish	proper noun (brand)
+d-backs	keep-spanish	proper noun (team)
+dad	keep-spanish	Spanish imperative of dar
+daily mail	keep-spanish	proper noun
+dario	keep-spanish	proper noun
+darshan	keep-loan	Hindu term
+dealer	keep-loan	dealer
+decibel	keep-spanish	Spanish unit word
+deck	keep-loan	card-game deck
+denim	keep-loan	used in Spanish fashion
+detox	keep-loan	detox
+dhs	keep-spanish	proper noun (US agency acronym)
+diagnosis	keep-spanish	Spanish word
+diaz	keep-spanish	proper noun (surname, unaccented Díaz)
+dimensional	keep-spanish	Spanish dimensional
+dip	keep-loan	food dip established in Spanish (dip de guacamole)
+dnc	keep-spanish	proper noun (organisation)
+do	keep-spanish	musical note do
+doj	keep-spanish	proper noun (organisation)
+dongle	keep-loan	IT term
+dorm	keep-spanish	abbreviation of dormitorio
+dow jones	keep-spanish	proper noun
+draft	keep-loan	sports draft
+dumping	keep-loan	economics term
+durable	keep-spanish	Spanish durable
+e-bike	keep-loan	used in Spanish
+e-book	keep-loan	established term
+e-class	keep-spanish	proper noun (car model)
+e-commerce	keep-loan	established loan
+e-learning	keep-loan	established term
+eczema	keep-spanish	Spanish medical word
+eeoc	keep-spanish	proper noun (agency)
+elias	keep-spanish	proper noun (Elías)
+email	keep-loan	established loan
+emirates	keep-spanish	proper noun (airline)
+empire state	keep-spanish	proper noun
+endpoints	keep-loan	IT term
+engagement	keep-loan	marketing jargon in Spanish
+escort	keep-loan	used in Spanish
+establishment	keep-loan	used in Spanish political press
+exchanges	keep-loan	crypto loan
+expertise	keep-loan	business jargon
+exploit	keep-loan	security term used in Spanish
+exploits	keep-loan	security term used in Spanish
+explore	keep-spanish	Spanish subjunctive of explorar
+extracurricular	keep-spanish	Spanish word
+factual	keep-spanish	Spanish word
+fairway	keep-loan	golf term
+feed	keep-loan	used in Spanish (feed RSS)
+feedback	keep-loan	established loan
+feeds	keep-loan	RSS feeds
+figure	keep-spanish	Spanish verb form of figurar
+film	keep-loan	used in Spanish
+fitness	keep-loan	established loan
+flap	keep-loan	aviation term used in Spanish
+flop	keep-loan	poker term
+flyer	keep-loan	used in Spanish
+folk	keep-loan	música folk
+footing	keep-loan	jogging term in Spain
+fort-de-france	keep-spanish	proper noun
+framework	keep-loan	used in Spanish IT
+front-end	keep-loan	IT term
+furry	keep-loan	subculture loan
+futbol	keep-spanish	accepted Spanish variant of fútbol
+gadgets	keep-loan	common loan
+gameplay	keep-loan	gaming term
+garnet	keep-spanish	proper noun (Steven Universe character)
+gazebo	keep-loan	used in Spanish
+gdpr	keep-loan	acronym used in Spanish texts
+george bush	keep-spanish	proper noun
+george w. bush	keep-spanish	proper noun
+golden gate	keep-spanish	proper noun
+grand slam	keep-loan	tennis term
+gravel	keep-loan	cycling loan
+guess	keep-spanish	proper noun (brand)
+gym	keep-loan	informal gym
+habito	keep-spanish	Spanish verb form of habitar
+hacking	keep-loan	established term
+halter	keep-loan	cuello/bikini halter established in Spanish fashion
+heavy	keep-loan	heavy (metal), un heavy, muy heavy: established, esp. in Spain
+herbal	keep-spanish	Spanish herbal
+hillary clinton	keep-spanish	proper noun
+hit	keep-loan	baseball hit
+host	keep-loan	established computing term in Spanish (basada en el host)
+hosting	keep-loan	established web term
+hotspot	keep-loan	established tech loan
+hubs	keep-loan	airline hubs
+human rights watch	keep-spanish	proper noun
+hyper-v	keep-spanish	proper noun (product)
+incremental	keep-spanish	Spanish word
+ines	keep-spanish	proper noun
+inning	keep-loan	baseball inning
+innings	keep-loan	baseball term used in Spanish
+intersex	keep-loan	used in Spanish
+ion	keep-spanish	Spanish ion
+iron man	keep-spanish	proper noun
+its	keep-spanish	Spanish acronym ITS
+jackpot	keep-loan	established loan
+jihad	keep-loan	established loan
+job	keep-spanish	proper noun (biblical Job)
+jobs	keep-spanish	proper noun
+joe biden	keep-spanish	proper noun
+jogging	keep-loan	common loan
+joint-venture	keep-loan	business loan
+k-root	keep-spanish	proper noun (company)
+kd	keep-spanish	proper noun (nickname)
+keyword	keep-loan	SEO term
+king-size	keep-loan	cama king-size
+kite	keep-loan	kitesurf
+know-how	keep-loan	established loan
+kratom	keep-loan	substance name used in Spanish
+kuala lumpur	keep-spanish	proper noun
+late	keep-spanish	Spanish verb form of latir
+lead	keep-loan	marketing leads
+led	keep-spanish	criterion: Spanish led
+lewis hamilton	keep-spanish	proper noun
+liar	keep-spanish	Spanish verb liar
+lifting	keep-loan	lifting facial
+like	keep-loan	dar like (social media)
+likes	keep-loan	social media likes
+logs	keep-loan	IT logs
+long island	keep-spanish	proper noun
+look	keep-loan	established fashion loan
+lot	keep-spanish	proper noun (biblical Lot)
+lounges	keep-loan	hospitality loan
+low-cost	keep-loan	established in Spain
+luge	keep-loan	sport name
+mailing	keep-loan	marketing loan
+mainframe	keep-loan	IT term
+mainstream	keep-loan	used in Spanish
+manager	keep-loan	used in Spanish
+manchester united	keep-spanish	proper noun
+marital	keep-spanish	Spanish word
+marketer	keep-loan	used in Spanish marketing
+marketplaces	keep-loan	e-commerce loan
+match	keep-loan	used in Spanish sport
+megapixel	keep-loan	megapíxel
+mentoring	keep-loan	business loan
+metro#metre	keep-spanish	Spanish metro
+middlesex	keep-spanish	proper noun
+middleware	keep-loan	IT term
+minibus	keep-spanish	Spanish minibús, lemma reduced from plural minibuses
+miss	keep-loan	Miss (pageant) used in Spanish
+moines	keep-spanish	proper noun (Des Moines)
+monoclonal	keep-spanish	Spanish word
+must	keep-loan	un must in fashion
+myrtle beach	keep-spanish	proper noun
+naming	keep-loan	marketing loan
+napoleon	keep-spanish	proper noun
+networking	keep-loan	established loan
+neural	keep-spanish	Spanish word
+new hampshire	keep-spanish	proper noun
+newsletter	keep-loan	established loan
+newsletters	keep-loan	common loan
+off-road	keep-loan	off-road vehicles
+offset	keep-loan	printing term
+offshore	keep-loan	used in Spanish finance
+once	keep-spanish	Spanish eleven
+one piece	keep-spanish	proper noun (title)
+orange county	keep-spanish	proper noun
+ormond	keep-spanish	proper noun
+orr	keep-spanish	proper noun (agency)
+osmosis	keep-spanish	accepted Spanish spelling
+outfit	keep-loan	fashion loan
+outfits	keep-loan	fashion loan
+oversize	keep-loan	fashion oversize
+p-touch	keep-spanish	proper noun (brand)
+pack	keep-loan	established loan
+packaging	keep-loan	used in Spanish business
+paddle	keep-loan	paddle surf / pádel
+pallet	keep-loan	logistics loan
+pallets	keep-loan	used in Spanish logistics
+palmdale	keep-spanish	proper noun
+panal	keep-spanish	Spanish honeycomb
+paper	keep-loan	paper científico
+paradise island	keep-spanish	proper noun
+paralegal	keep-loan	used in Spanish legal text, esp. US and Latin America
+parking	keep-loan	established loan
+patriots	keep-spanish	proper noun (team)
+pay	keep-loan	pay de plátano (Mexico)
+pearl harbor	keep-spanish	proper noun
+pedicure	keep-loan	beauty loan
+peeling	keep-loan	peeling facial
+peer-to-peer	keep-loan	finance/tech loan
+pellet	keep-loan	pellets de madera
+pellets	keep-loan	plural of pellet
+per	keep-spanish	Latin per in per cápita
+perceptual	keep-spanish	Spanish word
+perdida	keep-spanish	Spanish word (lost)
+performance	keep-loan	used in Spanish
+pestana	keep-spanish	proper noun (hotel brand)
+pick-up	keep-loan	camioneta pick-up
+picking	keep-loan	logistics term
+pickup	keep-loan	camioneta pickup
+pilate	keep-loan	lemma of pilates, established loan
+pitcher	keep-loan	baseball pitcher
+play-off	keep-loan	sports loan
+playlists	keep-loan	music loan
+playoff	keep-loan	sports term
+plug-in	keep-loan	established loan
+plug-ins	keep-loan	software term
+podium	keep-loan	sport term
+pole	keep-loan	pole position / pole dance
+policiaco	keep-spanish	RAE-accepted variant of policíaco
+pop-up	keep-loan	used in Spanish
+portable	keep-spanish	Spanish portable
+portfolio	keep-loan	used in Spanish
+postdoctoral	keep-spanish	Spanish word
+poster	keep-loan	used in Spanish
+posters	keep-loan	póster loan
+power-ups	keep-loan	gaming term used in Spanish
+predictor	keep-spanish	Spanish word
+premier league	keep-spanish	proper noun
+preppy	keep-loan	fashion loan
+preset	keep-loan	audio/photo presets
+presets	keep-loan	photo/audio loan
+pretzels	keep-loan	food loan
+prompt	keep-loan	computing loan
+putt	keep-loan	golf term used in Spanish
+quad-core	keep-loan	IT term
+quarterback	keep-loan	sport loan
+quicken	keep-spanish	proper noun (software)
+quite	keep-spanish	Spanish verb form of quitar
+r-studio	keep-spanish	proper noun (software)
+rack	keep-loan	montaje en rack
+racks	keep-loan	server racks
+rarity	keep-spanish	proper noun (My Little Pony character)
+raster	keep-loan	technical term ráster
+ratio	keep-spanish	Spanish ratio
+rattan	keep-loan	furniture loan
+rays	keep-spanish	proper noun (team)
+reality	keep-loan	reality show
+reboot	keep-loan	film/tech loan
+record	keep-loan	récord, unaccented form
+render	keep-loan	renders in design
+renting	keep-loan	established in Spain
+reserve	keep-spanish	subjunctive of reservar
+resistor	keep-spanish	Spanish word
+resort	keep-loan	used in Spanish tourism
+responsive	keep-loan	diseño responsive
+retailer	keep-loan	retail jargon
+review	keep-loan	used in Spanish
+rhode island	keep-spanish	proper noun
+rios	keep-spanish	proper noun (Entre Ríos, unaccented)
+river plate	keep-spanish	proper noun
+rocio	keep-spanish	proper noun (El Rocío, Rocío del Mar)
+rohingya	keep-spanish	proper noun
+roll-on	keep-loan	cosmetics loan
+rookie	keep-loan	sports loan
+roster	keep-loan	sports roster
+round	keep-loan	boxing round(s) established in Spanish sports usage
+royalty	keep-loan	royalties in Spanish
+running	keep-loan	used in Spanish sportswear
+sabana	keep-spanish	Spanish sabana (savanna)
+sacrificial	keep-spanish	Spanish adjective (RAE sacrificial)
+sake	keep-loan	Japanese drink, in Spanish use
+sampler	keep-loan	music equipment loan
+saturn	keep-spanish	proper noun (brand)
+sauce	keep-spanish	Spanish willow
+screening	keep-loan	medical loan
+screenshot	keep-loan	tech loan
+script	keep-loan	computing term
+scripting	keep-loan	IT term
+scroll	keep-loan	hacer scroll
+semiconductor	keep-spanish	Spanish semiconductor
+senior	keep-loan	used in Spanish
+serial	keep-spanish	Spanish serial
+set	keep-loan	established loan
+setter	keep-loan	dog breed name
+shader	keep-loan	graphics term
+sheriff	keep-loan	established loan
+short	keep-loan	short (clothing)
+show	keep-loan	established loan
+showrooms	keep-loan	retail loan
+siriusxm	keep-spanish	proper noun (brand)
+six sigma	keep-spanish	proper noun (method)
+skateboard	keep-loan	sport loan
+skinny	keep-loan	fashion loan (jeans skinny)
+slime	keep-loan	toy loan
+slot	keep-loan	slot, used in Spanish
+smash	keep-loan	tennis/padel smash
+smoothie	keep-loan	common loan
+snack	keep-loan	established loan
+snapshot	keep-loan	IT term
+sneakers	keep-loan	common loan
+snorkeling	keep-loan	snorkel activity
+snowboarding	keep-loan	sport loan
+so	keep-spanish	Spanish so (intensifier)/SO
+soccer	keep-loan	established in Mexico and US Spanish (fútbol soccer)
+softball	keep-loan	sport loan
+sort	keep-spanish	proper noun (Catalan town Sort; game title)
+south lake tahoe	keep-spanish	proper noun
+soviet	keep-spanish	Spanish word
+sparta	keep-spanish	proper noun
+spin-off	keep-loan	film/business term
+spinners	keep-loan	fidget spinners
+spirit airlines	keep-spanish	proper noun
+sponsor	keep-loan	sponsor in Spanish
+spot	keep-loan	spot publicitario
+spray	keep-loan	established loan
+spread	keep-loan	finance spread
+squash	keep-loan	sport name
+staff	keep-loan	established loan
+stakeholder	keep-loan	business jargon
+stand	keep-loan	trade-fair stand
+stand-by	keep-loan	finance/travel loan
+standard & poor's	keep-spanish	proper noun
+standing	keep-loan	alto standing
+star wars	keep-spanish	proper noun
+start-up	keep-loan	established term
+status	keep-loan	used in Spanish
+steve jobs	keep-spanish	proper noun
+stock	keep-loan	established loan
+stop	keep-loan	señal de stop
+storytelling	keep-loan	marketing loan
+streetwear	keep-loan	fashion loan
+stress	keep-loan	informal stress for estrés
+string	keep-loan	programming term used in Spanish
+sunnah	keep-loan	Arabic religious term
+swaps	keep-loan	finance loan
+swing	keep-loan	golf/music term
+switches	keep-loan	networking loan
+t-advisor	keep-spanish	proper noun (brand)
+tampa bay	keep-spanish	proper noun
+taupe	keep-loan	colour loan
+teams	keep-spanish	proper noun (Microsoft Teams)
+test	keep-loan	established loan
+think-cell	keep-spanish	proper noun (software)
+tho	keep-spanish	proper noun (place)
+ticket	keep-loan	established loan
+time-lapse	keep-loan	photography loan
+timeline	keep-loan	social media/IT term
+times square	keep-spanish	proper noun
+timing	keep-loan	used in Spanish
+tip	keep-loan	tips, used in Spanish
+tiquete	keep-loan	adapted Latin American borrowing of ticket
+token	keep-loan	computing term
+toner	keep-loan	tóner
+toowoomba	keep-spanish	proper noun
+top	keep-loan	used in Spanish (top de moda)
+torque	keep-loan	RAE-accepted technical borrowing (par motor)
+touchdown	keep-loan	American football term
+tracks	keep-loan	music tracks
+trader	keep-loan	used in Spanish finance
+traders	keep-loan	finance term used in Spanish
+trading	keep-loan	used in Spanish finance
+triage	keep-loan	medical loan
+tvs	keep-loan	plural of TV
+united airlines	keep-spanish	proper noun
+usable	keep-spanish	Spanish word
+valido	keep-spanish	Spanish participle of valer
+vintage	keep-loan	used in Spanish
+volt	keep-loan	volt unit in Spanish use
+voucher	keep-loan	travel voucher
+waffle	keep-loan	food loan
+wall street	keep-spanish	proper noun
+wall street journal	keep-spanish	proper noun
+wearable	keep-loan	tech loan
+webcast	keep-loan	web loan
+western union	keep-spanish	proper noun
+whiskey	keep-loan	whisky variant
+windows mobile	keep-spanish	proper noun
+windows server	keep-spanish	proper noun
+workflow	keep-loan	IT term
+workshops	keep-loan	common loan
+world trade center	keep-spanish	proper noun
+x-men	keep-spanish	proper noun
+zirconia	keep-spanish	Spanish technical term (zirconia/circonia cúbica)

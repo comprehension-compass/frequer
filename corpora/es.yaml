@@ -7,10 +7,18 @@ language:
   fold_case: true
   lowercase_forms: false
   readings: false
-  top_n: 50000
+  top_n: 20000  # capped 2026-11-01 (developer): ranks past ~20k are too noisy at this data size
   forms_kept: 5
-  propn_rule: capitalised_mid_sentence
-  propn_capitalised_min: 0.5
+  propn_rule: none  # proper nouns go through the junk rules' propn_band (2026-11-01)
+  junk:
+    rules: [diversity, citation, foreign, shape, propn_band]
+    accent_ratio: 5
+    verb_citation_pattern: '(ar|er|ir|ír)(se)?$'
+    allowed_final_pairs: [rd, ld, nd]  # récord, gold, stand: loans, not fragments
+    fragment_finals: lnrdz
+    propn_drop: 0.9
+    propn_keep: 0.2
+    review_top: 20000
 hygiene: {min_chars: 20, max_chars: 600, min_alpha_ratio: 0.6, gap_filter: true, langid_min_prob: 0.5}
 parts: 100
 checks:

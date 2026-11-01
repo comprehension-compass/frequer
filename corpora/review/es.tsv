@@ -1,0 +1,4 @@
+# Spanish review decisions (frequer/junk.py): lemma<TAB>decision (keep | drop | merge:<lemma>)<TAB>reason
+# keep also vetoes an accent merge (two real words).
+secretaria	keep	secretary, a word apart from secretaría (accent-merge veto)
+cuan	keep	relative adverb cuan, apart from cuán (accent-merge veto)
