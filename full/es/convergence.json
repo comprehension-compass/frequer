@@ -750,6 +750,42 @@
     }
    },
    "passes": 0
+  },
+  {
+   "tokens": 53076631,
+   "shards": 22,
+   "sources": {
+    "paracrawl-en-es": 49749664,
+    "tatoeba-spa": 3326967
+   },
+   "mix": "full",
+   "bands": {
+    "5000": {
+     "change": 0.0032,
+     "median_shift": 7.0,
+     "freq_at_n": 731,
+     "split_half": 0.0208
+    },
+    "10000": {
+     "change": 0.0035,
+     "median_shift": 17,
+     "freq_at_n": 227,
+     "split_half": 0.0342
+    },
+    "20000": {
+     "change": 0.0076,
+     "median_shift": 50.0,
+     "freq_at_n": 66,
+     "split_half": 0.0588
+    },
+    "50000": {
+     "change": 0.01658,
+     "median_shift": 245,
+     "freq_at_n": 12,
+     "split_half": 0.13828
+    }
+   },
+   "passes": 0
   }
  ],
  "decision": "continue",
