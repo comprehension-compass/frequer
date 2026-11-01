@@ -27,7 +27,7 @@ from frequer.counting import peak_rss_mb
 from frequer.counts import iter_counts
 from frequer.hygiene import make_classifier
 from frequer.merge import merge_counts
-from frequer.ranking import SCORES, build_rows
+from frequer.ranking import SCORES, build_rows, rank_rows
 from frequer.runtime import Runtime
 
 #: wordfreq's code for each language is the manifest's own code.
@@ -93,7 +93,19 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
     if flt.flags is not None:
         head["junk"] = junk_report.header_entry(manifest, flt, top_n, REPO_ROOT)
     citation = runtime.backend.lemma_citation if cfg.readings else None
-    entries = snapshot.build_entries(ranked[:top_n], result.merged, manifest, citation)
+    # Learnable names (Honeyeater reference/learnable-names) not in the top_n follow it, in frequency order.
+    appended = []
+    if flt.learnable is not None and cfg.append_learnable_names:
+        top = {r.lemma for r in ranked[:top_n]}
+        appended = [r for r in rank_rows(rows, opts.score)
+                    if r.lemma not in top and propn.learnable(r.lemma, flt.learnable)]
+        counted = {r.lemma.split("#")[0].casefold() for r in rows}
+        head["learnable_names"] = {
+            "file": str(flt.learnable.path), "sha256": flt.learnable.sha256, "names": len(flt.learnable.names),
+            "in_top_n": sum(1 for lem in top if propn.learnable(lem, flt.learnable)),
+            "appended_after_top_n": len(appended),
+            "not_counted": sorted(n for n in flt.learnable.names if n not in counted)}
+    entries = snapshot.build_entries(ranked[:top_n] + appended, result.merged, manifest, citation)
     out_dir.mkdir(parents=True, exist_ok=True)
     if opts.write_snapshot:
         snapshot.write_snapshot(out_dir / f"{cfg.code}.json", head, entries)

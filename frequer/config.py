@@ -98,6 +98,8 @@ class LanguageConfig(Strict):
     #: ``propn_capitalised_min`` of its mid-sentence occurrences are capitalised (``corpora/case/<code>.tsv.gz``).
     propn_rule: Literal["none", "capitalised_mid_sentence"] = "none"
     propn_capitalised_min: float = 0.5
+    #: Learnable names (Honeyeater's reviewed list) outside the top_n are appended after it (developer, 2026-11-01).
+    append_learnable_names: bool = False
     junk: JunkConfig = Field(default_factory=JunkConfig)
 
 

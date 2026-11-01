@@ -70,7 +70,9 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
 
     needs_case = cfg.propn_rule == "capitalised_mid_sentence" or "propn_band" in jc.rules
     if needs_case:
-        out.learnable = propn.load_names(root or honeyeater_root(), cfg.code)
+        # FREQUER_NAMES_ROOT: a Honeyeater checkout whose learnable-names list is newer than the pinned runtime's
+        names_root = Path(os.environ["FREQUER_NAMES_ROOT"]) if "FREQUER_NAMES_ROOT" in os.environ else None
+        out.learnable = propn.load_names(names_root or root or honeyeater_root(), cfg.code)
         out.tally = propn.load_case(cfg.code)
     if cfg.propn_rule == "capitalised_mid_sentence" and out.learnable and out.tally:
         ranked, out.propn_dropped, out.names_kept, out.case_kept = propn.apply(
