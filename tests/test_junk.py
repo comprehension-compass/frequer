@@ -50,3 +50,12 @@ def test_places_are_pending_names_unless_reviewed() -> None:
     review = junk.Review(None, "", {"京都": ("keep", "")})  # type: ignore[arg-type]
     actions = {r.lemma: r.action for r in junk.route(["東京", "京都", "田中", "猫"], flags, review, 10)}
     assert actions == {"東京": "pending-names", "京都": "review-keep", "田中": "propn-drop", "猫": "keep"}
+
+
+def test_citation_reads_token_separated_forms_and_exempts_units() -> None:
+    cfg = JunkConfig(rules=["citation"])
+    cands = [junk.Candidate("ので", 100, "SCONJ", {"の で": 100}, 90),         # written as two tokens
+             junk.Candidate("〜として", 80, "X", {"と し て": 80}, 70, unit=True),  # a construction
+             junk.Candidate("子供", 60, "NOUN", {"子ども": 60}, 50)]             # the spelling never written
+    flags = junk.compute_flags(cands, cfg, total_docs=1000, zipf=None, lang="ja", kept=frozenset(), propn_share=None)
+    assert set(flags.flags) == {"子供"}
