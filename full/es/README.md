@@ -1,3 +1,11 @@
+> **Current snapshot (2026-11-01, evening): 20,000 reviewed lemmas.** It is built from the frozen 105,726,244-token
+> counts (40 shards; the extension's new shards are not in it) through the exclusion list, 1,377 merges (1,198
+> accent, 179 review), the junk rules and three review rounds (`junk-review.md`). Proper nouns go through the
+> capitalisation band (>= 90 % drop, middle band reviewed). Frequency at rank 1k / 5k / 10k / 15k / 20k: 12,587 /
+> 1,320 / 332 / 129 / 61. `load_lemmas --dry-run`: 20,000 ranked, 0 skipped, 1,245 unit headwords, 42 homograph
+> keys. Per-lemma flags and actions: `es.flags.tsv`; depth analysis: `depth-comparison.md`. The sections below
+> describe the first build and its later revisions.
+
 # Spanish full build, 2026-11-01: lemma release 1.5.0
 
 The top-50k Spanish lemma snapshot is in `snapshots/es.json` (the loader's format, with the provenance

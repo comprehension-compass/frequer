@@ -3,8 +3,8 @@
  "scope": "full",
  "tokens": 105726244,
  "documents": 138221,
- "lemma_types_ranked": 80124,
- "snapshot_entries": 50000,
+ "lemma_types_ranked": 44306,
+ "snapshot_entries": 20000,
  "stages": [
   {
    "stage": "fetch_decode",
@@ -80,14 +80,14 @@
   }
  ],
  "build_seconds": {
-  "merge": 66.24,
-  "rank": 4.41,
-  "snapshot": 3.39,
-  "cooc": 169.84,
-  "report": 46.35
+  "merge": 60.96,
+  "rank": 9.51,
+  "snapshot": 1.2,
+  "cooc": 160.65,
+  "report": 42.13
  },
  "worker_peak_rss_mb": 2325,
- "build_process_peak_rss_mb": 1503,
+ "build_process_peak_rss_mb": 1268,
  "host_tokens": 0,
  "occurrence_kinds": {
   "word": 100184668,
@@ -100,25 +100,25 @@
  "sentences": 5707166,
  "units_found": 8174,
  "cooc": {
-  "merged_rows_at_min_count": 4204818,
-  "scored": 3862597,
+  "merged_rows_at_min_count": 4098834,
+  "scored": 3762812,
   "by_kind": {
-   "n2": 889669,
-   "n3": 1699985,
-   "n4": 1269877,
-   "p2": 3066
+   "n2": 871413,
+   "n3": 1657355,
+   "n4": 1231016,
+   "p2": 3028
   },
   "shipped_rows": 400000,
-  "table_bytes": 8427678,
+  "table_bytes": 8414323,
   "queue_rows": 2000
  },
  "checks": {
-  "form_ratio": 220,
-  "plural": 99,
-  "consistency": 264,
-  "short": 112,
+  "form_ratio": 232,
+  "plural": 74,
+  "consistency": 262,
+  "short": 69,
   "case": 1
  },
- "excluded_from_top_n": 1363,
- "proper_nouns_dropped_from_top_n": 19506
+ "excluded_from_top_n": 596,
+ "proper_nouns_dropped_from_top_n": 0
 }
