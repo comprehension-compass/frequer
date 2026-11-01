@@ -59,6 +59,7 @@ original post-processing ideas the review report now carries on.
 | `assoc.py` | association measures (PMI, NPMI, signed G2, min over splits) and the scored table (pure) |
 | `combos.py` | compaction, final merge, the shipped table, the unit-list comparison and the labelling queue |
 | `run.py`, `build.py`, `cli.py`, `perf.py` | orchestration, build, commands, throughput table |
+| `converge.py`, `checkpoint.py` | convergence checkpoints, band metrics, the stopping rule (pure core tested) |
 | `forms.py`, `forms_run.py`, `select.py` | the **form inventory** and candidate selection (below) |
 
 ## Running it
@@ -89,6 +90,27 @@ python -m frequer build es --data-dir /big/disk --out-dir out/es --score frequen
 python -m frequer sync-manifest es --counts-dir /big/disk/es/counts
 ```
 
+**Full run with convergence checkpoints** (the 2026-11-01 runs). From a fresh clone of this repository
+(branch `uplift`) and a pinned honeyeater worktree, with the wheel installed as above:
+
+```bash
+cd /path/to/honeyeater-worktree/backend
+export PYTHONPATH=.:/path/to/frequer:/path/to/wheel-site FREQUER_DEPS=/path/to/extra-deps OMP_NUM_THREADS=1
+W=/path/to/honeyeater_lemma_es-1.5.0-py3-none-any.whl
+# count; takes a checkpoint as shards finish and stops itself once the list has converged
+python -m frequer count es --data-dir /big/disk --workers 4 --checkpoints --out-dir out/es \
+    --lemma-dir /path/to/wheel-site/honeyeater_lemma_es --wheel $W
+# then the final snapshot, sidecar, co-occurrence table and queue, and the report (with the convergence table)
+python -m frequer build es --data-dir /big/disk --out-dir out/es --score frequency \
+    --lemma-dir /path/to/wheel-site/honeyeater_lemma_es --wheel $W
+# validate against a migrated local database, from the same worktree
+python manage.py load_lemmas es --dry-run --path out/es/es.json
+```
+
+`count` is resumable with the same command (checkpoints already taken are kept). `python -m frequer
+checkpoint es --data-dir /big/disk --out-dir out/es` takes the due checkpoints by hand (e.g. for a count
+started without `--checkpoints`) and prints the decision.
+
 ```bash
 python -m frequer forms es --data-dir /big/disk --tokens 50000000 --workers 2 --out-dir out/inventory
 python -m frequer select es --forms out/inventory/forms-es.tsv --lookup lookup.json \
@@ -109,6 +131,25 @@ skips that section and the English-leaning half of the foreign-word signal.
 * `build` merges, ranks, and writes `out/<lang>/<lang>.json` (the snapshot),
   `<lang>.dispersion.json.gz` (sidecar), `<lang>.cooc.tsv.gz` (the association table),
   `<lang>.cooc-queue.tsv` (the labelling queue), `report.md`, `perf.json`.
+
+## Convergence checkpoints
+
+The 2026-11-01 lists feed pre-generation and production testing, so counting stops when more text no longer
+moves the list (`frequer/converge.py`, `frequer/checkpoint.py`). At cumulative 10M, 25M, 50M, 100M tokens and
+every 50M after, the shards counted so far (in the order they finished: the shortest prefix reaching the
+target) are merged and ranked by frequency, and each checkpoint is compared with the previous one for N in
+5k / 10k / 20k / 50k: top-N overlap (share of the previous top N still in the top N), Spearman and median
+|rank shift| over the lemmas in both top-N lists, and the raw frequency and dispersion-adjusted score
+(`f x (1 - DP_norm)`) at rank N.
+
+**Stopping rule:** two consecutive comparisons both with top-20k overlap >= 98 % and top-50k overlap >= 95 %;
+`count --checkpoints` then stops (shards in flight are dropped) and `build` makes the final snapshot from every
+shard counted. Without convergence the manifest runs out and the build is the same.
+
+In `--out-dir`: `convergence.json` / `convergence.md` (every checkpoint, its comparison, the decision),
+`checkpoints/<target>.json.gz` (each checkpoint's top 50k, so comparisons never re-merge), and the latest
+checkpoint snapshot `checkpoint-<target>/<lang>.json` in the loader's format (older ones are removed), loadable
+at any time. `build` adds a `final` row (the build against the last checkpoint) and the table to `report.md`.
 
 ## What a build does
 

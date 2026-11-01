@@ -8,9 +8,11 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from frequer import checks, combos, compare, perf, report, snapshot
+from frequer import checks, combos, compare, converge, perf, report, snapshot
+from frequer.checkpoint import final_record
 from frequer.config import Manifest
 from frequer.counting import peak_rss_mb
+from frequer.counts import iter_counts
 from frequer.hygiene import make_classifier
 from frequer.merge import merge_counts
 from frequer.ranking import SCORES, build_rows, rank_rows
@@ -98,6 +100,9 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
         wf=wf, wordfreq_note=note, foreign=foreign, proper=proper, alts=alts, cooc=cooc,
         live_label=f"the live snapshot (`reference/lemmas/{cfg.code}.json`)",
     )
+    state = final_record(out_dir, ranked, result.merged.tokens, [p.name for _s, p in iter_counts(counts_dir)])
+    if state is not None:
+        text += "\n" + "\n".join(converge.render_table(state)) + "\n"
     report.write(out_dir / "report.md", text)
     timings["report"] = time.perf_counter() - t0
 

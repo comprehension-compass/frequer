@@ -9,6 +9,7 @@ from datetime import date
 from pathlib import Path
 
 from frequer.build import BuildOptions, build_language
+from frequer.checkpoint import run_checkpoints
 from frequer.config import Observed, load_manifest, write_observed
 from frequer.counts import iter_counts, read_shard
 from frequer.forms_run import run_forms
@@ -47,6 +48,13 @@ def main(argv: list[str] | None = None) -> None:
     c.add_argument("--shard-chars", type=int)
     c.add_argument("--max-chars", type=int, help="cap raw characters read per URL")
     c.add_argument("--max-urls", type=int)
+    c.add_argument("--checkpoints", action="store_true",
+                   help="take convergence checkpoints as shards finish and stop when the list has converged")
+    c.add_argument("--out-dir", type=Path, help="where checkpoints go (default out/<lang>; give build the same)")
+    ck = sub.add_parser("checkpoint", help="take the convergence checkpoints that are due; print the decision")
+    _common(ck)
+    ck.add_argument("--out-dir", type=Path)
+    ck.add_argument("--no-snapshot", action="store_true", help="skip the latest checkpoint's snapshot")
     b = sub.add_parser("build", help="merge counts, rank, write snapshot, sidecar and report")
     _common(b)
     _build_args(b)
@@ -98,8 +106,15 @@ def main(argv: list[str] | None = None) -> None:
             limits=lambda n: Limits(max_chars=args.max_chars, max_urls=args.max_urls,
                                     stride=manifest.source(n).stride),
             lemma_dir=args.lemma_dir, wheel=args.wheel,
+            checkpoints_out=(args.out_dir or Path("out") / args.lang) if args.checkpoints else None,
         )
         print(json.dumps(summary, indent=1))
+    elif args.cmd == "checkpoint":
+        dirs = RunDirs(args.data_dir / args.lang)
+        state = run_checkpoints(manifest, dirs.counts, args.out_dir or Path("out") / args.lang,
+                                lemma_dir=args.lemma_dir, wheel=args.wheel, write_snapshot=not args.no_snapshot)
+        print(json.dumps({"decision": state["decision"], "stopped_at": state.get("stopped_at"),
+                          "checkpoints": [c["tokens"] for c in state["checkpoints"]]}))
     elif args.cmd == "build":
         dirs = RunDirs(args.data_dir / args.lang)
         out = args.out_dir or Path("out") / args.lang

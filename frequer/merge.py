@@ -44,8 +44,10 @@ class MergeResult:
     uncounted_occurrences: int
 
 
-def merge_counts(counts_dir: Path, parts: int, candidates: int | None) -> MergeResult:
-    files = list(iter_counts(counts_dir))
+def merge_counts(counts_dir: Path, parts: int, candidates: int | None,
+                 only: set[str] | None = None) -> MergeResult:
+    """Merge every shard file in ``counts_dir`` (or only the file names in ``only``)."""
+    files = [(s, p) for s, p in iter_counts(counts_dir) if only is None or p.name in only]
     if not files:
         raise SystemExit(f"no shard counts in {counts_dir}")
     keep: set[str] | None = None

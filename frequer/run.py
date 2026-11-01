@@ -11,6 +11,8 @@ from __future__ import annotations
 
 import json
 import multiprocessing
+import subprocess
+import sys
 import time
 from collections.abc import Callable
 from concurrent.futures import FIRST_COMPLETED, Future, ProcessPoolExecutor, wait
@@ -55,6 +57,7 @@ def count_language(
     manifest_root: Path | None = None,
     lemma_dir: Path | None = None,
     wheel: Path | None = None,
+    checkpoints_out: Path | None = None,
     log: Callable[[str], None] = print,
 ) -> dict[str, Any]:
     """Count every unfinished shard; returns a run summary (also written to ``run-<ts>.json``)."""
@@ -67,9 +70,31 @@ def count_language(
     results: list[dict[str, Any]] = []
     url_stats: dict[str, dict[str, object]] = {}
     pending: set[Future[dict[str, Any]]] = set()
+    stopped = False
+
+    def checkpoint() -> bool:
+        """Take the due convergence checkpoints in a child process; True when the list has converged."""
+        if checkpoints_out is None:
+            return False
+        cmd = [sys.executable, "-m", "frequer", "checkpoint", lang, "--data-dir", str(dirs.root.parent),
+               "--out-dir", str(checkpoints_out)]
+        if lemma_dir:
+            cmd += ["--lemma-dir", str(lemma_dir)]
+        if wheel:
+            cmd += ["--wheel", str(wheel)]
+        done = subprocess.run(cmd, capture_output=True, text=True)
+        if done.returncode != 0:
+            log(f"checkpoint failed (counting goes on): {done.stderr[-2000:]}")
+            return False
+        for line in done.stdout.splitlines():
+            if line.startswith("checkpoint"):
+                log(line)
+        state = json.loads((checkpoints_out / "convergence.json").read_text(encoding="utf-8")) \
+            if (checkpoints_out / "convergence.json").exists() else {}
+        return bool(state.get("decision") == "stop")
 
     def drain(block: bool) -> None:
-        nonlocal pending
+        nonlocal pending, stopped
         if not pending:
             return
         done, pending = wait(pending, return_when=FIRST_COMPLETED,
@@ -80,6 +105,9 @@ def count_language(
             log(f"counted {res['source']} {res['shard']}: {res['tokens']:,} tokens in "
                 f"{res['seconds']:.0f}s (worker peak {res['rss_mb']:.0f} MB)")
         fold(manifest.cooc.compact_every)
+        if done and not stopped and checkpoint():
+            stopped = True
+            log("converged: stopping (build the final snapshot from what was counted)")
 
     def fold(at_least: int) -> None:
         if manifest.cooc.enabled:
@@ -109,24 +137,36 @@ def count_language(
                 parts=manifest.parts, work_dir=dirs.work, counts_dir=dirs.counts,
                 limits=limits(source.name), classify=classify, url_stats=url_stats,
             )
+            if stopped:
+                break
             for job in jobs:
+                if stopped:
+                    break
                 log(f"cut {job.source} {job.url_index}.{job.shard_index}: {job.lines:,} lines, "
                     f"{job.docs:,} docs, {job.raw_chars / 1e6:.1f}M raw chars, dropped {job.dropped}")
                 if pool is None:
                     results.append(counting.count_shard(job))
                     continue
                 pending.add(pool.submit(counting.count_shard, job))
-                while len(pending) > workers:
+                while len(pending) > workers and not stopped:
                     drain(block=True)
-        while pending:
+        while pending and not stopped:
             drain(block=True)
         fold(1)
     finally:
         if pool is not None:
-            pool.shutdown(wait=True, cancel_futures=True)
+            if stopped:
+                # Converged: shards still in flight are not needed; their workers are stopped.
+                procs = list(getattr(pool, "_processes", {}).values())
+                pool.shutdown(wait=False, cancel_futures=True)
+                for proc in procs:
+                    proc.terminate()
+            else:
+                pool.shutdown(wait=True, cancel_futures=True)
     summary = {
         "language": lang, "workers": workers, "started": started, "wall_seconds": time.time() - started,
         "main_peak_rss_mb": counting.peak_rss_mb(), "shards_counted": len(results), "urls": url_stats,
+        "stopped_by": "convergence" if stopped else None,
     }
     (dirs.root / f"run-{int(started)}.json").write_text(json.dumps(summary, indent=1), encoding="utf-8")
     return summary
