@@ -156,9 +156,9 @@ def site_of(url: str) -> str:
     return host.lower().removeprefix("www.")
 
 
-def _hplt_docs(lines: Iterator[str], source: SourceConfig, stride: int) -> Iterator[RawDoc]:
+def _hplt_docs(lines: Iterator[str], source: SourceConfig, stride: int, offset: int = 0) -> Iterator[RawDoc]:
     for n, raw in enumerate(lines):
-        if stride > 1 and n % stride:
+        if stride > 1 and n % stride != offset:
             continue
         try:
             doc = json.loads(raw)
@@ -176,13 +176,15 @@ def _hplt_docs(lines: Iterator[str], source: SourceConfig, stride: int) -> Itera
             yield RawDoc(doc_id, segments, site_of(str(doc.get("u") or "")) or doc_id)
 
 
-def _tsv_docs(lines: Iterator[bytes], source: SourceConfig, url_index: int, stride: int) -> Iterator[RawDoc]:
+def _tsv_docs(
+    lines: Iterator[bytes], source: SourceConfig, url_index: int, stride: int, offset: int = 0
+) -> Iterator[RawDoc]:
     """Pseudo-documents of ``pseudo_doc_lines`` consecutive lines; a stride skips whole groups unparsed."""
     group: list[str] = []
     index = 0
     size = source.pseudo_doc_lines
     for n, raw in enumerate(lines):
-        if stride > 1 and (n // size) % stride:
+        if stride > 1 and (n // size) % stride != offset:
             continue
         cols = raw.decode("utf-8", errors="replace").rstrip("\n").split("\t")
         if len(cols) <= source.column:
@@ -198,7 +200,7 @@ def _tsv_docs(lines: Iterator[bytes], source: SourceConfig, url_index: int, stri
 
 
 def iter_docs(
-    source: SourceConfig, url_index: int, stream: IO[bytes], stride: int = 1
+    source: SourceConfig, url_index: int, stream: IO[bytes], stride: int = 1, offset: int = 0
 ) -> Iterator[RawDoc]:
     """Documents of one decompressed source stream, in file order.
 
@@ -207,6 +209,6 @@ def iter_docs(
     """
     if source.kind == "hplt":
         text = io.TextIOWrapper(stream, encoding="utf-8", errors="replace", newline="\n")
-        yield from _hplt_docs(iter(text), source, stride)
+        yield from _hplt_docs(iter(text), source, stride, offset)
     else:
-        yield from _tsv_docs(iter(stream), source, url_index, stride)
+        yield from _tsv_docs(iter(stream), source, url_index, stride, offset)

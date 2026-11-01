@@ -8,7 +8,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from frequer import checks, combos, compare, converge, exclude, perf, propn, report, snapshot
+from frequer import checks, combos, compare, converge, exclude, filters, perf, propn, report, snapshot
 from frequer.checkpoint import final_record, mix_of
 from frequer.config import REPO_ROOT, Manifest
 from frequer.counting import peak_rss_mb
@@ -57,22 +57,15 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
             raise SystemExit(f"the installed runtime's {key} differs from the one the shards were counted with")
 
     # The reviewed exclusion list, then the proper-noun rule; ranks reported are those before either.
-    rank_of = {r.lemma: i for i, r in enumerate(ranked, start=1)}
-    exclusions = exclude.load(cfg.code)
-    ranked, dropped = exclude.apply(ranked, lambda r: r.lemma, exclusions)
+    flt = filters.apply(manifest, ranked, runtime.root)
+    ranked, exclusions, dropped, propn_dropped = flt.ranked, flt.exclusions, flt.excluded, flt.propn_dropped
     propn_head: dict[str, Any] = {"rule": "none"}
     propn_text: list[str] = []
-    propn_dropped: list[propn.Dropped] = []
-    if cfg.propn_rule == "capitalised_mid_sentence":
-        learnable = propn.load_names(runtime.root, cfg.code)
-        tally = propn.load_case(cfg.code)
-        ranked, propn_dropped, names_kept, case_kept = propn.apply(
-            ranked, lambda r: r.lemma, lambda r: snapshot.majority(r.stats.pos, "X"), lambda r: r.stats.forms,
-            learnable, tally, cfg.propn_capitalised_min, rank_of)
-        propn_head = propn.header_entry(learnable, tally, cfg.propn_capitalised_min, propn_dropped, names_kept,
-                                        case_kept, top_n, runtime.root, REPO_ROOT)
-        propn_text = propn.render(learnable, tally, cfg.propn_capitalised_min, propn_dropped, names_kept,
-                                  case_kept, top_n)
+    if flt.learnable is not None and flt.tally is not None:
+        propn_head = propn.header_entry(flt.learnable, flt.tally, cfg.propn_capitalised_min, propn_dropped,
+                                        flt.names_kept, flt.case_kept, top_n, runtime.root, REPO_ROOT)
+        propn_text = propn.render(flt.learnable, flt.tally, cfg.propn_capitalised_min, propn_dropped,
+                                  flt.names_kept, flt.case_kept, top_n)
 
     t0 = time.perf_counter()
     head = snapshot.header(result, manifest, opts.score, weights, opts.scope)

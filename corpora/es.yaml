@@ -40,6 +40,9 @@ sources:
     pseudo_doc_lines: 50
     shard_chars: 20000000
     stride: 28
+    # 2026-11-01 extension (README §Distributed counting): ten disjoint stride-28 passes as virtual URLs
+    # (offset 0 is the pass counted first); `count --part i/5` reads offsets i and i+5.
+    stride_offsets: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
   - name: tatoeba-spa
     first: true  # counted before the web: every checkpoint holds it whole
     kind: tsv

@@ -192,6 +192,15 @@ Shards that arrive together (one fetch from several parts) make one checkpoint, 
 can cover more than one shard. Split-half deals that prefix alternately into the two halves within each source,
 in arrival order, exactly as on one machine.
 
+**One stream, several parts.** A single-URL source read at a stride (ParaCrawl) can list `stride_offsets`:
+each offset is a virtual URL (index k reads the pseudo-documents `n` with `n % stride == stride_offsets[k]`), so
+`--part i/N` splits the offsets between machines. The passes never overlap, and offset 0 is the pass a plain
+stride reads, so shards already counted keep their names. The es extension lists offsets 0-9.
+
+**Convergence on the filtered list.** Checkpoints rank through `frequer/filters.py`, the exclusion list and
+the language's proper-noun rule, the same step `build` applies. The split-half rule therefore judges the list
+the snapshot will hold.
+
 **Co-occurrence** comes from the coordinator's part only: the per-shard files are tens of MB, too big to ship
 through git. The association table is self-consistent over what it counts (its marginals and `N` come from
 the same files); its header's totals say how much that was.
