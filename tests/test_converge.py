@@ -2,6 +2,11 @@
 
 from __future__ import annotations
 
+import json
+from pathlib import Path
+
+from frequer.checkpoint import mix_of
+from frequer.config import load_manifest
 from frequer.converge import Ranked, compare, due, meets, should_stop
 
 
@@ -45,3 +50,15 @@ def test_due_takes_the_shortest_prefix_reaching_each_target() -> None:
     # 12M reaches 10M; 42M reaches 25M (not 50M).
     assert got == [(10_000_000, ["s1", "s2"]), (25_000_000, ["s1", "s2", "s3"])]
     assert due(shards, done={10_000_000}) == [(25_000_000, ["s1", "s2", "s3"])]
+
+
+def test_mix_needs_every_first_source_whole_and_every_other_source(tmp_path: Path) -> None:
+    manifest = load_manifest("ja")
+    web = ["hplt-v2-ja.00.00000.json.gz", "hplt-v2-ja.01.00000.json.gz"]
+    assert mix_of(manifest, tmp_path, web) == "web only"
+    (tmp_path / "tatoeba-jpn.00.done.json").write_text(json.dumps({"shards": 2}))
+    one = [*web, "tatoeba-jpn.00.00000.json.gz"]
+    assert mix_of(manifest, tmp_path, one).startswith("partial")
+    assert mix_of(manifest, tmp_path, [*one, "tatoeba-jpn.00.00001.json.gz"]) == "full"
+    assert mix_of(manifest, tmp_path, ["tatoeba-jpn.00.00000.json.gz", "tatoeba-jpn.00.00001.json.gz"]) \
+        == "partial (lacks hplt-v2-ja)"

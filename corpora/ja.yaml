@@ -58,6 +58,7 @@ sources:
     # URL (~225M tokens, ~57 core-hours) did not fit the 2026-11 deadline (2026-11-01 full run).
     max_chars_per_url: 15000000
   - name: tatoeba-jpn
+    first: true  # counted before the web: every checkpoint holds it whole
     kind: tsv
     licence: CC-BY-2.0-FR
     licence_url: https://tatoeba.org/en/terms_of_use

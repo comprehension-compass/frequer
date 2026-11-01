@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Any
 
 from frequer import checks, combos, compare, converge, perf, report, snapshot
-from frequer.checkpoint import final_record
+from frequer.checkpoint import final_record, mix_of
 from frequer.config import Manifest
 from frequer.counting import peak_rss_mb
 from frequer.counts import iter_counts
@@ -100,7 +100,10 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
         wf=wf, wordfreq_note=note, foreign=foreign, proper=proper, alts=alts, cooc=cooc,
         live_label=f"the live snapshot (`reference/lemmas/{cfg.code}.json`)",
     )
-    state = final_record(out_dir, ranked, result.merged.tokens, [p.name for _s, p in iter_counts(counts_dir)])
+    names = [p.name for _s, p in iter_counts(counts_dir)]
+    state = final_record(out_dir, ranked, result.merged.tokens, names,
+                         mix=mix_of(manifest, counts_dir.parent / "work", names),
+                         sources={name: t.tokens for name, t in result.sources.items()})
     if state is not None:
         text += "\n" + "\n".join(converge.render_table(state)) + "\n"
     report.write(out_dir / "report.md", text)

@@ -53,6 +53,7 @@ sources:
     # de_core_news_sm parse in segment) did not fit the 2026-11 deadline (2026-11-01 full run).
     max_chars_per_url: 95000000
   - name: tatoeba-deu
+    first: true  # counted before the web: every checkpoint holds it whole
     kind: tsv
     licence: CC-BY-2.0-FR
     licence_url: https://tatoeba.org/en/terms_of_use

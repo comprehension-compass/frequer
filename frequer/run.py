@@ -14,16 +14,16 @@ import multiprocessing
 import subprocess
 import sys
 import time
-from collections.abc import Callable
+from collections.abc import Callable, Iterable, Iterator
 from concurrent.futures import FIRST_COMPLETED, Future, ProcessPoolExecutor, wait
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from pathlib import Path
 from typing import Any
 
 from frequer import combos, counting
 from frequer.config import Manifest
 from frequer.hygiene import make_classifier
-from frequer.shards import Limits, produce_shards
+from frequer.shards import Limits, ShardJob, produce_shards
 
 #: Shards a worker counts before it is replaced by a fresh process (bounded memory on long runs).
 RECYCLE_AFTER = 12
@@ -44,6 +44,28 @@ class RunDirs:
     def make(self) -> None:
         self.work.mkdir(parents=True, exist_ok=True)
         self.counts.mkdir(parents=True, exist_ok=True)
+
+
+def _url_indices(urls: list[str], limits: Limits) -> list[int]:
+    count = min(len(urls), limits.max_urls) if limits.max_urls else len(urls)
+    return [k for k in range(count) if limits.url_indices is None or k in limits.url_indices]
+
+
+def _round_robin(streams: Iterable[Iterator[ShardJob]]) -> Iterator[ShardJob]:
+    """One shard from each URL in turn, so a run stopped early holds every URL's share.
+
+    Each URL's stream stays open between its turns (a dropped connection resumes with
+    a ``Range`` request, :class:`frequer.sources.HttpStream`).
+    """
+    active = list(streams)
+    while active:
+        still: list[Iterator[ShardJob]] = []
+        for stream in active:
+            job = next(stream, None)
+            if job is not None:
+                yield job
+                still.append(stream)
+        active = still
 
 
 def count_language(
@@ -127,18 +149,23 @@ def count_language(
     else:
         counting.init_worker(*init_args)
     try:
-        for source in manifest.sources:
+        # Small ``first`` sources (Tatoeba) before the web, so every checkpoint holds them whole.
+        for source in sorted(manifest.sources, key=lambda s: not s.first):
+            if stopped:
+                break
             if sources and source.name not in sources:
                 continue
             if shard_chars:
                 source = source.model_copy(update={"shard_chars": shard_chars})
-            jobs = produce_shards(
-                lang=lang, source=source, hygiene=manifest.hygiene_for(source),
-                parts=manifest.parts, work_dir=dirs.work, counts_dir=dirs.counts,
-                limits=limits(source.name), classify=classify, url_stats=url_stats,
+            lim = limits(source.name)
+            jobs = _round_robin(
+                produce_shards(
+                    lang=lang, source=source, hygiene=manifest.hygiene_for(source),
+                    parts=manifest.parts, work_dir=dirs.work, counts_dir=dirs.counts,
+                    limits=replace(lim, url_indices=(k,)), classify=classify, url_stats=url_stats,
+                )
+                for k in _url_indices(source.urls, lim)
             )
-            if stopped:
-                break
             for job in jobs:
                 if stopped:
                     break

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 from collections.abc import Callable
 from pathlib import Path
 from typing import Any
@@ -21,17 +22,47 @@ def ranked_of(rows: list[Row], tokens: int, shards: list[str]) -> Ranked:
                   freq=tuple(r.stats.freq for r in head), dp=tuple(r.scores["dp_adjusted"] for r in head))
 
 
-def record(target: int | str, r: Ranked, prev: Ranked | None) -> dict[str, Any]:
+def mix_of(manifest: Manifest, work_dir: Path, names: list[str]) -> str:
+    """``full`` when the shards ``names`` hold every ``first`` source whole and every other
+    source at least once; otherwise what is missing (``web only``: no ``first`` source yet)."""
+    held: dict[tuple[str, int], int] = {}
+    for name in names:
+        src, url, _shard, *_ = name.split(".")
+        held[(src, int(url))] = held.get((src, int(url)), 0) + 1
+    missing: list[str] = []
+    for source in manifest.sources:
+        if source.first:
+            for k in range(len(source.urls)):
+                marker = work_dir / f"{source.name}.{k:02d}.done.json"
+                cut = json.loads(marker.read_text(encoding="utf-8"))["shards"] if marker.exists() else None
+                if cut is None or held.get((source.name, k), 0) < cut:
+                    missing.append(source.name)
+                    break
+        elif not any(src == source.name for src, _k in held):
+            missing.append(source.name)
+    if not missing:
+        return "full"
+    firsts = {s.name for s in manifest.sources if s.first}
+    if all(m in firsts for m in missing) and not any(src in firsts for src, _k in held):
+        return "web only"
+    return "partial (lacks " + ", ".join(missing) + ")"
+
+
+def record(target: int | str, r: Ranked, prev: Ranked | None, *, mix: str, judged: bool,
+           sources: dict[str, int]) -> dict[str, Any]:
     return {
-        "target": target, "tokens": r.tokens, "shards": len(r.shards),
+        "target": target, "tokens": r.tokens, "shards": len(r.shards), "mix": mix, "sources": sources,
         "freq_at": {str(n): r.freq[n - 1] for n in converge.BANDS if len(r.freq) >= n},
         "dp_at": {str(n): round(r.dp[n - 1], 2) for n in converge.BANDS if len(r.dp) >= n},
         "comparison": converge.compare(prev, r) if prev is not None else None,
+        # Only a full-mix checkpoint compared with a full-mix one counts for the stopping rule.
+        "judged": judged,
     }
 
 
-def previous(out_dir: Path, state: dict[str, Any]) -> Ranked | None:
-    numbered = [c for c in state["checkpoints"] if isinstance(c["target"], int)]
+def previous(out_dir: Path, state: dict[str, Any], *, full_only: bool = False) -> Ranked | None:
+    numbered = [c for c in state["checkpoints"] if isinstance(c["target"], int)
+                and (not full_only or c.get("mix") == "full")]
     if not numbered:
         return None
     return converge.load_ranked(out_dir / "checkpoints" / f"{numbered[-1]['target']}.json.gz")
@@ -39,7 +70,7 @@ def previous(out_dir: Path, state: dict[str, Any]) -> Ranked | None:
 
 def decide(state: dict[str, Any]) -> None:
     comparisons = [c["comparison"] for c in state["checkpoints"]
-                   if isinstance(c["target"], int) and c["comparison"]]
+                   if isinstance(c["target"], int) and c.get("judged") and c["comparison"]]
     if converge.should_stop(comparisons) and state.get("decision") != "stop":
         state["decision"] = "stop"
         state["stopped_at"] = state["checkpoints"][-1]["tokens"]
@@ -68,7 +99,11 @@ def run_checkpoints(
         ranked = rank_rows(build_rows(result.merged, weights), "frequency")
         r = ranked_of(ranked, result.merged.tokens, names)
         converge.save_ranked(out_dir / "checkpoints" / f"{target}.json.gz", r)
-        rec = record(target, r, previous(out_dir, state))
+        mix = mix_of(manifest, counts_dir.parent / "work", names)
+        prev_full = previous(out_dir, state, full_only=True) if mix == "full" else None
+        prev = prev_full or previous(out_dir, state)
+        rec = record(target, r, prev, mix=mix, judged=prev_full is not None,
+                     sources={name: t.tokens for name, t in result.sources.items()})
         state["checkpoints"].append(rec)
         overlap = (rec["comparison"] or {}).get("bands", {})
         log(f"checkpoint {target:,}: {r.tokens:,} tokens, {len(names)} shards; overlap "
@@ -92,7 +127,8 @@ def run_checkpoints(
     return state
 
 
-def final_record(out_dir: Path, ranked: list[Row], tokens: int, shards: list[str]) -> dict[str, Any] | None:
+def final_record(out_dir: Path, ranked: list[Row], tokens: int, shards: list[str], *, mix: str,
+                 sources: dict[str, int]) -> dict[str, Any] | None:
     """Add the final build to the convergence table (compared with the last checkpoint)."""
     state = converge.load_state(out_dir)
     if not state["checkpoints"]:
@@ -102,7 +138,8 @@ def final_record(out_dir: Path, ranked: list[Row], tokens: int, shards: list[str
     if prev is not None and prev.tokens == tokens:
         converge.write_state(out_dir, state)
         return state
-    state["checkpoints"].append(record("final", ranked_of(ranked, tokens, shards), prev))
+    state["checkpoints"].append(record("final", ranked_of(ranked, tokens, shards), prev, mix=mix,
+                                       judged=False, sources=sources))
     if state.get("decision") != "stop":
         state["decision"] = "built from everything counted (stopping rule not met)"
         state["stopped_at"] = tokens

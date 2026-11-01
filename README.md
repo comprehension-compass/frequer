@@ -142,7 +142,16 @@ target) are merged and ranked by frequency, and each checkpoint is compared with
 |rank shift| over the lemmas in both top-N lists, and the raw frequency and dispersion-adjusted score
 (`f x (1 - DP_norm)`) at rank N.
 
-**Stopping rule:** two consecutive comparisons both with top-20k overlap >= 98 % and top-50k overlap >= 95 %;
+**Source mix.** `count` cuts the small `first: true` sources (the Tatoeba top-ups) before the web, and the
+URLs of a multi-URL source round-robin, one shard from each in turn (each stream stays open between turns and
+resumes with `Range`), so a run stopped early holds every source and every URL's share. A single sequential
+stream (ParaCrawl at a stride) is still read in file order: size its `stride` for the token count you expect
+to stop at if the whole file should be spanned. Each checkpoint records its per-source tokens and its `mix`:
+`full` (every `first` source whole, every other source present), `web only` (no `first` source yet) or
+`partial (lacks ...)`.
+
+**Stopping rule:** two consecutive comparisons both with top-20k overlap >= 98 % and top-50k overlap >= 95 %,
+judged only on full-mix checkpoints, each compared with the previous full-mix checkpoint;
 `count --checkpoints` then stops (shards in flight are dropped) and `build` makes the final snapshot from every
 shard counted. Without convergence the manifest runs out and the build is the same.
 

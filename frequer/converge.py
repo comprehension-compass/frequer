@@ -190,8 +190,10 @@ def render_table(state: dict[str, Any]) -> list[str]:
            "with the previous one. Overlap: share of the previous top N still in the top N; Spearman and "
            "median |rank shift| over the lemmas in both; f@N and dp@N: raw frequency and dispersion-adjusted "
            "score (`f x (1 - DP_norm)`) of the lemma at rank N. Stopping rule: two consecutive checkpoints with "
-           f"top-20k overlap >= {STOP_OVERLAP[20_000]:.0%} and top-50k overlap >= {STOP_OVERLAP[50_000]:.0%}.", ""]
-    cols = ["tokens"]
+           f"top-20k overlap >= {STOP_OVERLAP[20_000]:.0%} and top-50k overlap >= {STOP_OVERLAP[50_000]:.0%}, judged "
+           "only on full-mix checkpoints (every `first` source whole, every other source present) compared with "
+           "the previous full-mix one; `web only` rows lack the Tatoeba top-up.", ""]
+    cols = ["tokens", "mix", "per source"]
     for n in BANDS:
         k = f"{n // 1000}k"
         cols += [f"{k} overlap", f"{k} rho", f"{k} med shift", f"f@{k}", f"dp@{k}"]
@@ -201,7 +203,9 @@ def render_table(state: dict[str, Any]) -> list[str]:
         return "-" if x is None else format(x, fmt)
 
     for ck in state["checkpoints"]:
-        row = [f"{ck['tokens']:,}"]
+        mix = ck.get("mix", "-") + ("" if ck.get("judged") or ck["target"] == "final" or not ck.get("comparison")
+                                    else " (not judged)")
+        row = [f"{ck['tokens']:,}", mix, ", ".join(f"{k} {v:,}" for k, v in ck.get("sources", {}).items())]
         cmp_ = ck.get("comparison")
         for n in BANDS:
             band = (cmp_ or {}).get("bands", {}).get(str(n), {})

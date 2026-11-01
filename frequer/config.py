@@ -99,6 +99,9 @@ class SourceConfig(Strict):
     #: Weight of this source's frequency in ranking scores (the blend knob).
     weight: float = 1.0
     hygiene: Hygiene | None = None
+    #: Count this (small) source before the others, so every convergence checkpoint holds it
+    #: whole and a run that stops early never leaves it out (the Tatoeba top-ups).
+    first: bool = False
 
 
 class PilotConfig(Strict):
