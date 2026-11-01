@@ -46,6 +46,16 @@ class RunDirs:
         self.counts.mkdir(parents=True, exist_ok=True)
 
 
+def parse_part(text: str) -> tuple[int, int]:
+    """``i/N`` -> ``(i, N)``: this machine counts the URLs ``k`` with ``k % N == i`` of every
+    source, and part 0 also counts every ``first`` source. Disjoint, deterministic, and each
+    shard's name (source, URL, shard index) is the same whichever machine cuts it."""
+    i, n = (int(x) for x in text.split("/"))
+    if not 0 <= i < n:
+        raise SystemExit(f"--part {text}: need 0 <= i < N")
+    return i, n
+
+
 def _url_indices(urls: list[str], limits: Limits) -> list[int]:
     count = min(len(urls), limits.max_urls) if limits.max_urls else len(urls)
     return [k for k in range(count) if limits.url_indices is None or k in limits.url_indices]
@@ -80,13 +90,14 @@ def count_language(
     lemma_dir: Path | None = None,
     wheel: Path | None = None,
     checkpoints_out: Path | None = None,
+    part: tuple[int, int] | None = None,
     log: Callable[[str], None] = print,
 ) -> dict[str, Any]:
     """Count every unfinished shard; returns a run summary (also written to ``run-<ts>.json``)."""
     dirs.make()
     lang = manifest.language.code
     init_args = (lang, str(manifest_root) if manifest_root else None,
-                 str(lemma_dir) if lemma_dir else None, str(wheel) if wheel else None)
+                 str(lemma_dir) if lemma_dir else None, str(wheel) if wheel else None, manifest.cooc.enabled)
     classify = make_classifier()
     started = time.time()
     results: list[dict[str, Any]] = []
@@ -155,6 +166,8 @@ def count_language(
                 break
             if sources and source.name not in sources:
                 continue
+            if part is not None and source.first and part[0] != 0:
+                continue  # the first sources are part 0's (the coordinator's)
             if shard_chars:
                 source = source.model_copy(update={"shard_chars": shard_chars})
             lim = limits(source.name)
@@ -165,6 +178,7 @@ def count_language(
                     limits=replace(lim, url_indices=(k,)), classify=classify, url_stats=url_stats,
                 )
                 for k in _url_indices(source.urls, lim)
+                if part is None or source.first or k % part[1] == part[0]
             )
             for job in jobs:
                 if stopped:

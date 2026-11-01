@@ -8,7 +8,8 @@ Spanish-only `frequer` rewritten per `docs/plans/custom-lemmatisers-and-units.md
 
 Nothing here lemmatises on its own. Every sentence is counted through **the
 runtime**: the production backend segments it, and the production sentence stage
-(`nlp.sentence_stage.analyse_sentence`, the function the article pipeline runs)
+(`nlp.sentence_stage.analysed_sentences`, the batched core the article pipeline runs; a
+shard's lines are one stream, so each model runs once per batch of 64 sentences)
 tokenizes it, asks the language's `honeyeater-lemma-<lang>` release for a lemma and
 UPOS per token and for its units, spells numbers out, and merges the units into
 occurrences. frequer only hands the stage the release: where the app fetches the
@@ -163,6 +164,37 @@ source present), `web only` (no `first` source yet) or `partial (lacks ...)`; on
 In `--out-dir`: `convergence.json` / `convergence.md`, `checkpoints/<tokens>.json.gz` (each checkpoint's top
 50k), and the latest checkpoint snapshot `checkpoint-<tokens>/<lang>.json` in the loader's format (older ones
 are removed), loadable at any time. `report.md` carries the same tables.
+
+## Distributed counting
+
+A run too big for one machine is split into parts: `count --part i/N` counts the URLs `k` with
+`k % N == i` of every source, and part 0 (the **coordinator**) also counts every `first` source (Tatoeba).
+The partition is disjoint and deterministic, and a shard's name (source, URL, shard index) and content are the
+same whichever machine cuts it. Every part must count through the same honeyeater commit, lemma wheel and
+frequer manifests (the merge refuses shards whose runtime or hygiene configuration differ).
+
+* **Remote parts** run `scripts/remote-part.sh <lang> <i/N> <workers>` (with `HONEYEATER=` a honeyeater clone):
+  it pins the runtime worktree, installs the wheel from the `<lang>-shards-setup` branch (checked against its
+  sha256), counts with `--no-cooc`, and runs `frequer ship`, which pushes each finished counts file (a few MB;
+  never corpus text or credentials) to the part's own branch `<lang>-shards-p<i>` under `shards/<lang>/`,
+  marks the part `DONE-p<i>` when its pass completes, and stops the count when the branch `<lang>-shards-stop`
+  appears. Rerunning the script resumes.
+* **The coordinator** runs its own part (`count --part 0/N`, with co-occurrence) and `frequer coordinate <lang>
+  --parts N --repo <scratch clone> --out-dir out/<lang> --local-pid <its count's pid>`: it fetches every
+  `<lang>-shards-p*` branch, copies new counts files into its counts directory, takes the checkpoints, and on
+  convergence pushes `<lang>-shards-stop` and stops its own count. It ends on convergence or when every part
+  is done. Then `build` as usual, and `coordinate --cleanup` deletes the shard branches (a git proxy may refuse;
+  the result lists what is left to delete by hand).
+
+**Checkpoint order.** A shard enters the checkpoints when it reaches the coordinator's counts directory (its
+arrival time); each checkpoint is a prefix of that arrival order, recorded in `checkpoints/<tokens>.json.gz`.
+Shards that arrive together (one fetch from several parts) make one checkpoint, the newest prefix, so a row
+can cover more than one shard. Split-half deals that prefix alternately into the two halves within each source,
+in arrival order, exactly as on one machine.
+
+**Co-occurrence** comes from the coordinator's part only: the per-shard files are tens of MB, too big to ship
+through git. The association table is self-consistent over what it counts (its marginals and `N` come from
+the same files); its header's totals say how much that was.
 
 ## What a build does
 

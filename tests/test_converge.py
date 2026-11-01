@@ -47,6 +47,7 @@ def test_due_takes_a_checkpoint_after_every_shard() -> None:
     shards = [("s1", 6, 1.0), ("s2", 6, 2.0), ("s3", 30, 3.0)]
     assert due(shards, done=set()) == [(6, ["s1"]), (12, ["s1", "s2"]), (42, ["s1", "s2", "s3"])]
     assert due(shards, done={6, 12}) == [(42, ["s1", "s2", "s3"])]
+    assert due(shards, done={12}) == [(42, ["s1", "s2", "s3"])]  # never back-fills behind the last
 
 
 def test_mix_needs_every_first_source_whole_and_every_other_source(tmp_path: Path) -> None:

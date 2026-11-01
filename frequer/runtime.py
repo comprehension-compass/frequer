@@ -1,8 +1,8 @@
 """The Honeyeater runtime, loaded outside the app: the one counting path.
 
 Every sentence goes through the production sentence stage,
-:func:`nlp.sentence_stage.analyse_sentence` — the function the article pipeline
-runs: tokenize, the backend's candidates, the language's lemma release
+:func:`nlp.sentence_stage.analysed_sentences` — the batched core the article pipeline
+runs (each model once per batch of sentences): tokenize, the backend's candidates, the language's lemma release
 (lemma + UPOS for every token, and its units), numbers spelled out, the
 release's units merged into occurrences. frequer supplies only the release:
 the app fetches the pinned wheel from R2 (:func:`nlp.lemma_releases.lemmatiser_for`),
@@ -32,7 +32,7 @@ import os
 import re
 import subprocess
 import time
-from collections.abc import Callable, Iterator, Sequence
+from collections.abc import Callable, Iterable, Iterator, Sequence
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
@@ -42,6 +42,8 @@ from frequer.config import LanguageConfig, sha256_file
 SKIP_LEMMAS = frozenset({"_", "~", ""})
 #: Unit types the app counts apart from words (plan §3.6: "combinations").
 COMBINATIONS = frozenset({"phrase", "construction"})
+#: Sentences per batch of the sentence stage (each model runs once per batch).
+BATCH_SIZE = 64
 
 
 @dataclass(frozen=True)
@@ -191,7 +193,6 @@ class Runtime:
 
         stage.lemmatiser_for = ours
         releases.lemmatiser_for = ours
-        self._analyse = stage.analyse_sentence
         override_file = self.root / "reference" / "lemma-overrides" / f"{language.code}.json"
         commit, dirty = git_head(self.root)
         meta = json.loads((release_dir / "release.json").read_text(encoding="utf-8"))
@@ -215,33 +216,77 @@ class Runtime:
 
     def sentences(self, text: str, clock: Callable[[str, float], None] | None = None) -> Iterator[AnalysedSentence]:
         """Segment ``text`` and run each sentence through the production sentence stage."""
+        return (sentence for _key, sentence in self.sentences_many([(0, text)], clock))
+
+    def sentences_many[K](
+        self,
+        items: Iterable[tuple[K, str]],
+        clock: Callable[[str, float], None] | None = None,
+        *,
+        batch_size: int = BATCH_SIZE,
+    ) -> Iterator[tuple[K, AnalysedSentence]]:
+        """Each ``(key, text)`` segmented and analysed through the batched sentence stage.
+
+        The texts' sentences are one lazy stream (memory is one batch), so a batch spans
+        lines and documents; a sentence's analysis never depends on its batch
+        (``nlp.sentence_stage.analysed_sentences``). Yields ``(key, sentence)`` in order,
+        a sentence per result, none for a sentence the release did not answer.
+        """
+        import nlp.sentence_stage as stage
+
         tick = clock or (lambda _stage, _secs: None)
-        t0 = time.perf_counter()
-        segments = self.backend.segment(text, paragraph_index=0, char_offset=0)
-        tick("segment", time.perf_counter() - t0)
         rec = self.lemmatiser
-        for sentence in segments:
-            out: list[Any] = []
-            inventory: dict[str, Any] = {}
-            keys: dict[tuple[int, str, int], str] = {}
-            groups: dict[tuple[int, str, int], tuple[int, ...]] = {}
-            rec.last = None
-            lemma_s, units_s = rec.seconds, rec.unit_seconds
+        segment_secs = 0.0
+
+        def stream() -> Iterator[tuple[K, Any]]:
+            nonlocal segment_secs
+            for key, text in items:
+                t0 = time.perf_counter()
+                segments = self.backend.segment(text, paragraph_index=0, char_offset=0)
+                segment_secs += time.perf_counter() - t0
+                for sentence in segments:
+                    yield key, sentence
+
+        results = stage.analysed_sentences(self.backend, stream(), batch_size=batch_size)
+        while True:
+            lemma0, units0, segment0 = rec.seconds, rec.unit_seconds, segment_secs
             t0 = time.perf_counter()
-            self._analyse(
-                backend=self.backend, sentence_out=out, sentence=sentence, text_key=(0, ""),
-                overrides={}, inventory=inventory, token_keys=keys,
-                token_readings={}, position_base=0, phrase_groups=groups,
-            )
+            found = next(results, None)
             total = time.perf_counter() - t0
-            units = rec.unit_seconds - units_s
-            lemma = rec.seconds - lemma_s - units
-            tick("sentence_stage", total - lemma - units)
+            units = rec.unit_seconds - units0
+            lemma = rec.seconds - lemma0 - units
+            segment = segment_secs - segment0
+            if found is None:
+                break
+            key, analysis = found
+            t1 = time.perf_counter()
+            sentence = self._record(analysis)
+            total += time.perf_counter() - t1
+            tick("segment", segment)
+            tick("sentence_stage", total - segment - lemma - units)
             tick("lemma_step", lemma)
             tick("units", units)
-            if rec.last is None or not out:
-                continue
-            yield self._assemble(out[0].tokens, inventory, keys, groups, rec.last)
+            if sentence is not None:
+                yield key, sentence
+
+    def _record(self, analysis: Any) -> AnalysedSentence | None:
+        """One analysed sentence as the counting view; None when it has no release answer."""
+        import nlp.sentence_stage as stage
+
+        if analysis.release is None:
+            return None
+        out: list[Any] = []
+        inventory: dict[str, Any] = {}
+        keys: dict[tuple[int, str, int], str] = {}
+        groups: dict[tuple[int, str, int], tuple[int, ...]] = {}
+        stage.record_sentence(
+            analysis, sentence_out=out, text_key=(0, ""), overrides={}, inventory=inventory,
+            token_keys=keys, token_readings={}, position_base=0, phrase_groups=groups,
+        )
+        if not out:
+            return None
+        words = [t.text for t in analysis.tokens if not t.is_space]
+        return self._assemble(out[0].tokens, inventory, keys, groups, (words, analysis.release))
 
     def _assemble(
         self,
@@ -399,32 +444,31 @@ def pair_windows(reflexive_reach: int, particle_pairs: bool) -> dict[int, float]
 
 
 def _recording(code: str, pin: Any, release: Any) -> Any:
-    """A ``SentenceLemmatiser`` that keeps its last answer and times itself and its units."""
+    """A ``SentenceLemmatiser`` that times its batches and, apart, its unit detector."""
     from nlp.lemma_releases import SentenceLemmatiser
 
     class Recording(SentenceLemmatiser):  # type: ignore[misc]  # nlp.* is untyped from here
-        last: tuple[list[str], Any] | None = None
         seconds = 0.0
         unit_seconds = 0.0
 
-        def __call__(self, words: Sequence[str], spaces: Sequence[bool], backend: Sequence[str | None]) -> Any:
+        def analyse_many(self, requests: Sequence[Any]) -> Any:
             t0 = time.perf_counter()
-            analysis = super().__call__(words, spaces, backend)
-            self.seconds += time.perf_counter() - t0
-            self.last = (list(words), analysis)
-            return analysis
+            try:
+                return super().analyse_many(requests)
+            finally:
+                self.seconds += time.perf_counter() - t0
 
     rec = Recording(code, pin, release)
     units = release.units
     if units is not None:
-        find = units.find
+        find_many = units.find_many
 
-        def timed(words: Sequence[str], lemmas: Sequence[str], upos: Sequence[str]) -> Any:
+        def timed(sentences: Sequence[Any]) -> Any:
             t0 = time.perf_counter()
             try:
-                return find(words, lemmas, upos)
+                return find_many(sentences)
             finally:
                 rec.unit_seconds += time.perf_counter() - t0
 
-        units.find = timed  # an instance attribute: the class's method is untouched
+        units.find_many = timed  # an instance attribute: the class's method is untouched
     return rec

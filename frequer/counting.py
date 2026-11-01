@@ -6,6 +6,7 @@ import gzip
 import resource
 import time
 from collections import Counter
+from collections.abc import Iterator
 from dataclasses import asdict
 from itertools import groupby
 from pathlib import Path
@@ -22,11 +23,13 @@ _STATE: dict[str, Any] = {}
 
 
 def init_worker(lang: str, manifest_root: str | None, lemma_dir: str | None,
-                wheel: str | None) -> None:
+                wheel: str | None, cooc: bool = True) -> None:
     """Per-process setup: load the runtime once, reuse it for every shard."""
     from frequer.config import MANIFEST_DIR, load_manifest
 
     manifest = load_manifest(lang, Path(manifest_root) if manifest_root else MANIFEST_DIR)
+    if not cooc:
+        manifest = manifest.model_copy(update={"cooc": manifest.cooc.model_copy(update={"enabled": False})})
     _STATE["manifest"] = manifest
     _STATE["runtime"] = Runtime(
         manifest.language,
@@ -61,47 +64,67 @@ def count_rows(
     acc = ShardAccumulator(manifest.parts)
     kinds: Counter[str] = Counter()
     sentences = host_tokens = skipped = 0
-    for _doc, group in groupby(rows, key=lambda r: r[0]):
-        batch = list(group)
-        part = batch[0][1]
-        local: Counter[str] = Counter()
-        doc_units: set[str] = set()
-        for _d, _p, line in batch:
-            for sent in runtime.sentences(line, clock):
-                sentences += 1
-                t0 = time.perf_counter()
-                for occ in sent.occurrences:
-                    if occ.host:
-                        host_tokens += 1
-                        if lang.host_tokens == "skip":
-                            continue
-                    key = runtime.key(occ.lemma, occ.kind)
-                    if key is None:
-                        skipped += 1
-                        continue
-                    kinds[occ.kind] += 1
-                    local[key] += 1
-                    acc.kinds[(key, occ.kind)] += 1
-                    acc.forms[(key, occ.surface.lower() if lang.lowercase_forms else occ.surface)] += 1
-                    acc.pos[(key, occ.pos)] += 1
-                    if lang.readings and occ.reading:
-                        acc.readings[(key, occ.reading)] += 1
-                        acc.reading_source.setdefault((key, occ.reading), occ.reading_source or "dictionary")
-                for unit in sent.units or ():
-                    name = f"{unit.type}\t{unit.lemma}"
-                    acc.units.setdefault(name, [0, 0])[0] += 1
-                    doc_units.add(name)
-                clock("count", time.perf_counter() - t0)
-                if cooc is not None:
-                    t0 = time.perf_counter()
-                    cooc.add_sentence(runtime.cooc_keys(sent), sent.upos, runtime.pair_spans(sent),
-                                     runtime.unit_tokens(sent))
-                    clock("cooc", time.perf_counter() - t0)
+    # The whole shard is one stream of lines keyed by (document number, part), so a batch
+    # spans lines and documents; a document is closed when the key moves on (or the stream
+    # ends), and one with no sentences is still added.
+    parts: list[int] = []
+
+    def lines() -> Iterator[tuple[tuple[int, int], str]]:
+        for number, (_doc, group) in enumerate(groupby(rows, key=lambda r: r[0])):
+            for _d, part, line in group:
+                if len(parts) == number:
+                    parts.append(part)
+                yield (number, parts[number]), line
+
+    open_doc = 0
+    local: Counter[str] = Counter()
+    doc_units: set[str] = set()
+
+    def close_document() -> None:
+        nonlocal local, doc_units
         for unit in doc_units:
             acc.units[unit][1] += 1
-        acc.add_document(part, local)
+        acc.add_document(parts[open_doc], local)
         if cooc is not None:
             cooc.end_document()
+        local, doc_units = Counter(), set()
+
+    for (number, _part), sent in runtime.sentences_many(lines(), clock):
+        while open_doc < number:
+            close_document()
+            open_doc += 1
+        sentences += 1
+        t0 = time.perf_counter()
+        for occ in sent.occurrences:
+            if occ.host:
+                host_tokens += 1
+                if lang.host_tokens == "skip":
+                    continue
+            key = runtime.key(occ.lemma, occ.kind)
+            if key is None:
+                skipped += 1
+                continue
+            kinds[occ.kind] += 1
+            local[key] += 1
+            acc.kinds[(key, occ.kind)] += 1
+            acc.forms[(key, occ.surface.lower() if lang.lowercase_forms else occ.surface)] += 1
+            acc.pos[(key, occ.pos)] += 1
+            if lang.readings and occ.reading:
+                acc.readings[(key, occ.reading)] += 1
+                acc.reading_source.setdefault((key, occ.reading), occ.reading_source or "dictionary")
+        for unit in sent.units or ():
+            name = f"{unit.type}\t{unit.lemma}"
+            acc.units.setdefault(name, [0, 0])[0] += 1
+            doc_units.add(name)
+        clock("count", time.perf_counter() - t0)
+        if cooc is not None:
+            t0 = time.perf_counter()
+            cooc.add_sentence(runtime.cooc_keys(sent), sent.upos, runtime.pair_spans(sent),
+                              runtime.unit_tokens(sent))
+            clock("cooc", time.perf_counter() - t0)
+    while open_doc < len(parts):
+        close_document()
+        open_doc += 1
     stats = {
         "sentences": sentences, "host_tokens": host_tokens, "occurrence_kinds": dict(kinds),
         "uncounted_occurrences": skipped,
