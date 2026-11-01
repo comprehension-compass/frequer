@@ -8,7 +8,8 @@ Spanish-only `frequer` rewritten per `docs/plans/custom-lemmatisers-and-units.md
 
 Nothing here lemmatises on its own. Every sentence is counted through **the
 runtime**: the production backend segments it, and the production sentence stage
-(`nlp.sentence_stage.analyse_sentence`, the function the article pipeline runs)
+(`nlp.sentence_stage.analysed_sentences`, the batched core the article pipeline runs; a
+shard's lines are one stream, so each model runs once per batch of 64 sentences)
 tokenizes it, asks the language's `honeyeater-lemma-<lang>` release for a lemma and
 UPOS per token and for its units, spells numbers out, and merges the units into
 occurrences. frequer only hands the stage the release: where the app fetches the
