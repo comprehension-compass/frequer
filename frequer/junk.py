@@ -27,6 +27,10 @@ recount. Each rule writes a flag with its evidence:
                ``pending-names`` (the learnable-names list decides); a PROPN tag without a proper-noun entry, or
                another proper noun (brand, era), is a flag.
 
+``number``     (``number_rule``) drops rather than flags: a lemma the app's own number check calls a number it ignores
+               (``frequer/numbers.py``: ``lexicon.lemma_defaults``; 千九百九十八). Core number words, base words
+               (百, *mil*) and counter or date forms (一つ, 二十日) are not dropped, as in the app.
+
 ``accent`` (``accent_ratio``) merges rather than flags. An unaccented spelling whose accented spelling is at least
 ``accent_ratio`` times as frequent moves its counts into the lemma that owns the accented spelling: the
 accented lemma itself (*sabiduria* -> *sabiduría*), or the lemma of the accented form (*recibio* -> *recibir*).
@@ -210,6 +214,8 @@ class Flags:
     propn_drop: dict[str, str] = field(default_factory=dict)
     #: place names (dictionary evidence) the learnable-names list decides: lemma -> evidence
     propn_place: dict[str, str] = field(default_factory=dict)
+    #: spelled numbers outside the core number words (the number rule): lemma -> evidence
+    number_drop: dict[str, str] = field(default_factory=dict)
     #: per log2-frequency band: its 2nd percentile of the clumping ratio (context for the fixed threshold)
     diversity_bands: dict[str, float] = field(default_factory=dict)
 
@@ -271,9 +277,14 @@ def compute_flags(
     zipf: Callable[[str, str], float] | None, lang: str, kept: frozenset[str],
     propn_share: Callable[[Candidate], tuple[float | None, bool]] | None,
     propn_dict: Callable[[Candidate], tuple[list[str], bool]] | None = None,
+    number_check: Callable[[str], bool | None] | None = None,
 ) -> Flags:
     """Every enabled rule over ``candidates`` (in rank order)."""
     out = Flags()
+    if cfg.number_rule and number_check is not None:
+        for c in candidates:
+            if number_check(base_of(c.lemma)) is False:
+                out.number_drop[c.lemma] = "a number the app ignores (lexicon.lemma_defaults)"
     on = set(cfg.rules)
     if "diversity" in on and total_docs:
         bands: dict[int, list[float]] = defaultdict(list)
@@ -350,7 +361,7 @@ def acronym_share(forms: Mapping[str, int]) -> float:
 class Routed:
     lemma: str
     rank: int
-    action: str  # keep, drop, review-keep, review-drop, pending, propn-drop
+    action: str  # keep, drop, review-keep, review-drop, pending, pending-names, propn-drop, number-drop
     flags: tuple[tuple[str, str], ...]
 
 
@@ -373,6 +384,8 @@ def route(ranked: Sequence[str], flags: Flags, review: Review | None, review_top
             action = "review-keep"  # a reviewed decision outranks the automatic proper-noun drop
         elif lemma in flags.propn_drop:
             action = "propn-drop"
+        elif lemma in flags.number_drop:
+            action = "number-drop"  # the app ignores a spelled number past the core words (lemma_defaults)
         elif any(rule == "propn_band" for rule, _e in fl) or len(fl) == 1 or (review_multi_flag and fl):
             action = "pending" if kept < review_top else ("keep" if len(fl) == 1 else "drop")
         elif len(fl) >= 2:
