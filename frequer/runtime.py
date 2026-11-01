@@ -161,7 +161,6 @@ class Runtime:
         from nlp import registry
         from nlp.lemma_releases import Pin, pin_for
         from nlp.lemma_step import load_release
-        from nlp.mwe import load_mwes
 
         registry.register_defaults()
         self.language = language
@@ -182,12 +181,17 @@ class Runtime:
         )
         self.lemmatiser = _recording(language.code, pin, release)
         self.units_release: Any = release.units
-        # The stage asks ``lemmatiser_for(code)`` for the release: answer with ours.
-        stage.lemmatiser_for = lambda code: self.lemmatiser if code == language.code else None
+        # The stage asks ``lemmatiser_for(code)`` for the release, and a backend whose
+        # release cuts its tokens (Japanese, ``segmenter_for``) asks the module's own
+        # ``lemmatiser_for``: answer both with ours.
+        import nlp.lemma_releases as releases
+
+        def ours(code: str) -> Any:
+            return self.lemmatiser if code == language.code else None
+
+        stage.lemmatiser_for = ours
+        releases.lemmatiser_for = ours
         self._analyse = stage.analyse_sentence
-        # The phrase table the stage applies: none where the release has units
-        # (``nlp.lemma_releases.phrase_table``).
-        self._mwes = () if release.units is not None else load_mwes(language.code)
         override_file = self.root / "reference" / "lemma-overrides" / f"{language.code}.json"
         commit, dirty = git_head(self.root)
         meta = json.loads((release_dir / "release.json").read_text(encoding="utf-8"))
@@ -226,7 +230,7 @@ class Runtime:
             t0 = time.perf_counter()
             self._analyse(
                 backend=self.backend, sentence_out=out, sentence=sentence, text_key=(0, ""),
-                overrides={}, mwes=self._mwes, inventory=inventory, token_keys=keys,
+                overrides={}, inventory=inventory, token_keys=keys,
                 token_readings={}, position_base=0, phrase_groups=groups,
             )
             total = time.perf_counter() - t0
@@ -264,9 +268,14 @@ class Runtime:
                 by_token.setdefault(t, []).append(unit)
         members = {o for offs in groups.values() for o in offs[1:]}
         pos_of = {t.offset: t.pos or "X" for t in tokens}
-        previous: str | None = None
-        # Only a release that keys endings by their form (``host_keys``: Japanese) has host tokens.
+        # Only a release that keys endings by their form (``host_keys``: Japanese) has host tokens:
+        # an ending carries its host's lemma (会い|まし|た, 勉強し|て). It is part of that word
+        # however the host was counted (alone, or inside a compound such as 勉強する), so it never
+        # adds a second occurrence of the host's lemma.
         endings = bool(self.units_release and self.units_release.settings.candidates.host_keys)
+
+        def is_ending(k: int) -> bool:
+            return endings and k > 0 and lemmas[k] == lemmas[k - 1] and words[k] != lemmas[k]
         for (_p, _s, offset), lemma in sorted(keys.items(), key=lambda kv: index[kv[0][2]]):
             if offset in members:
                 continue
@@ -283,25 +292,23 @@ class Runtime:
             reading = str(getattr(entry, "reading", "") or "")
             source = getattr(entry, "reading_source", "")
             k = idx[0]
-            host = endings and (
-                len(idx) == 1 and k > 0 and lemmas[k] == lemmas[k - 1] and words[k] != lemmas[k]
-                and lemma == previous
-            )
+            host = len(idx) == 1 and lemma == lemmas[k] and is_ending(k)
             sent.occurrences.append(Occurrence(
                 lemma=lemma, kind=kind, surface=" ".join(words[i] for i in idx), pos=pos_of[offset],
                 tokens=idx, reading=reading, reading_source=str(getattr(source, "value", source) or ""),
                 host=host,
             ))
-            previous = lemma
             if kind in COMBINATIONS:
                 # The combination counts next to its member words, not instead of them.
                 for i in idx:
-                    spelled = self.backend.spell_number(words[i])
+                    following = words[i + 1] if i + 1 < len(words) else ""
+                    spelled = self.backend.spell_number(words[i], following=following)
                     word = spelled.lemma if spelled is not None else lemmas[i]
                     if split_key(word)[0] in SKIP_LEMMAS:
                         continue
                     sent.occurrences.append(Occurrence(
                         lemma=word, kind="word", surface=words[i], pos=upos[i], tokens=(i,),
+                        host=spelled is None and is_ending(i),
                     ))
         return sent
 
