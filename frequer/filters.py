@@ -51,7 +51,10 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
     jc = cfg.junk
     out = Filtered([])
     out.review = junk.load_review(cfg.code)
-    merges = [junk.Merge(s, t, merged.lemmas[s].freq, "review: merge")
+    def fold(target: str) -> str:  # keys are case-folded, so review targets are too
+        return target.lower() if cfg.fold_case else target
+
+    merges = [junk.Merge(s, fold(t), merged.lemmas[s].freq, "review: merge")
               for s, t in (out.review.merges() if out.review else {}).items() if s in merged.lemmas]
     if jc.accent_ratio:
         taken = {m.source for m in merges}
