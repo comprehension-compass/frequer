@@ -70,6 +70,10 @@ class JunkConfig(Strict):
     propn_evidence: Literal["case", "dictionary"] = "case"
     #: The dictionary ``propn_evidence: dictionary`` reads (``frequer/propn_dict.py``).
     propn_dictionary: Literal["sudachi"] | None = None
+    #: The number rule (drops, does not flag): a lemma the app's own number check (``frequer/numbers.py``,
+    #: ``lexicon.lemma_defaults``) calls a number it ignores is dropped (千九百九十八): the list keeps the core
+    #: number words, base words and counter or date forms, as the app does.
+    number_rule: bool = False
     #: Single-flag lemmas within this many kept ranks go to review.
     review_top: int = 20_000
     #: Within ``review_top``, send 2+-flag lemmas to review too instead of dropping them: the citation and shape

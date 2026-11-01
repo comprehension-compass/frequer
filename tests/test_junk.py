@@ -62,3 +62,14 @@ def test_citation_reads_token_separated_forms_and_exempts_units() -> None:
              junk.Candidate("子供", 60, "NOUN", {"子ども": 60}, 50)]             # the spelling never written
     flags = junk.compute_flags(cands, cfg, total_docs=1000, zipf=None, lang="ja", kept=frozenset(), propn_share=None)
     assert set(flags.flags) == {"子供"}
+
+
+def test_number_rule_drops_what_the_app_check_ignores() -> None:
+    verdicts = {"二十": True, "百": True, "千九百九十八": False, "一つ": None}  # the app's check (lexicon.lemma_defaults)
+    cands = [junk.Candidate(w, 10, "NUM", {w: 10}, 9) for w in verdicts]
+    flags = junk.compute_flags(cands, JunkConfig(number_rule=True), total_docs=100, zipf=None, lang="ja",
+                               kept=frozenset(), propn_share=None, number_check=verdicts.get)
+    assert set(flags.number_drop) == {"千九百九十八"}
+    review = junk.Review(None, "", {"千九百九十八": ("keep", "")})  # type: ignore[arg-type]
+    actions = {r.lemma: r.action for r in junk.route([c.lemma for c in cands], flags, review, 10)}
+    assert actions == {"二十": "keep", "百": "keep", "千九百九十八": "review-keep", "一つ": "keep"}

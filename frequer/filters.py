@@ -13,7 +13,7 @@ from collections.abc import Mapping
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from frequer import compare, exclude, junk, propn, propn_dict, snapshot
+from frequer import compare, exclude, junk, numbers, propn, propn_dict, snapshot
 from frequer.config import Manifest
 from frequer.counts import Merged
 from frequer.ranking import Row, build_rows, rank_rows
@@ -106,7 +106,8 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
         out.flags = junk.compute_flags(
             candidates, jc, total_docs=merged.docs, zipf=compare.zipf_lookup(), lang=cfg.code,
             kept=out.exclusions.kept if out.exclusions else frozenset(),
-            propn_share=share if needs_case else None, propn_dict=entries if dictionary else None)
+            propn_share=share if needs_case else None, propn_dict=entries if dictionary else None,
+            number_check=numbers.app_number_check(cfg.code) if jc.number_rule else None)
         out.routed = junk.route([r.lemma for r in ranked], out.flags, out.review, jc.review_top, jc.review_multi_flag)
         keep = {r.lemma for r in out.routed if r.action in ("keep", "review-keep", "pending", "pending-names")}
         ranked = [r for r in ranked if r.lemma in keep]
