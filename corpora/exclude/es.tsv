@@ -1,0 +1,1245 @@
+# Spanish exclusion list (frequer/exclude.py): lemma<TAB>class<TAB>reason.
+# Reviewed 2026-11-01 against the developer's criterion: remove English words and boilerplate, keep loans
+# established in Spanish. Two independent reviewers per lemma; disagreements adjudicated (full/es/exclusions.md).
+jetcost	exclude-boilerplate	flight-search site brand
+aereo	exclude-boilerplate	unaccented template spelling of aéreo
+the	exclude-english	English article
+of	exclude-english	English preposition
+city	exclude-english	English word in names
+in	exclude-english	English preposition
+and	exclude-english	English conjunction
+beach	exclude-english	not a Spanish loan
+new	exclude-english	English template text
+home	exclude-english	English template text
+to	exclude-english	English preposition
+house	exclude-english	English template text
+by	exclude-english	English preposition
+black	exclude-english	English colour word
+grand	exclude-english	English in brand names
+airport	exclude-english	English for aeropuerto
+island	exclude-english	English place word
+on	exclude-english	English preposition
+international	exclude-english	English for internacional
+love	exclude-english	English word
+for	exclude-english	English preposition
+air	exclude-english	English in brand names
+best	exclude-english	English word
+west	exclude-english	English place word
+ltd	exclude-boilerplate	company-name template suffix
+world	exclude-english	English word
+group	exclude-english	English word in names
+english	exclude-english	English word
+car	exclude-english	English word
+one	exclude-english	English word
+white	exclude-english	English colour word
+mainland	exclude-english	English listing text
+us	exclude-english	English pronoun/domain
+am	exclude-english	English time suffix
+file	exclude-english	English for archivo
+business	exclude-english	English word
+free	exclude-english	English word
+north	exclude-english	English place word
+western	exclude-english	English word
+american	exclude-english	English word
+studio	exclude-english	English hotel template word
+office	exclude-english	English word
+county	exclude-english	English place word
+state	exclude-english	English word
+bed	exclude-english	English word
+south	exclude-english	English place word
+live	exclude-english	English word
+store	exclude-english	English word
+big	exclude-english	English word
+power	exclude-english	English word
+at	exclude-english	English preposition
+industry	exclude-english	English template text
+my	exclude-english	English pronoun
+design	exclude-english	English for diseño
+play	exclude-english	English word
+gold	exclude-english	English word
+london	exclude-english	English form of Londres
+hi	exclude-english	English greeting
+client	exclude-english	English for cliente
+east	exclude-english	English place word
+reliable	exclude-english	English word
+national	exclude-english	English word
+service	exclude-english	English word
+it	exclude-english	English pronoun
+extension	exclude-english	English file-extension text
+model	exclude-english	English word
+go	exclude-english	English word
+bank	exclude-english	English word
+system	exclude-english	English word
+systems	exclude-english	English word
+school	exclude-english	English word
+drive	exclude-english	English word
+life	exclude-english	English word
+view	exclude-english	English word
+open	exclude-english	English word
+centre	exclude-english	English word
+news	exclude-english	English word
+place	exclude-english	English word
+road	exclude-english	English word
+university	exclude-english	English word
+company	exclude-english	English word
+line	exclude-english	English word
+watch	exclude-english	English word
+station	exclude-english	English word
+point	exclude-english	English word
+college	exclude-english	English word
+services	exclude-english	English word
+music	exclude-english	English word
+management	exclude-english	English word
+united	exclude-english	English word
+high	exclude-english	English word
+out	exclude-english	English word
+tax	exclude-english	English word
+or	exclude-english	English conjunction
+technology	exclude-english	English word
+off	exclude-english	English word
+town	exclude-english	English word
+man	exclude-english	English word
+hot	exclude-english	English word
+resorts	exclude-english	plural form, examples are brand text (Hotels & Resorts); the singular decides the loan
+game	exclude-english	English word
+limited	exclude-english	English word
+all	exclude-english	English word
+health	exclude-english	English word
+read	exclude-english	English word
+website	exclude-english	English; Spanish uses sitio web / página web
+codigo	exclude-boilerplate	unaccented misspelling of código
+standard	exclude-english	English word in names
+up	exclude-english	English word
+page	exclude-english	English word
+may	exclude-english	English month/modal
+word	exclude-english	English word
+times	exclude-english	English word
+day	exclude-english	English word
+team	exclude-english	English word
+card	exclude-english	English word
+little	exclude-english	English word
+energy	exclude-english	English word
+security	exclude-english	English word
+long	exclude-english	English word
+lounge	exclude-english	hotel-template translation; not established vocabulary
+games	exclude-english	English word
+old	exclude-english	English word
+pass	exclude-english	English word
+baby	exclude-english	English word
+full	exclude-english	English word
+time	exclude-english	English word
+more	exclude-english	English word
+site	exclude-english	English for sitio
+player	exclude-english	English word
+market	exclude-english	English word
+project	exclude-english	English word
+ice	exclude-english	English word
+light	exclude-english	English word in names
+family	exclude-english	English word
+key	exclude-english	English word
+access	exclude-english	English word
+bad	exclude-english	English word
+navigation	exclude-english	English UI text
+an	exclude-english	English article
+with	exclude-english	English preposition
+travel	exclude-english	English word
+book	exclude-english	English word
+water	exclude-english	English word
+images	exclude-english	English word
+europe	exclude-english	English form of Europa
+head	exclude-english	English word
+canada	exclude-boilerplate	unaccented misspelling of Canadá
+photo	exclude-english	English word
+ago	exclude-boilerplate	English template "años ago" plus dateline abbreviations
+great	exclude-english	English word
+easy	exclude-english	English word
+room	exclude-english	English word
+md	exclude-boilerplate	listing/file-format abbreviation (Maryland, .md)
+food	exclude-english	English word
+land	exclude-english	English word
+care	exclude-english	English word
+direct	exclude-english	English word
+young	exclude-english	English word
+search	exclude-english	English word
+start	exclude-english	English word
+size	exclude-english	English word
+call	exclude-english	English word
+products	exclude-english	English word
+cup	exclude-english	English word
+share	exclude-english	English UI text
+days	exclude-english	English word
+collection	exclude-english	English word
+next	exclude-english	English word
+main	exclude-english	English word
+you	exclude-english	English pronoun
+quality	exclude-english	English word
+act	exclude-english	English word
+image	exclude-english	English word
+professional	exclude-english	English word
+phone	exclude-english	English word
+first	exclude-english	English word
+uk	exclude-english	English abbreviation
+salon	exclude-boilerplate	unaccented misspelling of salón plus English brand text
+from	exclude-english	English preposition
+sir	exclude-english	English word
+space	exclude-english	English word
+research	exclude-english	English word
+side	exclude-english	English word
+living	exclude-english	English word
+community	exclude-english	English word
+fit	exclude-english	English word
+sound	exclude-english	English word
+dragon	exclude-english	English word
+now	exclude-english	English word
+british	exclude-english	English word
+prom	exclude-english	English word
+close	exclude-english	English word
+night	exclude-english	English word
+back	exclude-english	English word
+down	exclude-english	English word
+field	exclude-english	English word
+experience	exclude-english	English word
+four	exclude-english	English word
+war	exclude-english	English word
+century	exclude-english	English word
+dark	exclude-english	English word
+law	exclude-english	English word
+medical	exclude-english	English word
+cross	exclude-english	English word
+style	exclude-english	English word
+ball	exclude-english	English word
+check	exclude-english	English word
+end	exclude-english	English word
+fire	exclude-english	English word
+association	exclude-english	English word
+hostels	exclude-english	English plural
+kids	exclude-english	English word
+your	exclude-english	English word
+form	exclude-english	English word
+building	exclude-english	English word
+is	exclude-english	English verb
+frio	exclude-boilerplate	unaccented misspelling of frío
+board	exclude-english	English word
+double	exclude-english	English word
+pair	exclude-english	English word
+be	exclude-english	English verb
+court	exclude-english	English word
+quick	exclude-english	English word
+good	exclude-english	English word
+happy	exclude-english	English word
+age	exclude-english	English word
+last	exclude-english	English word
+party	exclude-english	English word
+comments	exclude-english	English word
+dead	exclude-english	English word
+fast	exclude-english	English word
+product	exclude-english	English word
+science	exclude-english	English word
+support	exclude-english	English word
+front	exclude-english	English word
+story	exclude-english	English word
+code	exclude-english	English word
+daily	exclude-english	English word
+taxes	exclude-english	English word
+posted	exclude-english	English word
+race	exclude-english	English word
+deep	exclude-english	English word
+way	exclude-english	English word
+made	exclude-english	English word
+oil	exclude-english	English word
+get	exclude-english	English word
+see	exclude-english	English word
+european	exclude-english	English word
+hope	exclude-english	English word
+run	exclude-english	English word
+speed	exclude-english	English word
+trade	exclude-english	English word
+reading	exclude-english	English word
+computer	exclude-english	English word
+type	exclude-english	English word
+duty	exclude-english	English word
+financial	exclude-english	English word
+language	exclude-english	English word
+focus	exclude-english	English word
+society	exclude-english	English word
+class	exclude-english	English word
+this	exclude-english	English word
+rental	exclude-english	English word
+nature	exclude-english	English word
+ft	exclude-english	English abbreviation
+root	exclude-english	English word
+voices	exclude-english	English word
+price	exclude-english	English word
+trust	exclude-english	English word
+information	exclude-english	English word
+heart	exclude-english	English word
+action	exclude-english	English word
+girl	exclude-english	English word
+true	exclude-english	English word
+source	exclude-english	English word
+week	exclude-english	English word
+region	exclude-english	English word
+modern	exclude-english	English word
+protected	exclude-boilerplate	Cloudflare "[email protected]" page text
+public	exclude-english	English word
+dia	exclude-boilerplate	unaccented misspelling of día
+district	exclude-english	English word
+single	exclude-english	English word
+football	exclude-english	English word
+nice	exclude-english	English word
+will	exclude-english	English word
+eye	exclude-english	English word
+hard	exclude-english	English word
+piece	exclude-english	English word
+add	exclude-english	English word
+list	exclude-english	English word
+major	exclude-english	English word
+not	exclude-english	English word
+clear	exclude-english	English word
+return	exclude-english	English word
+about	exclude-english	English word
+we	exclude-english	English pronoun
+summer	exclude-english	English word
+venture	exclude-english	English word
+earth	exclude-english	English word
+report	exclude-english	English word
+force	exclude-english	English word
+planet	exclude-english	English word
+version	exclude-english	English word
+range	exclude-english	English word
+save	exclude-english	English word
+track	exclude-english	English word
+program	exclude-english	English word
+special	exclude-english	English word
+men	exclude-english	English word
+help	exclude-english	English word
+large	exclude-english	English word
+cinema	exclude-english	English word
+joint	exclude-english	English word
+busqueda	exclude-boilerplate	unaccented misspelling of búsqueda
+swiss	exclude-english	English word
+face	exclude-english	English word
+lines	exclude-english	English word
+council	exclude-english	English word
+only	exclude-english	English word
+fair	exclude-english	English word
+guia	exclude-boilerplate	unaccented misspelling of guía
+name	exclude-english	English word
+train	exclude-english	English word
+die	exclude-english	German/English word
+studios	exclude-english	English word
+private	exclude-english	English word
+small	exclude-english	English word
+content	exclude-english	English word
+articulo	exclude-boilerplate	unaccented misspelling of artículo
+dec	exclude-english	English month abbreviation
+work	exclude-english	English word
+money	exclude-english	English word
+sex	exclude-english	English word
+just	exclude-english	English word
+galeria	exclude-boilerplate	unaccented misspelling of galería
+voice	exclude-english	English word
+choice	exclude-english	English word
+credit	exclude-english	English word
+stay	exclude-english	English word
+month	exclude-english	English word
+states	exclude-english	English word
+girls	exclude-english	English word
+conference	exclude-english	English word
+points	exclude-english	English word
+contact	exclude-english	English word
+cut	exclude-english	English word
+lost	exclude-english	English word
+fun	exclude-english	English word
+welcome	exclude-english	English word
+random	exclude-english	English word
+continue	exclude-english	English UI text
+year	exclude-english	English word
+apr	exclude-english	English month abbreviation
+development	exclude-english	English word
+clean	exclude-english	English word
+people	exclude-english	English word
+training	exclude-english	English word
+church	exclude-english	English word
+title	exclude-english	English word
+safety	exclude-english	English word
+death	exclude-english	English word
+here	exclude-english	English word
+very	exclude-english	English word
+nino	exclude-boilerplate	unaccented misspelling of niño
+if	exclude-english	English word
+value	exclude-english	English word
+telefono	exclude-boilerplate	unaccented misspelling of teléfono
+comodo	exclude-boilerplate	unaccented misspelling of cómodo
+worth	exclude-english	English word
+minor	exclude-english	English word
+two	exclude-english	English word
+how	exclude-english	English word
+stage	exclude-english	English word
+guy	exclude-english	English word
+dollar	exclude-english	English for dólar
+seven	exclude-english	English word
+emirate	exclude-english	English airline-name lemma
+level	exclude-english	English word
+hair	exclude-english	English word
+talk	exclude-english	English word
+todavia	exclude-boilerplate	unaccented misspelling of todavía
+corazon	exclude-boilerplate	unaccented misspelling of corazón
+knowledge	exclude-english	English word
+safe	exclude-english	English word
+detail	exclude-english	English word
+dog	exclude-english	English word
+andalucia	exclude-boilerplate	unaccented misspelling of Andalucía
+filing	exclude-english	English word
+description	exclude-english	English word
+area	exclude-boilerplate	unaccented misspelling of área
+french	exclude-english	English word
+friday	exclude-english	English word
+human	exclude-english	English word
+sleep	exclude-english	English word
+women	exclude-english	English word
+brother	exclude-english	English word
+vehiculo	exclude-boilerplate	unaccented misspelling of vehículo
+wide	exclude-english	English word
+education	exclude-english	English word
+hour	exclude-english	English word
+england	exclude-english	English form of Inglaterra
+topical	exclude-english	English word
+breakfasts	exclude-english	English word
+warm	exclude-english	English word
+event	exclude-english	English word
+mio	exclude-boilerplate	unaccented misspelling of mío
+cold	exclude-english	English word
+future	exclude-english	English word
+break	exclude-english	English word
+dna	exclude-english	English for ADN
+movie	exclude-english	English word
+fantasia	exclude-boilerplate	unaccented misspelling of fantasía
+perfect	exclude-english	English word
+crazy	exclude-english	English word
+far	exclude-english	English word
+category	exclude-english	English word
+poliester	exclude-boilerplate	unaccented misspelling of poliéster
+today	exclude-english	English word
+bateria	exclude-boilerplate	unaccented misspelling of batería
+works	exclude-english	English word
+release	exclude-english	English word
+aug	exclude-english	English month abbreviation
+history	exclude-english	English word
+oir	exclude-boilerplate	unaccented misspelling of oír
+buy	exclude-english	English word
+march	exclude-english	English word
+song	exclude-english	English word
+three	exclude-english	English word
+step	exclude-english	English word
+win	exclude-english	English word
+caracteristica	exclude-boilerplate	unaccented misspelling of característica
+friends	exclude-english	English word
+article	exclude-english	English word
+walk	exclude-english	English word
+change	exclude-english	English word
+pelicula	exclude-boilerplate	unaccented película
+six	exclude-english	English word
+window	exclude-english	English word (Windows OS text)
+text	exclude-english	English UI word
+after	exclude-english	English word
+books	exclude-english	English word
+descripcion	exclude-boilerplate	unaccented descripción
+five	exclude-english	English word
+boton	exclude-boilerplate	unaccented botón
+hand	exclude-english	English word
+over	exclude-english	English word
+who	exclude-english	English word
+woman	exclude-english	English word
+inch	exclude-english	English unit word
+camara	exclude-boilerplate	unaccented cámara
+construccion	exclude-boilerplate	unaccented construcción
+met	exclude-english	English word/name fragment
+electronico	exclude-boilerplate	unaccented electrónico
+table	exclude-english	English word
+boys	exclude-english	English word
+children	exclude-english	English word
+make	exclude-english	English word
+under	exclude-english	English word
+left	exclude-english	English word
+album	exclude-boilerplate	unaccented álbum / English
+tecnologia	exclude-boilerplate	unaccented tecnología
+events	exclude-english	English word
+forms	exclude-english	English word
+other	exclude-english	English word
+near	exclude-english	English word
+ready	exclude-english	English word
+unit	exclude-english	English word
+beyond	exclude-english	English word
+electrico	exclude-boilerplate	unaccented eléctrico
+mr	exclude-english	English honorific
+parts	exclude-english	English word
+drop	exclude-english	English word
+peace	exclude-english	English word
+chinese	exclude-english	English word
+droid	exclude-english	English brand-word
+policy	exclude-english	English word
+shot	exclude-english	English word
+common	exclude-english	English word
+early	exclude-english	English word
+rest	exclude-english	English word
+department	exclude-english	English word
+order	exclude-english	English word
+deal	exclude-english	English word
+rhino	exclude-english	English software name
+picture	exclude-english	English word
+that	exclude-english	English word
+child	exclude-english	English word
+process	exclude-english	English word
+composite	exclude-english	English index name
+our	exclude-english	English word
+previous	exclude-english	English UI word
+item	exclude-boilerplate	unaccented misspelling of ítem (marketplace template text)
+august	exclude-english	English word
+part	exclude-english	English word
+student	exclude-english	English word
+fall	exclude-english	English word
+pick	exclude-english	English word
+beacons	exclude-english	English word
+date	exclude-english	English DATE; Spanish "date" is a form of dar, not a lemma
+domestico	exclude-boilerplate	unaccented doméstico
+middle	exclude-english	English word
+increible	exclude-boilerplate	unaccented increíble
+estandar	exclude-boilerplate	unaccented estándar
+fine	exclude-english	English word
+lower	exclude-english	English word
+account	exclude-english	English word
+blood	exclude-english	English word
+economico	exclude-boilerplate	unaccented económico
+justice	exclude-english	English word
+number	exclude-english	English word
+april	exclude-english	English word
+retreat	exclude-english	English word
+better	exclude-english	English word
+self	exclude-english	English word
+study	exclude-english	English word
+property	exclude-english	English word
+german	exclude-english	English word
+opcion	exclude-boilerplate	unaccented opción
+rights	exclude-english	English word
+gun	exclude-english	English word
+construction	exclude-english	English word
+due	exclude-english	Italian/English fragment
+find	exclude-english	English word
+politica	exclude-boilerplate	unaccented política
+take	exclude-english	English word
+move	exclude-english	English word
+learn	exclude-english	English word
+second	exclude-english	English word
+sense	exclude-english	English word
+army	exclude-english	English word
+upon	exclude-english	English word
+ensenar	exclude-boilerplate	unaccented enseñar
+fotografia	exclude-boilerplate	unaccented fotografía
+june	exclude-english	English word
+related	exclude-english	English word
+planning	exclude-english	English word
+bano	exclude-boilerplate	unaccented baño
+door	exclude-english	English word
+garantia	exclude-boilerplate	unaccented garantía
+yes	exclude-english	English word
+credito	exclude-boilerplate	unaccented crédito
+have	exclude-english	English word
+rate	exclude-english	English word
+years	exclude-english	English word
+build	exclude-english	English word
+relacion	exclude-boilerplate	unaccented relación
+rincon	exclude-boilerplate	unaccented rincón
+think	exclude-english	English word
+associate	exclude-english	English word
+july	exclude-english	English word
+modem	exclude-boilerplate	unaccented módem
+basico	exclude-boilerplate	unaccented básico
+inside	exclude-english	English word
+military	exclude-english	English word
+said	exclude-english	English word
+aplicacion	exclude-boilerplate	unaccented aplicación
+essential	exclude-english	English word
+ground	exclude-english	English word
+kid	exclude-english	English word
+task	exclude-english	English word
+culture	exclude-english	English word
+mediterraneo	exclude-boilerplate	unaccented mediterráneo
+amazing	exclude-english	English word
+items	exclude-english	English word
+distribucion	exclude-boilerplate	unaccented distribución
+effect	exclude-english	English word
+historico	exclude-boilerplate	unaccented histórico
+meeting	exclude-english	English word
+espiritu	exclude-boilerplate	unaccented espíritu
+half	exclude-english	English word
+pill	exclude-english	English word
+turistico	exclude-boilerplate	unaccented turístico
+need	exclude-english	English word
+right	exclude-english	English word
+automaticamente	exclude-boilerplate	unaccented automáticamente
+balcon	exclude-boilerplate	unaccented balcón
+chief	exclude-english	English word
+hold	exclude-english	English word
+lbs	exclude-english	English unit abbreviation
+meet	exclude-english	English word
+policia	exclude-boilerplate	unaccented policía
+september	exclude-english	English word
+amended	exclude-english	English word
+plastico	exclude-boilerplate	unaccented plástico
+what	exclude-english	English word
+angulo	exclude-boilerplate	unaccented ángulo
+away	exclude-english	English word
+less	exclude-english	English word
+morning	exclude-english	English word
+attack	exclude-english	English word
+element	exclude-english	English word
+her	exclude-english	English word
+results	exclude-english	English word
+forward	exclude-english	English UI word; finance jargon too niche to count as established
+grafico	exclude-boilerplate	unaccented gráfico
+president	exclude-english	English word
+was	exclude-english	English word
+won	exclude-english	English word
+ask	exclude-english	English word
+membership	exclude-english	English word
+proximo	exclude-boilerplate	unaccented próximo
+god	exclude-english	English word
+instalacion	exclude-boilerplate	unaccented instalación
+mom	exclude-english	English word
+police	exclude-english	English word
+schools	exclude-english	English word
+mind	exclude-english	English word
+fabricacion	exclude-boilerplate	unaccented fabricación
+marmol	exclude-boilerplate	unaccented mármol
+null	exclude-english	programming word
+pequeno	exclude-boilerplate	unaccented pequeño
+sofa	exclude-boilerplate	unaccented sofá
+calefaccion	exclude-boilerplate	unaccented calefacción
+follow	exclude-english	English word
+official	exclude-english	English word
+opinion	exclude-boilerplate	unaccented opinión
+workers	exclude-english	English word
+kinky	exclude-english	English word in brand/adult text; not established
+sign	exclude-english	English word
+stories	exclude-english	English word
+leader	exclude-english	English word
+proximamente	exclude-boilerplate	unaccented próximamente
+rapidamente	exclude-boilerplate	unaccented rápidamente
+current	exclude-english	English word
+got	exclude-english	English word
+income	exclude-english	English word
+lit	exclude-english	English word/airport code
+organizer	exclude-english	English word
+saw	exclude-english	English word
+diseno	exclude-boilerplate	unaccented diseño
+know	exclude-english	English word
+passport	exclude-english	English word
+still	exclude-english	English word
+amend	exclude-english	English word
+found	exclude-english	English word
+january	exclude-english	English word
+situacion	exclude-boilerplate	unaccented situación
+dogs	exclude-english	English word
+making	exclude-english	English word
+things	exclude-english	English word
+estanteria	exclude-boilerplate	unaccented estantería
+install	exclude-english	English word
+member	exclude-english	English word
+turn	exclude-english	niche poker jargon and English template text
+well	exclude-english	English word
+russian	exclude-english	English word
+yeah	exclude-english	English word
+eyes	exclude-english	English word
+kill	exclude-english	English word
+plain	exclude-english	English word
+position	exclude-english	English word
+production	exclude-english	English word
+strong	exclude-english	English word
+clasico	exclude-boilerplate	unaccented clásico
+most	exclude-english	English word
+set-up	exclude-english	English word
+beautiful	exclude-english	English word
+letter	exclude-english	English word
+reir	exclude-boilerplate	unaccented reír
+aerolinea	exclude-boilerplate	unaccented aerolínea
+hiv	exclude-english	English acronym (Spanish VIH)
+october	exclude-english	English word
+pretty	exclude-english	English word
+visit	exclude-english	English word
+author	exclude-english	English word
+course	exclude-english	English word
+economia	exclude-boilerplate	unaccented economía
+judio	exclude-boilerplate	unaccented judío
+keep	exclude-english	English word
+loss	exclude-english	English word
+medico	exclude-boilerplate	unaccented médico
+risk	exclude-english	English word
+say	exclude-english	English word
+too	exclude-english	English word
+dear	exclude-english	English word
+facil	exclude-boilerplate	unaccented fácil
+mild	exclude-english	English word
+pixels	exclude-english	English plural (Spanish píxeles)
+used	exclude-english	English word
+conexion	exclude-boilerplate	unaccented conexión
+crop	exclude-english	only the compound crop top is established; standalone crop is English
+electrodomestico	exclude-boilerplate	unaccented electrodoméstico
+into	exclude-english	English word
+november	exclude-english	English word
+paperback	exclude-english	English word
+proposito	exclude-boilerplate	unaccented propósito
+atk	exclude-english	English game abbreviation, not Spanish vocabulary
+cabana	exclude-boilerplate	unaccented cabaña
+caption	exclude-english	English word
+produccion	exclude-boilerplate	unaccented producción
+raiz	exclude-boilerplate	unaccented raíz
+tecnica	exclude-boilerplate	unaccented técnica
+urbanizacion	exclude-boilerplate	unaccented urbanización
+educacion	exclude-boilerplate	unaccented educación
+numbers	exclude-english	English word
+simply	exclude-english	English word
+working	exclude-english	English word
+campaign	exclude-english	English word
+decision	exclude-boilerplate	unaccented decisión
+encoder	exclude-english	English word
+ophthalmic	exclude-english	English word
+reparacion	exclude-boilerplate	unaccented reparación
+straight	exclude-english	English word
+leave	exclude-english	English word
+practice	exclude-english	English word
+sum	exclude-english	English fragment (dim sum)
+talking	exclude-english	English word
+estates	exclude-english	English word
+portatil	exclude-boilerplate	unaccented portátil
+souls	exclude-english	English word
+analisis	exclude-boilerplate	unaccented análisis
+atletico	exclude-boilerplate	unaccented atlético
+economic	exclude-english	English word
+recien	exclude-boilerplate	unaccented recién
+tecnico	exclude-boilerplate	unaccented técnico
+termino	exclude-boilerplate	unaccented término (as in examples)
+duel	exclude-english	English word
+season	exclude-english	English word
+she	exclude-english	English word
+vacio	exclude-boilerplate	unaccented vacío
+incredible	exclude-english	English word
+razon	exclude-boilerplate	unaccented razón
+thinking	exclude-english	English word
+coleccion	exclude-boilerplate	unaccented colección
+committee	exclude-english	English word
+companies	exclude-english	English word
+consider	exclude-boilerplate	mislemma of hotel-template voseo "Considerá"
+hell	exclude-english	English word
+message	exclude-english	English word
+moving	exclude-english	English word
+environmental	exclude-english	English word
+minute	exclude-english	English word
+mision	exclude-boilerplate	unaccented misión
+tell	exclude-english	English word
+compania	exclude-boilerplate	unaccented compañía
+example	exclude-english	English word
+feel	exclude-english	English word
+mammoth	exclude-english	English word
+seller	exclude-english	English word
+categoria	exclude-boilerplate	unaccented categoría
+did	exclude-english	English word
+seleccion	exclude-boilerplate	unaccented selección
+where	exclude-english	English word
+whole	exclude-english	English word
+charge	exclude-english	English word
+decoracion	exclude-boilerplate	unaccented decoración
+ingenieria	exclude-boilerplate	unaccented ingeniería
+issue	exclude-english	English word
+bulletin	exclude-english	English word
+creacion	exclude-boilerplate	unaccented creación
+lampara	exclude-boilerplate	unaccented lámpara
+mine	exclude-english	English word
+presentacion	exclude-boilerplate	unaccented presentación
+sear	exclude-english	English fragment (Searle)
+send	exclude-english	English word
+especificamente	exclude-boilerplate	unaccented específicamente
+friend	exclude-english	English word
+wish	exclude-english	English word
+automatico	exclude-boilerplate	unaccented automático
+caida	exclude-boilerplate	unaccented caída
+eat	exclude-english	English word
+epoca	exclude-boilerplate	unaccented época
+epoxy	exclude-english	English spelling; Spanish is epoxi
+fight	exclude-english	English word
+let	exclude-english	English word
+lunch	exclude-english	English word
+antiguedad	exclude-boilerplate	unaccented antigüedad
+aspirin	exclude-english	English spelling (Spanish aspirina)
+comparacion	exclude-boilerplate	unaccented comparación
+female	exclude-english	English word
+musico	exclude-boilerplate	unaccented músico
+never	exclude-english	English word
+possible	exclude-english	English word
+sister	exclude-english	English word
+suburban	exclude-english	English word/car model
+are	exclude-english	English word
+clique	exclude-boilerplate	"clique aquí" Portuguese-style template text
+december	exclude-english	English word
+funny	exclude-english	English word
+identico	exclude-boilerplate	unaccented idéntico
+response	exclude-english	English word
+try	exclude-english	English word
+wishlist	exclude-english	English e-commerce word
+million	exclude-english	English word
+numero	exclude-boilerplate	unaccented número
+organizacion	exclude-boilerplate	unaccented organización
+redireccion	exclude-boilerplate	unaccented redirección
+scene	exclude-english	English word
+centrico	exclude-boilerplate	unaccented céntrico
+ever	exclude-english	English word
+february	exclude-english	English word
+same	exclude-english	English word
+desafio	exclude-boilerplate	unaccented desafío
+eternal	exclude-english	English word
+growth	exclude-english	English word
+ceramica	exclude-boilerplate	unaccented cerámica
+create	exclude-english	English word
+favorite	exclude-english	English word
+months	exclude-english	English word
+please	exclude-english	English word
+valvula	exclude-boilerplate	unaccented válvula
+edt	exclude-english	English time-zone abbreviation
+enjoy	exclude-english	English word
+equal	exclude-english	English word
+own	exclude-english	English word
+there	exclude-english	English word
+again	exclude-english	English word
+ass	exclude-english	English word
+configuracion	exclude-boilerplate	unaccented configuración
+mother	exclude-english	English word
+pain	exclude-english	English word
+agricola	exclude-boilerplate	unaccented agrícola
+comunicacion	exclude-boilerplate	unaccented comunicación
+his	exclude-english	English word
+matter	exclude-english	English word
+oido	exclude-boilerplate	unaccented oído
+satelite	exclude-boilerplate	unaccented satélite
+foreign	exclude-english	English word
+fuck	exclude-english	English word
+officer	exclude-english	English word
+rustico	exclude-boilerplate	unaccented rústico
+simbolo	exclude-boilerplate	unaccented símbolo
+edicion	exclude-boilerplate	unaccented edición
+envio	exclude-boilerplate	unaccented envío
+episode	exclude-english	English word
+hands	exclude-english	English word in product text
+movement	exclude-english	English word in brand name
+odds	exclude-english	English betting term
+pairs	exclude-english	English unit in listings
+targeting	exclude-english	English marketing jargon
+why	exclude-english	English word
+acetaminophen	exclude-english	English drug name; Spanish paracetamol
+answer	exclude-english	English word
+around	exclude-english	English word
+behind	exclude-english	English word
+fact	exclude-english	English word
+grafica	exclude-boilerplate	ADJ lemma = unaccented gráfica; verb uses belong to graficar
+inversion	exclude-boilerplate	unaccented inversión
+put	exclude-english	English word
+sold	exclude-english	English word
+teflon	exclude-boilerplate	unaccented misspelling of teflón plus brand text
+weight	exclude-english	English word
+believe	exclude-english	English word
+cashmere	exclude-english	English spelling; Spanish is cachemir/cachemira
+gpa	exclude-english	English grade-average acronym
+pajaro	exclude-boilerplate	unaccented pájaro
+past	exclude-english	English word
+pressure	exclude-english	English word
+writing	exclude-english	English word
+add-on	exclude-english	English software term
+against	exclude-english	English word
+biker	exclude-english	not established; Spanish uses motero
+metodo	exclude-boilerplate	unaccented método
+published	exclude-english	English template label
+thread	exclude-english	English forum term
+topic	exclude-english	English template label
+truth	exclude-english	English word
+when	exclude-english	English word
+brief	exclude-english	English word
+fear	exclude-english	English word
+investigacion	exclude-boilerplate	unaccented investigación
+listening	exclude-english	English exam label
+studies	exclude-english	English word
+success	exclude-english	English word
+words	exclude-english	English word
+amending	exclude-english	English tax-site text
+any	exclude-english	English word
+clown	exclude-english	English word
+decreasing	exclude-english	English weather template
+esqui	exclude-boilerplate	unaccented esquí
+fantastico	exclude-boilerplate	unaccented fantástico
+goal	exclude-english	English word
+joyeria	exclude-boilerplate	unaccented joyería
+lives	exclude-english	English word
+subject	exclude-english	English email field
+artwork	exclude-english	English word
+e-file	exclude-english	English tax-site term
+ocasion	exclude-boilerplate	unaccented ocasión
+positive	exclude-english	English word
+realtor	exclude-english	English job title
+character	exclude-english	English word
+clinica	exclude-boilerplate	unaccented clínica
+eliminacion	exclude-boilerplate	unaccented eliminación
+forces	exclude-english	English word
+increasing	exclude-english	English weather template
+maritimo	exclude-boilerplate	unaccented marítimo
+question	exclude-english	English word
+within	exclude-english	English word
+always	exclude-english	English word
+based	exclude-english	English word
+but	exclude-english	English word
+carpinteria	exclude-boilerplate	unaccented carpintería
+eleccion	exclude-boilerplate	unaccented elección
+every	exclude-english	English word
+government	exclude-english	English word
+gpm	exclude-english	English unit abbreviation
+politico	exclude-boilerplate	unaccented político
+recepcion	exclude-boilerplate	unaccented recepción
+section	exclude-english	English word
+sell	exclude-english	English word
+serious	exclude-english	English word
+third	exclude-english	English word
+without	exclude-english	English word
+career	exclude-english	English word
+everything	exclude-english	English word
+oracion	exclude-boilerplate	unaccented oración
+peluqueria	exclude-boilerplate	unaccented peluquería
+politicas	exclude-boilerplate	unaccented políticas
+preparation	exclude-english	English word
+cent	exclude-english	English word
+chameleon	exclude-english	English word in brand text
+champs	exclude-english	English word
+diametro	exclude-boilerplate	unaccented diámetro
+estadia	exclude-boilerplate	unaccented estadía
+extremely	exclude-english	English word
+grander	exclude-boilerplate	lemmatiser artefact; examples are Spanish grande
+judge	exclude-english	English word
+levels	exclude-english	English word
+opioid	exclude-boilerplate	lemmatiser artefact; examples are Spanish opioides (lemma opioide)
+opt-out	exclude-english	English marketing term
+players	exclude-english	English word
+sotano	exclude-boilerplate	unaccented sótano
+alone	exclude-english	English word
+anadir	exclude-boilerplate	unaccented añadir
+before	exclude-english	English word
+extensions	exclude-english	English word
+want	exclude-english	English word
+almacen	exclude-boilerplate	unaccented almacén
+architectural	exclude-english	English word
+between	exclude-english	English word
+boyfriend	exclude-english	English word
+excursion	exclude-boilerplate	unaccented excursión
+lavanderia	exclude-boilerplate	unaccented lavandería
+musculo	exclude-boilerplate	unaccented músculo
+since	exclude-english	English word
+ways	exclude-english	English word
+yourself	exclude-english	English word
+consultoria	exclude-boilerplate	unaccented consultoría
+dano	exclude-boilerplate	unaccented/mis-lemma of daño
+deposit	exclude-english	English word
+duracion	exclude-boilerplate	unaccented duración
+leading	exclude-english	English word
+salvacion	exclude-boilerplate	unaccented salvación
+soon	exclude-english	English word
+write	exclude-english	English word
+gets	exclude-english	English word
+haha	exclude-english	English chat interjection
+init	exclude-english	English code term
+juicer	exclude-english	English product text
+much	exclude-english	English word
+nacion	exclude-boilerplate	unaccented nación
+through	exclude-english	English word
+together	exclude-english	English word
+yield	exclude-english	English code term
+amendment	exclude-english	English tax-site text
+comite	exclude-boilerplate	unaccented comité
+enable	exclude-english	English word
+etcetera	exclude-boilerplate	unaccented etcétera
+going	exclude-english	English word
+gov	exclude-boilerplate	URL domain fragment
+guys	exclude-english	English word
+had	exclude-english	English word
+opportunity	exclude-english	English word
+opt-in	exclude-english	English marketing term
+periodico	exclude-boilerplate	unaccented periódico
+query	exclude-english	English code term
+quilt	exclude-english	English craft term
+sesion	exclude-boilerplate	unaccented sesión
+tuberia	exclude-boilerplate	unaccented tubería
+diversion	exclude-boilerplate	unaccented diversión
+generacion	exclude-boilerplate	unaccented generación
+moment	exclude-english	English word
+proteina	exclude-boilerplate	unaccented proteína
+sonreir	exclude-boilerplate	unaccented sonreír
+username	exclude-english	English computing term
+algodon	exclude-boilerplate	unaccented algodón
+all-in-one	exclude-english	English product term
+architect	exclude-english	English word
+blogging	exclude-english	English gerund; Spanish uses bloguear
+callback	exclude-english	English code term
+eight	exclude-english	English word
+exposicion	exclude-boilerplate	unaccented exposición
+give	exclude-english	English word
+him	exclude-english	English word
+join	exclude-english	English word
+mean	exclude-english	English word
+offer	exclude-english	English word
+pantalon	exclude-boilerplate	unaccented pantalón
+require	exclude-english	English word/typo
+strings	exclude-english	English code term
+than	exclude-english	English word
+dificil	exclude-boilerplate	unaccented difícil
+even	exclude-english	English word
+fisico	exclude-boilerplate	unaccented físico
+nucleo	exclude-boilerplate	unaccented núcleo
+panoramica	exclude-boilerplate	unaccented panorámica
+parametro#railway	exclude-boilerplate	unaccented parámetro
+person	exclude-english	English word
+recuperacion	exclude-boilerplate	unaccented recuperación
+rules	exclude-english	English word
+sounds	exclude-english	English word
+tomorrow	exclude-english	English word
+unico	exclude-boilerplate	unaccented único
+a-line	exclude-english	English fashion term
+available	exclude-english	English word
+below	exclude-english	English word
+bring	exclude-english	English word
+celula	exclude-boilerplate	unaccented célula
+cirugia	exclude-boilerplate	unaccented cirugía
+creampie	exclude-english	English adult-site term
+gone	exclude-english	English word
+hindu	exclude-boilerplate	unaccented hindú
+localizacion	exclude-boilerplate	unaccented localización
+potassium	exclude-english	English word; Spanish potasio
+termico	exclude-boilerplate	unaccented térmico
+then	exclude-english	English word
+treatment	exclude-english	English word
+another	exclude-english	English word
+contemporaneo	exclude-boilerplate	unaccented contemporáneo
+debug	exclude-english	English code term; Spanish uses depurar
+doing	exclude-english	English word
+getting	exclude-english	English word
+goes	exclude-english	English word
+groups	exclude-english	English word
+mercancia	exclude-boilerplate	unaccented mercancía
+nothing	exclude-english	English word
+others	exclude-english	English word
+thanks	exclude-english	English word
+tonight	exclude-english	English word
+upstream	exclude-english	English word
+wait	exclude-english	English word
+weeks	exclude-english	English word
+ambito	exclude-boilerplate	unaccented ámbito
+buyer	exclude-english	English word
+colleges	exclude-english	English word
+condicion	exclude-boilerplate	unaccented condición
+especifico	exclude-boilerplate	unaccented específico
+espectaculo	exclude-boilerplate	unaccented espectáculo
+exports	exclude-english	English word
+injection	exclude-english	English word
+outside	exclude-english	English word
+poblacion	exclude-boilerplate	unaccented población
+salon-comedor	exclude-boilerplate	unaccented salón-comedor
+trebol	exclude-boilerplate	unaccented trébol
+wed	exclude-english	English abbreviation
+among	exclude-english	English word
+arboretum	exclude-english	English place text
+behavioral	exclude-english	English word; Spanish conductual
+caido	exclude-boilerplate	unaccented caído
+cientifico	exclude-boilerplate	unaccented científico
+comm	exclude-english	English abbreviation
+important	exclude-english	English word
+libreria	exclude-boilerplate	unaccented librería
+pods	exclude-english	English tech term
+political	exclude-english	English word
+problem	exclude-english	English word
+restful	exclude-english	English tech term
+sintoma	exclude-boilerplate	unaccented síntoma
+teoria	exclude-boilerplate	unaccented teoría
+type-c	exclude-english	English product label
+walk-in	exclude-english	English word
+above	exclude-english	English word
+blended	exclude-english	English word
+coming	exclude-english	English word
+done	exclude-english	English word; mis-lemma of don
+fotografo	exclude-boilerplate	unaccented fotógrafo
+huesped	exclude-boilerplate	unaccented huésped
+mins	exclude-english	English abbreviation
+percent	exclude-english	English word
+printable	exclude-english	English word
+romantico	exclude-boilerplate	unaccented romántico
+slip-on	exclude-english	English fashion term
+term	exclude-english	English word
+terms	exclude-english	English word
+thank	exclude-english	English word
+versiculo	exclude-boilerplate	unaccented versículo
+able	exclude-english	English word
+achievements	exclude-english	English word
+collect	exclude-english	English word
+comision	exclude-boilerplate	unaccented comisión
+exito	exclude-boilerplate	unaccented éxito
+framing	exclude-english	English web term
+many	exclude-english	English word
+millon	exclude-boilerplate	unaccented millón
+missing	exclude-english	English word
+on-premise	exclude-english	English tech term
+period	exclude-english	English word
+peticion	exclude-boilerplate	unaccented petición
+places	exclude-english	English word
+rearview	exclude-english	English product text
+recent	exclude-english	English word
+reir#actual	exclude-boilerplate	unaccented reír
+reproduccion	exclude-boilerplate	unaccented reproducción
+standalone	exclude-english	English word
+basicamente	exclude-boilerplate	unaccented básicamente
+convo	exclude-english	English chat abbreviation
+discipulo	exclude-boilerplate	unaccented discípulo
+downtown	exclude-english	English word
+hours	exclude-english	English word
+indicator	exclude-english	English word
+pup	exclude-english	English word/acronym
+rated	exclude-english	English review template
+retractable	exclude-english	English word
+skill	exclude-english	English word
+swell	exclude-english	English weather-site template
+thing	exclude-english	English word
+tradicion	exclude-boilerplate	unaccented tradición
+using	exclude-english	English word
+disclaimer	exclude-boilerplate	website template label
+elaboracion	exclude-boilerplate	unaccented elaboración
+ew	exclude-boilerplate	postal code / abbreviation
+gastronomia	exclude-boilerplate	unaccented gastronomía
+manifesto	exclude-boilerplate	lemmatiser artefact of misspelled manifesta / MANIFESTA name
+marijuana	exclude-english	English spelling; Spanish is marihuana/mariguana
+orientacion	exclude-boilerplate	unaccented orientación
+present	exclude-english	English word
+quimico	exclude-boilerplate	unaccented químico
+relationship	exclude-english	English word
+scrapbook	exclude-english	English craft term in machine-translated catalogue text
+shale	exclude-english	English word
+statement	exclude-english	English word
+added	exclude-english	English word
+awareness	exclude-english	English word
+being	exclude-english	English word
+comfortable	exclude-english	English word
+demographic	exclude-english	English word
+digito	exclude-boilerplate	unaccented dígito
+empty	exclude-english	English word
+external	exclude-english	English word
+father	exclude-english	English word
+heads-up	exclude-english	English word
+integer	exclude-english	English code term
+interest	exclude-english	English word
+microscopia	exclude-boilerplate	unaccented microscopía
+muchisimo	exclude-boilerplate	unaccented muchísimo
+philippines	exclude-english	English place name
+preparacion	exclude-boilerplate	unaccented preparación
+segun	exclude-boilerplate	unaccented según
+suscribete	exclude-boilerplate	unaccented suscríbete
+them	exclude-english	English word
+appeal	exclude-english	English word
+artesania	exclude-boilerplate	unaccented artesanía
+dump	exclude-english	English word
+each	exclude-english	English word
+extraible	exclude-boilerplate	unaccented extraíble
+filosofia	exclude-boilerplate	unaccented filosofía
+heard	exclude-english	English word
+higher	exclude-english	English word
+maiz	exclude-boilerplate	unaccented maíz
+multicast	exclude-english	English networking jargon, no Spanish examples
+notifications	exclude-english	English word
+overseas	exclude-english	English word
+perdon	exclude-boilerplate	unaccented perdón
+remember	exclude-english	English word
+restauracion	exclude-boilerplate	unaccented restauración
+spiritual	exclude-english	English word
+while	exclude-english	English word
+ability	exclude-english	English word
+across	exclude-english	English word
+along	exclude-english	English word
+claim	exclude-english	English word
+devolucion	exclude-boilerplate	unaccented devolución
+dollars	exclude-english	English word
+e-business	exclude-english	English word
+looking	exclude-english	English word
+navegacion	exclude-boilerplate	unaccented navegación
+olimpico	exclude-boilerplate	unaccented olímpico
+onshore	exclude-english	English energy-industry jargon; not established
+parameter	exclude-english	English word
+putting	exclude-english	English word
+something	exclude-english	English word
+sorry	exclude-english	English word
+stacks	exclude-english	English word
+tension	exclude-boilerplate	unaccented tensión
+various	exclude-english	English word
+accessory	exclude-english	English word
+channels	exclude-english	English word
+colaboracion	exclude-boilerplate	unaccented colaboración
+crap	exclude-english	English word
+e-shop	exclude-english	English word
+evaluacion	exclude-boilerplate	unaccented evaluación
+everyone	exclude-english	English word
+filename	exclude-english	English word
+fusing	exclude-english	English word
+helicoptero	exclude-boilerplate	unaccented helicóptero
+hint	exclude-english	English word
+listen	exclude-english	English word
+menus	exclude-boilerplate	unaccented menús
+quizas	exclude-boilerplate	unaccented quizás
+regimen	exclude-boilerplate	unaccented régimen
+scholar	exclude-english	English word
+sensacion	exclude-boilerplate	unaccented sensación
+universe	exclude-english	English word
+utilize	exclude-english	English word
+vaccine	exclude-english	English word
+cacer	exclude-boilerplate	lemmatiser artefact of cacería
+camber	exclude-english	English word
+conditions	exclude-english	English word
+educational	exclude-english	English word
+end-to-end	exclude-english	English word
+former	exclude-english	English word
+grua	exclude-boilerplate	unaccented grúa
+included	exclude-english	English word
+junk	exclude-english	English word
+manana	exclude-boilerplate	unaccented mañana
+metadata	exclude-english	English word; Spanish metadatos
+modernist	exclude-english	English word; Spanish modernista
+really	exclude-english	English word
+scenes	exclude-english	English word
+sindrome	exclude-boilerplate	unaccented síndrome
+sure	exclude-english	English word
+they	exclude-english	English word
+tick	exclude-english	English word
+unemployment	exclude-english	English word
+also	exclude-english	English word
+artistico	exclude-boilerplate	unaccented artístico
+built-in	exclude-english	English word
+calling	exclude-english	English word
+changes	exclude-english	English word
+citrate	exclude-english	English word; Spanish citrato
+comunion	exclude-boilerplate	unaccented comunión
+conduccion	exclude-boilerplate	unaccented conducción
+conversacion	exclude-boilerplate	unaccented conversación
+couple	exclude-english	English word
+felt	exclude-english	English word
+idolo	exclude-boilerplate	unaccented ídolo
+include	exclude-english	English word
+intencion	exclude-boilerplate	unaccented intención
+optica	exclude-boilerplate	unaccented óptica
+panaderia	exclude-boilerplate	unaccented panadería
+parallel	exclude-english	English word
+profecia	exclude-boilerplate	unaccented profecía
+pudding	exclude-english	English spelling; Spanish is pudin/pudín/budín
+respect	exclude-english	English word
+speak	exclude-english	English word
+stuff	exclude-english	English word
+sustain	exclude-english	English word
+techniques	exclude-english	English word
+valoracion	exclude-boilerplate	unaccented valoración
+acustico	exclude-boilerplate	unaccented acústico
