@@ -13,7 +13,7 @@ from collections.abc import Mapping
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from frequer import compare, exclude, junk, propn, snapshot
+from frequer import compare, exclude, junk, propn, propn_dict, snapshot
 from frequer.config import Manifest
 from frequer.counts import Merged
 from frequer.ranking import Row, build_rows, rank_rows
@@ -68,7 +68,8 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
     out.exclusions = exclude.load(cfg.code)
     ranked, out.excluded = exclude.apply(ranked, lambda r: r.lemma, out.exclusions)
 
-    needs_case = cfg.propn_rule == "capitalised_mid_sentence" or "propn_band" in jc.rules
+    dictionary = "propn_band" in jc.rules and jc.propn_evidence == "dictionary"
+    needs_case = cfg.propn_rule == "capitalised_mid_sentence" or ("propn_band" in jc.rules and not dictionary)
     if needs_case:
         out.learnable = propn.load_names(root or honeyeater_root(), cfg.code)
         out.tally = propn.load_case(cfg.code)
@@ -88,12 +89,24 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
                 return None, False  # an all-capitals acronym: no case evidence either way
             return propn.mid_capitalised_share(c.forms, tally), False
 
+        names: frozenset[str] = frozenset()
+        if dictionary:
+            path = (root or honeyeater_root()) / "reference" / "learnable-names" / f"{cfg.code}.json"
+            if path.exists():  # until the reviewed list lands, every place is pending-names anyway
+                out.learnable = propn.load_names(root or honeyeater_root(), cfg.code)
+                names = out.learnable.names
+            assert jc.propn_dictionary is not None, "propn_evidence: dictionary needs propn_dictionary"
+            lookup = propn_dict.provider(jc.propn_dictionary)
+
+        def entries(c: junk.Candidate) -> tuple[list[str], bool]:
+            return lookup(junk.base_of(c.lemma)), junk.base_of(c.lemma).casefold() in names
+
         candidates = [junk.Candidate(r.lemma, r.stats.freq, snapshot.majority(r.stats.pos, "X"), r.stats.forms,
                                      r.stats.df) for r in ranked]
         out.flags = junk.compute_flags(
             candidates, jc, total_docs=merged.docs, zipf=compare.zipf_lookup(), lang=cfg.code,
             kept=out.exclusions.kept if out.exclusions else frozenset(),
-            propn_share=share if needs_case else None)
+            propn_share=share if needs_case else None, propn_dict=entries if dictionary else None)
         out.routed = junk.route([r.lemma for r in ranked], out.flags, out.review, jc.review_top, jc.review_multi_flag)
         keep = {r.lemma for r in out.routed if r.action in ("keep", "review-keep", "pending", "pending-names")}
         ranked = [r for r in ranked if r.lemma in keep]

@@ -18,10 +18,14 @@ recount. Each rule writes a flag with its evidence:
 ``shape``      A hyphen, a digit, a whole-word reduplication (*señorseñor*, *hijoshijo*), a consonant followed by a
                word-final l/n/r/d/z the language does not combine (a fragment cut mid-word: *jugabl*, *facilitarl*),
                or a length extreme (*-mente* adverbs exempt).
-``propn_band`` Proper nouns, from the case tally (``frequer/propn.py``). A PROPN-majority lemma that is not a
+``propn_band`` Proper nouns. With ``propn_evidence: case``, from the case tally (``frequer/propn.py``). A PROPN-majority lemma that is not a
                learnable name is capitalised in running text in at least ``propn_drop`` of its occurrences:
                dropped (acts alone). At most ``propn_keep``: kept, no flag. Between the two, or with no case
-               evidence (an all-capitals acronym): flagged.
+               evidence (an all-capitals acronym): flagged. With ``propn_evidence: dictionary`` (a script without
+               case: ja), from the dictionary's proper-noun subtags (:func:`dictionary_verdict`): every entry a
+               person or organisation name drops; every entry a proper noun with a place among them is
+               ``pending-names`` (the learnable-names list decides); a PROPN tag without a proper-noun entry, or
+               another proper noun (brand, era), is a flag.
 
 ``accent`` (``accent_ratio``) merges rather than flags. An unaccented spelling whose accented spelling is at least
 ``accent_ratio`` times as frequent moves its counts into the lemma that owns the accented spelling: the
@@ -201,6 +205,8 @@ class Flags:
     flags: dict[str, list[tuple[str, str]]] = field(default_factory=dict)
     #: proper nouns the band drops on its own: lemma -> evidence
     propn_drop: dict[str, str] = field(default_factory=dict)
+    #: place names (dictionary evidence) the learnable-names list decides: lemma -> evidence
+    propn_place: dict[str, str] = field(default_factory=dict)
     #: per log2-frequency band: its 2nd percentile of the clumping ratio (context for the fixed threshold)
     diversity_bands: dict[str, float] = field(default_factory=dict)
 
@@ -224,15 +230,40 @@ def shape_evidence(b: str, cfg: JunkConfig, zipf_own: Callable[[str], float] | N
         return f"ends in '{''.join(letters[-2:])}' (cut mid-word?)"
     if len(b) >= cfg.max_length and not b.endswith("mente"):
         return f"length {len(b)}"
-    if len(b) <= 2 and (zipf_own is None or zipf_own(b) < cfg.short_zipf_min):
+    if len(b) <= cfg.short_max_length and (zipf_own is None or zipf_own(b) < cfg.short_zipf_min):
         return f"length {len(b)}"
     return None
+
+
+#: A dictionary entry's proper-noun class (``frequer/propn_dict.py``): person, organization, place, proper
+#: (another proper noun: a brand, product, era) or common (any entry that is not a proper noun).
+NAME_CLASSES = ("person", "organization")
+
+
+def dictionary_verdict(entries: Sequence[str], tagged_propn: bool) -> tuple[str, str] | None:
+    """``(verdict, evidence)`` from a lemma's dictionary entries: ``name`` (drop), ``place`` (the learnable-names
+    list decides), ``review`` (one flag), or None. Only a lemma whose every entry is a proper noun is a name or a
+    place; a PROPN tag the dictionary does not back (common-noun entries, or none) is a review flag, not a drop."""
+    kinds = set(entries)
+    shown = "/".join(sorted(kinds)) or "no entry"
+    if kinds and "common" not in kinds:
+        if "place" in kinds:
+            return "place", f"dictionary: every entry a proper noun, a place among them ({shown})"
+        if kinds & set(NAME_CLASSES):
+            return "name", f"dictionary: every entry a proper noun ({shown})"
+        return "review", f"dictionary: proper noun, not a person or place ({shown})"
+    if not tagged_propn:
+        return None
+    if kinds - {"common"}:
+        return "review", f"tagged PROPN; dictionary has proper and common entries ({shown})"
+    return "review", f"tagged PROPN; the dictionary {'has only common entries' if kinds else 'lacks it'}"
 
 
 def compute_flags(
     candidates: Sequence[Candidate], cfg: JunkConfig, *, total_docs: int,
     zipf: Callable[[str, str], float] | None, lang: str, kept: frozenset[str],
     propn_share: Callable[[Candidate], tuple[float | None, bool]] | None,
+    propn_dict: Callable[[Candidate], tuple[list[str], bool]] | None = None,
 ) -> Flags:
     """Every enabled rule over ``candidates`` (in rank order)."""
     out = Flags()
@@ -274,6 +305,17 @@ def compute_flags(
             why = shape_evidence(b, cfg, own)
             if why:
                 out.add(c.lemma, "shape", why)
+        if "propn_band" in on and propn_dict is not None:
+            entries, learnable = propn_dict(c)
+            verdict = None if learnable else dictionary_verdict(entries, c.pos == "PROPN")
+            if verdict is not None:
+                kind, evidence = verdict
+                if kind == "name":
+                    out.propn_drop[c.lemma] = evidence
+                elif kind == "place":
+                    out.propn_place[c.lemma] = evidence
+                else:
+                    out.add(c.lemma, "propn_band", evidence)
         if "propn_band" in on and propn_share is not None and c.pos == "PROPN":
             share, learnable = propn_share(c)
             if learnable:
@@ -318,7 +360,7 @@ def route(ranked: Sequence[str], flags: Flags, review: Review | None, review_top
             action = "propn-drop"
         elif decision == "drop":
             action = "review-drop"
-        elif decision == "pending-names":
+        elif decision == "pending-names" or (lemma in flags.propn_place and not decision):
             action = "pending-names"  # a place name: decided by the learnable-names list, kept until then
         elif decision == "keep" or (lemma in targets and decision != "drop"):
             action = "review-keep"
