@@ -314,7 +314,7 @@ def route(ranked: Sequence[str], flags: Flags, review: Review | None, review_top
     for rank, lemma in enumerate(ranked, start=1):
         fl = tuple(flags.flags.get(lemma, ()))
         decision = decisions.get(lemma, ("", ""))[0]
-        if lemma in flags.propn_drop:
+        if lemma in flags.propn_drop and decision != "keep":  # a reviewed keep (a famous institution) wins
             action = "propn-drop"
         elif decision == "drop":
             action = "review-drop"

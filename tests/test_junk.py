@@ -29,3 +29,13 @@ def test_routing_by_flag_count() -> None:
     flags = junk.compute_flags(cands, cfg, total_docs=1000, zipf=None, lang="es", kept=frozenset(), propn_share=None)
     routed = {r.lemma: r.action for r in junk.route([c.lemma for c in cands], flags, None, 10)}
     assert routed == {"casa": "keep", "jugabl": "drop", "wi-fi": "pending", "cantar": "keep"}
+
+
+def test_reviewed_keep_overrides_propn_drop() -> None:
+    # A famous institution capitalised in all running text (renfe) is kept when the review says keep.
+    from pathlib import Path
+    flags = junk.Flags()
+    flags.propn_drop = {"renfe": "capitalised in 100% of running text", "acme": "capitalised in 100% of running text"}
+    review = junk.Review(Path("r.tsv"), "", {"renfe": ("keep", "famous institution")})
+    routed = {r.lemma: r.action for r in junk.route(["renfe", "acme"], flags, review, 10)}
+    assert routed == {"renfe": "review-keep", "acme": "propn-drop"}
