@@ -42,6 +42,7 @@ def test_dictionary_proper_noun_evidence() -> None:
     assert v(["common"], True) == "review"  # 返品, メンズ: a PROPN tag the dictionary does not back
     assert v([], True) == "review"  # サムソナイト-like words the dictionary lacks
     assert v(["person", "common"], False) is None  # 誠: a common reading, not tagged PROPN
+    assert v(["person"], False) == "review"  # お花, 数人: built from parts, the dictionary shows only a name
     assert v(["common"], False) is None
 
 
