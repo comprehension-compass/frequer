@@ -42,6 +42,7 @@ One row per counted shard: the shards counted so far, in the order they finished
 | 94,027,050 | paracrawl-en-es 90,700,083, tatoeba-spa 3,326,967 | full | 0.2% | 3 | 1,299 | 1.5% | 0.2% | 9 | 402 | 2.6% | 0.4% | 27 | 117 | 4.4% | 0.9% | 136 | 22 | 10.1% | 0/3 |
 | 96,955,802 | paracrawl-en-es 93,628,835, tatoeba-spa 3,326,967 | full | 0.1% | 3 | 1,344 | 1.5% | 0.2% | 9 | 414 | 2.5% | 0.4% | 26 | 120 | 4.3% | 0.9% | 130 | 22 | 9.8% | 1/3 |
 | 99,879,342 | paracrawl-en-es 96,552,375, tatoeba-spa 3,326,967 | full | 0.1% | 3 | 1,384 | 1.5% | 0.2% | 8 | 427 | 2.5% | 0.3% | 25 | 124 | 4.3% | 0.9% | 131 | 23 | 9.8% | 2/3 |
+| 102,801,568 | paracrawl-en-es 99,474,601, tatoeba-spa 3,326,967 | full | 0.1% | 3 | 1,424 | 1.4% | 0.2% | 8 | 439 | 2.5% | 0.3% | 25 | 128 | 4.3% | 0.8% | 126 | 24 | 9.5% | 3/3 |
 
-Decision: **continue**.
+Decision: **stop** at 102,801,568 tokens.
 
