@@ -5,6 +5,7 @@ One row per counted shard: the shards counted so far, in the order they finished
 | tokens | per source | mix | 5k chg | 5k shift | f@5k | 5k split | 10k chg | 10k shift | f@10k | 10k split | 20k chg | 20k shift | f@20k | 20k split | 50k chg | 50k shift | f@50k | 50k split | stop |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 105,726,244 | paracrawl-en-es 102,399,277, tatoeba-spa 3,326,967 | full | - | - | 1,318 | 1.4% | - | - | 334 | 2.5% | - | - | 66 | 5.2% | - | - | 7 | 19.0% | 0/3 |
+| 111,579,906 | paracrawl-en-es 108,252,939, tatoeba-spa 3,326,967 | full | 0.2% | 4 | 1,388 | 1.2% | 0.3% | 10 | 353 | 2.4% | 0.6% | 31 | 70 | 5.1% | 2.1% | 203 | 7 | 18.6% | 0/3 |
 
 Decision: **continue**.
 
