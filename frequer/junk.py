@@ -166,9 +166,12 @@ def apply_merges(merged: Merged, merges: Sequence[Merge]) -> list[Merge]:
     done: list[Merge] = []
     for m in merges:
         src, dst = merged.lemmas.get(m.source), merged.lemmas.get(m.target)
-        if src is None or dst is None or m.source == m.target:
+        if src is None or m.source == m.target:
             continue
-        _merge_stats(dst, src)
+        if dst is None:  # the right lemma was never a candidate: the counts move under its name
+            merged.lemmas[m.target] = src
+        else:
+            _merge_stats(dst, src)
         del merged.lemmas[m.source]
         done.append(m)
     return done
