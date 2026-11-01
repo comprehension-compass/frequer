@@ -53,9 +53,10 @@ sources:
       - https://data.hplt-project.org/two/cleaned/jpn_Jpan/8.jsonl.zst
       - https://data.hplt-project.org/two/cleaned/jpn_Jpan/9.jsonl.zst
     shard_chars: 20000000
-    # 21 URLs x 27M raw characters at ~2.5 per counted token ~ 225M tokens; recalibrate on the
-    # new segmenter's pilot before the full run.
-    max_chars_per_url: 27000000
+    # 21 URLs x 15M raw characters at ~2.65 per counted token ~ 120M tokens. Release 1.5.0 (the
+    # segmenter path) counts ~1.1k tokens per core-second, half of 1.4.0, so the planned 27M per
+    # URL (~225M tokens, ~57 core-hours) did not fit the 2026-11 deadline (2026-11-01 full run).
+    max_chars_per_url: 15000000
   - name: tatoeba-jpn
     kind: tsv
     licence: CC-BY-2.0-FR
