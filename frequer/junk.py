@@ -380,10 +380,12 @@ def route(ranked: Sequence[str], flags: Flags, review: Review | None, review_top
             action = "review-drop"
         elif decision == "pending-names" or (lemma in flags.propn_place and not decision):
             action = "pending-names"  # a place name: decided by the learnable-names list, kept until then
-        elif decision == "keep" or (lemma in targets and decision != "drop"):
-            action = "review-keep"  # a reviewed decision outranks the automatic proper-noun drop
+        elif decision == "keep":
+            action = "review-keep"  # an explicit reviewed decision outranks the automatic proper-noun drop
         elif lemma in flags.propn_drop:
             action = "propn-drop"
+        elif lemma in targets and decision != "drop":
+            action = "review-keep"
         elif lemma in flags.number_drop:
             action = "number-drop"  # the app ignores a spelled number past the core words (lemma_defaults)
         elif any(rule == "propn_band" for rule, _e in fl) or len(fl) == 1 or (review_multi_flag and fl):
