@@ -9,8 +9,8 @@ from typing import Any
 
 from frequer import converge, snapshot
 from frequer.config import Manifest
-from frequer.converge import KEEP, Ranked
-from frequer.merge import merge_counts
+from frequer.converge import BANDS, KEEP, Ranked
+from frequer.merge import MergeResult, merge_counts
 from frequer.ranking import Row, build_rows, rank_rows
 
 CANDIDATE_FACTOR = 4
@@ -48,32 +48,32 @@ def mix_of(manifest: Manifest, work_dir: Path, names: list[str]) -> str:
     return "partial (lacks " + ", ".join(missing) + ")"
 
 
-def record(target: int | str, r: Ranked, prev: Ranked | None, *, mix: str, judged: bool,
-           sources: dict[str, int]) -> dict[str, Any]:
-    return {
-        "target": target, "tokens": r.tokens, "shards": len(r.shards), "mix": mix, "sources": sources,
-        "freq_at": {str(n): r.freq[n - 1] for n in converge.BANDS if len(r.freq) >= n},
-        "dp_at": {str(n): round(r.dp[n - 1], 2) for n in converge.BANDS if len(r.dp) >= n},
-        "comparison": converge.compare(prev, r) if prev is not None else None,
-        # Only a full-mix checkpoint compared with a full-mix one counts for the stopping rule.
-        "judged": judged,
-    }
+def _rank(manifest: Manifest, counts_dir: Path, names: list[str]) -> tuple[MergeResult, list[Row]]:
+    result = merge_counts(counts_dir, manifest.parts, manifest.language.top_n * CANDIDATE_FACTOR, only=set(names))
+    weights = {s.name: s.weight for s in manifest.sources}
+    return result, rank_rows(build_rows(result.merged, weights), "frequency")
 
 
-def previous(out_dir: Path, state: dict[str, Any], *, full_only: bool = False) -> Ranked | None:
-    numbered = [c for c in state["checkpoints"] if isinstance(c["target"], int)
-                and (not full_only or c.get("mix") == "full")]
-    if not numbered:
-        return None
-    return converge.load_ranked(out_dir / "checkpoints" / f"{numbered[-1]['target']}.json.gz")
+def _lemmas(manifest: Manifest, counts_dir: Path, names: list[str]) -> list[str]:
+    if not names:
+        return []
+    _result, ranked = _rank(manifest, counts_dir, names)
+    return [r.lemma for r in ranked[:KEEP]]
 
 
-def decide(state: dict[str, Any]) -> None:
-    comparisons = [c["comparison"] for c in state["checkpoints"]
-                   if isinstance(c["target"], int) and c.get("judged") and c["comparison"]]
-    if converge.should_stop(comparisons) and state.get("decision") != "stop":
-        state["decision"] = "stop"
-        state["stopped_at"] = state["checkpoints"][-1]["tokens"]
+def row_of(r: Ranked, prev: Ranked | None, *, mix: str, sources: dict[str, int],
+           half_a: list[str], half_b: list[str]) -> dict[str, Any]:
+    """One convergence row (``converge`` module docstring)."""
+    change = converge.compare(prev, r) if prev is not None else {}
+    bands: dict[str, Any] = {}
+    for n in BANDS:
+        bands[str(n)] = {
+            "change": change.get(str(n), {}).get("change"),
+            "median_shift": change.get(str(n), {}).get("median_shift"),
+            "freq_at_n": r.freq[n - 1] if len(r.freq) >= n else None,
+            "split_half": converge.disagreement(half_a, half_b, n),
+        }
+    return {"tokens": r.tokens, "shards": len(r.shards), "sources": sources, "mix": mix, "bands": bands}
 
 
 def run_checkpoints(
@@ -89,57 +89,57 @@ def run_checkpoints(
     """Take every due checkpoint; returns the convergence state (``decision`` is ``stop`` or ``continue``)."""
     cfg = manifest.language
     state = converge.load_state(out_dir)
-    done = {c["target"] for c in state["checkpoints"] if isinstance(c["target"], int)}
+    done = {row["tokens"] for row in state["checkpoints"]}
     shards = converge.finished_shards(counts_dir, out_dir / "checkpoints" / converge.LEDGER)
-    pending = converge.due(shards, done)
-    weights = {s.name: s.weight for s in manifest.sources}
-    last: tuple[int, Any, list[Row]] | None = None
-    for target, names in pending:
-        result = merge_counts(counts_dir, manifest.parts, cfg.top_n * CANDIDATE_FACTOR, only=set(names))
-        ranked = rank_rows(build_rows(result.merged, weights), "frequency")
+    last: tuple[int, MergeResult, list[Row]] | None = None
+    for tokens, names in converge.due(shards, done):
+        result, ranked = _rank(manifest, counts_dir, names)
         r = ranked_of(ranked, result.merged.tokens, names)
-        converge.save_ranked(out_dir / "checkpoints" / f"{target}.json.gz", r)
-        mix = mix_of(manifest, counts_dir.parent / "work", names)
-        prev_full = previous(out_dir, state, full_only=True) if mix == "full" else None
-        prev = prev_full or previous(out_dir, state)
-        rec = record(target, r, prev, mix=mix, judged=prev_full is not None,
-                     sources={name: t.tokens for name, t in result.sources.items()})
-        state["checkpoints"].append(rec)
-        overlap = (rec["comparison"] or {}).get("bands", {})
-        log(f"checkpoint {target:,}: {r.tokens:,} tokens, {len(names)} shards; overlap "
-            + ", ".join(f"{int(n) // 1000}k {b['overlap']:.1%}" for n, b in overlap.items() if b["overlap"] is not None))
-        last = (target, result, ranked)
-        decide(state)
+        converge.save_ranked(out_dir / "checkpoints" / f"{tokens}.json.gz", r)
+        prev = state["checkpoints"][-1] if state["checkpoints"] else None
+        prev_r = converge.load_ranked(out_dir / "checkpoints" / f"{prev['tokens']}.json.gz") if prev else None
+        a, b = converge.split_halves(names)
+        row = row_of(r, prev_r, mix=mix_of(manifest, counts_dir.parent / "work", names),
+                     sources={name: t.tokens for name, t in result.sources.items()},
+                     half_a=_lemmas(manifest, counts_dir, a), half_b=_lemmas(manifest, counts_dir, b))
+        state["checkpoints"].append(row)
+        row["passes"] = converge.run_length(state["checkpoints"])
+        if row["passes"] >= converge.STOP_RUN and state.get("decision") != "stop":
+            state["decision"] = "stop"
+            state["stopped_at"] = row["tokens"]
+        log(f"checkpoint {row['tokens']:,} ({row['mix']}): split-half "
+            + ", ".join(f"{int(n) // 1000}k {converge._pct(v['split_half'])}" for n, v in row["bands"].items())
+            + f"; stop {row['passes']}/{converge.STOP_RUN}")
+        last = (tokens, result, ranked)
         converge.write_state(out_dir, state)
     if last is not None and write_snapshot:
-        target, result, ranked = last
+        tokens, result, ranked = last
         citation = None
         if cfg.readings:
             from frequer.runtime import Runtime
 
             citation = Runtime(cfg, lemma_dir=lemma_dir, wheel=wheel, fallback=cfg.fallback).backend.lemma_citation
-        head = snapshot.header(result, manifest, "frequency", weights, f"checkpoint-{result.merged.tokens}")
+        weights = {s.name: s.weight for s in manifest.sources}
+        head = snapshot.header(result, manifest, "frequency", weights, f"checkpoint-{tokens}")
         entries = snapshot.build_entries(ranked[: cfg.top_n], result.merged, manifest, citation)
-        dest = out_dir / f"checkpoint-{target}"
+        dest = out_dir / f"checkpoint-{tokens}"
         snapshot.write_snapshot(dest / f"{cfg.code}.json", head, entries)
         converge.prune_snapshots(out_dir, dest)
         log(f"checkpoint snapshot: {dest / f'{cfg.code}.json'} ({len(entries):,} entries)")
     return state
 
 
-def final_record(out_dir: Path, ranked: list[Row], tokens: int, shards: list[str], *, mix: str,
-                 sources: dict[str, int]) -> dict[str, Any] | None:
-    """Add the final build to the convergence table (compared with the last checkpoint)."""
+def final_record(out_dir: Path, ranked: list[Row], tokens: int, *, mix: str) -> dict[str, Any] | None:
+    """Record the final list and calibrate: each checkpoint's top N against the final top N."""
     state = converge.load_state(out_dir)
     if not state["checkpoints"]:
         return None
-    state["checkpoints"] = [c for c in state["checkpoints"] if c["target"] != "final"]
-    prev = previous(out_dir, state)
-    if prev is not None and prev.tokens == tokens:
-        converge.write_state(out_dir, state)
-        return state
-    state["checkpoints"].append(record("final", ranked_of(ranked, tokens, shards), prev, mix=mix,
-                                       judged=False, sources=sources))
+    final = [r.lemma for r in ranked[:KEEP]]
+    for row in state["checkpoints"]:
+        lemmas = converge.load_ranked(out_dir / "checkpoints" / f"{row['tokens']}.json.gz").lemmas
+        for n in BANDS:
+            row["bands"][str(n)]["vs_final"] = converge.disagreement(lemmas, final, n)
+    state["final"] = {"tokens": tokens, "mix": mix}
     if state.get("decision") != "stop":
         state["decision"] = "built from everything counted (stopping rule not met)"
         state["stopped_at"] = tokens

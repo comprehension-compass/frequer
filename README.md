@@ -59,7 +59,7 @@ original post-processing ideas the review report now carries on.
 | `assoc.py` | association measures (PMI, NPMI, signed G2, min over splits) and the scored table (pure) |
 | `combos.py` | compaction, final merge, the shipped table, the unit-list comparison and the labelling queue |
 | `run.py`, `build.py`, `cli.py`, `perf.py` | orchestration, build, commands, throughput table |
-| `converge.py`, `checkpoint.py` | convergence checkpoints, band metrics, the stopping rule (pure core tested) |
+| `converge.py`, `checkpoint.py` | per-shard convergence checkpoints, split-half stopping rule, calibration (pure core tested) |
 | `forms.py`, `forms_run.py`, `select.py` | the **form inventory** and candidate selection (below) |
 
 ## Running it
@@ -134,31 +134,35 @@ skips that section and the English-leaning half of the foreign-word signal.
 
 ## Convergence checkpoints
 
-The 2026-11-01 lists feed pre-generation and production testing, so counting stops when more text no longer
-moves the list (`frequer/converge.py`, `frequer/checkpoint.py`). At cumulative 10M, 25M, 50M, 100M tokens and
-every 50M after, the shards counted so far (in the order they finished: the shortest prefix reaching the
-target) are merged and ranked by frequency, and each checkpoint is compared with the previous one for N in
-5k / 10k / 20k / 50k: top-N overlap (share of the previous top N still in the top N), Spearman and median
-|rank shift| over the lemmas in both top-N lists, and the raw frequency and dispersion-adjusted score
-(`f x (1 - DP_norm)`) at rank N.
+The 2026-11-01 lists feed pre-generation and production testing, so counting stops when the list is stable
+(`frequer/converge.py`, `frequer/checkpoint.py`; developer spec of 2026-11-01). After **every counted shard**
+the shards counted so far (in the order they finished) are merged and ranked by frequency, and the checkpoint
+gets one row in `convergence.md` / `convergence.json`: total tokens, tokens per source, the mix label, and per
+band N in 5k / 10k / 20k / 50k:
+
+* **chg**: share of the top N not in the previous checkpoint's top N;
+* **shift**: median |rank shift| of the lemmas in both;
+* **f@N**: raw frequency at rank N;
+* **split**: split-half disagreement, 1 - overlap of the top N ranked from half A against half B, the shards
+  dealt alternately into A and B within each source (same source mix in both halves; a source with an odd
+  count leaves its newest shard out, so a one-shard Tatoeba source sits out of both halves).
+
+**Stopping rule:** three consecutive full-mix checkpoints with split <= 5 % at top 20k and <= 10 % at top 50k
+(the `stop k/3` column). `count --checkpoints` then stops (shards in flight are dropped) and `build` makes the
+final snapshot from every shard counted. Two independent halves differ about twice as much as either differs
+from the converged list; `build` adds a **calibration** table (each checkpoint's top N against the final list's,
+next to its split-half disagreement) to check that.
 
 **Source mix.** `count` cuts the small `first: true` sources (the Tatoeba top-ups) before the web, and the
 URLs of a multi-URL source round-robin, one shard from each in turn (each stream stays open between turns and
 resumes with `Range`), so a run stopped early holds every source and every URL's share. A single sequential
 stream (ParaCrawl at a stride) is still read in file order: size its `stride` for the token count you expect
-to stop at if the whole file should be spanned. Each checkpoint records its per-source tokens and its `mix`:
-`full` (every `first` source whole, every other source present), `web only` (no `first` source yet) or
-`partial (lacks ...)`.
+to stop at if the whole file should be spanned. The mix label: `full` (every `first` source whole, every other
+source present), `web only` (no `first` source yet) or `partial (lacks ...)`; only `full` rows can pass.
 
-**Stopping rule:** two consecutive comparisons both with top-20k overlap >= 98 % and top-50k overlap >= 95 %,
-judged only on full-mix checkpoints, each compared with the previous full-mix checkpoint;
-`count --checkpoints` then stops (shards in flight are dropped) and `build` makes the final snapshot from every
-shard counted. Without convergence the manifest runs out and the build is the same.
-
-In `--out-dir`: `convergence.json` / `convergence.md` (every checkpoint, its comparison, the decision),
-`checkpoints/<target>.json.gz` (each checkpoint's top 50k, so comparisons never re-merge), and the latest
-checkpoint snapshot `checkpoint-<target>/<lang>.json` in the loader's format (older ones are removed), loadable
-at any time. `build` adds a `final` row (the build against the last checkpoint) and the table to `report.md`.
+In `--out-dir`: `convergence.json` / `convergence.md`, `checkpoints/<tokens>.json.gz` (each checkpoint's top
+50k), and the latest checkpoint snapshot `checkpoint-<tokens>/<lang>.json` in the loader's format (older ones
+are removed), loadable at any time. `report.md` carries the same tables.
 
 ## What a build does
 
