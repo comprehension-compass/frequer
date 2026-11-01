@@ -239,6 +239,18 @@ manifest scales that source's frequency in the score (the Tatoeba blend knob); t
 re-sorts entries by their summed `frequency` whenever an override file is non-empty, which would
 silently undo a dispersion ranking. See the report's note in the pilot summary.
 
+### Exclusions
+
+`corpora/exclude/<lang>.tsv` (`frequer/exclude.py`) is a reviewed list of lemmas the snapshot leaves
+out: English leakage and website boilerplate that the counts cannot tell from Spanish. Each row is
+`lemma, class, reason`. A row with class `exclude-*` drops that snapshot key from the ranking, and
+every lower rank moves up. A unit headword whose member words are all excluded drops too, unless the
+file lists it with a `keep-*` class (*low cost* stays although *low* and *cost* go). The counts are
+untouched, so a change to the list only needs `build`, not a recount. The header's `exclusions` key
+records the file's sha256 and what it dropped from the top N, and `report.md` lists them. The Spanish
+list was reviewed twice independently against the developer's criterion (an English word goes, an
+established loan stays), with disagreements adjudicated (`full/es/exclusions.md`).
+
 ### The review report
 
 `report.md` per build:
