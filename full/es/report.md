@@ -1,6 +1,6 @@
 # Review report: es (full)
 
-- Ranking score: `frequency`; 198,751 candidate lemmas ranked.
+- Ranking score: `frequency`; 74,751 candidate lemmas ranked.
 - Tokens counted: 105,726,244 in 138,221 documents, 40 shards, 100 dispersion parts.
 - Lemma release: `honeyeater_lemma_es` 1.5.0 (sha256 `ccbd50dc900e43a8`); fallback `spacy-list`, units on; honeyeater `44220fb34e82`.
 
@@ -29,29 +29,29 @@ Counted occurrences by kind: compound 708,886 (0.67%), compound1 752,894 (0.71%)
 |---|---|---|---|
 | `encontrarse` | 60,008 | 48,044 | 168 |
 | `sitio web` | 45,422 | 34,327 | 228 |
-| `Estados Unidos` | 31,586 | 27,150 | 367 |
+| `Estados Unidos` | 31,586 | 27,150 | 366 |
 | `internacional` | 29,628 | 25,601 | 255 |
-| `correo electrónico` | 23,988 | 20,711 | 506 |
-| `convertirse` | 22,193 | 20,150 | 1980 |
-| `por qué` | 21,701 | 18,212 | 574 |
-| `directamente` | 19,755 | 18,142 | 616 |
-| `especialmente` | 16,904 | 15,845 | 748 |
-| `tratarse` | 16,335 | 15,214 | 2474 |
-| `simplemente` | 16,304 | 15,259 | 773 |
-| `actualmente` | 15,739 | 14,836 | 803 |
-| `asegurarse` | 15,565 | 14,618 | 2380 |
-| `realmente` | 14,990 | 13,945 | 846 |
-| `página web` | 14,699 | 13,198 | 861 |
-| `completamente` | 13,848 | 13,076 | 921 |
-| `totalmente` | 13,329 | 12,557 | 949 |
-| `sentirse` | 12,219 | 11,380 | 1035 |
-| `quedarse` | 11,948 | 10,933 | 1175 |
-| `fácilmente` | 11,559 | 11,022 | 1090 |
-| `rápidamente` | 11,457 | 10,940 | 1101 |
-| `solamente` | 11,186 | 10,639 | 1129 |
-| `Nueva York` | 10,712 | 9,713 | 1167 |
-| `ponerse` | 10,545 | 9,933 | 1328 |
-| `aproximadamente` | 10,074 | 9,441 | 1219 |
+| `correo electrónico` | 23,988 | 20,711 | 505 |
+| `convertirse` | 22,193 | 20,150 | 1953 |
+| `por qué` | 21,701 | 18,212 | 571 |
+| `directamente` | 19,755 | 18,142 | 613 |
+| `especialmente` | 16,904 | 15,845 | 742 |
+| `tratarse` | 16,335 | 15,214 | 2425 |
+| `simplemente` | 16,304 | 15,259 | 767 |
+| `actualmente` | 15,739 | 14,836 | 797 |
+| `asegurarse` | 15,565 | 14,618 | 2338 |
+| `realmente` | 14,990 | 13,945 | 840 |
+| `página web` | 14,699 | 13,198 | 854 |
+| `completamente` | 13,848 | 13,076 | 914 |
+| `totalmente` | 13,329 | 12,557 | 941 |
+| `sentirse` | 12,219 | 11,380 | 1027 |
+| `quedarse` | 11,948 | 10,933 | 1166 |
+| `fácilmente` | 11,559 | 11,022 | 1082 |
+| `rápidamente` | 11,457 | 10,940 | 1093 |
+| `solamente` | 11,186 | 10,639 | 1121 |
+| `Nueva York` | 10,712 | 9,713 | 1158 |
+| `ponerse` | 10,545 | 9,933 | 1317 |
+| `aproximadamente` | 10,074 | 9,441 | 1209 |
 
 ### Top construction units
 
@@ -66,22 +66,22 @@ Counted occurrences by kind: compound 708,886 (0.67%), compound1 752,894 (0.71%)
 | `al + infinitivo` | 61,539 | 48,486 | 155 |
 | `tener que + infinitivo` | 52,037 | 41,858 | 193 |
 | `ir a + infinitivo` | 40,403 | 31,675 | 266 |
-| `más/menos … que` | 34,497 | 29,532 | 337 |
-| `seguir + gerundio` | 22,054 | 19,948 | 557 |
-| `volver a + infinitivo` | 13,984 | 12,888 | 912 |
-| `comenzar a + infinitivo` | 12,993 | 12,191 | 976 |
-| `empezar a + infinitivo` | 12,218 | 11,339 | 1036 |
-| `tan … como` | 10,157 | 9,493 | 1254 |
-| `dejar de + infinitivo` | 10,025 | 9,340 | 1226 |
-| `soler + infinitivo` | 9,984 | 9,411 | 1228 |
-| `hace + tiempo` | 9,235 | 8,758 | 1314 |
-| `acabar de + infinitivo` | 6,299 | 5,481 | 1830 |
-| `desde hace + tiempo` | 4,432 | 4,335 | 2420 |
-| `tan … que` | 4,137 | 4,008 | 2529 |
-| `qué + adjetivo/sustantivo` | 3,891 | 3,564 | 2647 |
-| `hace + tiempo + que` | 3,146 | 3,019 | 3060 |
-| `hacer que + subjuntivo` | 1,195 | 1,188 | 5564 |
-| `menos … que` | 662 | 643 | 7926 |
+| `más/menos … que` | 34,497 | 29,532 | 336 |
+| `seguir + gerundio` | 22,054 | 19,948 | 554 |
+| `volver a + infinitivo` | 13,984 | 12,888 | 905 |
+| `comenzar a + infinitivo` | 12,993 | 12,191 | 968 |
+| `empezar a + infinitivo` | 12,218 | 11,339 | 1028 |
+| `tan … como` | 10,157 | 9,493 | 1244 |
+| `dejar de + infinitivo` | 10,025 | 9,340 | 1216 |
+| `soler + infinitivo` | 9,984 | 9,411 | 1218 |
+| `hace + tiempo` | 9,235 | 8,758 | 1303 |
+| `acabar de + infinitivo` | 6,299 | 5,481 | 1808 |
+| `desde hace + tiempo` | 4,432 | 4,335 | 2374 |
+| `tan … que` | 4,137 | 4,008 | 2477 |
+| `qué + adjetivo/sustantivo` | 3,891 | 3,564 | 2591 |
+| `hace + tiempo + que` | 3,146 | 3,019 | 2982 |
+| `hacer que + subjuntivo` | 1,195 | 1,188 | 5223 |
+| `menos … que` | 662 | 643 | 7170 |
 
 ### Top phrase units
 
@@ -94,24 +94,24 @@ Counted occurrences by kind: compound 708,886 (0.67%), compound1 752,894 (0.71%)
 | `antes de` | 39,627 | 33,863 | 273 |
 | `así como` | 39,070 | 33,633 | 281 |
 | `acerca de` | 38,745 | 32,397 | 283 |
-| `sin embargo` | 37,024 | 32,245 | 303 |
-| `dentro de` | 31,163 | 27,155 | 372 |
-| `por ejemplo` | 28,950 | 25,697 | 416 |
-| `ya que` | 27,190 | 24,494 | 448 |
-| `por favor` | 22,188 | 19,545 | 549 |
-| `gracias a` | 21,895 | 20,055 | 560 |
-| `en línea` | 21,418 | 19,462 | 575 |
-| `por lo que` | 19,686 | 18,256 | 620 |
-| `disfrutar de algo` | 19,565 | 18,050 | 623 |
-| `además de` | 18,838 | 17,479 | 645 |
-| `contar con algo` | 18,672 | 17,317 | 655 |
-| `así que` | 18,491 | 17,231 | 668 |
-| `debido a` | 18,042 | 16,692 | 691 |
-| `a partir de` | 17,697 | 16,365 | 707 |
-| `a continuación` | 17,637 | 16,445 | 713 |
-| `convertirse en algo` | 17,624 | 16,334 | 716 |
-| `alrededor de` | 16,331 | 15,105 | 771 |
-| `fuera de` | 15,695 | 14,562 | 807 |
+| `sin embargo` | 37,024 | 32,245 | 302 |
+| `dentro de` | 31,163 | 27,155 | 371 |
+| `por ejemplo` | 28,950 | 25,697 | 415 |
+| `ya que` | 27,190 | 24,494 | 447 |
+| `por favor` | 22,188 | 19,545 | 546 |
+| `gracias a` | 21,895 | 20,055 | 557 |
+| `en línea` | 21,418 | 19,462 | 572 |
+| `por lo que` | 19,686 | 18,256 | 617 |
+| `disfrutar de algo` | 19,565 | 18,050 | 619 |
+| `además de` | 18,838 | 17,479 | 641 |
+| `contar con algo` | 18,672 | 17,317 | 651 |
+| `así que` | 18,491 | 17,231 | 663 |
+| `debido a` | 18,042 | 16,692 | 686 |
+| `a partir de` | 17,697 | 16,365 | 702 |
+| `a continuación` | 17,637 | 16,445 | 708 |
+| `convertirse en algo` | 17,624 | 16,334 | 711 |
+| `alrededor de` | 16,331 | 15,105 | 765 |
+| `fuera de` | 15,695 | 14,562 | 801 |
 
 ## Co-occurrence (association) table
 
@@ -185,48 +185,48 @@ Counted occurrences by kind: compound 708,886 (0.67%), compound1 752,894 (0.71%)
 
 ## Rank shifts against the live snapshot (`reference/lemmas/es.json`)
 
-Live list 20,000 lemmas, this build 198,751; 18,962 shared. Spearman rank correlation on the shared lemmas 0.920; median rank ratio 1.09x.
-Overlap of this build's top-k with the live top-k: top 1,000 87.4%, top 5,000 85.2%, top 20,000 85.4%.
+Live list 20,000 lemmas, this build 74,751; 13,110 shared. Spearman rank correlation on the shared lemmas 0.934; median rank ratio 1.15x.
+Overlap of this build's top-k with the live top-k: top 1,000 87.4%, top 5,000 82.8%, top 20,000 64.3%.
 
 ### Biggest risers (rank improves)
 
 | lemma | live rank | new rank | change |
 |---|---|---|---|
-| `acondicionar` | 18455 | 931 | -17,524 |
-| `diecinueve` | 18282 | 1361 | -16,921 |
-| `dividirse` | 19076 | 3877 | -15,199 |
-| `descanso` | 17625 | 2544 | -15,081 |
-| `torno` | 17613 | 2674 | -14,939 |
-| `respaldo` | 18269 | 3512 | -14,757 |
-| `seiscientos` | 17737 | 3309 | -14,428 |
-| `coco` | 18793 | 4486 | -14,307 |
-| `parto` | 17982 | 4086 | -13,896 |
-| `diecisiete` | 14631 | 1184 | -13,447 |
-| `conforme` | 15056 | 1957 | -13,099 |
-| `entregarse` | 17153 | 4092 | -13,061 |
-| `quinientos` | 14749 | 1831 | -12,918 |
-| `cuatrocientos` | 15401 | 2536 | -12,865 |
-| `empotrar` | 17238 | 4494 | -12,744 |
+| `acondicionar` | 18455 | 924 | -17,531 |
+| `diecinueve` | 18282 | 1350 | -16,932 |
+| `dividirse` | 19076 | 3733 | -15,343 |
+| `descanso` | 17625 | 2492 | -15,133 |
+| `torno` | 17613 | 2615 | -14,998 |
+| `respaldo` | 18269 | 3392 | -14,877 |
+| `seiscientos` | 17737 | 3207 | -14,530 |
+| `coco` | 18793 | 4287 | -14,506 |
+| `secadora` | 19190 | 4890 | -14,300 |
+| `parto` | 17982 | 3927 | -14,055 |
+| `diecisiete` | 14631 | 1175 | -13,456 |
+| `entregarse` | 17153 | 3933 | -13,220 |
+| `conforme` | 15056 | 1931 | -13,125 |
+| `empotrar` | 17238 | 4294 | -12,944 |
+| `quinientos` | 14749 | 1809 | -12,940 |
 
 ### Biggest fallers (rank worsens)
 
 | lemma | live rank | new rank | change |
 |---|---|---|---|
-| `obtené` | 1935 | 186670 | +184,735 |
-| `feriar` | 2112 | 175836 | +173,724 |
-| `del` | 11 | 144506 | +144,495 |
-| `mas` | 757 | 130419 | +129,662 |
-| `brusela` | 2422 | 99983 | +97,561 |
-| `véase` | 3437 | 90861 | +87,424 |
-| `dallar` | 3511 | 81198 | +77,687 |
-| `capar` | 4795 | 76344 | +71,549 |
-| `pa` | 3676 | 65044 | +61,368 |
-| `sopar` | 4650 | 62971 | +58,321 |
-| `marrueco` | 3509 | 60214 | +56,705 |
-| `ucranio` | 3401 | 55340 | +51,939 |
-| `huevar` | 4037 | 53099 | +49,062 |
-| `hondura` | 3735 | 48163 | +44,428 |
-| `resinar` | 4093 | 48488 | +44,395 |
+| `obtené` | 1935 | 71063 | +69,128 |
+| `feriar` | 2112 | 68468 | +66,356 |
+| `del` | 11 | 58190 | +58,179 |
+| `mas` | 757 | 53776 | +53,019 |
+| `brusela` | 2422 | 44524 | +42,102 |
+| `dallar` | 3511 | 38524 | +35,013 |
+| `capar` | 4795 | 36936 | +32,141 |
+| `pa` | 3676 | 33211 | +29,535 |
+| `marrueco` | 3509 | 31504 | +27,995 |
+| `sopar` | 4650 | 32486 | +27,836 |
+| `ucranio` | 3401 | 29758 | +26,357 |
+| `huevar` | 4037 | 28960 | +24,923 |
+| `hondura` | 3735 | 27184 | +23,449 |
+| `resinar` | 4093 | 27308 | +23,215 |
+| `orlar` | 2655 | 25212 | +22,557 |
 
 ### Newly in the top 5,000
 
@@ -252,25 +252,25 @@ Overlap of this build's top-k with the live top-k: top 1,000 87.4%, top 5,000 85
 
 | lemma | live rank | new rank | change |
 |---|---|---|---|
-| `del` | 11 | 144506 | +144,495 |
-| `parte` | 59 | 14843 | +14,784 |
-| `vario` | 265 | 15347 | +15,082 |
+| `del` | 11 | 58190 | +58,179 |
+| `al` | 22 | - | - |
+| `parte` | 59 | - | - |
+| `vario` | 265 | 12215 | +11,950 |
+| `tripadvisor` | 384 | - | - |
 | `relacionado` | 386 | - | - |
-| `vacación` | 390 | 28313 | +27,923 |
+| `vacación` | 390 | 19077 | +18,687 |
 | `jetcost` | 494 | - | - |
 | `the` | 531 | - | - |
+| `low` | 550 | - | - |
+| `cost` | 560 | - | - |
 | `cookies` | 565 | - | - |
+| `google` | 576 | - | - |
 | `aereos` | 595 | - | - |
-| `u` | 628 | 5758 | +5,130 |
-| `industriar` | 661 | 27562 | +26,901 |
-| `frente` | 673 | - | - |
-| `mas` | 757 | 130419 | +129,662 |
-| `in` | 802 | - | - |
-| `acondicionado` | 836 | - | - |
+| `barcelona` | 602 | - | - |
 
 ## Ported frequer checks
 
-### Form-ratio outliers (224)
+### Form-ratio outliers (220)
 
 A surface form far more frequent than the lemma's median form.
 
@@ -302,9 +302,9 @@ A surface form far more frequent than the lemma's median form.
 | 56 | `cuando` | 147,992 | median form 2; `cuando` 106,874 (53437x), `Cuando` 40,983 (20492x) |
 | 60 | `deber` | 140,235 | median form 34; `debe` 46,543 (1369x) |
 
-_199 more not shown._
+_195 more not shown._
 
-### Singular/plural mismatch (192)
+### Singular/plural mismatch (81)
 
 Lemma looks like a plural whose stripped form maps to another listed lemma.
 
@@ -312,67 +312,67 @@ Lemma looks like a plural whose stripped form maps to another listed lemma.
 |---|---|---|---|
 | 8 | `los` | 1,751,679 | `lo` lemmatises to `lo` (rank 31) |
 | 13 | `las` | 1,064,165 | `la` lemmatises to `la` (rank 2) |
-| 23 | `más` | 551,722 | `má` lemmatises to `má` (rank 56,597) |
-| 42 | `dos` | 163,483 | `do` lemmatises to `do` (rank 3,516) |
-| 84 | `tres` | 99,543 | `tre` lemmatises to `tre` (rank 24,416) |
-| 84 | `tres` | 99,543 | `tr` lemmatises to `tr` (rank 14,849) |
-| 107 | `después` | 77,956 | `despué` lemmatises to `despué` (rank 125,041) |
+| 23 | `más` | 551,722 | `má` lemmatises to `má` (rank 30,209) |
+| 107 | `después` | 77,956 | `despué` lemmatises to `despué` (rank 52,271) |
 | 135 | `nos` | 65,412 | `no` lemmatises to `no` (rank 17) |
-| 143 | `antes` | 62,958 | `ante` lemmatises to `ante` (rank 741) |
-| 143 | `antes` | 62,958 | `ant` lemmatises to `ant` (rank 26,656) |
+| 143 | `antes` | 62,958 | `ante` lemmatises to `ante` (rank 735) |
 | 161 | `dios` | 60,077 | `dio` lemmatises to `dar` (rank 70) |
-| 173 | `además` | 56,335 | `ademá` lemmatises to `ademá` (rank 164,880) |
-| 188 | `menos` | 52,990 | `meno` lemmatises to `meno` (rank 16,065) |
-| 201 | `ellos` | 50,547 | `ello` lemmatises to `ello` (rank 683) |
+| 173 | `además` | 56,335 | `ademá` lemmatises to `ademá` (rank 64,464) |
+| 201 | `ellos` | 50,547 | `ello` lemmatises to `ello` (rank 678) |
 | 212 | `unos` | 48,531 | `uno` lemmatises to `uno` (rank 52) |
-| 217 | `nosotros` | 47,781 | `nosotro` lemmatises to `nosotro` (rank 154,791) |
-| 223 | `mientras` | 46,625 | `mientra` lemmatises to `mientra` (rank 130,832) |
-| 256 | `varios` | 42,303 | `vario` lemmatises to `vario` (rank 15,347) |
+| 217 | `nosotros` | 47,781 | `nosotro` lemmatises to `nosotro` (rank 61,289) |
+| 223 | `mientras` | 46,625 | `mientra` lemmatises to `mientra` (rank 53,917) |
+| 256 | `varios` | 42,303 | `vario` lemmatises to `vario` (rank 12,215) |
 | 258 | `les` | 41,762 | `le` lemmatises to `le` (rank 58) |
 | 269 | `mes` | 39,946 | `me` lemmatises to `me` (rank 93) |
-| 302 | `seis` | 37,199 | `sei` lemmatises to `sei` (rank 37,579) |
-| 336 | `entonces` | 33,876 | `entonce` lemmatises to `entonce` (rank 86,862) |
-| 360 | `gracias` | 31,841 | `gracia` lemmatises to `gracia` (rank 2,939) |
-| 385 | `inglés` | 30,586 | `inglé` lemmatises to `inglé` (rank 179,701) |
-| 391 | `vacaciones` | 30,057 | `vacacion` lemmatises to `vacacion` (rank 136,991) |
+| 359 | `gracias` | 31,841 | `gracia` lemmatises to `gracia` (rank 2,864) |
+| 384 | `inglés` | 30,586 | `inglé` lemmatises to `inglé` (rank 69,475) |
+| 390 | `vacaciones` | 30,057 | `vacacion` lemmatises to `vacacion` (rank 55,888) |
+| 614 | `análisis` | 19,741 | `análisi` lemmatises to `análisi` (rank 64,973) |
+| 786 | `ambos` | 15,963 | `ambo` lemmatises to `ambo` (rank 35,559) |
+| 1003 | `ellas` | 12,558 | `ella` lemmatises to `ella` (rank 230) |
+| 1164 | `parís` | 10,600 | `parí` lemmatises to `parir` (rank 11,731) |
+| 1245 | `londres` | 9,732 | `londr` lemmatises to `londr` (rank 32,231) |
+| 1422 | `lejos` | 8,312 | `lejo` lemmatises to `lejo` (rank 60,475) |
+| 1861 | `alrededores` | 6,092 | `alrededor` lemmatises to `alrededor` (rank 623) |
 
-_167 more not shown._
+_56 more not shown._
 
-### Lemma consistency (334)
+### Lemma consistency (268)
 
 Lemma that, met alone, lemmatises to another listed lemma (single words, so a hint, not a verdict).
 
 | rank | lemma | freq | detail |
 |---|---|---|---|
 | 99 | `te` | 86,136 | alone, `te` lemmatises to `se` (rank 18) |
-| 352 | `lista` | 32,340 | alone, `lista` lemmatises to `listo` (rank 1,132) |
-| 395 | `política` | 29,853 | alone, `política` lemmatises to `político` (rank 717) |
-| 523 | `dicho` | 23,134 | alone, `dicho` lemmatises to `decir` (rank 61) |
-| 562 | `hecho` | 21,856 | alone, `hecho` lemmatises to `hacer` (rank 32) |
-| 576 | `china` | 21,397 | alone, `china` lemmatises to `chino` (rank 1,656) |
-| 603 | `presente` | 19,976 | alone, `presente` lemmatises to `presentar` (rank 289) |
-| 606 | `fuera` | 19,907 | alone, `fuera` lemmatises to `ser` (rank 9) |
-| 611 | `abierto` | 19,826 | alone, `abierto` lemmatises to `abrir` (rank 328) |
-| 642 | `ayuda` | 18,893 | alone, `ayuda` lemmatises to `ayudar` (rank 92) |
-| 733 | `compra` | 17,255 | alone, `compra` lemmatises to `comprar` (rank 227) |
-| 765 | `visita` | 16,592 | alone, `visita` lemmatises to `visitar` (rank 382) |
-| 812 | `corto` | 15,655 | alone, `corto` lemmatises to `cortar` (rank 1,430) |
-| 824 | `causa` | 15,371 | alone, `causa` lemmatises to `causar` (rank 693) |
-| 843 | `carga` | 14,995 | alone, `carga` lemmatises to `cargar` (rank 1,449) |
-| 880 | `pedido` | 14,360 | alone, `pedido` lemmatises to `pedir` (rank 512) |
-| 883 | `os` | 14,294 | alone, `os` lemmatises to `se` (rank 18) |
-| 1026 | `vivo` | 12,385 | alone, `vivo` lemmatises to `vivir` (rank 301) |
-| 1093 | `deseo` | 11,540 | alone, `deseo` lemmatises to `desear` (rank 308) |
-| 1116 | `empleado` | 11,325 | alone, `empleado` lemmatises to `emplear` (rank 1,677) |
-| 1171 | `avanzado` | 10,605 | alone, `avanzado` lemmatises to `avanzar` (rank 2,016) |
-| 1173 | `parís` | 10,600 | alone, `parís` lemmatises to `parir` (rank 14,549) |
-| 1181 | `falta` | 10,483 | alone, `falta` lemmatises to `faltar` (rank 2,128) |
-| 1220 | `vino` | 10,044 | alone, `vino` lemmatises to `venir` (rank 270) |
-| 1230 | `aumento` | 9,973 | alone, `aumento` lemmatises to `aumentar` (rank 418) |
+| 351 | `lista` | 32,340 | alone, `lista` lemmatises to `listo` (rank 1,124) |
+| 394 | `política` | 29,853 | alone, `política` lemmatises to `político` (rank 712) |
+| 522 | `dicho` | 23,134 | alone, `dicho` lemmatises to `decir` (rank 61) |
+| 559 | `hecho` | 21,856 | alone, `hecho` lemmatises to `hacer` (rank 32) |
+| 573 | `china` | 21,397 | alone, `china` lemmatises to `chino` (rank 1,639) |
+| 600 | `presente` | 19,976 | alone, `presente` lemmatises to `presentar` (rank 289) |
+| 603 | `fuera` | 19,907 | alone, `fuera` lemmatises to `ser` (rank 9) |
+| 608 | `abierto` | 19,826 | alone, `abierto` lemmatises to `abrir` (rank 327) |
+| 638 | `ayuda` | 18,893 | alone, `ayuda` lemmatises to `ayudar` (rank 92) |
+| 727 | `compra` | 17,255 | alone, `compra` lemmatises to `comprar` (rank 227) |
+| 759 | `visita` | 16,592 | alone, `visita` lemmatises to `visitar` (rank 381) |
+| 806 | `corto` | 15,655 | alone, `corto` lemmatises to `cortar` (rank 1,415) |
+| 818 | `causa` | 15,371 | alone, `causa` lemmatises to `causar` (rank 688) |
+| 837 | `carga` | 14,995 | alone, `carga` lemmatises to `cargar` (rank 1,434) |
+| 873 | `pedido` | 14,360 | alone, `pedido` lemmatises to `pedir` (rank 511) |
+| 876 | `os` | 14,294 | alone, `os` lemmatises to `se` (rank 18) |
+| 1018 | `vivo` | 12,385 | alone, `vivo` lemmatises to `vivir` (rank 300) |
+| 1085 | `deseo` | 11,540 | alone, `deseo` lemmatises to `desear` (rank 307) |
+| 1108 | `empleado` | 11,325 | alone, `empleado` lemmatises to `emplear` (rank 1,657) |
+| 1162 | `avanzado` | 10,605 | alone, `avanzado` lemmatises to `avanzar` (rank 1,989) |
+| 1164 | `parís` | 10,600 | alone, `parís` lemmatises to `parir` (rank 11,731) |
+| 1172 | `falta` | 10,483 | alone, `falta` lemmatises to `faltar` (rank 2,099) |
+| 1210 | `vino` | 10,044 | alone, `vino` lemmatises to `venir` (rank 270) |
+| 1220 | `aumento` | 9,973 | alone, `aumento` lemmatises to `aumentar` (rank 417) |
 
-_309 more not shown._
+_243 more not shown._
 
-### Short lemmas (166)
+### Short lemmas (86)
 
 Check these are real words.
 
@@ -401,10 +401,10 @@ Check these are real words.
 | 116 | `él` | 73,977 | `él` -> `él`, `Él` -> `él`, `ÉL` -> `él`, `Èl` -> `él`, `-él` -> `?` |
 | 207 | `yo` | 49,631 | `yo` -> `yo`, `Yo` -> `yo`, `YO` -> `yo`, `yas` -> `yas`, `yos` -> `yo` |
 | 238 | `ni` | 44,387 | `ni` -> `ni`, `Ni` -> `ni`, `NI` -> `ni`, `niٌos` -> `?`, `nilos` -> `nilo` |
-| 366 | `sí` | 31,593 | `sí` -> `sí`, `si` -> `si`, `Sí` -> `sí`, `SÍ` -> `sí`, `SíEs` -> `sí` |
-| 510 | `ti` | 23,739 | `ti` -> `ti`, `TI` -> `ti`, `Ti` -> `ti`, `Tí` -> `ti`, `TÍ` -> `ti` |
+| 365 | `sí` | 31,593 | `sí` -> `sí`, `si` -> `si`, `Sí` -> `sí`, `SÍ` -> `sí`, `SíEs` -> `sí` |
+| 509 | `ti` | 23,739 | `ti` -> `ti`, `TI` -> `ti`, `Ti` -> `ti`, `Tí` -> `ti`, `TÍ` -> `ti` |
 
-_141 more not shown._
+_61 more not shown._
 
 ### Case merges (1)
 
@@ -412,11 +412,11 @@ Non-lowercase lemmas, with the lowercase twin where one is listed.
 
 | rank | lemma | freq | detail |
 |---|---|---|---|
-| 4895 | `editorial#Fem` | 1,481 | capitalised but mostly ADJ; no lowercase twin |
+| 4654 | `editorial#Fem` | 1,481 | capitalised but mostly ADJ; no lowercase twin |
 
 ### wordfreq comparison
 
-Top 1000 lemmas shared with wordfreq's (its forms lemmatised through the runtime): 682 (68.2%).
+Top 1000 lemmas shared with wordfreq's (its forms lemmatised through the runtime): 685 (68.5%).
 
 Ours only: `poder + infinitivo`, `haber + participio`, `se + verbo (impersonal/pasiva)`, `ser + participio`, `vuelo`, `hotel`, `estar + gerundio`, `te`, `archivo`, `habitación`, `barato`, `al + infinitivo`, `a través de`, `lo + adjetivo`, `encontrarse`, `después de`, `para que`, `tener que + infinitivo`, `diseño`, `alojamiento`, `disponible`, `sitio web`, `oferta`, `proporcionar`, `alquiler`
 
@@ -426,61 +426,61 @@ wordfreq only: `nadie`, `mal`, `dr`, `ahí`, `argentino`, `cero`, `listo`, `falt
 
 | rank | lemma | freq | signal |
 |---|---|---|---|
-| 531 | `cookie` | 22,682 | wordfreq zipf en 4.1 vs es 3.0 |
-| 539 | `low` | 22,404 | wordfreq zipf en 5.3 vs es 3.6 |
-| 548 | `cost` | 22,200 | wordfreq zipf en 5.2 vs es 3.3 |
-| 816 | `metro#metre` | 15,508 | wordfreq zipf en 3.6 vs es 1.6 |
-| 892 | `once` | 14,227 | wordfreq zipf en 5.5 vs es 4.4 |
-| 1473 | `i` | 8,046 | wordfreq zipf en 7.1 vs es 5.4 |
-| 1546 | `led` | 7,657 | wordfreq zipf en 5.1 vs es 3.7 |
-| 1910 | `resort` | 5,992 | wordfreq zipf en 4.4 vs es 3.3 |
-| 2118 | `show` | 5,305 | wordfreq zipf en 5.7 vs es 4.6 |
-| 2643 | `top` | 3,882 | wordfreq zipf en 5.6 vs es 4.4 |
-| 2817 | `look` | 3,581 | wordfreq zipf en 5.8 vs es 3.9 |
-| 2970 | `stock` | 3,300 | wordfreq zipf en 4.9 vs es 3.8 |
-| 2974 | `set` | 3,296 | wordfreq zipf en 5.6 vs es 4.1 |
-| 3063 | `reserve` | 3,137 | wordfreq zipf en 4.6 vs es 3.1 |
-| 3128 | `center` | 3,040 | wordfreq zipf en 5.2 vs es 4.2 |
-| 3191 | `lake` | 2,939 | wordfreq zipf en 4.8 vs es 3.5 |
-| 3471 | `street` | 2,572 | wordfreq zipf en 5.3 vs es 4.2 |
-| 3493 | `parking` | 2,538 | wordfreq zipf en 4.5 vs es 3.1 |
-| 3496 | `blue` | 2,536 | wordfreq zipf en 5.1 vs es 4.0 |
-| 3509 | `cloud` | 2,522 | wordfreq zipf en 4.5 vs es 3.4 |
-| 3516 | `do` | 2,515 | wordfreq zipf en 6.3 vs es 4.6 |
-| 3646 | `ticket` | 2,380 | wordfreq zipf en 4.6 vs es 3.5 |
-| 3701 | `green` | 2,308 | wordfreq zipf en 5.1 vs es 4.1 |
-| 3750 | `as` | 2,270 | wordfreq zipf en 6.8 vs es 4.7 |
-| 3754 | `port` | 2,268 | wordfreq zipf en 4.7 vs es 3.6 |
+| 530 | `cookie` | 22,682 | wordfreq zipf en 4.1 vs es 3.0 |
+| 810 | `metro#metre` | 15,508 | wordfreq zipf en 3.6 vs es 1.6 |
+| 885 | `once` | 14,227 | wordfreq zipf en 5.5 vs es 4.4 |
+| 1458 | `i` | 8,046 | wordfreq zipf en 7.1 vs es 5.4 |
+| 1529 | `led` | 7,657 | wordfreq zipf en 5.1 vs es 3.7 |
+| 1884 | `resort` | 5,992 | wordfreq zipf en 4.4 vs es 3.3 |
+| 2089 | `show` | 5,305 | wordfreq zipf en 5.7 vs es 4.6 |
+| 2587 | `top` | 3,882 | wordfreq zipf en 5.6 vs es 4.4 |
+| 2747 | `look` | 3,581 | wordfreq zipf en 5.8 vs es 3.9 |
+| 2895 | `stock` | 3,300 | wordfreq zipf en 4.9 vs es 3.8 |
+| 2899 | `set` | 3,296 | wordfreq zipf en 5.6 vs es 4.1 |
+| 2985 | `reserve` | 3,137 | wordfreq zipf en 4.6 vs es 3.1 |
+| 3377 | `parking` | 2,538 | wordfreq zipf en 4.5 vs es 3.1 |
+| 3518 | `ticket` | 2,380 | wordfreq zipf en 4.6 vs es 3.5 |
+| 3616 | `as` | 2,270 | wordfreq zipf en 6.8 vs es 4.7 |
+| 3881 | `feed` | 2,009 | wordfreq zipf en 4.7 vs es 3.3 |
+| 3984 | `test` | 1,932 | wordfreq zipf en 5.2 vs es 4.2 |
+| 4230 | `bit` | 1,751 | wordfreq zipf en 5.4 vs es 3.2 |
+| 4567 | `per` | 1,532 | wordfreq zipf en 5.5 vs es 4.4 |
+| 4657 | `real#royal` | 1,481 | wordfreq zipf en 4.8 vs es 3.7 |
+| 4810 | `film` | 1,390 | wordfreq zipf en 5.2 vs es 4.1 |
+| 4971 | `stand` | 1,319 | wordfreq zipf en 5.1 vs es 3.8 |
+| 5006 | `metro#railway` | 1,299 | wordfreq zipf en 4.0 vs es 2.6 |
+| 5524 | `host` | 1,068 | wordfreq zipf en 4.8 vs es 3.3 |
+| 5655 | `trading` | 1,026 | wordfreq zipf en 4.6 vs es 3.2 |
 
 ## Proper-noun candidates
 
 | rank | lemma | freq | signal |
 |---|---|---|---|
 | 161 | `dios` | 60,077 | PROPN 0%, capitalised forms 94% |
-| 294 | `tom` | 37,875 | PROPN 100%, capitalised forms 100% |
-| 367 | `estados unidos` | 31,586 | PROPN 0%, capitalised forms 100% |
-| 440 | `españa` | 27,603 | PROPN 100%, capitalised forms 100% |
-| 499 | `san` | 24,279 | PROPN 2%, capitalised forms 96% |
-| 576 | `china` | 21,397 | PROPN 100%, capitalised forms 100% |
-| 622 | `tripadvisor` | 19,618 | PROPN 100%, capitalised forms 100% |
-| 663 | `jesús` | 18,581 | PROPN 100%, capitalised forms 100% |
-| 709 | `méxico` | 17,692 | PROPN 100%, capitalised forms 100% |
-| 718 | `europa` | 17,568 | PROPN 99%, capitalised forms 100% |
-| 727 | `tv` | 17,411 | PROPN 6%, capitalised forms 97% |
-| 851 | `barcelona` | 14,829 | PROPN 100%, capitalised forms 100% |
-| 864 | `madrid` | 14,651 | PROPN 99%, capitalised forms 99% |
-| 942 | `google` | 13,390 | PROPN 98%, capitalised forms 98% |
-| 1007 | `israel` | 12,587 | PROPN 100%, capitalised forms 100% |
-| 1159 | `cristo` | 10,872 | PROPN 98%, capitalised forms 100% |
-| 1167 | `nueva york` | 10,712 | PROPN 100%, capitalised forms 100% |
-| 1173 | `parís` | 10,600 | PROPN 99%, capitalised forms 100% |
-| 1194 | `francia` | 10,294 | PROPN 100%, capitalised forms 100% |
-| 1196 | `windows` | 10,276 | PROPN 100%, capitalised forms 100% |
-| 1255 | `londres` | 9,732 | PROPN 100%, capitalised forms 100% |
-| 1303 | `mary` | 9,271 | PROPN 100%, capitalised forms 100% |
-| 1346 | `wi-fi` | 9,008 | PROPN 1%, capitalised forms 97% |
-| 1366 | `alemania` | 8,805 | PROPN 100%, capitalised forms 100% |
-| 1369 | `inn` | 8,791 | PROPN 100%, capitalised forms 100% |
+| 366 | `estados unidos` | 31,586 | PROPN 0%, capitalised forms 100% |
+| 439 | `españa` | 27,603 | PROPN 100%, capitalised forms 100% |
+| 498 | `san` | 24,279 | PROPN 2%, capitalised forms 96% |
+| 573 | `china` | 21,397 | PROPN 100%, capitalised forms 100% |
+| 704 | `méxico` | 17,692 | PROPN 100%, capitalised forms 100% |
+| 721 | `tv` | 17,411 | PROPN 6%, capitalised forms 97% |
+| 857 | `madrid` | 14,651 | PROPN 99%, capitalised forms 99% |
+| 999 | `israel` | 12,587 | PROPN 100%, capitalised forms 100% |
+| 1158 | `nueva york` | 10,712 | PROPN 100%, capitalised forms 100% |
+| 1164 | `parís` | 10,600 | PROPN 99%, capitalised forms 100% |
+| 1185 | `francia` | 10,294 | PROPN 100%, capitalised forms 100% |
+| 1245 | `londres` | 9,732 | PROPN 100%, capitalised forms 100% |
+| 1335 | `wi-fi` | 9,008 | PROPN 1%, capitalised forms 97% |
+| 1355 | `alemania` | 8,805 | PROPN 100%, capitalised forms 100% |
+| 1407 | `italia` | 8,419 | PROPN 100%, capitalised forms 100% |
+| 1413 | `colombia` | 8,364 | PROPN 100%, capitalised forms 99% |
+| 1483 | `pc` | 7,912 | PROPN 11%, capitalised forms 98% |
+| 1500 | `roma` | 7,810 | PROPN 99%, capitalised forms 100% |
+| 1584 | `reino unido` | 7,337 | PROPN 0%, capitalised forms 100% |
+| 1588 | `chile` | 7,326 | PROPN 94%, capitalised forms 94% |
+| 1647 | `japón` | 7,018 | PROPN 99%, capitalised forms 99% |
+| 1703 | `brasil` | 6,771 | PROPN 100%, capitalised forms 100% |
+| 1717 | `argentina` | 6,708 | PROPN 100%, capitalised forms 100% |
+| 1762 | `canadá` | 6,534 | PROPN 100%, capitalised forms 100% |
 
 ## Alternative ranking scores
 
@@ -500,8 +500,8 @@ How each score reorders the default's top 5,000. Dispersion is over hash buckets
 |---|---|---|---|---|---|---|---|
 | `imprescindible` | 4376 | 4223 | -153 | 1,816 | 1,803 | 0.974 | 0.105 |
 | `si bien` | 5039 | 4888 | -151 | 1,442 | 1,435 | 0.976 | 0.095 |
-| `originalmente` | 4388 | 4238 | -150 | 1,809 | 1,793 | 0.978 | 0.094 |
 | `estar sujeto a algo` | 4440 | 4290 | -150 | 1,775 | 1,758 | 0.975 | 0.095 |
+| `originalmente` | 4388 | 4238 | -150 | 1,809 | 1,793 | 0.978 | 0.094 |
 | `triponline` | 4673 | 4526 | -147 | 1,633 | 1,626 | 0.973 | 0.105 |
 | `tomás` | 4011 | 6749 | +2,738 | 2,086 | 839 | 0.930 | 0.270 |
 | `love` | 3113 | 5047 | +1,934 | 3,093 | 1,365 | 0.966 | 0.140 |
@@ -516,8 +516,8 @@ How each score reorders the default's top 5,000. Dispersion is over hash buckets
 | `básicamente` | 4365 | 4337 | -28 | 1,825 | 1,801 | 0.981 | 0.073 |
 | `desafiar` | 5006 | 4986 | -20 | 1,462 | 1,438 | 0.978 | 0.086 |
 | `conectarse` | 4589 | 4569 | -20 | 1,682 | 1,647 | 0.979 | 0.089 |
-| `subrayar` | 4761 | 4742 | -19 | 1,584 | 1,570 | 0.978 | 0.085 |
 | `homenaje` | 4739 | 4720 | -19 | 1,593 | 1,568 | 0.980 | 0.083 |
+| `subrayar` | 4761 | 4742 | -19 | 1,584 | 1,570 | 0.978 | 0.085 |
 | `tomás` | 4011 | 4108 | +97 | 2,086 | 839 | 0.930 | 0.270 |
 | `canadiense` | 4292 | 4331 | +39 | 1,869 | 1,677 | 0.959 | 0.130 |
 | `mary` | 1308 | 1344 | +36 | 9,271 | 3,893 | 0.966 | 0.131 |
@@ -530,9 +530,9 @@ How each score reorders the default's top 5,000. Dispersion is over hash buckets
 |---|---|---|---|---|---|---|---|
 | `escáner` | 4889 | 4878 | -11 | 1,520 | 1,390 | 0.975 | 0.102 |
 | `incentivo` | 4886 | 4875 | -11 | 1,521 | 1,469 | 0.974 | 0.105 |
-| `esencialmente` | 4980 | 4969 | -11 | 1,474 | 1,463 | 0.975 | 0.104 |
 | `contabilidad` | 4982 | 4971 | -11 | 1,473 | 1,374 | 0.974 | 0.104 |
-| `desafortunadamente` | 5005 | 4995 | -10 | 1,463 | 1,430 | 0.974 | 0.107 |
+| `esencialmente` | 4980 | 4969 | -11 | 1,474 | 1,463 | 0.975 | 0.104 |
+| `desviar` | 4983 | 4973 | -10 | 1,472 | 1,435 | 0.974 | 0.103 |
 | `tomás` | 4011 | 4109 | +98 | 2,086 | 839 | 0.930 | 0.270 |
 | `canadiense` | 4292 | 4329 | +37 | 1,869 | 1,677 | 0.959 | 0.130 |
 | `mary` | 1308 | 1344 | +36 | 9,271 | 3,893 | 0.966 | 0.131 |
@@ -547,7 +547,7 @@ How each score reorders the default's top 5,000. Dispersion is over hash buckets
 | `desafiar` | 5006 | 4929 | -77 | 1,462 | 1,438 | 0.978 | 0.086 |
 | `básicamente` | 4365 | 4289 | -76 | 1,825 | 1,801 | 0.981 | 0.073 |
 | `urgencia` | 5072 | 4997 | -75 | 1,425 | 1,385 | 0.977 | 0.089 |
-| `consistente` | 4877 | 4807 | -70 | 1,522 | 1,500 | 0.978 | 0.088 |
+| `esquema` | 3833 | 3763 | -70 | 2,231 | 2,129 | 0.983 | 0.066 |
 | `tomás` | 4011 | 4558 | +547 | 2,086 | 839 | 0.930 | 0.270 |
 | `ascendente` | 4500 | 4683 | +183 | 1,733 | 975 | 0.962 | 0.160 |
 | `love` | 3113 | 3246 | +133 | 3,093 | 1,365 | 0.966 | 0.140 |
@@ -558,8 +558,8 @@ How each score reorders the default's top 5,000. Dispersion is over hash buckets
 
 | lemma | default rank | this rank | move | freq | docs | Juilland D | DP norm |
 |---|---|---|---|---|---|---|---|
-| `caracterizarse por algo` | 4629 | 4545 | -84 | 1,661 | 1,647 | 0.976 | 0.096 |
 | `en efecto` | 4998 | 4914 | -84 | 1,465 | 1,456 | 0.975 | 0.100 |
+| `caracterizarse por algo` | 4629 | 4545 | -84 | 1,661 | 1,647 | 0.976 | 0.096 |
 | `exquisito` | 4617 | 4534 | -83 | 1,668 | 1,655 | 0.973 | 0.109 |
 | `rapidez` | 4294 | 4212 | -82 | 1,868 | 1,852 | 0.976 | 0.091 |
 | `transcurso` | 4618 | 4536 | -82 | 1,668 | 1,654 | 0.977 | 0.094 |
@@ -571,11 +571,13 @@ How each score reorders the default's top 5,000. Dispersion is over hash buckets
 
 ## Excluded lemmas
 
-`es.tsv` (sha256 `0a673dd915041b5c`) lists 1,242 exclusions; 1,245 lemmas were dropped from the top 50,000 before cutting it (exclude-boilerplate 273, exclude-english 969, exclude-unit 3). Lower ranks moved up.
+`es.tsv` (sha256 `9d0d89cc72b25dfa`) lists 1,299 exclusions; 1,302 lemmas were dropped from the top 50,000 before cutting it (exclude-abbreviation 46, exclude-boilerplate 267, exclude-english 970, exclude-fragment 16, exclude-unit 3). Lower ranks moved up.
 
 | rank before | lemma | class | reason |
 |---|---|---|---|
 | 477 | `jetcost` | exclude-boilerplate | flight-search site brand |
+| 540 | `low` | exclude-fragment | developer 2026-11-01: fragment of a loan phrase or plural form, excluded |
+| 549 | `cost` | exclude-fragment | developer 2026-11-01: fragment of a loan phrase or plural form, excluded |
 | 576 | `aereo` | exclude-boilerplate | unaccented template spelling of aéreo |
 | 754 | `the` | exclude-english | English article |
 | 1223 | `of` | exclude-english | English preposition |
@@ -602,6 +604,7 @@ How each score reorders the default's top 5,000. Dispersion is over hash buckets
 | 3186 | `ltd` | exclude-boilerplate | company-name template suffix |
 | 3290 | `world` | exclude-english | English word |
 | 3299 | `group` | exclude-english | English word in names |
+| 3347 | `mb` | exclude-abbreviation | abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now) |
 | 3476 | `english` | exclude-english | English word |
 | 3521 | `car` | exclude-english | English word |
 | 3556 | `one` | exclude-english | English word |
@@ -626,17 +629,22 @@ How each score reorders the default's top 5,000. Dispersion is over hash buckets
 | 4320 | `big` | exclude-english | English word |
 | 4387 | `power` | exclude-english | English word |
 | 4394 | `at` | exclude-english | English preposition |
+| 4425 | `kw` | exclude-abbreviation | abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now) |
 | 4444 | `industry` | exclude-english | English template text |
 | 4496 | `my` | exclude-english | English pronoun |
 | 4547 | `design` | exclude-english | English for diseño |
 | 4573 | `play` | exclude-english | English word |
 | 4616 | `gold` | exclude-english | English word |
-| 4680 | `london` | exclude-english | English form of Londres |
-| 4693 | `hi` | exclude-english | English greeting |
-| 4708 | `client` | exclude-english | English for cliente |
-| 4721 | `east` | exclude-english | English place word |
 
-_1,185 more in the exclusion file._
+_1,242 more in the exclusion file._
+
+## Proper nouns
+
+A lemma whose majority tag is PROPN is dropped unless it is a learnable name (`reference/learnable-names/es.json`, sha256 `cbb5d34bee4093d6`: CLDR territories, languages, exemplar cities). 21,300 proper nouns were dropped from the top 50,000, and 410 learnable names were kept.
+
+Kept (first 40): `españa` (440), `china` (578), `méxico` (711), `madrid` (867), `israel` (1010), `nueva york` (1170), `parís` (1176), `francia` (1197), `londres` (1259), `alemania` (1371), `italia` (1427), `colombia` (1433), `roma` (1522), `chile` (1611), `japón` (1672), `brasil` (1731), `argentina` (1745), `canadá` (1790), `rusia` (1994), `india` (2052), `perú` (2148), `australia` (2178), `chicago` (2336), `egipto` (2362), `cuba` (2380), `ciudad de méxico` (2382), `berlín` (2524), `jerusalén` (2636), `venezuela` (2644), `suiza` (2668), `ecuador` (2699), `lisboa` (2755), `grecia` (2811), `lima` (2843), `panamá` (2857), `granada` (3011), `portugal` (3012), `guatemala` (3073), `bruselas` (3115), `bogotá` (3142)
+
+Dropped (first 40): `tom` (294), `tripadvisor` (624), `jesús` (665), `europa` (720), `barcelona` (854), `google` (945), `cristo` (1162), `windows` (1199), `mary` (1308), `inn` (1374), `jehová` (1385), `maría` (1405), `facebook` (1417), `juan` (1508), `android` (1525), `usb` (1670), `ue` (1673), `américa` (1675), `california` (1718), `david` (1794), `ii` (1840), `iphone` (1845), `pro` (1884), `park` (1915), `josé` (1982), `airbnb` (2066), `áfrica` (2068), `microsoft` (2140), `samsung` (2174), `valencia` (2212), `t` (2229), `kayak` (2232), `miami` (2239), `apple` (2253), `washington` (2271), `palma` (2278), `mediterráneo` (2296), `john` (2309), `twitter` (2347), `pedro` (2378)
 
 ## Convergence
 
@@ -693,43 +701,43 @@ Each checkpoint's full-data top N against the final list's top N (**vs final**: 
 
 | tokens | 5k split | 5k vs final | 5k ratio | 10k split | 10k vs final | 10k ratio | 20k split | 20k vs final | 20k ratio | 50k split | 50k vs final | 50k ratio |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 751,237 | - | 33.2% | - | - | 34.3% | - | - | - | - | - | - | - |
-| 1,510,432 | 15.5% | 32.7% | 0.47 | 23.5% | 33.1% | 0.71 | - | 38.9% | - | - | - | - |
-| 2,256,931 | 15.5% | 33.1% | 0.47 | 23.5% | 32.9% | 0.71 | - | 37.5% | - | - | - | - |
-| 2,594,302 | 14.5% | 32.7% | 0.44 | 21.3% | 32.5% | 0.66 | 32.0% | 36.3% | 0.88 | - | - | - |
-| 3,326,967 | 14.5% | 32.6% | 0.45 | 21.3% | 32.5% | 0.66 | 32.0% | 36.1% | 0.89 | - | - | - |
-| 6,254,960 | 14.5% | 15.0% | 0.97 | 21.3% | 15.3% | 1.39 | 32.0% | 17.8% | 1.80 | - | 27.3% | - |
-| 9,178,731 | 5.8% | 10.4% | 0.55 | 9.0% | 10.5% | 0.85 | 15.7% | 13.1% | 1.19 | 35.4% | 21.2% | 1.67 |
-| 12,101,309 | 5.8% | 8.0% | 0.72 | 9.0% | 8.2% | 1.09 | 15.7% | 10.7% | 1.47 | 35.4% | 17.5% | 2.03 |
-| 15,026,231 | 4.2% | 6.6% | 0.64 | 6.6% | 6.9% | 0.95 | 11.7% | 9.2% | 1.27 | 26.9% | 14.7% | 1.83 |
-| 17,951,107 | 4.2% | 5.7% | 0.74 | 6.6% | 6.2% | 1.06 | 11.7% | 8.2% | 1.43 | 26.9% | 13.3% | 2.02 |
-| 20,882,602 | 3.6% | 4.9% | 0.74 | 5.3% | 5.5% | 0.96 | 9.6% | 7.2% | 1.32 | 22.3% | 12.1% | 1.84 |
-| 23,810,949 | 3.6% | 4.3% | 0.85 | 5.3% | 4.9% | 1.06 | 9.6% | 6.7% | 1.43 | 22.3% | 11.0% | 2.03 |
-| 26,731,666 | 3.0% | 3.9% | 0.77 | 4.6% | 4.6% | 1.00 | 8.5% | 6.1% | 1.38 | 19.5% | 10.2% | 1.92 |
-| 29,659,297 | 3.0% | 3.5% | 0.86 | 4.6% | 4.2% | 1.08 | 8.5% | 5.8% | 1.45 | 19.5% | 9.6% | 2.04 |
-| 32,587,144 | 2.5% | 3.3% | 0.75 | 4.2% | 4.0% | 1.05 | 7.7% | 5.4% | 1.41 | 17.5% | 8.9% | 1.96 |
-| 35,512,005 | 2.5% | 3.1% | 0.82 | 4.2% | 3.8% | 1.10 | 7.7% | 5.0% | 1.52 | 17.5% | 8.4% | 2.09 |
-| 38,433,077 | 2.3% | 2.9% | 0.81 | 3.8% | 3.6% | 1.04 | 7.0% | 4.8% | 1.44 | 15.9% | 8.0% | 1.99 |
-| 41,363,134 | 2.3% | 2.8% | 0.84 | 3.8% | 3.5% | 1.08 | 7.0% | 4.6% | 1.50 | 15.9% | 7.5% | 2.12 |
-| 44,287,245 | 2.0% | 2.5% | 0.80 | 3.5% | 3.3% | 1.07 | 6.4% | 4.4% | 1.46 | 14.8% | 7.1% | 2.10 |
-| 47,218,861 | 2.0% | 2.4% | 0.84 | 3.5% | 3.1% | 1.13 | 6.4% | 4.2% | 1.51 | 14.8% | 6.7% | 2.20 |
-| 50,146,705 | 2.1% | 2.3% | 0.90 | 3.4% | 3.1% | 1.12 | 5.9% | 4.1% | 1.44 | 13.8% | 6.5% | 2.12 |
-| 53,076,631 | 2.1% | 2.2% | 0.96 | 3.4% | 3.0% | 1.16 | 5.9% | 4.0% | 1.47 | 13.8% | 6.1% | 2.27 |
-| 55,999,851 | 2.0% | 2.0% | 1.02 | 3.2% | 2.9% | 1.12 | 5.6% | 3.9% | 1.45 | 13.0% | 5.9% | 2.19 |
-| 58,918,566 | 2.0% | 1.9% | 1.06 | 3.2% | 2.8% | 1.16 | 5.6% | 3.7% | 1.51 | 13.0% | 5.7% | 2.29 |
-| 61,845,621 | 1.8% | 1.8% | 1.01 | 3.1% | 2.7% | 1.13 | 5.3% | 3.6% | 1.48 | 12.4% | 5.3% | 2.33 |
-| 64,770,777 | 1.8% | 1.7% | 1.06 | 3.1% | 2.7% | 1.14 | 5.3% | 3.5% | 1.51 | 12.4% | 5.1% | 2.41 |
-| 67,693,928 | 1.7% | 1.6% | 1.01 | 3.0% | 2.6% | 1.15 | 5.1% | 3.4% | 1.48 | 11.9% | 4.9% | 2.41 |
-| 70,618,495 | 1.7% | 1.5% | 1.08 | 3.0% | 2.6% | 1.16 | 5.1% | 3.3% | 1.54 | 11.9% | 4.7% | 2.54 |
-| 73,541,302 | 1.7% | 1.5% | 1.13 | 2.8% | 2.6% | 1.09 | 4.8% | 3.2% | 1.52 | 11.3% | 4.5% | 2.54 |
-| 76,465,894 | 1.7% | 1.5% | 1.15 | 2.8% | 2.5% | 1.12 | 4.8% | 3.1% | 1.54 | 11.3% | 4.3% | 2.66 |
-| 79,391,530 | 1.7% | 1.4% | 1.19 | 2.7% | 2.4% | 1.12 | 4.7% | 3.0% | 1.57 | 10.9% | 4.0% | 2.71 |
-| 82,315,148 | 1.7% | 1.4% | 1.22 | 2.7% | 2.4% | 1.14 | 4.7% | 3.0% | 1.60 | 10.9% | 3.9% | 2.81 |
-| 85,246,371 | 1.4% | 1.4% | 1.03 | 2.7% | 2.4% | 1.14 | 4.5% | 2.9% | 1.56 | 10.6% | 3.7% | 2.89 |
-| 88,172,794 | 1.4% | 1.3% | 1.06 | 2.7% | 2.3% | 1.17 | 4.5% | 2.8% | 1.60 | 10.6% | 3.4% | 3.09 |
-| 91,096,569 | 1.5% | 1.3% | 1.11 | 2.6% | 2.2% | 1.16 | 4.4% | 2.8% | 1.58 | 10.1% | 3.3% | 3.05 |
-| 94,027,050 | 1.5% | 1.4% | 1.07 | 2.6% | 2.2% | 1.16 | 4.4% | 2.7% | 1.61 | 10.1% | 3.1% | 3.29 |
-| 96,955,802 | 1.5% | 1.3% | 1.11 | 2.5% | 2.2% | 1.12 | 4.3% | 2.7% | 1.61 | 9.8% | 2.8% | 3.48 |
-| 99,879,342 | 1.5% | 1.3% | 1.11 | 2.5% | 2.2% | 1.12 | 4.3% | 2.7% | 1.62 | 9.8% | 2.7% | 3.65 |
-| 102,801,568 | 1.4% | 1.3% | 1.05 | 2.5% | 2.2% | 1.11 | 4.3% | 2.7% | 1.60 | 9.5% | 2.5% | 3.86 |
+| 751,237 | - | 32.5% | - | - | 32.7% | - | - | - | - | - | - | - |
+| 1,510,432 | 15.5% | 31.8% | 0.49 | 23.5% | 31.2% | 0.75 | - | 36.9% | - | - | - | - |
+| 2,256,931 | 15.5% | 32.0% | 0.49 | 23.5% | 30.8% | 0.76 | - | 34.9% | - | - | - | - |
+| 2,594,302 | 14.5% | 31.7% | 0.46 | 21.3% | 30.5% | 0.70 | 32.0% | 33.3% | 0.96 | - | - | - |
+| 3,326,967 | 14.5% | 31.8% | 0.46 | 21.3% | 30.3% | 0.70 | 32.0% | 32.4% | 0.99 | - | - | - |
+| 6,254,960 | 14.5% | 15.9% | 0.91 | 21.3% | 18.4% | 1.15 | 32.0% | 26.1% | 1.22 | - | 44.7% | - |
+| 9,178,731 | 5.8% | 12.1% | 0.48 | 9.0% | 16.0% | 0.56 | 15.7% | 25.5% | 0.61 | 35.4% | 43.5% | 0.81 |
+| 12,101,309 | 5.8% | 10.2% | 0.56 | 9.0% | 14.9% | 0.60 | 15.7% | 25.4% | 0.62 | 35.4% | 43.2% | 0.82 |
+| 15,026,231 | 4.2% | 9.3% | 0.46 | 6.6% | 14.5% | 0.45 | 11.7% | 25.4% | 0.46 | 26.9% | 43.1% | 0.62 |
+| 17,951,107 | 4.2% | 8.5% | 0.50 | 6.6% | 14.3% | 0.46 | 11.7% | 25.4% | 0.46 | 26.9% | 43.3% | 0.62 |
+| 20,882,602 | 3.6% | 7.8% | 0.46 | 5.3% | 14.1% | 0.37 | 9.6% | 25.6% | 0.37 | 22.3% | 43.4% | 0.51 |
+| 23,810,949 | 3.6% | 7.4% | 0.49 | 5.3% | 14.1% | 0.37 | 9.6% | 25.7% | 0.37 | 22.3% | 43.7% | 0.51 |
+| 26,731,666 | 3.0% | 7.1% | 0.42 | 4.6% | 14.0% | 0.33 | 8.5% | 25.8% | 0.33 | 19.5% | 43.9% | 0.45 |
+| 29,659,297 | 3.0% | 6.9% | 0.44 | 4.6% | 13.9% | 0.33 | 8.5% | 25.9% | 0.33 | 19.5% | 44.0% | 0.44 |
+| 32,587,144 | 2.5% | 6.8% | 0.37 | 4.2% | 14.0% | 0.30 | 7.7% | 26.1% | 0.29 | 17.5% | 44.2% | 0.40 |
+| 35,512,005 | 2.5% | 6.6% | 0.38 | 4.2% | 14.0% | 0.30 | 7.7% | 26.2% | 0.29 | 17.5% | 44.3% | 0.39 |
+| 38,433,077 | 2.3% | 6.6% | 0.36 | 3.8% | 14.0% | 0.27 | 7.0% | 26.2% | 0.26 | 15.9% | 44.3% | 0.36 |
+| 41,363,134 | 2.3% | 6.4% | 0.36 | 3.8% | 14.1% | 0.27 | 7.0% | 26.3% | 0.26 | 15.9% | 44.4% | 0.36 |
+| 44,287,245 | 2.0% | 6.4% | 0.32 | 3.5% | 14.0% | 0.25 | 6.4% | 26.3% | 0.24 | 14.8% | 44.6% | 0.33 |
+| 47,218,861 | 2.0% | 6.3% | 0.32 | 3.5% | 14.0% | 0.25 | 6.4% | 26.4% | 0.24 | 14.8% | 44.5% | 0.33 |
+| 50,146,705 | 2.1% | 6.2% | 0.33 | 3.4% | 14.0% | 0.24 | 5.9% | 26.5% | 0.22 | 13.8% | 44.6% | 0.31 |
+| 53,076,631 | 2.1% | 6.2% | 0.34 | 3.4% | 14.1% | 0.24 | 5.9% | 26.5% | 0.22 | 13.8% | 44.7% | 0.31 |
+| 55,999,851 | 2.0% | 6.2% | 0.33 | 3.2% | 14.2% | 0.23 | 5.6% | 26.6% | 0.21 | 13.0% | 44.7% | 0.29 |
+| 58,918,566 | 2.0% | 6.2% | 0.33 | 3.2% | 14.3% | 0.23 | 5.6% | 26.6% | 0.21 | 13.0% | 44.8% | 0.29 |
+| 61,845,621 | 1.8% | 6.1% | 0.30 | 3.1% | 14.2% | 0.22 | 5.3% | 26.6% | 0.20 | 12.4% | 44.8% | 0.28 |
+| 64,770,777 | 1.8% | 6.1% | 0.30 | 3.1% | 14.2% | 0.22 | 5.3% | 26.7% | 0.20 | 12.4% | 44.8% | 0.28 |
+| 67,693,928 | 1.7% | 6.1% | 0.27 | 3.0% | 14.2% | 0.21 | 5.1% | 26.7% | 0.19 | 11.9% | 44.8% | 0.26 |
+| 70,618,495 | 1.7% | 6.1% | 0.27 | 3.0% | 14.3% | 0.21 | 5.1% | 26.7% | 0.19 | 11.9% | 44.9% | 0.26 |
+| 73,541,302 | 1.7% | 6.1% | 0.28 | 2.8% | 14.3% | 0.20 | 4.8% | 26.8% | 0.18 | 11.3% | 44.9% | 0.25 |
+| 76,465,894 | 1.7% | 6.2% | 0.28 | 2.8% | 14.3% | 0.20 | 4.8% | 26.8% | 0.18 | 11.3% | 44.9% | 0.25 |
+| 79,391,530 | 1.7% | 6.1% | 0.27 | 2.7% | 14.4% | 0.19 | 4.7% | 26.8% | 0.18 | 10.9% | 45.0% | 0.24 |
+| 82,315,148 | 1.7% | 6.2% | 0.27 | 2.7% | 14.4% | 0.19 | 4.7% | 26.9% | 0.18 | 10.9% | 45.0% | 0.24 |
+| 85,246,371 | 1.4% | 6.2% | 0.23 | 2.7% | 14.4% | 0.19 | 4.5% | 26.9% | 0.17 | 10.6% | 45.0% | 0.23 |
+| 88,172,794 | 1.4% | 6.2% | 0.23 | 2.7% | 14.4% | 0.19 | 4.5% | 26.9% | 0.17 | 10.6% | 45.1% | 0.23 |
+| 91,096,569 | 1.5% | 6.2% | 0.24 | 2.6% | 14.4% | 0.18 | 4.4% | 26.9% | 0.16 | 10.1% | 45.1% | 0.22 |
+| 94,027,050 | 1.5% | 6.2% | 0.23 | 2.6% | 14.4% | 0.18 | 4.4% | 27.0% | 0.16 | 10.1% | 45.1% | 0.22 |
+| 96,955,802 | 1.5% | 6.3% | 0.23 | 2.5% | 14.4% | 0.17 | 4.3% | 26.9% | 0.16 | 9.8% | 45.1% | 0.22 |
+| 99,879,342 | 1.5% | 6.2% | 0.23 | 2.5% | 14.4% | 0.17 | 4.3% | 26.9% | 0.16 | 9.8% | 45.1% | 0.22 |
+| 102,801,568 | 1.4% | 6.2% | 0.22 | 2.5% | 14.3% | 0.17 | 4.3% | 26.9% | 0.16 | 9.5% | 45.2% | 0.21 |
 

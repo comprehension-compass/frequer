@@ -1,7 +1,11 @@
 # Spanish exclusion list (frequer/exclude.py): lemma<TAB>class<TAB>reason.
 # Reviewed 2026-11-01 against the developer's criterion: remove English words and boilerplate, keep loans
-# established in Spanish. Two independent reviewers per lemma; disagreements adjudicated (full/es/exclusions.md).
+# established in Spanish. Two independent reviewers per lemma, disagreements adjudicated, then the
+# developer's rulings on the open questions (full/es/exclusions.md). Proper nouns are not listed here:
+# the build's standing proper-noun rule (frequer/propn.py) drops them.
 jetcost	exclude-boilerplate	flight-search site brand
+low	exclude-fragment	developer 2026-11-01: fragment of a loan phrase or plural form, excluded
+cost	exclude-fragment	developer 2026-11-01: fragment of a loan phrase or plural form, excluded
 aereo	exclude-boilerplate	unaccented template spelling of aéreo
 the	exclude-english	English article
 of	exclude-english	English preposition
@@ -28,6 +32,7 @@ west	exclude-english	English place word
 ltd	exclude-boilerplate	company-name template suffix
 world	exclude-english	English word
 group	exclude-english	English word in names
+mb	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 english	exclude-english	English word
 car	exclude-english	English word
 one	exclude-english	English word
@@ -52,12 +57,13 @@ store	exclude-english	English word
 big	exclude-english	English word
 power	exclude-english	English word
 at	exclude-english	English preposition
+kw	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 industry	exclude-english	English template text
 my	exclude-english	English pronoun
 design	exclude-english	English for diseño
 play	exclude-english	English word
 gold	exclude-english	English word
-london	exclude-english	English form of Londres
+london	exclude-english	developer 2026-11-01: English-form place name is leakage
 hi	exclude-english	English greeting
 client	exclude-english	English for cliente
 east	exclude-english	English place word
@@ -67,6 +73,7 @@ service	exclude-english	English word
 it	exclude-english	English pronoun
 extension	exclude-english	English file-extension text
 model	exclude-english	English word
+kb	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 go	exclude-english	English word
 bank	exclude-english	English word
 system	exclude-english	English word
@@ -86,7 +93,9 @@ line	exclude-english	English word
 watch	exclude-english	English word
 station	exclude-english	English word
 point	exclude-english	English word
+cc	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 college	exclude-english	English word
+cf	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 services	exclude-english	English word
 music	exclude-english	English word
 management	exclude-english	English word
@@ -131,6 +140,7 @@ time	exclude-english	English word
 more	exclude-english	English word
 site	exclude-english	English for sitio
 player	exclude-english	English word
+partners	exclude-fragment	developer 2026-11-01: fragment of a loan phrase or plural form, excluded
 market	exclude-english	English word
 project	exclude-english	English word
 ice	exclude-english	English word
@@ -145,16 +155,18 @@ with	exclude-english	English preposition
 travel	exclude-english	English word
 book	exclude-english	English word
 water	exclude-english	English word
+links	exclude-fragment	developer 2026-11-01: fragment of a loan phrase or plural form, excluded
+dr	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 images	exclude-english	English word
-europe	exclude-english	English form of Europa
+europe	exclude-english	developer 2026-11-01: English-form place name is leakage
 head	exclude-english	English word
 canada	exclude-boilerplate	unaccented misspelling of Canadá
 photo	exclude-english	English word
-ago	exclude-boilerplate	English template "años ago" plus dateline abbreviations
+ago	exclude-abbreviation	developer 2026-11-01: abbreviations excluded for now
 great	exclude-english	English word
 easy	exclude-english	English word
 room	exclude-english	English word
-md	exclude-boilerplate	listing/file-format abbreviation (Maryland, .md)
+md	exclude-abbreviation	developer 2026-11-01: abbreviations excluded for now
 food	exclude-english	English word
 land	exclude-english	English word
 care	exclude-english	English word
@@ -168,6 +180,7 @@ products	exclude-english	English word
 cup	exclude-english	English word
 share	exclude-english	English UI text
 days	exclude-english	English word
+ghz	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 collection	exclude-english	English word
 next	exclude-english	English word
 main	exclude-english	English word
@@ -184,6 +197,7 @@ from	exclude-english	English preposition
 sir	exclude-english	English word
 space	exclude-english	English word
 research	exclude-english	English word
+kmh	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 side	exclude-english	English word
 living	exclude-english	English word
 community	exclude-english	English word
@@ -200,8 +214,10 @@ down	exclude-english	English word
 field	exclude-english	English word
 experience	exclude-english	English word
 four	exclude-english	English word
+mhz	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 war	exclude-english	English word
 century	exclude-english	English word
+feb	exclude-abbreviation	developer 2026-11-01: abbreviations excluded for now
 dark	exclude-english	English word
 law	exclude-english	English word
 medical	exclude-english	English word
@@ -212,9 +228,10 @@ check	exclude-english	English word
 end	exclude-english	English word
 fire	exclude-english	English word
 association	exclude-english	English word
-hostels	exclude-english	English plural
+hostels	exclude-english	developer 2026-11-01: confirmed excluded
 kids	exclude-english	English word
 your	exclude-english	English word
+mw	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 form	exclude-english	English word
 building	exclude-english	English word
 is	exclude-english	English verb
@@ -229,15 +246,18 @@ good	exclude-english	English word
 happy	exclude-english	English word
 age	exclude-english	English word
 last	exclude-english	English word
+hz	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 party	exclude-english	English word
 comments	exclude-english	English word
 dead	exclude-english	English word
 fast	exclude-english	English word
 product	exclude-english	English word
 science	exclude-english	English word
+coach	exclude-english	developer 2026-11-01: keep not confirmed
 support	exclude-english	English word
 front	exclude-english	English word
 story	exclude-english	English word
+gr	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 code	exclude-english	English word
 daily	exclude-english	English word
 taxes	exclude-english	English word
@@ -260,6 +280,7 @@ type	exclude-english	English word
 duty	exclude-english	English word
 financial	exclude-english	English word
 language	exclude-english	English word
+kwh	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 focus	exclude-english	English word
 society	exclude-english	English word
 class	exclude-english	English word
@@ -277,6 +298,7 @@ action	exclude-english	English word
 girl	exclude-english	English word
 true	exclude-english	English word
 source	exclude-english	English word
+av	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 week	exclude-english	English word
 region	exclude-english	English word
 modern	exclude-english	English word
@@ -291,17 +313,22 @@ will	exclude-english	English word
 eye	exclude-english	English word
 hard	exclude-english	English word
 piece	exclude-english	English word
+lb	exclude-abbreviation	developer 2026-11-01: abbreviations excluded for now
 add	exclude-english	English word
 list	exclude-english	English word
 major	exclude-english	English word
+sr	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
+case	exclude-english	developer 2026-11-01: confirmed excluded
 not	exclude-english	English word
 clear	exclude-english	English word
 return	exclude-english	English word
 about	exclude-english	English word
 we	exclude-english	English pronoun
+ppm	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 summer	exclude-english	English word
 venture	exclude-english	English word
 earth	exclude-english	English word
+mts	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 report	exclude-english	English word
 force	exclude-english	English word
 planet	exclude-english	English word
@@ -331,6 +358,7 @@ studios	exclude-english	English word
 private	exclude-english	English word
 small	exclude-english	English word
 content	exclude-english	English word
+qt	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 articulo	exclude-boilerplate	unaccented misspelling of artículo
 dec	exclude-english	English month abbreviation
 work	exclude-english	English word
@@ -343,7 +371,7 @@ choice	exclude-english	English word
 credit	exclude-english	English word
 stay	exclude-english	English word
 month	exclude-english	English word
-states	exclude-english	English word
+states	exclude-english	developer 2026-11-01: English-form place name is leakage
 girls	exclude-english	English word
 conference	exclude-english	English word
 points	exclude-english	English word
@@ -403,7 +431,7 @@ vehiculo	exclude-boilerplate	unaccented misspelling of vehículo
 wide	exclude-english	English word
 education	exclude-english	English word
 hour	exclude-english	English word
-england	exclude-english	English form of Inglaterra
+england	exclude-english	developer 2026-11-01: English-form place name is leakage
 topical	exclude-english	English word
 breakfasts	exclude-english	English word
 warm	exclude-english	English word
@@ -414,6 +442,7 @@ future	exclude-english	English word
 break	exclude-english	English word
 dna	exclude-english	English for ADN
 movie	exclude-english	English word
+mph	exclude-abbreviation	developer 2026-11-01: abbreviations excluded for now
 fantasia	exclude-boilerplate	unaccented misspelling of fantasía
 perfect	exclude-english	English word
 crazy	exclude-english	English word
@@ -423,6 +452,7 @@ poliester	exclude-boilerplate	unaccented misspelling of poliéster
 today	exclude-english	English word
 bateria	exclude-boilerplate	unaccented misspelling of batería
 works	exclude-english	English word
+non	exclude-fragment	developer 2026-11-01: fragment of a loan phrase or plural form, excluded
 release	exclude-english	English word
 aug	exclude-english	English month abbreviation
 history	exclude-english	English word
@@ -478,6 +508,7 @@ drop	exclude-english	English word
 peace	exclude-english	English word
 chinese	exclude-english	English word
 droid	exclude-english	English brand-word
+nude	exclude-english	developer 2026-11-01: keep not confirmed
 policy	exclude-english	English word
 shot	exclude-english	English word
 common	exclude-english	English word
@@ -501,9 +532,10 @@ student	exclude-english	English word
 fall	exclude-english	English word
 pick	exclude-english	English word
 beacons	exclude-english	English word
-date	exclude-english	English DATE; Spanish "date" is a form of dar, not a lemma
+date	exclude-fragment	developer 2026-11-01: lemmatiser artefact, excluded
 domestico	exclude-boilerplate	unaccented doméstico
 middle	exclude-english	English word
+bpd	exclude-abbreviation	developer 2026-11-01: abbreviations excluded for now
 increible	exclude-boilerplate	unaccented increíble
 estandar	exclude-boilerplate	unaccented estándar
 fine	exclude-english	English word
@@ -530,6 +562,7 @@ politica	exclude-boilerplate	unaccented política
 take	exclude-english	English word
 move	exclude-english	English word
 learn	exclude-english	English word
+mcg	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 second	exclude-english	English word
 sense	exclude-english	English word
 army	exclude-english	English word
@@ -542,6 +575,7 @@ planning	exclude-english	English word
 bano	exclude-boilerplate	unaccented baño
 door	exclude-english	English word
 garantia	exclude-boilerplate	unaccented garantía
+kv	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 yes	exclude-english	English word
 credito	exclude-boilerplate	unaccented crédito
 have	exclude-english	English word
@@ -556,6 +590,7 @@ july	exclude-english	English word
 modem	exclude-boilerplate	unaccented módem
 basico	exclude-boilerplate	unaccented básico
 inside	exclude-english	English word
+kn	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 military	exclude-english	English word
 said	exclude-english	English word
 aplicacion	exclude-boilerplate	unaccented aplicación
@@ -566,16 +601,19 @@ task	exclude-english	English word
 culture	exclude-english	English word
 mediterraneo	exclude-boilerplate	unaccented mediterráneo
 amazing	exclude-english	English word
+cm	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 items	exclude-english	English word
 distribucion	exclude-boilerplate	unaccented distribución
 effect	exclude-english	English word
 historico	exclude-boilerplate	unaccented histórico
 meeting	exclude-english	English word
+msnm	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 espiritu	exclude-boilerplate	unaccented espíritu
 half	exclude-english	English word
 pill	exclude-english	English word
 turistico	exclude-boilerplate	unaccented turístico
 need	exclude-english	English word
+px	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 right	exclude-english	English word
 automaticamente	exclude-boilerplate	unaccented automáticamente
 balcon	exclude-boilerplate	unaccented balcón
@@ -600,7 +638,7 @@ forward	exclude-english	English UI word; finance jargon too niche to count as es
 grafico	exclude-boilerplate	unaccented gráfico
 president	exclude-english	English word
 was	exclude-english	English word
-won	exclude-english	English word
+won	exclude-english	developer 2026-11-01: confirmed excluded
 ask	exclude-english	English word
 membership	exclude-english	English word
 proximo	exclude-boilerplate	unaccented próximo
@@ -615,6 +653,7 @@ marmol	exclude-boilerplate	unaccented mármol
 null	exclude-english	programming word
 pequeno	exclude-boilerplate	unaccented pequeño
 sofa	exclude-boilerplate	unaccented sofá
+spp	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 calefaccion	exclude-boilerplate	unaccented calefacción
 follow	exclude-english	English word
 official	exclude-english	English word
@@ -683,13 +722,13 @@ mild	exclude-english	English word
 pixels	exclude-english	English plural (Spanish píxeles)
 used	exclude-english	English word
 conexion	exclude-boilerplate	unaccented conexión
-crop	exclude-english	only the compound crop top is established; standalone crop is English
+crop	exclude-fragment	developer 2026-11-01: fragment of a loan phrase or plural form, excluded
 electrodomestico	exclude-boilerplate	unaccented electrodoméstico
 into	exclude-english	English word
 november	exclude-english	English word
 paperback	exclude-english	English word
 proposito	exclude-boilerplate	unaccented propósito
-atk	exclude-english	English game abbreviation, not Spanish vocabulary
+atk	exclude-abbreviation	developer 2026-11-01: abbreviations excluded for now
 cabana	exclude-boilerplate	unaccented cabaña
 caption	exclude-english	English word
 produccion	exclude-boilerplate	unaccented producción
@@ -706,6 +745,8 @@ encoder	exclude-english	English word
 ophthalmic	exclude-english	English word
 reparacion	exclude-boilerplate	unaccented reparación
 straight	exclude-english	English word
+kbps	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
+kph	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 leave	exclude-english	English word
 practice	exclude-english	English word
 sum	exclude-english	English fragment (dim sum)
@@ -726,10 +767,11 @@ vacio	exclude-boilerplate	unaccented vacío
 incredible	exclude-english	English word
 razon	exclude-boilerplate	unaccented razón
 thinking	exclude-english	English word
+bhp	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 coleccion	exclude-boilerplate	unaccented colección
 committee	exclude-english	English word
 companies	exclude-english	English word
-consider	exclude-boilerplate	mislemma of hotel-template voseo "Considerá"
+consider	exclude-fragment	developer 2026-11-01: lemmatiser artefact, excluded
 hell	exclude-english	English word
 message	exclude-english	English word
 moving	exclude-english	English word
@@ -754,6 +796,7 @@ issue	exclude-english	English word
 bulletin	exclude-english	English word
 creacion	exclude-boilerplate	unaccented creación
 lampara	exclude-boilerplate	unaccented lámpara
+loops	exclude-fragment	developer 2026-11-01: fragment of a loan phrase or plural form, excluded
 mine	exclude-english	English word
 presentacion	exclude-boilerplate	unaccented presentación
 sear	exclude-english	English fragment (Searle)
@@ -779,7 +822,7 @@ possible	exclude-english	English word
 sister	exclude-english	English word
 suburban	exclude-english	English word/car model
 are	exclude-english	English word
-clique	exclude-boilerplate	"clique aquí" Portuguese-style template text
+clique	exclude-fragment	developer 2026-11-01: lemmatiser artefact, excluded
 december	exclude-english	English word
 funny	exclude-english	English word
 identico	exclude-boilerplate	unaccented idéntico
@@ -804,6 +847,7 @@ favorite	exclude-english	English word
 months	exclude-english	English word
 please	exclude-english	English word
 valvula	exclude-boilerplate	unaccented válvula
+diligence	exclude-fragment	developer 2026-11-01: fragment of a loan phrase or plural form, excluded
 edt	exclude-english	English time-zone abbreviation
 enjoy	exclude-english	English word
 equal	exclude-english	English word
@@ -841,6 +885,7 @@ behind	exclude-english	English word
 fact	exclude-english	English word
 grafica	exclude-boilerplate	ADJ lemma = unaccented gráfica; verb uses belong to graficar
 inversion	exclude-boilerplate	unaccented inversión
+mmhg	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 put	exclude-english	English word
 sold	exclude-english	English word
 teflon	exclude-boilerplate	unaccented misspelling of teflón plus brand text
@@ -880,6 +925,7 @@ lives	exclude-english	English word
 subject	exclude-english	English email field
 artwork	exclude-english	English word
 e-file	exclude-english	English tax-site term
+gwh	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 ocasion	exclude-boilerplate	unaccented ocasión
 positive	exclude-english	English word
 realtor	exclude-english	English job title
@@ -887,6 +933,7 @@ character	exclude-english	English word
 clinica	exclude-boilerplate	unaccented clínica
 eliminacion	exclude-boilerplate	unaccented eliminación
 forces	exclude-english	English word
+grs	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 increasing	exclude-english	English weather template
 maritimo	exclude-boilerplate	unaccented marítimo
 question	exclude-english	English word
@@ -899,6 +946,7 @@ eleccion	exclude-boilerplate	unaccented elección
 every	exclude-english	English word
 government	exclude-english	English word
 gpm	exclude-english	English unit abbreviation
+kgs	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 politico	exclude-boilerplate	unaccented político
 recepcion	exclude-boilerplate	unaccented recepción
 section	exclude-english	English word
@@ -908,6 +956,7 @@ third	exclude-english	English word
 without	exclude-english	English word
 career	exclude-english	English word
 everything	exclude-english	English word
+mgs	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 oracion	exclude-boilerplate	unaccented oración
 peluqueria	exclude-boilerplate	unaccented peluquería
 politicas	exclude-boilerplate	unaccented políticas
@@ -918,10 +967,10 @@ champs	exclude-english	English word
 diametro	exclude-boilerplate	unaccented diámetro
 estadia	exclude-boilerplate	unaccented estadía
 extremely	exclude-english	English word
-grander	exclude-boilerplate	lemmatiser artefact; examples are Spanish grande
+grander	exclude-fragment	developer 2026-11-01: lemmatiser artefact, excluded
 judge	exclude-english	English word
 levels	exclude-english	English word
-opioid	exclude-boilerplate	lemmatiser artefact; examples are Spanish opioides (lemma opioide)
+opioid	exclude-fragment	developer 2026-11-01: lemmatiser artefact, excluded
 opt-out	exclude-english	English marketing term
 players	exclude-english	English word
 sotano	exclude-boilerplate	unaccented sótano
@@ -954,10 +1003,13 @@ init	exclude-english	English code term
 juicer	exclude-english	English product text
 much	exclude-english	English word
 nacion	exclude-boilerplate	unaccented nación
+nbsp	exclude-boilerplate	HTML entity
+qty	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 through	exclude-english	English word
 together	exclude-english	English word
 yield	exclude-english	English code term
 amendment	exclude-english	English tax-site text
+capita	exclude-fragment	developer 2026-11-01: fragment of a loan phrase or plural form, excluded
 comite	exclude-boilerplate	unaccented comité
 enable	exclude-english	English word
 etcetera	exclude-boilerplate	unaccented etcétera
@@ -1024,6 +1076,7 @@ another	exclude-english	English word
 contemporaneo	exclude-boilerplate	unaccented contemporáneo
 debug	exclude-english	English code term; Spanish uses depurar
 doing	exclude-english	English word
+feeling	exclude-english	developer 2026-11-01: keep not confirmed
 getting	exclude-english	English word
 goes	exclude-english	English word
 groups	exclude-english	English word
@@ -1046,6 +1099,7 @@ injection	exclude-english	English word
 outside	exclude-english	English word
 poblacion	exclude-boilerplate	unaccented población
 salon-comedor	exclude-boilerplate	unaccented salón-comedor
+sept	exclude-abbreviation	developer 2026-11-01: abbreviations excluded for now
 trebol	exclude-boilerplate	unaccented trébol
 wed	exclude-english	English abbreviation
 among	exclude-english	English word
@@ -1056,8 +1110,10 @@ cientifico	exclude-boilerplate	unaccented científico
 comm	exclude-english	English abbreviation
 important	exclude-english	English word
 libreria	exclude-boilerplate	unaccented librería
+mwh	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 pods	exclude-english	English tech term
 political	exclude-english	English word
+ppb	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 problem	exclude-english	English word
 restful	exclude-english	English tech term
 sintoma	exclude-boilerplate	unaccented síntoma
@@ -1085,6 +1141,7 @@ collect	exclude-english	English word
 comision	exclude-boilerplate	unaccented comisión
 exito	exclude-boilerplate	unaccented éxito
 framing	exclude-english	English web term
+khz	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 many	exclude-english	English word
 millon	exclude-boilerplate	unaccented millón
 missing	exclude-english	English word
@@ -1115,7 +1172,7 @@ disclaimer	exclude-boilerplate	website template label
 elaboracion	exclude-boilerplate	unaccented elaboración
 ew	exclude-boilerplate	postal code / abbreviation
 gastronomia	exclude-boilerplate	unaccented gastronomía
-manifesto	exclude-boilerplate	lemmatiser artefact of misspelled manifesta / MANIFESTA name
+manifesto	exclude-fragment	developer 2026-11-01: lemmatiser artefact, excluded
 marijuana	exclude-english	English spelling; Spanish is marihuana/mariguana
 orientacion	exclude-boilerplate	unaccented orientación
 present	exclude-english	English word
@@ -1123,6 +1180,7 @@ quimico	exclude-boilerplate	unaccented químico
 relationship	exclude-english	English word
 scrapbook	exclude-english	English craft term in machine-translated catalogue text
 shale	exclude-english	English word
+spreads	exclude-fragment	developer 2026-11-01: fragment of a loan phrase or plural form, excluded
 statement	exclude-english	English word
 added	exclude-english	English word
 awareness	exclude-english	English word
@@ -1145,6 +1203,7 @@ suscribete	exclude-boilerplate	unaccented suscríbete
 them	exclude-english	English word
 appeal	exclude-english	English word
 artesania	exclude-boilerplate	unaccented artesanía
+dbm	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 dump	exclude-english	English word
 each	exclude-english	English word
 extraible	exclude-boilerplate	unaccented extraíble
