@@ -11,14 +11,14 @@ with the `honeyeater-lemma-es` **1.5.0** wheel. Counting stopped when the split-
 | corpus | ParaCrawl r9 en-es, Spanish side, stride 28 (35 shards of 20M raw chars); Tatoeba spa whole (5 shards of 4M), counted first |
 | tokens | **105,726,244** (ParaCrawl 102,399,277, Tatoeba 3,326,967); 138,221 documents; 5,707,166 sentences |
 | stop | split-half rule met at 102,801,568 tokens (3/3); the final list adds one shard that finished after that checkpoint |
-| filters | `corpora/exclude/es.tsv`: 1,299 exclusions (970 English, 267 boilerplate, 46 abbreviations, 16 fragments) plus 3 all-excluded units. Then the proper-noun rule: 21,300 PROPN lemmas dropped, 410 learnable names kept (`exclusions.md`) |
-| frequency at rank 1k / 5k / 10k / 20k / 50k | 12,582 / 1,301 / 321 / **58** / **6** (before the filters: 12,698 / 1,464 / 452 / 131 / 24) |
-| loader | `manage.py load_lemmas es --path snapshots/es.json --dry-run`: 50,000 ranked entries, 50,000 new, 0 demoted, **0 skipped**; 1,655 unit headwords, 109 homograph keys |
+| filters | `corpora/exclude/es.tsv`: 1,388 exclusions (English, boilerplate, abbreviations, fragments, single letters, roman numerals); 1,363 dropped from the top 50k. Then the proper-noun rule (capitalised in >= 50 % of running-text occurrences, `corpora/case/es.tsv.gz`): 19,506 dropped, 410 learnable names kept, and 1,768 PROPN-tagged common words kept (`exclusions.md`) |
+| frequency at rank 1k / 5k / 10k / 20k / 50k | 12,582 / 1,318 / 334 / **66** / **7** (before the filters: 12,698 / 1,464 / 452 / 131 / 24); samples down to 80k in `rank-samples.md` |
+| loader | `manage.py load_lemmas es --path snapshots/es.json --dry-run`: 50,000 ranked entries, 50,000 new, 0 demoted, **0 skipped**; 1,628 unit headwords, 97 homograph keys |
 | machine | 4 cores: 3 counting workers plus the main process, ~2.8k tokens/s per worker, ~30M tokens/h, ~3.5 h of counting |
 
 Files here: `report.md` (the review report with the convergence and calibration tables), `convergence.md` /
 `.json` (one row per shard), `es.cooc.tsv.gz` (association table, 8.4 MB), `es.cooc-queue.tsv` (labelling
-queue, 2,000 rows), `es.dispersion.json.gz` (dispersion sidecar), `perf.json` (throughput per stage), `exclusions.md` and `exclusions-review.tsv` (the exclusion review).
+queue, 2,000 rows), `es.dispersion.json.gz` (dispersion sidecar), `perf.json` (throughput per stage), `exclusions.md` and `exclusions-review.tsv` (the exclusion review), `rank-samples.md` (lemmas around ranks 20k-80k).
 
 ## Rebuilding the wheel
 
@@ -62,11 +62,11 @@ list, so the 50k band is probably within ~5 % of what more text would give.
 
 ## Review highlights
 
-* Against the live 20k list (which still holds proper nouns): Spearman 0.934 on shared lemmas; top-k overlap 1k 87.4 %, 5k 82.8 %, 20k 64.3 %.
+* Against the live 20k list (which still holds proper nouns): Spearman 0.931 on shared lemmas; top-k overlap 1k 87.4 %, 5k 83.1 %, 20k 67.1 %.
   wordfreq top-1000 overlap 68.5 %.
 * **The tail is thin once proper nouns go.** Before the filters, PROPN was the majority tag of 28 % of the
-  top 20k and 56 % of ranks 20k-50k. The proper-noun rule now drops them, and the list reaches about 22,600
-  ranks deeper, so rank 20,000 sits at 58 occurrences and rank 50,000 at 6. The convergence check ran on the
+  top 20k and 56 % of ranks 20k-50k. The proper-noun rule now drops most of them, and the list reaches about 20,900
+  ranks deeper, so rank 20,000 sits at 66 occurrences and rank 50,000 at 7. The convergence check ran on the
   unfiltered list, so ranks 20k-50k are noisier than its 9.5 % says. A stable 50k of common vocabulary
   needs more text (the rest of the stride-28 pass, about 47M tokens, or a second offset pass).
 * **Templates survive the stride.** The flight-search site in the head of ParaCrawl recurs throughout the
@@ -74,6 +74,6 @@ list, so the 50k band is probably within ~5 % of what more text would give.
   vuelo*, *respuesta rápido de personal*. English leaked in as lemmas too (`the`, `city`, `beach`,
   `airport`, ...). The reviewed exclusion list now drops them (`exclusions.md`); established loans
   such as `cookie`, `resort`, `top`, `show`, `email` stay.
-* Units rank as themselves: 1,655 unit entries in the top 50k (790 compound, 836 phrase, 29 construction).
-* Checks flagged: form-ratio 220, singular/plural 81, lemma consistency 268, short lemmas 86, case merges 1.
+* Units rank as themselves: 1,628 unit entries in the top 50k (770 compound, 829 phrase, 29 construction).
+* Checks flagged: form-ratio 220, singular/plural 99, lemma consistency 264, short lemmas 112, case merges 1.
 * Language ID dropped 1.31M ParaCrawl lines (21 %), the same rate as the pilot. Hygiene is the pilot's.

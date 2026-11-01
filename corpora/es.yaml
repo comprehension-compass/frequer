@@ -9,6 +9,8 @@ language:
   readings: false
   top_n: 50000
   forms_kept: 5
+  propn_rule: capitalised_mid_sentence
+  propn_capitalised_min: 0.5
 hygiene: {min_chars: 20, max_chars: 600, min_alpha_ratio: 0.6, gap_filter: true, langid_min_prob: 0.5}
 parts: 100
 checks:

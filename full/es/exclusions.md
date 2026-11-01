@@ -1,81 +1,76 @@
 # Spanish exclusion list and proper-noun rule, 2026-11-01
 
 The es snapshot is rebuilt from the same counts (105,726,244 tokens, same runtime header; nothing was
-recounted) with two filters, applied in this order. Ranks quoted here are from the first build, before
-either filter.
+recounted) with two filters, applied in this order. Ranks quoted are from the first build, before either.
 
-1. **The reviewed exclusion list** `corpora/exclude/es.tsv` (`frequer/exclude.py`): English leakage,
-   website boilerplate, abbreviations and fragments.
-2. **The standing proper-noun rule** (`frequer/propn.py`, every language). A lemma whose majority tag is
-   PROPN is dropped unless it is in Honeyeater's `reference/learnable-names/es.json` (CLDR territories,
-   languages, exemplar cities). The app already default-ignores the same lemmas.
+1. **The reviewed exclusion list** `corpora/exclude/es.tsv` (`frequer/exclude.py`): English leakage, website
+   boilerplate, abbreviations, fragments, single letters and roman numerals.
+2. **The proper-noun rule** (`frequer/propn.py`; per language: `language.propn_rule`, `capitalised_mid_sentence`
+   for es, `none` for de and ja). A PROPN-majority lemma is dropped when at least 50 % of its occurrences in
+   running text are capitalised. Learnable names (`reference/learnable-names/es.json`: CLDR territories,
+   languages, exemplar cities) always stay.
 
-**Criterion** for the list (the developer's words): remove English words and boilerplate, but don't remove
-words that are borrowed into Spanish and adapted, to the point that an English-speaking learner would want
-to learn that they're used in Spanish.
+**Case evidence.** The counts keep every surface form with its case, but not its position. So
+`corpora/case/es.tsv.gz` (made by `corpora/case/tally_es.py`, tokenizer only, no recount) re-reads the counted
+sample: ParaCrawl stride 28 offset 0, the 700M kept characters of the 35 counted shards, plus Tatoeba. For each
+capitalised surface form it records how often it appears sentence-initially, mid-sentence in running text, and
+mid-sentence in a title-case line (headings and menus, where most longer words are capitalised). Only
+running-text capitals count as evidence of a name. All-capitals forms carry no evidence, and camel-case forms
+(*iPhone*) count as capitalised. Without the title-case split, web headings ("Alquiler De Kayak") kept *kayak*
+and *rock* above 50 %.
 
 ## Result
 
-| class | lemmas | dropped from the top 50k |
-| --- | ---: | ---: |
-| exclude-english | 970 | 970 |
-| exclude-boilerplate | 267 | 267 |
-| exclude-abbreviation | 46 | 46 |
-| exclude-fragment | 16 | 16 |
-| exclude-unit (every member word excluded: *human rights watch*, *long island*, *one piece*) | - | 3 |
-| proper nouns (PROPN majority, not a learnable name) | - | 21,300 |
-| learnable names kept (PROPN, in the learnable-names list) | - | 410 |
-| keep-loan (reviewed, stays) | 298 | - |
-| keep-spanish (reviewed, stays; includes proper nouns, which the rule now handles) | 173 | - |
+| filter | dropped from the top 50k |
+| --- | ---: |
+| exclude-english | 970 |
+| exclude-boilerplate | 267 |
+| exclude-abbreviation | 49 |
+| exclude-numeral (roman numerals) | 33 |
+| exclude-letter (single letters, except the words *y*, *a*, *o*) | 25 |
+| exclude-fragment | 16 |
+| exclude-unit (every member excluded) | 3 |
+| proper nouns (case test) | 19,506 |
+| **kept:** learnable names | 410 |
+| **kept:** PROPN-majority lemmas the case test reads as common words | 1,768 |
+
+(The exclusion list holds 1,388 rows. Some letters and numerals rank below 50,000, so fewer of them drop from the top 50k.)
 
 * `load_lemmas es --path snapshots/es.json --dry-run`: 50,000 ranked entries, 50,000 new, 0 demoted,
-  0 skipped; 1,655 unit headwords, 109 homograph keys.
-* Frequency at rank 1k / 5k / 10k / 20k / 50k: 12,582 / 1,301 / 321 / **58** / **6**. Before the filters
-  it was 12,698 / 1,464 / 452 / 131 / 24.
-* Top 10k: 293 lemmas keep their rank; the median lemma moves up 377 ranks; 1,436 lemmas are new to the
-  top 10k.
+  0 skipped; 1,628 unit headwords, 97 homograph keys.
+* Frequency at rank 1k / 5k / 10k / 20k / 50k: 12,582 / 1,318 / 334 / **66** / **7** (first build: 12,698 /
+  1,464 / 452 / 131 / 24).
+* Top 10k against the first build: 293 lemmas keep their rank, the median lemma moves up 340 ranks, and 1,326
+  are new to the top 10k.
+* Rank samples down to 80k: `rank-samples.md`.
 
-**Caveat: the tail is thin.** With 22,602 lemmas filtered out, the list reaches about 22,600 ranks deeper
-into the counts, and rank 50,000 now sits at 6 occurrences. The convergence check ran on the unfiltered
-list (split-half disagreement 9.5 % at 50k). Ranks 20k-50k of this list are noisier than that figure
-says. A stable 50k of common vocabulary needs more text: for example the rest of the stride-28 pass
-(about 47M tokens), or a second offset pass.
+**Caveat: the tail is thin.** Rank 50,000 sits at 7 occurrences. The convergence check ran on the unfiltered
+list, so ranks 20k-50k are noisier than its 9.5 % split-half figure says. More counting is planned, with
+convergence judged on the filtered list.
 
-## Process
+## The PROPN-looks-like-vocabulary list under the case test
 
-1,731 candidates: the first build's foreign-word table; top-50k lemmas whose wordfreq English zipf exceeds
-the Spanish one (by >= 0.8, or >= 1.2 with English zipf >= 5.0 when tagged PROPN); flight-site template
-tokens; non-PROPN unaccented spellings of a more frequent accented lemma; English-word units. Two
-independent reviewers saw only the criterion, the lemma, rank, frequency, POS and two example sentences.
-They agreed on 1,650; an adjudicator settled 81. The developer then ruled on the open questions:
+Of the 63 sent earlier, **29 come back**: ue, kayak, mediterráneo, apto, mini, flash, rock, boutique, pisar, ultra, sida, máster, puzzle, diesel, alta, capital, wiki, jet, escotilla, sinopsis, laptop, santa, zoo, pixel, ninja, cronógrafo, tarot, loft, rugby.
 
-* fragments and artefacts excluded (low, cost, diligence, crop, partners, links, loops, spreads, non, capita;
-  grander, opioid, manifesto, consider, clique, date); circa and continuum stay;
-* abbreviations excluded for now (feb, sept, lb, mph, bpd, ago, md, atk, and the other abbreviations and unit
-  symbols found in the top 50k: dr, sr, av, kw, kwh, mhz, ppm, cc, ...). Acronyms that work as Spanish
-  words (IVA, ADN, ONG, PIB, VIH, PDF, TV, PC), single letters and roman numerals were left in; see the
-  question below;
-* English-form place names are leakage (london, england, europe, states);
-* coach, nude, feeling excluded; pudding, marijuana, epoxy, cashmere, won, hostels, case excluded; bbq kept;
-* the `bulb#Maoc` key is a lexicon error (noted; nothing changed here).
+Still dropped (34): cristo, palma, pacífico, hostel, motel, cala, felicitaciones, atlántico, faraón, satanás, bingo, bitcoin, islam, halloween, génesis, omega, elite, junior, safari, apocalipsis, salmo, inca, jeep, concilio, altísimo, margarita, aparthotel, memorial, corán, ártico, jaguar, zika, éxodo, brexit. They split two ways:
+* Words Spanish conventionally capitalises, so the test is right to call them names: *Cristo, Corán,
+  Satanás, Génesis, Éxodo, Apocalipsis, Salmo, Altísimo, Concilio, Islam, Halloween, Brexit, Atlántico, Pacífico,
+  Ártico, Inca, Faraón, Felicitaciones* (as a greeting heading), *Zika*.
+* Common nouns that web text writes capitalised (hotel and shop listings): *hostel, motel, aparthotel, cala, palma,
+  bingo, bitcoin, safari, jeep, jaguar, omega, elite, junior, memorial, margarita*. A 60 % threshold would bring back
+  bingo, safari, margarita, elite, omega, palma, jeep, junior and memorial, along with more real names.
 
-The per-lemma review record (both reviewers, the adjudication) is `exclusions-review.tsv`. The developer's
-later rulings are applied in `corpora/exclude/es.tsv`.
+## Kept by the case test (first 60 by first-build rank, with the running-text capitalised share)
 
-## PROPN-tagged lemmas that look like common vocabulary (original top 10k; dropped by the rule)
+`usb` (1670, 24%), `ue` (1673, 12%), `kayak` (2232, 7%), `mediterráneo` (2296, 45%), `apto` (2436, 23%), `mini` (2499, 33%), `flash` (2517, 40%), `hp` (2614, 21%), `dvd` (2648, 19%), `hd` (2764, 26%), `león` (2775, 47%), `iso` (2783, 39%), `ca` (2850, 49%), `sgs` (3039, 0%), `lcd` (3099, 21%), `eur` (3144, 20%), `pvc` (3151, 12%), `lg` (3190, 38%), `di` (3287, 12%), `rock` (3324, 50%), `boutique` (3434, 33%), `gps` (3496, 33%), `vip` (3502, 41%), `do` (3545, 10%), `oem` (4004, 38%), `url` (4009, 3%), `pisar` (4176, 40%), `ultra` (4343, 34%), `sms` (4442, 5%), `vpn` (4494, 0%), `sida` (4537, 17%), `info` (4583, 24%), `du` (4614, 9%), `máster` (4642, 37%), `sd` (4747, 9%), `tweet` (4749, 45%), `hall` (4792, 50%), `uv` (4843, 43%), `cnc` (4996, 23%), `da` (5037, 0%), `puzzle` (5045, 40%), `html` (5094, 7%), `diesel` (5232, 16%), `fda` (5294, 18%), `alta` (5318, 15%), `llc` (5468, 34%), `franco` (5481, 33%), `tic` (5520, 21%), `jean` (5727, 48%), `sl` (5746, 47%), `wc` (5750, 6%), `capital` (5818, 50%), `abs` (5827, 35%), `pu` (5848, 46%), `moreno` (5862, 41%), `ge` (6041, 49%), `ibm` (6053, 0%), `pp` (6083, 4%), `ad` (6316, 22%), `ups` (6359, 21%)
 
-To raise with the developer. They are listed only, not kept specially. Navidad, Dios, Internet and Papa are
-not PROPN-tagged as lemmas in this build, so they stay.
+## Questions for the developer
 
-cristo (1162), ue (1673), kayak (2232), palma (2278), mediterráneo (2296), apto (2436), mini (2499), flash (2517), pacífico (2917), rock (3324), boutique (3434), hostel (3586), motel (3903), pisar (4176), ultra (4343), cala (4524), sida (4537), máster (4642), felicitaciones (4719), atlántico (4848), faraón (4860), puzzle (5045), diesel (5232), satanás (5255), bingo (5312), alta (5318), bitcoin (5598), islam (5745), capital (5818), halloween (6096), génesis (6453), omega (6586), elite (6689), junior (6708), wiki (6795), safari (7009), apocalipsis (7069), jet (7082), salmo (7299), escotilla (7394), inca (7569), sinopsis (7623), laptop (7651), jeep (7707), concilio (7884), altísimo (7899), santa (7928), zoo (8458), pixel (8810), margarita (8852), aparthotel (8860), memorial (8976), ninja (9167), corán (9488), cronógrafo (9508), ártico (9679), jaguar (9815), tarot (9823), loft (9834), zika (9909), éxodo (9910), rugby (9947), brexit (9960)
-
-Brands used like common nouns were dropped too: facebook (1417), twitter (2347), youtube (3365),
-instagram (3941), whatsapp (5475), google (945).
-
-## Open question
-
-* Acronyms such as IVA, ADN, ONG, PIB, VIH, PDF, TV and PC were kept as words, and single letters and roman
-  numerals (xix, xx, iv) were left in. Should they also count as abbreviations?
+* All-capitals acronyms carry no case evidence, so they stay. That fits "acronyms used as words: keep" (*usb, dvd,
+  gps, sms, vpn, url, html*), but brand acronyms such as *hp* and *lg* stay too. Exclude brand acronyms by list?
+* Foreign particles tagged PROPN but written lower-case (*di, da, du, do*: from *Leonardo da Vinci*, *Rio de
+  Janeiro*-style names and English *do*) pass the case test. Exclude them as leakage?
+* Threshold: 50 % (as suggested), or 60 % to recover the hotel and shop nouns above?
 
 ## Excluded, English (970)
 
@@ -85,14 +80,30 @@ the (754), of (1223), city (1305), in (1472), and (1636), beach (1793), new (196
 
 jetcost (477), aereo (576), ltd (3186), codigo (5966), canada (7508), salon (8505), frio (9832), protected (11449), dia (11460), busqueda (12285), guia (12527), articulo (12808), galeria (12920), nino (13780), telefono (13838), comodo (13856), todavia (14517), corazon (14559), andalucia (14628), area (14752), vehiculo (14926), mio (15141), fantasia (15283), poliester (15413), bateria (15494), oir (15686), caracteristica (15861), pelicula (16032), descripcion (16159), boton (16242), camara (16402), construccion (16448), electronico (16500), album (16735), tecnologia (16783), electrico (17059), item (18137), domestico (18503), increible (18704), estandar (18840), economico (18914), opcion (19463), politica (19702), ensenar (19995), fotografia (20001), bano (20121), garantia (20159), credito (20330), relacion (20560), rincon (20659), modem (20748), basico (20800), aplicacion (20898), mediterraneo (21061), distribucion (21422), historico (21439), espiritu (21534), turistico (21680), automaticamente (21815), balcon (21818), policia (21891), plastico (22105), angulo (22144), grafico (22399), proximo (22557), instalacion (22639), fabricacion (22873), marmol (22902), pequeno (22917), sofa (22936), calefaccion (23115), opinion (23179), proximamente (23448), rapidamente (23591), diseno (23810), situacion (24037), estanteria (24234), clasico (24672), reir (24890), aerolinea (24928), economia (25150), judio (25171), medico (25184), facil (25315), conexion (25448), electrodomestico (25469), proposito (25537), cabana (25614), produccion (25700), raiz (25704), tecnica (25730), urbanizacion (25739), educacion (25792), decision (25935), reparacion (26015), portatil (26334), analisis (26397), atletico (26405), recien (26537), tecnico (26568), termino (26569), vacio (26769), razon (26948), coleccion (27029), mision (27305), compania (27432), categoria (27641), seleccion (27757), decoracion (27848), ingenieria (27894), creacion (28042), lampara (28114), presentacion (28164), especificamente (28290), automatico (28455), caida (28469), epoca (28524), antiguedad (28677), comparacion (28707), musico (28813), identico (28983), numero (29267), organizacion (29272), redireccion (29293), centrico (29403), desafio (29674), ceramica (29881), valvula (30092), configuracion (30626), agricola (30832), comunicacion (30903), oido (31059), satelite (31112), rustico (31402), simbolo (31416), edicion (31549), envio (31558), grafica (31897), inversion (31926), teflon (32057), pajaro (32298), metodo (32584), investigacion (32878), esqui (33162), fantastico (33168), joyeria (33224), ocasion (33636), clinica (33862), eliminacion (33911), maritimo (34018), carpinteria (34236), eleccion (34294), politico (34453), recepcion (34469), oracion (34835), peluqueria (34845), politicas (34853), diametro (35059), estadia (35085), sotano (35326), anadir (35394), almacen (35813), excursion (35957), lavanderia (36041), musculo (36075), consultoria (36327), dano (36343), duracion (36363), salvacion (36590), nacion (36975), nbsp (36979), comite (37239), etcetera (37318), gov (37354), periodico (37495), sesion (37538), tuberia (37592), diversion (37757), generacion (37806), proteina (37989), sonreir (38047), algodon (38153), exposicion (38346), pantalon (38502), dificil (38793), fisico (38835), nucleo (38979), panoramica (39002), parametro#railway (39004), recuperacion (39052), unico (39141), celula (39290), cirugia (39302), hindu (39442), localizacion (39490), termico (39674), contemporaneo (39854), mercancia (40089), ambito (40342), condicion (40441), especifico (40514), espectaculo (40515), poblacion (40741), salon-comedor (40802), trebol (40869), caido (41017), cientifico (41040), libreria (41279), sintoma (41468), teoria (41504), fotografo (41813), huesped (41857), romantico (42086), versiculo (42196), comision (42386), exito (42472), millon (42630), peticion (42705), reir#actual (42765), reproduccion (42768), basicamente (42978), discipulo (43083), tradicion (43537), disclaimer (43776), elaboracion (43789), ew (43818), gastronomia (43859), orientacion (44090), quimico (44164), digito (44614), microscopia (44849), muchisimo (44873), preparacion (44950), segun (45008), suscribete (45061), artesania (45191), extraible (45436), filosofia (45453), maiz (45635), perdon (45749), restauracion (45813), devolucion (46252), navegacion (46594), olimpico (46619), tension (46832), colaboracion (47102), evaluacion (47227), helicoptero (47307), menus (47464), quizas (47624), regimen (47643), sensacion (47700), cacer (48030), grua (48311), manana (48485), sindrome (48778), artistico (49009), comunion (49177), conduccion (49179), conversacion (49187), idolo (49410), intencion (49432), optica (49621), panaderia (49630), profecia (49682), valoracion (49920), acustico (49995)
 
-## Excluded, abbreviations (46)
+## Excluded, abbreviations (49)
 
-mb (3347), kw (4425), kb (4999), cc (5457), cf (5501), dr (7373), ago (7610), md (7823), ghz (8227), kmh (8678), mhz (9335), feb (9401), mw (9713), hz (10179), gr (10407), kwh (10948), av (11316), lb (11652), sr (11732), ppm (11836), mts (11944), qt (12799), mph (15255), bpd (18624), mcg (19849), kv (20267), kn (20845), cm (21312), msnm (21460), px (21777), spp (23074), atk (25601), kbps (26130), kph (26132), bhp (27013), mmhg (31963), gwh (33561), grs (33952), kgs (34376), mgs (34804), qty (37026), sept (40814), mwh (41332), ppb (41398), khz (42574), dbm (45364)
+mb (3347), kw (4425), kb (4999), cc (5457), cf (5501), dr (7373), ago (7610), md (7823), ghz (8227), kmh (8678), mhz (9335), feb (9401), mw (9713), hz (10179), gr (10407), kwh (10948), av (11316), lb (11652), sr (11732), ppm (11836), mts (11944), qt (12799), mph (15255), bpd (18624), ml (19158), mcg (19849), cl (20228), kv (20267), kn (20845), cm (21312), msnm (21460), px (21777), spp (23074), atk (25601), kbps (26130), kph (26132), bhp (27013), mmhg (31963), gwh (33561), grs (33952), dl (34283), kgs (34376), mgs (34804), qty (37026), sept (40814), mwh (41332), ppb (41398), khz (42574), dbm (45364)
 
 ## Excluded, fragments and artefacts (16)
 
 low (540), cost (549), partners (6810), links (7363), non (15638), date (18499), crop (25454), consider (27033), loops (28118), clique (28915), diligence (30168), grander (35119), opioid (35242), capita (37225), manifesto (44015), spreads (44252)
 
+## Excluded, single letters (32)
+
+x (1033), á (1182), b (1358), c (1446), i (1479), d (1803), m (1949), t (2229), g (2388), v (2583), k (2701), n (2829), e (2833), r (2888), f (3042), w (4362), z (4671), l (5024), q (5026), s (5316), h (5566), u (5856), j (7395), p (10428), é (20576), ñ (52399), ü (52401), r#hunt (53377), ú (69967), q#hunt (72351), r#tail (90801), j#Ma.c (115302)
+
+## Excluded, roman numerals (54)
+
+ii (1840), iii (3132), xix (4022), xx (4068), iv (4169), xviii (5771), xxi (6066), vi (6183), xvi (6258), xvii (6812), xl (6909), xi (7734), xv (8070), vii (8196), xii (8545), xiii (8674), xiv (9134), ix (9139), viii (9824), li (10499), xxx (10841), lx (13706), lv (18932), xxiii (20113), xc (23905), xxii (29356), xxiv (29357), xxvi (31738), xxv (32697), liv (35186), xxviii (41569), xxxi (47862), xxvii (48920), xxix (51108), xxxii (53690), xxxiii (69916), xxxiv (69917), lxx (75199), xxxvi (76844), xxxvii (76845), xli (81149), lxi (83990), xlviii (86191), xxxix (86199), xlv (92227), xliii (99708), xlvii (99709), xxxv (99721), xliv (109245), xxxviii (109261), lii (116028), lix (116101), lvi (116243), lxii (116246)
+
 ## Kept as loans (298)
 
 cookie (532), email (1738), resort (1918), show (2128), tiquete (2300), top (2655), look (2831), stock (2986), set (2990), parking (3522), ticket (3678), fitness (4035), feed (4081), test (4194), manager (4238), pack (4296), bit (4476), vintage (4625), film (5147), stand (5338), newsletter (5872), box (5985), country (6024), host (6025), bonus (6144), trading (6191), hosting (6213), script (6342), check-in (6605), hacking (6940), spot (7056), performance (7182), spray (8082), outfit (8479), stop (8530), senior (8584), token (8630), short (8662), record (9067), rack (9169), running (9202), cool (9248), snack (9604), portfolio (9676), body (9719), charter (9783), feedback (10388), status (10457), check-out (10740), miss (10889), tip (11010), like (11074), packaging (11077), gdpr (11100), coaching (11360), pay (11509), staff (11512), hit (11828), hotspot (11969), match (12025), swing (12030), lead (12169), soccer (12174), review (12276), paper (12295), array (12372), denim (12781), trader (12962), e-commerce (13182), deck (13348), jackpot (13391), networking (13394), cluster (13448), round (13576), branding (13584), heavy (13670), escort (13726), plug-in (13739), poster (13741), comic (13818), flyer (13915), brunch (14019), offset (14134), offshore (14227), banners (14267), slot (14962), pilate (15370), pop-up (15372), cover (15495), torque (15520), framework (15967), folk (16116), string (16286), dumping (16307), pellet (16329), e-learning (16364), sheriff (16386), bbq (16639), beat (16844), pole (16883), paddle (16932), engagement (16966), know-how (17020), buffer (17052), bug (17219), playoff (17327), cocktail (17348), chance (17619), traders (17858), royalty (17920), luge (17964), standing (18331), kite (18458), lifting (18650), flop (18768), gym (18770), pallet (18790), boho (19206), draft (19517), peeling (19777), bypass (19973), spread (20107), racks (20385), detox (20435), newsletters (20644), smash (20663), crossover (20703), dealer (21117), must (21157), pellets (21166), plug-ins (21168), clutch (21311), feeds (21535), concierge (21831), likes (21866), reality (21896), toner (22032), stress (22122), tracks (22234), gadgets (22392), blister (22978), dip (23000), snorkeling (23072), bomber (23111), scroll (23604), workflow (23631), big bang (23783), bankroll (23927), grand slam (24111), responsive (24159), sake (24164), squash (24171), checkout (24526), pick-up (24607), render (24757), sponsor (24770), halter (25005), sneakers (25069), inning (25167), mainframe (25345), gameplay (25482), off-road (25525), outfits (25527), smoothie (25880), shader (26027), cameo (26063), keyword (26131), logs (26307), retailer (26345), stakeholder (26357), volt (26773), front-end (26872), jogging (26890), picking (26934), pitcher (27335), snapshot (27356), low-cost (27510), middleware (27523), voucher (27600), bracket (27634), chances (27647), workshops (27793), expertise (27870), back-end (28015), backstage (28016), clipper (28034), preset (28388), spinners (28409), endpoints (28521), timeline (28656), spin-off (29320), pickup (29532), cashback (29880), oversize (30015), scripting (30061), e-book (30175), bullpen (30351), hubs (30436), start-up (30530), dongle (30650), roster (30772), circa (30897), king-size (31013), tvs (31148), all-in (31179), bondage (31199), megapixel (31325), quad-core (31383), innings (31596), backlinks (31785), briefing (31810), buy-in (32131), canola (32133), posters (32314), marketer (32576), whiskey (32692), establishment (32823), skateboard (33006), gazebo (33181), sampler (33329), caucus (33465), skinny (33728), continuum (33871), mailing (34013), playlists (34449), power-ups (34856), softball (34905), flap (35098), screening (35310), cockpit (35453), touchdown (35766), pallets (36101), putt (36132), renting (36147), bagels (36284), exploit (36390), mentoring (36493), storytelling (36612), sunnah (36616), cardigan (36743), chill-out (36753), mainstream (36933), background (37196), brackets (37217), wearable (37611), jihad (37860), kratom (37870), prompt (37986), quarterback (37993), webcast (38116), presets (38527), rattan (38534), timing (38617), all-star (38685), commit (39313), fairway (39386), intersex (39454), play-off (39580), screenshot (39638), waffle (39723), rookie (40211), lounges (40650), best-seller (40994), exchanges (41141), raster (42062), swaps (42139), e-bike (43107), peer-to-peer (43369), paralegal (44106), reboot (44172), roll-on (44193), back-office (44443), contactless (44557), exploits (44670), footing (44689), furry (44701), snowboarding (45030), switches (45062), taupe (45068), darshan (45362), podium (45762), curling (46222), naming (46593), setter (46763), checklist (47085), streetwear (47740), aerobic (47892), joint-venture (48412), marketplaces (48494), preppy (48658), slime (48783), time-lapse (48851), gravel (49357), pedicure (49643), pretzels (49675), showrooms (49782), stand-by (49808), triage (49883)
+
+## Process
+
+1,731 candidates were reviewed by two independent reviewers (criterion, lemma, rank, frequency, POS and two example
+sentences only). They agreed on 1,650, and an adjudicator settled the other 81 (`exclusions-review.tsv`).
+The developer then ruled: fragments, artefacts, abbreviations, single letters and roman numerals are excluded;
+English-form place names are leakage; coach, nude, feeling, won, hostels and case are excluded; bbq, circa and
+continuum stay; acronyms used as words stay; brands stay dropped as proper nouns.

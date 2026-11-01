@@ -1,30 +1,47 @@
 # Spanish exclusion list (frequer/exclude.py): lemma<TAB>class<TAB>reason.
 # Reviewed 2026-11-01 against the developer's criterion: remove English words and boilerplate, keep loans
 # established in Spanish. Two independent reviewers per lemma, disagreements adjudicated, then the
-# developer's rulings on the open questions (full/es/exclusions.md). Proper nouns are not listed here:
-# the build's standing proper-noun rule (frequer/propn.py) drops them.
+# developer's rulings (full/es/exclusions.md). Proper nouns are not listed here: the build's
+# proper-noun rule (frequer/propn.py, language.propn_rule) handles them.
 jetcost	exclude-boilerplate	flight-search site brand
 low	exclude-fragment	developer 2026-11-01: fragment of a loan phrase or plural form, excluded
 cost	exclude-fragment	developer 2026-11-01: fragment of a loan phrase or plural form, excluded
 aereo	exclude-boilerplate	unaccented template spelling of aéreo
 the	exclude-english	English article
+x	exclude-letter	developer 2026-11-01: single letters excluded
+á	exclude-letter	developer 2026-11-01: single letters excluded
 of	exclude-english	English preposition
 city	exclude-english	English word in names
+b	exclude-letter	developer 2026-11-01: single letters excluded
+c	exclude-letter	developer 2026-11-01: single letters excluded
 in	exclude-english	English preposition
+i	exclude-letter	developer 2026-11-01: single letters excluded
 and	exclude-english	English conjunction
 beach	exclude-english	not a Spanish loan
+d	exclude-letter	developer 2026-11-01: single letters excluded
+ii	exclude-numeral	developer 2026-11-01: roman numerals excluded
+m	exclude-letter	developer 2026-11-01: single letters excluded
 new	exclude-english	English template text
 home	exclude-english	English template text
+t	exclude-letter	developer 2026-11-01: single letters excluded
+g	exclude-letter	developer 2026-11-01: single letters excluded
 to	exclude-english	English preposition
 house	exclude-english	English template text
+v	exclude-letter	developer 2026-11-01: single letters excluded
 by	exclude-english	English preposition
+k	exclude-letter	developer 2026-11-01: single letters excluded
 black	exclude-english	English colour word
+n	exclude-letter	developer 2026-11-01: single letters excluded
+e	exclude-letter	developer 2026-11-01: single letters excluded
+r	exclude-letter	developer 2026-11-01: single letters excluded
 grand	exclude-english	English in brand names
 airport	exclude-english	English for aeropuerto
 island	exclude-english	English place word
+f	exclude-letter	developer 2026-11-01: single letters excluded
 on	exclude-english	English preposition
 international	exclude-english	English for internacional
 love	exclude-english	English word
+iii	exclude-numeral	developer 2026-11-01: roman numerals excluded
 for	exclude-english	English preposition
 air	exclude-english	English in brand names
 best	exclude-english	English word
@@ -48,13 +65,17 @@ western	exclude-english	English word
 american	exclude-english	English word
 studio	exclude-english	English hotel template word
 office	exclude-english	English word
+xix	exclude-numeral	developer 2026-11-01: roman numerals excluded
 county	exclude-english	English place word
 state	exclude-english	English word
+xx	exclude-numeral	developer 2026-11-01: roman numerals excluded
 bed	exclude-english	English word
+iv	exclude-numeral	developer 2026-11-01: roman numerals excluded
 south	exclude-english	English place word
 live	exclude-english	English word
 store	exclude-english	English word
 big	exclude-english	English word
+w	exclude-letter	developer 2026-11-01: single letters excluded
 power	exclude-english	English word
 at	exclude-english	English preposition
 kw	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
@@ -63,6 +84,7 @@ my	exclude-english	English pronoun
 design	exclude-english	English for diseño
 play	exclude-english	English word
 gold	exclude-english	English word
+z	exclude-letter	developer 2026-11-01: single letters excluded
 london	exclude-english	developer 2026-11-01: English-form place name is leakage
 hi	exclude-english	English greeting
 client	exclude-english	English for cliente
@@ -74,6 +96,8 @@ it	exclude-english	English pronoun
 extension	exclude-english	English file-extension text
 model	exclude-english	English word
 kb	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
+l	exclude-letter	developer 2026-11-01: single letters excluded
+q	exclude-letter	developer 2026-11-01: single letters excluded
 go	exclude-english	English word
 bank	exclude-english	English word
 system	exclude-english	English word
@@ -86,6 +110,7 @@ open	exclude-english	English word
 centre	exclude-english	English word
 news	exclude-english	English word
 place	exclude-english	English word
+s	exclude-letter	developer 2026-11-01: single letters excluded
 road	exclude-english	English word
 university	exclude-english	English word
 company	exclude-english	English word
@@ -96,6 +121,7 @@ point	exclude-english	English word
 cc	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 college	exclude-english	English word
 cf	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
+h	exclude-letter	developer 2026-11-01: single letters excluded
 services	exclude-english	English word
 music	exclude-english	English word
 management	exclude-english	English word
@@ -104,10 +130,12 @@ high	exclude-english	English word
 out	exclude-english	English word
 tax	exclude-english	English word
 or	exclude-english	English conjunction
+xviii	exclude-numeral	developer 2026-11-01: roman numerals excluded
 technology	exclude-english	English word
 off	exclude-english	English word
 town	exclude-english	English word
 man	exclude-english	English word
+u	exclude-letter	developer 2026-11-01: single letters excluded
 hot	exclude-english	English word
 resorts	exclude-english	plural form, examples are brand text (Hotels & Resorts); the singular decides the loan
 game	exclude-english	English word
@@ -120,14 +148,17 @@ codigo	exclude-boilerplate	unaccented misspelling of código
 standard	exclude-english	English word in names
 up	exclude-english	English word
 page	exclude-english	English word
+xxi	exclude-numeral	developer 2026-11-01: roman numerals excluded
 may	exclude-english	English month/modal
 word	exclude-english	English word
 times	exclude-english	English word
+vi	exclude-numeral	developer 2026-11-01: roman numerals excluded
 day	exclude-english	English word
 team	exclude-english	English word
 card	exclude-english	English word
 little	exclude-english	English word
 energy	exclude-english	English word
+xvi	exclude-numeral	developer 2026-11-01: roman numerals excluded
 security	exclude-english	English word
 long	exclude-english	English word
 lounge	exclude-english	hotel-template translation; not established vocabulary
@@ -141,7 +172,9 @@ more	exclude-english	English word
 site	exclude-english	English for sitio
 player	exclude-english	English word
 partners	exclude-fragment	developer 2026-11-01: fragment of a loan phrase or plural form, excluded
+xvii	exclude-numeral	developer 2026-11-01: roman numerals excluded
 market	exclude-english	English word
+xl	exclude-numeral	developer 2026-11-01: roman numerals excluded
 project	exclude-english	English word
 ice	exclude-english	English word
 light	exclude-english	English word in names
@@ -157,6 +190,7 @@ book	exclude-english	English word
 water	exclude-english	English word
 links	exclude-fragment	developer 2026-11-01: fragment of a loan phrase or plural form, excluded
 dr	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
+j	exclude-letter	developer 2026-11-01: single letters excluded
 images	exclude-english	English word
 europe	exclude-english	developer 2026-11-01: English-form place name is leakage
 head	exclude-english	English word
@@ -164,6 +198,7 @@ canada	exclude-boilerplate	unaccented misspelling of Canadá
 photo	exclude-english	English word
 ago	exclude-abbreviation	developer 2026-11-01: abbreviations excluded for now
 great	exclude-english	English word
+xi	exclude-numeral	developer 2026-11-01: roman numerals excluded
 easy	exclude-english	English word
 room	exclude-english	English word
 md	exclude-abbreviation	developer 2026-11-01: abbreviations excluded for now
@@ -174,11 +209,13 @@ direct	exclude-english	English word
 young	exclude-english	English word
 search	exclude-english	English word
 start	exclude-english	English word
+xv	exclude-numeral	developer 2026-11-01: roman numerals excluded
 size	exclude-english	English word
 call	exclude-english	English word
 products	exclude-english	English word
 cup	exclude-english	English word
 share	exclude-english	English UI text
+vii	exclude-numeral	developer 2026-11-01: roman numerals excluded
 days	exclude-english	English word
 ghz	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 collection	exclude-english	English word
@@ -193,10 +230,12 @@ phone	exclude-english	English word
 first	exclude-english	English word
 uk	exclude-english	English abbreviation
 salon	exclude-boilerplate	unaccented misspelling of salón plus English brand text
+xii	exclude-numeral	developer 2026-11-01: roman numerals excluded
 from	exclude-english	English preposition
 sir	exclude-english	English word
 space	exclude-english	English word
 research	exclude-english	English word
+xiii	exclude-numeral	developer 2026-11-01: roman numerals excluded
 kmh	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 side	exclude-english	English word
 living	exclude-english	English word
@@ -210,6 +249,8 @@ prom	exclude-english	English word
 close	exclude-english	English word
 night	exclude-english	English word
 back	exclude-english	English word
+xiv	exclude-numeral	developer 2026-11-01: roman numerals excluded
+ix	exclude-numeral	developer 2026-11-01: roman numerals excluded
 down	exclude-english	English word
 field	exclude-english	English word
 experience	exclude-english	English word
@@ -235,6 +276,7 @@ mw	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbre
 form	exclude-english	English word
 building	exclude-english	English word
 is	exclude-english	English verb
+viii	exclude-numeral	developer 2026-11-01: roman numerals excluded
 frio	exclude-boilerplate	unaccented misspelling of frío
 board	exclude-english	English word
 double	exclude-english	English word
@@ -258,11 +300,13 @@ support	exclude-english	English word
 front	exclude-english	English word
 story	exclude-english	English word
 gr	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
+p	exclude-letter	developer 2026-11-01: single letters excluded
 code	exclude-english	English word
 daily	exclude-english	English word
 taxes	exclude-english	English word
 posted	exclude-english	English word
 race	exclude-english	English word
+li	exclude-numeral	developer 2026-11-01: roman numerals excluded
 deep	exclude-english	English word
 way	exclude-english	English word
 made	exclude-english	English word
@@ -273,6 +317,7 @@ european	exclude-english	English word
 hope	exclude-english	English word
 run	exclude-english	English word
 speed	exclude-english	English word
+xxx	exclude-numeral	developer 2026-11-01: roman numerals excluded
 trade	exclude-english	English word
 reading	exclude-english	English word
 computer	exclude-english	English word
@@ -393,6 +438,7 @@ title	exclude-english	English word
 safety	exclude-english	English word
 death	exclude-english	English word
 here	exclude-english	English word
+lx	exclude-numeral	developer 2026-11-01: roman numerals excluded
 very	exclude-english	English word
 nino	exclude-boilerplate	unaccented misspelling of niño
 if	exclude-english	English word
@@ -543,9 +589,11 @@ lower	exclude-english	English word
 account	exclude-english	English word
 blood	exclude-english	English word
 economico	exclude-boilerplate	unaccented económico
+lv	exclude-numeral	developer 2026-11-01: roman numerals excluded
 justice	exclude-english	English word
 number	exclude-english	English word
 april	exclude-english	English word
+ml	exclude-abbreviation	unit abbreviation (developer 2026-11-01: abbreviations excluded for now)
 retreat	exclude-english	English word
 better	exclude-english	English word
 self	exclude-english	English word
@@ -572,9 +620,11 @@ fotografia	exclude-boilerplate	unaccented fotografía
 june	exclude-english	English word
 related	exclude-english	English word
 planning	exclude-english	English word
+xxiii	exclude-numeral	developer 2026-11-01: roman numerals excluded
 bano	exclude-boilerplate	unaccented baño
 door	exclude-english	English word
 garantia	exclude-boilerplate	unaccented garantía
+cl	exclude-abbreviation	unit abbreviation (developer 2026-11-01: abbreviations excluded for now)
 kv	exclude-abbreviation	abbreviation or unit symbol (developer 2026-11-01: abbreviations excluded for now)
 yes	exclude-english	English word
 credito	exclude-boilerplate	unaccented crédito
@@ -583,6 +633,7 @@ rate	exclude-english	English word
 years	exclude-english	English word
 build	exclude-english	English word
 relacion	exclude-boilerplate	unaccented relación
+é	exclude-letter	developer 2026-11-01: single letters excluded
 rincon	exclude-boilerplate	unaccented rincón
 think	exclude-english	English word
 associate	exclude-english	English word
@@ -675,6 +726,7 @@ diseno	exclude-boilerplate	unaccented diseño
 know	exclude-english	English word
 passport	exclude-english	English word
 still	exclude-english	English word
+xc	exclude-numeral	developer 2026-11-01: roman numerals excluded
 amend	exclude-english	English word
 found	exclude-english	English word
 january	exclude-english	English word
@@ -834,6 +886,8 @@ numero	exclude-boilerplate	unaccented número
 organizacion	exclude-boilerplate	unaccented organización
 redireccion	exclude-boilerplate	unaccented redirección
 scene	exclude-english	English word
+xxii	exclude-numeral	developer 2026-11-01: roman numerals excluded
+xxiv	exclude-numeral	developer 2026-11-01: roman numerals excluded
 centrico	exclude-boilerplate	unaccented céntrico
 ever	exclude-english	English word
 february	exclude-english	English word
@@ -878,6 +932,7 @@ odds	exclude-english	English betting term
 pairs	exclude-english	English unit in listings
 targeting	exclude-english	English marketing jargon
 why	exclude-english	English word
+xxvi	exclude-numeral	developer 2026-11-01: roman numerals excluded
 acetaminophen	exclude-english	English drug name; Spanish paracetamol
 answer	exclude-english	English word
 around	exclude-english	English word
@@ -906,6 +961,7 @@ thread	exclude-english	English forum term
 topic	exclude-english	English template label
 truth	exclude-english	English word
 when	exclude-english	English word
+xxv	exclude-numeral	developer 2026-11-01: roman numerals excluded
 brief	exclude-english	English word
 fear	exclude-english	English word
 investigacion	exclude-boilerplate	unaccented investigación
@@ -942,6 +998,7 @@ always	exclude-english	English word
 based	exclude-english	English word
 but	exclude-english	English word
 carpinteria	exclude-boilerplate	unaccented carpintería
+dl	exclude-abbreviation	unit abbreviation (developer 2026-11-01: abbreviations excluded for now)
 eleccion	exclude-boilerplate	unaccented elección
 every	exclude-english	English word
 government	exclude-english	English word
@@ -970,6 +1027,7 @@ extremely	exclude-english	English word
 grander	exclude-fragment	developer 2026-11-01: lemmatiser artefact, excluded
 judge	exclude-english	English word
 levels	exclude-english	English word
+liv	exclude-numeral	developer 2026-11-01: roman numerals excluded
 opioid	exclude-fragment	developer 2026-11-01: lemmatiser artefact, excluded
 opt-out	exclude-english	English marketing term
 players	exclude-english	English word
@@ -1120,6 +1178,7 @@ sintoma	exclude-boilerplate	unaccented síntoma
 teoria	exclude-boilerplate	unaccented teoría
 type-c	exclude-english	English product label
 walk-in	exclude-english	English word
+xxviii	exclude-numeral	developer 2026-11-01: roman numerals excluded
 above	exclude-english	English word
 blended	exclude-english	English word
 coming	exclude-english	English word
@@ -1257,6 +1316,7 @@ sensacion	exclude-boilerplate	unaccented sensación
 universe	exclude-english	English word
 utilize	exclude-english	English word
 vaccine	exclude-english	English word
+xxxi	exclude-numeral	developer 2026-11-01: roman numerals excluded
 cacer	exclude-boilerplate	lemmatiser artefact of cacería
 camber	exclude-english	English word
 conditions	exclude-english	English word
@@ -1276,6 +1336,7 @@ sure	exclude-english	English word
 they	exclude-english	English word
 tick	exclude-english	English word
 unemployment	exclude-english	English word
+xxvii	exclude-numeral	developer 2026-11-01: roman numerals excluded
 also	exclude-english	English word
 artistico	exclude-boilerplate	unaccented artístico
 built-in	exclude-english	English word
@@ -1302,3 +1363,31 @@ sustain	exclude-english	English word
 techniques	exclude-english	English word
 valoracion	exclude-boilerplate	unaccented valoración
 acustico	exclude-boilerplate	unaccented acústico
+xxix	exclude-numeral	developer 2026-11-01: roman numerals excluded
+ñ	exclude-letter	developer 2026-11-01: single letters excluded
+ü	exclude-letter	developer 2026-11-01: single letters excluded
+r#hunt	exclude-letter	developer 2026-11-01: single letters excluded
+xxxii	exclude-numeral	developer 2026-11-01: roman numerals excluded
+xxxiii	exclude-numeral	developer 2026-11-01: roman numerals excluded
+xxxiv	exclude-numeral	developer 2026-11-01: roman numerals excluded
+ú	exclude-letter	developer 2026-11-01: single letters excluded
+q#hunt	exclude-letter	developer 2026-11-01: single letters excluded
+lxx	exclude-numeral	developer 2026-11-01: roman numerals excluded
+xxxvi	exclude-numeral	developer 2026-11-01: roman numerals excluded
+xxxvii	exclude-numeral	developer 2026-11-01: roman numerals excluded
+xli	exclude-numeral	developer 2026-11-01: roman numerals excluded
+lxi	exclude-numeral	developer 2026-11-01: roman numerals excluded
+xlviii	exclude-numeral	developer 2026-11-01: roman numerals excluded
+xxxix	exclude-numeral	developer 2026-11-01: roman numerals excluded
+r#tail	exclude-letter	developer 2026-11-01: single letters excluded
+xlv	exclude-numeral	developer 2026-11-01: roman numerals excluded
+xliii	exclude-numeral	developer 2026-11-01: roman numerals excluded
+xlvii	exclude-numeral	developer 2026-11-01: roman numerals excluded
+xxxv	exclude-numeral	developer 2026-11-01: roman numerals excluded
+xliv	exclude-numeral	developer 2026-11-01: roman numerals excluded
+xxxviii	exclude-numeral	developer 2026-11-01: roman numerals excluded
+j#Ma.c	exclude-letter	developer 2026-11-01: single letters excluded
+lii	exclude-numeral	developer 2026-11-01: roman numerals excluded
+lix	exclude-numeral	developer 2026-11-01: roman numerals excluded
+lvi	exclude-numeral	developer 2026-11-01: roman numerals excluded
+lxii	exclude-numeral	developer 2026-11-01: roman numerals excluded
