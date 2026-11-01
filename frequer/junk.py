@@ -29,7 +29,7 @@ accented lemma itself (*sabiduria* -> *sabiduría*), or the lemma of the accente
 It applies only when exactly one lemma owns the accented spellings, and never to a lemma the review file
 marks ``keep`` (two real words: *secretaria* / *secretaría*). ñ is a letter, not an accent.
 
-**Routing.** A lemma with 2+ flags is dropped. One with exactly 1 flag goes to review if it ranks within
+**Routing.** A lemma with 2+ flags is dropped (or, with ``review_multi_flag``, reviewed within ``review_top``). One with exactly 1 flag goes to review if it ranks within
 ``review_top``, and so does any lemma in the proper-noun middle band whatever its other flags. English
 acronyms and names collect correlated flags (foreign, shape, proper noun), so those flags are not independent
 evidence. The reviewed decision is committed in ``corpora/review/<code>.tsv`` (``lemma, decision,
@@ -303,7 +303,8 @@ class Routed:
     flags: tuple[tuple[str, str], ...]
 
 
-def route(ranked: Sequence[str], flags: Flags, review: Review | None, review_top: int) -> list[Routed]:
+def route(ranked: Sequence[str], flags: Flags, review: Review | None, review_top: int,
+          review_multi_flag: bool = False) -> list[Routed]:
     """The action for every ranked lemma (``ranked`` in rank order, after the exclusion list)."""
     decisions = review.decisions if review else {}
     # The lemma a reviewer merged something into was chosen by the review: it counts as reviewed.
@@ -321,7 +322,7 @@ def route(ranked: Sequence[str], flags: Flags, review: Review | None, review_top
             action = "pending-names"  # a place name: decided by the learnable-names list, kept until then
         elif decision == "keep" or (lemma in targets and decision != "drop"):
             action = "review-keep"
-        elif any(rule == "propn_band" for rule, _e in fl) or len(fl) == 1:
+        elif any(rule == "propn_band" for rule, _e in fl) or len(fl) == 1 or (review_multi_flag and fl):
             action = "pending" if kept < review_top else ("keep" if len(fl) == 1 else "drop")
         elif len(fl) >= 2:
             action = "drop"
