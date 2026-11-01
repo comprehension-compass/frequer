@@ -94,7 +94,7 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
             candidates, jc, total_docs=merged.docs, zipf=compare.zipf_lookup(), lang=cfg.code,
             kept=out.exclusions.kept if out.exclusions else frozenset(),
             propn_share=share if needs_case else None)
-        out.routed = junk.route([r.lemma for r in ranked], out.flags, out.review, jc.review_top)
+        out.routed = junk.route([r.lemma for r in ranked], out.flags, out.review, jc.review_top, jc.review_multi_flag)
         keep = {r.lemma for r in out.routed if r.action in ("keep", "review-keep", "pending", "pending-names")}
         ranked = [r for r in ranked if r.lemma in keep]
     out.ranked = ranked

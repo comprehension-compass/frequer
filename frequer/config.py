@@ -64,6 +64,9 @@ class JunkConfig(Strict):
     propn_keep: float = 0.2
     #: Single-flag lemmas within this many kept ranks go to review.
     review_top: int = 20_000
+    #: Within ``review_top``, send 2+-flag lemmas to review too instead of dropping them: the citation and shape
+    #: rules together also catch real words the lemmatiser cut short (*muelles* -> *muell*), which want a merge.
+    review_multi_flag: bool = False
 
 
 class LanguageConfig(Strict):
