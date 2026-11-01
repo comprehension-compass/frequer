@@ -141,14 +141,16 @@ def finished_shards(counts_dir: Path, ledger_path: Path) -> list[tuple[str, int,
 
 
 def due(shards: Sequence[tuple[str, int, float]], done: set[int]) -> list[tuple[int, list[str]]]:
-    """Checkpoints not yet taken, one after every finished shard: ``(cumulative tokens, shard names)``."""
+    """Checkpoints not yet taken, one after every finished shard beyond the last checkpoint:
+    ``(cumulative tokens, shard names)``, prefixes of the arrival order."""
     out: list[tuple[int, list[str]]] = []
     cum = 0
+    last = max(done, default=0)
     names: list[str] = []
     for name, tokens, _mtime in shards:
         cum += tokens
         names.append(name)
-        if cum not in done:
+        if cum > last:
             out.append((cum, list(names)))
     return out
 
