@@ -77,6 +77,13 @@ observed:
     scope: pilot
     shards: 7
     tokens: 1974498
+  - date: '2026-11-01'
+    documents: 129359
+    lines: 4948749
+    partial: false
+    scope: full
+    shards: 35
+    tokens: 102399277
   tatoeba-spa:
   - date: '2026-10-24'
     documents: 792
@@ -85,3 +92,10 @@ observed:
     scope: pilot
     shards: 1
     tokens: 269370
+  - date: '2026-11-01'
+    documents: 8862
+    lines: 441314
+    partial: false
+    scope: full
+    shards: 5
+    tokens: 3326967
