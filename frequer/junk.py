@@ -33,7 +33,8 @@ marks ``keep`` (two real words: *secretaria* / *secretaría*). ñ is a letter, n
 ``review_top``, and so does any lemma in the proper-noun middle band whatever its other flags. English
 acronyms and names collect correlated flags (foreign, shape, proper noun), so those flags are not independent
 evidence. The reviewed decision is committed in ``corpora/review/<code>.tsv`` (``lemma, decision,
-reason``; decision ``keep``, ``drop`` or ``merge:<lemma>``) and applied by the build. An unreviewed single flag
+reason``; decision ``keep``, ``drop`` or ``merge:<lemma>``) and applied by the build; a merge target counts as
+reviewed. An unreviewed single flag
 is kept and reported as pending. A ``merge:`` decision moves the counts like an accent merge.
 """
 
@@ -51,6 +52,7 @@ from typing import Any
 
 from frequer.config import MANIFEST_DIR, JunkConfig
 from frequer.counts import LemmaStats, Merged
+from frequer.snapshot import unit_kind
 
 RULES = ("diversity", "citation", "foreign", "shape", "propn_band")
 VOWELS = set("aeiouáéíóúüàèìòùâêîôûäëïöy")
@@ -169,9 +171,11 @@ def apply_merges(merged: Merged, merges: Sequence[Merge]) -> list[Merge]:
         if src is None or m.source == m.target:
             continue
         if dst is None:  # the right lemma was never a candidate: the counts move under its name
-            merged.lemmas[m.target] = src
+            merged.lemmas[m.target] = dst = src
         else:
             _merge_stats(dst, src)
+        if " " in m.target and not unit_kind(dst.kinds):
+            dst.kinds = Counter({"compound": dst.freq})  # a multi-word lemma is a compound (README §Units)
         del merged.lemmas[m.source]
         done.append(m)
     return done
@@ -302,6 +306,8 @@ class Routed:
 def route(ranked: Sequence[str], flags: Flags, review: Review | None, review_top: int) -> list[Routed]:
     """The action for every ranked lemma (``ranked`` in rank order, after the exclusion list)."""
     decisions = review.decisions if review else {}
+    # The lemma a reviewer merged something into was chosen by the review: it counts as reviewed.
+    targets = {t.lower() for t in review.merges().values()} | set(review.merges().values()) if review else set()
     out: list[Routed] = []
     kept = 0
     for rank, lemma in enumerate(ranked, start=1):
@@ -311,7 +317,7 @@ def route(ranked: Sequence[str], flags: Flags, review: Review | None, review_top
             action = "propn-drop"
         elif decision == "drop":
             action = "review-drop"
-        elif decision == "keep":
+        elif decision == "keep" or (lemma in targets and decision != "drop"):
             action = "review-keep"
         elif any(rule == "propn_band" for rule, _e in fl) or len(fl) == 1:
             action = "pending" if kept < review_top else ("keep" if len(fl) == 1 else "drop")
