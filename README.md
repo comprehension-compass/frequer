@@ -251,6 +251,14 @@ records the file's sha256 and what it dropped from the top N, and `report.md` li
 list was reviewed twice independently against the developer's criterion (an English word goes, an
 established loan stays), with disagreements adjudicated (`full/es/exclusions.md`).
 
+**Proper nouns** (`frequer/propn.py`, every language; developer direction 2026-11-01). A lemma whose majority
+tag is PROPN is dropped unless its case-folded text is in the pinned Honeyeater checkout's
+`reference/learnable-names/<code>.json`. That file holds CLDR territories, ISO 639-1 language names and
+exemplar cities, the list the app's default writer uses (`backend/lexicon/learnable_names.py`). The app
+already default-ignores the rest, so the rule matches what the app does. The header's `proper_nouns` key
+records the file's sha256 and what the rule dropped and kept, and `report.md` lists them. The exclusion
+list is applied first, then this rule; reported ranks are the ones before either.
+
 ### The review report
 
 `report.md` per build:
