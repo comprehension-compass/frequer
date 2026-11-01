@@ -11,7 +11,7 @@ from frequer import junk
 from frequer.config import Manifest
 from frequer.filters import Filtered
 
-KEPT = ("keep", "review-keep", "pending")
+KEPT = ("keep", "review-keep", "pending", "pending-names")
 
 
 def window(flt: Filtered, top_n: int) -> list[junk.Routed]:
