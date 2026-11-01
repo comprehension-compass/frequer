@@ -34,6 +34,41 @@
     }
    },
    "passes": 0
+  },
+  {
+   "tokens": 3228275,
+   "shards": 2,
+   "sources": {
+    "hplt-v2-de": 3228275
+   },
+   "mix": "web only",
+   "bands": {
+    "5000": {
+     "change": 0.0644,
+     "median_shift": 112.0,
+     "freq_at_n": 49,
+     "split_half": 0.1542
+    },
+    "10000": {
+     "change": 0.1015,
+     "median_shift": 297,
+     "freq_at_n": 20,
+     "split_half": 0.2349
+    },
+    "20000": {
+     "change": 0.14575,
+     "median_shift": 885,
+     "freq_at_n": 8,
+     "split_half": 0.33545
+    },
+    "50000": {
+     "change": 0.21258,
+     "median_shift": 3391,
+     "freq_at_n": 3,
+     "split_half": 0.50182
+    }
+   },
+   "passes": 0
   }
  ],
  "decision": "continue",
