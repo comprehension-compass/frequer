@@ -1,0 +1,41 @@
+{
+ "checkpoints": [
+  {
+   "tokens": 1858929,
+   "shards": 1,
+   "sources": {
+    "hplt-v2-de": 1858929
+   },
+   "mix": "web only",
+   "bands": {
+    "5000": {
+     "change": null,
+     "median_shift": null,
+     "freq_at_n": 28,
+     "split_half": null
+    },
+    "10000": {
+     "change": null,
+     "median_shift": null,
+     "freq_at_n": 12,
+     "split_half": null
+    },
+    "20000": {
+     "change": null,
+     "median_shift": null,
+     "freq_at_n": 5,
+     "split_half": null
+    },
+    "50000": {
+     "change": null,
+     "median_shift": null,
+     "freq_at_n": 2,
+     "split_half": null
+    }
+   },
+   "passes": 0
+  }
+ ],
+ "decision": "continue",
+ "stopped_at": null
+}
