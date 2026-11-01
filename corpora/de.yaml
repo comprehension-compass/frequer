@@ -52,6 +52,40 @@ sources:
     # The planned 185M per URL (~285M tokens, ~86 core-hours: the backend still runs the full
     # de_core_news_sm parse in segment) did not fit the 2026-11 deadline (2026-11-01 full run).
     max_chars_per_url: 185000000
+  - name: hplt-v2-de-deep
+    kind: hplt
+    licence: CC0-1.0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/
+    notes: >-
+      The same 17 HPLT v2.0 cleaned shards (CC0), read deeper: each URL's first
+      185M raw characters (counted as hplt-v2-de) are skipped by the same stopping
+      test, so this source starts at exactly the next document and no document is
+      counted twice. Added 2026-11-01 (developer-approved extension to ~450M tokens:
+      the map has no further deu_Latn URLs). Same URL order, so each URL stays with
+      its part (k % N) in a distributed run.
+    segment_lang: deu_Latn
+    urls:
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/10.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/11.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/12.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/13.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/14.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/15.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/16.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/17.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/1.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/2.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/3.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/4.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/5.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/6.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/7.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/8.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/9.jsonl.zst
+    shard_chars: 20000000
+    skip_chars: 185000000
+    # 17 URLs x 110M raw characters at ~11 raw characters per counted token ~ 168M tokens (~458M in all).
+    max_chars_per_url: 110000000
   - name: tatoeba-deu
     first: true  # counted before the web: every checkpoint holds it whole
     kind: tsv

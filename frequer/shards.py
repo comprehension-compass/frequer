@@ -86,6 +86,8 @@ def config_hash(source: SourceConfig, hygiene: Hygiene, parts: int, lang: str, v
                            source.column, source.segment_lang, hygiene.model_dump(), parts]
     if variant:
         items.append(variant)
+    if source.skip_chars:
+        items.append(f"skip_chars={source.skip_chars}")
     payload = json.dumps(items, sort_keys=True)
     return hashlib.sha256(payload.encode()).hexdigest()[:16]
 
@@ -266,6 +268,7 @@ def produce_shards(
                             mode=mode, skip=limits.skip)
         docs = iter(iter_docs(source, url_index, stream, limits.stride))
         raw_total = 0
+        skipped = 0
         closed_by = "eof"
         while True:
             t0 = time.perf_counter()
@@ -273,6 +276,9 @@ def produce_shards(
             cutter.fetch_s += time.perf_counter() - t0
             if doc is None:
                 break
+            if skipped < source.skip_chars:  # read by an earlier source (its cap test: stop once >= cap)
+                skipped += sum(len(line) for line in doc.lines)
+                continue
             raw_total += sum(len(line) for line in doc.lines)
             cutter.add(doc)
             if cutter.shard_raw >= source.shard_chars:

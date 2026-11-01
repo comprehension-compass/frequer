@@ -96,6 +96,10 @@ class SourceConfig(Strict):
     #: Full run: keep every ``stride``-th document (pseudo-document for TSV), so a cap
     #: spreads over the whole file instead of its first crawl.
     stride: int = 1
+    #: Skip each URL's documents until this many raw characters have gone by (a deeper pass over files
+    #: an earlier source read to ``max_chars_per_url``: the same stopping test, so it starts at exactly
+    #: the next document; README §Manifests).
+    skip_chars: int = 0
     #: Weight of this source's frequency in ranking scores (the blend knob).
     weight: float = 1.0
     hygiene: Hygiene | None = None

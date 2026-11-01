@@ -423,6 +423,12 @@ checked against `reference/licenses/{es,de,ja}.md`:
 | HPLT v2 `deu_Latn` / `jpn_Jpan` cleaned | CC0 | none |
 | Tatoeba (spa, deu, jpn) | CC BY 2.0 FR (subset CC0) | attribute Tatoeba; recorded in each language's licence manifest |
 
+A source can read files an earlier source already read to its cap, deeper: `skip_chars` skips each URL's
+documents by the same stopping test (`hplt-v2-de-deep` starts at exactly the document after `hplt-v2-de`'s
+185M-character cap), so no document is counted twice and the earlier source's shards keep their names. Keep the
+URL order of the earlier source so each URL stays with its part in a distributed run. A part that reran after
+such an extension withdraws its `DONE-p<i>` marker when its `ship` starts.
+
 Corpus text is never committed (`data/` is ignored).
 
 ## Tests
