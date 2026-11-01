@@ -10,6 +10,8 @@ One row per counted shard: the shards counted so far, in the order they finished
 | 2,594,302 | tatoeba-spa 2,594,302 | partial (lacks paracrawl-en-es, tatoeba-spa) | 3.8% | 67 | 23 | 14.5% | 6.3% | 188 | 7 | 21.3% | 10.7% | 583 | 2 | 32.0% | - | 2,126 | - | - | 0/3 |
 | 3,326,967 | tatoeba-spa 3,326,967 | partial (lacks paracrawl-en-es) | 4.7% | 86 | 31 | 14.5% | 6.6% | 234 | 10 | 21.3% | 9.9% | 651 | 2 | 32.0% | - | 2,874 | - | - | 0/3 |
 | 6,254,960 | paracrawl-en-es 2,927,993, tatoeba-spa 3,326,967 | full | 18.5% | 570 | 79 | 14.5% | 19.2% | 1,084 | 24 | 21.3% | 22.1% | 2,047 | 7 | 32.0% | - | 4,786 | 1 | - | 0/3 |
+| 9,178,731 | paracrawl-en-es 5,851,764, tatoeba-spa 3,326,967 | full | 5.2% | 206 | 121 | 5.8% | 5.6% | 354 | 37 | 9.0% | 7.1% | 693 | 11 | 15.7% | 14.8% | 2,004 | 2 | 35.4% | 0/3 |
+| 12,101,309 | paracrawl-en-es 8,774,342, tatoeba-spa 3,326,967 | full | 2.8% | 100 | 162 | 5.8% | 3.2% | 179 | 50 | 9.0% | 4.4% | 387 | 14 | 15.7% | 9.7% | 1,368 | 3 | 35.4% | 0/3 |
 
 Decision: **continue**.
 
