@@ -245,15 +245,19 @@ NAME_CLASSES = ("person", "organization")
 
 def dictionary_verdict(entries: Sequence[str], tagged_propn: bool) -> tuple[str, str] | None:
     """``(verdict, evidence)`` from a lemma's dictionary entries: ``name`` (drop), ``place`` (the learnable-names
-    list decides), ``review`` (one flag), or None. Only a lemma whose every entry is a proper noun is a name or a
-    place; a PROPN tag the dictionary does not back (common-noun entries, or none) is a review flag, not a drop."""
+    list decides), ``review`` (one flag), or None. Only a lemma whose every entry is a proper noun is a name (and
+    then only if tagged PROPN) or a place; a PROPN tag the dictionary does not back (common-noun entries, or none) is a review flag, not a drop."""
     kinds = set(entries)
     shown = "/".join(sorted(kinds)) or "no entry"
     if kinds and "common" not in kinds:
         if "place" in kinds:
             return "place", f"dictionary: every entry a proper noun, a place among them ({shown})"
         if kinds & set(NAME_CLASSES):
-            return "name", f"dictionary: every entry a proper noun ({shown})"
+            # Only with the tagger's agreement: the dictionary lacks words it builds from parts (お花 = お + 花,
+            # 数人 = 数 + 人), so looked up whole they show only their name entry.
+            if tagged_propn:
+                return "name", f"dictionary: every entry a proper noun ({shown})"
+            return "review", f"dictionary: every entry a name ({shown}), but not tagged PROPN"
         return "review", f"dictionary: proper noun, not a person or place ({shown})"
     if not tagged_propn:
         return None
