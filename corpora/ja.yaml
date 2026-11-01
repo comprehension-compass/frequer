@@ -98,6 +98,13 @@ observed:
     scope: pilot
     shards: 4
     tokens: 1521647
+  - date: '2026-11-01'
+    documents: 934362
+    lines: 36190578
+    partial: false
+    scope: full
+    shards: 104
+    tokens: 687344277
   tatoeba-jpn:
   - date: '2026-10-24'
     documents: 535
@@ -106,3 +113,10 @@ observed:
     scope: pilot
     shards: 1
     tokens: 283088
+  - date: '2026-11-01'
+    documents: 4979
+    lines: 248303
+    partial: false
+    scope: full
+    shards: 1
+    tokens: 2331720

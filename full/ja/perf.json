@@ -1,0 +1,121 @@
+{
+ "language": "ja",
+ "scope": "full",
+ "tokens": 689675997,
+ "documents": 939341,
+ "lemma_types_ranked": 200000,
+ "snapshot_entries": 50000,
+ "stages": [
+  {
+   "stage": "fetch_decode",
+   "what": "download, decompress, parse (main process)",
+   "core_seconds": 552.39,
+   "tokens_per_second": 1248521
+  },
+  {
+   "stage": "hygiene",
+   "what": "length/alpha/GAP/dedup filters (main process)",
+   "core_seconds": 1234.92,
+   "tokens_per_second": 558477
+  },
+  {
+   "stage": "langid",
+   "what": "py3langid (main process)",
+   "core_seconds": 5433.15,
+   "tokens_per_second": 126938
+  },
+  {
+   "stage": "read_shard",
+   "what": "read the cleaned shard file (worker)",
+   "core_seconds": 101.95,
+   "tokens_per_second": 6765022
+  },
+  {
+   "stage": "segment",
+   "what": "backend sentence segmentation (worker; German: the full parse)",
+   "core_seconds": 297.65,
+   "tokens_per_second": 2317036
+  },
+  {
+   "stage": "sentence_stage",
+   "what": "analyse_sentence minus the release: tokenize, candidates, numbers, unit merge (worker)",
+   "core_seconds": 363131.18,
+   "tokens_per_second": 1899
+  },
+  {
+   "stage": "lemma_step",
+   "what": "the release's lemma + UPOS (model on every sentence) (worker)",
+   "core_seconds": 12392.15,
+   "tokens_per_second": 55654
+  },
+  {
+   "stage": "units",
+   "what": "the release's unit step: list candidates, spancat, parts list, splitter (worker)",
+   "core_seconds": 45806.45,
+   "tokens_per_second": 15056
+  },
+  {
+   "stage": "count",
+   "what": "tally lemmas, forms, POS, readings, units (worker)",
+   "core_seconds": 5403.65,
+   "tokens_per_second": 127632
+  },
+  {
+   "stage": "cooc",
+   "what": "co-occurrence n-grams, pairs, marginals (worker)",
+   "core_seconds": 1789.46,
+   "tokens_per_second": 385411
+  },
+  {
+   "stage": "cooc_write",
+   "what": "write the sorted co-occurrence file (worker)",
+   "core_seconds": 639.41,
+   "tokens_per_second": 1078615
+  },
+  {
+   "stage": "worker_total",
+   "what": "everything a worker does per shard",
+   "core_seconds": 431868.14,
+   "tokens_per_second": 1597
+  }
+ ],
+ "build_seconds": {
+  "merge": 394.87,
+  "rank": 7.13,
+  "snapshot": 3.49,
+  "cooc": 371.11,
+  "report": 147.94
+ },
+ "worker_peak_rss_mb": 2863,
+ "build_process_peak_rss_mb": 1929,
+ "host_tokens": 57931371,
+ "occurrence_kinds": {
+  "word": 631960680,
+  "compound": 14855265,
+  "phrase": 13060836,
+  "construction": 20197627,
+  "compound1": 9601589
+ },
+ "uncounted_occurrences": 20768772,
+ "sentences": 51662281,
+ "units_found": 10831,
+ "cooc": {
+  "merged_rows_at_min_count": 6924264,
+  "scored": 6389686,
+  "by_kind": {
+   "n2": 1653030,
+   "n3": 2673997,
+   "n4": 2062659
+  },
+  "shipped_rows": 400000,
+  "table_bytes": 9232687,
+  "queue_rows": 2000
+ },
+ "checks": {
+  "form_ratio": 3689,
+  "plural": 0,
+  "consistency": 152,
+  "short": 836,
+  "case": 0
+ }
+}
