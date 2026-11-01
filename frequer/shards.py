@@ -35,6 +35,8 @@ class Limits:
     url_indices: tuple[int, ...] | None = None
     #: Keep every ``stride``-th document (see :func:`frequer.sources.iter_docs`).
     stride: int = 1
+    #: Counts file names finished elsewhere (a distributed run's coordinator): cut past, never counted.
+    skip: frozenset[str] = frozenset()
 
 
 @dataclass(frozen=True)
@@ -129,8 +131,10 @@ class _UrlCutter:
     """State of cutting one URL's documents into shards."""
 
     def __init__(self, *, lang: str, source: SourceConfig, hygiene: Hygiene, parts: int, url_index: int,
-                 work_dir: Path, counts_dir: Path, chash: str, classify: Classifier, mode: CutMode) -> None:
+                 work_dir: Path, counts_dir: Path, chash: str, classify: Classifier, mode: CutMode,
+                 skip: frozenset[str] = frozenset()) -> None:
         self.lang, self.source, self.hygiene, self.parts = lang, source, hygiene, parts
+        self.skip = skip
         self.url_index, self.work_dir, self.counts_dir, self.chash = url_index, work_dir, counts_dir, chash
         self.mode = mode
         self.timed = _Timed(classify)
@@ -152,10 +156,13 @@ class _UrlCutter:
     def target(self) -> Path:
         return done_path(self.mode, self.counts_dir, self.source.name, self.url_index, self.shard_index)
 
+    def done(self) -> bool:
+        return self.target.exists() or self.target.name in self.skip
+
     def add(self, doc: RawDoc) -> None:
         """Clean one document into the open shard (or just count its size when the shard is done)."""
         self.shard_raw += sum(len(line) for line in doc.lines)
-        if self.target.exists():
+        if self.done():
             return
         t0 = time.perf_counter()
         part = self.mode.tag(doc) if self.mode.tag else part_of(doc.doc_id, self.parts)
@@ -176,7 +183,7 @@ class _UrlCutter:
     def close(self, reason: str) -> ShardJob | None:
         """End the open shard; returns a job unless its counts already exist."""
         job: ShardJob | None = None
-        if not self.target.exists():
+        if not self.done():
             path = self.work_dir / f"{self.source.name}.{self.url_index:02d}.{self.shard_index:05d}.tsv.gz"
             if self.mode.keep_dir:
                 path = self.target
@@ -208,14 +215,17 @@ def done_path(mode: CutMode, counts_dir: Path, source: str, url_index: int, shar
 
 
 def _skippable(marker: Path, chash: str, cap: int | None, source: str, url_index: int,
-               counts_dir: Path, mode: CutMode) -> bool:
+               counts_dir: Path, mode: CutMode, skip: frozenset[str] = frozenset()) -> bool:
     """True when this URL was fully cut under the same configuration and every shard is counted."""
     if not marker.exists():
         return False
     info = json.loads(marker.read_text(encoding="utf-8"))
-    if info["config"] == chash and info["cap"] == cap and all(
-        done_path(mode, counts_dir, source, url_index, k).exists() for k in range(info["shards"])
-    ):
+
+    def finished(k: int) -> bool:
+        path = done_path(mode, counts_dir, source, url_index, k)
+        return path.exists() or path.name in skip
+
+    if info["config"] == chash and info["cap"] == cap and all(finished(k) for k in range(info["shards"])):
         return True
     if info["config"] == chash and info["closed_by"] == "cap" and info["shards"]:
         # The last shard was cut short by a cap that has since changed: recount it.
@@ -247,13 +257,13 @@ def produce_shards(
         if limits.url_indices is not None and url_index not in limits.url_indices:
             continue
         marker = marker_path(work_dir, source.name, url_index)
-        if _skippable(marker, chash, cap, source.name, url_index, counts_dir, mode):
+        if _skippable(marker, chash, cap, source.name, url_index, counts_dir, mode, limits.skip):
             continue
         raw = open_raw(url)
         stream = decompress(raw, url)
         cutter = _UrlCutter(lang=lang, source=source, hygiene=hygiene, parts=parts, url_index=url_index,
                             work_dir=work_dir, counts_dir=counts_dir, chash=chash, classify=classify,
-                            mode=mode)
+                            mode=mode, skip=limits.skip)
         docs = iter(iter_docs(source, url_index, stream, limits.stride))
         raw_total = 0
         closed_by = "eof"

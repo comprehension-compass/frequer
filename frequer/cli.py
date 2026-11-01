@@ -56,6 +56,8 @@ def main(argv: list[str] | None = None) -> None:
     c.add_argument("--out-dir", type=Path, help="where checkpoints go (default out/<lang>; give build the same)")
     c.add_argument("--part", help="i/N: count only part i of N (README §Distributed counting)")
     c.add_argument("--no-cooc", action="store_true", help="skip the co-occurrence pass (remote parts)")
+    c.add_argument("--skip-file", type=Path,
+                   help="counts file names finished elsewhere, one per line: cut past, never counted (remote parts)")
     ck = sub.add_parser("checkpoint", help="take the convergence checkpoints that are due; print the decision")
     _common(ck)
     ck.add_argument("--out-dir", type=Path)
@@ -123,12 +125,16 @@ def main(argv: list[str] | None = None) -> None:
         print(json.dumps(stats, indent=1))
     elif args.cmd == "count":
         dirs = RunDirs(args.data_dir / args.lang)
+        skip = frozenset(
+            line.strip() for line in args.skip_file.read_text(encoding="utf-8").splitlines()
+            if line.strip() and not line.startswith("#")
+        ) if args.skip_file else frozenset()
         if args.no_cooc:
             manifest = manifest.model_copy(update={"cooc": manifest.cooc.model_copy(update={"enabled": False})})
         summary = count_language(
             manifest, dirs, part=parse_part(args.part) if args.part else None, workers=args.workers, shard_chars=args.shard_chars, sources=names,
             limits=lambda n: Limits(max_chars=args.max_chars, max_urls=args.max_urls,
-                                    stride=manifest.source(n).stride),
+                                    stride=manifest.source(n).stride, skip=skip),
             lemma_dir=args.lemma_dir, wheel=args.wheel,
             checkpoints_out=(args.out_dir or Path("out") / args.lang) if args.checkpoints else None,
         )

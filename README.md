@@ -178,7 +178,9 @@ frequer manifests (the merge refuses shards whose runtime or hygiene configurati
   sha256), counts with `--no-cooc`, and runs `frequer ship`, which pushes each finished counts file (a few MB;
   never corpus text or credentials) to the part's own branch `<lang>-shards-p<i>` under `shards/<lang>/`,
   marks the part `DONE-p<i>` when its pass completes, and stops the count when the branch `<lang>-shards-stop`
-  appears. Rerunning the script resumes.
+  appears. Rerunning the script resumes. If the setup branch holds `skip/<lang>.txt` (counts file names the
+  coordinator finished before the run was distributed), the part passes it as `count --skip-file`: those shards
+  are cut past (so later shard boundaries stay the same) and never counted again.
 * **The coordinator** runs its own part (`count --part 0/N`, with co-occurrence) and `frequer coordinate <lang>
   --parts N --repo <scratch clone> --out-dir out/<lang> --local-pid <its count's pid>`: it fetches every
   `<lang>-shards-p*` branch, copies new counts files into its counts directory, takes the checkpoints, and on
