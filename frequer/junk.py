@@ -365,14 +365,14 @@ def route(ranked: Sequence[str], flags: Flags, review: Review | None, review_top
     for rank, lemma in enumerate(ranked, start=1):
         fl = tuple(flags.flags.get(lemma, ()))
         decision = decisions.get(lemma, ("", ""))[0]
-        if lemma in flags.propn_drop:
-            action = "propn-drop"
-        elif decision == "drop":
+        if decision == "drop":
             action = "review-drop"
         elif decision == "pending-names" or (lemma in flags.propn_place and not decision):
             action = "pending-names"  # a place name: decided by the learnable-names list, kept until then
         elif decision == "keep" or (lemma in targets and decision != "drop"):
-            action = "review-keep"
+            action = "review-keep"  # a reviewed decision outranks the automatic proper-noun drop
+        elif lemma in flags.propn_drop:
+            action = "propn-drop"
         elif any(rule == "propn_band" for rule, _e in fl) or len(fl) == 1 or (review_multi_flag and fl):
             action = "pending" if kept < review_top else ("keep" if len(fl) == 1 else "drop")
         elif len(fl) >= 2:
