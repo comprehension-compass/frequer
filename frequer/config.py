@@ -37,6 +37,35 @@ class Hygiene(Strict):
     langid_min_prob: float = 0.5
 
 
+class JunkConfig(Strict):
+    """The junk-filter heuristics (``frequer/junk.py``); a rule runs only when listed in ``rules``."""
+
+    rules: list[Literal["diversity", "citation", "foreign", "shape", "propn_band"]] = Field(default_factory=list)
+    #: Merge an unaccented spelling into the lemma owning its accented spelling when that is this many
+    #: times as frequent (None: no accent merges; languages without accents leave it off).
+    accent_ratio: float | None = None
+    #: Flag a lemma in fewer than this share of the documents its frequency would reach at random.
+    diversity_max_clumping: float = 0.6
+    diversity_min_freq: int = 20
+    diversity_min_band: int = 200
+    citation_max_share: float = 0.005
+    #: A verb-shaped citation form (regex) is exempt from the citation rule: an infinitive can be rarer
+    #: than the inflected forms.
+    verb_citation_pattern: str = ""
+    foreign_en_min: float = 3.0
+    foreign_margin: float = 1.0
+    #: Two final consonants a native word may end with (the shape rule's fragment test).
+    allowed_final_pairs: list[str] = Field(default_factory=list)
+    #: Word-final letters that, after a consonant, suggest a fragment cut mid-word (the shape rule).
+    fragment_finals: str = ""
+    max_length: int = 22
+    short_zipf_min: float = 3.5
+    propn_drop: float = 0.9
+    propn_keep: float = 0.2
+    #: Single-flag lemmas within this many kept ranks go to review.
+    review_top: int = 20_000
+
+
 class LanguageConfig(Strict):
     code: str
     #: Honeyeater backend registry id (``nlp.registry.create``).
@@ -60,6 +89,13 @@ class LanguageConfig(Strict):
     fallback: Literal["spacy-list", "backend"] | None = None
     top_n: int = 50_000
     forms_kept: int = 5
+    #: The snapshot's proper-noun rule (``frequer/propn.py``): ``none`` keeps every lemma (de, ja: German
+    #: capitalises every noun and Japanese has no case, so neither can use the case test);
+    #: ``capitalised_mid_sentence`` drops a PROPN-majority lemma that is not a learnable name when at least
+    #: ``propn_capitalised_min`` of its mid-sentence occurrences are capitalised (``corpora/case/<code>.tsv.gz``).
+    propn_rule: Literal["none", "capitalised_mid_sentence"] = "none"
+    propn_capitalised_min: float = 0.5
+    junk: JunkConfig = Field(default_factory=JunkConfig)
 
 
 class ChecksConfig(Strict):
@@ -100,12 +136,26 @@ class SourceConfig(Strict):
     #: an earlier source read to ``max_chars_per_url``: the same stopping test, so it starts at exactly
     #: the next document; README §Manifests).
     skip_chars: int = 0
+    #: A single-URL source read at a stride can be read several times at different offsets (pseudo-documents
+    #: ``n`` with ``n % stride == offset``): each offset is a **virtual URL** (index k reads offset
+    #: ``stride_offsets[k]``), so the passes never overlap, shard names stay distinct, and ``count --part i/N``
+    #: splits the offsets between machines. Index 0 must be offset 0, the pass a plain stride reads.
+    stride_offsets: list[int] | None = None
     #: Weight of this source's frequency in ranking scores (the blend knob).
     weight: float = 1.0
     hygiene: Hygiene | None = None
     #: Count this (small) source before the others, so every convergence checkpoint holds it
     #: whole and a run that stops early never leaves it out (the Tatoeba top-ups).
     first: bool = False
+
+    def virtual_urls(self) -> list[tuple[str, int]]:
+        """``(url, stride offset)`` per URL index: the URLs at offset 0, or one URL at each ``stride_offsets``."""
+        if not self.stride_offsets:
+            return [(u, 0) for u in self.urls]
+        if len(self.urls) != 1 or self.stride_offsets[0] != 0 or len(set(self.stride_offsets)) != len(
+                self.stride_offsets) or not all(0 <= o < self.stride for o in self.stride_offsets):
+            raise ValueError(f"{self.name}: stride_offsets needs one URL, distinct offsets in [0, stride), 0 first")
+        return [(self.urls[0], o) for o in self.stride_offsets]
 
 
 class PilotConfig(Strict):

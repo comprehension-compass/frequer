@@ -194,6 +194,15 @@ Shards that arrive together (one fetch from several parts) make one checkpoint, 
 can cover more than one shard. Split-half deals that prefix alternately into the two halves within each source,
 in arrival order, exactly as on one machine.
 
+**One stream, several parts.** A single-URL source read at a stride (ParaCrawl) can list `stride_offsets`:
+each offset is a virtual URL (index k reads the pseudo-documents `n` with `n % stride == stride_offsets[k]`), so
+`--part i/N` splits the offsets between machines. The passes never overlap, and offset 0 is the pass a plain
+stride reads, so shards already counted keep their names. The es extension lists offsets 0-9.
+
+**Convergence on the filtered list.** Checkpoints rank through `frequer/filters.py`, the exclusion list and
+the language's proper-noun rule, the same step `build` applies. The split-half rule therefore judges the list
+the snapshot will hold.
+
 **Co-occurrence** comes from the coordinator's part only: the per-shard files are tens of MB, too big to ship
 through git. The association table is self-consistent over what it counts (its marginals and `N` come from
 the same files); its header's totals say how much that was.
@@ -272,6 +281,49 @@ manifest scales that source's frequency in the score (the Tatoeba blend knob); t
 **Caution when ranking by anything but frequency:** Honeyeater's `lemma_loader._reconcile_overrides`
 re-sorts entries by their summed `frequency` whenever an override file is non-empty, which would
 silently undo a dispersion ranking. See the report's note in the pilot summary.
+
+### Exclusions
+
+`corpora/exclude/<lang>.tsv` (`frequer/exclude.py`) is a reviewed list of lemmas the snapshot leaves
+out: English leakage and website boilerplate that the counts cannot tell from Spanish. Each row is
+`lemma, class, reason`. A row with class `exclude-*` drops that snapshot key from the ranking, and
+every lower rank moves up. A unit headword whose member words are all excluded drops too, unless the
+file lists it with a `keep-*` class (*low cost* stays although *low* and *cost* go). The counts are
+untouched, so a change to the list only needs `build`, not a recount. The header's `exclusions` key
+records the file's sha256 and what it dropped from the top N, and `report.md` lists them. The Spanish
+list was reviewed twice independently against the developer's criterion (an English word goes, an
+established loan stays), with disagreements adjudicated (`full/es/exclusions.md`).
+
+**Proper nouns** (`frequer/propn.py`; per language, `language.propn_rule`; developer direction
+2026-11-01). With `capitalised_mid_sentence` (es), a PROPN-majority lemma is dropped when at least
+`propn_capitalised_min` (0.5) of its occurrences in running text are capitalised. Learnable names always stay:
+those in the pinned Honeyeater checkout's `reference/learnable-names/<code>.json` (CLDR territories, ISO 639-1
+language names, exemplar cities; the app's default-writer list). The counts keep surface forms with case but
+not position, so `corpora/case/<code>.tsv.gz` gives each capitalised form's sentence-initial, running-text and
+title-case-line occurrences, re-read from the counted sample by `corpora/case/tally_<code>.py` (tokenizer only).
+de and ja use `none`: German capitalises every noun and Japanese has no case. The header's `proper_nouns` key
+records both files' sha256 and what the rule dropped and kept, and `report.md` lists them. The exclusion list
+is applied first; reported ranks are the ones before either filter.
+
+### Junk-filter heuristics
+
+`frequer/junk.py` (per language, `language.junk`; every rule off by default). It works from the existing
+counts, so a change never needs a recount. Rules (each writes a flag with its evidence):
+* `diversity`: the lemma reaches under 0.6 of the documents its frequency would reach at random;
+* `citation`: its spelling is (almost) never written as a word under any lemma;
+* `foreign`: wordfreq English well above the language's own;
+* `shape`: hyphen, digit, whole-word doubling, a cut-off ending, a length extreme;
+* `propn_band`: proper nouns by running-text capitalisation, >= 90 % dropped and <= 20 % kept, the middle
+  band flagged.
+
+`accent_ratio` merges an unaccented spelling's counts into the lemma owning its accented spelling, when that
+is at least that many times as frequent and owned by exactly one lemma (ñ is a letter, not an accent).
+Routing: 2+ flags are dropped. A single flag, or any flag in the proper-noun middle band, within `review_top`
+goes to review, and the decision is committed in `corpora/review/<code>.tsv` (`keep`, `drop`,
+`merge:<lemma>`; a `keep` also vetoes an accent merge). The build applies the decisions, writes
+`<lang>.flags.tsv`, and reports per-rule hits, their overlap, the merges, a sample of the 2-flag drops and
+what is still pending. Merges, the exclusion list, the proper-noun rule and these rules all run in
+`frequer/filters.py`, so the convergence checkpoints judge the same list.
 
 ### The review report
 

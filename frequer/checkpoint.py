@@ -7,11 +7,11 @@ from collections.abc import Callable
 from pathlib import Path
 from typing import Any
 
-from frequer import converge, snapshot
+from frequer import converge, filters, snapshot
 from frequer.config import Manifest
 from frequer.converge import BANDS, KEEP, Ranked
 from frequer.merge import MergeResult, merge_counts
-from frequer.ranking import Row, build_rows, rank_rows
+from frequer.ranking import Row
 
 CANDIDATE_FACTOR = 4
 
@@ -51,7 +51,8 @@ def mix_of(manifest: Manifest, work_dir: Path, names: list[str]) -> str:
 def _rank(manifest: Manifest, counts_dir: Path, names: list[str]) -> tuple[MergeResult, list[Row]]:
     result = merge_counts(counts_dir, manifest.parts, manifest.language.top_n * CANDIDATE_FACTOR, only=set(names))
     weights = {s.name: s.weight for s in manifest.sources}
-    return result, rank_rows(build_rows(result.merged, weights), "frequency")
+    # Convergence is judged on the list the snapshot holds: merges and every filter applied.
+    return result, filters.apply(manifest, result.merged, weights).ranked
 
 
 def _lemmas(manifest: Manifest, counts_dir: Path, names: list[str]) -> list[str]:
