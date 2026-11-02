@@ -60,15 +60,26 @@ undecided unflagged keep in 39,900-40,500 (439). Then two developer rulings:
   The same round also dropped names under the usual rules (一騎, 一徹, 万里, 五味, 六花, 一花, 三蔵, and 一句) and merged
   idiom halves (八苦 → 四苦八苦, 一長 / 一短 → 一長一短, 一石 → 一石二鳥, 五重 → 五重塔). 何 / 数 / 幾 + counter forms
   (何回, 数時間: 77 in the window) are not numerals and were left alone: a question for the developer.
-- Rounds 18-19 reviewed what the drops pulled to the edge. No lemma within the cut is pending.
+- Rounds 18-19 reviewed what the drops pulled to the edge.
+- **何 / 数 / 幾 + counter forms stay** (developer, 2026-11-02): not numerals; question and approximate-quantity
+  words a learner learns.
+- **Broken inflecting lemmas** (the fragments-are-merged ruling; found by the Honeyeater reading repair): round 20
+  reviewed the 73 verb, adjective and auxiliary keys whose spelling is not a Sudachi dictionary form. Merged (30):
+  ご覧る → ご覧, 受付る → 受付, 当たっ → 当たる, 経た → 経る, 言うる → 言う, ゆーる → 言う, 怒りる → 怒る, おまかせる →
+  任せる, 高く / 辛く / 硬く / 堅く / やすく → the -い adjective, ひょっとす → ひょっとする, ほっとい → 放っておく, 臭いい → 臭い,
+  わからん → 分かる, できん → できる, つまらん → つまらない, すまん → すまない, 足りない → 足りる, 勿体ない → もったいない, だろ →
+  だろう, 空け / 貯め / 困り / 切り落とし → the verb, しようか → する, ちっちゃ → ちっちゃい, ひょん → ひょんな. Dropped (7): ときる, ける,
+  きゃ, きゃり, まーる, れいる, いそう. Kept (36): grammatical lemmas (ようだ, でしょう, ください, ません...), established
+  adjectives and expressions (もったいない, しょうがない, 数多い, 仲良い), noun + する verbs. Rounds 21-22: the edge after it.
+  No lemma within the cut is pending.
 
-`snapshots/ja.json`: **40,300 entries**, the reviewed top 40,000 (rank 40,000: 正教, 343 occurrences, 0.50
+`snapshots/ja.json`: **40,300 entries**, the reviewed top 40,000 (rank 40,000: 再帰, 342 occurrences, 0.50
 per million) plus 300 learnable names (249 counted below the cut, 51 never counted, さいたま filed under 埼玉);
 307 split multiword names in `learnable-multiword-names.tsv`. Counted through Honeyeater `c07c7015` with
-`honeyeater_lemma_ja` 1.5.0; reference checkout Honeyeater #766 `5a12937`.
-`load_lemmas ja --dry-run` (at #766): 40,300 ranked, 0 skipped, 2,533 unit headwords, 90 homograph keys.
-Actions in the window: 34,267 keep, 5,733 review-keep, 4,695 review-drop, 2,300 place-drop, 1,219
-dictionary name drop, 953 number drop; 575 merges; 11,067 review decisions over 19 rounds. Report:
+`honeyeater_lemma_ja` 1.5.0; reference checkout Honeyeater #766 `9bbae4b`.
+`load_lemmas ja --dry-run` (at #766 `9bbae4b`): 40,300 ranked, 0 skipped, 2,533 unit headwords, 90 homograph keys.
+Actions in the window: 34,187 keep, 5,813 review-keep, 4,716 review-drop, 2,304 place-drop, 1,222
+dictionary name drop, 953 number drop; 606 merges; 11,196 review decisions over 22 rounds. Report:
 `build-40k/report.md`. The 30k build is kept as an artefact in `build-30k/`.
 
 ## The 30k build (2026-11-02, superseded by the 40k)
