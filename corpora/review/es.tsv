@@ -13609,3 +13609,947 @@ ipys	drop	organisation
 iqf	drop	technical
 iru	drop	code
 iw	drop	code
+# round 11 (2026-11-02): flagged lemmas pulled in by round 10's drops, to a 31.5k window
+jacque	drop	name
+jag	drop	acronym
+jdm	drop	acronym
+jesu	merge:jesús	missing accent
+jezero	drop	place
+jica	drop	org acronym
+jinja	drop	place
+jodi	drop	name
+jovene	merge:joven	missing accent plural
+jukebox	drop	foreign
+kardon	drop	brand
+kba	drop	acronym
+kettlebell	keep	established loan
+kingpin	drop	foreign
+kore	drop	name
+koyo	drop	name
+kzn	drop	code
+l-citrulina	drop	chem name
+lanzacohete	merge:lanzacohetes	invariable noun
+lari	drop	place
+latest	drop	English
+lb-pie	drop	code
+lcif	drop	acronym
+lcy	drop	code
+ldp	drop	acronym
+lhd	drop	acronym
+licenciantes	merge:licenciante	real legal noun; plural filed as lemma
+line-up	drop	English term (Spanish uses alineación); not established
+llevándol	merge:llevar	cut-off form
+locket	drop	English
+low-e	drop	English
+lvt	drop	acronym
+lzh	drop	file ext
+maa	drop	code
+macael	drop	place
+manuka	drop	foreign
+mapreduce	drop	software
+masks	drop	English
+materno-fetal	drop	hyphenated compound of two listed words (materno, fetal)
+mature	drop	English
+meanwell	drop	brand
+med-el	drop	brand
+meda	drop	name
+mek	drop	name
+memegen	drop	website
+meninge	keep	meninge is the correct DLE singular lemma for meninges
+menufilter	drop	web artefact
+mezquita-catedral	drop	place name
+millonésimo	keep	real word
+milpita	drop	place
+missa	drop	name
+mmx	drop	acronym
+mojón	keep	real word
+montalt	drop	place
+moser	drop	name
+mpv	drop	acronym
+mte	drop	acronym
+mtk	drop	acronym
+mundoaor	drop	website
+must-have	drop	English marketing phrase, not established in Spanish
+mut	drop	name
+naka	drop	place
+ncd	drop	file ext
+nee	drop	foreign
+nets	drop	English
+newborn	drop	English
+nop	drop	code
+northamptonshire	drop	place
+notte	drop	Italian
+nsr	drop	code
+nst	drop	file ext
+ntr	drop	code
+nuevayork	drop	place
+nutrilite	drop	brand
+oac	drop	acronym
+obj	drop	file ext
+octa-core	drop	English
+ofm	drop	acronym
+okpay	drop	brand
+oldsmobile	drop	brand
+olympics	drop	English
+omnis	drop	Latin
+onudi	drop	org acronym
+ooak	drop	acronym
+oolong	keep	established tea term (té oolong); most examples are the tea
+orto	keep	real word
+osactt	drop	acronym
+osrav	drop	acronym
+otd	drop	acronym
+ovc	drop	acronym
+ovejero	keep	real word
+overflow	drop	English
+oxímor	merge:oxímoron	truncated lemma
+palomo	keep	real word
+pame	drop	name
+pantry	drop	English
+parents	drop	English
+parótido	merge:parótida	broken lemma
+paths	drop	English
+pedregalejo	drop	place
+pentagon	drop	English token in names; not a Spanish spelling of pentágono in use
+photographer	drop	English
+phpsessid	drop	web artefact
+pic-nic	merge:picnic	spelling variant
+picks	drop	English
+pistol	drop	English
+pivx	drop	brand
+pixabay	drop	website
+pjur	drop	brand
+planeswalker	drop	game term
+planetary	drop	English
+platincoin	drop	brand
+pledge	drop	English
+plummer	drop	name
+pmn	drop	code
+ponero	merge:poner	clitic form
+posix	drop	technical acronym
+pph	drop	acronym
+prayer	drop	English
+precio-rendimiento	drop	hyphenated
+premise	drop	English
+procedure	drop	English
+programa-presupuesto	drop	hyphenated
+projection	drop	English
+proteus	drop	name
+proyect	drop	only occurs in English-ish product/shop names
+prudential	drop	company
+psychic	drop	English
+ptv	drop	acronym
+pursuit	drop	English
+pyramids	drop	English
+quantity	drop	English
+quarto	drop	foreign
+quickest	drop	English
+qvr	drop	code
+rast	drop	acronym
+rbd	drop	acronym
+rce	drop	acronym
+rde	drop	acronym
+recerca	drop	Catalan
+recibirse	keep	pronominal verb
+rewind	drop	English
+rinse	drop	English
+roh	drop	acronym
+rosalia	drop	name
+s-video	drop	English
+safir	drop	name
+saki	drop	name
+salr	drop	code
+salus	drop	Latin
+sbm	drop	acronym
+scoring	drop	English
+sedecía	drop	biblical name
+sefar	drop	name
+senso	drop	foreign
+serhs	drop	company
+set-top	drop	English
+sfb	drop	acronym
+sfi	drop	acronym
+sgh	drop	acronym
+shoulder	drop	English
+shp	drop	code
+shs	drop	acronym
+silica	drop	English token in brand/product names
+sins	drop	English
+sintiéndono	merge:sentirse	cut-off clitic form; reflexive use, pronominal verbs are their own lemma
+sketchbook	drop	software
+skies	drop	English
+slo	drop	code
+smr	drop	code
+snl	drop	acronym
+snowy	drop	English
+socio-política	merge:sociopolítico	hyphenated spelling of DLE form sociopolítico
+solitude	drop	English
+spetton	drop	company
+sph	drop	acronym
+spirito	drop	Italian
+spitz	drop	foreign dog-breed name, not a learner word
+spv	drop	acronym
+sqf	drop	acronym
+srp	drop	acronym
+stake	drop	English
+subgerente	keep	real word
+subrepresentado	keep	real word
+suc	drop	acronym
+supercross	drop	foreign
+suspenso	keep	real word
+symfony	drop	software
+taa	drop	acronym
+tadalis	drop	brand
+tafalla	drop	place
+tbm	drop	acronym
+tdci	drop	code
+tears	drop	English
+technique	drop	English
+telugu	keep	language name
+tempur	drop	brand
+teror	drop	place
+testers	merge:tester	plural of loan tester (beta tester, cosmetics tester) filed as lemma
+tfc	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+tft-lcd	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+tgm	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+thought	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+thr	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+tigi	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+tisdale	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+torii	keep	Japanese loan used in Spanish
+towing	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+tracing	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+triggers	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+trike	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+tsf	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+tupper	merge:táper	71% lowercase common use; English spelling merges into DLE táper
+tva	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+tvxq	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+twa	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+typing	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+téma	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ucsf	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+uet	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+undead	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+underwear	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+unported	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+utilizadore	merge:utilizador	plural filed as lemma
+valdemoro	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+varga	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+vars	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+vatio-horamedidor	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+vbs	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+vdl	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ventur	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+vfb	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+vif	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+vivant	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+vno	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+vvs	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+wada	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+wanna	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+watergirl	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+waw	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+wayfarer	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+wdc	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+wef	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+wella	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+wisp	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+wmz	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+wpf	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+wreck	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+wsrw	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+wushu	keep	martial art name
+xampp	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+xpe	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+yael	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+yet	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+yl	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+yor	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+yto	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+yupo	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+z-viaje	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+a-cero	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+a-t	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+aai	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+abl	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+accueil	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+acerquémono	merge:acercarse	clitic form
+addict	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+aef	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+aek	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+agmsoft	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+agr	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+agricole	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+aimee	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+airplane	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+align	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+amgs	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+anam	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+anti-corrupción	merge:anticorrupción	hyphen variant
+anti-robo	merge:antirrobo	hyphen variant
+antilla	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+anz	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+aoki	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+arabic	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+archi	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+archival	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ardr	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+arin	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+armed	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+arr	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+arrancadora	keep	real word
+arrepiéntanse	merge:arrepentirse	clitic form
+asem	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ashanti	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+asko	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+auto-expresión	merge:autoexpresión	hyphen variant
+autoplay	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+awe	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+awm	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+axs	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+azul-verde	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bafici	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+baggage	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+balearic	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+balladins	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bankers	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+baru	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+batlle	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bayan	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bcv	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bdsg	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+beaux-arts	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bespoke	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+beurer	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bhvr	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bkc	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+blac	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+blacklist	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bli	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+blot	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bobber	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bobble	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+braque	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+breezes	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bto	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+buds	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+buildings	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bully	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bushido	keep	Japanese loan
+buttermilk	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bvi	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cabañero	keep	real adjective (question)
+cajun	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cancelled	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+candanchú	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+candi	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+canister	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+capela	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+carate	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cariñena	keep	common noun for the grape/wine; place reading yields to common word
+categoríaslogotipo	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cavern	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cchr	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ccib	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ccv	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+celam	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cener	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cfx	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+chartreuse	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+chg	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cicte	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cies	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cingular	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ciss	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+clamshell	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+clar	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+clc	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+clk	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+closer	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+coag	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cobit	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+collapse	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+comanche	keep	real word
+confidence	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+confirmation	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+contrera	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cookbook	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cosin	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cosjar	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+could	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+crayola	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+crb	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+crist	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+criteria	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+critics	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+csirt	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cumana	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cumipaz	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+curvy	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cuz	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cyp	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dadito	keep	diminutive
+dancehall	keep	music genre loan
+dann	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+deathmatch	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dehidroepiandrosterona	keep	real word
+depeche	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+depilada	merge:depilado	inflected adjective
+designing	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+desvern	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dexa	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ding-han	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dkny	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dml	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dmu	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+doblón	keep	real word
+dohc	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+driven	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dtt	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dudh	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dugout	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dup	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dvd-ram	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dvr-ms	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dígal	merge:decir	clitic form
+e-reader	keep	established loan
+e-ticket	drop	English; Spanish says billete electrónico
+ebsco	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+eclkc	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+educa	merge:educar	conjugated form filed as lemma
+eet	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+eht	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+eisa	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ekato	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+elemnt	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+else	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+emet	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+empowerment	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+encod	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+encontr	merge:encontrar	cut-off or voseo form
+entrada-salida	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+epb	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+esforzándo	merge:esforzarse	cut-off clitic form
+esperad	merge:esperar	imperative form
+esquerra	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+esv	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+evd	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+evf	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+evidence	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+exyno	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+fabr	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+fal	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+famciclovir	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+fcu	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+fdf	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+fdn	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+featured	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+feeder	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+fevi	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+flavor	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+flax	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+flesh	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+flops	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+focolare	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+forgotten	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+fpe	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+freestanding	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+freeze-thaw	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+fryer	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+fsl	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ftl	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ftm	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+gaf	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+galeon	merge:galeón	missing accent
+galvany	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ganja	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+garment	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+garrigue	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+gaur	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+gdz	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+generations	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+gfx	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+girly	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+glamira	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+glider	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+glove	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+gorgonzola	keep	cheese name
+goth	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+gpio	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+graphene	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+gres	keep	real word
+grounding	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+gryphon	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+gsx	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+gtin	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+gtl	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+guillemot	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+guiándo	merge:guiar	cut-off clitic form
+haining	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+haki	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+haruka	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+harvester	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+hatsune	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+hbc	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+hbs	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+hea	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+head-up	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+headphones	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+heartbeat	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+helsing	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+hfa	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+high-end	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+high-tech	keep	established loan
+highline	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+hilversum	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+holo	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+hotspring	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+hovima	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+huanacaxtle	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+hygiene	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+i-size	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+icap	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+iccwc	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ifam	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+implantabl	merge:implantable	cut-off
+imsol	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+indnr	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+inet	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ingr	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+inquiry	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+inst	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ipv	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ipx	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+iqs	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+irta	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+itsm	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+jafra	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+jaso	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+jayden	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+jcc	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+jcpoa	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+jcs	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+jessy	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+joaquina	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+kamasutra	keep	common word
+kamut	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+kanna	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+keyless	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+kike	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+kiosk	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+kiteboarding	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+klang	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+klara	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+knee	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+kor	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ktc	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+lannister	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+lansa	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+lanterna	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+lanzamisil	merge:lanzamisiles	invariable noun
+lapsu	merge:lapsus	invariable noun
+lbd	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+lcc	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ldo	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+leioa	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+lemonade	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+lessons	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+leucotrieno	keep	real word
+lgt	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+living-comedor	drop	hyphenated compound of two listed words (living, comedor)
+llb	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+lobato	keep	real word
+londr	merge:londres	cut-off of Londres, a place on the learnable-names list
+looping	keep	established loan
+loor	keep	real word
+lottosend	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+lovin	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+lucian	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+lyrica	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+macrame	merge:macramé	missing accent
+maidan	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+mailer	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+mame	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+mandarl	merge:mandar	cut-off clitic form
+manteneo	merge:mantenerse	imperative+os form of pronominal mantenerse
+marxista-leninista	keep	real compound
+massacre	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+mbox	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+mdg	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+mecano	keep	real word
+memola	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+merci	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+metrix	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+mgp	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+mil-tech	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+mitzvah	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+mkc	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+mmv	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+mobius	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+monel	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+morden	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+mow	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+msw	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+multi-core	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+mwk	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+myth	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+naid	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+neko	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+neotrópico	keep	real word
+nese	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+netboot	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+nim	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+niv	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+nmap	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+nno	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+no-gubernamental	drop	hyphenated compound of two listed words (no, gubernamental)
+noia	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+nome	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+non-stop	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+norm	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+nosostro	merge:nosotros	misspelling
+notification	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+notifíqueno	merge:notificar	clitic form
+numa	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ocozía	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ofr	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+oic	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+oiml	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+oiv	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+okay	merge:okey	English spelling of adapted word; DLE form okey
+oks	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+olympiaco	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+operational	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+orangerie	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+otb	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ovm	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+pact	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+paddleboard	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+pagarl	merge:pagar	cut-off clitic form
+palestino-israelí	keep	real compound
+paok	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+pch	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+pead	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+peix	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+pel	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+personality	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+pewter	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+pickups	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+pitching	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+plentzia	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+pmdb	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+pmf	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+pnm	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+político-social	keep	real compound
+poolside	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+post-traumático	merge:postraumático	hyphen variant
+poverty	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+pravia	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+pregnancy	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+probate	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+proficiency	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+promperú	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+provea	merge:proveer	all examples are subjunctive of proveer
+psol	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ptf	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+puc	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+puedr	merge:poder	misspelt future form
+pycnogenol	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+qsl	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+quetzalcoatl	drop	name of a deity/person, not a common word
+qui-gon	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+r-flower	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+rabe	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+races	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+raposa	keep	real word
+rctv	keep	nationally famous Venezuelan broadcaster
+real-time	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+reit	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+requests	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+respawn	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+retailers	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+retailing	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+retin-a	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+rf-link	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+rga	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+rhinocero	drop	software name (Rhinoceros), not the animal
+rigol	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ripess	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+rockin	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+rompeola	merge:rompeolas	invariable noun
+rop	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+roquefort	keep	cheese name
+rscj	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+rvr	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+sabr	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+saicm	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+sallent	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+sassy	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+saya	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+sccm	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+scd	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+scjn	keep	Mexico's Supreme Court, nationally famous public body
+semi-nuevo	merge:seminuevo	hyphen variant
+sgae	keep	nationally famous Spanish body referred to by name
+sgb	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+sharks	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+shavuot	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+sixty	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+sjo	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+skipper	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+skp	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+slat	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+smail	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+smps	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+smsl	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+snd	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+sneak	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+socare	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+somma	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+sota	keep	real word
+sotillo	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+spiaggia	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+spies	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+spinnaker	keep	sailing term
+spk	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+spunlace	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+sro	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ssri	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ssv	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+stacking	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+stalker	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+stationery	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+stomp	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+storie	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+stub	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+stupa	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+subscription	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+suministrarl	merge:suministrar	cut-off clitic form
+sunil	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+superannuation	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+supercar	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+supplie	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+suppliers	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+svp	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+swimwear	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+takes	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+talay	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+tasks	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+technische	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+tefl	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+telemark	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+teócrata	keep	real word
+tipa	keep	colloquial word
+tita	keep	real colloquial word (aunt) despite name occurrences
+todra	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+toss	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+tov	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+tpf	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+transform	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+trolling	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+trt	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+tsr	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+tti	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+umrah	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ums	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+unita	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+universalis	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+unlocked	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+until	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+urng	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+v-brake	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+veb	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+veehd	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ventilation	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+verb	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+verbum	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+veronique	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+vibrio	drop	specialist bacterial genus name
+vila-real	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+vilano	keep	real word
+villanova	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+vins	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+vlti	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+vso	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+vwp	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+wac	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+wdm	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+weh	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+wipe	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+woburn	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+x-viaje	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+xdcam	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+xg	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+xsl	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+yamagata	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+yiddish	keep	language name
+zambiano	keep	gentilic
+zd	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+zoogenético	keep	real adjective
+aaliyah	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+aam	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+aao	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+aaui	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+abf	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+acco	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+achievement	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+adega	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+aerosil	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+aex	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+affair	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+aged	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ahrq	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+aiea	keep	famous public body (IAEA) referred to by name in Spanish news
+alba-tcp	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+alcanar	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+alexi	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+alfar	keep	real word
+alta-baja	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+amedeo	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+amida	keep	real Spanish chemistry noun; common word stays despite names
+amor-odio	keep	real compound
+anti-arruga	merge:antiarrugas	hyphenated spelling of DLE form antiarrugas
+anti-pilling	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+anti-vih	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+appiano	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+apra	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+argent	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+argentario	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+aros	merge:aro	plural filed as lemma
+arrepentirno	merge:arrepentirse	cut-off clitic form
+aset	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ashdisc	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+asipi	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+asis	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+atem	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+authors	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+auto-determinación	merge:autodeterminación	hyphen variant
+autopilot	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+añadiéndol	merge:añadir	cut-off clitic form
+balti	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+baraka	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+barb	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+barnet	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bayt	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bbplanet	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bdct	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+because	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+become	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+beda	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+berserker	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bgr	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bimatoprost	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+biovea	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bitch	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bluboo	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+bootp	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+borrelia	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+both	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+brk	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+brow	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+btv	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+buon	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+burlesque	drop	English; film/product names (Spanish burlesco)
+butters	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cafib	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cambril	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+camedia	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+campers	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+canine	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+capm	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+capv	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+carat	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+caravaning	keep	real word
+cardiac	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+carducci	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+carriers	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cdph	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+changing	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+chaux-de-fonds	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+chiller	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+chinook	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+chit	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cineo	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cisa	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ciudad-estado	keep	real compound
+cliente-servidor	keep	real compound
+clients	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+clip-on	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+clpi	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+clustering	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cnr	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cnv	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+coder	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+collectif	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+comme	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+composition	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+comprehensive	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+conatel	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+concour	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+confetti	merge:confeti	English spelling
+confíen	merge:confiar	conjugated form
+congresso	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+consultant	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+contactado	merge:contactar	participle form
+contáctanos	merge:contactar	imperative clitic form
+corozo	keep	real word
+coso	keep	real word
+countryman	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+coup	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cqc	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cracking	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+crean	merge:crear	conjugated form
+crews	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cuvée	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cvi	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cwdm	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+cylinder	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+daz	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ddm	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ddns	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dejándono	merge:dejar	cut-off clitic form
+delmia	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+demolition	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+denier	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+derain	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+despertarno	merge:despertarse	cut-off clitic form of pronominal despertarse
+destroyer	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dfi	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dhi	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dispenser	keep	loan used in Spanish
+dlg	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dnsbox	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+donor	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dotx	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+downstream	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dpg	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dqo	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+drip	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+drive-in	drop	English names; Spanish uses autocine
+dsk	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dsm-iv	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dso	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dtw	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+dxn	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+e-comercio	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ebp	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+ecl	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+edb	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+edie	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+editors	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+edpr	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+eeo	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+efqm	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+eftp	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+efx	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+eichmann	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+eie	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+eigrp	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+eliminator	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+elix	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+engelberg	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+entente	keep	established historical/political term in DLE
+eoc	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+epfl	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
+eprint	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
