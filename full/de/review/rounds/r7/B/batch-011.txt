@@ -1,0 +1,48 @@
+Erweitern	merge:erweitern	verb filed under a capitalised lemma
+Lagerbestände	merge:Lagerbestand	plural filed as lemma
+Tanke	merge:tanken	cut-off fragment of tanken; all forms are written tanken, so it isn't a plural of Tank
+Gewänder	merge:Gewand	plural filed as lemma
+Schlafsäcke	merge:Schlafsack	plural filed as lemma
+Phillips	drop	personal name or surname
+Grosser	merge:groß	inflected form with Swiss ss spelling
+Erziehungsberechtigte	keep	noun in its own right, like das Gute
+Huhu	merge:huhu	interjection filed under a capitalised lemma
+Neuerscheinungen	merge:Neuerscheinung	plural filed as lemma
+Livestreams	merge:Livestream	plural filed as lemma
+Öffentlich	merge:öffentlich	adjective filed under a capitalised lemma
+Gräbern	merge:Grab	inflected plural (dative) filed as lemma
+Arbeitsprozesse	merge:Arbeitsprozess	plural filed as lemma
+Halb	merge:halb	adjective filed under a capitalised lemma
+merci	merge:Merci	noun filed under a lower-case lemma
+zustandekommen	merge:Zustandekommen	noun filed under a lower-case lemma
+Tourer	drop	appears only in car model names (Active Tourer, Space Tourer); not an established loan and not a plural of Tour
+Räucher	merge:räuchern	cut-off fragment; all forms are written räuchern
+Slogans	merge:Slogan	plural filed as lemma
+Dienstleistern	merge:Dienstleister	inflected plural (dative) filed as lemma
+Balladen	merge:Ballade	plural filed as lemma
+kurs	merge:Kurs	noun filed under a lower-case lemma
+oz	merge:Oz	noun filed under a lower-case lemma
+Balle	merge:Ballen	cut-off fragment; all forms are written ballen and the examples show the noun Ballen (ball of the foot, bale)
+Derivate	merge:Derivat	plural filed as lemma
+Interessieren	merge:interessieren	verb filed under a capitalised lemma
+Patente	merge:Patent	plural filed as lemma
+Staune	merge:staunen	cut-off fragment of staunen; the listed 'Staun' is not a real word
+Seltsam	merge:seltsam	adjective filed under a capitalised lemma
+Maniere	merge:Manieren	cut-off fragment of Manieren; all examples use the plural sense "manners"
+Paneele	merge:Paneel	plural filed as lemma
+Kuscheln	merge:kuscheln	verb filed under a capitalised lemma; the listed 'Kuschel' is not the base form
+Solide	merge:solide	adjective filed under a capitalised lemma
+Horden	merge:Horde	plural filed as lemma
+Herausragend	merge:herausragend	adjective filed under a capitalised lemma
+Königreiche	merge:Königreich	plural filed as lemma
+Ausschließlich	merge:ausschließlich	adverb filed under a capitalised lemma
+Mk	drop	abbreviation or specialist acronym
+Rosie	drop	personal name
+
+# question Tourer: dropped because it only occurs in model names; if Tourer counts as an established loan (Tourenwagen-style "Tourer"), it should be keep.
+# question Balle: merged into Ballen as a distinct noun; the rules don't say whether Ballen should be its own entry or merge into Ball.
+# question Staune: merged into the verb staunen, but the noun Staunen is equally plausible; the tag is NOUN and the examples are missing.
+# question Maniere: merged into Manieren on the assumption that it has its own plural meaning; if Manieren is not on the list, merge:Manier is the alternative.
+# question Erziehungsberechtigte: the list also has 'Erziehungsberechtigt' as a lemma, which looks like the broken entry; I kept this one because it is a nominalised adjective.
+# question Gräbern: the screener points at 'Gräber' as the singular, but that is itself a plural; I merged into Grab.
+# question zustandekommen: the written forms (zustandekommt, zustandekam) are verb forms, but the tag is NOUN, so I merged into Zustandekommen.

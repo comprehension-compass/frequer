@@ -1,0 +1,43 @@
+Leinen	keep	Leinen (linen fabric) is a noun in its own right, not the plural of Leine
+Berger	drop	surname (Christoph Berger), other names drop
+Funke	keep	Funke is a real noun, the singular of Funken, not a plural of Funk
+Mais	keep	Mais (maize) is a noun in its own right, not a form of Mai
+hellen	merge:hell	inflected forms of the adjective hell filed under a lower-case non-lemma
+Potenziale	merge:Potenzial	plural filed as a lemma
+kWh	drop	unit abbreviation, specialist
+Reiche	keep	der/die Reiche is a nominalised adjective, a noun in its own right
+Planer	keep	agent noun with its own entry
+Rate	keep	Rate (instalment, rate) is its own noun, not a form of Rat
+Starter	keep	agent noun with its own entry
+Personenbezogene	merge:personenbezogen	inflected adjective filed under a capitalised lemma
+Betrüger	keep	agent noun with its own entry
+v	drop	single letter
+Transporter	keep	own noun (vehicle, carrier)
+Gewürze	merge:Gewürz	plural filed as a lemma
+Handeln	keep	nominalised verb (das Handeln), a noun in its own right like Essen
+Dinger	merge:Ding	colloquial plural filed as a lemma
+Röhre	keep	own noun, a distinct word from Rohr
+Displays	merge:Display	plural filed as a lemma
+derMehr	drop	brand or junk token
+Fußballer	keep	agent noun with its own entry
+Tänzer	keep	agent noun with its own entry
+xD	drop	emoticon
+Überzeugen	merge:überzeugen	verb filed under a capitalised lemma
+Tweets	merge:Tweet	plural filed as a lemma
+Wettbewerber	keep	agent noun with its own entry
+Lassen	merge:lassen	verb filed under a capitalised lemma
+turnen	keep	correct lower-case verb lemma, distinct from the noun Turnen
+Tippen	merge:tippen	verb filed under a capitalised lemma
+nichtsdestotrotz	keep	correct lower-case adverb
+Module	merge:Modul	plural filed as a lemma
+Tester	keep	agent noun with its own entry
+samen	merge:Samen	noun filed under a lower-case lemma
+Oberst	merge:oberst	forms are the adjective oberste/oberst, filed under a capitalised lemma
+Aktiv	merge:aktiv	adjective filed under a capitalised lemma
+Camper	keep	own noun (person, vehicle)
+Schläger	keep	own noun (racket, thug)
+Palme	keep	own noun, distinct from Palm
+Angeblich	merge:angeblich	adjective filed under a capitalised lemma
+# question kWh: the case-pair note points to the lower-case 'kwh' (tagged X), which is itself an abbreviation, so no clean target exists; dropped as a specialist unit abbreviation
+# question Reiche: written forms are mostly the verb 'reichen' and the plural of Reich; kept as the nominalised adjective 'der Reiche', but a merge into Reich is arguable
+# question hellen: forms mix the adjective 'hell' with the verb forms 'hellt/hellte', so merging into 'hell' covers the adjective only

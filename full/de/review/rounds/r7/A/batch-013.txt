@@ -1,0 +1,44 @@
+Stadtplaner	keep	agent noun (urban planner), not a plural of Stadtplan
+Bedarfe	merge:Bedarf	plural form
+Altenheime	merge:Altenheim	plural form
+Highlighter	keep	own noun (marker pen, make-up highlighter), not a plural of Highlight
+Spielotheke	merge:Spielothek	variant singular, mostly written as the plural
+Fehlerbehebunge	merge:Fehlerbehebung	dropped letter, plural form
+Annett	drop	first name
+Ausbildungsberufe	merge:Ausbildungsberuf	plural form
+Smileys	merge:Smiley	plural form
+Stadträte	merge:Stadtrat	plural form
+Strange	drop	surname (Bonnie Strange, Jimmy Strange)
+Innovativ	merge:innovativ	adjective under capitalised lemma
+Schaller	drop	mostly a surname; the helmet sense is marginal
+Superfoods	merge:Superfood	plural form
+Urlaubsreisen	merge:Urlaubsreise	plural form
+Wollen	merge:wollen	verb filed under capitalised lemma
+Wissenschafter	keep	Austrian agent noun, not a plural of Wissenschaft
+Baumstämme	merge:Baumstamm	plural form
+Buchs	merge:Buchse	surface form is buchsen, plural of Buchse (socket)
+Expertinn	merge:Expertin	cut-off fragment
+Teilnahmeberechtigt	merge:teilnahmeberechtigt	adjective under capitalised lemma
+q	merge:Q	letter filed under lower case
+Lande	merge:landen	surface form is landen, the verb
+Leckerlis	merge:Leckerli	plural form
+basiswissen	merge:Basiswissen	noun under lower-case lemma
+Jugendämter	merge:Jugendamt	plural form
+zunge	merge:Zunge	noun under lower-case lemma
+Hochwertig	merge:hochwertig	adjective under capitalised lemma
+T-shirt	merge:T-Shirt	case variant of the existing noun
+Reisemobile	merge:Reisemobil	plural form
+Entscheidungsprozesse	merge:Entscheidungsprozess	plural form
+Hande	merge:Hand	broken plural (Hände) of Hand
+Revolutionäre	merge:Revolutionär	inflected plural form
+Geldgebern	merge:Geldgeber	inflected plural form
+Roses	drop	band name (Guns N' Roses), not the German plural
+Zuger	drop	demonym/adjective from the place name Zug
+Kerner	drop	surname (Johannes B. Kerner)
+Satellite	merge:Satellit	plural or English spelling of Satellit
+Synonyme	merge:Synonym	plural form
+vidya	merge:Vidya	noun under lower-case lemma
+# question Buchs: written form is only buchsen; I assumed the plural of Buchse and that Buchse is on the list, but it could also be a verb or the place name Buchs.
+# question Lande: written form is only landen with no examples; I assumed the verb landen rather than a noun plural.
+# question vidya: appears only in "Yoga Vidya" (a school name), so the target Vidya may itself be a drop candidate.
+# question q: merged into Q by the case rule, but a single letter may not be learnable at all.

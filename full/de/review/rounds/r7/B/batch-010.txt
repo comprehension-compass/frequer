@@ -1,0 +1,48 @@
+Griechische	merge:Griechisch	nominalised language name, same word as the listed Griechisch
+Lippenstifte	merge:Lippenstift	plural filed as lemma
+Harzer	drop	toponymic adjective or demonym of the place name Harz, not a plural
+penis	merge:Penis	lower-case noun
+Rotweine	merge:Rotwein	plural filed as lemma
+Homosexuelle	keep	nominalised adjective, a noun in its own right (person)
+Rückkehrer	keep	agent noun with its own meaning (returnee), not a plural of Rückkehr
+Spanische	merge:Spanisch	nominalised language name, same word as the listed Spanisch
+Basketballer	keep	agent noun with its own meaning (player)
+Grundig	drop	brand or surname, not the adjective grundig
+Vegane	merge:vegan	inflected adjective under a capitalised lemma
+Whirlpools	merge:Whirlpool	plural filed as lemma
+Puzzles	merge:Puzzle	plural filed as lemma
+Verbund	merge:verbunden	the forms are mostly the participle verbunden, which has its own adjective entry
+schmerz	merge:Schmerz	lower-case noun
+Kämmerer	keep	own word (municipal treasurer), not a plural of Kammer
+Verweisen	merge:Verweis	dative plural filed as lemma
+ggmbh	merge:gGmbH	lower-cased abbreviation, gGmbH is on the list
+Dampfen	keep	nominalised verb (das Dampfen), a noun in its own right
+KMUs	merge:KMU	plural filed as lemma
+Veränderungsprozesse	merge:Veränderungsprozess	plural filed as lemma
+Bundesamts	merge:Bundesamt	genitive form filed as lemma
+Hämorrhoiden	merge:Hämorrhoide	plural filed as lemma
+Zertifiziert	merge:zertifiziert	adjective under a capitalised lemma
+aufMehr	drop	glued web fragment ("auf Mehr"), no real word to merge into
+Produktionsprozesse	merge:Produktionsprozess	plural filed as lemma
+Verbinden	merge:verbinden	verb under a capitalised lemma
+Schläfe	keep	correct lemma (temple); Schlaf is a different word
+Japanische	merge:Japanisch	nominalised language name, same word as the listed Japanisch
+Wohnen	keep	nominalised verb (das Wohnen), a noun in its own right
+pH	keep	established scientific abbreviation, a different word from PH
+Kaserne	keep	correct singular lemma
+davis	merge:Davis	lower-case name, Davis is on the list
+Hotspots	merge:Hotspot	plural filed as lemma
+Nichten	drop	the text is spam "nichtens" (a nonce form of nicht), not the noun Nichte
+PKWs	merge:PKW	plural filed as lemma
+Schwabe	keep	demonym noun (a Swabian), not a form of Schwab
+Streicher	keep	own word (string players), not a plural of Streich
+Audits	merge:Audit	plural filed as lemma
+Hoodies	merge:Hoodie	plural filed as lemma
+
+# question Harzer: it is a toponymic adjective or demonym of Harz (Harzer Käse), not a plural. The rules don't say whether such derived forms count as place names, so I dropped it.
+# question Grundig: it is a brand name and also a surname. The rules don't say whether a company brand counts as a "famous institution", so I dropped it.
+# question Homosexuelle: the listed Homosexuell (885) looks like a mis-lemma of the same noun. I kept Homosexuelle as a nominalised adjective, but the two may need merging in the other direction.
+# question Verbund: the lemma is a capitalised noun tagged VERB, but the written forms are mostly "verbunden". I merged to verbunden (an adjective with its own entry) rather than to verbinden.
+# question aufMehr: it is a scraping artefact ("auf" + "Mehr"). The rules say fragments are merged, but there is no obvious target, so I dropped it.
+# question Verbinden: there are no examples to show whether it is the button-label verb or the noun "das Verbinden". The genitive "verbindens" hints at noun use, but I merged to the verb.
+# question Nichten: the real plural of Nichte exists, but the evidence is spam text using "nichtens" for "nicht". I dropped it; if Nichte should be taught, it needs a separate entry.

@@ -1,0 +1,43 @@
+Unfassbar	merge:unfassbar	capitalised adjective, lower-case form is on the list
+Gesuche	merge:Gesuch	plural of Gesuch
+Heile	merge:heilen	written as the verb heilen, filed under a capitalised lemma
+Porter	keep	own word (beer, porter), not the plural of Port
+Aufklebern	merge:Aufkleber	inflected plural of Aufkleber
+Bewerbe	merge:Bewerb	plural of Bewerb (noun)
+Geldscheine	merge:Geldschein	plural of Geldschein
+Pigmentflecke	merge:Pigmentfleck	plural of Pigmentfleck
+Quere	keep	real feminine noun (in die Quere kommen)
+einkaufszentren	merge:Einkaufszentrum	lower-case plural of Einkaufszentrum
+Sicherheitslücken	merge:Sicherheitslücke	plural of Sicherheitslücke
+Preisnachlässe	merge:Preisnachlass	plural of Preisnachlass
+Sonnenuntergänge	merge:Sonnenuntergang	plural of Sonnenuntergang
+zion	drop	place name, lower-case duplicate
+Gewiss	merge:gewiss	adverb under a capitalised lemma
+Romantiker	keep	person noun with its own entry, not a plural of Romantik
+Sinnvoll	merge:sinnvoll	capitalised adjective
+Start-Ups	merge:Start-Up	plural of Start-Up
+Probieren	merge:probieren	verb under a capitalised lemma
+Qualitativ	merge:qualitativ	capitalised adjective, inflected form in text
+Ratschläge	merge:Ratschlag	plural of Ratschlag
+Clouds	merge:Cloud	plural of Cloud
+Moduls	merge:Modul	genitive of Modul
+Wichtig	merge:wichtig	capitalised adjective, inflected forms in text
+Kaper	keep	Kaper (capers) is a noun in its own right, not related to Kap
+Weißweine	merge:Weißwein	plural of Weißwein
+Messestände	merge:Messestand	plural of Messestand
+Wehre	merge:Wehr	plural of Wehr
+gb	merge:GB	lower-case abbreviation of a listed word
+Ferienunterkünfte	merge:Ferienunterkunft	plural of Ferienunterkunft
+Konstrukteure	merge:Konstrukteur	plural of Konstrukteur
+Poloshirts	merge:Poloshirt	plural of Poloshirt
+walken	keep	correct lower-case verb; the pair Walken is a surname
+Dashboards	merge:Dashboard	plural of Dashboard
+Balke	merge:Balken	cut-off form; the real noun is Balken
+Maschinenbauer	keep	person noun with its own entry, not a plural of Maschinenbau
+Add-Ons	merge:Add-On	plural of Add-On
+Anhalte	merge:anhalten	written as the verb anhalten, filed under a capitalised lemma
+Denkweisen	merge:Denkweise	plural of Denkweise
+Exclusive	merge:exklusiv	English spelling of an adapted word
+# question Bewerbe: forms bewerben/bewerbes could be the verb or the Austrian noun Bewerb; I took the noun reading because of the NOUN tag and "bewerbes".
+# question zion: Zion is on the list as a lemma (356), but this one is a place name (Zion National Park), so I dropped it instead of merging.
+# question Porter: could be the beer or an English surname/place name; no examples were available, so I kept it as a loan noun.

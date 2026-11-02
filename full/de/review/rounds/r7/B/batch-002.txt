@@ -1,0 +1,44 @@
+Leinen	keep	Leinen (linen) is a noun in its own right, not a plural of Leine
+Berger	drop	Surname (Christoph Berger); not a plural of Berg
+Funke	keep	Funke/Funken is a real noun, unrelated to Funk
+Mais	keep	Real noun (maize), not a plural of Mai
+hellen	merge:hell	Lowercase lemma whose forms are mostly the adjective hell, plus hellt/hellte
+Potenziale	merge:Potenzial	Plural filed as lemma
+kWh	drop	Unit abbreviation, specialist; not a learnable word
+Reiche	merge:Reich	Plural of Reich filed as lemma
+Planer	keep	Agent noun with its own meaning, not a plural of Plan
+Rate	keep	Own noun (instalment, rate), not a plural of Rat
+Starter	keep	Own noun (starter), not a plural of Start
+Personenbezogene	merge:personenbezogen	Inflected adjective filed as lemma and capitalised
+Betrüger	keep	Agent noun with its own meaning, not a plural of Betrug
+v	drop	Single letter; capital V already on the list
+Transporter	keep	Own noun (van, transporter)
+Gewürze	merge:Gewürz	Plural filed as lemma
+Handeln	keep	Nominalised infinitive noun (das Handeln), not a plural of Handel
+Dinger	merge:Ding	Colloquial plural of Ding filed as lemma
+Röhre	keep	Own noun (tube), distinct from Rohr
+Displays	merge:Display	Plural filed as lemma
+derMehr	drop	Scraping artefact from fused words or a brand name
+Fußballer	keep	Agent noun with its own meaning
+Tänzer	keep	Agent noun with its own meaning
+xD	drop	Emoticon, not a word
+Überzeugen	merge:überzeugen	Verb filed under a capitalised lemma
+Tweets	merge:Tweet	Plural filed as lemma
+Wettbewerber	keep	Agent noun with its own meaning
+Lassen	merge:lassen	Verb filed under a capitalised lemma
+turnen	keep	Valid lowercase verb lemma, correctly spelled; only the NOUN tag is wrong
+Tippen	merge:tippen	Verb filed under a capitalised lemma
+nichtsdestotrotz	keep	Correctly spelled lowercase adverb
+Module	merge:Modul	Plural filed as lemma
+Tester	keep	Agent noun with its own meaning
+samen	merge:Samen	Lowercase noun lemma; the forms are a mix of fragments and gesamt
+Oberst	merge:oberst	Forms are the adjective oberste/oberst, filed under a capitalised lemma
+Aktiv	merge:aktiv	Adjective filed under a capitalised lemma
+Camper	keep	Own noun (camper, motorhome), not a plural of Camp
+Schläger	keep	Agent noun with its own meaning (racket, thug)
+Palme	keep	Own noun (palm tree); Palm is a different word
+Angeblich	merge:angeblich	Adverb/adjective filed under a capitalised lemma
+# question hellen: Forms mix the adjective hell with the verb hellen (hellt, hellte); I chose hell as the dominant reading.
+# question kWh: A common everyday unit symbol. I dropped it as an abbreviation, but if it should be kept, the lowercase 'kwh' needs the same decision.
+# question samen: 967 of 2,003 occurrences are 'gesamt', and the rest are -same/-samen fragments. I merged into Samen by the case rule, but merge:gesamt is arguably better.
+# question nichtsdestotrotz: The capitalised 'Nichtsdestotrotz' (NOUN, 82) on the list looks like it should merge into this lowercase adverb.

@@ -1,0 +1,44 @@
+m	merge:M	letter filed under lower-case form
+weiterlesen	keep	correct lower-case verb; the capitalised twin is the odd one
+x	merge:X	letter filed under lower-case form
+s	merge:S	letter filed under lower-case form
+g	merge:G	letter filed under lower-case form
+Schweizer	keep	noun in its own right (Schweizerin exists)
+Berliner	keep	noun in its own right (inhabitant, pastry)
+Deutsche	keep	noun der/die Deutsche, distinct from the language Deutsch
+Gern	merge:gern	adverb filed under a capitalised lemma
+Online	merge:online	adverb filed under a capitalised lemma
+b	merge:B	letter filed under lower-case form
+e	merge:E	letter filed under lower-case form
+Wiener	keep	noun in its own right (inhabitant, sausage)
+Musiker	keep	agent noun with its own entry, not a plural of Musik
+Blüte	keep	correct singular lemma, not a plural of Blut
+rauchen	keep	correct lower-case verb
+Anfänger	keep	agent noun with its own entry, not a plural of Anfang
+grüßen	keep	correct lower-case verb
+Frankfurter	keep	noun in its own right (inhabitant, sausage)
+l	merge:L	letter filed under lower-case form
+baden	keep	correct lower-case verb
+c	merge:C	letter filed under lower-case form
+Designer	keep	agent noun with its own entry, not a plural of Design
+t	merge:T	letter filed under lower-case form
+Gründer	keep	agent noun with its own entry, not a plural of Grund
+Sieger	keep	agent noun with its own entry, not a plural of Sieg
+Kölner	keep	noun in its own right (inhabitant)
+Falle	keep	own noun (trap), unrelated to Fall
+Drucker	keep	agent noun with its own entry, not a plural of Druck
+Arbeiter	keep	agent noun with its own entry, not a plural of Arbeit
+Erste	merge:erste	adjective filed under a capitalised lemma
+Highlights	merge:Highlight	plural filed as lemma
+Mag	merge:mögen	verb filed under a capitalised lemma
+Unterlagen	keep	plural with its own meaning (documents)
+US-amerikanisch	keep	correct lower-case adjective
+Ausländer	keep	agent noun with its own entry, not a plural of Ausland
+Nächste	merge:nächste	adjective filed under a capitalised lemma
+Eisen	keep	own noun (iron), unrelated to Eis
+Wähler	keep	agent noun with its own entry, not a plural of Wahl
+Schütze	keep	own noun (marksman), unrelated to Schutz
+
+# question Mag: counted forms are forms of mögen, but the example is the abbreviation Mag. (Magister); merged to mögen, and lower-case 'mag' (VERB) is itself a conjugated form
+# question Nächste: lower-case 'nächste' is tagged NOUN on the list while this one is ADJ; merged to the lower-case entry although the tags disagree
+# question Unterlagen: kept as a plural with its own meaning (documents), though singular Unterlage (pad, base) is also on the list

@@ -1,0 +1,44 @@
+Materiale	merge:Material	plural filed as lemma (materialen)
+Responsive	merge:responsive	capitalised adjective; lower-case entry exists
+Spaziergänger	keep	person noun with its own entry, not a plural of Spaziergang
+Dates	merge:Date	plural of Date
+wichtigste	merge:wichtig	inflected superlative filed as lemma
+Extrakte	merge:Extrakt	plural filed as lemma
+gend	merge:Gender	written gender; fragment of Gender
+rauen	merge:Raute	mostly raute/Raute forms; broken lemma
+ausser	merge:außer	ASCII spelling of außer
+Bergische	merge:bergisch	inflected adjective forms filed under a capitalised lemma
+Texter	keep	person noun, own lemma
+ps	merge:PS	lower-case abbreviation of listed PS
+PDFs	merge:PDF	plural filed as lemma
+Dell	drop	name or person (Dell method/company)
+Stifter	keep	person noun, own lemma
+Versagen	keep	nominalised verb, a noun in its own right
+Backups	merge:Backup	plural filed as lemma
+Kickers	merge:Kicker	plural filed as lemma
+Grass	merge:Gras	English-style spelling of Gras
+Optiker	keep	person noun, own lemma
+Cousine	keep	own feminine entry
+Auslaufen	keep	nominalised verb, own noun
+Straftäter	keep	person noun, own lemma
+iPhon	merge:iPhone	cut-off fragment; forms are iphones
+icloud	merge:iCloud	case variant of listed iCloud
+Gelbe	merge:Gelb	inflected form filed as lemma
+Allein	merge:allein	adverb under a capitalised lemma
+ms	merge:MS	lower-case abbreviation of listed MS
+Bauarbeiter	keep	person noun, own lemma
+Plane	keep	real noun (tarp), not a plural of Plan
+kamera	merge:Kamera	noun under a lower-case lemma
+Vintage	merge:vintage	capitalised adjective; lower-case entry exists
+Retoure	keep	established noun, own lemma
+Kombinieren	merge:kombinieren	verb under a capitalised lemma
+Fingerabdrücke	merge:Fingerabdruck	plural filed as lemma
+wippen	merge:Wippe	mostly Wippe forms; broken lemma
+Nr	merge:Nummer	abbreviation of Nummer
+Mikrofone	merge:Mikrofon	plural filed as lemma
+Rechtzeitig	merge:rechtzeitig	adjective under a capitalised lemma
+Munich	merge:München	English spelling of München
+# question wichtigste: could be merged to Wichtigste (noun) instead of wichtig; the examples are missing, so I treated it as the inflected superlative adjective.
+# question rauen: the forms mix Raute, rau and rauen, so the target is unclear; I chose Raute because it is the most frequent form.
+# question Plane: written lower-case plane, which could be a verb form of planen; I kept it as the noun Plane.
+# question iPhon: it is unclear whether iPhone is on the list; I merged into iPhone.

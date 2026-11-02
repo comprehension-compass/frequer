@@ -1,0 +1,45 @@
+Kritiker	keep	agent noun with its own meaning, not a plural of Kritik
+Maler	keep	own noun (painter), not a form of Mal
+gedenken	keep	genuine verb lemma (forms gedenkt, gedacht); noun Gedenken is separate
+eBook	merge:Ebook	spelling variant of an already listed lemma
+Urlauber	keep	own noun, not a plural of Urlaub
+Techniker	keep	own noun, not a plural of Technik
+Gesellschafter	keep	own noun (partner/shareholder), not a plural of Gesellschaft
+Montage	keep	own noun (assembly), not a plural of Montag
+radfahren	keep	separable verb lemma; noun Radfahren is separate
+ringen	keep	genuine verb lemma (ringt, gerungen, rang)
+Lieber	merge:lieber	adverb filed under a capital letter
+Leipziger	keep	demonym adjective/noun, not a place name
+Leiden	keep	noun with its own meaning, not a plural of Leid
+Läufer	keep	own noun, not a plural of Lauf
+fall	merge:Fall	noun filed in lower case
+spannen	keep	genuine verb lemma (spannend, gespannt)
+Arme	merge:Arm	plural filed as lemma (written armen)
+Krieger	keep	own noun, not a plural of Krieg
+Mehr	merge:mehr	adverb filed under a capital letter
+Mediziner	keep	own noun, not a plural of Medizin
+Kämpfer	keep	own noun, not a plural of Kampf
+Profitieren	merge:profitieren	verb filed under a capital letter
+Zähler	keep	own noun, not a plural of Zahl
+Grille	merge:grillen	forms are mostly the verb/gerund grillen, so the lemma is wrongly filed
+Werkstätte	merge:Werkstatt	variant/plural form; Werkstätten is the plural of Werkstatt
+Tablets	merge:Tablet	plural filed as lemma
+Botschafter	keep	own noun, not a plural of Botschaft
+verschulden	keep	genuine verb lemma; noun Verschulden is separate
+Praktische	merge:praktisch	inflected adjective under a capital letter
+Stürmer	keep	own noun, not a plural of Sturm
+Lüfter	keep	own noun, not a plural of Luft
+mbH	drop	abbreviation fragment of GmbH, not learnable
+Fr	merge:für	dropped-letter encoding, most likely für
+Perfekt	merge:perfekt	adjective filed under a capital letter
+Französische	merge:französisch	inflected adjective forms filed as lemma
+Güte	keep	own noun, not a plural of Gut
+Nürnberger	keep	demonym adjective/noun, not a place name
+Letzte	merge:letzte	inflected form (letzten) filed under a capital letter
+DVDs	merge:DVD	plural of an established abbreviation
+Plakate	merge:Plakat	plural filed as lemma
+
+# question eBook: Duden spells it E-Book; unclear whether Ebook or eBook should be the canonical lemma, and I merged into the existing Ebook.
+# question Fr: "fr" could be für or another word with a lost umlaut (fren suggests a verb such as führen/fühlen); I chose für as the most likely.
+# question mbH: it is an abbreviation of GmbH rather than a word of its own; I dropped it, but merging into a listed GmbH could also be argued.
+# question DVDs: I assumed the singular lemma is spelled DVD; confirm it is on the list.

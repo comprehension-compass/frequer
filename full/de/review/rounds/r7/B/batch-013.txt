@@ -1,0 +1,47 @@
+Stadtplaner	keep	real agent noun (urban planner), not a plural of Stadtplan
+Bedarfe	merge:Bedarf	plural filed as lemma
+Altenheime	merge:Altenheim	plural filed as lemma
+Highlighter	keep	distinct word (marker, makeup highlighter), not a plural of Highlight
+Spielotheke	merge:Spielothek	mostly plural spielotheken, so merge to the singular
+Fehlerbehebunge	merge:Fehlerbehebung	dropped letter, plural fehlerbehebungen
+Annett	drop	first name
+Ausbildungsberufe	merge:Ausbildungsberuf	plural filed as lemma
+Smileys	merge:Smiley	plural filed as lemma
+Stadträte	merge:Stadtrat	plural filed as lemma
+Strange	drop	surname (Bonnie/Jimmy Strange), not a plural of Strang
+Innovativ	merge:innovativ	adjective under a capitalised lemma
+Schaller	drop	surname or company name in the examples
+Superfoods	merge:Superfood	plural filed as lemma
+Urlaubsreisen	merge:Urlaubsreise	plural filed as lemma
+Wollen	merge:wollen	forms are the verb wollen, not Wolle
+Wissenschafter	keep	established Austrian/Swiss variant noun, not a plural of Wissenschaft
+Baumstämme	merge:Baumstamm	plural filed as lemma
+Buchs	merge:Buchse	forms are buchsen, so Buchse (socket), not Buch
+Expertinn	merge:Expertin	cut-off fragment of expertinnen
+Teilnahmeberechtigt	merge:teilnahmeberechtigt	adjective under a capitalised lemma
+q	merge:Q	case variant of the letter
+Lande	merge:landen	forms are landen, the verb, not Land
+Leckerlis	merge:Leckerli	plural filed as lemma
+basiswissen	merge:Basiswissen	noun under a lower-case lemma
+Jugendämter	merge:Jugendamt	plural filed as lemma
+zunge	merge:Zunge	noun under a lower-case lemma
+Hochwertig	merge:hochwertig	adjective under a capitalised lemma
+T-shirt	merge:T-Shirt	case variant, same word
+Reisemobile	merge:Reisemobil	plural filed as lemma
+Entscheidungsprozesse	merge:Entscheidungsprozess	plural filed as lemma
+Hande	merge:Hand	broken form (handen/hande) of Hand/Hände
+Revolutionäre	merge:Revolutionär	inflected form filed as lemma
+Geldgebern	merge:Geldgeber	inflected form filed as lemma
+Roses	drop	band name (Guns N' Roses)
+Zuger	drop	place-derived demonym or surname, not a plural of Zug
+Kerner	drop	personal name (Johannes B. Kerner)
+Satellite	merge:Satellit	English spelling or plural of Satellit
+Synonyme	merge:Synonym	plural filed as lemma
+vidya	drop	Sanskrit/brand name (Yoga Vidya), not learnable German
+# question Schaller: the armour term "Schaller" (helmet) exists but is rare, and the examples are mostly the surname; decided drop.
+# question Buchs: the written forms are buchsen, which could also be the verb buchsen or the Swiss place Buchs; decided merge:Buchse.
+# question Lande: written landen could be dative plural Landen or the verb; decided merge:landen.
+# question Hande: the form is unclear (garbled Hände vs. other); decided merge:Hand.
+# question Zuger: whether Swiss demonyms with -er count as learnable nouns; decided drop.
+# question vidya: Vidya is also on the list as a case pair, but it is a name/Sanskrit term and probably should leave the list too; decided drop for this entry.
+# question Wissenschafter: could merge into Wissenschaftler if the list treats regional variants as the same lemma; decided keep.

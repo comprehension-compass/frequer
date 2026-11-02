@@ -1,0 +1,48 @@
+Völlig	merge:völlig	capitalised adverb, real lemma is völlig
+iN	merge:in	odd casing of the preposition in
+Medizinische	merge:medizinisch	inflected adjective filed under a capital
+Mia	drop	personal name
+klamm	merge:Klammer	lower-case noun, forms are overwhelmingly Klammer
+Fels	keep	correct singular lemma
+Mods	merge:Mod	plural filed as lemma
+Größere	merge:groß	inflected comparative of groß
+Pools	merge:Pool	plural filed as lemma
+Kürzlich	merge:kürzlich	capitalised adverb
+Negativ	merge:negativ	capitalised adjective, mostly adjectival forms
+kB	merge:KB	same abbreviation, different casing
+dieMehr	drop	article and word run together, not a word
+Essener	drop	demonym derived from a place name, not a plural of Essen
+e-mail	merge:E-Mail	lower-case spelling of E-Mail
+Ständer	keep	own noun (stand, rack), not a plural of Stand
+Schlager	keep	own noun, not a plural of Schlag
+Ranger	keep	established loan noun, not a plural of Rang
+Prüfen	merge:prüfen	capitalised verb
+Dealer	keep	own noun, not a plural of Deal
+nächste	merge:nächst	inflected adjective form filed as lemma
+Single	keep	established noun (der/die Single, Singles)
+pH-Wert	keep	correct spelling of the term
+uhr	merge:Uhr	noun filed under a lower-case lemma
+Hierzu	merge:hierzu	capitalised adverb
+Physiker	keep	own noun, not a plural of Physik
+Felsen	merge:Fels	inflected form of Fels
+Parker	drop	surname/given name in the examples, not a plural of Park
+Jährlich	merge:jährlich	capitalised adjective
+Tattoos	merge:Tattoo	plural filed as lemma
+Anrufer	keep	own noun, not a plural of Anruf
+Pole	keep	own noun (a Pole), not a plural of Pol
+Boxer	keep	own noun, not a plural of Box
+Grabe	merge:Graben	truncated form of Graben
+ev	drop	abbreviation/fragment with mixed forms (ever, even)
+rüde	merge:Rüde	noun filed under a lower-case lemma
+Muslime	merge:Muslim	plural filed as lemma
+Julie	drop	personal name
+Studiengänge	merge:Studiengang	plural filed as lemma
+dürr	keep	genuine adjective (dürr, dürre); the NOUN tag is wrong
+
+# question klamm: forms are mostly Klammer (1,415) but the lemma is klamm; merged into Klammer rather than Klamm or the adjective klamm, and Klammer may not itself be on the list
+# question Essener: demonym adjective of the city Essen; dropped as place-derived, though the rules don't mention demonyms
+# question Single: tagged ADJ with an ADJ pair 'single', but the forms (singles, Singles) look like the established noun; kept as the noun
+# question nächste: the pair 'Nächste' on the list is itself a capitalised adjective; merged to the dictionary form nächst
+# question pH-Wert: the pair 'ph-Wert' on the list is the wrongly cased one and probably should merge into this
+# question Größere: merged into groß, but the comparative größer might be the preferred dictionary lemma
+# question Mia: the pair 'mia' on the list (ADJ, 771) looks like a name or dialect word and should probably be dropped too

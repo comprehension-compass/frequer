@@ -1,0 +1,46 @@
+Kritiker	keep	agent noun in its own right, not the plural of Kritik
+Maler	keep	agent noun "painter", distinct from Mal
+gedenken	keep	genuine verb lemma; forms are verbal
+eBook	keep	standard stylised spelling of the loan, and the more frequent form
+Urlauber	keep	agent noun distinct from Urlaub
+Techniker	keep	agent noun distinct from Technik
+Gesellschafter	keep	agent noun distinct from Gesellschaft
+Montage	keep	own noun "assembly", distinct from Montag
+radfahren	keep	separable verb lemma
+ringen	keep	genuine verb lemma
+Lieber	merge:lieber	adverb filed under a capitalised lemma
+Leipziger	keep	derived adjective/noun for an inhabitant, not a place name
+Leiden	keep	noun "das Leiden" in its own right
+Läufer	keep	agent noun distinct from Lauf
+fall	merge:Fall	noun filed under a lower-case lemma
+spannen	keep	genuine verb lemma
+Arme	merge:Arm	plural of Arm filed as a lemma
+Krieger	keep	agent noun distinct from Krieg
+Mehr	merge:mehr	adverb filed under a capitalised lemma
+Mediziner	keep	agent noun distinct from Medizin
+Kämpfer	keep	agent noun distinct from Kampf
+Profitieren	merge:profitieren	verb filed under a capitalised lemma
+Zähler	keep	own noun "numerator/meter", distinct from Zahl
+Grille	merge:grillen	forms are almost all the verb grillen, not the insect
+Werkstätte	merge:Werkstatt	mostly the plural Werkstätten; variant of Werkstatt
+Tablets	merge:Tablet	plural filed as a lemma
+Botschafter	keep	agent noun distinct from Botschaft
+verschulden	keep	genuine verb lemma
+Praktische	merge:praktisch	adjective filed under a capitalised lemma
+Stürmer	keep	agent noun distinct from Sturm
+Lüfter	keep	own noun "fan", distinct from Luft
+mbH	drop	abbreviation (company-name suffix), not learnable
+Fr	merge:für	dropped letter (ü lost in encoding)
+Perfekt	merge:perfekt	adjective filed under a capitalised lemma
+Französische	merge:französisch	inflected adjective forms filed as a lemma
+Güte	keep	own noun "kindness/quality", distinct from gut
+Nürnberger	keep	derived adjective/noun for an inhabitant, not a place name
+Letzte	merge:letzt	inflected adjective form filed under a capitalised lemma
+DVDs	merge:DVD	plural of an established loan abbreviation
+Plakate	merge:Plakat	plural filed as a lemma
+
+# question eBook: the Duden spelling is E-Book and Ebook is also on the list; I kept eBook because it is the more frequent form, but it could merge into Ebook.
+# question mbH: dropped as an abbreviation, but 'mbh' is already on the list and a merge:mbh would also be defensible.
+# question Letzte: 'letzte' is itself an inflected form on the list; I merged to the dictionary form letzt, which may not exist as a lemma.
+# question Französische: it may be the nominalised "das Französische", but the evidence is adjective inflection, so I merged it into französisch.
+# question DVDs: the singular DVD is not shown as being on the list, so check that merge:DVD resolves.

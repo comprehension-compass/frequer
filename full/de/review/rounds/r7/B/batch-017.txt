@@ -1,0 +1,36 @@
+Vllt	merge:vielleicht	Abbreviation of vielleicht
+Kupplunge	merge:Kupplung	Cut-off plural of Kupplung
+Rassisten	merge:Rassist	Plural of Rassist
+Stickern	merge:Sticker	Dative plural of Sticker
+Ganser	drop	Surname, not the plural of Gans (that is Gänse)
+winter	merge:Winter	Noun filed in lower case
+Verwechslunge	merge:Verwechslung	Cut-off plural of Verwechslung
+Datenbestände	merge:Datenbestand	Plural of Datenbestand
+Süsse	merge:süß	Inflected forms of the adjective in Swiss spelling
+Widgets	merge:Widget	Plural of Widget
+Referentinn	merge:Referentin	Cut-off plural of Referentin
+Sorgfältig	merge:sorgfältig	Adjective filed under a capital
+Wraps	merge:Wrap	Plural of Wrap
+Dokus	merge:Doku	Plural of Doku
+Finke	drop	Mostly a surname in the examples
+Zehe	keep	Standard singular; Zeh is only a variant
+Erfolgreich	merge:erfolgreich	Adjective filed under a capital
+Blutgefäßen	merge:Blutgefäß	Dative plural of Blutgefäß
+Gatten	merge:Gatte	Inflected form of Gatte
+Stranger	drop	English title word (Stranger Things); Strang is the wrong base
+Veneer	keep	Established dental loanword; Vene is not its base
+Wärmepumpen	merge:Wärmepumpe	Plural of Wärmepumpe
+Dekore	merge:Dekor	Plural of Dekor
+Euronen	merge:Euro	Colloquial plural of Euro
+Tanker	keep	Tanker (ship) is a noun in its own right, not a plural of Tank
+Circa	merge:circa	Adverb filed under a capital
+Glätten	merge:glätten	Verb form capitalised in the text; the noun Glätte is a different word
+Hochdeutsche	merge:Hochdeutsch	Inflected form of Hochdeutsch
+Entrümpelunge	merge:Entrümpelung	Cut-off plural of Entrümpelung
+umkleiden	merge:Umkleide	Noun filed in lower case; the forms are mixed with the verb
+# question Vllt: both vllt and Vllt are abbreviations of vielleicht; I merged straight into vielleicht rather than into vllt.
+# question Süsse: the target Süss is itself a Swiss-spelling adjective on the list; I merged into süß, and Süss may need its own merge.
+# question Blutgefäßen: the listed singular is Blutgefäße, which is itself a plural; I merged into Blutgefäß.
+# question Finke: some forms (finken) are plurals of Fink, but the examples are mostly names; I dropped it.
+# question umkleiden: the forms mix the noun Umkleide with the verb umkleiden; I chose the noun because of the NOUN tag.
+# question Glätten: it could be a nominalised infinitive (a noun in its own right), but I merged it into the verb.

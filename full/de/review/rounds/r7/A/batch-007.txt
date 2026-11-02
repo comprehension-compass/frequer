@@ -1,0 +1,45 @@
+Etikette	merge:Etikett	plural of Etikett (labels in the examples)
+Deutlich	merge:deutlich	capitalised adjective
+Schlosser	keep	locksmith, its own noun (plural of Schloss is Schlösser)
+Bande	keep	gang, its own noun
+Erfurter	merge:erfurter	capitalised adjective form
+Schleimhäute	merge:Schleimhaut	plural
+Erneuerbar	merge:erneuerbar	capitalised adjective
+Transparente	merge:Transparent	inflected form of Transparent (banner)
+Taler	keep	coin, its own noun (not the plural of Tal)
+Ü	drop	single letter, not learnable
+Unikate	merge:Unikat	plural
+Becken	keep	basin or pelvis, its own noun
+Vertragsverhältniss	merge:Vertragsverhältnis	dropped letter or genitive
+Kehle	keep	correct singular noun
+Erwerber	keep	buyer, its own noun
+interessanterweise	keep	correctly written adverb
+eugen	drop	first name
+anm	merge:Anmerkung	abbreviation of a listed word
+Geldbörsen	merge:Geldbörse	plural
+Felse	merge:Fels	plural
+Kreative	merge:kreativ	inflected adjective
+Neon	keep	real noun
+Selfies	merge:Selfie	plural
+Gestalter	keep	designer, its own noun
+pdf-Datei	merge:PDF-Datei	lower-case spelling
+Wandtattoos	merge:Wandtattoo	plural
+Shampoos	merge:Shampoo	plural
+So	merge:so	capitalised adverb
+Kontaktformulars	merge:Kontaktformular	genitive form
+Politische	merge:politisch	inflected adjective
+Träume	merge:Traum	plural (dative in the examples)
+LKWs	merge:LKW	plural
+Eigene	merge:eigen	inflected adjective
+Definitiv	merge:definitiv	capitalised adjective
+Bl	drop	abbreviation fragment
+Fichte	keep	correct singular noun
+Blitzer	keep	speed camera, its own noun
+Kocher	keep	cooker, its own noun
+Dampfer	keep	steamer, its own noun
+Spitäler	merge:Spital	plural
+# question Etikette: Etikette (etiquette) is also a real word, but the examples all mean labels (Etikett).
+# question Erfurter: it is also the noun for an inhabitant of Erfurt, and the place-derived lowercase target may itself be unwanted.
+# question Ü: merging into the existing single-letter 'ü' would be pointless, so I dropped it.
+# question eugen: merging into the name Eugen would be consistent with the case rule, but that target is itself a name to drop.
+# question interessanterweise: the lowercase form is the correct one, so the capitalised 'Interessanterweise' on the list is probably the one that is broken.

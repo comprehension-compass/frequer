@@ -1,0 +1,43 @@
+Unfassbar	merge:unfassbar	capitalised adjective, lower-case lemma is on the list
+Gesuche	merge:Gesuch	plural of Gesuch
+Heile	merge:heilen	verb written as heilen, filed under a capitalised lemma
+Porter	keep	Porter (beer) is its own noun, not a plural of Port
+Aufklebern	merge:Aufkleber	dative plural
+Bewerbe	merge:bewerben	verb form filed under a capitalised lemma
+Geldscheine	merge:Geldschein	plural
+Pigmentflecke	merge:Pigmentfleck	plural
+Quere	keep	noun in its own right (in die Quere kommen)
+einkaufszentren	merge:Einkaufszentrum	lower-case plural, singular is the real lemma
+Sicherheitslücken	merge:Sicherheitslücke	plural
+Preisnachlässe	merge:Preisnachlass	plural
+Sonnenuntergänge	merge:Sonnenuntergang	plural
+zion	drop	place name (national park) not on the reviewed place list
+Gewiss	merge:gewiss	capitalised adverb
+Romantiker	keep	person noun with its own entry, not an inflection of Romantik
+Sinnvoll	merge:sinnvoll	capitalised adjective
+Start-Ups	merge:Start-Up	plural
+Probieren	merge:probieren	verb filed under a capitalised lemma
+Qualitativ	merge:qualitativ	adjective, written qualitative
+Ratschläge	merge:Ratschlag	plural
+Clouds	merge:Cloud	plural
+Moduls	merge:Modul	genitive form
+Wichtig	merge:wichtig	adjective filed under a capitalised lemma
+Kaper	keep	Kaper (caper) is its own noun, not a plural of Kap
+Weißweine	merge:Weißwein	plural
+Messestände	merge:Messestand	plural
+Wehre	merge:Wehr	plural, the evidence is a surname
+gb	merge:GB	lower-case abbreviation of the listed GB
+Ferienunterkünfte	merge:Ferienunterkunft	plural
+Konstrukteure	merge:Konstrukteur	plural
+Poloshirts	merge:Poloshirt	plural
+walken	keep	valid verb (to walk, fitness), correct lemma
+Dashboards	merge:Dashboard	plural
+Balke	merge:Balken	cut-off or inflected form of Balken
+Maschinenbauer	keep	person noun with its own entry, not an inflection of Maschinenbau
+Add-Ons	merge:Add-On	plural
+Anhalte	merge:anhalten	verb form filed under a capitalised lemma
+Denkweisen	merge:Denkweise	plural
+Exclusive	merge:exklusiv	English spelling of an adapted word
+
+# question zion: 'Zion' is also on the list, but the examples show a place name (Zion National Park), so I dropped it rather than merging.
+# question Quere: the suggested singular 'Quer' is an adverb/prefix, so I kept Quere as its own noun.

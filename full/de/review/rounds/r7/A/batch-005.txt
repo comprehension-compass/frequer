@@ -1,0 +1,44 @@
+Neugierig	merge:neugierig	capitalised adjective, real lemma is neugierig
+ge	drop	cut-off prefix fragment with no obvious target
+Federer	drop	person name, not a plural of Feder
+Kindertagesstätten	merge:Kindertagesstätte	plural filed as lemma
+Wendungen	merge:Wendung	plural filed as lemma
+Isabel	drop	personal name
+Sonnenschirme	merge:Sonnenschirm	plural filed as lemma
+Therme	keep	real noun (thermal spa), not a plural of "Therm"
+Vorgehensweisen	merge:Vorgehensweise	plural filed as lemma
+Grüße	merge:Gruß	plain plural of Gruß
+Informatiker	keep	person noun with its own entry
+Schwierigkeitsgrade	merge:Schwierigkeitsgrad	plural filed as lemma
+Mathematiker	keep	person noun with its own entry
+Zinn	keep	real noun (tin), not a plural of "Zin"
+Platine	keep	real noun (circuit board), distinct from Platin
+Jackpots	merge:Jackpot	plural filed as lemma
+Einkäufer	keep	person noun with its own entry
+herz	merge:Herz	noun filed in lower case
+Urlaube	merge:Urlaub	plural filed as lemma
+Achja	merge:achja	capitalised interjection, lower-case lemma is on the list
+Graben	keep	real noun (ditch), not a plural of Grab
+Farmer	keep	person noun with its own entry
+Nahezu	merge:nahezu	capitalised adverb
+kHz	keep	correctly written unit symbol, widely known
+ibiza	merge:Ibiza	lower-case place name, Ibiza is on the list
+Wahlweise	merge:wahlweise	capitalised adverb
+Rote	merge:rot	inflected adjective forms (roten, rote)
+Natalie	drop	personal name
+Laster	keep	real noun (vice, lorry), not a plural of Last
+vanessa	drop	personal name
+Tutorials	merge:Tutorial	plural filed as lemma
+Musikalisch	merge:musikalisch	capitalised adjective
+Elektroniker	keep	person noun with its own entry
+Patche	merge:Patch	plural filed as lemma
+Anschreiben	keep	real noun (cover letter)
+Blatter	drop	mostly the surname (Sepp Blatter)
+Webinare	merge:Webinar	plural filed as lemma
+Schnitte	keep	real noun (slice), with its own entry
+Pfeiler	keep	real noun (pillar), not a plural of Pfeil
+Willen	merge:Wille	genitive form (willens) filed as lemma
+# question ge: surface forms ge/geen/geste/geden are fragments with no obvious target; the "GE" pair is probably an unrelated abbreviation, so I dropped it rather than merging.
+# question kHz: the correct spelling is kHz and the list also holds "KHz" (66); I kept kHz, but it is a specialist unit symbol and could be dropped under the abbreviation rule.
+# question Rote: the written forms are lower-case roten/rote, so I treated them as the adjective rot; if some are the nominalised noun (der Rote), a separate keep might apply.
+# question vanessa: "Vanessa" is already on the list, but other names drop under the rules; I dropped this one rather than merging into a name.

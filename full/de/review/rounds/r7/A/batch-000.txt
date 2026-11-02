@@ -1,0 +1,42 @@
+m	merge:M	single letter filed in lower case; 'M' is on the list
+weiterlesen	keep	real separable verb, only its tag is wrong
+x	merge:X	single letter filed in lower case
+s	merge:S	single letter filed in lower case
+g	merge:G	single letter filed in lower case
+Schweizer	keep	noun in its own right (person from Switzerland)
+Berliner	keep	noun in its own right (inhabitant of Berlin)
+Deutsche	merge:deutsch	written forms are almost all lower-case adjective inflections
+Gern	merge:gern	adverb filed under a capitalised lemma
+Online	merge:online	adverb filed under a capitalised lemma
+b	merge:B	single letter filed in lower case
+e	merge:E	single letter filed in lower case
+Wiener	keep	noun in its own right (Viennese person, sausage)
+Musiker	keep	own agent noun, not a plural of Musik
+Blüte	keep	correct singular lemma; Blüten is its plural
+rauchen	keep	real verb; the noun Rauchen is a separate entry
+Anfänger	keep	own agent noun, not a plural of Anfang
+grüßen	keep	real verb; the Grüße forms belong with it, and grüssen is the Swiss spelling
+Frankfurter	keep	noun in its own right (inhabitant, sausage)
+l	merge:L	single letter filed in lower case
+baden	keep	real verb; the noun Baden is separate
+c	merge:C	single letter filed in lower case
+Designer	keep	own agent noun, not a plural of Design
+t	merge:T	single letter filed in lower case
+Gründer	keep	own agent noun, not a plural of Grund
+Sieger	keep	own agent noun, not a plural of Sieg
+Kölner	keep	noun in its own right (inhabitant of Cologne)
+Falle	keep	own noun (trap), not a plural of Fall
+Drucker	keep	own noun (printer), not a plural of Druck
+Arbeiter	keep	own agent noun, not a plural of Arbeit
+Erste	merge:erste	inflected adjective form (ersten) filed under a capitalised lemma
+Highlights	merge:Highlight	plural filed as lemma
+Mag	merge:mögen	conjugated form of mögen filed as lemma
+Unterlagen	keep	usual plural with its own meaning (documents)
+US-amerikanisch	keep	valid adjective lemma
+Ausländer	keep	own agent noun, not a plural of Ausland
+Nächste	merge:nächste	inflected adjective form filed under a capitalised lemma
+Eisen	keep	own noun (iron), not a plural of Eis
+Wähler	keep	own agent noun, not a plural of Wahl
+Schütze	keep	own noun (marksman), not a plural of Schutz
+# question Deutsche: the lemma is a legitimate nominalised adjective (der/die Deutsche), but the counted forms are mostly lower-case adjective inflections; I merged into deutsch, though 'Deutsch' (capitalised) is the entry on the list
+# question Mag: could be the title abbreviation 'Mag.' (Magister), which the rules would drop or merge as an abbreviation; the conjugated-verb reading is more frequent

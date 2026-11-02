@@ -1,0 +1,32 @@
+# lemma	A	reason A	B	reason B
+Deutsche	merge:deutsch	written forms are almost all lower-case adjective inflections	keep	noun der/die Deutsche, distinct from the language Deutsch
+eBook	keep	standard stylised spelling of the loan, and the more frequent form	merge:Ebook	spelling variant of an already listed lemma
+Letzte	merge:letzt	inflected adjective form filed under a capitalised lemma	merge:letzte	inflected form (letzten) filed under a capital letter
+Reiche	keep	der/die Reiche is a nominalised adjective, a noun in its own right	merge:Reich	Plural of Reich filed as lemma
+kB	merge:KB	same abbreviation, different casing	drop	specialist abbreviation
+Single	keep	established noun (der/die Single, Singles)	merge:single	forms are singles, singler and so on, merged into the lowercase entry
+Testen	keep	nominalised infinitive (testens genitive forms), as with Scannen	merge:testen	mostly lower-case verb forms filed under a capitalised noun lemma
+j	drop	single letter	merge:J	lower-case variant of listed letter
+kHz	keep	correctly written unit symbol, widely known	drop	unit abbreviation / specialist acronym
+Schnitte	keep	real noun (slice), with its own entry	merge:Schnitt	forms and examples are plural of Schnitt
+wichtigste	merge:Wichtigste	noun filed under a lower-case lemma	merge:wichtig	inflected superlative filed as lemma
+ms	drop	unit abbreviation (milliseconds), not the same as MS	merge:MS	lower-case abbreviation of listed MS
+Munich	drop	English place name, not on the reviewed list	merge:München	English spelling of München
+Ü	drop	single letter, not learnable	merge:ü	A single letter that only duplicates the entry ü (a case pair).
+eugen	drop	first name	merge:Eugen	Case variant of a name that is already on the list.
+eau	drop	French fragment, not a German lemma	merge:Eau	lower-case form of a fragment that has a case pair
+lego	merge:LEGO	lower-case noun, brand lemma is on the list	merge:Lego	brand noun filed in lower case
+Freien	keep	"im Freien" is a noun in its own right	merge:frei	inflected adjective form
+Positive	keep	nominalised adjective, a noun in its own right like das Gute	merge:positiv	inflected adjective form
+Harzer	merge:Harz	derived demonym or adjective of a place name	drop	toponymic adjective or demonym of the place name Harz, not a plural
+Grundig	keep	well-known German brand, separate from the adjective grundig	drop	brand or surname, not the adjective grundig
+zustandekommen	keep	finite verb forms (zustandekommt, zustandekam), a different word from the noun Zustandekommen	merge:Zustandekommen	noun filed under a lower-case lemma
+Bewerbe	merge:Bewerb	plural of Bewerb (noun)	merge:bewerben	verb form filed under a capitalised lemma
+vidya	merge:Vidya	noun under lower-case lemma	drop	Sanskrit/brand name (Yoga Vidya), not learnable German
+Fahren	keep	nominalised infinitive (das Fahren), a noun in its own right	merge:fahren	nominalised infinitive (fahrens) filed under a capitalised lemma
+Spielen	keep	nominalised infinitive (das Spielen), a noun in its own right	merge:spielen	nominalised infinitive (spielens) filed under a capitalised lemma
+Finne	keep	der Finne (a Finn) is a real noun, not a plural of Finn	merge:Finn	weak-declension form of Finn in the examples
+Reisen	keep	nominalised infinitive (das Reisen), a noun in its own right	merge:reisen	nominalised infinitive (reisens) filed under a capitalised lemma
+Langlaufen	keep	nominalised infinitive (das Langlaufen), a noun in its own right	merge:langlaufen	nominalised verb filed under a capitalised lemma
+Treffe	merge:treffen	fragment, written as treffen	merge:Treffen	cut-off fragment, written treffen
+Hochdeutsche	merge:hochdeutsch	inflected adjective form	merge:Hochdeutsch	Inflected form of Hochdeutsch

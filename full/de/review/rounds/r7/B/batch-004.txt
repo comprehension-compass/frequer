@@ -1,0 +1,43 @@
+Kreditinstitute	merge:Kreditinstitut	plural of listed singular
+wii	merge:Wii	lower-case variant of listed noun
+Benziner	keep	own noun (petrol car), not a plural of Benzin
+Toner	keep	own noun, not a plural of Ton
+nm	merge:Nm	lower-case variant of listed abbreviation
+Rinde	keep	own noun (bark), different from Rind
+Hure	keep	own noun, not a plural of Hur
+thema	merge:Thema	lower-case noun
+Hecke	keep	own noun (hedge)
+Scannen	keep	nominalised verb used as a noun in the examples
+Gräber	merge:Grab	plural of Grab
+Workflows	merge:Workflow	plural of listed singular
+Tracker	keep	own noun, not a plural of Track
+pc	merge:PC	lower-case variant of listed abbreviation
+Buse	merge:Busen	real noun is Busen, not a plural of Bus
+Wohnmobile	merge:Wohnmobil	plural of listed singular
+Zelte	merge:Zelt	plural of listed singular
+Onlineshops	merge:Onlineshop	plural of listed singular
+Testen	merge:testen	mostly lower-case verb forms filed under a capitalised noun lemma
+Grüsse	merge:Gruss	plural of listed Swiss-spelled singular
+Bildschirme	merge:Bildschirm	plural of listed singular
+Rausche	merge:rauschen	verb forms filed under a capitalised lemma
+ch	drop	cut-off fragment with no obvious target
+Wunderbar	merge:wunderbar	adjective filed under a capitalised lemma
+Staun	merge:staunen	verb forms filed under a capitalised lemma
+Automobile	merge:Automobil	plural of listed singular
+Grafiker	keep	own noun (person), not a plural of Grafik
+Digitale	merge:digital	inflected adjective filed under a capitalised lemma
+Maßgeblich	merge:maßgeblich	adjective filed under a capitalised lemma
+ex	merge:Ex	lower-case variant of listed noun
+j	merge:J	lower-case variant of listed letter
+Labore	merge:Labor	plural of listed singular
+Gass	merge:Gasse	cut-off fragment of Gasse
+Anschliessend	merge:anschließend	capitalised adverb with an ss spelling
+reimen	keep	verb lemma correctly written in lower case
+Downloade	merge:downloaden	verb forms filed under a capitalised lemma
+Erlöser	keep	own noun, not a plural of Erlös
+Rocker	keep	own noun, not a plural of Rock
+Pedale	merge:Pedal	plural of listed singular
+Schals	merge:Schal	plural of listed singular
+# question Testen: no examples; it could be the nominalised noun (das Testen) as with Scannen, but the written forms are almost all lower-case verb forms
+# question ch: the forms ch/che/chen/cher/ches look like leftovers from split tokens; no target lemma, so dropped
+# question reimen: tagged NOUN with verb forms, while the noun 'Reimen' is also listed; kept as the verb lemma, but a merge into Reimen or Reim may be intended

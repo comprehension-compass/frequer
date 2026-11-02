@@ -1,0 +1,46 @@
+Erweitern	merge:erweitern	verb filed under a capitalised lemma
+Lagerbestände	merge:Lagerbestand	plural filed as lemma
+Tanke	merge:tanken	cut-off fragment; every written form is tanken
+Gewänder	merge:Gewand	plural filed as lemma
+Schlafsäcke	merge:Schlafsack	plural filed as lemma
+Phillips	drop	surname, not a learnable word
+Grosser	merge:groß	Swiss ß-less spelling of an inflected form of groß
+Erziehungsberechtigte	keep	nominalised adjective, a noun in its own right (der/die Erziehungsberechtigte)
+Huhu	merge:huhu	interjection filed under a capitalised lemma
+Neuerscheinungen	merge:Neuerscheinung	plural filed as lemma
+Livestreams	merge:Livestream	plural filed as lemma
+Öffentlich	merge:öffentlich	adjective filed under a capitalised lemma
+Gräbern	merge:Grab	inflected plural filed as lemma
+Arbeitsprozesse	merge:Arbeitsprozess	plural filed as lemma
+Halb	merge:halb	adjective filed under a capitalised lemma
+merci	merge:Merci	lower-case duplicate of the listed lemma
+zustandekommen	keep	finite verb forms (zustandekommt, zustandekam), a different word from the noun Zustandekommen
+Tourer	drop	not a plural of Tour; mostly car model names (Active Tourer)
+Räucher	merge:räuchern	cut-off fragment of the verb
+Slogans	merge:Slogan	plural filed as lemma
+Dienstleistern	merge:Dienstleister	inflected plural filed as lemma
+Balladen	merge:Ballade	plural filed as lemma
+kurs	merge:Kurs	noun filed under a lower-case lemma
+oz	merge:Oz	lower-case duplicate of the listed lemma
+Balle	merge:Ballen	cut-off fragment; the text has Ballen (bale, ball of the foot), not Bälle
+Derivate	merge:Derivat	plural filed as lemma
+Interessieren	merge:interessieren	verb filed under a capitalised lemma
+Patente	merge:Patent	plural filed as lemma
+Staune	merge:staunen	cut-off fragment; every written form is staunen
+Seltsam	merge:seltsam	adjective filed under a capitalised lemma
+Maniere	merge:Manieren	broken lemma; Manieren (manners) has its own meaning, distinct from Manier
+Paneele	merge:Paneel	plural filed as lemma
+Kuscheln	merge:kuscheln	verb filed under a capitalised lemma
+Solide	merge:solide	adjective filed under a capitalised lemma
+Horden	merge:Horde	plural filed as lemma
+Herausragend	merge:herausragend	adjective filed under a capitalised lemma
+Königreiche	merge:Königreich	plural filed as lemma
+Ausschließlich	merge:ausschließlich	adverb filed under a capitalised lemma
+Mk	drop	specialist acronym
+Rosie	drop	personal name
+# question zustandekommen: the verb forms are tagged NOUN; keep as the verb, or merge into the nominalisation Zustandekommen?
+# question Tourer: loan word used in vehicle model names; dropped as not a learnable lemma, but it could count as an established loan.
+# question oz: merged into Oz, but Oz is itself an abbreviation or name and may need its own review.
+# question Balle: assumes Ballen is on the list; if it isn't, it should still become Ballen.
+# question Maniere: Manieren is a plural with its own meaning, so merged there rather than into Manier; check that Manieren exists as a lemma.
+# question Staune: the singular 'Staun' on the list is itself a broken lemma, so merged into the verb staunen instead.

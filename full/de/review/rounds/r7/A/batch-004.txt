@@ -1,0 +1,45 @@
+Kreditinstitute	merge:Kreditinstitut	plural filed as lemma
+wii	merge:Wii	lower-case variant of the listed lemma
+Benziner	keep	own noun (petrol car), not a plural of Benzin
+Toner	keep	own noun, not a plural of Ton
+nm	merge:Nm	case variant of the listed abbreviation
+Rinde	keep	own noun (bark), not a plural of Rind
+Hure	keep	own noun, not a plural of Hur
+thema	merge:Thema	lower-case noun
+Hecke	keep	own noun (hedge), not a plural of Heck
+Scannen	keep	nominalised infinitive, a noun in its own right (examples are all nominal)
+Gräber	merge:Grab	plural filed as lemma
+Workflows	merge:Workflow	plural filed as lemma
+Tracker	keep	own noun, not a plural of Track
+pc	merge:PC	lower-case variant of the listed abbreviation
+Buse	merge:Busen	forms are almost all Busen (bosom); the lemma is cut off
+Wohnmobile	merge:Wohnmobil	plural filed as lemma
+Zelte	merge:Zelt	plural filed as lemma
+Onlineshops	merge:Onlineshop	plural filed as lemma
+Testen	keep	nominalised infinitive (testens genitive forms), as with Scannen
+Grüsse	merge:Gruss	plural filed as lemma
+Bildschirme	merge:Bildschirm	plural filed as lemma
+Rausche	merge:rauschen	cut-off fragment; the written form is rauschen
+ch	drop	letter fragment/suffix pieces with no clear target
+Wunderbar	merge:wunderbar	adjective filed under a capitalised lemma
+Staun	merge:staunen	cut-off fragment of the verb
+Automobile	merge:Automobil	plural filed as lemma
+Grafiker	keep	own noun (agent noun), not a plural of Grafik
+Digitale	merge:digital	inflected adjective form (digitalen) filed as lemma
+Maßgeblich	merge:maßgeblich	adjective filed under a capitalised lemma
+ex	merge:Ex	lower-case variant of the listed noun
+j	drop	single letter
+Labore	merge:Labor	plural filed as lemma
+Gass	merge:Gasse	cut-off fragment; the written form is mostly gasse
+Anschliessend	merge:anschließend	capitalised adverb, ss spelling variant
+reimen	keep	correct lower-case verb lemma
+Downloade	merge:downloaden	inflected/cut-off form of the verb
+Erlöser	keep	own noun, not a plural of Erlös
+Rocker	keep	own noun, not a plural of Rock
+Pedale	merge:Pedal	plural filed as lemma
+Schals	merge:Schal	plural filed as lemma
+
+# question Buse: the written forms are mostly busen (Busen), but I couldn't confirm that Busen is already on the list as a lemma.
+# question Rausche: rauschen could be the verb or the nominalised noun Rauschen; I merged it into the verb.
+# question Testen: no examples are available, so I couldn't tell whether this is the nominalised noun or just the verb in the infinitive.
+# question ch: the forms ch/che/chen/cher/ches look like suffix fragments, and the rules give no obvious merge target, so I dropped it.

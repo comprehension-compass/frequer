@@ -1,0 +1,43 @@
+Mamis	merge:Mami	plural of Mami
+Zimmerer	keep	carpenter, a noun in its own right, not a plural of Zimmer
+Diagramme	merge:Diagramm	plural form
+amen	merge:Amen	lower-case noun
+hopfen	merge:Hopfen	lower-case noun
+Fraglich	merge:fraglich	capitalised adjective
+Novell	drop	company name in the examples, not a learnable word
+Professorinn	merge:Professorin	cut-off fragment
+Zaubern	merge:zaubern	nominalised verb filed under a capitalised lemma
+Pioniere	merge:Pionier	plural form
+Zoller	drop	mostly a surname, otherwise a colloquial size word
+Lattenroste	merge:Lattenrost	plural form
+Antifas	merge:Antifa	plural form
+Importeure	merge:Importeur	plural form
+Regionale	merge:regional	inflected adjective (regionalen) under a capitalised lemma
+mom	drop	English word
+Bauen	merge:bauen	nominalised verb filed under a capitalised lemma
+Pseudonyme	merge:Pseudonym	plural form
+würstchen	merge:Würstchen	lower-case noun
+Ökologisch	merge:ökologisch	capitalised adjective
+Deiche	merge:Deich	plural form
+Zusammensetzunge	merge:Zusammensetzung	cut-off plural form
+Mixen	merge:mixen	nominalised verb, not a plural of Mix
+Abschlussarbeite	merge:Abschlussarbeit	cut-off plural form
+Eigelbe	merge:Eigelb	plural form
+Elternabende	merge:Elternabend	plural form
+apply	drop	English word
+Auslandsaufenthalte	merge:Auslandsaufenthalt	plural form
+Downloader	keep	person who downloads, a noun in its own right
+Treffe	merge:treffen	fragment, written as treffen
+Anomalie	keep	correct lemma; 'Anomali' is the broken one
+hefe	merge:Hefe	lower-case noun
+Würstchen	keep	correct lemma; 'Würstch' is the cut-off
+lübben	drop	place name not on the reviewed list
+pr	merge:PR	abbreviation of a listed word
+Elektronische	merge:elektronisch	inflected adjective under a capitalised lemma
+Fundstelle	keep	correct lemma; 'Fundstell' is the cut-off
+Herzlichst	merge:herzlichst	capitalised form of a listed word
+Kain	drop	biblical name, not a plural of Kai
+Tragegriffe	merge:Tragegriff	plural form
+# question Novell: the lemma is tagged ADJ but the examples are the company name; I dropped it as an "other name", but a software company could count as a famous institution.
+# question Zoller: it mixes a surname with the colloquial "15,6 Zoller" (inch-sized device); I dropped it as mostly a name.
+# question Treffe: written as treffen, which could be the verb or the noun Treffen (meeting), and no examples were found; I merged it into the verb.

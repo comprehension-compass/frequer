@@ -1,0 +1,48 @@
+Grauen	keep	das Grauen is a noun in its own right; "Grau" is a different word
+Parodontitis	keep	correct noun lemma; the "Parodontiti" entry is the broken one
+Must-have	merge:Must-Have	noun filed under an ADJ tag in lower case
+Persönliche	merge:persönlich	inflected adjective filed as a capitalised noun
+Gelsenkirchener	merge:gelsenkirchener	capitalised adjective; the lower-case entry is already on the list
+Dritten	merge:drittens	adverb filed under a capitalised inflected lemma
+Faire	merge:fair	inflected adjective filed as a capitalised noun
+Gehölze	merge:Gehölz	plural filed as lemma
+Lyriker	keep	agent noun in its own right, not a plural of Lyrik
+Petite	drop	foreign adjective, only found in English spam text
+Sichtweisen	merge:Sichtweise	plural filed as lemma
+Diebstähle	merge:Diebstahl	plural filed as lemma
+Leitzins	keep	correct lemma; "Leitzin" is the broken one
+Spiegelunge	merge:Spiegelung	cut-off fragment of the plural
+Fahren	merge:fahren	nominalised infinitive (fahrens) filed under a capitalised lemma
+Spielen	merge:spielen	nominalised infinitive (spielens) filed under a capitalised lemma
+walther	merge:Walther	lower-case noun filed under the wrong case
+Finne	merge:Finn	weak-declension form of Finn in the examples
+Wegen	merge:wegen	preposition filed under a capitalised lemma
+Heut	merge:heute	apocopated adverb filed under a capitalised lemma
+Pellets	merge:Pellet	plural filed as lemma
+Wünsch	merge:wünschen	imperative stem filed under a capitalised lemma
+Reisen	merge:reisen	nominalised infinitive (reisens) filed under a capitalised lemma
+Jahresabschlüsse	merge:Jahresabschluss	plural filed as lemma
+Tipper	keep	agent noun in its own right, not a plural of Tipp
+Hübsch	merge:hübsch	adjective filed under a capitalised lemma
+erspart	merge:Ersparte	nominalised adjective (Erspartes) filed in lower case
+Langlaufen	merge:langlaufen	nominalised verb filed under a capitalised lemma
+Schilde	merge:Schild	lower-case plural filed as lemma
+Malereie	merge:Malerei	cut-off plural fragment
+Miene	keep	correct singular noun; "Mien" is the broken one
+Playliste	merge:Playlist	adapted spelling variant of a listed word
+Beete	merge:Beet	plural filed as lemma
+Dreher	keep	agent noun in its own right (turner), not a plural of Dreh
+Schweizerinn	merge:Schweizerin	cut-off plural fragment
+Äußerlich	merge:äußerlich	adjective filed under a capitalised lemma
+Statistiker	keep	agent noun in its own right, not a plural of Statistik
+Ringer	keep	agent noun in its own right (wrestler), not a plural of Ring
+Ärgerlich	merge:ärgerlich	adjective filed under a capitalised lemma
+Logistiker	keep	agent noun in its own right, not a plural of Logistik
+
+# question Gelsenkirchener: it is also a noun (der Gelsenkirchener), but it derives from a place name; I merged it into the lower-case adjective already on the list.
+# question Finne: the word is a real noun (pimple, fin) and a place name; the examples show the weak form of Finn and a place use, so I merged it into Finn.
+# question Reisen: could be the plural of Reise or the nominalised infinitive; most forms are "reisens", so I merged it into reisen.
+# question Pellets: Pellets is nearly always plural in use, so it might count as plural-only and be kept; I merged it into Pellet because the singular is on the list.
+# question Playliste: Playlist and Playliste are both used, and the rules don't say which one is the lemma; I merged into the listed Playlist.
+# question erspart: the "Erspart" entry on the list looks broken itself; I merged into Ersparte as the intended nominalised adjective.
+# question walther: it is a name, so it may be dropped under the proper-noun rules, but I merged it under the case rule into the listed Walther.

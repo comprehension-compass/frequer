@@ -1,0 +1,35 @@
+Vllt	merge:vielleicht	capitalised abbreviation of vielleicht
+Kupplunge	merge:Kupplung	plural with a cut-off ending
+Rassisten	merge:Rassist	plural filed as lemma
+Stickern	merge:Sticker	inflected plural
+Ganser	drop	surname, not the plural of Gans
+winter	merge:Winter	noun filed in lower case
+Verwechslunge	merge:Verwechslung	plural with a cut-off ending
+Datenbestände	merge:Datenbestand	plural filed as lemma
+Süsse	merge:süß	inflected adjective forms in Swiss spelling
+Widgets	merge:Widget	plural filed as lemma
+Referentinn	merge:Referentin	cut-off fragment of the plural
+Sorgfältig	merge:sorgfältig	adjective filed in capitals
+Wraps	merge:Wrap	English plural filed as lemma
+Dokus	merge:Doku	plural filed as lemma
+Finke	drop	mostly a surname in the examples
+Zehe	keep	standard variant of Zeh, valid lemma
+Erfolgreich	merge:erfolgreich	adjective filed in capitals
+Blutgefäßen	merge:Blutgefäß	inflected plural filed as lemma
+Gatten	merge:Gatte	inflected form of Gatte
+Stranger	drop	English title word (Stranger Things), not German
+Veneer	keep	established dental loanword
+Wärmepumpen	merge:Wärmepumpe	plural filed as lemma
+Dekore	merge:Dekor	plural filed as lemma
+Euronen	merge:Euro	colloquial plural of Euro
+Tanker	keep	a noun in its own right (ship), not a plural of Tank
+Circa	merge:circa	adverb filed in capitals
+Glätten	merge:glätten	nominalised infinitive, not a noun in its own right
+Hochdeutsche	merge:hochdeutsch	inflected adjective form
+Entrümpelunge	merge:Entrümpelung	plural with a cut-off ending
+umkleiden	merge:Umkleide	noun filed in lower case
+
+# question Vllt: the lowercase vllt is also an abbreviation of vielleicht, so I merged to vielleicht rather than to vllt.
+# question Süsse: the list holds "Süss"; I merged to the standard-spelling adjective süß, but the Swiss-spelling lemma may need its own handling.
+# question Finke: some of the 103 "finken" tokens may be the bird (Fink), but the lemma is dominated by the surname, so I dropped it.
+# question umkleiden: the written forms mix noun and verb uses (umkleidet, umzukleiden); I followed the noun example and merged to Umkleide.

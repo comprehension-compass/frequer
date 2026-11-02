@@ -1,0 +1,46 @@
+Materiale	merge:Material	misspelt plural (Materialen), singular is on the list
+Responsive	merge:responsive	adjective filed under a capital
+Spaziergänger	keep	agent noun in its own right, not a plural of Spaziergang
+Dates	merge:Date	plural filed as lemma
+wichtigste	merge:Wichtigste	noun filed under a lower-case lemma
+Extrakte	merge:Extrakt	plural filed as lemma
+gend	merge:Gender	cut-off fragment, 879 of 899 occurrences are "gender"
+rauen	merge:Raute	inflected forms of Raute (raute, rauen, raue) are the majority
+ausser	merge:außer	ss spelling of außer
+Bergische	merge:bergisch	inflected adjective filed under a capital
+Texter	keep	agent noun with its own meaning
+ps	merge:PS	lower-case variant of listed PS
+PDFs	merge:PDF	plural filed as lemma
+Dell	drop	personal or company name (e.g. "nach Dell")
+Stifter	keep	agent noun with its own meaning
+Versagen	keep	nominalised verb, a noun in its own right
+Backups	merge:Backup	plural filed as lemma
+Kickers	merge:Kicker	plural filed as lemma
+Grass	merge:Gras	ss spelling of Gras
+Optiker	keep	agent noun, not a plural of Optik
+Cousine	keep	feminine entry of its own
+Auslaufen	keep	nominalised verb
+Straftäter	keep	agent noun with its own meaning
+iPhon	merge:iPhone	cut-off fragment, 844 of 850 written as iphones
+icloud	merge:iCloud	lower-case variant of listed iCloud
+Gelbe	merge:Gelb	inflected form filed as lemma
+Allein	merge:allein	adverb filed under a capital
+ms	drop	unit abbreviation (milliseconds), not the same as MS
+Bauarbeiter	keep	agent noun with its own meaning
+Plane	keep	real noun (tarpaulin), not a plural of Plan
+kamera	merge:Kamera	noun filed under a lower-case lemma
+Vintage	merge:vintage	capitalised variant of listed vintage
+Retoure	keep	noun with its own meaning
+Kombinieren	merge:kombinieren	verb filed under a capital
+Fingerabdrücke	merge:Fingerabdruck	plural filed as lemma
+wippen	merge:Wippe	most forms are the noun Wippe; the verb forms are minor
+Nr	merge:Nummer	abbreviation of Nummer
+Mikrofone	merge:Mikrofon	plural filed as lemma
+Rechtzeitig	merge:rechtzeitig	adjective filed under a capital
+Munich	drop	English place name, not on the reviewed list
+# question gend: Merged to Gender on the assumption that Gender is a valid lemma. The existing "Gend" entry is also a fragment.
+# question rauen: The forms are mixed (the noun Raute, the adjective rau and the plural Rauen). Merged into the majority, Raute.
+# question Dell: Unclear whether this is a person or the company. Both are names, so dropped.
+# question ms: Merging into MS (Multiple Sklerose) would change the meaning, so dropped as an abbreviation instead.
+# question Munich: Dropped as a place name. If München is not on the reviewed list, a merge into it could be considered.
+# question iPhon: Assumes iPhone is the correct lemma. Whether it is on the list was not checked.

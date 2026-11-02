@@ -1,0 +1,47 @@
+Völlig	merge:völlig	capitalised adverb filed as lemma
+iN	merge:in	odd-case copy of the preposition
+Medizinische	merge:medizinisch	inflected adjective form filed as lemma
+Mia	drop	personal name
+klamm	merge:Klammer	most forms are Klammer (1,415); the lowercase noun is broken
+Fels	keep	real noun lemma; 'Fel' is the broken one
+Mods	merge:Mod	plural form
+Größere	merge:groß	inflected comparative
+Pools	merge:Pool	plural form
+Kürzlich	merge:kürzlich	capitalised adverb
+Negativ	merge:negativ	mostly inflected adjective forms
+kB	drop	specialist abbreviation
+dieMehr	drop	fused article plus word, not a word
+Essener	drop	demonym derived from a place name
+e-mail	merge:E-Mail	lowercase noun
+Ständer	keep	own noun (rack, stand), not a plural of Stand
+Schlager	keep	own noun
+Ranger	keep	established loan
+Prüfen	merge:prüfen	capitalised verb
+Dealer	keep	established loan with its own meaning
+nächste	merge:nächst	inflected adjective form
+Single	merge:single	forms are singles, singler and so on, merged into the lowercase entry
+pH-Wert	keep	correct spelling; the lowercase 'ph-Wert' is the variant
+uhr	merge:Uhr	lowercase noun
+Hierzu	merge:hierzu	capitalised adverb
+Physiker	keep	own noun, not a plural of Physik
+Felsen	merge:Fels	inflected form of Fels
+Parker	drop	surname
+Jährlich	merge:jährlich	capitalised adjective
+Tattoos	merge:Tattoo	plural form
+Anrufer	keep	own noun
+Pole	keep	Pole (the nationality), own noun
+Boxer	keep	own noun
+Grabe	merge:Graben	cut-off or inflected form of Graben
+ev	drop	abbreviation and mixed junk forms
+rüde	merge:Rüde	lowercase noun
+Muslime	merge:Muslim	plural form
+Julie	drop	personal name
+Studiengänge	merge:Studiengang	plural form
+dürr	keep	valid lowercase adjective
+
+# question klamm: forms are mostly Klammer, but klamm (damp) is also an adjective and Klamm (gorge) is on the list; I merged into Klammer.
+# question Mia: a case-pair merge would point at 'mia', which is itself a name, so I dropped it.
+# question Essener: demonym from the city Essen, neither a plural of Essen nor clearly a learnable lemma; I chose drop.
+# question nächste: the dictionary form is nächst, but 'Nächste' is already on the list; I merged into nächst.
+# question pH-Wert: the ruling says case variants merge into the real lemma, but this is the correctly written form and 'ph-Wert' is the variant, so I kept it.
+# question dürr: the screener flagged it as a case pair, but the lowercase adjective form is correct, so I kept it.

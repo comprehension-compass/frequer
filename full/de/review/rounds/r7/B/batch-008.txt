@@ -1,0 +1,45 @@
+chance	merge:Chance	lower-case noun; Chance is the real lemma
+Klon	keep	real noun (clone), not a plural of Klo
+Kreuzer	keep	real noun (cruiser, coin, surname), not a plural of Kreuz
+Passe	merge:passen	the text shows the verb form passen, mis-tagged as a noun
+BMWi	drop	specialist acronym for a ministry
+sp	drop	abbreviation
+Städtereisen	merge:Städtereise	plural of a listed noun
+Umweltschützer	keep	real person noun, separate from Umweltschutz
+Verbraucherschützer	keep	real person noun, separate from Verbraucherschutz
+examen	merge:Examen	lower-case noun
+Raps	keep	real noun (rapeseed), not a plural of Rap
+gute	merge:gut	inflected adjective forms (gute, guteste) filed under a noun lemma
+lumen	merge:Lumen	lower-case noun
+Birke	keep	real singular noun
+Schrein	keep	real noun, not a plural of Schrei
+Rundreisen	merge:Rundreise	plural of a listed noun
+Hänger	keep	real noun (trailer, slump)
+Gage	keep	real noun (fee), not a plural of Gag
+Passen	merge:passen	capitalised verb
+Todesfälle	merge:Todesfall	plural of a listed noun
+Robe	keep	real noun (robe), not a plural of Rob
+Terminals	merge:Terminal	genitive and plural form filed as lemma
+Drücker	keep	real noun (door handle, trigger)
+Nachhaltig	merge:nachhaltig	capitalised adjective
+Winde	merge:Wind	the example shows the plural Winden of Wind
+Kaffees	merge:Kaffee	genitive form filed as lemma
+Töpfer	keep	real noun (potter), not a plural of Topf
+Faxe	merge:Fax	plural of a listed noun
+Gewerkschafter	keep	real person noun, separate from Gewerkschaft
+ct	drop	abbreviation
+Wusstest	merge:wissen	conjugated verb form filed as lemma
+Bewusst	merge:bewusst	capitalised adjective
+Wunderschön	merge:wunderschön	capitalised adjective
+Delfine	merge:Delfin	plural of a listed noun
+Hirte	keep	real singular noun
+eau	merge:Eau	lower-case form of a fragment that has a case pair
+Hmmm	merge:hmmm	capitalised sentence-initial interjection
+Mangan	keep	real noun (manganese), not a plural of Manga
+Ihrerseits	merge:ihrerseits	capitalised adverb
+Fährte	keep	real noun (trail), not a plural of Fahrt
+# question BMWi: a ministry acronym could count as a famous institution, but I dropped it as a specialist acronym; the listed BMWI probably needs the same decision.
+# question gute: the case-pair hint points to Gute, but the written forms are adjective inflections, so I chose gut.
+# question eau: Eau is only a fragment of Eau de Toilette, and the listed Eau (PROPN) may itself be junk.
+# question Hmmm: this is an interjection tagged VERB, and hmmm may not be worth keeping as a lemma; I merged it only on the case rule.
+# question Wusstest: the listed wusstest is itself a conjugated form and may need merging into wissen too.

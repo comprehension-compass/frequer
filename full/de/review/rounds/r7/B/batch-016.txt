@@ -1,0 +1,43 @@
+Mamis	merge:Mami	plural filed as lemma
+Zimmerer	keep	carpenter, a separate noun from Zimmer
+Diagramme	merge:Diagramm	plural filed as lemma
+amen	merge:Amen	lower-case noun
+hopfen	merge:Hopfen	lower-case noun
+Fraglich	merge:fraglich	adjective filed under a capital
+Novell	drop	company name, not a famous institution
+Professorinn	merge:Professorin	cut-off fragment
+Zaubern	merge:zaubern	nominalised verb, forms are zaubern/zauberns
+Pioniere	merge:Pionier	plural filed as lemma
+Zoller	drop	mostly a surname, and a colloquial "14 Zoller" for inch sizes
+Lattenroste	merge:Lattenrost	plural filed as lemma
+Antifas	merge:Antifa	plural filed as lemma
+Importeure	merge:Importeur	plural filed as lemma
+Regionale	merge:regional	inflected adjective (regionalen)
+mom	drop	English word
+Bauen	merge:bauen	nominalised verb (des Bauens), not a lexicalised noun
+Pseudonyme	merge:Pseudonym	plural filed as lemma
+würstchen	merge:Würstchen	lower-case noun
+Ökologisch	merge:ökologisch	adjective filed under a capital
+Deiche	merge:Deich	plural filed as lemma
+Zusammensetzunge	merge:Zusammensetzung	cut-off fragment
+Mixen	merge:mixen	nominalised verb (zum Mixen)
+Abschlussarbeite	merge:Abschlussarbeit	cut-off fragment
+Eigelbe	merge:Eigelb	plural filed as lemma
+Elternabende	merge:Elternabend	plural filed as lemma
+apply	drop	English word
+Auslandsaufenthalte	merge:Auslandsaufenthalt	plural filed as lemma
+Downloader	keep	established loan, agent noun with its own meaning
+Treffe	merge:Treffen	cut-off fragment, written treffen
+Anomalie	keep	correct singular
+hefe	merge:Hefe	lower-case noun
+Würstchen	keep	correct lemma
+lübben	drop	place name
+pr	merge:PR	abbreviation in lower case
+Elektronische	merge:elektronisch	inflected adjective (elektronischen)
+Fundstelle	keep	correct singular
+Herzlichst	merge:herzlichst	adverb filed under a capital
+Kain	drop	biblical name
+Tragegriffe	merge:Tragegriff	plural filed as lemma
+# question Zoller: mostly the surname, but "14 Zoller" is a real colloquial word for inch sizes, and it is not the plural of Zoll; dropped as a name
+# question lübben: 'Lübben' is already on the list as PROPN, which conflicts with the rule that any place name still seen is not on the list; dropped as a place name
+# question Novell: the company is the main sense, but the adjective novell is also on the list; dropped as a company name

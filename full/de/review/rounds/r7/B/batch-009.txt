@@ -1,0 +1,43 @@
+Künftig	merge:künftig	adjective filed under a capital
+dasMehr	merge:Mehr	article glued to the noun, lower-case filing
+Perücken	merge:Perücke	plural of a listed noun
+Fleischer	keep	"butcher" is its own noun, not a plural of Fleisch
+eckdaten	merge:Eckdaten	noun filed in lower case
+Mitteldeutsch	merge:mitteldeutsch	inflected adjective under a capital
+lego	merge:Lego	brand noun filed in lower case
+Verstellbare	merge:verstellbar	inflected adjective under a capital
+Campe	merge:campen	written forms are mostly the verb "campen"
+Optimieren	merge:optimieren	verb under a capital
+Stocker	drop	surname in the examples
+Ähm	merge:ähm	interjection under a capital
+selbermachen	merge:Selbermachen	lower-case variant of the listed noun
+Freien	merge:frei	inflected adjective form
+Tribute	merge:Tribut	plural of a listed noun
+Sonderanfertigungen	merge:Sonderanfertigung	plural of a listed noun
+Deniz	drop	given name
+Arbeiten	keep	nominalised infinitive (das Arbeiten) is a noun in its own right
+Headsets	merge:Headset	plural of a listed noun
+Zähle	merge:zählen	the written form is the verb
+ß	drop	single letter, not a word
+Schlagworte	merge:Schlagwort	plural filed as the lemma
+autofahren	merge:Autofahren	lower-case variant of the listed noun
+details	merge:Detail	plural in lower case
+Hilden	drop	place name not on the list
+Historisch	merge:historisch	adjective under a capital
+Positive	merge:positiv	inflected adjective form
+Objektive	merge:Objektiv	plural of a listed noun
+ePaper	keep	correct spelling of the word
+Datenschützer	keep	own agent noun
+Schreie	merge:schreien	the written form is the verb
+Anlasser	keep	own noun (starter)
+Lanze	keep	own noun (lance)
+Decker	drop	surname in the examples
+ai	merge:AI	lower-case abbreviation of the listed AI
+Fußballspielen	keep	nominalised infinitive, a noun in its own right
+Pulse	merge:Puls	plural of a listed noun
+Lang	merge:lang	adverb/adjective form under a capital
+Träumer	keep	own agent noun
+Graphen	merge:Graph	plural of a listed noun
+# question dasMehr: unclear whether it is a glued article plus noun or a brand name; I treated it as the noun Mehr.
+# question Arbeiten: the forms are mostly "des Arbeitens" (nominalised verb), so I kept it rather than merging into Arbeit, but merge:arbeiten would also be defensible.
+# question Fußballspielen: kept as a nominalised infinitive, the same reasoning as Arbeiten, since the screener's singular Fußballspiel is a different word.

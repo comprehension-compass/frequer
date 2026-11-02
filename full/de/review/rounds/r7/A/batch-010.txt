@@ -1,0 +1,46 @@
+Griechische	merge:Griechisch	language name filed under an inflected form
+Lippenstifte	merge:Lippenstift	plural filed as lemma
+Harzer	merge:Harz	derived demonym or adjective of a place name
+penis	merge:Penis	lower-case noun
+Rotweine	merge:Rotwein	plural filed as lemma
+Homosexuelle	keep	nominalised adjective, a person noun in its own right
+Rückkehrer	keep	agent noun with its own meaning
+Spanische	merge:Spanisch	language name filed under an inflected form
+Basketballer	keep	person noun with its own meaning
+Grundig	keep	well-known German brand, separate from the adjective grundig
+Vegane	merge:vegan	adjective filed under a capitalised inflected form
+Whirlpools	merge:Whirlpool	plural filed as lemma
+Puzzles	merge:Puzzle	plural filed as lemma
+Verbund	merge:verbunden	mostly the participle verbunden, filed under a capitalised form
+schmerz	merge:Schmerz	lower-case noun
+Kämmerer	keep	person noun (treasurer), not a plural of Kammer
+Verweisen	merge:Verweis	inflected plural of Verweis filed as lemma
+ggmbH	merge:gGmbH	case variant
+Dampfen	keep	nominalised verb used as a noun (das Dampfen)
+KMUs	merge:KMU	plural filed as lemma
+Veränderungsprozesse	merge:Veränderungsprozess	plural filed as lemma
+Bundesamts	merge:Bundesamt	genitive filed as lemma
+Hämorrhoiden	merge:Hämorrhoide	plural filed as lemma, singular is on the list
+Zertifiziert	merge:zertifiziert	capitalised form of an adjective on the list
+aufMehr	drop	scraping artifact from a "auf Mehr" link, not a word
+Produktionsprozesse	merge:Produktionsprozess	plural filed as lemma
+Verbinden	merge:verbinden	capitalised verb
+Schläfe	keep	correct singular (temple), unrelated to Schlaf
+Japanische	merge:Japanisch	language name filed under an inflected form
+Wohnen	keep	nominalised verb used as a noun (das Wohnen)
+pH	keep	common school-level term, separate from PH
+Kaserne	keep	correct singular lemma
+davis	merge:Davis	lower-case form of the name already on the list
+Hotspots	merge:Hotspot	plural filed as lemma
+Nichten	drop	only occurs as spam "nichtens", not the noun Nichte
+PKWs	merge:PKW	plural filed as lemma
+Schwabe	keep	demonym noun with its own meaning
+Streicher	keep	noun in its own right (string players)
+Audits	merge:Audit	plural filed as lemma
+Hoodies	merge:Hoodie	plural filed as lemma
+
+# question Harzer: merged into Harz because it is a derived adjective of a place name, but "Harzer" can also be an inhabitant noun.
+# question Grundig: kept as a famous brand, though it is a company name and the rules only mention institutions.
+# question Verbund: the written forms are mostly the participle verbunden, so I merged it there rather than into the noun Verbund, which has a separate entry.
+# question aufMehr: dropped as a concatenation artifact; the case-pair AufMehr (frequency 51) is probably junk too and needs checking.
+# question Nichten: the singular 'Nicht' on the list looks like the same spam artifact and should probably be checked.

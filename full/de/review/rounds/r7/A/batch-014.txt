@@ -1,0 +1,45 @@
+Grauen	keep	das Grauen is a noun in its own right; not a form of Grau
+Parodontitis	keep	correct noun lemma; the "Parodontiti" entry is the broken one
+Must-have	merge:Must-Have	case duplicate of the noun entry
+Persönliche	merge:persönlich	inflected adjective (persönlichen) under a capitalised lemma
+Gelsenkirchener	merge:gelsenkirchener	derived toponym adjective; the lower-case entry is already on the list
+Dritten	merge:drittens	adverb (drittens) filed under a capitalised lemma
+Faire	merge:fair	inflected adjective (fairen) under a capitalised lemma
+Gehölze	merge:Gehölz	plural filed as lemma
+Lyriker	keep	the poet is a separate word from Lyrik
+Petite	drop	foreign (French) word in spam text, not an established loan
+Sichtweisen	merge:Sichtweise	plural filed as lemma
+Diebstähle	merge:Diebstahl	plural filed as lemma
+Leitzins	keep	correct singular; "Leitzin" is the broken entry
+Spiegelunge	merge:Spiegelung	cut-off fragment of a plural
+Fahren	keep	nominalised infinitive (das Fahren), a noun in its own right
+Spielen	keep	nominalised infinitive (das Spielen), a noun in its own right
+walther	merge:Walther	lower-case noun filed under a lower-case lemma; merges into the listed Walther
+Finne	keep	der Finne (a Finn) is a real noun, not a plural of Finn
+Wegen	merge:wegen	preposition filed under a capitalised lemma
+Heut	merge:heute	clipped form of the adverb heute, wrongly tagged as a verb
+Pellets	merge:Pellet	plural filed as lemma
+Wünsch	merge:wünschen	imperative/stem of a verb under a capitalised lemma
+Reisen	keep	nominalised infinitive (das Reisen), a noun in its own right
+Jahresabschlüsse	merge:Jahresabschluss	plural filed as lemma
+Tipper	keep	a person noun (typist, tipster) with its own entry
+Hübsch	merge:hübsch	case duplicate of the adjective
+erspart	merge:Ersparte	the written forms are the nominalised adjective (das Ersparte), not a participle
+Langlaufen	keep	nominalised infinitive (das Langlaufen), a noun in its own right
+Schilde	merge:Schild	plural filed as lemma
+Malereie	merge:Malerei	cut-off plural fragment
+Miene	keep	correct singular; "Mien" is the broken entry
+Playliste	merge:Playlist	adapted spelling variant of the listed Playlist
+Beete	merge:Beet	plural filed as lemma
+Dreher	keep	a person noun (lathe operator) with its own entry
+Schweizerinn	merge:Schweizerin	cut-off plural fragment
+Äußerlich	merge:äußerlich	adjective under a capitalised lemma
+Statistiker	keep	a person noun with its own entry, distinct from Statistik
+Ringer	keep	a person noun (wrestler) with its own entry
+Ärgerlich	merge:ärgerlich	adjective under a capitalised lemma
+Logistiker	keep	a person noun with its own entry, distinct from Logistik
+
+# question Gelsenkirchener: it is a toponym-derived demonym, both a noun ("der Gelsenkirchener") and an indeclinable adjective; I merged it into the listed lower-case entry, but it could be dropped as a place-name derivative.
+# question walther: Walther is a personal name, and the rule says other names drop; I merged it only because Walther is already on the list.
+# question erspart: the dictionary form of the nominalised adjective could be Ersparte or Erspartes; I chose Ersparte.
+# question Petite: it is a French adjective in spam context; I dropped it rather than merging into the listed "Petit".

@@ -1,0 +1,45 @@
+Künftig	merge:künftig	capitalised adjective
+dasMehr	merge:Mehr	article fused to the noun
+Perücken	merge:Perücke	plural
+Fleischer	keep	"Fleischer" (butcher) is its own noun, not a plural of Fleisch
+eckdaten	merge:Eckdaten	lower-case noun
+Mitteldeutsch	merge:mitteldeutsch	capitalised adjective
+lego	merge:LEGO	lower-case noun, brand lemma is on the list
+Verstellbare	merge:verstellbar	inflected adjective
+Campe	merge:campen	the text shows nominalised "Campen", not a plural of Camp
+Optimieren	merge:optimieren	capitalised verb
+Stocker	drop	surname in the examples
+Ähm	merge:ähm	capitalised interjection
+selbermachen	merge:Selbermachen	lower-case noun
+Freien	keep	"im Freien" is a noun in its own right
+Tribute	merge:Tribut	plural
+Sonderanfertigungen	merge:Sonderanfertigung	plural
+Deniz	drop	first name
+Arbeiten	keep	nominalised infinitive, a noun in its own right like Essen
+Headsets	merge:Headset	plural
+Zähle	merge:zählen	capitalised verb
+ß	drop	single letter, not a word
+Schlagworte	merge:Schlagwort	plural
+autofahren	merge:Autofahren	lower-case noun
+details	merge:Detail	lower-case plural
+Hilden	drop	place name not on the reviewed list
+Historisch	merge:historisch	capitalised adjective
+Positive	keep	nominalised adjective, a noun in its own right like das Gute
+Objektive	merge:Objektiv	plural
+ePaper	keep	correct spelling of the word, the lower-case entry is the odd one
+Datenschützer	keep	its own noun, not a plural of Datenschutz
+Schreie	merge:schreien	the text shows the verb
+Anlasser	keep	its own noun (starter motor)
+Lanze	keep	its own noun (lance)
+Decker	drop	surname in the examples
+ai	merge:AI	lower-case form of a listed abbreviation
+Fußballspielen	keep	nominalised infinitive, a noun in its own right
+Pulse	merge:Puls	plural
+Lang	merge:lang	capitalised adverb
+Träumer	keep	its own noun (dreamer)
+Graphen	merge:Graph	plural
+
+# question dasMehr: could be the brand "DasMehr" (PROPN, 96 on the list) or the noun "das Mehr"; I merged it to Mehr, which I could not confirm is on the list.
+# question Freien: unclear whether the lemma should be "Freie" (im Freien) or merged elsewhere; I kept it as an established noun use.
+# question Arbeiten: the text is mostly the genitive "Arbeitens" (nominalised verb); it could instead merge into the verb arbeiten. I kept it like Essen.
+# question Verstellbare: "verstellbare" is itself on the list as an inflected form, so the dictionary form "verstellbar" may need its own check.

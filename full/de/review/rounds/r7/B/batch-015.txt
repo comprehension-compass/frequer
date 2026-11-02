@@ -1,0 +1,45 @@
+Tannen	merge:Tanne	plural filed as lemma
+kw	merge:kW	lower-case form of listed abbreviation kW
+Börde	drop	all examples are the district/region name Börde, not on the place list
+Jedesmal	merge:jedesmal	adverb filed under a capital
+Smartwatche	merge:Smartwatch	plural/cut-off form
+Stickereie	merge:Stickerei	plural/cut-off form
+demo	merge:Demo	lower-case noun
+Bellen	merge:bellen	forms are the verb bellen; Bell is not a base noun
+Übertrage	merge:übertragen	cut-off of the verb (nominalised infinitive in examples)
+Farbtöne	merge:Farbton	plural filed as lemma
+Naturschützer	keep	a person noun in its own right, not a form of Naturschutz
+Schwärme	merge:Schwarm	plural (examples show Schwärmen as plural of Schwarm)
+cent	merge:Cent	lower-case noun
+Sommerabende	merge:Sommerabend	plural filed as lemma
+Geschosse	merge:Geschoss	plural filed as lemma
+Wirtschafts	merge:Wirtschaft	cut-off compound fragment
+tz	drop	fragment of unknown words (tzen, tzes), not a real word or clear abbreviation
+Anbringen	merge:anbringen	verb filed under a capital
+Gesunde	merge:gesund	inflected adjective form (gesunden)
+Stopper	keep	a real noun (device/person), not just a plural of Stopp
+Talkshows	merge:Talkshow	plural filed as lemma
+Trau	merge:trauen	inflected verb form filed as lemma
+xy	merge:XY	lower-case form of listed XY
+Ergebniss	merge:Ergebnis	misspelling
+Finanziell	merge:finanziell	adjective filed under a capital
+mA	drop	specialist unit abbreviation (milliampere)
+mb	merge:MB	lower-case form of listed abbreviation MB
+Blocker	keep	agent noun/loan with its own meaning, not a plural of Block
+Interviewer	keep	person noun in its own right
+Lecke	merge:lecken	verb forms (lecken, lecke) filed as a noun
+Demnächst	merge:demnächst	adverb filed under a capital
+Löte	merge:löten	verb form filed as a noun
+Membrane	merge:Membran	plural filed as lemma
+Verstecke	merge:Versteck	plural filed as lemma
+auerdem	merge:außerdem	broken encoding of außerdem
+Allgemeinmediziner	keep	person noun in its own right
+Renovierungsarbeite	merge:Renovierungsarbeit	plural/cut-off form
+Ödeme	merge:Ödem	plural filed as lemma
+Brokern	merge:Broker	inflected plural dative form
+Lauren	drop	a given name (English), not a German learnable word
+
+# question Börde: it is also a common noun (fertile plain), but every example is the proper name of a district or region, so I dropped it.
+# question Bellen: the genitive "bellens" hints at a name, but the verb bellen seems more likely; I merged into bellen.
+# question tz: tzen and tzes suggest a fragment of several different words, so no single target is obvious; I dropped it rather than merging into TZ.
+# question Lauren: could be a form of the verb lauern, but it is most likely the English given name; I dropped it.

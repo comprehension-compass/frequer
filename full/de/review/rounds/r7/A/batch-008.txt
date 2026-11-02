@@ -1,0 +1,44 @@
+chance	merge:Chance	lower-case noun
+Klon	keep	real noun; not a plural of Klo
+Kreuzer	keep	real noun (cruiser, coin), not a plural of Kreuz
+Passe	merge:passen	all forms are written passen, so it is the verb filed as a noun
+BMWi	drop	specialist acronym of a ministry
+sp	drop	lower-case abbreviation fragment
+Städtereisen	merge:Städtereise	plural filed as lemma
+Umweltschützer	keep	person noun with its own entry
+Verbraucherschützer	keep	person noun with its own entry
+examen	merge:Examen	lower-case noun
+Raps	keep	real noun (rapeseed)
+gute	merge:gut	inflected adjective forms filed as lemma
+lumen	merge:Lumen	lower-case noun
+Birke	keep	real noun
+Schrein	keep	real noun
+Rundreisen	merge:Rundreise	plural filed as lemma
+Hänger	keep	real noun (trailer)
+Gage	keep	real noun
+Passen	merge:passen	capitalised verb
+Todesfälle	merge:Todesfall	plural filed as lemma
+Robe	keep	real noun
+Terminals	merge:Terminal	genitive or plural filed as lemma
+Drücker	keep	real noun (door handle, "letzter Drücker")
+Nachhaltig	merge:nachhaltig	capitalised adjective
+Winde	merge:Wind	attested form is the plural winden of Wind
+Kaffees	merge:Kaffee	genitive filed as lemma
+Töpfer	keep	real noun (potter)
+Faxe	merge:Fax	plural filed as lemma
+Gewerkschafter	keep	person noun with its own entry
+ct	drop	abbreviation
+Wusstest	merge:wissen	conjugated form filed as lemma
+Bewusst	merge:bewusst	capitalised adjective
+Wunderschön	merge:wunderschön	capitalised adjective
+Delfine	merge:Delfin	plural filed as lemma
+Hirte	keep	real noun
+eau	drop	French fragment, not a German lemma
+Hmmm	merge:hmmm	capitalised variant of the listed interjection
+Mangan	keep	real noun (manganese)
+Ihrerseits	merge:ihrerseits	capitalised adverb
+Fährte	keep	real noun (track, trail)
+# question BMWi: a specialist ministry acronym should drop, but 'BMWI' (PROPN) is listed; if that one is kept as a famous institution, this should merge there instead.
+# question gute: tagged NOUN and paired with 'Gute', but the written forms (guteer, guteste) are adjective inflections, so I chose merge:gut over merge:Gute.
+# question eau: 'Eau' (PROPN) is on the list; I dropped this one as a fragment of Eau de Toilette/Cologne rather than merging into a possibly junk entry.
+# question Passe: Passe is also a real noun (yoke of a garment), but every attested form is passen, so I treated it as the verb.

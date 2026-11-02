@@ -1,0 +1,45 @@
+Tannen	merge:Tanne	plural filed as lemma
+kw	merge:kW	case variant of listed abbreviation
+Börde	drop	region and district name in all examples
+Jedesmal	merge:jedesmal	adverb under a capital
+Smartwatche	merge:Smartwatch	plural
+Stickereie	merge:Stickerei	plural
+demo	merge:Demo	lower-case variant
+Bellen	merge:bellen	nominalised verb, not a plural of Bell
+Übertrage	merge:übertragen	verb form (nominalised infinitive)
+Farbtöne	merge:Farbton	plural
+Naturschützer	keep	agent noun with its own entry, not a plural of Naturschutz
+Schwärme	merge:Schwarm	plural
+cent	merge:Cent	lower-case variant
+Sommerabende	merge:Sommerabend	plural
+Geschosse	merge:Geschoss	plural
+Wirtschafts	merge:Wirtschaft	cut-off fragment
+tz	drop	fragment of broken words (tzen, tzes), no clear target
+Anbringen	merge:anbringen	nominalised infinitive, verb is the lemma
+Gesunde	merge:gesund	inflected adjective
+Stopper	keep	agent noun with its own meaning
+Talkshows	merge:Talkshow	plural
+Trau	merge:trauen	conjugated verb form under a capital
+xy	merge:XY	lower-case variant
+Ergebniss	merge:Ergebnis	misspelling
+Finanziell	merge:finanziell	adjective under a capital
+mA	drop	specialist unit abbreviation
+mb	merge:MB	lower-case variant of listed abbreviation
+Blocker	keep	established loan, agent noun
+Interviewer	keep	agent noun with its own entry
+Lecke	merge:lecken	verb form (nominalised infinitive)
+Demnächst	merge:demnächst	adverb under a capital
+Löte	merge:löten	verb form (nominalised infinitive)
+Membrane	merge:Membran	plural
+Verstecke	merge:Versteck	plural
+auerdem	merge:außerdem	broken encoding of ß
+Allgemeinmediziner	keep	person noun with its own entry
+Renovierungsarbeite	merge:Renovierungsarbeit	plural
+Ödeme	merge:Ödem	plural
+Brokern	merge:Broker	inflected plural dative
+Lauren	drop	personal name
+
+# question Börde: it is also a common geographic noun (fertile loess plain), but every example is a place name, so I dropped it.
+# question tz: the forms tzen and tzes suggest broken words with lost letters, and the target is not obvious, so I dropped it rather than merging into TZ.
+# question mA: milliampere, a specialist abbreviation; the listed 'ma' is not a clear target, so I dropped it.
+# question kw: I merged into kW on the strength of the case-pair ruling, though kW is itself a specialist abbreviation.

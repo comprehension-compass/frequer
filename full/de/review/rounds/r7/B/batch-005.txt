@@ -1,0 +1,47 @@
+Neugierig	merge:neugierig	capitalised adjective, lower-case lemma already listed
+ge	drop	cut-off fragment (ge, geen, geste, geden) with no obvious target word
+Federer	drop	surname of Roger Federer, not a plural of Feder
+Kindertagesstätten	merge:Kindertagesstätte	plural filed as lemma
+Wendungen	merge:Wendung	plural filed as lemma
+Isabel	drop	personal name
+Sonnenschirme	merge:Sonnenschirm	plural filed as lemma
+Therme	keep	real noun (thermal spa), not a plural of the broken lemma 'Therm'
+Vorgehensweisen	merge:Vorgehensweise	plural filed as lemma
+Grüße	merge:Gruß	plural filed as lemma
+Informatiker	keep	own noun for the person, not a plural of Informatik
+Schwierigkeitsgrade	merge:Schwierigkeitsgrad	plural filed as lemma
+Mathematiker	keep	own noun for the person
+Zinn	keep	real noun (tin); 'Zin' is not a word
+Platine	keep	own noun (circuit board), different from Platin
+Jackpots	merge:Jackpot	plural filed as lemma
+Einkäufer	keep	own noun for the person
+herz	merge:Herz	noun filed under a lower-case lemma
+Urlaube	merge:Urlaub	plural filed as lemma
+Achja	merge:achja	case variant of the listed lemma
+Graben	keep	real noun (ditch), also covers Gräben
+Farmer	keep	own noun for the person
+Nahezu	merge:nahezu	capitalised adverb
+kHz	drop	unit abbreviation / specialist acronym
+ibiza	merge:Ibiza	lower-case variant of the listed name
+Wahlweise	merge:wahlweise	capitalised adverb
+Rote	merge:rot	inflected adjective forms (rote, roten) filed as lemma
+Natalie	drop	personal name
+Laster	keep	real noun (vice, lorry), not a plural of Last
+vanessa	drop	personal name
+Tutorials	merge:Tutorial	plural filed as lemma
+Musikalisch	merge:musikalisch	capitalised adjective
+Elektroniker	keep	own noun for the person
+Patche	merge:Patch	plural filed as lemma
+Anschreiben	keep	real noun (cover letter)
+Blatter	drop	mostly the surname Blatter
+Webinare	merge:Webinar	plural filed as lemma
+Schnitte	merge:Schnitt	forms and examples are plural of Schnitt
+Pfeiler	keep	own noun (pillar), not a plural of Pfeil
+Willen	merge:Wille	inflected form of Wille filed as lemma
+
+# question ge: all forms look like cut-off pieces of ge- words; I dropped it because no target is obvious, and the listed 'GE' looks like an acronym.
+# question kHz: 'KHz' is also listed, so dropping kHz as a specialist unit abbreviation may leave KHz needing the same review.
+# question Therme: the 'Therm' lemma the screener cites looks broken, so Therme may be the real singular and Therm may need merging into it.
+# question Grüße: Grüße is almost always plural (greetings) and may count as a plural with its own meaning; I merged it into Gruß.
+# question Blatter: the forms blattern/Blatter (smallpox) could count as an established plural-only noun; I dropped it as mostly the surname.
+# question Schnitte: 'Schnitte' (slice) is itself a valid noun, but the evidence is plural of Schnitt, so I merged it.
