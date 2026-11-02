@@ -1,0 +1,204 @@
+AKB	drop	insurance acronym
+Bürobedarf	keep	ordinary noun
+GIZ	drop	minor organisation
+Hisbollah	drop	foreign organisation
+Rückleucht	merge:Rückleuchte	cut-off lemma
+Thiele	drop	surname
+Tschüss	keep	common interjection
+krampfadern	merge:Krampfader	plural noun mis-tagged as verb
+most	keep	Most (must/cider), real noun
+night	drop	English
+schleswig-holsteinisch	keep	real adjective
+Arctic	drop	English/brand
+Bonnie	drop	first name
+Chia	keep	food word
+Commercial	drop	English
+Dropdown-Menü	drop	web compound
+Hilfsantrag	keep	real legal noun
+IPL	drop	technical acronym
+Kundalini	drop	specialist term
+Merck	drop	company
+Mundlos	drop	surname
+Nordfriesland	drop	district
+Rot-Weiß	drop	club name
+Shine	drop	English/brand
+Third	drop	English
+Timothy	drop	first name
+Wolfskin	drop	brand
+BPM	drop	technical abbreviation
+Glaser	keep	common noun (glazier)
+Gotthard	drop	name
+Krk	drop	minor place
+Lustig	keep	adjective lustig
+Ostafrika	drop	place not on reviewed list
+Rice	drop	English/surname
+Traveller	drop	English
+AKP	drop	foreign party
+Biedermann	keep	common noun
+Bristol	drop	foreign city
+Cancer	drop	English
+Col	drop	name/mountain pass
+Eurowing	drop	airline brand
+Gambling	drop	English
+HQ	drop	abbreviation
+Ink	drop	English
+Insurance	drop	English
+Machart	keep	ordinary noun
+Marzahn	drop	district
+Online-Ausgabe	keep	ordinary compound
+Saab	drop	brand
+Violet	drop	name/English
+car	drop	English
+initial	merge:Initiale	examples are Initialen
+Babbel	drop	brand
+Fe	drop	chemical symbol/junk
+GANZ	merge:ganz	case variant of ganz
+Händewasch	merge:Händewaschen	cut-off lemma
+IOS	drop	brand
+Janine	drop	first name
+Mobilheim	keep	ordinary noun
+Oralsex	keep	real word
+Sankt Georgen	drop	place
+Schnitzer	keep	ordinary noun
+TV-Sendung	keep	ordinary compound
+Tropical	drop	English
+Yards	drop	English unit
+jawohl	keep	interjection
+Castrop-Rauxel	drop	town
+Draw	drop	English
+Jean-Claude Juncker	drop	person
+Live-Übertragung	keep	ordinary compound
+SMA	drop	acronym
+Stolberg	drop	town
+Tiffany	drop	name/brand
+Wurstwar	merge:Wurstware	cut-off lemma
+füreinand	merge:füreinander	cut-off lemma
+Alpina	drop	brand
+Bildungsträger	keep	ordinary noun
+Freistil	keep	ordinary noun
+Jona	drop	first name
+MACHEN	merge:machen	case variant
+Notbremse	keep	ordinary noun
+Singapore	drop	English place spelling
+UB	drop	abbreviation
+vierköpfig	keep	real adjective
+Browser-Software	drop	web compound
+Cox	drop	surname
+Crypto	drop	English
+Facebook-Account	drop	web compound
+Fischfilet	keep	ordinary noun
+Fridays	drop	movement name
+Hebdo	drop	magazine name
+LCD-Display	drop	web compound
+Nomos	drop	publisher
+Snake	drop	English
+Toolbox	drop	English not established
+Weilburg	drop	town
+DIHK	drop	minor organisation
+Eukalyptus	keep	ordinary noun
+Gebärmutterhalskrebs	keep	ordinary noun
+Leave	drop	English
+Listing	drop	English
+OnePlus	drop	brand
+Terminus	keep	ordinary noun
+Verstrickunge	merge:Verstrickung	cut-off lemma
+BY	drop	English
+DAC	drop	technical acronym
+Damon	drop	name
+Edwin	drop	first name
+Gemeinderät	merge:Gemeinderat	wrong citation form
+Germersheim	drop	town
+Javier	drop	first name
+Meinungs-Bahn	drop	junk
+Metzler	drop	surname
+Mourinho	drop	person
+Opus	keep	ordinary noun
+Smash	drop	English/brand
+Stöger	drop	surname
+ALBA	drop	name
+Coat	drop	English
+DASS	merge:dass	case variant
+Flied	merge:Flieder	cut-off lemma
+Fossili	merge:Fossil	wrong citation form
+Hama	drop	brand
+Lotta	drop	first name
+Mediadate	merge:Mediadaten	wrong citation form
+Pod	drop	English
+Polka	keep	ordinary noun
+Technologies	drop	English
+Whitney	drop	first name
+länderübergreifen	merge:länderübergreifend	cut-off lemma
+BVV	drop	minor organisation
+EDEKA	drop	brand
+EMC	drop	company
+Forms	drop	English
+Monza	drop	place/name
+Schwabach	drop	town
+Skipist	merge:Skipiste	cut-off lemma
+USS	drop	ship prefix
+Content-Management-System	keep	established compound
+DSB	drop	acronym
+Fewo	drop	web abbreviation
+Geiz	keep	ordinary noun
+Jogi	drop	nickname
+KDE	drop	technical acronym
+RAID	drop	technical acronym
+Schreibware	merge:Schreibwaren	plural-only noun
+services	drop	English
+A-Linie	keep	established word
+AH	keep	interjection ah
+Agility	drop	English
+Alpin	merge:alpin	adjective, case variant
+C-Klasse	drop	name/club class
+Collie	keep	dog breed noun
+Hauptartikel	keep	ordinary noun
+Osttirol	drop	region not on list
+Platzier	merge:platzieren	cut-off lemma
+VDSL	drop	technical acronym
+Wendler	drop	surname
+fünfundachtzigste	drop	compound number
+Anschlussfrag	merge:Anschlussfrage	cut-off lemma
+BASE	merge:Base	case variant (cousin)
+CSV	drop	technical acronym
+Cottag	drop	English cut-off
+IT-Experte	keep	ordinary compound
+IUCN	drop	minor organisation
+July	drop	English
+Louisiana	drop	US state, not on list
+MENSCHEN	merge:Mensch	case variant
+Makita	drop	brand
+Megan	drop	first name
+Nordirak	drop	region not on list
+Plaque	keep	dental term used in German
+PwC	drop	company
+Rummenigge	drop	person
+SAT-TV	drop	web compound
+Schott	drop	surname
+Schönborn	drop	surname
+Socket	drop	English
+WIEDER	merge:wieder	case variant
+Brock	drop	surname
+Fußball-Nationalmannschaft	keep	ordinary compound
+KTS	drop	acronym
+LMS	drop	technical acronym
+Martinez	drop	surname
+Prada	drop	brand
+Reservation	keep	real noun
+rückwärt	merge:rückwärts	cut-off lemma
+Barca	drop	club name
+Baur	drop	surname
+Bernadette	drop	first name
+Birkenfeld	drop	town
+Carrie	drop	first name
+Copa	drop	competition name
+Downhill	drop	English
+Kln	drop	broken Köln
+Mental	merge:mental	case variant
+Menzel	drop	surname
+NachtJetzt	drop	template junk
+Nelly	drop	first name
+Odigeo	drop	company
+Ostasien	drop	region not on list
+Xenon	keep	chemical element
+Youtube-Kanal	keep	common compound
+bilingual	keep	used in German

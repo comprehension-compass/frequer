@@ -1,0 +1,59 @@
+Software-Entwicklung	merge:Softwareentwicklung	hyphenated spelling of the standard compound
+action	merge:Action	established loan noun filed lowercase
+Cuba	drop	name fragments (Cuba Libre, bar, portal); Kuba handled on place list
+Prostatitis	keep	real medical noun despite spammy spread
+Brutto	merge:brutto	adverb/adjective filed with wrong case
+Google-Suche	drop	brand web compound
+Punkto	merge:puncto	variant spelling of (in) puncto
+DVB-T	keep	consumer TV standard acronym widely met in Germany
+DW	keep	Deutsche Welle, nationally famous broadcaster like ARD/ZDF
+Volksrepublik China	drop	place name not on the place list
+US-Unternehmen	keep	ordinary news compound, not web junk
+Rhiniti	merge:Rhinitis	cut-off lemma
+stop	merge:Stopp	same word as German Stopp (noun)
+LSF	keep	Lichtschutzfaktor, everyday acronym on sunscreen
+Inhouse	keep	established business loan (inhouse)
+DLRG	keep	nationally famous rescue body
+EU-Ebene	keep	common news compound
+GDL	keep	nationally famous union from rail strikes
+Plug-Ins	merge:Plug-in	plural of established loan
+minütig	keep	real adjective (-minütig), written apart after numerals
+Bestätigungs-E-Mail	drop	web template compound
+Charity	keep	established loan
+entgegenstehend	merge:entgegenstehen	participle; dictionary form is the verb
+FED	drop	foreign institution, not a German national institution
+PEGIDA	keep	nationally famous movement referred to by name
+Translation	keep	real German word (physics/maths)
+Preis-Leistung	merge:Preis-Leistungs-Verhältnis	clipped form of the same compound
+CPUs	merge:CPU	plural of common acronym
+Inputs	merge:Input	plural of established loan
+Maritim	drop	hotel brand usage
+Gallen	merge:Galle	plural of Galle (common-noun-like 94.9%)
+Automatenspiele	merge:Automatenspiel	plural of real noun
+Blend	merge:Blender	clipped lemma of Blender
+HOTEL	merge:Hotel	wrong-case common noun
+Tara	keep	common noun (tare); tagger mistook for name
+Botox	keep	genericised common word
+HDTV	keep	common consumer acronym
+BewohnerInne	merge:Bewohnerin	cut-off of BewohnerInnen; -innen plural lemma
+Luxembourg	drop	place name spelling not on the place list
+Streetwear	keep	established fashion loan
+nchst	merge:nächst	broken encoding of nächst
+zapatistisch	keep	real adjective
+allerbe	merge:allerbest	clipped superlative
+Burkina	drop	place name fragment not on the place list
+most	merge:Most	noun Most filed lowercase
+Lustig	merge:lustig	adjective filed with wrong case
+Online-Ausgabe	keep	ordinary compound
+Content-Management-System	drop	specialist tech compound
+AH	merge:ah	interjection filed with wrong case
+BASE	merge:Base	noun Base (cousin) filed in caps
+Youtube-Kanal	drop	brand web compound
+# question US-Unternehmen: rules don't say whether transparent hyphenated news compounds (US-Unternehmen, EU-Ebene, Online-Ausgabe) are kept or dropped as hyphenated compounds
+# question Youtube-Kanal: brand + common noun compounds (Google-Suche, Youtube-Kanal) appear in everyday sentences; dropped as brand compounds, unsure
+# question DVB-T: line between consumer and specialist technical acronyms (DVB-T, HDTV) is not set
+# question FED: rules list international bodies (EU, UNO, NATO) but not foreign national institutions often named in German news (Fed)
+# question GDL: whether a union famous mainly through strikes counts as a nationally famous institution
+# question BewohnerInne: Binnen-I gender form covers both Bewohner and Bewohnerin; unclear which lemma it merges into
+# question nchst: list's citation form for superlative adjectives (nächst/nächste, allerbest/allerbeste) unclear
+# question Tara: rare common noun mostly outweighed by name usage; unclear whether to keep

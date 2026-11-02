@@ -1,0 +1,253 @@
+Martini	keep	common noun (the drink)
+Midi	drop	name or fashion tag, not a learner word
+Rot-Grün	keep	established political term
+Sylvie	drop	first name
+bildgeben	merge:bildgebend	clipped adjective
+e-Commerce	keep	established loan
+minütig	drop	only a suffix fragment (15-minütig)
+ACE	drop	name
+Beckham	drop	surname
+Buddhist	keep	ordinary German word
+Chapter	drop	English word
+Duisburg-Esse	drop	cut-off minor place/university name
+Fortschreit	merge:fortschreiten	clipped Fortschreiten
+Foster	drop	surname
+Radiesche	merge:Radieschen	clipped
+Rescue	drop	English word
+Saul	drop	personal name
+Toro	drop	name
+YOU	drop	English
+Achensee	drop	minor place name
+Asian	drop	English
+Brose	drop	surname/club
+Coca	drop	brand fragment
+Cosmetics	drop	English brand text
+Factor	drop	English/brand
+Goethe-Universität	drop	single university name
+Immanuel	drop	first name
+NY	drop	abbreviation
+Natalia	drop	first name
+SSH	drop	technical acronym
+Tao	drop	name usage
+UNESCO-Weltkulturerbe	keep	established compound
+Bio-Produkt	keep	real compound
+Bulli	keep	common noun (VW bus)
+Covers	merge:Cover	plural of loan Cover
+IPCC	drop	organisation acronym
+PDS	keep	political party
+Samantha	drop	first name
+Statista	drop	company/website
+Stuck	keep	real German word
+unbewohnen	merge:unbewohnt	participle adjective
+Browser-Plugin	drop	hyphenated tech compound
+Dakar	drop	foreign city
+Daniele	drop	first name
+File	drop	English
+KPMG	drop	company
+Kath	drop	abbreviation fragment
+Leistungsdate	merge:Leistungsdaten	clipped plural
+Lemon	drop	English
+NBC	drop	company
+Preiswert	merge:preiswert	wrong-case adjective
+Ausricht	merge:ausrichten	clipped verb
+Baunatal	drop	town
+Grafikdesign	keep	real noun
+Neuhausen	drop	town
+PT	drop	abbreviation
+Password	drop	English
+Rau	merge:rau	wrong-case adjective
+Tableau	keep	real German word
+Vergnügungspark	keep	real noun
+WR	drop	abbreviation
+jQuery	drop	technical product
+jahrhundertealt	keep	real adjective
+prmaximus	drop	spam/site
+rechtssich	merge:rechtssicher	clipped adjective
+Auswander	merge:auswandern	clipped verb
+Bischoff	drop	surname
+Blocher	drop	surname
+CBS	drop	company
+DACH	merge:Dach	wrong-case Dach
+E-Klasse	drop	brand
+Haarspray	keep	real noun
+Interwett	drop	betting brand
+Schramm	drop	surname
+WD	drop	brand
+Writer	drop	English
+office	drop	English word, not standalone German
+Arch	drop	name
+Bestätigungs-E-Mail	drop	hyphenated web compound
+Bora	drop	name
+Brandon	drop	first name
+Check-out	keep	established loan
+Editions	drop	English
+Gleichstrom	keep	real noun
+HAUS	merge:Haus	wrong-case
+Jakobus	drop	personal name
+Kramp-Karrenbauer	drop	surname
+Snap	drop	app brand
+Susanna	drop	first name
+TLS	drop	technical acronym
+entlarv	merge:entlarven	clipped verb
+great	drop	English
+into	drop	English
+mr	drop	English
+other	drop	English
+AOL	drop	company
+Benutzerdate	merge:Benutzerdaten	clipped plural
+Charity	keep	established loan
+Classics	drop	English brand
+Edmund	drop	first name
+Elisa	drop	first name
+Falkenstein	drop	town/castle
+Kolumbus	drop	historical figure
+Melatonin	keep	real noun
+Probiotika	keep	real noun
+SU	drop	name
+Suunto	drop	brand
+Waldemar	drop	first name
+Wetterverhältnis	keep	real noun
+Allerheilig	merge:Allerheiligen	clipped
+Arbeitnehmerinne	merge:Arbeitnehmerin	clipped
+Boll	drop	surname
+Claim	drop	marketing English
+Detaillierter	merge:detailliert	comparative of detailliert
+Montessori	drop	person name
+Pont	drop	French name
+Relationship	drop	English
+Thermo	drop	brand prefix
+Winston	drop	first name
+eMail-Adresse	merge:E-Mail-Adresse	spelling variant
+Anni	drop	first name
+Brainstorming	keep	established loan
+Cassis	keep	real noun
+Cycle	drop	English
+Dental	drop	English brand text
+IDC	drop	company
+Lkw-Fahrer	keep	established compound
+Rockefeller	drop	surname
+Stendal	drop	town
+Surround	drop	English
+Wells	drop	name
+entgegenstehend	keep	real adjective
+unterschätzend	merge:unterschätzen	participle of unterschätzen
+FED	keep	the Fed, central bank widely named in German news
+Freudenberg	drop	town/company
+Heraus	merge:heraus	wrong-case adverb
+Hygienevorschrift	keep	real noun
+Immigrant	keep	established word
+Lambert	drop	surname
+McAfee	drop	brand
+PEGIDA	drop	minor organisation
+Shades	drop	English
+Tabs	drop	English plural, tech
+Transition	drop	English
+forex	drop	specialist jargon
+CB	drop	abbreviation
+Dopamin	keep	real noun
+EU-Mitgliedsstaat	keep	established compound
+Föhr	drop	island/place name
+Haushalts-Bahn	drop	junk
+Infrastructure	drop	English
+Nowak	drop	surname
+Orts-Bahn	drop	junk
+Planning	drop	English
+Schröter	drop	surname
+Wohlwolle	merge:Wohlwollen	clipped
+dreiundvierzigste	drop	spelled number compound
+selbstbewus	merge:selbstbewusst	clipped
+weltbest	drop	superlative fragment, no obvious lemma
+Come	drop	English
+Dancing	drop	English
+Denon	drop	brand
+Driving	drop	English
+Frieda	drop	first name
+JP	drop	abbreviation
+Ja-Wort	keep	established compound
+Mack	drop	surname
+Manning	drop	surname
+Mareike	drop	first name
+Or	drop	English
+Proof	drop	English
+Sur	drop	foreign fragment
+Tetris	drop	product
+Tourist-Information	keep	established compound
+Translation	drop	English
+Brandschutzordnung	keep	real noun
+Ender	drop	surname
+Ingelheim	drop	town
+Interessanterweis	merge:interessanterweise	clipped
+JS	drop	abbreviation
+Logic	drop	English
+MR	drop	abbreviation
+Paul-Ehrlich-Institut	keep	nationally known institute
+Rechtsfolg	merge:Rechtsfolge	clipped
+Tauchgäng	merge:Tauchgang	clipped plural
+Torres	drop	surname
+Waste	drop	English
+Westjordanland	drop	place name not on reviewed list
+control	drop	English
+deutschen	merge:Deutsche	nationality, wrong-case
+want	drop	English
+zweiundsechzigste	drop	spelled number compound
+Aerobic	keep	established loan
+Bloom	drop	surname
+E-Mail-Programm	keep	established compound
+Förmche	merge:Förmchen	clipped
+Hans-Georg	drop	first name
+Herzrase	merge:Herzrasen	clipped
+Ilona	drop	first name
+KBV	drop	minor organisation
+Preis-Leistung	drop	fragment of Preis-Leistungs-Verhältnis
+Science-Fiction	keep	established word
+Ukraine-Krieg	keep	established news compound
+VGA	drop	technical acronym
+Wowereit	drop	surname
+short	drop	English
+Frankenstein	drop	fictional name
+Kenwood	drop	brand
+Lafontaine	drop	surname
+Oklahoma	drop	place name not on reviewed list
+Palmas	drop	place fragment
+RW	drop	abbreviation
+Staatsgebiet	keep	real noun
+Temple	drop	English/name
+Topic	drop	English
+UNTER	merge:unter	wrong-case preposition
+Angry	drop	English
+Arabie	merge:Arabien	clipped
+Arc	drop	name
+Blanca	drop	name
+CPUs	merge:CPU	plural of CPU
+Garantiebedingung	keep	real noun
+Halsarzt	drop	no evidence, junk
+Latin	drop	English
+MDK	drop	minor organisation
+Messaging	drop	English
+MÜNCHEN	merge:München	upper-case city
+Nutzungs-Bahn	drop	junk
+Nürting	drop	cut-off minor town
+PersonenCa	drop	template junk
+Pichler	drop	surname
+Schlesie	merge:Schlesien	clipped
+Sulzbach	drop	town
+Törtche	merge:Törtchen	clipped
+Ashton	drop	surname
+Froz	drop	English fragment
+Granny	drop	English
+Inputs	merge:Input	plural of loan Input
+Kirchdorf	drop	town
+Maritim	drop	hotel brand usage
+Nacional	drop	foreign
+Saints	drop	English
+Simson	drop	name/brand
+Skinny	drop	English
+Textrahmen	keep	real noun
+Clutch	drop	fashion English
+Gallen	drop	mostly St. Gallen
+Jackie	drop	first name
+Layla	drop	first name
+Moodle	drop	product
+# question FED: kept as widely named foreign institution; drop if foreign central banks do not count
+# question office: only Home Office/Oval Office usage, dropped as non-German standalone
+# question Westjordanland: well-known region but rules say unlisted place names drop

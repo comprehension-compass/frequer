@@ -26,4 +26,8 @@ with out.open('w') as fp:
 with out.with_suffix('.merges.tsv').open('w') as fp:
     for mg in flt.merges:
         fp.write(f"{mg.source}\t{mg.target}\t{mg.source_freq}\t{mg.evidence}\n")
-print('merges', len(flt.merges), 'kept', len(flt.ranked))
+with out.with_suffix('.excluded.tsv').open('w') as fp:
+    for x in flt.excluded:
+        f = st[x.lemma].freq if x.lemma in st else ''
+        fp.write(f"{x.rank}\t{x.lemma}\t{f}\t{x.cls}\t{x.reason}\n")
+print('merges', len(flt.merges), 'kept', len(flt.ranked), 'excluded', len(flt.excluded))

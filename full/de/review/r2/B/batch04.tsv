@@ -1,0 +1,252 @@
+NV	drop	legal citation abbreviation
+Schorndorf	drop	minor town
+Verbraucherinn	merge:Verbraucherin	clipped plural Verbraucherinnen
+Worldwide	drop	English
+Zusatzinfo	keep	real informal compound
+Altdorf	drop	minor town
+Connected	drop	English
+Freeman	drop	surname
+Geißler	drop	surname
+IGS	drop	school acronym
+Komplettset	keep	common noun
+Kunze	drop	surname
+Lille	drop	foreign city
+Miranda	drop	first name
+OVG	drop	court abbreviation, specialist
+Oli	drop	first name
+Opening	drop	English
+Quasar	keep	common noun
+Wellington	drop	foreign city
+Zubereit	merge:zubereiten	clipped verb
+Bestätig	merge:bestätigen	clipped verb
+Gloss	drop	English/brand; Glosse is a different word
+Hilfiger	drop	brand
+Marienplatz	drop	street/square name
+Metallbau	keep	common noun
+Mühldorf	drop	minor town
+Recording	drop	English
+Tirols	merge:Tirol	genitive of region
+Tomat	merge:Tomate	clipped noun
+wS	drop	abbreviation
+Beschleunig	merge:beschleunigen	clipped verb
+Collaboration	drop	English
+EBIT	drop	finance specialist acronym
+Fatima	drop	first name
+Gogh	drop	surname
+HANA	drop	name/product
+Inzest	keep	common noun
+Italy	drop	English
+Leni	drop	first name
+SEPA-Lastschrift	drop	hyphenated compound
+Senftenberg	drop	minor town
+Cookie-Richtlinie	drop	hyphenated web compound
+Coupe	keep	established loan (Coupé)
+Erarbeit	merge:erarbeiten	clipped verb
+HOME	drop	English
+ICQ	drop	product
+Jakarta	drop	foreign city not on place list
+LT	drop	abbreviation lt.
+Maduro	drop	surname
+Sure	keep	Koran chapter, German word
+Virgin	drop	brand/English
+Vorwärt	merge:vorwärts	clipped adverb
+Zusammentreffe	merge:Zusammentreffen	clipped noun
+ausbleibend	merge:ausbleiben	participle of verb
+Advance	drop	English
+CBD-Öl	drop	hyphenated product term
+Calw	drop	minor town
+Checkout	drop	English
+George W. Bush	drop	person
+IT-Bereich	drop	hyphenated jargon compound
+Lichtenstein	drop	mostly town/surname, ambiguous
+Like-Button	drop	hyphenated web compound
+Mesut	drop	first name
+Sträng	merge:Strang	clipped plural Stränge
+Zweite Bundesliga	keep	nationally famous institution
+again	drop	English
+designed	drop	English
+jar	drop	junk
+Default	drop	English
+EE	drop	junk
+Ehmke	drop	surname
+Essgewohnheite	merge:Essgewohnheit	clipped plural
+Fellbach	drop	minor town
+Internet-Angebot	drop	hyphenated web compound
+LED-Licht	drop	hyphenated web compound
+NJW	drop	legal journal abbreviation
+Nasdaq	drop	foreign index/brand
+Start-Up	keep	established loan
+Burma	drop	place name not on list
+Damian	drop	first name
+Echt	keep	real adjective/adverb echt
+Kawasaki	drop	brand/city
+Merseburg	drop	minor town
+Need	drop	English
+OC	drop	junk
+Stanford	drop	foreign place/university
+Suspension	keep	real German noun
+VVG	drop	legal acronym
+Wiebke	drop	first name
+speien	keep	real verb
+App-Store	drop	hyphenated brand term
+Automatenspiele	drop	casino spam text
+Blend	drop	English/software name
+Briefkast	merge:Briefkasten	clipped plural Briefkästen
+Chair	drop	English
+Corona-Test	drop	hyphenated compound
+Dogge	keep	common noun
+Foreign	drop	English
+HOAI	drop	specialist acronym
+HOTEL	keep	common noun
+IT-Unternehmen	drop	hyphenated compound
+ITIL	drop	specialist acronym
+Speichervorrichtung	drop	patent text, low diversity
+Tara	drop	mostly name
+Tottenham	drop	sports club
+Blu-Ray	keep	established hyphenated loan
+Daddy	drop	English
+Dodge	drop	brand
+Firmware-Update	drop	hyphenated compound
+ISP	drop	technical acronym
+Luc	drop	first name
+Saldo	keep	common noun
+Steh	merge:stehen	imperative stem
+neunundvierzigste	drop	compound number word
+Aibling	drop	minor town
+Bucher	drop	surname
+Bureau	drop	foreign
+Competence	drop	English
+Crush	drop	English/brand
+DV	drop	junk
+FI	drop	junk
+Harmony	drop	English/brand
+IPA	drop	specialist acronym
+Nordhausen	drop	minor town
+TPU	drop	technical acronym
+Tulln	drop	minor town
+nullen	merge:null	form of null
+persistent	keep	real German adjective
+Antragsgegnerin	keep	real legal noun
+Bullet	drop	English
+Corona-Infektion	drop	hyphenated compound
+GIS	drop	specialist acronym
+NSU-Prozess	drop	hyphenated compound
+Pfister	drop	surname
+Windsor	drop	foreign place
+Zivilcourag	merge:Zivilcourage	clipped noun
+beherzig	merge:beherzigen	clipped verb
+music	drop	English
+Add-On	keep	established hyphenated loan
+Ammersee	drop	minor lake
+Chakr	merge:Chakra	clipped plural Chakren
+Digitalisat	keep	real noun
+Gottschalk	drop	person
+Ljubljana	drop	foreign city not on place list
+Margarete	drop	first name
+Movies	drop	English
+Nixon	drop	person
+Prellunge	merge:Prellung	clipped plural
+Siebert	drop	surname
+VL	drop	junk
+Ansichtenseite	drop	broken/low diversity
+Hollywood-Star	drop	hyphenated compound
+Ilmenau	drop	minor town
+Löffler	drop	surname
+Popper	drop	surname
+SAT	drop	brand/abbreviation
+WhatsApp-Nachricht	drop	hyphenated brand compound
+Apulien	drop	region not on list
+Botox	keep	common word in German
+Caddy	drop	brand
+Close	drop	English
+Fiedler	drop	surname
+HDTV	drop	technical acronym
+Halbjahresbericht	keep	real compound
+IMAP	drop	technical acronym
+Infobox	drop	wiki jargon
+Naidoo	drop	person
+Quartalszahl	keep	real noun (used in plural)
+Schwesig	drop	person
+Solutions	drop	English
+ZF	drop	company
+Zirkonia	keep	common noun
+fuck	drop	English
+Beverly	drop	first name
+BewohnerInne	merge:Bewohnerin	gender-star form
+Course	drop	English
+Hawk	drop	English/name
+KBA	drop	minor authority acronym
+Luxembourg	drop	non-German spelling
+Neunkirche	drop	town Neunkirchen, not a word
+ORIGINAL	merge:Original	case
+OSZE	keep	nationally famous institution
+Osram	drop	company
+Paprikaschot	merge:Paprikaschote	clipped noun
+Pre	drop	English
+Regularie	merge:Regularien	plural-only noun
+UNHCR	keep	well-known international body
+nd	drop	junk
+GIF	keep	ordinary word
+LSG	drop	court abbreviation
+MfG	keep	daily email abbreviation
+Nicky	drop	first name
+Rosemarie	drop	first name
+Rosenthal	drop	surname/brand
+SET	merge:Set	case
+Streetwear	keep	established loan
+Wachau	drop	minor region
+boomend	merge:boomen	participle
+clonen	merge:klonen	spelling
+nchst	merge:nächst	broken encoding
+zapatistisch	drop	specialist
+Brixen	drop	minor town
+Gemeinsame	merge:gemeinsam	adjective form
+Mirjam	drop	first name
+Novak	drop	first name
+Pergola	keep	common noun
+Request	drop	English
+Rowling	drop	person
+SSC	drop	sports club
+Sölden	drop	minor town
+Türki	merge:Türkis	clipped noun
+Verfehlunge	merge:Verfehlung	clipped plural
+his	drop	English
+ts	drop	junk
+Berufliche	merge:beruflich	adjective form
+Bourbon	keep	common noun
+Facebook-Konto	drop	hyphenated brand compound
+Fritsch	drop	surname
+Khedira	drop	person
+PKW-Stellplatz	drop	hyphenated compound
+Perück	merge:Perücke	clipped noun
+Stylus	drop	brand/foreign
+Supporter	drop	English
+Tail	drop	English
+Trapp	drop	surname
+Unternehmensdat	merge:Unternehmensdaten	clipped plural
+Vereins-Bahn	drop	junk
+Advisory	drop	English
+Baba	drop	name
+Blank	merge:blank	adjective
+Corona-Impfung	drop	hyphenated compound
+Erdmann	drop	surname
+Inc	drop	company suffix
+Kall	drop	name
+Kettler	drop	brand
+MS-Office	drop	brand
+PDF-Download	drop	hyphenated web compound
+Pieper	drop	surname
+Räikkön	drop	clipped person name
+allerbe	merge:allerbest	clipped superlative
+dezidieren	merge:dezidiert	adjective
+BLACK	drop	English
+Burkina	drop	fragment of Burkina Faso, not on list
+Caorle	drop	minor town
+Gewinnspiele	merge:Gewinnspiel	plural
+Gro	merge:Gros	clipped
+Helaman	drop	name
+Itzehoe	drop	minor town
+Torre	drop	name
+airberlin	drop	company
+# question Lichtenstein: mostly a town/surname; Liechtenstein misspelling in one example, dropped
+# question Burkina: fragment of Burkina Faso; if that country is on the place list, merge there
