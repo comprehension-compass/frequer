@@ -1,0 +1,43 @@
+Resch	drop	personal or place name, not a learnable word
+Schütte	merge:schütten	forms are conjugated schütten; capitalised verb form
+Suse	drop	given name or software brand
+Toben	merge:toben	capitalised verb filed as a lemma
+eingelassen	merge:einlassen	inflected participle
+wichtigst	merge:wichtig	superlative form
+BvR	drop	specialist legal abbreviation
+Fujifilm	drop	company name, not an institution
+Villeroy	drop	company name fragment
+angeklagt	merge:Angeklagte	nominalised adjective filed in lower case
+gestützt	merge:stützen	inflected participle
+scheisse	merge:Scheiße	misspelt noun (ss for ß)
+wusstest	merge:wissen	conjugated form
+Finanzinstitute	merge:Finanzinstitut	plural filed as lemma
+Gunstgewerblerin	merge:Kunstgewerblerin	garbled spelling
+Horus	drop	deity name
+Mur	drop	river or place name
+Paß	merge:Pass	old spelling; forms are plurals
+Velde	drop	place name
+Vin	drop	French word
+mattiert	merge:mattieren	participle
+wertgeschätzt	merge:wertschätzen	participle
+Bergischen	merge:bergisch	inflected adjective capitalised
+Falsche	merge:falsch	inflected adjective capitalised
+Neuköllner	drop	place-derived adjective
+Parabene	merge:Paraben	plural filed as lemma
+Wern	drop	place name (Werne)
+aufjedenfall	merge:auf jeden Fall	misspelling
+edelstahl	merge:Edelstahl	noun in lower case
+einsetzend	merge:einsetzen	participle
+html	drop	specialist acronym
+marketing	merge:Marketing	noun in lower case
+miteinbezogen	merge:miteinbeziehen	participle
+Fabrikate	merge:Fabrikat	plural filed as lemma
+Hierunter	merge:hierunter	adverb capitalised
+Kempe	drop	place name (Kempen)
+beta	drop	Greek/English word, code usage
+brand	merge:Brand	noun forms filed as verb in lower case
+gelaufen	merge:laufen	participle
+juris	drop	database name
+# question Fujifilm: a famous company brand might count as a "famous institution", but the rules only name institutions; I treated it as an ordinary name.
+# question beta: "Beta" could count as an established loan; here it appears as a code or English word, so I dropped it.
+# question Gunstgewerblerin: the text is spam-generated, so the merge into Kunstgewerblerin may not reflect real usage.

@@ -1,0 +1,44 @@
+Softshell	keep	established loan noun
+Vaart	drop	Dutch surname
+aufsehenerregend	keep	adjective with its own entry
+betörend	keep	adjective with its own entry
+grösst	merge:groß	Swiss spelling of an inflected superlative
+hufig	merge:häufig	dropped umlaut
+mai	merge:Mai	lower-case month, mis-tagged
+park	merge:Park	lower-case noun
+vera	drop	personal name
+Deg	merge:Degen	cut-off fragment
+Erinnern	merge:erinnern	capitalised verb
+Guinness	drop	brand and surname, not an institution
+Jumbo	keep	established loan noun
+Spazierengehe	merge:spazierengehen	capitalised verb
+Sportevent	keep	established loan compound
+angedeutet	merge:andeuten	participle with no entry of its own
+befassten	merge:befassen	conjugated form
+beschleunigt	merge:beschleunigen	participle
+bewegung	merge:Bewegung	lower-case noun
+cl	drop	abbreviation, not of a listed word
+einzuloggen	merge:einloggen	zu-infinitive
+freischaffend	keep	adjective with its own entry
+sekunden	merge:Sekunde	lower-case plural noun
+visualisiert	merge:visualisieren	participle
+Erlerne	merge:erlernen	capitalised verb
+Ger	drop	meaningless fragment
+Outback	keep	established loan noun
+Packer	keep	ordinary German agent noun
+Psycholog	merge:Psychologe	truncated form
+Selbstständiger	keep	nominalised adjective with its own masculine entry
+Voyager	drop	product or name
+geschmack	merge:Geschmack	lower-case noun
+vorlage	merge:Vorlage	lower-case noun
+Minifigur	keep	learnable compound noun
+Mittelerde	drop	fictional place name not on the list
+Rechtsextrem	merge:rechtsextrem	capitalised adjective
+Shemal	drop	offensive or spam term
+Toto	drop	name or brand
+Wendy	drop	personal name
+dauer	merge:Dauer	lower-case noun
+# question grösst: the lemma is an inflected superlative in Swiss spelling, and merging to the positive "groß" is the closest dictionary form, but the rules don't say whether a superlative goes to the positive.
+# question Selbstständiger: it is a nominalised adjective in masculine form, and the rules cover "das Gute" and gendered pairs but not this exact case; I treated it like Lehrerin.
+# question Jumbo: examples mix the loan "Jumbo" with names and product uses, so I kept it as an established loan.
+# question Ger: no obvious target, so dropped rather than merged.

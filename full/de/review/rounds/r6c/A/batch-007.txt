@@ -1,0 +1,48 @@
+Codec	keep	established loan
+Klöckner	drop	surname
+Konstanzer	drop	demonym from a place name, not on the learnable list
+Leverkusener	drop	demonym from a place name, not on the learnable list
+Niese	merge:niesen	cut-off form of niesen
+Regine	drop	given name
+Willow	drop	English name
+gesellschaft	merge:Gesellschaft	lower-case noun
+handgefertigten	merge:handgefertigt	inflected adjective
+iii	drop	numeral or code
+montag	merge:Montag	lower-case noun
+nachricht	merge:Nachricht	lower-case noun
+tantra	merge:Tantra	lower-case noun, established loan
+unterstützung	merge:Unterstützung	lower-case noun
+Garrett	drop	surname or given name
+Mittendrin	merge:mittendrin	adverb filed under a capital
+Ver	drop	cut-off fragment with no clear target
+aufwarts	merge:aufwärts	missing umlaut
+brig	merge:übrig	missing umlaut
+nehmend	drop	participle fragment with no clear target
+Beispielhaft	merge:beispielhaft	adjective filed under a capital
+Brilon	drop	place name
+Burghaus	drop	place name (Burghausen)
+Ingolstädter	drop	demonym from a place name, not on the learnable list
+Pflegeleicht	merge:pflegeleicht	adjective filed under a capital
+Presets	merge:Preset	English plural, merged to the singular
+WISSEN	merge:wissen	verb filed under a capital (all tokens are lower-case)
+ausbildung	merge:Ausbildung	lower-case noun
+Kappel	drop	place name (Kappeln)
+Laure	drop	given name
+Rit	merge:Ritus	cut-off fragment of Ritus (riten)
+int	drop	meaningless fragment
+medium	merge:Medium	lower-case noun
+mist	merge:Mist	lower-case noun
+nnen	drop	cut-off fragment with broken encoding and no clear target
+satz	merge:Satz	lower-case noun
+Deutschlandweit	merge:deutschlandweit	adjective filed under a capital
+Diepholz	drop	place name
+Eschweg	drop	place name (Eschwege)
+Ryder	drop	surname
+
+# question Konstanzer: the screeners suggested routing demonyms to the place-name list, but the rules only say to drop place names not on the list. I dropped Konstanzer, Leverkusener and Ingolstädter as place-derived.
+# question Ver: it is a cut-off fragment (ver, vern), but no merge target is obvious, so I dropped it instead of merging.
+# question nehmend: it is a participle fragment (as in zunehmend or abnehmend), and several parents are possible, so I dropped it.
+# question nnen: it is probably a broken-encoding remnant of a verb ending (e.g. können), but the stem is unknowable, so I dropped it.
+# question Rit: riten and rites suggest Ritus or Ritual; I chose Ritus, but Ritual is possible.
+# question medium: the sample sentence uses it for steak doneness, which is closer to an adjective than to the noun Medium. I merged it to Medium.
+# question mist: it includes mister (24), an English "Mr" use, which does not belong under Mist. I merged it to Mist.

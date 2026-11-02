@@ -1,0 +1,45 @@
+nachhause	keep	accepted one-word adverb variant (AT/CH), not clearly broken
+ui	drop	interjection-like, tagged ADJ, no examples
+Befestigungsmaterial	keep	correct noun lemma, forms are only inflections
+Erle	keep	correct noun lemma, erlen is its plural
+Fahrradweg	keep	correct noun lemma
+Gesundheitsreform	keep	correct noun lemma
+Glasfasernetz	keep	correct noun lemma
+Glaubensgemeinschaft	keep	correct noun lemma
+Kinderlied	keep	correct noun lemma
+Parteifreund	keep	correct noun lemma
+Ramos	drop	surname
+Rindsleder	keep	correct noun lemma
+Roadshow	keep	established loan
+Serienfertigung	keep	correct noun lemma
+Unterordnung	keep	correct noun lemma
+Verlockung	keep	correct noun lemma
+Verschreibung	keep	correct noun lemma
+Wassersportler	keep	correct noun lemma
+Wildbiene	keep	correct noun lemma
+altbacken	keep	genuine adjective, only the POS tag is wrong
+detailiert	merge:detailliert	misspelling
+eich	merge:Eiche	cut-off fragment of Eiche
+erscheinend	merge:erscheinen	inflected participle with no adjective entry of its own
+ungebunden	keep	participle with its own adjective entry
+wiederholend	merge:wiederholen	inflected participle with no adjective entry of its own
+zugeteilt	merge:zuteilen	participle form filed as lemma
+Artikelserie	keep	correct noun lemma
+Bestellmöglichkeit	keep	correct noun lemma
+Duale	merge:dual	inflected adjective (dualen) filed as noun
+Erdung	keep	correct noun lemma
+Ernährungsgewohnheit	keep	correct noun lemma, mostly used in the plural but not plural-only
+Fernsehfilm	keep	correct noun lemma
+Förderrichtlinie	keep	correct noun lemma
+Glücksrad	keep	correct noun lemma
+Holzofen	keep	correct noun lemma
+Jage	merge:jagen	inflected verb form filed as noun
+Jugendpsychiatrie	keep	correct noun lemma
+Knethaken	keep	correct noun lemma
+Landschaftspark	keep	correct noun lemma
+Lieferverzögerung	keep	correct noun lemma
+# question nachhause: dictionary lists "nach Hause" as two words, so there is no single lemma to merge into; kept as an accepted variant
+# question ui: no examples in the sample, so the drop rests on the screener note and the ADJ tag
+# question eich: no examples; Eiche is assumed from the forms eiche/eichen, though "eicher" could also be a different word (e.g. Eicher as a name)
+# question erscheinend: no examples; merged on the assumption it is a present participle with no adjective entry
+# question Jage: the capitalised nominal infinitive "das Jagen" could count as a noun in its own right; merged because the only written form is lower-case "jagen"

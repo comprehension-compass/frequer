@@ -1,0 +1,47 @@
+Werbefläche	keep	Compound noun; the lower case is only the counted spelling
+Zwischenmahlzeit	keep	Ordinary noun
+ersteinmal	merge:erstmal	Misspelling of erst einmal; erstmal is the one-word form
+ibn	drop	Arabic name element, not German
+intakte	merge:intakt	Inflected adjective form
+trau	merge:trauen	Cut-off verb form, tagged VERB
+Aktionszeitraum	keep	Ordinary noun
+Arbeitssuchende	keep	Nominalised adjective that works as a noun, like Arbeitslose
+BVerwG	drop	Specialist abbreviation
+Blumenbeet	keep	Ordinary noun
+Bonusbetrag	keep	Ordinary noun
+Datensammlung	keep	Ordinary noun
+Durststrecke	keep	Ordinary noun
+Ehrenvorsitzende	keep	Nominalised adjective that works as a noun
+Entwicklerstudio	keep	Ordinary noun
+Erinnerungsstück	keep	Ordinary noun
+Gartentisch	keep	Ordinary noun
+Geschichtswissenschaft	keep	Ordinary noun
+Hochzeitstorte	keep	Ordinary noun
+Kegelbahn	keep	Ordinary noun
+Klimatisierung	keep	Ordinary noun
+Klugheit	keep	Ordinary noun
+Kulturstiftung	keep	Ordinary noun
+Liegestütze	merge:Liegestütz	Plural filed as lemma
+Lind	drop	Surname
+Luftkurort	keep	Ordinary noun
+Marktstart	keep	Ordinary noun
+Notrufnummer	keep	Ordinary noun
+Privatkredit	keep	Ordinary noun
+Schrader	drop	Surname
+Sediment	keep	Ordinary noun
+Steckverbinder	keep	Ordinary noun
+Tierquälerei	keep	Ordinary noun
+Warenlieferung	keep	Ordinary noun
+ss	drop	Garbled fragment with no obvious target word
+Heyne	drop	Publisher or person name, not a famous institution
+Ihrem	merge:ihr	Inflected determiner form
+Museo	drop	Foreign word, mostly in museum and place names
+Radolfzell	drop	Place name not on the reviewed list
+SaaS	drop	Specialist tech acronym
+
+# question ersteinmal: the correct form is the two-word erst einmal, but lemmas are single tokens, so I used erstmal
+# question trau: the counted forms are trau (427) and trauer (34), so it could be trauen or Trauer; I chose trauen from the VERB tag
+# question ss: the fragment could stand for ß-words such as muss or Strasse, but no single target is obvious, so I dropped it
+# question Ihrem: the lemma could be the capitalised polite form Ihr or lower-case ihr; I chose ihr
+# question BVerwG: it abbreviates Bundesverwaltungsgericht, which is not on the list, so I treated it as a specialist acronym and dropped it
+# question Heyne: Heyne Verlag is a well-known publisher, but it is not clearly a "famous institution", so I dropped it

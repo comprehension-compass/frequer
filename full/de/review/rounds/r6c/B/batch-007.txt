@@ -1,0 +1,51 @@
+Codec	keep	established loan
+Klöckner	drop	surname
+Konstanzer	drop	demonym of a place name not on the list
+Leverkusener	drop	demonym of a place name not on the list
+Niese	merge:niesen	cut-off form of niesen
+Regine	drop	given name
+Willow	drop	English name
+gesellschaft	merge:Gesellschaft	lower-case noun
+handgefertigten	merge:handgefertigt	inflected adjective form
+iii	drop	numeral or code
+montag	merge:Montag	lower-case noun
+nachricht	merge:Nachricht	lower-case noun
+tantra	merge:Tantra	lower-case noun
+unterstützung	merge:Unterstützung	lower-case noun
+Garrett	drop	surname
+Mittendrin	merge:mittendrin	capitalised adverb
+Ver	drop	cut-off fragment with no obvious target
+aufwarts	merge:aufwärts	missing umlaut
+brig	merge:übrig	missing umlaut
+nehmend	drop	cut-off participle with no obvious target
+Beispielhaft	merge:beispielhaft	capitalised adjective
+Brilon	drop	place name not on the list
+Burghaus	drop	place name (Burghausen) not on the list
+Ingolstädter	drop	demonym of a place name not on the list
+Pflegeleicht	merge:pflegeleicht	capitalised adjective
+Presets	merge:Preset	English plural
+WISSEN	merge:wissen	upper-case form of wissen
+ausbildung	merge:Ausbildung	lower-case noun
+Kappel	drop	place name (Kappeln) not on the list
+Laure	drop	given name
+Rit	merge:Ritus	fragment, mostly Riten
+int	drop	fragment with no obvious target
+medium	merge:Medium	lower-case noun
+mist	merge:Mist	lower-case noun
+nnen	drop	broken fragment with no obvious target
+satz	merge:Satz	lower-case noun
+Deutschlandweit	merge:deutschlandweit	capitalised adjective
+Diepholz	drop	place name not on the list
+Eschweg	drop	place name (Eschwege) not on the list
+Ryder	drop	surname
+
+# question Konstanzer: demonyms are not place names themselves; I treated them as place-derived and dropped them (same for Leverkusener, Ingolstädter). Confirm they are not meant to be kept as learnable adjectives or nouns.
+# question Niese: the examples show nominalised Niesen (noun) rather than the verb. I merged into the verb niesen as the clearly broken lemma. Should it be merge:Niesen instead?
+# question Ver: the fragment (ver, vern) has no obvious source word, so I dropped it although fragments are normally merged.
+# question nehmend: the forms (nehmende, nehmenden…) could come from zunehmend, abnehmend, annehmend and others. No obvious target, so I dropped it.
+# question nnen: the fragment has no examples and no obvious source, so I dropped it.
+# question int: the fragment has no examples and no obvious source, so I dropped it.
+# question WISSEN: the written form is lower-case wissen. I merged into the verb, but the noun Wissen is also plausible.
+# question Rit: Riten is the plural of Ritus, but rit and rites do not fit that lemma. I merged into Ritus anyway.
+# question mist: the written forms include mister (English "Mr"), which does not belong under Mist. I merged into Mist for the main form.
+# question tantra: this may count as a specialist foreign word. I merged it into Tantra as a noun.

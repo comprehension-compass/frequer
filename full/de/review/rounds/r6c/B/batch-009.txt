@@ -1,0 +1,43 @@
+Brückner	drop	surname
+Dithmarschen	drop	place name not on list
+Geforce	drop	product brand name
+Relativ	merge:relativ	adjective filed under capitalised lemma
+Shepard	drop	surname
+eingemacht	merge:Eingemachte	nominalised "ans Eingemachte" filed in lower case
+gabi	drop	personal name
+haette	merge:haben	misspelling of hätte, a form of haben
+stade	keep	dictionary adjective (südd./österr. "still, ruhig")
+Kite	keep	established loan (kitesurfing)
+Kodak	drop	brand name
+Oberhof	drop	place name not on list
+Playmobil	drop	brand name
+Titanium	merge:Titan	English/Latin spelling of the adapted word Titan
+Webber	drop	surname
+angegeben	merge:angeben	inflected participle, no own adjective entry
+angelockt	merge:anlocken	participle form
+bin	merge:sein	conjugated form of sein
+gerendert	merge:rendern	participle form
+levitra	drop	spam drug brand
+Anfänglich	merge:anfänglich	adjective filed under capitalised lemma
+Kraichgau	drop	place name not on list
+Nasa	keep	famous institution
+ann	drop	name/fragment
+beratung	merge:Beratung	noun filed in lower case
+extravaganten	merge:extravagant	inflected adjective form
+hnlich	merge:ähnlich	broken encoding
+Dunkelblau	merge:dunkelblau	adjective filed under capitalised lemma
+Inga	drop	personal name
+Kathi	drop	personal name
+MEHR	merge:mehr	case variant of mehr
+Medaillon	keep	ordinary German noun
+Schlüter	drop	surname
+ala	drop	fragment/foreign phrase, no usable evidence
+db	drop	specialist abbreviation
+german	drop	English word
+kumulieren	keep	valid verb lemma, tag mismatch irrelevant
+leg	merge:leger	cut-off fragment of leger
+trag	merge:tragen	imperative/cut-off form
+vorfertigen	keep	valid verb lemma
+# question haette: the real word hätte is itself a conjugated form of haben; I merged into the dictionary form haben rather than hätte.
+# question ala: the missing accent suggests merge:à la, but the lemma has a space, there are no examples and it is tagged PRON; I dropped it.
+# question eingemacht: could be merge:einmachen as a participle, but the examples are the nominalised "das Eingemachte"; I chose merge:Eingemachte.

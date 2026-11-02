@@ -1,0 +1,45 @@
+Segway	keep	genericised loan noun with own plural (Segway fahren)
+Staud	merge:Staude	cut-off plural of Staude
+Utrecht	drop	place name not on list
+adresse	merge:Adresse	lower-case noun
+casual	keep	established English loan adjective in German fashion usage
+hren	merge:hören	broken encoding
+wogegen	keep	function word (adverb/conjunction), mis-tagged
+Überhole	merge:überholen	verb filed under capitalised lemma
+Augustinus	drop	personal name
+Cas	merge:Case	cut-off fragment of Case/Cases
+Greifswalder	drop	demonym of place name not on list
+Minion	drop	character/brand name
+Percussion	keep	established loan in music
+Thieme	drop	publisher/surname, other name
+Thunderbolt	drop	product name
+VwGO	drop	specialist acronym
+produziert	merge:produzieren	participle without own entry
+Abweichende	merge:abweichend	inflected adjective under capitalised lemma
+Balthasar	drop	personal name
+Christie	drop	personal name
+Maserati	drop	brand name
+Terminator	drop	film title/character name
+Unendliche	merge:unendlich	inflected adjective under capitalised lemma
+Zusammenschluß	merge:Zusammenschluss	old spelling
+fünfjährigen	merge:fünfjährig	inflected adjective
+gebrauch	merge:Gebrauch	lower-case noun
+Electro	keep	established loan (music genre)
+Finanzier	keep	valid noun in its own right (Finanzier, Finanziers)
+Hau	merge:hauen	imperative/fragment of hauen
+Saniere	merge:sanieren	verb filed under capitalised lemma
+Südland	merge:Südländer	cut-off fragment of Südländer
+nude	keep	adopted colour adjective in German fashion usage
+reissen	merge:reißen	Swiss/non-standard spelling
+Kostenfrei	merge:kostenfrei	adjective under capitalised lemma
+Persönlich	merge:persönlich	adjective under capitalised lemma
+Stabil	merge:stabil	adjective under capitalised lemma
+fabelhafte	merge:fabelhaft	inflected adjective
+mitgelesen	merge:mitlesen	participle without own entry
+zugesagt	merge:zusagen	participle without own entry
+Agoda	drop	company/website name
+# question Segway: genericised brand; kept as an established loan, but the rules do not say whether brand-derived common nouns count
+# question Thieme: famous medical publisher might count as a famous institution; dropped as a name
+# question Finanzier: forms are mostly the verb finanzieren, but Finanzier is a valid noun, so kept; the verb forms may belong under finanzieren
+# question nude: unclear whether this fashion-term English word counts as an established loan
+# question Terminator: also a generic noun (plural Terminatoren); dropped as a film title/character

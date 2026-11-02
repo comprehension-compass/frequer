@@ -1,0 +1,43 @@
+Resch	drop	personal/place name
+Schütte	merge:schütten	forms are lower-case verb forms of schütten
+Suse	drop	given name / Linux distribution name
+Toben	merge:toben	capitalised verb filed as lemma
+eingelassen	merge:einlassen	participle form, not an adjective with its own entry
+wichtigst	merge:wichtig	superlative form
+BvR	drop	specialist legal abbreviation
+Fujifilm	drop	company name, not a famous institution
+Villeroy	drop	company name, not a famous institution
+angeklagt	merge:Angeklagte	noun filed under a lower-case lemma
+gestützt	merge:stützen	participle form
+scheisse	merge:Scheiße	misspelt noun, lower-case
+wusstest	merge:wissen	conjugated form
+Finanzinstitute	merge:Finanzinstitut	plural filed as lemma
+Gunstgewerblerin	drop	spam-text garble, not a real word
+Horus	drop	deity name
+Mur	drop	river/place name
+Paß	merge:Pass	old spelling, and plural forms
+Velde	drop	place name
+Vin	drop	French word
+mattiert	merge:mattieren	participle form
+wertgeschätzt	merge:wertschätzen	participle form
+Bergischen	drop	place-derived regional name
+Falsche	merge:falsch	capitalised adjective form
+Neuköllner	drop	place-derived adjective
+Parabene	merge:Paraben	plural filed as lemma
+Wern	drop	place name
+aufjedenfall	merge:auf jeden Fall	misspelling
+edelstahl	merge:Edelstahl	noun filed under a lower-case lemma
+einsetzend	merge:einsetzen	participle form
+html	drop	specialist acronym
+marketing	merge:Marketing	noun filed under a lower-case lemma
+miteinbezogen	merge:miteinbeziehen	participle form
+Fabrikate	merge:Fabrikat	plural filed as lemma
+Hierunter	merge:hierunter	adverb filed under a capitalised lemma
+Kempe	drop	place name (Kempen)
+beta	drop	Greek letter/code word, not a learnable lemma
+brand	merge:Brand	noun filed as lower-case verb
+gelaufen	merge:laufen	participle form
+juris	drop	name of a legal database
+# question Schütte: the written forms are lower-case verb forms, but Schütte is also a noun (chute) and a surname; I treated it as the verb.
+# question Bergischen: it could instead be merged to the adjective bergisch, but I treated it as part of a regional place name.
+# question Mur: Mure (mudflow) is a real noun, but the lemma and written forms point to the river name.

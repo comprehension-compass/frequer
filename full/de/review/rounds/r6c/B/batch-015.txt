@@ -1,0 +1,43 @@
+ssen	merge:essen	dropped letter (ß lost in encoding)
+tabulos	keep	real adjective, inflected forms of one lemma
+vertrag	merge:Vertrag	lower-case noun, mis-tagged VERB
+zuhauf	keep	real adverb
+zurueck	merge:zurück	transliterated spelling
+übersät	keep	adjective with its own dictionary entry
+Aktienfonds	keep	noun, singular and plural identical
+Ehrenzeichen	keep	ordinary noun
+Gesamtverband	keep	ordinary compound noun
+Gleichaltrige	keep	nominalised adjective that works as a noun
+Highscore	keep	established loan
+Rogue	drop	English word or name
+Weblink	keep	established loan compound
+aufgegeben	merge:aufgeben	participle filed as lemma
+cookies	merge:Cookie	English plural, filed lower-case and mis-tagged
+eingepflegt	merge:einpflegen	participle filed as lemma
+geschmiedet	merge:schmieden	participle filed as lemma
+mt	drop	abbreviation or fragment
+unselbstständig	keep	one adjective in two spellings
+Knacken	keep	nominalised verb that is a noun in its own right (das Knacken)
+Lügenpresse	keep	established noun
+Mittelrhein	drop	place name not on the list
+Pdf	merge:PDF	capitalisation variant of PDF
+florierend	keep	adjective with its own entry
+gespeichert	merge:speichern	participle filed as lemma
+kostüm	merge:Kostüm	lower-case noun
+rasend	keep	adjective with its own entry
+seufz	merge:seufzen	cut-off form of the verb
+sonntag	merge:Sonntag	lower-case noun
+tip	merge:Tipp	misspelling or English form
+Audible	drop	brand name
+Loewe	drop	surname or brand name
+Offizielle	merge:offiziell	adjective inflection filed as a noun
+ausgedient	keep	adjective with its own entry
+elektr	merge:elektrisch	truncated word
+hauptsache	merge:Hauptsache	lower-case noun
+zugeführt	merge:zuführen	participle filed as lemma
+Arbeitstechnik	keep	ordinary noun
+Berühmt	merge:berühmt	adjective filed under a capitalised lemma
+Em	drop	abbreviation or fragment
+# question Pdf: PDF may count as an acronym, but it is common and not specialist, so I merged it. If the list has no PDF entry, drop it instead.
+# question Offizielle: the examples show adjective use, so I merged it. The noun der/die Offizielle is possible but rare.
+# question Knacken: lower-case forms dominate (417 of 419), but the examples show noun use, so I kept it as a noun.

@@ -1,0 +1,42 @@
+Sammelbegriff	keep	Lemma is correctly capitalised; the lower-case forms come from the counted text
+Serienproduktion	keep	Correctly capitalised noun
+Strafmaß	keep	Correctly capitalised noun
+Travemünde	drop	Place name not on the list
+Treueprogramm	keep	Correctly capitalised noun
+Vorbau	keep	Correctly capitalised noun
+Weinanbaugebiet	keep	Correctly capitalised noun
+lebend	keep	Adjective with its own entry, already in base form
+parece	drop	Spanish word
+rbb	drop	Broadcaster abbreviation, lower-case, tagged ADJ
+unterrichte	merge:unterrichten	Conjugated verb form filed as a lemma
+verwendung	merge:Verwendung	Noun filed under a lower-case lemma
+Aufrichtigkeit	keep	Correctly capitalised noun
+Automatikgetriebe	keep	Correctly capitalised noun
+Betätige	merge:betätigen	Verb form filed under a capitalised lemma
+Blöd	merge:blöd	Adjective filed under a capitalised lemma
+Bombenangriff	keep	Correctly capitalised noun
+Brotaufstrich	keep	Correctly capitalised noun
+Buchverlag	keep	Correctly capitalised noun
+Erlernte	keep	Nominalised participle ("das Erlernte") that works as a noun in its own right
+Fachwerk	keep	Correctly capitalised noun
+Frontkamera	keep	Correctly capitalised noun
+Fürbitte	keep	Correctly capitalised noun
+Hausverbot	keep	Correctly capitalised noun
+Landesbetrieb	keep	Correctly capitalised noun
+Lizenzgeber	keep	Correctly capitalised noun
+Locarno	drop	Place name not on the list
+Lösegeld	keep	Correctly capitalised noun
+Megabyte	keep	Established loan
+Paketversand	keep	Correctly capitalised noun
+Pistenkilometer	keep	Correctly capitalised noun
+Polarisierung	keep	Correctly capitalised noun
+Presseartikel	keep	Correctly capitalised noun
+Strahlenbelastung	keep	Correctly capitalised noun
+Tagesklinik	keep	Correctly capitalised noun
+Tonabnehmer	keep	Correctly capitalised noun
+Versorgungsausgleich	keep	Correctly capitalised noun
+Viereck	keep	Correctly capitalised noun
+Weit	merge:weit	Adjective/adverb filed under a capitalised lemma
+Willenserklärung	keep	Correctly capitalised noun
+# question rbb: Unclear whether a regional public broadcaster counts as a "famous institution" (keep) or a specialist acronym (drop); I dropped it as a lower-case abbreviation.
+# question Erlernte: Nominalised participle with only "erlernte(n)" attested; I kept it as a noun like "das Gute", but "merge:erlernen" is possible if the list should not hold nominalised participles.

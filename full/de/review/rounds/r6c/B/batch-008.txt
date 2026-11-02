@@ -1,0 +1,44 @@
+Segway	keep	established loan, used generically (Segway fahren)
+Staud	merge:Staude	cut-off plural form of Staude
+Utrecht	drop	place name not on the reviewed list
+adresse	merge:Adresse	lower-case noun
+casual	keep	established English loan used as an adjective
+hren	merge:hören	broken encoding, the 'ö' is missing
+wogegen	keep	function word (adverb/conjunction), only mis-tagged as verb
+Überhole	merge:überholen	verb under a capitalised lemma
+Augustinus	drop	personal name
+Cas	merge:Case	cut-off fragment of Case/Cases
+Greifswalder	drop	demonym from a place name not on the list
+Minion	drop	character/brand name
+Percussion	keep	established loan
+Thieme	drop	publisher/surname
+Thunderbolt	drop	product name
+VwGO	drop	specialist acronym
+produziert	merge:produzieren	inflected participle with no own adjective entry
+Abweichende	merge:abweichend	inflected participle-adjective under a capitalised lemma
+Balthasar	drop	personal name
+Christie	drop	personal name
+Maserati	drop	brand name
+Terminator	drop	film title/character name
+Unendliche	merge:unendlich	inflected adjective under a capitalised lemma
+Zusammenschluß	merge:Zusammenschluss	old spelling
+fünfjährigen	merge:fünfjährig	inflected adjective form
+gebrauch	merge:Gebrauch	lower-case noun
+Electro	keep	established loan (music genre)
+Finanzier	keep	a real noun (Finanzier) with its own meaning
+Hau	merge:hauen	fragment/imperative of hauen
+Saniere	merge:sanieren	verb under a capitalised lemma
+Südland	merge:Südländer	cut-off form of Südländer
+nude	keep	established fashion loan used as an adjective
+reissen	merge:reißen	Swiss/non-standard spelling
+Kostenfrei	merge:kostenfrei	adjective under a capitalised lemma
+Persönlich	merge:persönlich	adjective under a capitalised lemma
+Stabil	merge:stabil	adjective under a capitalised lemma
+fabelhafte	merge:fabelhaft	inflected adjective form
+mitgelesen	merge:mitlesen	participle filed as a lemma
+zugesagt	merge:zusagen	participle with no own adjective entry
+Agoda	drop	company/website name
+# question Unendliche: it may be the nominalised "das Unendliche" (a noun in its own right, keep), but the sample has no examples, so I merged it to the adjective.
+# question Finanzier: the lemma is a valid noun, but 239 of its tokens are really the verb finanzieren, which the lemmatiser mis-filed here. The counts may need re-assigning.
+# question Terminator: it is a film title/character, but "Terminator" and "Terminatoren" might also be a generic noun. I dropped it as a name.
+# question nude: its status as an established loan is borderline (it appears mainly in fashion contexts). I kept it.

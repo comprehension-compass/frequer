@@ -1,0 +1,44 @@
+Zentralverriegelung	keep	real compound noun, correctly capitalised
+feinste	merge:fein	inflected superlative filed as lemma
+mfg	drop	abbreviation of a phrase, not a listed word
+nils	drop	personal name
+ppm	drop	unit/specialist abbreviation
+Einchecke	merge:einchecken	conjugated/cut-off form of einchecken
+Jause	keep	regional but valid German noun
+Ostpreußen	drop	place name not on the list
+Schieb	merge:schieben	imperative/cut-off verb form
+Sr	drop	abbreviation
+einstellung	merge:Einstellung	noun under a lower-case lemma
+gaaanz	merge:ganz	elongated spelling
+getaggt	merge:taggen	participle with no adjective entry of its own
+kleinanzeigen	merge:Kleinanzeige	plural noun under a lower-case lemma
+Albus	drop	name
+Cranberries	merge:Cranberry	plural of an established loan
+Dojo	keep	established loan with a Duden entry
+Miner	drop	English word
+Münsteraner	keep	demonym noun with its own meaning, not a place name
+Rolladen	keep	accepted variant spelling of Rollladen, lemma not broken
+Traumhaft	merge:traumhaft	adjective under a capitalised lemma
+Weinviertel	drop	place name (region)
+Wu	drop	name/fragment
+Wörtche	merge:Wörtchen	inflected form of Wörtchen
+heit	drop	suffix fragment with no obvious target word
+sing	merge:singen	inflected/English-looking verb form
+stösst	merge:stoßen	misspelt conjugated form
+Ghostwriter	keep	established loan
+Montafon	drop	place name (region)
+Praktikantin	keep	own feminine entry
+Ringstraße	keep	common noun, not a specific place name
+Sexcam	drop	spam-like website term, not an established loan
+Souther	drop	English fragment of "southern"
+Speicherstadt	drop	place name (Hamburg district)
+Stck	merge:Stück	broken encoding
+Verlangsamung	keep	correctly capitalised noun; the flag is spurious
+Weltliteratur	keep	correctly capitalised noun
+Werbematerial	keep	correctly capitalised noun
+Zurich	drop	place name not on the list
+marod	keep	valid adjective
+# question heit: the cut-off suffix fragment (-heit) has no obvious target lemma, so it is dropped rather than merged
+# question Sexcam: it is a compound loan seen mostly in spam contexts; it is not clear whether it counts as an established loan
+# question Münsteraner: the demonym derives from a place name; the rules only say place names drop, so it is kept like Berliner
+# question Einchecke: the target could be the verb einchecken or the nominalised noun Einchecken; it is merged to the verb

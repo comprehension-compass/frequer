@@ -1,0 +1,43 @@
+verortet	merge:verorten	participle filed as lemma
+Affiliat	merge:Affiliate	cut-off fragment of the loan Affiliate
+Fak	merge:Fake	cut-off fragment of Fake
+Füll	merge:füllen	imperative fragment of füllen
+Königswinter	drop	place name not on the list
+Psychopathen	merge:Psychopath	plural filed as lemma
+zeitversetzt	keep	adjective/adverb with its own entry
+Bildende	merge:bildend	capitalised participle-adjective
+Glasflächen	merge:Glasfläche	plural filed as lemma
+Jenner	drop	surname
+Jumper	keep	established loan (pullover)
+Kanye	drop	personal name
+Bewahr	merge:bewahren	imperative fragment of bewahren
+Hambacher	drop	place-derived name (Hambacher Forst)
+Pentium	drop	brand name
+eineMehr	drop	garbled run-together text
+stündig	drop	cut-off piece of compounds (einstündig etc.), no single target
+sühnen	keep	correct verb infinitive
+Abhebe	merge:abheben	conjugated-form fragment of abheben
+Alzey	drop	place name not on the list
+Angkor	drop	place name not on the list
+Dicht	merge:dicht	capitalised adjective
+Evangelien	merge:Evangelium	plural filed as lemma
+Petersberg	drop	place name not on the list
+Privat	merge:privat	capitalised adjective
+Rhino	drop	brand/name or non-German word
+Schlecker	drop	company name
+Sybille	drop	personal name
+Umwelthilfe	keep	ordinary noun, also part of a well-known institution
+Vegetarisch	merge:vegetarisch	capitalised adjective
+Vive	drop	non-German word or product name
+berhaupt	merge:überhaupt	broken encoding
+bestrichen	merge:bestreichen	participle filed as lemma
+gefestigt	keep	participle with its own adjective entry
+Überdosis	keep	valid noun
+Auserwählte	keep	nominalised adjective, a noun in its own right
+Cyberkriminelle	keep	nominalised adjective, a noun in its own right (like Kriminelle)
+Kleingedrucktes	keep	nominalised adjective, a noun in its own right (das Kleingedruckte)
+MotoGP	drop	racing-series name
+Speis	merge:Speise	truncated form of Speise
+
+# question stündig: cut-off fragment of -stündig compounds (einstündig, zweistündig…) with no single target lemma, so dropped rather than merged.
+# question Affiliat: the target Affiliate is an unadapted English loan, so it may not count as established; merged on the assumption that it does.

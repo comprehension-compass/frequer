@@ -1,0 +1,45 @@
+Werbefläche	keep	Capitalised noun; the lower-case form is only how the text was counted.
+Zwischenmahlzeit	keep	Ordinary noun, correctly written.
+ersteinmal	merge:erst einmal	Misspelling of "erst einmal".
+ibn	drop	Arabic name element, not German.
+intakte	merge:intakt	Inflected adjective filed as a lemma.
+trau	merge:trauen	Cut-off or conjugated form; the trauer tokens are a noun and a different word.
+Aktionszeitraum	keep	Ordinary compound noun.
+Arbeitssuchende	keep	Nominalised adjective that works as a noun in its own right.
+BVerwG	drop	Specialist abbreviation (Bundesverwaltungsgericht).
+Blumenbeet	keep	Ordinary noun.
+Bonusbetrag	keep	Ordinary noun.
+Datensammlung	keep	Ordinary noun.
+Durststrecke	keep	Ordinary noun.
+Ehrenvorsitzende	keep	Nominalised adjective that works as a noun in its own right.
+Entwicklerstudio	keep	Ordinary noun.
+Erinnerungsstück	keep	Ordinary noun.
+Gartentisch	keep	Ordinary noun.
+Geschichtswissenschaft	keep	Ordinary noun.
+Hochzeitstorte	keep	Ordinary noun.
+Kegelbahn	keep	Ordinary noun.
+Klimatisierung	keep	Ordinary noun.
+Klugheit	keep	Ordinary noun.
+Kulturstiftung	keep	Ordinary noun.
+Liegestütze	merge:Liegestütz	Plural filed as a lemma; the singular is Liegestütz.
+Lind	drop	Surname.
+Luftkurort	keep	Ordinary noun.
+Marktstart	keep	Ordinary noun.
+Notrufnummer	keep	Ordinary noun.
+Privatkredit	keep	Ordinary noun.
+Schrader	drop	Surname.
+Sediment	keep	Ordinary noun.
+Steckverbinder	keep	Ordinary noun.
+Tierquälerei	keep	Ordinary noun.
+Warenlieferung	keep	Ordinary noun.
+ss	drop	Garbled fragment of ß words with no single obvious target.
+Heyne	drop	Publisher or person name, not a famous institution.
+Ihrem	merge:ihr	Inflected determiner form.
+Museo	drop	Foreign word, appears only inside museum names.
+Radolfzell	drop	Place name not on the reviewed list.
+SaaS	drop	Specialist tech acronym.
+
+# question ersteinmal: the target "erst einmal" is two words, and the one-word form "erstmal" may be the lemma actually listed.
+# question trau: the counts mix trau (427) and trauer (34), and trau could be an imperative of trauen; I picked trauen.
+# question ss: the fragment could stand for many words (muss, dass, etc.), so there is no obvious merge target and I dropped it.
+# question Ihrem: unclear whether the lemma should be lower-case ihr or the polite capitalised Ihr; I chose ihr.

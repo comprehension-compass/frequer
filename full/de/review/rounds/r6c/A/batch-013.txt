@@ -1,0 +1,43 @@
+verortet	merge:verorten	participle filed as lemma
+Affiliat	merge:Affiliate	cut-off form of the loan Affiliate
+Fak	merge:Fake	cut-off fragment of Fake
+Füll	merge:füllen	cut-off imperative
+Königswinter	drop	place name not on list
+Psychopathen	merge:Psychopath	plural filed as lemma
+zeitversetzt	keep	adjective/adverb with its own entry
+Bildende	merge:bilden	inflected participle under a capitalised lemma
+Glasflächen	merge:Glasfläche	plural filed as lemma
+Jenner	drop	surname
+Jumper	keep	established loan (sweater)
+Kanye	drop	personal name
+Bewahr	merge:bewahren	cut-off imperative
+Hambacher	drop	place-derived adjective
+Pentium	drop	brand name
+eineMehr	drop	garbled text
+stündig	drop	cut-off compound piece with no single target
+sühnen	keep	valid verb lemma, only the POS tag is off
+Abhebe	merge:abheben	verb form filed as noun
+Alzey	drop	place name not on list
+Angkor	drop	place name not on list
+Dicht	merge:dicht	adjective under a capitalised lemma
+Evangelien	merge:Evangelium	plural filed as lemma
+Petersberg	drop	place name not on list
+Privat	merge:privat	adjective under a capitalised lemma
+Rhino	drop	brand/software name
+Schlecker	drop	company name
+Sybille	drop	personal name
+Umwelthilfe	keep	ordinary German noun
+Vegetarisch	merge:vegetarisch	adjective under a capitalised lemma
+Vive	drop	non-German word/product name
+berhaupt	merge:überhaupt	broken encoding
+bestrichen	merge:bestreichen	participle filed as lemma
+gefestigt	keep	adjective with its own entry
+Überdosis	keep	valid noun, correctly capitalised
+Auserwählte	keep	nominalised participle, noun in its own right
+Cyberkriminelle	keep	nominalised adjective, noun in its own right
+Kleingedrucktes	keep	nominalised adjective (das Kleingedruckte)
+MotoGP	drop	brand/series name
+Speis	merge:Speise	truncated form
+# question stündig: it is a cut-off piece of compounds (einstündig, 16-stündig) with no single dictionary target, so I dropped it rather than merging.
+# question gefestigt: unclear whether it has its own adjective entry or is only the participle of festigen; I kept it on the verheiratet/bekannt analogy.
+# question Hambacher: the place-derived adjective (Hambacher Forst) is treated as a place name and dropped; the rules do not say whether such adjectives follow place names.

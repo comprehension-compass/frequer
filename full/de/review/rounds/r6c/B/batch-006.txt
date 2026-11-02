@@ -1,0 +1,44 @@
+ar	drop	garbled fragment, no clear target
+model	merge:Modell	English spelling of the adapted word Modell
+Indigen	merge:Indigene	cut-off form of the substantivised adjective Indigene
+Marienkirche	drop	one of many churches of this name, not a famous institution
+album	merge:Album	lower-case noun
+fetisch	merge:Fetisch	lower-case noun
+konstante	merge:konstant	inflected adjective form
+projekt	merge:Projekt	lower-case noun
+ve	drop	garbled fragment
+Adsense	drop	brand name
+BfArM	drop	specialist acronym for an agency
+Dunlop	drop	brand name
+Memphis	drop	place name not on the list
+SI	drop	abbreviation
+Slider	keep	established loan word
+moechte	merge:möchte	transliterated umlaut
+Freudenstadt	drop	place name
+Rod	drop	English word or name
+Siegerland	drop	region/place name
+ebendiese	merge:ebendieser	inflected form
+verliehen	merge:verleihen	participle without its own adjective entry
+Bugatti	drop	brand name
+Deppe	merge:Depp	plural form filed as lemma
+Jannik	drop	personal name
+Sandhausen	drop	place name
+apple	drop	brand name
+main	drop	river name or English word
+nat	drop	garbled fragment
+pediküren	merge:Pediküre	lower-case plural/inflected form
+schwester	merge:Schwester	lower-case noun
+zeitgemäss	merge:zeitgemäß	ss spelling for ß
+Ariel	drop	brand or personal name
+Bolze	merge:Bolzen	misfiled form of Bolzen
+Buff	drop	brand name
+Trese	merge:Tresen	misfiled form of Tresen
+Vox	drop	TV channel name
+Weis	drop	fragment, target unclear
+dipl	drop	abbreviation
+eingeblendet	merge:einblenden	participle form
+tourt	merge:touren	conjugated verb form
+# question Indigen: the lemma is cut off from Indigene (noun, "die Indigenen"); I merged it, but keeping it as its own noun would also be defensible.
+# question Weis: it could be a dropped ß (weiß), but the written forms and POS don't show whether that means wissen or white, so I dropped it.
+# question Marienkirche: the rules don't say whether a generic church name counts as a famous institution; I treated it as an ordinary facility name and dropped it.
+# question dipl: it could abbreviate Diplom or diplomiert, so the target is not obvious; I dropped it rather than merging.

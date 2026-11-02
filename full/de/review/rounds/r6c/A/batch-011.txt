@@ -1,0 +1,43 @@
+Besucherströme	merge:Besucherstrom	plural filed as lemma
+Breitengrade	merge:Breitengrad	plural filed as lemma
+Leichte	merge:leicht	capitalised inflected adjective
+Ling	drop	fragment/name with no clear target (Lingen is a place)
+Nom	merge:Nomen	cut-off of Nomen (mostly written "nomen")
+Trockene	merge:trocken	capitalised inflected adjective
+blogge	merge:bloggen	conjugated verb form
+dargelegt	merge:darlegen	participle, no adjective entry of its own
+eloxiert	merge:eloxieren	participle filed as verb lemma
+gekoppelt	merge:koppeln	participle form
+laptop	merge:Laptop	lower-case noun
+produkte	merge:Produkt	plural noun
+Alaba	drop	person name
+Dresdener	drop	place-derived form of a place name not on the list
+Faszinierende	merge:faszinierend	capitalised adjective form
+Freche	drop	actually the place name Frechen
+Gießener	drop	place-derived form of a place name not on the list
+Levin	drop	person name
+StVZO	drop	specialist abbreviation
+bee	drop	English "been", not German
+ehr	merge:eher	misspelling
+handvoll	merge:Handvoll	lower-case noun
+Ahrweiler	drop	place name
+Angelique	drop	person name
+BZgA	drop	specialist abbreviation
+DLCs	drop	specialist acronym, plural
+Essstörungen	merge:Essstörung	plural filed as lemma
+Isolde	drop	person name
+Mayo	keep	established colloquial word
+Rocco	drop	person name
+Schlecht	merge:schlecht	capitalised adjective
+Sonnenblumenkerne	merge:Sonnenblumenkern	plural filed as lemma
+bemisst	merge:bemessen	conjugated verb form
+perforieren	keep	infinitive is the correct dictionary form
+rausgekommen	merge:rauskommen	participle form
+technik	merge:Technik	lower-case noun
+Begünstigte	keep	nominalised adjective, noun in its own right (der Begünstigte)
+Gent	drop	place name
+Hauf	merge:Haufen	cut-off fragment of Haufen
+Mitwirke	merge:mitwirken	verb filed under capitalised lemma
+# question Ling: the forms ling/lingen/linge don't point to a single target word, so I dropped it rather than merging.
+# question Mayo: it may count as an abbreviation of the listed word Mayonnaise (merge), but I kept it as an established colloquial noun.
+# question Begünstigte: it could be merged to begünstigen or begünstigt, but I treated it as a noun like Angestellte and kept it.

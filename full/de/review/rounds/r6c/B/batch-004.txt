@@ -1,0 +1,44 @@
+Wohnimmobilie	keep	Valid noun; lemma is correctly capitalised, the lower-case forms are only the surface text.
+dent	drop	Fragment of the phrase "al dente", not a standalone lemma.
+frühmorgens	keep	Established adverb.
+hintergrund	merge:Hintergrund	Noun filed lower-case and tagged ADJ.
+leuten	merge:Leute	Dative form of the plural-only noun filed as a lemma.
+sal	merge:Sale	Cut-off fragment of sale/sales.
+stutzig	keep	Real adjective; the NUM tag is wrong, but the lemma is fine.
+whlen	merge:wählen	Broken encoding (missing ä).
+Atlantikküste	keep	Valid compound noun; the lemma is capitalised.
+Auftragsvergabe	keep	Valid noun.
+Bayreuther	drop	Place-derived adjective (Bayreuth) and an inflected form; the place is not on the list.
+Besprechungsraum	keep	Valid noun.
+Dauerkarte	keep	Valid noun.
+Deutschschweiz	drop	Place name not on the reviewed list.
+Durchsatz	keep	Valid noun.
+Energiestrategie	keep	Valid noun.
+Fehleinschätzung	keep	Valid noun.
+Gebein	keep	Valid noun; the plural Gebeine is merely a surface form.
+Gestüt	keep	Valid noun.
+Gewerbepark	keep	Valid noun.
+Hemmschwelle	keep	Valid noun.
+Kreisvorstand	keep	Valid noun.
+Minispiel	keep	Valid noun.
+Mitverantwortung	keep	Valid noun.
+Neueintragung	keep	Valid noun.
+Osterfeuer	keep	Valid noun.
+Panikmache	keep	Valid noun.
+Privatparkplatz	keep	Valid noun.
+Reisetermin	keep	Valid noun.
+Rosette	keep	Valid noun.
+Rundbrief	keep	Valid noun.
+Schnittblume	keep	Valid noun.
+Schwangerschaftstest	keep	Valid noun.
+Variabilität	keep	Valid noun.
+Vermisste	keep	Nominalised participle that works as a noun in its own right, like "das Gute".
+Verzweigung	keep	Valid noun.
+Vordenker	keep	Valid noun.
+Vorinstanz	keep	Valid noun.
+Wachsamkeit	keep	Valid noun.
+Weltreligion	keep	Valid noun.
+# question dent: "al dente" is an established loan phrase, but the rules give no multi-word lemma to merge it into, so I dropped the fragment.
+# question sal: "Sale" is an English-origin loan; I merged it on the assumption that "Sale" is the listed adapted lemma. If it is not on the list, this should be a drop.
+# question Bayreuther: it appears mostly in "Bayreuther Festspiele", a famous institution, but the lemma itself is a place-derived adjective, so I dropped it.
+# question Vermisste: it could be merged into the adjective "vermisst" or kept as a nominalised noun. I kept it because the rules leave nominalised adjectives as nouns.

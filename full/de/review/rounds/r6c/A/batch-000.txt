@@ -1,0 +1,43 @@
+Zentralverriegelung	keep	Established compound noun; the lemma is correctly capitalised.
+feinste	merge:fein	Inflected superlative filed as a lemma.
+mfg	drop	Abbreviation (mit freundlichen Grüßen) with no listed full word to merge into.
+nils	drop	Personal name.
+ppm	drop	Unit abbreviation.
+Einchecke	merge:einchecken	Cut-off fragment; the text shows nominalised "Einchecken" from the verb.
+Jause	keep	Regional (Austrian) but established German noun.
+Ostpreußen	drop	Place name not on the reviewed list.
+Schieb	merge:schieben	Imperative or cut-off form of the verb.
+Sr	drop	Abbreviation.
+einstellung	merge:Einstellung	Noun filed under a lower-case lemma.
+gaaanz	merge:ganz	Elongated misspelling.
+getaggt	merge:taggen	Participle with no adjective entry of its own.
+kleinanzeigen	merge:Kleinanzeige	Lower-case plural noun; the singular exists.
+Albus	drop	Personal name.
+Cranberries	merge:Cranberry	English-spelled plural of an adapted word.
+Dojo	keep	Established loan word.
+Miner	drop	English word with no German use.
+Münsteraner	keep	Demonym noun with its own entry (feminine Münsteranerin).
+Rolladen	keep	Accepted variant spelling in its own right, not broken.
+Traumhaft	merge:traumhaft	Adjective filed under a capitalised lemma.
+Weinviertel	drop	Place name (region) not on the reviewed list.
+Wu	drop	Name or foreign fragment.
+Wörtche	merge:Wörtchen	Inflected form filed as a lemma.
+heit	drop	Suffix fragment with no obvious target word.
+sing	merge:singen	Conjugated or English form of the verb.
+stösst	merge:stoßen	Misspelt conjugated form.
+Ghostwriter	keep	Established loan.
+Montafon	drop	Place name (region) not on the reviewed list.
+Praktikantin	keep	Noun with its own feminine entry.
+Ringstraße	keep	Common noun, not just a street name.
+Sexcam	drop	Spam-type website term, not an established loan.
+Souther	drop	Garbled English fragment with no German target.
+Speicherstadt	drop	Place name (Hamburg district) not on the reviewed list.
+Stck	merge:Stück	Broken encoding.
+Verlangsamung	keep	Correctly capitalised noun.
+Weltliteratur	keep	Correctly capitalised noun.
+Werbematerial	keep	Correctly capitalised noun.
+Zurich	drop	Place name or company name, not on the reviewed list.
+marod	keep	Adjective with its own dictionary entry.
+# question Einchecke: the text shows the nominalised verb "Einchecken" (a noun in its own right), but the lemma is a cut-off fragment, so I merged it into the verb einchecken.
+# question heit: the rules say fragments are merged, but no target word is obvious, so I dropped it.
+# question Sexcam: the rules don't cover spam-type compounds; I treated it as not an established loan.

@@ -1,0 +1,44 @@
+Limo	keep	established short form, already a capitalised noun lemma
+Menopause	keep	ordinary noun, only lower-cased in the text
+Mikrobiologie	keep	ordinary noun
+Missgeschick	keep	ordinary noun
+Oz	drop	abbreviation (ounce), not a learnable word
+Polizeichef	keep	ordinary compound noun
+Replik	keep	ordinary noun
+Routenplanung	keep	ordinary compound noun
+Sparpaket	keep	ordinary compound noun
+Sprachversion	keep	ordinary compound noun
+Stahlbau	keep	ordinary compound noun
+Streu	keep	real noun (litter, bedding), not just a cut-off of streuen
+Türschloss	keep	ordinary compound noun
+Weihnachtsstimmung	keep	ordinary compound noun
+katze	merge:Katze	noun filed under a lower-case lemma
+manag	merge:managen	cut-off fragment of managen
+reinhören	keep	valid separable verb, colloquial but not broken
+spuren	keep	real verb (spuren), the other forms are inflections of it
+Ackerland	keep	ordinary noun
+Autosalon	keep	ordinary noun
+Berufsordnung	keep	ordinary noun
+Bewerbungsformular	keep	ordinary compound noun
+Eisenmangel	keep	ordinary noun
+Entscheidungsgrundlage	keep	ordinary noun
+Freikirche	keep	ordinary noun
+Gesundheitsschaden	keep	ordinary noun, singular lemma
+Gewaltprävention	keep	ordinary noun
+Grundlinie	keep	ordinary noun
+Herzschrittmacher	keep	ordinary noun
+Hochschulabsolvent	keep	ordinary noun, singular lemma
+Integrierte	merge:integriert	inflected adjective form filed under a capitalised lemma
+Jahresverlauf	keep	ordinary noun
+Kilowatt	keep	established unit noun
+Lebensaufgabe	keep	ordinary noun
+Mikrobe	keep	ordinary noun
+Nagelstudio	keep	ordinary noun
+Nebenkostenabrechnung	keep	ordinary noun
+Pflasterstein	keep	ordinary noun
+Präposition	keep	ordinary noun
+Renovier	merge:renovieren	imperative/stem fragment of renovieren
+
+# question Integrierte: all forms are "integrierten", so it could merge to integrieren (verb) or integriert (adjective); I chose the adjective because it is an attributive form.
+# question Streu: the forms streu/streuen may mostly be the verb streuen rather than the noun; I kept it as a real noun.
+# question Limo: it is a clipped form of Limousine, and I could not tell whether Limousine is on the list; I kept it as an established short form.

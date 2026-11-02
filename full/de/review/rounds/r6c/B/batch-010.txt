@@ -1,0 +1,46 @@
+Aust	drop	surname/name fragment
+Behandlungskosten	keep	plural-only like Kosten, no real singular
+Behältnisse	merge:Behältnis	plural filed as lemma
+Boxershort	keep	Boxershorts is the usual form, a plural-only-like established loan
+Golem	keep	common noun for the mythical figure
+Minusgrade	merge:Minusgrad	plural filed as lemma
+Riesa	drop	place name not on the list
+UA	drop	abbreviation of "unter anderem", not a single lemma
+Unglaublich	merge:unglaublich	capitalised adjective
+angefragt	merge:anfragen	participle, not an adjective in its own right
+bedurfte	merge:bedürfen	conjugated form
+eingeschrieben	merge:einschreiben	inflected participle form
+gefassten	merge:gefasst	inflected form of the adjective gefasst
+pool	merge:Pool	lower-case noun
+studio	merge:Studio	lower-case noun
+wiederrum	merge:wiederum	misspelling
+Janin	drop	personal name
+Moment	keep	correct lemma, only the counted forms are genitive
+Schwer	merge:schwer	capitalised adjective
+schlag	merge:schlagen	imperative/cut-off verb form
+Benötige	merge:benötigen	capitalised verb form
+Deuter	drop	mostly the brand name
+Habsburger	keep	demonym-type noun for a historical group, like Berliner
+Pimmel	keep	ordinary, if vulgar, noun
+Pingback	keep	established web loan
+Zeitdauer	keep	valid noun
+termin	merge:Termin	lower-case noun
+Bedrucke	merge:bedrucken	capitalised verb form
+Kissinger	drop	personal name
+Mousse	keep	established loan
+Sniper	keep	established loan
+Sterbende	keep	nominalised participle, a noun in its own right
+Verlinke	merge:verlinken	capitalised verb form
+Wirken	keep	nominalised verb, a noun in its own right (das Wirken)
+Zimmerei	keep	valid noun
+ffentlich	merge:öffentlich	broken encoding
+geförderten	merge:fördern	inflected participle
+gelöst	keep	adjective gelöst (relaxed) has its own entry
+lösungsorientierte	merge:lösungsorientiert	inflected adjective form
+san	drop	fragment/foreign word
+# question UA: could be merged into a lemma for "unter anderem" if one is listed; none is assumed, so drop.
+# question schlag: could be the noun Schlag/Schlager or the imperative of schlagen; I chose schlagen.
+# question Deuter: a real agent noun (interpreter) exists, but the evidence is almost entirely the backpack brand.
+# question Habsburger: dynasty name versus demonym noun; I treated it as a common noun.
+# question gelöst: the examples are mostly the participle of lösen, but the adjective gelöst has its own entry.
+# question eingeschrieben: may count as an adjective with its own entry (eingeschriebener Brief), in which case keep.

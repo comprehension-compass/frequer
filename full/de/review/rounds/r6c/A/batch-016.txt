@@ -1,0 +1,44 @@
+Softshell	keep	established loan noun
+Vaart	drop	Dutch surname
+aufsehenerregend	keep	adjective with its own entry
+betörend	keep	adjective with its own entry
+grösst	merge:groß	Swiss spelling of an inflected superlative
+hufig	merge:häufig	dropped letter, obvious
+mai	merge:Mai	lower-case month
+park	merge:Park	lower-case noun
+vera	drop	personal name
+Deg	merge:Degen	cut-off fragment of Degen
+Erinnern	merge:erinnern	capitalised verb
+Guinness	drop	brand name
+Jumbo	keep	established loan noun
+Spazierengehe	merge:spazierengehen	capitalised verb
+Sportevent	keep	established loan compound
+angedeutet	merge:andeuten	participle form
+befassten	merge:sich befassen	conjugated form of a pronominal verb
+beschleunigt	merge:beschleunigen	participle form
+bewegung	merge:Bewegung	lower-case noun
+cl	drop	abbreviation
+einzuloggen	merge:einloggen	inflected zu-infinitive
+freischaffend	keep	adjective with its own entry
+sekunden	merge:Sekunde	plural filed as lemma, lower-case
+visualisiert	merge:visualisieren	participle form
+Erlerne	merge:erlernen	capitalised verb
+Ger	drop	garbled fragment, no obvious target
+Outback	keep	established loan noun
+Packer	keep	German agent noun
+Psycholog	merge:Psychologe	truncated form
+Selbstständiger	keep	masculine nominalised adjective with its own entry
+Voyager	drop	product or name
+geschmack	merge:Geschmack	lower-case noun
+vorlage	merge:Vorlage	lower-case noun
+Minifigur	keep	common noun
+Mittelerde	drop	fictional place name, not on the list
+Rechtsextrem	merge:rechtsextrem	capitalised adjective
+Shemal	drop	offensive or spam term
+Toto	drop	name or brand
+Wendy	drop	personal name
+dauer	merge:Dauer	lower-case noun
+# question befassten: the rules don't say whether a pronominal verb's merge target carries "sich"; I used "sich befassen"
+# question einzuloggen: the examples are reflexive, but I merged to plain "einloggen" because the verb also works without "sich"
+# question Selbstständiger: the rules don't settle whether a nominalised adjective in -er is an inflected form; I kept it as a masculine entry, parallel to Lehrerin
+# question Shemal: the rules have no category for offensive or spam terms; I dropped it

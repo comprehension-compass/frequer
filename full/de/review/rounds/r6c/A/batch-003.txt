@@ -1,0 +1,41 @@
+Sammelbegriff	keep	Correct capitalised noun; lower-casing is only in the counted text
+Serienproduktion	keep	Correct noun lemma
+Strafmaß	keep	Correct noun lemma; the "strafmass" spelling is a variant
+Travemünde	drop	Place name not on the reviewed list
+Treueprogramm	keep	Correct noun lemma
+Vorbau	keep	Correct noun lemma
+Weinanbaugebiet	keep	Correct noun lemma
+lebend	keep	Participial adjective with its own dictionary entry
+parece	drop	Spanish word
+rbb	drop	Broadcaster acronym
+unterrichte	merge:unterrichten	Conjugated verb form filed as a lemma
+verwendung	merge:Verwendung	Noun filed under a lower-case lemma and mis-tagged ADJ
+Aufrichtigkeit	keep	Correct noun lemma
+Automatikgetriebe	keep	Correct noun lemma
+Betätige	merge:betätigen	Verb form under a capitalised lemma
+Blöd	merge:blöd	Adjective under a capitalised lemma
+Bombenangriff	keep	Correct noun lemma
+Brotaufstrich	keep	Correct noun lemma
+Buchverlag	keep	Correct noun lemma
+Erlernte	keep	Nominalised participle (das Erlernte), a noun in its own right
+Fachwerk	keep	Correct noun lemma
+Frontkamera	keep	Correct noun lemma
+Fürbitte	keep	Correct noun lemma
+Hausverbot	keep	Correct noun lemma
+Landesbetrieb	keep	Correct noun lemma
+Lizenzgeber	keep	Correct noun lemma
+Locarno	drop	Place name not on the reviewed list
+Lösegeld	keep	Correct noun lemma
+Megabyte	keep	Established loan noun
+Paketversand	keep	Correct noun lemma
+Pistenkilometer	keep	Correct noun lemma
+Polarisierung	keep	Correct noun lemma
+Presseartikel	keep	Correct noun lemma
+Strahlenbelastung	keep	Correct noun lemma
+Tagesklinik	keep	Correct noun lemma
+Tonabnehmer	keep	Correct noun lemma
+Versorgungsausgleich	keep	Correct noun lemma
+Viereck	keep	Correct noun lemma
+Weit	merge:weit	Adjective/adverb under a capitalised lemma
+Willenserklärung	keep	Correct noun lemma
+# question Erlernte: kept as a nominalised participle like "das Gute"; it could instead be merged into erlernen if such forms are not meant to be separate lemmas.

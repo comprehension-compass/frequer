@@ -1,0 +1,43 @@
+Tumorzelle	keep	ordinary compound noun, singular lemma
+appliziert	merge:applizieren	conjugated/participle form filed as lemma
+zubehör	merge:Zubehör	lower-case noun
+Über	merge:über	contractions übers/übern of a preposition, capitalised
+Blutergüsse	merge:Bluterguss	plural filed as lemma
+Familieim	merge:Familie	garbled "Familie im"
+Geb	merge:geboren	abbreviation of geboren
+Jahresabo	keep	established compound
+KR	drop	abbreviation/code
+Nationalelf	keep	common noun
+Russin	keep	feminine entry
+Uranus	drop	proper name
+Vs	merge:versus	abbreviation of versus
+Xylit	keep	real noun, common in food/pet contexts
+beschieden	merge:bescheiden	participle of verb bescheiden
+verpackung	merge:Verpackung	lower-case noun
+wurd	merge:werden	garbled form of wurde
+Interessanterweise	merge:interessanterweise	adverb capitalised
+Telegraph	keep	common noun (Telegraf), not only a name
+Turismo	drop	foreign word/name
+Waidhofen	drop	place name
+fnf	merge:fünf	dropped umlaut
+hr	merge:ihr	dropped letter, forms hrer/hren = ihrer/ihren
+naturnahe	merge:naturnah	inflected adjective
+roulette	merge:Roulette	lower-case noun
+verletzten	merge:verletzen	inflected verb form
+vorgenannten	merge:vorgenannt	inflected adjective
+Firmung	keep	ordinary noun
+Gebäudemanagement	keep	ordinary compound noun
+Landesanstalt	keep	ordinary noun
+Merle	drop	personal name
+Quell	merge:Quelle	truncated form
+Reichelt	drop	surname
+Umweltministerin	keep	feminine entry
+Verfolge	merge:verfolgen	verb form capitalised
+Weihnachtsdeko	keep	established compound
+dopen	keep	valid verb lemma
+hinzubekommen	merge:hinbekommen	zu-infinitive filed as lemma
+hochglanz	merge:Hochglanz	lower-case noun
+paysafecard	drop	brand name
+# question Vs: "versus" may not be on the list; merge assumed, drop if absent.
+# question hr: could also be hör-forms (hören), but ihr/ihrer/ihren fit the counts best.
+# question Uranus: planet name not covered by the place-name rule; treated as other name.

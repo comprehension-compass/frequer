@@ -1,0 +1,43 @@
+Tumorzelle	keep	Ordinary compound noun, singular lemma.
+appliziert	merge:applizieren	Conjugated or participle form filed as a lemma.
+zubehör	merge:Zubehör	Noun filed under a lower-case lemma.
+Über	merge:über	Contractions übers and übern, so the lemma is the preposition über.
+Blutergüsse	merge:Bluterguss	Plural filed as lemma.
+Familieim	merge:Familie	Garbled run-together text (Familie im).
+Geb	merge:geboren	Abbreviation of geboren.
+Jahresabo	keep	Established compound noun with its own meaning.
+KR	drop	Abbreviation or code.
+Nationalelf	keep	Common noun for the national team.
+Russin	keep	Feminine noun with its own entry.
+Uranus	drop	Proper name (planet), not a learnable common noun.
+Vs	drop	Abbreviation of versus, a foreign word.
+Xylit	keep	Real noun, not an acronym.
+beschieden	merge:bescheiden	Participle of the verb bescheiden (to grant), not an adjective entry.
+verpackung	merge:Verpackung	Noun filed under a lower-case lemma.
+wurd	merge:werden	Garbled or inflected form of werden (wurde).
+Interessanterweise	merge:interessanterweise	Adverb filed under a capitalised lemma.
+Telegraph	keep	Common noun (Telegraf) and a famous newspaper title.
+Turismo	drop	Italian or Spanish foreign word.
+Waidhofen	drop	Place name not on the list.
+fnf	merge:fünf	Broken encoding.
+hr	merge:ihr	Broken encoding: hrer, hren and hrem are ihrer, ihren and ihrem.
+naturnahe	merge:naturnah	Inflected adjective form.
+roulette	merge:Roulette	Noun filed under a lower-case lemma.
+verletzten	merge:verletzen	Inflected verb form.
+vorgenannten	merge:vorgenannt	Inflected adjective form.
+Firmung	keep	Ordinary noun.
+Gebäudemanagement	keep	Established compound noun.
+Landesanstalt	keep	Ordinary common noun.
+Merle	drop	Personal name.
+Quell	merge:Quelle	Truncated or poetic form of Quelle.
+Reichelt	drop	Surname.
+Umweltministerin	keep	Feminine noun with its own entry.
+Verfolge	merge:verfolgen	Verb filed under a capitalised lemma.
+Weihnachtsdeko	keep	Established compound noun.
+dopen	keep	Established loan verb, and dopen is a valid infinitive lemma.
+hinzubekommen	merge:hinbekommen	zu-infinitive form of hinbekommen.
+hochglanz	merge:Hochglanz	Noun filed under a lower-case lemma.
+paysafecard	drop	Brand name.
+# question Uranus: planet names are neither place names nor people's names in the rules; I treated it as a proper name and dropped it.
+# question Vs: versus is not clearly on the list, so I dropped it rather than merging it.
+# question hr: the forms hr, hrer, hren and hrem could also be hör- (hören), but the inflections point to ihr.

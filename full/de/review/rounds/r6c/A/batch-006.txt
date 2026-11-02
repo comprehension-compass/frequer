@@ -1,0 +1,45 @@
+ar	drop	garbled fragment with no clear target
+model	merge:Modell	English spelling of an adapted word
+Indigen	merge:Indigene	cut-off form of the nominalised adjective
+Marienkirche	keep	common church-name compound used for many churches
+album	merge:Album	lower-case noun
+fetisch	merge:Fetisch	lower-case noun
+konstante	merge:konstant	inflected adjective form
+projekt	merge:Projekt	lower-case noun
+ve	drop	garbled fragment
+Adsense	drop	brand name
+BfArM	drop	specialist agency acronym
+Dunlop	drop	brand name
+Memphis	drop	place name not on list
+SI	drop	abbreviation
+Slider	keep	established loan
+moechte	merge:möchte	transliterated umlaut
+Freudenstadt	drop	place name not on list
+Rod	drop	English word or name
+Siegerland	drop	region name not on list
+ebendiese	merge:ebendieser	inflected form
+verliehen	merge:verleihen	inflected participle forms
+Bugatti	drop	brand name
+Deppe	merge:Depp	inflected plural form
+Jannik	drop	personal name
+Sandhausen	drop	place name not on list
+apple	drop	brand name
+main	drop	river name or English word
+nat	drop	garbled fragment
+pediküren	merge:Pediküre	plural and verb forms of Pediküre
+schwester	merge:Schwester	lower-case noun
+zeitgemäss	merge:zeitgemäß	ss spelling for ß
+Ariel	drop	brand or personal name
+Bolze	merge:Bolzen	misfiled form
+Buff	drop	brand name
+Trese	merge:Tresen	misfiled form
+Vox	drop	TV channel name
+Weis	merge:weiß	dropped ß, probable target
+dipl	drop	specialist abbreviation
+eingeblendet	merge:einblenden	inflected participle forms
+tourt	merge:touren	conjugated verb form
+# question Marienkirche: a generic church name shared by many churches, not a single famous institution; kept as a common compound
+# question konstante: could also be the noun Konstante, but it is lower-case and tagged as an inflected adjective, so I chose merge:konstant
+# question Weis: the written forms (weis, weissen) have no examples; I took the dropped-ß reading of weiß, but Weise is possible
+# question dipl: it may abbreviate Diplom, but I could not tell whether Diplom is on the list, so I treated it as a specialist abbreviation and dropped it
+# question BfArM: a federal agency, but I treated it as a specialist acronym rather than a famous institution

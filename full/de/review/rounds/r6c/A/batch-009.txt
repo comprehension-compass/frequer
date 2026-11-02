@@ -1,0 +1,45 @@
+Brückner	drop	surname
+Dithmarschen	drop	place name not on the reviewed list
+Geforce	drop	product brand
+Relativ	merge:relativ	adjective filed under a capitalised lemma
+Shepard	drop	surname
+eingemacht	merge:einmachen	participle filed as a lemma
+gabi	drop	personal name
+haette	merge:haben	misspelling of hätte, a form of haben
+stade	merge:stad	inflected form of the regional adjective stad
+Kite	keep	established loan (Kitesurfen)
+Kodak	drop	brand name
+Oberhof	drop	place name not on the reviewed list
+Playmobil	drop	brand name
+Titanium	drop	English form used only in product names
+Webber	drop	surname
+angegeben	merge:angeben	participle filed as a lemma
+angelockt	merge:anlocken	participle filed as a lemma
+bin	merge:sein	conjugated form of sein
+gerendert	merge:rendern	participle filed as a lemma
+levitra	drop	drug brand and spam
+Anfänglich	merge:anfänglich	adjective filed under a capitalised lemma
+Kraichgau	drop	place name not on the reviewed list
+Nasa	keep	famous institution
+ann	drop	name or fragment
+beratung	merge:Beratung	noun filed under a lower-case lemma
+extravaganten	merge:extravagant	inflected adjective form
+hnlich	merge:ähnlich	broken encoding
+Dunkelblau	merge:dunkelblau	adjective filed under a capitalised lemma
+Inga	drop	personal name
+Kathi	drop	personal name
+MEHR	merge:mehr	capitalised form of a grammatical word
+Medaillon	keep	ordinary noun, plural forms belong to the same lemma
+Schlüter	drop	surname
+ala	merge:à la	missing accent
+db	drop	abbreviation or acronym
+german	drop	English word
+kumulieren	keep	real dictionary verb with participle forms
+leg	merge:leger	cut-off fragment of leger
+trag	merge:tragen	imperative or cut-off form of tragen
+vorfertigen	keep	real dictionary verb
+
+# question eingemacht: it appears mostly as the nominalised das Eingemachte, which would stay keep if it were capitalised. I merged it to einmachen because the lemma is lower-case and participial.
+# question haette: the rules don't say whether a misspelling of hätte merges to hätte or to the infinitive haben. I chose haben as the dictionary form.
+# question Dunkelblau: the examples use it as a colour noun (das Dunkelblau). I merged it to the adjective because the lemma is overwhelmingly written lower-case.
+# question ala: it is the loan "à la" written without its accent. It is unclear whether a two-word expression is a valid lemma target.

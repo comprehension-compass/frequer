@@ -1,0 +1,45 @@
+firma	merge:Firma	lower-case noun
+ih	merge:ihr	dropped letter: ihr, ihrer, ihren, ihrem
+versierten	merge:versiert	inflected adjective form
+zeichen	merge:Zeichen	lower-case noun
+Bundesrechtsanwaltskammer	keep	national institution, the German federal bar association
+Etsy	drop	brand/website name
+Eutin	drop	place name not on the list
+Michelangelo	drop	person name
+rang	merge:ringen	conjugated verb forms
+sicherzugehen	merge:sichergehen	zu-infinitive form
+ua	drop	abbreviation of a phrase that is not a lemma
+verstören	keep	correct verb infinitive; the ADJ tag comes from the participle
+werbeflächen	merge:Werbefläche	lower-case plural noun
+Entsprechende	merge:entsprechend	forms are lower-case inflected adjective forms
+Feucht	merge:feucht	capitalised adjective
+Gallerie	merge:Galerie	misspelling
+Telecom	drop	company name
+eShop	drop	brand-like spelling
+lampe	merge:Lampe	lower-case noun
+samstag	merge:Samstag	lower-case noun
+stehts	merge:stets	misspelling
+store	drop	English word
+vorallem	merge:vor allem	misspelling
+Attila	drop	person name
+Gerlinde	drop	person name
+Oasis	drop	band/venue name
+Odyssey	drop	product/company name in the examples
+Quattro	drop	brand name
+Unbeschadet	merge:unbeschadet	sentence-initial capital on a preposition
+angesammelt	merge:ansammeln	participle forms, not an adjective of its own
+auserwählt	keep	adjective with its own dictionary entry
+ARTIKEL	merge:Artikel	upper-case form
+Antifaschistische	merge:antifaschistisch	capitalised inflected adjective
+Isaak	drop	biblical person name
+Korinther	drop	biblical name
+Mey	drop	name
+Scarlett	drop	person name
+Wett	merge:Wette	cut-off fragment
+begünstigt	merge:begünstigen	participle forms
+bescheidene	merge:bescheiden	inflected adjective form
+# question Bundesrechtsanwaltskammer: the rules keep "famous institutions", but it is unclear whether a professional body that only specialists know counts as famous.
+# question ua: this is the abbreviation of "unter anderem", which is not a listed lemma, so there is no merge target; I dropped it.
+# question store: no examples were found; I dropped it as English, but it could be the German noun Store (curtain).
+# question Wett: there is no example and the target is uncertain; it could be Wette or wettmachen.
+# question begünstigt: the forms are mostly nominalised, and it is unclear whether begünstigt has an adjective entry of its own.

@@ -1,0 +1,43 @@
+Limo	keep	Established noun; the lemma is already capitalised.
+Menopause	keep	Ordinary noun.
+Mikrobiologie	keep	Ordinary noun.
+Missgeschick	keep	Ordinary noun.
+Oz	drop	Abbreviation (ounce) or a name; not a learnable lemma.
+Polizeichef	keep	Ordinary compound noun.
+Replik	keep	Ordinary noun.
+Routenplanung	keep	Ordinary compound noun.
+Sparpaket	keep	Ordinary compound noun.
+Sprachversion	keep	Ordinary compound noun.
+Stahlbau	keep	Ordinary compound noun.
+Streu	keep	Real noun (Streu, litter); "streuen" is a separate verb.
+Türschloss	keep	Ordinary compound noun.
+Weihnachtsstimmung	keep	Ordinary compound noun.
+katze	merge:Katze	Noun filed under a lower-case lemma.
+manag	merge:Manager	Cut-off fragment; the surface forms are mostly "manager".
+reinhören	keep	Valid colloquial separable verb.
+spuren	keep	Valid verb (spuren, to obey; spurten, to sprint).
+Ackerland	keep	Ordinary noun.
+Autosalon	keep	Ordinary noun.
+Berufsordnung	keep	Ordinary noun.
+Bewerbungsformular	keep	Ordinary noun.
+Eisenmangel	keep	Ordinary noun.
+Entscheidungsgrundlage	keep	Ordinary noun.
+Freikirche	keep	Ordinary noun.
+Gesundheitsschaden	keep	Ordinary noun.
+Gewaltprävention	keep	Ordinary noun.
+Grundlinie	keep	Ordinary noun.
+Herzschrittmacher	keep	Ordinary noun.
+Hochschulabsolvent	keep	Ordinary noun.
+Integrierte	merge:integriert	Inflected adjective/participle filed as a noun lemma.
+Jahresverlauf	keep	Ordinary noun.
+Kilowatt	keep	Unit word, established noun.
+Lebensaufgabe	keep	Ordinary noun.
+Mikrobe	keep	Ordinary noun.
+Nagelstudio	keep	Ordinary noun.
+Nebenkostenabrechnung	keep	Ordinary noun.
+Pflasterstein	keep	Ordinary noun.
+Präposition	keep	Ordinary noun.
+Renovier	merge:renovieren	Cut-off verb stem, capitalised.
+# question manag: the surface forms include "managen" (51) as well as "manager" (412); I merged to Manager, but managen is also possible.
+# question Integrierte: the only surface form is "integrierten", mostly adjectival; I merged to integriert, but integrieren is arguable.
+# question spuren: the surface forms mix spuren (to obey) with spurt/spurten (sprint); I kept the lemma, but the counts may combine two verbs.

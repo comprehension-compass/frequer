@@ -1,0 +1,42 @@
+Wohnimmobilie	keep	Lemma is already capitalised; a regular noun
+dent	drop	Fragment of the loan phrase "al dente", not a word on its own
+frühmorgens	keep	Valid adverb
+hintergrund	merge:Hintergrund	Noun filed under a lower-case lemma
+leuten	merge:Leute	Inflected (dative plural) form of Leute
+sal	merge:Sale	Cut-off fragment of sale/sales
+stutzig	keep	Valid adjective; the NUM tag is just wrong
+whlen	merge:wählen	Broken encoding of wählen
+Atlantikküste	keep	Regular noun, already capitalised
+Auftragsvergabe	keep	Regular noun, already capitalised
+Bayreuther	drop	Adjective derived from the place name Bayreuth, which is not on the list
+Besprechungsraum	keep	Regular noun, already capitalised
+Dauerkarte	keep	Regular noun, already capitalised
+Deutschschweiz	drop	Place name not on the reviewed list
+Durchsatz	keep	Regular noun, already capitalised
+Energiestrategie	keep	Regular noun, already capitalised
+Fehleinschätzung	keep	Regular noun, already capitalised
+Gebein	keep	Singular noun lemma; plural forms are only variants
+Gestüt	keep	Regular noun, already capitalised
+Gewerbepark	keep	Regular noun, already capitalised
+Hemmschwelle	keep	Regular noun, already capitalised
+Kreisvorstand	keep	Regular noun, already capitalised
+Minispiel	keep	Regular noun, already capitalised
+Mitverantwortung	keep	Regular noun, already capitalised
+Neueintragung	keep	Regular noun, already capitalised
+Osterfeuer	keep	Regular noun, already capitalised
+Panikmache	keep	Regular noun, already capitalised
+Privatparkplatz	keep	Regular noun, already capitalised
+Reisetermin	keep	Regular noun, already capitalised
+Rosette	keep	Regular noun, already capitalised
+Rundbrief	keep	Regular noun, already capitalised
+Schnittblume	keep	Regular noun, already capitalised
+Schwangerschaftstest	keep	Regular noun, already capitalised
+Variabilität	keep	Regular noun, already capitalised
+Vermisste	keep	Nominalised adjective that works as a noun in its own right (like das Gute)
+Verzweigung	keep	Regular noun, already capitalised
+Vordenker	keep	Regular noun, already capitalised
+Vorinstanz	keep	Regular noun, already capitalised
+Wachsamkeit	keep	Regular noun, already capitalised
+Weltreligion	keep	Regular noun, already capitalised
+# question sal: forms are mostly English "sales"/"sale"; I merged to Sale as the adapted loan, but if Sale is not an accepted loan it should be dropped.
+# question Bayreuther: place-derived adjective (Bayreuther Festspiele); I dropped it as a non-listed place name derivative, though the Festspiele are a famous institution.

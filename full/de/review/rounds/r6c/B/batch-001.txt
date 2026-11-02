@@ -1,0 +1,43 @@
+nachhause	merge:nach Hause	misspelt, written together
+ui	keep	real interjection despite ADJ tag
+Befestigungsmaterial	keep	valid compound noun
+Erle	keep	valid noun, plural is just an inflected form
+Fahrradweg	keep	valid compound noun
+Gesundheitsreform	keep	valid compound noun
+Glasfasernetz	keep	valid compound noun
+Glaubensgemeinschaft	keep	valid compound noun
+Kinderlied	keep	valid compound noun
+Parteifreund	keep	valid compound noun
+Ramos	drop	surname
+Rindsleder	keep	valid compound noun
+Roadshow	keep	established loan
+Serienfertigung	keep	valid compound noun
+Unterordnung	keep	valid noun
+Verlockung	keep	valid noun
+Verschreibung	keep	valid noun
+Wassersportler	keep	valid compound noun
+Wildbiene	keep	valid compound noun
+altbacken	keep	real adjective with its own entry, wrong POS tag only
+detailiert	merge:detailliert	misspelling
+eich	merge:Eiche	cut-off fragment of Eiche
+erscheinend	merge:erscheinen	present participle, not a separate adjective entry
+ungebunden	keep	adjective with its own entry
+wiederholend	merge:wiederholen	present participle form
+zugeteilt	merge:zuteilen	participle form
+Artikelserie	keep	valid compound noun
+Bestellmöglichkeit	keep	valid compound noun
+Duale	merge:dual	inflected adjective (dualen) filed as noun
+Erdung	keep	valid noun
+Ernährungsgewohnheit	keep	valid compound noun
+Fernsehfilm	keep	valid compound noun
+Förderrichtlinie	keep	valid compound noun
+Glücksrad	keep	valid compound noun
+Holzofen	keep	valid compound noun
+Jage	merge:jagen	inflected verb form filed as noun
+Jugendpsychiatrie	keep	valid compound noun
+Knethaken	keep	valid compound noun
+Landschaftspark	keep	valid compound noun
+Lieferverzögerung	keep	valid compound noun
+
+# question nachhause: the merge target "nach Hause" is two words; if the list cannot hold multi-word lemmas, "zuhause" or drop may be needed
+# question ui: interjection with no example sentences and a wrong ADJ tag; kept as an established interjection, but it may be too informal for a learner list

@@ -1,0 +1,43 @@
+Aust	drop	surname/name fragment (Austen)
+Behandlungskosten	keep	plural-only in practice, like Kosten
+Behältnisse	merge:Behältnis	plural filed as lemma
+Boxershort	keep	already singular; Boxershorts is the usual plural-only usage
+Golem	keep	common noun (der Golem)
+Minusgrade	merge:Minusgrad	plural filed as lemma
+Riesa	drop	place name not on list
+UA	drop	abbreviation/acronym
+Unglaublich	merge:unglaublich	capitalised adjective
+angefragt	merge:anfragen	inflected participle, no adjective entry of its own
+bedurfte	merge:bedürfen	conjugated form
+eingeschrieben	keep	adjective with own entry (eingeschriebener Brief)
+gefassten	merge:fassen	inflected participle form
+pool	merge:Pool	noun filed lower-case
+studio	merge:Studio	noun filed lower-case
+wiederrum	merge:wiederum	misspelling
+Janin	drop	personal name
+Moment	keep	valid noun lemma
+Schwer	merge:schwer	capitalised adjective
+schlag	merge:schlagen	cut-off/imperative form
+Benötige	merge:benötigen	capitalised verb form
+Deuter	drop	brand/surname
+Habsburger	keep	demonym-type common noun like Berliner
+Pimmel	keep	real (vulgar) noun
+Pingback	keep	established loan
+Zeitdauer	keep	valid noun
+termin	merge:Termin	noun filed lower-case
+Bedrucke	merge:bedrucken	capitalised verb form
+Kissinger	drop	personal name
+Mousse	keep	established loan
+Sniper	keep	established loan
+Sterbende	keep	nominalised participle, noun in its own right
+Verlinke	merge:verlinken	capitalised verb form
+Wirken	keep	nominalised verb, noun in its own right (das Wirken)
+Zimmerei	keep	valid noun
+ffentlich	merge:öffentlich	broken encoding
+geförderten	merge:fördern	inflected participle
+gelöst	keep	participle adjective with own entry (relaxed)
+lösungsorientierte	merge:lösungsorientiert	inflected adjective form
+san	drop	fragment/foreign word
+# question schlag: forms are schlag and schlager (noun Schlager); merged to the verb schlagen, but Schlag/Schlager as nouns is possible
+# question Habsburger: dynasty name; kept as a demonym-type common noun, but could count as a proper name
+# question gefassten: could be merged to the adjective gefasst (calm) instead of fassen; examples show the participle of fassen

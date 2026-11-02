@@ -1,0 +1,45 @@
+Besucherströme	merge:Besucherstrom	plural filed as lemma
+Breitengrade	merge:Breitengrad	plural filed as lemma
+Leichte	merge:leicht	capitalised inflected adjective
+Ling	drop	fragment with no clear target; mostly name or place (Lingen)
+Nom	merge:Nomen	cut-off fragment of Nomen
+Trockene	merge:trocken	capitalised inflected adjective
+blogge	merge:bloggen	conjugated verb form
+dargelegt	merge:darlegen	participle, no adjective entry of its own
+eloxiert	merge:eloxieren	participle filed as a verb lemma
+gekoppelt	merge:koppeln	participle, no adjective entry of its own
+laptop	merge:Laptop	lower-case noun
+produkte	merge:Produkt	plural noun mis-tagged as verb
+Alaba	drop	person name
+Dresdener	drop	place-derived form, place not on the list
+Faszinierende	merge:faszinierend	capitalised adjective form
+Freche	drop	actually the place name Frechen
+Gießener	drop	place-derived form
+Levin	drop	person name
+StVZO	drop	specialist abbreviation
+bee	drop	English "been", not German
+ehr	merge:eher	misspelling
+handvoll	merge:Handvoll	lower-case noun
+Ahrweiler	drop	place name
+Angelique	drop	person name
+BZgA	drop	specialist abbreviation
+DLCs	drop	specialist abbreviation, plural
+Essstörungen	merge:Essstörung	plural filed as lemma
+Isolde	drop	person name
+Mayo	keep	established colloquial noun for Mayonnaise
+Rocco	drop	person name
+Schlecht	merge:schlecht	adjective filed under a capital letter
+Sonnenblumenkerne	merge:Sonnenblumenkern	plural filed as lemma
+bemisst	merge:bemessen	conjugated verb form
+perforieren	keep	infinitive is a valid verb lemma
+rausgekommen	merge:rauskommen	participle form
+technik	merge:Technik	lower-case noun
+Begünstigte	keep	nominalised participle, a noun in its own right
+Gent	drop	place name
+Hauf	merge:Haufen	cut-off fragment
+Mitwirke	merge:mitwirken	verb filed under a capitalised lemma
+
+# question Ling: the forms (ling, lingen, linge) are a mix of a suffix fragment, the place Lingen and names, so there is no obvious merge target; I dropped it.
+# question Hauf: the evidence is mostly "Haufe Akademie" (a name), so merging into Haufen is doubtful; drop would also be defensible.
+# question Mayo: is a clipping like this a lemma in its own right, or should it merge into Mayonnaise? I kept it as an established everyday word.
+# question Begünstigte: this is a nominalised participle (der/die Begünstigte). I treated it like "das Gute" and kept it, but the lemma could instead merge into begünstigen.
