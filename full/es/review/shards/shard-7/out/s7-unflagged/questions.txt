@@ -1,0 +1,64 @@
+# question abbá: biblical Aramaic term used in Spanish religious texts; dropped because of the Abbás/ABBA name mix.
+# question afijar: split by form: afijar, afijaremos, afijará, afijen -> afijar (verb, a minority of the examples); I merged the lemma into afijo for its majority reading.
+# question afijar: split by form: afijo -> afijo
+# question alcántara: Alcantara is a brand-origin upholstery material used as a common noun, and the lemma is the fragment alcántar; dropped, but it may deserve a kept entry alcántara
+# question alcántara: the word is partly a brand (Alcantara) used as a material name; merged as the common material.
+# question amantadina: specialist antiviral/Parkinson's drug; dropped as not a common generic, but borderline.
+# question anonimizador: rare but regular derived noun; kept
+# question antialiasing: could count as an established tech loan; dropped as specialist
+# question apartements: could also be treated as a foreign-language junk token and dropped; merged because it sits in lists beside apartamentos
+# question atractividad: rare, and no merge target is clearly right (atractivo or atractivo's synonyms); dropped as a calque.
+# question bacón: the academy prefers beicon, but the list uses the form people write, so I kept it; merge to beicon if you prefer the academy form.
+# question budesonide: could merge:budesonida if the coordinator treats it as a common drug; I judged it specialist.
+# question calicó: I kept it as an adapted loan found in Spanish text; the screener suspected Catalan, so please confirm it is established in Spanish.
+# question campanita: no examples given, so the share of uses as the name (Tinker Bell) is unclear; kept because most occurrences are lowercase
+# question capilariza: capilarizar is not clearly established in dictionaries; it appears only in sportswear marketing copy, so drop is also defensible.
+# question clickeando: merged into clickear as the form people write; the academy's clicar (or clic per the spelling rule) could be the target instead
+# question clickeando: merged to clicar following the click → clic convention; the coordinator may prefer clickear if the list keeps that verb form
+# question cocotte: French cookware word, borderline between established loan and foreign word; kept
+# question cocotte: no clear academy entry; kept for its cookware use in Spanish texts.
+# question comeback: borderline loan; about a third of the examples are a phone model name
+# question comeback: mixed product-name and fashion/K-pop uses; kept as an established loan, borderline
+# question condoler: forms are mostly condolerse; kept as the pronominal verb, no merge target needed
+# question cuado: cuñado is the likeliest reading, but no examples were shown; cuadro or a cut-off fragment is possible
+# question cyclosporine: ciclosporina is an obvious Spanish form, but I judged it a specialist drug and dropped it rather than merging; a ruling on whether it counts as a common generic would settle it.
+# question desparejar: forms are mostly the adjective desparejo/desparejado, so a lemma desparejo could fit better; kept since desparejar is a real verb.
+# question diptera: dípteros is a Spanish word, but these forms are almost all the taxon label; dropped, and a lemma dípteros might need a separate entry.
+# question empachar: split by form: empacho -> empacho
+# question entronar: most examples are the typo "entrono" (entorno); dropped as the entronar reading is under a third
+# question entronar: split by form: entrono -> entorno (misspelling, about 70 of 121 occurrences; the remainder is real entronar)
+# question excluídos: merged into the verb excluir; the rules don't say whether a participle used as an adjective should go to excluido instead
+# question extrudado: merge target extrudir is uncertain; the examples read mostly as a noun or adjective ("el extrudado"), so keep may fit better.
+# question extrudado: no clear Spanish lemma (extrudar or extrusionar); dropped as an industrial technical term
+# question glycol: could merge into glicol, but dropped because every example is an English chemical name
+# question guatear: lemma may be better as the adjective guateado; kept because the verb guatear is plausible but its dictionary status is unclear
+# question halloumi: cheese name that appears on Spanish menus, but the examples are from English contexts; dropped as not yet established
+# question indiv: no examples; "individual" is a guess from the abbreviation
+# question indiv: no examples; assumed to abbreviate individual
+# question legenda: unclear whether the lowercase legenda/legendas forms are Spanish; about half are lowercase and the examples show only the name Lucilla Legenda, so I dropped it as foreign or a name
+# question multieje: borderline specialist term; kept as an ordinary prefixed compound
+# question multipack: it occurs mostly in commercial copy; keep assumes it counts as an established loan.
+# question netofatita: gentilic of the biblical town Netofa; the rules cover ethnonyms but not biblical place-gentilics, so dropped.
+# question netofatita: lowercase gentilic rule would suggest keep, but it is a biblical place-derived gentilic with no learner value; dropped
+# question notica: some examples are typos of "noticias"; I kept it on the strength of the real diminutive reading.
+# question notica: some occurrences may be typos of "noticias"; kept as a real colloquial diminutive.
+# question pieta: the Italian art-work sense (Pietà) is not in the examples, so I dropped it
+# question purito: puritos (small cigars) plus Purito as a nickname/name; the real-word reading is about a third (37 of 109), so I kept it.
+# question purito: the real-word reading (puritos, small cigars) is about 33% of occurrences, right at the "about a third" line; the lemmatiser may also want it merged into puro as a diminutive.
+# question rooting: Android jargon seen in Spanish tech text; I judged it not yet established enough to keep.
+# question rooting: the English term is common in Android contexts, but Spanish usually says "rootear" or "root", so it is borderline as an established loan.
+# question seah: biblical unit of measure that appears in Spanish Bible texts; dropped as not established for a learner's list
+# question selegiline: could merge into the adapted spelling selegilina, but dropped because all examples are English drug lists and the drug is specialist
+# question somatropina: generic drug but specialist hormone; dropped as specialist
+# question sultano: most forms are sultana, which could be its own feminine entry; kept the lemma as a real word.
+# question sultano: most occurrences are "La Sultana" as a place epithet or title, but sultano/sultana is a real word, so I kept it.
+# question terroirs: terroir may not itself be on the list; merged target assumed to be the standard singular loan form
+# question terroirs: the target lemma terroir is assumed to be on the list or to be kept as an established loan; if terroir is not itself kept, this should be drop.
+# question teseracto: the lowercase real-word reading (the geometric tesseract) is about 13% of the examples, so I dropped it, but it may deserve a keep if the Marvel use is judged a common noun.
+# question totoaba: a well-known animal in Mexico (the fish is regularly in news about the vaquita), so keep could be defended; I dropped it as a specialist organism name with no example sentences to check.
+# question totoaba: tagged VERB is a tagger error (noun); no examples were available to confirm usage
+# question trabe: real Spanish word (beam, trabe) exists, but the sample is dominated by the "a trabes de" misspelling and a brand; dropped, since the real reading is probably under a third
+# question trabe: trabe is also a real but rare word (viga), and the examples are one brand name and two "a trabes" misspellings; merged to través as the majority reading.
+# question transmitencia: the standard word is transmitancia; confirm this is a variant spelling rather than a separate word.
+# question truquito: diminutives are not covered by the rules; kept with cortita for consistency
+# question ufanar: split by form: ufano -> ufano
