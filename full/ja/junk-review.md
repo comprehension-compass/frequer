@@ -44,6 +44,22 @@ outranking the automatic proper-noun drop.
 
 The per-band report, samples, merges and questions are in `band-report.md`. Per-lemma actions are in `ja.routed.tsv`.
 
+## The 30k build (2026-11-02)
+
+`ja.json` (in the build directory; the snapshot is not committed): **30,422 entries**, the reviewed
+top 30,000 (rank 30,000: 表せる, 648 occurrences, 0.94 per million) plus 422 learnable names: 329 counted
+below the cut, 93 never counted (frequency 0), and さいたま filed under 埼玉. 307 listed names the segmenter
+splits (language names such as アイルランド語, seas, mountain ranges) are not appended: they are
+`learnable-multiword-names.tsv`, input for lemma release 1.6. Reference checkout Honeyeater #766 `5a12937`
+(learnable names, `lexicon.number_words.number_is_learnable`); counts stamped `c07c7015`.
+`load_lemmas ja --dry-run` (at #766): 30,422 ranked, 0 skipped, 2,082 unit headwords, 84 homograph keys.
+
+Actions in the 30k window: 27,636 keep, 2,364 review-keep, 2,367 review-drop, 1,211 place-drop,
+682 dictionary name drop, 607 number drop; 527 merges; 10,102 review decisions over 13 rounds (round 9:
+the 0-30k unflagged screen's 1,372 suspects; rounds 10-13: the 30-40k extension). Report:
+`build-30k/report.md`. The 40k build is ready as an option; 19 flagged lemmas at its very edge
+(kept 39,654-40,000) were left unreviewed.
+
 ## Developer rulings (2026-11-02)
 
 Folded into the reviewer rules (`scripts/review/prompts/rules-ja.md`) and applied by re-review (round 8) where
