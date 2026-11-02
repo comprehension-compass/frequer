@@ -1,17 +1,17 @@
-# de cleaning pass: per-band report (round 1 + round 2 applied)
+# de cleaning pass: per-band report (four review rounds and the developer's rulings of 2026-11-02 applied)
 
 Bands by position in the cleaned list (kept rank). A lemma counts in the band where it would have sat. "Kept" includes unreviewed lemmas with no flag and reviewed keeps; "dropped" is every lemma removed from that stretch of the raw ranking (review drops, the number rule, 2+-flag drops).
 
 | band | raw ranks | kept | of which reviewed keep | dropped | review drop | English exclusion | number rule | other drop | kept share | f at band end |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 0-10,000 | 1-10888 | 10,000 | 1,044 | 1,078 | 668 | 190 | 220 | 0 | 90.3% | 2217 |
-| 10,000-20,000 | 10889-22440 | 10,000 | 796 | 1,975 | 1,349 | 422 | 203 | 1 | 83.5% | 821 |
-| 20,000-25,000 | 22441-28333 | 5,000 | 336 | 1,158 | 793 | 265 | 100 | 0 | 81.2% | 596 |
-| 25,000-30,000 | 28334-34218 | 5,000 | 299 | 1,130 | 804 | 245 | 81 | 0 | 81.6% | 461 |
+| 0-10,000 | 1-10892 | 10,000 | 1,040 | 1,082 | 671 | 190 | 221 | 0 | 90.2% | 2215 |
+| 10,000-20,000 | 10893-22430 | 10,000 | 811 | 1,962 | 1,323 | 423 | 215 | 1 | 83.6% | 821 |
+| 20,000-25,000 | 22431-28285 | 5,000 | 365 | 1,118 | 747 | 263 | 108 | 0 | 81.7% | 598 |
+| 25,000-30,000 | 28286-34135 | 5,000 | 341 | 1,096 | 758 | 246 | 92 | 0 | 82.0% | 462 |
 
-Pending (flagged, not yet reviewed) inside the 30k: 35
+Pending (flagged, not yet reviewed) inside the 30k: 19
 
-## Real-lemma share of the kept list (sample)
+## Real-lemma share of the kept list (sample, drawn before round 4)
 
 100 random kept lemmas per band, judged by one independent reviewer (real, correctly spelt dictionary lemma a learner wants: yes/no). The misses are mostly lemmatiser output no rule flags (a wrong citation form, a clipped stem), which only a lemmatiser fix or a wider review would catch.
 
@@ -28,109 +28,109 @@ Adjusted real share (units such as *es gibt* and homograph keys such as *Gericht
 
 | rule | hits | of which dropped |
 |---|---:|---:|
-| propn_usage | 4,367 | 3,209 |
-| shape | 543 | 345 |
-| citation | 287 | 132 |
-| diversity | 234 | 153 |
-| foreign | 38 | 31 |
-| number rule (drops) | 604 | |
+| propn_usage | 4,354 | 3,212 |
+| shape | 539 | 248 |
+| citation | 286 | 134 |
+| diversity | 232 | 155 |
+| foreign | 36 | 31 |
+| number rule (drops) | 636 | |
 
 ## Sample keeps around 25,000
 
 | kept rank | raw rank | lemma | freq | POS | reviewed |
 |---:|---:|---|---:|---|---|
-| 24946 | 28262 | Ammoniak | 598 | NOUN |  |
-| 24947 | 28264 | Barbecue | 598 | NOUN |  |
-| 24949 | 28266 | Betriebsart | 598 | NOUN |  |
-| 24952 | 28272 | Lebenszeichen | 598 | NOUN |  |
-| 24959 | 28283 | Unternehmensentwicklung | 598 | NOUN |  |
-| 24967 | 28292 | rückwärtig | 598 | ADJ |  |
-| 24981 | 28309 | Sicherheitsabstand | 597 | NOUN |  |
-| 24986 | 28315 | einnisten | 597 | VERB |  |
-| 24990 | 28319 | hie | 597 | ADP |  |
-| 25004 | 28337 | grausig | 596 | ADJ |  |
-| 25008 | 28342 | radio | 596 | ADJ |  |
-| 25014 | 28352 | Lösungsmöglichkeit | 595 | NOUN |  |
-| 25023 | 28363 | Vortag | 595 | PROPN | yes |
-| 25045 | 28389 | Lostopf | 594 | NOUN |  |
-| 25056 | 28401 | Weltverband | 594 | NOUN |  |
+| 24946 | 28217 | Musikgeschichte | 600 | NOUN |  |
+| 24947 | 28218 | Raumteiler | 600 | NOUN |  |
+| 24949 | 28221 | Volksverhetzung | 600 | NOUN |  |
+| 24952 | 28224 | Webprojekt | 600 | NOUN |  |
+| 24959 | 28231 | äußere | 600 | ADJ |  |
+| 24967 | 28242 | Glücksfall | 599 | NOUN |  |
+| 24981 | 28258 | tiefe | 599 | ADJ |  |
+| 24986 | 28264 | Betriebsart | 598 | NOUN |  |
+| 24990 | 28271 | Mnner | 598 | NOUN |  |
+| 25004 | 28289 | pokern | 598 | NOUN |  |
+| 25008 | 28294 | Blättchen | 597 | NOUN |  |
+| 25014 | 28300 | Multitasking | 597 | NOUN |  |
+| 25023 | 28312 | einbürgern | 597 | VERB |  |
+| 25045 | 28339 | pensionieren | 596 | ADJ |  |
+| 25056 | 28355 | Schnäppchenpreis | 595 | NOUN |  |
 
 ## Sample keeps around 30,000
 
 | kept rank | raw rank | lemma | freq | POS | reviewed |
 |---:|---:|---|---:|---|---|
-| 29942 | 34160 | whlen | 462 | VERB |  |
-| 29943 | 34161 | überlisten | 462 | VERB |  |
-| 29944 | 34162 | Atlantikküste | 461 | NOUN |  |
-| 29945 | 34163 | Auftragsvergabe | 461 | NOUN |  |
-| 29947 | 34165 | Bayreuther | 461 | ADJ |  |
-| 29954 | 34172 | Elba | 461 | PROPN |  |
-| 29955 | 34173 | Energiestrategie | 461 | NOUN |  |
-| 29966 | 34184 | Mölln | 461 | PROPN |  |
-| 29967 | 34185 | Neueintragung | 461 | NOUN |  |
-| 29975 | 34193 | Schnittblume | 461 | NOUN |  |
-| 29976 | 34194 | Schwangerschaftstest | 461 | NOUN |  |
-| 29980 | 34198 | VR-Brille | 461 | NOUN |  |
-| 29987 | 34205 | Warburg | 461 | PROPN |  |
-| 29998 | 34216 | fettreich | 461 | ADJ |  |
-| 29999 | 34217 | frostfrei | 461 | ADJ |  |
+| 29942 | 34077 | Nagelstudio | 463 | NOUN |  |
+| 29943 | 34078 | Nebenkostenabrechnung | 463 | NOUN |  |
+| 29944 | 34079 | Pflasterstein | 463 | NOUN |  |
+| 29945 | 34080 | Präposition | 463 | NOUN |  |
+| 29947 | 34082 | Sammelbegriff | 463 | NOUN |  |
+| 29954 | 34089 | USP | 463 | PROPN |  |
+| 29955 | 34090 | Vorbau | 463 | NOUN |  |
+| 29966 | 34101 | unterrichte | 463 | VERB |  |
+| 29967 | 34102 | verwendung | 463 | ADJ |  |
+| 29975 | 34110 | Buchverlag | 462 | NOUN |  |
+| 29976 | 34111 | Civic | 462 | PROPN |  |
+| 29980 | 34115 | Frontkamera | 462 | NOUN |  |
+| 29987 | 34122 | Lizenzgeber | 462 | NOUN |  |
+| 29998 | 34133 | STIHL | 462 | PROPN |  |
+| 29999 | 34134 | Shenzhen | 462 | PROPN |  |
 
 ## Random 50 drops from the window
 
 | raw rank | lemma | freq | POS | why | reason |
 |---:|---|---:|---|---|---|
-| 5895 | CBD | 5233 | PROPN | review drop | agreed: technical acronym |
-| 6068 | Ron | 5030 | NOUN | review drop | agreed: first name |
-| 6871 | neunzehnhundertneunundsiebzig | 4223 | NUM | number rule | number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853) |
-| 7012 | PHP | 4111 | PROPN | review drop | agreed: technical acronym |
-| 7047 | Bamberg | 4083 | PROPN | review drop | agreed: place not on list |
-| 8089 | Pinterest | 3379 | PROPN | review drop | agreed: brand |
-| 9037 | Traffic | 2933 |  | exclusion (English) | agreed: English |
-| 9356 | Channel | 2737 | PROPN | review drop | agreed: English |
-| 10153 | zweihundertachtzig | 2431 | NUM | number rule | number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853) |
-| 10975 | Reality | 2242 |  | exclusion (English) | agreed: English |
-| 11653 | WP | 2027 | NOUN | review drop | agreed: junk |
-| 13472 | Handels-Bahn | 1658 | NOUN | review drop | agreed: broken hyphenated junk |
-| 13540 | Sabrina | 1646 | PROPN | review drop | agreed: first name |
-| 14022 | Hermes | 1562 | PROPN | review drop | agreed: name/brand |
-| 14920 | Landau | 1435 | PROPN | review drop | agreed: town |
-| 15638 | Protection | 1390 |  | exclusion (English) | agreed: English |
-| 16650 | Android-Smartphone | 1232 | NOUN | review drop | agreed: hyphenated web compound |
-| 16808 | hundertsechsunddreißig | 1215 | NUM | number rule | number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853) |
-| 18770 | XY | 1046 | PROPN | review drop | agreed: placeholder |
-| 19297 | Engineer | 1043 |  | exclusion (English) | agreed: English |
+| 5876 | Carl | 5249 | PROPN | review drop | agreed: first name |
+| 6055 | neunzehnhundertvierundachtzig | 5040 | NUM | number rule | number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater 25ec0b1) |
+| 6848 | Focus | 4245 | PROPN | review drop | coordinator correction: the surface forms are the English word or a name (top form 'focus' |
+| 6993 | not | 4127 | ADJ | review drop | coordinator correction: the surface forms are the English word or a name (top form 'not'); |
+| 7030 | neunzehnhundertfünfundsiebzig | 4098 | NUM | number rule | number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater 25ec0b1) |
+| 8072 | Nina | 3387 | PROPN | review drop | agreed: first name |
+| 9029 | Basic | 2935 |  | exclusion (English) | agreed: English/programming language |
+| 9287 | Toni | 2761 | PROPN | review drop | agreed: first name |
+| 10100 | Guido | 2452 | PROPN | review drop | agreed: first name |
+| 10944 | Spotify | 2202 | PROPN | review drop | agreed: brand |
+| 11615 | Finance | 2087 |  | exclusion (English) | agreed: English |
+| 13441 | hundertfünfzigtausend | 1664 | NUM | number rule | number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater 25ec0b1) |
+| 13486 | Adventure | 1655 | PROPN | review drop | agreed: English |
+| 13963 | Quick | 1621 |  | exclusion (English) | agreed: English |
+| 14870 | Launch | 1486 |  | exclusion (English) | agreed: English |
+| 15615 | Horse | 1393 |  | exclusion (English) | agreed: English |
+| 16631 | Impact | 1277 |  | exclusion (English) | agreed: English |
+| 16796 | Lenin | 1216 | PROPN | review drop | agreed: person |
+| 18756 | Haag | 1047 | PROPN | review drop | agreed: place name |
+| 19298 | Engineer | 1043 |  | exclusion (English) | agreed: English |
 | 19307 | FX | 1008 | PROPN | review drop | agreed: acronym |
-| 19653 | Heise | 982 | PROPN | review drop | agreed: website |
-| 19835 | Alba | 970 | PROPN | review drop | agreed: name |
-| 21143 | Wang | 892 | PROPN | review drop | agreed: surname |
-| 21910 | Metz | 850 | PROPN | review drop | agreed: foreign city |
-| 22424 | Helge | 821 | PROPN | review drop | agreed: name |
-| 23492 | GA | 770 | PROPN | review drop | coordinator correction: the surface forms are the English word or a name (top form 'ga');  |
-| 24467 | EPS | 729 | PROPN | review drop | agreed: technical acronym |
-| 24805 | Kiss | 745 |  | exclusion (English) | agreed: English/band |
-| 25614 | men | 714 |  | exclusion (English) | agreed: English |
-| 25814 | Canva | 678 | PROPN | review drop | agreed: brand |
-| 26301 | Spider-Man | 660 | NOUN | review drop | agreed: fictional name |
-| 27626 | Annegret | 617 | PROPN | review drop | agreed: first name |
-| 27652 | Fighter | 643 |  | exclusion (English) | agreed: English |
-| 28741 | Anastasia | 584 | PROPN | review drop | agreed: first name |
-| 29039 | Schwäbische Alb | 576 | PROPN | review drop | agreed: region not on list |
-| 29418 | Kulmbach | 565 | PROPN | review drop | agreed: town |
-| 29778 | Cleaner | 581 |  | exclusion (English) | agreed: English |
-| 30117 | Automower | 546 | NOUN | review drop | agreed: brand |
-| 30267 | Oak | 568 |  | exclusion (English) | agreed: English |
-| 30434 | Thank | 564 |  | exclusion (English) | agreed: English |
-| 30683 | PT | 533 | NOUN | review drop | agreed: abbreviation |
-| 30712 | prmaximus | 533 | ADJ | review drop | agreed: spam/site |
-| 30838 | Waldemar | 530 | PROPN | review drop | agreed: first name |
-| 30954 | Applied | 550 |  | exclusion (English) | agreed: English |
-| 31100 | Ender | 524 | PROPN | review drop | agreed: surname |
-| 31150 | right | 546 |  | exclusion (English) | agreed: English |
-| 31245 | PersonenCa | 521 | NOUN | review drop | agreed: template junk |
-| 32512 | Sankt Georgen | 494 | PROPN | review drop | agreed: town |
-| 33410 | Vollmer | 477 | PROPN | review drop | agreed: surname |
+| 19650 | Elmar | 982 | PROPN | review drop | agreed: first name |
+| 19835 | Guy | 1007 |  | exclusion (English) | agreed: name |
+| 21152 | Dobrindt | 891 | PROPN | review drop | agreed: surname |
+| 21957 | CCC | 847 | PROPN | review drop | agreed: org |
+| 22482 | Pennsylvania | 852 |  | exclusion (English) | agreed: US state |
+| 23557 | Budot | 767 | NOUN | review drop | agreed: spam junk |
+| 24516 | Buck | 727 | PROPN | review drop | agreed: name |
+| 24885 | Lugano | 712 | PROPN | review drop | agreed: foreign city |
+| 25693 | Dietz | 682 | PROPN | review drop | agreed: surname/publisher |
+| 25874 | BU | 676 | PROPN | review drop | coordinator correction: the surface forms are the English word or a name (top form 'bu');  |
+| 26374 | Djokovic | 657 | PROPN | review drop | agreed: person |
+| 27752 | eg | 614 | PROPN | review drop | agreed: junk (EG) |
+| 27808 | UX | 612 | PROPN | review drop | agreed: technical acronym |
+| 28936 | TI | 579 | PROPN | review drop | agreed: abbreviation |
+| 29231 | Ferguson | 570 | PROPN | review drop | agreed: surname |
+| 29700 | Yellow | 584 |  | exclusion (English) | agreed: English |
+| 29995 | Valentina | 550 | PROPN | review drop | agreed: first name |
+| 30380 | Dylan | 540 | PROPN | review drop | agreed: person |
+| 30513 | Beckham | 537 | PROPN | review drop | agreed: surname |
+| 30681 | Neuhausen | 533 | PROPN | review drop | agreed: town |
+| 30963 | Tabs | 527 | PROPN | review drop | agreed: English plural, tech |
+| 30979 | siebzehnhundertfünfzig | 527 | NUM | number rule | number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater 25ec0b1) |
+| 31083 | dreihundertfünfzigtausend | 525 | NUM | number rule | number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater 25ec0b1) |
+| 31179 | Wowereit | 523 | PROPN | review drop | agreed: surname |
+| 31352 | Geißler | 518 | PROPN | review drop | agreed: surname |
+| 31405 | Gloss | 517 | PROPN | review drop | agreed: brand/English |
+| 31497 | ICQ | 515 | PROPN | review drop | agreed: obsolete brand |
+| 32960 | Wendler | 485 | PROPN | review drop | agreed: surname |
+| 33939 | Sega | 466 | PROPN | review drop | agreed: company |
 
-## Merges: 1,311 applied (874 from review, 437 umlaut/ß folds)
+## Merges: 1,314 applied (877 from review, 437 umlaut/ß folds)
 
 Largest review merges:
 
@@ -155,6 +155,7 @@ Largest review merges:
 | Wild | wild | 6428 |
 | TOP | Top | 6091 |
 | Geweb | Gewebe | 6067 |
+| alle | all | 6026 |
 | Braun | braun | 5879 |
 | Lange | lange | 5679 |
 | HIER | hier | 5677 |
@@ -165,7 +166,6 @@ Largest review merges:
 | Sports | Sport | 4942 |
 | teilweis | teilweise | 4817 |
 | NEU | neu | 4675 |
-| Point | Pointe | 4591 |
 
 Largest umlaut/ß merges:
 
@@ -314,13 +314,28 @@ Largest umlaut/ß merges:
 # question Werbeeinnahme: kept as singular lemma though only plural Werbeeinnahmen occurs; could merge to the plural
 # question (adjudicator) Frauenkirche: rules cover place names and famous institutions but not nationally famous landmarks/buildings; treated as a place name (drop)
 # question (adjudicator) Software-Entwickler: should a valid hyphenated spelling of a compound merge into the solid form (Softwareentwickler) when both lemmas exist?
+# question wallen: lemma is a real verb but all examples are the English Wallet; dropped
+# question DS-GVO: nationally known acronym (DSGVO) but only template legal text here; dropped
+# question zweitgroß: real forms are zweitgrößt-; kept the clipped lemma (and zweithoch) as written, merge to zweitgrößt/zweithöchst may be intended
+# question (adjudicator) losen: examples show the adjective lose mis-lemmatised as losen; rules forbid merging different words, so kept, but the counts may belong to lose
+# question (adjudicator) Satan: rules drop religious/cultural figures but Satan is also used as a common noun; is it a name or a word here?
+# question (adjudicator) RSS-Feed: RSS is not on the specialist-acronym list (HTML, SEO, URL, CSS, SSL); does a compound on a specialist acronym drop with it?
+# question (adjudicator) EU-DSGVO: DSGVO is widely known in German; are law/regulation abbreviations names (drop) or acronyms used as words (keep)?
 ```
 
 ## Learnable names (developer ruling 2026-11-02)
 
-Honeyeater `reference/learnable-names/de.json` @ 1bf77f0, 749 names: 358 already in the cleaned top 30k; 680 single-token
-names in all. Not in the 30k: 168 counted below the cut (appended with their counts), 112 never counted (appended as
-bare forms), 42 counted under another lemma (listed with that lemma; mostly case or plural: *Armenisch* under
-*armenisch*, *Karpaten* under *Karpate*; a few owners are junk lemmas, *Anden* under *And*, *Ewe* under *EWE*):
-`learnable-names-append.tsv`. 69 multiword names (match only as a unit; input for release 1.6):
-`learnable-multiword-names.tsv`.
+Honeyeater `reference/learnable-names/de.json` @ 25ec0b1, 761 names (with the developer's 12 added places): 370 already in
+the cleaned top 30k. Single-token names not in the 30k: 168 counted below the cut (appended with their counts), 112 never
+counted (appended as bare forms), 42 counted under another lemma (listed with that lemma; mostly case or plural:
+*Armenisch* under *armenisch*, *Karpaten* under *Karpate*; a few owners are junk lemmas, *Anden* under *And*, *Ewe* under
+*EWE*): `learnable-names-append.tsv`. 69 multiword names (19 already emitted as units by 1.5.1, e.g. *Europäische Union*
+11,622; input for release 1.6): `learnable-multiword-names.tsv`.
+
+## Round 4 (developer rulings of 2026-11-02)
+
+165 hyphenated compounds dropped only for the hyphen were re-judged like any other word (97 now kept, e.g.
+Android-Smartphone, PDF-Format); 317 review keeps whose earlier examples could have come from a rare form were re-checked
+with the fixed extractor (5 now dropped, 2 merged). Rulings applied directly: the 12 places and 10 institutions kept,
+ordinals from 31 up and 20 abbreviations dropped, superlative-only stems kept; number rule from Honeyeater 25ec0b1
+(1,028 drops in the top 60k).

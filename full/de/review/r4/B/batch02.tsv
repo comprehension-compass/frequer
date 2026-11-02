@@ -1,0 +1,232 @@
+Lot	keep	real word
+Sultan	keep	real word
+Universitätsspital	keep	real word
+rot-grün	keep	real word
+Distributor	keep	real word
+YouTube-Kanal	keep	real word
+Reinigungs-Bahn	drop	splitter junk
+EU-Mitgliedstaat	keep	real word
+Veteran	keep	real word
+Opt-Out-Cookie	drop	spam/template/brand/technical/not a word
+Trainings-Bahn	drop	splitter junk
+Online-Dating-Abenteuer	drop	spam/template/brand/technical/not a word
+Kahn	keep	real word
+römisch-katholisch	keep	real word
+PayPal-Konto	keep	real word
+EU-Bürger	keep	real word
+Pentagon	keep	real word
+Klee	keep	real word
+gymnasial	keep	real word
+Marketingzweck	keep	real word
+rheinland-pfälzisch	keep	real word
+schwarz-gelb	keep	real word
+neuronal	keep	real word
+bundesdeutsch	keep	real word
+EU-weit	keep	real word
+übernächst	keep	real word
+potent	keep	real word
+Verwaltungs-Bahn	drop	splitter junk
+Rhein-Main	drop	spam/template/brand/technical/not a word
+Online-Seminar	keep	real word
+Google-Konto	keep	real word
+Corona-Zeit	keep	real word
+territorial	keep	real word
+PCR-Test	keep	real word
+württembergisch	keep	real word
+Twitter-Account	keep	real word
+Android-App	keep	real word
+Fraunhofer-Institut	keep	real word
+Online-Bestellung	keep	real word
+Preis-Leistungs-Sieger	drop	spam/template/brand/technical/not a word
+Affiliate-Link	drop	spam/template/brand/technical/not a word
+WLAN-Internetzugang	drop	spam/template/brand/technical/not a word
+Regionalverband	keep	real word
+Ausmalbild	keep	real word
+Max-Planck-Institut	keep	real word
+eingefleischt	keep	real word
+Live-Chat	keep	real word
+U-Bahnhof	keep	real word
+einwöchig	keep	real word
+EU-Recht	keep	real word
+Outdoor-Aktivität	keep	real word
+Online-Magazin	keep	real word
+Term	keep	real word
+Nickname	keep	real word
+Coca-Cola	drop	spam/template/brand/technical/not a word
+Mähroboter	keep	real word
+Luftreiniger	keep	real word
+Reisevertrag	keep	real word
+Facebook-Plugin	drop	spam/template/brand/technical/not a word
+meistverkauft	keep	real word
+neuseeländisch	keep	real word
+EU-DSGVO	drop	spam/template/brand/technical/not a word
+Bewegungs-Bahn	drop	splitter junk
+Blog-Beitrag	keep	real word
+Lieferer	keep	real word
+Robert-Koch-Institut	keep	real word
+Original-Content	drop	spam/template/brand/technical/not a word
+imperial	keep	real word
+Kunsthaus	keep	real word
+niederösterreichisch	keep	real word
+erektil	keep	real word
+Facebook-Gruppe	keep	real word
+UV-beständig	keep	real word
+Kreisstraße	keep	real word
+sonderpädagogisch	keep	real word
+Mo-Fr	drop	spam/template/brand/technical/not a word
+zweitgroß	keep	real word
+frischgebacken	keep	real word
+gummieren	keep	real word
+LED-Leuchte	keep	real word
+Muster-Widerrufsformular	drop	spam/template/brand/technical/not a word
+Smartphone-App	keep	real word
+Top-Qualität	drop	spam/template/brand/technical/not a word
+kolumbianisch	keep	real word
+B-Vitamin	keep	real word
+Goethe-Institut	keep	real word
+Bachelor-Studiengang	keep	real word
+Sommerspiel	keep	real word
+zweithoch	keep	real word
+letztgenannt	keep	real word
+Jahrmarkt	keep	real word
+Expression	keep	real word
+Web-Browser	keep	real word
+iOS-Gerät	keep	real word
+EU-Ausland	keep	real word
+lateral	keep	real word
+Integral	keep	real word
+Landesstraße	keep	real word
+vermögenswirksam	keep	real word
+ureigen	keep	real word
+n-tv	keep	real word
+IT-Projekt	keep	real word
+Konversations-Lexikon	drop	spam/template/brand/technical/not a word
+Bio-Qualität	drop	spam/template/brand/technical/not a word
+Master-Studiengang	keep	real word
+Dorfstraße	keep	real word
+PC-Version	keep	real word
+Öko-Tex	drop	spam/template/brand/technical/not a word
+Social-Media-Kanal	keep	real word
+Instagram-Account	keep	real word
+Online-Werbung	keep	real word
+Gutschein-Code	keep	real word
+IT-Branche	keep	real word
+E-Mail-Marketing	keep	real word
+PR-Agentur	keep	real word
+sieden	keep	real word
+Crack	keep	real word
+HTML-Code	drop	spam/template/brand/technical/not a word
+Führungs-Bahn	drop	splitter junk
+Corona-Maßnahme	keep	real word
+Einkaufs-Bahn	drop	splitter junk
+SPD-Chef	keep	real word
+Affirmation	keep	real word
+EU-Gipfel	keep	real word
+EEG-Umlage	keep	real word
+Gesichtszug	keep	real word
+US-Notenbank	keep	real word
+S-Bahnhof	keep	real word
+Premium-Mitgliedschaft	drop	spam/template/brand/technical/not a word
+Wohnungs-Bahn	drop	splitter junk
+Folder	keep	real word
+Facebook-Profil	keep	real word
+Bild-Zeitung	keep	real word
+US-Geheimdienst	keep	real word
+S-Klasse	drop	spam/template/brand/technical/not a word
+Streaming-Dienst	keep	real word
+Top-Angebot	drop	spam/template/brand/technical/not a word
+philippinisch	keep	real word
+TV-Programm	keep	real word
+Youtube-Video	keep	real word
+Gospel	keep	real word
+Online-Einkauf	keep	real word
+Google-Suche	keep	real word
+dreimonatig	keep	real word
+Hausberg	keep	real word
+Profession	keep	real word
+angestammt	keep	real word
+Herz-Kreislauf-System	keep	real word
+Browser-Einstellung	keep	real word
+Online-Umfrage	keep	real word
+Charter	keep	real word
+Opt-Out	drop	spam/template/brand/technical/not a word
+Android-Version	keep	real word
+berufsbildend	keep	real word
+SPD-Bundestagsfraktion	keep	real word
+Software-Lösung	keep	real word
+OS-Plattform	drop	spam/template/brand/technical/not a word
+Flachbild-TV	keep	real word
+minütig	drop	spam/template/brand/technical/not a word
+Bio-Produkt	keep	real word
+Browser-Plugin	keep	real word
+Vergnügungspark	keep	real word
+jahrhundertealt	keep	real word
+E-Klasse	drop	spam/template/brand/technical/not a word
+Bestätigungs-E-Mail	keep	real word
+Wetterverhältnis	keep	real word
+Immigrant	keep	real word
+EU-Mitgliedsstaat	merge:EU-Mitgliedstaat	variant spelling
+Tourist-Information	keep	real word
+Paul-Ehrlich-Institut	keep	real word
+E-Mail-Programm	keep	real word
+Staatsgebiet	keep	real word
+SEPA-Lastschrift	keep	real word
+Cookie-Richtlinie	keep	real word
+CBD-Öl	drop	spam/template/brand/technical/not a word
+IT-Bereich	keep	real word
+Like-Button	keep	real word
+Zweite Bundesliga	keep	real word
+Internet-Angebot	keep	real word
+LED-Licht	keep	real word
+Suspension	keep	real word
+speien	keep	real word
+App-Store	keep	real word
+Corona-Test	keep	real word
+IT-Unternehmen	keep	real word
+Firmware-Update	keep	real word
+persistent	keep	real word
+Corona-Infektion	keep	real word
+NSU-Prozess	keep	real word
+Hollywood-Star	keep	real word
+WhatsApp-Nachricht	keep	real word
+zapatistisch	drop	spam/template/brand/technical/not a word
+Facebook-Konto	keep	real word
+PKW-Stellplatz	keep	real word
+Vereins-Bahn	drop	splitter junk
+Corona-Impfung	keep	real word
+MS-Office	drop	spam/template/brand/technical/not a word
+PDF-Download	keep	real word
+schleswig-holsteinisch	keep	real word
+Dropdown-Menü	keep	real word
+Hilfsantrag	keep	real word
+Biedermann	keep	real word
+Bildungsträger	keep	real word
+vierköpfig	keep	real word
+Browser-Software	keep	real word
+Facebook-Account	keep	real word
+LCD-Display	keep	real word
+Content-Management-System	keep	real word
+SAT-TV	keep	real word
+Reservation	keep	real word
+Youtube-Kanal	merge:YouTube-Kanal	case variant
+bilingual	keep	real word
+Branchen-Eintrag	drop	spam/template/brand/technical/not a word
+Online-Anmeldung	keep	real word
+hellhäutig	keep	real word
+SWF-Datei	drop	spam/template/brand/technical/not a word
+Maid	keep	real word
+Top-Marke	drop	spam/template/brand/technical/not a word
+Innovations-Bahn	drop	splitter junk
+Investitions-Bahn	drop	splitter junk
+PC-Spiel	keep	real word
+Social-Media-Plattform	keep	real word
+CRM-System	drop	spam/template/brand/technical/not a word
+nigerianisch	keep	real word
+EU-Datenschutz-Grundverordnung	keep	real word
+Evangelische Kirche in Deutschland	keep	real word
+Landschafts-Bahn	drop	splitter junk
+algerisch	keep	real word
+Schritt-für-Schritt	keep	real word
+Software-Entwickler	keep	real word
+fruchten	keep	real word
+Full-Service	drop	spam/template/brand/technical/not a word

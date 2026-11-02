@@ -117,3 +117,10 @@
 # question Werbeeinnahme: kept as singular lemma though only plural Werbeeinnahmen occurs; could merge to the plural
 # question (adjudicator) Frauenkirche: rules cover place names and famous institutions but not nationally famous landmarks/buildings; treated as a place name (drop)
 # question (adjudicator) Software-Entwickler: should a valid hyphenated spelling of a compound merge into the solid form (Softwareentwickler) when both lemmas exist?
+# question wallen: lemma is a real verb but all examples are the English Wallet; dropped
+# question DS-GVO: nationally known acronym (DSGVO) but only template legal text here; dropped
+# question zweitgroß: real forms are zweitgrößt-; kept the clipped lemma (and zweithoch) as written, merge to zweitgrößt/zweithöchst may be intended
+# question (adjudicator) losen: examples show the adjective lose mis-lemmatised as losen; rules forbid merging different words, so kept, but the counts may belong to lose
+# question (adjudicator) Satan: rules drop religious/cultural figures but Satan is also used as a common noun; is it a name or a word here?
+# question (adjudicator) RSS-Feed: RSS is not on the specialist-acronym list (HTML, SEO, URL, CSS, SSL); does a compound on a specialist acronym drop with it?
+# question (adjudicator) EU-DSGVO: DSGVO is widely known in German; are law/regulation abbreviations names (drop) or acronyms used as words (keep)?

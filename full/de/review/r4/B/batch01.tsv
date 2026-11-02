@@ -1,0 +1,252 @@
+all	keep	ordinary determiner
+ander	keep	core word, attributive stem
+nennen	keep	core verb
+besonder	keep	core adjective stem
+Absatz	keep	real noun
+Cookie	keep	established loan
+sogenannt	keep	common adjective
+personenbezogen	keep	real German adjective
+heutig	keep	common adjective stem
+ehemalig	keep	common adjective stem
+sonstig	keep	common adjective stem
+national	keep	common adjective
+bisherig	keep	common adjective stem
+inner	keep	common adjective
+Set	keep	established loan
+jeglich	keep	real determiner
+vorherig	keep	real adjective
+diesjährig	keep	real adjective
+Feature	keep	established loan
+Level	keep	established loan
+Bundestag	keep	nationally famous institution
+äußer	keep	common adjective stem
+restlich	keep	real adjective
+Last	keep	real noun
+Senior	keep	real noun
+damalig	keep	real adjective
+Held	keep	real noun
+Not	keep	real noun
+Villa	keep	common noun
+still	keep	real adjective
+etlich	keep	real determiner
+Taste	keep	real noun
+Kläger	keep	real noun
+alle	merge:all	form of all mistagged as name
+irgendwelch	keep	real determiner stem
+legal	keep	real adjective
+jetzig	keep	real adjective
+Board	keep	established loan
+final	keep	real adjective
+Lack	keep	real noun
+Style	keep	used loan
+Flyer	keep	established loan
+Location	keep	established loan
+Kryptowährung	keep	real noun
+Bach	keep	common noun stream
+Meditation	keep	common noun
+Resort	keep	common noun
+Muslim	keep	real noun
+Besteller	keep	real noun
+General	keep	common noun
+US-amerikanisch	keep	real hyphenated adjective
+syrisch	keep	nationality adjective
+Track	keep	used loan
+Report	keep	used loan
+dortig	keep	real adjective
+Hit	keep	established loan
+mental	keep	real adjective
+Junior	keep	used word
+Bundesgerichtshof	keep	nationally famous institution
+gestrig	keep	real adjective
+ausverkaufen	keep	real verb
+Match	keep	used loan
+PDF-Datei	keep	real compound
+niedersächsisch	keep	regional adjective
+Sicherheitsgrund	keep	real compound, own dictionary form
+Arbeits-Bahn	drop	splitter junk
+Bank	keep	common noun
+Hahn	keep	common noun
+Boss	keep	established loan
+human	keep	real adjective
+hauseigen	keep	real adjective
+australisch	keep	nationality adjective
+kanadisch	keep	nationality adjective
+Journal	keep	common noun
+Mercedes-Benz	drop	brand
+iranisch	keep	nationality adjective
+Bit	keep	established loan
+Gesundheits-Bahn	drop	splitter junk
+Aus-Bahn	drop	splitter junk
+Check	keep	used loan
+Hauptstraße	keep	common noun
+Impression	keep	real noun
+Bundesverfassungsgericht	keep	nationally famous institution
+Editor	keep	used loan
+gegnerisch	keep	real adjective
+vorig	keep	real adjective
+öffentlich-rechtlich	keep	real compound adjective
+Tube	keep	common noun
+Informations-Bahn	drop	splitter junk
+Einkunft	keep	real noun
+Auftragnehmer	keep	real noun
+S-Bahn	keep	real compound
+hiesig	keep	real adjective
+Facebook-Seite	keep	real everyday compound
+DS-GVO	drop	template legal acronym, specialist
+mangelnd	keep	real adjective
+Lift	keep	real noun
+Lord	drop	English title
+Panel	keep	used loan
+Landstraße	keep	common noun
+Hybrid	keep	common noun
+Ekzem	keep	real noun
+Titan	keep	common noun
+losen	keep	real verb
+Herzog	keep	common noun, nobility rank
+Talk	keep	used loan and mineral
+Schlüsseldienst	keep	real noun
+Chart	keep	used loan
+angehend	keep	real adjective
+Bildungs-Bahn	drop	splitter junk
+Mine	keep	real noun
+Billion	keep	number word allowed
+fundamental	keep	real adjective
+körpereigen	keep	real adjective
+Lebens-Bahn	drop	splitter junk
+Lamm	keep	common noun
+Feed	keep	used loan
+PDF-Dokument	keep	real compound
+geraum	keep	real adjective stem
+Online-Angebot	keep	real compound
+Destination	keep	real noun
+EU-Land	keep	real compound
+Artist	keep	real noun
+morgig	keep	real adjective
+dotieren	keep	real verb
+Online-Casino	keep	real compound
+Beratungs-Bahn	drop	splitter junk
+selbig	keep	real adjective
+Distribution	keep	real noun
+abmagern	keep	real verb
+wallen	drop	examples are the English Wallet; rare verb
+Satan	drop	religious figure name
+Online-Marketing	keep	real compound
+Bergmann	keep	real noun
+Urlaubs-Bahn	drop	splitter junk
+Kommunikations-Bahn	drop	splitter junk
+US-Bundesstaat	keep	real compound
+bilateral	keep	real adjective
+Cookie-Einstellung	keep	real compound
+Major	keep	real noun
+saarländisch	keep	regional adjective
+Staats-Bahn	drop	splitter junk
+Ambition	keep	real noun
+irakisch	keep	nationality adjective
+Handels-Bahn	drop	splitter junk
+Simulator	keep	real noun
+pH-Wert	keep	real compound
+Geschäfts-Bahn	drop	splitter junk
+RSS-Feed	drop	specialist acronym compound
+Kork	keep	real noun
+Deutschkenntnis	keep	real noun
+elterlich	keep	real adjective
+IT-System	keep	real compound
+Tierpark	keep	common noun
+Rechts-Bahn	drop	splitter junk
+DFB-Pokal	keep	nationally famous competition
+Weltkulturerbe	keep	common noun
+Israeli	keep	nationality noun
+südafrikanisch	keep	nationality adjective
+argentinisch	keep	nationality adjective
+viral	keep	real adjective
+Berlin-Brandenburg	drop	region name not on place list
+Department	keep	used word
+Boxspringbett	keep	real noun
+Rettungskraft	keep	real noun
+hold	keep	real adjective
+Android-Gerät	keep	real compound
+zehnjährig	keep	real adjective
+EU-Parlament	keep	real compound
+Produktions-Bahn	drop	splitter junk
+U-Boot	keep	real compound
+Hospital	keep	common noun
+Lebensumstand	keep	real noun
+westdeutsch	keep	real adjective
+Meeresfrucht	keep	real noun
+USB-Anschluss	keep	real compound
+Baron	keep	common noun, nobility rank
+vorhergehen	keep	real verb
+TV-Sender	keep	real compound
+orthodox	keep	real adjective
+lose	keep	real adjective
+dominikanisch	keep	nationality adjective
+Population	keep	real noun
+Online-Händler	keep	real compound
+Planungs-Bahn	drop	splitter junk
+Rhein-Neckar	drop	region name not on place list
+militant	keep	real adjective
+meinesgleichen	keep	real pronoun
+schwarz-weiß	keep	real compound adjective
+Butler	keep	common noun
+Dart	keep	real noun
+erfindungsgemäß	drop	patent boilerplate
+Einzelbild	keep	real noun
+Qualitäts-Bahn	drop	splitter junk
+Suchmaschinen-Marketing	keep	real compound
+T-Mobile	drop	brand
+Android-Smartphone	keep	real compound
+Session-Cookie	keep	real compound
+Reichstag	keep	common noun
+PDF-Format	keep	real compound
+Online-Streitbeilegung	drop	legal boilerplate
+Hip-Hop	keep	real compound
+Betriebs-Bahn	drop	splitter junk
+baden-württembergisch	keep	regional adjective
+Grundkurs	keep	real noun
+Berufs-Bahn	drop	splitter junk
+floral	keep	real adjective
+Ausbildungs-Bahn	drop	splitter junk
+SPD-Fraktion	keep	real compound
+libysch	keep	nationality adjective
+Leistungs-Bahn	drop	splitter junk
+südamerikanisch	keep	real adjective
+Proportion	keep	real noun
+Shot	keep	used loan
+Treppenlift	keep	real noun
+Online-Spiel	keep	real compound
+ungeboren	keep	real adjective
+Operator	keep	real noun
+Pitch	drop	business jargon, not established
+SSL-Verschlüsselung	drop	specialist acronym
+YouTube-Video	keep	real everyday compound
+Telefon-Daten	drop	junk, no examples
+Online-Portal	keep	real compound
+Bon	keep	common noun
+leerstehen	keep	real verb
+UN-Kaufrecht	drop	specialist legal term
+brandenburgisch	keep	regional adjective
+Potenzmittel	keep	real noun
+dreitägig	keep	real adjective
+nordrhein-westfälisch	keep	regional adjective
+südkoreanisch	keep	nationality adjective
+Dating-Website	keep	real compound
+Online-Kurs	keep	real compound
+Sklavin	keep	common noun
+Terrier	keep	common noun
+deutsch-französisch	keep	real compound adjective
+Internet-Browser	keep	real compound
+ERP-System	drop	specialist acronym
+Ostseebad	keep	common noun
+Tiergarten	keep	common noun
+Relief	keep	real noun
+A-Z	drop	not a word
+Hochstuhl	keep	real noun
+multinational	keep	real adjective
+Online-Formular	keep	real compound
+Internet-Daten	drop	junk, no examples
+LED-Beleuchtung	keep	real compound
+Online-Dienst	keep	real compound
+Badesee	keep	common noun
+TV-Gerät	keep	real compound
+# question wallen: lemma is a real verb but all examples are the English Wallet; dropped
+# question DS-GVO: nationally known acronym (DSGVO) but only template legal text here; dropped

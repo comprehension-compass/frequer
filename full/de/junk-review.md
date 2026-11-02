@@ -18,9 +18,11 @@ adjective, which names rarely do: under 3 % reads as a name):
   separate reviewed list and have already been taken out of your batch. **Any place name you still see is not
   on that list: `drop`** (towns, villages, districts, streets, minor rivers, foreign cities).
 - Languages and nationalities are ordinary words in German (Deutsch, Englisch, Franzose): `keep`.
+- The developer added Atlantik, Pazifik, Arktis, Sibirien, Sahara, Skandinavien, Korea, Weißrussland, Mazedonien,
+  Westdeutschland, Dublin and Seoul to the learnable places (2026-11-02).
 - **Nationally famous institutions** that people refer to by name are learnable: `keep` (Bundestag,
   Bundesrat, Bundesregierung, Bundeswehr, Bundesliga, ARD, ZDF, Deutsche Bahn, Polizei-like bodies, EU, UNO,
-  NATO). Developer ruling 2026-11-01.
+  NATO, DB, Telekom, WDR, Greenpeace, UEFA, Hamas, taz, NABU, KfW, EKD). Developer rulings 2026-11-01/02.
 - Other names drop: people (first names, surnames, historical and cultural figures), brands, companies,
   products, minor organisations, websites, sports clubs, titles.
 - Common nouns stay: words the tagger mistook for names (Hotel, Pizza, Villa, Jury, Meditation, Union in
@@ -35,10 +37,11 @@ established enough that an English-speaking learner would want to know German us
 Job, Internet, online, Website, Software, Marketing, Shop, Event, cool). Real German words that look English
 stay (also, will, die, man, war, Hand, Kind, Gift, Rat, bald).
 
-**Shape** (flag `shape`): drop hyphenated web compounds and doubled words; keep established hyphenated words
-(E-Mail, T-Shirt, Know-how, Make-up) and established abbreviations a learner meets everywhere (z. B. as
-`zum Beispiel` is a unit; bzw, ca, usw as words: `keep` only if the lemma is the abbreviation a learner reads
-daily). Single letters drop, except real one-letter words (none in German besides the article-like letters in
+**Shape** (flag `shape`): **a hyphenated compound is judged like any other word** (developer ruling 2026-11-02): keep
+it when it is a real German compound a learner would want (Android-Smartphone, PDF-Format, E-Mail, T-Shirt, Know-how);
+drop doubled words and splitter junk (Arbeits-Bahn). **Abbreviations are excluded for now** (developer ruling
+2026-11-02: zB, Hbf, cm, mg, Dr, ca, Kfz, PLZ; they will be lemmatised to their full words): `drop`. Acronyms used
+as words (EU, USA, DDR, GmbH, PDF, USB, SMS, WLAN) stay. Single letters drop, except real one-letter words (none in German besides the article-like letters in
 names: drop them). Lemmas over the length limit: keep real compounds, drop concatenation junk.
 
 **Citation** (flag `citation`: the lemma's own spelling is almost never written as a word): usually a broken
@@ -51,7 +54,7 @@ real words.
 **Spelled numbers** (standing rule, developer 2026-11-01): a lemma made only of number words is `drop` unless
 it is one of 0-30 (null ... dreißig), the tens (vierzig ... neunzig), hundert, tausend, Million, Milliarde,
 Billion; compounds such as *einundvierzig*, *dreihundertsechzig*, *zweitausendzweiundzwanzig* drop. Ordinals
-and number-derived ordinary words (erste, zweite, Hälfte, Dutzend, doppelt) are words: decide normally.
+above 30 drop too (einunddreißigste); ordinals 1-30 and number-derived ordinary words (erste, zweite, Hälfte, Dutzend, doppelt) are words: decide normally.
 
 **Umlaut merges** (proposed `merge` on a plain spelling: *fur*, *fuer*, *strasse*): confirm with
 `merge:<target>` if the plain spelling is only the umlaut/ß word written without it; `keep` if it is a

@@ -1,0 +1,20 @@
+S-Bahn	keep	real compound (Stadtschnellbahn), everyday transport word
+Lord	keep	common noun used with articles (ein Lord, der Lord)
+losen	keep	real verb (draw lots); examples are the adjective lose, a different word, so no merge
+Satan	keep	used as a common noun with article (der Satan, dieser Satan)
+RSS-Feed	drop	specialist technical acronym compound
+Pitch	drop	business jargon, not established in general German
+SSL-Verschlüsselung	drop	built on specialist acronym SSL (rules drop SSL)
+WLAN-Internetzugang	keep	real compound of WLAN (listed acronym) and Internetzugang
+EU-DSGVO	drop	name of a regulation, abbreviation/title
+Top-Qualität	keep	real compound, common in German
+Bio-Qualität	keep	real compound, common in German
+HTML-Code	drop	built on specialist acronym HTML (rules drop HTML)
+Premium-Mitgliedschaft	keep	real compound
+Top-Angebot	keep	real compound, common in German
+Top-Marke	keep	real compound, common in German
+Full-Service	keep	established loan in German
+# question losen: examples show the adjective lose mis-lemmatised as losen; rules forbid merging different words, so kept, but the counts may belong to lose
+# question Satan: rules drop religious/cultural figures but Satan is also used as a common noun; is it a name or a word here?
+# question RSS-Feed: RSS is not on the specialist-acronym list (HTML, SEO, URL, CSS, SSL); does a compound on a specialist acronym drop with it?
+# question EU-DSGVO: DSGVO is widely known in German; are law/regulation abbreviations names (drop) or acronyms used as words (keep)?
