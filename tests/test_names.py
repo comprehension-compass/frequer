@@ -23,3 +23,9 @@ def test_a_filed_under_lemma_already_listed_adds_nothing_and_case_is_kept_withou
     spellings = {"köln": "Köln", "bayern": "Bayern"}
     p = names.plan(spellings, ["Cologne"], [], {"Köln": "Cologne"}.get, fold_case=False)
     assert p.filed == [("Köln", "Cologne")] and p.bare == ["Bayern"] and p.appended() == ["Bayern"]
+
+
+def test_a_name_cut_into_tokens_no_unit_covers_is_multiword() -> None:
+    spellings = {"近畿地方": "近畿地方", "京都": "京都"}
+    p = names.plan(spellings, [], [], {"京都": "京都"}.get, fold_case=False, split={"近畿地方"}.__contains__)
+    assert p.multiword == ["近畿地方"] and p.bare == ["京都"]
