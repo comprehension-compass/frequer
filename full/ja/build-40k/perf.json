@@ -3,8 +3,8 @@
  "scope": "full",
  "tokens": 689675997,
  "documents": 939341,
- "lemma_types_ranked": 131376,
- "snapshot_entries": 40301,
+ "lemma_types_ranked": 131313,
+ "snapshot_entries": 40300,
  "stages": [
   {
    "stage": "fetch_decode",
@@ -80,14 +80,14 @@
   }
  ],
  "build_seconds": {
-  "merge": 387.08,
-  "rank": 20.58,
-  "snapshot": 9.45,
-  "cooc": 388.87,
-  "report": 130.02
+  "merge": 352.03,
+  "rank": 20.97,
+  "snapshot": 9.47,
+  "cooc": 394.05,
+  "report": 131.5
  },
  "worker_peak_rss_mb": 2863,
- "build_process_peak_rss_mb": 1987,
+ "build_process_peak_rss_mb": 1992,
  "host_tokens": 57931371,
  "occurrence_kinds": {
   "word": 631960680,
@@ -108,7 +108,7 @@
    "n4": 2062659
   },
   "shipped_rows": 400000,
-  "table_bytes": 9232678,
+  "table_bytes": 9232687,
   "queue_rows": 2000
  },
  "checks": {

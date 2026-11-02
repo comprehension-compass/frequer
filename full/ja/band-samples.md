@@ -1,6 +1,6 @@
 # ja: kept-list samples for the cutoff (2026-11-02)
 
-From the reviewed list as it stands (junk rules, review rounds 1-16, number rule, final learnable-names list), before the build. Corpus: 689,675,997 tokens. Readings are the counted majority reading; glosses are model-written (Sonnet) as a reading aid and decide nothing. Kept ranks are positions in the cleaned list.
+From the reviewed list as it stands (junk rules, review rounds 1-19, number rule, final learnable-names list), before the build. Corpus: 689,675,997 tokens. Readings are the counted majority reading; glosses are model-written (Sonnet) as a reading aid and decide nothing. Kept ranks are positions in the cleaned list.
 
 ## Frequency at kept rank
 
@@ -8,11 +8,11 @@ From the reviewed list as it stands (junk rules, review rounds 1-16, number rule
 |---:|---|---:|---:|
 | 5,000 | フェラチオ | 11,461 | 16.62 |
 | 10,000 | 象徴する | 4,307 | 6.24 |
-| 20,000 | 真正面 | 1,385 | 2.01 |
-| 25,000 | 活動的 | 922 | 1.34 |
-| 30,000 | 舞踏会 | 648 | 0.94 |
-| 35,000 | スィーツ | 469 | 0.68 |
-| 40,000 | とりとめ | 343 | 0.50 |
+| 20,000 | 脱獄 | 1,385 | 2.01 |
+| 25,000 | 八重 | 921 | 1.34 |
+| 30,000 | 流木 | 647 | 0.94 |
+| 35,000 | 通説 | 469 | 0.68 |
+| 40,000 | 正教 | 343 | 0.50 |
 
 ## 15 random kept lemmas, kept ranks 1-10,000
 
@@ -42,184 +42,184 @@ From the reviewed list as it stands (junk rules, review rounds 1-16, number rule
 | 10,585 | 勝率 | しょうりつ | NOUN | 3,937 | winning percentage |
 | 10,687 | ファイター | ふぁいたー | NOUN | 3,879 | fighter |
 | 10,976 | 垂らす | たらす | VERB | 3,724 | let hang down, drip |
-| 11,035 | 日本初 | にっぽんはつ | NOUN | 3,698 | first in Japan |
-| 11,486 | エクステ | えくすて | PROPN | 3,484 | hair extensions |
-| 12,581 | レーン | れーん | PROPN | 3,015 | lane |
+| 11,035 | 炭 | すみ | NOUN | 3,698 | charcoal |
+| 11,486 | 壊滅 | かいめつ | NOUN | 3,484 | destruction, ruin |
+| 12,581 | 同然 | どうぜん | NOUN | 3,015 | as good as, practically |
 | 13,117 | 鉄分 | てつぶん | NOUN | 2,799 | iron content |
 | 13,964 | 方位 | ほうい | NOUN | 2,527 | direction, bearing |
 | 16,491 | ブレーク | ぶれーく | NOUN | 1,933 | break, breakthrough |
 | 17,422 | 貶める | おとしめる | VERB | 1,758 | demean, disparage |
-| 18,657 | 思い起こす | おもいおこす | VERB | 1,563 | recall, remember |
-| 18,826 | ナムコ | なむこ | PROPN | 1,539 | Namco (company) |
-| 19,756 | スパゲッティ | すぱげってぃ | NOUN | 1,416 | spaghetti |
-| 19,825 | 主旨 | しゅし | NOUN | 1,405 | main point, gist |
+| 18,657 | 遮熱 | しゃねつ | NOUN | 1,563 | heat shielding |
+| 18,826 | 交易 | こうえき | NOUN | 1,539 | trade, commerce |
+| 19,756 | ラッパー | らっぱー | NOUN | 1,416 | rapper |
+| 19,825 | 武者 | むしゃ | NOUN | 1,405 | warrior |
 
 ## 15 random kept lemmas, kept ranks 20,001-25,000
 
 | kept rank | lemma | reading | POS | frequency | gloss |
 |---:|---|---|---|---:|---|
-| 20,038 | アセスメント | あせすめんと | NOUN | 1,380 | assessment, evaluation |
-| 20,247 | 真皮 | しんぴ | NOUN | 1,355 | dermis |
-| 20,697 | 脱着 | だっちゃく | NOUN | 1,300 | attaching and detaching |
-| 21,601 | 惜しみない | おしみない | NOUN | 1,205 | unstinting, generous |
-| 21,915 | 徳島市 | とくしまし | PROPN | 1,173 | Tokushima City |
-| 22,279 | 占有 | せんゆう | NOUN | 1,137 | occupation, possession |
-| 22,410 | 悪党 | あくとう | NOUN | 1,124 | villain, scoundrel |
-| 22,673 | 真価 | しんか | NOUN | 1,101 | true worth |
-| 23,333 | 足長 | あしなが | NOUN | 1,045 | long-legged |
-| 23,609 | 栄養学 | えいようがく | NOUN | 1,024 | nutrition science |
-| 23,747 | 仏閣 | ぶっかく | NOUN | 1,012 | Buddhist temple |
-| 23,801 | 行こう | いく | NOUN | 1,008 | let's go |
-| 24,095 | 渇き | かわき | NOUN | 986 | thirst |
-| 24,253 | ビニル | びにる | NOUN | 974 | vinyl |
-| 24,842 | 塩ビ | えんび | NOUN | 933 | PVC |
+| 20,038 | レーズン | れーずん | NOUN | 1,380 | raisin |
+| 20,247 | 障害児 | しょうがいじ | NOUN | 1,355 | disabled child |
+| 20,697 | フルーティー | ふるーてぃー | ADJ | 1,299 | fruity |
+| 21,601 | 権益 | けんえき | NOUN | 1,204 | rights and interests |
+| 21,915 | 防水性 | ぼうすいせい | NOUN | 1,172 | waterproofness |
+| 22,279 | 卯月 | うづき | NOUN | 1,136 | April (old lunar name) |
+| 22,410 | バイタル | ばいたる | NOUN | 1,123 | vital (signs) |
+| 22,673 | 高官 | こうかん | NOUN | 1,101 | high-ranking official |
+| 23,333 | ピロリ | ぴろり | NOUN | 1,044 | H. pylori bacteria |
+| 23,609 | 心理士 | しんりし | NOUN | 1,023 | psychologist |
+| 23,747 | 通電 | つうでん | NOUN | 1,012 | electrification, powering on |
+| 23,801 | スパイダー | すぱいだー | NOUN | 1,007 | spider |
+| 24,095 | 年商 | ねんしょう | NOUN | 985 | annual sales |
+| 24,253 | 大蔵 | おおくら | NOUN | 974 | treasury |
+| 24,842 | こま | こま | NOUN | 932 | spinning top |
 
 ## 15 random kept lemmas, kept ranks 25,001-30,000
 
 | kept rank | lemma | reading | POS | frequency | gloss |
 |---:|---|---|---|---:|---|
-| 25,244 | 梅雨入り | つゆいり | NOUN | 904 | start of rainy season |
-| 25,576 | 君たち | きみたち | PRON | 882 | you guys |
-| 25,682 | 隔週 | かくしゅう | NOUN | 874 | every other week |
-| 25,884 | グループウェア | ぐるーぷうぇあ | NOUN | 860 | groupware |
-| 25,885 | ファストフード |  | NOUN | 860 | fast food |
-| 26,882 | 倒し | たおし | NOUN | 801 | knocking down |
-| 27,081 | グラニュー糖 |  | NOUN | 790 | granulated sugar |
-| 27,368 | くるむ | くるむ | VERB | 773 | wrap up |
-| 27,384 | 洞察力 | どうさつりょく | NOUN | 773 | insight, perceptiveness |
-| 27,583 | 夜道 | よみち | NOUN | 761 | night road |
-| 28,167 | もふもふ | もふもふ | NOUN | 731 | fluffy, fuzzy |
-| 28,281 | メチャメチャ | めちゃめちゃ | NOUN | 725 | messed up, chaotic |
-| 29,202 | 言うる | いう | VERB | 682 | can be said |
-| 29,516 | 忍び寄る | しのびよる | NOUN | 667 | creep up stealthily |
-| 29,614 | なんちゃって | なんちゃって | NOUN | 663 | just kidding |
+| 25,244 | ワセリン | わせりん | NOUN | 903 | petroleum jelly |
+| 25,576 | チノパン | ちのぱん | NOUN | 881 | chino pants |
+| 25,682 | 付け合わせ | つけあわせ | NOUN | 873 | side dish, garnish |
+| 25,884 | 産める | うめる | VERB | 860 | able to give birth |
+| 25,885 | 耳栓 | みみせん | NOUN | 860 | earplugs |
+| 26,882 | レギュレーション | れぎゅれーしょん | NOUN | 800 | regulation, rules |
+| 27,081 | 生く | いく | VERB | 790 | to live (archaic) |
+| 27,368 | 市長選 | しちょうせん | NOUN | 773 | mayoral election |
+| 27,384 | 得手 | えて | NOUN | 772 | strong point, forte |
+| 27,583 | カネボウ | かねぼう | PROPN | 760 | Kanebo (cosmetics brand) |
+| 28,167 | 自足 | じそく | NOUN | 731 | self-sufficiency |
+| 28,281 | スコール | すこーる | NOUN | 724 | squall (storm) |
+| 29,202 | 史観 | しかん | NOUN | 681 | view of history |
+| 29,516 | しぼむ | しぼむ | NOUN | 666 | to wither, shrivel |
+| 29,614 | うまさ | うまさ | NOUN | 662 | deliciousness |
 
 ## 25 random kept lemmas, kept ranks 30,001-35,000
 
 | kept rank | lemma | reading | POS | frequency | gloss |
 |---:|---|---|---|---:|---|
-| 30,005 | カルニチン | かるにちん | NOUN | 647 | carnitine |
-| 30,090 | 二輪 | にりん | NOUN | 644 | two-wheeled vehicle |
-| 30,125 | 就職率 | しゅうしょくりつ | PROPN | 642 | employment rate |
-| 30,139 | 鼻歌 | はなうた | NOUN | 642 | humming a tune |
-| 30,429 | 供述する |  | VERB | 629 | give testimony |
-| 30,548 | ポチっと | ぽちっと | NOUN | 624 | with a click |
-| 30,599 | アビス | あびす | NOUN | 622 | abyss |
-| 30,714 | 放射線科 | ほうしゃせんか | PROPN | 617 | radiology department |
-| 30,828 | 毛母 | もうぼ | NOUN | 612 | hair matrix |
-| 30,967 | 荒天 | こうてん | NOUN | 606 | stormy weather |
-| 31,103 | ちらっと | ちらっと | NOUN | 600 | briefly, glimpse |
-| 31,627 | ワル | わる | NOUN | 580 | bad guy, rascal |
-| 31,719 | 大勝利 | だいしょうり | NOUN | 577 | great victory |
-| 31,750 | 指定日 | していび | NOUN | 576 | designated date |
-| 32,019 | チンカス | ちんかす | NOUN | 566 | smegma (vulgar) |
-| 32,211 | エロサイト | えろさいと | NOUN | 559 | porn website |
-| 32,550 | 加温 | かおん | NOUN | 548 | heating, warming |
-| 32,725 | 抱ける | いだける | VERB | 542 | can hold/embrace |
-| 32,760 | 引きつる | ひきつる | VERB | 541 | twitch, cramp up |
-| 33,076 | 日日 | にちにち | PROPN | 531 | day by day |
-| 33,256 | 聞き覚え | ききおぼえ | NOUN | 525 | recollection of having heard |
-| 33,360 | 両隣 | りょうどなり | NOUN | 521 | both neighbors |
-| 33,439 | 遠投 | えんとう | NOUN | 519 | long throw |
-| 33,851 | 毛足 | けあし | NOUN | 505 | pile, nap (of fabric) |
-| 34,639 | いちゃもん | いちゃもん | NOUN | 480 | complaint, fault-finding |
+| 30,005 | 膣奥 | ちつおく | NOUN | 647 | back of the vagina |
+| 30,090 | 在外 | ざいがい | NOUN | 643 | overseas, abroad |
+| 30,125 | アシンメトリー | あしんめとりー | PROPN | 641 | asymmetry |
+| 30,139 | 基点 | きてん | NOUN | 641 | base point |
+| 30,429 | 喪主 | もしゅ | NOUN | 628 | chief mourner |
+| 30,548 | うそをつく |  | X | 623 | to tell a lie |
+| 30,599 | データ化する |  | VERB | 621 | to digitize, computerize |
+| 30,714 | ペイメント | ぺいめんと | NOUN | 616 | payment |
+| 30,828 | 来世 | らいせ | NOUN | 611 | next life, afterlife |
+| 30,967 | こち | こち | NOUN | 604 | east wind |
+| 31,103 | 鬱憤 | うっぷん | NOUN | 600 | pent-up anger, grudge |
+| 31,627 | つぐみ | つぐみ | NOUN | 579 | thrush (bird) |
+| 31,719 | 内陸部 | ないりくぶ | NOUN | 576 | inland area |
+| 31,750 | 戦い続ける |  | VERB | 575 | keep fighting, continue to fight |
+| 32,019 | テリーヌ | てりーぬ | NOUN | 565 | terrine (food) |
+| 32,211 | キャンギャル | きゃんぎゃる | NOUN | 558 | promotional campaign girl |
+| 32,550 | シンバル | しんばる | NOUN | 547 | cymbal |
+| 32,725 | ヘム | へむ | NOUN | 541 | heme |
+| 32,760 | 兼務 | けんむ | NOUN | 540 | concurrent post |
+| 33,076 | 終息 | しゅうそく | NOUN | 530 | cessation, coming to an end |
+| 33,256 | 琵琶 | びわ | NOUN | 524 | biwa, Japanese lute |
+| 33,360 | 仕方無い | しかたない | VERB | 520 | it can't be helped |
+| 33,439 | 炒る | いる | VERB | 518 | to roast, parch, fry |
+| 33,851 | 口下手 | くちべた | NOUN | 504 | bad at talking |
+| 34,639 | アネモネ | あねもね | PROPN | 479 | anemone (flower) |
 
 ## 25 random kept lemmas, kept ranks 35,001-40,000
 
 | kept rank | lemma | reading | POS | frequency | gloss |
 |---:|---|---|---|---:|---|
-| 35,004 | 七号 |  | NOUN | 469 | number seven |
-| 35,161 | 全従業員 | ぜんじゅうぎょういん | NOUN | 465 | all employees |
-| 35,491 | 詐欺罪 | さぎざい | NOUN | 456 | fraud (crime) |
-| 35,955 | 早々と |  | ADP | 442 | quite early |
-| 36,073 | 悲劇的 | ひげきてき | ADJ | 439 | tragic |
-| 36,456 | マトリクス | まとりくす | PROPN | 429 | matrix |
-| 36,535 | 濃色 | のうしょく | NOUN | 427 | dark color |
-| 36,544 | 隠ぺい | いんぺい | NOUN | 427 | concealment, cover-up |
-| 36,563 | 土産物 | みやげもの | NOUN | 426 | souvenir |
-| 36,727 | 各団体 |  | NOUN | 422 | each organization |
-| 36,744 | 踏み潰す | ふみつぶす | VERB | 422 | crush by stepping on |
-| 37,211 | 急患 | きゅうかん | NOUN | 410 | emergency patient |
-| 37,492 | ブラックベリー | ぶらっくべりー | NOUN | 402 | blackberry |
-| 38,144 | 礼節 | れいせつ | NOUN | 387 | courtesy, propriety |
-| 38,230 | 薬代 | くすりだい | NOUN | 385 | cost of medicine |
-| 38,235 | 針葉樹 | しんようじゅ | NOUN | 385 | conifer |
-| 38,435 | 大阪弁 | おおさかべん | NOUN | 380 | Osaka dialect |
-| 38,447 | 煎り | いり | NOUN | 380 | roasting, parching |
-| 38,666 | 荒っぽい | あらっぽい | ADJ | 375 | rough, rude |
-| 38,809 | 右奥 | みぎおく | NOUN | 371 | right rear |
-| 38,989 | 熱線 | ねっせん | NOUN | 367 | heat ray |
-| 39,169 | ふやかす | ふやかす | VERB | 362 | soak, soften in water |
-| 39,582 | おおざっぱ | おおざっぱ | NOUN | 352 | rough, careless, general |
-| 39,856 | タワシ | たわし | NOUN | 346 | scrubbing brush |
-| 39,932 | 腫脹 | しゅちょう | NOUN | 345 | swelling |
+| 35,004 | コンセプトカー | こんせぷとかー | NOUN | 468 | concept car |
+| 35,161 | サイケデリック | さいけでりっく | PROPN | 464 | psychedelic |
+| 35,491 | とらふぐ | とらふぐ | NOUN | 454 | tiger pufferfish |
+| 35,955 | 居候する |  | VERB | 441 | to freeload, live rent-free |
+| 36,073 | プラスワン | ぷらすわん | NOUN | 438 | plus one |
+| 36,456 | 草子 | そうし | NOUN | 429 | booklet, storybook |
+| 36,535 | 布巾 | ふきん | NOUN | 426 | dishcloth |
+| 36,544 | 演武 | えんぶ | NOUN | 426 | martial arts demonstration |
+| 36,563 | タフタ | たふた | NOUN | 425 | taffeta (fabric) |
+| 36,727 | ズリ | ずり | NOUN | 421 | mine waste rock |
+| 36,744 | 多読 | たどく | NOUN | 421 | extensive reading |
+| 37,211 | 切り売り | きりうり | NOUN | 409 | selling piecemeal |
+| 37,492 | セルリアン | せるりあん | NOUN | 401 | cerulean (color) |
+| 38,144 | 水鉄砲 | みずでっぽう | NOUN | 386 | water gun |
+| 38,230 | 縮尺 | しゅくしゃく | NOUN | 384 | scale (of map/drawing) |
+| 38,235 | 雑然 | ざつぜん | NOUN | 384 | untidy, disorderly |
+| 38,435 | 下戸 | げこ | NOUN | 379 | non-drinker |
+| 38,447 | 清掃業 | せいそうぎょう | NOUN | 379 | cleaning industry |
+| 38,666 | 格納庫 | かくのうこ | NOUN | 374 | hangar |
+| 38,809 | エクオール | えくおーる | NOUN | 370 | equol |
+| 38,989 | 打ち所 | うちどころ | NOUN | 366 | place struck/hit |
+| 39,169 | トランスポート | とらんすぽーと | NOUN | 361 | transport |
+| 39,582 | 議連 | ぎれん | NOUN | 352 | parliamentary league, caucus |
+| 39,856 | クウェート | くうぇーと | PROPN | 345 | Kuwait |
+| 39,932 | 掲揚 | けいよう | NOUN | 344 | hoisting (a flag) |
 
 ## 30 consecutive kept lemmas, kept ranks 29,971-30,000
 
 | kept rank | lemma | reading | POS | frequency | gloss |
 |---:|---|---|---|---:|---|
-| 29,971 | 微弱 | びじゃく | NOUN | 649 | faint, weak |
-| 29,972 | 心持ち | こころもち | NOUN | 649 | feeling, somewhat |
-| 29,973 | 揺るぐ | ゆるぐ | VERB | 649 | shake, waver |
-| 29,974 | 校歌 | こうか | NOUN | 649 | school song |
-| 29,975 | 正答 | せいとう | NOUN | 649 | correct answer |
-| 29,976 | 食味 | しょくみ | NOUN | 649 | taste (of food) |
-| 29,977 | なつめ | なつめ | NOUN | 648 | jujube (fruit) |
-| 29,978 | ひょうたん | ひょうたん | ADV | 648 | gourd, calabash |
-| 29,979 | ほんっと | ほんっと | NOUN | 648 | really, seriously (emphatic) |
-| 29,980 | セクシャル | せくしゃる | NOUN | 648 | sexual |
-| 29,981 | トレッド | とれっど | NOUN | 648 | tread |
-| 29,982 | ノーヒットノーラン |  | NOUN | 648 | no-hit no-run game |
-| 29,983 | ビギナーズ | びぎなーず | PROPN | 648 | beginner's |
-| 29,984 | フットケア | ふっとけあ | NOUN | 648 | foot care |
-| 29,985 | ベルガモット | べるがもっと | PROPN | 648 | bergamot |
-| 29,986 | ローテーブル | ろーてーぶる | NOUN | 648 | low table |
-| 29,987 | 伊勢市 | いせし | PROPN | 648 | Ise City |
-| 29,988 | 俵 | ひょう | NOUN | 648 | straw sack, bag |
-| 29,989 | 割り引く | わりびく | VERB | 648 | give a discount |
-| 29,990 | 声質 | せいしつ | NOUN | 648 | voice quality, timbre |
-| 29,991 | 奪三振 |  | VERB | 648 | strikeout (baseball) |
-| 29,992 | 急須 | きゅうす | NOUN | 648 | teapot |
-| 29,993 | 撥水性 | はっすいせい | NOUN | 648 | water repellency |
-| 29,994 | 支え合う | ささえあう | VERB | 648 | support each other |
-| 29,995 | 横柄 | おうへい | NOUN | 648 | arrogant, haughty |
-| 29,996 | 獣人 | じゅうじん | NOUN | 648 | beast-man, therianthrope |
-| 29,997 | 直観 | ちょっかん | NOUN | 648 | intuition |
-| 29,998 | 老夫婦 | ろうふうふ | NOUN | 648 | elderly couple |
-| 29,999 | 脳死 | のうし | NOUN | 648 | brain death |
-| 30,000 | 舞踏会 | ぶとうかい | NOUN | 648 | ball, dance party |
+| 29,971 | 声質 | せいしつ | NOUN | 648 | voice quality, timbre |
+| 29,972 | 奪三振 |  | VERB | 648 | strikeout (baseball) |
+| 29,973 | 急須 | きゅうす | NOUN | 648 | teapot |
+| 29,974 | 撥水性 | はっすいせい | NOUN | 648 | water repellency |
+| 29,975 | 支え合う | ささえあう | VERB | 648 | support each other |
+| 29,976 | 横柄 | おうへい | NOUN | 648 | arrogant, haughty |
+| 29,977 | 獣人 | じゅうじん | NOUN | 648 | beast-man, therianthrope |
+| 29,978 | 直観 | ちょっかん | NOUN | 648 | intuition |
+| 29,979 | 老夫婦 | ろうふうふ | NOUN | 648 | elderly couple |
+| 29,980 | 脳死 | のうし | NOUN | 648 | brain death |
+| 29,981 | 舞踏会 | ぶとうかい | NOUN | 648 | ball, dance party |
+| 29,982 | 表せる | あらわせる | VERB | 648 | can be expressed |
+| 29,983 | 高配 | こうはい | NOUN | 648 | high dividend; kind consideration |
+| 29,984 | 黙認する |  | VERB | 648 | to tacitly approve, condone |
+| 29,985 | ほくほく | ほくほく | NOUN | 647 | warm and satisfied (food) |
+| 29,986 | カルニチン | かるにちん | NOUN | 647 | carnitine |
+| 29,987 | ゴスペル | ごすぺる | NOUN | 647 | gospel (music) |
+| 29,988 | スペイン人 | すぺいんじん | PROPN | 647 | Spanish person |
+| 29,989 | ダイナミクス | だいなみくす | PROPN | 647 | dynamics |
+| 29,990 | テメー | てめー | NOUN | 647 | you bastard (rude) |
+| 29,991 | 三ツ星 | みつぼし | PROPN | 647 | three-star (rating) |
+| 29,992 | 公会堂 | こうかいどう | NOUN | 647 | public hall |
+| 29,993 | 制す | せいす | NOUN | 647 | to control, subdue |
+| 29,994 | 厄年 | やくどし | NOUN | 647 | unlucky age |
+| 29,995 | 後進 | こうしん | NOUN | 647 | junior/successor; backward movement |
+| 29,996 | 急所 | きゅうしょ | NOUN | 647 | vital point, weak spot |
+| 29,997 | 愛娘 | まなむすめ | NOUN | 647 | beloved daughter |
+| 29,998 | 月商 | げっしょう | NOUN | 647 | monthly sales |
+| 29,999 | 汚名 | おめい | NOUN | 647 | disgrace, bad reputation |
+| 30,000 | 流木 | りゅうぼく | NOUN | 647 | driftwood |
 
 ## 30 consecutive kept lemmas, kept ranks 39,971-40,000
 
 | kept rank | lemma | reading | POS | frequency | gloss |
 |---:|---|---|---|---:|---|
-| 39,971 | 掲揚 | けいよう | NOUN | 344 | hoisting (a flag) |
-| 39,972 | 日本赤十字社 |  | NOUN | 344 | Japanese Red Cross Society |
-| 39,973 | 旧家 | きゅうか | NOUN | 344 | old family, old house |
-| 39,974 | 最前 | さいぜん | NOUN | 344 | just now, front line |
-| 39,975 | 柔和 | にゅうわ | ADJ | 344 | gentle, mild |
-| 39,976 | 構法 | こうほう | NOUN | 344 | construction method |
-| 39,977 | 泣きわめく | なきわめく | VERB | 344 | wail, cry loudly |
-| 39,978 | 満身創痍 |  | NOUN | 344 | covered in wounds |
-| 39,979 | 爆竹 | ばくちく | NOUN | 344 | firecracker |
-| 39,980 | 理工系 | りこうけい | NOUN | 344 | science and engineering |
-| 39,981 | 理想論 | りそうろん | NOUN | 344 | idealistic theory |
-| 39,982 | 直訴 | じきそ | NOUN | 344 | direct appeal |
-| 39,983 | 着脱式 | ちゃくだつしき | NOUN | 344 | detachable/removable type |
-| 39,984 | 磔 | はりつけ | NOUN | 344 | crucifixion |
-| 39,985 | 縁談 | えんだん | NOUN | 344 | marriage proposal |
-| 39,986 | 能力的 | のうりょくてき | NOUN | 344 | in terms of ability |
-| 39,987 | 行き詰まり | いきづまり | NOUN | 344 | deadlock, impasse |
-| 39,988 | 親和 | しんわ | NOUN | 344 | affinity |
-| 39,989 | 話し手 | はなして | NOUN | 344 | speaker |
-| 39,990 | 軸馬 | じくうま | NOUN | 344 | favorite horse (betting) |
-| 39,991 | 送致 | そうち | NOUN | 344 | referral (to authorities) |
-| 39,992 | 逆走 | ぎゃくそう | NOUN | 344 | driving the wrong way |
-| 39,993 | 運動家 | うんどうか | NOUN | 344 | activist |
-| 39,994 | 鞭撻 | べんたつ | NOUN | 344 | encouragement, exhortation |
-| 39,995 | 麻混 | あさこん | NOUN | 344 | linen-blend (fabric) |
-| 39,996 | こも | こも | NOUN | 343 | straw mat |
-| 39,997 | しの | しの | NOUN | 343 | thin bamboo |
-| 39,998 | じれったい | じれったい | NOUN | 343 | irritating, frustrating |
-| 39,999 | てるてる坊主 |  | PROPN | 343 | paper rain-charm doll |
-| 40,000 | とりとめ | とりとめ | NOUN | 343 | coherence, order |
+| 39,971 | ヌバック | ぬばっく | NOUN | 343 | nubuck (leather) |
+| 39,972 | ネイティブスピーカー |  | NOUN | 343 | native speaker |
+| 39,973 | モリブデン | もりぶでん | NOUN | 343 | molybdenum |
+| 39,974 | ロボコン | ろぼこん | NOUN | 343 | robot contest |
+| 39,975 | 一物 | いちぶつ | NOUN | 343 | a thing, object |
+| 39,976 | 三つ巴 | みつどもえ | NOUN | 343 | three-way struggle |
+| 39,977 | 保険医 | ほけんい | NOUN | 343 | insurance-affiliated doctor |
+| 39,978 | 借入先 | かりいれさき | NOUN | 343 | lending source |
+| 39,979 | 停職 | ていしょく | NOUN | 343 | suspension from duty |
+| 39,980 | 判読 | はんどく | NOUN | 343 | deciphering, reading |
+| 39,981 | 利他 | りた | NOUN | 343 | altruism |
+| 39,982 | 印紙代 | いんしだい | NOUN | 343 | stamp duty fee |
+| 39,983 | 原人 | げんじん | NOUN | 343 | early human |
+| 39,984 | 天明 | てんめい | NOUN | 343 | Tenmei era |
+| 39,985 | 学び続ける |  | VERB | 343 | to keep learning |
+| 39,986 | 封止 | ふうし | NOUN | 343 | hermetic sealing |
+| 39,987 | 弁財天 | べんざいてん | NOUN | 343 | Benzaiten (goddess) |
+| 39,988 | 引っ提げる | ひっさげる | VERB | 343 | to carry in hand, wield |
+| 39,989 | 当て字 | あてじ | NOUN | 343 | phonetic kanji substitution |
+| 39,990 | 往時 | おうじ | NOUN | 343 | bygone days, old times |
+| 39,991 | 後宮 | こうきゅう | NOUN | 343 | imperial harem, inner palace |
+| 39,992 | 徒党 | ととう | NOUN | 343 | faction, clique, gang |
+| 39,993 | 御家人 | ごけにん | NOUN | 343 | low-ranking shogunate vassal |
+| 39,994 | 快走 | かいそう | NOUN | 343 | fast run, good run |
+| 39,995 | 悪趣味 | あくしゅみ | ADJ | 343 | bad/vulgar taste |
+| 39,996 | 据わる | すわる | VERB | 343 | to settle, become steady |
+| 39,997 | 杓子 | しゃくし | NOUN | 343 | ladle, dipper |
+| 39,998 | 核爆弾 | かくばくだん | NOUN | 343 | nuclear bomb |
+| 39,999 | 欧米化 | おうべいか | NOUN | 343 | Westernization |
+| 40,000 | 正教 | せいきょう | NOUN | 343 | Orthodox Christianity |

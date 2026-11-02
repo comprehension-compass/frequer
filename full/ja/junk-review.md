@@ -48,18 +48,28 @@ The per-band report, samples, merges and questions are in `band-report.md`. Per-
 
 The developer chose **40k**, after a final edge cleanup: rounds 14-16 (two reviewers plus the adjudicator)
 over the flagged lemmas left at the edge, a second screen of the unflagged keeps in kept 35,000-40,500
-(80 suspects), the named brand and fragment cases (分過ぎ, のり子, ギデオン, ソースネクスト dropped; ネットフリックス
-kept under the famous-institutions ruling; 七号 kept as an ordinary noun, "No. 7"), and every undecided
-unflagged keep in 39,900-40,500 (439). No lemma within the cut is pending.
+(80 suspects), the named brand and fragment cases (分過ぎ, のり子, ギデオン, ソースネクスト dropped), and every
+undecided unflagged keep in 39,900-40,500 (439). Then two developer rulings:
 
-`snapshots/ja.json`: **40,301 entries**, the reviewed top 40,000 (rank 40,000: とりとめ, 343 occurrences,
-0.50 per million) plus 301 learnable names (250 counted below the cut, 51 never counted, さいたま filed
-under 埼玉); 307 split multiword names in `learnable-multiword-names.tsv`. Counted through Honeyeater
-`c07c7015` with `honeyeater_lemma_ja` 1.5.0; reference checkout Honeyeater #766 `5a12937`.
-`load_lemmas ja --dry-run` (at #766): 40,301 ranked, 0 skipped, 2,542 unit headwords, 90 homograph keys.
-Actions in the window: 34,606 keep, 5,394 review-keep, 4,652 review-drop, 2,297 place-drop, 1,218
-dictionary name drop, 950 number drop; 560 merges; 10,651 review decisions over 16 rounds. Report:
-`build-40k/report.md`. The 30k build is kept as an artefact in `build-30k/` (its `ja.json`, report, perf).
+- **ネットフリックス stays** (the famous-institutions rule).
+- **Numeral + counter compounds readable from their parts are dropped**, like other number compounds: 七号 as an
+  explicit ruling, and round 17 over the 390 numeral (or 第 + numeral) + counter lemmas in the window, with the
+  ruling added to the reviewer rules (`prompts/rules-ja-counters.md` in the run). Dropped by the ruling: 二号, 三号,
+  四号, 五号, 六号, 九号, 十三号, 十八号, 二十号, 一丁目, 三丁目, 一人目, 二人目, 三人目, 二つ目, 二位, 二級, 三軒, 億単位,
+  一問, 二部, 二者, 三者 (and 七号). Lexical ones stay (一人, 一番, 一度, 二人, 一日#ついたち, 二十歳, 七夕, 一つ...).
+  The same round also dropped names under the usual rules (一騎, 一徹, 万里, 五味, 六花, 一花, 三蔵, and 一句) and merged
+  idiom halves (八苦 → 四苦八苦, 一長 / 一短 → 一長一短, 一石 → 一石二鳥, 五重 → 五重塔). 何 / 数 / 幾 + counter forms
+  (何回, 数時間: 77 in the window) are not numerals and were left alone: a question for the developer.
+- Rounds 18-19 reviewed what the drops pulled to the edge. No lemma within the cut is pending.
+
+`snapshots/ja.json`: **40,300 entries**, the reviewed top 40,000 (rank 40,000: 正教, 343 occurrences, 0.50
+per million) plus 300 learnable names (249 counted below the cut, 51 never counted, さいたま filed under 埼玉);
+307 split multiword names in `learnable-multiword-names.tsv`. Counted through Honeyeater `c07c7015` with
+`honeyeater_lemma_ja` 1.5.0; reference checkout Honeyeater #766 `5a12937`.
+`load_lemmas ja --dry-run` (at #766): 40,300 ranked, 0 skipped, 2,533 unit headwords, 90 homograph keys.
+Actions in the window: 34,267 keep, 5,733 review-keep, 4,695 review-drop, 2,300 place-drop, 1,219
+dictionary name drop, 953 number drop; 575 merges; 11,067 review decisions over 19 rounds. Report:
+`build-40k/report.md`. The 30k build is kept as an artefact in `build-30k/`.
 
 ## The 30k build (2026-11-02, superseded by the 40k)
 
