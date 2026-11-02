@@ -1,0 +1,31 @@
+# lemma	A	reason A	B	reason B
+iupac	keep	international scientific body, covered by the international-bodies rule	drop	specialist chemistry body, not a household name
+memoriam	merge:in memoriam	split Latin loan; the first half "in" would also merge into the phrase	drop	second half of the loan "in memoriam"; the first half should merge into it
+sapientísimo	merge:sapiente	regular -ísimo superlative of sapiente	keep	learned superlative of sabio, not a regular -ísimo of sapiente
+l-tirosina	merge:tirosina	hyphenated spelling of the adapted amino acid name	drop	hyphenated specialist amino acid name
+t-mec	drop	hyphenated treaty name, not an institution	keep	Mexican name of the USMCA trade treaty, used as ordinary news word
+transpaletas	keep	real Spanish common noun (plural of transpaleta), pallet jacks; plural filed as lemma	merge:transpaleta	plural filed as lemma; transpaleta is a real word (pallet truck)
+whig	keep	historical political term, lowercase use common (whig as noun)	drop	foreign/historical party name, not established Spanish word
+gizmo	keep	established English loan, common noun use	drop	English word not established in Spanish; mostly names/products
+stableford	keep	golf scoring format established term	drop	golf scoring format, specialist term
+anti-desgaste	merge:antidesgaste	hyphenated spelling of a prefixed adjective	drop	hyphenated compound
+leptospira	keep	adapted organism name, used lowercase and in the plural in Spanish	drop	raw Latin genus name
+rnm	keep	ordinary medical acronym in Spanish (resonancia nuclear magnética)	drop	specialist acronym; standard form is RMN
+anti-reflectante	merge:antirreflectante	hyphenated spelling of a prefixed adjective	drop	hyphenated compound
+piranha	merge:piraña	English or Portuguese spelling of an adapted word	drop	mostly a brand name, the animal reading is a small minority
+micro-momento	drop	Hyphenated marketing jargon with no obvious standard lemma	merge:micromomento	Hyphenated spelling of an adapted compound
+vaishnava	drop	Specialist religious term, mostly a capitalised name in running text	keep	Adherent of Vishnu, a lowercase ethnonym-type term
+illegal	merge:ilegal	misspelling of ilegal	drop	English spelling, not Spanish
+tikka	drop	Mostly part of dish and restaurant names	keep	established food term (pollo tikka, tikka masala)
+aah	merge:ah	Variant spelling of the interjection ah	keep	interjection
+dobla	drop	Mostly a capitalised name; the verb reading is a minority	keep	real Spanish verb/noun form (doblar, dobla) despite name occurrences
+fach	keep	Fuerza Aérea de Chile, a national body in the Spanish-speaking world	drop	Chilean air force acronym, minor; mostly name
+kitsune	drop	Japanese word not established in Spanish	keep	established loan for Japanese fox spirit
+fgr	drop	acronym with mixed senses, not a settled Spanish word	keep	Fiscalía General de la República, a national body in Mexico
+voxel	drop	specialist 3D-graphics term	keep	established technical loan with a Spanish plural (voxeles)
+no-fumador	drop	hyphenated compound of two listed words	merge:no fumador	hyphenated spelling of a two-word noun
+avambrazos	merge:avambrazo	plural of a real word (vambrace)	drop	game item name, no case evidence
+managment	merge:management	misspelling of the established loan	drop	misspelt English word inside an English phrase, not an established loan
+dncd	keep	Dominican national drug-control agency, a household name there	drop	Dominican drug-control agency; not clearly a household name
+pre-orden	merge:preorden	hyphenated variant spelling	drop	hyphenated English-style compound, no obvious standard lemma
+narró	drop	conjugated verb form capitalised in hadith formula; lemma is wrong	merge:narrar	conjugated form filed as lemma
