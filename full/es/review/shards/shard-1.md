@@ -57,8 +57,8 @@ $PY $R/review.py $WORK/config.json $WORK/suspects.tsv s1-unflagged --rules $FQ/r
 # 3. the gate (README §A round): read each round's agreed.tsv (every merge, a sample of drops) and
 #    accent-merges.txt; write queries.tsv (lemma<TAB>why) for agreed decisions that may hide a second real word
 #    (comisaria / comisaría, clara, vaya), then adjudicate
-$PY $R/review.py $WORK/config.json $WORK/flagged.tsv s1-flagged --adjudicate --queries $WORK/review/s1-flagged/queries.tsv
-$PY $R/review.py $WORK/config.json $WORK/suspects.tsv s1-unflagged --adjudicate --queries $WORK/review/s1-unflagged/queries.tsv
+$PY $R/review.py $WORK/config.json $WORK/flagged.tsv s1-flagged --adjudicate --queries $WORK/review/s1-flagged/queries.tsv --rules $FQ/review/rules/es-flagged-final.md
+$PY $R/review.py $WORK/config.json $WORK/suspects.tsv s1-unflagged --adjudicate --queries $WORK/review/s1-unflagged/queries.tsv --rules $FQ/review/rules/es-unflagged-final.md
 ```
 
 Each step prints a JSON summary. Read it. A step with failed calls is rerun; finished calls are cached. If
