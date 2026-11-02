@@ -217,9 +217,14 @@ of junk you can see, fix the screener prompt (a ruling) and rescreen.
 * **The per-band report** (`report.py` → `band-report.md`; bands 0-10k, 10-20k, 20-25k, 25-30k by default):
   actions per band, the real share among reviewed lemmas, rule hits, the audit estimates, 30 keeps at each band
   edge, 50 random drops, every merge, every question.
-* **The developer picks the cutoff** from this report (es and ja: 30k; de pending). Record it as
-  `language.top_n` and `language.cutoff` (the ruling) in the manifest. Extend deeper only if 25-30k still holds
-  enough real lemmas. There is no separate depth band: the loaded list is the learnable set.
+* **Word samples per band** (`band_samples.py --compare <other languages' configs> --gloss` →
+  `band-samples.md`, copied to `full/<code>/band-samples.md`): random words per band with model-written English
+  glosses, the words just above the cut, what a deeper cut adds, and the same positions side by side across
+  languages.
+* **The developer picks the cutoff from the word samples and the cross-language comparison**, not from the
+  real-word percentage, which matters less because the list is filtered anyway (ruling 2026-11-02; es and ja:
+  30k; de pending). Record it as `language.top_n` and `language.cutoff` (the ruling) in the manifest. There is
+  no separate depth band: the loaded list is the learnable set.
 
 ## 8. Place names and institutions
 
@@ -229,9 +234,13 @@ Honeyeater by its own two-reviewer protocol from CLDR and GeoNames (countries, c
 cities, US states with a target-language name, famous first-level divisions; same-spelled foreign places
 ignored; bare forms added). Then set `names_final: true` and `append_learnable_names: true`, route and build with
 `--reference-root` at a checkout holding the final list: a pending place in the list is kept, any other place is
-dropped (`place-drop`), and listed names that rank below the cut are appended after it. Only names the corpus
-counted can be appended (an uncounted name has no frequency or forms to list); read the names that never occur
-against the list, and raise any a learner clearly needs with the developer. Learnable status is a
+dropped (`place-drop`), and **every learnable name gets an entry** (ruling 2026-11-02; `frequer/names.py`):
+counted names below the cut are appended in rank order (whatever the filters did with them); a single-token name
+the release files under another lemma is listed with that lemma; an uncounted single-token name is appended bare
+(frequency 0); a multiword name the release does not emit as a unit is not appended but written to
+`learnable-multiword-names.tsv` (commit it as `full/<code>/learnable-multiword-names.tsv`: input for lemma
+release 1.6's unit training). The snapshot header lists what was appended and how. Read the filed-under pairs:
+a name filed under a common word is learnable through that word (the union rule). Learnable status is a
 union, so a listed name that is also a common word is kept. An interim list built before the names are final
 uses `build --leave-out-pending-names`.
 

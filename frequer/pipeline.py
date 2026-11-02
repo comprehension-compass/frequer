@@ -114,9 +114,11 @@ STAGES: tuple[Stage, ...] = (
           "the suspect rate per band; read 30 suspects and 30 non-suspects", "the screeners miss a class of junk",
           "§6 Triage"),
     Stage("audit", "Spot audit and the per-band report",
-          lambda m, p: p.review is not None and (p.review / "band-report.md").exists() and bool(_rounds(p, "audit")),
-          "audit.py -> examples.py --only-file -> review.py audit-<name> (+ --adjudicate) -> report.py",
-          "band-report.md: real-lemma share per band, false drops, keeps at each band edge",
+          lambda m, p: p.review is not None and (p.review / "band-samples.md").exists() and bool(_rounds(p, "audit")),
+          "audit.py -> examples.py --only-file -> review.py audit-<name> (+ --adjudicate) -> report.py; "
+          "band_samples.py --compare <other configs> --gloss",
+          "band-samples.md: words per band, just above the cut, what a deeper cut adds, across languages; "
+          "band-report.md: audit estimates, drops, merges, questions",
           "always: the developer picks the cutoff from this report", "§7 Band report and cutoff"),
     Stage("cutoff", "Cutoff chosen by the developer, recorded in the manifest",
           lambda m, p: bool(m.language.cutoff),

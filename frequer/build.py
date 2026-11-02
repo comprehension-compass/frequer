@@ -16,6 +16,7 @@ from frequer import (
     exclude,
     filters,
     junk_report,
+    names,
     perf,
     propn,
     report,
@@ -27,7 +28,7 @@ from frequer.counting import peak_rss_mb
 from frequer.counts import iter_counts
 from frequer.hygiene import make_classifier
 from frequer.merge import merge_counts
-from frequer.ranking import SCORES, build_rows
+from frequer.ranking import SCORES, build_rows, rank_rows
 from frequer.runtime import Runtime, git_head
 
 #: wordfreq's code for each language is the manifest's own code.
@@ -99,14 +100,34 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
         head["junk"] = junk_report.header_entry(manifest, flt, top_n, REPO_ROOT)
     citation = runtime.backend.lemma_citation if cfg.readings else None
     chosen = ranked[:top_n]
+    plan: names.NamePlan | None = None
     if cfg.append_learnable_names and flt.learnable is not None:
-        listed = flt.learnable
-        chosen += [r for r in ranked[top_n:] if propn.learnable(r.lemma, listed)]
+        # Every learnable name gets an entry (frequer/names.py): counted ones in rank order whatever the filters
+        # did, a name filed under another lemma by that lemma, uncounted single tokens bare.
+        every = rank_rows(rows, opts.score)
+        row_of = {r.lemma: r for r in every}
+        plan = names.plan(flt.learnable.spellings, [r.lemma for r in chosen], [r.lemma for r in every],
+                          runtime.lemma_of_word, cfg.fold_case)
+        chosen += [row_of[k] for k in plan.appended() if k in row_of]
     entries = snapshot.build_entries(chosen, result.merged, manifest, citation)
+    if plan is not None:
+        bare_names = set(plan.bare) - {lemma for _n, lemma in plan.filed}
+        for k in plan.appended():
+            if k not in entries:  # frequency 0: never counted, learnable by ruling
+                entries[k] = {"frequency": 0, "pos": "PROPN" if k in bare_names else "X", "forms": {}}
+        head["learnable_names"] = {
+            "rule": "every learnable name gets an entry (developer, 2026-11-02; frequer/names.py)",
+            "appended_counted": len(plan.counted), "appended_bare": len(plan.bare),
+            "filed_under_another_lemma": [f"{n} -> {lemma}" for n, lemma in plan.filed],
+            "multiword_not_emitted": len(plan.multiword)}
     ref_commit, ref_dirty = git_head(reference)
     head["reference_checkout"] = {"commit": ref_commit, "dirty": ref_dirty, "number_check": flt.number_check or None,
-                                  "learnable_names_appended": len(chosen) - min(top_n, len(ranked))}
+                                  "learnable_names_appended": len(plan.appended()) if plan else 0}
     out_dir.mkdir(parents=True, exist_ok=True)
+    if plan is not None:  # input for the next lemma release's unit training (full/<code>/ on the build branch)
+        (out_dir / "learnable-multiword-names.tsv").write_text(
+            "# learnable multiword names the release does not emit as a unit (not appended)\n"
+            + "".join(f"{n}\n" for n in plan.multiword), encoding="utf-8")
     if opts.write_snapshot:
         snapshot.write_snapshot(out_dir / f"{cfg.code}.json", head, entries)
         snapshot.write_sidecar(out_dir / f"{cfg.code}.dispersion.json.gz", head, ranked, result.merged, top_n)
@@ -151,9 +172,9 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
     if flt.flags is not None:
         text += "\n" + "\n".join(junk_report.render(manifest, flt, top_n))
         junk_report.write_flags(out_dir / f"{cfg.code}.flags.tsv", flt)
-    names = [p.name for _s, p in iter_counts(counts_dir)]
+    shard_names = [p.name for _s, p in iter_counts(counts_dir)]
     state = final_record(out_dir, ranked, result.merged.tokens,
-                         mix=mix_of(manifest, counts_dir.parent / "work", names))
+                         mix=mix_of(manifest, counts_dir.parent / "work", shard_names))
     if state is not None:
         text += "\n" + "\n".join(converge.render_table(state)) + "\n"
     report.write(out_dir / "report.md", text)

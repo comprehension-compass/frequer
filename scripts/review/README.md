@@ -60,7 +60,9 @@ language's `full/<lang>/junk-review.md`, in the same commit. The es, de and ja f
   window with the institutions screen; picks go through review with `--decisions keep,drop --redecide`.
 * **Audit** (an estimate, never applied). `audit.py` samples keeps and drops per band; they go through the full
   protocol as a round named `audit-*`; `report.py` turns it into per-band real-lemma and false-drop estimates.
-* **Report.** `report.py` writes `band-report.md`, the evidence the developer reads to choose the cutoff.
+* **Report and samples.** `report.py` writes `band-report.md` (audit estimates, drops, merges, questions);
+  `band_samples.py` writes `band-samples.md`, the word samples per band and across languages that the developer
+  chooses the cutoff from (ruling 2026-11-02).
 
 ## A round, step by step
 
@@ -95,6 +97,7 @@ prompts/<lang>/rules-unflagged.md`. Audit: `audit.py $C a1`, then `examples.py -
 | `audit.py` | `routed.tsv` | `<name>.txt` (sampled lemmas) |
 | `collect.py` | a round's `decisions.tsv` | `corpora/review/<lang>.tsv` |
 | `report.py` | `routed.tsv`, rounds, audits, questions | `band-report.md` |
+| `band_samples.py` | `routed.tsv` (and other languages' configs) | `band-samples.md`: words per band, at the cut, deeper, across languages; optional model-written glosses |
 
 `route.py`, `sample.py` and `examples.py` run from the pinned Honeyeater checkout's `backend` with
 `PYTHONPATH=.:<frequer>:<lemma site>` (as `frequer count`); the others need only Python and `claude`. The pure
