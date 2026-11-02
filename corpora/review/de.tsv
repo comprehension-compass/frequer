@@ -72,6 +72,7 @@ AUS	merge:aus	agreed: uppercase aus
 AUTO	merge:Auto	agreed: case variant
 AV	drop	agreed: abbreviation
 AVM	drop	agreed: brand
+AVR	drop	agreed: technical acronym
 AW	drop	agreed: acronym
 AWO	drop	adjudicated: minor organisation
 AWS	drop	agreed: brand
@@ -82,6 +83,7 @@ Aarau	drop	agreed: town
 Aargau	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Aaron	drop	agreed: first name
 Abbas	drop	agreed: person
+Abbey	drop	agreed: English name
 Abdullah	drop	agreed: first name
 Abel	drop	agreed: name
 Abkühl	merge:abkühlen	agreed: clipped verb
@@ -263,7 +265,7 @@ Andernfall	merge:andernfalls	agreed: clipped
 Anderson	drop	agreed: surname
 Andi	drop	agreed: first name
 Andorra	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
-Andre	merge:ander	agreed: colloquial andere
+Andre	drop	coordinator correction: the surface forms are the English word or a name (top form 'andre'); the reviewers' examples over-sampled a rare German form
 Andrea	drop	agreed: first name
 Andreas	drop	agreed: first name
 Andrej	drop	agreed: first name
@@ -284,16 +286,19 @@ Angelina	drop	agreed: first name
 Anger	drop	agreed: English/name in examples
 Angola	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Angry	drop	agreed: English
+Angststörunge	merge:Angststörung	agreed: clipped plural
 Animal	drop	agreed: English
 Animat	drop	agreed: junk
 Anita	drop	agreed: first name
 Anja	drop	agreed: first name
+Ank	drop	agreed: clipped name
 Ankara	drop	agreed: place not on list
 Anke	drop	agreed: first name
 Ankomm	merge:ankommen	agreed: clipped verb
 Anmeldedat	merge:Anmeldedaten	agreed: clipped
 Ann	drop	agreed: first name
 Anna	drop	agreed: first name
+Annalena	drop	agreed: first name
 Anne	drop	agreed: first name
 Annegret	drop	agreed: first name
 Annemarie	drop	agreed: first name
@@ -306,6 +311,7 @@ Ansbach	drop	agreed: town
 Anschlussfrag	merge:Anschlussfrage	agreed: cut-off
 Ansichtenseite	drop	agreed: web template junk
 Ansichtskarte	keep	agreed: real word
+Ansinn	merge:Ansinnen	agreed: clipped noun
 Anspielunge	merge:Anspielung	agreed: clipped
 Antalya	drop	agreed: town
 Antarktis	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
@@ -323,6 +329,7 @@ Antragsgegnerin	keep	agreed: real legal noun
 Antwerpen	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 AntwortenLöschen	drop	agreed: blog template junk
 Apollo	drop	agreed: name
+Apollon	drop	agreed: name/brand
 Apollonowitsch	drop	agreed: name
 App-Store	drop	agreed: hyphenated brand compound
 AppStore	drop	agreed: brand
@@ -356,6 +363,7 @@ Armin	drop	agreed: first name
 Arminia	drop	agreed: sports club
 Armstrong	drop	agreed: person name
 Army	drop	agreed: English
+Arnd	drop	agreed: first name
 Arndt	drop	agreed: surname
 Arne	drop	agreed: first name
 Arnold	drop	agreed: first name
@@ -391,6 +399,7 @@ Astra	drop	agreed: brand
 Astrid	drop	agreed: first name
 Asus	drop	agreed: brand
 At	drop	agreed: English/domain
+Atari	drop	agreed: brand
 Athen	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Atlantic	drop	agreed: English name
 Atlantik	keep	agreed: ocean, learnable (see question)
@@ -411,10 +420,12 @@ Aufgabenstellunge	merge:Aufgabenstellung	agreed: clipped lemma
 Aufhang	merge:aufhängen	agreed: verb form
 Aufraum	merge:aufräumen	agreed: clipped
 Aufsehe	merge:Aufsehen	agreed: cut-off
+Aufsichtsrät	merge:Aufsichtsrat	agreed: clipped plural
 Auftragnehmer	keep	agreed: real noun
 Augmented	drop	agreed: English
 Augsburg	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Augustin	drop	agreed: name
+Augustus	drop	agreed: historical figure
 Aurich	drop	agreed: minor town
 Aus-Bahn	drop	agreed: junk hyphenated
 Ausbildungs-Bahn	drop	agreed: junk hyphenated
@@ -427,7 +438,7 @@ Aussendienst	merge:Außendienst	agreed: ß spelling
 Aussenminister	merge:Außenminister	agreed: ß spelling
 Ausserdem	merge:außerdem	agreed: umlaut/ß spelling
 Austin	drop	agreed: name
-Australia	merge:Australien	agreed: foreign spelling
+Australia	drop	coordinator correction: the surface forms are the English word or a name (top form 'australia'); the reviewers' examples over-sampled a rare German form
 Australian	drop	agreed: English
 Australien	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Austria	drop	agreed: foreign name form
@@ -448,6 +459,7 @@ Avenue	drop	agreed: English street name
 Aviation	drop	agreed: English
 Avira	drop	agreed: brand
 Award	keep	agreed: established loan
+Away	drop	agreed: English
 Axel	drop	agreed: first name
 Ayurveda	keep	agreed: common noun
 Azure	drop	agreed: brand
@@ -457,6 +469,7 @@ BAB	drop	agreed: technical abbreviation
 BAFA	drop	agreed: minor agency
 BAG	drop	agreed: institution acronym, specialist
 BAMF	keep	agreed: nationally known institution
+BANK	merge:Bank	agreed: case variant
 BAO	drop	agreed: noise
 BASE	merge:Base	adjudicated: noun Base (cousin) filed in caps
 BASF	drop	agreed: company
@@ -483,6 +496,7 @@ BGBl	drop	agreed: legal specialist abbreviation
 BGE	drop	agreed: acronym/legal citation
 BGH	keep	agreed: national court
 BGHZ	drop	agreed: legal citation abbreviation
+BGM	drop	agreed: abbreviation
 BHKW	drop	agreed: technical acronym
 BIC	drop	agreed: banking acronym
 BIG	drop	agreed: English
@@ -517,7 +531,7 @@ BSI	drop	agreed: technical agency acronym
 BSV	drop	agreed: club
 BStBl	drop	agreed: legal abbreviation
 BTC	drop	agreed: crypto acronym
-BU	merge:Bus	agreed: examples are Bus
+BU	drop	coordinator correction: the surface forms are the English word or a name (top form 'bu'); the reviewers' examples over-sampled a rare German form
 BUND	merge:Bund	agreed: uppercase variant
 BUNDESGERICHTSHOF	merge:Bundesgerichtshof	adjudicated: wrong case
 BV	drop	agreed: abbreviation
@@ -536,8 +550,9 @@ Baccarat	drop	agreed: casino spam
 Bach	keep	agreed: common noun
 Bachelor-Studiengang	drop	agreed: hyphenated compound
 Bachmann	drop	agreed: surname
-Back	merge:backen	adjudicated: elided verb form back'
+Back	drop	coordinator correction: the surface forms are the English word or a name (top form 'back'); the reviewers' examples over-sampled a rare German form
 Background	drop	agreed: English not established
+Backstag	merge:Backstage	agreed: clipped loan
 Baden-Baden	drop	agreed: town
 Baden-Württemberg	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Bader	drop	agreed: surname
@@ -584,6 +599,7 @@ Baskenland	drop	agreed: region not on list
 Baskets	drop	agreed: sports club
 Basteln	merge:basteln	agreed: verb basteln
 Bastian	drop	agreed: first name
+Batch	drop	agreed: English
 Batman	drop	agreed: fictional name
 Battle	drop	agreed: English
 BauGB	drop	agreed: legal acronym
@@ -592,6 +608,7 @@ Baumgartner	drop	agreed: surname
 Baunatal	drop	agreed: town
 Baur	drop	agreed: surname
 Baureihe	keep	agreed: common noun
+Bauschutt	keep	agreed: real noun
 Bautze	drop	agreed: clipped town name Bautzen
 Bavaria	drop	agreed: brand
 Bay	drop	agreed: English place
@@ -600,6 +617,7 @@ Bayer Leverkusen	drop	agreed: sports club
 Bayern	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Bayern München	drop	agreed: sports club
 Bayreuth	drop	agreed: place name not on list
+Bdsm	drop	agreed: spam
 Be	drop	agreed: English fragment
 Bea	drop	agreed: name
 Beach	drop	agreed: English name part
@@ -612,7 +630,7 @@ Beatles	drop	agreed: band
 Beatrice	drop	agreed: name
 Beatrix	drop	agreed: first name
 Beauty	drop	agreed: English
-Beck	merge:Becken	agreed: wrong lemma of Becken
+Beck	drop	coordinator correction: the surface forms are the English word or a name (top form 'beck'); the reviewers' examples over-sampled a rare German form
 Beckenbauer	drop	agreed: person
 Becker	drop	agreed: surname
 Beckham	drop	agreed: surname
@@ -620,7 +638,7 @@ Beckmann	drop	agreed: surname
 Bed	drop	agreed: English
 Bee	drop	agreed: English
 Beef	drop	agreed: English
-Beer	merge:Beere	agreed: cut-off
+Beer	drop	coordinator correction: the surface forms are the English word or a name (top form 'beer'); the reviewers' examples over-sampled a rare German form
 Beethove	drop	agreed: clipped person name
 Beethoven	drop	agreed: person
 Beginner	drop	agreed: English
@@ -632,6 +650,7 @@ Belgien	keep	learnable-names list (Honeyeater reference/learnable-names/de.json 
 Belgrad	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Bella	drop	agreed: first name
 Bellevue	drop	agreed: name
+Belt	drop	agreed: English
 Bemerkenswert	merge:bemerkenswert	agreed: capitalised adjective
 Ben	drop	agreed: first name
 Bender	drop	agreed: surname
@@ -649,6 +668,7 @@ Beobacht	merge:beobachten	agreed: clipped
 Beratungs-Bahn	drop	agreed: junk compound
 Beratungsstell	merge:Beratungsstelle	agreed: cut-off
 Berchtesgaden	drop	agreed: place not on list
+Bergedorf	drop	agreed: district
 Bergheim	drop	agreed: minor town
 Bergisch Gladbach	drop	agreed: town
 Bergmann	keep	agreed: common noun
@@ -686,6 +706,7 @@ BesucherInn	merge:Besucherin	agreed: gender form
 Besucherinn	merge:Besucherin	agreed: cut-off lemma
 Bet	drop	agreed: English
 Beta-Version	keep	agreed: established compound
+Beth	drop	agreed: first name
 Bethesda	drop	agreed: company/place
 BetrVG	drop	agreed: legal acronym
 Betriebs-Bahn	drop	agreed: junk hyphenated
@@ -769,6 +790,7 @@ Blush	drop	agreed: English cosmetics
 Bläsch	merge:Bläschen	agreed: clipped
 Blümche	merge:Blümchen	agreed: cut-off lemma
 Bo	drop	agreed: name
+Boa	keep	agreed: common noun
 Boah	keep	agreed: interjection
 Board	keep	adjudicated: established loan (Sideboard, Gremium)
 Boateng	drop	agreed: person
@@ -776,6 +798,7 @@ Bob	drop	agreed: first name
 Bobby	drop	agreed: first name
 Bocholt	drop	agreed: town
 Bochum	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
+Bodenbeläg	merge:Bodenbelag	agreed: clipped plural
 Bodensee	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Bodo	drop	agreed: first name
 Body	drop	agreed: English
@@ -792,8 +815,10 @@ Bookmark	keep	agreed: established IT loan
 Boost	drop	adjudicated: English not established
 Bora	drop	agreed: name
 Border	drop	agreed: English
+Borg	drop	coordinator correction: the surface forms are the English word or a name (top form 'borg'); the reviewers' examples over-sampled a rare German form
 Boris	drop	agreed: first name
 Born	drop	agreed: mostly surname
+Bornheim	drop	agreed: town
 Borussia	drop	agreed: club name
 Borussia Dortmund	drop	agreed: sports club
 Borussia Mönchengladbach	drop	agreed: sports club
@@ -806,7 +831,7 @@ Botswana	drop	agreed: place not on list
 Bottrop	drop	agreed: town
 Boulevard	keep	agreed: common noun
 Bourbon	keep	agreed: common noun
-Bowl	merge:bowlen	agreed: examples show bowlen
+Bowl	drop	coordinator correction: the surface forms are the English word or a name (top form 'bowl'); the reviewers' examples over-sampled a rare German form
 Bowling	keep	agreed: common noun
 Boxspringbett	keep	agreed: real compound
 Boy	drop	agreed: English
@@ -815,6 +840,7 @@ Bradley	drop	agreed: first name
 Brahms	drop	agreed: person
 Brain	drop	agreed: English
 Brainstorming	keep	agreed: established loan
+Branchen-Eintrag	drop	agreed: hyphenated web compound
 Brandenburg	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Branding	drop	agreed: English
 Brandon	drop	agreed: first name
@@ -873,6 +899,7 @@ Buddhist	keep	agreed: ordinary German word
 Buddy	drop	agreed: English/name
 Budot	drop	agreed: spam junk
 Buenos Aires	drop	agreed: city not on list
+Bugfix	keep	agreed: established IT loan
 Buggy	keep	agreed: common noun
 Build	drop	agreed: English
 Builder	drop	agreed: English
@@ -894,6 +921,7 @@ Burda	drop	agreed: company
 Bureau	drop	agreed: foreign/name
 Burgdorf	drop	agreed: minor town
 Burkhard	drop	agreed: first name
+Burkhardt	drop	agreed: surname
 Burkina	drop	adjudicated: place name fragment not on the place list
 Burma	drop	agreed: place name not on list
 Burn	drop	agreed: English
@@ -907,6 +935,7 @@ Butler	keep	agreed: common loan noun
 Butterfly	drop	agreed: English/name
 Buxtehude	drop	agreed: town
 Buy	drop	agreed: English
+Buzz	drop	agreed: first name/English
 Bw	drop	agreed: abbreviation, low diversity
 Bwin	drop	agreed: brand
 By	drop	agreed: English
@@ -923,6 +952,7 @@ Bündche	merge:Bündchen	agreed: clipped lemma
 Bürobedarf	keep	agreed: ordinary noun
 C-Klasse	drop	agreed: car/league name
 CAD	drop	agreed: technical acronym
+CAM	drop	agreed: technical acronym
 CAS	drop	agreed: specialist acronym
 CB	drop	agreed: abbreviation
 CBD	drop	agreed: technical acronym
@@ -958,6 +988,7 @@ CP	drop	agreed: acronym
 CPU	keep	agreed: ordinary computing acronym
 CPUs	merge:CPU	adjudicated: plural of common acronym
 CRM	drop	agreed: technical acronym
+CRM-System	drop	agreed: technical acronym compound
 CSD	drop	agreed: minor acronym
 CSR	drop	agreed: technical acronym
 CSS	drop	agreed: technical acronym
@@ -967,6 +998,7 @@ CSV	drop	agreed: technical acronym
 CV	drop	agreed: abbreviation
 CVJM	drop	agreed: minor organisation
 CVP	keep	agreed: national party
+CW	drop	agreed: abbreviation
 Cabernet	keep	adjudicated: wine grape common noun
 Cable	drop	agreed: English
 Cabrio	keep	agreed: common noun
@@ -976,6 +1008,7 @@ Caesar	drop	agreed: name
 Cage	drop	agreed: surname
 Cake	drop	agreed: English
 Cala	drop	agreed: place fragment
+Calgary	drop	agreed: foreign city
 California	drop	agreed: foreign place
 Call	drop	agreed: English
 Calvin	drop	agreed: name
@@ -987,7 +1020,7 @@ Cameron	drop	agreed: surname
 Campaign	drop	agreed: English
 Campbell	drop	agreed: surname
 Can	drop	agreed: English/name
-Canada	merge:Kanada	agreed: English spelling
+Canada	drop	coordinator correction: the surface forms are the English word or a name (top form 'canada'); the reviewers' examples over-sampled a rare German form
 Canal	drop	agreed: name
 Canaria	drop	agreed: place fragment
 Cancer	drop	agreed: English
@@ -1038,6 +1071,7 @@ Carter	drop	agreed: surname
 Cartoon	keep	agreed: established loan
 Casa	drop	agreed: foreign
 Case	drop	agreed: English
+Cases	drop	agreed: English
 Cash	drop	agreed: English
 Casino	keep	agreed: real word
 Casio	drop	agreed: brand
@@ -1063,6 +1097,7 @@ Centre	drop	agreed: English/French
 Centro	drop	agreed: name
 Centrum	drop	agreed: name
 Century	drop	agreed: English
+Certificate	drop	agreed: English
 Certified	drop	agreed: English
 Chain	drop	agreed: English word
 Chair	drop	agreed: English
@@ -1155,6 +1190,7 @@ Claim	drop	agreed: marketing English
 Claire	drop	agreed: first name
 Clara	drop	agreed: first name
 Clark	drop	agreed: surname
+Clarke	drop	agreed: surname
 Clash	drop	agreed: band name
 Class	drop	agreed: English
 Classic	drop	agreed: English brand word
@@ -1207,6 +1243,7 @@ Colour	drop	agreed: English
 Columbia	drop	agreed: place name
 Columbus	drop	agreed: name
 Com	drop	agreed: web junk
+Combat	drop	agreed: English
 Combi	drop	agreed: brand
 Combo	keep	agreed: common noun
 Come	drop	agreed: English
@@ -1337,6 +1374,7 @@ Cube	drop	agreed: brand
 Cultural	drop	agreed: English
 Culture	drop	agreed: English
 Cup	keep	adjudicated: established loan (competition, bra cup)
+Cupertino	drop	agreed: foreign city
 Curriculum	keep	agreed: German noun
 Custom	drop	agreed: English
 Customer	drop	agreed: English
@@ -1406,6 +1444,7 @@ DSG	drop	agreed: technical acronym
 DSGVO	drop	agreed: technical acronym
 DSL	keep	agreed: ordinary acronym
 DSLR	drop	adjudicated: specialist technical acronym
+DSP	drop	agreed: technical acronym
 DTM	drop	agreed: racing series
 DTS	drop	agreed: agency name
 DU	merge:du	agreed: capitalised pronoun
@@ -1432,6 +1471,7 @@ Dallas	drop	agreed: foreign city
 Damaskus	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Damian	drop	agreed: first name
 Damon	drop	agreed: name
+Dampflok	keep	agreed: real noun
 Dan	drop	agreed: first name
 Dana	drop	agreed: first name
 Dance	drop	agreed: English
@@ -1465,6 +1505,7 @@ Dax	keep	agreed: national stock index
 Day	drop	agreed: English word
 Days	drop	agreed: English word
 De	drop	agreed: foreign particle
+DeMark	drop	agreed: brand, single source
 Dead	drop	agreed: English
 Dean	drop	agreed: first name
 Death	drop	agreed: English
@@ -1497,6 +1538,7 @@ Description	drop	agreed: English
 Desert	drop	agreed: English
 Desire	drop	agreed: English
 Desk	drop	agreed: English
+Desktop-PC	keep	agreed: established compound
 Dessau	drop	agreed: town
 Dessous	keep	agreed: common noun
 Destination	keep	agreed: real word
@@ -1541,6 +1583,7 @@ Director	drop	agreed: English
 Directory	drop	agreed: English
 Dirk	drop	agreed: first name
 Dirty	drop	agreed: English
+Discount	drop	agreed: English
 Discovery	drop	agreed: English
 Disk	drop	agreed: English
 Diskutier	merge:diskutieren	agreed: clipped lemma
@@ -1613,6 +1656,8 @@ Dropbox	drop	agreed: brand
 Dropdown-Menü	drop	agreed: web compound
 Drops	drop	agreed: brand/English
 Drosera	drop	agreed: Latin plant genus, specialist
+Druckart	keep	agreed: real noun
+Druckdat	merge:Druckdaten	agreed: clipped noun
 Druckstell	merge:Druckstelle	agreed: clipped lemma
 Drug	drop	agreed: English
 Drupal	drop	agreed: product
@@ -1698,6 +1743,7 @@ ESC	keep	agreed: nationally famous event
 ESG	drop	agreed: technical acronym
 ESM	drop	agreed: acronym
 ESP	drop	agreed: technical acronym
+ESV	drop	agreed: sports club
 ET	drop	agreed: short junk
 ETA	drop	agreed: acronym
 ETF	keep	agreed: ordinary finance word
@@ -1708,6 +1754,7 @@ EU	keep	agreed: institution acronym
 EU-Ausland	keep	agreed: standard compound
 EU-Bürger	keep	agreed: real compound
 EU-DSGVO	drop	agreed: specialist acronym compound
+EU-Datenschutz-Grundverordnung	drop	agreed: hyphenated compound
 EU-Ebene	keep	adjudicated: common news compound
 EU-Gipfel	drop	agreed: hyphenated compound
 EU-Kommission	keep	agreed: established compound
@@ -1722,12 +1769,14 @@ EU-Verordnung	keep	agreed: standard news compound
 EU-weit	keep	agreed: real adjective
 EUR	drop	agreed: currency code
 EURO	merge:Euro	agreed: uppercase variant
+EUROPA	merge:Europa	agreed: case variant of continent
 EV	drop	agreed: abbrev/Turkish
 EVA	drop	agreed: name
 EVO	drop	agreed: name
 EVP	drop	agreed: minor party
 EWG	drop	agreed: historic acronym
 EWR	drop	agreed: specialist acronym
+EX	merge:Ex	adjudicated: all-caps citation of the noun Ex (former partner); "auf ex" is the same colloquial word
 EZ	drop	agreed: acronym
 EZB	keep	agreed: national institution
 Eagle	drop	agreed: English name
@@ -1737,6 +1786,7 @@ Earth	drop	agreed: English
 East	drop	agreed: English word
 Easy	drop	agreed: English
 Ebay	drop	agreed: brand
+Ebenenmaske	keep	agreed: real compound, software term
 Eberhard	drop	agreed: first name
 Ebert	drop	agreed: surname
 Ebola	keep	agreed: common disease name
@@ -1795,7 +1845,9 @@ Electronic	drop	agreed: English
 Electronics	drop	agreed: English
 Elektro	keep	agreed: used as word in German
 Elena	drop	agreed: first name
+Elfenbein	keep	agreed: real noun
 Elfenbeinküste	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
+Elfriede	drop	agreed: first name
 Elias	drop	agreed: first name
 Elisa	drop	agreed: first name
 Elisabeth	drop	agreed: first name
@@ -1809,6 +1861,7 @@ Elsa	drop	agreed: first name
 Else	drop	agreed: name/English
 Email-Adresse	merge:E-Mail-Adresse	adjudicated: standard spelling
 Embedded	drop	agreed: English
+Emergency	drop	agreed: English
 Emil	drop	agreed: first name
 Emilia	drop	agreed: name
 Emily	drop	agreed: first name
@@ -1819,7 +1872,7 @@ Emmerich	drop	agreed: name
 Empire	drop	agreed: English name
 Employer	drop	agreed: English
 Ems	drop	agreed: minor river/abbrev
-End	merge:Ende	adjudicated: elided Ende
+End	drop	coordinator correction: the surface forms are the English word or a name (top form 'end'); the reviewers' examples over-sampled a rare German form
 Ender	drop	agreed: surname
 Energy	drop	agreed: English/brand
 Engine	drop	agreed: English
@@ -1827,12 +1880,14 @@ Engineer	drop	agreed: English
 Engineering	drop	agreed: English word
 England	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Englischkenntnis	merge:Englischkenntnisse	agreed: plural form used
-English	merge:Englisch	agreed: English spelling of language
+English	drop	coordinator correction: the surface forms are the English word or a name (top form 'english'); the reviewers' examples over-sampled a rare German form
 Enix	drop	agreed: company
 Enrico	drop	agreed: first name
 Enter	merge:entern	agreed: verb entern
 Enterprise	drop	agreed: English name
 Entertainment	drop	agreed: English word
+Environment	drop	agreed: English
+Eon	drop	agreed: company
 Epic	drop	agreed: English
 Epson	drop	agreed: brand
 Equipment	keep	agreed: loan in use
@@ -1861,6 +1916,7 @@ Erziehungs-Bahn	drop	agreed: junk
 Erziehungsberechtigt	keep	agreed: real word
 Escape	drop	agreed: English
 Eschborn	drop	agreed: town
+Ess-Bahn	drop	agreed: joke word
 Essence	drop	agreed: English/brand
 Essential	drop	agreed: English
 Esser	keep	agreed: common noun
@@ -1880,6 +1936,7 @@ Eurovision Song Contest	drop	agreed: multiword event name
 Eurowing	drop	agreed: company
 Euskirche	drop	agreed: town
 Eva	drop	agreed: first name
+Evangelische Kirche in Deutschland	keep	agreed: nationally famous institution
 Evans	drop	agreed: surname
 Eve	drop	agreed: name
 Evelyn	drop	agreed: first name
@@ -1917,6 +1974,7 @@ FCB	drop	agreed: sports club
 FDA	drop	agreed: foreign agency
 FDP	keep	agreed: famous party
 FED	drop	adjudicated: foreign institution, not a German national institution
+FFC	drop	agreed: sports club
 FG	drop	agreed: abbreviation
 FI	drop	agreed: abbreviation
 FIA	drop	agreed: organisation acronym
@@ -1977,6 +2035,7 @@ Federation	drop	agreed: English
 Feed	keep	agreed: established loan
 Feel	drop	agreed: English
 Feeling	keep	agreed: established loan
+Fehlstellunge	merge:Fehlstellung	agreed: clipped plural
 Feldberg	drop	agreed: minor place
 Feldkirch	drop	agreed: minor town
 Feldmann	drop	agreed: surname
@@ -2009,7 +2068,7 @@ Finaliste	merge:Finalist	agreed: inflected form
 Finance	drop	agreed: English
 Financial	drop	agreed: English
 Finanz	drop	agreed: cut-off compound element
-Find	merge:finden	adjudicated: elided verb form find'
+Find	drop	coordinator correction: the surface forms are the English word or a name (top form 'find'); the reviewers' examples over-sampled a rare German form
 Fine	drop	agreed: name
 Fingerfood	keep	agreed: loan
 Finish	keep	agreed: established loan
@@ -2043,18 +2102,20 @@ Flickr	drop	agreed: brand
 Flied	merge:Flieder	agreed: cut-off
 Flight	drop	agreed: English
 Floor	drop	agreed: English
+Florence	drop	agreed: name
 Florian	drop	agreed: first name
 Florida	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Flow	keep	agreed: established loan
 Flower	drop	agreed: English
 Floyd	drop	agreed: person
 Fluid	keep	agreed: real noun
-Fly	merge:Flyer	adjudicated: examples are Flyern
+Fly	drop	coordinator correction: the surface forms are the English word or a name (top form 'fly'); the reviewers' examples over-sampled a rare German form
 Flyer	keep	agreed: established loan
 Flying	drop	agreed: English
-Focus	merge:Fokus	adjudicated: variant spelling of Fokus
+Focus	drop	coordinator correction: the surface forms are the English word or a name (top form 'focus'); the reviewers' examples over-sampled a rare German form
 Fohle	merge:Fohlen	agreed: clipped
 Folder	keep	agreed: German word (brochure)
+Follow	drop	agreed: English
 Font	drop	agreed: English
 Fonts	drop	agreed: English
 Food	drop	agreed: English word
@@ -2103,6 +2164,7 @@ Franzi	drop	agreed: first name
 Franziska	drop	agreed: first name
 Franziskus	drop	agreed: personal name
 Fraport	drop	agreed: company
+Frauenkirche	drop	adjudicated: specific landmark name (Dresden), plus the town Frauenkirchen; not on the reviewed place list
 Frauke	drop	agreed: first name
 Fraunhofer-Institut	keep	agreed: famous institution
 Fred	drop	agreed: first name
@@ -2147,6 +2209,7 @@ Fujitsu	drop	agreed: company
 Fukushima	drop	agreed: place
 Fulda	drop	agreed: place not on list
 Full	drop	agreed: English
+Full-HD	keep	adjudicated: established hyphenated consumer term seen on every TV and screen spec
 Full-Service	drop	agreed: hyphenated English
 Fun	drop	agreed: English/Kung Fu
 Fundraising	keep	agreed: established loan
@@ -2169,9 +2232,10 @@ Förmche	merge:Förmchen	agreed: clipped
 Führungs-Bahn	drop	agreed: junk compound
 Für	merge:für	agreed: capitalised für
 Fürsorge	keep	agreed: common noun
+Fürstenberg	drop	agreed: place/surname
 Fürth	drop	agreed: place not on list
 Füs	merge:Fuß	agreed: Swiss spelling clipped
-GA	merge:Gas	agreed: examples are Gas
+GA	drop	coordinator correction: the surface forms are the English word or a name (top form 'ga'); the reviewers' examples over-sampled a rare German form
 GANZ	merge:ganz	agreed: adjective, wrong case
 GC	drop	agreed: acronym
 GDL	keep	adjudicated: nationally famous union from rail strikes
@@ -2227,6 +2291,7 @@ Gaming	keep	agreed: loan in use
 Gap	drop	agreed: English
 Gar	merge:gar	agreed: capitalised adverb
 Garantiebedingung	keep	agreed: real noun
+Garching	drop	agreed: town
 Garcia	drop	agreed: surname
 Gardena	drop	agreed: brand
 Garmin	drop	agreed: brand
@@ -2277,6 +2342,7 @@ Germania	drop	agreed: name
 Germany	drop	agreed: English
 Germersheim	drop	agreed: town
 Gernot	drop	agreed: first name
+Gerrit	drop	agreed: first name
 Gerry	drop	agreed: first name
 Gert	drop	agreed: first name
 Gertrud	drop	agreed: first name
@@ -2294,6 +2360,7 @@ Gewind	merge:Gewinde	agreed: clipped
 Gewinnspiele	merge:Gewinnspiel	agreed: plural form
 GfK	drop	agreed: company
 Ghana	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
+Giants	drop	agreed: sports team
 Gibson	drop	agreed: surname/brand
 Giessen	drop	agreed: minor town name
 Gifhorn	drop	agreed: town
@@ -2304,6 +2371,7 @@ Ginny	drop	agreed: fictional name
 Giorgio	drop	agreed: first name
 Giovanni	drop	agreed: first name
 Girl	drop	agreed: English
+Giro	keep	agreed: banking common noun
 Gisela	drop	agreed: first name
 Giuseppe	drop	agreed: first name
 Gladbach	drop	agreed: town
@@ -2328,6 +2396,7 @@ God	drop	agreed: English
 Goethe-Institut	keep	agreed: famous institution
 Goethe-Universität	drop	agreed: single university name
 Gogh	drop	agreed: surname
+Goldberg	drop	agreed: surname
 Golden	merge:golden	adjudicated: adjective golden mis-lemmatised
 Goldman	drop	agreed: company name
 Golf	keep	agreed: common noun
@@ -2348,6 +2417,7 @@ Gospel	keep	agreed: music genre used in German
 Gotha	drop	agreed: town
 Gothic	drop	agreed: English style name
 Gotthard	drop	agreed: name
+Gottlieb	drop	agreed: first name
 Gottschalk	drop	agreed: person
 Governance	drop	agreed: English
 Government	drop	agreed: English
@@ -2377,7 +2447,7 @@ Grey	drop	agreed: surname
 Grid	drop	agreed: English
 Griechenland	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Grimm	drop	agreed: surname
-Grip	merge:Grips	agreed: examples are Grips
+Grip	drop	coordinator correction: the surface forms are the English word or a name (top form 'grip'); the reviewers' examples over-sampled a rare German form
 Gro	merge:Gros	agreed: clipped noun
 Gronau	drop	agreed: small town
 Gross	merge:groß	adjudicated: Swiss spelling without ß
@@ -2389,6 +2459,7 @@ Großformat	keep	agreed: common noun
 Gruber	drop	agreed: surname
 Grundkurs	keep	agreed: common noun
 Gruner	drop	agreed: company name
+Gröhe	drop	agreed: surname
 Grönland	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Grünwald	drop	agreed: minor place
 Guangdong	drop	agreed: place not on list
@@ -2400,6 +2471,7 @@ Gudrun	drop	agreed: first name
 Guest	drop	agreed: English
 Guide	drop	agreed: English word
 Guido	drop	agreed: first name
+Guinea	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Guitar	drop	agreed: English
 Gummersbach	drop	agreed: minor town
 Gun	drop	agreed: English
@@ -2423,6 +2495,7 @@ Göttingen	keep	learnable-names list (Honeyeater reference/learnable-names/de.js
 Götz	drop	agreed: first name
 Günter	drop	agreed: first name
 Günther	drop	agreed: first name
+Günzburg	drop	agreed: minor town
 Gütersloh	drop	agreed: town
 HAMBURG	merge:Hamburg	agreed: case variant of major city
 HANA	drop	agreed: product/name
@@ -2440,6 +2513,7 @@ HF	drop	agreed: acronym
 HGB	drop	agreed: legal specialist abbreviation
 HH	drop	agreed: abbreviation
 HIER	merge:hier	agreed: capitalised adverb
+HILFE	merge:Hilfe	agreed: case variant
 HINWEIS	merge:Hinweis	agreed: capitalised Hinweis
 HJ	drop	agreed: abbreviation
 HK	drop	agreed: abbreviation
@@ -2545,6 +2619,7 @@ Havanna	keep	learnable-names list (Honeyeater reference/learnable-names/de.json 
 Have	drop	agreed: English
 Hawaii	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Hawk	drop	agreed: English/name
+Hay	drop	agreed: English
 Hbf	keep	agreed: abbreviation read daily
 Hd	drop	agreed: abbreviation
 Head	drop	agreed: English
@@ -2553,6 +2628,7 @@ Healthcare	drop	agreed: English
 Heart	drop	agreed: English
 Hearts	drop	agreed: English
 Heat	drop	agreed: English
+Heaven	drop	agreed: English
 Heavy	drop	agreed: English
 Hebdo	drop	agreed: name
 Hedwig	drop	agreed: first name
@@ -2567,7 +2643,9 @@ Heiko Maas	drop	agreed: person
 Heilbronn	drop	agreed: place not on list
 Heilig	merge:heilig	agreed: wrong case
 Heine	drop	agreed: person
+Heinemann	drop	agreed: surname
 Heiner	drop	agreed: first name
+Heino	drop	agreed: person
 Heinrich	drop	agreed: first name
 Heinsberg	drop	agreed: minor town
 Heinz	drop	agreed: first name
@@ -2624,6 +2702,7 @@ High	drop	agreed: English
 High-End	keep	agreed: established hyphenated word
 High-Tech	keep	agreed: established hyphenated word
 Hightech	keep	agreed: established loan
+Hildebrand	drop	agreed: surname
 Hildegard	drop	agreed: first name
 Hildesheim	drop	agreed: place name not on list
 Hilfestellunge	merge:Hilfestellung	agreed: cut-off
@@ -2677,6 +2756,7 @@ Honduras	keep	learnable-names list (Honeyeater reference/learnable-names/de.json
 Honey	drop	agreed: English
 Hong	drop	agreed: place fragment
 Hongkong	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
+Honnef	drop	agreed: town
 Honor	drop	agreed: English
 Hood	drop	agreed: name
 Hook	drop	agreed: English
@@ -2710,6 +2790,7 @@ Hunt	drop	agreed: surname
 Husqvarna	drop	agreed: brand
 Hyaluron	keep	adjudicated: real noun
 Hybrid	keep	agreed: established loan
+Hydro	drop	agreed: brand
 Hygieneregel	keep	agreed: real word, singular citation
 Hygienevorschrift	keep	agreed: real noun
 Hyperlinks	merge:Hyperlink	adjudicated: plural; singular lemma
@@ -2834,6 +2915,7 @@ Inkrafttret	merge:Inkrafttreten	agreed: cut-off
 Inmitt	merge:inmitten	agreed: cut-off preposition
 Inn	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Inner	merge:Innere	agreed: cut form of Innere/Innern
+Innovations-Bahn	drop	agreed: junk hyphenated compound
 Innsbruck	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Inputs	merge:Input	adjudicated: plural of established loan
 InsO	drop	agreed: legal specialist abbreviation
@@ -2852,6 +2934,7 @@ Intensiv	merge:intensiv	agreed: case variant
 Inter	drop	agreed: club/Latin
 Interactive	drop	agreed: English
 Interessanterweis	merge:interessanterweise	agreed: clipped
+Interest	drop	agreed: English
 Interim	drop	agreed: English, not established
 Interior	drop	agreed: English
 International	merge:international	agreed: adjective
@@ -2863,6 +2946,7 @@ Internet-Seite	merge:Internetseite	agreed: variant spelling
 Interwett	drop	agreed: betting brand
 Invest	drop	agreed: company text
 Investieren	merge:investieren	agreed: verb
+Investitions-Bahn	drop	agreed: junk hyphenated compound
 Investment	keep	agreed: loan in use
 Inwiefer	merge:inwiefern	agreed: clipped
 Inzest	keep	agreed: common noun
@@ -2876,6 +2960,7 @@ Irina	drop	agreed: first name
 Iris	keep	agreed: common noun (eye part, flower)
 Irish	drop	agreed: English
 Irland	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
+Irmgard	drop	agreed: first name
 Iron	drop	agreed: English
 Ironman	drop	agreed: brand
 Is	drop	agreed: English word
@@ -2931,6 +3016,7 @@ Janeiro	drop	agreed: part of place name
 Janet	drop	agreed: first name
 Janina	drop	agreed: first name
 Janine	drop	agreed: first name
+Janse	drop	agreed: clipped surname
 Japan	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Jasmin	keep	agreed: flower noun
 Jason	drop	agreed: first name
@@ -2961,6 +3047,7 @@ Jesus	drop	agreed: person name
 Jesus Christus	drop	agreed: person name
 Jet	keep	agreed: common noun
 Jeweil	merge:jeweils	agreed: cut-off
+Jeweils	merge:jeweils	agreed: case variant
 Jg	drop	agreed: abbreviation
 Jim	drop	agreed: first name
 Jimmy	drop	agreed: first name
@@ -2982,6 +3069,7 @@ Johan	drop	agreed: first name
 Johann	drop	agreed: first name
 Johanna	drop	agreed: first name
 Johannes	drop	agreed: first name
+Johannes Paul II.	drop	agreed: person
 Johannesburg	drop	agreed: foreign city not on list
 Johanniskraut	keep	agreed: common noun
 John	drop	agreed: first name
@@ -3153,6 +3241,7 @@ Kitchen	drop	agreed: English
 Kits	drop	agreed: English plural
 Kitty	drop	agreed: name
 Kitzbühel	drop	agreed: town
+Klaas	drop	agreed: first name
 Klagenfurt	drop	agreed: place name not on list
 Klara	drop	agreed: first name
 Klaus	drop	agreed: first name
@@ -3237,6 +3326,7 @@ Kruse	drop	agreed: surname
 Kryptowährung	keep	agreed: real word
 Krämer	keep	agreed: common noun
 Krüger	drop	agreed: surname
+Kuala Lumpur	drop	agreed: foreign city
 Kuba	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Kufstein	drop	agreed: minor town
 Kuhn	drop	agreed: surname
@@ -3246,9 +3336,11 @@ Kundalini	drop	agreed: specialist term
 Kundendate	merge:Kundendaten	agreed: cut-off
 Kunsthaus	keep	adjudicated: real common noun
 Kunstleder	keep	agreed: common noun
+Kunstrase	merge:Kunstrasen	agreed: clipped noun
 Kunz	drop	agreed: name
 Kunze	drop	agreed: surname
 Kurdistan	drop	agreed: place not on list
+Kurfürstendamm	drop	agreed: street
 Kurt	drop	agreed: first name
 Kurzer	merge:kurz	agreed: inflected form
 Kurzum	merge:kurzum	agreed: wrong case adverb
@@ -3264,8 +3356,10 @@ Köhler	keep	adjudicated: common noun charcoal burner
 Köln	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Königsberg	drop	agreed: city not on list
 Königstein	drop	agreed: place
+Köpenick	drop	agreed: district
 Köpfch	merge:Köpfchen	agreed: clipped
 Körbche	merge:Körbchen	agreed: clipped
+Kühlbox	keep	agreed: real noun
 KünstlerInn	merge:Künstlerin	agreed: gender form
 LA	drop	agreed: junk
 LAN	keep	agreed: everyday acronym like WLAN
@@ -3281,6 +3375,7 @@ LED-Lampe	keep	adjudicated: established compound
 LED-Leuchte	drop	agreed: hyphenated compound
 LED-Licht	drop	agreed: hyphenated web compound
 LEGO	drop	agreed: brand
+LESEN	merge:lesen	agreed: case variant
 LF	drop	agreed: length 2 junk
 LG	drop	agreed: org abbreviation
 LH	drop	agreed: abbrev
@@ -3307,6 +3402,7 @@ Labrador	keep	agreed: dog breed, common noun
 Labs	drop	agreed: English
 Lack	keep	agreed: real German word
 Lafontaine	drop	agreed: surname
+Lagerfeld	drop	agreed: person
 Lago	drop	agreed: Italian place word
 Laguna	drop	agreed: name
 Lahm	merge:lahm	agreed: adjective
@@ -3322,6 +3418,7 @@ Landesstraße	keep	agreed: common noun
 Landgericht Hamburg	drop	agreed: multiword name
 Landing	drop	agreed: English
 Landsberg	drop	agreed: town
+Landschafts-Bahn	drop	agreed: junk hyphenated compound
 Landshut	drop	agreed: town
 Landstraße	keep	agreed: ordinary noun
 Lane	drop	agreed: English
@@ -3332,7 +3429,7 @@ Large	drop	agreed: English
 Larissa	drop	agreed: first name
 Larry	drop	agreed: first name
 Lars	drop	agreed: first name
-Las	merge:lesen	agreed: form of lesen
+Las	drop	coordinator correction: the surface forms are the English word or a name (top form 'las'); the reviewers' examples over-sampled a rare German form
 Las Vegas	drop	agreed: place name not on list
 Laschet	drop	agreed: person
 Last	keep	agreed: real German word
@@ -3396,6 +3493,7 @@ Leonhard	drop	agreed: first name
 Leonie	drop	agreed: first name
 Leopold	drop	agreed: first name
 Les	drop	agreed: French article
+Lessing	drop	agreed: historical figure
 Let	drop	agreed: English/name
 Letter	keep	adjudicated: real German word (Lettern)
 Lettland	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
@@ -3415,6 +3513,7 @@ Libyen	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @
 Lichtenberg	drop	agreed: place
 Lichtenstein	drop	agreed: town name
 Lidl	drop	agreed: brand
+Lido	drop	agreed: place name
 Liebevoll	merge:liebevoll	agreed: adjective
 Liechtenstein	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Lieferer	keep	agreed: real word
@@ -3422,6 +3521,7 @@ Liegenschafte	merge:Liegenschaft	agreed: cut-off lemma
 Life	drop	agreed: English word
 Lift	keep	agreed: German noun
 Light	drop	agreed: English
+Lighting	drop	agreed: English
 Lightroom	drop	agreed: brand
 Like	drop	agreed: English
 Like-Button	drop	agreed: hyphenated web compound
@@ -3563,20 +3663,25 @@ MDF	drop	agreed: technical acronym
 MDK	drop	agreed: minor organisation
 MDR	keep	agreed: public broadcaster
 ME	drop	agreed: English
+MEDIA	drop	agreed: English
+MEGA	merge:mega	adjudicated: all-caps citation of the colloquial intensifier mega
 MENSCHEN	merge:Mensch	agreed: plural, wrong case
 MF	drop	agreed: abbreviation
 MG	keep	agreed: unit abbreviation mg
 MILF	drop	agreed: spam
 MINI	drop	agreed: brand
+MINT	keep	agreed: acronym used as ordinary word in education
 MIT	merge:mit	agreed: preposition tagged as name
 MMO	drop	agreed: gaming acronym
 MMORPG	drop	agreed: gaming acronym
 MMS	keep	agreed: ordinary acronym like SMS
+MPH	drop	agreed: English unit abbreviation
 MPU	keep	agreed: well-known German term
 MR	drop	agreed: abbreviation
 MRT	keep	agreed: common medical abbreviation
 MS-Office	drop	agreed: brand
 MSC	drop	agreed: abbreviation
+MSCI	drop	agreed: finance acronym
 MSI	drop	agreed: brand
 MSM	drop	agreed: acronym
 MT	drop	agreed: abbreviation
@@ -3594,6 +3699,7 @@ MacBook	drop	agreed: brand
 Macchiato	keep	agreed: coffee word used in German
 Machart	keep	agreed: ordinary noun
 Machine	drop	agreed: English word
+Machines	drop	agreed: English
 Mack	drop	agreed: surname
 Macron	drop	agreed: person
 Macs	drop	agreed: brand
@@ -3615,11 +3721,14 @@ Magic	drop	agreed: English/brand
 Magnus	drop	agreed: first name
 Mahjong	keep	agreed: common noun game
 Mahler	drop	agreed: surname
+Maid	keep	agreed: real (dated) word
 Maier	drop	agreed: surname
 Maike	drop	agreed: first name
+Mail-Adresse	keep	agreed: everyday word
 Mailand	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Mailing	keep	agreed: established loan
 Main	drop	agreed: place not on reviewed list
+Maine	drop	agreed: US state, foreign
 Mainz	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Maison	drop	agreed: brand
 Major	keep	agreed: rank, German word
@@ -3642,9 +3751,11 @@ Managed	drop	agreed: English
 Managing	drop	agreed: English
 Manchester	drop	agreed: place name not on list
 Manchester United	drop	agreed: sports club
+Mandela	drop	agreed: person
 Manfred	drop	agreed: first name
 Mango	keep	agreed: common noun
 Manhattan	drop	agreed: place not on list
+Maniere	keep	agreed: real noun
 Manila	drop	agreed: foreign city not on list
 Manner	merge:Mann	agreed: Männer misspelt
 Mannheim	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
@@ -3692,6 +3803,7 @@ Markle	drop	agreed: surname
 Markus	drop	agreed: first name
 Marl	drop	agreed: minor town
 Marlene	drop	agreed: name
+Marlies	drop	agreed: first name
 Marokko	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Mars	keep	agreed: planet
 Marseille	drop	agreed: foreign city not on list
@@ -3786,12 +3898,14 @@ Meran	drop	agreed: town
 Mercedes	drop	agreed: brand
 Mercedes-Benz	drop	agreed: brand
 Merck	drop	agreed: company
+Merino	keep	agreed: common noun
 Merke	merge:merken	agreed: imperative form of merken
 Merkel	drop	agreed: person
 Merkliste	keep	agreed: real word
 Merkur	keep	agreed: planet/common noun
 Merlot	keep	agreed: common noun
 Merseburg	drop	agreed: minor town
+Merten	drop	agreed: surname/brand
 Merz	drop	agreed: surname
 Mesh	drop	agreed: English tech
 Message	drop	agreed: English
@@ -3808,7 +3922,7 @@ Metallic	keep	adjudicated: established loan (Metalliclack, schwarz metallic)
 Mettmann	drop	agreed: place
 Metz	drop	agreed: foreign city
 Metzler	drop	agreed: mostly surname/brand
-Mexico	merge:Mexiko	agreed: English spelling
+Mexico	drop	coordinator correction: the surface forms are the English word or a name (top form 'mexico'); the reviewers' examples over-sampled a rare German form
 Mexiko	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Mexiko-Stadt	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Meyer	drop	agreed: surname
@@ -3829,6 +3943,7 @@ Microsoft	drop	agreed: brand
 Midi	drop	agreed: name or fashion tag, not a learner word
 Mietpreisbremse	keep	agreed: common noun
 Mietverhältniss	merge:Mietverhältnis	agreed: clipped
+MigrantInn	merge:Migrant	agreed: clipped gendered form
 Migrantinn	merge:Migrantin	agreed: clipped lemma
 Migro	drop	agreed: company
 Migräne	keep	agreed: common noun
@@ -3891,6 +4006,7 @@ Mono	keep	agreed: real word
 Monopoly	drop	agreed: brand
 Monroe	drop	agreed: person
 Mont	drop	agreed: name fragment
+Montabaur	drop	agreed: town
 Montana	drop	agreed: US state
 Monte	drop	agreed: name part
 Montenegro	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
@@ -3906,12 +4022,15 @@ Mormon	merge:Mormone	agreed: correct lemma
 Morning	drop	agreed: English
 Moroni	drop	agreed: name
 Morris	drop	agreed: name
+Mosambik	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Moser	drop	agreed: surname
 Moses	drop	agreed: biblical person
 Mosia	drop	agreed: name
 Moskau	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Most	keep	agreed: German noun
+Motherboard	keep	adjudicated: established IT loan in German (alongside Mainboard); the magazine name is a minor use
 Motion	drop	agreed: English
+Motocross	keep	agreed: common noun
 Motorola	drop	agreed: company
 Mount	drop	agreed: part of place name
 Mountain	drop	agreed: English word
@@ -3920,6 +4039,7 @@ Mountainbike	keep	agreed: established loan
 Mourinho	drop	agreed: person
 Mouse	drop	agreed: English / name
 Move	drop	agreed: English
+Movement	drop	agreed: English
 Movie	drop	agreed: English
 Movies	drop	agreed: English
 Mozart	drop	agreed: person
@@ -3932,7 +4052,7 @@ Mubarak	drop	agreed: person
 Muhammad	drop	agreed: name
 Multi	drop	agreed: prefix fragment
 Multiplayer	keep	agreed: established gaming loan
-Multiple	merge:multipel	agreed: German adjective is multipel
+Multiple	drop	coordinator correction: the surface forms are the English word or a name (top form 'multiple'); the reviewers' examples over-sampled a rare German form
 Mumbai	drop	agreed: place not on list
 Mundlos	drop	agreed: surname
 Murphy	drop	agreed: surname
@@ -3945,6 +4065,7 @@ Muskat	keep	agreed: common noun
 Muslim	keep	agreed: ordinary word
 Must	drop	agreed: English/typo
 Must-Have	keep	agreed: established hyphenated loan
+Mustafa	drop	agreed: first name
 Muster-Widerrufsformular	drop	agreed: hyphenated web compound
 My	drop	agreed: English word
 MySQL	drop	agreed: brand
@@ -3953,6 +4074,7 @@ Mystery	keep	adjudicated: established genre loan
 MÜNCHEN	merge:München	agreed: upper-case city
 Mähroboter	keep	agreed: real compound
 Männch	merge:Männchen	agreed: cut-off
+Mödling	drop	agreed: town
 Möller	drop	agreed: surname
 Mönchengladbach	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Mühldorf	drop	agreed: minor town
@@ -3990,6 +4112,7 @@ NLP	drop	agreed: technical acronym
 NN	drop	agreed: abbreviation
 NO	drop	agreed: English/Japanese particle
 NOCH	merge:noch	agreed: uppercase form of noch
+NORD	merge:Nord	agreed: case variant
 NPD	keep	agreed: national party
 NR	drop	agreed: abbreviation
 NRW	drop	agreed: region abbreviation
@@ -4063,6 +4186,7 @@ Neu-Isenburg	drop	agreed: minor town
 Neu-Ulm	drop	agreed: town
 Neubauer	drop	agreed: surname
 Neubrandenburg	drop	agreed: place
+Neuburg	drop	agreed: town
 Neuer	merge:neu	agreed: inflected neu
 Neuerscheinunge	merge:Neuerscheinung	agreed: clipped
 Neugeborenes	keep	agreed: common noun
@@ -4076,6 +4200,7 @@ Neunkirchen	drop	agreed: town
 Neurodermitis	keep	agreed: real noun
 Neuseeland	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Neustadt	drop	agreed: town
+Neutral	merge:neutral	agreed: adjective, wrong case
 Neuwied	drop	agreed: town
 Nevada	drop	agreed: place name not on list
 Never	drop	agreed: English
@@ -4137,6 +4262,7 @@ Noah	drop	agreed: first name
 Noir	drop	agreed: foreign
 Noise	drop	agreed: English
 Nokia	drop	agreed: brand
+Nolan	drop	agreed: surname
 Nomos	drop	agreed: publisher
 Non	drop	agreed: Latin/French
 Nora	drop	agreed: first name
@@ -4167,6 +4293,7 @@ Norton	drop	agreed: surname
 Norwegen	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Not	keep	agreed: real German word
 Notbremse	keep	agreed: ordinary noun
+Notes	drop	agreed: English
 Notfäll	merge:Notfall	agreed: wrong form
 Nov	drop	agreed: abbreviation
 Nova	drop	agreed: name
@@ -4201,6 +4328,7 @@ OF	drop	agreed: English
 OHG	keep	agreed: legal-form acronym like GmbH
 OHNE	merge:ohne	agreed: uppercase ohne
 OK	keep	agreed: ordinary word
+OM	drop	agreed: abbreviation
 ON	drop	agreed: English
 ONE	drop	agreed: English
 OPC	drop	agreed: technical acronym
@@ -4219,10 +4347,12 @@ OVP	drop	agreed: shopping abbreviation, not ÖVP
 OWL	drop	agreed: region acronym
 Oak	drop	agreed: English
 Obama	drop	agreed: person
+Oberndorf	drop	agreed: town
 Oberpfalz	drop	agreed: region not on place list
 Oberösterreich	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Ocean	drop	agreed: English word
 Och	keep	agreed: interjection
+Ochs	merge:Ochse	agreed: dictionary form
 Octavia	drop	agreed: name
 Oculus	drop	agreed: brand
 Oder	merge:oder	agreed: conjunction oder
@@ -4260,6 +4390,7 @@ OnePlus	drop	agreed: brand
 Onkelz	drop	agreed: band name
 Onlin	merge:online	agreed: clipped lemma
 Online-Angebot	keep	agreed: ordinary compound
+Online-Anmeldung	drop	agreed: hyphenated web compound
 Online-Ausgabe	keep	adjudicated: ordinary compound
 Online-Banking	keep	agreed: established hyphenated compound
 Online-Bestellung	drop	agreed: hyphenated web compound
@@ -4284,10 +4415,12 @@ Online-Spiel	keep	agreed: established compound
 Online-Streitbeilegung	drop	agreed: hyphenated web compound
 Online-Umfrage	drop	agreed: hyphenated web compound
 Online-Werbung	drop	agreed: hyphenated web compound
+Onlinemarketing	keep	agreed: established compound
 Only	drop	agreed: English
 Ontario	drop	agreed: place not on list
 Opel	drop	agreed: brand
 Open	drop	agreed: English
+OpenOffice	drop	agreed: product
 Opening	drop	agreed: English
 Opera	drop	agreed: browser/brand
 Operations	drop	agreed: English
@@ -4334,6 +4467,7 @@ Osttirol	drop	agreed: region not on list
 Oswald	drop	agreed: name
 Ott	drop	agreed: surname
 Otto	drop	agreed: first name
+Our	drop	agreed: English
 Out	merge:out	agreed: capitalised variant
 Outdoor-Aktivität	drop	agreed: hyphenated web compound
 Outlet	keep	agreed: established loan
@@ -4347,6 +4481,7 @@ Owner	drop	agreed: English
 Oxford	drop	agreed: city not on list
 OÖ	drop	agreed: abbreviation
 PA	drop	agreed: fragment of French pas
+PC-Spiel	keep	agreed: established compound
 PC-Version	drop	agreed: hyphenated tech compound
 PCI	drop	agreed: technical acronym
 PCR-Test	keep	agreed: established hyphenated word
@@ -4358,6 +4493,7 @@ PDF-Format	drop	agreed: hyphenated web compound
 PDS	keep	agreed: political party
 PE	drop	agreed: technical acronym
 PEGIDA	keep	adjudicated: nationally famous movement referred to by name
+PES	drop	agreed: acronym
 PET	keep	agreed: ordinary acronym
 PG	drop	agreed: abbreviation
 PHP	drop	agreed: technical acronym
@@ -4373,6 +4509,7 @@ PLUS	merge:plus	agreed: uppercase plus
 PLZ	keep	agreed: everyday abbreviation
 PNG	drop	agreed: technical acronym
 POS	drop	agreed: technical acronym
+POWER	drop	agreed: English
 PPS	drop	agreed: abbreviation
 PR-Agentur	drop	agreed: hyphenated compound
 PREMIUM	merge:Premium	agreed: case
@@ -4465,6 +4602,7 @@ Pentagon	keep	agreed: common word
 People	drop	agreed: English word
 Pep	keep	agreed: German word (Pep)
 Pepe	drop	agreed: first name
+Pepper	drop	agreed: English/brand
 Perfect	drop	agreed: English
 Performance	keep	agreed: established loan
 Performances	merge:Performance	adjudicated: plural of the established loan
@@ -4499,6 +4637,7 @@ Phishing	keep	agreed: established loan
 Phoenix	drop	agreed: foreign city
 Phone	drop	agreed: English
 Photo	merge:Foto	agreed: variant spelling of Foto
+Photography	drop	agreed: English
 Photoshop	drop	agreed: product
 Photovoltaik-Anlage	keep	adjudicated: valid hyphenated spelling of an ordinary compound
 Pi	keep	agreed: math constant
@@ -4506,7 +4645,7 @@ Pia	drop	agreed: first name
 Piano	keep	agreed: common noun
 Picasso	drop	agreed: person
 Pichler	drop	agreed: surname
-Pick	merge:picken	adjudicated: examples are picken
+Pick	drop	coordinator correction: the surface forms are the English word or a name (top form 'pick'); the reviewers' examples over-sampled a rare German form
 Picture	drop	agreed: English
 Pictures	drop	agreed: English/brand
 Pieper	drop	agreed: surname
@@ -4558,6 +4697,7 @@ Popp	drop	agreed: surname
 Popper	drop	agreed: surname
 Popularity	drop	agreed: English
 Population	keep	agreed: German word
+Populiste	merge:Populist	agreed: clipped noun
 Porn	drop	agreed: spam
 Poroschenko	drop	agreed: person name
 Porsche	drop	agreed: brand
@@ -4600,6 +4740,7 @@ Preußen	drop	agreed: place name not on list
 Preview	drop	agreed: English
 Price	drop	agreed: English
 Pride	drop	agreed: English
+Prien	drop	agreed: town
 Prima	merge:prima	agreed: wrong case adjective
 Prime	drop	agreed: brand
 Prince	drop	agreed: English/person
@@ -4633,6 +4774,8 @@ Protect	drop	agreed: English
 Protection	drop	agreed: English
 Protocol	drop	agreed: English
 Provence	drop	agreed: region not on list
+Präsentier	merge:präsentieren	agreed: clipped verb
+Pröll	drop	agreed: surname
 Prüfungsordnung	keep	agreed: real word
 Psoriasis	keep	agreed: real noun
 Publ	drop	agreed: abbreviation
@@ -4686,7 +4829,9 @@ RGB	drop	agreed: technical acronym
 RKI	keep	agreed: famous national institution
 RL	drop	agreed: acronym
 RM	drop	agreed: abbreviation
+RMS	drop	agreed: acronym name
 ROI	drop	agreed: technical acronym
+ROM	merge:Rom	agreed: city of Rome case variant
 RPG	drop	agreed: technical acronym
 RR	drop	agreed: length 2 junk
 RS	drop	agreed: abbreviation
@@ -4749,7 +4894,7 @@ Recording	drop	agreed: English
 Records	drop	agreed: English word
 Recovery	drop	agreed: English
 Recruiting	keep	agreed: established loan
-Red	merge:reden	adjudicated: examples are reden mis-lemmatised
+Red	drop	coordinator correction: the surface forms are the English word or a name (top form 'red'); the reviewers' examples over-sampled a rare German form
 Reeperbahn	drop	agreed: street
 Regensburg	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Regina	drop	agreed: first name
@@ -4765,6 +4910,7 @@ Reichenhall	drop	agreed: town
 Reichstag	keep	agreed: famous institution
 Reichweit	merge:Reichweite	agreed: clipped
 Reiki	keep	agreed: common noun
+Reimann	drop	agreed: surname
 Reinhard	drop	agreed: first name
 Reinhardt	drop	agreed: surname
 Reinhold	drop	agreed: first name
@@ -4866,6 +5012,7 @@ Rodriguez	drop	agreed: surname
 Roger	drop	agreed: first name
 Rohrbach	drop	agreed: place
 Rohrreinigung	keep	agreed: real noun
+Rojava	drop	agreed: region name not on list
 Roland	drop	agreed: first name
 Rolf	drop	agreed: first name
 Rolling	drop	agreed: band name part
@@ -4878,6 +5025,7 @@ Ron	drop	agreed: first name
 Ronald	drop	agreed: first name
 Ronaldo	drop	agreed: person
 Ronny	drop	agreed: first name
+Rookie	drop	agreed: English
 Room	drop	agreed: English word
 Root	drop	agreed: English
 Rosa	merge:rosa	agreed: colour adjective
@@ -4926,6 +5074,7 @@ Rust	drop	agreed: town/language name
 Ruth	drop	agreed: first name
 Ryan	drop	agreed: first name
 Ryanair	drop	agreed: company
+Rz	drop	agreed: legal abbreviation
 Räikkön	drop	agreed: clipped person name
 Röntg	merge:Röntgen	agreed: clipped
 Rösler	drop	agreed: surname
@@ -4967,12 +5116,14 @@ SGB	drop	agreed: technical legal acronym
 SGS	drop	agreed: company
 SHAB	drop	agreed: Swiss gazette template text
 SICH	merge:sich	agreed: capitalised sich
+SICHERHEIT	merge:Sicherheit	agreed: case variant
+SID	drop	agreed: news agency tag/name
 SIM	keep	agreed: ordinary acronym (SIM-Karte)
 SIM-Karte	keep	agreed: established compound
 SIX	drop	agreed: English/brand
 SK	drop	agreed: abbreviation
 SKU	drop	agreed: jargon, low diversity
-SM	merge:SMS	agreed: clipped SMS
+SM	drop	coordinator correction: the surface forms are the English word or a name (top form 'sm'); the reviewers' examples over-sampled a rare German form
 SMA	drop	agreed: acronym
 SMART	merge:smart	agreed: case variant
 SMS	keep	agreed: ordinary acronym
@@ -5002,6 +5153,7 @@ SSL-Verschlüsselung	drop	agreed: technical
 SSV	drop	agreed: sports club
 SSW	drop	agreed: abbrev/party
 ST	drop	agreed: abbreviation
+STADT	merge:Stadt	agreed: case variant
 STANDARD	merge:Standard	agreed: uppercase variant
 STAR	merge:Star	agreed: wrong case
 SU	drop	agreed: name
@@ -5012,7 +5164,9 @@ SV	drop	agreed: club abbreviation
 SVG	drop	agreed: technical acronym
 SVP	keep	agreed: national party
 SW	drop	agreed: abbreviation
+SWF-Datei	drop	agreed: technical file term
 SWR	keep	agreed: national broadcaster
+SYSTEM	merge:System	agreed: case variant
 Sa	drop	agreed: abbreviation junk
 Saab	drop	agreed: brand
 Saale	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
@@ -5031,6 +5185,7 @@ Safe	keep	agreed: German noun
 Safety	drop	agreed: English
 Saga	keep	agreed: common noun
 Sahara	drop	agreed: place name not on list
+Sailer	drop	agreed: surname
 Saint	drop	agreed: English fragment
 Saints	drop	agreed: English
 Salafiste	merge:Salafist	agreed: clipped lemma
@@ -5040,6 +5195,7 @@ Sale	keep	agreed: established loan
 Sales	drop	agreed: English
 Salomon	drop	agreed: name
 Salsa	keep	agreed: common noun
+Salt	drop	agreed: English
 Salvador	drop	agreed: name/city
 Salzburg	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Salzgitter	drop	agreed: town/company
@@ -5102,6 +5258,7 @@ Schlüsselnotdienst	drop	agreed: ad spam, low diversity
 Schmidt	drop	agreed: surname
 Schmitt	drop	agreed: surname
 Schmitz	drop	agreed: surname
+Schneeberg	drop	agreed: place name
 Schneider	keep	agreed: common noun
 Schnittfenster	drop	agreed: software jargon
 Schnitzer	keep	agreed: common noun
@@ -5116,10 +5273,12 @@ Schottland	keep	learnable-names list (Honeyeater reference/learnable-names/de.js
 Schramm	drop	agreed: surname
 Schreibware	merge:Schreibwaren	agreed: wrong citation
 Schriftenreihe	keep	agreed: common noun
+Schritt-für-Schritt	drop	agreed: hyphenated web compound
 Schritt-für-Schritt-Anleitung	keep	agreed: real compound
 Schröder	drop	agreed: surname
 Schröter	drop	agreed: surname
 Schubert	drop	agreed: person
+Schubkast	merge:Schubkasten	agreed: clipped noun
 Schuldenbremse	keep	agreed: common noun
 Schulranz	merge:Schulranzen	agreed: clipped
 Schultz	drop	agreed: surname
@@ -5179,8 +5338,9 @@ Second	drop	agreed: English
 Secret	drop	agreed: English word
 Secure	drop	agreed: English
 Security	drop	agreed: English word
-See#Masc	merge:See	agreed: sense-suffixed lemma
+See#Masc	keep	coordinator correction: a homograph key (See#Masc lake / See#Fem sea) stays apart, as the app's inventory keys it
 Seehofer	drop	agreed: person
+Sega	drop	agreed: company
 Segeberg	drop	agreed: minor town
 Seibert	drop	agreed: surname
 Seidel	keep	adjudicated: real common noun (beer mug); surname uses aside
@@ -5272,6 +5432,7 @@ Simone	drop	agreed: first name
 Simpson	drop	agreed: surname
 Simson	drop	agreed: name/brand
 Simulator	keep	agreed: established loan
+Sin	drop	agreed: foreign word
 Sina	drop	agreed: first name
 Sindelfingen	drop	agreed: minor town
 Singapore	drop	agreed: English spelling place
@@ -5302,6 +5463,7 @@ Skrill	drop	agreed: brand
 Sky	drop	agreed: brand
 Skype	drop	agreed: brand
 Slam	drop	agreed: name part, not established alone
+Sleep	drop	agreed: English
 Slim	drop	agreed: name
 Slots	drop	agreed: casino spam
 Slow	drop	agreed: English
@@ -5323,11 +5485,13 @@ Snowden	drop	agreed: person
 Soccer	drop	agreed: English
 Social	drop	agreed: English
 Social-Media-Kanal	drop	agreed: hyphenated web compound
+Social-Media-Plattform	drop	agreed: hyphenated web compound
 Society	drop	agreed: English word
 Socket	drop	agreed: English
 Soda	keep	agreed: common noun
 Sofia	drop	agreed: place not on list
 Soft	drop	agreed: English
+Software-Entwickler	keep	adjudicated: real compound (Softwareentwickler), a valid hyphenated spelling, not web junk
 Software-Entwicklung	merge:Softwareentwicklung	adjudicated: hyphenated spelling of the standard compound
 Software-Lösung	drop	agreed: hyphenated web compound
 Software-Update	keep	agreed: established compound
@@ -5374,6 +5538,7 @@ Special	keep	agreed: loan in use
 Speed	drop	agreed: English
 Speichervorrichtung	drop	agreed: patent template text
 Spencer	drop	agreed: surname
+Spengler	keep	agreed: regional common noun plumber
 Spermie	merge:Spermium	agreed: inflected citation
 Speyer	drop	agreed: town
 Spezial	keep	adjudicated: noun das Spezial (special edition)
@@ -5398,6 +5563,7 @@ Springen	merge:springen	agreed: verb
 Springer	keep	agreed: chess piece common noun
 Squad	drop	agreed: English
 Square	drop	agreed: English word
+Squash	keep	agreed: common noun, sport
 Sri	drop	agreed: name fragment
 Sri Lanka	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 St. Pauli	drop	agreed: club/district
@@ -5461,6 +5627,7 @@ Stereo	keep	agreed: common noun
 Sterling	drop	agreed: name
 Sternch	merge:Sternchen	agreed: clipped
 Sternche	merge:Sternchen	agreed: clipped
+Steroide	merge:Steroid	agreed: plural filed as lemma
 Steuereinnahme	keep	agreed: real noun
 Steve	drop	agreed: first name
 Steven	drop	agreed: first name
@@ -5479,6 +5646,7 @@ Stores	drop	agreed: English plural, not established
 Storm	drop	agreed: surname/English
 Stornierunge	merge:Stornierung	agreed: cut-off lemma
 Strache	drop	agreed: person name
+Straight	drop	agreed: English
 Strassenverkehr	merge:Straßenverkehr	agreed: ß spelling
 Strategy	drop	agreed: English
 Strato	drop	agreed: brand
@@ -5497,6 +5665,7 @@ Stripper	keep	adjudicated: real word
 Stripperin	keep	adjudicated: real word
 Strobl	drop	agreed: surname
 Stromanbiet	merge:Stromanbieter	agreed: cut-off
+Strong	drop	agreed: English
 Sträng	merge:Strang	agreed: clipped noun
 Stuart	drop	agreed: first name
 Stuck	keep	agreed: real German word
@@ -5532,6 +5701,7 @@ Sunset	drop	agreed: English
 Sunshine	drop	agreed: English
 Superior	drop	agreed: English
 Superman	drop	agreed: fiction name
+Superstar	keep	agreed: common noun
 Supply	drop	agreed: English
 Support	keep	agreed: established loan
 Supporter	drop	agreed: English
@@ -5540,6 +5710,7 @@ Sur	drop	agreed: foreign fragment
 Sure	keep	agreed: German word (Koran chapter)
 Surface	drop	agreed: product
 Surround	drop	agreed: English
+Survey	drop	agreed: English
 Survival	drop	agreed: English
 Susan	drop	agreed: first name
 Susanna	drop	agreed: first name
@@ -5561,6 +5732,7 @@ Sydney	drop	agreed: foreign city
 Sylt	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Sylvia	drop	agreed: first name
 Sylvie	drop	agreed: first name
+Symphony	drop	agreed: English name
 Sync	drop	agreed: brand/English
 Synergien	merge:Synergie	agreed: plural
 Syrien	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
@@ -5571,6 +5743,7 @@ Südafrika	keep	learnable-names list (Honeyeater reference/learnable-names/de.js
 Südamerika	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Südeuropa	drop	agreed: place name not on list
 Südfrankreich	drop	agreed: place not on list
+Südhessen	drop	agreed: region not on list
 Südkorea	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Südostasien	drop	adjudicated: place name not on reviewed list
 Südosteuropa	drop	agreed: region not on list
@@ -5585,9 +5758,11 @@ TAN	keep	agreed: everyday banking term
 TC	drop	agreed: sports club
 TCM	drop	agreed: technical acronym
 TCP	drop	agreed: technical acronym
+TD	drop	agreed: abbreviation/company
 TDI	drop	agreed: brand acronym
 TE	drop	agreed: fragment
 TEAM	merge:Team	agreed: case variant
+TEIL	merge:Teil	agreed: case variant
 TG	drop	agreed: junk abbreviation
 THC	keep	agreed: common abbreviation
 THE	drop	agreed: English
@@ -5611,6 +5786,7 @@ TT	drop	agreed: abbreviation
 TTC	drop	agreed: club
 TTIP	drop	agreed: specific treaty acronym
 TU	merge:tun	agreed: imperative of tun
+TU Dresden	drop	agreed: minor institution
 TUI	drop	agreed: company
 TV-Gerät	keep	agreed: established compound
 TV-Programm	keep	agreed: established compound
@@ -5630,6 +5806,7 @@ Taiwan	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @
 Take	drop	agreed: English
 Taliban	keep	agreed: news common noun
 Talk	keep	agreed: real word (talc) and Talk
+Talsperre	keep	agreed: real noun
 Tamara	drop	agreed: first name
 Tango	keep	agreed: common noun
 Tanja	drop	agreed: first name
@@ -5698,6 +5875,7 @@ Thank	drop	agreed: English
 That	drop	agreed: English
 The	drop	agreed: English
 Theatre	drop	agreed: English
+Theft	drop	agreed: English
 Them	drop	agreed: English
 Themes	drop	agreed: English
 Theo	drop	agreed: first name
@@ -5775,6 +5953,7 @@ Tony	drop	agreed: first name
 Toolbox	drop	agreed: English, marginal
 Top	keep	agreed: established loan
 Top-Angebot	drop	agreed: marketing hyphen compound
+Top-Marke	drop	agreed: hyphenated web compound
 Top-Qualität	drop	agreed: hyphenated web compound
 Topic	drop	agreed: English
 Topping	keep	agreed: established loan
@@ -5814,6 +5993,7 @@ Transition	drop	agreed: English
 Transitional	drop	agreed: English
 Translation	keep	adjudicated: real German word (physics/maths)
 Trapp	drop	agreed: surname
+Trash	drop	agreed: English
 Traunstein	drop	agreed: town
 Travel	drop	agreed: English
 Traveller	drop	agreed: English
@@ -5821,6 +6001,7 @@ Tree	drop	agreed: English
 Trek	drop	agreed: name
 Treppenlift	keep	agreed: real compound
 Treuhand	keep	agreed: common noun
+Trial	drop	agreed: English
 Trier	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Trip	keep	agreed: established loan
 TripAdvisor	drop	agreed: brand
@@ -5889,7 +6070,7 @@ UNHCR	keep	agreed: well known UN body
 UNICEF	keep	agreed: famous international institution
 UNO	keep	agreed: famous institution
 UNTER	merge:unter	agreed: wrong-case preposition
-UP	merge:ups	adjudicated: examples are Ups
+UP	drop	coordinator correction: the surface forms are the English word or a name (top form 'up'); the reviewers' examples over-sampled a rare German form
 UPC	drop	agreed: company
 UPDATE	merge:Update	agreed: wrong case
 UPS	merge:ups	agreed: interjection
@@ -5901,6 +6082,7 @@ US-Behörde	keep	agreed: common compound
 US-Bundesstaat	keep	agreed: standard compound
 US-Dollar	keep	agreed: established hyphenated word
 US-Geheimdienst	drop	agreed: hyphenated compound
+US-Militär	keep	agreed: common news compound
 US-Notenbank	drop	agreed: hyphenated compound
 US-Präsident	keep	agreed: established compound
 US-Regierung	keep	agreed: standard compound
@@ -5940,7 +6122,7 @@ Ullrich	drop	agreed: surname
 Ulm	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Ulrich	drop	agreed: first name
 Ulrike	drop	agreed: first name
-Ultimat	merge:Ultimatum	agreed: cut-off lemma
+Ultimat	drop	coordinator correction: the surface forms are the English word or a name (top form 'ultimat'); the reviewers' examples over-sampled a rare German form
 Ultimate	drop	agreed: English
 Ultra	drop	agreed: brand/prefix
 Umsatzsteuer-Identifikationsnummer	keep	agreed: real legal compound
@@ -5967,6 +6149,7 @@ Unternehmens-Bahn	drop	agreed: junk
 Unternehmensdat	merge:Unternehmensdaten	agreed: clipped noun
 Unternehmerinn	merge:Unternehmerin	agreed: cut-off
 Up	drop	agreed: English word
+Upper	drop	agreed: English
 Ups	keep	agreed: interjection
 Urban	merge:urban	agreed: adjective urban
 Uri	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
@@ -6003,7 +6186,7 @@ VIEL	merge:viel	agreed: case variant
 VII	drop	agreed: roman numeral
 VIII	drop	agreed: roman numeral
 VIP	keep	agreed: ordinary acronym
-VISA	merge:Visum	agreed: visa plural
+VISA	drop	coordinator correction: the surface forms are the English word or a name (top form 'visa'); the reviewers' examples over-sampled a rare German form
 VK	drop	agreed: abbreviation/network
 VL	drop	agreed: abbreviation
 VM	drop	agreed: technical acronym
@@ -6019,6 +6202,8 @@ VPN	keep	agreed: common tech acronym
 VR	drop	agreed: technical acronym
 VVG	drop	agreed: legal abbreviation
 VW	drop	agreed: brand
+VW Golf	drop	agreed: brand product
+Vaduz	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Val	drop	agreed: name
 Valencia	drop	agreed: foreign city
 Valentina	drop	agreed: first name
@@ -6071,6 +6256,7 @@ Verstrickunge	merge:Verstrickung	agreed: cut-off
 Vertreterinn	merge:Vertreterin	agreed: cut-off lemma
 Vertriebs-Bahn	drop	agreed: junk
 Verwaltungs-Bahn	drop	agreed: hyphen junk
+Verzugszinsen	keep	agreed: real plural-only noun
 Veteran	keep	agreed: ordinary noun
 Vettel	drop	agreed: surname
 VfB	drop	agreed: sports club
@@ -6122,6 +6308,7 @@ Volks-Bahn	drop	agreed: junk
 Volksrepublik China	drop	adjudicated: place name not on the place list
 Volkswagen	drop	agreed: brand
 Voll	merge:voll	agreed: wrong-case voll
+Vollmer	drop	agreed: surname
 Volume	drop	agreed: English
 Volvo	drop	agreed: brand
 Vorab	merge:vorab	agreed: wrong case
@@ -6174,6 +6361,7 @@ Wagner	drop	agreed: mostly surname/composer
 Wake	drop	agreed: English
 Waldemar	drop	agreed: first name
 Waldi	drop	agreed: nickname
+Waldsee	drop	agreed: town
 Wales	drop	agreed: place not on list
 Walk	drop	agreed: English
 Walker	drop	agreed: surname
@@ -6249,6 +6437,7 @@ Wendler	drop	agreed: surname
 Wendt	drop	agreed: surname
 Wenzel	drop	agreed: name
 Werbeanzeig	merge:Werbeanzeige	agreed: cut-off lemma
+Werbeeinnahme	keep	agreed: real noun
 Werdegang	keep	agreed: real word
 Werder	drop	agreed: club name
 Werder Bremen	drop	agreed: sports club
@@ -6263,6 +6452,7 @@ Westeuropa	drop	agreed: place name not on list
 Westfalen	drop	agreed: place name not on list
 Westfalen-Lippe	drop	agreed: region not on list
 Westjordanland	drop	agreed: place name not on reviewed list
+Westphal	drop	agreed: surname
 Wetterverhältnis	keep	agreed: real noun
 Wetzlar	drop	agreed: minor town
 What	drop	agreed: English
@@ -6285,11 +6475,13 @@ Wiesbaden	keep	learnable-names list (Honeyeater reference/learnable-names/de.jso
 Wiesn	keep	agreed: common Bavarian word
 Wieviele	merge:wie viele	agreed: spelling
 Wikileaks	drop	agreed: website
+Wikimedia	drop	agreed: organisation
 Wikipedia	drop	agreed: website
 Wil	drop	agreed: town
 Wild	merge:wild	agreed: adjective tagged as name
 Wilhelm	drop	agreed: first name
 Wilhelmshave	drop	adjudicated: clipped minor place name
+Wilhelmshaven	drop	agreed: town
 Wilke	drop	agreed: surname
 Willi	drop	agreed: first name
 William	drop	agreed: first name
@@ -6379,6 +6571,7 @@ Xi	drop	agreed: name
 Xiaomi	drop	agreed: brand
 Xing	drop	agreed: brand
 Xperia	drop	agreed: product
+Xxx	drop	agreed: placeholder
 YOU	drop	agreed: English
 Yahoo	drop	agreed: brand
 Yang	drop	agreed: name/concept
@@ -6426,6 +6619,7 @@ Zelda	drop	agreed: game name
 Zell	drop	agreed: place/name
 Zero	drop	agreed: English
 Zertifizierunge	merge:Zertifizierung	agreed: clipped lemma
+Zeugen Jehovas	drop	agreed: religious organisation name
 Zeus	drop	agreed: deity name
 Ziegler	drop	agreed: surname
 Zimmermann	keep	agreed: occupation noun
@@ -6485,6 +6679,7 @@ achtunddreißig	drop	number rule: lexicon.number_words.number_is_learnable(de) i
 achtunddreißigste	drop	agreed: compound number word
 achtunddreißigtausend	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 achtundfünfzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
+achtundfünfzigste	drop	agreed: compound ordinal number
 achtundneunzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 achtundsechzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 achtundsiebzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
@@ -6600,13 +6795,16 @@ again	drop	agreed: English
 ago	drop	agreed: English
 airberlin	drop	agreed: company
 al	drop	agreed: Arabic particle/name
+algerisch	keep	agreed: nationality adjective
 alias	keep	agreed: used in German
 alkoholisieren	merge:alkoholisiert	agreed: only participle used
 all	keep	agreed: real word
 alle	keep	agreed: real German word
 alleinerziehen	merge:alleinerziehend	agreed: participle adjective
 allerbe	merge:allerbest	adjudicated: clipped superlative
+allerhoch	merge:allerhöchst	agreed: superlative form
 altbewähren	merge:altbewährt	agreed: wrong form
+alternat	drop	agreed: brand Alternate/English
 ampnet	drop	agreed: agency tag
 and	drop	agreed: English
 ander	keep	agreed: attributive-only adjective lemma
@@ -6615,9 +6813,10 @@ anfallend	keep	adjudicated: participial adjective
 anfragend	merge:anfragen	agreed: participle
 angehend	keep	agreed: real participial adjective
 angestammt	keep	agreed: real adjective
+any	drop	agreed: English
 are	drop	agreed: English
 argentinisch	keep	agreed: real adjective
-as	merge:Ass	adjudicated: German examples show Ass
+as	drop	coordinator correction: the surface forms are the English word or a name (top form 'as'); the reviewers' examples over-sampled a rare German form
 at	drop	agreed: English
 atemberauben	merge:atemberaubend	agreed: clipped lemma of atemberaubend
 au	keep	agreed: German interjection
@@ -6630,19 +6829,20 @@ ausserordentlich	merge:außerordentlich	agreed: ß spelling
 australisch	keep	agreed: real adjective
 ausverkaufen	keep	agreed: real verb
 away	drop	agreed: English word
-back	merge:Bäcker	adjudicated: examples are Bäcker
+back	drop	coordinator correction: the surface forms are the English word or a name (top form 'back'); the reviewers' examples over-sampled a rare German form
 baden-württembergisch	keep	agreed: established hyphenated adjective
 bahnbrechen	merge:bahnbrechend	agreed: participle adjective
 be	drop	agreed: English
 beherzig	merge:beherzigen	agreed: clipped verb
 beieinan	merge:beieinander	agreed: clipped
+being	drop	agreed: English
 bekiffen	keep	agreed: real verb
 bequemen	merge:bequem	agreed: wrong lemma
 berufsbildend	keep	agreed: real adjective
 beschliessen	merge:beschließen	agreed: ß spelling
 beschliesst	merge:beschließen	agreed: ß spelling
 besonder	keep	agreed: attributive adjective lemma
-best	merge:gut	agreed: superlative of gut
+best	drop	coordinator correction: the surface forms are the English word or a name (top form 'best'); the reviewers' examples over-sampled a rare German form
 bestoßen	keep	agreed: real participle
 bet	drop	agreed: English
 bewertet	merge:bewerten	agreed: inflected form
@@ -6669,6 +6869,7 @@ by	drop	agreed: English
 ca	keep	agreed: daily abbreviation
 can	drop	agreed: English word
 car	drop	agreed: English
+catch	drop	agreed: English
 check	merge:checken	adjudicated: examples mainly checken
 cialis	drop	agreed: spam
 ck	drop	agreed: junk
@@ -6852,6 +7053,7 @@ einunddreißig	drop	number rule: lexicon.number_words.number_is_learnable(de) is
 einunddreißigste	keep	adjudicated: ordinal needed for dates (31st)
 einunddreißigtausend	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 einundfünfzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
+einundfünfzigste	drop	agreed: compound ordinal number
 einundneunzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 einundsechzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 einundsiebzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
@@ -6868,7 +7070,8 @@ elftausend	drop	number rule: lexicon.number_words.number_is_learnable(de) is Fal
 elterlich	keep	agreed: real adjective
 emily	drop	agreed: first name
 empfehlensweren	merge:empfehlenswert	agreed: misspelt
-end	merge:Ende	adjudicated: examples are letzten Endes
+end	drop	coordinator correction: the surface forms are the English word or a name (top form 'end'); the reviewers' examples over-sampled a rare German form
+energy	drop	agreed: English
 entgegenstehend	merge:entgegenstehen	adjudicated: participle; dictionary form is the verb
 entlarv	merge:entlarven	agreed: clipped verb
 entstehend	keep	agreed: real adjective
@@ -6880,6 +7083,7 @@ esth	drop	agreed: cut-off name
 etlich	keep	agreed: real determiner
 expire	drop	agreed: English
 fachgerechen	merge:fachgerecht	agreed: wrong ending
+false	drop	agreed: English
 faulen	merge:faul	agreed: adjective form
 feuchen	merge:feucht	agreed: wrong lemma
 final	keep	agreed: real adjective
@@ -6888,6 +7092,7 @@ fixen	merge:fix	agreed: from fix und fertig
 flachen	merge:flach	agreed: inflected form
 fliesst	merge:fließen	agreed: ß spelling
 floral	keep	agreed: German adjective
+folgendermaß	merge:folgendermaßen	agreed: clipped adverb
 for	drop	agreed: English
 forex	drop	agreed: specialist jargon
 fortwähren	merge:fortwährend	agreed: clipped
@@ -6899,7 +7104,7 @@ from	drop	agreed: English
 fruchten	keep	agreed: real verb, different from Frucht
 fuck	drop	agreed: English
 full	drop	agreed: English
-fun	merge:Fund	adjudicated: examples are Funde
+fun	drop	coordinator correction: the surface forms are the English word or a name (top form 'fun'); the reviewers' examples over-sampled a rare German form
 fundamental	keep	agreed: real adjective
 fünfhundert	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 fünfhundertacht	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
@@ -7006,11 +7211,12 @@ gummieren	keep	agreed: real verb
 gymnasial	keep	agreed: real adjective
 handgefertigen	merge:handgefertigt	agreed: inflected form
 happy	keep	adjudicated: loan in German use (Happy End, happy sein)
-has	merge:Hase	adjudicated: examples mainly Hasen
+has	drop	coordinator correction: the surface forms are the English word or a name (top form 'has'); the reviewers' examples over-sampled a rare German form
 hauseigen	keep	agreed: real adjective
 have	drop	agreed: English word
 hd	drop	agreed: abbreviation Hd.
 he	keep	agreed: real German interjection
+hellhäutig	keep	agreed: real adjective
 her	keep	agreed: real German adverb
 heutig	keep	agreed: attributive adjective lemma
 hiesig	keep	agreed: real adjective
@@ -7145,6 +7351,7 @@ iPod	drop	agreed: brand
 iPod touch	drop	agreed: product
 iTunes	drop	agreed: brand
 if	drop	agreed: English
+images	drop	agreed: English
 imperial	keep	agreed: real adjective
 initial	merge:Initiale	agreed: examples are Initialen
 inner	keep	agreed: attributive adjective lemma
@@ -7168,6 +7375,7 @@ jeglich	keep	agreed: real determiner
 jetzig	keep	agreed: attributive adjective lemma
 just	keep	agreed: real German adverb
 kW	drop	agreed: unit abbreviation
+kamagra	drop	agreed: spam
 kanadisch	keep	agreed: real adjective
 karieren	merge:kariert	agreed: wrong lemma
 kartenlegen	drop	agreed: spam, low diversity
@@ -7186,7 +7394,7 @@ langanhalten	merge:langanhaltend	agreed: wrong form
 lateral	keep	agreed: real adjective
 le	drop	agreed: French article
 least	drop	agreed: English
-led	merge:Leder	agreed: Leder cut off/mis-lemmatised
+led	drop	coordinator correction: the surface forms are the English word or a name (top form 'led'); the reviewers' examples over-sampled a rare German form
 leerstehen	keep	agreed: real verb
 legal	keep	agreed: real German adjective
 lesenAm	drop	agreed: web template junk
@@ -7194,12 +7402,13 @@ let	drop	agreed: English
 letztgenannt	keep	agreed: real adjective
 level	merge:Level	agreed: examples are Level
 libysch	keep	agreed: real adjective
-lifen	merge:liften	agreed: wrong lemma
+lifen	drop	coordinator correction: the surface forms are the English word or a name (top form 'lifen'); the reviewers' examples over-sampled a rare German form
 light	keep	agreed: established loan adjective
 like	drop	agreed: English word
 line	drop	agreed: English
 lisen	merge:List	adjudicated: examples are the noun List
-lit	merge:Liter	agreed: Liter mis-lemmatised
+lit	drop	coordinator correction: the surface forms are the English word or a name (top form 'lit'); the reviewers' examples over-sampled a rare German form
+little	drop	agreed: English word
 ll	drop	agreed: fragment
 long	drop	agreed: English
 look	merge:Look	adjudicated: established loan noun, capitalised
@@ -7234,7 +7443,7 @@ mr	drop	agreed: English
 multinational	keep	agreed: German adjective
 multipl	merge:multipel	agreed: clipped
 music	drop	agreed: English
-must	merge:Muster	agreed: example shows Muster
+must	drop	coordinator correction: the surface forms are the English word or a name (top form 'must'); the reviewers' examples over-sampled a rare German form
 mutmasslich	merge:mutmaßlich	agreed: ß spelling
 my	drop	agreed: English
 männ	merge:Mann	agreed: cut-off
@@ -7391,22 +7600,23 @@ ng	drop	agreed: unit/letters
 nice	drop	agreed: English
 niedersächsisch	keep	agreed: real adjective
 niederösterreichisch	keep	agreed: real adjective
+nigerianisch	keep	agreed: nationality adjective
 night	drop	agreed: English
 nit	drop	agreed: dialect/unit fragment
 no	drop	agreed: English
-non	merge:Note	adjudicated: examples are Noten
+non	drop	coordinator correction: the surface forms are the English word or a name (top form 'non'); the reviewers' examples over-sampled a rare German form
 nordrhein-westfälisch	keep	agreed: real adjective
-not	merge:Note	adjudicated: examples are Note/Noten
+not	drop	coordinator correction: the surface forms are the English word or a name (top form 'not'); the reviewers' examples over-sampled a rare German form
 now	drop	agreed: English
 nullen	merge:null	agreed: number word mis-lemmatised
-of	merge:Ofen	adjudicated: examples are Ofen mis-lemmatised
+of	drop	coordinator correction: the surface forms are the English word or a name (top form 'of'); the reviewers' examples over-sampled a rare German form
 off	drop	agreed: English
 office	drop	agreed: English word, not standalone German
 old	drop	agreed: English
 on	drop	agreed: English
 one	drop	agreed: English
 only	drop	agreed: English
-or	merge:Order	adjudicated: examples show Order
+or	drop	coordinator correction: the surface forms are the English word or a name (top form 'or'); the reviewers' examples over-sampled a rare German form
 orthodox	keep	agreed: real adjective
 other	drop	agreed: English
 our	drop	agreed: English
@@ -7453,7 +7663,7 @@ retweets	drop	agreed: social media junk
 rheinland-pfälzisch	keep	agreed: real adjective
 right	drop	agreed: English
 rot-grün	keep	agreed: established political adjective
-run	merge:rund	adjudicated: examples are rundes
+run	drop	coordinator correction: the surface forms are the English word or a name (top form 'run'); the reviewers' examples over-sampled a rare German form
 römisch-katholisch	keep	agreed: real adjective
 rückwärt	merge:rückwärts	agreed: cut-off
 saarländisch	keep	agreed: real adjective
@@ -7526,6 +7736,7 @@ sehensweren	merge:sehenswert	agreed: wrong lemma
 selbig	keep	agreed: real adjective
 selbstbestimmen	merge:selbstbestimmt	agreed: adjective form
 selbstbewus	merge:selbstbewusst	agreed: clipped
+senkrechen	merge:senkrecht	agreed: misspelt adjective
 serv	merge:Server	agreed: clipped
 services	drop	agreed: English
 set	keep	agreed: Set is an established German noun
@@ -7556,8 +7767,10 @@ siebenundachtzig	drop	number rule: lexicon.number_words.number_is_learnable(de) 
 siebenunddreißig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 siebenunddreißigste	drop	agreed: compound number word
 siebenundfünfzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
+siebenundfünfzigste	drop	agreed: compound ordinal number
 siebenundneunzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 siebenundsechzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
+siebenundsechzigste	drop	agreed: compound ordinal number
 siebenundsiebzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 siebenundvierzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 siebenundzwanzigste	keep	adjudicated: ordinal used in dates
@@ -7589,13 +7802,14 @@ sieden	keep	agreed: real verb
 singl	merge:Single	agreed: cut-off lemma
 sit	drop	agreed: English
 site	drop	agreed: English
+skill	drop	agreed: English not established
 skills	drop	agreed: English
 soft	drop	agreed: English
 softwar	merge:Software	agreed: clipped lemma
 sogenannt	keep	agreed: real adjective
 sol	drop	agreed: noise
 somm	merge:Sommer	agreed: clipped
-son	merge:Sonde	agreed: clipped
+son	drop	coordinator correction: the surface forms are the English word or a name (top form 'son'); the reviewers' examples over-sampled a rare German form
 sonderpädagogisch	keep	agreed: real adjective
 sonstig	keep	agreed: attributive adjective lemma
 source	drop	agreed: English
@@ -7609,13 +7823,15 @@ stop	merge:Stopp	adjudicated: same word as German Stopp (noun)
 strengen	merge:streng	agreed: inflected adjective
 style	drop	agreed: English
 stylish	drop	agreed: English not established
-such	merge:suchen	agreed: imperative form
+such	drop	coordinator correction: the surface forms are the English word or a name (top form 'such'); the reviewers' examples over-sampled a rare German form
 support	merge:Support	adjudicated: noun loan in wrong case
 swingerclub	drop	agreed: spam text
 syrisch	keep	agreed: real adjective
 südafrikanisch	keep	agreed: real adjective
 südamerikanisch	keep	agreed: real adjective
 südkoreanisch	keep	agreed: real adjective
+talk	drop	agreed: English
+taste	merge:Taste	agreed: examples are German noun Taste
 tausendachthundert	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 tausendachtzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 tausenddreihundert	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
@@ -7640,7 +7856,7 @@ tausendzweihundert	drop	number rule: lexicon.number_words.number_is_learnable(de
 tausendzweihundertfünfzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 taz	drop	agreed: newspaper brand
 teilweis	merge:teilweise	agreed: cut-off adverb
-ten	merge:Test	adjudicated: examples are Test mis-lemmatised
+ten	drop	coordinator correction: the surface forms are the English word or a name (top form 'ten'); the reviewers' examples over-sampled a rare German form
 territorial	keep	agreed: real adjective
 than	drop	agreed: English
 that	drop	agreed: English
@@ -7666,6 +7882,7 @@ umweltschonen	merge:umweltschonend	agreed: wrong lemma
 unb	drop	agreed: abbreviation junk
 unberechtigen	merge:unberechtigt	agreed: wrong lemma
 unbewohnen	merge:unbewohnt	agreed: participle adjective
+unbewus	merge:unbewusst	agreed: clipped adjective
 ungeboren	keep	agreed: real adjective
 ungeheur	merge:ungeheuer	agreed: clipped
 ungelaufen	drop	agreed: dealer boilerplate
@@ -7805,6 +8022,7 @@ weiterentwickel	merge:weiterentwickeln	agreed: clipped verb
 weiterles	merge:weiterlesen	agreed: clipped
 weiterlesen	keep	agreed: real verb
 weitermach	merge:weitermachen	agreed: cut-off lemma
+well	drop	coordinator correction: the surface forms are the English word or a name (top form 'well'); the reviewers' examples over-sampled a rare German form
 weltbest	drop	agreed: superlative fragment, no obvious lemma
 weltgroß	drop	agreed: odd lemma
 weltgrößt	keep	agreed: real superlative adjective

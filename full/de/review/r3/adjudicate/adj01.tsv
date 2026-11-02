@@ -1,0 +1,8 @@
+EX	merge:Ex	all-caps citation of the noun Ex (former partner); "auf ex" is the same colloquial word
+MEGA	merge:mega	all-caps citation of the colloquial intensifier mega
+Motherboard	keep	established IT loan in German (alongside Mainboard); the magazine name is a minor use
+Frauenkirche	drop	specific landmark name (Dresden), plus the town Frauenkirchen; not on the reviewed place list
+Full-HD	keep	established hyphenated consumer term seen on every TV and screen spec
+Software-Entwickler	keep	real compound (Softwareentwickler), a valid hyphenated spelling, not web junk
+# question Frauenkirche: rules cover place names and famous institutions but not nationally famous landmarks/buildings; treated as a place name (drop)
+# question Software-Entwickler: should a valid hyphenated spelling of a compound merge into the solid form (Softwareentwickler) when both lemmas exist?

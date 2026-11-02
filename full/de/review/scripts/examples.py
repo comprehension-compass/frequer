@@ -1,5 +1,8 @@
 """Example sentences for review: stream HPLT de + Tatoeba, keep up to K sentences per wanted lemma.
 
+The wanted forms must be only those carrying a real share of the lemma (>= 10 % of its occurrences): matching a
+rare form with equal weight made German *Ofen* sentences the examples for the English lemma *of* (2026-11-02).
+
 argv: wanted.json ({lemma: [lower-case forms]}), out.json, chars_per_url. Never committed (web text).
 """
 import json, re, sys, random

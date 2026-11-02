@@ -72,6 +72,7 @@ Australian	exclude-english	agreed: English
 Author	exclude-english	agreed: English
 Authority	exclude-english	agreed: English
 Aviation	exclude-english	agreed: English
+Away	exclude-english	agreed: English
 BAG	exclude-english	agreed: institution acronym, specialist
 BE	exclude-english	agreed: English/junk
 BEST	exclude-english	agreed: English
@@ -82,12 +83,14 @@ Bag	exclude-english	agreed: English word/abbrev
 Barrel	keep-loan	adjudicated: unit used in German news
 Base	keep-loan	agreed: real German word (female cousin)
 Basic	exclude-english	agreed: English/programming language
+Batch	exclude-english	agreed: English
 Battle	exclude-english	agreed: English
 Be	exclude-english	agreed: English fragment
 Bear	exclude-english	agreed: English
 Beat	keep-loan	agreed: music loan
 Bed	exclude-english	agreed: English
 Beijing	exclude-english	adjudicated: place name not on reviewed list
+Belt	exclude-english	agreed: English
 Benefits	exclude-english	agreed: English
 Best	exclude-english	agreed: English
 Bet	exclude-english	agreed: English
@@ -126,6 +129,7 @@ Burn	exclude-english	agreed: English
 Burning	exclude-english	agreed: English
 Business	keep-loan	agreed: established loan
 Buy	exclude-english	agreed: English
+Buzz	exclude-english	agreed: first name/English
 By	exclude-english	agreed: English
 Cable	exclude-english	agreed: English
 Cake	exclude-english	agreed: English
@@ -146,12 +150,14 @@ Career	exclude-english	agreed: English
 Carrier	exclude-english	agreed: English
 Cars	exclude-english	agreed: English
 Case	exclude-english	agreed: English
+Cases	exclude-english	agreed: English
 Cash	exclude-english	agreed: English
 Cast	exclude-english	agreed: English
 Cell	exclude-english	agreed: English
 Central	exclude-english	agreed: English
 Centre	exclude-english	agreed: English/French
 Century	exclude-english	agreed: English
+Certificate	exclude-english	agreed: English
 Certified	exclude-english	agreed: English
 Chain	exclude-english	agreed: English word
 Chair	exclude-english	agreed: English
@@ -204,6 +210,7 @@ Collection	exclude-english	agreed: English
 College	keep-loan	adjudicated: established loan
 Color	exclude-english	agreed: foreign
 Colour	exclude-english	agreed: English
+Combat	exclude-english	agreed: English
 Come	exclude-english	agreed: English
 Comfort	exclude-english	agreed: English word
 Command	exclude-english	agreed: English
@@ -302,6 +309,7 @@ Devil	exclude-english	agreed: English
 Direct	exclude-english	agreed: English
 Director	exclude-english	agreed: English
 Directory	exclude-english	agreed: English
+Discount	exclude-english	agreed: English
 Discovery	exclude-english	agreed: English
 Distribution	keep-loan	agreed: real German word
 Distributor	keep-loan	adjudicated: established loan
@@ -352,10 +360,12 @@ Electric	exclude-english	agreed: English
 Electronic	exclude-english	agreed: English
 Electronics	exclude-english	agreed: English
 Else	exclude-english	agreed: name/English
+Emergency	exclude-english	agreed: English
 Employer	exclude-english	agreed: English
 Energy	exclude-english	agreed: English/brand
 Engine	exclude-english	agreed: English
 Engineer	exclude-english	agreed: English
+Environment	exclude-english	agreed: English
 Epic	exclude-english	agreed: English
 Equipment	keep-loan	agreed: loan in use
 Equity	exclude-english	agreed: English
@@ -415,6 +425,7 @@ Flower	exclude-english	agreed: English
 Fluid	keep-loan	agreed: real noun
 Flying	exclude-english	agreed: English
 Folder	keep-loan	agreed: German word (brochure)
+Follow	exclude-english	agreed: English
 Food	exclude-english	agreed: English word
 Football	keep-loan	agreed: established loan for American football
 For	exclude-english	agreed: English
@@ -454,6 +465,7 @@ Gay	exclude-english	agreed: English
 Gear	exclude-english	agreed: English
 Genius	keep-loan	agreed: real German word
 Get	exclude-english	agreed: English
+Giants	exclude-english	agreed: sports team
 Girl	exclude-english	agreed: English
 Glass	exclude-english	agreed: English/surname
 Globe	exclude-english	agreed: English
@@ -488,6 +500,7 @@ Healthcare	exclude-english	agreed: English
 Heart	exclude-english	agreed: English
 Hearts	exclude-english	agreed: English
 Heat	exclude-english	agreed: English
+Heaven	exclude-english	agreed: English
 Heavy	exclude-english	agreed: English
 Held	keep-loan	agreed: real German word
 Hello	exclude-english	agreed: English
@@ -535,6 +548,7 @@ Insight	exclude-english	agreed: English
 Insurance	exclude-english	agreed: English
 Intelligence	exclude-english	agreed: English
 Interactive	exclude-english	agreed: English
+Interest	exclude-english	agreed: English
 Interim	exclude-english	agreed: English, not established
 Interior	exclude-english	agreed: English
 Invest	exclude-english	agreed: company text
@@ -595,6 +609,7 @@ Library	exclude-english	agreed: English
 Life	exclude-english	agreed: English word
 Lift	keep-loan	agreed: German noun
 Light	exclude-english	agreed: English
+Lighting	exclude-english	agreed: English
 Like	exclude-english	agreed: English
 Likes	exclude-english	agreed: English
 Limited	exclude-english	agreed: English
@@ -620,8 +635,10 @@ Lunch	exclude-english	agreed: English
 Luxury	exclude-english	agreed: English
 Lyrics	keep-loan	agreed: used in German music context
 ME	exclude-english	agreed: English
+MPH	exclude-english	agreed: English unit abbreviation
 MR	exclude-english	agreed: abbreviation
 Machine	exclude-english	agreed: English word
+Machines	exclude-english	agreed: English
 Mad	exclude-english	agreed: English
 Made	keep-loan	agreed: German noun
 Mailing	keep-loan	agreed: established loan
@@ -673,6 +690,7 @@ Most	keep-loan	agreed: German noun
 Motion	exclude-english	agreed: English
 Mouse	exclude-english	agreed: English / name
 Move	exclude-english	agreed: English
+Movement	exclude-english	agreed: English
 Movie	exclude-english	agreed: English
 Movies	exclude-english	agreed: English
 Mr	exclude-english	agreed: English abbreviation
@@ -703,6 +721,7 @@ Non	exclude-english	agreed: Latin/French
 North	exclude-english	agreed: English
 Northern	exclude-english	agreed: English
 Not	keep-loan	agreed: real German word
+Notes	exclude-english	agreed: English
 Novel	exclude-english	agreed: English
 Now	exclude-english	agreed: English
 Number	exclude-english	agreed: English
@@ -732,10 +751,12 @@ Or	exclude-english	agreed: English
 Organic	exclude-english	agreed: English
 Organizer	keep-loan	agreed: established loan
 Origin	exclude-english	agreed: English brand
+Our	exclude-english	agreed: English
 Output	keep-loan	agreed: established loan
 Over	exclude-english	agreed: English
 Overall	keep-loan	agreed: established loan
 Owner	exclude-english	agreed: English
+POWER	exclude-english	agreed: English
 Pacific	exclude-english	agreed: English
 Package	exclude-english	agreed: English
 Page	exclude-english	agreed: rare/English
@@ -753,10 +774,12 @@ Peace	exclude-english	agreed: English
 Peak	exclude-english	agreed: English
 Pennsylvania	exclude-english	agreed: US state
 People	exclude-english	agreed: English word
+Pepper	exclude-english	agreed: English/brand
 Perfect	exclude-english	agreed: English
 Performance	keep-loan	agreed: established loan
 Perish	exclude-english	agreed: English/junk
 Phone	exclude-english	agreed: English
+Photography	exclude-english	agreed: English
 Picture	exclude-english	agreed: English
 Pictures	exclude-english	agreed: English/brand
 Pitch	keep-loan	agreed: established business loan
@@ -873,6 +896,7 @@ River	exclude-english	agreed: English place element
 Road	exclude-english	agreed: English
 Robot	exclude-english	agreed: English use, German is Roboter
 Rome	exclude-english	agreed: English place
+Rookie	exclude-english	agreed: English
 Room	exclude-english	agreed: English word
 Root	exclude-english	agreed: English
 Round	exclude-english	agreed: English
@@ -888,6 +912,7 @@ Safety	exclude-english	agreed: English
 Saints	exclude-english	agreed: English
 Sale	keep-loan	agreed: established loan
 Sales	exclude-english	agreed: English
+Salt	exclude-english	agreed: English
 Sample	keep-loan	agreed: established music loan
 Save	exclude-english	agreed: English
 Scatter	exclude-english	agreed: English
@@ -941,6 +966,7 @@ Size	exclude-english	agreed: English
 Skill	exclude-english	agreed: English
 Skills	exclude-english	agreed: English not established enough
 Skin	exclude-english	agreed: English
+Sleep	exclude-english	agreed: English
 Slow	exclude-english	agreed: English
 Small	exclude-english	agreed: English
 Snake	exclude-english	agreed: English
@@ -982,10 +1008,12 @@ Step	exclude-english	agreed: English word
 Storage	exclude-english	agreed: English word
 Stores	exclude-english	agreed: English plural, not established
 Storm	exclude-english	agreed: surname/English
+Straight	exclude-english	agreed: English
 Strategy	exclude-english	agreed: English
 Stretch	exclude-english	agreed: English
 Strike	exclude-english	agreed: English
 Strip	exclude-english	agreed: English
+Strong	exclude-english	agreed: English
 Stuck	keep-loan	agreed: real German word
 Study	exclude-english	agreed: English
 Style	keep-loan	agreed: established loan
@@ -1003,6 +1031,7 @@ Supreme	exclude-english	agreed: English
 Sure	keep-loan	agreed: German word (Koran chapter)
 Surface	exclude-english	agreed: product
 Surround	exclude-english	agreed: English
+Survey	exclude-english	agreed: English
 Survival	exclude-english	agreed: English
 Suspension	keep-loan	agreed: German noun
 Sustainable	exclude-english	agreed: English
@@ -1033,6 +1062,7 @@ Thank	exclude-english	agreed: English
 That	exclude-english	agreed: English
 The	exclude-english	agreed: English
 Theatre	exclude-english	agreed: English
+Theft	exclude-english	agreed: English
 Them	exclude-english	agreed: English
 Themes	exclude-english	agreed: English
 Theory	exclude-english	agreed: English
@@ -1069,6 +1099,7 @@ Transitional	exclude-english	agreed: English
 Translation	keep-loan	adjudicated: real German word (physics/maths)
 Travel	exclude-english	agreed: English
 Tree	exclude-english	agreed: English
+Trial	exclude-english	agreed: English
 Trip	keep-loan	agreed: established loan
 Tropical	exclude-english	agreed: English
 Truck	exclude-english	agreed: English
@@ -1086,6 +1117,7 @@ Unit	exclude-english	agreed: English
 United	exclude-english	agreed: English club name
 University	exclude-english	agreed: English
 Up	exclude-english	agreed: English word
+Upper	exclude-english	agreed: English
 Use	exclude-english	agreed: English
 Username	exclude-english	agreed: English
 Using	exclude-english	agreed: English
@@ -1163,10 +1195,12 @@ again	exclude-english	agreed: English
 ago	exclude-english	agreed: English
 all	keep-loan	agreed: real word
 and	exclude-english	agreed: English
+any	exclude-english	agreed: English
 are	exclude-english	agreed: English
 at	exclude-english	agreed: English
 away	exclude-english	agreed: English word
 be	exclude-english	agreed: English
+being	exclude-english	agreed: English
 bet	exclude-english	agreed: English
 big	exclude-english	agreed: English
 bilateral	keep-loan	agreed: real word
@@ -1177,6 +1211,7 @@ but	exclude-english	agreed: English word
 by	exclude-english	agreed: English
 can	exclude-english	agreed: English word
 car	exclude-english	agreed: English
+catch	exclude-english	agreed: English
 clean	exclude-english	agreed: English
 click	exclude-english	agreed: English
 comment	exclude-english	agreed: English
@@ -1189,7 +1224,9 @@ direct	exclude-english	agreed: English
 do	exclude-english	agreed: English/solfege
 down	exclude-english	agreed: English
 easy	exclude-english	agreed: English
+energy	exclude-english	agreed: English
 expire	exclude-english	agreed: English
+false	exclude-english	agreed: English
 final	keep-loan	agreed: real adjective
 floral	keep-loan	agreed: German adjective
 for	exclude-english	agreed: English
@@ -1222,6 +1259,7 @@ how	exclude-english	agreed: English
 human	keep-loan	agreed: real adjective
 i	exclude-english	agreed: single letter
 if	exclude-english	agreed: English
+images	exclude-english	agreed: English
 imperial	keep-loan	agreed: real adjective
 inner	keep-loan	agreed: attributive adjective lemma
 inside	exclude-english	agreed: English
@@ -1238,6 +1276,7 @@ let	exclude-english	agreed: English
 light	keep-loan	agreed: established loan adjective
 like	exclude-english	agreed: English word
 line	exclude-english	agreed: English
+little	exclude-english	agreed: English word
 ll	exclude-english	agreed: fragment
 long	exclude-english	agreed: English
 lose	keep-loan	agreed: real adjective
@@ -1295,6 +1334,7 @@ set	keep-loan	agreed: Set is an established German noun
 short	exclude-english	agreed: English
 sit	exclude-english	agreed: English
 site	exclude-english	agreed: English
+skill	exclude-english	agreed: English not established
 skills	exclude-english	agreed: English
 soft	exclude-english	agreed: English
 source	exclude-english	agreed: English
@@ -1302,6 +1342,7 @@ stat	exclude-english	agreed: English fragment
 still	keep-loan	agreed: real German word
 style	exclude-english	agreed: English
 stylish	exclude-english	agreed: English not established
+talk	exclude-english	agreed: English
 territorial	keep-loan	agreed: real adjective
 than	exclude-english	agreed: English
 that	exclude-english	agreed: English
