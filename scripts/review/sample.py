@@ -16,6 +16,8 @@ from frequer.shards import Limits, produce_shards
 
 cfg = load(sys.argv[1])
 root = cfg["work"] / "sample"
+(root / "work").mkdir(parents=True, exist_ok=True)
+(root / "counts").mkdir(parents=True, exist_ok=True)
 m = load_manifest(cfg["lang"])
 classify = make_classifier()
 for src in m.sources:
