@@ -1,0 +1,110 @@
+# question artemisia: "artemisia" is a variant of "artemisa", but the examples are mostly the Latin genus and a personal name
+# question artero: examples show only the brand (Artero combs); kept as the real adjective "artero", but the evidence is thin
+# question autism: English spelling of autismo, but the examples are English titles and organisation names, so I dropped it instead of merging.
+# question avt: Asociación Víctimas del Terrorismo is well known in Spain but is a private association; treated as an ordinary organisation.
+# question avt: it is a nationally known victims' association, but not a public body, so treated as an ordinary organisation
+# question añol: no examples; likely a fragment of "español" split in uppercase text, but not clear enough to merge
+# question bato: Mexican slang "bato" (guy) is a real word, but the evidence is mostly capitalised/all-caps names and no examples were available; dropped.
+# question bato: slang "bato" (Mexican, "guy") versus the name Bato; no examples to confirm, though lowercase "batos" (118) suggests the slang
+# question boletus: the Spanish mushroom term is boleto, but "Boletus" appears as the genus name and as a company name; I treated the real-word reading as the minority.
+# question bufo: the Spanish adjective bufo/bufa (comic, buffoon) is real, but most occurrences are the toad genus Bufo, so I dropped it
+# question bulevard: examples are mostly hotel and shopping-centre names, but the lowercase uses are a misspelling of bulevar, so it was merged
+# question bulevard: most examples are proper names (hotel, shopping centre), so drop is also defensible; merged because 28 lowercase uses look like the common noun
+# question canyoning: Spanish usually says barranquismo; kept as an established tourism loan, but borderline.
+# question canyoning: widely used in Spanish tourism texts, but the rules don't say whether it counts as an established loan; dropped because barranquismo is the Spanish word
+# question cesce: state-backed company rather than a ministry or public body; kept as a nationally known institution
+# question cibel: Cibeles is a place (fountain and plaza) and may already be on the place list, in which case the merge just joins that entry.
+# question cibel: the occurrences are almost all "Cibeles", the Madrid plaza and fountain (a place, dropped), but also the goddess Cibeles (a common noun, possibly merge:Cibeles)
+# question cornejo: most occurrences are the surname, but the common noun exists, so I applied the rule that a common word stays.
+# question coxsackie: the virus name is a real medical term, but most examples are the place name, so dropped.
+# question cubrebotas: an invariable noun, so the real lemma may be cubrebotas itself; merged because the filed spelling "cubrebota" is never written
+# question decanter: used for wine decanters and centrifuges in Spanish, but examples are mostly brand or technical
+# question ecstasy: examples are titles, but the drug name is a possible established loan (éxtasis)
+# question epso: EU recruitment office, not clearly a "famous international body" like ONU or UE; dropped
+# question fixture: Mostly English product text in examples, but fixture is established for sports schedules in parts of Latin America.
+# question fixture: examples are English product use, but the Río de la Plata Spanish sense is established
+# question frob: a Spanish public body, but only moderately famous; kept as a public body people name, could be dropped as minor
+# question haka: examples are mostly business names, but the word is established in Spanish sports coverage
+# question icaic: is a Cuban state film institute a "famous institution" like RTVE, or an ordinary organisation?
+# question iea: IEA is the English form of the International Energy Agency (Spanish AIE); a famous international body would be kept, but the form is English and the examples are unclear
+# question iea: the examples are too thin to tell whether it is the energy agency (not a Spanish-named body) or something else; dropped
+# question ifrc: a famous international body by the rules, but the Spanish acronym is FICR; dropped as an English-language form
+# question ifrc: an international body but not on the rule's example list; kept as a famous international body
+# question incoterm: could count as a specialist term (drop) or an established business word (keep)
+# question incoterm: established trade term but specialist
+# question insarag: a UN-linked international body, but only rescue specialists know it, so I treated it as a technical acronym and dropped it
+# question insarag: it is an international UN-backed body, but a specialist one; I treated it as not famous enough to keep.
+# question instagramers: it is unclear whether instagramer is established enough in Spanish to be a lemma; if not, drop it instead of merging.
+# question jaca: real common word but most occurrences are the town of Jaca; kept under the rule that a real common word stays
+# question jaca: the examples are mostly the town, but the word is also a common noun, so I kept it
+# question jamboree: scout-event word used in Spanish, but the examples are mostly company and event names, so I dropped it
+# question jife: international body but far less famous than ONU/OMS, so keeping it is a judgement call
+# question jife: international drug-control body, a famous international body only to a minority of learners; kept under the international-bodies rule
+# question joule: Spanish uses both julio and joule, and merging into julio risks mixing it with the month
+# question joule: the examples include the surname Joule, and Spanish text may keep "joule" for the unit, so merge:julio is uncertain
+# question kettlebells: kettlebell is established in fitness contexts, but Spanish also uses "pesa rusa"; merged to the singular
+# question lamela: most occurrences are the surname or place, but the common word lamela is real; kept as the common word
+# question lamela: the examples show a place name and a botanical term; kept as a common word, but the evidence is thin
+# question lgbtt: could be merged into a listed LGBT lemma as a variant spelling; kept as an ordinary-word acronym
+# question lgbtt: kept as an ordinary-use acronym; unclear whether it should merge into a listed lgbt form.
+# question machina: "deus ex machina" is the first-half/second-half pattern, but the first halves (deus, ex) are not clearly in this batch; I dropped machina as the second half.
+# question majlis: could count as an established loan from Arabic, but it is mostly a proper-noun use, so I dropped it
+# question matapalo: real common word, but the examples are mostly the place name Matapalo; kept under the "real word stays" rule
+# question mazuelo: a grape variety (Rioja) found mostly in wine-product text; kept as a real common noun, but it could be read as a specialist or brand term
+# question mazuelo: kept as a grape-variety common noun, but occurrences are mostly in wine labels
+# question meco: could be a real Spanish word (meco, a colloquial term) but the examples are mostly the town and names; dropped.
+# question minsa: Peruvian ministry; unclear whether it is nationally famous enough
+# question minsa: a Peruvian ministry acronym, famous only in Peru; kept as a national public body
+# question neoprene: Spanish writes neopreno; merged on the English-spelling rule, though some examples are brand uses.
+# question no-proliferación: could instead be merged into the open spelling "no proliferación"
+# question oua: Organización de la Unidad Africana is a famous body but defunct, and the airport-code reading mixes in; dropped
+# question oua: the defunct Organización para la Unidad Africana would count as a famous international body, but nearly all occurrences are the airport code
+# question paso-a-paso: hyphenated form of the listed phrase "paso a paso"; dropped under the hyphenated-compounds rule rather than merged
+# question pay-per-view: hyphenated English compound; kept as an established TV loan, but the rules' "hyphenated compounds of two listed words drop" could apply
+# question pay-per-view: hyphenated three-word English loan; kept as an established TV term, though Spanish also says "pago por visión".
+# question pisano: a real gentilicio, but the occurrences are mostly surnames, so I dropped it
+# question playón: mostly place names (Pueblo Madero, Playón Chico) but also a real common word
+# question playón: real Latin American common word, but most examples are place names
+# question pochette: French loan for a small bag, but examples mostly brand model names; dropped
+# question poppers: established drug-slang loan vs. product name; kept.
+# question poppers: established loan or drug-brand term; kept because it is used as a common noun
+# question post-entrenamiento: unclear whether the prefix form is a hyphenated compound (drop) or an adapted spelling of "postentrenamiento" (merge)
+# question post-sinodal: the academy's form postsinodal is assumed, but hyphenated forms may be intended to stay as written
+# question post-tratamiento: Spanish writes the prefix variously (postratamiento, post-tratamiento, postratamiento); the merge target is a best guess.
+# question post-tratamiento: the academy writes postratamiento, but it is unclear whether that form is listed or the hyphenated form should simply drop
+# question pre-final: prefinal is not clearly listed; merged as the obvious unhyphenated form.
+# question proporcionada: participle could go to proporcionado or proporcionar; chose the verb.
+# question qibla: the academy forms (alquibla/quibla) are my best guess for the right lemma.
+# question quizzes: "quiz" is used in Spanish, but these examples are English or product context, so dropped rather than merged into quiz.
+# question retamar: Real RAE word (retamar, a place of retama bushes) but most examples are a place or surname; kept under the common-word rule.
+# question retamar: a place and surname name mostly, but also a real common word (retamar, retamares); kept under the common-word rule
+# question sabbat: Spanish does use "sabbat", but the examples are many religious and neo-pagan uses; kept as an established loan
+# question sabbat: Spanish usually writes sabat or sábado for the Jewish Sabbath, so this could be a merge; the examples are mixed, so I kept it as an established spelling.
+# question sambo: martial-art sense is real, but many examples are place names
+# question satsuma: also a fruit (mandarina satsuma), but the examples are all the Japanese domain, so I dropped it
+# question secofi: Defunct Mexican ministry, so it is unclear whether it still counts as a famous public body.
+# question secofi: a defunct Mexican ministry (now Secretaría de Economía), so it is unclear whether it is still famous enough to keep
+# question semi-profesional: the academy writes semiprofesional (one word); I assumed that is the form on the list
+# question silonita: a lowercase demonym that is a real Spanish word, but it occurs only in biblical text; kept out as too rare for a learner
+# question silonita: a real demonym but only in biblical text; dropped as a name.
+# question sras: it is mostly SARS, but it is also an abbreviation of "señoras" (Sras.), and I kept it as the majority reading
+# question sriracha: could count as a foreign brand name, but kept as an established sauce name.
+# question sriracha: sauce name, brand origin but generic usage; kept as an established loan
+# question stepper: the loan is common in Spanish fitness vocabulary, but whether it counts as established is unclear
+# question stop-motion: hyphenated loan; could instead merge into "stop motion" if that is the listed spelling
+# question sub-páginas: merged into subpágina, which may not be a listed lemma; drop is the alternative under the hyphenated-compound rule
+# question titi: no examples were shown, and most uses are likely names; kept as a real Spanish word.
+# question tonka: 41% capitalised, but the examples show "haba tonka" as a common ingredient; kept
+# question tonka: also a toy brand, but the majority of examples are the haba tonka ingredient
+# question trans: Spanish adjective and noun (persona trans) but also a prefix or fragment in the examples; kept as the real-word reading, though the evidence is thin
+# question uanl: counted as a famous university by name, but it is regional rather than national like UNAM
+# question ucv: could be Universidad Central de Venezuela (a famous institution), but examples show a Spanish university and a file extension, so I dropped it
+# question ufm: Universidad Francisco Marroquín is well known in Guatemala but probably not nationally famous across the Spanish-speaking world, so dropped
+# question unitar: UN institute, not obviously as famous as ONU or Unesco; dropped as not clearly on the list of famous international bodies
+# question unitar: UN-affiliated body, but not famous enough to count as a famous international body; dropped
+# question videowall: technical loan, unclear whether learners need it
+# question voile: the French fabric term is used in Spanish textiles, but the examples are mostly from translated catalogues
+# question yankee: the English spelling could merge into "yanqui", but the examples are almost all names (Daddy Yankee, the Yankees), so I dropped it
+# question cibel: should named landmarks (plazas, fountains, streets) count as place names for pending-names, and should a broken lemma of a place name go to pending-names or merge into the name?
+# question joule: when the obvious merge target is a homograph lemma (julio, unit vs. month), should the case be merged, kept separately, or dropped?
+# question pisano: do gentilics of minor places (pisano) follow the place-names list or the common-word rules?
