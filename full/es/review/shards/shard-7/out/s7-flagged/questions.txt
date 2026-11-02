@@ -1,0 +1,95 @@
+# question akelarre: a real Spanish word, but the lowercase share is only about 11%, so the rule drops it; the capitalised forms may be sentence-initial
+# question anti-inmigración: Target spelling antiinmigración assumed (prefix anti- written solid); the lemma may not exist yet.
+# question anti-inmigración: unclear whether antiinmigración is a listed lemma; if not, drop as a hyphenated prefix compound
+# question anti-phishing: could be merged into "antiphishing" instead; dropped as a hyphenated compound with a foreign word.
+# question anti-phishing: hyphenated anti- + loan; dropped as English technical term, but could merge into "antiphishing" if that is listed
+# question anti-vaho: merge target antivaho assumed to be the standard spelling; confirm it is listed
+# question anti-vibración: hyphenated "anti" + noun; merged to the closed spelling antivibración on the assumption that is the standard form.
+# question art-deco: target art déco assumed as the multi-word standard spelling
+# question assoc: no examples in the sample; may be an abbreviation of asociación (merge:asociación), but capitalised use looks English, so dropped
+# question babia: "estar en Babia" is a common idiom, but every example here is the place or a name, so I dropped it as a place name.
+# question babia: place name that is also the idiom "estar en Babia"; kept for the idiom, though most examples are the place
+# question balla: could be a stray verb form (Catalan "balla") or a surname; no examples available, dropped.
+# question bifida: merge target "espina bífida" is a multi-word unit; "bífida" alone would be a bare adjective.
+# question biol: no examples; could abbreviate biología or biólogo, so no obvious merge target, dropped
+# question bothan: fictional ethnonym in lowercase use; unclear whether the lowercase-ethnonym rule covers fiction
+# question braco: capitalised uses are mostly hotel and surname, but the two examples of the dog breed suggest the real reading is near a third
+# question bungy: Unsure whether bungee is already on the list; if not, drop would also fit.
+# question campsa: historic state oil monopoly, now defunct and seen mainly in a restaurant guide; treated as a company name and dropped
+# question cantv: a company rather than a public body; kept as a household-name national entity by analogy with ETECSA
+# question caprese: its dish reading (about 40%) is borderline as an established loan
+# question caprese: place-name reading (Caprese Michelangelo) versus food adjective; kept because lowercase is about 40%
+# question carabinieri: foreign institution, not of a Spanish-speaking country; kept because Spanish uses it as a common lowercase noun (39 of 94 occurrences)
+# question carabinieri: foreign national police body, not of the Spanish-speaking world; kept as an established loan used lowercase in Spanish text
+# question catarinense: Spanish gentilic of Santa Catarina but examples are mostly a football league name; dropped
+# question chaga: Chagas is the disease name but the lemma is mixed with chaga (mushroom); dropped, a merge to chagas may be wanted
+# question chaga: written forms mix chaga/chagas (disease name); merge target chagas assumed as the standard lemma
+# question churn: telecom/marketing jargon in Spanish; dropped because specialist and mixed with an unrelated machine name, but could be kept as a loan.
+# question clac: onomatopoeia reading is about 32% (lowercase 30 of 95), borderline on the one-third threshold; kept, but could be dropped if lowercase uses are actually the CLAC acronym.
+# question clac: the capitalised acronym (Fair Trade body) dominates the examples; the real onomatopoeia may be under a third, so drop is possible if the lowercase uses are also the acronym.
+# question co-directora: the hyphenated feminine form has no masculine counterpart in the examples, so I merged it to the feminine codirectora; the coordinator may prefer codirector.
+# question diabla: real feminine of diablo appears in only about a fifth of the examples (diabla, diablas, diablita); dropped under the one-third rule, but a coordinator may want to check whether diablo covers it
+# question diabla: the feminine of diablo would keep, but all shown examples are names or brands, so I dropped it; a split may be needed if the real word is a third or more of the examples
+# question energéctica: 122 occurrences all capitalised, possibly a company name rather than a misspelling of energética; merged on the misspelling reading
+# question etcs: mixes the rail control system with a misspelling of ECTS, which is not itself listed; dropped
+# question exopolítica: coined pseudo-scientific term, kept as a regular noun
+# question fise: Peruvian energy-inclusion fund acronym; treated as a minor body rather than a household-name institution
+# question gay-friendly: hyphenated loan kept as established; check against the hyphenated-compound rule
+# question geckos: DLE lists geco, but the list uses the form people write, so I chose gecko
+# question geyser: some examples are the Latin American water heater, which may deserve its own entry apart from géiser
+# question greco-católica: the target grecocatólico is assumed as the standard spelling; the rules might instead drop it as a hyphenated compound.
+# question guppy: about half the examples are brand or place names (Guppy baby carriers, Guppy Gulch Quarry), but the fish reading is likely over a third. Kept.
+# question guppy: examples are mostly brand names and English plural guppies; kept as an established fish name, but may be below a third of real usage
+# question hallelujah: the examples are mostly titles and names, but I merged it because aleluya is the adapted word
+# question hi-hat: hyphenated loan; kept as an established drum-kit term, but the rules do not clearly cover hyphenated loans
+# question hi-hat: specialist drum term, kept as an established loan; drop if the team thinks only drummers use it
+# question horrocruxes: fictional-world term; merged to the singular rather than dropped as a title
+# question hotspots: not sure hotspot is established enough to be a learner loan; I merged it as a WiFi term like web and chat
+# question injector: examples look like English/IT usage, so drop is also defensible if the Spanish "inyector" reading is a minority
+# question kaftan: many examples are names (a yacht, a character), but about 32% are the common noun, so merged
+# question kannada: kept as language name; lowercase ethnonym/language reading is 40% of examples
+# question kannada: most examples are foreign titles, but the lowercase language use is real; kept
+# question karate-do: kept as a hyphenated loan; could alternatively merge into karate
+# question kyat: a foreign currency name with no rule of its own; I treated it like forint and kept it.
+# question laguito: real diminutive is about 25% of examples (lowercase), below a third, so dropped
+# question laguito: real diminutive of lago is about a quarter of the examples, below a third, so dropped
+# question lassi: the lowercase drink reading is about a third of examples, so it is borderline.
+# question lipgloss: established enough in Spanish beauty vocabulary? kept; Spanish may also write "gloss"
+# question lipgloss: it may be an established makeup loan, but the English spelling and the brand-like use led me to drop it.
+# question maglev: mixed name (Shanghai Maglev) and generic term; kept as the generic loan.
+# question marquise: the diamond-cut reading is about 28% of examples, under the one-third threshold, so I dropped it, but marquesa-style common use is possible
+# question minipimer: the Spanish spelling with an accent (minipímer) is assumed to be the standard form
+# question niceno: gentilic-type adjective derived from the place Nicea; kept as a real adjective in credo niceno
+# question nylón: academy form is nailon; merged there, but "nylon" is the commoner written form, so the coordinator may prefer to keep it.
+# question ofrecero: ofreceros is ofrecer + -os (not -nos/-te); merged into plain verb ofrecer, though ofrecerse is also a common verb
+# question ofrecero: the form written is ofreceros (ofrecer + os); the rule on -nos/-te clitics does not name -os, merged into plain verb ofrecer since ofrecerse is less central here.
+# question pinup: pin-up is an established loan in Spanish, but examples are mostly English-context uses; merged into pin-up
+# question pinup: unsure whether the list spells the loan "pin-up" or "pinup"; merged into the academy spelling.
+# question post-punk: hyphenated genre loan; could instead be written "postpunk", so the coordinator should check which spelling people use.
+# question pre-pedido: no obvious Spanish target; merged to preventa as approximate, drop could also fit
+# question publ: could be an abbreviation of "publicado", but the evidence is too thin for an obvious merge; dropped.
+# question publ: probably an abbreviation of "publicado" or "publicación", but it is not obvious which, so I dropped it rather than merging
+# question recluta: capitalised 88% and no examples were shown, so it may mostly be a name or heading. I kept it as the real word on the assumption that job-ad and military uses are at least a third of the occurrences.
+# question recluta: capitalised in 88% of examples and none were shown, so it may be mostly a title or name; kept as a real common word on the assumption that about a third of uses are the noun.
+# question rhc: Radio Habana Cuba is a state international broadcaster; unclear whether it counts as a household-name national body. Kept as a broadcaster.
+# question rhc: kept as Radio Habana Cuba, but it appears as a news-agency tag and may be too specialised
+# question sate: a minority of examples may be a real word (sate, from saciar), but the sample shows only the SATE acronym, so I dropped it
+# question sate: the SATE reading (thermal insulation system) is the majority of examples; the common-word reading seems minor, so dropped.
+# question scart: SCART is a technical connector acronym but widely written in Spanish TV text; dropped as technical, so keep if the developer wants it as a household term.
+# question semi-esencial: could instead merge to "semiesencial" if the developer accepts that closed spelling, but it is not an established form
+# question semi-esencial: merged to semiesencial on the assumption that the prefix spelling is standard; drop if the coordinator prefers the hyphenated-compound rule
+# question shcp: a national ministry acronym that is less well known than Hacienda itself; I kept it as a household name in Mexico.
+# question shh: mixed with the Sonic hedgehog gene abbreviation (SHH); kept for the interjection reading, which may be only about half of the uses
+# question socio-laboral: merged to the academy spelling sociolaboral; confirm the target form if the list prefers the hyphenated spelling.
+# question strip-tease: target estriptis is the academy form, but the list may prefer the spelling people write (striptease)
+# question todo-incluido: the rule on hyphenated compounds of listed words says drop, but the variant-spelling ruling says merge; merged into "todo incluido" as a common unit.
+# question torr: the pressure unit is real but the examples are missing and capitalisation suggests names; dropped as specialist
+# question tuto: clipping of tutorial is colloquial, and some uses may be a nickname; kept because lowercase forms are about half the examples
+# question tuto: lowercase "tuto"/"tutos" is only about 47% of the examples and no examples were available, so the real-word reading is unconfirmed
+# question umu: a single regional university rather than a nationally famous one, kept under the university rule
+# question usmp: Peruvian private university; unclear whether it counts as a nationally famous university, dropped
+# question usmp: private university in Lima; unclear whether it counts as nationally famous, kept as a major Peruvian university
+# question varano: lowercase reading is about 29%, slightly under a third, kept because the capitalised uses are mostly a place name
+# question varano: real reading is about 29% of examples, just under a third, and the place name Varano Borghi is also present; kept as a borderline case
+# question wiccan: examples are largely English or titles; merged to wiccano as an English spelling of the adapted word, but drop is arguable if the real reading is under a third.
+# question wikiproyecto: could count as an established web term like wiki; dropped as mostly names of specific projects.

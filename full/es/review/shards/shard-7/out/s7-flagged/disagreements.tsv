@@ -1,0 +1,28 @@
+# lemma	A	reason A	B	reason B
+usmp	drop	private university, not a nationally famous body	keep	large, well-known Peruvian university
+gujarati	keep	lowercase language/ethnonym	merge:guyaratí	English spelling of the adapted language name
+bifida	merge:espina bífida	missing accent; only occurs in "espina bífida"	merge:bífida	missing accent (espina bífida)
+wikiproyecto	keep	real Spanish compound in ordinary use	drop	Wikipedia-internal project names, not established general word
+churn	drop	specialist business jargon, mixed with a machine name	keep	established business loan in Spanish telecom text
+cryptocurrency	drop	English word, not established in Spanish	merge:criptomoneda	English spelling of adapted word
+nylón	keep	real Spanish word	merge:nailon	English spelling of adapted word
+chaga	drop	mixed reading (Chagas disease, mushroom, name); not a clean lemma	merge:chagas	Chagas disease filed under cut form
+bougainvillea	merge:buganvilla	Latin or English spelling of the adapted Spanish word	drop	raw Latin taxon or hotel and foundation name; Spanish is buganvilla
+bungy	merge:bungee	Variant spelling of the established loan bungee.	drop	English spelling, not established in Spanish
+strip-tease	merge:striptease	Hyphenated spelling of the standard loan striptease.	merge:estriptis	hyphenated foreign spelling of the adapted word
+despuésdespués	drop	doubled-word web artefact	merge:después	doubled web artefact of después
+shh	drop	mixed English/gene acronym, not a Spanish lemma	keep	interjection used in Spanish for hushing
+akelarre	drop	capitalised in 88%, mostly a restaurant name	merge:aquelarre	variant spelling of aquelarre
+co-directora	merge:codirector	hyphenated feminine form; merge into the masculine codirector	merge:codirectora	hyphenated spelling of codirectora
+pre-pedido	merge:preventa	hyphenated form of pedido prefix; web shop term	drop	hyphenated web artefact, e-commerce
+hallelujah	drop	mostly band and contest names, not the Spanish word	merge:aleluya	English spelling of the adapted word
+minipimer	merge:minipímer	brand used as a common noun; accent missing	keep	brand used as a common noun for a hand blender
+umu	drop	acronym of a single university, not a nationally famous body	keep	acronym of the Universidad de Murcia, a university
+karate-do	keep	established martial-art term	merge:karate	hyphenated variant spelling
+africano-americano	drop	hyphenated compound of two listed words	merge:afroamericano	hyphenated variant of the standard word
+babia	keep	"estar en Babia" is a common idiom, but most examples are the place	drop	place name (region)
+lipgloss	keep	beauty loan used as a common noun in Spanish	drop	English term, not established in Spanish
+wiccan	drop	English word or character name	merge:wiccano	English spelling of the adapted Spanish word
+anatase	drop	specialist mineral, product-listing text	merge:anatasa	English spelling of the adapted mineral name
+injector	drop	English word, not established	merge:inyector	English spelling of an adapted Spanish word
+semi-esencial	merge:semiesencial	hyphenated prefix spelling of the standard form	drop	hyphenated prefix compound, not a standard Spanish form
