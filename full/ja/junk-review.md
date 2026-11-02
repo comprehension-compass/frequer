@@ -25,7 +25,7 @@ reviewed lemmas had at least one example. Decisions: `corpora/review/ja.tsv`.
 | shape | kept; the short-word test applies to one character only (`short_max_length: 1`), zipf < 3.5 | two kanji is an ordinary word; a lone character the language rarely writes alone is often a clipped piece (送, 警) |
 | foreign | off | `lemma_pattern` admits no Latin script; katakana loans are Japanese words |
 
-Generic fixes found on the way (self-contained commits on `full-ja`): wordfreq lookups without MeCab,
+Generic fixes found on the way (on frequer `uplift`): wordfreq lookups without MeCab,
 dictionary proper-noun evidence, citation on token-separated forms and units by kind, a reviewed decision
 outranking the automatic proper-noun drop.
 
@@ -43,6 +43,30 @@ outranking the automatic proper-noun drop.
 | audit (100 random unflagged keeps per band, not applied) | 400 | 390 | 10 | 363 | 22 | 12 | 3 |
 
 The per-band report, samples, merges and questions are in `band-report.md`. Per-lemma actions are in `ja.routed.tsv`.
+
+## Developer rulings (2026-11-02)
+
+Folded into the reviewer rules (`scripts/review/prompts/rules-ja.md`) and applied by re-review (round 8) where
+they changed earlier decisions:
+
+1. **Era names are kept** (令和, 平成, 昭和, 大正, 明治, 江戸): everyday vocabulary for dates.
+2. **Famous institutions are kept**: nationally famous universities, ministries and government bodies,
+   broadcasters, and companies people talk about as institutions (東大, 文部科学省, フジテレビ, トヨタ, 任天堂). This
+   supersedes the provisional "drop as names". Ordinary names still drop: people, minor companies, brands,
+   products. Round 8 re-decided the 281 institution drops: 190 now kept.
+3. **Adult and sex-industry words**: kept when a learner meets them in ordinary reading (風俗); dropped when
+   only web spam makes them frequent (デリヘル, セフレ, テレクラ). Round 8 re-decided the 57 slang and adult keeps:
+   6 dropped.
+4. **Lone bound kanji drop** (該, 弊, 耐): no merge target, so dropped; listed as segmentation feedback for
+   lemma release 1.6 (Honeyeater `docs/plans/lemmatiser-release-1.6.md` §3).
+5. **さくら kept, 楽天 dropped.** The explicit ruling wins over ruling 2, under which round 8 had kept 楽天;
+   explicit developer rulings are a decisions file applied after every review round.
+6. **Spelled numbers follow the app** (the number rule, `number_rule: true`): a lemma Honeyeater's
+   `lexicon.number_words.number_is_learnable` calls a number it does not learn is dropped (千九百九十八, 五十,
+   一万); its number vocabulary (百, 千, 万, 億, 兆, 三百, 六百, 八百, 千万, 三千, 八千...) and numerals up to 30 stay,
+   and counters and date forms are not numbers (一つ, 二十日).
+7. **Cutoff: 30,000**, then the reviewed learnable names that ranked below it are appended; every pending
+   place name is resolved by the final list (listed: kept; otherwise dropped).
 
 ## The rules the reviewers had
 

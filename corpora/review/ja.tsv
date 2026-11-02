@@ -1,21 +1,21 @@
-# ja junk review (2026-11-01): two independent Sonnet reviewers, Opus adjudicating disagreements;
-# rules in full/ja/junk-review.md. lemma<TAB>decision<TAB>reason
+# ja junk review: two independent reviewers, an adjudicator for disagreements;
+# scripts/review. lemma<TAB>decision<TAB>reason
 ません	keep	standard dictionary form of the polite negative auxiliary, despite usually appearing as ませ before further endings
-送料	keep	real common word "shipping fee"; spammy examples don't change that
+送料	keep	real common word (shipping fee), diversity flag is just spammy product listings but it's genuine everyday vocabulary
 買取	keep	real common word "purchase/buy-back"
 脱毛	keep	real common word "hair removal"
 返品	keep	common word "return of goods" mistagged as PROPN
-楽天	drop	all examples show Rakuten (company) use; the common "optimism" sense isn't shown
+楽天	drop	developer ruling 2026-11-02 (explicit, over the institutions ruling)
 平成	keep	era name, standard everyday vocabulary for dates, not a person/place/product
 ローン	keep	common katakana loanword "loan"
 査定	keep	real common word "assessment/appraisal"
 メンズ	keep	common word mistagged as PROPN
 宅急便	keep	genericised as ordinary word for parcel delivery (as the examples show)
 ロング	keep	common loanword "long" mistagged as PROPN
-デリヘル	keep	real (if unsavoury) common word for the service
+デリヘル	drop	sex-industry spam jargon only web spam makes frequent
 要	keep	common noun "key point/necessity," widely used independent of the かなめ name reading
 ザ	keep	common emphatic/quasi-article usage ("ザ・定番" etc.), not just a name
-セフレ	keep	real slang common noun
+セフレ	drop	spam/jargon term, not ordinary reading vocabulary
 スタジオ	keep	common loanword "studio"
 イオン	keep	common scientific word "ion" shown in examples
 キャッシング	keep	common loanword "cashing" (credit cash advance)
@@ -24,20 +24,20 @@
 ポケモン	drop	brand/product name (video game franchise)
 外壁	keep	common word "exterior wall"
 東北	pending-names	region/place name
-ソフトバンク	drop	company name
+ソフトバンク	keep	major household-name corporation (SoftBank)
 ココ	keep	emphatic katakana spelling of common word "here"
 薬剤師	keep	common word "pharmacist"
 ログ	keep	common loanword "log"
 メイド	keep	common loanword "maid"
 ガンダム	drop	title/product name (franchise)
-日経	drop	organization/publication name
+日経	keep	major household-name institution (Nikkei)
 トム	drop	person name
 レイヤー	keep	common word "layer"
 デニム	keep	common loanword "denim"
-ドコモ	drop	company name
+ドコモ	keep	major household-name corporation (NTT Docomo)
 ツイッター	drop	app/website name
 おっ	merge:おっさん	examples all show the clipped piece of おっさん, not the standalone interjection
-トヨタ	drop	company name
+トヨタ	keep	major household-name corporation (Toyota)
 オブ	keep	naturalized loan function word "of," used productively beyond names
 山田	drop	predominantly a personal surname in the examples, no common-noun sense shown
 切手	keep	common word for postage stamp, legitimate despite diversity flag
@@ -50,17 +50,17 @@
 カジノ	keep	real common word "casino" despite diversity flag
 ミラー	keep	common loanword for mirror, everyday use
 スタンプ	keep	common loanword for stamp/digital sticker, everyday use
-三菱	drop	company brand name, not genericised
-アリ	keep	examples show common slang sense "acceptable/OK", everyday use
+三菱	keep	major household-name corporation (Mitsubishi)
+アリ	keep	common colloquial word "acceptable/OK", everyday use shown in examples
 フェイス	keep	common loanword "face", used in everyday compounds
 凛	keep	real adjectival noun (凛とした/凛々しい) despite overlap with given name
-バイブ	keep	established slang noun (clipped from バイブレーター), real vocabulary item
+バイブ	keep	established common word for vibrator, ordinary vocabulary like 風俗
 太郎	drop	examples show only person-name usage, no common sense
 アルミ	keep	common word for aluminum, everyday use
-民主党	drop	political party organization name
-アップル	drop	examples all refer to the company, common fruit sense not shown
+民主党	keep	major political party, nationally known institution
+アップル	keep	major household-name corporation (Apple)
 さくら	keep	real everyday word for cherry blossom; name uses don't displace the common sense
-自民党	drop	political party organization name
+自民党	keep	major political party, nationally known institution
 イ	keep	likely common usage (e.g. イロハ grading/list marker) rather than a name
 ジュニア	keep	common loanword "junior", everyday use confirmed by examples
 何だか	keep	standard dictionary form of common adverb written in kana
@@ -69,7 +69,7 @@
 トランプ	keep	examples confirm common sense "playing cards"
 龍	keep	real standalone word "dragon"
 アウトレット	keep	common loanword "outlet (mall)", everyday use
-日産	drop	car company brand name, not genericised
+日産	keep	major household-name corporation (Nissan)
 シャープ	keep	common adjective sense "sharp/crisp" shown in examples
 前記	keep	real legal/technical word "aforementioned" despite narrow domain
 ペッパー	keep	common loanword "pepper" (spice) shown in examples
@@ -78,7 +78,7 @@
 チェア	keep	common loanword "chair", everyday use
 青山	pending-names	examples show Aoyama used as a Tokyo place name
 ポール	keep	common loanword "pole" (physical object) shown in examples
-フジテレビ	drop	broadcasting company/organization name
+フジテレビ	keep	major broadcaster, NHK-like institution
 サンダル	keep	common loanword "sandal", everyday use
 東海	pending-names	place name (Tokai region)
 産後	keep	common word "postpartum", dictionary mistagged
@@ -89,14 +89,14 @@
 プロミス	drop	mainly consumer-finance brand name, not genericised
 和風	keep	common word "Japanese-style", clearly everyday use
 スカイ	keep	established katakana loan "sky"; brand-heavy examples only reflect compound use
-パナソニック	drop	company brand name
-育毛剤	keep	real word "hair-growth tonic" despite spammy diversity
+パナソニック	keep	major household-name corporation (Panasonic)
+育毛剤	keep	real common noun (hair-growth product), not a brand name
 自衛隊	keep	generic institutional noun used like 警察 (also of other countries' forces)
 妖怪	keep	common word "monster/spirit", dictionary only has common sense
-ヤフー	drop	company/brand name
-ジャニーズ	drop	entertainment agency name
+ヤフー	keep	major household-name corporation (Yahoo)
+ジャニーズ	keep	famous talent agency, nationally known institution
 ロイヤル	keep	established loanword adjective "royal", common in everyday terms
-東急	drop	railway/company brand name
+東急	keep	major household-name railway/conglomerate company (Tokyu)
 インプラント	keep	real word "implant", keep despite diversity flag
 貨	drop	no clear example; likely fragment, insufficient evidence to merge
 本田	drop	surname; examples all people
@@ -104,13 +104,13 @@
 シワ	keep	common word "wrinkle"
 アクリル	keep	common word "acrylic" (material)
 サン	keep	established loanword/prefix ("sun"), mistagged proper
-西武	drop	railway/department-store brand name
+西武	keep	major household-name railway/conglomerate company (Seibu)
 ランダム	keep	common loanword "random", mistagged proper
 港区	pending-names	place name (Minato ward)
 ル	drop	bare kana fragment, no standalone meaning or clear merge target
-ピストン	keep	real mechanical term "piston", keep despite spammy examples
+ピストン	keep	common mechanical word (piston), everyday technical vocabulary
 マックス	keep	common loanword "max", widely used descriptor
-阪急	drop	railway/company brand name
+阪急	keep	major household-name railway/conglomerate company (Hankyu)
 八幡	pending-names	predominantly a place name (Yawata/Hachiman)
 常時	keep	common adverb "at all times", dictionary only common entries
 デ	drop	bare kana fragment, no standalone meaning, no clear merge target
@@ -118,7 +118,7 @@
 橋本	drop	surname; examples all people
 谷	keep	common noun "valley", basic vocabulary
 共産党	keep	generic term for a class of political party, common vocabulary
-東大	drop	specific named institution (University of Tokyo)
+東大	keep	nationally famous university, explicit keep category
 神田	pending-names	predominantly a place name (Kanda district)
 ブライダル	keep	genericised common term for wedding industry (ブライダルエステ, ブライダル業界), not a specific brand
 アクア	drop	counts are proper-noun elements (アクアライン, アクアパラダイス/brand "Aqua"), no clear independent common sense in examples
@@ -134,11 +134,11 @@
 松山	pending-names	place name (city) dominant sense despite surname entries
 ハローワーク	keep	genericised brand used as the ordinary Japanese term for public job centers
 青木	drop	surname; botanical common sense (aoki shrub) not shown in examples
-メルカリ	drop	flea-market app/company name
+メルカリ	keep	major publicly-traded company, nationally known institution
 ドリーム	drop	counts are product/title names; no everyday common-noun usage shown
 パズドラ	drop	brand name of a specific game (Puzzle & Dragons)
-任天堂	drop	company name (Nintendo)
-グーグル	drop	company name (Google)
+任天堂	keep	major household-name corporation (Nintendo)
+グーグル	keep	major household-name corporation (Google)
 過払い	keep	ordinary noun ("overpayment"), mistagged as proper noun
 明	drop	no examples available to confirm everyday common-sense use vs. name/dynasty readings
 アイ	drop	examples suggest title/name usage ("Cat's Eye"); standalone common sense ("eye") not clearly shown
@@ -164,7 +164,7 @@
 警	drop	clipped single character, no examples to confirm a merge target
 リクルート	keep	common loanword for recruiting/job-hunting, shown in examples
 金剛	drop	examples only show proper-noun uses (ship, temple); no common "vajra/diamond" sense shown
-アイフル	drop	consumer-loan company brand name
+アイフル	keep	major nationally advertised consumer-finance company
 エクセル	drop	Microsoft Excel product name
 プロペシア	drop	pharmaceutical brand name
 ワイルド	keep	common loanword adjective "wild", shown in example
@@ -176,9 +176,9 @@
 チョン	drop	only attested as an ethnic slur, no ordinary sense for a learner's list
 カール	keep	common word "curl", shown in examples
 ラン	keep	common loanword "run"
-マイクロソフト	drop	company name
+マイクロソフト	keep	major household-name corporation (Microsoft)
 プライム	keep	common loanword "prime" (prime time/rate/membership)
-朝日新聞	drop	newspaper company name
+朝日新聞	keep	major nationally known newspaper institution
 ゆる	drop	bound stem plus lemmatiser noise (ゆん/ゆり/ゆれ merged), no standalone word
 中山	drop	examples show only person-surname use
 品番	keep	common word "product/model number"
@@ -188,20 +188,20 @@
 道の駅	keep	common generic facility term for roadside rest stations
 宮城	pending-names	prefecture name, examples support place sense
 しゃぶしゃぶ	keep	common food term
-厚生労働省	drop	government ministry (organisation) name
+厚生労働省	keep	government ministry, explicit keep category
 ヤフオク	drop	auction service brand name
 瑞穂	pending-names	place-name sense present (瑞穂町/瑞穂区); names list decides
 青汁	keep	common word for "green juice" health drink
 イベルメクチン	keep	generic drug/chemical name, ordinary word for the substance
-東証	drop	stock exchange organisation name
+東証	keep	Tokyo Stock Exchange, major financial institution
 レイ	keep	established loan with common entries (lei/ray); no evidence of name dominance
 闇金	keep	common word for illegal money-lending
-近鉄	drop	railway company name
+近鉄	keep	major household-name railway/conglomerate company (Kintetsu)
 オ	drop	isolated character, no examples to establish a merge target
 ユニクロ	drop	clothing brand name
 李	drop	examples show almost entirely person-surname use; "plum" sense rare
 パンプス	keep	established katakana loan for pump-style shoes, common word despite PROPN mistag
-セブンイレブン	drop	convenience store company name
+セブンイレブン	keep	major household-name convenience-store chain
 野田	pending-names	surname/place name; examples show politician and place-derived line/company, no clear common sense
 アディダス	drop	brand name
 泣	drop	deliberate "(泣)" stylistic mark, not a lemmatiser-cut piece of running text
@@ -217,15 +217,15 @@
 香料	keep	common noun "fragrance/flavoring", mistagged PROPN
 ブルーレイ	keep	genericised standard term for the disc format
 小顔	keep	common beauty-industry term "small face"
-日銀	drop	refers to the specific organisation Bank of Japan
-創価	drop	refers to the Soka Gakkai organisation/affiliated entities
+日銀	keep	Bank of Japan, major institution
+創価	keep	nationally known organization name (Soka Gakkai), talked about institutionally like a party
 レンタタダ	drop	low-diversity, no usable examples, looks like a brand/service name
 ヒート	keep	common loanword "heat" seen in everyday compounds (ヒートシンク, ヒートマップ)
 蓮	keep	common noun "lotus"; also a common given name
 ギルド	keep	common loanword "guild"
-ロッテ	drop	confectionery company / baseball team brand name
+ロッテ	keep	major household-name confectionery/sports company, used as institution
 ウォーズ	drop	only used as a suffix inside titles of works (Star Wars etc.), not an independent word
-ヤマハ	drop	company/brand name
+ヤマハ	keep	major household-name corporation (instruments, motorcycles)
 ミュゼ	drop	salon chain brand / character name
 テンプレ	keep	common Japanese internet word for "template"
 シネマ	keep	established loanword "cinema"
@@ -248,7 +248,7 @@
 本規約	drop	boilerplate "these terms" text from contracts/ToS
 ユニバーサル	keep	established loanword "universal" (ユニバーサルデザイン etc.)
 提督	keep	real word for admiral, used literally and in fiction
-高山	drop	all examples are surname/company use, no common-noun sense shown
+高山	pending-names	well-known place name (Takayama) among the senses; names list decides
 白石	drop	all examples are surname use, no common-noun sense shown
 スノー	keep	established loanword "snow"; brand compounds don't remove the common sense
 小山	drop	all examples are surname use, no common-noun sense shown
@@ -258,11 +258,11 @@
 山梨	pending-names	prefecture name
 山中	keep	common sense "in the mountains" shown in examples
 ジューシー	keep	common loanword "juicy"
-仁	drop	examples are surname/company use, common "benevolence" sense not shown
+仁	drop	examples are all personal-name uses; common "benevolence" sense not shown in examples
 クロ	keep	established colloquial word (e.g. guilty/black, pet names)
 サイエンス	keep	common loanword "science"
-講談社	drop	publishing company name
-フェイスブック	drop	company/product name
+講談社	keep	major household-name publishing institution
+フェイスブック	drop	foreign website/app, not a Japanese-recognized institution; examples show service-name use
 ウォール	drop	only seen in proper-noun compounds (Wall Street Journal), no standalone common use
 上田	drop	all examples are surname use
 ベビーカー	keep	common noun for baby stroller
@@ -272,7 +272,7 @@
 加圧	keep	real word for pressurization, used in common training term
 日払い	keep	common word for daily wage payment
 小池	drop	all examples are surname use
-オリックス	drop	team/company use only, oryx (animal) sense not shown
+オリックス	keep	major household-name conglomerate/baseball institution
 ハロー	keep	established loanword greeting "hello"
 ジョー	drop	personal name
 ヤング	keep	common adjective/loanword for "young", used generally
@@ -287,7 +287,7 @@
 平安	keep	common sense "peace/tranquility" is standard vocabulary
 高木	keep	common sense "tall tree" shown in 常緑高木 example
 ラベンダー	keep	common loanword for lavender
-中日	drop	all examples are proper-noun uses (newspaper, team, tournament); common sense not shown
+中日	keep	major newspaper/baseball institution, household-name institutional use
 川口	drop	all examples are a person's surname, no common-noun use shown
 バスルーム	keep	common loanword for bathroom
 伊達	keep	common sense "for show/affectation" clearly shown (伊達じゃない, 伊達や酔狂)
@@ -298,42 +298,42 @@
 タンクトップ	keep	common clothing item
 マイナンバー	keep	official term functioning as ordinary word for Japan's ID-number system
 しゅうとめ	merge:姑	word is overwhelmingly written with the kanji 姑; lemma should be that form
-ユナイテッド	drop	all examples are parts of company/team proper names, no standalone common use
-モンク	keep	real loanword for "monk" (religious/game class), examples just spammy
+ユナイテッド	drop	only appears as part of brand/company names, not a standalone common word
+モンク	keep	established katakana loan for "monk", real word despite spammy spread
 アッシュ	keep	common term for ash hair/color despite character-name examples
 ワンコ	keep	common affectionate word for dog, tagger mistook it for a name
-インテル	drop	company brand (Intel)
+インテル	keep	major household-name tech corporation
 キリン	keep	common word for giraffe (親キリン), not just the brewery
 麻生	drop	all examples are the politician's surname, no common-noun use shown
-フジ	drop	company/brand name in all examples
+フジ	keep	stands for Fuji TV, a major nationally famous broadcaster
 ボブ	keep	common hairstyle term (bob cut) shown in example
 小島	keep	common sense "small island" shown in example (小島が現れて座礁)
 リーチ	keep	common word in mahjong/pachinko (リーチ) and marketing "reach", shown in examples
 ヴァン	drop	all examples are proper names (Vanguard, salon name), no common use
 ウィキペディア	drop	website/brand name
-クリーチャー	keep	real common loanword for "creature", spammy examples aside
+クリーチャー	keep	real, common loanword ("creature") used in ordinary fiction/game contexts
 商圏	keep	ordinary business term for trading area, mistagged as proper noun
-読売	drop	newspaper/team company name in all examples
+読売	keep	major newspaper/baseball institution
 モビット	drop	consumer-finance brand name, spammy ad context
 築地	pending-names	place name (Tsukiji)
 ロフト	keep	common noun for loft/loft bed shown in examples
 フィンペシア	drop	drug brand name, spammy ad context
 カリビアンコム	drop	adult-site brand name
 高機能	keep	ordinary adjective/noun "highly functional", mistagged as proper noun
-コストコ	drop	company/brand name (Costco), not genericised
+コストコ	keep	household-name retail corporation people talk about as an institution
 目黒	pending-names	place name (Meguro)
 有難い	keep	common adjective "arigatai", dictionary form, everyday use
 ワキガ	keep	real word (body odor), diversity flag doesn't override realness
 観音	keep	common religious term (Kannon) in everyday use, shown in examples
-自民	drop	clipped political party name; the full lemma would drop as an organisation
+自民	keep	major political party (LDP), widely referenced institution
 三宮	pending-names	place name (Sannomiya)
 スカイツリー	drop	named facility (Tokyo Skytree)
 古銭	keep	real word (old coins), diversity flag doesn't override realness
-東電	drop	company name (Tokyo Electric Power)
+東電	keep	major household-name utility corporation (TEPCO)
 博	drop	single char mostly a given-name reading, no clear common standalone use
 色相	keep	real technical word (hue)
-富士通	drop	company name (Fujitsu)
-アドビ	drop	company name (Adobe)
+富士通	keep	major household-name corporation
+アドビ	keep	major household-name software corporation
 バリ	pending-names	place sense (Bali) likely dominant, no examples to confirm a common sense
 オフライン	keep	common tech word (offline)
 川上	keep	real common noun "upstream" (paired with 川下) despite surname-heavy counts
@@ -349,21 +349,21 @@
 新橋	pending-names	place name (Shimbashi)
 ウェイ	keep	common loanword used in product descriptions (n-way)
 相応しい	keep	common adjective, dictionary form, everyday use
-総務省	drop	government organisation name
+総務省	keep	government ministry
 ショールーム	keep	common loanword (showroom)
 外資系	keep	common word (foreign-affiliated), shown in examples
 趣	keep	real standalone word (omomuki/flavor)
-NTTドコモ	drop	company name (NTT Docomo)
+NTTドコモ	keep	major household-name telecom corporation
 フレッツ	drop	brand/product name (NTT's Flets service)
 セントラル	drop	mostly used as part of proper names, common sense rare
 ウレタン	keep	common material word (urethane)
 巷	keep	real standalone word (chimata)
 レーシック	keep	genericised medical procedure term, not a brand
 徒	drop	fragment of various compounds (教徒 etc.), no single clear merge target
-スタバ	drop	brand nickname (Starbucks), company name
+スタバ	keep	established everyday clipping for the household-name chain
 ヤバイ	keep	common adjective "scary/awesome", mistagged PROPN
-サムスン	drop	company name (Samsung)
-フィナステリド	keep	generic pharmaceutical name, not a brand; real word despite spammy clusters
+サムスン	keep	major global household-name corporation
+フィナステリド	keep	generic drug name, a real word; spammy examples alone don't drop it
 藤	keep	common noun for wisteria, real standalone word despite name-dominant counts
 小松	pending-names	place name (Komatsu city), common "small pine" sense is rare
 ブルース	keep	loanword "blues" (music genre), common
@@ -372,7 +372,7 @@ NTTドコモ	drop	company name (NTT Docomo)
 欅	keep	real standalone word for zelkova tree
 ポチ	keep	common generic dog name, established common usage
 ボールペン	keep	common word "ballpoint pen", mistagged PROPN
-サントリー	drop	company name (Suntory)
+サントリー	keep	major household-name beverage corporation
 信	drop	counts are personal names; standalone noun sense bound/archaic
 有線	keep	common word "wired (connection)"
 ルイヴィトン	drop	brand name (Louis Vuitton)
@@ -417,7 +417,7 @@ NTTドコモ	drop	company name (NTT Docomo)
 ディズニーランド	drop	named facility/brand (theme park)
 千歳	pending-names	place name (Chitose) in examples
 アル	drop	no examples found, unclear meaning/use
-テレクラ	keep	real word for phone-dating service despite low spread
+テレクラ	drop	sex-industry jargon made frequent by spam, like デリヘル
 ムカつく	keep	common verb "to be irritated"
 アラーム	keep	common word "alarm"
 憧れる	keep	common verb "to admire/long for"
@@ -432,18 +432,18 @@ NTTドコモ	drop	company name (NTT Docomo)
 エディタ	keep	common word "editor" (software), shown in examples
 新宿駅	drop	named facility (station)
 巨	drop	single character, no examples to confirm source word
-コメ兵	drop	company/brand name
-キヤノン	drop	company/brand name
+コメ兵	drop	minor brand/shop name, low diversity spam-driven
+キヤノン	keep	major household-name corporation
 ポロシャツ	keep	common word "polo shirt"
 マイペース	keep	common word "one's own pace"
 ハリー	drop	person name (Harry Potter) in all examples
-ニンテンドー	drop	company name (Nintendo)
+ニンテンドー	keep	major household-name corporation
 プログラマー	keep	common word "programmer"
 山内	drop	surname/person name only in examples
 品切れ	keep	common word meaning "out of stock", mistagged as PROPN
 スモーク	keep	common katakana loanword "smoke", used in food/camera contexts
-慶應	drop	proper noun for Keio University, an organisation name
-京王	drop	proper noun for Keio Corporation (railway company)
+慶應	keep	nationally famous university
+京王	drop	primarily used as named facility (railway line/stations), not as general institution
 ブースト	keep	common loanword "boost", widely used
 アワード	keep	common loanword "award", widely used
 ブックス	drop	only appears as part of brand/store names (楽天ブックス etc.), not a standalone generic word
@@ -456,7 +456,7 @@ NTTドコモ	drop	company name (NTT Docomo)
 バツイチ	keep	common word meaning "divorced once"
 モノクロ	keep	common loanword "monochrome"
 モンハン	drop	clipped product/brand name for the Monster Hunter game series
-伊勢丹	drop	department store chain name (organisation)
+伊勢丹	keep	household-name department store corporation, institutionally discussed
 張	drop	a Chinese/Korean surname (person name)
 ニックネーム	keep	common loanword "nickname"
 レズビアン	keep	common word "lesbian"
@@ -471,7 +471,7 @@ NTTドコモ	drop	company name (NTT Docomo)
 オマケ	keep	common word meaning "bonus/freebie"
 ウリ	keep	common word meaning "selling point"
 アタシ	keep	common first-person pronoun (feminine/informal)
-ジブリ	drop	Studio Ghibli, a company/brand name
+ジブリ	keep	world-famous animation studio, talked about as an institution
 東側	keep	common word meaning "east side"
 エンタテインメント	keep	common loanword "entertainment"
 正に	keep	common adverb "indeed/precisely", mistagged as PROPN
@@ -479,28 +479,28 @@ NTTドコモ	drop	company name (NTT Docomo)
 バスタオル	keep	common compound noun "bath towel", mistagged as proper noun
 青少年	keep	common word meaning "youth/adolescents"
 アイフォン	drop	brand name for a specific product (iPhone), not genericised
-日テレ	drop	broadcaster name (Nippon TV), an organisation
+日テレ	keep	major national broadcaster
 レッグ	keep	established katakana loan (leg), common sense used in compounds like レッグウォーマー
-ホットヨガ	keep	real word (hot yoga), spammy distribution doesn't make it junk
+ホットヨガ	keep	common word for a type of yoga, tagger mistook it for a name
 江	drop	no examples given; counts look name-concentrated, common sense ("inlet/river") not shown
 スカイプ	drop	named product/app (Skype), not a genericised term
 チャイナドレス	merge:チャイナ	all occurrences actually written as clipped チャイナ, not as チャイナドレス, used generically ("China-style")
 積み木	keep	real word (building blocks), diversity is incidental
-クック	drop	all examples are people/company names (Cook, クックパッド)
+クック	drop	examples are all personal names/brand names, no common-noun use shown
 相対的	keep	ordinary adjective, PROPN tag is an error
 フランク	keep	common loanword adjective "frank/candid", also widely used name but common sense is established
 島田	drop	examples are surnames of individuals, not place usage
-小田急	drop	named railway company
+小田急	drop	primarily used as named facility (railway line/stations), not as general institution
 セイコー	drop	brand name (Seiko), not genericised
 サスペンス	keep	common loanword for the genre "suspense"
 ジュエル	keep	established loanword "jewel" used generically beyond the product names
 ニコ	drop	examples are brand/product and character dialogue tag, a name
 自営業	keep	ordinary common noun "self-employed", PROPN tag is an error
-京成	drop	named railway company
-豊胸	keep	real word (breast augmentation), spammy context is incidental
-ジャニ	drop	slang clip referring to the Johnny's talent agency (a named organisation)
+京成	drop	primarily used as named facility (railway line/stations), not as general institution
+豊胸	keep	real everyday word (breast augmentation); keep despite spammy example spread
+ジャニ	merge:ジャニーズ	clipped colloquial form referring to Johnny's idols/agency
 ピカピカ	keep	common onomatopoeic adjective, PROPN tag is an error
-電通	drop	named advertising company
+電通	keep	major household-name advertising corporation, institution
 火星	keep	ordinary astronomical common noun, not a geographic place name
 三十路	keep	ordinary common noun ("in one's thirties")
 メタリック	keep	common loanword adjective "metallic"
@@ -517,13 +517,13 @@ NTTドコモ	drop	company name (NTT Docomo)
 川島	drop	examples are surnames of individuals (actress/person names)
 ユニオン	keep	established loanword "union"; company names don't remove the common sense
 自撮り	keep	ordinary common noun "selfie", PROPN tag is an error
-名鉄	drop	named railway company
+名鉄	drop	regional private railway company, not a nationally famous institution
 リチウム	keep	common word "lithium"
 ゎ	drop	stylised texting glyph standing for both は and わ, so no single correct merge
 ちょくちょく	keep	common adverb "often", legitimate word despite reduplication shape
-スターバックス	drop	company/brand name (Starbucks)
+スターバックス	keep	household-name corporation, same case as スタバ
 レーン	keep	common word "lane" (bike lane, bowling lane) shown in examples
-アラサー	keep	common slang noun "around 30" in everyday use
+アラサー	keep	established slang word for "around 30", common word mistagged as name
 貴金属	keep	common noun "precious metals"
 飴	keep	common noun "candy"
 ハル	drop	used as person/character name in examples, no common sense shown
@@ -538,7 +538,7 @@ NTTドコモ	drop	company name (NTT Docomo)
 アメブロ	drop	brand/platform name (Ameba Blog)
 荒木	drop	surname (person name) in examples
 トレイル	keep	common loanword "trail" (hiking)
-リノコ	drop	company/brand name, low diversity
+リノコ	drop	minor company name, low-diversity spam
 リブ	keep	common loanword "rib" (clothing feature)
 二の腕	keep	common noun "upper arm"
 ブッシュ	drop	used as person name (Bush) in all examples
@@ -547,15 +547,15 @@ NTTドコモ	drop	company name (NTT Docomo)
 アベノミクス	keep	widely used economic/political term, not a person/place/company/product name
 攻略法	keep	common noun "strategy/walkthrough method"
 マクロス	drop	anime title (work name)
-集英社	drop	company name (publisher)
+集英社	keep	major household-name publishing company
 ツム	drop	brand-specific product term (Disney Tsum Tsum), low diversity
 マザーズ	drop	stock market section name (東証マザーズ), proper noun
 一夏	drop	fictional character name, low diversity
 渋谷駅	drop	named facility (station)
 アカデミー賞	drop	name of a specific award
-スカパー	drop	brand name (satellite broadcasting service)
-立花	drop	used as surname/company name in examples
-ゆうちょ	drop	brand name of Japan Post Bank
+スカパー	keep	major national satellite broadcaster
+立花	drop	surname/minor company name, not a famous institution
+ゆうちょ	keep	Japan Post Bank, nationally famous institution
 レクサス	drop	car brand name (Lexus)
 貸本	keep	common noun "book rental", real word despite low diversity
 名古屋駅	drop	named facility (station)
@@ -566,19 +566,19 @@ NTTドコモ	drop	company name (NTT Docomo)
 ワンダー	drop	only inside brand/person names (Stevie Wonder, ワンダーコーポレーション); no standalone common use in evidence
 紫外	keep	real word meaning "ultraviolet", used in scientific compounds/text
 苑	drop	examples show only name/facility suffix use, not a genuine standalone word
-東映	drop	film/production company name
+東映	keep	major household-name film studio
 ムック	keep	established generic term for a magazine-book hybrid
 風間	drop	surname, all examples are person names (spam adult listings)
 ライム	keep	common word for the fruit "lime", shown in examples
 スパイラル	keep	common word "spiral", everyday use
-インフォ	drop	only occurs as clipped prefix inside company names (インフォトップ, インフォジャパン, インフォシード)
+インフォ	drop	fragment of compound company names, no standalone use shown
 バイアグラ	drop	specific drug brand name, contrasted with other branded ED drugs rather than used generically
-エス	keep	common katakana word (letter S / slang sense), dictionary common entry
+エス	keep	common word (e.g. "S" in slang) the tagger mistook for a name
 チーク	keep	common word for "cheek" (makeup) shown in examples
 マルイ	drop	department store brand name
 古泉	drop	low diversity plus name-dominated counts (character/person); 三古泉 is only a bound compound element
-五十路	keep	real word for "in one's fifties", kept despite spammy context
-日本テレビ	drop	broadcasting company name
+五十路	keep	real word for someone in their fifties, common despite spammy examples
+日本テレビ	keep	major national broadcaster
 レアル	drop	clipped reference to the club Real Madrid, a sports team name; merging into a droppable name is pointless
 キャンセル料	keep	common word "cancellation fee"
 フルタイム	keep	common word "full-time"
@@ -592,18 +592,18 @@ NTTドコモ	drop	company name (NTT Docomo)
 あかね	drop	all examples are person/performer names, no common-sense use shown
 虚	keep	real standalone word meaning "void/falsity"
 ビア	keep	established loan element "beer", normal in everyday compounds (ビアガーデン, ビアホール)
-京急	drop	railway company name
+京急	drop	regional private railway company, not a nationally famous institution
 ハイツ	keep	common real-estate term for a type of apartment building
 マグカップ	keep	common word "mug (cup)"
-システムズ	drop	only occurs as English plural suffix inside company names
+システムズ	drop	company-name suffix only, not a standalone word
 エコノミー	keep	common word "economy" (class/economic sense)
-小学館	drop	publishing company name
+小学館	keep	major household-name publishing company
 石橋	drop	all examples are person names (surname), no common "stone bridge" sense shown
-サンダー	keep	real loanword with everyday senses (sander tool, thunder); examples are spammy but the word is genuine
-財務省	drop	proper noun: government ministry (organisation), not a place/person
+サンダー	keep	established loanword for thunder, in ordinary and gaming use
+財務省	keep	Ministry of Finance, government institution
 台本	keep	common word "script/screenplay", mistagged PROPN
-エロゲ	keep	common slang word for erotic game, real vocabulary
-ラスボス	keep	common gaming slang "final boss", widely used
+エロゲ	keep	established mainstream slang for adult video games
+ラスボス	keep	established gaming slang for "final boss"
 リズリサ	drop	clothing brand name
 久	drop	counts and examples are a person's given name; common sense rare
 ステークス	keep	generic racing term "stakes", used in everyday horse-racing vocabulary
@@ -612,7 +612,7 @@ NTTドコモ	drop	company name (NTT Docomo)
 ファミマ	drop	convenience-store chain brand name
 顕	drop	person's given name (あきら); common sense not shown
 勇	drop	person's given/family name (いさむ); example is a surname
-アサヒ	drop	beer/company brand name
+アサヒ	keep	major household-name beverage corporation (Asahi)
 現代人	keep	common noun "modern people"
 愛嬌	keep	common word "charm"
 オナ	keep	common colloquial word (abbreviation of オナニー)
@@ -621,43 +621,43 @@ NTTドコモ	drop	company name (NTT Docomo)
 ナット	keep	common word "nut" (hardware)
 ソニック	drop	brand/character name (Sonic)
 キャロル	drop	person's name; examples all proper-noun uses
-厚労省	drop	government ministry (organisation)
+厚労省	keep	Ministry of Health, Labour and Welfare, government institution
 ジョーダン	drop	brand/person name (Jordan)
 チェスト	keep	common furniture word "chest"
 すみれ	keep	common word for the violet flower, shown in examples
-セガ	drop	company brand name (Sega)
-三井住友銀行	drop	bank company name
+セガ	keep	major household-name game company
+三井住友銀行	keep	major national bank, household-name institution
 ハァハァ	keep	real onomatopoeia for panting/breathing
 感謝祭	keep	common noun "Thanksgiving/harvest festival"
 記念館	keep	common noun "memorial hall"
-オリコン	drop	company/brand name (Oricon)
+オリコン	keep	major music-chart company, nationally known institution
 オートバイ	keep	common word "motorcycle"
 ケン	drop	person's name; no common sense shown in examples
 窯	keep	real standalone word "kiln"
 ホイップ	keep	common word "whip(ped cream)"
 ちゃんねる	drop	tied to the 2ちゃんねる/PINKちゃんねる site-name convention, not the generic word チャンネル
 新田	pending-names	district/place-name use predominates in examples
-トメ	keep	dictionary common entry and plausible net-slang word; no evidence it is only a name, default is learnable
+トメ	keep	common slang word (e.g. for mother-in-law) tagger mistook for name
 視覚的	keep	common adjective "visual"
 心筋	keep	common medical noun "myocardium/heart muscle"
 イブ	keep	common word "eve" (as in Christmas Eve), everyday loanword
 リバース	keep	common loanword "reverse" used generally (sports/games terms), not just names
-産経新聞	drop	newspaper company name (organisation)
+産経新聞	keep	major national newspaper, institution
 アイツ	keep	common colloquial pronoun "that guy", shown in examples
 フォレスト	drop	only brand/facility naming in evidence; ordinary word for forest is 森
 旭	drop	all examples are brand/person names; common "rising sun" sense not shown
 シリンダー	keep	common loanword "cylinder", shown in examples
-エロアニメ	keep	real established compound word (erotic anime), not a name
+エロアニメ	keep	established mainstream slang for adult anime
 エンブレム	keep	common loanword "emblem"
 野口	drop	common Japanese surname, all examples are people's names
 昇	drop	no examples; single kanji usually part of words like 上昇/昇る, not standalone
-産経	drop	clipped proper-noun reference to the Sankei newspaper/company
+産経	keep	standard standalone short name of the major newspaper
 あー	keep	common interjection "ah"
 ヴィラ	keep	common loanword "villa"
 植物性	keep	common adjectival noun "plant-based"
 鱗	keep	real standalone word "scale" (うろこ), common idiom usage
-コミュニケーションズ	drop	only seen as company-name suffix ("~Communications"), not standalone word
-公明党	drop	political party (organisation) name
+コミュニケーションズ	drop	company-name suffix only, not a standalone word
+公明党	keep	major nationally known political party, institution
 ハニーズ	drop	clothing brand name
 ラクラク	keep	common adverb "easily"
 安保	keep	common word for "security" (e.g. 日米安保), shown in examples
@@ -672,14 +672,14 @@ NTTドコモ	drop	company name (NTT Docomo)
 志望校	keep	common word "school of one's choice"
 大丸	drop	department store brand name
 錦糸	keep	common sense shown (錦糸卵, golden thread), not purely a place fragment
-ナチス	drop	political organisation name
+ナチス	keep	widely known historical proper noun used generically in discourse
 エステティック	keep	common loanword "esthetic/beauty treatment"
 しまむら	drop	clothing store brand name
 アニソン	keep	common established word "anime song"
 イルビゾンテ	drop	fashion brand name (Il Bisonte)
 マル	keep	common word マル (circle/mark), widely used
 エタノール	keep	common chemical term "ethanol"
-シマノ	drop	bicycle-parts company brand name
+シマノ	drop	niche manufacturer brand, not a broadly famous institution
 プレイステーション	drop	PlayStation is a product brand name
 飛び込み	keep	common word for diving/walk-in/drop-in, not a name
 アルカリ	keep	common chemistry word "alkali"
@@ -688,17 +688,17 @@ NTTドコモ	drop	company name (NTT Docomo)
 ゴーン	drop	refers to person Carlos Ghosn
 獣医	keep	common word for veterinarian
 弘	drop	counts are the personal name Hiroshi; no common-sense use shown
-エニックス	drop	company name (Square Enix)
+エニックス	keep	major household-name video game company (now part of Square Enix)
 ツールバー	keep	common tech word "toolbar"
 ニトリ	drop	furniture retailer brand name
-資生堂	drop	cosmetics company name
+資生堂	keep	major household-name cosmetics corporation
 富裕層	keep	common word "wealthy class"
 松原	keep	common noun "pine grove" shown in examples alongside name uses
 国鉄	keep	used generically for "national railway" of any country, not just one org
 ロレックス	drop	watch brand name
 スムース	keep	common adjective/adverb "smooth", shown in examples
 チームワーク	keep	common word "teamwork"
-高島屋	drop	department store company name
+高島屋	keep	major nationally known department store chain
 ゲーセン	keep	common colloquial word for game center
 俗	keep	real standalone word (俗に言う, 俗に戻る)
 蕎麦屋	keep	common word for soba shop
@@ -711,35 +711,35 @@ NTTドコモ	drop	company name (NTT Docomo)
 ウェスト	keep	common everyday word "waist", despite name-heavy sample
 三郎	drop	predominantly the personal name; generic "third son" sense not everyday
 望遠	keep	common word "telephoto", seen in examples
-デル	drop	company name (Dell), no common sense shown
+デル	drop	minor computer brand; no evidence of a common sense
 ジッパー	keep	common word "zipper"
 ブラザーズ	drop	only occurs as part of titles/names, not a standalone common word
-エレキ	keep	common word "electric" (slang/abbreviation)
+エレキ	keep	common word for electric guitar/electric, tagger mistook for name
 春秋	keep	common word for years/historical era, legitimate common sense shown
 記念品	keep	common word "souvenir/commemorative item"
-ユニセックス	keep	common loanword "unisex"
-文部科学省	drop	specific government ministry, treated as organisation name
+ユニセックス	keep	established katakana loanword for unisex
+文部科学省	keep	famous government ministry
 梁	keep	real standalone word "beam" (architecture)
-内閣府	drop	government organisation name, not person/place but org
+内閣府	keep	famous government body (Cabinet Office)
 グラドル	keep	common word "gravure idol," tagger mistook for name
 スタン	keep	common loanword "stun" (gaming term), romanized forms match
 プー	drop	dictionary entry is a proper noun; no common usage evident
 京都駅	drop	named facility (station)
 またもや	keep	common adverb, tagger mistook for name
-デカイ	keep	common adjective slang "huge," tagger mistook for name
+デカイ	keep	common colloquial adjective, katakana spelling is the attested written form
 ケイ	drop	appears to be a person's given name; no common sense evident
 千秋	drop	counts and variants are person/character names; standalone common sense is rare
-慶応	drop	university name, organisation
-アウディ	drop	car brand/company
+慶応	keep	Keio University, nationally famous institution
+アウディ	drop	foreign car brand/product, not an institution
 ヤミ金	keep	real word "loan shark," despite diversity flag
 ジャスミン	keep	common word for jasmine, shown in examples
 ブリーダー	keep	common word "breeder," tagger mistook for name
 ダイアリー	keep	common loanword "diary"
 デルタ	keep	common geographic term "delta," shown in example
-カプコン	drop	company name
+カプコン	keep	nationally famous major Japanese game company
 アドバンス	keep	common loanword "advance," tagger mistook for name
 千代	drop	all evidence is person/place-name use; common "thousand generations" sense not in everyday use
-クレヨン	keep	common word "crayon," despite spammy product examples
+クレヨン	keep	common word "crayon", tagger mistook for character name
 横浜駅	drop	named facility (station)
 レトルト	keep	common word "retort-pouch," shown in examples
 リバーシブル	keep	common word "reversible," shown in examples
@@ -751,14 +751,14 @@ NTTドコモ	drop	company name (NTT Docomo)
 岡	drop	surname/place component; standalone "hill" is written 丘, no common use shown
 鰻	keep	real standalone word "eel"
 オラクル	keep	common sense "oracle (card)" shown in example, besides company use
-日清	drop	examples are company/compound-name uses, no common sense shown
+日清	keep	common historical term 日清戦争 shows ordinary-use sense alongside company name
 ジョイ	drop	examples are facility/business-name uses, no common sense shown
 ウルフ	keep	common word "wolf" (incl. "ウルフカット" hairstyle), shown in example
 梗塞	keep	common medical term "infarction"
-スク水	keep	common slang word for school swimsuit
+スク水	keep	ordinary word for school swimsuit, tagger mistook for name
 餡	keep	real standalone word "sweet bean paste"
 キュア	keep	common word "cure," tagger mistook for name
-京大	drop	university name, organisation
+京大	keep	Kyoto University, nationally famous institution
 ベイスターズ	drop	sports team name
 心療	merge:心療内科	always appears as part of 心療内科/心療科, a clinical specialty compound; no standalone use shown
 混	drop	bound morpheme/suffix (e.g. ウール混) not a standalone word; no single obvious lemma to merge into
@@ -769,25 +769,25 @@ NTTドコモ	drop	company name (NTT Docomo)
 ベター	keep	established katakana loan "better", common comparative usage
 コンポジション	keep	established loanword "composition", used in art/music contexts
 マカロン	keep	established katakana loan "macaron", common food word
-ミシュラン	drop	brand/company name (Michelin), not genericised into ordinary vocabulary
+ミシュラン	keep	internationally recognized authority (Michelin Guide), used as institution
 ギアス	drop	fictional concept/title term from Code Geass, not a general word
-ダイワ	drop	company brand name (fishing gear / also racehorse name)
+ダイワ	drop	regional/niche company (fishing gear/securities), not an institution
 ボコボコ	keep	common onomatopoeic/adverbial word meaning battered, shown in everyday use
 サラ金	keep	common word for consumer loan companies
 ジャッジ	keep	established loanword "judge", common usage
-東宝	drop	film company name
+東宝	keep	major film studio/theater chain, household-name institution
 ルック	keep	established loanword "look" used in fashion/style contexts
 ミカサ	drop	character name (Attack on Titan), fan-content concentration
 ハナ	keep	katakana idiomatic use shown (ハナから, ハナ声); mixed 端/鼻 origin so no single merge target is obvious
-JR東日本	drop	company/organisation name
-西鉄	drop	railway company name
-労働省	drop	name of a government ministry (organisation)
+JR東日本	keep	major national railway operator, household-name institution
+西鉄	drop	regional private railway company, not nationally famous
+労働省	keep	government ministry body (also historic ministry name)
 槽	keep	standalone word for tank/vat (ふね), parallel to 桶
 サザエ	keep	common sense (turban shell) shown in examples alongside character-title use
 らーめん	merge:ラーメン	kana spelling of the common word whose standard form is katakana
 ケミカル	keep	established loanword "chemical" used descriptively
 マスターズ	keep	generic sports term for masters-level competition, ordinary use shown (マスターズ陸上)
-テレビ朝日	drop	TV network company name
+テレビ朝日	keep	major national broadcaster
 サムライ	keep	established loanword for samurai, common usage beyond names
 腎	keep	standalone medical word for kidney, parallel to 肝/肺
 愛子	drop	personal given name, no common sense
@@ -810,14 +810,14 @@ JR東日本	drop	company/organisation name
 マドンナ	keep	common word for "belle/idol" shown in examples, not just the singer
 若き	keep	ordinary adjective form ("young"), tagger mistook for name
 ロスト	keep	common loanword "to lose", shown in ordinary use
-日大	drop	organization name (abbreviation of Nihon University)
+日大	keep	Nihon University, nationally famous institution
 労務士	merge:社会保険労務士	always occurs as part of clipped 社会保険労務士
 漏	drop	single-char fragment, no examples to confirm a merge target
-アニメイト	drop	anime-goods retail chain (company)
-環境省	drop	government ministry (organization)
+アニメイト	drop	retail chain, minor company
+環境省	keep	government ministry body
 仕分け	keep	common word "sorting/classification", mistagged as name
 キウイ	keep	common fruit name
-ライブドア	drop	company/brand name
+ライブドア	keep	household-name company discussed as an institution
 ツッコミー	merge:ツッコミ	spelling never actually used; real word is ツッコミ
 清純	keep	common adjective-noun "pure/innocent"
 鮎	keep	real standalone fish name
@@ -841,12 +841,12 @@ JR東日本	drop	company/organisation name
 大字	keep	common administrative-unit term
 ピカチュウ	drop	fictional character (Pokémon)
 メダカ	keep	common noun for a fish, tagger mistook it for a name
-コトメ	keep	real colloquial word for sister-in-law (小姑), not spam despite spread
+コトメ	keep	real colloquial word for sister-in-law, genuine despite forum concentration
 ルミネ	drop	department-store brand name
 池袋駅	drop	named station (facility)
 滅	drop	single kanji not used standalone, no examples to confirm a merge target
 オンラインゲーム	keep	ordinary compound noun "online game"
-紹介所	keep	ordinary compound noun (agency/office), spammy contexts aside
+紹介所	keep	real common word (referral/placement agency), kept despite spammy examples
 ビス	keep	common loanword for screw
 小分け	keep	ordinary common noun/verb stem
 ローズマリー	keep	common plant/herb name
@@ -869,14 +869,14 @@ JR東日本	drop	company/organisation name
 ライ	drop	unclear which word this is meant to represent; no examples
 食事処	keep	ordinary compound noun for a dining establishment
 フレックス	keep	common word for flextime/flexible systems
-京セラ	drop	company name
+京セラ	keep	household-name major Japanese electronics corporation
 あじさい	keep	common flower name, tagger mistook it for a name
 銘	keep	single kanji used as a real standalone word (inscription/name)
 フラッグ	keep	common loanword "flag"
 ラクマ	drop	app/marketplace brand name
 ナマ	merge:生	kana spelling of the common word 生 ("raw/live")
 フィギュアスケート	keep	ordinary sports term
-コナミ	drop	company name
+コナミ	keep	nationally famous major Japanese game company
 ジャイアンツ	drop	sports team name
 一条	drop	examples are dominated by personal names, common sense not shown
 ニコ生	drop	named feature of the Niconico platform
@@ -886,7 +886,7 @@ JR東日本	drop	company/organisation name
 巾	keep	standalone word for width/cloth (はば/きれ), shown with real readings, not a clipped piece
 シナ	pending-names	common/place dictionary entry, likely old place name for China (支那)
 スローガン	keep	ordinary loanword "slogan" in everyday use
-エプソン	drop	company/brand name (Epson)
+エプソン	keep	household-name major electronics corporation
 ウンコ	keep	common (if vulgar) everyday word for poop
 サーカス	keep	common word "circus"
 水玉	keep	common word for polka dot
@@ -895,13 +895,13 @@ JR東日本	drop	company/organisation name
 蕾	keep	common standalone word for flower bud
 ホットヨガスタジオ	drop	transparent ad-boilerplate compound concentrated in chain advertising, not a lexical item
 千鳥	keep	common word for plover, shown in 千鳥格子; comedy-duo usage is secondary name sense
-ブックオフ	drop	company name (bookstore chain)
+ブックオフ	drop	bookstore chain, minor company
 アナリティクス	keep	established loanword "analytics," used generically beyond the Google product
 コンパイル	keep	common tech word "compile"
 礎	keep	common standalone word "ishizue" (foundation/cornerstone)
 ペアーズ	drop	brand name of a dating app
 コロナウイルス	keep	generic biology term for coronavirus, not just a product/brand
-経済産業省	drop	government ministry = organisation name
+経済産業省	keep	government ministry body
 紬	keep	real word for tsumugi silk fabric
 あはは	keep	common laughter interjection
 ザク	drop	fictional mecha name from Gundam
@@ -909,29 +909,29 @@ JR東日本	drop	company/organisation name
 関空	drop	named facility (Kansai Airport) abbreviation
 河口	keep	common word for river mouth/estuary, shown in examples
 マーメイド	keep	common loanword "mermaid"
-ルーク	drop	only shown as a person name (Star Wars character) or company name
+ルーク	drop	character/company name; no evidenced common sense (e.g. chess rook) in examples
 儀	drop	no examples found; standalone 儀 is rarely written alone outside bound compounds
 ユニットバス	keep	established Japanese term for a prefab bath unit
 セルフケア	keep	common word "self-care"
 デスクワーク	keep	common word "desk work"
 小中学生	keep	common compound "elementary and junior high students"
-わきが	keep	real medical/body term for underarm odor despite spammy context
-金融庁	drop	government agency = organisation name
+わきが	keep	real everyday word for body odor, kept despite spammy spread
+金融庁	keep	government agency (Financial Services Agency)
 キッド	drop	only shown as part of a wrestler's nickname; no common "kid" sense in evidence
 ベルタ	drop	low-diversity brand name (maternity-wear brand)
 モラハラ	keep	common word "moral harassment"
 笹	keep	real standalone word (bamboo grass)
-スカトロ	keep	established common slang/loan term, not a name
+スカトロ	drop	adult fandom/web-spam jargon, not ordinary reading
 禿	keep	real standalone word (baldness)
 スリッポン	keep	common loanword for slip-on shoes
 リクナビ	drop	brand name of a job-search service
 ストッパー	keep	common loanword "stopper"
 マンスリー	keep	common loanword "monthly", used in everyday terms like マンスリーマンション
 インディアン	keep	common ethnic term, everyday use shown in examples
-ショタ	keep	established common slang term, tagger mistook for name
+ショタ	drop	adult fandom/web-spam jargon, not ordinary reading
 靖国	drop	refers to Yasukuni Shrine, a named facility rather than a geographic place
 アルミン	drop	fictional character name (Attack on Titan)
-気象庁	drop	government organisation name
+気象庁	keep	government agency (Japan Meteorological Agency)
 民進党	drop	political party name
 あま	keep	appears to be a common word (e.g. 尼/海女) mistagged as name
 スキャナー	keep	common loanword "scanner"
@@ -947,7 +947,7 @@ JR東日本	drop	company/organisation name
 ちゃんぽん	keep	common word for the noodle dish
 足取り	keep	common word "gait/trail", mistagged as name
 成田空港	drop	named facility (airport)
-サンリオ	drop	company name
+サンリオ	keep	globally iconic entertainment company, household-name institution
 禅	keep	real standalone word (Zen)
 スパイダーマン	drop	character/title name
 フレキシブル	keep	common loanword "flexible"
@@ -959,7 +959,7 @@ JR東日本	drop	company/organisation name
 五郎	drop	person's given name
 ティアラ	keep	common loanword "tiara"
 ニュートラル	keep	common loanword "neutral"
-ファクタリング	keep	real financial term despite spammy/low-diversity context
+ファクタリング	keep	real financial term (factoring of receivables), not just spam
 ミナミ	pending-names	Osaka district name (Minami), used as place in all examples
 モンスト	drop	game app brand name (Monster Strike)
 昭	drop	single kanji with no examples; likely name/era-name fragment, not a standalone word
@@ -967,15 +967,15 @@ JR東日本	drop	company/organisation name
 塾講師	keep	common word "cram-school instructor"
 安倍晋三	drop	person name (former PM)
 山荘	keep	common noun "mountain villa/lodge", everyday use despite proper-name examples
-花王	drop	company brand (Kao Corp), not genericised
+花王	keep	major household-name corporation (Kao)
 設	drop	single kanji fragment with no examples to confirm a merge target
 じゃらん	drop	travel website/app brand name
 服薬	keep	common word "taking medication"
 アイシャドウ	keep	established katakana loanword "eyeshadow"
 ボカロ	keep	genericised common term for Vocaloid-style music/characters, widely used as ordinary word
-ジオン	drop	fictional faction/organisation name (Gundam)
+ジオン	drop	fictional faction name (Gundam), not real-world place/institution
 排	drop	single kanji fragment with no examples to confirm a merge target
-ライザップ	drop	fitness company brand name
+ライザップ	drop	minor company/brand (fitness service), not a famous institution
 詞	keep	real standalone word "lyrics/words", shown in example
 大吉	keep	common word "best fortune" (おみくじ), everyday use shown in example
 ガンバ	drop	named sports team (Gamba Osaka)
@@ -987,9 +987,9 @@ JR東日本	drop	company/organisation name
 アシックス	drop	shoe brand name
 チャンピオンズ	drop	part of named league (Champions League), not standalone word
 札幌駅	drop	named facility (train station)
-学研	drop	publishing company brand name
+学研	keep	major household-name educational publisher
 マンコ	keep	real (vulgar) common noun, tagger mistook for proper noun
-テレ朝	drop	broadcaster brand abbreviation (TV Asahi)
+テレ朝	keep	major broadcaster nickname (TV Asahi)
 ニッケル	keep	common word, chemical element "nickel"
 メンバーズ	drop	English plural occurring inside membership-card and club brand names, not an independent word
 衿	keep	real standalone word "collar" (variant of 襟)
@@ -1033,14 +1033,14 @@ JR東日本	drop	company/organisation name
 ユー	drop	romanized pronoun transliteration, not an established Japanese word
 痔	keep	standalone common word for hemorrhoids
 スラックス	keep	common loanword for slacks/trousers
-テレビ東京	drop	broadcaster/company name (TV Tokyo)
+テレビ東京	keep	major broadcaster
 シフト制	keep	ordinary common noun "shift system"
 イー	drop	unclear interjection/sound, no clear standalone word sense
 サガ	keep	common loanword "saga" (legend/story), sense present in examples
 モバゲー	drop	platform/brand name (Mobage)
 月見	keep	ordinary common noun for moon-viewing
 アリア	drop	examples are character/title names, musical "aria" sense not shown
-ダイエー	drop	proper noun, supermarket chain company name
+ダイエー	keep	major household-name supermarket chain
 河川敷	keep	common noun for riverside/floodplain land, mistagged PROPN
 メイプル	keep	common katakana loan (maple flavor/tree), everyday use
 デカール	keep	common word for "decal", everyday use
@@ -1058,7 +1058,7 @@ JR東日本	drop	company/organisation name
 トトロ	drop	fictional character name (Ghibli)
 リヴァイ	drop	fictional character name (Attack on Titan)
 腱	keep	real standalone word "tendon"
-ブリヂストン	drop	company name (tire manufacturer)
+ブリヂストン	keep	major household-name tire company
 ヤンキース	drop	sports team name
 ギネス	drop	brand name (Guinness)
 バットマン	drop	fictional character name
@@ -1084,12 +1084,12 @@ JR東日本	drop	company/organisation name
 萬	merge:万	old-style kanji variant of 万 "ten thousand", seen in "20萬"
 極東	keep	common geographic term "the Far East", dictionary has only common entries
 ジャケ	merge:ジャケット	clipped slang for album/clothing jacket, as in the example
-ステマ	keep	established slang word for stealth marketing, common usage in examples
+ステマ	keep	common internet slang for stealth marketing, mistagged as proper noun
 和子	drop	all examples are a person's given name
-ナムコ	drop	video game company name
+ナムコ	keep	major household-name video game company
 アンバサダー	keep	common loanword "ambassador", widely used
 フロート	keep	common loanword "float" (drink/object), used generically
-栞	keep	real standalone word meaning bookmark, despite spammy name examples
+栞	keep	real standalone word meaning bookmark
 緒方	drop	examples show only surname/person usage
 ローンチ	keep	common loanword "launch" used generically for product releases
 Windows XP	drop	named software product
@@ -1101,14 +1101,14 @@ Windows XP	drop	named software product
 オチンチン	keep	real (informal) Japanese word, common colloquial usage
 すき家	drop	restaurant chain brand name
 椀	keep	real standalone word meaning bowl
-ベネッセ	drop	company name
+ベネッセ	keep	major household-name education company
 閃	drop	no clear standalone common usage; examples only reference a work title
 イタリア人	keep	common demonym noun "Italian person"
 蟻	keep	common word for ant
 イノシシ	keep	common word for wild boar
 インド人	keep	common demonym noun "Indian person"
 恥じらい	keep	common noun meaning bashfulness/shyness
-ダンロップ	drop	tire company brand name
+ダンロップ	keep	major household-name tire company
 評	keep	real standalone word meaning "reputation/comment"
 耳鼻	merge:耳鼻咽喉科	bound element clipped from 耳鼻咽喉科 in every example
 祖	keep	real standalone noun "founder/ancestor" (元祖 sense used alone in writing)
@@ -1120,7 +1120,7 @@ Windows XP	drop	named software product
 氣	merge:気	old-style kanji variant of 気
 宮廷	keep	common noun meaning "royal court/palace"
 正真	merge:正真正銘	examples show it only as part of 正真正銘; the 正真性 use is marginal
-文科省	drop	government ministry, an organisation name
+文科省	keep	government ministry (institution)
 ジャグラー	keep	common word for juggler/performer, tagger mistook brand usage for name (like ドラマー)
 マッシュルーム	keep	common food word
 凪	keep	real standalone word meaning calm sea
@@ -1132,23 +1132,23 @@ Windows XP	drop	named software product
 平山	drop	surname, person name
 鼠	keep	real standalone word for rat/mouse
 ラシット	drop	brand name (russet leather goods)
-巴	drop	examples are all company names (巴商会 etc.), no common sense attested
+巴	keep	real common word (tomoe pattern/swirl) in everyday use
 山手	keep	common word for hilly/uptown area of a city, shown in examples
-ネトゲ	keep	common slang for online game
-ハプニングバー	keep	real term for a type of venue, not spam/fan text
+ネトゲ	keep	common slang for online game, mistagged as proper noun
+ハプニングバー	drop	niche adult-venue jargon mostly from spam, like デリヘル
 田植え	keep	common word for rice planting
 散	drop	no examples; likely clipped from compound like 散歩/散る
 仔	keep	real standalone word for a young animal/child, shown in example (あの仔)
 ウィッチ	keep	common loanword for witch
 グルテン	keep	common word, food science term
 バイザー	keep	common word for visor
-松竹	drop	film company name
+松竹	keep	major historic entertainment/film company (institution)
 ライジング	drop	counts are titles/product names (デッドライジング, セルフライジングフラワー), not a standalone Japanese word
 ロータス	drop	usage is brand/product naming; Japanese ordinary word for the flower is 蓮/ハス
 応	drop	no examples; likely clipped from compound like 対応/反応
 ボンボン	keep	common word for a pampered rich kid (and candy), shown in example
 利口	keep	common adjective-noun meaning clever
-社民党	drop	political party, an organisation name
+社民党	keep	well-known political party (institution)
 美顔	keep	common word used in beauty/skincare contexts
 ネクスガードスペクトラ	drop	pet medication brand name, concentrated/spammy
 厚切り	keep	common word for thick-cut
@@ -1162,7 +1162,7 @@ Windows XP	drop	named software product
 デュレーション	keep	real financial term (bond duration)
 鎖骨	keep	common anatomical word, PROPN tag mistaken
 テストステロン	keep	common biology/health loanword
-国税庁	drop	government organisation name
+国税庁	keep	government agency (institution)
 木星	keep	common word for the planet Jupiter, not a geographic place name
 ルンバ	keep	common loanword "rumba" (dance), also brand use but word itself is real
 ハイム	drop	used as building-name suffix / personal name, no common standalone sense shown
@@ -1177,7 +1177,7 @@ Windows XP	drop	named software product
 ハロウィーン	keep	established loanword "Halloween"
 シースリー	drop	beauty-salon brand name, low-diversity spam
 高周波	keep	common technical word "high frequency"
-東京電力	drop	company name (TEPCO)
+東京電力	keep	major household-name utility company (TEPCO)
 ソート	keep	common computing loanword "sort"
 操	keep	real standalone word (fidelity/chastity)
 マトリックス	keep	established loanword "matrix"
@@ -1198,22 +1198,22 @@ Windows XP	drop	named software product
 ジオラマ	keep	common loanword "diorama"
 マキ	keep	common word for the maki tree, shown in the example
 リムジン	keep	common loanword "limousine"
-共和党	drop	political party name (organisation)
+共和党	keep	major well-known political party (institution)
 ハヤテ	drop	examples show only the anime character, common "gust of wind" sense absent
 スカッ	merge:スカッと	onomatopoeic stem of スカッと, mistagged PROPN from product-name examples
 牧	drop	only example shows 李牧 (person name); no evidence of genuine standalone common-noun use
 西暦	keep	common word "Western calendar year", shown in ordinary use
 シャイン	drop	only appears inside brand/product names (フィールドシャイン, シャインバイオレット, シャインマスカット), not used as a standalone common word
-マネックス	drop	brokerage company name (Monex)
+マネックス	drop	minor brokerage company, not a famous institution
 レフカメラ	merge:一眼レフカメラ	all examples are 一眼レフカメラ; レフカメラ is a clipped fragment of that compound
-サンワ	drop	company name (Sanwa Supply)
+サンワ	drop	minor computer-accessory brand company
 愛しい	keep	common adjective "dear/lovely", used in ordinary text
 賃貸借	keep	common legal/real-estate term "lease"
 通りすがり	keep	common word "passerby"
 チンピラ	keep	common word "petty thug"
-ソフマップ	drop	company/store name (Sofmap)
+ソフマップ	drop	minor electronics retailer
 テーラー	keep	established loanword "tailor"
-評議員	keep	common word "council member/trustee"; diversity is just concentrated spam text, word itself is real
+評議員	keep	real common word (council member/trustee)
 大樹	keep	common-sense use shown ("大樹に寄り添って"), not just the person name
 メル	drop	no example establishes a common sense; name fragment
 尚且つ	keep	common conjunction "moreover"
@@ -1230,7 +1230,7 @@ Windows XP	drop	named software product
 仙台駅	drop	named facility (train station)
 斑	keep	real standalone word "spot/mottling" (まだら/はん/ふ), despite some name-usage examples
 なんだ	keep	very common colloquial copula/interjection form
-リコー	drop	company name (Ricoh)
+リコー	keep	major household-name electronics company
 モルト	keep	common loanword "malt"
 大江戸線	drop	named subway line
 グ	drop	single mora fragment, no example to identify source word
@@ -1243,13 +1243,13 @@ Windows XP	drop	named software product
 スグ	keep	common adverb すぐ mistagged as a name; katakana spelling is ordinary usage
 其	drop	not used alone in modern Japanese; clipped from 其の/其ノ/其れ with no single target
 峡	drop	mostly appears as a place-name suffix (松尾峡, 鳳来峡), not a standalone word in general use
-ビカム	drop	company/site name (BECOME), not a learner's word
+ビカム	drop	company name (video/DVD retailer), not a common word in use
 躾	keep	real standalone word しつけ "discipline, manners"
 松茸	keep	common noun for matsutake mushroom, mistagged as name
 公明	drop	examples show only party/person-name uses, no everyday "fairness" sense shown
 ノーズ	keep	common loanword "nose" (board/car/etc.), mistagged as name
-警察庁	drop	proper noun organisation (National Police Agency)
-オカマ	keep	established common slang word
+警察庁	keep	government agency (institution)
+オカマ	keep	common colloquial word, mistagged as proper noun
 トライアングル	keep	common noun "triangle" (shape/instrument), mistagged as name
 受託者	keep	real legal term "trustee"; diversity is incidental to legal-document topic
 シネマズ	drop	part of TOHOシネマズ brand/facility name
@@ -1258,7 +1258,7 @@ Windows XP	drop	named software product
 アロエ	keep	common noun "aloe"
 リンチ	keep	common noun "lynching/violent punishment" in everyday use, not just the surname
 山盛り	keep	common noun "heap, pile"
-発振	keep	real technical term "oscillation"; concentration is topical, not spam
+発振	keep	real technical word (oscillation)
 ヤル気	merge:やる気	emphatic katakana spelling of common word やる気
 許	drop	single kanji with no examples; もと sense almost never written alone as a word
 霜	keep	real standalone word "frost"
@@ -1270,11 +1270,11 @@ Windows XP	drop	named software product
 源流	keep	common noun "source, headwaters"
 神経系	keep	common noun "nervous system"
 ノートブック	keep	common loanword "notebook"
-同志社	drop	proper noun, university name
+同志社	keep	nationally famous university
 味の素	keep	used generically as the ordinary word for the seasoning in recipe contexts
 ウィキ	keep	common word "wiki"
 モッピー	drop	brand name of a point site, not in dictionary
-東京メトロ	drop	proper noun, company/organisation name
+東京メトロ	keep	major transportation institution (subway operator)
 正絹	keep	common noun "pure silk"
 東横	drop	clipped brand name (東横イン hotel chain / Toyoko Line), not standalone common word
 ウォールナット	keep	common noun for walnut wood material
@@ -1289,7 +1289,7 @@ Windows XP	drop	named software product
 十二分	keep	ordinary adjectival noun "ample/plenty"
 升	keep	standalone unit word "masu"
 ソルト	keep	common loanword for "salt" in product naming, glossed as 塩 in examples
-経団連	drop	business federation organisation name
+経団連	keep	nationally famous institution (Keidanren business federation)
 エデン	pending-names	biblical/mythical place name "Eden"
 ボ	drop	not a standalone word
 しまじろう	drop	children's character/mascot name
@@ -1305,7 +1305,7 @@ Windows XP	drop	named software product
 朝廷	keep	ordinary historical term "imperial court"
 ゲートウェイ	keep	ordinary word "gateway"
 スウォッチ	drop	watch brand name
-オリオン	drop	used as company/brand name (Orion Denki) in examples
+オリオン	drop	all examples are brand uses (Orion Electric, Orion beer); no common constellation sense shown
 東京ビッグサイト	drop	named convention facility
 読み切り	keep	ordinary publishing term "one-shot (story)"
 牝	keep	standalone word "female (animal)"
@@ -1323,7 +1323,7 @@ Windows XP	drop	named software product
 アカデミア	keep	common word for "academia/academic world", shown in examples beyond the institution name
 エディ	drop	person name, no common-word evidence
 朝陽	keep	common word "morning sun" shown in an example, not just a name
-スクショ	keep	common slang noun "screenshot" used everywhere
+スクショ	keep	established slang word for "screenshot"
 クリスタ	drop	Attack on Titan character name in all examples
 ベクレル	keep	common scientific unit (becquerel)
 ミニマル	keep	common loanword adjective "minimal"
@@ -1336,9 +1336,9 @@ Windows XP	drop	named software product
 エステル	keep	established loanword "ester" (chemistry) plus common usage; single name example not decisive
 テーマソング	keep	common word "theme song"
 欧風	keep	common adjective/noun "European-style"
-法務省	drop	government organisation name
+法務省	keep	ministry (government body)
 ヨーロピアン	keep	common loanword adjective "European"
-スクエニ	drop	company name (Square Enix)
+スクエニ	drop	katakana clipping of スクウェア・エニックス; full form not shown, company name not institution-level
 ベア	keep	common loanword "bear"
 伊吹	pending-names	place name (伊吹山/伊吹島) is among the senses, so the names list decides
 水木	keep	common sense shown as "Wed-Thu (drama slot)" alongside name uses
@@ -1367,7 +1367,7 @@ Windows XP	drop	named software product
 ニコ動	drop	clipped name of the website ニコニコ動画
 ハイランド	keep	established geographic loanword, shown in generic use (ハイランド王国)
 獄	keep	standalone literary word for "prison"
-ヤマザキ	drop	company name (Yamazaki Baking)
+ヤマザキ	keep	major household-name corporation (Yamazaki Baking)
 ニンジャ	keep	common loanword "ninja"
 ヨロシク	keep	common よろしく in katakana, mistagged; katakana form is the written word here
 ケノン	drop	spammy brand name of a hair-removal device
@@ -1399,14 +1399,14 @@ Windows XP	drop	named software product
 サロペット	keep	common fashion term "overalls/salopette"
 杏仁	keep	common word "almond" (as in 杏仁豆腐)
 イーグルス	drop	sports team name (Tohoku Rakuten Golden Eagles)
-日航	drop	company name (Japan Airlines)
+日航	keep	major airline company, household-name institution (Japan Airlines)
 キャディ	keep	common word for golf caddy, everyday loanword
 山林	keep	common noun meaning woodland/forest, mistagged PROPN
 ぷるぷる	keep	common onomatopoeia for jiggly/wobbly texture
 ハイウェイ	keep	established katakana loanword for highway
 縞	keep	real standalone word meaning stripe, used alone and in compounds
 とろとろ	keep	common onomatopoeia for gooey/melty texture
-ユネスコ	drop	organisation name
+ユネスコ	keep	famous international institution (UNESCO)
 妖	keep	standalone word あやかし/妖 with strong reading evidence
 日比谷線	drop	named facility (train line)
 決	drop	no examples; appears to be a fragment, not a standalone word
@@ -1428,7 +1428,7 @@ Windows XP	drop	named software product
 ノロウイルス	keep	ordinary common noun for norovirus
 杢	keep	standard term for mottled/heather fabric colour, used standalone in fashion
 サイヤ	drop	fictional race name tied to a specific work's characters
-防衛省	drop	organisation (government ministry) name
+防衛省	keep	ministry (government body)
 テンプル	keep	common word for eyeglass temple/arm, everyday sense in use
 タイタン	drop	used only as product/title/mythological proper noun, no common sense shown
 新店舗	keep	common noun meaning new store/branch
@@ -1457,7 +1457,7 @@ Windows XP	drop	named software product
 トロイ	keep	common adjective とろい appears, and カタカナ トロイ is the written form here; place sense not dominant
 石膏	keep	common noun "plaster/gypsum"
 エイプリル	merge:エイプリルフール	all examples are the clipped compound "April Fool's", not standalone "April"
-ミクシィ	drop	company/website name (mixi)
+ミクシィ	drop	named social-network website/service
 利根	pending-names	predominantly the river/place name (利根川) and place listings
 アスパラガス	keep	common noun, established loanword
 中等	keep	common word ("secondary" in 中等教育 etc.)
@@ -1472,7 +1472,7 @@ Windows XP	drop	named software product
 コンドミニアム	keep	common loanword "condominium"
 丑	keep	real standalone word (zodiac sign ox)
 フォークリフト	keep	common loanword "forklift"
-エレコム	drop	company/brand name (Elecom)
+エレコム	drop	minor electronics-accessory company name
 覚	drop	no examples; standalone 覚 is rare outside Buddhist/name use
 寒冷地	keep	common noun ("cold region")
 ほうじ茶	keep	common noun (roasted tea)
@@ -1480,20 +1480,20 @@ Windows XP	drop	named software product
 洋食屋	keep	common noun ("Western-style restaurant")
 清涼	keep	common adjectival noun ("refreshing/cool")
 稲田	keep	ordinary noun "rice field" alongside the surname sense
-立命館	drop	university name, named institution
-ガーディアン	drop	counts are the newspaper/brand name, no clear everyday common-noun use shown
+立命館	keep	nationally known university
+ガーディアン	keep	established katakana loan "guardian" with a common dictionary sense in general (game/fiction) use
 セレッソ	drop	sports team name
 砂丘	keep	common noun "sand dune"
 補	drop	single character, no examples to support a word or merge target
-ホープ	drop	examples are all company/brand names, no common "hope" use shown
+ホープ	keep	common loanword in everyday use (若手のホープ); common word the tagger mistook for a name
 明智	drop	examples are all person-name uses (Akechi Mitsuhide, fictional detective)
-グリコ	drop	confectionery company brand name
-桐蔭	drop	school name
+グリコ	keep	major household-name confectionery corporation (Glico)
+桐蔭	drop	named school facility (大阪桐蔭), not an institution in the kept categories
 ベイビーズ	drop	spammy shop/service names, low diversity
-帝京	drop	university name
-日商	drop	abbreviation for an organization (日本商工会議所)
+帝京	drop	fragment of a university/school name, not a nationally iconic institution nor an everyday word
+日商	keep	abbreviation for Japan Chamber of Commerce and Industry, a famous institution (also in 日商簿記)
 合気道	keep	common word, martial art
-山村	drop	examples are all surname/company uses, common "mountain village" sense not shown
+山村	drop	common-noun sense ("mountain village") not shown in examples; only person/company name uses
 橋梁	keep	common technical word for "bridge"
 ドン・キホーテ	drop	retail chain brand name
 ボーイング	drop	aircraft manufacturer brand name, not used generically for "airplane"
@@ -1507,8 +1507,8 @@ Windows XP	drop	named software product
 パワーポイント	drop	specific software brand, not used generically
 リズ	drop	personal name, no examples of common use
 串かつ	keep	common food word
-国交省	drop	government ministry abbreviation (organization)
-ウィルコム	drop	telecom company brand name
+国交省	keep	ministry (government body)
+ウィルコム	drop	minor telecom company (defunct PHS carrier)
 バゲット	keep	common loanword for baguette
 ヴィレッジ	keep	common loanword "village", used as ordinary word in compounds
 高瀬	drop	examples are all personal-name uses, no clear place/common use shown
@@ -1517,24 +1517,24 @@ Windows XP	drop	named software product
 弱酸性	keep	common chemistry/skincare term
 歪	keep	real standalone word for "distortion", shown in example
 ホワイトハウス	drop	named facility (building)
-京都大学	drop	university name
+京都大学	keep	nationally famous university (Kyoto University)
 イメクラ	keep	established common term for a type of shop/service
 フレーク	keep	common noun "flake" (food), shown in examples
 アイライン	keep	common cosmetics word mistagged as proper noun
 エアポート	keep	common loanword "airport"
 シルキー	keep	common loanword "silky"
-テレ東	drop	TV Tokyo, company/brand name
+テレ東	keep	major national broadcaster (TV Tokyo)
 斎	drop	fragment with only name readings, no standalone common use
 ハイビスカス	keep	common flower name
 フィラリア	keep	common veterinary/medical term
-博報堂	drop	advertising company name
+博報堂	keep	major household-name advertising corporation
 痰	keep	real standalone word (phlegm)
 悦	keep	real word, used in idiom 悦に入る
 浅田真央	drop	person name (figure skater)
 ミソ	keep	common idiomatic word (the key point)
-文化庁	drop	government agency name
+文化庁	keep	government agency (Agency for Cultural Affairs)
 イナゴ	keep	common noun (locust)
-マツエク	keep	common slang word for eyelash extensions
+マツエク	keep	common beauty term for eyelash extensions
 送	drop	fragment, no examples to confirm merge target
 すり	keep	real word (pickpocket/grated), common sense
 皺	keep	real standalone word (wrinkle)
@@ -1557,18 +1557,18 @@ Windows XP	drop	named software product
 ハイブリッド車	keep	common compound noun
 和平	keep	common noun (peace/peace accord)
 エスパー	keep	common loanword "esper/psychic"
-スケスケ	keep	common slang adjective (see-through)
+スケスケ	keep	common adjective/word meaning "see-through"
 ログハウス	keep	common noun (log house)
 如月	keep	standard classical word for February, common dictionary sense
 仁王	keep	common word in 仁王立ち, real Buddhist-guardian term despite PROPN mistag
 ヌ	drop	bare kana character, not a standalone word
 レビトラ	drop	drug brand name (Levitra)
-東邦	drop	evidence is only company-name component, no everyday common use
+東邦	drop	occurs only inside company/school names; no everyday common-noun use
 足袋	keep	common word for tabi socks, tagger mistook for name
 イージス	keep	common loanword "Aegis" (shield/system), shown in everyday use (イージス艦)
 バフェット	drop	person name (Warren Buffett)
 サーベル	keep	common loanword "saber", real word for sword
-タカラトミー	drop	company name
+タカラトミー	keep	major household-name toy corporation
 名探偵コナン	drop	title of a work
 夢展望	drop	brand/shop name
 表情筋	keep	common anatomical term (facial muscles), mistagged PROPN
@@ -1578,9 +1578,9 @@ Windows XP	drop	named software product
 キャロウェイ	drop	brand/person name (Callaway)
 川崎駅	drop	named facility (train station)
 河童	keep	common mythological creature word, widely used
-経産省	drop	government ministry (organisation name)
+経産省	keep	ministry (government body)
 龍神	keep	common mythological/religious term "dragon god", shown in everyday use
-コクヨ	drop	company name (Kokuyo)
+コクヨ	keep	major household-name stationery corporation
 ディティール	keep	common loanword "detail" (design/fashion), mistagged PROPN
 水星	keep	common astronomical term "Mercury"
 バイオレット	keep	common loanword "violet" (color), shown in everyday use
@@ -1590,7 +1590,7 @@ Windows XP	drop	named software product
 轟	drop	only shown as a surname in examples, no common standalone sense evidenced
 レガシィ	drop	car model name (Subaru Legacy) in all examples
 卍	keep	real standalone symbol/word (manji), shape exception
-スポニチ	drop	newspaper brand name
+スポニチ	keep	nationally known newspaper institution, and スポニチ is the ordinary name Japanese use
 ハイキュー	drop	title of a work
 ボルボ	drop	car brand name
 オバ	merge:おばさん	katakana clip of おばさん shown in the example; オバ alone is not a word
@@ -1598,7 +1598,7 @@ Windows XP	drop	named software product
 駄	drop	no example evidencing standalone use; normally a bound morpheme (駄菓子, 駄目)
 トロン	drop	no clear common-sense evidence; appears to be a name/title reference
 京王線	drop	named facility (train line)
-りそな	drop	bank name
+りそな	keep	major household-name bank (Resona)
 ハンパ	keep	common word 半端 "incomplete/excessive", mistagged PROPN
 プロパンガス	keep	common compound word for propane gas, not really a name
 聞	drop	single char with no standalone common use shown
@@ -1614,10 +1614,10 @@ Windows XP	drop	named software product
 レオパード	keep	established loanword for leopard print/pattern
 大剣	keep	common term for a greatsword, used generically
 ルーティン	keep	common loanword "routine"
-上智	drop	counts are the university name (organisation); classical sense not in everyday use
-中共	drop	name for Chinese Communist Party (organisation)
+上智	keep	clipped name for Sophia University, a nationally famous university
+中共	keep	common informal name for the Chinese Communist Party/regime, a major political institution
 昴	keep	real standalone word for the Pleiades star cluster
-西友	drop	supermarket chain name (company)
+西友	drop	supermarket chain, not a household-name institution
 マグナ	drop	all uses are game/brand proper nouns, no everyday loanword sense
 高砂	keep	has genuine common sense (wedding seat of honor) shown in examples
 エレクトリック	keep	used as ordinary descriptive word (エレクトリックピアノ), not just a brand
@@ -1631,10 +1631,10 @@ Windows XP	drop	named software product
 葱	keep	real standalone word for leek/scallion
 アルス	drop	only example is a proper-noun building name component
 グルグル	keep	common onomatopoeia "round and round"
-スワローズ	drop	baseball team name (organisation)
+スワローズ	drop	sports team name
 ホーリー	drop	team/character/spell names; no established standalone loanword use
 びしょびしょ	keep	common adjective "soaking wet"
-ワタミ	drop	company name (Watami)
+ワタミ	drop	minor restaurant/company name
 石灰	keep	common word for lime
 離	drop	single char, no standalone common use shown
 伯	drop	single char, no standalone common use shown
@@ -1657,19 +1657,19 @@ Windows XP	drop	named software product
 エアリー	keep	common fashion adjective "airy", loanword in everyday use
 ジープ	keep	genericised word for jeep-type vehicle
 榊	keep	real standalone word "sakaki" (sacred tree)
-日本経済新聞	drop	newspaper/company name
+日本経済新聞	keep	major national newspaper, institution-level fame
 高見	drop	examples show surname/person use, common "vantage" sense absent
 クジラ	keep	common word "whale"
 ペニクリ	drop	adult-content slang concentrated in spam text
-エイベックス	drop	company name
+エイベックス	keep	major household-name Japanese music corporation talked about as an institution
 接	drop	single character fragment, no examples to confirm merge target
-オワコン	keep	established internet slang "played-out/over"
-キャニオン	drop	examples all show company name ポニーキャニオン, common sense not shown
+オワコン	keep	common slang word, tagger mistook it for a name
+キャニオン	drop	cut fragment of the company name ポニーキャニオン, which is itself not a learnable word
 ジャムウ	keep	real word for Indonesian herbal medicine category
 ジー	keep	common interjection/letter "G", elongated spellings are variants
 箔	keep	real standalone word "foil"
 厄除け	keep	common word "warding off misfortune"
-ソフトバンクモバイル	drop	company name
+ソフトバンクモバイル	keep	major telecom carrier, household-name corporation
 三つ編み	keep	common word "braid"
 婿	keep	common word "son-in-law"
 痴	drop	single character fragment, examples don't clarify a merge target
@@ -1684,7 +1684,7 @@ Windows XP	drop	named software product
 リトミック	keep	real word for the eurythmics method, not a name
 公園駅	drop	generic station-name fragment, not a real lemma
 とんねるず	drop	comedy duo name (people)
-法政	drop	clipped university name (organisation)
+法政	keep	clipped name for 法政大学, a nationally famous university
 みずき	drop	person given name
 インサイト	keep	common business word "insight", shown in examples
 オスプレイ	drop	specific military aircraft model name
@@ -1694,18 +1694,18 @@ Windows XP	drop	named software product
 ランボルギーニ	drop	car brand name
 青柳	drop	mostly used as a person's surname
 抗うつ薬	keep	common word "antidepressant"
-日ハム	drop	clipped baseball team/company name
+日ハム	drop	sports team nickname (Nippon-Ham Fighters) in all examples
 明治神宮	drop	named facility (shrine)
-イケア	drop	company/brand name, not genericised
+イケア	keep	globally famous furniture retailer, household name
 シンセサイザー	keep	common musical instrument word
 ニキビケア	keep	real compound word "acne care"
 筍	keep	real standalone word for bamboo shoot
 まろ	drop	used only as nickname/handle fragment; archaic pronoun not in evidence
-JR西日本	drop	railway company name
+JR西日本	keep	major railway company, nationally known institution
 ジャーナリズム	keep	common word "journalism"
 参考人	keep	common legal term
 トワイライト	keep	common noun "twilight" shown in examples
-伊藤忠	drop	company name
+伊藤忠	keep	major trading company (sogo shosha), household-name institution
 ハーバル	keep	common loanword "herbal"
 ヒル	keep	common word (蛭/leech) alongside name sense
 ピクピク	keep	common mimetic word for twitching
@@ -1717,12 +1717,12 @@ JR西日本	drop	railway company name
 ニャンコ	keep	common colloquial word for cat
 コエンザイム	keep	common word "coenzyme"
 産まれる	keep	established alternate kanji spelling of the verb, written as a word in its own right
-アクオス	drop	TV product brand name
+アクオス	drop	Sharp TV product brand, not genericised
 エバー	drop	fragment of brand names (Evernote, building name)
 ガガ	drop	clipped person name (Lady Gaga)
 ソレイユ	drop	only used as part of facility/brand names (park, restaurant), not an everyday common word
 カットイン	keep	real loanword for anime/game "cut-in" effect, common use in examples
-ブンデスリーガ	drop	name of a specific sports league (organization)
+ブンデスリーガ	drop	foreign sports league name
 インプレッサ	drop	car model (product name)
 鼻づまり	keep	real common word "stuffy nose", mistagged as proper noun
 トホホ	keep	common interjection/expression
@@ -1730,17 +1730,17 @@ JR西日本	drop	railway company name
 滅失	keep	real common legal/formal word "loss/destruction"
 資	drop	single character with no examples; unclear what longer word it belongs to
 バザール	keep	common loanword "bazaar", generic market sense shown
-コテハン	keep	real slang word for forum handle/nickname, common usage
+コテハン	keep	common internet slang word, not really a proper noun
 渓	keep	real standalone word for "ravine/valley" used in example
 マン毛	keep	real (vulgar) common word for pubic hair
-ニフティ	drop	internet company name
+ニフティ	drop	minor ISP/portal company
 鞘	keep	real standalone word "sheath/scabbard"
-ストックフォト	keep	real word "stock photo"; diversity is spammy context but word is real
+ストックフォト	keep	real loanword ("stock photo"), low diversity alone doesn't disqualify a real word
 フリーザ	drop	Dragon Ball character name
 思	drop	all instances are personal-name readings, no common sense shown
 絢爛	keep	real common word "gorgeous/splendid"
 スーパーマン	keep	used generically for an extraordinary person, common loanword
-ファミリア	drop	all uses are brand/company/place-name components (Mazda, Sagrada Familia, company name), no generic sense
+ファミリア	drop	examples all show brand/company/landmark usage, no common sense shown
 トレードマーク	keep	real word used generically for "signature trait"
 ベルベット	keep	real common word for the fabric "velvet"
 ユーロドル	keep	real financial term (EUR/USD currency pair)
@@ -1752,17 +1752,17 @@ JR西日本	drop	railway company name
 和太鼓	keep	real common word "Japanese drum"
 アプリコット	keep	real common word "apricot"
 いちじく	keep	real common word "fig"
-ほぼ日	drop	brand name (Hobonichi planner/company), not generic use
-ソシャゲ	keep	real common slang word "social game"
-全日空	drop	airline company name
-サバゲー	keep	real common slang word "survival game"
+ほぼ日	drop	minor brand/company (Hobonichi)
+ソシャゲ	keep	common slang word for social games, tagger mistook it for a name
+全日空	keep	major airline (ANA), household-name institution
+サバゲー	keep	common slang word for survival games
 シュッ	keep	real common onomatopoeia
 裄	keep	real standalone word "sleeve length" (kimono term)
-激アツ	keep	real common slang word "extremely exciting/hot"
-JR東海	drop	railway company name
+激アツ	keep	common slang/intensifier word, tagger mistook it for a name
+JR東海	keep	major railway company, nationally known institution
 変形性	keep	real medical-term word (degenerative), mistagged as PROPN by heuristic
 プルダウン	keep	common tech word "pull-down (menu)", a loanword a learner would want
-日教組	drop	organization name (Japan Teachers' Union)
+日教組	keep	major, nationally known teachers' union/political institution
 刺	drop	bound piece with no standalone use shown; no examples to confirm a merge target
 ディオ	drop	character name (JoJo villain)
 レイト	keep	common loanword "late" (e.g. late checkout), real word
@@ -1777,7 +1777,7 @@ JR東海	drop	railway company name
 どう喝	merge:恫喝	kana variant spelling of 恫喝 (intimidation); standard form dominates
 マーズ	drop	character/person name (Sailor Mars, Veronica Mars)
 批評家	keep	common noun "critic", mistagged as PROPN, genuine usage shown
-ファーウェイ	drop	company name (Huawei)
+ファーウェイ	keep	major global tech company, household name
 明太	keep	productive component (明太マヨ, 明太パスタ) used as the ordinary word for mentaiko flavour
 あんず	keep	common word for apricot; the standard kana spelling, nickname uses don't displace it
 キュンキュン	keep	common onomatopoeic word for heart-fluttering
@@ -1793,7 +1793,7 @@ JR東海	drop	railway company name
 パイレーツ	drop	appears only in titles/names (Pirates of the Caribbean, anime titles)
 堅	drop	bound piece, no clear standalone use or merge target in examples
 ホッパー	keep	ordinary technical loan "hopper" (container/funnel), generic product use shown
-常磐線	drop	named railway line (Joban Line)
+常磐線	drop	named railway line (facility)
 試	drop	bound piece, no examples to confirm standalone use or merge target
 アジャイル	keep	common tech/business loanword "agile", genuine usage shown
 クー	drop	no clear examples to identify a real standalone meaning
@@ -1803,7 +1803,7 @@ JR東海	drop	railway company name
 チャイニーズ	keep	established katakana loanword for "Chinese" (e.g. チャイニーズダイニング) despite PROPN tag
 チャー	drop	no example found; elongated variants suggest interjection/sound, not an established word
 慶長	keep	real era-name vocabulary (Keichō period), a learnable word, not a person/place/title
-アイム	drop	all examples are product (pachislot machine), company and song/work names
+アイム	drop	all examples are proper-noun uses (product/company/title)
 ベ	drop	bare single syllable with no examples; not a standalone word, no clear merge target
 イカセ	drop	adult-site spam term, not a dictionary word a learner needs
 ウッディ	keep	common adjective "woody/wood-like" shown in examples (ウッディな外観, ウッディモデル)
@@ -1815,7 +1815,7 @@ JR東海	drop	railway company name
 ゲオ	drop	brand name of the video/game rental chain GEO
 デンプン	keep	ordinary common noun "starch"
 ハリー・ポッター	drop	title of a work/character name
-日本航空	drop	company name (Japan Airlines)
+日本航空	keep	major airline (JAL), household-name institution
 ニュートン	keep	common sense as the physics unit "newton" shown in examples
 モービル	keep	common loanword "mobile" (used in compounds like スノーモービル, モービル無線)
 ノーブランド	keep	common everyday term "no-brand/generic" product
@@ -1827,9 +1827,9 @@ JR東海	drop	railway company name
 リーバイス	drop	brand name (Levi's)
 ゾイド	drop	toy/anime franchise name, low-diversity spam-like spread
 バルト	pending-names	refers to the Baltic region/countries; geographic name
-ガンホー	drop	company name (GungHo Online Entertainment)
+ガンホー	drop	mid-size game company, not institution-level
 ヴァージョン	keep	very common word "version"
-東レ	drop	company name (Toray)
+東レ	keep	major chemical/textile conglomerate, household-name institution
 銀座駅	drop	named facility (train station)
 ネクスガード	drop	pet medication brand name, highly concentrated spam-like spread
 臨	drop	single character fragment with no examples; no clear word or merge target
@@ -1849,24 +1849,24 @@ JR東海	drop	railway company name
 舅	keep	real standalone word meaning "father-in-law" (しゅうと)
 三流	keep	common word "third-rate", mistagged as PROPN
 有楽町線	drop	named facility (train line), not a place name itself
-ヤンデレ	keep	established internet/anime slang word, real word
+ヤンデレ	keep	common slang word (character trope), tagger mistook it for a name
 メーリング	merge:メーリングリスト	clipped from メーリングリスト in all examples
 舞妓	keep	common word for maiko (apprentice geisha)
 麩	keep	real standalone word for wheat gluten/food item
 フラダンス	keep	common word for hula dance
-松坂屋	drop	department store company name
+松坂屋	drop	retail store chain brand/named facility, not institution-level
 キングス	drop	title/team name ("Fishing Kings"), not common word
-レオパレス	drop	apartment brand/company name
-イケイケ	keep	common slang word for a go-getter/flashy type
+レオパレス	drop	apartment-rental company brand, not institution-level
+イケイケ	keep	real slang word (aggressively confident), common use despite PROPN tag
 モモ	keep	ordinary word for peach; the usual katakana spelling of a common noun
 小・中学	keep	common compound term for elementary and junior high
 朝一番	keep	standard dictionary form of colloquial 朝イチ
 犬夜叉	drop	title of manga/anime work
 アイビー	keep	common word for ivy plant, shown in examples
-京アニ	drop	company nickname (Kyoto Animation)
+京アニ	drop	minor company (anime studio), not a nationally famous institution
 君たち	keep	standard dictionary form, written as 君達/きみたち variants
 エスティマ	drop	car model/product name
-コーエー	drop	game company name
+コーエー	drop	minor video-game company
 レイズ	keep	established loan "raise" used in gaming/finance contexts
 エルゴ	drop	appears only in brand/product names (エルゴトロン, エルゴグリップ)
 キャリパー	keep	common technical word (brake caliper)
@@ -1877,7 +1877,7 @@ JR東海	drop	railway company name
 オイリー	keep	common loanword for oily (skin)
 ダイア	keep	established loan (ダイア = diamond/timetable) in everyday use, not a clip here
 ハネムーン	keep	common loanword for honeymoon
-ファイザー	drop	pharmaceutical company name
+ファイザー	keep	major global pharmaceutical corporation, household name
 ビームス	drop	clothing brand name
 城壁	keep	common word for castle wall
 ソーシャルゲーム	keep	genericised common noun for mobile/social games, not a single specific product
@@ -1889,12 +1889,12 @@ JR東海	drop	railway company name
 スルスル	keep	common onomatopoeic adverb, tagger mistook for a name
 ハイドロ	keep	ordinary loan element used as noun/prefix (ハイドロマッサージ), tagger mistook for name
 吊	drop	bound verb stem (吊る/吊り), no examples
-東上線	drop	named railway line (facility)
+東上線	drop	named facility (train line)
 煌	drop	bound kanji; examples all show it inside compounds/names, not alone
-スターダスト	drop	all examples are brand/card/agency names, common "stardust" sense not shown
+スターダスト	drop	examples are all names; common "stardust" sense not shown
 山行	keep	ordinary noun "mountain hike," tagger mistook for a name
 ティーチャー	keep	loanword "teacher," generic address/usage shown in examples
-新選組	drop	historical organisation name
+新選組	keep	well-established historical term a learner meets in ordinary reading
 施	drop	bound morpheme, no examples
 栖	drop	not a standalone word in modern Japanese; only facility-name use shown
 頑	drop	bound morpheme (頑張る stem), no examples
@@ -1903,7 +1903,7 @@ JR東海	drop	railway company name
 柔	drop	bound morpheme, no examples confirming standalone use
 モンスターズ	drop	all examples are specific franchise/work titles
 ラグマット	keep	ordinary product noun ("rug mat")
-宮内庁	drop	government organisation name
+宮内庁	keep	government body (Imperial Household Agency)
 鍛冶	keep	ordinary craft noun, tagger mistook for a name
 ハイグレード	keep	common loanword adjective/noun
 セブンス	keep	common loan term (musical/ordinal), tagger mistook for a name
@@ -1913,9 +1913,9 @@ JR東海	drop	railway company name
 マーチング	keep	common loanword ("marching"), tagger mistook for a name
 楠	keep	real standalone word, tree name, shown in example
 阪神タイガース	drop	sports team name
-ベルーナ	drop	company/brand name
+ベルーナ	drop	minor mail-order company, catalog/spam text
 ミスド	drop	brand nickname (Mister Donut), not genericised to mean "donut shop" generally
-半蔵門線	drop	named railway line (facility)
+半蔵門線	drop	named facility (train line)
 帯状	keep	common adjective/noun "band-shaped," tagger mistook for a name
 エーテル	keep	common chemical/loan term
 キュプラ	keep	common textile term
@@ -1929,11 +1929,11 @@ JR東海	drop	railway company name
 アタマ	keep	katakana spelling of 頭 "head", common word
 ハイタッチ	keep	common word for "high five"
 ハイヤー	keep	common word for hired car/chauffeur service
-レノボ	drop	company name (Lenovo)
+レノボ	keep	major global PC maker, household-name corporation
 腹式	keep	real word meaning "abdominal type", productively used
 テレコム	keep	common generic word for telecommunications
 リュウ	drop	used as a person's/character's name in examples
-幻冬舎	drop	publishing company name
+幻冬舎	drop	publishing company, not institution-level
 オロビアンコ	drop	brand name (bag/accessory brand)
 ドンキホーテ	drop	store chain name
 ナムル	keep	common food word (Korean seasoned vegetable dish)
@@ -1941,7 +1941,7 @@ JR東海	drop	railway company name
 エターナル	keep	established descriptive loan "eternal" in ordinary use
 ミルフィーユ	keep	common food word (mille-feuille pastry)
 総武	pending-names	regional place-name blend (下総+武蔵), names list decides
-コジマ	drop	company/person name (electronics retailer)
+コジマ	drop	minor electronics retail chain
 メッツ	drop	named sports team/brand (Mets)
 滝壺	keep	real word for waterfall pool, despite low-document spread
 腱鞘炎	keep	common medical word for tendinitis
@@ -1968,14 +1968,14 @@ JR東海	drop	railway company name
 ローゼン	drop	only seen as part of person names (Rosencrantz) or the title ローゼンメイデン
 ウィッチーズ	drop	only seen as part of work titles (ストライクウィッチーズ)
 ナイトメア	keep	established loanword "nightmare", common even if examples include product/title names
-ヒーローズ	drop	only seen in TV/game/school proper names, not used as a common word
+ヒーローズ	drop	cluster of unrelated minor titles/names, no common sense shown
 ビューティフル	keep	Established katakana loan "beautiful", dictionary has a common entry and it is used productively
-ファンケル	drop	cosmetics company name
+ファンケル	drop	minor cosmetics company
 アルゴ	drop	proper noun (brand/product), no common sense shown
 ハンダ	keep	common word for "solder" (はんだ), written in katakana
 ホリデイ	drop	only seen as hotel brand name or person name (Billie Holiday)
-マキタ	drop	power-tool company name
-住信	drop	bank company name (abbreviation)
+マキタ	drop	tool brand, not institution-level
+住信	drop	bank abbreviation/minor company name
 北西部	keep	common geographic term "northwestern part"
 焼き立て	keep	common word "freshly baked"
 であいけい	merge:出会い系	kana spelling of the real word 出会い系, spammy dating-site context
@@ -2002,17 +2002,17 @@ JR東海	drop	railway company name
 サンジ	drop	One Piece character name
 ヴェルファイア	drop	car model name (Toyota Vellfire), a product name
 博士号	keep	common word "doctoral degree", mistagged as PROPN
-特許庁	drop	proper name of a specific government organization (Patent Office)
+特許庁	keep	government body (Patent Office)
 なずな	keep	common plant name (shepherd's purse), mistagged
 ジョッキー	keep	established loanword "jockey"
 イージーミス	keep	real colloquial compound meaning "careless/easy mistake"
 エムブレム	keep	common word "emblem" (variant spelling); dictionary itself has only common entries
 グチャグチャ	keep	common reduplicated adjective "messy/chaotic"
 コンフォティス	drop	pet flea/tick medication brand name
-サイバーエージェント	drop	company name (CyberAgent)
+サイバーエージェント	keep	major Japanese internet corporation, household name
 ジグ	keep	common word "jig" (fishing lure), mistagged
 倫	drop	bound morpheme, not used standalone
-オムロン	drop	company name (Omron)
+オムロン	keep	major electronics corporation, household name
 スラスラ	keep	common adverb "fluently/smoothly"
 ヴェルニ	drop	brand-specific product line name (Vernis leather), not the generic word
 天理	pending-names	city/place name (Tenri, Nara)
@@ -2025,22 +2025,22 @@ JR東海	drop	railway company name
 エアガン	keep	common word "air gun" (airsoft)
 ノーブル	drop	used as person/restaurant/hotel names in examples, common sense not shown
 鮪	keep	standalone word for tuna
-エディオン	drop	electronics retail company name
+エディオン	drop	regional electronics retail chain, not institution-level
 千葉駅	drop	named facility (train station)
 デコメ	keep	common term for decorated mobile email
 浮	drop	bound morpheme, not used standalone
 ジプシー	keep	established loanword for a people/group, used generically in examples
 ビルトイン	keep	common word "built-in"
 ボーカロイド	keep	genericised term for the singing-synthesis technology/genre
-三洋	drop	company name (Sanyo)
+三洋	keep	major historic household-name electronics corporation
 都庁	keep	Dictionary has only common entries; generic noun for a metropolitan government office, tagger mistake
 戒	keep	Single character that is a real standalone word (Buddhist precept)
-新潮社	drop	publishing company name
+新潮社	drop	publishing company, not institution-level
 ディスカバリー	drop	examples all show brand/product usage, not generic "discovery"
 市立	keep	common word "municipal"
 ピッコロ	drop	examples all show hotel/character name usage, not the instrument sense
 寛永	keep	Era name: a proper noun, but not a place and not in any of the listed drop categories
-光文	drop	clipped from publisher name 光文社 (company)
+光文	drop	cut fragment of the publisher name 光文社, which is itself not a learnable word
 デミオ	drop	car model name (Mazda Demio)
 ヴァージン	keep	common loanword "virgin" (extra virgin olive oil etc.), everyday use
 厚揚げ	keep	common food noun, mistagged as PROPN
@@ -2059,7 +2059,7 @@ FC東京	drop	sports team name
 折込	keep	common noun/compound, flyer insert
 表参道駅	drop	named train station
 青果	keep	common noun, produce/fruit-and-veg
-日立製作所	drop	company name
+日立製作所	keep	major household-name corporation
 インペリアル	drop	used only as part of other proper names (hotel, gem variety, club), no standalone common use shown
 ディール	keep	common business noun "deal", shown in examples
 大前	drop	surname/character name only
@@ -2069,10 +2069,10 @@ FC東京	drop	sports team name
 イイネ	merge:いいね	Katakana-emphasis spelling of the ordinary いいね expression
 ジジ	drop	character name (cat in Kiki's Delivery Service)
 政治学	keep	common academic noun, political science
-バンダイナムコゲームス	drop	company name
+バンダイナムコゲームス	keep	major household-name Japanese corporation, written in full
 吸	drop	bound morpheme fragment, no clear single word to merge into
 トラベラー	keep	common loanword, traveler
-バイク王	drop	company/brand name
+バイク王	drop	minor company (used-bike dealer brand)
 ルーチン	keep	common noun, routine
 神化	keep	real word (deification), used beyond game-specific sense
 呼	drop	bound morpheme fragment, no clear single word to merge into
@@ -2083,10 +2083,10 @@ FC東京	drop	sports team name
 ジェダイ	drop	Star Wars franchise term/title, not an ordinary common word
 パト	keep	real colloquial clipping for patrol car with its own common dictionary entry; no examples show a mis-split, so no merge target is evidenced
 広島駅	drop	named train station facility
-ぶっちぎり	keep	common slang word meaning "by far/overwhelming lead"
-レアジョブ	drop	company (online English lesson service) brand name
+ぶっちぎり	keep	real common word meaning "by far/overwhelming"
+レアジョブ	drop	minor company, low-diversity spammy mentions
 慈	drop	only seen as part of a nickname (左慈); no standalone common use shown
-消費者庁	drop	government agency (organisation)
+消費者庁	keep	government body
 マージ	keep	established IT loanword "merge", shown in examples with ordinary use
 三田線	drop	named train line facility
 宮地	drop	surname of an entertainer, person name
@@ -2094,7 +2094,7 @@ FC東京	drop	sports team name
 ロジクール	drop	brand name (Logitech)
 ネバー	drop	all examples are parts of names/coinages, no plain standalone use of "never" shown
 ハスキー	keep	common loanword for dog breed and for "husky (voice)"
-日通	drop	company name (Nippon Express)
+日通	keep	major logistics corporation (Nippon Express), household name
 マイクラ	drop	product name (Minecraft), not genericised
 大志	keep	common noun "great ambition", shown in ordinary use in examples
 易	keep	real standalone word for divination (易を立てる, 易経)
@@ -2102,7 +2102,7 @@ FC東京	drop	sports team name
 副都心線	drop	named train line facility
 緑黄色	keep	common adjective/noun, e.g. 緑黄色野菜
 韓国製	keep	common compound noun "made in Korea"
-日経BP	drop	publishing company name
+日経BP	drop	publishing subsidiary, not institution-level
 祠	keep	real standalone word for a small shrine
 ずきん	merge:頭巾	kana fragment of 頭巾; all uses are bound (赤ずきん), so file under the standard spelling
 ニャン	keep	common onomatopoeia for a cat's meow
@@ -2111,13 +2111,13 @@ FC東京	drop	sports team name
 抄	drop	suffix in work/column titles (産経抄, 智恵子抄), not a standalone word for a learner
 雷神	keep	common mythological noun "thunder god" (風神雷神), shown in examples
 鯵	keep	real standalone word, common fish name (horse mackerel)
-ニッセイ	drop	company name (Nippon Life Insurance)
+ニッセイ	keep	major insurance corporation, household name
 モヤシ	keep	common noun for bean sprouts
-日本銀行	drop	organisation (the central bank)
-ナスダック	drop	named organisation/stock exchange
+日本銀行	keep	central bank, major government institution
+ナスダック	keep	globally known stock exchange/institution
 グラント	drop	person surname
-早大	drop	university name (organisation), abbreviation of 早稲田大学
-理研	drop	organization name (RIKEN institute)
+早大	keep	established abbreviation for famous national university
+理研	keep	famous research institution (RIKEN)
 小梅	keep	genuine common sense "small ume plum" appears in the product example alongside the name use
 脂っこい	keep	common adjective "greasy/oily", dictionary only has common entries
 ストーンズ	drop	band name (The Rolling Stones)
@@ -2148,40 +2148,40 @@ FC東京	drop	sports team name
 ルンルン	keep	common mood word/onomatopoeia "cheerful"
 宝飾	keep	common noun "jewelry"
 廟	keep	real standalone word "shrine/mausoleum", shown alone in example
-カネボウ	drop	cosmetics company name (Kanebo)
+カネボウ	keep	major household-name cosmetics corporation referred to as a company
 カーリー	drop	counts are the person name Carly plus a product term; standalone "curly" sense not in evidence
 トレス	keep	common art-community term for "tracing" artwork
 ベビードール	keep	common noun "baby doll" (lingerie garment)
 千代田線	drop	named train line
-會	drop	kyūjitai used only inside organisation and personal names, not written as a modern word
+會	merge:会	old-orthography variant of the real word 会
 スクワラン	keep	common cosmetic-ingredient word "squalane"
-パソナ	drop	staffing company name (Pasona)
+パソナ	drop	minor staffing company, not a nationally famous institution
 ベーキング	keep	common word "baking", used in baking powder etc.
 嶋	drop	surname kanji; dictionary's common sense is "person" (name component), not an everyday standalone word
 印刷用	keep	real common compound ("for printing"), PROPN tag spurious
 覇	keep	real standalone word ("supremacy", as in 覇を唱える), not just a word-fragment
 大全	keep	real word ("compendium"), PROPN tag spurious
 アシ	keep	common word (reed/leg), dictionary has only common entries
-イトーヨーカドー	drop	supermarket chain/company name
-東進	drop	cram-school brand name (東進ハイスクール)
+イトーヨーカドー	keep	major nationwide retail chain, household-name institution
+東進	keep	nationally famous cram-school chain, talked about as an institution
 ダンシング	keep	established loanword ("dancing", incl. cycling term)
 フォルテ	keep	music term loanword ("forte"), common sense in everyday/musical use
-ブクマ	keep	established internet slang for "bookmark", in everyday use
-テクノロジーズ	drop	propn_band: company-name suffix ("...Technologies"), not a common word or place
+ブクマ	merge:ブックマーク	katakana clipping; examples make the full word ブックマーク clear
+テクノロジーズ	drop	not a standalone word, only a company-name suffix fragment
 憧	merge:憧れる	shape: single character is a clipped piece of 憧れる (憧憬), not standalone
 コキ	merge:手コキ	bound element; dominant compound 手コキ is the real (vulgar) word, name tag is wrong
 お花	keep	common word "flower" with honorific お-, mistagged as name
 日目	keep	common counter word "day number N", mistagged as name
-アコム	drop	consumer-finance company name
+アコム	keep	major nationally advertised consumer-finance company
 お米	keep	common word "rice" with honorific お-, mistagged as name
 ミク	drop	character/product name (初音ミク)
 ハルヒ	drop	character name (涼宮ハルヒ)
 優子	drop	person given name
 シャネル	drop	brand name (Chanel), not genericised
 翔	drop	person given name, examples all names
-マツダ	drop	company name (Mazda)
+マツダ	keep	major household-name corporation (Mazda)
 結衣	drop	person given name
-ダウ	drop	company/index name (Dow)
+ダウ	keep	widely used financial term (Dow Jones), functions as common word in finance news
 ヒルズ	drop	facility-name component (…ヒルズ complexes)
 薫	drop	person given name, examples all names
 上条	drop	surname, examples all names
@@ -2193,7 +2193,7 @@ FC東京	drop	sports team name
 修	drop	person given name, examples all names
 みゆき	drop	person given name
 工藤	drop	surname
-角川	drop	company name (Kadokawa)
+角川	keep	major household-name publishing/media corporation
 徹	drop	person given name, examples all names
 美紀	drop	person given name
 淳	drop	person given name
@@ -2226,7 +2226,7 @@ FC東京	drop	sports team name
 本目	keep	ordinal counter "~本目" (nth item), common everyday pattern
 真希	drop	given name only
 ヒルトン	drop	person/hotel brand name (Hilton), not genericised
-セゾン	drop	company/card brand name, not a common word
+セゾン	drop	brand/company name (Credit Saison etc.), minor
 デビット	keep	loanword "debit" as in デビットカード, common financial term
 ナルト	drop	counts/examples are the character name; food sense (narutomaki) not evidenced
 麻衣	drop	given name only
@@ -2253,7 +2253,7 @@ FC東京	drop	sports team name
 細川	drop	surname only, no common sense
 内藤	drop	surname only, no common sense
 天野	drop	surname only, no common sense
-パートナーズ	drop	company-name suffix, not a standalone common word
+パートナーズ	drop	company-name suffix only, not a standalone word
 シャア	drop	anime character name (Gundam)
 レオン	drop	person name (Léon)
 充	drop	given name (Mitsuru), no common-noun use shown
@@ -2263,9 +2263,9 @@ FC東京	drop	sports team name
 龍馬	drop	person name (Sakamoto Ryōma)
 みく	drop	given name, no common-noun use shown
 クロエ	drop	person name (Chloé)
-チカ	keep	common slang for 近い ("near"), shown in 駅チカ/家チカ
+チカ	keep	common slang element for "near" (駅チカ) mistaken for a name
 塚本	drop	surname only, no common sense
-ミズノ	drop	company name (Mizuno Corp.)
+ミズノ	keep	household-name Japanese sporting-goods corporation
 ガイア	drop	character/product names; no clear common-noun use in examples
 キャサリン	drop	person name (Catherine)
 レオ	drop	given name, no common-noun use shown
@@ -2358,7 +2358,7 @@ FC東京	drop	sports team name
 ジェニファー	drop	person given name (foreign)
 宇佐美	drop	person surname, no common-noun use shown
 深田	drop	person surname (celebrity Fukada)
-アポロ	drop	proper-noun uses only (Apollo program, brand/company name), no generic common-noun use
+アポロ	drop	proper name (Apollo space program), not a famous institution
 成瀬	drop	person surname (used as performer name)
 天海	drop	person surname (used as performer name)
 小澤	drop	person surname, no common-noun use shown
@@ -2377,10 +2377,10 @@ FC東京	drop	sports team name
 優香	drop	only a celebrity's name
 みお	drop	only a person name in examples
 真美	drop	only a person name
-ガリバー	drop	company/brand name (Gulliver International)
+ガリバー	drop	used-car company brand, not a famous institution
 美樹	drop	only a person name
 翔子	drop	only a person name
-ヤマト運輸	drop	company name (Yamato Transport)
+ヤマト運輸	keep	major household-name delivery company
 アスペルガー	keep	eponym now used as an everyday common term for the syndrome/trait, as shown in examples
 七瀬	drop	only a person name
 美希	drop	only a person name
@@ -2428,9 +2428,9 @@ FC東京	drop	sports team name
 雅治	drop	given name (Fukuyama Masaharu)
 カルロス	drop	person name (Carlos)
 麗奈	drop	person given name
-オーヤマ	drop	company name (Iris Ohyama)
+オーヤマ	merge:アイリスオーヤマ	fragment of company name アイリスオーヤマ in all examples
 堂本	drop	surname (Domoto)
-タミヤ	drop	company name (Tamiya)
+タミヤ	keep	household-name Japanese hobby/model corporation
 菜々	drop	given name, no common sense shown
 及川	drop	surname (Oikawa)
 雪歩	drop	fictional character name (idolmaster), low-diversity fan content
@@ -2444,7 +2444,7 @@ FC東京	drop	sports team name
 頼朝	drop	historical person (Minamoto no Yoritomo)
 オードリー	drop	person/duo name (Audrey)
 パトリック	drop	person name (Patrick)
-マクラーレン	drop	company/team name (McLaren)
+マクラーレン	drop	sports team/racing constructor name
 理恵	drop	given name
 堀北	drop	surname (Horikita)
 伸	drop	given name, no common-noun use shown
@@ -2463,13 +2463,13 @@ FC東京	drop	sports team name
 やる夫	drop	2ch character name, also low diversity
 ゴルゴ	drop	character name (ゴルゴ13)
 コング	drop	character name (King Kong)
-オリコ	drop	company name (credit company)
-ワーナー	drop	company name (Warner)
+オリコ	drop	minor credit/finance company name
+ワーナー	keep	household-name entertainment corporation widely used in Japanese media talk
 スターリン	drop	person name (Stalin), not a place
 政宗	drop	person name (Date Masamune)
 紺野	drop	surname, no common-word usage
 ヒロシ	drop	given name/character name
-キチ	keep	slang clip for 気違い "crazy person", used as a standalone word in the example
+キチ	merge:気違い	katakana clipping of 気違い (crazy), shown in example "キチ化した"
 陽菜	drop	given name (e.g. 小嶋陽菜)
 カーズ	drop	character/product name (Cars)
 西岡	drop	surname, no common-word usage
@@ -2513,8 +2513,8 @@ FC東京	drop	sports team name
 真司	drop	person given name, no common sense
 護	drop	all examples/dictionary entries are person names, no common use shown
 純子	drop	person given name, no common sense
-シチズン	drop	company/brand name, not genericised
-エフ	drop	only company/brand uses in the counts; the letter sense is written F and does not show
+シチズン	keep	major household-name corporation (Citizen watches)
+エフ	drop	not a real standalone word; appears only as letter/name fragment in company names
 ロナウド	drop	person name (footballer), no common sense
 タバサ	drop	brand name (Samantha Thavasa) / person name
 鬼太郎	drop	fictional character name
@@ -2527,7 +2527,7 @@ FC東京	drop	sports team name
 キース	drop	person given name, no common sense
 吾郎	drop	person given name (稲垣吾郎), no common sense
 北原	drop	surname, no common sense
-カワサキ	drop	company/brand name, not genericised beyond brand reference
+カワサキ	keep	major household-name corporation (Kawasaki)
 セシリア	drop	fictional character name, low-diversity spammy fan text
 ミューズ	keep	common noun "muse" (inspirational figure), used generically in fashion/beauty text
 謙信	drop	historical person name (Uesugi Kenshin)
@@ -2554,7 +2554,7 @@ FC東京	drop	sports team name
 慎太郎	drop	person given name (politician)
 チャイ	keep	common loanword for spiced tea, heuristic mismatch
 篠崎	drop	surname
-フィリップス	drop	company/brand name (Philips)
+フィリップス	keep	major household-name electronics corporation referred to as a company
 真由美	drop	person given name
 信玄	drop	historical person name (Takeda Shingen)
 人志	drop	person given name (comedian)
@@ -2634,7 +2634,7 @@ FC東京	drop	sports team name
 クリストファー	drop	person given name, no common sense
 裕美	drop	person given name, no common sense
 サキ	drop	person stage name, no common sense
-コメダ	drop	company/brand name, not genericised
+コメダ	drop	minor coffee shop chain
 麻里子	drop	person given name, no common sense
 典子	drop	person given name, no common sense
 洋平	drop	person given name, no common sense
@@ -2650,7 +2650,7 @@ FC東京	drop	sports team name
 正治	drop	person given name, no common sense
 矢沢	drop	person surname, no common sense
 知子	drop	person names (television personalities), no common sense shown
-ゴールドマン	drop	surname/company name (Goldman Sachs), no common sense
+ゴールドマン	keep	major global investment bank, household name
 浜面	drop	character name from a franchise, low-diversity fan content
 呂布	drop	historical/fictional person name (Three Kingdoms warlord)
 希志	drop	AV performer's stage name, spam-style listings
@@ -2669,7 +2669,7 @@ FC東京	drop	sports team name
 草なぎ	drop	actor's surname (Kusanagi Tsuyoshi)
 ガリ	keep	common word for pickled sushi ginger, high frequency suggests ordinary use despite name dictionary entries
 由紀恵	drop	given name (actress Naka Yukie)
-メビウス	drop	counts are character, product and company names; メビウスの輪 sense absent from examples
+メビウス	drop	examples all show product/company/character usage, no common sense shown
 祥	drop	mostly personal-name usage in examples, no clear standalone common word shown
 ミサカ	drop	fictional character name, low-diversity fan content
 美鈴	drop	given name / AV performer name, no common sense
@@ -2809,7 +2809,7 @@ FC東京	drop	sports team name
 志保	drop	person name only (female given name)
 ななみ	drop	person name only
 愛梨	drop	person name only (female given name)
-フェミ	keep	common clipped slang word for "feminist", not actually the name sense
+フェミ	keep	widely used slang clip (feminist), lexicalized standalone
 圭一	drop	only appears as part of real people's names (given name)
 慶子	drop	only appears as part of real people's names (given name)
 葉子	drop	person name only, no common-noun use
@@ -2842,10 +2842,130 @@ FC東京	drop	sports team name
 真子	drop	person name
 タク	drop	person name, no usable examples
 バンクス	drop	surname (people)
-サミー	drop	company/person name
+サミー	drop	minor gaming/pachinko company, not household-name institution
 オーディン	drop	mythological figure name (Odin)
 昭和	keep	era name (元号), essential vocabulary for reading dates/history, not a place/person/brand
 明治	keep	era name (元号), common historical vocabulary, not covered by drop categories
 江戸	keep	era name (江戸時代) widely needed vocabulary; also historically a place name for old Tokyo
 令和	keep	current era name (元号), extremely common in dates, essential vocabulary
 大正	keep	era name (元号), common historical vocabulary, not covered by drop categories
+舗	drop	no examples given; standalone word rare, likely a clipped piece with no clear target to merge into
+ジビエ	keep	common loanword for "game meat", in everyday culinary use
+ジーク	drop	used only as a person's name in examples
+デレ	drop	only example is a fragment of a foreign church name ("...delle Grazie"), not the slang word
+パントリー	keep	common loanword "pantry", mistagged as a name
+相鉄	drop	regional railway operator, not nationally famous
+舞浜	pending-names	district/place name (Maihama)
+ナマポ	merge:生活保護	common net-slang clipping standing for 生活保護
+享年	keep	common word "age at death", mistagged as a name
+吉本興業	keep	major nationally famous talent/entertainment agency
+銀座線	drop	named subway line
+マリメッコ	drop	brand name
+スル	drop	the only example is a foreign-word fragment ("Ponte sul Minchio"), not a Japanese word
+フィアット	drop	car brand name
+天照	drop	name of a mythological/religious figure (deity)
+ケイン	drop	person's name in all examples
+ジャカード	keep	common textile term "jacquard", mistagged as a name
+ブラウニー	keep	common word for the dessert "brownie"
+北大	keep	nationally famous national university (Hokkaido University)
+藪	keep	real standalone word "thicket/bush"
+青学	keep	nationally famous private university (Aoyama Gakuin)
+北浜	pending-names	district/place name in Osaka
+新宿御苑	pending-names	named park/garden, a geographic place
+アイプチ	keep	genericised brand used as the ordinary word for eyelid-tape products
+オーライ	keep	common loan interjection "all right/OK"
+鰤	keep	real standalone word for yellowtail fish
+NTT東日本	keep	major nationwide telecom company, institution
+テディベア	keep	common word for the toy "teddy bear"
+トリーバーチ	drop	fashion brand name
+ナーフ	keep	established gaming loanword meaning to weaken/balance something
+ランズ	drop	clipped suffix fragment from various "-lands" compounds (Borderlands, Roselands...), not a standalone word
+シモンズ	drop	person/brand name (Simmons mattress co., Raf Simons, person)
+スピルバーグ	drop	person's name (Spielberg)
+ハーゲンダッツ	drop	brand name
+フィギュアーツ	drop	toy product line name
+フリード	drop	car model name
+ライラック	keep	common word for the colour/flower "lilac"
+大谷翔平	drop	person's name
+孔子	drop	historical person's name (Confucius)
+想定内	keep	common phrase "within expectations", mistagged as a name
+東スポ	keep	nationally known tabloid newspaper brand
+ドクターズ	drop	brand/product line name (Doctor's cosmetics), not genericised
+ノラ	keep	Common sense "stray (cat)" is everyday and appears in the examples, so the name/common split resolves to keep
+ピクサー	keep	globally famous animation studio, talked about as institution
+モザ	merge:モザイク	clipped form of モザイク "mosaic/censorship" seen in all examples
+亨	drop	person given name only
+釈	drop	bare fragment, no examples to show a merge target
+えっち	keep	common everyday word mistagged as proper noun
+テル	drop	no examples to confirm any everyday common sense
+羽鳥	drop	surname (newscaster 羽鳥慎一 etc.)
+野間	drop	surname, examples all person names
+コレクターズ	keep	common generic "collector's" used in compounds (コレクターズBOX/アイテム)
+ヤダ	keep	Real colloquial interjection (katakana やだ); dominant spelling here, and 嫌だ is not a clean dictionary-form target
+ヨーコ	drop	person name (Ono Yoko)
+佳奈	drop	person/character given name
+検察庁	keep	ordinary institutional noun like 警察庁, not a unique proper name
+真澄	drop	person name (baseball player 桑田真澄 etc.)
+紹	drop	bare fragment, name-only dictionary, no examples
+鎮	drop	bare fragment, only fictional compound example, no clear merge target
+テキーラ	keep	common katakana loanword "tequila"
+暮	keep	standalone word 暮 (くれ) "year's end", shown in example
+あらら	keep	common interjection, wrongly tagged PROPN
+アグネス	drop	person name (Agnes Chan)
+クリスティ	drop	person name (Cristiano/Christie)
+丸ノ内線	drop	named train line (facility), not a place name itself
+継	drop	bare fragment, no examples
+スイマセン	merge:すみません	casual spelling of standard すみません
+フィルハーモニー	keep	common loanword "philharmonic"
+ヴォイス	merge:ボイス	Same loanword, non-standard ヴ orthography; standard spelling ボイス is the lemma to file it under
+魁	keep	standalone word 魁 (さきがけ) "pioneer/forerunner"
+テカテカ	keep	common onomatopoeic adjective "glossy/shiny"
+喝	keep	standalone interjection/noun "喝" (a sharp reproving shout)
+良一	drop	person given name
+菱	keep	standalone word 菱 (ひし) "water caltrop/diamond shape"
+ザムライ	drop	low-diversity brand/title name (のぞきザムライ series)
+将暉	drop	person given name (actor 菅田将暉)
+折り込み	keep	common noun "insert/flyer", wrongly tagged PROPN
+みの	drop	no examples to confirm any everyday common sense
+ヤリ	drop	Attested only as a bound element of slang compounds (ヤリ捨て etc.), not a standalone word in this data
+井伊	drop	surname (井伊家/井伊直弼 etc.)
+仮性	keep	real word (quasi-/pseudo- prefix), as in 仮性包茎, mistagged PROPN
+伊勢エビ	keep	Ordinary noun for spiny lobster mistagged as a proper noun; spelling variation is not what the flag concerns
+友紀	drop	person name (actress Okazaki Yuki), no common sense
+幌	keep	real standalone word (canopy/hood)
+東京ディズニーランド	drop	named facility (theme park)
+誉	keep	real standalone word meaning honor/praise
+オンプレミス	keep	established tech loanword (on-premises)
+ナラ	keep	Real word for oak, and katakana ナラ is the dominant and normal species spelling, so no merge to 楢
+なっち	drop	parsing artifact of casual speech ending, not a real noun use
+ニチイ	drop	mid-size company, not nationally household-name
+ハウスドゥ	drop	minor real-estate franchise, spammy listing text
+ミック	drop	person name
+保奈美	drop	person name in spam text
+ロクシタン	drop	brand name (L'Occitane)
+仙石	pending-names	Dictionary has a place sense and examples show place use (仙石原/仙石山); names list decides
+務	drop	single character with no common dictionary entry and no example to confirm standalone/merge use
+大リーグ	keep	common generic term for Major League (baseball)
+督	drop	single character, no common entry, no example to determine a merge target
+みな実	drop	a person's given name (TV announcer)
+カラバリ	keep	established clipped common word for "color variation" in everyday/fashion use
+キネマ	keep	old loanword for cinema/movie, still used
+ソクラテス	drop	person name (Socrates)
+トップコート	keep	common word (nail top coat)
+ペンタックス	drop	camera brand name
+残金	keep	common everyday word (remaining balance), mistagged PROPN
+露伴	drop	name (author Koda Rohan / character Rohan Kishibe), low diversity, no common sense
+シロウト	merge:素人	Stylized katakana of 素人; the standard kanji form is the lemma a learner should carry
+円谷	drop	surname / production-company name, not institution-level
+征	drop	lone bound kanji, no clear word to merge into
+淳子	drop	a person's given name
+関学	keep	nationally famous university abbreviation (Kwansei Gakuin)
+コッチ	keep	common colloquial pronoun mistagged as a name
+ドラッカー	drop	a person's name (Peter Drucker)
+メチャメチャ	keep	common everyday adverb/adjective
+吹奏	keep	common word meaning to play a wind instrument
+桜子	drop	a person's given name
+結果論	keep	common idiomatic noun ("hindsight reasoning")
+首都高	drop	named facility (a specific expressway system)
+プローブ	keep	common technical/scientific word "probe"
+六本木駅	drop	named facility (a specific train station)
