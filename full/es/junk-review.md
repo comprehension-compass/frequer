@@ -86,6 +86,30 @@ merge into Ciudad de México and Estados Unidos. Learnable names outside the top
 5. **International bodies:** the institutions rule covers famous international bodies (OTAN, OMS, AIEA, ONU, UE),
    which are kept.
 
+
+## Developer rulings (2026-11-02, second set: the shard rounds' questions)
+
+1. **Superlatives:** a regular *-ísimo* merges into its base adjective (*buenísimo* → *bueno*, *rapidísima* →
+   *rápido*). Irregular or learned superlatives keep their own entry (*óptimo*, *pésimo*, *máximo*, *mínimo*,
+   *paupérrimo*…). This replaces the round-9 precedent.
+2. **A lemma holding two real words** (*opacar*/*opaco*, *cascar*/*cáscara*, *jalear*/*jaleo*, *mediar*/*mediados*,
+   *chinchar*): split by form, as for *halar*/*hala* (`split:` decisions).
+3. **Clitic fragments with -nos/-te:** merge into the pronominal verb where it is a common verb in its own right
+   (*reconciliarse*, *distraerse*), otherwise into the plain verb.
+4. **Institutions:** regional and international bodies are kept (OEA, CEDEAO); national bodies of Spanish-speaking
+   countries that are household names there are kept (ETECSA, INPE); single hospitals (Clínic) and city transit
+   systems (TransMilenio) drop; *conseller* and *síndic* are kept, *govern* drops.
+5. **Drugs, ingredients, organisms:** common generic drugs and ingredients are kept (*paracetamol*, *ibuprofeno*),
+   specialist ones drop; adapted organism names are kept (*clamidia*, *micoplasma*), raw Latin taxa drop.
+6. **Genericised brands and variants:** a brand used as a common noun is kept under its adapted spelling (*kleenex*
+   → *clínex*); variant spellings merge into the standard one (*iodo* → *yodo*, *checkin* → *check-in*, *go-go* →
+   *gogó*).
+7. **Noisy common words:** a real common word stays when its real reading is about a third or more of its uses
+   (*pocito*, *vivar*, *sardinero*, *pepito*, *rema*); below that it drops.
+8. **Gentilics, ethnonyms, multi-word forms:** feminine gentilics merge into the masculine (*kazaja* → *kazajo*);
+   lowercase ethnonyms are kept (*hutíes* → *hutí*); multi-word merge targets are units (*palo santo*, *alter ego*,
+   *open source*, *post mortem*); *cous* (from *cous cous*) merges once into *cuscús*, counted once per phrase.
+
 ## The rules the reviewers had
 
 # Review rules (the developer's; binding)
