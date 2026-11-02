@@ -1,6 +1,6 @@
 # ja junk review: two independent reviewers, an adjudicator for disagreements;
 # scripts/review. lemma<TAB>decision<TAB>reason
-ません	keep	standard dictionary form of the polite negative auxiliary, despite usually appearing as ませ before further endings
+ません	keep	citation: standard dictionary form of negative aux
 送料	keep	real common word (shipping fee), diversity flag is just spammy product listings but it's genuine everyday vocabulary
 買取	keep	real common word "purchase/buy-back"
 脱毛	keep	real common word "hair removal"
@@ -7437,7 +7437,7 @@ TBSテレビ	keep	major national broadcaster, institution
 ヘキサ	drop	katakana prefix fragment (ヘキサタープ etc.), not an established standalone loanword
 寺内	drop	personal surname, not an institution
 づかい	merge:遣い	rendaku fragment of 遣い (as in 心遣い, 言葉遣い)
-ひょん	keep	real word (ひょんな), standard adnominal adjective
+ひょん	merge:ひょんな	na-adjective ひょんな with な stripped by lemmatiser
 ギブ	merge:ギブアップ	clipped fragment of ギブアップ (give up)
 入	drop	bound single-character fragment, no standalone usage shown
 外宮	keep	standard Shinto term for the outer shrine, in general use
@@ -8077,7 +8077,7 @@ TBSテレビ	keep	major national broadcaster, institution
 防衛相	keep	real word/title, Defense Minister
 飾り付ける	keep	real verb, to decorate
 かみ	drop	no examples given; ambiguous homophone cluster, unclear real target word
-ささっと	keep	real adverb, quickly/swiftly
+ささっと	keep	established adverb
 ひつ	drop	mis-tokenised ひつこい/reading gloss; no real standalone word, no valid target
 ぽつん	keep	real mimetic word, alone/isolated
 やれる	merge:やる	counts are imperative/potential inflections of やる
@@ -8491,7 +8491,7 @@ NHK紅白歌合戦	drop	title of a specific TV program
 呼び合う	keep	real reciprocal verb "to call each other by name," attested in natural use
 大賛成	keep	common noun/na-adj for "strongly agree," ordinary word
 小話	keep	real word "anecdote/little story"
-怪しげ	keep	real adjective "suspicious-looking"
+怪しげ	keep	established adjective
 悪びれる	keep	real verb meaning "to act ashamed," mistagged as NOUN but a valid word
 拘縮	keep	real medical term "contracture," used in ordinary health writing
 指導医	keep	real term "supervising physician"
@@ -11067,3 +11067,132 @@ NHK紅白歌合戦	drop	title of a specific TV program
 ドリブン	keep	Established katakana loan ("driven") appearing across varied contexts (イベントドリブン, データドリブン, ドリブンスプロケット); unflagged, so learnable by default, and no single compound lemma to merge into.
 パカッ	keep	real onomatopoeia for a popping-open sound
 プレーヤ	merge:プレーヤー	clipped/variant spelling missing the long vowel mark
+ようだ	keep	grammatical lemma used on purpose
+ください	keep	grammatical lemma used on purpose
+でしょう	keep	grammatical lemma used on purpose
+だろう	keep	grammatical lemma used on purpose
+なさい	keep	grammatical lemma used on purpose
+仲良い	keep	established adjective
+数多い	keep	established adjective
+もしかして	keep	lexicalized adverb, correct spelling
+もったいない	keep	established adjective explicitly listed
+おすすめする	keep	noun+する compound explicitly listed
+とんでもない	keep	established adjective explicitly listed
+しょうがない	keep	established adjective explicitly listed
+だろ	merge:だろう	contracted colloquial form of だろう
+勿体ない	merge:もったいない	alternate kanji spelling of もったいない
+ご覧る	merge:ご覧	lemmatiser stem artefact, rule's own example
+つまらない	keep	established adjective
+知らせる	keep	correct dictionary form of the verb
+どのようだ	keep	grammatical lemma, parallel to ようだ
+すまない	keep	established set-phrase expression
+空け	merge:空ける	conjugated stem of 空ける (vacate/leave open)
+亡き	keep	real standalone attributive word
+貯め	merge:貯める	conjugated stem of 貯める
+お願いする	keep	noun+する compound explicitly listed
+ときる	drop	unidentifiable fragment, rule's own example
+くだらない	keep	real standard adjective
+という	keep	grammatical lemma, colloquial contractions in examples
+わからん	merge:分かる	Colloquial contracted negative of 分かる; merge into the dictionary form, not a negative form.
+足りない	merge:足りる	negative conjugation of 足りる
+しようか	merge:する	volitional+か conjugation of する
+すまん	merge:すまない	colloquial contraction of すまない
+当たっ	merge:当たる	rule's own example
+果てしない	keep	correct dictionary form of the adjective
+困り	merge:困る	conjugated stem of 困る
+切り落とし	merge:切り落とす	conjugated stem used verbally in all examples
+経た	merge:経る	past-tense fragment, rule's own example type
+まんべんなく	keep	standard adverbial form of the expression
+欲しがる	keep	correct dictionary form of the verb
+ひょっとす	merge:ひょっとする	truncated form, rule's own example
+高く	merge:高い	rule's own example
+受付る	merge:受付	explicit mapping given in rules (受付る → 受付)
+辛く	merge:辛い	renyoukei of adjective 辛い, used adverbially in examples
+硬く	merge:硬い	renyoukei of adjective 硬い
+おいで	keep	established word (command/greeting おいで, as in おいでください)
+何とかする	keep	compound noun/adverb+する verb, explicitly protected by rules
+やすく	merge:やすい	renyoukei of auxiliary adjective やすい (e.g. ～しやすく)
+おまかせる	merge:任せる	お+stem of 任せる, as in おまかせください/おまかせします
+堅く	merge:堅い	renyoukei of adjective 堅い
+思いがけない	keep	already in dictionary form, established adjective
+怒りる	merge:怒る	explicit mapping given in rules (怒りる → 怒る)
+まーる	drop	unclear fragment, no usable examples to identify real lemma
+いそう	drop	compositional いる+そう, not a standalone dictionary lemma
+れいる	drop	artefact of typo/OCR (されいてる for されている), not a real word
+きゃり	drop	clipped fragment of the singer's stage name きゃりーぱみゅぱみゅ
+言うる	merge:言う	explicit mapping given in rules (言うる → 言う)
+きゃ	drop	unclear whether a standalone lemma distinct from きゃー
+臭いい	merge:臭い	doubled okurigana typo of adjective 臭い
+ほっとい	merge:放っておく	te-stem of contracted 放っておく (ほっとく)
+ける	drop	fragmentary forms with no examples, unclear target verb
+やるせない	keep	established adjective, correctly spelled lemma
+さらっとする	keep	legitimate adverb+する verb usage in examples
+満遍ない	keep	established adjective (満遍ない/満遍なく)
+つまらん	merge:つまらない	colloquial contraction of つまらない
+つけっぱなし	keep	established everyday word
+ゆーる	merge:言う	casual/elongated pronunciation of 言う (ゆう)
+できん	merge:できる	Colloquial/dialectal negative contraction of できる; dictionary form is できる, not できない.
+涼しげ	keep	established everyday word
+まじき	keep	grammatical form used in set phrase あるまじき, still met in reading
+よしよし	keep	established interjection/expression
+ちっちゃ	merge:ちっちゃい	attributive form (ちっちゃな) of adjective ちっちゃい
+浦和駅	drop	named station facility, not a place name itself (rule: stations/lines/buildings drop)
+芳雄	drop	person name (actor Inoue Yoshio)
+イエズス	drop	proper name only, occurring as part of the foreign order name イエズス会; no everyday common sense and no learnable merge target
+インフェルノ	drop	loanword appears only as part of titles/names, not used as common "hell"
+エリオ	drop	person/company name
+エーザイ	keep	major pharmaceutical company, household-name corporation
+ガセネタ	keep	common word "fake rumor", dictionary common entries
+ケイトリン	drop	person name (Caitlin)
+シリンジ	keep	common medical word "syringe"
+スティング	drop	person name (musician Sting)
+ディル	keep	common word "dill" (herb)
+デコボコ	keep	common word "bumpy/uneven"
+デュポン	drop	company name, not discussed as household institution
+マレフィセント	drop	fictional character name
+モグ	drop	fictional character name (FF)
+モンス	drop	no usable examples; likely a game-slang clipping, not a standalone word
+ラブサーチ	drop	dating website/product name
+七田	drop	person/brand name (Shichida Method)
+伝奇	keep	real word, literary genre "romance/legend"
+元請	keep	real word "main contractor"
+円建て	keep	real word "yen-denominated"
+南面	keep	real word "south-facing"
+占える	merge:占う	potential form of 占う
+外山	drop	person surname
+実務家	keep	real word "practitioner"
+実現性	keep	real word "feasibility"
+廃する	keep	real verb "abolish"
+新人戦	keep	real word "rookie tournament"
+早計	keep	real word "hasty (judgment)"
+春期	keep	real word "spring term"
+本通	pending-names	appears to be a street/place name, not the common noun 本通り
+桃源郷	keep	real word "idyllic utopia"
+桃花	drop	fictional character name in examples
+横領する	keep	real verb "embezzle"
+海賊船	keep	real word "pirate ship"
+演芸	keep	real word "performing arts"
+無駄吠え	keep	real word "excessive barking"
+焼き豚	keep	real word "roast pork"
+発明者	keep	real word "inventor"
+皆々様	keep	real polite word "everyone"
+矛盾点	keep	real compound noun, learner-useful ("contradiction/inconsistency point")
+罪状	keep	real word meaning "charge/count of crime", used in ordinary/news reading
+腹ペコ	keep	common colloquial word for "starving/hungry", not just names despite examples
+色褪せ	keep	real noun form of 色褪せる, common in listings/ordinary use
+落城	keep	real word meaning "fall of a castle", used literally and figuratively
+親玉	keep	real word meaning "boss/ringleader", common usage despite parenthetical examples
+ラディッシュ	keep	common katakana loanword for the vegetable
+リンガーハット	drop	restaurant chain name, not a nationally famous institution
+ヴァイオリニスト	keep	common word (violinist) mistagged as PROPN
+鉄筋コンクリート	keep	real common noun (reinforced concrete)
+長月	keep	classical name for the ninth month, real word
+間欠	keep	real word (intermittent)
+防護服	keep	real word (protective suit)
+鴨居	keep	real word (door lintel)
+鼻呼吸	keep	real word (nasal breathing)
+ぐらぐら	keep	real onomatopoeic word
+けなげ	keep	real word (plucky/brave)
+しまっ	merge:しまう	broken conjugated fragment of しまう
+らあ	drop	no examples, appears to be a fragment/filler, not a word
+キュ	drop	katakana clipping with no clear source word in evidence
