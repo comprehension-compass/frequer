@@ -1,0 +1,45 @@
+respektiv	merge:respektive	lemma should be the adverb respektive
+Blaue	merge:blau	capitalised inflected adjective
+frag	merge:fragen	imperative form
+Brandenburger	drop	place-derived name
+düsen	keep	valid verb infinitive (noun plural also), lemma is correctly written
+club	merge:Club	lower-case noun
+Maxi	drop	clipped prefix/brand fragment
+Zin	merge:Zins	cut-off fragment
+Gaza	drop	place name
+bilder	merge:Bild	plural filed as lemma
+iss	merge:essen	imperative form
+Misstraue	merge:Misstrauen	cut-off form of the noun Misstrauen
+FR	drop	abbreviation
+Konstantin	drop	personal name
+Postbank	keep	well-known institution
+forsch	merge:forschen	forms mostly of forschen
+Lyon	drop	place name
+Einfluß	merge:Einfluss	old spelling
+Schlitt	merge:Schlitten	cut-off form
+handy	merge:Handy	lower-case noun
+bestanden	merge:bestehen	inflected participle forms
+whrend	merge:während	broken encoding
+farbe	merge:Farbe	lower-case noun
+Weser	drop	river/place name
+beleg	merge:belegen	imperative/inflected form
+versuch	merge:versuchen	imperative/inflected form
+Bell	drop	surname/stray form
+aufgesetzt	merge:aufsetzen	inflected participle
+angezeigt	merge:anzeigen	inflected participle
+stehend	merge:stehen	present participle forms
+teen	drop	English word, not established as standalone loan
+klingend	merge:klingen	present participle forms
+Ethernet	keep	established technology term
+Kalte	merge:kalt	capitalised inflected adjective
+beschlossen	merge:beschließen	inflected participle
+Beschluß	merge:Beschluss	old spelling
+Radikaler	merge:Radikale	inflected nominalised adjective
+kcal	drop	abbreviation
+GKV	drop	specialist acronym
+Größte	merge:groß	inflected superlative
+
+# question Brandenburger: place-derived adjective/inhabitant noun is not a place name itself; dropped as a name derived from an unlisted place.
+# question teen: could be an established loan (Teen); no usage examples to confirm, so dropped.
+# question Postbank: company name; kept as a famous institution, but it may count as a brand.
+# question düsen: noun plural Düse and verb düsen are mixed under one lemma; kept as a valid verb.

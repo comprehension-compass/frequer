@@ -1,0 +1,46 @@
+Ma	drop	cut-off fragment with no clear target
+Stk	merge:Stück	abbreviation of a listed word
+sexkontakte	merge:Sexkontakt	lower-case plural noun
+suchaufkommen	merge:Suchaufkommen	lower-case noun
+dei	drop	garbled, no clear target
+interviewt	merge:interviewen	participle filed as lemma
+Oberursel	drop	place name not on the list
+soo	merge:so	misspelling
+spiel	merge:Spieler	cut-off fragment, mostly written spieler
+NGOs	merge:NGO	plural of an abbreviation
+Bemühe	merge:Bemühen	cut-off fragment of the noun Bemühen
+Flexibel	merge:flexibel	capitalised adjective
+Ausrede	keep	lemma is already the correct singular
+fu	merge:für	fragment of fuer/für
+SR	drop	abbreviation
+gedacht	merge:gedenken	inflected forms of a verb, mostly gedenken
+Lego	keep	established brand loan
+Moskauer	drop	place-derived name
+ide	merge:Idee	fragment of Idee
+Inwieweit	merge:inwieweit	capitalised adverb
+Maja	drop	personal name
+Pfeiffer	drop	surname
+flöten	keep	valid verb lemma (flöten)
+Maik	drop	personal name
+erhoben	merge:erheben	participle filed as lemma
+dargestellt	merge:darstellen	participle filed as lemma
+Rinder	merge:Rind	plural filed as lemma
+Ergo	keep	established Latin loan adverb
+kastriert	merge:kastrieren	participle filed as lemma
+Lüneburger	drop	place-derived name
+AGBs	merge:AGB	plural of an abbreviation
+Facebookseite	keep	valid compound noun
+MM	drop	abbreviation
+getätigt	merge:tätigen	participle filed as lemma
+hochzuladen	merge:hochladen	inflected infinitive form
+CT	drop	specialist abbreviation
+Edinburgh	drop	place name not on the list
+Warm	merge:warm	capitalised adjective
+flirt	merge:flirten	conjugated verb form
+fotos	merge:Foto	lower-case plural noun
+
+# question Bemühe: written forms are noun forms (Bemühen, Bemühens), so I merged to the noun Bemühen rather than the verb bemühen.
+# question gedacht: the forms mix participle of denken and past tense of gedenken; I chose gedenken because gedachte/gedachten dominate.
+# question NGOs: unclear whether NGO counts as a specialist acronym (drop) or an established abbreviation; I chose merge:NGO.
+# question AGBs: AGB is plural-only and may not be on the list as its own lemma; I chose merge:AGB.
+# question Ergo: the screener flagged it as a company name, but the forms fit the Latin loan adverb; I chose keep.

@@ -1,0 +1,47 @@
+gross	merge:groß	Swiss ss spelling of groß
+del	drop	Spanish/Italian foreign word
+u	merge:und	abbreviation "u." of und
+grösser	merge:groß	Swiss spelling of an inflected comparative; the lemma is groß
+IP	drop	specialist acronym
+SG	drop	abbreviation/code
+gestellt	merge:stellen	participle filed as lemma, no own entry
+Andere	merge:andere	capitalised adjective form
+behindern	keep	valid verb lemma
+LKW	keep	established abbreviation like Kfz/Pkw
+Mögliche	merge:möglich	capitalised inflected adjective
+Wissenswerte	keep	nominalised adjective (das Wissenswerte), a noun in its own right
+verdecken	keep	valid verb lemma
+präzis	merge:präzise	cut-off adjective
+Wichtigste	merge:wichtig	capitalised superlative form
+porno	merge:Porno	lower-case noun
+Stuttgarter	drop	place-name derivative, not on the list
+Fashion	drop	English word, not an established loan
+kehrt	merge:kehren	conjugated verb form
+zuviel	merge:viel	misspelling of "zu viel"
+Buche	merge:buchen	capitalised verb form (imperative)
+ff	drop	abbreviation
+Pkw	keep	established abbreviation
+et	drop	Latin/French word
+nem	drop	dialect contraction, not a standard word
+DM	drop	currency abbreviation
+Busse	merge:Bus	plural filed as lemma
+med	drop	abbreviation or fragment
+Frei	merge:frei	capitalised adjective
+Becke	merge:Becken	cut-off form
+gekauft	merge:kaufen	participle filed as lemma
+bereitgestellt	merge:bereitstellen	participle filed as lemma
+erworben	merge:erwerben	participle filed as lemma
+FH	merge:Fachhochschule	abbreviation of a listed word
+hallen	keep	valid verb lemma (hall/hallt/hallte)
+regen	merge:rege	inflected adjective form of rege
+kind	merge:Kind	lower-case noun
+Thüringer	drop	place-name derivative, not on the list
+geliefert	merge:liefern	participle filed as lemma
+KB	drop	abbreviation (kilobyte)
+
+# question u: the counted forms are u, uder, uen, uste and so on, so it is unclear whether this is "u." for und or just noise; I chose merge:und.
+# question behindern: the counted forms are mostly the adjective behindert(e), but the lemma itself is a valid verb, so I kept it.
+# question hallen: the forms are mostly the verb hallen (hall, hallt, hallte), but the lemma is also the plural of Halle; I kept it.
+# question zuviel: there is no single dictionary lemma for "zu viel"; I chose merge:viel.
+# question FH: it is unclear whether Fachhochschule is on the list, and whether FH counts as an established abbreviation to keep.
+# question IP: it is widely used (IP-Adresse), so it may count as an established loan; I dropped it as a specialist acronym.

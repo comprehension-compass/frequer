@@ -1,0 +1,45 @@
+Einzige	merge:einzig	nominalised inflected adjective
+gezeigt	merge:zeigen	participle, not an adjective in its own right
+Aktuelle	merge:aktuell	capitalised inflected adjective
+gefordert	merge:fordern	participle, not an adjective in its own right
+preis	merge:Preis	lower-case noun
+Anlaß	merge:Anlass	old spelling
+ausschliesslich	merge:ausschließlich	ss spelling of ß
+Dresdner	drop	place-derived adjective, not on the place list
+gen	drop	cut-off fragment or archaic preposition, no clear target
+Düsseldorfer	drop	place-derived adjective, not on the place list
+übermittelt	merge:übermitteln	participle, not an adjective in its own right
+benannt	merge:benennen	participle, not an adjective in its own right
+gebucht	merge:buchen	participle, not an adjective in its own right
+seite	merge:Seite	lower-case noun
+paaren	keep	correct verb dictionary form, only the POS tag is wrong
+PR	drop	abbreviation, not an established word
+Fit	merge:fit	capitalised adjective
+Sichere	merge:sicher	capitalised inflected adjective
+ZU	merge:zu	garbled capitalisation of the preposition
+abwechseln	keep	correct verb dictionary form
+listen	keep	valid verb lemma (gelistet), not only the plural of Liste
+heissen	merge:heißen	ss spelling of ß
+schliessen	merge:schließen	ss spelling of ß
+CA	merge:circa	abbreviation of ca.
+Dunkle	merge:Dunkel	nominalised adjective, wrong lemma form
+Philips	drop	brand name
+Beliebe	merge:Belieben	cut-off fragment of "nach Belieben"
+jeher	keep	fixed adverb (seit/von jeher)
+Schwarze	merge:schwarz	inflected nominalised adjective
+Gerichte	merge:Gericht	plural filed as lemma
+OP	merge:Operation	abbreviation of a listed word
+iM	merge:im	miscapitalised form
+IG	drop	specialist abbreviation
+KMU	drop	specialist acronym
+Q	drop	single letter
+Sophie	drop	personal name
+Brigitte	drop	personal name
+OLG	drop	specialist abbreviation
+resultierend	merge:resultieren	present participle
+PM	drop	abbreviation
+# question gen: the forms gen/gest/gend/gende look like a mix of fragments and no target is obvious; I dropped it, but Gen would be a possible merge target.
+# question CA: the example is California (CA), but the forms are mostly "ca." = circa, and I assumed circa is on the list.
+# question OP: it is a common standalone word (im OP), and I assumed Operation is the listed lemma.
+# question Schwarze: it could be a noun in its own right (Schwarzer/Schwarze, a person), but the forms are only schwarzen, so I merged it.
+# question PR: it could be a loan abbreviation for Public Relations, and I treated it as a non-listed abbreviation.

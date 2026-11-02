@@ -1,0 +1,88 @@
+# lemma	A	reason A	B	reason B
+AG	keep	common established abbreviation (Aktiengesellschaft)	drop	abbreviation, not a learnable word
+ne	drop	colloquial particle with garbled variants	keep	established colloquial particle
+Hamburger	keep	also the food and the inhabitant noun, so not just a place name	drop	demonym derived from a place name
+letzter	keep	letzterer (the latter) is its own pronoun entry	merge:letzte	inflected form filed as lemma
+Münchner	keep	demonym, not a place name itself	drop	derived from a place name not on the list
+Lady	keep	established loan in German dictionaries	drop	English word, mostly in English names and phrases
+FH	drop	abbreviation	merge:Fachhochschule	abbreviation of a listed word
+regen	merge:reg	inflected adjective form filed as lemma	merge:rege	inflected adjective form of rege
+usw	keep	common general abbreviation, not a specialist acronym	drop	abbreviation of a phrase, not of a single listed word
+PR	drop	abbreviation, not an established word	keep	lexicalised abbreviation in general use
+OP	merge:Operation	abbreviation of a listed word	keep	lexicalised abbreviation in general use (im OP)
+Oscar	keep	established award word	drop	examples are person names
+dato	drop	Latin fixed-phrase relic	keep	fixed adverbial form (bis dato) a learner needs
+BH	keep	everyday abbreviation, spoken as a word	drop	abbreviation
+Lkw	keep	everyday abbreviation, spoken as a word	drop	abbreviation, excluded like Kfz
+letzt	keep	core adjective; stem is the lemmatiser's lemma for letzte/letzter	merge:letzte	cut-off stem of letzte/letzter
+Sir	keep	established English title in Duden	drop	English word
+OG	drop	abbreviation of Obergeschoss; no sign that the full word is a listed lemma	merge:Obergeschoss	abbreviation of a listed word
+verspäten	keep	real verb (sich verspäten); the lemma is not broken	merge:verspätet	forms are mostly the adjective verspätet
+mini	keep	established loan (mini-)	drop	not a verb, prefix-like fragment
+zertifizierten	merge:zertifizieren	inflected participle	merge:zertifiziert	inflected form of the participle adjective
+Sek	drop	ambiguous abbreviation	merge:Sekunde	abbreviation of a listed word
+Hz	merge:Hertz	unit abbreviation of Hertz	drop	unit abbreviation
+Glut	merge:Gluten	Counted forms are almost all "gluten", so the lemma is broken.	keep	Real noun (Glut), though the counts are mostly Gluten
+WG	keep	Established everyday word for Wohngemeinschaft	merge:Wohngemeinschaft	Abbreviation of a listed word
+facebook	drop	Brand name	merge:Facebook	Lower-case form of a famous company name
+Prim	merge:prim	cut-off fragment; forms are prime/prim	drop	fragment of English "prime" (Prime-Time/Amazon Prime), no clear German target
+max	merge:maximal	abbreviation of maximal	drop	name or abbreviation
+Brennen	merge:brennen	capitalised verb form	keep	nominalised infinitive, a noun in its own right
+personal	merge:Personaler	examples are all the noun Personaler, filed under a lower-case lemma	merge:Personal	lower-case noun or fragment of inflected adjective
+reg	merge:rege	fragment of the adjective rege	keep	valid adjective lemma
+nichtmal	merge:mal	misspelling of "nicht mal"	merge:nicht mal	misspelling of two words
+BMI	keep	widely known acronym	drop	specialist acronym
+Jupiter	keep	planet name found in ordinary dictionaries	drop	proper name
+Raiffeisen	drop	company or person name	keep	well-known bank institution
+sachen	merge:Sache	lower-case noun, plural form	merge:Sachen	lower-case noun, plural with its own meaning
+inneren	drop	broken lemma, forms are Swiss innert	merge:innert	written forms are innert, lemma is wrong
+Maxi	keep	established clipped word, Duden-listed	drop	clipped prefix/brand fragment
+FR	merge:für	"fr" is broken encoding of für, not an abbreviation	drop	abbreviation
+forsch	keep	valid adjective lemma	merge:forschen	forms mostly of forschen
+teen	merge:Teen	established loan, lower-case	drop	English word, not established as standalone loan
+Fed	drop	abbreviation/name	keep	famous institution (US Federal Reserve)
+Feinste	keep	nominalised superlative (vom Feinsten), a noun in its own right	merge:fein	inflected superlative of fein
+Kehl	merge:Kehle	forms are mostly kehl/kehle (throat), the lemma is a broken form	drop	place name not on the list
+schweizer	keep	indeclinable adjective use (schweizer Markt)	merge:Schweizer	lower-case demonym filed as adjective
+Ne	merge:eine	colloquial form of eine	merge:ne	particle under capitalised lemma
+Finn	keep	nationality noun, learnable	drop	name or nationality, not learnable
+wei	merge:weiß	ß dropped (weier, weie = weißer, weiße)	drop	garbled fragment, real word not obvious
+Krypto	drop	clipped prefix with no clear target	merge:Kryptowährung	clipped fragment
+dei	drop	garbled, no clear target	merge:dein	garbled fragment of dein
+Bemühe	merge:Bemühen	cut-off fragment of the noun Bemühen	merge:bemühen	broken lemma, written bemühen
+gedacht	merge:gedenken	inflected forms of a verb, mostly gedenken	merge:denken	inflected participle forms
+flöten	keep	valid verb lemma (flöten)	merge:Flöte	lower-case plural of Flöte
+Jüngste	merge:jung	capitalised inflected superlative of jung	keep	nominalised adjective (die Jüngste), like das Gute
+motorisieren	merge:motorisiert	participle adjective filed under the infinitive	keep	valid verb lemma, dictionary form
+sic	drop	Latin editorial marker	keep	established Latin insertion in German texts
+wg	drop	abbreviation	merge:wegen	abbreviation of a listed word
+Automotiv	drop	wrong form; specialist English industry term	merge:Automotive	cut-off or wrong form of the loan
+wildern	merge:wild	majority form wilder is the adjective	keep	real verb, even though most of the forms counted are the adjective wilder
+Arcade	merge:Arkade	English spelling of an adapted word; plural arcaden points to the architectural sense	drop	English gaming use, not an adapted word
+Diversity	keep	established loan in current German	drop	English word, mostly in English names
+Swisscom	keep	famous company	drop	company name
+web	merge:Web	English lower-case form of an established loan	drop	English word
+dr	drop	Abbreviation or fragment	merge:Doktor	abbreviation of Doktor
+Hoster	keep	Established loan in German IT use	drop	niche tech jargon, not established
+Äußere	keep	capitalised noun lemma (das Äußere)	merge:äußere	all forms are lowercase, so this is the adjective filed under a capital letter
+herzlichst	keep	standard closing/adverb	merge:herzlich	superlative adverb
+punkto	keep	listed as its own word (punkto Sicherheit)	merge:Punkt	fragment of "in punkto"
+Fallout	keep	German noun entry (radioactive fallout)	drop	game title, not an established German loan
+gelehrt	keep	adjective with its own entry, also nominalised	merge:Gelehrter	forms and examples are the nominalised Gelehrter, filed lower-case
+fach	merge:Fach	cut-off -fach fragment	drop	fragment of the -fach suffix
+Jakobsweg	drop	route name, not on the reviewed list	keep	common noun for a pilgrim route, with its own plural forms
+Sep	drop	abbreviation	merge:September	abbreviation of a listed word
+aufeinanderfolgen	keep	real verb infinitive, and the participle adjective has its own entry	merge:aufeinanderfolgend	adjective forms filed under the infinitive
+Freu	merge:sich freuen	truncated imperative of freuen	merge:freuen	truncated imperative
+Stack	drop	English IT jargon, not an adapted loan	keep	established IT loan
+Kühn	merge:kühn	capitalised adjective (surname examples aside)	drop	surname in the examples
+admin	merge:Administrator	abbreviation of Administrator	merge:Admin	lower-case noun, abbreviation of Administrator
+Pc	merge:PC	abbreviation with odd casing	keep	established loan abbreviation (PC) with odd casing
+Pfälzer	drop	place-derived name	keep	demonym noun (cf. Berliner), not a place name
+Jüngere	merge:jung	inflected comparative adjective	keep	nominalised adjective, noun in its own right (die Jüngeren)
+haftungsbeschränkt	drop	company-name template (UG/GmbH)	keep	real adjective with no verb to merge to, despite the company-name template
+Kribbel	merge:Kribbeln	cut-off fragment of the noun Kribbeln	merge:kribbeln	verb form filed as noun
+Zitronensäure	merge:Zitronensäure	noun filed in lower case	keep	normal noun
+tags	merge:Tag	lower-case noun form filed as adverb	keep	adverb with its own dictionary entry (tags darauf)
+cd	drop	abbreviation	merge:CD	lower-case filing of the established noun CD
+Knowhow	merge:Know-how	spelling variant of loan	keep	established loan, spelling variant

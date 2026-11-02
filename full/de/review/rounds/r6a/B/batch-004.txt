@@ -1,0 +1,45 @@
+fur	merge:für	broken encoding of für
+hergestellt	merge:herstellen	participle, no adjective entry of its own
+EM	merge:Europameisterschaft	abbreviation of a listed word
+Interessant	merge:interessant	adjective filed under a capitalised lemma
+ausgenommen	merge:ausnehmen	participle filed as a verb lemma
+gesammelt	merge:sammeln	participle, no adjective entry of its own
+email	merge:E-Mail	English spelling of an adapted word
+Zürcher	drop	demonym from a place name, not on the list
+Deluxe	keep	established loan, in the Duden
+k	drop	stray letter with no obvious target
+Print	keep	established loan, in the Duden
+Quest	drop	English gaming word, not an established loan
+Bremer	drop	adjective from a place name, not on the list
+vorgestellt	merge:vorstellen	participle, no adjective entry of its own
+usw	drop	abbreviation of a phrase, not of a single listed word
+Consulting	keep	established loan, in the Duden
+Eintracht	keep	ordinary German noun (harmony), also used in club names
+Tip	merge:Tipp	misspelling of Tipp
+herausfordern	keep	the lemma is the verb itself; the participial forms are only inflections
+dating	merge:Dating	lower-case noun filed under a lower-case lemma
+geschnitten	merge:schneiden	participle, no adjective entry of its own
+geprägt	merge:prägen	participle, no adjective entry of its own
+differenzieren	keep	the lemma is the verb itself
+vorgeschrieben	merge:vorschreiben	participle, no adjective entry of its own
+erschienen	merge:erscheinen	participle, no adjective entry of its own
+Salzburger	drop	adjective from a place name, not on the list
+geld	merge:Geld	noun filed under a lower-case lemma
+Grösse	merge:Größe	Swiss spelling of Größe
+getrocknet	merge:trocknen	participle, no adjective entry of its own
+anmeldung	merge:Anmeldung	noun filed under a lower-case lemma
+Knote	merge:Knoten	cut-off lemma
+hetzen	keep	verb lemma; Hetze forms are mixed in but the lemma itself is fine
+Kleiner	merge:klein	inflected adjective filed under a capitalised lemma
+Dass	merge:dass	conjunction filed under a capitalised lemma
+gemäss	merge:gemäß	Swiss spelling of gemäß
+personenbezogene	merge:personenbezogen	inflected adjective form
+knnen	merge:können	broken encoding of können
+Bruno	drop	personal name
+Pariser	drop	adjective from a place name, not on the list
+Ruhr	drop	place name, not on the list
+# question EM: unclear whether Europameisterschaft is on the list; merged on the assumption that it is
+# question usw: abbreviation of a multi-word phrase, so there is no single lemma to merge into; dropped
+# question k: fragment with no clear target (forms ke, ken, kes look like fragments of several words); dropped
+# question ausgenommen: also works as a preposition or conjunction ("except"), which could justify keeping it; merged as a participle
+# question hetzen: the noun Hetze is mixed into this lemma; it may need splitting into hetzen and Hetze

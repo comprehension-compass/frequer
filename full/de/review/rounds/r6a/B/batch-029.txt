@@ -1,0 +1,44 @@
+Ma	drop	cut-off fragment, no clear target
+Stk	merge:Stück	abbreviation of Stück
+sexkontakte	merge:Sexkontakt	lower-case plural noun
+suchaufkommen	merge:Suchaufkommen	lower-case noun
+dei	merge:dein	garbled fragment of dein
+interviewt	merge:interviewen	participle, not an adjective
+Oberursel	drop	place name not on list
+soo	merge:so	misspelling
+spiel	merge:Spieler	cut-off fragment, mostly written spieler
+NGOs	merge:NGO	plural of a common acronym
+Bemühe	merge:bemühen	broken lemma, written bemühen
+Flexibel	merge:flexibel	capitalised adjective
+Ausrede	keep	valid singular noun
+fu	merge:für	fragment of fuer
+SR	drop	specialist abbreviation
+gedacht	merge:denken	inflected participle forms
+Lego	keep	established brand-noun
+Moskauer	drop	place-derived name
+ide	merge:Idee	fragment of Idee
+Inwieweit	merge:inwieweit	capitalised adverb
+Maja	drop	personal name
+Pfeiffer	drop	surname
+flöten	merge:Flöte	lower-case plural of Flöte
+Maik	drop	personal name
+erhoben	merge:erheben	inflected participle
+dargestellt	merge:darstellen	inflected participle
+Rinder	merge:Rind	plural filed as lemma
+Ergo	keep	valid word ergo
+kastriert	merge:kastrieren	participle
+Lüneburger	drop	place-derived name
+AGBs	merge:AGB	plural of abbreviation
+Facebookseite	keep	valid compound noun
+MM	drop	ambiguous abbreviation
+getätigt	merge:tätigen	inflected participle
+hochzuladen	merge:hochladen	inflected verb form
+CT	drop	specialist acronym
+Edinburgh	drop	place name not on list
+Warm	merge:warm	capitalised adjective
+flirt	merge:flirten	conjugated verb form
+fotos	merge:Foto	lower-case plural noun
+# question sexkontakte: spam-like, so merging may add a junk noun if Sexkontakt is not on the list
+# question spiel: forms are mostly spieler but also spieles/spieln, so the target could be spielen
+# question gedacht: forms mix denken and gedenken (gedachten sie der...), so the target is unclear
+# question MM: could be Millimeter, a media abbreviation or other, with no examples

@@ -1,0 +1,43 @@
+sO	merge:so	garbled case of so
+Aleppo	drop	place name not on list
+tg	drop	abbreviation/code
+schweizer	keep	indeclinable adjective use (schweizer Markt)
+Yen	keep	established currency loan
+Char	drop	fragment/foreign word, unclear
+Zentral	merge:zentral	adjective under capitalised lemma
+Weinheim	drop	place name not on list
+Individuell	merge:individuell	adjective under capitalised lemma
+Heide	keep	real noun (Heide/Heiden), not just a name
+blog	merge:Blog	lower-case noun
+umwerfen	keep	real verb lemma, though tagged ADJ
+fleissig	merge:fleißig	ss spelling variant of fleißig
+ausgeschieden	merge:ausscheiden	inflected participle
+eingegangen	merge:eingehen	inflected participle
+Philippe	drop	first name
+aufgerufen	merge:aufrufen	inflected participle
+Wesel	drop	place name not on list
+minuten	merge:Minute	inflected noun form filed as verb
+Faß	merge:Fass	old spelling
+Westerwald	drop	place name not on list
+resp	merge:respektive	abbreviation of listed word
+Finca	keep	established loan
+Kabul	drop	place name not on list
+naß	merge:nass	old spelling
+Ne	merge:eine	colloquial form of eine
+anschliessen	merge:anschließen	ss spelling variant
+naht	merge:nahen	conjugated form
+angst	merge:Angst	lower-case noun
+glück	merge:Glück	lower-case noun
+Santo	drop	Romance-language word/name, mostly surname
+blick	merge:Blick	lower-case noun
+konnen	merge:können	broken encoding
+übernahmen	merge:übernehmen	conjugated form
+Anm	merge:Anmerkung	abbreviation of listed word
+bereich	merge:Bereich	lower-case noun
+mitgelieferte	merge:mitliefern	inflected participle
+jetz	merge:jetzt	misspelling
+mund	merge:Mund	lower-case noun
+dts	drop	news-agency abbreviation
+# question schweizer: indeclinable adjective vs. demonym noun Schweizer; kept as is, but merge:Schweizer might be intended
+# question Ne: could be eine or "nicht wahr"; merged to eine as the most frequent colloquial reading
+# question Char: unclear whether Char (fish) or fragment of English "chars"; dropped

@@ -1,0 +1,43 @@
+dpi	drop	specialist abbreviation (printing unit)
+gehandelt	merge:handeln	inflected participle, no adjective entry of its own
+Emde	drop	fragment of the place name Emden, not on the place list
+aufeinanderfolgen	keep	real verb infinitive, and the participle adjective has its own entry
+geilen	merge:geil	mostly inflected forms of the adjective geil
+Phuket	drop	place name not on the list
+beitrag	merge:Beitrag	lower-case noun
+Ausschuß	merge:Ausschuss	old spelling, and plural forms filed as the lemma
+mitgeführt	merge:mitführen	participle form
+wort	merge:Wort	lower-case noun
+Raider	drop	English word or proper name (Tomb Raider)
+kabel	merge:Kabel	lower-case noun
+bdsm	drop	abbreviation
+Hertz	keep	unit noun, learnable
+Langenfeld	drop	place name not on the list
+Titanic	drop	ship or film name
+Sör	drop	fragment of the first name Sören
+unsre	merge:unser	colloquial variant spelling of unser
+Abschalte	merge:abschalten	verb filed under a capitalised lemma
+Terasse	merge:Terrasse	misspelling
+erlebt	merge:erleben	inflected participle filed as a lemma
+populäre	merge:populär	inflected adjective
+Experimentier	merge:experimentieren	verb filed under a capitalised cut-off form
+einschl	merge:einschließlich	abbreviation of a listed word
+UdSSR	drop	state name not on the place list
+vieleicht	merge:vielleicht	misspelling
+zeitnahe	merge:zeitnah	inflected adjective
+stunde	merge:Stunde	lower-case noun, form is the plural stunden
+Steyr	drop	place name or brand
+box	merge:Box	lower-case noun
+job	merge:Job	lower-case noun, wrong POS tag
+Bunt	merge:bunt	adjective filed under a capitalised lemma
+Oldenburger	drop	place-derived name
+Staatsoper	keep	common noun for an institution type
+Swift	drop	personal or brand name
+Toshiba	drop	brand name
+Aurora	drop	name
+Gefall	merge:Gefälle	cut-off form, dropped letter
+Jüdische	merge:jüdisch	adjective filed under a capitalised lemma
+Steinbrück	drop	surname
+# question box: forms box and boxer may be Boxer (person or dog) rather than Box; merged to Box as the lower-case noun
+# question Staatsoper: sentences mostly refer to specific houses (Wiener Staatsoper), but the lemma is a common noun, so kept
+# question aufeinanderfolgen: almost all forms are the participle adjective aufeinanderfolgend, but the infinitive is a real verb, so kept

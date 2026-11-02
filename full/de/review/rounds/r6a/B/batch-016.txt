@@ -1,0 +1,44 @@
+Mose	drop	biblical personal name
+bergab	keep	real adverb; POS tag is wrong, lemma is fine
+Gadget	keep	established English loan
+Gottfried	drop	personal name
+Telefoniere	merge:telefonieren	capitalised verb form filed as noun, broken lemma
+fristgerecht	keep	valid adjective, wrong POS only
+zurückerhalten	keep	valid separable verb
+Heidelberger	drop	demonym from a place name not on the list
+muschi	merge:Muschi	lower-case noun
+Aachener	drop	demonym from a place name not on the list
+Grande	drop	foreign word or name fragment
+Heu	keep	valid noun
+Sandwich	keep	established loan
+Technisch	merge:technisch	adjective filed under a capitalised lemma
+Alleinerziehende	keep	established nominalised adjective
+Holstein	drop	place name not on the list
+jo	drop	colloquial or dialect interjection
+Hyundai	drop	brand name, not a learnable word
+Emailadresse	merge:E-Mail-Adresse	non-standard spelling
+Ross	keep	real noun (Ross, horse)
+Schiller	drop	surname
+plan	merge:Plan	lower-case noun
+griffbereit	keep	valid adjective, wrong POS only
+Aufl	merge:Auflage	abbreviation of a listed word
+Fraktionsvorsitzende	keep	nominalised adjective, own noun
+bett	merge:Bett	lower-case noun
+personal	merge:Personal	lower-case noun or fragment of inflected adjective
+platz	merge:Platz	lower-case noun
+Bochumer	drop	demonym from a place name not on the list
+Faste	merge:fasten	broken lemma, only form written is fasten
+ei	merge:Ei	lower-case noun
+südöstlich	keep	valid adjective, wrong POS only
+Biss	keep	valid noun
+Ober	merge:ober	forms are the adjective oberen/ober
+Mannheimer	drop	demonym from a place name not on the list
+reg	keep	valid adjective lemma
+IM	merge:im	capitalised preposition
+dam	merge:Dame	cut-off fragment of Dame
+soooo	merge:so	expressive spelling variant
+Lenovo	drop	brand name, not a learnable word
+# question Heidelberger: rules do not say whether demonyms (Heidelberger, Aachener, Bochumer, Mannheimer) count as place names; I dropped all four.
+# question plan: forms plane/planer could also be the adjective plan (flat) or the verb planen; I chose the noun Plan as the dominant reading.
+# question personal: the examples are all the noun Personaler (HR staff), which has its own dictionary entry; I merged to Personal, but Personaler may deserve its own lemma.
+# question Ober: Ober (waiter) is a real noun, but the forms shown (oberen, ober) are adjectival; I merged to ober, and the dictionary adjective form is unclear.

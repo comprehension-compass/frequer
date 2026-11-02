@@ -1,0 +1,44 @@
+Eck	keep	Eck is a real neuter noun in the dictionary, so it is not just a variant of Ecke.
+Überlebende	keep	Nominalised adjective that works as a noun in its own right.
+Nachlass	keep	Ordinary noun.
+Burnout	keep	Established loan.
+Münchener	drop	Demonym derived from a place name, so it falls under the place-name rule.
+Glut	merge:Gluten	Counted forms are almost all "gluten", so the lemma is broken.
+XI	drop	Roman numeral.
+äusserst	merge:äußerst	Swiss ss spelling of äußerst.
+jedesmal	keep	Accepted one-word adverb variant.
+Annette	drop	Personal name.
+Aal	keep	Real noun (eel); the counts are inflated by the town Aalen.
+Basler	drop	Demonym derived from a place name.
+herunterzuladen	merge:herunterladen	zu-infinitive filed as a lemma.
+Oberbayern	drop	Place name not on the list.
+Weide	keep	Valid singular noun.
+Neuss	drop	Place name.
+arbeit	merge:Arbeit	Lower-case noun.
+ausfindig	keep	Has its own dictionary entry as an adjective.
+Playstation	drop	Brand name.
+ben	drop	Cut-off fragment whose source is unclear.
+Balk	merge:Balken	Cut-off form of Balken.
+Weiter	merge:weiter	Capitalised adverb/adjective form.
+satte	merge:satt	Inflected adjective filed as a verb.
+Metro	keep	Established loan (underground railway).
+SZ	drop	Newspaper abbreviation.
+Battlefield	drop	Game title.
+Shoppe	merge:shoppen	Verb form filed as a noun.
+GS	drop	Abbreviation or code.
+Sträucher	merge:Strauch	Plural filed as a lemma.
+einzige	merge:einzig	Inflected adjective filed as a verb.
+aka	drop	English abbreviation.
+durchfahren	keep	Real verb lemma, though its counts are mixed with durchführen.
+produkt	merge:Produkt	Lower-case noun.
+Km	merge:Kilometer	Abbreviation of a listed word.
+habs	merge:haben	Contraction of "habe es".
+Rühr	merge:rühren	Cut-off or imperative form of rühren.
+fehl	keep	Real particle (fehl am Platz); the Fehler counts are mixed in.
+re	drop	Fragment or abbreviation.
+Petrus	drop	Personal name.
+Komplett	merge:komplett	Capitalised adverb/adjective.
+# question Münchener: Demonym adjectives from place names (Münchener, Basler) are not covered explicitly; I dropped them under the place-name rule.
+# question ben: The forms best/ben/benen/bte/benden look like cut-off pieces of several words (e.g. üben, beben), so no single merge target is obvious.
+# question durchfahren: The counted forms are mostly durchführen, so I kept durchfahren as a real verb, but the counts may belong to a different lemma.
+# question fehl: The counted forms are about half Fehler, so the lemma is mixed; I kept fehl as a real particle.

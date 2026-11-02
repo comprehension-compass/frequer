@@ -1,0 +1,44 @@
+roll	merge:Rolle	forms rolle/roller are Rolle (or rollen); the lemma is a cut-off
+Sele	merge:Selen	"selen" is the noun Selen, cut off
+Alain	drop	first name
+Recep	drop	first name
+beichten	keep	valid verb lemma; the forms are all beichten
+Freu	merge:freuen	truncated imperative
+Wuppertaler	drop	place-derived name, Wuppertal not on the list
+Zang	merge:Zange	cut-off fragment
+leistung	merge:Leistung	lower-case noun
+Tschechische	merge:tschechisch	inflected adjective filed under a capital
+Anziehe	merge:anziehen	nominalised verb filed under a capital
+Wordpress	drop	brand name
+wärs	merge:sein	contraction of wäre es
+Gaby	drop	first name
+qua	keep	Latin preposition used in German (qua Amt)
+Agn	drop	fragment of the name Agnes
+Ostukraine	drop	place name
+Servieren	merge:servieren	nominalised infinitive
+DAZN	drop	brand acronym
+Gibts	merge:geben	contraction of gibt es
+Stack	keep	established IT loan
+poste	merge:posten	conjugated form
+Geil	merge:geil	adjective filed under a capital
+Herberg	merge:Herberge	cut-off fragment
+Programmieren	merge:programmieren	nominalised infinitive
+lik	merge:Like	cut-off fragment of "like(s)"
+orang	merge:orange	cut-off fragment
+Ahn	merge:ahnen	forms are the verb ahnen
+Anbringe	merge:anbringen	nominalised verb form
+Kühle	merge:kühlen	forms are the verb kühlen
+Kühn	drop	surname in the examples
+admin	merge:Admin	lower-case noun, abbreviation of Administrator
+geschichte	merge:Geschichte	lower-case noun
+Weltbank	keep	famous institution
+charmante	merge:charmant	inflected adjective
+dreieinhalb	keep	number word, a real word
+Quo	merge:Status quo	fragment of "status quo"
+ziel	merge:Ziel	lower-case noun
+Außen	merge:außen	adverb filed under a capital
+della	drop	Italian word
+
+# question Freu: the lemma for freuen could be "sich freuen" (pronominal) rather than "freuen"; merged to the plain verb
+# question Stack: borderline IT jargon; kept as an established loan
+# question Quo: no standalone "Status quo" lemma is known to exist; merge target assumed

@@ -1,0 +1,45 @@
+Rob	drop	Name or fragment, not a learnable word
+Spree	drop	River name, not on the reviewed list
+ect	merge:etc	Typo of the abbreviation etc
+mitte	merge:Mitte	Noun filed under a lower-case lemma
+Sergej	drop	Personal name
+kommend	keep	Participle with its own adjective entry (kommende Woche)
+Kollage	merge:Kollagen	Forms are almost all kollagen (collagen); the lemma is a cut-off fragment
+Prager	drop	Adjective derived from the place name Prag
+Duisburger	drop	Adjective derived from the place name Duisburg
+Elsass	drop	Place name not on the list
+Binge	drop	Forms are Bingen, a place name not on the list
+Informieren	merge:informieren	Verb filed under a capitalised lemma
+Mrz	merge:März	Dropped letter
+Storytelling	keep	Established loan
+aufsteigend	keep	Participle with its own adjective entry
+kranken	merge:krank	Inflected form of the adjective krank, mis-tagged as a noun
+pm	drop	Abbreviation
+Dock	keep	Established German noun
+Skipper	keep	Established loan
+Sunrise	drop	English word or name
+Lichtblick	keep	Fine German noun
+benötigt	merge:benötigen	Participle or inflected form filed as lemma
+Ausschalte	merge:ausschalten	Cut-off fragment of ausschalten
+Fond	keep	Established loan
+poppen	keep	Real German verb, though slang
+dr	drop	Abbreviation or fragment
+nennenswerte	merge:nennenswert	Inflected adjective
+Relaxen	merge:relaxen	Verb filed under a capitalised lemma
+entscheide	merge:entscheiden	Conjugated verb form
+Gig	keep	Established loan
+Indische	merge:indisch	Adjective filed under a capitalised lemma
+Pott	keep	Colloquial but a real German noun with its own entry
+glitzern	keep	Verb infinitive is the correct lemma
+Hilfreich	merge:hilfreich	Adjective filed under a capitalised lemma
+lauter	keep	Has its own senses (nothing but, honest) beyond the comparative of laut
+milf	drop	Slang abbreviation, spam-like
+transparente	merge:transparent	Inflected adjective
+Norweger	keep	Demonym noun with its own feminine entry (Norwegerin)
+Whitepaper	keep	Established loan in German business and IT use
+Hoster	keep	Established loan in German IT use
+
+# question ect: the rules do not say whether etc is on the list; I assumed it is, since ect is an obvious typo of it.
+# question kommend: I kept it as an adjective with its own entry, but a dictionary may list it only as a participle of kommen.
+# question Kollage: the screeners said misspelling of Collage, but the forms are kollagen (collagen), so I merged into Kollagen.
+# question Prager: the rules cover place names and derived demonyms only loosely; I dropped it as derived from a place name not on the list, while Norweger is kept as a demonym noun.

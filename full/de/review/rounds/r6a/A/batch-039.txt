@@ -1,0 +1,44 @@
+farben	merge:Farbe	plural noun filed as a verb
+nimm	merge:nimmer	forms are all nimmer, a dictionary adverb
+teilnahmen	merge:teilnehmen	conjugated past form
+zigeunern	drop	offensive, and the examples are spam
+praxisnahe	merge:praxisnah	inflected adjective
+Intelligent	merge:intelligent	adjective under a capitalised lemma
+Mt	drop	abbreviation
+Rider	drop	English word, not an established loan
+Treibhausgase	merge:Treibhausgas	plural filed as lemma
+fach	merge:Fach	cut-off -fach fragment
+interesse	merge:Interesse	noun under a lower-case lemma
+Jakobsweg	drop	route name, not on the reviewed list
+Geschenkgutscheine	merge:Geschenkgutschein	plural filed as lemma
+Pflegebedürftige	keep	nominalised adjective, a noun in its own right
+UTC	drop	specialist acronym
+Sep	drop	abbreviation
+Topper	drop	English word, not an established loan
+echtgeld	merge:Echtgeld	noun under a lower-case lemma
+gang	merge:Gang	noun under a lower-case lemma
+Ackermann	drop	surname
+Ausprobieren	merge:ausprobieren	nominalised infinitive filed under a capitalised lemma
+Betreibe	merge:betreiben	verb under a capitalised lemma
+Remus	drop	character name
+hei	merge:heiß	broken encoding
+DAV	drop	organisation abbreviation
+Merlin	drop	character name
+Oberstdorf	drop	place name not on the list
+Petit	drop	French word
+gegangen	merge:gehen	participle form filed as a lemma
+Lösen	merge:lösen	nominalised infinitive filed under a capitalised lemma
+Schindler	drop	surname
+Selbstständig	merge:selbstständig	adjective under a capitalised lemma
+Erdgeschoß	merge:Erdgeschoss	old spelling variant
+Marko	drop	given name
+KIT	drop	acronym
+TH	drop	abbreviation
+dafr	merge:dafür	broken encoding
+Bamberger	drop	demonym from a place name
+Kommunistische	merge:kommunistisch	adjective under a capitalised lemma
+Rewe	keep	famous German supermarket chain
+
+# question fach: it is a fragment of the -fach suffix (einfache, mehrfache), so there is no obvious target; merge:Fach is a guess
+# question Rewe: it is unclear whether a company counts as a "famous institution"; I treated this major retailer as one
+# question Jakobsweg: it is a well-known pilgrimage route and a common compound, so it may count as a learnable word rather than a place name

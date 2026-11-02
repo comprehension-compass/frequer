@@ -1,0 +1,48 @@
+Affiliate	drop	English marketing jargon, not an established loan
+zulässt	merge:zulassen	conjugated form
+Oberhausen	drop	place name not on list
+letzt	keep	core adjective; stem is the lemmatiser's lemma for letzte/letzter
+Optional	merge:optional	capitalised adjective
+Konkret	merge:konkret	capitalised adjective/adverb
+Anschluß	merge:Anschluss	old spelling
+undMehr	drop	template garbage
+erbracht	merge:erbringen	participle without own entry
+Taylor	drop	personal name
+Ficke	merge:ficken	verb form filed as noun
+Sir	keep	established English title in Duden
+Dinner	keep	established loan
+Karlsruher	drop	adjective from place name not on list
+BI	drop	abbreviation/garbled
+Script	merge:Skript	English spelling
+Mobil	merge:mobil	capitalised adjective
+gutgeschrieben	merge:gutschreiben	participle
+weis	merge:wissen	misspelling of weiß (wissen)
+engen	merge:eng	inflected adjective form
+Schwitz	merge:schwitzen	verb filed under capitalised stem
+SchülerIn	merge:Schülerin	plural/gendered form filed as lemma
+Verweile	merge:verweilen	capitalised verb form
+JA	merge:ja	capitalised particle
+ONLINE	merge:online	all-caps form of loan
+Timo	drop	personal name
+Palm	merge:Palme	cut-off form
+verblieben	merge:verbleiben	participle
+willen	keep	valid preposition (um ... willen)
+beheizen	keep	valid verb dictionary form
+Schluß	merge:Schluss	old spelling
+EStG	drop	specialist acronym
+seh	merge:sehen	truncated verb form
+St	drop	abbreviation
+z	drop	single letter, garbled
+anschliessend	merge:anschließend	Swiss ss spelling
+Freiburger	drop	adjective from place name not on list
+Lewis	drop	personal name
+Mega	merge:mega	lower-case word filed under capitalised lemma
+ueber	merge:über	transliterated spelling
+
+# question letzt: the lemma is an inflection stem (letzter/letzten/letztes), but no explicit target lemma is given. I kept it, since the lemmatiser's convention may treat it as the adjective lemma, and the word is essential.
+# question Affiliate: borderline between marketing jargon and an established loan. I dropped it.
+# question Mega: the word is a prefix/slang fragment; I merged it into lower-case mega on the assumption that this entry exists.
+# question St: unclear whether this abbreviation of Sankt/Stück should be merged or dropped. I dropped it.
+# question Karlsruher: the rules do not say whether an adjective derived from a place name counts as a place name. I dropped it.
+# question weis: weiß is both an adjective and a form of wissen, so the target is ambiguous. I chose wissen.
+# question willen: tagged VERB, but it is really the preposition in "um ... willen". I kept it.

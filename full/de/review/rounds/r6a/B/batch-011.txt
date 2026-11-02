@@ -1,0 +1,46 @@
+gabs	merge:geben	contracted past form of "gab es"
+Potsdamer	drop	place-name derivative, Potsdam not on the list
+eG	drop	specialist abbreviation (eingetragene Genossenschaft)
+Strasse	merge:Straße	Swiss spelling of Straße
+Kopiere	merge:kopieren	verb filed under a capitalised lemma
+zb	drop	abbreviation of a phrase, not of a single listed word
+Mod	drop	garbled, no clear German lemma
+Roll	merge:Rolle	cut-off fragment of Rolle
+stationäre	merge:stationär	inflected adjective
+ebay	drop	brand name, not a famous institution
+Adidas	drop	brand name
+rezept	merge:Rezept	noun filed under a lower-case lemma
+weiters	keep	genuine Austrian adverb, not broken
+zuvorkommen	merge:zuvorkommend	the forms are mostly the adjective zuvorkommend
+Spielregel	keep	correct singular noun lemma
+Letzt	merge:letzt	capitalised adjective fragment
+Raiffeisenbank	keep	common bank-type noun with its own plural
+Jahrtausende	merge:Jahrtausend	plural filed as lemma
+weiss	merge:weiß	ss spelling and inflected forms of weiß
+rüber	keep	common colloquial adverb
+Streitkräfte	keep	plural-only noun
+Brenner	keep	common noun (burner)
+bewußt	merge:bewusst	old spelling
+Brexit	keep	established term
+Sauerland	drop	place name not on the list
+hmm	keep	interjection
+Kandidatin	keep	own feminine entry
+red	merge:reden	truncated verb form
+zutiefst	keep	valid adverb, only the tag is wrong
+Quiz	keep	established loan
+Änder	merge:ändern	cut-off verb form
+Panasonic	drop	brand name
+Vgl	merge:vergleichen	abbreviation of a listed word
+Hz	drop	unit abbreviation
+Anklicke	merge:anklicken	verb filed under a capitalised lemma
+trüb	keep	correct adjective lemma, only the tag is wrong
+internet	merge:Internet	noun filed under a lower-case lemma
+Fachleute	keep	plural with its own meaning
+p	drop	single letter
+gelaunt	keep	adjective with its own entry
+
+# question Mod: unclear whether this is the English game "mod", Modus, or Mode; dropped as having no clear lemma
+# question ebay: unclear whether brands count as "famous institutions" (keep) or "other names" (drop); Adidas, Panasonic and ebay dropped, Raiffeisenbank kept as a common bank-type noun
+# question Letzt: unclear whether the target is letzt or letzte; chose merge:letzt
+# question red: could be the English word "red" rather than a cut-off reden; merged under the fragment rule
+# question zb: unclear whether an abbreviation of "zum Beispiel" counts as an abbreviation of a listed word; dropped

@@ -1,0 +1,45 @@
+ungeschlagen	keep	adjective with its own entry
+Geile	merge:geil	capitalised adjective form
+partnervermittlung	merge:Partnervermittlung	lower-case noun
+tim	drop	English "time" or a name, not German
+Hip	merge:hip	established adjective written with a capital
+Mitnehme	merge:mitnehmen	garbled capitalised verb form
+fängt	merge:fangen	conjugated form
+verfluchen	keep	valid verb lemma
+Handicap	keep	established loan
+Relaunch	keep	established loan
+bad	merge:Bad	lower-case noun, not the English adjective
+EC	drop	abbreviation or code
+Oberliga	keep	common German sports term
+Muse	keep	ordinary noun
+Fed	keep	famous institution (US Federal Reserve)
+Kantonsrat	keep	institution term, valid noun
+vorgenommen	merge:vornehmen	participle without its own entry
+anpasst	merge:anpassen	conjugated form
+Ausfülle	merge:ausfüllen	garbled verb form
+Schlechte	merge:schlecht	adjective filed under a capital
+MW	drop	abbreviation
+bein	merge:Bein	lower-case noun, plural forms
+Hüte	merge:Hut	plural
+Rocket	drop	English word or brand
+shop	merge:Shop	lower-case established loan noun
+Funktioniere	merge:funktionieren	capitalised verb form
+Kirst	drop	name
+ölen	keep	valid verb lemma
+KZ	keep	established German abbreviation
+hats	merge:haben	contraction of "hat's", conjugated form
+statten	merge:ausstatten	cut-off fragment
+Fil	drop	English "file" or garbled form
+XD	drop	emoticon
+fick	merge:ficken	verb form filed as ADJ
+slot	merge:Slot	lower-case loan noun
+Installieren	merge:installieren	capitalised verb form
+Odenwald	drop	place name not on the list
+baby	merge:Baby	lower-case noun
+com	drop	web fragment
+schrägen	merge:schräg	inflected adjective form
+# question bad: lower-case "bad" with no examples could be the noun Bad or the English adjective; I chose Bad.
+# question KZ: whether an abbreviation like KZ counts as an established word or a mere abbreviation of Konzentrationslager is not clear; I kept it.
+# question statten: the forms (stattet, stattete) fit ausstatten and abstatten, and the one example is "von statten gehen"; I chose ausstatten.
+# question Fed: it is a short form of a famous institution, but the rules also drop abbreviations; I kept it.
+# question tim: forms are mostly "time" and "timer", which could merge into Timer, but the lemma "tim" itself is a name or fragment; I dropped it.

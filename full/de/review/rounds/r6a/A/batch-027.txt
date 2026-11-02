@@ -1,0 +1,44 @@
+Theresa	drop	first name
+Thor	drop	name of a god, a proper name
+Ziehe	merge:ziehen	capitalised verb form
+angebot	merge:Angebot	lower-case noun
+Braunschweiger	drop	adjective derived from a place name not on the list
+angefochten	merge:anfechten	inflected participle
+Hunderte	keep	nominalised numeral noun in its own right
+MwSt	merge:Mehrwertsteuer	abbreviation of a listed word
+auseinandergesetzt	merge:auseinandersetzen	participle filed as lemma
+facto	drop	Latin fragment of "de facto"
+gehn	merge:gehen	colloquial spelling
+hätt	merge:haben	conjugated form
+menge	merge:Menge	lower-case noun
+Hel	drop	name or fragment
+Geschäftsleute	keep	established plural-only noun like Leute
+Jülich	drop	place name not on the list
+Piazza	drop	Italian word, not an established loan
+lg	drop	chat abbreviation
+AI	drop	English acronym
+Upgrad	merge:Upgrade	cut-off fragment
+Babe	drop	English slang word, not an established loan
+versteh	merge:verstehen	imperative form
+Analog	merge:analog	capitalised adjective
+Highway	drop	English word, not an established loan
+Sarrazin	drop	person name
+Sicher	merge:sichern	capitalised verb form, text shows sichern
+Allgäuer	drop	adjective derived from a place name not on the list
+gg	drop	abbreviation
+gefühl	merge:Gefühl	lower-case noun
+Öfter	merge:oft	comparative/adverb form of oft
+Finn	keep	nationality noun, learnable
+mAh	drop	unit abbreviation
+Eden	drop	name
+gesicht	merge:Gesicht	lower-case noun
+wei	merge:weiß	ß dropped (weier, weie = weißer, weiße)
+wanken	keep	valid verb lemma, only the POS tag is wrong
+Schießen	merge:schießen	capitalised verb infinitive
+Abspiel	merge:abspielen	cut-off verb form
+Elegant	merge:elegant	capitalised adjective
+Osnabrücker	drop	adjective derived from a place name not on the list
+# question Braunschweiger: the rules cover place names, not adjectives derived from them (also Allgäuer, Osnabrücker); I treated them as place-derived and dropped them.
+# question Geschäftsleute: could be a plural of Geschäftsmann/-frau (merge) or a plural-only noun like Leute (keep); I kept it.
+# question Finn: could also be read as a first name (drop); I kept it as the nationality noun.
+# question wei: the garbled forms most likely come from weiß, but this is not certain.

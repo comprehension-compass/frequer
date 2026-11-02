@@ -1,0 +1,44 @@
+fernzuhalten	merge:fernhalten	zu-infinitive of a separable verb
+sera	drop	foreign/garbled, not German
+vereinigt	merge:vereinigen	participle, mostly from the name Vereinigtes Königreich
+Loslasse	merge:loslassen	cut-off fragment of the verb
+PH	drop	abbreviation
+finds	merge:finden	colloquial contraction of "finde es"
+irgendeinen	merge:irgendein	inflected form
+Selber	merge:selber	capitalised adverb/pronoun
+Fein	merge:fein	capitalised adjective
+Kerber	drop	surname
+Lanz	drop	surname
+Mrd	merge:Milliarde	abbreviation of a listed word
+abschliessen	merge:abschließen	ss spelling for ß
+gestaltet	merge:gestalten	participle, not its own adjective entry
+haftungsbeschränkt	drop	company-name template (UG/GmbH)
+Olt	drop	name fragment
+Berchtesgadener	drop	place-derived name
+Twitch	drop	brand/website name
+Verfügbar	merge:verfügbar	capitalised adjective
+vonMehr	drop	garbled scraped text
+Chang	drop	name
+VA	drop	abbreviation/code
+kraß	merge:krass	old spelling
+natuerlich	merge:natürlich	transliterated umlaut
+Kribbel	merge:Kribbeln	cut-off fragment of the noun Kribbeln
+genutzt	merge:nutzen	participle
+Denver	drop	place name not on list
+Puh	keep	established interjection
+Tscheche	keep	nationality noun with its own entry
+entwurmt	merge:entwurmen	participle
+getötet	merge:töten	participle
+vereinbart	merge:vereinbaren	participle
+viertel	keep	fraction numeral
+Flughafentransfer	keep	valid compound noun
+Fundus	keep	established loan
+Zitronensäure	merge:Zitronensäure	noun filed in lower case
+fächern	keep	valid verb lemma
+Befülle	merge:befüllen	imperative form filed as a capitalised lemma
+Gehzeit	keep	valid compound noun
+MK	drop	abbreviation
+
+# question vereinigt: nearly all uses are the proper name Vereinigtes Königreich; merged into vereinigen, but the name may not be learnable at all.
+# question Loslasse: the examples are nominalised (das Loslassen), so merge:Loslassen is arguable; I chose the verb.
+# question fächern: the usage is almost entirely the adjective gefächert, but fächern is a real verb, so I kept it.

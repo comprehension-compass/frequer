@@ -1,0 +1,43 @@
+ausladen	keep	valid verb; ADJ tag is only a mis-tag, forms include ausgeladen
+tags	merge:Tag	lower-case noun form filed as adverb
+aUCH	merge:auch	broken casing
+potenziellen	merge:potenziell	inflected adjective
+CL	drop	unit abbreviation
+Dumme	merge:dumm	forms are lower-case inflected adjective
+ML	drop	unit abbreviation
+herumstehen	keep	regular separable verb
+Nathalie	drop	personal name
+bekomm	merge:bekommen	truncated imperative
+cd	drop	abbreviation
+wund	keep	real adjective
+Fifa	keep	famous institution
+Firmenevent	keep	ordinary compound noun
+HG	drop	abbreviation
+Rheinhessen	drop	place name not on list
+EnBW	drop	company name, not a famous institution
+Füsse	merge:Fuß	plural/misspelling of Fuß
+WK	drop	abbreviation
+herausgegeben	merge:herausgeben	participle filed as lemma
+jmd	merge:jemand	abbreviation of listed word
+multipliziert	merge:multiplizieren	participle filed as lemma
+tmn	drop	news-agency code
+zulieb	merge:zuliebe	truncated form
+Bünde	merge:Bund	plural filed as lemma
+Startelf	keep	established football compound
+Webhosting	keep	established loan
+Briefing	keep	established loan
+Buffalo	drop	English word/place name
+süßen	keep	valid verb lemma
+Flo	drop	name/fragment
+Förder	merge:fördern	cut-off fragment
+Norddeutsche	keep	noun for a person from northern Germany
+jäh	keep	real adjective
+Knowhow	merge:Know-how	spelling variant of loan
+Lebensmittelvorrat	keep	valid compound noun
+Medion	drop	company name
+Playtech	drop	company name
+# question tags: no example; could be the adverb "tags" (as in tagsüber/tags darauf) or English "tags"; merged to Tag.
+# question EnBW: major regional energy company; unclear whether it counts as a famous institution; dropped.
+# question Füsse: counted forms are mostly "füssen", which may be the town Füssen; merged to Fuß as the plural/Swiss spelling.
+# question wund: forms include wunderer/wundere, which belong to wunder, not wund; kept.
+# question Lebensmittelvorrat: most counts are the truncated "lebensmittel-"; kept the lemma as a valid noun.

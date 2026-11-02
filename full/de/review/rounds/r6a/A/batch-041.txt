@@ -1,0 +1,47 @@
+roll	merge:Rolle	forms rolle/roller belong to Rolle
+Sele	merge:Selen	"selen" is the element Selen; sele is a fragment
+Alain	drop	first name
+Recep	drop	first name
+beichten	keep	valid verb lemma; the NOUN tag is only a tagging error
+Freu	merge:sich freuen	truncated imperative of freuen
+Wuppertaler	drop	place-derived name, Wuppertal is not on the list
+Zang	merge:Zange	cut-off of Zange
+leistung	merge:Leistung	lower-case noun
+Tschechische	merge:tschechisch	capitalised inflected adjective
+Anziehe	merge:anziehen	verb filed as capitalised noun
+Wordpress	drop	brand/product name
+wärs	merge:sein	contraction of wäre es, conjugated form of sein
+Gaby	drop	personal name
+qua	keep	established Latin preposition ("qua Amt")
+Agn	drop	fragment of the name Agnes
+Ostukraine	drop	place name not on list
+Servieren	merge:servieren	nominalised infinitive, verb lemma
+DAZN	drop	brand/acronym
+Gibts	merge:geben	contraction of gibt es
+Stack	drop	English IT jargon, not an adapted loan
+poste	merge:posten	conjugated form
+Geil	merge:geil	capitalised adjective
+Herberg	merge:Herberge	cut-off of Herberge
+Programmieren	merge:programmieren	nominalised infinitive, verb lemma
+lik	merge:Like	cut-off of English like/likes
+orang	merge:orange	cut-off of orange
+Ahn	merge:ahnen	forms are the verb ahnen
+Anbringe	merge:anbringen	verb filed as noun
+Kühle	merge:kühlen	forms are the verb kühlen
+Kühn	merge:kühn	capitalised adjective (surname examples aside)
+admin	merge:Administrator	abbreviation of Administrator
+geschichte	merge:Geschichte	lower-case noun
+Weltbank	keep	famous institution
+charmante	merge:charmant	inflected adjective
+dreieinhalb	keep	valid numeral word
+Quo	merge:Status quo	fragment of "status quo"
+ziel	merge:Ziel	lower-case noun
+Außen	merge:außen	capitalised adverb
+della	drop	Italian word
+
+# question Freu: the lemmatiser keeps pronominal verbs as "sich freuen", but the form is a bare imperative; I merged to "sich freuen" rather than "freuen".
+# question Stack: it is common IT jargon in German but not clearly an established loan; I dropped it.
+# question lik: the forms are mostly "likes", and it is unclear whether Like is a listed lemma; I merged to Like.
+# question admin: unclear whether Administrator or Admin is the listed lemma; I merged to Administrator.
+# question Quo: unclear whether "Status quo" exists as a multiword lemma or whether the fragment should be dropped.
+# question wärs: a contraction is not covered explicitly by the rules; I merged to sein as a conjugated form.

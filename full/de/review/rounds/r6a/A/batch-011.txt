@@ -1,0 +1,45 @@
+gabs	merge:geben	contracted, conjugated form of geben
+Potsdamer	drop	place-name derivative, not on the reviewed list
+eG	drop	specialist abbreviation
+Strasse	merge:Straße	Swiss spelling of Straße
+Kopiere	merge:kopieren	capitalised verb form
+zb	drop	abbreviation of a phrase (zum Beispiel), not a single word
+Mod	drop	garbled or non-lemma form with no clear target
+Roll	merge:Rolle	cut-off fragment of Rolle
+stationäre	merge:stationär	inflected adjective
+ebay	drop	brand or website name
+Adidas	drop	brand name
+rezept	merge:Rezept	lower-case noun
+weiters	keep	genuine Austrian adverb
+zuvorkommen	merge:zuvorkommend	the forms are mostly the adjective zuvorkommend
+Spielregel	keep	correct singular lemma
+Letzt	merge:letzt	capitalised adjective fragment
+Raiffeisenbank	keep	generic bank-type noun with its own plural
+Jahrtausende	merge:Jahrtausend	plural filed as lemma
+weiss	merge:weiß	ss spelling and inflected forms of weiß
+rüber	keep	colloquial adverb; ruber is just a variant spelling
+Streitkräfte	keep	established plural-only noun
+Brenner	keep	common noun (burner), not only the place name
+bewußt	merge:bewusst	old spelling
+Brexit	keep	established term
+Sauerland	drop	place name not on the reviewed list
+hmm	keep	interjection
+Kandidatin	keep	own feminine entry
+red	merge:reden	cut-off verb form
+zutiefst	keep	valid adverb; the VERB tag is only a tagging error
+Quiz	keep	established loan
+Änder	merge:ändern	cut-off verb form
+Panasonic	drop	brand name
+Vgl	merge:vergleichen	abbreviation of a listed word
+Hz	merge:Hertz	unit abbreviation of Hertz
+Anklicke	merge:anklicken	capitalised verb form
+trüb	keep	valid adjective lemma; the VERB tag is only a tagging error
+internet	merge:Internet	lower-case noun
+Fachleute	keep	plural with its own use, the plural of Fachmann
+p	drop	single letter
+gelaunt	keep	participial adjective with its own dictionary entry
+# question Raiffeisenbank: generic noun for a bank type, or a company name to drop? Kept as the generic noun.
+# question ebay: brand names are dropped here, but eBay is also used as a common word in German. Dropped.
+# question Letzt: the headword is arguably letzte, not letzt. Merged to letzt.
+# question Hz: the rules cover abbreviations of listed words, but it is also a specialist unit. Merged to Hertz.
+# question Mod: unclear whether it is the English mod, an abbreviation, or Modus (modes). Dropped.

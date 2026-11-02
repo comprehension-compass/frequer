@@ -1,0 +1,45 @@
+Versage	merge:Versagen	cut-off form; the examples show the noun Versagen
+entsetzt	keep	adjective with its own dictionary entry
+dm	drop	abbreviation/brand
+gebaut	merge:bauen	participle filed as lemma
+peitschen	keep	valid verb lemma
+mellitus	drop	Latin term from a medical phrase
+verbündet	merge:Verbündeter	nominalised participle filed in lower case
+updat	merge:Update	truncated lemma
+Lokomotiv	merge:Lokomotive	truncated lemma
+aug	merge:Auge	cut-off form
+Magento	drop	product name
+Schweinsteiger	drop	person name
+ergebend	merge:ergeben	participle filed as lemma
+Krypto	drop	clipped prefix with no clear target
+Mglichkeit	merge:Möglichkeit	broken encoding
+Rostocker	drop	name derived from a place name
+Staatliche	merge:staatlich	adjective filed under a capitalised lemma
+Blade	drop	English word, not an established loan
+Nm	drop	abbreviation
+Ulmer	drop	place-derived name, also a publisher's surname
+Rheinische	merge:rheinisch	adjective filed under a capitalised lemma
+ned	drop	dialect form
+iphone	drop	brand name
+UrhG	drop	specialist abbreviation
+erfahrungen	merge:Erfahrung	plural noun filed in lower case
+Üblicherweise	merge:üblicherweise	adverb filed under a capitalised lemma
+Atlanta	drop	place name not on the list
+HS	drop	abbreviation
+leser	merge:Leser	noun filed in lower case
+Brühl	drop	place name not on the list
+Historische	merge:historisch	adjective filed under a capitalised lemma
+Sauber	merge:sauber	adjective filed under a capitalised lemma
+Oberfranken	drop	place name not on the list
+spulen	keep	valid verb lemma
+vorstehen	keep	valid verb lemma
+körper	merge:Körper	noun filed in lower case
+scheiß	merge:scheißen	imperative or prefix form of scheißen
+gehostet	merge:hosten	participle filed as lemma
+BaFin	keep	famous institution
+Brocke	merge:Brocken	cut-off form
+
+# question Versage: it could be cut off from the noun Versagen or from Versager; the examples are overwhelmingly Versagen, so I merged there.
+# question Krypto: it is a clipped prefix of Kryptowährung and similar words, so no single obvious target; I dropped it.
+# question Rostocker: it is a demonym, and the rules have no explicit ruling for demonyms; I treated it like a place name (same for Ulmer).
+# question scheiß: it is mostly an intensifying prefix, not a conjugated verb, so merge:scheißen is a loose fit.

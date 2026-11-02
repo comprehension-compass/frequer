@@ -1,0 +1,44 @@
+AZ	drop	specialist abbreviation (Aktenzeichen)
+Runner	drop	English word and brand/title use, not an established loan
+Wolfenbüttel	drop	place name not on the list
+Einsetze	merge:einsetzen	verb form filed as a noun
+Gabi	drop	personal name
+sic	keep	established Latin insertion in German texts
+start	merge:Start	lower-case noun filed as an adjective
+Rhön	drop	place name (region) not on the list
+StPO	drop	specialist acronym
+massage	merge:Massage	lower-case noun filed as a verb
+Zillertal	drop	place name not on the list
+Genuß	merge:Genuss	old spelling
+MEZ	drop	specialist acronym
+USt	drop	specialist abbreviation
+rahmen	keep	real verb, the tag is only wrong
+Regensburger	drop	demonym from a place name not on the list
+verträumen	merge:verträumt	the participle adjective has its own entry
+wg	merge:wegen	abbreviation of a listed word
+Biel	drop	place name not on the list
+Streams	merge:Stream	plural filed as a lemma
+Joh	drop	abbreviation of a name (Johannes)
+Lebende	merge:lebend	inflected nominalised participle
+Automotiv	merge:Automotive	cut-off or wrong form of the loan
+Bieber	drop	personal name
+Plau	drop	place name (Plauen) not on the list
+empor	keep	genuine adverb
+Aug	merge:Auge	cut-off fragment
+Floh	keep	correct singular lemma, plural forms only in the data
+Goslar	drop	place name not on the list
+Stütze	merge:stützen	the counted forms are the verb stützen
+Ficht	merge:Fichte	cut-off fragment
+tabu	keep	real adjective, the tag is wrong
+wildern	keep	real verb, even though most of the forms counted are the adjective wilder
+GByte	drop	unit abbreviation
+Kant	drop	person name
+Netiquette	keep	established loan
+lol	drop	internet abbreviation
+Doc	drop	abbreviation or English word
+artikel	merge:Artikel	lower-case noun
+Füssen	drop	place name not on the list
+# question sic: Latin insertion, could count as a foreign word rather than an established loan.
+# question Lebende: could stay as a nominalised-adjective noun (der Lebende) instead of merging into lebend.
+# question Stütze: the counted forms (stützen) look like the verb, so merging into stützen may lose the noun Stütze, which may need its own entry.
+# question wildern: the counted forms are mostly the adjective wilder, so the verb is kept and the adjective count is not reassigned.

@@ -1,0 +1,45 @@
+einem	merge:ein	inflected (dative) form of ein
+eines	merge:ein	inflected (genitive) form of ein
+folgen	keep	valid verb infinitive; forms folgt, folgte, folgen belong to it
+B	drop	single letter, from the abbreviation z. B.
+fünfundzwanzig	keep	real number word
+vierte	merge:vierter	inflected ordinal
+pflegen	keep	valid verb lemma; the forms are mostly verbal
+AG	keep	common established abbreviation (Aktiengesellschaft)
+vierundzwanzig	keep	real number word
+C	drop	single letter
+fünfte	merge:fünfter	inflected ordinal
+sechste	merge:sechster	inflected ordinal
+Sankt	drop	title element in place and person names
+einundzwanzig	keep	real number word
+zweiundzwanzig	keep	real number word
+II	drop	roman numeral
+ne	drop	colloquial particle with garbled variants
+Gute	merge:gut	written lower-case as an inflected adjective
+Neue	merge:neu	written lower-case as an inflected adjective
+dreiundzwanzig	keep	real number word
+ober	merge:obere	cut-off adjective stem
+mittler	merge:mittlere	cut-off adjective stem
+achtundzwanzig	keep	real number word
+d	drop	single letter and garbled forms
+selb	merge:selbe	cut-off adjective stem
+D	drop	single letter
+Super	merge:super	adjective filed under a capitalised lemma
+FC	drop	football club abbreviation, generic team-name prefix
+weinen	keep	valid verb; the Wein examples are noise
+M	drop	single letter
+sechsundzwanzig	keep	real number word
+Allgemeine	merge:allgemein	capitalised inflected adjective
+siebenundzwanzig	keep	real number word
+h	drop	single letter
+Folgende	merge:folgend	capitalised inflected participial adjective
+Prozeß	merge:Prozess	old spelling of Prozess
+f	drop	single letter or fragment
+r	drop	single letter or fragment
+E	drop	single letter
+Hamburger	keep	also the food and the inhabitant noun, so not just a place name
+# question ne: colloquial "ne" (eine / nicht wahr) has no clear rule; dropped as non-standard
+# question AG: abbreviation of Aktiengesellschaft; kept as an established everyday abbreviation, but it could count as a specialist acronym
+# question vierte: the dictionary form of an inflected ordinal is unclear (vierter vs. viert-); merged to the -er form, same for fünfte and sechste
+# question Folgende: unclear whether "folgend" exists as a lemma, or whether the participial adjective should fold into the verb folgen
+# question weinen: the screener's note says the 'Weine' examples are the noun plural of Wein, but the written forms are mostly verb forms

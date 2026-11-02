@@ -1,0 +1,45 @@
+Blogg	merge:bloggen	misspelt lemma; surface forms are mostly bloggen
+eMail	merge:E-Mail	non-standard spelling, wrongly tagged ADJ
+Eisenach	drop	place name not on the list
+Lappe	merge:Lappen	surface forms are mostly Lappen
+Puma	keep	established animal noun (also a brand)
+Tape	keep	established loan
+Desaster	keep	correct standard spelling
+Offerte	keep	real, if rare, noun
+Schild	keep	valid noun lemma
+material	merge:Material	lower-case noun
+zimmer	merge:Zimmer	lower-case noun
+Bundesnetzagentur	keep	famous institution
+Elektron	keep	valid singular lemma
+Gateway	keep	established IT loan
+Guides	merge:Guide	plural filed as lemma
+Ohm	keep	common unit word, not an acronym
+geimpft	merge:impfen	participle/inflected forms filed as lemma
+Ambient	merge:Ambiente	wrong lemma, surface forms are mostly ambiente
+Keeper	keep	established football loan
+Missverständnisse	merge:Missverständnis	plural filed as lemma
+UStG	drop	specialist abbreviation
+Disc	drop	not an established loan, no usable evidence
+Kanadier	keep	noun with own entry (cf. Kanadierin)
+Offen	merge:offen	capitalised adjective
+idee	merge:Idee	lower-case noun
+Bordeaux	drop	place name
+Ried	drop	place name/surname
+gam	merge:Game	cut-off fragment
+Booster	keep	established loan
+Reparaturarbeit	keep	valid compound noun lemma
+rest	merge:Rest	lower-case noun
+ungebrochen	keep	adjective in its own right
+zugedeckt	merge:zudecken	participle filed as lemma
+beispiel	merge:Beispiel	lower-case noun
+frohe	merge:froh	inflected adjective
+CO	drop	abbreviation/chemical symbol
+Friede	keep	valid standard variant of Frieden
+beste	merge:gut	inflected superlative form
+form	merge:Form	lower-case noun
+grossartig	merge:großartig	non-standard (Swiss) spelling
+# question Blogg: surface forms are mostly the verb/nominalised bloggen, but the noun Blog also occurs; chose bloggen as the dominant form
+# question geimpft: Geimpfte is also a noun in its own right (der/die Geimpfte); chose the verb impfen as the dictionary form
+# question Bordeaux: also a wine and a dog breed (Bordeauxdogge), but the examples are mostly the place name, so dropped
+# question Disc: could be a variant of Disk or an English loan, and no example sentence was available
+# question Friede: dictionary form is also Frieden, but Friede is a legitimate lemma; the surface form frieder is mostly the first name Frieder

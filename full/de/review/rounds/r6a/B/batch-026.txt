@@ -1,0 +1,45 @@
+sO	merge:so	garbled case of "so"
+Aleppo	drop	place name not on list
+tg	drop	abbreviation/code
+schweizer	merge:Schweizer	lower-case demonym filed as adjective
+Yen	keep	established currency loan
+Char	drop	fragment/English "char(s)", not a learnable German lemma
+Zentral	merge:zentral	adjective under capitalised lemma
+Weinheim	drop	place name not on list
+Individuell	merge:individuell	adjective under capitalised lemma
+Heide	keep	real noun (Heide, der Heide/Heiden)
+blog	merge:Blog	noun under lower-case lemma
+umwerfen	keep	verb lemma with its own adjective use; the lemma is fine
+fleissig	merge:fleißig	ss misspelling
+ausgeschieden	merge:ausscheiden	inflected participle
+eingegangen	merge:eingehen	inflected participle
+Philippe	drop	person name
+aufgerufen	merge:aufrufen	inflected participle
+Wesel	drop	place name not on list
+minuten	merge:Minute	plural/inflected form of a noun
+Faß	merge:Fass	old spelling
+Westerwald	drop	place/region name not on list
+resp	merge:respektive	abbreviation of a listed word
+Finca	keep	established Spanish loan
+Kabul	drop	place name not on list
+naß	merge:nass	old spelling
+Ne	merge:ne	particle under capitalised lemma
+anschliessen	merge:anschließen	ss misspelling
+naht	merge:nahen	conjugated form
+angst	merge:Angst	noun under lower-case lemma
+glück	merge:Glück	noun under lower-case lemma
+Santo	drop	Romance-language word/name
+blick	merge:Blick	noun under lower-case lemma
+konnen	merge:können	dropped umlaut
+übernahmen	merge:übernehmen	conjugated form
+Anm	merge:Anmerkung	abbreviation of a listed word
+bereich	merge:Bereich	noun under lower-case lemma
+mitgelieferte	merge:mitliefern	inflected participle
+jetz	merge:jetzt	misspelling
+mund	merge:Mund	noun under lower-case lemma
+dts	drop	news-agency abbreviation
+# question schweizer: lower-case "schweizer Markt" is an indeclinable adjective, so it could also be kept as its own adjective entry; I merged it into Schweizer.
+# question Char: "char/chars" looks like English or programming usage, but a rare German "Char" (fish) is possible; I dropped it.
+# question resp: I assumed respektive is on the list; if it is not, the abbreviation should be dropped.
+# question Ne: I assumed colloquial "ne" is an acceptable lowercase lemma; if not, drop it.
+# question Anm: I assumed Anmerkung is on the list; if it is not, the abbreviation should be dropped.

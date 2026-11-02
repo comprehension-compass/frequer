@@ -1,0 +1,45 @@
+KM	merge:Kilometer	abbreviation of a listed word
+Lecker	merge:lecker	capitalised adjective
+Ethereum	drop	brand/product name
+TK	drop	specialist acronym
+bescheid	merge:Bescheid	lower-case noun
+od	merge:oder	abbreviation of a listed word
+Toke	merge:Token	cut-off of the loan Token
+bi	drop	fragment, source word not obvious
+Kiez	keep	established regional noun
+begonnen	merge:beginnen	participle filed as lemma
+genommen	merge:nehmen	participle filed as lemma
+Remscheid	drop	place name not on the list
+kontrolliert	merge:kontrollieren	participle filed as lemma
+Jeep	keep	established loan
+gemäßigt	keep	adjective with its own entry
+konzentriert	keep	adjective with its own entry
+Arno	drop	personal or river name
+Außenpool	keep	valid compound, spelling variant included
+GP	drop	specialist abbreviation
+berichte	merge:berichten	conjugated verb form
+Drum	drop	English word, not an established loan
+dichter	merge:dicht	comparative form
+Theoretisch	merge:theoretisch	capitalised adverb
+Einstelle	merge:einstellen	verb form filed as noun
+Seniorin	keep	feminine noun with its own entry
+Nickel	keep	common noun (the metal)
+Printmedium	keep	valid noun, plural-dominant
+Heimsieg	keep	valid compound noun
+Neo	drop	prefix fragment or party name
+solo	keep	established adjective/adverb
+Banker	keep	established loan
+Empfehlenswert	merge:empfehlenswert	capitalised adjective
+angehörig	merge:Angehörige	nominalised adjective filed in lower case
+Therm	merge:Therme	cut-off fragment
+Rouge	keep	established cosmetics loan
+Nass	merge:nass	capitalised adjective
+befüllt	merge:befüllen	participle filed as verb lemma
+Beig	merge:beige	cut-off fragment
+Schuß	merge:Schuss	old spelling
+mglich	merge:möglich	broken encoding
+
+# question bi: it is 1,074 of 1,255 tokens and the source word is unclear (bier/bien/biem look like fragments of different words, and "bi" could be a standalone word), so I dropped it rather than guess a merge.
+# question angehörig: it is a nominalised adjective (Angehöriger/Angehörige), and the rules do not say which form is the lemma; I used merge:Angehörige.
+# question Drum: it might count as an established loan in music contexts, but the examples were not available; I dropped it.
+# question kontrolliert: it may have its own adjective entry (like gemäßigt), but I treated it as a participle and merged it into kontrollieren.

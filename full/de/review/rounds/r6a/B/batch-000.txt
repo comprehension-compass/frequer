@@ -1,0 +1,49 @@
+einem	merge:ein	inflected (dative) form of ein
+eines	merge:ein	inflected (genitive) form of ein
+folgen	keep	the verb folgen is a valid lemma, and folgt, folgen and folgte are its forms
+B	drop	single letter from the abbreviation "z. B."
+fünfundzwanzig	keep	real number word
+vierte	merge:vierter	inflected ordinal
+pflegen	keep	valid verb lemma, and pflegt, pflegte and gepflegte are its forms
+AG	drop	abbreviation, not a learnable word
+vierundzwanzig	keep	real number word
+C	drop	single letter
+fünfte	merge:fünfter	inflected ordinal
+sechste	merge:sechster	inflected ordinal
+Sankt	drop	title element of place and person names
+einundzwanzig	keep	real number word
+zweiundzwanzig	keep	real number word
+II	drop	roman numeral
+ne	keep	established colloquial particle
+Gute	merge:gut	capitalised adjective form
+Neue	merge:neu	capitalised adjective form
+dreiundzwanzig	keep	real number word
+ober	merge:obere	cut-off adjective stem
+mittler	merge:mittlere	cut-off adjective stem
+achtundzwanzig	keep	real number word
+d	drop	single letter and garbled forms
+selb	merge:selbe	cut-off adjective stem
+D	drop	single letter
+Super	merge:super	adjective filed under a capitalised lemma
+FC	drop	club-name abbreviation
+weinen	keep	valid verb lemma, and weint, weinte and geweint are its forms
+M	drop	single letter
+sechsundzwanzig	keep	real number word
+Allgemeine	merge:allgemein	capitalised adjective form
+siebenundzwanzig	keep	real number word
+h	drop	single letter
+Folgende	merge:folgend	capitalised participial adjective form
+Prozeß	merge:Prozess	old spelling
+f	drop	single letter
+r	drop	single letter
+E	drop	single letter
+Hamburger	drop	demonym derived from a place name
+
+# question vierte: the dictionary form of the ordinal is not settled (viert- or vierter); I followed the screener's "vierter", and the same applies to fünfte and sechste
+# question pflegen: the examples are mostly the noun Pflege, but the verb lemma is valid, so I kept it instead of merging into Pflege
+# question AG: Aktiengesellschaft may not be on the list, so I dropped it as an abbreviation instead of merging
+# question Hamburger: it could also be the food noun, but all the examples are the demonym
+# question Sankt: it is a word in its own right, but it is used almost only in place names (St.)
+# question ober: the screener gives obere/oberer as the dictionary form; I chose obere
+# question selb: the dictionary form could also be derselbe; I chose selbe
+# question Gute: the nominalised use ("Alles Gute") might justify keeping it as a noun, but most written forms are lower-case adjectives

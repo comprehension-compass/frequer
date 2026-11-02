@@ -1,0 +1,45 @@
+Pc	keep	established loan abbreviation (PC) with odd casing
+Rach	merge:Rachen	cut-off of Rachen
+vgl	merge:vergleichen	abbreviation of listed word
+Buchenwald	keep	also a common noun (beech forest, plural Buchenwälder)
+angetrieben	merge:antreiben	participle, no own entry
+gestartet	merge:starten	participle, no own entry
+ists	drop	contraction
+kannste	drop	colloquial contraction
+wuerde	merge:würde	ASCII misspelling of würde
+Höchst	merge:höchst	adverb filed under a capitalised lemma
+bla	drop	filler word
+komplizieren	merge:kompliziert	adjective filed under a verb form
+Amber	drop	name or English word
+erfolg	merge:Erfolg	lower-case noun
+pass	merge:Pass	lower-case noun
+zoll	merge:Zoll	lower-case noun
+Mwst	merge:Mehrwertsteuer	abbreviation of listed word
+Pfizer	drop	company name
+Rowohlt	drop	publisher name
+bezug	merge:Bezug	lower-case noun
+pag	drop	fragment of English page, no clear German target
+Anhalt	drop	place and region name
+Pokemon	drop	brand and character name
+alledem	keep	fixed pronominal form (trotz alledem, bei alledem)
+begangen	merge:begehen	participle, no own entry
+ie	merge:jeder	cut-off fragment of jeder
+Ho	drop	garbled fragment
+Botanische	merge:botanisch	capitalised inflected adjective
+Ruhig	merge:ruhig	capitalised adjective
+Vorlese	merge:vorlesen	capitalised verb form
+gehren	merge:gehören	broken encoding
+gelinkt	merge:linken	participle, no own entry
+Cottbuser	drop	place-derived form of Cottbus
+Mächtige	keep	nominalised adjective, noun in its own right (die Mächtigen)
+Pfälzer	keep	demonym noun (cf. Berliner), not a place name
+verheeren	merge:verheerend	adjective filed under a verb form
+fang	merge:fangen	conjugated verb form
+Igor	drop	personal name
+Jüngere	keep	nominalised adjective, noun in its own right (die Jüngeren)
+KS	drop	abbreviation or code
+# question Pc: established loan abbreviation, but the lemma is odd-cased; unclear whether it should be merged into an uppercase PC entry
+# question wuerde: the lemmatiser may file würde under werden, so the correct target might be merge:werden
+# question Pfizer: unclear whether a famous company or publisher counts as a "famous institution" (keep) or as an "other name" (drop); same for Rowohlt
+# question pag: written mostly as page/pages (English or Hotelpage), so there is no obvious German target for a merge
+# question Mächtige: the rules don't say whether nominalised adjectives that appear only in inflected form should be kept as nouns or merged into the adjective; same for Jüngere

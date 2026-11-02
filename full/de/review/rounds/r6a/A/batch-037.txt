@@ -1,0 +1,43 @@
+Rübe	keep	fine word, odd variant only
+Santander	drop	bank brand/name, not on list
+Törn	keep	established nautical loan
+nciht	merge:nicht	misspelling
+Gentleman	keep	established loan
+GoPro	drop	brand name
+Zuschuß	merge:Zuschuss	old spelling
+Göttinger	drop	place-derived demonym, place not on list
+obendrauf	keep	real adverb, tag error only
+Äußere	keep	capitalised noun lemma (das Äußere)
+Anfasse	merge:anfassen	cut-off form, text shows anfassen
+Lübbe	drop	place/surname
+Skyrim	drop	game title
+herzlichst	keep	standard closing/adverb
+Walther	drop	person name
+Zeugin	keep	own feminine entry
+punkto	keep	listed as its own word (punkto Sicherheit)
+Fallout	keep	German noun entry (radioactive fallout)
+Mami	keep	colloquial but established noun
+abgeleitet	keep	adjective with own entry
+entschieden	keep	adjective with own entry
+mer	drop	garbled/dialect, no obvious target
+Franklin	drop	person name
+Nicht	merge:Nichte	cut-off of Nichte
+Techno	keep	established loan
+Werbetreibende	keep	nominalised noun in own right
+Luzerner	drop	place-derived demonym, place not on list
+Remake	keep	established loan
+grosszügig	merge:großzügig	Swiss spelling
+haha	keep	interjection
+Bürgerliche	merge:bürgerlich	adjective under capitalised lemma
+Darmstädter	drop	place-derived demonym, place not on list
+Servus	keep	established greeting
+UM	merge:um	uppercase form of preposition
+gefördert	merge:fördern	participle without own entry
+ort	merge:Ort	lower-case noun
+Lach	merge:Lachs	cut-off form of Lachs
+unterschrieben	merge:unterschreiben	participle without own entry
+Abzocke	keep	valid noun
+Zusatzfunktion	keep	valid noun
+# question Äußere: only lower-case "äußere" is attested and no example exists, so it may be the adjective (merge:äußer) rather than the noun
+# question herzlichst: superlative of herzlich, but used as a fixed adverb/closing; kept
+# question Fallout: mostly the game title in examples, but the noun is also in German use; kept

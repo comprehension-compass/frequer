@@ -1,0 +1,48 @@
+Breisgau	drop	place name not on the reviewed list
+Sexfilm	keep	ordinary compound noun, even if spam-adjacent
+termingerecht	keep	genuine adjective, only the POS tag is wrong
+Band	keep	valid noun lemma, only genitive "bandes" was seen
+Katie	drop	personal name
+sinn	merge:Sinn	lower-case noun
+Anpasse	merge:anpassen	cut-off, capitalised verb form
+Grant	drop	name or English word
+müsstest	merge:müssen	conjugated form
+Anschaue	merge:anschauen	cut-off, capitalised verb form
+Ehrenamtliche	keep	nominalised adjective that is a noun in its own right
+Folk	keep	established loan for the music genre
+ergangen	merge:ergehen	participle with no adjective entry
+lösungsorientiert	keep	genuine adjective
+uber	merge:über	missing umlaut
+Kasseler	drop	place-derived form, not on the place list
+unrecht	keep	adjective as in "unrecht haben" and "zu unrecht"
+Auffällig	merge:auffällig	adjective under a capitalised lemma
+lanciert	merge:lancieren	participle with no adjective entry
+Ina	drop	personal name
+bescheuert	keep	adjective with its own entry
+Werbezwecke	merge:Werbezweck	plural filed as a lemma
+möglichkeit	merge:Möglichkeit	lower-case noun
+Flip	drop	English word or name, example is a product label
+Helles	drop	only "heller" seen, mostly the surname Heller
+Hintergrundbild	keep	ordinary noun
+Wiesbadener	drop	place-derived demonym
+einher	merge:einhergehen	separable-prefix fragment
+magern	merge:mager	inflected form of mager
+Würzburger	drop	place-derived demonym
+jedenfall	merge:jedenfalls	cut-off form
+sec	drop	abbreviation or foreign word
+eig	merge:eigentlich	abbreviation or cut-off fragment
+amateur	merge:Amateur	lower-case established loan noun
+Stor	merge:Store	cut-off variant of Store
+Gastronomen	merge:Gastronom	plural filed as a lemma
+urlaub	merge:Urlaub	lower-case noun
+thread	drop	English word
+energiesparen	merge:energiesparend	participle adjective filed under the infinitive
+motorisieren	merge:motorisiert	participle adjective filed under the infinitive
+
+# question Kasseler: it is also a noun for the pork dish and for residents, but the data shows mostly the place adjective; I dropped it as place-derived.
+# question Wiesbadener: demonym and place adjective, dropped under the place-name rule; unclear whether demonyms count as place names.
+# question Würzburger: same as Wiesbadener.
+# question Helles: the lemma is really "heller" in the text, and the examples are the surname Heller; unclear whether to merge to hell, so I dropped it.
+# question eig: the forms eige and eiger suggest eigen as well as eigentlich; I merged to eigentlich.
+# question Flip: Flip may be a borrowed word, but the evidence is a product label; I dropped it.
+# question Band: the bare lemma Band has several genders and senses, and only "bandes" was counted; I kept it.

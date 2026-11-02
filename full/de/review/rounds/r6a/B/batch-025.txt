@@ -1,0 +1,47 @@
+KM	merge:Kilometer	abbreviation of a listed word
+Lecker	merge:lecker	adjective filed under a capitalised lemma
+Ethereum	drop	brand/product name
+TK	drop	specialist abbreviation
+bescheid	merge:Bescheid	noun filed under a lower-case lemma
+od	merge:oder	abbreviation of oder
+Toke	merge:Token	cut-off of Token
+bi	drop	unidentifiable fragment
+Kiez	keep	established regional noun
+begonnen	merge:beginnen	participle with no entry of its own
+genommen	merge:nehmen	participle with no entry of its own
+Remscheid	drop	place name not on the list
+kontrolliert	merge:kontrollieren	participle with no entry of its own
+Jeep	keep	established loan
+gemäßigt	keep	participle with its own adjective entry
+konzentriert	keep	participle with its own adjective entry
+Arno	drop	personal/river name
+Außenpool	keep	valid compound; aussenpool is only a spelling variant
+GP	drop	specialist abbreviation
+berichte	merge:berichten	conjugated verb form
+Drum	drop	English word, not established
+dichter	merge:dicht	comparative filed as lemma
+Theoretisch	merge:theoretisch	adjective filed under a capitalised lemma
+Einstelle	merge:einstellen	inflected form filed as noun
+Seniorin	keep	feminine form with its own entry
+Nickel	keep	common noun (the metal)
+Printmedium	keep	valid noun lemma, plural-dominant
+Heimsieg	keep	valid compound noun
+Neo	drop	prefix or party name
+solo	keep	established adjective/adverb
+Banker	keep	established loan
+Empfehlenswert	merge:empfehlenswert	adjective filed under a capitalised lemma
+angehörig	merge:Angehörige	nominalised adjective filed in lower case
+Therm	merge:Therme	cut-off of Therme
+Rouge	keep	established cosmetics loan
+Nass	merge:nass	adjective filed under a capitalised lemma
+befüllt	merge:befüllen	participle filed as verb lemma
+Beig	merge:beige	cut-off of beige
+Schuß	merge:Schuss	old spelling
+mglich	merge:möglich	broken encoding
+
+# question Toke: Token may not be on the list as a lemma; merged anyway as the obvious target
+# question bi: forms (bi, bier, bien, biem, bider) do not point to one lemma; dropped as an unidentifiable fragment
+# question berichte: could also be the plural of Bericht, but it is tagged VERB and appears only in lower case, so merged into berichten
+# question dichter: could be the lower-case noun Dichter; tagged ADJ, so merged into dicht
+# question kontrolliert: unclear whether it has its own adjective entry like bekannt; treated as a plain participle
+# question Drum: could be the colloquial "drum" (darum) or the English "drum(s)"; neither is clearly learnable, so dropped

@@ -1,0 +1,42 @@
+Klickt	merge:klicken	capitalised conjugated imperative of klicken
+Prepaid	keep	established loan in German (Prepaid-Karte)
+aufgepasst	merge:aufpassen	participle of aufpassen
+mi	drop	garbled fragment
+geblieben	merge:bleiben	participle of bleiben, not an adjective in its own right
+ggf	merge:gegebenenfalls	abbreviation of gegebenenfalls
+xxx	drop	spam or placeholder
+fange	merge:fangen	conjugated form of fangen
+mod	drop	mixed English and garbled fragment
+Linzer	drop	demonym from the place name Linz
+Oberland	drop	regional place name not on the list
+Blind	merge:blind	adjective filed under a capitalised lemma
+version	merge:Version	lower-case noun
+Blizzard	drop	company name
+RV	drop	specialist abbreviation
+angepassten	merge:angepasst	inflected adjective form
+natrlich	merge:natürlich	dropped letter
+land	merge:Land	lower-case noun
+liessen	merge:lassen	Swiss-spelled inflected form of lassen
+wichsen	keep	a real verb, only mistagged ADJ
+Feinste	keep	nominalised superlative (vom Feinsten), a noun in its own right
+Plug	drop	English word, not an established loan
+AA	drop	abbreviation or code
+menschen	merge:Mensch	plural noun filed as a verb
+titten	merge:Titte	plural noun filed as a verb
+schritt	merge:Schritt	mostly noun forms (schritt, schritte, schritten), lower-case
+Kehl	merge:Kehle	forms are mostly kehl/kehle (throat), the lemma is a broken form
+fahr	merge:fahren	cut-off fragment
+person	merge:Person	lower-case noun
+jen	merge:jener	cut-off form of jener
+Vibrationen	merge:Vibration	plural filed as lemma
+Dow	drop	brand or index name
+Ps	drop	abbreviation
+dichten	keep	valid verb infinitive (to write poetry), also a valid inflected form of dicht
+Drei	merge:Dreier	forms are all dreier, and Dreier is the noun
+herausgekommen	merge:herauskommen	participle of herauskommen
+Pilat	merge:Pilates	cut off from Pilates
+div	drop	abbreviation or garbled
+op	drop	garbled fragment
+geschenk	merge:Geschenk	lower-case noun
+# question Kehl: the lemma is also the place name Kehl, but most forms are kehl/kehle (throat), so I merged it into Kehle instead of dropping it as a place name.
+# question mod: the forms mix mod, mode and modder, so there is no single clear target, and I dropped it.

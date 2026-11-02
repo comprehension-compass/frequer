@@ -1,0 +1,45 @@
+ungeschlagen	keep	adjective with its own entry (tag error)
+Geile	merge:geil	capitalised adjective form
+partnervermittlung	merge:Partnervermittlung	lower-case noun
+tim	drop	cut-off English "time"/name, not a German lemma
+Hip	merge:hip	adjective filed under a capital; established loan
+Mitnehme	merge:mitnehmen	garbled form of the verb
+fängt	merge:fangen	conjugated form
+verfluchen	keep	valid verb lemma, tag error only
+Handicap	keep	established loan
+Relaunch	keep	established loan
+bad	merge:Bad	lower-case noun (Bad), not the English adjective
+EC	drop	abbreviation/code
+Oberliga	keep	ordinary German noun
+Muse	keep	ordinary noun
+Fed	drop	abbreviation/name
+Kantonsrat	keep	Swiss institution term, a regular noun
+vorgenommen	merge:vornehmen	participle
+anpasst	merge:anpassen	conjugated form
+Ausfülle	merge:ausfüllen	garbled form of the verb
+Schlechte	merge:schlecht	capitalised adjective form
+MW	drop	abbreviation
+bein	merge:Bein	lower-case noun
+Hüte	merge:Hut	plural filed as lemma
+Rocket	drop	English word/brand
+shop	merge:Shop	lower-case established loan noun
+Funktioniere	merge:funktionieren	capitalised verb form
+Kirst	drop	name
+ölen	keep	valid verb lemma, tag error only
+KZ	keep	well-known German term (Konzentrationslager)
+hats	merge:haben	contraction of "hat's"
+statten	merge:ausstatten	cut-off fragment of the verb
+Fil	drop	fragment of English "file", not a German word
+XD	drop	emoticon/code
+fick	merge:ficken	verb form filed as ADJ
+slot	merge:Slot	lower-case established loan noun
+Installieren	merge:installieren	capitalised verb form
+Odenwald	drop	place name not on the list
+baby	merge:Baby	lower-case established loan noun
+com	drop	web fragment
+schrägen	merge:schräg	inflected adjective form
+# question bad: could be the English adjective or the German noun Bad (Bad Homburg etc.); merged to Bad as the likelier reading
+# question KZ: abbreviation of a word that may not be on the list; kept as a well-known German term
+# question statten: forms stattet/stattete could belong to ausstatten or abstatten; merged to ausstatten
+# question EC: could be a specialist acronym or the common EC-Karte; dropped as an abbreviation
+# question shop: unclear whether Shop is already on the list; merged to Shop

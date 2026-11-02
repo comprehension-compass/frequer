@@ -1,0 +1,45 @@
+Schmunzel	merge:schmunzeln	cut-off piece of schmunzeln
+Lausitz	drop	place name not on list
+Ravensburger	drop	brand/place-derived name
+Klassisch	merge:klassisch	capitalised adjective
+stossen	merge:stoßen	ss for ß misspelling
+BS	drop	abbreviation
+Malteser	keep	established organisation and demonym noun
+Sortier	merge:sortieren	cut-off fragment
+Gem	drop	English word
+gelegt	merge:legen	inflected participle form
+trompeten	merge:Trompete	inflected form filed lower-case
+erhälst	merge:erhalten	misspelt conjugated form
+markt	merge:Markt	lower-case noun
+AR	drop	abbreviation
+Außergewöhnliche	merge:außergewöhnlich	inflected adjective form
+Destiny	drop	game title, English word
+si	drop	foreign fragment
+beidem	merge:beide	inflected form
+gesetzl	merge:gesetzlich	truncated abbreviation
+Verleg	merge:verlegen	cut-off fragment
+Spreewald	drop	place name not on list
+Pflegebedürftiger	keep	noun with own entry
+Schalker	drop	team/place-derived name
+Elvis	drop	person name
+hihi	keep	established interjection
+inMehr	drop	garbled template text
+Magdeburger	drop	place-derived demonym
+Reset	keep	established loan
+auswachsen	keep	real verb with its own entry
+Fachangestellte	keep	noun
+richtung	merge:Richtung	lower-case noun
+Montreal	drop	place name
+umherwandern	keep	real verb, only the tag is wrong
+Dino	keep	established colloquial noun
+Nachlaß	merge:Nachlass	old spelling
+Sim	drop	abbreviation/name
+feuchten	merge:feucht	inflected form
+übernommen	merge:übernehmen	participle form
+Chemnitzer	drop	place-derived demonym
+Lieblingsstück	keep	valid noun
+# question Ravensburger: brand (Ravensburger Spiele) or demonym; treated as a place-derived name
+# question Außergewöhnliche: nominalised "etwas Außergewöhnliches" could count as a noun in its own right; merged because the counted forms are mostly lower-case inflected adjectives
+# question auswachsen: counted forms mix the verb with the noun Auswuchs and the adjective ausgewachsen; kept as the verb
+# question Dino: may be a clipped form of Dinosaurier (merge) or a name; kept as an established colloquial word
+# question hihi: no rule covers interjections; kept as an established word

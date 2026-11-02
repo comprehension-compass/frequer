@@ -1,0 +1,46 @@
+erfüllt	keep	adjective with its own entry (ein erfülltes Leben)
+jungs	merge:Junge	lower-case plural filed as lemma, so merged to the singular
+Anwältin	keep	own feminine entry
+Enduro	keep	established loan noun
+Franchise	keep	established loan noun
+Rene	drop	person name
+Stadtmitte	keep	ordinary compound noun
+gekühlt	keep	adjective with its own entry
+pulverbeschichtet	keep	participle adjective with its own entry, mis-tagged VERB
+Wirtschaftskammer	keep	ordinary institution noun, widely used
+Zand	merge:Zander	cut-off form of Zander
+gesperrt	keep	adjective with its own entry
+Hess	drop	surname
+VoIP	drop	specialist acronym
+gamescom	drop	event or brand name
+Fanclub	keep	established loan
+singlebörse	merge:Singlebörse	noun filed under a lower-case lemma
+Quinoa	keep	established loan noun
+gelehrt	merge:Gelehrter	forms and examples are the nominalised Gelehrter, filed lower-case
+isch	drop	cut-off suffix fragment with no clear target word
+windows	drop	product name
+Mustang	keep	real word (the horse), established loan
+Bedien	merge:bedienen	cut-off fragment of bedienen
+Borke	keep	real noun (bark), though the counts are mostly the town Borken
+Gelernte	merge:gelernt	participle adjective with its own entry, filed under a capitalised lemma
+einzelnen	merge:einzeln	inflected adjective filed as a verb lemma
+BT	drop	abbreviation
+Briefumschläge	merge:Briefumschlag	plural filed as lemma
+Juliane	drop	person name
+eltern	merge:Eltern	noun filed under a lower-case lemma
+Fluß	merge:Fluss	old spelling
+Offensichtlich	merge:offensichtlich	adjective or adverb filed under a capitalised lemma
+Wacker	merge:wacker	capitalised adjective; the examples are mostly the company name Wacker Chemie
+Isar	drop	place name (river) not on the list
+Kontextmenü	keep	ordinary compound noun
+Swingerclub	keep	established loan compound
+Vierter	merge:vierte	inflected ordinal filed as lemma
+geburtstag	merge:Geburtstag	noun filed under a lower-case lemma
+Maser	merge:Masern	cut-off or odd lemma; Masern is the plural-only word
+Swinger	keep	established loan
+
+# question jungs: Jungs is a colloquial plural that might count as a plural with its own meaning; merged to Junge by default.
+# question gelehrt: the adjective gelehrt has its own entry, but the examples are the noun Gelehrter; merged to the noun.
+# question isch: no obvious target word for the fragment, so dropped rather than merged.
+# question Wacker: the examples are the company name, but the lemma is also the real adjective wacker; merged to the adjective.
+# question Vierter: unclear whether the ordinal's dictionary form is vierte or viert; merged to vierte.

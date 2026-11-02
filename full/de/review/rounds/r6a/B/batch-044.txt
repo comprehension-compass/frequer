@@ -1,0 +1,44 @@
+fernzuhalten	merge:fernhalten	zu-infinitive of fernhalten
+sera	drop	foreign word, garbled spam text
+vereinigt	merge:vereinigen	participle, mostly from the proper name Vereinigtes Königreich
+Loslasse	merge:loslassen	capitalised verb form
+PH	drop	abbreviation/code
+finds	merge:finden	colloquial contraction of "finde es"
+irgendeinen	merge:irgendein	inflected form
+Selber	merge:selber	capitalised pronoun/adverb
+Fein	merge:fein	capitalised adjective
+Kerber	drop	surname
+Lanz	drop	surname
+Mrd	merge:Milliarde	abbreviation of a listed word
+abschliessen	merge:abschließen	ss spelling for ß
+gestaltet	merge:gestalten	participle, no adjective entry of its own
+haftungsbeschränkt	keep	real adjective with no verb to merge to, despite the company-name template
+Olt	drop	place name (Olten)
+Berchtesgadener	drop	place-derived name
+Twitch	drop	brand/website name
+Verfügbar	merge:verfügbar	capitalised adjective
+vonMehr	drop	garbled scraped text
+Chang	drop	name
+VA	drop	abbreviation/code
+kraß	merge:krass	old spelling
+natuerlich	merge:natürlich	ue for ü
+Kribbel	merge:kribbeln	verb form filed as noun
+genutzt	merge:nutzen	participle
+Denver	drop	place name
+Puh	keep	established interjection
+Tscheche	keep	nationality noun with its own entry
+entwurmt	merge:entwurmen	participle
+getötet	merge:töten	participle
+vereinbart	merge:vereinbaren	participle
+viertel	keep	real fraction/time word, e.g. "viertel acht"
+Flughafentransfer	keep	valid transparent compound noun
+Fundus	keep	established loan noun
+Zitronensäure	keep	normal noun
+fächern	keep	real verb, even though most uses are gefächert
+Befülle	merge:befüllen	imperative form filed as noun
+Gehzeit	keep	valid compound noun, common in hiking texts
+MK	drop	abbreviation/code
+
+# question haftungsbeschränkt: it has no verb to merge to and is a real adjective, but nearly all uses are the UG/GmbH template; I kept it, but it could be treated as boilerplate and dropped.
+# question viertel: lower-case fraction/time word; the rules on lower-case nouns could point to merge:Viertel, but the usage here is adverbial/numeral, so I kept it.
+# question vereinigt: nearly all uses are in the proper name Vereinigtes Königreich; I merged to vereinigen rather than dropping it as a name.

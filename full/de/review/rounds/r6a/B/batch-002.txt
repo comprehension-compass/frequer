@@ -1,0 +1,47 @@
+sexy	keep	established loan adjective; VERB tag is wrong but the lemma is fine
+U	drop	single letter (u, u., ue)
+Große	merge:groß	nominalised inflected adjective
+Besondere	merge:besonder	inflected adjective under a capitalised lemma
+Klein	merge:klein	adjective under a capitalised lemma
+Gleiche	merge:gleich	inflected adjective under a capitalised lemma
+WM	merge:Weltmeisterschaft	abbreviation of a listed word
+NICHT	merge:nicht	capitalised form of nicht
+eingesetzt	merge:einsetzen	attributive participle, no own adjective entry
+di	drop	foreign (Italian) word
+dar	merge:darstellen	cut-off separable prefix
+Kurze	merge:kurz	inflected adjective under a capitalised lemma
+fuer	merge:für	ue transliteration of für
+editiert	merge:editieren	participle filed as lemma
+besseres	merge:besser	inflected form
+Voraus	merge:voraus	adverb under a capitalised lemma
+Keywords	merge:Keyword	plural filed as lemma
+jahr	merge:Jahr	noun under a lower-case lemma
+MS	drop	ambiguous abbreviation or code
+bzw	merge:beziehungsweise	abbreviation of a listed word
+Einzelne	merge:einzeln	inflected adjective under a capitalised lemma
+Schöne	merge:schön	inflected adjective under a capitalised lemma
+Z	drop	single letter
+nich	merge:nicht	colloquial misspelling of nicht
+HP	drop	abbreviation or brand
+Co	drop	abbreviation, not a learnable word
+etc	keep	common established abbreviation, not the abbreviation of a listed lemma
+PKW	keep	established German word, like Kfz
+personalisieren	keep	valid verb lemma; the ADJ tag is the screener's concern, not the lemma's
+Übrige	merge:übrig	adjective under a capitalised lemma
+jährig	drop	suffix fragment with no whole word to merge into
+mangeln	keep	valid verb lemma
+kurzem	merge:kurz	inflected form
+geniessen	merge:genießen	non-standard ss spelling
+P	drop	single letter
+duschen	keep	valid verb lemma; the NOUN tag only reflects nominalised uses
+EL	drop	abbreviation or code
+Lady	drop	English word, mostly in English names and phrases
+angrenzen	keep	valid verb lemma
+schonmal	merge:schon	colloquial misspelling of "schon mal"
+# question WM: if Weltmeisterschaft is not on the list, WM is probably better kept as an established abbreviation
+# question PKW: Personenkraftwagen is not necessarily on the list; I kept PKW as an established word, like Kfz
+# question etc: I kept it as an established abbreviation; it is unclear whether "et cetera" counts as a listed word
+# question jährig: a suffix fragment with no obvious target lemma (the -jährig compounds), so I dropped it; the rule says fragments are merged
+# question Besondere: the dictionary form is unclear (besonder vs besonders), so I chose besonder
+# question schonmal: "schon mal" is two words, so merge:schon is only an approximation
+# question Lady: this may count as an established loan (Duden lists it); I judged it mostly English usage

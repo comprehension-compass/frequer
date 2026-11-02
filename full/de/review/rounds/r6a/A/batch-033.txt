@@ -1,0 +1,47 @@
+Vanessa	drop	person name
+erbleichen	merge:erblich	forms are all from erblich
+unterlegt	merge:unterlegen	participle filed as lemma
+Passat	keep	Passat is a standard noun (trade wind)
+Bewußtsein	merge:Bewusstsein	old spelling
+kanns	merge:können	contracted verb form
+gGmbH	drop	legal-form abbreviation
+Juso	keep	established common noun for a party youth member
+Trumpf	keep	ordinary noun (trump card)
+antwort	merge:Antwort	lower-case noun
+Wahlberechtigte	keep	nominalised adjective that works as a noun
+Übersichtlichkeit	keep	ordinary noun, capitalised correctly
+hänge	merge:hängen	conjugated verb form
+Montagmorgen	keep	established noun compound
+Brüsseler	drop	place-derived form of a place name not on the list
+Arcade	merge:Arkade	English spelling of an adapted word; plural arcaden points to the architectural sense
+Offene	merge:offen	inflected adjective under a capitalised lemma
+Vorarlberger	drop	place-derived form of a place name not on the list
+kunden	merge:Kunde	lower-case plural noun
+Distrikt	keep	established loan
+bissl	merge:bisschen	dialect spelling
+Trainiere	merge:trainieren	capitalised verb form
+hochzeit	merge:Hochzeit	lower-case noun
+Diversity	keep	established loan in current German
+Erlernen	keep	nominalised infinitive, a noun in its own right
+Starke	merge:stark	inflected adjective, capitalised
+beängstigen	keep	real verb; the participle forms belong to it
+BVerfG	drop	specialist abbreviation
+exkl	merge:exklusive	abbreviation of a listed word
+fallend	merge:fallen	participle filed as lemma
+Edeka	keep	famous company
+Mill	drop	English or name fragment
+Swisscom	keep	famous company
+schuhe	merge:Schuh	lower-case plural noun
+Di	merge:Dienstag	abbreviation
+Webspace	keep	established loan
+mitgeteilt	merge:mitteilen	participle, not an adjective in its own right
+web	merge:Web	English lower-case form of an established loan
+Psych	merge:Psyche	cut-off fragment
+Riviera	drop	place name not on the list
+
+# question Juso: Short form of Jungsozialist and a party-youth-wing term; unclear whether it counts as an abbreviation or an organisation name. I kept it as an established common noun.
+# question Edeka: Rules say famous institutions keep, but not whether major companies count. I kept Edeka and Swisscom as such.
+# question Swisscom: Same company-versus-institution question as Edeka.
+# question Brüsseler: A place-derived adjective could merge into the place name, but Brüssel is not on the list, so I dropped it. Vorarlberger is handled the same way.
+# question Diversity: Unclear whether it is an established loan or an English spelling. I kept it because corporate German uses it as it is.
+# question Arcade: The examples are mostly English names, but the plural arcaden suggests the architectural sense, so I merged it into Arkade.

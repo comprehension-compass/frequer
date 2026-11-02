@@ -1,0 +1,42 @@
+Jüngste	merge:jung	capitalised inflected superlative of jung
+träge	keep	real adjective, only the POS tag is wrong
+Bauhaus	keep	famous school and movement, also a known store
+Chinesische	merge:chinesisch	capitalised inflected adjective
+Superlative	merge:Superlativ	plural filed as lemma
+Moto	drop	not German, fragment or name
+Beweg	merge:bewegen	cut-off verb stem
+nam	merge:Name	fragment of Name (forms name/namen)
+Prenzlauer	drop	place-derived name, not on place list
+tisch	merge:Tisch	lower-case noun
+Eurojackpot	keep	established lottery term
+Stampin	drop	brand name fragment
+apotheke	merge:Apotheke	lower-case noun
+oma	merge:Oma	lower-case noun
+swing	merge:Swing	lower-case loan noun
+Mahl	keep	real noun (meal)
+Soest	drop	place name not on list
+Wasserdicht	merge:wasserdicht	capitalised adjective
+musik	merge:Musik	lower-case noun
+escort	merge:Escort	lower-case established loan noun
+verkauf	merge:Verkauf	lower-case noun
+Datenschutzgrundverordnung	keep	real compound noun, bogus form is only noise
+Fressen	keep	nominalised verb, a noun in its own right
+Landsleute	keep	established plural-only noun
+damen	merge:Dame	lower-case plural
+kryptowährung	merge:Kryptowährung	lower-case noun
+Bozen	drop	place name not on list
+Kompakt	merge:kompakt	capitalised adjective
+Tg	drop	abbreviation
+zeig	merge:zeigen	truncated imperative
+DR	drop	abbreviation
+Einfuhr	keep	real noun (import)
+Mitsubishi	drop	brand name
+Schweiger	drop	surname
+benutzerdefinierte	merge:benutzerdefiniert	inflected adjective form
+Anschreibe	merge:Anschreiben	cut-off form of the noun Anschreiben
+nu	drop	non-German fragment
+spass	merge:Spaß	misspelling, lower-case
+Kare	drop	forms are mostly the given name Karen
+Karre	keep	real noun, Karren is its plural
+# question Jüngste: the examples are nominalised (die Jüngsten), which could be a noun in its own right; I treated it as an inflected superlative of jung.
+# question swing: forms are mostly "swinger", which may be spam; I merged to Swing as the lower-case lemma.

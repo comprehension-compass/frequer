@@ -1,0 +1,43 @@
+erfüllt	keep	adjective with its own entry
+jungs	merge:Junge	lower-case plural filed as lemma
+Anwältin	keep	own feminine entry
+Enduro	keep	established loan noun
+Franchise	keep	established loan
+Rene	drop	person name
+Stadtmitte	keep	ordinary noun
+gekühlt	keep	adjective with its own entry
+pulverbeschichtet	keep	participial adjective with its own entry
+Wirtschaftskammer	keep	real institution type and ordinary noun
+Zand	merge:Zander	cut-off form, almost all counts are Zander
+gesperrt	keep	adjective with its own entry
+Hess	drop	surname
+VoIP	drop	specialist acronym
+gamescom	drop	event/brand name
+Fanclub	keep	established loan compound
+singlebörse	merge:Singlebörse	lower-case noun
+Quinoa	keep	established food loan
+gelehrt	keep	adjective with its own entry, also nominalised
+isch	drop	cut-off suffix fragment, no obvious target
+windows	drop	product name
+Mustang	keep	common noun (horse), established loan
+Bedien	merge:bedienen	cut-off fragment
+Borke	keep	real noun (bark), though counts are mostly the town Borken
+Gelernte	merge:gelernt	capitalised participial adjective
+einzelnen	merge:einzeln	inflected adjective
+BT	drop	abbreviation
+Briefumschläge	merge:Briefumschlag	plural filed as lemma
+Juliane	drop	person name
+eltern	merge:Eltern	lower-case plural-only noun
+Fluß	merge:Fluss	old spelling
+Offensichtlich	merge:offensichtlich	capitalised adverb/adjective
+Wacker	merge:wacker	adjective, the company name is a proper noun
+Isar	drop	place name (river), not on list
+Kontextmenü	keep	ordinary noun
+Swingerclub	keep	established compound noun
+Vierter	merge:vierte	inflected ordinal form
+geburtstag	merge:Geburtstag	lower-case noun
+Maser	merge:Masern	fragment/variant of plural-only Masern
+Swinger	keep	established loan noun
+# question isch: cut-off suffix fragment (e.g. -isch) with no identifiable target word, so I dropped it rather than merging
+# question Borke: lemma is a valid noun but the counts come from the town Borken, so I kept it on the strength of the word itself
+# question Vierter: the dictionary form of the ordinal is unclear (vierte vs viert), so I used merge:vierte

@@ -1,0 +1,46 @@
+Buddha	keep	Common noun too (Buddha statue); lemma is fine	
+NSU	drop	Acronym of an organisation/brand, no example	
+WG	keep	Established everyday word for Wohngemeinschaft	
+Commerzbank	keep	Famous institution	
+gr	merge:groß	Broken encoding (groß, größer, großes)	
+irgendeiner	merge:irgendein	Inflected form of irgendein	
+wirds	merge:werden	Contraction of wird es, form of werden	
+facebook	drop	Brand name	
+Beate	drop	Given name	
+stück	merge:Stück	Lower-case noun	
+Augsburger	drop	Derived from a place name not on the list	
+Geschäftsprozesse	merge:Geschäftsprozess	Plural filed as lemma	
+Fel	merge:Fels	Cut-off fragment of Fels	
+Grosse	merge:groß	Adjective, ss spelling, capitalised	
+Raspberry	drop	English product/brand name	
+Au	drop	Interjection/place fragment, no learnable lemma	
+schnellen	merge:schnell	Garbled lemma; forms are schnell(e)/Schnelltest	
+erfolgt	merge:erfolgen	Inflected participle forms, no separate adjective entry	
+Schufa	keep	Well-known German institution	
+Regelmäßig	merge:regelmäßig	Capitalised adverb/adjective	
+woch	merge:Woche	Cut-off fragment of Woche	
+krieg	merge:Krieg	Lower-case noun (krieg, krieges)	
+Probier	merge:probieren	Stem/imperative of probieren	
+schocken	keep	Real verb; dictionary form	
+Positiv	merge:positiv	Capitalised adjective	
+Tagesspiegel	keep	Famous newspaper institution	
+Virtuelle	merge:virtuell	Capitalised inflected adjective	
+Heiz	merge:heizen	Cut-off stem of heizen	
+Dungeon	drop	English gaming word, not an established loan	
+Valentin	drop	Personal name	
+dat	drop	Dialect/English forms (date, dat), not a German lemma	
+ots	drop	Abbreviation/code	
+String	drop	English programming term	
+WiFi	keep	Established loan	
+erotik	merge:Erotik	Lower-case noun	
+Joche	drop	Counted forms are almost all the name Jochen, not Joch	
+Schlei	merge:Schleier	Cut-off fragment of Schleier	
+Neumarkt	drop	Place name not on the list	
+Wii	drop	Brand/product name	
+wünsch	merge:wünschen	Imperative/stem of wünschen	
+# question Buddha: a religious figure's name, but also a common noun (a Buddha statue); kept on that basis, though "other names drop" could apply
+# question WG: could be merged into Wohngemeinschaft if that is listed; kept because WG is the spoken form
+# question Tagesspiegel: newspaper, kept as a famous institution, but it is less clearly famous than Commerzbank or Schufa
+# question facebook: brand name, dropped; if it counts as an established loan, it would merge:Facebook
+# question schnellen: forms are mostly Schnelltest (a compound), merged into schnell as the closest base
+# question krieg: forms include Krieger, a separate noun, but the lemma is lower-case Krieg

@@ -1,0 +1,44 @@
+arsch	merge:Arsch	lower-case noun
+Eindrücken	merge:Eindruck	plural filed as lemma
+KEIN	merge:kein	capitalised determiner
+media	drop	foreign word, not an established loan
+süss	merge:süß	Swiss spelling
+fönen	keep	valid verb lemma
+nichtmal	merge:nicht mal	misspelling of two words
+bloss	merge:bloß	misspelling
+letz	merge:letzt	cut-off or misspelt form
+Alleine	merge:alleine	capitalised adverb
+Wichtige	merge:wichtig	capitalised inflected adjective
+Indoor	keep	established loan
+woche	merge:Woche	lower-case noun, plural form
+zieh	merge:ziehen	imperative form
+Blowjob	keep	established loan
+Wilder	merge:wild	capitalised inflected adjective
+BMI	drop	specialist acronym
+Eigen	merge:eigen	capitalised adjective
+Kaufleute	merge:Kaufmann	plural filed as lemma
+Ausscheide	merge:ausscheiden	cut-off form of the verb
+Rüsselsheim	drop	place name not on list
+Charts	keep	plural-only loan in practice
+hl	drop	abbreviation
+Buchholz	drop	place or surname
+Tapet	merge:Tapete	cut-off fragment
+Helene	drop	personal name
+Ziff	merge:Ziffer	abbreviation or cut-off of Ziffer
+Stralsund	drop	place name not on list
+äussern	merge:äußern	Swiss spelling
+Bj	drop	abbreviation
+zurückgelegen	merge:zurücklegen	participle filed as lemma
+Usability	drop	English word, not an established loan
+Davor	merge:davor	capitalised adverb
+Hop	merge:Hip-Hop	cut-off fragment
+vs	drop	abbreviation
+Witten	drop	place name not on list
+Wilfried	drop	personal name
+smarte	merge:smart	inflected adjective
+platzsparen	merge:platzsparend	wrong lemma form
+vergleich	merge:Vergleich	lower-case noun
+# question fönen: almost all tokens are the noun Fön (1,498 of 1,565), so the lemma may really be Fön. I kept the valid verb lemma.
+# question nichtmal: the correct form is two words and there is no single-word lemma to merge into. I used "nicht mal".
+# question BMI: very common in everyday German, but I treated it as a specialist acronym and dropped it.
+# question Charts: could be merged into Chart, but it is effectively plural-only in use. I kept it.

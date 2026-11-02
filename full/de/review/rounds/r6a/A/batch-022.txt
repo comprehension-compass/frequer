@@ -1,0 +1,46 @@
+Blogg	merge:bloggen	forms are almost all the verb bloggen
+eMail	merge:E-Mail	non-standard spelling of E-Mail
+Eisenach	drop	place name not on the list
+Lappe	merge:Lappen	written almost always as Lappen
+Puma	keep	animal noun, also a familiar brand
+Tape	keep	established loan
+Desaster	keep	correct standard word
+Offerte	keep	real noun, rare but valid
+Schild	keep	valid noun, even though schildern forms are mixed in
+material	merge:Material	lower-case noun form
+zimmer	merge:Zimmer	lower-case noun tagged ADJ
+Bundesnetzagentur	keep	famous federal institution
+Elektron	keep	valid singular noun
+Gateway	keep	established IT loan
+Guides	merge:Guide	plural filed as lemma
+Ohm	keep	common unit noun
+geimpft	merge:impfen	participle form filed as a lemma
+Ambient	merge:Ambiente	wrong lemma, text is mostly Ambiente
+Keeper	keep	established sports loan
+Missverständnisse	merge:Missverständnis	plural filed as lemma
+UStG	drop	specialist abbreviation
+Disc	drop	English word or abbreviation, not an established loan
+Kanadier	keep	ordinary noun with its own feminine entry
+Offen	merge:offen	capitalised adjective
+idee	merge:Idee	lower-case noun
+Bordeaux	drop	place name
+Ried	drop	place name or surname
+gam	merge:Game	cut-off fragment of Game/Gamer
+Booster	keep	established loan
+Reparaturarbeit	keep	valid compound noun
+rest	merge:Rest	lower-case noun
+ungebrochen	keep	adjective with its own dictionary entry
+zugedeckt	merge:zudecken	participle filed as a lemma
+beispiel	merge:Beispiel	lower-case noun
+frohe	merge:froh	inflected adjective
+CO	drop	abbreviation or chemical symbol
+Friede	keep	established word in its own right
+beste	merge:gut	inflected superlative form
+form	merge:Form	lower-case noun
+grossartig	merge:großartig	Swiss or ss spelling of großartig
+
+# question geimpft: it is tagged NOUN (Geimpfte) but used as an adjective; I merged it into impfen, though geimpft could count as an adjective with its own entry.
+# question gam: written mostly as games/game, so I merged it into Game; Gamer could also be a separate entry.
+# question Friede: it is the variant of Frieden, but the rules say not to merge words that are merely listed together; the forms also include the name Frieder.
+# question Disc: no examples are available; I could not tell whether it is an established loan (Blu-ray Disc), so I dropped it.
+# question Schild: the forms mix in schildern; the Schild noun was kept, but the verb forms may need a separate lemma.

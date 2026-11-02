@@ -1,0 +1,44 @@
+Milf	drop	English slang acronym
+www	drop	web abbreviation
+Ladies	drop	English word, not an established loan
+jahren	merge:Jahr	inflected form of Jahr
+Kleinste	merge:klein	nominalised superlative of klein
+Kongreß	merge:Kongress	old spelling
+archiviert	merge:archivieren	participle with no adjective entry of its own
+Nu	drop	fragment of "im Nu", no target lemma
+Studier	merge:studieren	imperative fragment
+dritt	merge:dritte	ordinal fragment
+chat	merge:Chat	lower-case noun, loan Chat
+Rn	drop	abbreviation
+Tinder	drop	brand name
+Optimal	merge:optimal	capitalised adjective
+Shell	drop	brand or computing jargon
+Aqua	drop	Latin word or brand
+monat	merge:Monat	lower-case noun
+stunden	merge:Stunde	plural of Stunde
+HERR	merge:Herr	case variant
+natur	merge:Natur	lower-case noun
+Spezielle	merge:speziell	inflected adjective
+kopf	merge:Kopf	lower-case noun
+IE	drop	abbreviation
+Jederzeit	merge:jederzeit	capitalised adverb
+VS	drop	abbreviation
+Wohlfühle	merge:wohlfühlen	verb form filed as lemma
+Klarna	drop	brand name
+gro	merge:groß	broken encoding
+google	merge:googeln	brand-derived verb form
+Mister	drop	English word, mostly in names
+ichs	drop	garbled contraction, no target
+test	merge:Test	lower-case noun
+BB	drop	abbreviation or code
+freundin	merge:Freundin	lower-case noun
+Putze	merge:putzen	inflected verb form
+anfang	merge:anfangen	conjugated verb form
+PP	drop	abbreviation or code
+einzahlung	merge:Einzahlung	lower-case noun
+Stade	drop	place name not on the list
+Stag	drop	English word, fragment of stage
+
+# question dritt: the ordinal's dictionary lemma could be dritte or dritter; I chose dritte.
+# question chat: the forms chat/chats/chaten could belong to Chat or chatten; I chose the noun Chat.
+# question Stag: the forms are mostly "stage", used in names like Stage Entertainment; I treated it as English and dropped it rather than merging.

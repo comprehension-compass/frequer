@@ -1,0 +1,47 @@
+Polle	merge:Pollen	written as pollen, lemma is cut off
+hi	drop	English greeting or interjection
+Minecraft	drop	brand name
+viert	merge:vierte	inflected fragment of the ordinal
+st	drop	fragment, no clear target
+MitarbeiterIn	merge:Mitarbeiterin	gendered spelling variant; written forms are Mitarbeiterin(nen)
+text	merge:Text	lower-case noun filed as ADJ
+Hur	merge:Hure	cut-off form
+FB	drop	abbreviation of a brand name (Facebook), not a listed word
+buch	merge:Buch	lower-case noun filed as ADJ
+Hunderttausende	keep	nominalised number with its own meaning
+Keiner	merge:keiner	capitalised pronoun, written lower-case
+nasse	merge:nass	inflected adjective form
+Guild	drop	English word, not an established loan
+ÜBER	merge:über	all-caps form
+Antje	drop	personal name
+haar	merge:Haar	lower-case noun filed as ADJ
+Süddeutschland	drop	place name not on the list
+Net	drop	English word or fragment
+überragen	keep	a real verb lemma, so it is not broken
+Grazer	drop	derived from the place name Graz
+Stolle	merge:Stollen	cut-off form of the noun
+NEUE	merge:neu	all-caps inflected adjective
+amazon	drop	brand name
+AO	drop	abbreviation or code
+website	merge:Website	lower-case noun filed as ADJ
+Fraunhofer	keep	famous institution
+Essling	drop	place name (Esslingen) not on the list
+stammend	merge:stammen	participle of stammen
+Mischen	merge:mischen	capitalised verb
+grund	merge:Grund	lower-case noun filed as ADJ
+Sal	drop	fragment of "sales"
+Kg	merge:Kilogramm	abbreviation of a listed word
+Klare	merge:klar	inflected nominalised adjective in "im Klaren sein"
+Optisch	merge:optisch	capitalised adjective
+Gera	drop	place name not on the list
+Adria	drop	place name not on the list
+Hl	drop	ambiguous abbreviation (heilig or Hektoliter)
+Niederland	merge:Niederländer	cut-off lemma
+Jupiter	keep	planet name found in ordinary dictionaries
+# question viert: the ordinal could be filed as vierte or viert-, so I chose vierte
+# question Kg: unsure whether Kilogramm is on the list, otherwise this is a specialist abbreviation and should drop
+# question Hl: heilig versus Hektoliter is unclear, so I chose drop
+# question Jupiter: "other names drop" may cover planet names, but I treated it as a dictionary word and kept it
+# question Hunderttausende: spelled-out number compounds have no explicit rule, so I kept it as a nominalised plural
+# question überragen: the screener wants überragend, but überragen is a valid verb lemma, so I kept it
+# question Grazer: could count as a demonym noun like Niederländer, but I dropped it since Graz is not on the list

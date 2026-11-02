@@ -1,0 +1,46 @@
+Vanessa	drop	person name
+erbleichen	merge:erblich	forms are all from erblich
+unterlegt	merge:unterlegen	participle filed as lemma
+Passat	keep	real German word (trade wind), also the car
+Bewußtsein	merge:Bewusstsein	old spelling
+kanns	merge:können	contracted verb form
+gGmbH	drop	legal-form abbreviation
+Juso	keep	established word for a party youth-wing member
+Trumpf	keep	ordinary noun, plural Trümpfe
+antwort	merge:Antwort	lower-case noun
+Wahlberechtigte	keep	nominalised adjective, standard lemma
+Übersichtlichkeit	keep	correct capitalised noun
+hänge	merge:hängen	conjugated verb form
+Montagmorgen	keep	valid compound noun/adverb
+Brüsseler	drop	place-derived adjective, place not on list
+Arcade	drop	English gaming use, not an adapted word
+Offene	merge:offen	inflected adjective filed as capitalised
+Vorarlberger	drop	place-derived form
+kunden	merge:Kunde	plural noun filed in lower case
+Distrikt	keep	established loan
+bissl	merge:bisschen	dialect spelling
+Trainiere	merge:trainieren	capitalised verb form
+hochzeit	merge:Hochzeit	lower-case noun
+Diversity	drop	English word, mostly in English names
+Erlernen	keep	nominalised infinitive that is a noun (das Erlernen)
+Starke	merge:stark	inflected adjective filed as capitalised
+beängstigen	keep	valid verb lemma, though forms are mostly the adjective beängstigend
+BVerfG	drop	specialist abbreviation
+exkl	merge:exklusive	abbreviation of a listed word
+fallend	merge:fallen	participle/inflected forms
+Edeka	keep	everyday supermarket chain known to all learners
+Mill	drop	English fragment
+Swisscom	drop	company name
+schuhe	merge:Schuh	plural noun filed in lower case
+Di	merge:Dienstag	abbreviation of Dienstag
+Webspace	keep	established loan
+mitgeteilt	merge:mitteilen	participle, not an adjective in its own right
+web	drop	English word
+Psych	merge:Psyche	cut-off fragment
+Riviera	drop	place name not on list
+
+# question Brüsseler: place-derived adjective; should it merge into Brüssel instead of dropping if Brüssel is on the reviewed list?
+# question BVerfG: abbreviation of a famous institution (Bundesverfassungsgericht); keep as a famous institution or merge/drop as an abbreviation?
+# question Edeka: company/brand names are not explicitly covered; kept as a famous institution, while Swisscom was dropped, so this may be inconsistent.
+# question Diversity: English word widely used in German corporate texts; unclear whether it counts as an established loan.
+# question Arcade: forms may partly be the adapted word Arkade (plural arcaden), but most uses are English.

@@ -1,0 +1,44 @@
+zurückgeschickt	merge:zurückschicken	participle form filed as a lemma
+Miele	drop	brand name, not a famous institution
+ahnung	merge:Ahnung	lower-case noun
+evt	merge:eventuell	abbreviation of a listed word
+spröde	keep	adjective with its own entry; the dictionary form itself
+Arduino	drop	product name
+con	drop	foreign word fragment
+höhe	merge:Höhe	lower-case noun
+Wolfsburger	drop	place-derived demonym
+paypal	drop	brand name
+pp	drop	abbreviation
+Katz	merge:Katze	cut-off form
+Sidebar	drop	English web term, not an established loan
+Westfälische	merge:westfälisch	inflected adjective filed under a capitalised lemma
+Monsanto	drop	company name
+dh	drop	abbreviation of a phrase (d.h.), not a listed word
+Fürther	drop	place-derived demonym
+Homo	drop	Latin word
+Hoyerswerda	drop	place name not on the list
+SH	drop	abbreviation/code
+luft	merge:Luft	lower-case noun
+Jesse	drop	personal name
+Kessler	drop	surname
+te	drop	meaningless fragment
+Highland	drop	English word and place name
+Karstadt	drop	company name
+aufm	drop	colloquial contraction, not a lemma
+erneuerbaren	merge:erneuerbar	inflected adjective
+mar	drop	garbled fragment, mostly the name Maren
+Trete	merge:treten	verb form filed under a capitalised lemma
+Fu	merge:Fuß	dropped ß (Fuß, Füßen)
+Programmier	merge:programmieren	cut-off stem
+angesteuert	merge:ansteuern	participle form
+http	drop	web code
+umgesetzt	merge:umsetzen	participle form
+Ambulante	merge:ambulant	inflected adjective under a capitalised lemma
+https	drop	web code
+nrw	drop	abbreviation
+Pioneer	drop	brand name
+Claudio	drop	personal name
+
+# question Miele: brand and company names (Miele, Karstadt, Monsanto, PayPal, Pioneer, Arduino) are not clearly "famous institutions" or "other names"; I treated them as other names and dropped them.
+# question aufm: a colloquial contraction of auf dem. The rules do not cover it, and merging into auf would be wrong, so I dropped it.
+# question höhe: the tag is ADJ and the form hohe/höheste is possible, but höhe is most likely the lower-case noun Höhe, so I merged it there.

@@ -1,0 +1,44 @@
+Jüngste	keep	nominalised adjective (die Jüngste), like das Gute
+träge	keep	valid adjective, only the POS tag is wrong
+Bauhaus	keep	famous school and movement, also a common store name
+Chinesische	merge:chinesisch	inflected adjective, written chinesischen
+Superlative	merge:Superlativ	plural filed as lemma
+Moto	drop	not German
+Beweg	merge:bewegen	cut-off fragment
+nam	merge:Name	cut-off fragment of Name
+Prenzlauer	drop	place-derived name, not on the list
+tisch	merge:Tisch	lower-case noun fragment
+Eurojackpot	keep	common lottery noun, not a personal or brand name
+Stampin	drop	brand name
+apotheke	merge:Apotheke	lower-case noun
+oma	merge:Oma	lower-case noun
+swing	merge:Swing	lower-case noun
+Mahl	keep	valid noun (meal)
+Soest	drop	place name
+Wasserdicht	merge:wasserdicht	adjective filed under a capital
+musik	merge:Musik	lower-case noun
+escort	merge:Escort	lower-case noun, established loan
+verkauf	merge:Verkauf	lower-case noun
+Datenschutzgrundverordnung	keep	valid compound noun, the garbled form is negligible
+Fressen	keep	nominalised verb, a noun in its own right
+Landsleute	keep	plural-only noun
+damen	merge:Dame	lower-case plural of Dame
+kryptowährung	merge:Kryptowährung	lower-case noun
+Bozen	drop	place name
+Kompakt	merge:kompakt	adjective filed under a capital
+Tg	drop	abbreviation
+zeig	merge:zeigen	truncated imperative
+DR	drop	abbreviation
+Einfuhr	keep	valid noun
+Mitsubishi	drop	brand name
+Schweiger	drop	surname
+benutzerdefinierte	merge:benutzerdefiniert	inflected adjective
+Anschreibe	merge:Anschreiben	cut-off form of the noun Anschreiben
+nu	drop	non-German fragment
+spass	merge:Spaß	misspelt, lower-case
+Kare	drop	mostly the name Karen, no real lemma
+Karre	keep	valid noun, Karren is its plural
+# question Jüngste: it is an inflected superlative, but as a nominalised person noun (die Jüngste) I treated it as a noun in its own right; merge:jung is the alternative.
+# question swing: forms are mostly the spam word "swinger", so merge:Swinger or drop are possible; I chose merge:Swing.
+# question escort: it may be spam-driven, and Escort may not exist as a lemma; drop is the alternative.
+# question Eurojackpot: a specific lottery name, so it could count as a product name; I kept it as a common noun.

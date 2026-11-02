@@ -1,0 +1,46 @@
+se	drop	fragment, not a German word
+Re	drop	email-reply prefix "Re:", not a lemma
+sohlen	merge:Sohle	lower-case plural/inflected form of the noun Sohle
+LEDs	merge:LED	plural filed as lemma
+eingeloggt	merge:einloggen	participle with no adjective entry of its own
+StGB	drop	specialist acronym
+sooo	merge:so	expressive elongation of "so"
+Londoner	drop	derived from the place name London, which is not on the list
+gegründet	merge:gründen	participle form
+Schmid	drop	surname
+ner	merge:eine	colloquial cut-off of "eine/einer"
+gehalt	merge:halten	forms are the participle gehaltene(n) of halten
+Keyword	keep	established loan
+FF	drop	abbreviation
+Kompromiß	merge:Kompromiss	old spelling
+wachsend	merge:wachsen	present participle
+ausgebildet	merge:ausbilden	participle, treated as having no adjective entry of its own
+weiteres	merge:weiter	inflected adjective form
+mEHR	merge:mehr	odd casing
+Gr	drop	cut-off fragment, no clear target
+nähere	merge:nah	inflected comparative
+mädchen	merge:Mädchen	noun filed under a lower-case lemma
+wars	merge:sein	contraction of "war es"
+Kindle	drop	brand name
+knn	merge:können	dropped-letter encoding
+Ähnliche	keep	nominalised adjective that is a noun in its own right (Ähnliches)
+freund	merge:Freund	noun filed under a lower-case lemma
+mäßigen	merge:mäßig	forms are almost all the adjective mäßig
+herangezogen	merge:heranziehen	participle with no adjective entry of its own
+Virtual	drop	English word, not an established loan
+skifahren	keep	verb "skifahren" and noun "Skifahren" both occur
+aussen	merge:außen	misspelling
+Albrecht	drop	personal name
+Fussball	merge:Fußball	misspelling
+beid	merge:beide	cut-off form
+Inkl	merge:inklusive	abbreviation of a listed word
+eingegeben	merge:eingeben	participle
+Apache	drop	name/brand
+Fair	merge:fair	capitalised adjective/loan, correct form is lower-case fair
+vorgeschlagen	merge:vorschlagen	participle
+
+# question ner: could target "eine" or "ein"; chose "eine" since it is its own lemma and "ne/ner" is feminine-form colloquial
+# question ausgebildet: may count as an adjective with its own entry like "ausgezeichnet" (would be keep); chose merge
+# question Gr: could be a cut-off of "groß" or "Größe", or an abbreviation; no clear target, so dropped
+# question skifahren: verb lemma versus noun Skifahren; chose keep rather than merging into Skifahren
+# question Ähnliche: lemma is written only as "ähnliches" (nominalised); chose keep as a noun in its own right, otherwise merge:ähnlich

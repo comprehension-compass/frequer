@@ -1,0 +1,46 @@
+ausfahren	keep	real verb; mixed forms are a tagging issue
+fetten	keep	real verb (fetten)
+frauen	merge:Frau	plural noun filed as verb
+PN	drop	specialist abbreviation
+mittel	merge:Mittel	lower-case noun; garbled forms
+O	drop	single letter/abbreviation
+Dortmunder	drop	place-derived adjective, not on list
+Mio	merge:Million	abbreviation of listed word
+gesünder	merge:gesund	comparative form
+Goethe	drop	person name
+sch	drop	cut-off fragment with no obvious target
+Huawei	drop	company name
+AK	drop	abbreviation
+TL	drop	abbreviation
+Berner	drop	place-derived adjective, not on list
+Oscar	keep	established award word
+Awards	merge:Award	English plural filed as lemma
+dato	drop	Latin fixed-phrase relic
+BH	keep	everyday abbreviation, spoken as a word
+pdf	drop	specialist acronym
+Universal	merge:universal	adjective filed as capitalised noun
+Y	drop	single letter
+Sam	drop	personal name
+Absolut	merge:absolut	capitalised adjective
+Neueste	merge:neu	inflected superlative
+Volksbank	keep	common noun
+durchdenken	keep	real verb
+mildern	keep	real verb
+geschrieben	merge:schreiben	participle form
+SP	drop	abbreviation
+Längere	merge:lang	inflected comparative, capitalised
+funktionierend	merge:funktionieren	present participle
+zugeschnitten	merge:zuschneiden	participle form
+Firmware	keep	established loan
+Türke	keep	nationality noun with own entry
+wenns	merge:wenn	contraction of wenn es
+Lkw	keep	everyday abbreviation, spoken as a word
+Passende	merge:passend	capitalised adjective form
+Yorker	drop	place-derived adjective, not on list
+Monitoring	keep	established loan
+# question sch: forms schen/sche/scher look like a cut-off suffix of unknown words, so no merge target can be named
+# question mittel: could be the adjective mittel (mittler, mittle) instead of the noun Mittel; merged to Mittel as the main reading
+# question Huawei: well-known brand; treated as an "other name" and dropped
+# question Oscar: examples are mostly the first name (Oscar Wilde); kept as the award word
+# question BH: Lkw and BH are abbreviations but ordinary spoken words; kept rather than merged or dropped, though the screener compared Lkw to excluded Kfz
+# question Längere: only "seit längerem" is attested, so it may be a fixed phrase rather than an inflected adjective

@@ -1,0 +1,45 @@
+meinung	merge:Meinung	lower-case noun
+vorgegeben	merge:vorgeben	participle form
+Joint	keep	established loan
+Marianne	drop	personal name
+koennen	merge:können	transliterated spelling
+Kat	merge:Katalysator	clipped form
+beig	merge:beige	cut-off fragment
+Remis	keep	established chess term
+angeführt	merge:anführen	participle form
+gezogen	merge:ziehen	participle form
+Brennen	keep	nominalised infinitive, a noun in its own right
+Sims	drop	brand name
+Kärntner	drop	derived from the place name Kärnten
+steh	merge:stehen	imperative or stem form
+ausgelegt	merge:auslegen	participle form
+slots	merge:Slot	English plural filed as a verb
+Antioxidans	keep	correct singular lemma
+auseinanderzusetzen	merge:auseinandersetzen	zu-infinitive form
+kauf	merge:kaufen	imperative or stem form
+gefertigt	merge:fertigen	participle form
+mail	merge:Mail	lower-case noun
+RA	drop	abbreviation
+Azubis	merge:Azubi	plural filed as lemma
+Typisch	merge:typisch	adjective filed as a capitalised lemma
+us	drop	non-German fragment
+zertifizierter	merge:zertifizieren	inflected participle
+Grundkenntnis	keep	effectively plural-only noun
+Recklinghausen	drop	place name not on the list
+Heilpflanze	keep	regular noun
+Lade	merge:laden	verb form
+Rebecca	drop	personal name
+sach	merge:Sache	cut-off fragment
+Absende	merge:absenden	verb form filed as a noun
+SL	drop	abbreviation
+Muffin	keep	established loan
+Schrei	keep	regular noun
+bekanntwerden	merge:Bekanntwerden	nominalised verb
+Keyboard	keep	established loan
+Nuß	merge:Nuss	old spelling
+Zeitgenosse	keep	regular noun
+# question Kat: it could be Katalysator or Katze, and the forms kates and kats fit either; I chose Katalysator.
+# question Kärntner: this is a derived adjective or demonym, not a place name itself, and the rules don't cover it; I dropped it as place-derived.
+# question auseinanderzusetzen: the verb is normally pronominal (sich auseinandersetzen), but I don't know whether that lemma exists in the list, so I merged to the plain form.
+# question Grundkenntnis: it occurs almost only in the plural; I kept it as a plural-only noun, but the singular form is in the lemma.
+# question vorgegeben: it could be an adjective with its own entry; I treated it as a participle.

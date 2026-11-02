@@ -1,0 +1,44 @@
+se	drop	fragment, no clear target
+Re	drop	fragment of the email prefix "Re:"
+sohlen	merge:Sohle	lower-case noun in a plural or inflected form
+LEDs	merge:LED	plural of an established abbreviation
+eingeloggt	merge:einloggen	participle with no adjective entry of its own
+StGB	drop	specialist acronym
+sooo	merge:so	elongated spelling
+Londoner	drop	adjective derived from a place name not on the list
+gegründet	merge:gründen	participle form
+Schmid	drop	surname
+ner	merge:eine	colloquial contraction of eine/einer
+gehalt	merge:halten	forms are the participle gehalten
+Keyword	keep	established loan
+FF	drop	abbreviation
+Kompromiß	merge:Kompromiss	old spelling
+wachsend	merge:wachsen	present participle
+ausgebildet	merge:ausbilden	participle form
+weiteres	merge:weiter	inflected adjective form
+mEHR	merge:mehr	odd casing
+Gr	drop	cut-off fragment or abbreviation
+nähere	merge:nah	inflected comparative
+mädchen	merge:Mädchen	lower-case noun
+wars	merge:sein	contraction of "war's"
+Kindle	drop	brand name
+knn	merge:können	dropped letter
+Ähnliche	keep	nominalised adjective ("und Ähnliches")
+freund	merge:Freund	lower-case noun
+mäßigen	merge:mäßig	forms are almost all the adjective
+herangezogen	merge:heranziehen	participle form
+Virtual	drop	English word
+skifahren	keep	genuine verb, written correctly in lower case
+aussen	merge:außen	misspelling
+Albrecht	drop	personal name
+Fussball	merge:Fußball	misspelling
+beid	merge:beide	cut-off form
+Inkl	merge:inklusive	abbreviation of a listed word
+eingegeben	merge:eingeben	participle form
+Apache	drop	name or brand
+Fair	merge:fair	adjective filed under a capitalised lemma
+vorgeschlagen	merge:vorschlagen	participle form
+# question ner: the target could be eine or ein, since ner stands for both einer and ne
+# question Ähnliche: the lemma is the inflected nominalised form (ähnliches), so merge:ähnlich is possible, but "und Ähnliches" is a fixed noun use
+# question skifahren: the lemmatiser may prefer "Ski fahren" as two words, and the rules do not cover that
+# question LEDs: the rules do not say whether the singular LED is itself a keepable abbreviation or a specialist acronym

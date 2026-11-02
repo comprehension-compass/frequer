@@ -1,0 +1,45 @@
+Einzige	merge:einzig	nominalised inflected adjective, dictionary form einzig
+gezeigt	merge:zeigen	participle filed as lemma
+Aktuelle	merge:aktuell	inflected adjective filed as capitalised lemma
+gefordert	merge:fordern	participle filed as lemma
+preis	merge:Preis	lower-case noun
+Anlaß	merge:Anlass	old spelling
+ausschliesslich	merge:ausschließlich	ss spelling variant
+Dresdner	drop	place-derived adjective, not on the reviewed list
+gen	drop	cut-off fragment with no clear target
+Düsseldorfer	drop	place-derived adjective, not on the reviewed list
+übermittelt	merge:übermitteln	participle filed as lemma
+benannt	merge:benennen	participle filed as lemma
+gebucht	merge:buchen	participle filed as lemma
+seite	merge:Seite	lower-case noun
+paaren	keep	correct verb lemma, only the POS tag is wrong
+PR	keep	lexicalised abbreviation in general use
+Fit	merge:fit	capitalised adjective
+Sichere	merge:sicher	inflected adjective, capitalised
+ZU	merge:zu	garbled capitalisation of the preposition
+abwechseln	keep	valid verb lemma (sich abwechseln)
+listen	keep	valid verb lemma for gelistet
+heissen	merge:heißen	ss spelling variant
+schliessen	merge:schließen	ss spelling variant
+CA	merge:circa	abbreviation of circa
+Dunkle	merge:Dunkel	forms come from the noun in "im Dunkeln"
+Philips	drop	brand name
+Beliebe	merge:Belieben	noun from "nach Belieben", lemma broken
+jeher	keep	fixed adverb in "seit/von jeher"
+Schwarze	merge:schwarz	only the inflected adjective form schwarzen is attested
+Gerichte	merge:Gericht	plural filed as lemma
+OP	keep	lexicalised abbreviation in general use (im OP)
+iM	merge:im	miscapitalised preposition
+IG	drop	specialist abbreviation
+KMU	drop	specialist acronym
+Q	drop	single letter
+Sophie	drop	personal name
+Brigitte	drop	personal name
+OLG	drop	specialist acronym
+resultierend	merge:resultieren	present participle filed as lemma
+PM	drop	abbreviation, ambiguous and specialist
+# question gen: forms gen/gest/gene/gend look like fragments of different words, so I could not choose a merge target and dropped it.
+# question CA: the example is the US state abbreviation (CA 94043), but the forms are ca; I merged it to circa on the "abbreviation of a listed word" rule.
+# question PR: general-use abbreviation or specialist acronym? I kept it, but it could be merged to Public Relations or dropped.
+# question OP: same doubt; I kept it as lexicalised, but merge:Operation is possible.
+# question Dunkle: forms dunkeln/dunklen come from "im Dunkeln" (noun Dunkel), though an adjective dunkel is also possible.

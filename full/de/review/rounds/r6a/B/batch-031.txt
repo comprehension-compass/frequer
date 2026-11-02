@@ -1,0 +1,47 @@
+Breisgau	drop	region name, not on the reviewed place list
+Sexfilm	keep	real compound noun, even if spam-adjacent
+termingerecht	keep	genuine adjective, only mis-tagged
+Band	keep	valid noun lemma, genitive "bandes" is just the attested form
+Katie	drop	personal name
+sinn	merge:Sinn	lower-case noun
+Anpasse	merge:anpassen	cut-off form of anpassen
+Grant	drop	English word or name
+müsstest	merge:müssen	conjugated form
+Anschaue	merge:anschauen	cut-off form of anschauen
+Ehrenamtliche	keep	nominalised adjective, a noun in its own right
+Folk	keep	established loan for the music genre
+ergangen	merge:ergehen	participle filed as lemma
+lösungsorientiert	keep	genuine adjective, only mis-tagged
+uber	merge:über	missing umlaut
+Kasseler	drop	place-derived form of Kassel
+unrecht	keep	genuine adjective (unrecht haben)
+Auffällig	merge:auffällig	adjective filed under a capitalised lemma
+lanciert	merge:lancieren	participle filed as lemma
+Ina	drop	personal name
+bescheuert	keep	adjective with its own dictionary entry
+Werbezwecke	merge:Werbezweck	noun filed under its plural
+möglichkeit	merge:Möglichkeit	lower-case noun
+Flip	drop	English word or name, examples are product text
+Helles	drop	examples are surnames (Heller), not a learnable lemma
+Hintergrundbild	keep	valid compound noun
+Wiesbadener	drop	place-derived form of Wiesbaden
+einher	merge:einhergehen	particle cut off from einhergehen
+magern	merge:mager	inflected form of mager
+Würzburger	drop	place-derived form of Würzburg
+jedenfall	merge:jedenfalls	cut-off form
+sec	drop	foreign abbreviation
+eig	merge:eigentlich	abbreviation of a listed word
+amateur	merge:Amateur	lower-case noun, established loan
+Stor	merge:Store	cut-off or variant form of Store
+Gastronomen	merge:Gastronom	noun filed under its plural
+urlaub	merge:Urlaub	lower-case noun
+thread	drop	English word, not an established loan
+energiesparen	merge:energiesparend	participle adjective filed under the infinitive
+motorisieren	keep	valid verb lemma, dictionary form
+
+# question Band: the attested form "bandes" fits der Band, das Band and die Band, so the gender is unclear; kept as a valid noun lemma.
+# question Flip: Duden lists Flip (a drink, a jump), but the examples are product or name uses; dropped.
+# question Helles: the written form is "heller", used as a surname (Heller) here; the beer noun "Helles" is not attested, so dropped.
+# question eig: the forms eige, eiger and eigem could point to eigen rather than eigentlich; merged to eigentlich as the abbreviation.
+# question uber: could be the brand Uber, but the lower-case spelling suggests über with the umlaut stripped; merged.
+# question Folk: the screeners doubted it, but Folk is in Duden as a loan; kept.

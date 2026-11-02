@@ -1,0 +1,44 @@
+dpi	drop	abbreviation, specialist unit acronym
+gehandelt	merge:handeln	inflected participle, no adjective entry
+Emde	drop	fragment of Emden, a place name not on the list
+aufeinanderfolgen	merge:aufeinanderfolgend	adjective forms filed under the infinitive
+geilen	merge:geil	inflected form of the adjective
+Phuket	drop	place name not on the list
+beitrag	merge:Beitrag	lower-case noun
+Ausschuß	merge:Ausschuss	old spelling
+mitgeführt	merge:mitführen	participle form
+wort	merge:Wort	lower-case noun
+Raider	drop	English word or game name, not an established loan
+kabel	merge:Kabel	lower-case noun
+bdsm	drop	abbreviation, specialist acronym
+Hertz	keep	established unit noun
+Langenfeld	drop	place name not on the list
+Titanic	drop	ship or film name, not a famous institution
+Sör	drop	fragment of the name Sören
+unsre	merge:unser	variant spelling of the possessive
+Abschalte	merge:abschalten	verb filed under a capitalised lemma
+Terasse	merge:Terrasse	misspelling
+erlebt	merge:erleben	inflected participle filed as a noun
+populäre	merge:populär	inflected adjective
+Experimentier	merge:experimentieren	cut-off verb form
+einschl	merge:einschließlich	abbreviation of a listed word
+UdSSR	drop	state name and abbreviation, not on the place-name list
+vieleicht	merge:vielleicht	misspelling
+zeitnahe	merge:zeitnah	inflected adjective
+stunde	merge:Stunde	lower-case noun (written as stunden)
+Steyr	drop	place name or brand
+box	merge:Box	lower-case noun
+job	merge:Job	lower-case noun
+Bunt	merge:bunt	adjective filed under a capitalised lemma
+Oldenburger	drop	place-derived name
+Staatsoper	keep	common noun for an institution
+Swift	drop	personal or brand name
+Toshiba	drop	brand name
+Aurora	drop	personal name
+Gefall	merge:Gefälle	dropped letter, cut-off fragment
+Jüdische	merge:jüdisch	adjective filed under a capitalised lemma
+Steinbrück	drop	surname
+# question Emde: it is a fragment of Emden, but Emden is a place name not on the list, so merging would only point to a dropped lemma; I dropped it.
+# question UdSSR: the rules do not say whether a historical state counts as a place name or a learnable word; I treated it as a place name and dropped it.
+# question box: the forms box and boxer could belong to the noun Box (or Boxer) or to the verb boxen; I chose Box.
+# question Staatsoper: it is written generically, but the examples mostly refer to the Wiener Staatsoper; I kept it as a common noun.

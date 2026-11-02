@@ -1,0 +1,46 @@
+Buddha	keep	Figure's name that is also an ordinary noun (eine Buddha-Statue)
+NSU	drop	Specialist acronym / organisation name
+WG	merge:Wohngemeinschaft	Abbreviation of a listed word
+Commerzbank	keep	Famous institution
+gr	merge:groß	Dropped letters; grer/gres/gren are größer/größeres/größen
+irgendeiner	merge:irgendein	Inflected form
+wirds	merge:werden	Contraction of wird es
+facebook	merge:Facebook	Lower-case form of a famous company name
+Beate	drop	Given name
+stück	merge:Stück	Lower-case noun, plural forms included
+Augsburger	drop	Derived from a place name not on the list
+Geschäftsprozesse	merge:Geschäftsprozess	Plural filed as lemma
+Fel	merge:Fels	Cut-off fragment
+Grosse	merge:groß	Adjective filed under a capitalised, ss-spelled lemma
+Raspberry	drop	English product name
+Au	drop	Fragment, interjection or place-name element; no clear learnable noun
+schnellen	merge:schnell	Garbled lemma; forms are Schnelltest/schnellst/schnell
+erfolgt	merge:erfolgen	Participle filed as lemma
+Schufa	keep	Well-known institution
+Regelmäßig	merge:regelmäßig	Adjective under a capitalised lemma
+woch	merge:Woche	Cut-off fragment
+krieg	merge:Krieg	Forms are mostly the noun Krieg, which is lower-cased here
+Probier	merge:probieren	Imperative stem / fragment
+schocken	keep	Dictionary form of the verb
+Positiv	merge:positiv	Adjective under a capitalised lemma
+Tagesspiegel	keep	Famous newspaper
+Virtuelle	merge:virtuell	Inflected, capitalised adjective
+Heiz	merge:heizen	Cut-off stem
+Dungeon	drop	English gaming word, not an established loan
+Valentin	drop	Personal name
+dat	drop	Dialect / non-German form (also English "date")
+ots	drop	Agency abbreviation
+String	drop	English programming term
+WiFi	keep	Established loan
+erotik	merge:Erotik	Lower-case noun
+Joche	drop	Evidence is the given name Jochen, not the noun Joch
+Schlei	merge:Schleier	Cut-off fragment
+Neumarkt	drop	Place name not on the list
+Wii	drop	Product brand
+wünsch	merge:wünschen	Imperative stem / fragment
+# question WG: Merged to Wohngemeinschaft as an abbreviation; if WG counts as an established word in its own right, it should be keep.
+# question gr: Merge target groß assumed from grer/gres/gren; could also be Größe.
+# question facebook: Assumed Facebook is a famous company, so it should be kept once capitalised.
+# question Au: Interjection "au" is a real word but the data shows no examples; dropped.
+# question krieg: Krieg is the main sense, but Krieger (422) is a separate noun; the lemmatiser merged them.
+# question Joche: Merging into Joch would be wrong given the Jochen name evidence; dropped.

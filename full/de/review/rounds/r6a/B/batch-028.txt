@@ -1,0 +1,44 @@
+Versage	merge:Versagen	cut-off form; the counted text is mostly the noun "das Versagen" (1,145 of 1,165)
+entsetzt	keep	participle that is an adjective with its own entry
+dm	drop	abbreviation or brand
+gebaut	merge:bauen	participle filed as a lemma
+peitschen	keep	real verb with its own forms
+mellitus	drop	Latin term
+verbündet	merge:Verbündeter	nominalised participle, used as a noun
+updat	merge:Update	cut-off form
+Lokomotiv	merge:Lokomotive	cut-off form
+aug	merge:Auge	cut-off form
+Magento	drop	product name
+Schweinsteiger	drop	person name
+ergebend	merge:ergeben	participle, not an adjective in its own right
+Krypto	merge:Kryptowährung	clipped fragment
+Mglichkeit	merge:Möglichkeit	broken encoding
+Rostocker	drop	demonym from a place name not on the list
+Staatliche	merge:staatlich	inflected adjective under a capitalised lemma
+Blade	drop	English word, not an established loan
+Nm	drop	abbreviation
+Ulmer	drop	demonym from a place name, also a surname
+Rheinische	merge:rheinisch	inflected adjective under a capitalised lemma
+ned	drop	dialect form, not a verb
+iphone	drop	brand name
+UrhG	drop	specialist law abbreviation
+erfahrungen	merge:Erfahrung	plural noun filed in lower case
+Üblicherweise	merge:üblicherweise	adverb under a capitalised lemma
+Atlanta	drop	place name
+HS	drop	abbreviation
+leser	merge:Leser	noun filed in lower case
+Brühl	drop	place name
+Historische	merge:historisch	inflected adjective under a capitalised lemma
+Sauber	merge:sauber	adjective under a capitalised lemma
+Oberfranken	drop	place name
+spulen	keep	real verb
+vorstehen	keep	real verb
+körper	merge:Körper	noun filed in lower case
+scheiß	merge:scheißen	vulgar fragment
+gehostet	merge:hosten	participle filed as a lemma
+BaFin	keep	well-known institution
+Brocke	merge:Brocken	cut-off form
+# question Versage: Versagen (noun) and Versager (person) are both possible targets; I chose Versagen because it makes up almost all the counts.
+# question Krypto: it is a clipped prefix with no clear single full word; I chose Kryptowährung, but drop is also defensible.
+# question Rostocker: the rules do not say whether demonyms count as a nouns-with-own-entry case (like Lehrerin) or as place-name derivatives; I treated them as the latter and dropped them (same for Ulmer).
+# question scheiß: it is mostly an intensifying prefix and not a clear form of the verb scheißen; drop is also possible.

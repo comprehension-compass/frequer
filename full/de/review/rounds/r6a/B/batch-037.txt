@@ -1,0 +1,45 @@
+Rübe	keep	ordinary noun; "ruben" is only a variant spelling
+Santander	drop	bank brand and Spanish place name, not on the reviewed list
+Törn	keep	established nautical loan (Duden)
+nciht	merge:nicht	misspelling of nicht
+Gentleman	keep	established loan
+GoPro	drop	brand name
+Zuschuß	merge:Zuschuss	old spelling
+Göttinger	drop	demonym from the place name Göttingen, not on the list
+obendrauf	keep	real adverb; the VERB tag is a tagging error
+Äußere	merge:äußere	all forms are lowercase, so this is the adjective filed under a capital letter
+Anfasse	merge:anfassen	cut-off form of anfassen
+Lübbe	drop	place name or surname
+Skyrim	drop	game title
+herzlichst	merge:herzlich	superlative adverb
+Walther	drop	person name
+Zeugin	keep	feminine noun with its own entry
+punkto	merge:Punkt	fragment of "in punkto"
+Fallout	drop	game title, not an established German loan
+Mami	keep	valid colloquial noun
+abgeleitet	keep	adjective with its own entry
+entschieden	keep	adjective with its own entry
+mer	drop	garbled or dialect form with no clear target
+Franklin	drop	person name
+Nicht	merge:Nichte	truncated; the forms are "nichte"
+Techno	keep	established loan
+Werbetreibende	keep	nominalised participle that is a noun in its own right
+Luzerner	drop	demonym from the place name Luzern, not on the list
+Remake	keep	established loan
+grosszügig	merge:großzügig	Swiss spelling
+haha	keep	interjection
+Bürgerliche	merge:bürgerlich	adjective filed under a capital letter
+Darmstädter	drop	demonym from the place name Darmstadt, not on the list
+Servus	keep	greeting
+UM	merge:um	uppercase form of the preposition
+gefördert	merge:fördern	participle with no separate adjective entry
+ort	merge:Ort	lowercase noun
+Lach	merge:Lachs	cut-off form of Lachs
+unterschrieben	merge:unterschreiben	participle with no separate adjective entry
+Abzocke	keep	ordinary noun
+Zusatzfunktion	keep	ordinary compound noun
+# question Äußere: the rules don't say whether the dictionary lemma is "äußere" or "äußer", and I chose "äußere"; it could also be the noun "das Äußere", but every form is lowercase.
+# question punkto: "in punkto" is a multi-word phrase and has no single-word lemma, so I merged it into Punkt.
+# question herzlichst: it might count as an adverb with its own entry (also used as a letter closing), in which case it would be keep.
+# question mer: the examples are missing; it may be a dialect word for "mehr" or "wir", so I dropped it.
+# question abgeleitet: unclear whether it has its own adjective entry; I treated it as having one.

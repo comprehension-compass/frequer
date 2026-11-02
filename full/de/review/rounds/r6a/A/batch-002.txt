@@ -1,0 +1,45 @@
+sexy	keep	established loan; tag is wrong, but the lemma is fine
+U	drop	single letter/abbreviation (u, u., ue)
+Große	merge:groß	adjective forms (großes, großen) under a capitalised lemma
+Besondere	merge:besonder	adjective forms under a capitalised lemma
+Klein	merge:klein	adjective filed under a capitalised lemma
+Gleiche	merge:gleich	adjective forms under a capitalised lemma
+WM	merge:Weltmeisterschaft	abbreviation of a listed word
+NICHT	merge:nicht	capitalised form of a function word
+eingesetzt	merge:einsetzen	participle filed as lemma, no adjective entry of its own
+di	drop	foreign/garbled, not German
+dar	merge:darstellen	cut-off separable prefix
+Kurze	merge:kurz	adjective forms under a capitalised lemma
+fuer	merge:für	ue transliteration of für
+editiert	merge:editieren	participle filed as lemma
+besseres	merge:besser	inflected form of besser
+Voraus	merge:voraus	adverb under a capitalised lemma
+Keywords	merge:Keyword	English plural filed as lemma
+jahr	merge:Jahr	lower-case noun
+MS	drop	specialist acronym
+bzw	merge:beziehungsweise	abbreviation of a listed word
+Einzelne	merge:einzeln	adjective filed under a capitalised lemma
+Schöne	merge:schön	adjective filed under a capitalised lemma
+Z	drop	single letter
+nich	merge:nicht	colloquial misspelling of nicht
+HP	drop	brand/acronym
+Co	drop	abbreviation, no listed full word
+etc	keep	established everyday abbreviation
+PKW	keep	everyday word, parallel to Kfz
+personalisieren	keep	correct verb infinitive; only the tag is off
+Übrige	merge:übrig	adjective filed under a capitalised lemma
+jährig	drop	suffix fragment with no clear target lemma
+mangeln	keep	correct verb infinitive; the participle mangelnd belongs here
+kurzem	merge:kurz	inflected form filed as lemma
+geniessen	merge:genießen	non-standard spelling of genießen
+P	drop	single letter
+duschen	keep	correct verb lemma; only the tag is off
+EL	drop	abbreviation/code
+Lady	keep	established loan in German dictionaries
+angrenzen	keep	correct verb infinitive; only the tag is off
+schonmal	merge:schon	colloquial spelling of schon mal
+# question Besondere: the dictionary adjective headword is "besonder" or "besondere", and I'm not sure which one is on the list.
+# question jährig: the rules say fragments are merged, but there is no single target lemma for -jährig, so I dropped it.
+# question etc: no German full-word lemma to merge into, so I kept it as an established abbreviation; drop is possible if abbreviations without a listed target should go.
+# question PKW: could be merge:Personenkraftwagen if that is on the list; I kept it as an everyday word like Kfz.
+# question schonmal: the target is really the two-word phrase "schon mal", so I merged it into schon.

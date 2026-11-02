@@ -1,0 +1,44 @@
+farben	merge:Farbe	plural noun filed as a verb
+nimm	merge:nimmer	the forms are the adverb nimmer, not an imperative
+teilnahmen	merge:teilnehmen	conjugated past form
+zigeunern	drop	offensive and rare, and the examples are spam gibberish
+praxisnahe	merge:praxisnah	inflected adjective
+Intelligent	merge:intelligent	adjective under a capitalised lemma
+Mt	drop	abbreviation with no clear listed word
+Rider	drop	English word, not an established loan
+Treibhausgase	merge:Treibhausgas	plural filed as lemma
+fach	drop	fragment of the -fach suffix
+interesse	merge:Interesse	noun under a lower-case lemma
+Jakobsweg	keep	common noun for a pilgrim route, with its own plural forms
+Geschenkgutscheine	merge:Geschenkgutschein	plural filed as lemma
+Pflegebedürftige	keep	nominalised adjective that works as a noun
+UTC	drop	specialist acronym
+Sep	merge:September	abbreviation of a listed word
+Topper	drop	English word, not an established loan
+echtgeld	merge:Echtgeld	noun under a lower-case lemma
+gang	merge:Gang	noun under a lower-case lemma
+Ackermann	drop	surname
+Ausprobieren	merge:ausprobieren	nominalised infinitive, the verb is the dictionary form
+Betreibe	merge:betreiben	verb under a capitalised lemma
+Remus	drop	character name
+hei	merge:heiß	broken encoding
+DAV	drop	organisation acronym
+Merlin	drop	character name
+Oberstdorf	drop	place name not on the reviewed list
+Petit	drop	French word, not German
+gegangen	merge:gehen	participle in a fixed phrase, not an adjective of its own
+Lösen	merge:lösen	verb under a capitalised lemma
+Schindler	drop	surname
+Selbstständig	merge:selbstständig	adjective under a capitalised lemma
+Erdgeschoß	merge:Erdgeschoss	old spelling variant
+Marko	drop	given name
+KIT	drop	institution acronym
+TH	drop	abbreviation
+dafr	merge:dafür	broken encoding
+Bamberger	drop	demonym derived from a place name
+Kommunistische	merge:kommunistisch	adjective under a capitalised lemma
+Rewe	keep	well-known supermarket chain, treated like a famous institution
+# question fach: the forms (fache, facher) are the -fach suffix (zweifache and similar), so there is no clear lemma to merge into; dropped as a fragment
+# question Rewe: it is unclear whether a company counts as a "famous institution"; kept
+# question Jakobsweg: it could count as a route name, but it is a common noun with plural forms; kept
+# question Bamberger: it is a demonym and the adjective of a place name, and the rules don't cover demonyms; dropped

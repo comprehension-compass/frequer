@@ -1,0 +1,44 @@
+Teaser	keep	established loan
+namen	merge:Name	plural of Name filed in lower case
+Aigner	drop	surname
+Facelift	keep	established loan
+paddeln	keep	real verb; "paddle" is only a surface form
+Schamlippe	keep	ordinary anatomical noun
+unterhaltsame	merge:unterhaltsam	inflected adjective
+Bik	merge:Bike	cut-off fragment of Bikes
+EnEV	drop	specialist acronym
+Barbie	drop	brand/character name
+RP	drop	abbreviation
+Vorn	merge:vorn	adverb filed under a capital
+rückblicken	merge:rückblickend	not a real verb; the adverb rückblickend is the form in use
+Schloß	merge:Schloss	old spelling
+fühl	merge:fühlen	imperative/truncated verb form
+Henrik	drop	given name
+Mailbox	keep	established loan
+Pauschalreisen	merge:Pauschalreise	plural filed as lemma
+begrüssen	merge:begrüßen	Swiss spelling of an existing lemma
+unausweichlich	keep	real adjective; the ADV tag comes from adverbial use
+zarte	merge:zart	inflected adjective
+Ame	merge:Amen	cut-off fragment
+Fühle	merge:fühlen	conjugated verb capitalised
+Trigger	keep	established loan
+Cop	keep	loan used in German
+Cupcakes	merge:Cupcake	plural filed as lemma
+Gepäckstück	keep	regular noun
+Paradise	drop	English word/name, not an adapted loan
+Skalierung	keep	regular German noun
+detaillierter	merge:detailliert	comparative filed as lemma
+Bänder	merge:Band	plural filed as lemma
+gefahren	merge:fahren	participle with no adjective entry of its own
+kontakt	merge:Kontakt	noun filed in lower case
+Goldene	merge:golden	adjective filed under a capital
+Kreml	drop	place name not on the reviewed list
+Michelin	drop	brand name
+Gültig	merge:gültig	adjective filed under a capital
+Lightning	drop	English product name
+fahrt	merge:Fahrt	forms are mostly Fahrt/Fahrten; could also be a verb form of fahren
+Automatisch	merge:automatisch	adjective filed under a capital
+# question Kreml: the place-name rule says drop, but it is also a common noun for the Russian government (like a famous institution).
+# question fahrt: the written forms fahrt and fahrten fit the noun Fahrt, but fahrt is also a verb form (merge:fahren); I chose the noun.
+# question rückblicken: no dictionary verb exists; I chose merge:rückblickend, but merge:zurückblicken is the alternative.
+# question Cop: the English slang word is borderline as an established loan; I chose keep.

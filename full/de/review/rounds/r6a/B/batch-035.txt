@@ -1,0 +1,44 @@
+Teaser	keep	established loan
+namen	merge:Name	lower-case noun form
+Aigner	drop	surname
+Facelift	keep	established loan
+paddeln	keep	real verb; "paddle" is only one of its forms
+Schamlippe	keep	ordinary anatomical noun
+unterhaltsame	merge:unterhaltsam	inflected adjective
+Bik	merge:Bike	cut-off fragment of Bikes
+EnEV	drop	specialist acronym
+Barbie	drop	brand/character name
+RP	drop	ambiguous abbreviation
+Vorn	merge:vorn	adverb filed under a capital
+rückblicken	merge:rückblickend	not a real verb; forms are almost all rückblickend
+Schloß	merge:Schloss	old spelling/inflected forms
+fühl	merge:fühlen	imperative form
+Henrik	drop	given name
+Mailbox	keep	established loan
+Pauschalreisen	merge:Pauschalreise	plural filed as lemma
+begrüssen	merge:begrüßen	Swiss spelling
+unausweichlich	keep	adjective in its base form
+zarte	merge:zart	inflected adjective
+Ame	merge:Amen	cut-off fragment
+Fühle	merge:fühlen	conjugated verb form capitalised
+Trigger	keep	established loan
+Cop	keep	loan used in German
+Cupcakes	merge:Cupcake	plural filed as lemma
+Gepäckstück	keep	regular noun
+Paradise	drop	English word/name
+Skalierung	keep	regular German noun
+detaillierter	merge:detailliert	comparative form
+Bänder	merge:Band	plural filed as lemma
+gefahren	merge:fahren	participle without its own adjective entry
+kontakt	merge:Kontakt	lower-case noun
+Goldene	merge:golden	capitalised inflected adjective
+Kreml	drop	place name not on the reviewed list
+Michelin	drop	brand name
+Gültig	merge:gültig	capitalised adjective
+Lightning	drop	English word/product name
+fahrt	merge:Fahrt	lower-case noun form (tagged verb)
+Automatisch	merge:automatisch	capitalised adjective
+# question namen: tagged VERB, but the form is the plural of Name; merged to Name on that reading
+# question rückblicken: no verb of this shape; merged to the adjective/adverb rückblickend
+# question Kreml: it could count as a famous institution (keep), but I treated it as a place name not on the list
+# question Cop: slang loan; borderline between established loan and English word, so I kept it

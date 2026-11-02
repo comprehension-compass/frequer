@@ -1,0 +1,47 @@
+meinung	merge:Meinung	lower-case noun filed as ADJ
+vorgegeben	merge:vorgeben	participle form
+Joint	keep	established loan
+Marianne	drop	personal name
+koennen	merge:können	transliterated spelling
+Kat	merge:Katalysator	clipped form of Katalysator
+beig	merge:beige	cut-off fragment
+Remis	keep	established chess term
+angeführt	merge:anführen	participle form
+gezogen	merge:ziehen	participle form
+Brennen	merge:brennen	capitalised verb form
+Sims	drop	brand/game name
+Kärntner	drop	derived from place name Kärnten
+steh	merge:stehen	imperative/stem form
+ausgelegt	merge:auslegen	participle form
+slots	merge:Slot	English plural, lower-case
+Antioxidans	keep	singular lemma of a Latinate noun
+auseinanderzusetzen	merge:auseinandersetzen	zu-infinitive form
+kauf	merge:kaufen	imperative/stem form
+gefertigt	merge:fertigen	participle form
+mail	merge:Mail	lower-case noun, mis-tagged ADV
+RA	drop	abbreviation/code
+Azubis	merge:Azubi	plural filed as lemma
+Typisch	merge:typisch	capitalised adjective
+us	drop	not German
+zertifizierter	merge:zertifizieren	inflected participle form
+Grundkenntnis	keep	singular lemma of the noun
+Recklinghausen	drop	place name not on list
+Heilpflanze	keep	regular noun, singular lemma
+Lade	merge:laden	verb form tagged VERB
+Rebecca	drop	personal name
+sach	merge:Sache	cut-off fragment
+Absende	merge:absenden	capitalised verb form
+SL	drop	abbreviation/code
+Muffin	keep	established loan
+Schrei	keep	regular noun
+bekanntwerden	merge:Bekanntwerden	lower-case nominalised verb
+Keyboard	keep	established loan
+Nuß	merge:Nuss	old spelling
+Zeitgenosse	keep	regular noun, singular lemma
+
+# question Kat: unclear whether Kat stands as its own clipped-form entry; merged into Katalysator, though Katze is possible.
+# question Kärntner: demonym/adjective from a place name; treated as place-derived and dropped.
+# question auseinanderzusetzen: unclear whether the target lemma is "auseinandersetzen" or the pronominal "sich auseinandersetzen".
+# question Lade: could be the noun Lade (drawer) rather than a form of laden; the tag is VERB, so merged into laden.
+# question Schrei: lemma also absorbs Schreier (a separate noun); kept as Schrei.
+# question bekanntwerden: forms such as "wurde bekannt" are verb uses; merged into the nominalised noun Bekanntwerden.

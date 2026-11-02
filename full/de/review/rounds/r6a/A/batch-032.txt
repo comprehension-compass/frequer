@@ -1,0 +1,45 @@
+AZ	drop	abbreviation (Aktenzeichen)
+Runner	drop	brand and title use (Maze Runner, Clever Runner), not an established loan
+Wolfenbüttel	drop	place name not on the list
+Einsetze	merge:einsetzen	cut-off form of the verb einsetzen
+Gabi	drop	personal name
+sic	drop	Latin editorial marker
+start	merge:Start	noun filed in lower case (start, starts, startes)
+Rhön	drop	place name (region)
+StPO	drop	specialist legal acronym
+massage	merge:Massage	noun filed as a lower-case verb
+Zillertal	drop	place name not on the list
+Genuß	merge:Genuss	old spelling
+MEZ	drop	specialist acronym
+USt	drop	specialist abbreviation
+rahmen	keep	valid verb lemma; only the POS tag is wrong
+Regensburger	drop	derived from the place name Regensburg
+verträumen	merge:verträumt	usage is the adjective verträumt, which has its own entry
+wg	drop	abbreviation
+Biel	drop	place name
+Streams	merge:Stream	plural filed as lemma
+Joh	drop	cut-off abbreviation
+Lebende	merge:lebend	inflected participle form
+Automotiv	drop	wrong form; specialist English industry term
+Bieber	drop	personal name
+Plau	drop	cut-off place name (Plauen), not on the list
+empor	keep	valid adverb; only the POS tag is wrong
+Aug	merge:Auge	cut-off fragment
+Floh	keep	correct singular lemma; plural-heavy attestation is normal
+Goslar	drop	place name
+Stütze	merge:stützen	attested forms are the verb stützen
+Ficht	merge:Fichte	cut-off fragment
+tabu	keep	valid adjective; only the POS tag is wrong
+wildern	merge:wild	majority form wilder is the adjective
+GByte	drop	unit abbreviation
+Kant	drop	personal name
+Netiquette	keep	established loan, well attested
+lol	drop	internet abbreviation
+Doc	drop	English abbreviation
+artikel	merge:Artikel	noun filed in lower case
+Füssen	drop	place name
+# question Regensburger: a demonym is a noun with its own entry, like Lehrer, but it is derived from a place name that is not on the list. I dropped it.
+# question Automotiv: the drop is a judgement call. Automotive is used in German job ads as an English loan, but it is mostly a sector label, not an established word.
+# question Stütze: only the plural-looking form stützen is attested, and it could be either the noun's plural or the verb. I merged it to the verb stützen, but the rule on forms listed only as plural does not clearly cover it.
+# question wildern: the forms mix the adjective wilder (908) with the verb wildern (poach). I merged it to wild because of the majority, though the verb forms would be a separate lemma.
+# question start: the forms are ambiguous between the noun Start and the verb form of starten. I merged it to Start because starts and startes are noun genitives.

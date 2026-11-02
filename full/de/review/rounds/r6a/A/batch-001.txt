@@ -1,0 +1,44 @@
+Neues	merge:neu	inflected adjective form
+K	drop	single letter
+frau	merge:Frau	lower-case noun
+G	drop	single letter
+Kleine	merge:klein	capitalised inflected adjective
+Weitere	merge:weiter	capitalised inflected adjective
+neunundzwanzig	keep	number word with its own lemma
+V	drop	single letter
+L	drop	single letter
+Beschäftigte	keep	nominalised participle, a noun in its own right (der/die Beschäftigte)
+GB	drop	specialist abbreviation
+F	drop	single letter
+zielen	keep	real verb; the participle gezielt is just the main form in the text
+motivieren	keep	real verb
+letzter	keep	letzterer (the latter) is its own pronoun entry
+R	drop	single letter
+Franken	keep	the examples show the currency (Swiss francs), not the region
+Tools	merge:Tool	plural filed as lemma
+enttäuschen	keep	real verb
+KG	drop	abbreviation
+Würde	merge:werden	conjugated subjunctive of werden
+en	drop	garbled, not a German word
+casino	merge:Casino	lower-case noun
+Vorhaben	keep	established noun
+Domain	keep	established loan
+Nazi	keep	established German noun
+bewähren	keep	real verb
+H	drop	single letter
+Münchner	keep	demonym, not a place name itself
+automatisieren	keep	real verb
+Abgeordnete	keep	nominalised adjective, a noun in its own right (der/die Abgeordnete)
+Kontaktdaten	keep	plural-only noun
+Wesentliche	merge:wesentlich	forms are inflected adjective
+Richtige	merge:richtig	forms are inflected adjective
+klasse	keep	adjective klasse
+Spass	merge:Spaß	non-standard spelling
+Thread	keep	established IT loan
+W	drop	single letter
+überarbeiten	keep	real verb
+ber	merge:über	cut-off fragment
+# question letzter: the forms are letztere(s/r/n/m) (the latter), which has its own dictionary entry; I kept it, but it could be merged into letzte
+# question Franken: the examples show the currency, so I kept it; the region sense would be a place name and a drop
+# question Münchner: a demonym derived from München, which is not itself a place name; I kept it, but the place-name rules might be meant to cover it
+# question neunundzwanzig: the forms are almost all digits (29); I kept the number lemma, but the digit-only rule could apply

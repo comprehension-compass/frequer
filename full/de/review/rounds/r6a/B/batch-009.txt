@@ -1,0 +1,48 @@
+film	merge:Film	lower-case noun
+getroffen	merge:treffen	participle filed as lemma
+EP	drop	specialist abbreviation
+Mainzer	drop	demonym from the place name Mainz, not on the list
+Frisch	merge:frisch	capitalised adjective
+OG	merge:Obergeschoss	abbreviation of a listed word
+Meta	drop	company/brand name
+spitze	merge:spitz	inflected adjective form
+Bonner	drop	adjective derived from the place name Bonn
+Gesund	merge:gesund	capitalised adjective
+spitzen	keep	valid verb lemma (Bleistift spitzen)
+Micro	drop	fragment/brand
+Kathrin	drop	personal name
+läng	merge:lang	cut-off form
+Rüdiger	drop	personal name
+verspäten	merge:verspätet	forms are mostly the adjective verspätet
+Via	merge:via	capitalised preposition
+mitgeliefert	merge:mitliefern	participle filed as lemma
+Roma	keep	ethnonym with a meaning of its own, plural-only
+TB	drop	abbreviation
+y	drop	single letter
+heiss	merge:heiß	spelling variant of heiß
+Höchste	merge:hoch	capitalised inflected superlative
+angestellt	merge:Angestellter	nominalised participle with its own noun entry
+Prominente	keep	nominalised adjective that is a noun in its own right
+bonus	merge:Bonus	lower-case noun
+nächstes	merge:nächst	inflected form
+Gruss	merge:Gruß	Swiss/ASCII spelling
+Ausbild	merge:Ausbilder	cut-off fragment
+mini	drop	not a verb, prefix-like fragment
+silber	keep	indeclinable colour adjective
+zertifizierten	merge:zertifiziert	inflected form of the participle adjective
+eingereicht	merge:einreichen	participle filed as lemma
+Hunter	drop	English word or name
+inne	merge:innehaben	cut-off particle
+riesen	keep	indeclinable colloquial adjective (riesen Spaß)
+verlinkt	merge:verlinken	participle filed as lemma
+festgelegt	merge:festlegen	participle filed as lemma
+eingeführt	merge:einführen	participle filed as lemma
+Mass	merge:Maß	Swiss/ASCII spelling
+
+# question Mainzer: demonym from a place name; dropped as a place-derived form since Mainz is not on the list, but it may belong on the place-name list instead.
+# question Bonner: same as Mainzer, a place-derived adjective, dropped.
+# question OG: unclear whether Obergeschoss is on the list; merged on the assumption that it is.
+# question spitzen: mixed verb and adjective forms are filed together; kept as the verb spitzen, and spitze is merged to spitz.
+# question riesen: indeclinable intensifier; kept as its own colloquial entry, not merged to Riese.
+# question silber: colour adjective vs. noun Silber; kept as an adjective.
+# question Höchste: merged to hoch, but höchst could also count as its own entry.

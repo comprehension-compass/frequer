@@ -1,0 +1,42 @@
+Neues	merge:neu	inflected adjective form
+K	drop	single letter
+frau	merge:Frau	lower-case noun
+G	drop	single letter or abbreviation
+Kleine	merge:klein	capitalised inflected adjective
+Weitere	merge:weiter	capitalised inflected adjective
+neunundzwanzig	keep	number word, a learnable lemma
+V	drop	single letter
+L	drop	single letter
+Beschäftigte	keep	nominalised participle, a noun in its own right (der Beschäftigte)
+GB	drop	abbreviation
+F	drop	single letter
+zielen	keep	valid verb lemma
+motivieren	keep	valid verb lemma
+letzter	merge:letzte	inflected form filed as lemma
+R	drop	single letter
+Franken	keep	noun in its own right (Swiss currency, as in the examples)
+Tools	merge:Tool	plural filed as lemma
+enttäuschen	keep	valid verb lemma
+KG	drop	abbreviation
+Würde	merge:werden	conjugated form of werden
+en	drop	garbled, not a German word
+casino	merge:Casino	lower-case noun
+Vorhaben	keep	established noun
+Domain	keep	established loan
+Nazi	keep	established noun
+bewähren	keep	valid verb lemma
+H	drop	single letter
+Münchner	drop	derived from a place name not on the list
+automatisieren	keep	valid verb lemma
+Abgeordnete	keep	noun in its own right (der/die Abgeordnete)
+Kontaktdaten	keep	plural-only noun
+Wesentliche	merge:wesentlich	capitalised inflected adjective
+Richtige	merge:richtig	capitalised inflected adjective
+klasse	keep	adjective in its own right
+Spass	merge:Spaß	non-standard spelling
+Thread	keep	established IT loan
+W	drop	single letter
+überarbeiten	keep	valid verb lemma
+ber	merge:über	cut-off fragment
+# question letzter: all forms are letztere/letzteres/letzterer ("the latter"), which may be a separate entry from letzte; merged into letzte as the dictionary form of the inflected adjective.
+# question Münchner: a demonym rather than a place name itself; the rules don't say whether such derived forms count as place names, so I dropped it.

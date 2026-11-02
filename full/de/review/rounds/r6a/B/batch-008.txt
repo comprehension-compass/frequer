@@ -1,0 +1,45 @@
+Affiliate	drop	English marketing jargon, not an established loan
+zulässt	merge:zulassen	conjugated form
+Oberhausen	drop	place name not on list
+letzt	merge:letzte	cut-off stem of letzte/letzter
+Optional	merge:optional	capitalised adjective
+Konkret	merge:konkret	capitalised adjective
+Anschluß	merge:Anschluss	old spelling
+undMehr	drop	garbled template text
+erbracht	merge:erbringen	participle without own entry
+Taylor	drop	personal name
+Ficke	merge:ficken	capitalised verb form
+Sir	drop	English word
+Dinner	keep	established loan in German dictionaries
+Karlsruher	drop	place-name derivative
+BI	drop	abbreviation or garbled
+Script	merge:Skript	English spelling of adapted word
+Mobil	merge:mobil	capitalised adjective
+gutgeschrieben	merge:gutschreiben	participle filed as lemma
+weis	merge:wissen	misspelling of weiß (form of wissen)
+engen	merge:eng	inflected adjective forms
+Schwitz	merge:schwitzen	cut-off or capitalised verb form
+SchülerIn	merge:Schülerin	feminine entry, plural/gendered spelling filed as lemma
+Verweile	merge:verweilen	capitalised verb form
+JA	merge:ja	capitalised particle
+ONLINE	merge:online	all-caps form of loan
+Timo	drop	personal name
+Palm	merge:Palme	cut-off form of Palme
+verblieben	merge:verbleiben	participle filed as lemma
+willen	keep	function word in um … willen
+beheizen	keep	valid infinitive lemma
+Schluß	merge:Schluss	old spelling
+EStG	drop	specialist abbreviation
+seh	merge:sehen	truncated verb form
+St	drop	abbreviation
+z	drop	single letter, garbled
+anschliessend	merge:anschließend	Swiss ss spelling
+Freiburger	drop	place-name derivative
+Lewis	drop	personal name
+Mega	merge:mega	capitalised colloquial adjective/prefix
+ueber	merge:über	transliterated spelling
+# question letzt: only the stem of letzter/letzte/letztes; merged to letzte, but the rules don't say which citation form to use.
+# question weis: forms also include weise/weisen (weise adj, weisen verb), so merge:wissen fits only part of the evidence.
+# question willen: the lemma mixes um … willen with gewillt (adjective) and wille; kept as a function word, but the mixed evidence is unclear.
+# question Karlsruher: place-name adjectives are not covered explicitly; dropped on the assumption that the place-name rule extends to them.
+# question Mega: could be dropped as a prefix instead; merged to mega as a colloquial adjective, which may not be on the list.

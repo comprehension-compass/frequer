@@ -1,0 +1,49 @@
+Eck	keep	Real noun (das Eck, "ums Eck"), not a broken form of Ecke
+Überlebende	keep	Nominalised adjective, a noun in its own right
+Nachlass	keep	Ordinary noun
+Burnout	keep	Established loan
+Münchener	drop	Place-derived demonym, not a dictionary lemma
+Glut	keep	Real noun (Glut), though the counts are mostly Gluten
+XI	drop	Roman numeral
+äusserst	merge:äußerst	Swiss ss spelling of äußerst
+jedesmal	keep	Accepted variant spelling, single-word adverb
+Annette	drop	Personal name
+Aal	keep	Real noun, though the counts include the city Aalen
+Basler	drop	Place-derived demonym
+herunterzuladen	merge:herunterladen	zu-infinitive filed as lemma
+Oberbayern	drop	Place name not on the list
+Weide	keep	Singular lemma is correct, only the written forms are plural
+Neuss	drop	Place name not on the list
+arbeit	merge:Arbeit	Lower-case noun
+ausfindig	keep	Dictionary adjective, used in ausfindig machen
+Playstation	drop	Brand name
+ben	drop	Cut-off fragment with no obvious source word
+Balk	merge:Balken	Cut-off form of Balken
+Weiter	merge:weiter	Capitalised adverb form (weiters, weitern)
+satte	merge:satt	Inflected adjective
+Metro	keep	Loan word for the transit system
+SZ	drop	Newspaper abbreviation
+Battlefield	drop	Game title
+Shoppe	merge:shoppen	Verb form filed as a noun
+GS	drop	Abbreviation
+Sträucher	merge:Strauch	Plural filed as lemma
+einzige	merge:einzig	Inflected adjective
+aka	drop	English abbreviation
+durchfahren	keep	Valid verb lemma, only the POS tag is wrong
+produkt	merge:Produkt	Lower-case noun
+Km	merge:Kilometer	Abbreviation of a listed word
+habs	merge:haben	Contraction of hab es
+Rühr	merge:rühren	Imperative or cut-off form
+fehl	keep	Valid adverb or particle (fehl am Platz)
+re	drop	Fragment or abbreviation
+Petrus	drop	Personal name
+Komplett	merge:komplett	Capitalised adverb or adjective
+# question Münchener: demonym derived from a place name; the rules cover place names but not derived adjectives, so I dropped it (same for Basler).
+# question Glut: written forms are mostly Gluten (the protein, a noun in its own right), but the lemma Glut is also a real word; I kept it.
+# question Aal: counts are dominated by the city Aalen, but the lemma Aal is a valid noun; I kept it.
+# question ben: forms best/ben/benen/bte may come from üben or another verb, but no source word is obvious; I dropped it.
+# question Weiter: weiters is an Austrian adverb with its own entry, so merge:weiters could also be right; I merged into weiter.
+# question Metro: no examples to confirm whether it is the transit loan or the company name; I kept it.
+# question durchfahren: written forms are mixed with durchführen; I kept it as a verb.
+# question fehl: it may be a prefix rather than a standalone lemma and is mixed with Fehler; I kept it.
+# question jedesmal: Duden accepts it as a single word, so I kept it instead of merging into the two-word jedes Mal.

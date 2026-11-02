@@ -1,0 +1,46 @@
+pornos	merge:Porno	plural filed as lemma
+gings	merge:gehen	colloquial contraction of "ging's"
+ambitionierte	merge:ambitioniert	inflected adjective form
+bisch	merge:bisschen	cut-off fragment of bisschen
+bebildern	keep	lemma is the verb's dictionary infinitive
+drückt	merge:drücken	conjugated form
+Seattle	drop	place name not on the list
+Marvel	drop	brand or company name
+mitgebracht	merge:mitbringen	participle, not an adjective in its own right
+Bohr	merge:bohren	cut-off fragment, written mostly as bohren
+dan	drop	not a German word
+Schönste	merge:schön	capitalised inflected superlative
+Python	keep	established loan, programming language and animal
+signiert	merge:signieren	participle filed as lemma
+vorangetrieben	merge:vorantreiben	participle filed as lemma
+Versandkostenfrei	merge:versandkostenfrei	capitalised adjective
+dell	drop	brand name or fragment
+mssen	merge:müssen	broken encoding
+Lite	drop	English word or brand fragment
+MP	drop	abbreviation
+gesehen	merge:sehen	participle, not an adjective in its own right
+bewusste	merge:bewusst	inflected adjective
+lich	drop	suffix fragment with no clear target
+wass	merge:Wasser	cut-off fragment
+AP	drop	abbreviation or agency name
+Ghost	drop	English word, not an established loan
+FA	drop	abbreviation
+Macbook	drop	product name
+Raiffeisen	drop	company or person name
+Regional	merge:regional	capitalised adjective
+Scheiß	merge:Scheiße	truncated form
+gestohlen	merge:stehlen	participle, not an adjective in its own right
+sachen	merge:Sache	lower-case noun, plural form
+vllt	merge:vielleicht	abbreviation of vielleicht
+em	drop	garbled clitic fragment
+loszuwerden	merge:loswerden	inflected zu-infinitive
+nachgewiesen	merge:nachweisen	participle, not an adjective in its own right
+inneren	drop	broken lemma, forms are Swiss innert
+Alzheimer	keep	established medical term
+Sub	drop	cut-off fragment or English abbreviation
+
+# question Marvel: famous company, but the rules say other names drop, so I dropped it.
+# question Python: mostly the programming language, but also the animal noun; I kept it as an established loan.
+# question Raiffeisen: a person's name and a famous bank; I treated it as a name and dropped it.
+# question inneren: the lemma doesn't match its forms (innert, a Swiss preposition); there is no obvious merge target, so I dropped it.
+# question sachen: Sachen can be a plural with its own meaning ("stuff"); I merged it into Sache because it is filed in lower case.

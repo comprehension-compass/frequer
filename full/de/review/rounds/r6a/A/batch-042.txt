@@ -1,0 +1,44 @@
+zurückgeschickt	merge:zurückschicken	participle, not its own adjective
+Miele	drop	brand name, not a learnable word
+ahnung	merge:Ahnung	lower-case noun
+evt	merge:eventuell	abbreviation of a listed word
+spröde	keep	adjective base form, mis-tagged only
+Arduino	drop	product name
+con	drop	foreign word
+höhe	merge:Höhe	lower-case noun
+Wolfsburger	drop	place-derived demonym
+paypal	drop	brand name
+pp	drop	abbreviation
+Katz	merge:Katze	cut-off form
+Sidebar	drop	English web term, not an established loan
+Westfälische	merge:westfälisch	capitalised inflected adjective
+Monsanto	drop	company name
+dh	drop	abbreviation (d.h.)
+Fürther	drop	place-derived demonym
+Homo	drop	Latin word
+Hoyerswerda	drop	place name not on the list
+SH	drop	abbreviation/code
+luft	merge:Luft	lower-case noun
+Jesse	drop	personal name
+Kessler	drop	surname
+te	drop	fragment
+Highland	drop	English word and place name
+Karstadt	drop	company name
+aufm	drop	colloquial contraction
+erneuerbaren	merge:erneuerbar	inflected adjective
+mar	drop	garbled fragment, mostly the name Maren
+Trete	merge:treten	verb form filed as a noun
+Fu	merge:Fuß	dropped letter (Fuß/Füßen)
+Programmier	merge:programmieren	cut-off stem
+angesteuert	merge:ansteuern	participle
+http	drop	web code
+umgesetzt	merge:umsetzen	participle
+Ambulante	merge:ambulant	capitalised inflected adjective
+https	drop	web code
+nrw	drop	abbreviation
+Pioneer	drop	brand name
+Claudio	drop	personal name
+
+# question Miele: the rules don't say whether widely known brands (Miele, Karstadt, Pioneer, PayPal) count as "famous institutions" to keep; I dropped them as other names.
+# question dh: abbreviation of "das heißt", but it's unclear whether "d.h." is a listed lemma to merge into; I dropped it.
+# question Fu: the written forms fu/fuen suggest a lost ß (Fuß/Füßen), but it could also be a fragment; I merged it to Fuß.

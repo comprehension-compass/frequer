@@ -1,0 +1,44 @@
+Theresa	drop	other name (first name)
+Thor	drop	other name, god/character
+Ziehe	merge:ziehen	capitalised verb form
+angebot	merge:Angebot	lower-case noun
+Braunschweiger	drop	adjective derived from a place name, not on the list
+angefochten	merge:anfechten	inflected participle with no entry of its own
+Hunderte	keep	nominalised numeral noun in its own right
+MwSt	merge:Mehrwertsteuer	abbreviation of a listed word
+auseinandergesetzt	merge:auseinandersetzen	participle
+facto	drop	Latin fragment of "de facto"
+gehn	merge:gehen	colloquial contraction
+hätt	merge:haben	contracted verb form (hätte)
+menge	merge:Menge	lower-case noun
+Hel	drop	name (mostly Helen)
+Geschäftsleute	keep	plural-only noun like Leute
+Jülich	drop	place name not on the list
+Piazza	drop	Italian word, appears only in place names
+lg	drop	chat abbreviation
+AI	drop	English acronym
+Upgrad	merge:Upgrade	cut-off fragment
+Babe	drop	English slang word, not an established loan
+versteh	merge:verstehen	imperative form
+Analog	merge:analog	capitalised adjective
+Highway	drop	English word, not an established loan
+Sarrazin	drop	other name (surname)
+Sicher	merge:sichern	counted forms are "sichern", capitalised verb
+Allgäuer	drop	adjective derived from a place name, not on the list
+gg	drop	abbreviation
+gefühl	merge:Gefühl	lower-case noun
+Öfter	merge:oft	comparative/adverb form
+Finn	drop	name or nationality, not learnable
+mAh	drop	unit abbreviation
+Eden	drop	name
+gesicht	merge:Gesicht	lower-case noun
+wei	drop	garbled fragment, real word not obvious
+wanken	keep	correctly written verb lemma, only the POS tag is wrong
+Schießen	merge:schießen	capitalised verb infinitive
+Abspiel	merge:abspielen	cut-off verb form
+Elegant	merge:elegant	capitalised adjective
+Osnabrücker	drop	adjective derived from a place name, not on the list
+
+# question Braunschweiger: demonym adjectives from place names (Braunschweiger, Allgäuer, Osnabrücker) are not covered explicitly; I treated them like place names and dropped them.
+# question wei: the written forms (wei, weider, weiden, weie, weier) could come from weit, weiß or weiter, so there is no obvious merge target; I dropped it.
+# question Finn: could be the nationality (merge:Finne) or a given name; the written forms (finn, finns) suggest the name, so I dropped it.

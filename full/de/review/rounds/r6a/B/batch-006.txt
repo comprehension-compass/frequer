@@ -1,0 +1,46 @@
+ausfahren	keep	real verb; mixed forms are a lemmatiser issue, not a broken lemma
+fetten	keep	real verb (fetten); the form fette is mostly adjectival
+frauen	merge:Frau	plural noun filed as lower-case verb
+PN	drop	specialist abbreviation (Persönliche Nachricht)
+mittel	merge:Mittel	noun filed under lower-case lemma
+O	drop	single letter/abbreviation
+Dortmunder	drop	place-derived adjective, place not on list
+Mio	merge:Million	abbreviation of a listed word
+gesünder	merge:gesund	comparative form filed as lemma
+Goethe	drop	person name
+sch	drop	meaningless fragment, no clear target
+Huawei	drop	company name
+AK	drop	abbreviation/code
+TL	drop	abbreviation/code
+Berner	drop	place-derived adjective, place not on list
+Oscar	drop	examples are person names
+Awards	merge:Award	English plural of an established loan
+dato	keep	fixed adverbial form (bis dato) a learner needs
+BH	drop	abbreviation
+pdf	drop	acronym
+Universal	merge:universal	adjective filed under capitalised lemma
+Y	drop	single letter
+Sam	drop	personal name
+Absolut	merge:absolut	adjective filed under capitalised lemma
+Neueste	merge:neu	inflected superlative of neu
+Volksbank	keep	common noun
+durchdenken	keep	verb lemma is the dictionary form
+mildern	keep	verb lemma is the dictionary form
+geschrieben	merge:schreiben	participle filed as lemma
+SP	drop	abbreviation
+Längere	merge:lang	adjective forms under capitalised lemma
+funktionierend	merge:funktionieren	present participle filed as lemma
+zugeschnitten	merge:zuschneiden	participle filed as lemma
+Firmware	keep	established loan
+Türke	keep	ordinary noun for a nationality
+wenns	merge:wenn	contraction of wenn es
+Lkw	drop	abbreviation, excluded like Kfz
+Passende	merge:passend	adjective filed under capitalised lemma
+Yorker	drop	place-derived adjective, place not on list
+Monitoring	keep	established loan
+
+# question sch: cut-off fragment (likely from -sch adjectives such as deutsch/typisch) with no identifiable target, so dropped rather than merged
+# question Huawei: well-known company; unclear whether famous companies count as famous institutions (dropped)
+# question BH: abbreviation of Büstenhalter, unclear whether that word is on the list (dropped)
+# question Lkw: unclear whether Lastkraftwagen is listed or Lkw counts as an established abbreviation (dropped, as with Kfz)
+# question fetten: the form fette is mostly the adjective fett; kept because fetten is a real verb

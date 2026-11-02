@@ -1,0 +1,45 @@
+Zurück	merge:zurück	capitalised adverb filed as noun
+Hin	merge:hin	capitalised adverb/particle
+gemacht	merge:machen	inflected participle filed as lemma
+adidas	drop	brand name
+durchgeführt	merge:durchführen	inflected participle filed as lemma
+bräuchen	merge:brauchen	conjugated subjunctive form
+eingebaut	merge:einbauen	inflected participle filed as lemma
+KV	drop	specialist abbreviation
+GHz	drop	unit abbreviation
+Fahn	merge:Fahne	cut-off fragment
+Kieler	drop	place-derived adjective, Kiel not on the list
+Wireless	drop	English word, not an established loan
+erfahrung	merge:Erfahrung	lower-case noun
+Abraham	drop	personal name
+Lindner	drop	surname
+Sek	drop	ambiguous abbreviation
+Startups	merge:Startup	plural filed as lemma
+videos	merge:Video	plural filed as lemma
+schi	merge:schier	cut-off fragment
+weiden	merge:Weide	noun filed under lower-case plural
+liess	merge:lassen	Swiss spelling of ließ
+EuGH	keep	famous institution
+geworden	merge:werden	participle of werden
+hand	merge:Hand	lower-case noun
+Schweizerische	merge:schweizerisch	inflected adjective form
+Schwaben	drop	place name not on the list
+geschaffen	merge:schaffen	inflected participle filed as lemma
+dahingehen	merge:dahingehend	misformed lemma
+Abschluß	merge:Abschluss	old spelling
+Bond	drop	name
+CS	drop	abbreviation
+weissen	merge:wissen	Swiss spelling of conjugated form
+KW	drop	abbreviation
+MHz	drop	unit abbreviation
+Yamaha	drop	brand name
+licht	keep	real adjective licht; forms fit the adjective
+gestiegen	merge:steigen	inflected participle filed as lemma
+ding	merge:Ding	lower-case noun
+ad	drop	Latin particle
+vornherein	merge:von vornherein	fragment of fixed phrase
+
+# question Sek: could be Sekunde or Sekundarstufe, so no single merge target; dropped as an unclear abbreviation.
+# question licht: kept as the adjective, but the lower-case form could also be a noun Licht or the verb lichten; no examples to confirm.
+# question vornherein: the rules say to merge fragments, but "von vornherein" is a multi-word target and may not be a valid lemma; if not, drop.
+# question KW: could be Kalenderwoche or Kilowatt; dropped as an abbreviation either way.

@@ -1,0 +1,53 @@
+mitgelieferten	merge:mitliefern	inflected participle, not an adjective entry of its own
+Prim	merge:prim	cut-off fragment; forms are prime/prim
+renommierte	merge:renommiert	inflected form of the adjective renommiert
+Saturn	keep	planet name, standard learner vocabulary
+Weimarer	drop	adjective derived from a place name
+lust	merge:Lust	lower-case noun
+Leonardo	drop	personal name
+NÖ	merge:nö	interjection filed under a capitalised lemma
+Unabhängige	merge:unabhängig	mostly attributive adjective forms
+Gewerbetreibende	keep	established nominalised noun
+zweitgrößte	merge:zweitgrößt	inflected form
+ausreden	merge:Ausrede	mostly the noun Ausrede, filed in lower case
+regelmässig	merge:regelmäßig	Swiss spelling of regelmäßig
+Mazda	drop	brand name
+Lab	drop	English word
+dB	drop	unit abbreviation
+max	merge:maximal	abbreviation of maximal
+nunmal	merge:nun mal	misspelling of nun mal
+gravieren	merge:gravierend	forms are almost all the adjective gravierend
+Plaza	drop	foreign word, place or facility name
+Basics	keep	established loan, used as a plural
+größ	merge:Größe	cut-off fragment; forms are mostly Größe
+anpfeifen	merge:Anpfiff	mostly the noun Anpfiff, filed in lower case
+sachverständig	merge:Sachverständiger	forms of the noun Sachverständiger
+lach	merge:lachen	cut-off verb stem
+Modi	merge:Modus	plural filed as lemma
+ausgeführt	merge:ausführen	participle filed as lemma
+kleid	merge:Kleid	lower-case noun
+porn	drop	English word
+begrenzt	keep	adjective with its own entry
+geleistet	merge:leisten	participle filed as lemma
+spaß	merge:Spaß	lower-case noun
+Schlimmste	keep	nominalised superlative, as in das Schlimmste
+angewandt	keep	adjective with its own entry
+Frames	merge:Frame	English plural of an adapted loan
+Genfer	drop	adjective derived from a place name
+Venus	keep	planet name, standard learner vocabulary
+Kolbe	merge:Kolben	surname-looking form of the noun Kolben
+Strick	keep	noun Strick (rope)
+verdächtigen	keep	real verb lemma
+# question Saturn: a planet is not a place name or a person, so I kept it. Venus follows the same ruling; if the rules treat planets as names, both should be dropped.
+# question Weimarer: "Weimarer Republik" is a fixed historical term, but the word is a place-derived adjective, so I dropped it.
+# question Prim: the target is unclear; prim (excellent) is an adjective, but prime may be the English word or part of Primzahl.
+# question zweitgrößte: the dictionary form zweitgrößt is not a headword; merging is a best guess.
+# question ausreden: the forms mix the noun Ausrede with the verb ausreden. I merged to the noun because it is the majority.
+# question Lab: it could be an abbreviation of Labor, but the counted forms look English (lab, labs), so I dropped it.
+# question max: unclear whether it is the abbreviation "max." for maximal or the name Max. I merged to maximal.
+# question nunmal: the target is a two-word form "nun mal", which is not a single lemma.
+# question gravieren: gravieren (to engrave) is also a real verb, but the forms are overwhelmingly gravierende.
+# question größ: the forms are mostly the noun Größe, but some are the adjective groß.
+# question anpfeifen: anpfeifen is a real verb, but the forms are mostly the noun Anpfiff.
+# question Strick: mixed with forms of the verb stricken (558 uses). I kept it as the noun.
+# question verdächtigen: forms are mostly the adjective verdächtig and the participle verdächtigt; I kept the verb because it is a real lemma.

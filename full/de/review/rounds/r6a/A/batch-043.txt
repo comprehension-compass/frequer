@@ -1,0 +1,45 @@
+Pc	merge:PC	abbreviation with odd casing
+Rach	merge:Rachen	cut-off of Rachen
+vgl	merge:vergleichen	abbreviation of vergleichen
+Buchenwald	keep	also a common noun (beech forest), plurals attested
+angetrieben	merge:antreiben	participle, no own entry
+gestartet	merge:starten	participle, no own entry
+ists	drop	contraction of ist es
+kannste	drop	colloquial contraction
+wuerde	merge:würde	transliterated misspelling
+Höchst	merge:höchst	written lowercase, adverb filed as a capitalised noun
+bla	drop	filler word
+komplizieren	merge:kompliziert	adjective filed under a verb form
+Amber	drop	name or English word
+erfolg	merge:Erfolg	lower-case noun
+pass	merge:Pass	lower-case noun
+zoll	merge:Zoll	lower-case noun
+Mwst	merge:Mehrwertsteuer	abbreviation of a listed word
+Pfizer	drop	company name, not an institution
+Rowohlt	drop	company name, not an institution
+bezug	merge:Bezug	lower-case noun
+pag	drop	fragment; the forms are mostly English "page"
+Anhalt	drop	place and region name
+Pokemon	drop	brand name
+alledem	keep	fixed pronominal form (trotz/bei alledem)
+begangen	merge:begehen	participle, no own entry
+ie	merge:jeder	cut-off fragment of jeder
+Ho	drop	garbled fragment
+Botanische	merge:botanisch	capitalised inflected adjective
+Ruhig	merge:ruhig	capitalised adjective
+Vorlese	merge:vorlesen	capitalised verb
+gehren	merge:gehören	dropped letter
+gelinkt	merge:linken	participle, no own entry
+Cottbuser	drop	place-derived name
+Mächtige	keep	nominalised adjective used as a noun (die Mächtigen)
+Pfälzer	drop	place-derived name
+verheeren	merge:verheerend	adjective filed under a verb form
+fang	merge:fangen	conjugated form
+Igor	drop	personal name
+Jüngere	merge:jung	inflected comparative adjective
+KS	drop	abbreviation or code
+
+# question Pfizer: a company name known to learners, but not an institution, so I dropped it
+# question pag: fragment of "page", which is mostly the English word, so no German lemma to merge into
+# question Jüngere: kept Mächtige as a noun but merged Jüngere into jung, because it is a comparative; the rules do not say how to treat nominalised adjectives
+# question Pc: assumed the lemma PC exists in the list

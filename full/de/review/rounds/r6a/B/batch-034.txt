@@ -1,0 +1,46 @@
+Rob	drop	personal name
+Spree	drop	place name (river), not on reviewed list
+ect	merge:etc	garbled abbreviation of etc
+mitte	merge:Mitte	noun filed in lower case
+Sergej	drop	personal name
+kommend	keep	adjective with its own entry (upcoming)
+Kollage	merge:Kollagen	forms are almost all Kollagen (collagen), not Collage
+Prager	drop	adjective from place name Prag
+Duisburger	drop	adjective from place name Duisburg
+Elsass	drop	place name
+Binge	drop	place name Bingen
+Informieren	merge:informieren	verb under capitalised lemma
+Mrz	merge:März	dropped umlaut
+Storytelling	keep	established loan
+aufsteigend	keep	adjective with its own entry (ascending)
+kranken	merge:krank	inflected adjective forms filed as lemma
+pm	drop	ambiguous abbreviation
+Dock	keep	established loan
+Skipper	keep	established loan
+Sunrise	drop	English word/name
+Lichtblick	keep	ordinary German noun
+benötigt	merge:benötigen	participle with no adjective entry
+Ausschalte	merge:ausschalten	verb under capitalised lemma
+Fond	keep	established loan in Duden
+poppen	keep	real German verb, colloquial
+dr	merge:Doktor	abbreviation of Doktor
+nennenswerte	merge:nennenswert	inflected adjective
+Relaxen	merge:relaxen	verb under capitalised lemma
+entscheide	merge:entscheiden	conjugated verb form
+Gig	keep	established loan
+Indische	merge:indisch	capitalised inflected adjective
+Pott	keep	established regional noun, in Duden
+glitzern	keep	genuine verb lemma
+Hilfreich	merge:hilfreich	adjective under capitalised lemma
+lauter	keep	"nothing but" sense gives it its own meaning
+milf	drop	slang/spam
+transparente	merge:transparent	inflected adjective
+Norweger	keep	demonym noun with its own feminine entry
+Whitepaper	keep	established loan
+Hoster	drop	niche tech jargon, not established
+# question ect: not sure "etc" is already on the list; if it isn't, drop instead.
+# question dr: Dr could also be read as a title rather than an abbreviation of a listed word; I merged it to Doktor.
+# question kommend: adjective sense (upcoming) vs. participle of kommen; kept as adjective. The same applies to aufsteigend.
+# question lauter: comparative of laut vs. the separate "nothing but" word; kept.
+# question Hoster: borderline loan; dropped as not established.
+# question pm: could stand for p.m. or Pressemitteilung; dropped as ambiguous.

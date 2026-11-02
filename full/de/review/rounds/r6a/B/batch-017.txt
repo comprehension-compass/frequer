@@ -1,0 +1,44 @@
+Milf	drop	English slang acronym, not an established loan
+www	drop	web abbreviation
+Ladies	drop	English word, not an established loan
+jahren	merge:Jahr	inflected form of Jahr
+Kleinste	merge:klein	inflected superlative of klein
+Kongreß	merge:Kongress	old spelling
+archiviert	merge:archivieren	participle filed as lemma
+Nu	drop	fragment of "im Nu", no word of its own
+Studier	merge:studieren	imperative fragment, mostly the infinitive
+dritt	merge:dritte	ordinal fragment
+chat	merge:Chat	established loan, lower-case form
+Rn	drop	abbreviation
+Tinder	drop	brand name
+Optimal	merge:optimal	adjective under a capitalised lemma
+Shell	drop	brand or English computing term
+Aqua	drop	Latin word or brand name
+monat	merge:Monat	lower-case noun
+stunden	merge:Stunde	plural of Stunde
+HERR	merge:Herr	case variant of Herr
+natur	merge:Natur	lower-case noun
+Spezielle	merge:speziell	inflected adjective
+kopf	merge:Kopf	lower-case noun
+IE	drop	abbreviation
+Jederzeit	merge:jederzeit	adverb under a capitalised lemma
+VS	drop	abbreviation
+Wohlfühle	merge:wohlfühlen	conjugated form of the verb
+Klarna	drop	brand name
+gro	merge:groß	broken encoding
+google	merge:googeln	brand-derived verb
+Mister	drop	English word
+ichs	drop	garbled contraction, no target lemma
+test	merge:Test	lower-case noun
+BB	drop	abbreviation or code
+freundin	merge:Freundin	lower-case noun
+Putze	merge:putzen	inflected verb form
+anfang	merge:anfangen	conjugated verb form
+PP	drop	abbreviation or code
+einzahlung	merge:Einzahlung	lower-case noun
+Stade	drop	place name not on the list
+Stag	drop	English word or brand fragment (Stage)
+# question Kleinste: nominalised "die Kleinsten" (small children) could count as a noun in its own right; I treated it as an inflected superlative of klein.
+# question Shell: computing term vs company name; I dropped it as foreign or brand, but it may count as an established loan.
+# question anfang: the forms (anfang, anfange, anfanger) could belong to the noun Anfang or to anfangen; I chose the verb.
+# question Stag: forms are mainly "stage", which may be a brand name (Stage Entertainment) or the English word; I dropped it.

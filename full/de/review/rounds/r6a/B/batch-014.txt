@@ -1,0 +1,49 @@
+mitgelieferten	merge:mitliefern	inflected participle, not a standalone adjective entry
+Prim	drop	fragment of English "prime" (Prime-Time/Amazon Prime), no clear German target
+renommierte	merge:renommiert	inflected form of the adjective renommiert
+Saturn	keep	planet name, ordinary German vocabulary
+Weimarer	drop	place-derived adjective, Weimar not on the reviewed list
+lust	merge:Lust	lower-case noun
+Leonardo	drop	personal name
+NÖ	merge:nö	capitalised interjection
+Unabhängige	merge:unabhängig	capitalised adjective forms
+Gewerbetreibende	keep	nominalised adjective that works as a noun in its own right
+zweitgrößte	merge:zweitgrößt	inflected adjective form
+ausreden	merge:Ausrede	lower-case lemma, mostly the noun Ausrede
+regelmässig	merge:regelmäßig	Swiss spelling of regelmäßig
+Mazda	drop	brand name
+Lab	drop	English word, not an established loan
+dB	drop	unit abbreviation
+max	drop	name or abbreviation
+nunmal	merge:nun mal	misspelling of "nun mal"
+gravieren	merge:gravierend	forms are mostly the adjective gravierend
+Plaza	drop	foreign word, mostly a facility or place name
+Basics	keep	established loan, plural in use
+größ	merge:Größe	cut-off stem, most forms are Größe
+anpfeifen	merge:Anpfiff	mostly the noun Anpfiff
+sachverständig	merge:Sachverständiger	lower-case lemma, nominalised adjective used as a noun
+lach	merge:lachen	cut-off verb stem
+Modi	merge:Modus	plural filed as lemma
+ausgeführt	merge:ausführen	participle with no adjective entry of its own
+kleid	merge:Kleid	lower-case noun
+porn	drop	English word
+begrenzt	keep	participle with its own adjective entry
+geleistet	merge:leisten	participle, not an adjective in its own right
+spaß	merge:Spaß	lower-case noun
+Schlimmste	keep	nominalised superlative, like das Gute
+angewandt	keep	participle with its own adjective entry (angewandte Forschung)
+Frames	merge:Frame	English plural filed as lemma
+Genfer	drop	place-derived adjective, Genf not on the reviewed list
+Venus	keep	planet name, ordinary German vocabulary
+Kolbe	merge:Kolben	surname-looking form of the noun Kolben
+Strick	keep	real noun Strick
+verdächtigen	keep	valid verb lemma
+# question Prim: the screeners suggest Primzahl or prime, but the forms are mostly English "prime"; I dropped it because no German target is clear.
+# question Saturn: this could be read as a proper noun (planet or retail brand); I kept it as a common planet name, and Venus likewise.
+# question nunmal: the correct form "nun mal" is two words and may not exist as a lemma; merge:nun mal may need adjusting.
+# question größ: the forms are mostly the noun Größe, but the stem could also belong to groß; I chose Größe.
+# question ausreden: the verb ausreden is also valid; I merged to the noun Ausrede because it makes up most of the forms.
+# question anpfeifen: the verb anpfeifen is valid, but most forms are the noun Anpfiff, so I merged to Anpfiff.
+# question Strick: forms are mixed between the noun Strick and the verb stricken; I kept it because it is a real noun with the most forms.
+# question verdächtigen: forms are split between the adjective verdächtig and the verb verdächtigen; I kept it because the verb is a valid lemma.
+# question Basics: it is a plural loan with no common singular; I kept it as an established loan.

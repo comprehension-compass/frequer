@@ -1,0 +1,45 @@
+pornos	merge:Porno	plural filed as lemma
+gings	merge:gehen	contraction of "ging's"
+ambitionierte	merge:ambitioniert	inflected adjective form
+bisch	merge:bisschen	cut-off fragment
+bebildern	keep	already the dictionary infinitive
+drückt	merge:drücken	conjugated form
+Seattle	drop	place name not on list
+Marvel	drop	brand name, not an institution
+mitgebracht	merge:mitbringen	participle forms
+Bohr	merge:bohren	cut-off form, written mostly bohren
+dan	drop	garbled, not German
+Schönste	merge:schön	inflected superlative, wrongly capitalised
+Python	keep	German word for the snake, also established programming term
+signiert	merge:signieren	participle form
+vorangetrieben	merge:vorantreiben	participle form
+Versandkostenfrei	merge:versandkostenfrei	adjective filed under a capital
+dell	drop	brand name or garbled
+mssen	merge:müssen	broken encoding
+Lite	drop	English brand fragment
+MP	drop	abbreviation
+gesehen	merge:sehen	participle forms
+bewusste	merge:bewusst	inflected adjective
+lich	drop	suffix fragment, no obvious target
+wass	merge:Wasser	cut-off fragment
+AP	drop	agency abbreviation
+Ghost	drop	English word, not an established loan
+FA	drop	abbreviation
+Macbook	drop	product name
+Raiffeisen	keep	well-known bank institution
+Regional	merge:regional	adjective filed under a capital
+Scheiß	merge:Scheiße	truncated form
+gestohlen	merge:stehlen	participle forms
+sachen	merge:Sachen	lower-case noun, plural with its own meaning
+vllt	merge:vielleicht	abbreviation of a listed word
+em	drop	garbled clitic
+loszuwerden	merge:loswerden	inflected zu-infinitive
+nachgewiesen	merge:nachweisen	participle forms
+inneren	merge:innert	written forms are innert, lemma is wrong
+Alzheimer	keep	established noun for the disease
+Sub	drop	cut-off or English fragment
+
+# question Marvel: famous company, but a brand rather than an institution; dropped as an "other name"
+# question Macbook: product name, not clearly an established loan; dropped
+# question sachen: merged to Sachen (plural with own meaning, "stuff") rather than Sache
+# question inneren: lemma does not match its written forms (innert, a Swiss preposition); merged to innert

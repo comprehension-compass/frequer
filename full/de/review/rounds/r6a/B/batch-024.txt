@@ -1,0 +1,44 @@
+Klickt	merge:klicken	capitalised conjugated imperative form
+Prepaid	keep	established loan word in German
+aufgepasst	merge:aufpassen	participle/interjection form of aufpassen
+mi	drop	garbled fragment
+geblieben	merge:bleiben	participle with no adjective entry of its own
+ggf	merge:gegebenenfalls	abbreviation of a listed word
+xxx	drop	spam or placeholder
+fange	merge:fangen	conjugated form
+mod	drop	English or garbled fragment
+Linzer	drop	demonym from a place name not on the list
+Oberland	drop	regional place name not on the list
+Blind	merge:blind	adjective filed under a capitalised lemma
+version	merge:Version	noun filed under a lower-case lemma
+Blizzard	drop	company name
+RV	drop	abbreviation, specialist
+angepassten	merge:angepasst	inflected adjective form
+natrlich	merge:natürlich	dropped letter
+land	merge:Land	noun filed under a lower-case lemma
+liessen	merge:lassen	Swiss-spelled inflected form of lassen
+wichsen	keep	genuine verb, mis-tagged as ADJ
+Feinste	merge:fein	inflected superlative of fein
+Plug	drop	English word, not an established loan
+AA	drop	abbreviation or code
+menschen	merge:Mensch	plural noun filed as a verb under a lower-case lemma
+titten	merge:Titte	plural noun under a lower-case lemma
+schritt	merge:Schritt	noun filed under a lower-case lemma
+Kehl	drop	place name not on the list
+fahr	merge:fahren	cut-off stem of fahren
+person	merge:Person	noun filed under a lower-case lemma
+jen	merge:jener	cut-off fragment of jener
+Vibrationen	merge:Vibration	plural filed as lemma
+Dow	drop	brand or index name
+Ps	drop	abbreviation
+dichten	keep	valid verb infinitive (to write poetry), mis-tagged as ADJ
+Drei	merge:Dreier	forms and examples are all the noun Dreier
+herausgekommen	merge:herauskommen	participle with no adjective entry of its own
+Pilat	merge:Pilates	cut-off form of Pilates
+div	drop	abbreviation or garbled
+op	drop	garbled fragment
+geschenk	merge:Geschenk	noun filed under a lower-case lemma
+# question ggf: merged on the assumption that gegebenenfalls is on the list; if it is not, this should be dropped.
+# question mod: the forms mix mode (Mode) with the gaming word "mod". I dropped it, but it could merge into Mode.
+# question Kehl: the forms mix the city Kehl with the noun Kehle (602 uses). I dropped it as a place name, but Kehle should be checked against the list.
+# question fahr: the forms are ambiguous between the stem of fahren and Fahrer. I chose fahren.

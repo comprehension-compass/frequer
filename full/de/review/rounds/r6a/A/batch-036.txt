@@ -1,0 +1,44 @@
+Schmunzel	merge:schmunzeln	cut-off piece of schmunzeln
+Lausitz	drop	place name not on list
+Ravensburger	drop	place-derived/brand name
+Klassisch	merge:klassisch	adjective under capitalised lemma
+stossen	merge:stoßen	ss for ß misspelling
+BS	drop	abbreviation
+Malteser	keep	established name of a famous organisation (and word for a Maltese person)
+Sortier	merge:sortieren	cut-off fragment
+Gem	drop	English word, not an established loan
+gelegt	merge:legen	participle form
+trompeten	merge:Trompete	lower-case noun
+erhälst	merge:erhalten	misspelt conjugated form
+markt	merge:Markt	lower-case noun
+AR	drop	abbreviation
+Außergewöhnliche	merge:außergewöhnlich	capitalised inflected adjective
+Destiny	drop	game title
+si	drop	foreign fragment
+beidem	merge:beide	inflected form
+gesetzl	merge:gesetzlich	truncated abbreviation of a listed word
+Verleg	merge:verlegen	cut-off fragment
+Spreewald	drop	place name not on list
+Pflegebedürftiger	keep	nominalised adjective that is a noun in its own right
+Schalker	drop	team/place-derived name
+Elvis	drop	person name
+hihi	keep	established German interjection
+inMehr	drop	garbled template text
+Magdeburger	drop	place-derived demonym
+Reset	keep	established loan in German
+auswachsen	keep	valid verb lemma, mixed forms but fine
+Fachangestellte	keep	nominalised adjective with its own noun entry
+richtung	merge:Richtung	lower-case noun
+Montreal	drop	place name not on list
+umherwandern	keep	valid verb, only mis-tagged
+Dino	keep	established clipped noun
+Nachlaß	merge:Nachlass	old spelling
+Sim	drop	abbreviation/name (SIM)
+feuchten	merge:feucht	inflected adjective form filed as lemma
+übernommen	merge:übernehmen	participle, no own adjective entry
+Chemnitzer	drop	place-derived demonym
+Lieblingsstück	keep	regular compound noun
+# question Ravensburger: brand known to learners (puzzles/games), but the data mostly shows the place-derived adjective; dropped as a name
+# question hihi: laughter interjection; kept as established, but could be seen as non-learnable
+# question Reset: borderline English loan; kept because it is in common German use
+# question Malteser: organisation name vs. demonym for a person from Malta; kept either way

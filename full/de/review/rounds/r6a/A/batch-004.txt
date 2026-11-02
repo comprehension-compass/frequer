@@ -1,0 +1,45 @@
+fur	merge:für	broken encoding of für
+hergestellt	merge:herstellen	participle, not an adjective with its own entry
+EM	merge:Europameisterschaft	abbreviation of a listed word
+Interessant	merge:interessant	adjective filed under a capitalised lemma
+ausgenommen	merge:ausnehmen	participle filed as a verb lemma
+gesammelt	merge:sammeln	participle of sammeln
+email	merge:E-Mail	lower-case/English spelling of the noun E-Mail
+Zürcher	drop	demonym from a place name not on the list
+Deluxe	keep	established loan
+k	drop	stray letter with no obvious target
+Print	keep	established loan noun
+Quest	drop	English gaming jargon, not an established loan
+Bremer	drop	demonym from a place name not on the list
+vorgestellt	merge:vorstellen	participle of vorstellen
+usw	keep	common general abbreviation, not a specialist acronym
+Consulting	keep	established business loan
+Eintracht	keep	real German noun (harmony), also used in club names
+Tip	merge:Tipp	misspelling of Tipp
+herausfordern	keep	valid verb lemma
+dating	merge:Dating	lower-case noun; established loan Dating
+geschnitten	merge:schneiden	participle of schneiden
+geprägt	merge:prägen	participle of prägen
+differenzieren	keep	valid verb lemma
+vorgeschrieben	merge:vorschreiben	participle of vorschreiben
+erschienen	merge:erscheinen	participle of erscheinen
+Salzburger	drop	demonym from a place name not on the list
+geld	merge:Geld	noun filed under a lower-case lemma
+Grösse	merge:Größe	Swiss spelling of Größe
+getrocknet	merge:trocknen	participle of trocknen
+anmeldung	merge:Anmeldung	noun filed under a lower-case lemma
+Knote	merge:Knoten	cut-off lemma
+hetzen	keep	valid verb lemma
+Kleiner	merge:klein	inflected adjective form filed under a capitalised lemma
+Dass	merge:dass	conjunction filed under a capitalised lemma
+gemäss	merge:gemäß	Swiss spelling of gemäß
+personenbezogene	merge:personenbezogen	inflected adjective form
+knnen	merge:können	broken encoding of können
+Bruno	drop	personal name
+Pariser	drop	demonym from a place name not on the list
+Ruhr	drop	place name not on the list
+
+# question EM: merged into Europameisterschaft on the assumption that it is on the list; if not, EM may be better kept as a common abbreviation.
+# question usw: kept as a general abbreviation, but there is no spelled-out lemma to merge it into.
+# question Quest: dropped as gaming jargon, but it may count as an established loan.
+# question k: dropped as a stray letter, since there is no clear target (the forms kes/ke/ken suggest garbled text).

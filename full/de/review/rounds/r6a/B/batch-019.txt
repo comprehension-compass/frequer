@@ -1,0 +1,48 @@
+Polle	merge:Pollen	cut-off of Pollen (1,473 of 1,515 tokens are "pollen")
+hi	drop	English greeting or garbage
+Minecraft	drop	brand name
+viert	merge:vierte	inflected fragment of the ordinal
+st	drop	fragment
+MitarbeiterIn	merge:Mitarbeiterin	gendered spelling variant; the forms are feminine
+text	merge:Text	lower-case noun filed as ADJ
+Hur	merge:Hure	cut-off of Hure
+FB	drop	abbreviation
+buch	merge:Buch	lower-case noun filed as ADJ
+Hunderttausende	keep	established plural-form noun with its own meaning
+Keiner	merge:keiner	pronoun filed under a capitalised lemma
+nasse	merge:nass	inflected adjective
+Guild	drop	English word or brand
+ÜBER	merge:über	all-caps form
+Antje	drop	personal name
+haar	merge:Haar	lower-case noun filed as ADJ
+Süddeutschland	drop	place name not on the reviewed list
+Net	drop	English word or fragment
+überragen	keep	valid verb infinitive, so the lemma is not broken
+Grazer	drop	derived from the place name Graz
+Stolle	merge:Stollen	inflected or cut-off form
+NEUE	merge:neu	capitalised inflected adjective
+amazon	drop	brand name
+AO	drop	abbreviation or code
+website	merge:Website	lower-case noun, established loan
+Fraunhofer	keep	famous institution
+Essling	drop	place name (cut-off Esslingen)
+stammend	merge:stammen	participle, not an adjective in its own right
+Mischen	merge:mischen	verb filed under a capitalised lemma
+grund	merge:Grund	lower-case noun filed as ADJ
+Sal	drop	fragment from English "sales"
+Kg	merge:Kilogramm	abbreviation of a listed word
+Klare	merge:klar	inflected form klaren filed as a lemma
+Optisch	merge:optisch	adjective filed under a capitalised lemma
+Gera	drop	place name
+Adria	drop	place name
+Hl	drop	ambiguous abbreviation
+Niederland	merge:Niederländer	cut-off lemma
+Jupiter	drop	proper name
+
+# question viert: merged to vierte, but the ordinal's dictionary form (vierte vs. vierter) is not settled by the rules
+# question MitarbeiterIn: merged to Mitarbeiterin rather than Mitarbeiter, because the counted forms are almost all feminine; this assumes Mitarbeiterin is its own lemma
+# question überragen: most tokens are the adjective überragend, but the infinitive is a real verb lemma, so I kept it; the rules do not say whether überragend should get its own entry
+# question Grazer: a demonym or adjective derived from a place name; the rules cover only place names, so I treated it as a drop
+# question Jupiter: a planet and god name, not a place or a person; I treated it as an "other name" and dropped it
+# question Hl: could be Hektoliter or heilig, so I dropped it rather than guess a merge target
+# question Kg: assumes Kilogramm is on the list; if it is not, this should be drop

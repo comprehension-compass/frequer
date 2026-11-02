@@ -1,0 +1,48 @@
+Mose	drop	biblical name, a proper noun
+bergab	keep	valid adverb; the POS tag is wrong but the lemma is fine
+Gadget	keep	established English loan
+Gottfried	drop	personal name
+Telefoniere	merge:telefonieren	verb filed under a capitalised lemma
+fristgerecht	keep	valid adjective/adverb; POS tag wrong only
+zurückerhalten	keep	regular separable verb
+Heidelberger	drop	demonym derived from a place name
+muschi	merge:Muschi	lower-case noun
+Aachener	drop	demonym derived from a place name
+Grande	drop	foreign word or name fragment
+Heu	keep	ordinary noun
+Sandwich	keep	established loan
+Technisch	merge:technisch	adjective filed under a capitalised lemma
+Alleinerziehende	keep	nominalised adjective that is a noun in its own right
+Holstein	drop	place name not on the reviewed list
+jo	drop	colloquial or dialect particle, not standard
+Hyundai	drop	brand name, which counts as an other name
+Emailadresse	merge:E-Mail-Adresse	non-standard spelling
+Ross	keep	real noun (poetic word for horse)
+Schiller	drop	surname
+plan	merge:Plan	forms are mostly the noun Plan and the verb form plane
+griffbereit	keep	valid adjective; POS tag wrong only
+Aufl	merge:Auflage	abbreviation of a listed word
+Fraktionsvorsitzende	keep	nominalised adjective that is a noun in its own right
+bett	merge:Bett	lower-case noun
+personal	merge:Personaler	examples are all the noun Personaler, filed under a lower-case lemma
+platz	merge:Platz	lower-case noun
+Bochumer	drop	demonym derived from a place name
+Faste	merge:fasten	cut-off fragment of fasten
+ei	merge:Ei	lower-case noun, plural eier
+südöstlich	keep	valid adjective or adverb; POS tag wrong only
+Biss	keep	ordinary noun
+Ober	merge:ober	adjective forms filed under a capitalised lemma
+Mannheimer	drop	demonym derived from a place name
+reg	merge:rege	fragment of the adjective rege
+IM	merge:im	capitalised form of the contracted preposition im
+dam	merge:Dame	cut-off fragment of Dame/Damen
+soooo	merge:so	expressive spelling variant of so
+Lenovo	drop	brand name, which counts as an other name
+
+# question Mose: the lemma is a biblical name and also a book title (3. Mose); I treated it as a name and dropped it.
+# question Heidelberger: the rules cover place names but not demonyms; I dropped all the -er demonyms (Heidelberger, Aachener, Bochumer, Mannheimer) as place-derived proper forms.
+# question Hyundai: it is a brand, and the rules do not say whether a brand counts as a famous institution; I dropped it, as I did Lenovo.
+# question plan: an adjective plan (flat) exists, but the forms plane/plans/plan look like the noun Plan or the verb planen; I merged into Plan.
+# question personal: Personal and Personaler are both nouns, and an adjective personal also exists; I picked Personaler because every example uses it.
+# question IM: it is unclear whether im is itself a lemma or should be merged into in; I merged to im.
+# question jo: it could be a regional particle meaning "yes" and so a keep; I dropped it as non-standard.

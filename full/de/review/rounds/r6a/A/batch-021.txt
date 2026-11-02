@@ -1,0 +1,43 @@
+respektiv	merge:respektive	lemma should be the adverb respektive
+Blaue	merge:blau	capitalised inflected adjective
+frag	merge:fragen	imperative form
+Brandenburger	drop	place-derived name, Brandenburg not on the list
+düsen	keep	valid verb lemma (to dash), though most forms are Düse
+club	merge:Club	lower-case noun, wrong POS
+Maxi	keep	established clipped word, Duden-listed
+Zin	merge:Zins	cut-off fragment
+Gaza	drop	place name
+bilder	merge:Bild	plural filed as lemma
+iss	merge:essen	imperative form
+Misstraue	merge:Misstrauen	cut-off form of the noun Misstrauen
+FR	merge:für	"fr" is broken encoding of für, not an abbreviation
+Konstantin	drop	personal name
+Postbank	keep	famous institution
+forsch	keep	valid adjective lemma
+Lyon	drop	place name
+Einfluß	merge:Einfluss	old spelling
+Schlitt	merge:Schlitten	cut-off fragment
+handy	merge:Handy	lower-case noun
+bestanden	merge:bestehen	participle
+whrend	merge:während	broken encoding
+farbe	merge:Farbe	lower-case noun
+Weser	drop	river/place name
+beleg	merge:belegen	imperative/inflected form
+versuch	merge:versuchen	imperative/inflected form
+Bell	drop	name
+aufgesetzt	merge:aufsetzen	participle
+angezeigt	merge:anzeigen	participle
+stehend	merge:stehen	participle
+teen	merge:Teen	established loan, lower-case
+klingend	merge:klingen	participle
+Ethernet	keep	established technology term
+Kalte	merge:kalt	inflected adjective
+beschlossen	merge:beschließen	participle
+Beschluß	merge:Beschluss	old spelling
+Radikaler	merge:Radikale	inflected form of nominalised adjective
+kcal	drop	specialist abbreviation
+GKV	drop	specialist acronym
+Größte	merge:groß	inflected superlative
+
+# question düsen: the forms are mostly the noun Düse (926 of 1,420), so the lemma may really belong to Düse; I kept it as the valid verb lemma.
+# question FR: the examples were not available, so merging into für rests on the form "fr" with the umlaut lost, as in whrend.

@@ -1,0 +1,43 @@
+ausladen	keep	real verb; forms are participles of it
+tags	keep	adverb with its own dictionary entry (tags darauf)
+aUCH	merge:auch	broken casing
+potenziellen	merge:potenziell	inflected adjective
+CL	drop	unit abbreviation
+Dumme	merge:dumm	forms are the adjective dumme/dummen
+ML	drop	unit abbreviation
+herumstehen	keep	separable verb, fine
+Nathalie	drop	personal name
+bekomm	merge:bekommen	truncated imperative
+cd	merge:CD	lower-case filing of the established noun CD
+wund	keep	real adjective
+Fifa	keep	famous institution
+Firmenevent	keep	valid compound, singular lemma
+HG	drop	abbreviation
+Rheinhessen	drop	place name not on list
+EnBW	drop	company name
+Füsse	merge:Fuß	plural form filed as lemma
+WK	drop	abbreviation
+herausgegeben	merge:herausgeben	participle filed as lemma
+jmd	merge:jemand	abbreviation of listed word
+multipliziert	merge:multiplizieren	participle filed as lemma
+tmn	drop	news-agency code
+zulieb	merge:zuliebe	truncated form
+Bünde	merge:Bund	plural filed as lemma
+Startelf	keep	valid noun
+Webhosting	keep	established loan
+Briefing	keep	established loan
+Buffalo	drop	place name or English word
+süßen	keep	real verb
+Flo	drop	name
+Förder	merge:fördern	cut-off fragment
+Norddeutsche	keep	noun in its own right (der Norddeutsche)
+jäh	keep	real adjective
+Knowhow	keep	established loan, spelling variant
+Lebensmittelvorrat	keep	valid compound noun
+Medion	drop	company name
+Playtech	drop	company name
+# question tags: adverb "tags" could instead merge into Tag; kept because Duden lists it as an adverb.
+# question cd: unclear whether CD is already on the list; merged assuming it is.
+# question Knowhow: unclear whether it should merge into the standard spelling Know-how if that is listed.
+# question EnBW: companies are not covered by the "famous institutions" rule; dropped EnBW, Medion and Playtech as other names.
+# question CL: units cl and ml (and wk, HG) are unclear in the abbreviation rule; dropped as abbreviations not clearly tied to a listed word.

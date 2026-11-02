@@ -1,0 +1,47 @@
+gross	merge:groß	Swiss ss spelling of groß
+del	drop	foreign preposition
+u	merge:und	abbreviation of und
+grösser	merge:groß	Swiss spelling of the comparative of groß
+IP	drop	specialist acronym
+SG	drop	abbreviation/code
+gestellt	merge:stellen	participle filed as lemma
+Andere	merge:andere	capitalised adjective form
+behindern	keep	valid verb infinitive, a real dictionary form
+LKW	keep	common established abbreviation, like Pkw
+Mögliche	merge:möglich	capitalised adjective
+Wissenswerte	keep	nominalised adjective, a noun in its own right (Wissenswertes)
+verdecken	keep	valid verb infinitive
+präzis	merge:präzise	cut-off form
+Wichtigste	merge:wichtig	capitalised superlative form
+porno	merge:Porno	lower-case noun
+Stuttgarter	drop	place-name derivative
+Fashion	drop	English word, not an established loan
+kehrt	merge:kehren	conjugated form
+zuviel	merge:viel	misspelling of "zu viel"
+Buche	merge:buchen	capitalised verb form
+ff	drop	abbreviation
+Pkw	keep	common established abbreviation
+et	drop	Latin/French word
+nem	drop	dialect contraction
+DM	drop	abbreviation/currency
+Busse	merge:Bus	plural filed as lemma
+med	drop	abbreviation or fragment
+Frei	merge:frei	capitalised adjective
+Becke	merge:Becken	cut-off form
+gekauft	merge:kaufen	participle filed as lemma
+bereitgestellt	merge:bereitstellen	participle filed as lemma
+erworben	merge:erwerben	participle filed as lemma
+FH	drop	abbreviation
+hallen	keep	valid verb infinitive (forms hall/hallt/hallte), mis-tagged NOUN
+regen	merge:reg	inflected adjective form filed as lemma
+kind	merge:Kind	lower-case noun
+Thüringer	drop	place-name derivative
+geliefert	merge:liefern	participle filed as lemma
+KB	drop	abbreviation
+# question u: forms uder/uen/uste suggest it may not be only "und"; merged on the assumption it is u. = und
+# question LKW: kept as an established abbreviation, but the rules do not say whether it should merge into Lastkraftwagen
+# question zuviel: no single lemma for "zu viel"; merged into viel as the closest listed word
+# question nem: the rules do not cover colloquial contractions; dropped rather than merged into ein or einem
+# question FH: could merge into Fachhochschule if that is listed; dropped as an abbreviation
+# question regen: forms are mostly rege (adjective) but regen also exists as a verb and as a plural; merged into reg
+# question behindern: forms are mostly the adjective behinderte, but the verb is a real dictionary form, so kept
