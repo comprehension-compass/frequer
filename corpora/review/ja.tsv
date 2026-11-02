@@ -50,7 +50,7 @@
 カジノ	keep	real common word "casino" despite diversity flag
 ミラー	keep	common loanword for mirror, everyday use
 スタンプ	keep	common loanword for stamp/digital sticker, everyday use
-三菱	keep	major household-name corporation (Mitsubishi)
+三菱	keep	major household-name corporation as institution
 アリ	keep	common colloquial word "acceptable/OK", everyday use shown in examples
 フェイス	keep	common loanword "face", used in everyday compounds
 凛	keep	real adjectival noun (凛とした/凛々しい) despite overlap with given name
@@ -502,7 +502,7 @@ NTTドコモ	keep	major household-name telecom corporation
 ピカピカ	keep	common onomatopoeic adjective, PROPN tag is an error
 電通	keep	major household-name advertising corporation, institution
 火星	keep	ordinary astronomical common noun, not a geographic place name
-三十路	keep	ordinary common noun ("in one's thirties")
+三十路	keep	common word the tagger mistook for a name; lexical age term
 メタリック	keep	common loanword adjective "metallic"
 麓	keep	real standalone word (ふもと, foot of a mountain)
 ウルトラマン	drop	fictional character/franchise name
@@ -540,7 +540,7 @@ NTTドコモ	keep	major household-name telecom corporation
 トレイル	keep	common loanword "trail" (hiking)
 リノコ	drop	minor company name, low-diversity spam
 リブ	keep	common loanword "rib" (clothing feature)
-二の腕	keep	common noun "upper arm"
+二の腕	keep	common word the tagger mistook for a name; "upper arm"
 ブッシュ	drop	used as person name (Bush) in all examples
 あや	drop	appears to be a given name; no examples to support common use
 ダイハツ	drop	car brand name
@@ -577,7 +577,7 @@ NTTドコモ	keep	major household-name telecom corporation
 チーク	keep	common word for "cheek" (makeup) shown in examples
 マルイ	drop	department store brand name
 古泉	drop	low diversity plus name-dominated counts (character/person); 三古泉 is only a bound compound element
-五十路	keep	real word for someone in their fifties, common despite spammy examples
+五十路	keep	common word the tagger mistook for a name; lexical age term
 日本テレビ	keep	major national broadcaster
 レアル	drop	clipped reference to the club Real Madrid, a sports team name; merging into a droppable name is pointless
 キャンセル料	keep	common word "cancellation fee"
@@ -894,7 +894,7 @@ JR東日本	keep	major national railway operator, household-name institution
 リミテッド	keep	loanword "limited" used generically (e.g. product grades, limited editions)
 蕾	keep	common standalone word for flower bud
 ホットヨガスタジオ	drop	transparent ad-boilerplate compound concentrated in chain advertising, not a lexical item
-千鳥	keep	common word for plover, shown in 千鳥格子; comedy-duo usage is secondary name sense
+千鳥	keep	common sense (plover; 千鳥格子 pattern) in everyday use
 ブックオフ	drop	bookstore chain, minor company
 アナリティクス	keep	established loanword "analytics," used generically beyond the Google product
 コンパイル	keep	common tech word "compile"
@@ -1286,7 +1286,7 @@ Windows XP	drop	named software product
 シートベルト	keep	ordinary word "seatbelt"
 突	drop	lone character with no clear merge target
 インフィニティ	drop	counts are the Infiniti brand and product names; generic sense marginal
-十二分	keep	ordinary adjectival noun "ample/plenty"
+十二分	keep	common word "more than enough", mistagged PROPN
 升	keep	standalone unit word "masu"
 ソルト	keep	common loanword for "salt" in product naming, glossed as 塩 in examples
 経団連	keep	nationally famous institution (Keidanren business federation)
@@ -1670,7 +1670,7 @@ Windows XP	drop	named software product
 箔	keep	real standalone word "foil"
 厄除け	keep	common word "warding off misfortune"
 ソフトバンクモバイル	keep	major telecom carrier, household-name corporation
-三つ編み	keep	common word "braid"
+三つ編み	keep	common word "braid", shown in examples
 婿	keep	common word "son-in-law"
 痴	drop	single character fragment, examples don't clarify a merge target
 蝉	keep	real standalone word "cicada"
@@ -1785,7 +1785,7 @@ JR東海	keep	major railway company, nationally known institution
 アクシス	drop	all examples are apartment/building brand names
 ダイナース	drop	brand name (Diners Club)
 ペンネーム	keep	common noun "pen name", genuine generic usage shown
-一徹	keep	ordinary adjectival noun "single-minded/stubborn" in everyday use
+一徹	drop	Counts are names (星一徹, shop, AV performer); the 頑固一徹 common sense does not show
 マリーンズ	drop	sports team name (Chiba Lotte Marines)
 ほろ酔い	keep	common word "tipsy"
 アー	keep	common interjection "ah"
@@ -1847,7 +1847,7 @@ JR東海	keep	major railway company, nationally known institution
 謙	drop	flagged shape (length 1); not a standalone word, only appears as a name component in people's names
 梢	keep	real standalone word meaning "treetop" (こずえ), despite examples skewing to names
 舅	keep	real standalone word meaning "father-in-law" (しゅうと)
-三流	keep	common word "third-rate", mistagged as PROPN
+三流	keep	common word "third-rate", shown in examples
 有楽町線	drop	named facility (train line), not a place name itself
 ヤンデレ	keep	common slang word (character trope), tagger mistook it for a name
 メーリング	merge:メーリングリスト	clipped from メーリングリスト in all examples
@@ -2032,7 +2032,7 @@ JR東海	keep	major railway company, nationally known institution
 ジプシー	keep	established loanword for a people/group, used generically in examples
 ビルトイン	keep	common word "built-in"
 ボーカロイド	keep	genericised term for the singing-synthesis technology/genre
-三洋	keep	major historic household-name electronics corporation
+三洋	keep	major household-name corporation (Sanyo)
 都庁	keep	Dictionary has only common entries; generic noun for a metropolitan government office, tagger mistake
 戒	keep	Single character that is a real standalone word (Buddhist precept)
 新潮社	drop	publishing company, not institution-level
@@ -2346,7 +2346,7 @@ FC東京	drop	sports team name
 相葉	drop	person surname (celebrity Aiba)
 勉	drop	counts are the given name つとむ; 勉 alone is a clipped piece of 勉強 (テス勉)
 沢田	drop	person surname, no common-noun use shown
-三丁目	keep	ordinary address/block-numbering word ("chōme 3"), used generically
+三丁目	drop	numeral+counter compound, meaning readable from parts (town block number)
 アキラ	drop	fictional character / person given name
 絵里	drop	person given name, no common-noun use shown
 テリー	drop	person given name (foreign)
@@ -2391,7 +2391,7 @@ FC東京	drop	sports team name
 宇	drop	character used only as part of a name, no standalone word sense shown
 コールマン	drop	brand name (Coleman)
 ロイド	drop	only a person/robot name
-二号	keep	ordinary common word ("number two"/item 2), misflagged as name
+二号	drop	numeral+counter "No. 2", explicitly listed drop pattern
 内村	drop	only a surname
 健太郎	drop	only a person name
 ション	drop	only a name, no common sense
@@ -2691,7 +2691,7 @@ FC東京	drop	sports team name
 夏希	drop	given name, no common sense
 鳥山	drop	person name (鳥山明, 鳥山石燕), no common-word use shown
 ハルカ	drop	character/person name only
-一列	keep	common word "in a row," heuristic false flag
+一列	keep	common word "one line/row", clearly shown in examples
 清盛	drop	historical person name (平清盛), no common sense
 クリシュナ	drop	deity/person name (Krishna), no common-noun use
 スティーヴン	drop	person name (Stephen), no common use
@@ -3085,7 +3085,7 @@ NTT東日本	keep	major nationwide telecom company, institution
 とんでも	merge:とんでもない	clipped stem; all examples show とんでもない
 ムーン	drop	examples are all proper nouns (character/shop/building names), common "moon" sense not shown (月 is the ordinary word)
 義	keep	real word meaning justice/duty
-一律	keep	common word "uniform/across-the-board"
+一律	keep	common word "uniformly"
 リース#wreath	keep	established loanword sense "wreath" (decorative)
 メキシコ	pending-names	country name
 剛	drop	readings and examples are personal/product names; strength sense not in everyday use here
@@ -3103,7 +3103,7 @@ NTT東日本	keep	major nationwide telecom company, institution
 ぱ	drop	bare mora, not a word
 平野	keep	common noun "plain" shown in examples, not just the surname/place sense
 陽	keep	common word (sun/yang) shown in idiom "陰に陽に"
-一目#ひとめ	keep	ordinary word "at a glance"
+一目#ひとめ	keep	common word with idiomatic reading "a glance"
 お役	merge:役	honorific お- on 役 from the idiom お役に立つ; content word is 役
 異	keep	standalone word, e.g. 異を唱える
 プレビュー	keep	established katakana loanword "preview"
@@ -4048,7 +4048,7 @@ F1	keep	well-known racing category abbreviation
 本宮	keep	common word for a shrine's main hall, shown in examples
 縁組	keep	real word for adoption/marital arrangement (養子縁組)
 デトロイト	pending-names	city name
-四日市市	pending-names	city name (Mie prefecture)
+四日市市	pending-names	city name
 失	drop	bound kanji, no standalone use shown
 寄	drop	bound kanji, no standalone use shown
 一樹	drop	person given name
@@ -4114,7 +4114,7 @@ F1	keep	well-known racing category abbreviation
 ヒルナンデス	drop	TV program title
 十色	merge:十人十色	fragment of the idiom 十人十色
 エビス	drop	beer brand name (Yebisu), not genericised
-万葉	keep	general cultural term (万葉歌人, 万葉仮名) beyond the name uses
+万葉	keep	common sense ("Man'yō era/poets") shown in example 3 alongside name usage
 のっ	drop	fragment, not a real word
 アイコス	drop	specific product brand; not the ordinary Japanese word for heated-tobacco devices
 当事	merge:当時	typo/homophone for 当時 as shown in examples
@@ -4323,7 +4323,7 @@ J2	keep	common everyday term for Japan's 2nd football division
 ブリュッセル	pending-names	place name (Brussels)
 ビーグレン	drop	minor cosmetics brand name
 チューリッヒ	pending-names	place name (Zurich)
-三毛	keep	real word for calico/tri-color cat pattern
+三毛	keep	lexical word for tricolor cat coloring
 インプレス	drop	minor publishing company name
 インタ	drop	Katakana clipping with no examples and several possible sources (インター/インタビュー/インターネット); no clear merge target
 デレステ	drop	mobile game title clipping
@@ -4505,7 +4505,7 @@ J2	keep	common everyday term for Japan's 2nd football division
 タスクバー	keep	common computing term (taskbar)
 ヘッドレスト	keep	ordinary word for headrest
 メリル	drop	person name (Merrill/Meryl)
-一国	keep	ordinary word "one country"
+一国	keep	common-sense usage ("one country") shown in examples, not just names
 岡山駅	drop	named facility (train station)
 淀	drop	used as nickname for Yodobashi, not an everyday standalone word
 深堀	merge:深掘り	common "dig deeper" sense, correct dictionary spelling is 深掘り
@@ -4605,7 +4605,7 @@ J2	keep	common everyday term for Japan's 2nd football division
 シャチ	keep	common word "killer whale" mistagged as proper noun
 ディケイド	drop	title of a work (Kamen Rider series)
 ニセモノ	keep	common word "fake" mistagged as proper noun
-万物	keep	common word "all things" mistagged as proper noun
+万物	keep	common philosophical word mistagged as proper noun
 富士急	drop	regional company, not a nationally household-name institution
 濃紺	keep	common word "dark navy" mistagged as proper noun
 静電	keep	dictionary gives it as a common technical word
@@ -4686,7 +4686,7 @@ J2	keep	common everyday term for Japan's 2nd football division
 シンシア	drop	person's given name
 スペイン人	keep	common demonym noun
 ダイナミクス	keep	common loanword "dynamics"
-三ツ星	keep	common word for "three-star" rating, in everyday use
+三ツ星	keep	genericized "three-star" usage common beyond the brand name instances
 染谷	drop	surname/person name
 浦島	drop	folktale character name (Urashima Tarō)
 繭	keep	real standalone word (cocoon)
@@ -4721,7 +4721,7 @@ J2	keep	common everyday term for Japan's 2nd football division
 ジャスコ	keep	household-name nationwide supermarket chain (predecessor of AEON)
 プライマリ	keep	common technical/medical loanword "primary"
 モリス	drop	person surname
-一刀	keep	real word, common sense shown in idiom 一刀両断
+一刀	merge:一刀両断	No common dictionary entry and real usage in examples is the idiom 一刀両断
 異人	keep	real literary word for "foreigner/stranger"
 良太	drop	person's given name
 蔦	keep	real standalone word for ivy
@@ -4733,12 +4733,12 @@ J2	keep	common everyday term for Japan's 2nd football division
 将大	drop	person's given name (as in 田中将大)
 ベルマーレ	drop	sports team name
 ロジスティクス	keep	common loanword "logistics"
-三菱電機	keep	major household-name corporation
+三菱電機	keep	nationally famous household-name corporation/institution
 蔓	keep	real standalone word for vine/tendril
 西京	pending-names	historical place name (old Kyoto); names list decides
 電電	drop	mixed unclear usage: でんでんタウン (place nickname) vs classical 電電公社 vs dialect でんでん; no clear single standard lemma
 カインズ	keep	household-name nationwide home-center chain
-三つ葉	keep	common noun, herb used in cooking (mitsuba)
+三つ葉	keep	common plant/herb word mistagged as PROPN
 小宮	drop	person's surname
 秀一	drop	person name (baseball/actor), no common sense
 まほ	drop	person name, no common sense shown
@@ -4815,7 +4815,7 @@ J2	keep	common everyday term for Japan's 2nd football division
 スペーシア	drop	product/model and facility name (car model, train, building)
 テクモ	drop	minor video-game company name
 トラットリア	keep	common loanword for an Italian casual restaurant
-五色	keep	common word meaning "five colors", shown in everyday examples
+五色	keep	common word (五色豆, 五色饅頭) mistagged as PROPN
 日月	keep	standard dictionary word (sun and moon) mistagged as a name
 緑川	drop	personal surname
 胚	keep	real standalone word "embryo", shown in examples
@@ -5204,7 +5204,7 @@ J2	keep	common everyday term for Japan's 2nd football division
 学習院	keep	nationally famous institution (school/university)
 産み分ける	keep	real word; list writes verbs in dictionary form, so the lemma is already correct
 ウゾ	drop	556 hits in 13 documents with no usage evidence; cannot confirm the ouzo sense
-千手	keep	real word (thousand-armed, as in 千手観音), common in ordinary reading
+千手	merge:千手観音	Occurs only as part of the established Buddhist term 千手観音
 友梨	drop	person name
 経済面	keep	common word "economic aspect/section"
 ライコネン	drop	person name (F1 driver)
@@ -5368,7 +5368,7 @@ J2	keep	common everyday term for Japan's 2nd football division
 バスタ	drop	no examples, dictionary entries are person names
 パラディン	keep	common RPG class term "paladin"
 ミネルヴァ	drop	mythological/company/product name, no common-noun sense
-八景	keep	standard term for a classical set of eight scenic views
+八景	keep	established cultural term for a traditional set of scenic views
 やみつき	keep	common word "addictive/habit-forming"
 サスペンダー	keep	common noun "suspenders"
 シューマン	drop	composer's surname
@@ -5507,7 +5507,7 @@ J2	keep	common everyday term for Japan's 2nd football division
 ラックス	drop	brand name, no generic common use shown
 平城	keep	common noun "flat castle" in everyday use (ex.1)
 露地	keep	common word for open field/alley, mistagged as PROPN
-九大	keep	nationally famous university (Kyushu University) abbreviation
+九大	keep	nationally famous university (Kyushu University)
 大蔵省	keep	famous former government ministry
 オープンソース	keep	common tech term, mistagged as PROPN
 カラーズ	drop	product/team brand name, not generic
@@ -5670,7 +5670,7 @@ iPod nano	drop	product name
 デヴィ	drop	person name (デヴィ夫人)
 フリードリヒ	drop	person name (Friedrich)
 ヴィータ	drop	brand/product name, not genericised
-三人目	keep	common everyday word "third person"
+三人目	drop	ordinal numeral+counter "third person"
 亘	drop	mainly a name component, not a standalone common word
 ついー	drop	noise/garbled informal text, not a real word
 メディコム	drop	minor company name (Medicom Toy)
@@ -5920,7 +5920,7 @@ iPod nano	drop	product name
 クウガ	drop	title/character name (Kamen Rider Kuuga)
 スペインバル	keep	common compound noun for a type of restaurant, mistagged as name
 ミサト	drop	character name (Evangelion)
-三省堂	keep	well-known publisher/bookstore, household-name institution
+三省堂	keep	nationally known publisher/bookstore, household-name institution
 基礎編	keep	ordinary phrase "basic edition", mistagged as name
 満島	drop	person's surname
 綱吉	drop	historical person's given name (Tokugawa Tsunayoshi)
@@ -6398,9 +6398,9 @@ iPod nano	drop	product name
 シャカシャカ	keep	genuine onomatopoeia in ordinary use
 ナカムラ	drop	surname written in katakana
 レンジャーズ	drop	sports team name
-三蔵	keep	real Buddhist term (三蔵/三蔵法師) in ordinary cultural use
+三蔵	drop	all examples are proper-noun uses (作品の三蔵法師, 人名三蔵); common Tripitaka sense not shown as everyday use
 丙	keep	standalone word used in ordinal series 甲乙丙丁
-二十日	keep	standard dictionary form despite being written as digits
+二十日	keep	standard dictionary form for day-of-month with special reading はつか, just written in numerals
 八事	pending-names	district name in Nagoya
 十郎	drop	person/character given name
 消防庁	keep	national government agency (Fire and Disaster Management Agency)
@@ -6793,7 +6793,7 @@ C言語	keep	ordinary word for the C programming language
 つ目	drop	bound counter fragment (一つ目/二つ目 etc.), not standalone
 修造	drop	given name of a real celebrity (Matsuoka Shuzo)
 ブレーメン	pending-names	place name (Bremen)
-四半	keep	real dictionary element appearing in both 四半世紀 and 四半期, no single merge target
+四半	keep	lexicalized word "a quarter" (四半世紀, 四半期), not simple numeral+counter
 湯本	pending-names	place name (Yumoto hot spring area)
 総社	pending-names	place name (Soja city)
 ジュ	drop	fragment, no clear standalone use
@@ -7964,7 +7964,7 @@ TBSテレビ	keep	major national broadcaster, institution
 ラピッド	keep	established loanword (rapid, e.g. ラピッド検査/充電)
 井筒	drop	examples show surname of real people (film director, entrepreneur)
 史学	keep	real word (historical studies)
-四神	keep	real term (the Four Guardian symbols), independent of drama title use
+四神	keep	real cultural/mythological term (four guardian gods), even if examples cite a drama title
 断末魔	keep	real word (death throes)
 産声	keep	real word (baby's first cry)
 番屋	keep	real word (watchman's hut, fishing hut)
@@ -8020,7 +8020,7 @@ TBSテレビ	keep	major national broadcaster, institution
 深雪	drop	examples are all the character name 司波深雪, common "deep snow" sense not shown
 湯元	keep	ordinary noun "source of a hot spring"
 片田舎	keep	ordinary noun "rural backwater"
-百害	keep	ordinary noun, used in common idiom 百害あって一利なし
+百害	keep	fixed idiomatic word, part of 百害あって一利なし
 皮脂腺	keep	real anatomical term, ordinary reading word
 礼節	keep	ordinary noun "etiquette, courtesy"
 突飛	keep	ordinary adjective "outlandish"
@@ -8274,7 +8274,7 @@ NHK紅白歌合戦	drop	title of a specific TV program
 メインフレーム	keep	real computing term "mainframe"
 レイシスト	keep	real loanword "racist"
 ローマ人	keep	demonym "Roman", not a place name
-一閃	keep	real word "a flash/glint (of blade/light)"
+一閃	keep	real literary word for a flash/swift strike
 低地	keep	real word "lowland"
 全速力	keep	real word "full speed"
 出そろう	keep	real verb "to all be in/complete"
@@ -8397,7 +8397,7 @@ NHK紅白歌合戦	drop	title of a specific TV program
 ペンネ	keep	established loanword, penne pasta
 マトン	keep	established loanword, mutton
 メンタリティ	keep	established loanword, mentality
-一戦	keep	common noun for a single match/battle
+一戦	keep	real word "a battle/match"
 信ぴょう性	keep	standard word 信憑性 commonly spelled with kana for difficult kanji
 全国初	keep	common compound meaning "first nationwide"
 共に	keep	core adverb/conjunction meaning "together"
@@ -8430,7 +8430,7 @@ NHK紅白歌合戦	drop	title of a specific TV program
 ブール	keep	real culinary term for round bread loaf
 ミズキ	drop	examples are character/VTuber names, not the tree sense
 メンチ	keep	real word, mince/menchi katsu slang
-一画	keep	real word, one stroke/a section
+一画	keep	real word, stroke of a kanji or a section of land
 不相応	keep	real adjective, unsuitable
 供託	keep	real legal term, deposit
 側頭	keep	real anatomical term
@@ -8714,7 +8714,7 @@ NHK紅白歌合戦	drop	title of a specific TV program
 主戦	keep	real word, "ace/main force"
 乗り上げる	keep	real verb, "to run aground/mount"
 二十点五	drop	specific decimal number, not a core number word
-五月蝿い	keep	established ateji spelling of うるさい, common in casual writing
+五月蝿い	merge:煩い	Ateji spelling variant of the ordinary adjective うるさい, filed under a non-standard lemma
 優柔不断	keep	real word, "indecisive"
 厚顔	keep	real word, "brazen/shameless"
 召集する	keep	real verb, "to summon/convene"
@@ -8857,7 +8857,7 @@ NHK紅白歌合戦	drop	title of a specific TV program
 ミーア	drop	mostly fragment of titles/names (マンマ・ミーア, character names)
 ヮ	drop	emoticon kana fragment, not a word
 ワタ	keep	real word (fish entrails/cotton sense) despite no example in sample
-一介	keep	real word "a mere"
+一介	keep	real word "a mere" in 一介の~
 内紛	keep	real word "internal strife"
 和楽	merge:和楽器	Counts come from clipped 和楽器; standalone 和楽 is archaic/magazine-name usage
 回折	keep	real word "diffraction"
@@ -8979,7 +8979,7 @@ NHK紅白歌合戦	drop	title of a specific TV program
 メッセージング	keep	real IT/communication term "messaging"
 メー	drop	No examples and stretched variants (メ-ー, メ----) point to sound-stretching noise, not an established word
 ラクロス	keep	real sport name "lacrosse"
-一先ず	keep	real adverb, kanji variant of ひとまず
+一先ず	keep	real word meaning "for now"
 三十六点五	drop	spelled decimal number, not a core number word
 二頭筋	keep	real anatomical term (biceps)
 勝ち誇る	keep	real verb "to be triumphant"
@@ -9027,14 +9027,14 @@ NHK紅白歌合戦	drop	title of a specific TV program
 レジスター	keep	established loanword, cash register
 レヴォーグ	drop	car model name (Subaru Levorg)
 ワール	drop	No examples, so no clear source compound; speculative merge unsupported
-一般客	keep	common noun, general customer
+一般客	keep	real everyday compound noun "general public customer"
 上座	keep	common noun, seat of honor
 九点六	drop	spelled decimal number
 体側	keep	Real anatomical word (side of the body, 体側を伸ばす, 体側線) even though the sampled hits are bad splits
 余所	keep	real word, "elsewhere/other place"
 働る	merge:働く	Bogus lemma over the bare stem kanji 働; the obvious word is 働く
 全敗	keep	common noun, total losses
-八重桜	keep	common noun, double-flowered cherry blossom
+八重桜	keep	real word for double-flowered cherry
 公子	keep	common noun with everyday historical/literary sense, shown in examples
 出し抜く	keep	common verb, to outwit
 加速器	keep	common technical noun, (particle) accelerator
@@ -9088,7 +9088,7 @@ NHK紅白歌合戦	drop	title of a specific TV program
 ピンボール	keep	established katakana loan, pinball
 ヤモリ	keep	common animal word mistagged as PROPN, gecko
 レアチーズケーキ	keep	real compound word, rare cheesecake
-一橋大学	keep	nationally famous national university
+一橋大学	keep	nationally famous university
 三栄	drop	minor company/publisher name
 公開時	keep	common compound noun "at time of release"
 前庭	keep	real word (forecourt/anatomical vestibule)
@@ -9357,7 +9357,7 @@ NHK紅白歌合戦	drop	title of a specific TV program
 企図	keep	real word (plan/attempt)
 再分配	keep	real word (redistribution)
 出しゃばる	keep	real verb (to meddle/be pushy)
-千切れる	keep	real verb (to be torn to pieces)
+千切れる	keep	real verb "to be torn to shreds"
 印加	keep	real word (to apply voltage)
 収益力	keep	real word (profitability)
 各月	keep	real word (each month)
@@ -9478,7 +9478,7 @@ NHK紅白歌合戦	drop	title of a specific TV program
 代官山駅	drop	named station facility
 俊足	keep	real word (fast runner)
 出で立ち	keep	real word (appearance/attire)
-四股	keep	real word (sumo stomping stance)
+四股	keep	real sumo term for the stomping exercise
 国光	drop	mostly a person/place name here; apple-cultivar sense not shown in examples
 忠子	drop	mis-segmented text (ただ+この), not the name in actual use
 手づかみ	keep	real word (eating with hands)
@@ -9638,7 +9638,7 @@ NHK紅白歌合戦	drop	title of a specific TV program
 マニ	drop	no clear evidence of meaning; insufficient examples
 モタモタ	keep	common mimetic word "to dawdle"
 ーーーーーー	drop	dash-character filler, not a word
-三宝	keep	real word for ritual offering stand / Buddhist "three treasures"
+三宝	keep	real word for Buddhist three treasures / ritual stand, shown in example
 京風	keep	common compound "Kyoto-style"
 優雅さ	keep	real word "elegance"
 冗長化	keep	real IT term "redundancy"
@@ -9917,7 +9917,7 @@ NHK紅白歌合戦	drop	title of a specific TV program
 ミスティック	drop	only used inside titles/names (games, movies), no plain adjective/noun use shown
 ラッド	drop	no examples; likely a name, no evidence of common word use
 リテラル	keep	established technical loanword "literal"
-二位	keep	common word "second place", not just a surname use
+二位	drop	Numeral + counter 位 "second place", compositional with no added idiomatic sense
 伽羅	keep	real word (agarwood/kyara)
 入水	keep	real word (入水自殺 etc.)
 全種	keep	common compound "all types/kinds"
@@ -9979,7 +9979,7 @@ NHK紅白歌合戦	drop	title of a specific TV program
 メディオ	drop	no clear meaning; appears only as spam/exclamation text
 ユニバーシティ	drop	only used as part of proper nouns (Disney University, Monsters University), not a generic word
 ロリロリ	drop	spammy adult-site slang, not an everyday word a learner would meet
-二つ目	keep	common word "second one"
+二つ目	drop	compositional ordinal "the second one" (numeral+目), like dropped 三人目
 人格権	keep	real legal term "personal/moral rights"
 倉多	drop	adult-video performer's name
 倭人	keep	real historical term "Wa people," used in history discussions
@@ -10060,7 +10060,7 @@ NHK紅白歌合戦	drop	title of a specific TV program
 リーダーズ	drop	brand name of a dictionary series ("Reader's" English-Japanese dictionary), product name
 レヴュー	merge:レビュー	nonstandard spelling of the common loanword "review", examples all in the review sense
 不可視	keep	real adjective/noun meaning invisible, common in general and technical text
-二胡	keep	real word, the erhu musical instrument
+二胡	keep	real loanword for the Chinese erhu instrument
 他府県	keep	real word meaning "other prefectures"
 吟遊	merge:吟遊詩人	only occurs bound in 吟遊詩人 (troubadour); not used standalone
 国沢	drop	surname of a specific person (car journalist), not an institution
@@ -10103,7 +10103,7 @@ NHK紅白歌合戦	drop	title of a specific TV program
 カナリ	merge:かなり	katakana emphatic spelling of かなり
 キョトン	keep	real mimetic word for a puzzled look
 センタービル	drop	named facility/building address term, not a generic word
-七号	keep	ordinary numbered-item word ("No. 7"), common noun
+七号	drop	developer ruling 2026-11-02: a numeral + counter compound readable from its parts, ignored like other number compounds
 獣王	drop	used only as a pachinko-machine product name / anime title in examples
 昼顔	keep	real word (bindweed; also idiom for daytime affair), common usage shown
 フラゲ	keep	established internet slang for getting something before release date
@@ -10129,7 +10129,7 @@ NHK紅白歌合戦	drop	title of a specific TV program
 ノール	drop	no usable examples; likely a brand name, can't confirm a generic sense
 ペンタブ	keep	lexicalized common tech term for graphics tablet
 グラミー賞	drop	name of a specific award, not an institution covered by the keep list
-一花	keep	idiomatic common sense (一花咲かせる) is everyday usage
+一花	drop	Counts are personal/product names; the 一花を咲かせる sense is marginal here
 とうり	merge:通り	common typo/respelling of とおり
 神威	drop	counts are facility, shrine and character names; the しんい "divine power" sense does not show
 ダンディー	keep	established loanword adjective ("dandy")
@@ -10651,3 +10651,419 @@ NHK紅白歌合戦	drop	title of a specific TV program
 誤魔化せる	merge:誤魔化す	potential form of the verb 誤魔化す, filed under own conjugation
 賛歌	keep	real word meaning hymn/ode
 てるてる	merge:てるてる坊主	tagged PROPN but actually a clipped form of てるてる坊主, the common word for the weather charm, shown consistently in examples
+一人	keep	idiomatic "alone", special reading ひとり, explicit keeper example
+一番	keep	idiomatic "most", explicit keeper example
+一緒	keep	common lexical word "together"
+一つ	keep	native counting word, explicit keeper example
+二人	keep	idiomatic/special reading ふたり, explicit keeper example
+一度	keep	idiomatic "once", explicit keeper example
+一部	keep	common noun "a part/portion", everyday vocabulary
+十分	keep	idiomatic "enough/fully", explicit keeper example
+一覧	keep	common noun "a list", everyday vocabulary
+一般	keep	common noun/adj "general", explicit keeper example
+一方	keep	common noun/conjunction "on the other hand"
+二つ	keep	native counting word, explicit keeper example
+一般的	keep	common adjective "general"
+一切	keep	common adverb "entirely/not at all"
+一日#ついたち	keep	special reading "1st of the month", explicit keeper example
+一日#いちにち	keep	common noun "a day", everyday vocabulary
+一気	keep	idiomatic "all at once"
+一応	keep	common adverb "for now/tentatively"
+一言	keep	common noun "a word"
+一体	keep	common noun/interjection "as one; what on earth"
+一回	keep	Basic high-frequency word for "once", directly analogous to the explicitly kept 一度
+一定	keep	lexical word "fixed/constant", not a numeral+counter form
+一括	keep	lexical word "in one lump/batch", not a numeral+counter form
+九州	pending-names	region name
+千葉	pending-names	place name (city/prefecture)
+一生	keep	idiomatic "a whole life"
+第三者	keep	fixed legal/social term "third party", more than parts
+一瞬	keep	common noun "an instant"
+三つ	keep	native counting word, explicit keeper example
+千葉県	pending-names	prefecture name
+一時	keep	common noun with multiple senses (temporarily; one o'clock)
+一生懸命	keep	fixed idiom, explicit keeper example
+一層	keep	idiomatic adverb "all the more"
+一時的	keep	common adjective "temporary"
+一杯	keep	idiomatic "full; a drink", everyday vocabulary
+一歩	keep	common noun "a step", used metaphorically
+二重	keep	common noun/adj "double", used broadly
+一見	keep	idiomatic adverb "at a glance"
+五輪	keep	lexicalized term for "Olympics", more than literal parts
+一種	keep	common word "a kind/type"
+一同	keep	common word "all together"
+二度と	keep	common idiomatic expression "never again"
+四国	pending-names	region/island name
+一流	keep	common word "first-class"
+万全	keep	common word "flawless/perfect"
+百貨店	keep	common word "department store"
+四季	keep	established lexical word "four seasons"
+一面	keep	common word "one aspect/side"
+一口	keep	common word "a mouthful/bite"
+一戸建て	keep	common word "detached house"
+一致する	keep	common verb "to match/agree"
+一級	keep	common word "first grade/class"
+一家	keep	common word "a family/household"
+一環	keep	common word "a part (of something)"
+一連	keep	common word "a series"
+一斉	keep	common word "all at once"
+一般人	keep	common word "ordinary person"
+一方的	keep	common word "one-sided"
+三重県	pending-names	prefecture name
+四半期	keep	established financial term "a quarter"
+万能	keep	common word "all-purpose/omnipotent"
+一通り	keep	common word "a general overview"
+三角	keep	common word "triangle"
+百合	keep	common word "lily"
+一族	keep	common word "a clan/family"
+一貫する	keep	common verb "to be consistent"
+三昧	keep	common word "immersed in"
+一員	keep	lexicalized word "a member"
+一時期	keep	common word "a certain period"
+三重	pending-names	prefecture/region name
+一致	keep	common word "agreement/match"
+一撃	keep	common word "a blow/strike"
+一息	keep	common word "a breath/brief rest"
+一角	keep	common word "a corner/part"
+千葉市	pending-names	city name
+一味#いちみ	keep	common word "a gang/group; a flavor"
+一挙	keep	common word "all at once"
+一夜	keep	lexical word "overnight", more than literal parts
+一押し	keep	established word "top recommendation", idiomatic
+七夕	keep	duplicate, see above
+一概	keep	lexical adverbial noun "categorically", idiomatic
+一望	keep	lexical word "panoramic view"
+二人目	drop	numeral+counter compound "the second person", meaning readable from parts (cf. 三人目 example)
+一大	keep	lexical prefix/adjective "a major (thing)", idiomatic beyond literal parts
+一段	keep	lexical word/adverb "a step; even more", idiomatic use
+一式	keep	lexical word "a full set", more than its parts
+一線	keep	lexical word, idiom 一線を画す etc.
+二つ折り	keep	lexical compound "bifold", native counting word usage
+一色	keep	lexical word with idiomatic extended sense ("dominated by")
+一向	keep	lexical adverb "一向に" (not at all), idiomatic
+一目ぼれ	keep	established idiom "love at first sight"
+一行#いっこう	keep	lexical word "group/party", more than literal parts
+一心	keep	lexical word "single-mindedness", idiomatic
+万引き	keep	ordinary common word "shoplifting"
+一軒家	keep	lexical word for a type of house (detached house)
+一昔	keep	lexical word "a while back", idiomatic
+一端	keep	lexical word "one part/end"
+三脚	keep	name of a thing (tripod), more than numeral+counter parts
+一新	keep	lexical word "complete renewal"
+十字	keep	name of a thing (the cross shape)
+一刻	keep	lexical word "a moment"
+万年筆	keep	name of a thing (fountain pen)
+一転	keep	lexical word/adverb "sudden turnabout"
+一読	keep	lexical word "a read-through"
+五感	keep	established term "the five senses"
+一足	keep	lexical idiom ("a pair"/"a little early"), more than literal parts
+一体型	keep	lexical compound "integrated type"
+一途#いっと	keep	lexical word "single-minded devotion"
+一目瞭然	keep	standard dictionary idiom, very common, though corpus spelling is fragmented
+一変	keep	lexical word "complete change"
+四十路	keep	lexical age term, same pattern as 三十路/五十路
+一筋	keep	lexical idiom "a streak; wholly devoted"
+二十歳	keep	special reading/fixed expression explicitly listed as keepable
+一帯	keep	lexical word "the whole area"
+万博	keep	real word (world exposition)
+一覧表	keep	real word (list/table)
+三角形	keep	real word (triangle)
+八つ	keep	native counting word (eight things)
+兆候	keep	real word (sign/symptom)
+兆し	keep	real word (sign/omen)
+一目	keep	idiom "at a glance"
+四方	keep	real word (all directions)
+三振	keep	established baseball term (strikeout)
+一貫	keep	real word (consistency)
+一人前	keep	real word (one portion/adult)
+四季折々	keep	fixed expression (each season)
+一見する	keep	real verb (seem at first glance)
+億劫	keep	real word (troublesome)
+一丸	keep	idiom "becoming one"
+一回り	keep	real word (one size/round)
+一直線	keep	real word (straight line)
+四角い	keep	real word (square-shaped)
+一体感	keep	real word (sense of unity)
+四角	keep	real word (square)
+万人	keep	real word (everyone)
+一安心	keep	real word (relief)
+一室	keep	real word (one room)
+一躍	keep	real word (suddenly, at a bound)
+一因	keep	real word (one factor)
+三男	keep	real word (third son)
+十字架	keep	lexical word (cross/crucifix), special meaning
+四日市	pending-names	place name (city in Mie)
+一時停止	keep	real word (pause)
+一部分	keep	real word (a part)
+一件	keep	real word (one matter/case)
+一掃	keep	real word (sweep away)
+千切り	keep	real word (julienne cut, cooking term)
+一手	keep	idiom/word (one move; to handle alone)
+万歳	keep	real word (hurray/banzai)
+四球	keep	established baseball term (walk)
+六角	keep	lexical word (hexagon/hex shape), more than number+counter
+一点	keep	idiom "一点張り" and general word "one point"
+一貫性	keep	real word "consistency", not a numeral compound
+一丁目	drop	numeral+counter "block 1", meaning readable from parts
+四駆	keep	established clipped word for "four-wheel drive"
+二股	keep	real word (forked/two-timing), more than number+counter
+一風	keep	idiom "a certain/unusual" (一風変わった)
+一時金	keep	real word "lump-sum payment"
+八方	keep	established word "all directions" (八方美人 etc.)
+一服	keep	real word "a smoke/pause"
+一心不乱	keep	standard dictionary idiom, kept despite being written split as 不乱
+四肢	keep	real word "limbs"
+一報	keep	real word "a report/word"
+二日酔い	keep	real word "hangover"
+三号	drop	numeral+counter "No. 3", explicitly listed drop pattern
+一役	keep	idiom "a role" (一役買う)
+三味線	keep	real word "shamisen"
+一元	keep	real word "unification" (一元管理)
+一般化	keep	real word "generalization"
+一騎	drop	appears only inside fixed compounds (一騎当千/一騎打ち), numeral+counter fragment
+八百長	keep	real word "match-fixing"
+一堂	keep	idiom "all together" (一堂に会する)
+三条	pending-names	examples show use as the Kyoto/Niigata place name Sanjō
+一括する	keep	real verb "to bundle/consolidate"
+一番人気	keep	idiom "top favorite", built on special 一番 "most"
+千秋楽	keep	real word "final day (of run/tournament)"
+一人目	drop	numeral+counter "the first person", meaning readable from parts
+一助	keep	idiom "a help/contribution"
+二部	drop	numeral+counter "part/copy 2", meaning readable from parts
+百科	keep	real word "encyclopedia(-ic)"
+万事	keep	real word "everything, all affairs"
+二塁	keep	Fixed baseball term for the second base/position (base of 二塁打, 二塁手), not just a count of bases
+二輪車	keep	real word "two-wheeled vehicle"
+一握り	keep	idiom "a handful"
+三次元	keep	real word "three-dimensional"
+一様	keep	real word "uniform"
+一人っ子	keep	real word "only child"
+一味	keep	real word "a group/gang; a dash of flavor"
+一過性	keep	real word "transient"
+五つ	keep	native counting word, explicitly listed as kept
+一説	keep	real word meaning "one view/theory", common usage
+八苦	merge:四苦八苦	always appears as part of idiom 四苦八苦, not used alone
+四六時中	keep	standard idiom "around the clock"; lemma is correct dictionary form despite truncated token spelling
+八百屋	keep	common word "greengrocer"
+七草	keep	common word, festival term
+万端	keep	common word "complete(ly ready)"
+一塁	keep	common baseball term "first base"
+一々	keep	common word "one by one, individually"
+四号	drop	numeral+counter "No. 4", meaning readable from parts
+一節	keep	common word "a passage/verse"
+百姓	keep	common word "farmer/peasant"
+一辺倒	keep	common word "one-sided(ness)"
+八重	keep	common sense "double-layered (petals)" shown in examples alongside drama title
+二の次	keep	common word "secondary"
+一声	keep	common word "a word/call"
+百科事典	keep	common word "encyclopedia"
+一足先	keep	common word "a bit ahead"
+一石	merge:一石二鳥	only used in idiom 一石二鳥 in examples
+一派	keep	common word "faction/sect"
+一路	keep	common word "straight(forward)", real dictionary word despite name-like examples
+一貫校	keep	common word "integrated school"
+六号	drop	numeral+counter "No. 6", meaning readable from parts
+一元化	keep	common word "unification"
+万里	drop	Occurrences are the personal name 米原万里; the "vast distance" sense is not in evidence
+五目	keep	common word "assorted (five things)", culinary term
+一筋縄	keep	common idiom "一筋縄ではいかない"
+四隅	keep	common word "four corners"
+七味	keep	common word "seven-spice (blend)"
+一念	keep	common word "single-minded determination"
+二刀流	keep	common word "dual-wielding/two-way"
+七福神	keep	common cultural term "Seven Lucky Gods"
+一所	merge:一所懸命	Frequency comes from the fixed idiom; 一所 alone is not current modern usage
+第二次大戦	keep	established historical name "World War II"
+一蹴	keep	ordinary word "dismiss outright", common in everyday reading
+万馬券	keep	established word for a big-payout bet ticket
+一巡	keep	real word, "one round/cycle"
+一門	keep	real word for clan/school/sect
+四天王	keep	idiomatic term, also figurative "the big four"
+四つ	keep	native counting word (explicit exception)
+一定額	keep	lexicalized "a fixed amount", not mere numeral+counter
+第一線	keep	idiomatic "front line/forefront", meaning beyond parts
+一句	drop	Numeral + counter 句 "one verse/phrase", meaning readable from its parts
+一理	keep	idiomatic "一理ある" = some truth to it
+一本化	keep	common lexicalized word "unification/consolidation"
+一世	keep	lexical meanings: era/generation, idiom 一世を風靡する
+一丁	keep	counter/interjection with established idiomatic uses
+九号	drop	numeral+counter, parallels rule's "七号" example
+一長	merge:一長一短	only occurs as half of the fixed idiom 一長一短
+一休み	keep	ordinary word "a short rest"
+一短	merge:一長一短	only occurs as half of the fixed idiom 一長一短
+万国	keep	established word, "all nations/international"
+百景	keep	established art/culture genre term ("hundred views"), more than literal count
+一本	keep	established meanings beyond counting (judo "ippon", idioms)
+三塁	keep	specific baseball term "third base", lexicalized
+二級	drop	numeral+counter, parallels rule's "三号" example (grade 2)
+九星	keep	named astrological system term, not mere "nine stars"
+三者	drop	numeral+counter, "three parties", meaning readable from parts
+万葉集	keep	famous classical literary anthology, cultural keyword
+一筆	keep	idiomatic uses (一筆書き, 一筆入れる) beyond mere counting
+六道	keep	specific Buddhist doctrinal term, not literal "six roads"
+三女	keep	standard birth-order kinship term (parallel to 長女/次女)
+百聞	merge:百聞は一見にしかず	Not a standalone word; every example is the fixed proverb, which is the obvious lemma
+一般職	keep	established job-classification term
+四重奏	keep	established music term "quartet"
+一等地	keep	lexicalized real-estate term "prime location"
+三輪車	keep	specific object word "tricycle"
+二の足	keep	fixed idiom "二の足を踏む" (hesitate)
+一体化	keep	common lexicalized word "integration/unification"
+二輪	keep	established vehicle-category term (motorcycles/bicycles) vs 四輪
+百戦	keep	real idiom-forming word (百戦錬磨), figurative "many battles" beyond literal count
+二酸化	keep	standard chemistry combining word (二酸化炭素 etc.), not a numeral+counter trivial compound
+千金	keep	idiomatic word (一攫千金), classical meaning "fortune" beyond literal count
+五味	drop	examples are all a person's surname; culinary "five tastes" sense not shown
+十字軍	keep	ordinary history word "crusade"
+一幕	keep	idiomatic extended meaning "an episode/incident"
+二人組	keep	lexicalized word "duo/pair"
+一段落	keep	idiomatic extended meaning "reach a stopping point"
+二者	drop	Numeral + suffix 者 "the two parties", fully compositional
+七輪	keep	real word for charcoal grill
+六十路	keep	established word for "one's sixties," idiomatic suffix use
+一定量	keep	regular compound noun "a certain amount," not a bare numeral compound
+万代	pending-names	used as a place/district name (新潟・万代, 万代バスセンター, 万代公園)
+一人娘	keep	established word "only daughter"
+一生涯	keep	idiomatic word "one's whole life"
+一個人	keep	established word "an individual (person)"
+万華鏡	keep	real word "kaleidoscope"
+七色	keep	idiomatic extended meaning "many-colored/versatile"
+六花	drop	examples are dominated by a character name and shop name; poetic "snowflake" sense not shown
+九重	pending-names	examples show it mainly as a place name (九重山); mixed with person-name and compound-fragment uses
+一般用	keep	ordinary compound "for general use" (一般用医薬品 etc.)
+二塁打	keep	established baseball term "double," lexicalized stat term
+一問	drop	literal "one question," numeral+counter, meaning readable from parts
+一望する	keep	lexicalized verb "command a panoramic view," meaning beyond "one gaze"
+一意	keep	real word "uniqueness," also idiom 一意専心
+十六夜	keep	classical lexical word "izayoi," special reading
+一揆	keep	established historical word "uprising"
+二方	keep	Special reading ふたかた in the fixed honorific お二方, more than numeral + counter
+二の舞	keep	fixed idiom "二の舞を踏む"
+十二支	keep	established word "the twelve zodiac signs"
+一元的	keep	real word "unified/monistic"
+一抹	keep	idiomatic word "a trace/touch of"
+二言	keep	real word 二言 (にごん/ふたこと), as in 一言二言 and 二言目には, lexical not just number+counter
+八丁	keep	established word in 口八丁/八丁味噌, not simple numeral+counter
+八角	keep	lexicalized noun (star anise spice)
+一括り	keep	idiomatic "lump together", established usage
+百均	keep	common slang for 100-yen shop
+八重歯	keep	established noun, not numeral+counter
+億単位	drop	Numeral + suffix 単位, productive and readable from parts (cf. 万単位, 千単位)
+十八号	drop	numeral+counter "No. 18", meaning readable from parts
+十二指腸	keep	specialized lexicalized medical term
+一手間	keep	idiomatic "a bit of extra effort"
+二流	keep	established word "second-rate"
+千里眼	keep	fixed idiom/word "clairvoyance"
+一般道	keep	established compound noun
+一体的	keep	established adjective
+一団	keep	lexicalized noun "a group/party"
+一考	keep	established noun "consideration"
+五穀	keep	fixed cultural term "five grains"
+五重	merge:五重塔	Examples show only the clipped first half of the lexical item 五重塔
+一身	keep	idiomatic "one's whole being", not literal "one body"
+万象	keep	fixed word, part of 森羅万象
+一朝	keep	established classical word "one morning/suddenly"
+一興	keep	established word "a bit of amusement"
+一喝	keep	established word "sharp rebuke"
+七宝	keep	established craft term (cloisonné)
+一翼	keep	idiomatic "part of a role", 翼 not a plain counter
+三が日	keep	fixed seasonal expression like 四季
+三軒	drop	Numeral + counter "three houses"; the place name 三軒茶屋 is a different lemma, not this one
+一輪車	keep	lexicalized noun "unicycle/wheelbarrow"
+十字路	keep	established word "crossroads"
+一審	keep	established legal term "first instance"
+二十号	drop	numeral+counter "No. 20", readable from parts
+一過	keep	established word, used in compounds like 一過性
+四輪車	keep	established noun contrasted with 二輪車
+一目散	keep	fixed idiom "at full dash"
+一利	keep	idiomatic word, part of 百害あって一利なし
+一命	keep	established word "one's life"
+一夕	keep	established classical word "one evening"
+一皮	keep	idiomatic "一皮むける"
+十三号	drop	numeral+counter compound "No. 13", meaning readable from parts
+二人乗り	keep	established compound word meaning riding two-up, more than sum of parts
+一任する	keep	real common verb "to entrust fully"
+五号	drop	numeral+counter compound "No. 5"
+一遍	keep	real word meaning "once", also in idiom 通り一遍
+一座	keep	real word for troupe/company of performers
+一礼	keep	real noun/verb-noun "a bow"
+三頭筋	keep	real anatomical term (triceps), standalone use attested
+万病	keep	real word, common in idiom 万病の元
+アサガオ	keep	common flower word, mistagged as PROPN due to drama title but used as ordinary vocabulary in science example
+エンマ	drop	dictionary only has name entries; examples show use as nickname/named place, not the common deity word
+サーセン	keep	common slang for すみません, mistagged PROPN but dictionary classes it as ordinary
+デク	drop	anime-character nickname (My Hero Academia)/game-item term, low-diversity fan content
+ルシア	drop	fragment of a foreign name (Santa Lucia/person name), dictionary only has name entries
+ロボコン	keep	both-sense name: "robot contest" is everyday usage and appears in the examples (去年のロボコン)
+博史	drop	personal given name, not an institution
+友奈	drop	fictional character's given name
+寂聴	drop	part of a specific person's (瀬戸内寂聴) name
+弁財天	keep	well-known cultural/religious term (one of the Seven Lucky Gods), used in everyday speech about shrines/luck
+釜めし	keep	ordinary food word
+門松	keep	ordinary cultural item word
+電界	keep	ordinary science term (electric field)
+はつらつ	keep	ordinary adjective (lively, vigorous)
+みよし	drop	used as a restaurant/personal nickname in examples, not an ordinary word
+みーんな	merge:みんな	emphatic/elongated spoken-style spelling of みんな
+めっちゃくちゃ	merge:めちゃくちゃ	emphatic spelling variant of an existing lemma, not a separate word
+アイハーブ	drop	brand/website name (iHerb)
+コラボレート	keep	established katakana loan (collaborate)
+スモック	keep	established katakana loan (smock)
+セロー	drop	motorcycle model name (Yamaha Serow)
+デンバー	pending-names	city name (Denver, USA)
+フラスコ	keep	established katakana loan (flask)
+ポスドク	keep	common academic term (postdoc)
+ミョウバン	keep	ordinary chemical/household term (alum)
+一升瓶	keep	ordinary everyday item word
+人心	keep	ordinary word (public sentiment)
+偽札	keep	ordinary word (counterfeit money)
+全頭	keep	ordinary word used of groups of animals (all-head, e.g. 全頭検査)
+凱旋門賞	drop	proper name of a specific horse race, not a nationally famous institution
+半熟卵	keep	ordinary food term
+取り分け	keep	ordinary noun (separate portion)
+取り持つ	keep	ordinary verb (to mediate)
+同地区	keep	standard news-register phrase, understandable and useful vocabulary
+哲人	keep	ordinary literary word (sage/philosopher)
+喜ばす	keep	ordinary verb (to please/delight)
+幼魚	keep	ordinary word (juvenile fish)
+悪あがき	keep	ordinary idiomatic word (futile struggle)
+愁訴	keep	ordinary medical/literary term (complaint, as in 不定愁訴)
+抜き差す	merge:抜き差し	examples all show the noun 抜き差し(する), not a verb 抜き差す
+撒き	keep	real noun form from 撒く, used in compounds like 水撒き/菓子撒き
+板書	keep	real everyday word for writing on a blackboard
+次走	keep	standard horse-racing term, real word
+民族的	keep	real adjectival noun meaning "ethnic"
+水爆	keep	real word for hydrogen bomb
+沈み	keep	real noun form of 沈む, common usage
+海猿	drop	all counts are the manga/drama title; the diver sense is not evidenced
+煌めき	keep	real noun meaning sparkle/glitter
+白鳳	drop	mainly a person's name (sumo wrestler) / facility name, not a common word
+策士	keep	real word for strategist/schemer
+翌月末	keep	real compound meaning end of following month, used in business contexts
+腫れ上がる	keep	real verb meaning to swell up
+訴追	keep	real legal term for prosecution/indictment
+読み上げ	keep	real common noun meaning reading aloud
+負わす	keep	real causative verb form of 負う
+販促品	keep	real common compound noun for promotional item
+連帯感	keep	real word meaning sense of solidarity
+顕現	keep	real word meaning manifestation
+風林	drop	appears only as part of names/titles (風林火山, 風林亭), not a standalone word
+魍魎	keep	real word, standard component of 魑魅魍魎 and used alone
+えごま	keep	real word for perilla plant
+おちょくる	keep	real colloquial verb meaning to tease/mock
+お砂糖	merge:砂糖	honorific-prefixed form of the real lemma 砂糖
+かつる	drop	no clear standalone word; mostly realized as かつ, looks like a lemmatiser artifact
+つねる	keep	real verb meaning to pinch
+早野	drop	person name (figure skating commentator's surname), not a famous institution
+昌磨	drop	person name (figure skater 宇野昌磨), not learnable
+ぺん	drop	nonsense/dialect onomatopoeia fragment, not a real word
+アラビアン	keep	real katakana loan adjective "Arabian", used generally beyond names
+インクルージョン	keep	real loan word, used for gemstone inclusions and inclusive education
+エボ	drop	unclear clipping/name reference, no clear merge target
+カルキ	keep	real word for tap-water chlorine smell/bleach
+キスマーク	keep	real katakana loan compound "kiss mark"
+キボン	drop	old internet slang abbreviation, not a standard learnable word
+クローブ	keep	real loan word for the spice clove
+ドリブン	keep	Established katakana loan ("driven") appearing across varied contexts (イベントドリブン, データドリブン, ドリブンスプロケット); unflagged, so learnable by default, and no single compound lemma to merge into.
+パカッ	keep	real onomatopoeia for a popping-open sound
+プレーヤ	merge:プレーヤー	clipped/variant spelling missing the long vowel mark
