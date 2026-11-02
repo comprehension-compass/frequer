@@ -1,0 +1,99 @@
+# question abalone: abulón is a guess at the intended target; the examples are English-style uses (shell, hotel name), so drop would also be defensible.
+# question aecosan: national Spanish public agency; I judged it not a household name, so dropped it.
+# question aecosan: national public body, but not clearly a household name; dropped.
+# question aesan: Spanish national food-safety agency; I judged it not a household name, so drop, but keep is arguable.
+# question aesan: Spanish national food-safety agency; I judged it not a household name, so it drops.
+# question agar-agar: merged into agar, but the agar-agar spelling may deserve its own entry if the list prefers it.
+# question agar-agar: the target "agar" assumes that lemma is listed; if only the hyphenated form is wanted, keep it instead
+# question agd: Ecuador's Agencia de Garantía de Depósitos; I kept it as a national body, but it may not be a household name.
+# question agd: Ecuadorian deposit-guarantee agency; I judged it not a household name, so dropped.
+# question amarilis: real Spanish plant name, but the examples show mostly names; I judged the real reading under a third and dropped it.
+# question amarilis: the plant word amarilis is real Spanish, but only about 22% of the occurrences are lowercase; I dropped it by the one-third rule.
+# question anti-reflejo: the target "antirreflejo" is my guess at the standard spelling; drop if it isn't listed.
+# question autoenvío: it is mostly a program name (Neora, Autoenvío), but it is a regular Spanish compound, so kept
+# question autoenvío: transparent Spanish compound but used mainly as a brand's program name; dropped
+# question betamethasone: English spelling of betametasona; I treated it as a specialist drug, but merge:betametasona is possible if it counts as a common generic drug.
+# question betamethasone: merged to betametasona as an English spelling of an adapted drug name, but the drug may be too specialist to keep at all
+# question burricleta: coined Spanish word (burro + bicicleta) used mainly as a tourism brand; dropped as a brand.
+# question ccma: the examples mix the Catalan broadcaster with a South African body, so I dropped it
+# question cicaa: international fishery commission (ICCAT); kept as an international body, but it may be specialist
+# question conanp: national body of Mexico; I treated it as a household name like ETECSA, which is borderline
+# question conanp: unclear whether it is a household name nationally in Mexico; kept as a national public body
+# question d-slr: DSLR is a common camera term, but no obvious standard form to merge into; dropped.
+# question dixit: examples are cut off, so it is unclear whether the Latinism (as in "X dixit") or the game title dominates
+# question e-salud: established term (eHealth) but hyphenated e- compound; dropped under the hyphenated-compound rule
+# question espadrill: espadrilles is used in Spanish fashion writing but is not academy-listed; dropped as non-established foreign.
+# question espadrill: espadrilles is used in Spanish fashion writing; I judged it not established enough and dropped it.
+# question eurosai: a specialist international body (audit institutions); kept under the international/regional bodies ruling, but could be read as too specialist.
+# question eurosai: kept as a regional international body, though it is quite specialist.
+# question ex-esposa: unsure whether exesposa is already listed as a lemma; the target may need confirming
+# question fablab: could count as an established loan for "fabrication laboratory"; dropped because most uses are proper names of specific labs
+# question fuel-oil: target spelling fueloil vs fuelóleo/fuel oil unclear; chose the single-word form.
+# question fuel-oil: the academy writes fueloil (also fuelóleo); chose fueloil as the form people write.
+# question fulani: the ethnonym is often capitalised; kept under the lowercase-ethnonym rule
+# question físico-química: fisicoquímico is the standard single-word form; the hyphenated form could also be treated as a hyphenated compound of two listed words and dropped.
+# question físico-química: the hyphenated form is a compound of two listed words (drop), but the adapted standard spelling fisicoquímico exists; I merged it.
+# question guiándono: merged into plain guiar, since guiarse does not fit the examples, which use guiándonos non-reflexively
+# question haver: merged into hacer on the evidence of the examples (haver compras, haver snorkel, haver factura), but about half the tokens are the company name Haver; confirm this is the right target.
+# question ikat: it may be a specialist textile term, but I kept it as an established loan
+# question impi: Mexican IP institute; unclear whether it is a household name, dropped.
+# question impi: could be the Mexican IMPI (Instituto Mexicano de la Propiedad Industrial), but no examples were found; dropped as unverified.
+# question iteso: unclear whether a single regional Jesuit university counts as nationally famous; kept
+# question jers: EU regional body but little known to learners; kept under the regional-bodies ruling.
+# question jers: a European supervisory body that few learners meet; kept under the regional-bodies ruling, but it could be judged too specialist
+# question jid: Junta Interamericana de Defensa is a regional body but not a household name; kept under the regional-bodies ruling
+# question jid: kept as an OEA-affiliated international body; it is less famous than the OEA itself
+# question jitsu: the rule drops the second half of a split loan, but the first half "jiu" was not in this batch, so the target "jiu jitsu" is unconfirmed.
+# question jitsu: the rule drops the second half of a split loan, but the first half (jiu) is not in this batch; the coordinator should check that a jiu jitsu entry exists.
+# question koan: lowercase and plural uses are about 38% of examples, and the rest are the brand Koan; kept because the real reading is over a third
+# question microforma: capitalised in 75% of running text and one example looks cut off, so the real-word reading is not certain; kept as a real library term
+# question minusca: a UN mission rather than a standing international body; dropped as specialist
+# question mirandés: mostly the football club Real Club Deportivo Mirandés; lowercase gentilic (9 of 98) is under a third, so dropped.
+# question novichok: a specialist agent name, or a known term learners will meet in news? I kept it.
+# question nudge: English behavioural-economics term used in Spanish text; judged not yet established enough, so dropped
+# question nudge: an English term used in behavioural-economics writing, but it is mostly a title or brand in these examples; dropped as not yet established.
+# question obraje: a real Spanish word (textile workshop), but the examples are mostly the place name; dropped on the one-third rule
+# question obraje: real word (workshop) versus place name Obraje/Obrajes; lowercase is about 20% of examples, so dropped
+# question onu-mujer: ONU Mujeres is a UN entity that should be kept, but it is unclear whether the list wants it as the unit "ONU Mujeres" or dropped as a hyphenated artefact.
+# question otsc: kept as a regional or international body per the 2026-11-02 ruling, but it is less of a household name than OTAN or OEA.
+# question pime: could be Catalan-style spelling of pyme (pimes) but most uses are the PIME missionary institute; decided drop
+# question pompadour: the hairstyle sense is an established loan, but most examples are names or the diamond cut; I dropped it.
+# question pre-test: pre- is a prefix, not a listed word, so I merged to pretest rather than dropping it as a hyphenated compound.
+# question queen-size: merge target "queen size" assumes the two-word loan is listed; if not, keep as its own loan entry.
+# question queen-size: merged to the multi-word "queen size" as an established hotel loan; drop if the list does not treat it as a loan
+# question ristretto: coffee term could count as an established loan, but most examples are product names, so I dropped it
+# question rojillo: no examples shown; lowercase forms are about 31% of occurrences, borderline for the one-third rule, and capitalised uses may be a surname or place
+# question rojillo: the real-word reading is only about a third of the text, and no examples were shown to check it
+# question rubros: real word (rubro) in the minority of examples but majority are the site name AGRO RUBROS; merged to rubro, drop if the site-name reading dominates
+# question sangiovese: a grape variety written lowercase 27% of the time; I kept it as a common noun, but it could count as a product name.
+# question selae: a state lottery operator is borderline between a national body and a company; kept as a household name in Spain.
+# question selae: state lottery company; kept as a national body that is a household name, though people more often say "Loterías".
+# question senacyt: national science body of Panama; not clearly a household name, so dropped
+# question silex: lowercase real-word reading (sílex) is about 19%, under a third, so dropped; if the count of accent-less sílex is higher than shown, merge:sílex instead.
+# question silex: unaccented spelling of sílex (flint), but lowercase use is under a third of the examples, so I dropped it
+# question snorkling: the target esnórquel is the academy's form, but people also write snorkel; check which form the list uses.
+# question sumak: Sumak Kawsay is an established concept in Spanish, but the target is a multi-word Quechua loan; drop if the coordinator thinks it is too specialist.
+# question t-bone: hyphenated English loan; kept as an established menu term, though the examples are mostly a restaurant name.
+# question taita: counted as a common word, but the examples are about a third a title, a wine brand and a governor; check the real-word share
+# question tie-break: a hyphenated English loan, so it is borderline. I kept it as an established tennis term.
+# question todo-terreno: the target could instead be "todo terreno" as a unit; I chose the academy spelling todoterreno
+# question tpiy: a defunct international tribunal, so it is borderline for the famous-international-bodies rule. I kept it.
+# question tpiy: defunct international tribunal; kept as international body but a specialist acronym, so unsure
+# question treponema: examples show only the Latin binomial Treponema pallidum, so it was dropped as a raw taxon; keep it if a lowercase adapted noun is wanted.
+# question triple-doble: an established basketball noun written with a hyphen; the hyphenated-compound rule says drop, but `merge:triple doble` may be preferable
+# question triple-doble: the term is established in Spanish basketball writing, but the rule drops hyphenated compounds; the coordinator may prefer merge:triple doble
+# question twerk: examples are mixed (English usage vs. established loan); kept as a dance loan
+# question twerk: examples are mostly English-style or names; kept as an established loan, drop if the real-use share is under a third
+# question ujc: a Cuban youth political organisation; dropped as an ordinary organisation, but it may be a household name in Cuba
+# question ujc: kept as a Cuban national body, though it is a youth organisation of the party
+# question unsmil: UN mission for Libya is an international body but not widely known; kept under the international-bodies rule, drop if the developer wants only household names.
+# question unsmil: a UN mission for Libya, so international body or too niche?
+# question uocra: Argentine construction union, very well known in Argentina; dropped as an ordinary organisation, so reconsider if unions count as national bodies.
+# question uocra: a union is borderline between a national body and an ordinary organisation; kept as a household name in Argentina.
+# question upo: could be Universidad Pablo de Olavide (a single university); no examples, so dropped
+# question upo: no examples; the acronym of Universidad Pablo de Olavide is dropped as not nationally famous
+# question userna: username is a web-form English term; merged into username on the assumption it counts as an established loan, drop if the developers disagree.
+# question userna: username is itself a loan but is an English spelling used in the text; merged into username as the written form, coordinator may decide whether it belongs on the list.
+# question valar: lemma mixes Tolkien "Valar" with forms of the real verb valar (valo, valado, valarte); decided for the dominant proper-noun reading
+# question varanda: Portuguese "varanda" mostly, but "varandas" for railings may be a spelling of baranda; dropped as minority Spanish reading.
+# question varanda: Portuguese/Galician word (varanda = balcón/terraza) used in Spanish text; also a restaurant name. Dropped as not established in Spanish.

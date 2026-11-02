@@ -1,0 +1,18 @@
+# lemma	A	reason A	B	reason B
+agd	drop	Ecuadorian agency, not a household name	keep	Ecuador's deposit-guarantee agency, a national body
+haver	merge:hacer	examples show haver as a misspelling of hacer (hacer compras, hacer snorkel)	drop	mixed company name and Portuguese/misspelt form, no clear lemma
+novichok	drop	product name for a nerve agent	keep	Nerve-agent name that appears in Spanish news and is mostly written as a common noun
+sikhs	merge:sikh	plural filed as lemma; lowercase ethnonym	merge:sij	Plural filed as lemma, and Spanish writes the ethnonym "sij"
+anti-falsificación	merge:antifalsificación	prefix written solid	drop	Hyphenated compound of two listed words
+betamethasone	merge:betametasona	English spelling of the adapted generic drug name	drop	English spelling, specialist drug
+ikat	keep	established textile term	drop	foreign textile term, not established
+treponema	keep	adapted organism name	drop	raw Latin taxon in the examples (Treponema pallidum)
+abalone	merge:abulón	English spelling of the Spanish word abulón	drop	hotel or product name, real-word reading under a third of the examples
+autoenvío	drop	mostly a brand's program name	keep	Regular Spanish compound noun, even though the examples are a program name
+chismoseando	merge:chismosear	gerund filed as a lemma	drop	Mostly a column title; the gerund reading is a small minority
+ex-esposa	drop	hyphenated compound of two listed words	merge:exesposa	hyphenated; Spanish writes it as one word
+uocra	drop	Argentine trade union, an ordinary organisation	keep	major Argentine construction union, widely known there
+t-bone	keep	steak cut named on Spanish menus	drop	hyphenated English loan, mostly a restaurant name
+cicaa	keep	international fishery body	drop	specialist international fisheries body
+ujc	drop	ordinary political organisation	keep	Cuban Unión de Jóvenes Comunistas, a household name in Cuba
+ristretto	keep	established coffee term, a loan	drop	mostly product names, lowercase use under a third
