@@ -18,10 +18,18 @@ recount. Each rule writes a flag with its evidence:
 ``shape``      A hyphen, a digit, a whole-word reduplication (*señorseñor*, *hijoshijo*), a consonant followed by a
                word-final l/n/r/d/z the language does not combine (a fragment cut mid-word: *jugabl*, *facilitarl*),
                or a length extreme (*-mente* adverbs exempt).
-``propn_band`` Proper nouns, from the case tally (``frequer/propn.py``). A PROPN-majority lemma that is not a
+``propn_band`` Proper nouns. With ``propn_evidence: case``, from the case tally (``frequer/propn.py``). A PROPN-majority lemma that is not a
                learnable name is capitalised in running text in at least ``propn_drop`` of its occurrences:
                dropped (acts alone). At most ``propn_keep``: kept, no flag. Between the two, or with no case
-               evidence (an all-capitals acronym): flagged.
+               evidence (an all-capitals acronym): flagged. With ``propn_evidence: dictionary`` (a script without
+               case: ja), from the dictionary's proper-noun subtags (:func:`dictionary_verdict`): every entry a
+               person or organisation name drops; every entry a proper noun with a place among them is
+               ``pending-names`` (the learnable-names list decides); a PROPN tag without a proper-noun entry, or
+               another proper noun (brand, era), is a flag.
+
+``number``     (``number_rule``) drops rather than flags: a lemma the app's own number check calls a number it ignores
+               (``frequer/numbers.py``: ``lexicon.lemma_defaults``; 千九百九十八). Core number words, base words
+               (百, *mil*) and counter or date forms (一つ, 二十日) are not dropped, as in the app.
 
 ``propn_usage`` Proper nouns where case is no evidence (German capitalises every noun): every PROPN-majority
                lemma is flagged, with the share of its occurrences right after an indefinite or negative article
@@ -225,6 +233,9 @@ class Candidate:
     pos: str
     forms: Mapping[str, int]
     docs: int
+    #: Mostly met as a multi-token unit (a compound, phrase or construction): exempt from citation and shape,
+    #: whatever its key looks like (ja keys have no spaces: 毎日新聞, 〜として).
+    unit: bool = False
 
 
 @dataclass
@@ -233,6 +244,10 @@ class Flags:
     flags: dict[str, list[tuple[str, str]]] = field(default_factory=dict)
     #: proper nouns the band drops on its own: lemma -> evidence
     propn_drop: dict[str, str] = field(default_factory=dict)
+    #: place names (dictionary evidence) the learnable-names list decides: lemma -> evidence
+    propn_place: dict[str, str] = field(default_factory=dict)
+    #: spelled numbers outside the core number words (the number rule): lemma -> evidence
+    number_drop: dict[str, str] = field(default_factory=dict)
     #: per log2-frequency band: its 2nd percentile of the clumping ratio (context for the fixed threshold)
     diversity_bands: dict[str, float] = field(default_factory=dict)
 
@@ -256,9 +271,37 @@ def shape_evidence(b: str, cfg: JunkConfig, zipf_own: Callable[[str], float] | N
         return f"ends in '{''.join(letters[-2:])}' (cut mid-word?)"
     if len(b) >= cfg.max_length and not b.endswith("mente"):
         return f"length {len(b)}"
-    if len(b) <= 2 and (zipf_own is None or zipf_own(b) < cfg.short_zipf_min):
+    if len(b) <= cfg.short_max_length and (zipf_own is None or zipf_own(b) < cfg.short_zipf_min):
         return f"length {len(b)}"
     return None
+
+
+#: A dictionary entry's proper-noun class (``frequer/propn_dict.py``): person, organization, place, proper
+#: (another proper noun: a brand, product, era) or common (any entry that is not a proper noun).
+NAME_CLASSES = ("person", "organization")
+
+
+def dictionary_verdict(entries: Sequence[str], tagged_propn: bool) -> tuple[str, str] | None:
+    """``(verdict, evidence)`` from a lemma's dictionary entries: ``name`` (drop), ``place`` (the learnable-names
+    list decides), ``review`` (one flag), or None. Only a lemma whose every entry is a proper noun is a name (and
+    then only if tagged PROPN) or a place; a PROPN tag the dictionary does not back (common-noun entries, or none) is a review flag, not a drop."""
+    kinds = set(entries)
+    shown = "/".join(sorted(kinds)) or "no entry"
+    if kinds and "common" not in kinds:
+        if "place" in kinds:
+            return "place", f"dictionary: every entry a proper noun, a place among them ({shown})"
+        if kinds & set(NAME_CLASSES):
+            # Only with the tagger's agreement: the dictionary lacks words it builds from parts (お花 = お + 花,
+            # 数人 = 数 + 人), so looked up whole they show only their name entry.
+            if tagged_propn:
+                return "name", f"dictionary: every entry a proper noun ({shown})"
+            return "review", f"dictionary: every entry a name ({shown}), but not tagged PROPN"
+        return "review", f"dictionary: proper noun, not a person or place ({shown})"
+    if not tagged_propn:
+        return None
+    if kinds - {"common"}:
+        return "review", f"tagged PROPN; dictionary has proper and common entries ({shown})"
+    return "review", f"tagged PROPN; the dictionary {'has only common entries' if kinds else 'lacks it'}"
 
 
 def compute_flags(
@@ -266,9 +309,15 @@ def compute_flags(
     zipf: Callable[[str, str], float] | None, lang: str, kept: frozenset[str],
     propn_share: Callable[[Candidate], tuple[float | None, bool]] | None,
     propn_usage: Callable[[Candidate], float | None] | None = None,
+    propn_dict: Callable[[Candidate], tuple[list[str], bool]] | None = None,
+    number_check: Callable[[str], bool | None] | None = None,
 ) -> Flags:
     """Every enabled rule over ``candidates`` (in rank order)."""
     out = Flags()
+    if cfg.number_rule and number_check is not None:
+        for c in candidates:
+            if number_check(base_of(c.lemma)) is False:
+                out.number_drop[c.lemma] = "a number the app ignores (lexicon.lemma_defaults)"
     on = set(cfg.rules)
     if "diversity" in on and total_docs:
         bands: dict[int, list[float]] = defaultdict(list)
@@ -291,9 +340,11 @@ def compute_flags(
         for c in candidates:
             for f, n in c.forms.items():
                 surface[f.lower()] += n
+                if " " in f:  # a multi-token form, as a language without word spaces writes it (の で: ので)
+                    surface[f.replace(" ", "").lower()] += n
     for c in candidates:
         b = base_of(c.lemma)
-        if "citation" in on and not is_unit(c.lemma) and c.pos not in ("NUM", "PROPN") \
+        if "citation" in on and not is_unit(c.lemma) and not c.unit and c.pos not in ("NUM", "PROPN") \
                 and not (verb_shape and verb_shape.search(b)):
             seen = surface[b.lower()]
             if seen < cfg.citation_max_share * c.freq:
@@ -303,7 +354,7 @@ def compute_flags(
             en, mine = zipf(b, "en"), zipf(b, lang)
             if en >= cfg.foreign_en_min and en - mine >= cfg.foreign_margin:
                 out.add(c.lemma, "foreign", f"wordfreq zipf en {en:.1f} vs {lang} {mine:.1f}")
-        if "shape" in on and not is_unit(c.lemma) and c.lemma not in kept:
+        if "shape" in on and not is_unit(c.lemma) and not c.unit and c.lemma not in kept:
             why = shape_evidence(b, cfg, own)
             if why:
                 out.add(c.lemma, "shape", why)
@@ -315,6 +366,17 @@ def compute_flags(
                 reads = "name-like" if usage < cfg.propn_usage_name_max else "common-noun-like"
                 out.add(c.lemma, "propn_usage", f"proper noun; {usage:.1%} of occurrences after an indefinite "
                                                 f"article or an adjective ({reads})")
+        if "propn_band" in on and propn_dict is not None and c.pos != "NUM":  # 六十四 is also a given name
+            entries, learnable = propn_dict(c)
+            verdict = None if learnable else dictionary_verdict(entries, c.pos == "PROPN")
+            if verdict is not None:
+                kind, evidence = verdict
+                if kind == "name":
+                    out.propn_drop[c.lemma] = evidence
+                elif kind == "place":
+                    out.propn_place[c.lemma] = evidence
+                else:
+                    out.add(c.lemma, "propn_band", evidence)
         if "propn_band" in on and propn_share is not None and c.pos == "PROPN":
             share, learnable = propn_share(c)
             if learnable:
@@ -340,7 +402,7 @@ def acronym_share(forms: Mapping[str, int]) -> float:
 class Routed:
     lemma: str
     rank: int
-    action: str  # keep, drop, review-keep, review-drop, pending, propn-drop
+    action: str  # keep, drop, review-keep, review-drop, pending, pending-names, propn-drop, number-drop
     flags: tuple[tuple[str, str], ...]
 
 
@@ -355,14 +417,18 @@ def route(ranked: Sequence[str], flags: Flags, review: Review | None, review_top
     for rank, lemma in enumerate(ranked, start=1):
         fl = tuple(flags.flags.get(lemma, ()))
         decision = decisions.get(lemma, ("", ""))[0]
-        if lemma in flags.propn_drop:
-            action = "propn-drop"
-        elif decision == "drop":
+        if decision == "drop":
             action = "review-drop"
-        elif decision == "pending-names":
+        elif decision == "pending-names" or (lemma in flags.propn_place and not decision):
             action = "pending-names"  # a place name: decided by the learnable-names list, kept until then
-        elif decision == "keep" or (lemma in targets and decision != "drop"):
+        elif decision == "keep":
+            action = "review-keep"  # an explicit reviewed decision outranks the automatic proper-noun drop
+        elif lemma in flags.propn_drop:
+            action = "propn-drop"
+        elif lemma in targets and decision != "drop":
             action = "review-keep"
+        elif lemma in flags.number_drop:
+            action = "number-drop"  # the app ignores a spelled number past the core words (lemma_defaults)
         elif any(rule in PROPN_REVIEW for rule, _e in fl) or len(fl) == 1 or (review_multi_flag and fl):
             action = "pending" if kept < review_top else ("keep" if len(fl) == 1 else "drop")
         elif len(fl) >= 2:

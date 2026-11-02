@@ -64,6 +64,9 @@ class JunkConfig(Strict):
     #: Word-final letters that, after a consonant, suggest a fragment cut mid-word (the shape rule).
     fragment_finals: str = ""
     max_length: int = 22
+    #: The shape rule tests lemmas up to this length against ``short_zipf_min`` (two letters for es; for ja,
+    #: where two kanji is an ordinary word, one character).
+    short_max_length: int = 2
     short_zipf_min: float = 3.5
     propn_drop: float = 0.9
     propn_keep: float = 0.2
@@ -73,6 +76,15 @@ class JunkConfig(Strict):
     #: ADJ-majority word (from the co-occurrence bigrams); under ``propn_usage_name_max`` reads as a name.
     propn_usage_determiners: list[str] = Field(default_factory=list)
     propn_usage_name_max: float = 0.03
+    #: Where ``propn_band`` takes its evidence: ``case`` (capitalisation in running text, the case tally) or
+    #: ``dictionary`` (the language's dictionary's proper-noun subtags, for a script without case).
+    propn_evidence: Literal["case", "dictionary"] = "case"
+    #: The dictionary ``propn_evidence: dictionary`` reads (``frequer/propn_dict.py``).
+    propn_dictionary: Literal["sudachi"] | None = None
+    #: The number rule (drops, does not flag): a lemma the app's own number check (``frequer/numbers.py``,
+    #: ``lexicon.lemma_defaults``) calls a number it ignores is dropped (千九百九十八): the list keeps the core
+    #: number words, base words and counter or date forms, as the app does.
+    number_rule: bool = False
     #: Single-flag lemmas within this many kept ranks go to review.
     review_top: int = 20_000
     #: Within ``review_top``, send 2+-flag lemmas to review too instead of dropping them: the citation and shape
