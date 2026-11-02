@@ -1,8 +1,15 @@
 # es review shard 2: report
 
 Branch `es-review-shard-2`, based on `c4aacac`. Rules: `review/rules/es-flagged-final.md` (flagged) and
-`review/rules/es-unflagged-final.md` (suspects). Every step's calls finished on the first run: no failed batches
-and nothing left undecided.
+`review/rules/es-unflagged-final.md` (suspects), for both the reviewers and the adjudicator. Every step's calls
+finished: no failed batches and nothing left undecided.
+
+**Adjudication rerun.** The first adjudication ran without `--rules`, so it used the config's default (uplift's
+older prompts, where places go to `pending-names` and there is no institutions rule). At the coordinator's request
+(fixed commands on `full-es` f117a3a) I moved each round's `adjudication/` aside and reran stage 1 from its cache
+to restore the stage-1 `questions.txt`. Agreed, disagreement and query rows came out the same and no new reviewer
+calls were made. I then reran both adjudications with the final rules and the same `queries.tsv`. All files in
+`out/` are from the rerun.
 
 ## Counts
 
@@ -15,43 +22,48 @@ and nothing left undecided.
 | suspects (union of both screeners) | 741 (521 marked by both) |
 | suspects with an example | 670 (90 %) |
 
-| round | agreed | adjudicated (of which queried) | keep | drop | merge | pending-names |
-|---|---:|---:|---:|---:|---:|---:|
-| s2-flagged | 909 | 24 (3) | 82 | 784 | 66 | 1 |
-| s2-unflagged | 683 | 58 (16) | 322 | 230 | 188 | 1 |
+| round | agreed | adjudicated (of which queried) | keep | drop | merge |
+|---|---:|---:|---:|---:|---:|
+| s2-flagged | 909 | 24 (3) | 84 | 782 | 67 |
+| s2-unflagged | 683 | 58 (16) | 331 | 223 | 187 |
 
 Stage 1 agreement before queries: flagged 912 agreed / 21 disagreements; unflagged 699 agreed / 42 disagreements.
+No `pending-names` decisions remain.
 
 ## Gate and queries
 
 I read every agreed merge, `accent-merges.txt` (3 flagged, 10 unflagged, all fine: plain missing or stray
 accents/ñ, and ole/olé is one word), every agreed drop (both rounds) and all unflagged keeps. Queried rows are in
-each round's `queries.tsv`.
+each round's `queries.tsv`. Outcomes under the final rules:
 
-**s2-flagged (3 queried):**
-- `quite` (merge:quitar; noun *quite* in bullfighting): adjudicator kept merge:quitar.
-- `joule` (merge:julio would mix the unit with the month): changed to **drop** (mostly the surname / efecto Joule).
-- `tejidas` (merge:tejido; tejido is a separate noun): changed to **merge:tejer**.
+**s2-flagged (3):**
+- `quite`: stays merge:quitar.
+- `joule`: changed to **keep** (the unit; merging into julio would mix it with the month).
+- `tejidas`: changed to **merge:tejer**.
 
 I considered and did not query `vigesimosegundo` (agreed drop; written as a word 2 times in 578, so the rule on
 ordinals written as digits applies) and `omnium` (mostly the brand Plastic Omnium).
 
-**s2-unflagged (16 queried):**
-- Merges that might hide a second word: `inserto`, `comisar`, `fajar`, `piar`, `lustrar`, `ámplia`, `alicatar`.
-  All upheld (the adjudicator judged the second word a minor share). `vuelto` changed from merge:volver to
-  **keep** (the noun *el vuelto*; the adjudicator asks for a spot-check because there were no examples).
-- Drops that might hide a real common word: `morar`, `diaporama`, `pocito`, `paulista` changed to **keep**;
-  `mensa`, `vivar`, `hmmm`, `transmilenio` stay **drop**.
+**s2-unflagged (16):**
+- Possible second word behind a merge: `inserto`, `lustrar` and `vuelto` became **keep**. `comisar`, `fajar`,
+  `piar`, `ámplia` and `alicatar` were upheld (the adjudicator judged the second word a minor share).
+- Possible real word behind a drop: `morar`, `diaporama`, `pocito`, `vivar`, `hmmm`, `transmilenio` and
+  `paulista` became **keep**; `mensa` became **merge:menso**.
+
+## Changes made by the rerun (old rules → final rules)
+
+- s2-flagged: canyoning drop→keep, cibel pending-names→drop, haka keep→drop, joule drop→keep, namaste drop→keep,
+  pisano drop→keep, post-entrenamiento drop→merge:postentrenamiento, voile keep→drop.
+- s2-unflagged: formo drop→merge:forma, hahaha drop→merge:jaja, hmmm drop→keep, inserto merge:insertar→keep,
+  lustrar merge:lustre→keep, mensa drop→merge:menso, originación drop→keep, rooteado drop→merge:rootear,
+  sardinero pending-names→keep, sencillísimo merge:sencillo→keep, siquiatra merge:psiquiatra→keep,
+  solita merge:solo→merge:solito, ten merge:tener→drop, transmilenio drop→keep, vivar drop→keep.
 
 ## Things to check
 
-- **pending-names** appears as a decision twice, both from the adjudicator: `cibel` (flagged; cut-off form of
-  Cibeles) and `sardinero` (unflagged; El Sardinero). The reviewers never produce it.
-- In its `sardinero, pocito, vivar` question the adjudicator says it "sent places to pending-names", but its
-  decision for `pocito` is `keep`. The decisions file is what I committed. Please confirm `pocito`.
-- In its `transmilenio` question the adjudicator says the institutions rule "is not in the rules". It is: the
-  "Famous institutions that aren't places are keep" bullet in `es-unflagged-final.md`. Its drop treats
-  TransMilenio as a name, not a famous public body. You may want to re-decide this one.
+- `vuelto` had no examples in the sample, so its keep assumes the remaining forms are the noun *el vuelto*.
+- Several of the new keeps (pocito, vivar, sardinero, paulista) rest on "a real common word stays" even though
+  90 %+ of the hits are names. The adjudicator asks whether there is a minimum share (see questions).
 - `out/` matches a generic `out/` line in `.gitignore`, so I committed the outputs with `git add -f`. I did not
   edit `.gitignore`.
 - The lemma `en` (rank 3) is in the flagged queue as `pending` (flag `shape: length 2`). The reviewers kept it.
@@ -170,9 +182,11 @@ The adjudicator's grouped questions are at the end of each list.
 # question videowall: technical loan, unclear whether learners need it
 # question voile: the French fabric term is used in Spanish textiles, but the examples are mostly from translated catalogues
 # question yankee: the English spelling could merge into "yanqui", but the examples are almost all names (Daddy Yankee, the Yankees), so I dropped it
-# question cibel: should named landmarks (plazas, fountains, streets) count as place names for pending-names, and should a broken lemma of a place name go to pending-names or merge into the name?
-# question joule: when the obvious merge target is a homograph lemma (julio, unit vs. month), should the case be merged, kept separately, or dropped?
-# question pisano: do gentilics of minor places (pisano) follow the place-names list or the common-word rules?
+# question canyoning: should a loan that Spanish text really uses but that has a standard native equivalent (barranquismo) stay, or drop in favour of the native word?
+# question joule: when an English unit spelling's adapted Spanish form is a homograph (julio, the month), should it be kept separately as here, or merged anyway?
+# question pending-names: the answer format allows this decision, but the rules never define it, so it was not used.
+# question quite: should a lemma that is a real but rarer noun (quite, "estar al quite") still merge into the verb when nearly all its occurrences are verb forms?
+# question tejidas, proporcionada: should participial adjectives merge into the verb (applied here) or into a -do adjective lemma?
 ```
 
 ### s2-unflagged
@@ -301,16 +315,13 @@ The adjudicator's grouped questions are at the end of each list.
 # question vouchers: voucher is a travel-trade loan; I judged it established enough to keep, but it is borderline
 # question wallets: crypto-context loan, borderline between an established loan and an unestablished foreign word
 # question webapp: Spanish usually writes "aplicación web", so it is unclear whether it is established enough to keep
-# question film, trasferencia: when RAE accepts two spellings, I filed under the spelling usage favours (film, but transferencia); confirm.
-# question machar: for words that only appear inside a multiword expression (papel maché), should the list carry the expression, the fragment, or nothing?
-# question morar, inserto, lustrar, fajar, piar: merges and keeps hide second real words (morado, mora, noun inserto, lustro, fajo, piara); should these get their own entries, and should morar's count be recomputed without English "more"?
-# question niñxs: should inclusive spellings (-x, -e, -@) merge into the standard lemma or drop?
-# question paulista: should gentilics of foreign cities or regions be on the learner list, or decided with the place-names list?
-# question pocito: only 13 of 302 occurrences are lowercase common-noun uses (rest are Pocitos/El Pocito place names). Should place-name occurrences be subtracted from the frequency before ranking, and should regular diminutives like this merge into their base (merge:pozo) instead of being kept as separate lemmas?
-# question sardinero, pocito, vivar: when a place or name dominates and the real common word is marginal (pocito 13 uses, vivar ~7), I sent places to pending-names and dropped the surname; confirm this split.
-# question siquiatra: should RAE-accepted variant spellings merge into the preferred form or stay as separate entries?
-# question solita, sencillísimo: should diminutives and -ísimo superlatives always merge into the base lemma, or keep frequent ones (solito, buenísimo) as their own entries?
-# question ten: when a lemma mixes a place name with forms of a common word, should it merge into the common word or go to pending-names?
-# question transmilenio: the coordinator cites an "institutions rule" for famous public bodies that is not in the rules; does it exist, and does it cover city transit systems?
-# question vuelto: no examples in the sample; keep assumes the residual forms are the noun "el vuelto"; please spot-check.
+# question aqueste, temanita: should archaic or biblical-only words drop even when they are real Spanish words?
+# question hmmm, hahaha: should spelling variants of sounds (hmmm/hmm/mmm, hahaha/jajaja) merge into one canonical interjection, and which forms are listed?
+# question inserto, lustrar, alicatar: when a cluster mixes two real words, each with a real share, there is no split decision; I kept the lemma when its own reading is a learner word, otherwise merged to the majority. Should these be split?
+# question machar: should "papel maché" become its own entry, given that papel is a real word that occurs alone?
+# question niñxs: should inclusive spellings (-x, -e, -@) merge into the standard lemma or drop as non-standard?
+# question paulista, sardinero, vivar, pocito: rare common words, gentilics and diminutives whose occurrences are 90%+ names were kept by the "real common word stays" rule. Is there a minimum share of the real reading below which they drop, and are diminutives wanted as separate entries?
+# question transmilenio: do city-level public transit systems (TransMilenio, Metro de Madrid) count as famous public bodies under the institutions rule?
+# question vacación, trasferencia: should accepted variants of an already-listed word (singular of a plural-only noun, tras-/trans- spellings) always merge into the dominant form?
+# question vuelto: no examples in the sample, so the share of the noun (change) versus the participle is unverified.
 ```

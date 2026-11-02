@@ -105,6 +105,8 @@
 # question videowall: technical loan, unclear whether learners need it
 # question voile: the French fabric term is used in Spanish textiles, but the examples are mostly from translated catalogues
 # question yankee: the English spelling could merge into "yanqui", but the examples are almost all names (Daddy Yankee, the Yankees), so I dropped it
-# question cibel: should named landmarks (plazas, fountains, streets) count as place names for pending-names, and should a broken lemma of a place name go to pending-names or merge into the name?
-# question joule: when the obvious merge target is a homograph lemma (julio, unit vs. month), should the case be merged, kept separately, or dropped?
-# question pisano: do gentilics of minor places (pisano) follow the place-names list or the common-word rules?
+# question canyoning: should a loan that Spanish text really uses but that has a standard native equivalent (barranquismo) stay, or drop in favour of the native word?
+# question joule: when an English unit spelling's adapted Spanish form is a homograph (julio, the month), should it be kept separately as here, or merged anyway?
+# question pending-names: the answer format allows this decision, but the rules never define it, so it was not used.
+# question quite: should a lemma that is a real but rarer noun (quite, "estar al quite") still merge into the verb when nearly all its occurrences are verb forms?
+# question tejidas, proporcionada: should participial adjectives merge into the verb (applied here) or into a -do adjective lemma?

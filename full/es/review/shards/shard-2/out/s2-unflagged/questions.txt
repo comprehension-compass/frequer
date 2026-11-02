@@ -122,15 +122,12 @@
 # question vouchers: voucher is a travel-trade loan; I judged it established enough to keep, but it is borderline
 # question wallets: crypto-context loan, borderline between an established loan and an unestablished foreign word
 # question webapp: Spanish usually writes "aplicación web", so it is unclear whether it is established enough to keep
-# question film, trasferencia: when RAE accepts two spellings, I filed under the spelling usage favours (film, but transferencia); confirm.
-# question machar: for words that only appear inside a multiword expression (papel maché), should the list carry the expression, the fragment, or nothing?
-# question morar, inserto, lustrar, fajar, piar: merges and keeps hide second real words (morado, mora, noun inserto, lustro, fajo, piara); should these get their own entries, and should morar's count be recomputed without English "more"?
-# question niñxs: should inclusive spellings (-x, -e, -@) merge into the standard lemma or drop?
-# question paulista: should gentilics of foreign cities or regions be on the learner list, or decided with the place-names list?
-# question pocito: only 13 of 302 occurrences are lowercase common-noun uses (rest are Pocitos/El Pocito place names). Should place-name occurrences be subtracted from the frequency before ranking, and should regular diminutives like this merge into their base (merge:pozo) instead of being kept as separate lemmas?
-# question sardinero, pocito, vivar: when a place or name dominates and the real common word is marginal (pocito 13 uses, vivar ~7), I sent places to pending-names and dropped the surname; confirm this split.
-# question siquiatra: should RAE-accepted variant spellings merge into the preferred form or stay as separate entries?
-# question solita, sencillísimo: should diminutives and -ísimo superlatives always merge into the base lemma, or keep frequent ones (solito, buenísimo) as their own entries?
-# question ten: when a lemma mixes a place name with forms of a common word, should it merge into the common word or go to pending-names?
-# question transmilenio: the coordinator cites an "institutions rule" for famous public bodies that is not in the rules; does it exist, and does it cover city transit systems?
-# question vuelto: no examples in the sample; keep assumes the residual forms are the noun "el vuelto"; please spot-check.
+# question aqueste, temanita: should archaic or biblical-only words drop even when they are real Spanish words?
+# question hmmm, hahaha: should spelling variants of sounds (hmmm/hmm/mmm, hahaha/jajaja) merge into one canonical interjection, and which forms are listed?
+# question inserto, lustrar, alicatar: when a cluster mixes two real words, each with a real share, there is no split decision; I kept the lemma when its own reading is a learner word, otherwise merged to the majority. Should these be split?
+# question machar: should "papel maché" become its own entry, given that papel is a real word that occurs alone?
+# question niñxs: should inclusive spellings (-x, -e, -@) merge into the standard lemma or drop as non-standard?
+# question paulista, sardinero, vivar, pocito: rare common words, gentilics and diminutives whose occurrences are 90%+ names were kept by the "real common word stays" rule. Is there a minimum share of the real reading below which they drop, and are diminutives wanted as separate entries?
+# question transmilenio: do city-level public transit systems (TransMilenio, Metro de Madrid) count as famous public bodies under the institutions rule?
+# question vacación, trasferencia: should accepted variants of an already-listed word (singular of a plural-only noun, tras-/trans- spellings) always merge into the dominant form?
+# question vuelto: no examples in the sample, so the share of the noun (change) versus the participle is unverified.
