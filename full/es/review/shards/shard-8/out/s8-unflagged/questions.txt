@@ -1,0 +1,94 @@
+# question acidular: acidular is also a real verb (acidulate); lemma tagged ADJ with forms acidulado, so merged
+# question acidular: split by form: acidulado, acidulada, acidulados, aciduladas -> acidulado (the forms are really the adjective; the verb reading is rare)
+# question agremiar: the verb is real, but nearly all forms are the participle/noun agremiado
+# question ambo: no examples were available, so the suit reading could not be checked against place-name uses
+# question amigxs: inclusive -x spelling isn't covered by the rules; I treated it as a variant spelling of amigo.
+# question amigxs: no explicit rule for inclusive -x spellings; merged to amigo as a variant spelling
+# question antifouling: specialist boating term; kept as an established loan
+# question antifouling: used as-is by Spanish-speaking boaters but only a specialist term; dropped
+# question asechar: asechar is a real but rare verb (poner asechanzas), but the forms here are mostly the Latin American use for acechar; no examples were available to check
+# question asechar: the dictionary has a distinct verb asechar (poner asechanzas), but the examples read as acechar, so I merged it.
+# question autoresponder: it may be an established marketing loan; dropped as web jargon
+# question balayage: established enough as a loan is borderline; kept
+# question biochar: English technical loan, kept because it takes Spanish plurals, but biocarbón is the alternative lemma
+# question birdwatching: dropped because examples quote it as foreign, though tourism text uses it
+# question brochado: tagged VERB as a participle of brochar, but all examples are the machining noun "brochado"; kept as a specialist but real technical word, drop could also be defended
+# question calmo: lemma calmo tagged VERB but forms are adjective; kept as adjective
+# question camita: split by form: camitas, Camita (ethnonym, Ham's descendants) -> camita (ethnonym); the diminutive of cama is the main use, so kept as is
+# question casón: most examples are the Casón del Buen Retiro or a hotel name, so the common-word reading may be under a third; kept as a real DLE word
+# question casón: real augmentative of casa, but most examples are the Madrid building
+# question chapuzar: split by form: chapuzó, chapuzar -> chapuzar (verb, "to dip"); chapuza, chapuzas -> chapuza
+# question conexionar: split by form: conexionado, Conexionado -> conexionado
+# question conexionar: split by form: conexionado, conexionada -> conexionado
+# question customizada: customizar is an anglicism; merged to the verb rather than dropped
+# question desgobernar: split by form: desgobierno, Desgobierno -> desgobierno
+# question embozar: split by form: embozo -> embozo
+# question embozar: split by form: embozo, embozos -> embozo
+# question encuenta: some examples are en cuenta and others are encuentra, so there is no single merge target
+# question encuenta: some examples are really "encuentra" (se encuenta, Encuenta tu concesionario), so the target could instead be encontrar
+# question frittata: Italian loan with no academy entry; kept as common on Spanish menus
+# question habitu: habitus is Latin term used in sociology; target kept as its own entry, may deserve drop
+# question habitu: habitus is a specialist Latin term in sociology; if the coordinator drops habitus, drop this too
+# question hiperlink: could equally be dropped as a non-established hybrid
+# question hiperlink: merge target could be hipervínculo or enlace; chose hipervínculo as the closest equivalent
+# question holguinero: demonym of a place; rules cover place names and lowercase ethnonyms but not city demonyms, so drop is a judgment call.
+# question holguinero: demonyms of places are not covered explicitly; decided drop as place-derived proper-ish adjective
+# question iftar: could count as an established religious loan alongside Ramadán; I dropped it because it is not in the dictionary and appears mainly in news contexts.
+# question ignifugar: split by form: ignifugo, ignifuga -> ignifugo
+# question ignifugar: split by form: ignifugo, ignifuga, ignifugas -> ignífugo
+# question jambalaya: dropped as an unestablished dish name; keep would be defensible if dish names count as loans
+# question lacandón: also a place or region name, but the lowercase ethnonym is the main reading
+# question lacandón: most forms are the place-linked "selva lacandona", so the ethnonym reading may be under half
+# question laissez: merge target "laissez faire" assumed as multi-word unit
+# question luciferino: split by form: luciferina, luciferinas -> luciferina
+# question mayora: merged into mayoría based on the "mayora de" examples, though the feminine of mayor is the other possible reading
+# question mayora: the examples show a cut-off "mayoría", so it is merged there rather than into mayor
+# question memorabilia: mixed readings (Xenophon's title vs collectibles); kept as the collectibles loan
+# question mucus: kept as an established medical Latinism; the usual Spanish equivalents are moco and mucosidad, so merge:mucosidad is possible if the coordinator disagrees
+# question mucus: mucosidad or moco are both plausible targets; chose mucosidad as the register matching the health-text examples
+# question muguet: Spanish medical texts use "muguet" for oral thrush, so a merge into "muguete" might be wanted; dropped as French
+# question muguet: it is a French word, but it also occurs in Spanish medical text for oral thrush (RAE lists it); kept on that basis.
+# question nimbar: split by form: nimbada, nimbado, nimbados -> nimbado
+# question noticas: lemma is partly a typo and partly a section title; merged to noticia
+# question omelet: not sure whether the list's standard spelling is omelette or the academy's omelé; chose omelette as the form people write
+# question perfomance: target performance assumed to be on the list as a loan; if not, drop
+# question performance: the merge target performance is not itself on the list as shown; confirm it exists as a lemma.
+# question perseida: astronomical name, kept as a common noun for the meteor shower, but could be read as a proper-noun event
+# question pingpong: RAE writes pimpón, but people write ping-pong; I merged into ping-pong following the list's usage rule.
+# question pingpong: the academy spells it pimpón, but ping-pong is the common written form; merged to pimpón per the adapted-spelling rule
+# question piroxicam: I wrote merge:piroxicam in error; it is a common generic drug so the decision should be keep.
+# question pizcar: split by form: pizcas -> pizca
+# question pizcar: split by form: pizcas, pizco -> pizca
+# question plenum: the examples are HVAC/construction use, not the Spanish assembly sense; dropped as a technical loan
+# question raki: could be kept as an established drink loan like other dish and drink words; dropped as too niche
+# question respingar: split by form: respingo -> respingo
+# question respingar: split by form: respingo, respingos -> respingo
+# question roadtrip: "road trip" is a plausible established loan, but the merge target is a new two-word unit; drop if the coordinator thinks it is not established.
+# question roadtrip: "road trip" is the usual spelling, but unsure it counts as an established loan
+# question rodiano: Star Wars species name, so dropped; "rodiano" could also be read as a demonym of Rodas
+# question salitral: place-name use also present (Salitral), but common word reading likely over a third
+# question salmodiar: split by form: salmodia, salmodias -> salmodia
+# question sectur: Mexican tourism ministry could count as a household-name national body (keep); I decided drop but the rules are unclear on ministry acronyms with this low profile.
+# question sectur: Mexican tourism ministry is a national body; unclear if household name, decided drop
+# question seleccio: could be a truncated selección, but the lowercase form is probably Catalan, so I dropped it.
+# question sicotrópicas: merge target sicotrópico follows the variant spelling in the text; psicotrópico may be the preferred standard form
+# question sinti: could be the Sinti people or a misspelling of "sentí"; examples missing, kept as the ethnonym
+# question sinti: no examples; the lowercase forms may be the ethnonym or a stray "sentí" misspelling, so I kept it as an ethnonym
+# question sobreexplotado: adjective-like participle; merged to the verb per the participle rule
+# question solazar: split by form: solazo -> solazo
+# question spammers: assumes spammer is a listed loan like spam; drop if it is not
+# question spammers: merge target spammer assumed to exist as a listed loan
+# question sudcoreano: both sudcoreano and surcoreano are in use; merged into the academy's surcoreano
+# question sumergiéndote: sumergirse vs sumergir both plausible; chose pronominal since reflexive use here
+# question telo: forms mix telos with telo/telas (Argentine slang telo for motel); merged to telos on the majority forms
+# question tisbita: biblical gentilic (Elías tisbita) is not a place name, but it comes from a place and is only used in that fixed phrase; dropped
+# question tranquillo: counted as a keep for the Spanish noun (coger el tranquillo); the other examples are the Italian/English-style adjective and may be a minority reading
+# question trifecta: mixed examples (political and tech jargon); kept as an established loan, borderline
+# question trifecta: the loan is used in some Latin American political and racing contexts, but the examples read as English; dropped
+# question trídem: real Spanish trucking term, dropped as too specialist
+# question whislist: merged to wishlist on the assumption that it is an established e-commerce loan; drop if it is not
+# question agremiar: split by form: agremiados, agremiadas, agremiado -> agremiado (agremiado is used as a noun meaning union member; the lemma may hold two real words)
+# question bloggera: please confirm that adapted feminine person nouns merge into their own feminine entry (bloguera), not the masculine (bloguero); only gentilics have a ruling.
+# question ceto: no examples were sampled; if lowercase "ceto" is mostly the clipping in "dieta ceto" (keto), it would reach the one-third threshold and should be keep. Please pull a sample.
+# question macero: please confirm the coordinator should split maceros/Macero -> macero, or let the noun's minor share follow macerar.
+# question mucus: please rule on unadapted Latinisms with a Spanish equivalent (mucus vs moco/mucosidad): keep, or merge into the native word.
