@@ -1,0 +1,265 @@
+# es review shard 10: report (round 14, cascade)
+
+Base `04d1ada`; rules taken from `full-es` 0095cdd (the developer's second set of rulings) before any review.py
+stage ran, so every review and adjudication used the updated rules. Screeners and reviewers sonnet, adjudicator opus.
+Every review.py line passed `--rules` and `--decisions keep,drop,merge`.
+
+## Counts
+
+| step | count |
+|---|---|
+| flagged queue (pending) | 842 |
+| flagged with examples | 731 (86.8 %) |
+| flagged: reviewers agreed / to adjudicator | 812 / 30 |
+| flagged: queried at the gate | 8 |
+| flagged final: agreed / adjudicated | 804 / 38 |
+| **flagged final: keep / drop / merge** | **51 / 702 / 89** |
+| unflagged screened | 1,013 (5 batches, 0 failed) |
+| suspects (either screener / both) | 600 / 438 |
+| suspects with examples | 532 (88.7 %) |
+| unflagged: reviewers agreed / to adjudicator | 573 / 27 |
+| unflagged: queried at the gate | 2 |
+| unflagged final: agreed / adjudicated | 571 / 29 |
+| **unflagged suspects final: keep / drop / merge** | **203 / 250 / 147** |
+| unflagged not suspected (stay keep) | 413 |
+
+Accent-only merges read in full: flagged 4, unflagged 11. All merges read in full; drops sampled (about a third
+of flagged drops plus every drop whose reason mentions a fragment, participle or real-word share; half of the
+unflagged drops) and forms checked in the queues for the doubtful ones.
+
+## Queries and outcomes
+
+Flagged (`s10-flagged/queries.tsv`):
+
+| lemma | agreed | why queried | adjudicated |
+|---|---|---|---|
+| ussr | merge:URSS | URSS names a former state: place rule? | drop |
+| megapolis | merge:megápolis | 89 % capitalised, examples show a name | drop |
+| oxfords | merge:oxford | 49 % capitalised, may be Oxford place/university | merge:oxford (all shoe style) |
+| cotija | keep | Cotija is also a Mexican town | keep (all the cheese) |
+| ande | keep | half the forms are 'Ande', possibly subjunctive of andar | keep (ANDE) |
+| patentado | keep | participle of patentar filed as a lemma | keep (participial adjective) |
+| brindado | drop | participle of brindar | drop (all "Brindado por" labels) |
+| hombr | merge:hombría | half the forms are the bare fragment hombr | merge:hombría; adjudicator notes the fragment needs a split |
+
+Unflagged (`s10-unflagged/queries.tsv`):
+
+| lemma | agreed | why queried | adjudicated |
+|---|---|---|---|
+| trasuntar | merge:trasunto | trasunta/trasuntan are the real verb | keep; trasunto forms split off by form |
+| anyo | merge:año | capitalised Anyo may be a name or Catalan | merge:año |
+
+Splits for the coordinator to write: **hombr** (bare hombr/Hombr forms vs hombría), **trasuntar** (trasunto/Trasunto
+forms -> trasunto). Plus any `split by form` lines below.
+
+## Notes
+
+* Example share is above 85 % in both queues.
+* Nothing failed: no failed screener batches, no failed review calls, 0 undecided after adjudication.
+* The unflagged screen flagged 59 % of the pool (600 of 1,013); most suspects were real but rare words and came
+  back keep or merge.
+* Possible inconsistency for the coordinator: specialist-vs-common generic drugs vary (isoniazida, cefalexina,
+  neomicina kept; glipizida, acetazolamida, clobetasol dropped), all under the drugs ruling.
+
+## Question lines: flagged (117)
+
+```
+# question aacc: usually means aire acondicionado, but other senses occur; dropped rather than merged
+# question aapp: abbreviation of "administraciones públicas", common in Spanish bureaucracy, but no single target lemma; dropped.
+# question aicd: obscure regional body, kept under the regional-bodies ruling
+# question all-inclusive: merge target "all inclusive" assumed to be the standard unspaced-hyphen spelling; drop it if the loan is judged not established.
+# question amándono: amar vs. amarse; chose the plain verb since amarse is not a clearly common pronominal verb.
+# question amándono: the -nos clitic fragment of amándonos; amarse is a real pronominal verb but not clearly a common verb in its own right, so merged into amar.
+# question ande: no example sentences were available; kept as the Paraguayan national electricity body (ETECSA precedent), but could also be the verb "andar" in capitals.
+# question ande: no examples in the sample; I assumed the Paraguayan electricity body ANDE, and it could instead be a form of andar
+# question anti-desgaste: the merge target antidesgaste may not be a listed lemma; drop if it is not.
+# question anti-reflectante: the academy form is antirreflejante; antirreflectante is the form people write.
+# question anusim: Hebrew term for forced converts, used in Spanish texts about Sephardic history; dropped as not established in Spanish.
+# question autobahn: it may be established enough to keep as a loan, but the examples are mostly a proper name
+# question avambrazos: real word avambrazo (vambrace), but the examples are game-item names; merged on the word's own reading
+# question avambrazos: the singular avambrazo is a real armour term, but the evidence here is game item names, so I dropped it.
+# question baula: the park-name and personal-name readings are probably more than half of the examples; kept only because "tortuga baula" is a real common noun
+# question baula: tortuga baula is a real common noun, but many occurrences are the park Las Baulas or a surname; kept on the assumption the real reading is about a third or more
+# question bijao: bijao is also a real plant word (hoja de bijao), but the examples are mostly the place name, so I dropped it
+# question blanquita: lowercase use (about 45%) could be a pet or venue name or the diminutive of blanca; dropped as the diminutive is not its own lemma
+# question c-reactiva: nearly all uses are "proteína C-reactiva"; could instead be merged into that multi-word unit
+# question chango: Spanish word chango, and the "Changos" occurrences may be a people or place name; kept because the common-word reading looks at least a third of examples, but it is unclear.
+# question chango: tagged PROPN and capitalised 72%, so the common-word reading (mono, carrito) may be under a third; kept as a real word, but it could be a place or ethnonym.
+# question ciclocros: the list form is written ciclocross; I chose the academy form ciclocrós. Say if the list should use ciclocross instead.
+# question cnea: not sure it is a household name outside Argentina; I kept it as a national body.
+# question co-productor: merged to coproductor assuming the standard spelling
+# question comesa: a regional African trade body is a regional/international body per the institutions ruling, but a learner of Spanish may rarely need it; kept per the rule.
+# question comuníqueno: the "-nos" here is an indirect object ("comuníquenos su experiencia"), so I merged into plain comunicar instead of comunicarse
+# question costo-efectivo: the standard Spanish form is unclear (costo-efectivo vs costoefectivo vs coste-efectivo / rentable); merged to the solid spelling, but dropping could also be defended.
+# question costo-efectivo: the standard Spanish form may be "costoefectivo", "coste-efectivo" or "rentable"; merge target unclear
+# question dncd: Dominican national drug agency; kept only if the coordinator judges it a household name there (as with ETECSA); I dropped it
+# question dncd: kept as a Dominican household-name national body; borderline given low general recognition.
+# question dobla: Lemma holds dobla (doblar) and surnames Doblas; lemma probably should be doblar (a conjugated form filed as lemma); decided keep, but merge:doblar may be better.
+# question duty-free: a hyphenated English loan, kept as established, but the standard Spanish spelling "duty free" may be preferred
+# question esperándono: merged into plain verb esperar since esperarse is not the common sense here
+# question fach: FACh is the Chilean Air Force, a national body that may be a household name in Chile; dropped as minor, reconsider if keeping armed forces.
+# question fach: FACh is the Chilean air force, a military branch rather than a named public body like those listed; kept as a national body of a Spanish-speaking country
+# question fgr: Mexican Fiscalía General de la República may be a household-name national body, but most examples are medical (fetal growth restriction) or file-extension, so dropped
+# question fgr: occurrences mix the Mexican Fiscalía General de la República with fetal growth restriction and a file extension; kept for the institution reading, which may be under a third of the examples
+# question floreal: split by form: floreales -> floral
+# question floreal: the lowercase floreales is probably the adjective floral, but it is under a third of the examples and the rest are a given name, so I dropped it.
+# question gleif: the rules list international bodies as keep, but GLEIF is a niche foundation; dropped as specialist.
+# question guadalupana: examples mostly name "La Guadalupana" (a cantina, a company), so the adjective reading is uncertain; merged as a feminine form
+# question hobbits: merged into hobbit on the plural-as-lemma rule; if hobbit itself is a fictional name that a learner doesn't need, the coordinator may want to drop it
+# question icomos: international NGO body; kept under the international-bodies ruling, but it may count as specialist
+# question idb: it is the English name of the BID; I dropped it rather than merging it into BID.
+# question illegal: the English reading (capitalised) is about half of the examples; merged to ilegal on the evidence of the lowercase uses
+# question intal: it is an IDB-affiliated regional institute, which could count as a regional body, but I judged it too specialist and dropped it.
+# question iupac: international scientific body, but only chemists use the acronym; kept under the international-bodies rule, could be argued as a specialist acronym
+# question iupac: it is an international body, but only specialists know it; I dropped it as a technical acronym.
+# question jesed: borderline religious term vs proper noun; kept
+# question jesed: borderline specialist religious term; kept as a transliterated common noun, though drop is defensible given limited learner use.
+# question judeo-cristiano: the rule drops hyphenated compounds of two listed words, but this has an established one-word spelling, so merged instead
+# question judeo-cristiano: the rules say hyphenated compounds of two listed words drop, but this is a spelling variant of the standard judeocristiano, so it is merged instead
+# question kaiseki: kept as a culinary loan, but it is a specialist term and only about a third of occurrences are lowercase; confirm.
+# question kalanchoe: genus name used as a common plant name; kept as an adapted organism name, but it could be read as a raw Latin taxon.
+# question kitsune: Also a music label (Maison Kitsune); about half of examples are the label, kept as the folkloric loan.
+# question kungfu: standard form may be "kung-fu" or "kung fu"; merge target chosen as kung-fu
+# question kungfu: unsure whether the list's standard spelling is "kung-fu" or "kungfu"; if kungfu is the listed form this should be keep.
+# question leptospira: genus name, but written lowercase and pluralised in Spanish as the bacterium (leptospiras); kept as an adapted organism name.
+# question megapolis: I merged it into megápolis, but the examples may be a proper name, in which case it should drop
+# question megapolis: mostly capitalised and may be a name, merged on the strength of the common word megápolis
+# question memoriam: "in" would need to be merged or dropped in the same way; assumed the phrase "in memoriam" is the unit
+# question micro-momento: merged to "micromomento" as the unhyphenated standard spelling; drop if the developer treats it as marketing jargon.
+# question midis: some examples are the Peruvian ministry MIDIS, a possible national body, but most are a forum name; dropped.
+# question midis: the lemma could be the Peruvian ministry MIDIS, which would be a national body and a keep, but the examples show only a username, so I dropped it.
+# question minke: common name of a whale species (ballena minke); dropped as not established, could be kept as an adapted organism name.
+# question mirepoix: the culinary loan is a real word, but most examples are the town, so I dropped it.
+# question nagua: also a real word (nagua, variant of enagua), but the examples are mostly the place name
+# question narró: lemma is capitalised form of the real verb narrar (preterite); I chose drop because it's a lemmatiser error from a repeated hadith formula, but merge:narrar may be preferred.
+# question netball: English sport name used in Spanish only as a gloss; dropped as not established
+# question netball: it is a sport name that appears in Spanish text; I dropped it as not established.
+# question nft: the only example is hydroponic NFT (nutrient film technique), but the crypto sense may be common elsewhere; dropped on the sample shown
+# question nft: the only example is the hydroponics sense (nutrient film technique), but the crypto sense may be a large share of the 119 occurrences. If it is a third or more, keep it as an ordinary acronym.
+# question nna: it is a common Latin American administrative term (niños, niñas y adolescentes), but I dropped it as a specialist acronym.
+# question no-fumador: hyphenated no + fumador; dropped under the hyphenated-compound rule, though merge:no fumador is arguable
+# question no-violento: the target "no violento" is a multi-word unit; confirm that this is preferred over merging to "violento" (opposite meaning).
+# question ocu: OCU is a national consumer organisation in Spain, but it may count as an "ordinary organisation"; no examples were available to check.
+# question ocu: no examples in the sample; kept on the assumption that it is the Spanish consumer organisation OCU
+# question oxfords: merging into "oxford" assumes the shoe sense is the established loan; if oxford is not otherwise listed, a reviewer may prefer drop
+# question oxfords: unsure whether "oxford" is established enough as a shoe loan to keep; I merged it into oxford, but it could be a drop.
+# question patentado: participle used as an adjective; kept as its own lemma rather than merged into patentar
+# question picardo: "picardo" also means a gentilic or dialect (Picardía), but the name usage dominates, so dropped.
+# question portatodo: many examples are capitalised site categories, but the word is a real Spanish word for a pencil case; kept.
+# question rapper: could be kept as an established loan; merged into rapero as the adapted Spanish form
+# question reguera: real-word reading is about 31% of the examples (lowercase and plural), borderline; kept
+# question riads: riad may not be established enough in Spanish; merged on the assumption that it is
+# question rnm: could instead merge into resonancia magnética, but that is a multi-word target and the acronym is in ordinary use; kept.
+# question rnm: variant of RMN (resonancia magnética nuclear); dropped as a specialist acronym, could merge:RMN if RMN is kept
+# question rosedal: examples show mostly a park or place name in Buenos Aires; kept on the reading rosedal = rose garden, which may be below a third
+# question rosedal: unclear how many examples are the common word versus the Buenos Aires park/neighbourhood; kept as a real common word
+# question sanarno: sanarse exists but is less common than sanar, so I merged into the plain verb sanar.
+# question sapientísimo: kept as a learned superlative; if the developer treats it as regular, it would merge into sabio or sapiente.
+# question snte: kept as a Mexican household-name union under the national-bodies ruling; a union is not clearly an institution.
+# question sorprenderno: the form could also come from plain sorprender (sorprendernos as object), but I picked the pronominal verb.
+# question supermotard: kept as an established loan, though the examples are mostly product listings.
+# question supermotard: specialist loan; kept because it is the established name of a bike type
+# question t-mec: national trade treaty acronym of Mexico; kept as a household-name public term, but it is not strictly an institution
+# question takeover: borderline loan; kept as used in Spanish social media/finance but many examples are event/brand names
+# question tannat: grape variety names are not covered explicitly; kept as a common noun for wine.
+# question terrano: the common word terrano (earthling) is plausible in "terranos", but the product name Horsch Terrano dominates
+# question terreiro: a real term in Afro-Brazilian religion, but the examples are mostly place names or Portuguese; dropped.
+# question tikka: Mix of restaurant names and the dish; kept as the dish term.
+# question transpaletas: plural filed as lemma; kept as the lemmatiser's plural-only entry, could instead merge into transpaleta
+# question tulku: kept as a common noun, but it may count as a specialist term
+# question tulku: kept as a common noun, though the title could be read as a name; the rules don't clearly settle it
+# question uisg: the Unión Internacional de Superioras Generales is an international body, but not a famous one; dropped.
+# question unama: UN mission for Afghanistan; dropped as not a famous international body, but could be kept as an international body.
+# question unifil: UNIFIL is a UN mission rather than a listed international body like ONU or OTAN; kept as an international body, but it could be treated as a specialist acronym and dropped.
+# question unifil: a UN mission rather than a body like ONU or OTAN, so it is borderline for the international-bodies rule; kept as an international body.
+# question vaishnava: borderline between a specialist religious term and a lowercase ethnonym; kept on the ethnonym precedent (hutíes), with no example sentences for ande beyond the casing evidence.
+# question voxel: possibly an established technical loan, dropped as specialist
+# question waorani: ethnonym mostly capitalised, so the lowercase-ethnonym rule applies only partly; kept as a gentilic like embera.
+# question waorani: the ethnonym is mostly capitalised in the sample; I kept it because Spanish writes ethnonyms lowercase, but it could be read as a proper noun.
+# question whig: real reading is mostly the historical party term; kept as common word
+# question ande: split by form: Ande -> andar (title-case forms look like sentence-initial subjunctive or imperative of andar, or "¡Ande!"; there are no examples, so the share is unverified)
+# question hombr: split by form: hombr, Hombr -> hombre (50 bare-fragment occurrences with no example shown; most likely a cut-off hombre, but unverified; hombrse is junk)
+# question iupac: does "regional and international bodies keep" cover specialist scientific unions (IUPAC, IUPAP), or only bodies the general public knows?
+# question micro-momento: should hyphenated prefix spellings of narrow marketing jargon merge into the joined form, or drop as jargon?
+```
+
+## Question lines: unflagged (76)
+
+```
+# question andonita: only occurs in one fictional text (Urantia Book), so I treated it as a name.
+# question antiphishing: no examples were given; I kept it on the basis that phishing is established.
+# question artillar: all forms are artillado/artillada (participle used as adjective/noun); kept the verb lemma, but merge:artillado is possible
+# question avisor: examples are missing; "Aviso" could be the noun or avisar's first person, so merge to aviso is a guess
+# question buggys: buggy is an established loan in Spanish, but its Spanish plural form (buggis vs buggys) is unclear.
+# question cachondear: split by form: cachondeando, Cachondeando, cachondear -> cachondear (verb, about 9 of 119 examples); the rest is the noun cachondeo
+# question cachondear: split by form: cachondeo, Cachondeo -> cachondeo
+# question cancro: the rare variant of cáncer is also used in botany; I kept it as the plant-canker sense.
+# question ceneo: biblical ethnonym, rare outside Bible text; kept as a lowercase ethnonym
+# question cloisonné: established craft term in Spanish jewellery; dropped as a specialist loan
+# question condicionesy: the obvious target would be condición (from "condiciones y"), but treated as a web artefact and dropped
+# question dactilografiar: lemma holds the verb dactilografiar (dactilografiaba, dactilografiadas) and the noun dactilografía; split by form: dactilografiaba, dactilografiadas, dactilografiados -> dactilografiar
+# question dactilografiar: split by form: dactilografía -> dactilografía
+# question daikon: borderline loan; kept as a culinary term Spanish cookbooks use
+# question didgeridoo: borderline whether the loan is established enough in Spanish; kept as a known instrument name
+# question dispo: abbreviation could be disponible or disponibilidad (slang); no examples to check, so I chose disponible
+# question dispo: no examples, so it is unclear whether this abbreviates disponible or disposición; dropped as an unresolved abbreviation
+# question encamar: the forms are participles used as adjectives or nouns, and I merged into encamado; the verb encamar itself is not attested.
+# question encamar: the verb exists, but the examples are all the adjective/participle encamado, so I merged it there.
+# question endarterectomía: specialist medical term but a real, correctly spelt Spanish word, so I kept it (same for esplenomegalia)
+# question enlistó: mostly pronominal (se enlistó), so merge:enlistarse is possible; enlistar chosen because the plain verb also occurs
+# question enun: "en un" is two function words, so I dropped the fragment rather than merging it into a multi-word lemma.
+# question esquinzar: split by form: esquince, esquinces -> esguince
+# question estaci: no examples; estación is the likely target but it could also be estaciones or another word
+# question esterificar: specialist chemistry verb; kept because it is a real inflecting Spanish verb
+# question expiloto: ex- prefix compound; kept as its own entry, could instead merge into piloto if the project prefers
+# question flaccidez: variant of flacidez; merged on the assumption that flacidez is the list's standard form
+# question geociencias: kept as a plural-only field name; merge:geociencia is possible if the coordinator prefers.
+# question heptacloro: a real Spanish chemical noun, but the rules treat specialist substances as drop
+# question imperador: could be a misspelling of emperador, but the examples read as Portuguese-influenced and it is not an established form
+# question lactoferrina: borderline technical term; kept as an adapted protein name
+# question lecha: lecha (fish milt) is a rare real word, but lechita (14) belongs to leche and the capitalised forms look like a name; no examples to verify
+# question lecha: lecha is a real word (fish milt) but the examples are missing and most occurrences are probably names or lechita; dropped on that guess
+# question llamazar: llamazar is a rare real Spanish noun, but every form counted is the surname Llamazares, so it was dropped.
+# question mahabharata: a famous epic, could be treated as a common cultural noun rather than a title
+# question malato: kept as the chemical term; the name/place readings (Malato, Os Malatos) are a minority but not tiny
+# question ministrador: no examples in the sample, so the keep rests only on the word being a listed rare one.
+# question mockup: English loan common in design contexts; may not count as established for a general learner list
+# question mockup: borderline loan; kept as established in design and web Spanish
+# question morocha: if morocho/morocha count as separate lemmas, keep instead of merging
+# question morocha: kept as its own feminine entry; could instead merge into morocho if the list has no morocho entry
+# question mushing: English loan, borderline established; kept because it is the usual term for the sport in Spanish tourism text
+# question mushing: an English loan with limited Spanish use, kept because the examples are Spanish tourism text; the developer may prefer to drop it.
+# question mímate: mimarse is arguably the pronominal verb here; chose plain mimar as mimarse is not clearly common
+# question ofita: ofita is also a real rock name, but the examples are mostly the furniture brand, so below a third and dropped
+# question oscense: town gentilic, not a place name; kept as a common adjective
+# question parejita: diminutives have no ruling; kept as a lexicalised noun, but the coordinator may prefer merge:pareja
+# question peristalsis: DLE also lists peristalsis as a variant; keep may be right if the coordinator prefers that form
+# question peristalsis: kept as an established Spanish medical term, though peristaltismo is the alternative lemma
+# question plumeria: Spanish also writes plumería with an accent; kept as the common flower name, but a merge may be preferred.
+# question predirigido: could be treated as a real adjective (sobre predirigido) rather than a calque
+# question predirigido: it could be kept as a real calque or merged into a verb "predirigir" that is not standard, so I dropped it
+# question pringar: forms are mostly pringado and pringue; kept for the verb, a split by form may be wanted.
+# question pringar: split by form: pringue -> pringue
+# question raquetbol: kept as an adapted spelling; confirm whether raquetball is the preferred standard form
+# question rescribir: some forms (rescrito) may be the separate noun "rescripto"; no examples were available, so I merged into reescribir.
+# question restorán: kept as its own lemma because the academy lists it, not merged into restaurante
+# question rumorar: rumorear is the standard verb; rumorado/rumoró could also be from "rumorarse", so confirm the merge target.
+# question sanguino: only the feminine sanguina is common (blood orange), so the lemma could be argued as sanguina; I kept it as an adjective
+# question servic: no examples; could be a cut-off servicio, but dropped as the fragment is unclear
+# question slid: the lemma is a fragment of "slides"; I merged it into slide, but it is unclear whether slide is established enough in Spanish.
+# question smarttv: smart TV is a product-type term rather than a brand, so I merged it into "smart TV"; drop would also be defensible if the coordinator doesn't want it as a unit.
+# question spironolactone: could be merge:espironolactona as an English spelling of an adapted drug name; dropped as a specialist drug
+# question spironolactone: the target espironolactona may count as a specialist drug and be dropped
+# question sundae: borderline loan; many examples are menu or brand text
+# question sundae: unclear whether this is an established loan or just English in brand names; dropped because the examples are mostly English
+# question tambora: the real-word reading is about a third of the examples (volcano, restaurant and brand names are the rest), so it is borderline
+# question tenedora: could also be treated as a feminine form merging into tenedor, but the holding-company sense is distinct, so I kept it
+# question toples: DLE adapts the loan as toples but the counted text writes topless (111 of 113); merged into the form people write.
+# question trasuntar: lemma holds the noun trasunto (91 of 110) and the real verb trasuntar; merged into trasunto by form -> split by form: trasunta, trasuntan, trasuntar -> trasuntar (verb).
+# question yunga: Yungas is a place name, but yunga is also a common ecoregion and ethnonym term; I treated the place reading as dominant.
+# question yunga: Yungas is a place name, but yunga is also a common ecoregion and ethnonym word; I treated it as a place name.
+# question cachondear: split by form: cachondeo, Cachondeo -> cachondeo
+# question dactilografiar: split by form: dactilografía, Dactilografía -> dactilografía
+# question gabapentin, simvastatin, spironolactone: widely prescribed drugs that laypeople don't buy over the counter. Do they count as "common generic drugs" (merge into the Spanish form, e.g. gabapentina) or as specialist drugs (drop)? I dropped them for now.
+# question trasuntar: split by form: trasunto, Trasunto -> trasunto
+```
