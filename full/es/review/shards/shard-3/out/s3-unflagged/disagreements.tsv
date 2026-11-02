@@ -1,0 +1,59 @@
+# lemma	A	reason A	B	reason B
+laminar	merge:laminado	forms are laminado/laminada, lemma mismatch	keep	real verb and adjective, so the lemma is not clearly broken
+pendientes	keep	earrings sense, plural-only in use	merge:pendiente	plural filed as lemma
+pudrir	keep	real verb, the podra/podras forms are noise	merge:poder	forms are mostly podrá/podrás without accent
+hinchada	merge:hinchar	participle form filed as lemma	merge:hinchado	feminine participle form
+renderizado	keep	noun in common technical use	merge:renderizar	participle of the adapted verb
+aposentar	keep	real verb; noun forms share the entry	merge:aposento	forms are mostly the noun aposento
+alambrar	keep	real verb; alambrada/alambrado share the entry	merge:alambrada	forms are the noun alambrada/alambrado
+cosido	keep	adjective and noun in its own right	merge:coser	participle filed as lemma
+olimpíada	keep	Academy-accepted variant, and it is the form written in all the examples.	merge:olimpiada	missing/misplaced accent variant
+frisar	merge:friso	Forms are almost all friso (the architectural frieze), so the verb lemma is broken.	keep	real verb (frisar en)
+best-seller	merge:bestséller	Hyphenated English spelling of the adapted form.	merge:bestseller	hyphenated English spelling of an adapted loan
+cotilla	drop	Mostly the place name Las Torres de Cotillas; the common word is a minority.	keep	real common word, even if most hits are the place name
+trascurrir	keep	accepted Spanish variant spelling, and it is the form people write	merge:transcurrir	variant spelling of transcurrir
+trasgresión	keep	accepted variant spelling, written this way by people	merge:transgresión	variant spelling of transgresión
+orillar	keep	real verb; orillo is a related real word	merge:orillo	forms are mostly the noun orillo (selvage)
+medido	keep	real participle/adjective	merge:medida	forms are mostly medida, the noun
+ovillar	merge:ovillo	almost all occurrences are the noun ovillo	keep	real verb, though the forms are mostly ovillo
+eslálom	merge:slalom	people write slalom, and the list uses the written form	merge:eslalon	slalom is an unadapted spelling; the adapted Spanish form is eslalon
+cohechar	merge:cohecho	almost all occurrences are the noun cohecho	keep	real verb, with the noun cohecho
+estipendiar	merge:estipendio	almost all occurrences are the noun estipendio	keep	real verb, with the noun estipendio
+aplicante	drop	calque from English, not established Spanish	keep	used in Latin American Spanish for applicant
+oseltamivir	keep	generic drug name, common noun	drop	specialist drug name
+metoprolol	keep	generic drug name, common noun	drop	specialist drug name
+altamar	keep	accepted single-word spelling	merge:alta mar	two words written as one
+innovativo	merge:innovador	Calque; standard Spanish is innovador.	drop	non-standard calque of innovador
+flasheo	drop	niche phone-repair jargon from an anglicism	keep	established tech-slang noun for phone flashing
+diada	keep	used in Spanish for the Catalan national day	drop	Catalan word, mostly the proper name Diada
+preciosísima	merge:preciosísimo	feminine form filed as lemma	merge:precioso	superlative form filed as lemma
+temporariamente	keep	accepted regional variant adverb	merge:temporalmente	nonstandard form of the Spanish adverb
+haloperidol	keep	generic medicine name, ordinary Spanish noun	drop	specialist drug name
+bajísimo	keep	real superlative adjective	merge:bajo	superlative form filed as lemma
+sulforafano	drop	specialist chemical term	keep	real Spanish noun (chemistry), if rare
+parquing	keep	adapted spelling used in Spain	merge:parquin	English spelling of the adapted word
+rrss	drop	abbreviation of a two-word phrase (redes sociales), no single lemma to merge into	keep	common abbreviation for redes sociales, used as an ordinary word
+pomodoro	drop	Italian word; mostly the brand and technique name	keep	"Técnica Pomodoro" is an established loan, though the word is also Italian for tomato
+propria	merge:propio	misspelling of propia	drop	Latin/Italian, not Spanish
+cols	merge:colaborador	abbreviation of colaboradores ("y cols.")	drop	fragment of the abbreviation "y cols."
+uniéndote	merge:unirse	gerund with clitic, used pronominally	merge:unir	gerund with clitic
+antimotines	merge:antimotín	plural filed as lemma	keep	invariable adjective (policía antimotines)
+pladur	drop	brand name	keep	genericised common word for plasterboard
+flanger	keep	audio-effect loan used in Spanish music texts	drop	English audio-effect term, specialist
+portapieza	keep	real compound noun (portapiezas)	merge:portapiezas	Majority plural form, invariable noun
+flashcards	merge:flashcard	plural filed as lemma	drop	English loan not established enough
+exculparse	keep	pronominal verb	merge:exculpar	forms are non-pronominal exculpar and exculpado
+desbarajustar	keep	real verb	merge:desbarajuste	the forms are the noun desbarajuste
+ametrallador	merge:ametralladora	mostly ametralladora, which is the usual word	keep	has its own entry; ametralladora is a separate feminine/related noun
+filgrastim	keep	generic drug name used in Spanish patient text	drop	specialist drug INN, identical to the English name
+quilo	merge:kilo	academy spelling, but people write kilo	keep	Spanish spelling with its own meaning (also chyle); not an English spelling
+extremi	drop	second half of the "in extremis" split loan	merge:in extremis	cut-off fragment of in extremis
+propriedade	merge:propiedad	Portuguese-style misspelling of propiedad	drop	Portuguese word
+videir	merge:vídeo	all occurrences are "video"	merge:video	not a word; all occurrences are video
+azol	keep	real chemical-class noun (azoles, antifúngicos)	drop	chemical-class suffix, specialist term
+desparecido	merge:desaparecido	Misspelling	merge:desaparecer	misspelling of desaparecer/desaparecido
+uníos	merge:unir	Imperative with clitic filed as a lemma	merge:unirse	vosotros imperative with clitic
+bitcoines	merge:bitcoin	plural filed as lemma	merge:bitcóin	plural filed as lemma
+aforar	merge:aforo	forms mostly aforo/aforado, noun aforo is the real entry	keep	real verb, with aforado and aforo as related forms
+backlink	drop	niche SEO jargon, not clearly established	keep	established SEO loan, like marketing and blog
+estragar	keep	real verb; forms are inflected	merge:estrago	most forms are the noun estrago
