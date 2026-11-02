@@ -44,7 +44,24 @@ outranking the automatic proper-noun drop.
 
 The per-band report, samples, merges and questions are in `band-report.md`. Per-lemma actions are in `ja.routed.tsv`.
 
-## The 30k build (2026-11-02)
+## The 40k snapshot (final, 2026-11-02)
+
+The developer chose **40k**, after a final edge cleanup: rounds 14-16 (two reviewers plus the adjudicator)
+over the flagged lemmas left at the edge, a second screen of the unflagged keeps in kept 35,000-40,500
+(80 suspects), the named brand and fragment cases (分過ぎ, のり子, ギデオン, ソースネクスト dropped; ネットフリックス
+kept under the famous-institutions ruling; 七号 kept as an ordinary noun, "No. 7"), and every undecided
+unflagged keep in 39,900-40,500 (439). No lemma within the cut is pending.
+
+`snapshots/ja.json`: **40,301 entries**, the reviewed top 40,000 (rank 40,000: とりとめ, 343 occurrences,
+0.50 per million) plus 301 learnable names (250 counted below the cut, 51 never counted, さいたま filed
+under 埼玉); 307 split multiword names in `learnable-multiword-names.tsv`. Counted through Honeyeater
+`c07c7015` with `honeyeater_lemma_ja` 1.5.0; reference checkout Honeyeater #766 `5a12937`.
+`load_lemmas ja --dry-run` (at #766): 40,301 ranked, 0 skipped, 2,542 unit headwords, 90 homograph keys.
+Actions in the window: 34,606 keep, 5,394 review-keep, 4,652 review-drop, 2,297 place-drop, 1,218
+dictionary name drop, 950 number drop; 560 merges; 10,651 review decisions over 16 rounds. Report:
+`build-40k/report.md`. The 30k build is kept as an artefact in `build-30k/` (its `ja.json`, report, perf).
+
+## The 30k build (2026-11-02, superseded by the 40k)
 
 `ja.json` (in the build directory; the snapshot is not committed): **30,422 entries**, the reviewed
 top 30,000 (rank 30,000: 表せる, 648 occurrences, 0.94 per million) plus 422 learnable names: 329 counted
