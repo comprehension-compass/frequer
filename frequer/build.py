@@ -47,6 +47,8 @@ class BuildOptions:
     #: default: the pinned runtime checkout.
     reference_root: Path | None = None
     write_snapshot: bool = True
+    #: An interim list: place names waiting for the learnable-names list are left out instead of kept.
+    leave_out_pending_names: bool = False
 
 
 def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: BuildOptions) -> dict[str, Any]:
@@ -69,7 +71,11 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
     t0 = time.perf_counter()
     weights = {s.name: s.weight for s in manifest.sources}
     reference = opts.reference_root or runtime.root
-    flt = filters.apply(manifest, result.merged, weights, opts.score, reference)
+    flt = filters.apply(manifest, result.merged, weights, opts.score, reference,
+                        cooc=counts_dir.parent / combos.MERGED)
+    if opts.leave_out_pending_names:  # an interim list: places waiting for the learnable-names list are left out
+        pending = {r.lemma for r in flt.routed if r.action == "pending-names"}
+        flt.ranked = [r for r in flt.ranked if r.lemma not in pending]
     rows = build_rows(result.merged, weights)
     ranked, exclusions, dropped, propn_dropped = flt.ranked, flt.exclusions, flt.excluded, flt.propn_dropped
     timings["rank"] = time.perf_counter() - t0
@@ -87,6 +93,8 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
     if excluded is not None:
         head["exclusions"] = excluded
     head["proper_nouns"] = propn_head
+    if opts.leave_out_pending_names:
+        head["pending_names"] = "left out (interim list; place names wait for the learnable-names list)"
     if flt.flags is not None:
         head["junk"] = junk_report.header_entry(manifest, flt, top_n, REPO_ROOT)
     citation = runtime.backend.lemma_citation if cfg.readings else None

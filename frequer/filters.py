@@ -9,11 +9,12 @@ ranking after the merges and before any filter.
 from __future__ import annotations
 
 import os
+import sys
 from collections.abc import Mapping
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from frequer import compare, exclude, junk, numbers, propn, propn_dict, snapshot
+from frequer import compare, exclude, junk, numbers, propn, propn_dict, propn_usage, snapshot
 from frequer.config import Manifest
 from frequer.counts import Merged
 from frequer.ranking import Row, build_rows, rank_rows
@@ -47,11 +48,12 @@ class Filtered:
 
 
 def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], score: str = "frequency",
-          root: Path | None = None) -> Filtered:
+          root: Path | None = None, cooc: Path | None = None) -> Filtered:
     """Merge, rank and filter ``merged`` (merges change ``merged`` in place, so the snapshot reflects them).
 
     ``root`` is the Honeyeater checkout the app's reference data and checks come from (learnable names, the
-    number check); by default the pinned runtime checkout.
+    number check); by default the pinned runtime checkout. ``cooc`` is the merged co-occurrence file the
+    ``propn_usage`` rule reads its article and adjective evidence from.
     """
     cfg = manifest.language
     jc = cfg.junk
@@ -60,14 +62,16 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
     def fold(target: str) -> str:  # keys are case-folded, so review targets are too
         return target.lower() if cfg.fold_case else target
 
+    # Splits first (a broken lemma holding two words gives up the listed forms), then the review merges.
+    splits = junk.apply_splits(merged, out.review.splits(), fold) if out.review else []
     merges = [junk.Merge(s, fold(t), merged.lemmas[s].freq, "review: merge")
               for s, t in (out.review.merges() if out.review else {}).items() if s in merged.lemmas]
     if jc.accent_ratio:
         taken = {m.source for m in merges}
         vetoed = {k for k, (d, _r) in out.review.decisions.items() if d == "keep"} if out.review else set()
-        merges += [m for m in junk.accent_merges(merged.lemmas, jc.accent_ratio)
+        merges += [m for m in junk.accent_merges(merged.lemmas, jc.accent_ratio, jc.fold_maps)
                    if m.source not in taken and m.source not in vetoed]
-    out.merges = junk.apply_merges(merged, merges)
+    out.merges = splits + junk.apply_merges(merged, merges)
 
     ranked = rank_rows(build_rows(merged, weights), score)
     rank_of = {r.lemma: i for i, r in enumerate(ranked, start=1)}
@@ -109,6 +113,19 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
 
         candidates = [junk.Candidate(r.lemma, r.stats.freq, snapshot.majority(r.stats.pos, "X"), r.stats.forms,
                                      r.stats.df, unit=bool(snapshot.unit_kind(r.stats.kinds))) for r in ranked]
+        usage_of: dict[str, float] | None = None
+        if "propn_usage" in jc.rules and (cooc is None or not cooc.exists()):
+            # The convergence checkpoints run without it: the rule only flags for review, never drops alone.
+            print("propn_usage: no merged co-occurrence file; the rule is skipped", file=sys.stderr)
+        elif "propn_usage" in jc.rules:
+            assert cooc is not None
+            usage_of = propn_usage.load(cooc, jc.propn_usage_determiners,
+                                        {junk.base_of(c.lemma).lower() for c in candidates if c.pos == "PROPN"})
+
+        def usage(c: junk.Candidate) -> float | None:
+            assert usage_of is not None
+            return usage_of.get(junk.base_of(c.lemma).lower())
+
         number_verdicts: dict[str, bool] = {}
         if jc.number_rule:
             number_verdicts, out.number_check = numbers.app_number_verdicts(
@@ -117,7 +134,8 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
             candidates, jc, total_docs=merged.docs, zipf=compare.zipf_lookup(), lang=cfg.code,
             kept=out.exclusions.kept if out.exclusions else frozenset(),
             propn_share=share if needs_case else None, propn_dict=entries if dictionary else None,
-            number_check=number_verdicts.get if jc.number_rule else None)
+            number_check=number_verdicts.get if jc.number_rule else None,
+            propn_usage=usage if usage_of is not None else None)
         listed = out.learnable
 
         def is_listed(lemma: str) -> bool:

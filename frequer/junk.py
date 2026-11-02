@@ -27,6 +27,12 @@ recount. Each rule writes a flag with its evidence:
                ``pending-names`` (the learnable-names list decides); a PROPN tag without a proper-noun entry, or
                another proper noun (brand, era), is a flag.
 
+``propn_usage`` Proper nouns where case is no evidence (German capitalises every noun): every PROPN-majority
+               lemma is flagged, with the share of its occurrences right after an indefinite or negative article
+               or an attributive adjective (names rarely take one: *ein Haus*, *das neue Haus*, but *Berlin*;
+               ``frequer/propn_usage.py``). Like ``propn_band`` it sends the lemma to review whatever its other
+               flags, never drops it alone.
+
 ``number``     (``number_rule``) drops rather than flags: a lemma the app's own number check calls a number it ignores
                (``frequer/numbers.py``: ``lexicon.lemma_defaults``; 千九百九十八). Core number words, base words
                (百, *mil*) and counter or date forms (一つ, 二十日) are not dropped, as in the app.
@@ -35,14 +41,18 @@ recount. Each rule writes a flag with its evidence:
 ``accent_ratio`` times as frequent moves its counts into the lemma that owns the accented spelling: the
 accented lemma itself (*sabiduria* -> *sabiduría*), or the lemma of the accented form (*recibio* -> *recibir*).
 It applies only when exactly one lemma owns the accented spellings, and never to a lemma the review file
-marks ``keep`` (two real words: *secretaria* / *secretaría*). ñ is a letter, not an accent.
+marks ``keep`` (two real words: *secretaria* / *secretaría*). ñ is a letter, not an accent. ``fold_maps``
+replaces the diacritic strip with explicit letter maps (German: *fur* and *fuer* -> *für*; ß stays a letter
+except in the ``ss`` transliteration). A plain spelling that is itself the standard one (its lemmas together
+outnumber the accented spelling: *bewusst* against the old *bewußt*) never merges.
 
 **Routing.** A lemma with 2+ flags is dropped (or, with ``review_multi_flag``, reviewed within ``review_top``). One with exactly 1 flag goes to review if it ranks within
 ``review_top``, and so does any lemma in the proper-noun middle band whatever its other flags. English
 acronyms and names collect correlated flags (foreign, shape, proper noun), so those flags are not independent
 evidence. The reviewed decision is committed in ``corpora/review/<code>.tsv`` (``lemma, decision,
-reason``; decision ``keep``, ``drop``, ``merge:<lemma>`` or ``pending-names``: a place name left to the
-learnable-names list, kept until it arrives) and applied by the build; a merge target counts as reviewed. An unreviewed single flag
+reason``; decision ``keep``, ``drop``, ``merge:<lemma>``, ``pending-names``: a place name left to the
+learnable-names list, kept until it arrives, or ``split:<lemma>|<other>=<form>,...``: a broken lemma holding two
+words, whose listed forms go to ``<other>`` and the rest merge into ``<lemma>``, :func:`apply_splits`) and applied by the build; a merge target counts as reviewed. An unreviewed single flag
 is kept and reported as pending. A ``merge:`` decision moves the counts like an accent merge.
 """
 
@@ -62,7 +72,9 @@ from frequer.config import MANIFEST_DIR, JunkConfig
 from frequer.counts import LemmaStats, Merged
 from frequer.snapshot import unit_kind
 
-RULES = ("diversity", "citation", "foreign", "shape", "propn_band")
+RULES = ("diversity", "citation", "foreign", "shape", "propn_band", "propn_usage")
+#: Rules that send a lemma to review within ``review_top`` whatever its other flags.
+PROPN_REVIEW = ("propn_band", "propn_usage")
 VOWELS = set("aeiouáéíóúüàèìòùâêîôûäëïöy")
 
 
@@ -88,11 +100,23 @@ def is_unit(lemma: str) -> bool:
 class Review:
     path: Path
     sha256: str
-    #: lemma -> (decision, reason); decision is keep, drop or merge:<lemma>
+    #: lemma -> (decision, reason); decision is keep, drop, pending-names, merge:<lemma> or
+    #: split:<lemma>|<other>=<form>,<form>... (the listed forms go to <other>, the rest merge into <lemma>)
     decisions: dict[str, tuple[str, str]]
 
     def merges(self) -> dict[str, str]:
-        return {k: d.split(":", 1)[1] for k, (d, _r) in self.decisions.items() if d.startswith("merge:")}
+        out = {k: d.split(":", 1)[1] for k, (d, _r) in self.decisions.items() if d.startswith("merge:")}
+        out.update({k: default for k, (default, _moves) in self.splits().items()})
+        return out
+
+    def splits(self) -> dict[str, tuple[str, dict[str, frozenset[str]]]]:
+        """``source -> (default target, {other target: forms})`` for every ``split:`` decision."""
+        out: dict[str, tuple[str, dict[str, frozenset[str]]]] = {}
+        for k, (d, _r) in self.decisions.items():
+            if d.startswith("split:"):
+                default, *moves = d.split(":", 1)[1].split("|")
+                out[k] = (default, {t: frozenset(f.split(",")) for t, f in (m.split("=", 1) for m in moves)})
+        return out
 
 
 def review_path(lang: str, root: Path = MANIFEST_DIR) -> Path:
@@ -110,8 +134,11 @@ def load_review(lang: str, root: Path = MANIFEST_DIR) -> Review | None:
             continue
         parts = line.split("\t")
         decision = parts[1].strip() if len(parts) > 1 else ""
-        if decision not in ("keep", "drop", "pending-names") and not decision.startswith("merge:"):
-            raise SystemExit(f"{path}:{n}: decision {decision!r} is not keep, drop, pending-names or merge:<lemma>")
+        ok = decision in ("keep", "drop", "pending-names") or decision.startswith("merge:") or (
+            decision.startswith("split:") and "|" in decision and "=" in decision)
+        if not ok:
+            raise SystemExit(f"{path}:{n}: decision {decision!r} is not keep, drop, pending-names, merge:<lemma> "
+                             "or split:<lemma>|<other>=<forms>")
         decisions[parts[0]] = (decision, parts[2].strip() if len(parts) > 2 else "")
     return Review(path, hashlib.sha256(raw).hexdigest(), decisions)
 
@@ -127,26 +154,51 @@ class Merge:
     evidence: str
 
 
-def accent_merges(lemmas: Mapping[str, LemmaStats], ratio: float) -> list[Merge]:
+def folds(maps: Sequence[Mapping[str, str]]) -> list[Callable[[str], str]]:
+    """The plain spellings of a word: ``strip_accents``, or one function per letter map (``fold_maps``)."""
+    if not maps:
+        return [strip_accents]
+
+    def translator(table: dict[int, str]) -> Callable[[str], str]:
+        return lambda text: text.translate(table)
+
+    return [translator(str.maketrans(dict(m))) for m in maps]
+
+
+def accent_merges(lemmas: Mapping[str, LemmaStats], ratio: float,
+                  fold_maps: Sequence[Mapping[str, str]] = ()) -> list[Merge]:
     """Unaccented lemmas whose accented spelling is >= ``ratio`` times as frequent, owned by exactly one lemma."""
+    fns = folds(fold_maps)
+
+    def accented(text: str) -> bool:
+        return any(fn(text) != text for fn in fns)
+
     owners: dict[str, Counter[str]] = defaultdict(Counter)  # accented spelling (lower) -> lemma -> count
     for lemma, st in lemmas.items():
         if is_unit(lemma):
             continue
         b = base_of(lemma)
-        if strip_accents(b) != b:
+        if accented(b):
             owners[b.lower()][lemma] += st.freq
         for form, n in st.forms.items():
             f = form.lower()
-            if strip_accents(f) != f:
+            if accented(f):
                 owners[f][lemma] += n
-    by_plain: dict[str, list[str]] = defaultdict(list)
+    by_plain: dict[str, set[str]] = defaultdict(set)
     for spelling in owners:
-        by_plain[strip_accents(spelling)].append(spelling)
+        for fn in fns:
+            if fn(spelling) != spelling:
+                by_plain[fn(spelling)].add(spelling)
+    # Every lemma spelt plainly the same way, case aside (bewusst + Bewusst): when they together outnumber the
+    # accented spelling, the plain one is the standard spelling (bewusst, not the old bewußt) and nothing merges.
+    plain_total: Counter[str] = Counter()
+    for lemma, st in lemmas.items():
+        if not is_unit(lemma):
+            plain_total[base_of(lemma).lower()] += st.freq
     out: list[Merge] = []
     for lemma, st in lemmas.items():
         b = base_of(lemma)
-        if is_unit(lemma) or strip_accents(b) != b or b.lower() not in by_plain:
+        if is_unit(lemma) or accented(b) or b.lower() not in by_plain:
             continue
         targets: Counter[str] = Counter()
         for spelling in by_plain[b.lower()]:
@@ -155,7 +207,7 @@ def accent_merges(lemmas: Mapping[str, LemmaStats], ratio: float) -> list[Merge]
         if len(targets) != 1:
             continue
         (target, n), = targets.items()
-        if n >= ratio * st.freq:
+        if n >= ratio * st.freq and plain_total[b.lower()] < n:
             out.append(Merge(lemma, target, st.freq, f"accented spelling {n:,} vs {st.freq:,}"))
     return sorted(out, key=lambda m: -m.source_freq)
 
@@ -169,6 +221,45 @@ def _merge_stats(into: LemmaStats, other: LemmaStats) -> None:
     into.parts.update(other.parts)
     into.readings.update(other.readings)
     into.kinds.update(other.kinds)
+
+
+def apply_splits(merged: Merged, splits: Mapping[str, tuple[str, dict[str, frozenset[str]]]],
+                 fold: Callable[[str], str] = lambda t: t) -> list[Merge]:
+    """Carve each split's listed forms out of its source into their own lemma (before the merges).
+
+    The forms move exactly; the source's other counts (documents, POS, sources, parts, unit kinds) move in
+    proportion to the forms' share of its frequency. The rest of the source then merges into the split's default
+    target through :meth:`Review.merges`.
+    """
+    done: list[Merge] = []
+    for source, (_default, moves) in splits.items():
+        src = merged.lemmas.get(source)
+        if src is None or not src.freq:
+            continue
+        for target, forms in moves.items():
+            moved = Counter({f: c for f, c in src.forms.items() if f in forms})
+            n = sum(moved.values())
+            if not n:
+                continue
+            share = n / src.freq
+            part = LemmaStats(freq=n, df=round(src.df * share), forms=moved)
+            for name in ("by_source", "pos", "parts", "kinds"):
+                whole: Counter[Any] = getattr(src, name)
+                cut = Counter({k: round(v * share) for k, v in whole.items() if round(v * share)})
+                getattr(part, name).update(cut)
+                whole.subtract(cut)
+                setattr(src, name, +whole)
+            src.freq -= n
+            src.df -= part.df
+            for f in moved:
+                del src.forms[f]
+            t = fold(target)
+            if t in merged.lemmas:
+                _merge_stats(merged.lemmas[t], part)
+            else:
+                merged.lemmas[t] = part
+            done.append(Merge(source, t, n, f"review: split ({', '.join(sorted(moved))})"))
+    return done
 
 
 def apply_merges(merged: Merged, merges: Sequence[Merge]) -> list[Merge]:
@@ -278,6 +369,7 @@ def compute_flags(
     propn_share: Callable[[Candidate], tuple[float | None, bool]] | None,
     propn_dict: Callable[[Candidate], tuple[list[str], bool]] | None = None,
     number_check: Callable[[str], bool | None] | None = None,
+    propn_usage: Callable[[Candidate], float | None] | None = None,
 ) -> Flags:
     """Every enabled rule over ``candidates`` (in rank order)."""
     out = Flags()
@@ -336,6 +428,14 @@ def compute_flags(
                     out.propn_place[c.lemma] = evidence
                 else:
                     out.add(c.lemma, "propn_band", evidence)
+        if "propn_usage" in on and propn_usage is not None and c.pos == "PROPN":
+            usage = propn_usage(c)
+            if usage is None:
+                out.add(c.lemma, "propn_usage", "proper noun; no article or adjective evidence")
+            else:
+                reads = "name-like" if usage < cfg.propn_usage_name_max else "common-noun-like"
+                out.add(c.lemma, "propn_usage", f"proper noun; {usage:.1%} of occurrences after an indefinite "
+                                                f"article or an adjective ({reads})")
         if "propn_band" in on and propn_share is not None and c.pos == "PROPN":
             share, learnable = propn_share(c)
             if learnable:
@@ -389,7 +489,7 @@ def route(ranked: Sequence[str], flags: Flags, review: Review | None, review_top
             action = "review-keep"
         elif lemma in flags.number_drop:
             action = "number-drop"  # the app ignores a spelled number past the core words (lemma_defaults)
-        elif any(rule == "propn_band" for rule, _e in fl) or len(fl) == 1 or (review_multi_flag and fl):
+        elif any(rule in PROPN_REVIEW for rule, _e in fl) or len(fl) == 1 or (review_multi_flag and fl):
             action = "pending" if kept < review_top else ("keep" if len(fl) == 1 else "drop")
         elif len(fl) >= 2:
             action = "drop"

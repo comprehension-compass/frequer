@@ -8,8 +8,30 @@ language:
   lowercase_forms: false
   readings: true
   host_tokens: skip  # an ending is part of its host word: count the word once (2026-10-24)
-  top_n: 50000
+  top_n: 30000  # 2026-11-01 (developer): cutoff from the per-band report (full/ja/band-report.md)
   forms_kept: 5
+  append_learnable_names: true  # 2026-11-01 (developer): learnable names outside the cut follow it
+  # Junk rules (2026-11-01 developer standard; frequer/junk.py). No accent merges and no capitalisation band:
+  # the script has neither. Proper nouns take Sudachi's 固有名詞 subtags (人名 / 組織名 drop, 地名 pending the
+  # learnable-names list, a PROPN tag without a dictionary proper noun is reviewed, not dropped: 返品, メンズ).
+  # No foreign rule: lemma_pattern admits no Latin script, and katakana loans are Japanese words.
+  junk:
+    rules: [diversity, citation, shape, propn_band]
+    # HPLT documents are long (~730 tokens): real words clump far more than in es pseudo-documents. Under
+    # 0.2 of the random spread is almost all spam, fandom names and products; 0.2-0.3 still holds real words.
+    diversity_max_clumping: 0.2
+    propn_evidence: dictionary
+    propn_dictionary: sudachi
+    # A verb, i-adjective or copula citation form can be rarer than its inflected surfaces (会い, 怖かっ).
+    verb_citation_pattern: '[うくぐすつぬぶむるいだ]$'
+    short_max_length: 1  # two kanji is an ordinary word; a lone character with a low wordfreq zipf is suspect
+    short_zipf_min: 3.5
+    review_top: 30000
+    review_multi_flag: true  # citation + shape also catch clipped real words (掘): reviewed for a merge
+    # 2026-11-01 standard (docs/DECISIONS.md): the app's own number check decides spelled numbers, and the
+    # reviewed learnable-names list decides every pending place once it is final (PLAYBOOK §Place names).
+    number_rule: true
+    names_final: false  # true once reference/learnable-names/<lang>.json in --reference-root is final
 hygiene: {min_chars: 6, max_chars: 400, min_alpha_ratio: 0.6, gap_filter: true, langid_min_prob: 0.5}
 parts: 100
 checks:
