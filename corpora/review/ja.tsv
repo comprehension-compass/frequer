@@ -2969,3 +2969,1374 @@ NTT東日本	keep	major nationwide telecom company, institution
 首都高	drop	named facility (a specific expressway system)
 プローブ	keep	common technical/scientific word "probe"
 六本木駅	drop	named facility (a specific train station)
+日本	pending-names	country name
+付	keep	real suffix/word meaning "attached/dated"
+東京	pending-names	city name
+アメリカ	pending-names	country name
+セックス	keep	ordinary word, widely used
+スレ	keep	lexicalized word for internet thread
+熟女	keep	ordinary word for mature woman, not spam-only jargon
+願いし	merge:願う	broken conjugated form of 願う (お願いします)
+フェラ	keep	common slang term, used beyond spam-only jargon
+イタリア	pending-names	country name
+う	drop	meaningless bound kana fragment
+インド	pending-names	country name
+台湾	pending-names	region/country name
+イン	drop	meaningless bound fragment, no clear standalone word
+マン	drop	bound clipping, no clear single-word sense
+ロシア	pending-names	country name
+ド	drop	meaningless bound kana fragment
+症	drop	bound suffix, never stands alone as a word
+オーストラリア	pending-names	country name
+コ	drop	meaningless bound kana fragment
+書士	drop	always bound to profession prefix (司法書士 etc.), not standalone
+有	keep	standalone shorthand for "available/present" in common usage
+重	drop	bound counter morpheme (一重, 二重), not standalone word
+剤	drop	bound suffix meaning "agent/medicine", not standalone
+嬢	keep	dictionary noun/title with its own sense (お嬢, 受付嬢, 風俗嬢); adult examples are ordinary reading
+立	drop	bound morpheme (国立, 私立), not standalone word
+北朝鮮	pending-names	country name
+長	keep	standalone word meaning "chief/head"
+連	drop	no standalone use evidenced; counts look like pieces of 連-compounds, troupe sense marginal
+展	keep	real nominal head meaning "exhibition" (〜展), evidenced in example
+ぁ	drop	meaningless kana fragment
+電	drop	bound/ambiguous fragment, unclear single word
+マ	drop	meaningless kana fragment
+ぃ	drop	meaningless kana fragment
+群	keep	standalone word meaning "group/crowd" (群を抜く)
+込む	keep	legitimate common verb meaning "be crowded/packed into"
+スペイン	pending-names	country name
+ニューヨーク	pending-names	city name
+パリ	pending-names	city name
+活	keep	nominal head of the productive 〜活 pattern plus idiom 活を入れる
+香港	pending-names	country/region name (Hong Kong)
+ソウル	keep	examples show use as loanword "soul" (music/product names), not clearly the city
+ロンドン	pending-names	city name (London)
+ロリ	keep	established slang word (ロリ系, ロリ服), not just spam
+英国	pending-names	country name (UK)
+ベトナム	pending-names	country name (Vietnam)
+辛	merge:辛い	adjective stem cut off in 辛さ/辛麺/激辛; base lemma obvious
+激	drop	bound intensifying prefix, not a standalone word
+歴	drop	bound morpheme, always part of compounds like 経歴/歴史
+やすさ	merge:やすい	nominalised form of the ～やすい adjective (使いやすさ, 歩きやすさ)
+記	drop	bound morpheme, no standalone sense evidenced
+香	drop	counts and readings dominated by personal-name use; no example of the fragrance sense
+史	keep	real nominal head "history of X", common sense shown in examples
+時半	keep	frequent transparent time unit "half past"; useful as the lemmatiser writes it
+チ	drop	single kana fragment, no evidence of standalone word
+カー	drop	fragment/onomatopoeia-like variants, no clear standalone "car" usage
+フィリピン	pending-names	country name (Philippines)
+ッ	drop	orthographic glottal-stop mark, not a word
+ラ	drop	single stray kana, no evidence of standalone word use
+厨	keep	modern net-slang word for obsessive fan, shown clearly in examples
+希	drop	counts dominated by name reading のぞみ; common "rare" sense barely present
+たん	keep	real word (痰, phlegm/sputum)
+こなし	merge:こなす	continuative form of verb こなす, shown in all examples
+二点五	drop	spelled-out decimal number, not a core number word
+シンガポール	pending-names	country name (Singapore)
+咲	drop	mostly a name component (character/shop names), not a standalone noun
+正義	keep	common word "justice"
+来	drop	bound prefix/stem (来年 etc.), not standalone in these counts
+安	drop	bound stem of 安い/激安-type compounds, no examples to fix a merge target
+爆	keep	recognized net-slang interjection "(爆)" meaning laughing/joking, shown in example
+コン	drop	fragment/suffix clipping (パソコン etc.), not standalone
+単	drop	mostly bound in compounds (単純, 単位 etc.); traditional ひとえ sense too marginal here
+様る	merge:様	lemmatizer artifact; real word is 様 (honorific/suffix)
+関	drop	odd/inconsistent readings suggest mis-segmented compound fragments (関係, 関東, etc.)
+彩	drop	examples are shop names; common "color" sense (いろ/いろどり) is marginal in counts
+射る	keep	genuine dictionary verb "to shoot (an arrow)"
+トート	keep	established katakana loan used alone for tote bag in the examples
+著	keep	standard word/suffix meaning "written by", shown in examples
+セブン	keep	genericized ordinary word for 7-Eleven convenience store, shown in examples
+優	keep	common senses (grade "excellent", gentleness, actor) outweigh name uses
+京	drop	spelled number beyond core list (京=10^16), not 百/千/万/億/兆
+好	drop	bound morpheme, no standalone use shown
+レイン	drop	no standalone sense evidenced; bound in レインコート-type compounds or a name
+性的	keep	common adjective "sexual", everyday use
+伝	keep	real word meaning legend/tradition/attributed-work, standalone dictionary sense
+スイス	pending-names	country name
+自	drop	bound morpheme ("自-"), not standalone in modern Japanese
+児	keep	nominal head for "child" (虐待児, 一児), real word sense
+片	keep	real standalone word meaning "fragment/piece"
+ポ	drop	no discernible standalone meaning, likely noise
+オランダ	pending-names	country name
+ノー	keep	established loanword "no"
+医	keep	real nominal "doctor/medicine" heading 〜医 compounds
+ローマ	pending-names	city name
+洋	keep	real word meaning "West/ocean", used in 和洋 etc.
+上海	pending-names	city name
+ワンピ	merge:ワンピース	clipped form of ワンピース, clear from dress examples
+ろ	drop	bare kana fragment, no meaning
+すっ	drop	sentence-final sound/copula fragment, not a word
+バイオ	keep	established loan prefix/word "bio-"
+トルコ	pending-names	country name
+グラン	drop	only attested as part of facility/proper names, not a standalone word
+諸	drop	bound prefix (諸国/諸々), no clear standalone use shown
+減	keep	real noun "decrease", used after figures (5%減) and in compounds
+眉	keep	real standalone word "eyebrow"
+特	drop	bound prefix (特大, 特売) and clipped product names; no nominal standalone use
+ぅ	drop	bare kana fragment, no meaning
+築	keep	real functional word (築30年 etc.)
+イヤー	drop	only attested in compounds (イヤーカップ etc.), not standalone
+インドネシア	pending-names	country name
+吉	keep	standalone fortune word ("〜すると吉")
+一昨	drop	bound prefix split from both 一昨年 and 一昨日; no single obvious merge target
+東方	drop	examples are all proper-noun senses (franchise/character title), common "orient" sense not shown
+とんでも	merge:とんでもない	clipped stem; all examples show とんでもない
+ムーン	drop	examples are all proper nouns (character/shop/building names), common "moon" sense not shown (月 is the ordinary word)
+義	keep	real word meaning justice/duty
+一律	keep	common word "uniform/across-the-board"
+リース#wreath	keep	established loanword sense "wreath" (decorative)
+メキシコ	pending-names	country name
+剛	drop	readings and examples are personal/product names; strength sense not in everyday use here
+大腿	merge:大体	examples show だいたい "roughly", not the thigh kanji; broken lemma for 大体
+さっ	drop	kana fragment of さっと/さっさと or the name 颯; no standalone word
+洞	drop	no standalone use evidenced; pieces of 洞窟/空洞-type compounds
+見	drop	lone bound kanji, no example showing standalone use; not a dictionary word by itself
+三点五	drop	spelled decimal number, not a core number word
+本サイト	drop	compositional boilerplate "this site" from legal/template text, not a learnable lexeme
+ヒアルロン	merge:ヒアルロン酸	clipped from ヒアルロン酸 in all examples
+ーー	drop	punctuation/dash, not a word
+スズキ	keep	major household-name corporation (Suzuki Motor) used as institution
+武	drop	dominant usage is as a character/person name, no common-word evidence
+文明	keep	ordinary word "civilization"
+ぱ	drop	bare mora, not a word
+平野	keep	common noun "plain" shown in examples, not just the surname/place sense
+陽	keep	common word (sun/yang) shown in idiom "陰に陽に"
+一目#ひとめ	keep	ordinary word "at a glance"
+お役	merge:役	honorific お- on 役 from the idiom お役に立つ; content word is 役
+異	keep	standalone word, e.g. 異を唱える
+プレビュー	keep	established katakana loanword "preview"
+不在	keep	ordinary word "absence"
+もしかしる	merge:もしかして	broken verb-shaped lemma from もしかし(て/たら)
+もったい	merge:もったいない	clipped stem of もったいない, shown in examples
+自演	keep	common word/slang "self-performance" (sockpuppeting)
+清	drop	dominant きよし reading shows personal-name use; common sense unevidenced
+脱	drop	lone bound prefix kanji, no examples, no clear merge target
+岳	drop	only name use shown (personal name, 〜岳 mountain names); no standalone sense
+海上	keep	ordinary word "at sea/maritime"
+ぉ	drop	stray small kana, not a word
+んで	keep	colloquial conjunction (= それで/ので), real spoken usage
+ギリシャ	pending-names	country name
+新	drop	lone bound prefix kanji, no examples, no clear merge target
+電撃	keep	ordinary word "shock/blitz"
+スウェーデン	pending-names	country name
+太	drop	dominant usage is names/character names, no clear standalone common-word example
+ヽ	drop	iteration/symbol mark, not a word
+バンコク	pending-names	city name
+ト	drop	bare katakana fragment, no examples to confirm standalone word use
+マレーシア	pending-names	country name
+天神	pending-names	examples show district/place-name usage (Fukuoka's Tenjin) dominating over the common deity sense
+金る	merge:金	spurious verb lemma; every surface is the noun 金
+栄	pending-names	examples show place-name usage (Nagoya's Sakae) dominating over the common "glory" sense
+庁	keep	real nominal head "agency/office" (県庁, 気象庁), evidenced
+もつ	merge:持つ	kana lemma for 持つ; surfaces もっ/以て belong to that verb
+出展	keep	real word for exhibiting/exhibitor entry
+抗	drop	bound prefix meaning "anti-", not a standalone word
+た	drop	grammatical particle/filler fragments, not a real lemma
+教	drop	bound morpheme for "religion/teaching", not standalone
+ぺ	drop	sound fragment from names like ちんぺい, not a real word
+ちゃう	keep	common colloquial contraction (てしまう), useful for learners
+じゃう	keep	voiced variant of ちゃう contraction, useful for learners
+豊	drop	bound morpheme meaning "abundant", not standalone
+翌	drop	bound prefix for "next (day/year)", not standalone
+イスラエル	pending-names	country name
+リセット	keep	common katakana loanword "reset"
+イラン	pending-names	country name
+温	drop	bound morpheme for warmth/temperature (温湿度, 体温); no standalone use evidenced
+韓	drop	bound abbreviation morpheme (日韓, 訪韓); not written as a standalone word
+ニュージーランド	pending-names	country name
+均	drop	bound morpheme; 100均 target only hinted by shop readings, no examples to confirm
+表#ひょう	keep	common standalone noun meaning "table/chart"
+チャン	drop	appears to be fragments of foreign names/surnames, not a general word
+野	keep	real standalone word meaning "field/plain"
+どる	merge:せどり	counted tokens are the back half of せどり, the real word visible in the examples
+モン	drop	counts are the mascot name くまモン; katakana モン is not the particle もん
+腐	merge:腐女子	bound slang morpheme, example context is the full word 腐女子
+ぷ	drop	sound-effect fragment, not a real word
+よっ	drop	kana verb-stem/filler fragment, no example supports a dictionary word
+工	drop	bound morpheme ("craft"), not standalone
+イケる	keep	common colloquial adjective "that'll work/cool"
+エ	drop	single katakana fragment, no real word
+勿体	merge:勿体ない	every example is 勿体無い; 勿体 alone is not written as a word
+一点二	drop	spelled decimal number, not a core number word
+コロンビア	pending-names	country name
+スバル	keep	major household-name car manufacturer
+レ	drop	single katakana fragment, no real word
+浴	drop	bound morpheme ("bathing"), not standalone
+サラ	drop	appears to be a person's name
+エジプト	pending-names	country name
+婚	drop	bound morpheme ("marriage"), not standalone
+Jリーグ	keep	famous, household-name sports institution
+亜	drop	bound morpheme ("sub-/Asia"), not standalone
+さやか	drop	person name (AV performer names in examples)
+フィンランド	pending-names	country name
+ベンツ	keep	established generic word for Mercedes-Benz cars
+択	drop	bound kanji fragment, not a standalone word
+報	drop	bound kanji fragment, not a standalone word
+ウクライナ	pending-names	country name
+リ	drop	stray kana fragment, no standalone meaning
+ポーランド	pending-names	country name
+ベルギー	pending-names	country name
+マイ	keep	common loanword prefix (マイカー, マイホーム etc.)
+コム	drop	clipping of ".com", not a real word
+コミ	drop	ambiguous clipping (口コミ/マスコミ/ツッコミ) with no examples to fix a target
+エル	drop	letter/character-name fragment, not a standalone word
+金子	drop	surname (baseball player Kaneko)
+ゅ	drop	stray kana character, not a word
+パ	drop	stray kana fragment, not a word
+専	drop	bound kanji fragment (専門, 専業 etc.)
+打	drop	bound kanji fragment, no clear merge target
+イラク	pending-names	country name
+タイガー	keep	established katakana loanword for "tiger"
+バイ	drop	mixed buy/bye fragment, no example showing a standalone sense
+断	drop	bound kanji fragment (判断, 中断 etc.)
+貴	drop	bound/honorific kanji fragment, rarely standalone
+令	drop	bound kanji fragment in examples (禁止令, 省令), not standalone
+禁	drop	bound kanji fragment (禁止, 禁煙 etc.)
+舎	drop	bound kanji fragment, rarely standalone
+守	drop	bound kanji fragment (title suffix in example), rarely standalone
+金魚	keep	ordinary everyday word "goldfish"
+北斗	keep	common astronomical sense (Big Dipper) shown in examples
+デリ	drop	ambiguous clipping, no examples to confirm target
+知	drop	bound kanji fragment, not standalone
+シックス	keep	established katakana numeral loan in ordinary use
+潤	drop	person given name in all examples, common sense not standalone
+ロ	drop	stray kana fragment, not a word
+大山	pending-names	includes mountain-name usage (Mt. Daisen) among examples
+イッ	drop	verb fragment/slang clipping, no clear target
+改	drop	suffix fragment in title/character naming, not standalone
+遊	drop	bound kanji fragment, not standalone
+カキコ	keep	lexicalised net-slang word in its own right, not a bare clipping
+ベルリン	pending-names	place name (Berlin)
+ロサンゼルス	pending-names	place name (Los Angeles)
+テク	keep	established clip of テクニック, common colloquial usage
+トピ	keep	established clip of トピック, common forum usage ("トピ主")
+レイク	drop	examples show only name fragments (racehorse, surname), not the standalone word "lake"
+毎	keep	productive common prefix "every", real dictionary morpheme
+カ	drop	bound counter piece (カ月/カ所/カ国) with no single merge target
+まり	drop	no examples; readings suggest dominant use as a given name rather than the rare noun 鞠(ball)
+橘	drop	examples are all personal/stage names (musician, AV actress); common citrus-tree sense not attested
+コミュ	keep	established clip of コミュニティ/コミュニケーション, widely used standalone
+プレ	keep	productive common prefix "pre-", widely used
+猛	keep	real productive word meaning "fierce/intense" (猛スピード, 猛反対), confirmed by examples
+デイ	drop	examples show only brand/song-title fragments, not standalone common usage
+司	drop	no examples; varied idiosyncratic readings suggest multiple named individuals, common "official" sense rare
+コス	keep	established clip of コスチューム/コスプレ, common standalone usage
+誤	drop	always bound prefix in examples (誤入金, 誤表示, 誤検知), not a standalone word
+動	drop	bound morpheme with no standalone example, likely cut from a longer word
+官	keep	real standalone noun in current use (官から民へ, 官と民)
+研	drop	mixed signals (brand name, anime character, verb 研ぐ stem); no clear standalone noun use
+四点五	drop	spelled decimal number, not a core number word
+受け取り	keep	real common word "receiving", standard dictionary form despite texts favoring 受取
+アメリカ合衆国	pending-names	country name
+てらっしゃる	merge:いらっしゃる	casual contracted form of ていらっしゃる/honorific いらっしゃる
+ノース	drop	examples all brand/place-name fragments (ノースフェイス, ノースカロライナ), not standalone "north"
+ゆい	drop	examples are all facility/person names (monorail, AV actress), not a common word
+南海	keep	common term (南海トラフ/南海地震) and major regional railway institution (南海電鉄)
+過	drop	bound morpheme, no standalone example, likely cut from longer word
+デンマーク	pending-names	country name
+進	drop	no examples; readings suggest name fragments, no standalone use shown
+ょ	drop	bound kana fragment, tagger artifact
+プ	drop	bound kana fragment, tagger artifact
+ラブホ	keep	common slang clip of ラブホテル, widely used in ordinary reading
+結	drop	readings suggest mostly name/nickname use (結(ゆい), 結(クローズ)), no standalone common example
+続	drop	bound morpheme cut from 続く/続き/手続; no standalone word evidence
+ぼ	drop	single kana, tagger artifact, no example
+定	drop	bound morpheme, no standalone example, likely cut from longer word
+綾	drop	readings suggest character/given-name use (綾(アーヤ), 綾(メイド)), common sense not attested
+ジ	drop	single kana fragment, tagger artifact
+ジェイ	drop	examples show name/letter fragments (ジェイ-Z, ジェイロイヤル), not a standalone word
+カンボジア	pending-names	country name
+造	drop	bound kanji, no standalone use shown, readings suggest names/titles
+シリア	pending-names	country name (Syria)
+キティ	drop	Hello Kitty brand/character, not an institution
+シ	drop	single kana, not a standalone word
+ハ	drop	single kana, not a standalone word
+珍	drop	bound kanji, no standalone common use shown
+春日	pending-names	place/shrine name (Kasuga), outweighs surname use
+シュー	keep	real mimetic/loanword (hissing, シュー生地), elongated variants confirm it
+一点八	drop	spelled decimal number, not a core number word
+二郎	drop	personal given name (also ramen-shop brand use, not an institution itself)
+録	drop	bound kanji fragment, no standalone meaning shown
+む	drop	single kana, not a word
+保	drop	bound kanji fragment, no standalone use shown
+微	drop	bound kanji fragment (微調節 etc.), no single clear merge target
+ても	keep	standard conjunctive particle form learners need
+すま	merge:すまない	clipped stem of the apology word, normally written すまない/すまん
+お目	keep	genuine honorific noun used in the fixed phrase お目にかかる
+アルゼンチン	pending-names	country name (Argentina)
+ク	drop	single kana, not a word
+ノア	drop	personal name / minor car-model brand, not an institution
+治	drop	bound kanji, mostly appears in personal given names
+石垣	keep	common noun "stone wall" sense is everyday and shown in examples
+残	drop	bound kanji fragment, no standalone use shown
+まっ	drop	elongated/interjection fragment, no clear standalone meaning
+んな	drop	casual contraction fragment (そんな/こんな), not its own lemma
+亮	drop	personal given name (appears only in names)
+新陳	merge:新陳代謝	always appears as part of 新陳代謝
+メ	drop	single kana, not a word
+ロボ	keep	established informal word for "robot" in everyday use
+メンテ	keep	established clipping of メンテナンス used as its own word
+オーストリア	pending-names	country name (Austria)
+元#表	merge:表	reading key mismatched; the text only ever writes the ordinary word 表
+ポルトガル	pending-names	country name (Portugal)
+ショウ	keep	accepted variant katakana spelling of "show"
+ネパール	pending-names	country name (Nepal)
+のー	drop	elongated particle の, not a separate word
+ヘンリー	drop	personal name (Henry), not an institution
+手っ取り	merge:手っ取り早い	always used as part of idiom 手っ取り早い
+走	drop	bound kanji fragment, no standalone use shown
+シン	drop	single katakana fragment, no clear standalone meaning
+ぴ	drop	not a standalone word; a stray kana fragment with no example usage
+コミケ	keep	used as the ordinary word for the convention, not a one-off name
+完	keep	real standalone word used as "the end" marker in manga/novels
+陽子	drop	counts are personal given names; common "proton" sense not shown in examples
+アイルランド	pending-names	country name
+助	drop	lone bound kanji, no standalone use shown
+織	drop	lone bound kanji from fabric compounds and name readings
+コスモ	drop	appears only as part of brand/company names (コスモ石油, コスモフーズ), not a standalone word
+ウィーン	pending-names	city name
+てく	merge:行く	contraction of the auxiliary ~ていく on the te-form (してけば, 書いてけ)
+カイロ	keep	real everyday word (懐炉/chiropractic abbreviation) alongside the place name Cairo
+置い	merge:置く	conjugated stem of 置く mislemmatized
+思る	merge:思う	broken conjugation forms of 思う
+ディア	drop	no examples; unclear fragment with no standalone sense
+マナ	keep	established gaming loanword "mana" seen in examples
+ウ	drop	single kana fragment, no examples, no clear word
+ゃ	drop	meaningless kana fragment
+ウィル	drop	part of a company/person name (Will), not a common word
+キ	drop	single kana fragment, no examples
+成	drop	lone bound kanji, mostly name readings, no standalone use shown
+ーーー	drop	typographic elongation mark, not a word
+犯し	merge:犯す	conjugated form of 犯す mislemmatized
+智	drop	counts are name readings; standalone "wisdom" sense is rare
+談	drop	suffix morpheme (~談) only, no standalone use shown
+開	drop	lone bound kanji, no standalone use shown
+若	merge:若い	truncated adjective stem; dictionary lemma is 若い
+捨離	merge:断捨離	clipped form missing 断; examples all show 断捨離
+つ折り	merge:二つ折り	clipped form missing the numeral prefix; examples show 二つ折り/2つ折り
+キャン	drop	ambiguous katakana clipping with no examples to determine target
+交通省	merge:国土交通省	clipped form missing 国土; all examples show 国土交通省
+五点五	drop	spelled-out decimal number
+ヾ	drop	repetition/emoticon symbol, not a word
+けいおん	drop	title of an anime work
+てる	merge:いる	contraction of the auxiliary ~ている on the te-form (してりゃ)
+使	drop	lone bound kanji, no standalone use shown
+独	keep	standard standalone abbreviation for Germany (日独, 米独, etc.)
+モンゴル	pending-names	country name
+水上	keep	common word for "on the water/aquatic", shown clearly in examples
+キャバ	merge:キャバクラ	katakana clipping of キャバクラ, no independent lexical sense
+縁#ふち	keep	real standalone word meaning "edge/rim"
+グアム	pending-names	country/region name (Guam)
+葬	drop	bound kanji, no standalone use, no clear merge target
+測っ	merge:測る	conjugated form (測って) of verb 測る
+クエン	merge:クエン酸	clipping of クエン酸 (citric acid)
+でー	drop	stretched interjection "でー", not a word
+静	drop	bound kanji/name reading; everyday word is 静か
+黒木	drop	surname, person name (adult-site spam context)
+アイマス	drop	game/franchise title (product name)
+ブラッド	drop	character/brand name, not common noun use
+あずさ	drop	used as person/train name in examples, common sense (梓) not shown
+一点四	drop	decimal number, not a core number word
+政	drop	bound kanji, mostly a name reading (まさ), no standalone common use
+オリゴ	merge:オリゴ糖	clipping of オリゴ糖 (oligosaccharide)
+たー	drop	stretched interjection "たー", not a word
+メン	drop	bare katakana clipping, no examples to confirm target
+チリ	pending-names	country name (Chile)
+トレ	drop	bare katakana clipping, no examples to confirm target
+迷彩	keep	real common word (camouflage)
+シカゴ	pending-names	city name (Chicago)
+あああ	drop	scream/interjection string, not a word
+フ	drop	single kana fragment, no established standalone use
+ソ	drop	bare katakana with no example; counts are abbreviation/noise, not the note name
+庫	drop	bound kanji, always part of compounds (倉庫, 車庫)
+飛鳥	pending-names	famous place/era name (Asuka)
+姦	drop	bound kanji, adult jargon compounds, no clear merge target
+クレア	drop	character/person name
+台北	pending-names	city name (Taipei)
+二宮	drop	used as surname of real/fictional people in examples
+快	drop	bound kanji, not standalone (cf. 快い, 快適)
+二十三点五	drop	decimal number, not core number word
+検知	keep	real common word (detection)
+バリ島	pending-names	place name (Bali island)
+でつ	merge:です	deliberate net misspelling of the obvious lemma です
+刊	drop	bound suffix morpheme, no clear standalone word use
+創	drop	bound morpheme, no clear standalone word use
+二点三	drop	decimal number, not core number word
+二点四	drop	decimal number, not core number word
+古川	drop	surname of real people
+撃	drop	bound kanji, no standalone use
+解	keep	standalone noun meaning "solution/answer" (math/quiz sense)
+スロ	drop	katakana clipping with no examples to fix a merge target; rule says drop
+ブ	drop	katakana clipping with no examples to support a merge target
+焼	drop	bound kanji with no examples showing it as a standalone word
+広	drop	bound kanji, only example is part of a place name (広尾)
+瞭然	merge:一目瞭然	all attestations are inside the idiom 一目瞭然, the lemma a learner needs
+シドニー	pending-names	city name
+一点六	drop	spelled decimal number, not a core number word
+フレンズ	keep	transparent established loan ("friends"), used generically in app/game contexts as well as in titles
+一点三	drop	spelled decimal number, not a core number word
+領	drop	lone bound kanji (領土/大統領); standalone collar sense archaic, no examples
+アット	drop	only seen as part of a company/brand name
+島根	pending-names	prefecture name
+ま#かん	drop	surface/reading key mismatch with no examples; lemmatiser noise, not a usable entry
+コカ	drop	brand fragment (Coca-Cola), not a generic word
+二点二	drop	spelled decimal number, not a core number word
+朝鮮半島	pending-names	geographic region name
+谷口	drop	common surname, examples are personal/company names
+進め方	keep	ordinary word meaning "way of proceeding"
+読売新聞	keep	nationally famous newspaper institution
+チェコ	pending-names	country name
+ハンガリー	pending-names	country name
+転	drop	bound kanji with no examples showing standalone use
+コンプ	drop	clipping ambiguous between コンプレックス and コンプリート in examples
+ミ	drop	single kana character, no examples, not a word
+プロフ	merge:プロフィール	established clipping, example shows profile sense
+飲	drop	bound kanji; a single 飲放 example does not establish 飲み放題 for the 2,667 counts
+五十嵐	drop	common surname, examples are personal names
+ミッド	merge:ミッドセンチュリー	example clearly shows the mid-century clipping
+中西	drop	common surname, examples are personal names
+熟	drop	bound kanji with no examples showing standalone use
+アドセンス	drop	specific Google product name, not an institution
+二点一	drop	spelled decimal number, not a core number word
+目撃	keep	ordinary word meaning "witness/sighting"
+日・祝	drop	business-hours notation shorthand, not a lexical word
+二点八	drop	spelled decimal number, not a core number word
+敷	drop	bound kanji with no examples showing standalone use
+ギャラクシー	drop	counts and examples are team/product/title names; generic "galaxy" sense is 銀河 and unattested here
+一点一	drop	spelled decimal number, not a core number word
+パチ	drop	katakana clipping with no examples to support a merge target
+倉敷	pending-names	city name
+たっ	drop	no examples; unclear verb fragment, can't identify a merge target
+南アフリカ	pending-names	country name
+サニー	merge:サニーレタス	not standalone; examples are dominated by the vegetable name サニーレタス
+近	drop	bound kanji, not a standalone word, no examples
+ノルウェー	pending-names	country name
+聡	drop	all examples are personal names (propn_band); no common-sense usage shown
+金山	pending-names	used as a place/district name (Nagoya area) in the examples
+ファンデ	merge:ファンデーション	clipped form of ファンデーション (foundation makeup)
+どり	drop	no examples; likely a rendaku fragment of 鳥, unclear merge target
+けり	drop	forms given (ける/けれ/ケリ/げる/げら) look like conflated conjugation fragments, not the real noun けり
+放	drop	bound kanji, not a standalone word
+マリ	pending-names	plausibly the country Mali; place-name review should decide rather than this pass
+リリー	drop	examples show it used as a fictional character's name (propn_band)
+興信所	keep	real word, "detective/investigation agency"
+大神	keep	real word meaning "great deity," used in everyday Shinto contexts
+奈	drop	bound kanji used only as a name component in the examples
+プリ	drop	no examples; ambiguous clipping, no clear merge target
+二十四点五	drop	spelled/decimal number, not a core number word
+真木	drop	propn_band; used as a personal/facility name in the examples
+モスクワ	pending-names	city name
+フレ	drop	no examples; ambiguous clipping, no clear merge target
+表#もと	drop	non-standard reading with no examples to support the lemma
+七点五	drop	spelled/decimal number, not a core number word
+八点一	drop	spelled/decimal number, not a core number word
+カブ	keep	real everyday word for turnip (蕪), shown in the examples
+別売り	keep	real word, "sold separately"
+搬入	keep	real word, "bringing in/delivery"
+廃	drop	bound kanji, not a standalone word
+マイナビ	keep	nationally known Japanese company/institution (job-search media)
+奏	drop	examples are names/spam content, no common standalone usage shown
+装	drop	bound kanji, not a standalone word
+ライズ	drop	only example is a brand name, no common standalone usage shown
+フライド	keep	established loanword "fried," productively combines with food nouns
+エイジ	keep	established loanword "age," used in everyday compounds
+帽	drop	bound suffix across many different compounds, not a standalone word
+ブライト	drop	examples are all brand/product names, no common standalone usage shown
+抗生	merge:抗生物質	all examples show it only as part of 抗生物質
+とてつ	merge:とてつもない	all examples show it only as part of とてつもない/とてつもなく
+ハン	drop	no examples; too ambiguous to identify a merge target
+井	drop	used only as a name component (surname readings) in the examples
+スタ	drop	no example; ambiguous katakana clipping, unclear source word
+考	drop	bound fragment (likely cut from 考える/思考), mistagged ADP, no clear standalone use shown
+コープ	keep	genericised ordinary word for a co-op store, in everyday use
+杉山	drop	surname of named individuals in examples, not an institution
+ナナ	drop	person name (performer) in examples
+ドバイ	pending-names	city/country name (Dubai)
+サポ	drop	katakana clipping with no example clarifying the full word
+登	drop	bound kanji fragment, mostly name readings, not a standalone word
+天満	pending-names	(duplicate avoided)
+崎	drop	bound kanji used in place names/surnames, not a standalone word
+バ	drop	bare kana fragment, no identifiable standalone word
+大川	pending-names	river/city name (also a surname); place names go to the names list
+防	drop	bound kanji fragment (防ぐ/防犯 etc.), not standalone
+恐る	merge:恐れる	classical/broken inflections of 恐れる (恐るべき etc.)
+ドゥ	drop	katakana fragment of French "de" in names, not a word
+サイ	keep	standalone katakana animal word (rhinoceros), common in everyday reading
+郎	drop	bound kanji used only as a name-suffix element
+ロビン	drop	almost entirely the name Robin (person/product), no common-noun use shown
+少	drop	bound kanji fragment, not a standalone word; no example evidence of real usage
+将	drop	bound kanji fragment (将来/将軍 etc.), not standalone
+甘	drop	adjective stem cut off; one stretched 甘〜い does not make a merge target clear for the bulk
+狂	drop	bound kanji/suffix (〜狂, 狂う), not standalone
+ディ	drop	bare katakana fragment from foreign names, not a word
+杜	keep	real standalone word for sacred grove/forest (杜の都 usage), classical synonym of 森
+育	drop	bound kanji fragment (育てる/教育 etc.), not standalone
+ルナ	drop	name (character/brand), no common sense shown
+殺	drop	bound kanji fragment (殺す/殺人 etc.), not standalone
+大沢	drop	surname of named individuals
+寛	drop	bound kanji/name element, not standalone
+ちひろ	drop	person given name in examples
+珠	keep	real standalone word for pearl/bead (たま), attested in examples
+テイルズ	drop	title of a video game series ("Tales of...")
+ごたつ	merge:こたつ	rendaku-affected form (掘りごたつ) of こたつ
+毎日新聞	keep	nationally famous newspaper, institution
+喜	drop	bound kanji/name element, not standalone
+被っ	merge:被る	inflected form of the verb 被る
+リピ	drop	katakana clipping, no clear example to merge
+っから	drop	colloquial contraction fragment of から, not a lemma
+農	drop	bound kanji fragment (農業/農家 etc.), not standalone
+騎	drop	bound counter/fragment (一騎 etc.), not a standalone word
+ペルー	pending-names	country name
+アクセ	drop	clipping with no examples confirming アクセサリー; rule says drop without evidence
+渡っ	merge:渡る	inflected form of 渡る mis-lemmatized
+ダン	drop	person name (Dan Brown)
+ハンズ	drop	part of brand name 東急ハンズ, not a generic word
+エヴァンゲリオン	drop	title of anime work
+犯	drop	bound morpheme, not a standalone word
+テイラー	drop	person surname (Taylor)
+片岡	drop	common surname, not an institution
+バスター	keep	established katakana loan "buster"
+カーデ	drop	clipping with no examples confirming カーディガン; rule says drop without evidence
+オリ	drop	ambiguous clipping (オリジナル/オリエンタル/檻) with no examples
+パキスタン	pending-names	country name
+ム	drop	not a word
+キューバ	pending-names	country name
+ユニ	drop	clipping with no examples confirming ユニフォーム; also ユニクロ/ユニット possible
+佐	drop	bound morpheme, not standalone
+二十二点五	drop	spelled decimal number, not core number word
+オー	drop	elongated interjection/letter noise, not a dictionary lemma
+破	drop	bound morpheme, example is gaming jargon term 中破
+ブティック	keep	established katakana loan "boutique"
+マギカ	drop	piece of anime title まどか☆マギカ
+穂	keep	real standalone word (ear of grain)
+大石	drop	surname, examples are person names
+老	drop	bound morpheme, not standalone
+らか	drop	fragment, not a word, no examples
+津	drop	single kanji attested only inside place names; standalone "port" sense archaic
+ホテルズ	drop	part of hotel-chain brand names
+琢磨	merge:切磋琢磨	clipped from the idiom 切磋琢磨, which is the real lemma in the examples
+ふれ	drop	bare hiragana fragment, no examples to confirm sense
+バンクーバー	pending-names	city name (Vancouver)
+のぉ	drop	elongated casual particle variant, not a dictionary word
+カノン	keep	katakana loan "canon" used in common sense in examples
+淡路島	pending-names	island name
+加	drop	bound morpheme (追加/参加); the Canada abbreviation is a rare notational use, no examples
+ガンプラ	keep	established genericized hobby term
+頂	keep	real standalone word (summit/peak)
+オマ	drop	vulgar slang clipping from adult spam
+六点五	drop	spelled decimal number, not core number word
+対じする	merge:対峙する	broken kanji spelling of 対峙する
+遠くる	merge:遠い	broken form; 遠く is the adverbial/noun form of 遠い, mis-tagged as a fake verb
+ポンパレ	drop	brand/site name (Recruit's Ponpare shopping site), not a general word
+アド	drop	no examples to show real independent use; likely a clipping or jargon with no clear single sense
+マツコ	drop	personal name of a TV personality (character/person name)
+南極	pending-names	place name (Antarctica)
+ですぅ	merge:です	broken/elongated spelling of the copula です
+いふ	merge:言う	classical conjugated forms (いふ/いは/いへ/いはく) of 言ふ, the old spelling of 言う
+ッと	drop	meaningless onomatopoeia/particle fragment, not a standalone word
+スプリント	keep	established katakana loanword "sprint"
+協	drop	lone bound kanji (協力/協会 etc.), not a standalone word
+准	merge:准看護師	examples all show the prefix attached to 准看護師; bound morpheme otherwise
+新潮	keep	famous, household-name publishing house/magazine (週刊新潮)
+休	drop	lone bound kanji; the free word is 休み, and no standalone examples exist
+デフォ	keep	lexicalised slang clipping in ordinary colloquial use, clearly attested in the examples
+二鳥	merge:一石二鳥	fragment of the fixed idiom 一石二鳥, not an independent word
+皇	drop	lone bound kanji (皇室, 皇后 etc.), example is part of a proper name
+ズ	drop	meaningless katakana fragment/suffix, not a standalone word
+八戸	pending-names	place name (city in Aomori)
+とっ	drop	conjugation fragment with no examples to identify the source verb
+思え	merge:思う	conjugated fragment (imperative/conditional) of 思う
+無二	keep	real word meaning "unparalleled/second to none" (e.g. 唯一無二の友)
+りる	drop	fragment, unclear which verb (足りる/借りる/降りる) it belongs to; no clear single merge target
+一会	merge:一期一会	fragment of the fixed idiom 一期一会, not an independent word
+眼精	merge:眼精疲労	always appears as part of the compound 眼精疲労 (eye strain)
+中央線	drop	counts are the named rail line (facility); the road-marking sense does not show in the examples
+住	drop	lone bound kanji (住む, 住所 etc.), no clear single merge target
+エネ	merge:エネルギー	katakana clipping of エネルギー
+律	drop	examples show only a character's given name; common standalone sense is rare
+ホ	drop	meaningless single kana fragment, not a word
+赤羽	pending-names	place name (district in Tokyo)
+撮	drop	lone bound kanji (撮る/撮影), no examples to pin a single merge target
+タ	drop	meaningless single kana fragment, not a word
+違	drop	lone bound kanji (違う/違い), no examples to pin a single merge target
+胡散	merge:胡散臭い	always appears as part of 胡散臭い, not an independent word
+羅	drop	noisy fragment, mostly odd readings/names, not a standalone word
+下山	keep	real common word meaning "descending a mountain"
+キャミ	keep	established everyday clothing term, used freely as its own word
+果	drop	noisy mix of odd readings/names, no clear standalone sense
+ガ	drop	meaningless single kana fragment, not a word
+ミニー	drop	character name (Disney's Minnie Mouse)
+ガスト	drop	restaurant-chain brand name, not a nationally talked-about institution
+取扱店	keep	real common noun ("dealer/retailer")
+パシフィック	drop	only occurs as part of building/hotel proper names, not used as ordinary word for Pacific
+ファスト	keep	productive loanword "fast" (ファストフード, ファストファッション)
+あゆ	drop	all examples are an AV-actress's name in spam text
+ニダ	drop	internet slang mocking Korean speech, not a learnable Japanese word
+サザン	drop	refers to the band サザンオールスターズ, a named group like a sports team
+大日本	keep	genuine historical/political term ("Greater Japan"), e.g. 大日本帝国
+真弓	drop	all examples are personal names; plant sense (まゆみ) not shown in use
+東北地方	pending-names	region name
+イング	drop	clothing-brand clipping with no clear merge target
+怒	merge:怒り	bound character cut from 怒り (anger)
+ふわ	drop	mimetic root only seen bound in compounds (とろふわ/バリふわ); the words are ふわふわ/ふわっと
+介	drop	bound character, mostly occurring in personal names
+中原	drop	appears as a surname/company name in the examples
+駿	drop	personal given name (宮崎駿)
+後遺	merge:後遺症	bound half of 後遺症 (aftereffects/sequela)
+ウェル	drop	only occurs inside proper names (シークウェル, ストンウェル), not a standalone word
+いー	drop	filler/interjection noise, not a coherent lexical item
+三点一	drop	decimal number, not a core number word
+スリランカ	pending-names	country name
+幾	drop	bound morpheme normally part of 幾つ/幾ら/幾何 etc., no clear single merge target
+ブル	drop	no examples to confirm a real standalone meaning; looks like mixed clippings
+朱	keep	real standalone word (vermillion/cinnabar; old currency denomination)
+検	drop	bound morpheme (検査, 検定...), not used alone
+かあ	drop	unclear standalone meaning with no supporting examples
+鳳	drop	appears only as a component of person/shop/place names; free word is 鳳凰
+賢	drop	bound morpheme (賢い, 賢明), not used alone
+酷	drop	bound morpheme (酷い, 酷評), not used alone
+臨機	merge:臨機応変	half of the fixed idiom 臨機応変
+アフガニスタン	pending-names	country name
+確	drop	bound morpheme (確か, 確認), not used alone
+マカオ	pending-names	place name
+スマ	drop	unclear which word this is a clipping of, no examples
+応変	merge:臨機応変	other half of the fixed idiom 臨機応変
+衆	keep	real standalone word meaning "folks/people" (cf. 芸者衆)
+モロッコ	pending-names	country name
+一点七	drop	decimal number, not a core number word
+奇	keep	real standalone word, shown in idiom 奇をてらう
+大通	pending-names	refers to Odori, the well-known Sapporo district/park
+フーズ	drop	only appears as part of company names (〜フーズ co.), not used as a standalone word
+乾	drop	only example is a surname (soccer player); common "dry" sense doesn't appear standalone here
+五点一	drop	spelled decimal number, not a core number word
+万丈	merge:波乱万丈	only occurs as part of the fixed yojijukugo 波乱万丈
+冷	keep	real standalone word (e.g. 冷/温 labeling for cold drinks)
+パレスチナ	pending-names	country name
+罵詈	keep	real (if literary) word meaning abusive language, as in 罵詈雑言
+マドリード	pending-names	city name
+グリー	drop	minor company/brand name (GREE), not an institution-level household name
+紀	drop	bound kanji, examples are proper-noun titles/names, no standalone common use shown
+三点二	drop	spelled decimal number, not a core number word
+冠婚	merge:冠婚葬祭	only occurs as part of the fixed compound 冠婚葬祭
+エキサイト	drop	named website/portal (Excite)
+アイズ	drop	only seen as part of product/work titles, not a standalone word
+チェン	drop	person name (surname of a game designer)
+ェ	drop	not a standalone character/word
+デジ	drop	katakana clipping with no examples clarifying the source word
+コルク	keep	established loanword "cork"
+テレ	drop	katakana clipping, no examples confirm standalone use
+ラッセル	drop	person surname / brand name (Russell)
+ソフィア	drop	personal name (Sophia) in all examples
+J1	keep	ordinary sports-vocabulary term for Japan's top football division
+ウォシュレット	keep	genericized brand used as the ordinary word for a bidet toilet seat
+斗	keep	real standalone unit-of-volume word
+飛	drop	bound kanji, examples are name readings only
+貫	keep	real standalone word (weight unit / sushi-piece counter)
+すた	drop	no clear meaning or examples; appears to be noise
+ダックス	keep	established clipped loanword for dachshund
+レット	drop	no clear meaning or examples; fragment
+複	drop	bound kanji with no standalone use shown
+コシヒカリ	keep	genericized ordinary name for a rice cultivar
+八点五	drop	spelled decimal number, not a core number word
+汚	drop	bound kanji forming slang compounds (汚部屋 etc.), not standalone
+点目	keep	productive counter form (1点目, 2点目...) in ordinary use
+シンセ	keep	established standalone clipping in general music usage, well attested
+絶	drop	bound kanji with no standalone use shown
+クロノ	drop	only seen in titles/brand names (Chrono Trigger etc.)
+審	drop	bound kanji, no clear standalone use shown
+いら	drop	no examples or clear meaning
+ルース	keep	real word in jewelry trade for an unmounted/loose gem
+ニー	drop	katakana fragment with no examples; "knee" occurs only in compounds like ニーハイ
+マニラ	pending-names	city name (Philippines)
+カプ	drop	no example; likely clipping of カップリング but unclear
+つう	merge:という	colloquial contraction (つー/つお/てえ) of という, not of plain 言う
+レッズ	drop	sports team name (浦和レッズ)
+メロ	merge:メロディー	common clipping, seen in 泣きメロ (sad melody)
+シオン	drop	character name in examples, no common-word use shown
+アキ	drop	person's name (黒澤アキ)
+テ	drop	no example; bare mora, no standalone word
+微塵	keep	real word, "not a speck/none at all"
+グロ	keep	lexicalised informal word (グロ画像/グロい), used standalone
+尊	drop	counts are the given-name/name element; standalone common sense is rare
+忠	drop	bound kanji / given-name element, rarely written alone as a word
+でぇ	drop	dialectal sentence-final particle, not a lexical word
+とん	merge:豚	phonetic reading cut from トンテキ (豚テキ)
+アロー	drop	all counts are brand, title and vehicle names; generic "arrow" is 矢/矢印
+関東地方	pending-names	region name
+サリー	keep	real loanword (sari) and no evidence of junk; default keep
+じょ	drop	fragment from spam text, no clear word
+譚	drop	bound suffix across many different compounds, no single merge target
+一喜	merge:一喜一憂	half of idiom 一喜一憂
+ジェム	keep	established loanword for in-game "gem" currency, seen in real use
+セクロス	drop	internet slang for セックス, spam jargon
+牧野	pending-names	place-district name (Hirakata) dominant in examples
+諸費	merge:諸費用	truncated form of 諸費用
+アマ	keep	established clipping used standalone in contrast with プロ
+大門	keep	common noun "main gate" shown in shrine example, not only place name
+桑田	drop	person surname
+クイーンズ	drop	not a generic word; counts are brands, titles and facility names
+ホノルル	pending-names	city name (Honolulu)
+ねぇ#にんき	drop	malformed entry (reading key にんき does not match ねぇ), unusable as a lemma
+若し	merge:若い	dominant forms 若き/若かり are classical forms of 若い
+トイ	keep	established katakana loan/compound element for "toy"
+メルパラ	drop	adult-industry establishment name, spam term
+半疑	merge:半信半疑	half of idiom 半信半疑
+きらら	drop	manga title/character name
+ポリ	keep	real word in everyday use (ポリ袋 material sense, plus slang)
+グラ	drop	ambiguous clipping (グラビア/グラフィック) with no examples to settle it
+半信	merge:半信半疑	half of idiom 半信半疑
+ぶっ	drop	bound intensifying prefix, not standalone
+サウジアラビア	pending-names	country name
+秘	drop	bound kanji, not a real standalone word
+ツムツム	drop	game/product name (Disney Tsum Tsum)
+ステンド	merge:ステンドグラス	clipped form, examples show ステンドグラス/ガラス
+越	drop	bound kanji fragment, no evidence of standalone use
+センチュリー	keep	established katakana loan "century"
+ブラザー	drop	mostly brand/company name (Brother工業), not a common loanword for "brother"
+國	merge:国	old orthography of 国, not a separate word
+ペイン	drop	no usable examples; appears to be name/jargon fragment, not a common standalone word
+隼人	drop	personal given name
+四点二	drop	spelled decimal number, not a core number word
+下田	pending-names	predominantly city name (Shimoda), though surname use also present
+イット	drop	fragment from English phrases/brand names (Post-it, song titles), not a real Japanese word
+オク	merge:オークション	clipping, example clearly means auction site
+天草	pending-names	predominantly place name (Amakusa); seaweed sense barely attested
+ヤ	drop	bare kana fragment, no attested standalone word
+ネコポス	drop	specific courier service brand name
+六甲	pending-names	mountain/place name (Mt. Rokko)
+碧	drop	examples are character-name uses; common "blue-green" sense not shown
+ぁぁ	drop	onomatopoeic/emotive kana string, not a word
+九点五	drop	spelled decimal number
+トレジャー	keep	established katakana loan, productive beyond the name uses shown
+ホットペッパーグルメ	drop	brand/site name
+練	drop	bound kanji fragment, no standalone word evidence
+季	drop	bound kanji fragment, no standalone word evidence
+ラオス	pending-names	country name
+起	drop	bound kanji fragment, no standalone word evidence
+東京オリンピック	drop	name of a one-off event, not an institution, and compositional
+霊夢	drop	fictional character name (Touhou)
+ダル	drop	no usable examples; likely name/jargon fragment, not an attested common word
+三点三	drop	spelled decimal number
+真っ	drop	bound prefix only (真っ赤, 真っ白), not standalone
+すい	drop	bare kana fragment, no attested standalone word
+委	drop	bound kanji fragment, no standalone word evidence
+純一	drop	personal given name
+フォート	drop	mostly part of place/brand names (Fort Meade, フォートラベル), not standalone common word
+バロン	keep	established loanword "baron" (title)
+トロント	pending-names	city name
+ばみ	merge:黄ばみ	clipped form, examples show 黄ばみ "yellowing"
+もしかし	merge:もしかして	clipped form of もしかして/もしかしたら
+にこ	drop	no examples; unclear if real word or clipping/name, likely slang/name fragment
+カローラ	drop	car model name, not genericized common noun
+梨花	drop	celebrity/model's name; not a common word in these examples
+カルティエ	drop	luxury brand name, not genericized
+スレチ	merge:スレ違い	forum slang clipping, examples confirm "off-topic thread" usage
+プーマ	drop	sportswear brand name, not genericized
+キララ	drop	personal/stage name (AV actress), not a common word
+配	drop	bound kanji, no examples showing standalone use
+ワイモバイル	keep	major nationally-known telecom carrier brand/institution
+十点五	drop	spelled-out decimal number, not a core number word
+スカーレット	drop	examples are all names (team/horse/actress), not the color word
+一憂	merge:一喜一憂	bound fragment of fixed expression 一喜一憂
+リーガ	drop	only seen as part of proper names/compounds (Jリーガ, リーガロイヤル, リーガ・エスパニョーラ), not standalone
+クロアチア	pending-names	country name
+正銘	merge:正真正銘	bound fragment of fixed expression 正真正銘
+美し	merge:美しい	literary inflection 美しき of adjective 美しい
+ポーラ	drop	cosmetics brand name, not genericized
+尼	keep	real standalone word for "nun" (single kanji word)
+セリエ	drop	only seen as part of proper name セリエA, not standalone
+リプ	merge:リプライ	net clipping with an unambiguous base loanword
+ケニア	pending-names	country name
+空#から	keep	real word meaning "empty" (から reading of 空)
+日経新聞	keep	nationally famous newspaper, institution-level
+める	drop	fragment with no examples; unclear source verb
+スポ	drop	clipping with no confirming examples
+混入	keep	ordinary real word meaning "contamination/mixing in"
+カ月ぶり	drop	compositional counter+ぶり chunk, not a dictionary lemma
+ゴン	drop	no examples; unclear meaning (name or onomatopoeia)
+スパロボ	drop	title-of-work clipping (game series title)
+交	drop	bound kanji fragment, no examples showing standalone use
+八千代	pending-names	place name (Yachiyo, Chiba)
+イジ	drop	katakana stem with no examples; target (いじる/いじめる) not clear
+暗	drop	bound kanji fragment, no examples showing standalone use
+ウマー	drop	vowel-stretched meme spelling of うまい, not a lemma a learner needs
+攻	drop	bound kanji fragment, no clear standalone usage in examples
+始	drop	bound kanji fragment, no examples showing standalone use
+てー	drop	elongated particle variant, not a distinct word
+パラ	drop	clipping with no confirming examples
+ルーマニア	pending-names	country name
+キター	drop	meme spelling of the inflected 来た, not a distinct dictionary word
+谷川	drop	examples show only the surname (谷川愛梨, 谷川雁); no common "mountain stream" sense shown
+不乱	merge:一心不乱	only occurs as part of the idiom 一心不乱, not a standalone word
+辰巳	pending-names	place-name use (address) present alongside the surname; names list decides
+まこ	drop	appears to be a personal nickname, no supporting examples
+喰る	drop	garbled lemma from 喰 in 喰種 plus stray readings, no coherent word
+四点一	drop	spelled-out decimal number, not a core number word
+トランスフォーマー	drop	refers to the Transformers toy/media franchise, a title/brand
+五点六	drop	spelled-out decimal number, not a core number word
+あいあい	merge:和気あいあい	only occurs as part of 和気あいあい, not standalone
+拓	drop	single kanji mainly used as a given name, no supporting examples of common "rubbing" sense
+未聞	merge:前代未聞	only occurs as part of 前代未聞, not standalone
+種々	keep	real everyday word meaning "various"
+竜王	keep	has genuine common "Dragon King" sense shown in examples alongside name uses
+四点三	drop	spelled-out decimal number, not a core number word
+ソリューションズ	merge:ソリューション	English plural from company names; base loanword is ソリューション
+スマブラ	drop	clipped title of the Super Smash Bros. game franchise
+除	drop	bound kanji piece, no examples to establish a clear merge target
+バルサ	drop	only shown as FC Barcelona nickname; balsa-wood sense not evidenced
+アイスランド	pending-names	country name
+ィ	drop	a kana glyph fragment, not a word
+興業	keep	real word for "enterprise/industry," common word mistaken for company-name
+持込る	merge:持ち込む	mislemmatised kanji stem 持込; dictionary form of the verb
+皇居	keep	standard everyday word for the Imperial Palace
+いっつ	merge:いつも	colloquial variant of いつも
+づ	drop	kana character, not a word
+ガイ	drop	no examples to confirm common usage; likely name or clipping artifact
+マギ	drop	title of the Magi/Madoka Magica works
+グレース	drop	person name (Grace) throughout examples
+ユウ	drop	person name/nickname
+剛毛	keep	real everyday word for coarse body hair
+地消	merge:地産地消	only occurs as part of 地産地消
+プラハ	pending-names	city name
+アムステルダム	pending-names	city name
+ブルガリア	pending-names	country name
+グレイス	drop	used only in building/facility/shop names
+了	drop	mostly used as personal name (さとる etc.), standalone "done" sense not clearly evidenced
+付う	merge:付く	mislemmatized stem of 付く
+大空	keep	real everyday word for "the sky/heavens"
+々	drop	iteration mark, not a standalone word
+メルボルン	pending-names	city name
+沙羅	drop	examples show only person-name/title uses (judo athlete, 沙羅曼蛇 game, fiction character), not the tree-word sense
+ダイオード	keep	real technical loanword (diode)
+央	drop	single bound kanji, overwhelmingly name readings, no standalone common use shown
+サタン	keep	established katakana loan for "Satan"
+二点七	drop	decimal numeral, not a core number word
+カイト	keep	real loanword for kite, confirmed by gloss 凧 in example
+倉	keep	real standalone word meaning storehouse
+クーパー	drop	all examples are a surname or car-model brand name
+八重洲	pending-names	Tokyo district/place name
+猪木	drop	person name (Antonio Inoki)
+追	drop	bound kanji fragment, no examples to merge
+ピンキー	keep	real everyday word (pinky finger/ring)
+グロー	keep	real loanword (glow, e.g. glow plug)
+国分	pending-names	appears as place name (Kokubu) though also used as a surname in examples
+三点四	drop	decimal numeral, not a core number word
+受	drop	bound kanji/fandom-slang fragment, no clear standalone use
+果てし	merge:果てしない	every example is 果てしなく, the adverbial form of 果てしない
+エリ	keep	common word (collar), no name flag raised
+ヴェーダ	keep	established loanword for Veda(s)
+ティ	drop	bare katakana mora, not a standalone word
+ジャカルタ	pending-names	city name
+演	drop	bound kanji fragment, no examples to merge
+典	drop	bound kanji fragment, no examples to merge
+ノエル	keep	real loan for Noël/Christmas carol, sense shown in the examples
+だこ	drop	not a standalone word, no examples to support
+カタール	pending-names	country name
+リバティ	drop	brand name (Liberty print, shop names), not the ordinary Japanese word
+ライトニング	drop	examples are all product/brand/username uses (Lightning cable etc.), not generic word
+四郎	drop	person name
+テイル	drop	examples are all clipped-brand/title uses (フィッシュテイル, フェアリーテイル), not standalone word
+ホーチミン	pending-names	city name
+白河	pending-names	place name (Shirakawa)
+アテネ	pending-names	city name (Athens)
+植わる	keep	real verb "to be planted," despite many tokens miscounted from the unrelated interjection うわっ
+米倉	drop	surname (actress 米倉涼子, etc.)
+切磋	merge:切磋琢磨	only occurs as part of the fixed idiom 切磋琢磨
+三点一一	drop	decimal/date numeral, not a core number word
+早見	drop	examples are person names (voice actress etc.)
+クラ	drop	unclear clipped form, no examples to merge
+ぐり	drop	adult-content jargon, spam-driven
+ペ	drop	fragment katakana, no evidence of real word
+市場#いちば	keep	ordinary word "market"
+ウォーム	keep	established loanword "warm" (color tone, warm-up)
+プレミアリーグ	drop	named sports league, not an institution covered by keep rules
+トゥルー	drop	brand/product/title fragments, spammy katakana
+エン	drop	fragment, no evidence of real word
+浪	drop	bound kanji (浪人, 波浪), not written alone as a word
+一夫	drop	mostly bound in 一夫一婦/一夫多妻 or a personal name
+モンド	drop	brand name (モンドセレクション) / character name
+付い	merge:付く	inflected fragment of 付く
+んと	drop	fragment, no evidence of real word
+ますっ	drop	casual emphatic suffix, not a word
+にっ	drop	particle fragment, not a word
+コロ	drop	only evidence is a pet/character name
+マヨ	merge:マヨネーズ	clipping of mayonnaise
+チノ	drop	fictional character name
+若松	pending-names	place name (Wakamatsu)
+三点六	drop	spelled decimal number
+ハピタス	drop	minor point-site brand name
+ウト	drop	fragment, no evidence of real word
+はじめましる	merge:始める	broken lemma for greeting derived from 始める
+アベンジャーズ	drop	title of work
+シビック	drop	car model / building name, not genericized
+ギル	drop	fragment/character name, no evidence
+堀川	pending-names	place/river name
+消	drop	bound character, not standalone word
+任	drop	bound character, not standalone word
+炊き込み	keep	real word for cooking method, used in recipes
+ミッドタウン	drop	named facility/development
+シーズ	drop	unclear fragment, no examples to confirm merge target
+二点六	drop	spelled decimal number
+技研	keep	genuine word for technical research institute
+モビル	merge:モビルスーツ	clipping of Mobile Suit (Gundam term)
+呪	drop	bound character, usual word is 呪い
+マグ	keep	established loan used standalone (ストローマグ, マグ)
+積水	keep	refers to Sekisui, a nationally known corporation
+イスタンブール	pending-names	place name (Istanbul)
+一点九	drop	spelled decimal number
+マルタ	pending-names	place name (Malta)
+ボトックス	keep	common word for Botox treatment, widely used
+ねんどろ	drop	clipping of the product brand ねんどろいど, which itself would drop
+レッドブル	drop	brand/team name, not a national institution a learner needs
+ちょっ	merge:ちょっと	appears to be a clipped fragment of ちょっと
+総連	drop	clipped name of a specific organization (朝鮮総連), not a famous institution of the listed kinds
+決闘	keep	ordinary word "duel"
+リオン	drop	character/personal name
+給	drop	bound kanji fragment, no standalone common use shown
+之	drop	classical bound character, not a standalone modern word
+アフィリ	drop	katakana clipping with no examples to confirm the expansion
+毛細	merge:毛細血管	examples show it only occurs as part of 毛細血管
+彦	drop	bound kanji mainly used as name component
+早乙女	drop	examples are all surname/character use, classical common sense not shown
+沙	drop	bound kanji, rarely standalone, mostly name use
+カーセンサー	drop	minor company/website brand name
+ミライ	drop	used as personal/work name in examples, not common noun
+百花	drop	counts are magazine titles and given names; no standalone common-sense use shown
+ベルメゾン	drop	minor brand/company name
+巧	drop	bound kanji, mainly a name reading
+靖国神社	drop	named facility (shrine), not an institution category that stays
+まんべん	merge:まんべんなく	always occurs as part of まんべんなく
+アーユル	merge:アーユルヴェーダ	katakana clipping of アーユルヴェーダ
+欠落	keep	ordinary word "lack/deficiency"
+言説	keep	ordinary word "discourse"
+ボンバー	keep	established loanword used generically in gaming contexts
+谷町	pending-names	district name in Osaka
+スネーク	keep	established katakana loan, generic use shown (スネーク調型押し)
+ヘ	drop	stray kana fragment, no real standalone use
+専科	keep	ordinary word "specialized course"
+敬	drop	bound kanji, mainly a name component in examples
+英明	drop	examples are all personal names, common adjective sense not shown
+魔獣	keep	ordinary fantasy vocabulary word
+不二	drop	examples are company/character names; 師弟不二 is sectarian jargon, not everyday
+ヒトサラ	drop	restaurant-site brand name
+館長	keep	ordinary word "museum/library director"
+イーター	drop	clipping tied to game title ゴッドイーター, not an independent word
+フロンターレ	drop	sports team name
+揃っ	merge:揃う	inflected form of 揃う mistagged as lemma
+社説	keep	ordinary word "editorial"
+向	drop	bound kanji fragment, not standalone
+エルサレム	pending-names	city name
+金城	drop	surname/company name, no common-word sense in examples
+統	drop	bound kanji with no clear merge target in sample
+塗り	keep	real word (塗り, coating/lacquer finish)
+興	keep	real standalone noun (興が乗る, 興をそぐ), not a bound fragment
+ビ	drop	bare kana fragment, no evidence of real word
+苦闘	keep	real word meaning "struggle, hard fight"
+こちら側	keep	real compound word, "this side"
+ケド	merge:けど	casual spelling of the conjunction けど
+永	drop	bound kanji (永遠/永久) plus name reading; no standalone use
+長尾	pending-names	place name (station/temple) though also a surname
+古事記	drop	title of a specific classical work
+カスミ	drop	supermarket brand / character name
+ふらっ	merge:ふらっと	clipped form of adverb ふらっと
+イル	drop	no examples, no evidence of real word
+言い	merge:言う	stem form of verb 言う mis-lemmatised
+コトブキヤ	drop	minor company (figure maker) name
+パナ	merge:パナソニック	clipped brand name for Panasonic
+クリムゾン	drop	used only as name (band/work title) in examples
+四点七	drop	spelled-out number
+ァ	drop	bare small kana, not a standalone word
+ソーマ	drop	character/brand name
+遠	drop	bound kanji, no standalone common use shown
+ジャマイカ	pending-names	country name
+日進	merge:日進月歩	only used as part of idiom 日進月歩
+文部	merge:文部科学省	clipped reference to the ministry
+ヨルダン	pending-names	country name
+四点四	drop	spelled-out number
+モナコ	pending-names	country/principality name
+秋月	drop	surname and character name in all examples
+十二点五	drop	spelled-out number
+リーガー	keep	established loanword, "(league) player" (メジャーリーガー etc.)
+ン	drop	bare kana fragment, not a standalone word
+簿	drop	bound kanji, no clear merge target in sample
+銚子	pending-names	place name (city in Chiba)
+下野	keep	political term "to fall from power," shown in examples alongside place sense
+エチオピア	pending-names	country name
+デスノート	drop	title of a specific manga/anime work
+ポケ	drop	unclear katakana clipping, no examples to confirm target
+キハ	drop	railway class-code jargon, not general learner vocabulary
+チケ	merge:チケット	clipped form of チケット
+時事通信	keep	major news agency, institution-like company name
+フォア	keep	real loanword "fore" used standalone in tennis/badminton (forehand) and compounds
+台場	pending-names	place name (Odaiba district, Tokyo)
+トゥデイ	drop	only appears as part of proper names (シネマトゥデイ, bike model), not a common word
+ってー	merge:って	elongated colloquial variant of the particle って
+ナイツ	drop	only occurs as part of fictional group/anime titles ("knights")
+ビートル	drop	only occurs as fictional vehicle name, not generic word for beetle/car in these examples
+センタ	merge:センター	clipped spelling missing the long vowel of センター
+モスバーガー	keep	major household-name fast-food chain
+ーーーー	drop	punctuation/dash string, not a word
+大船	pending-names	place name (Ofuna, Kamakura area)
+シコ	drop	no examples found; insufficient evidence of common word use
+デジモン	drop	franchise/product name
+コウ	drop	person name (actor's given name)
+桜木	drop	surname/fictional character name
+イーサリアム	keep	established loanword for the well-known cryptocurrency/platform
+ダダ	merge:駄々	examples ("ダダ漏れ", "ダダこねる") are forms of 駄々
+ムーヴ	drop	car model/product name
+呂	drop	single bound kanji with no examples to confirm standalone use
+シャル	drop	no examples; no evidence of real standalone word
+エログ	drop	spam-only slang for adult blogs
+ひっかえ	merge:とっかえひっかえ	second half of the idiom とっかえひっかえ, mis-split by the lemmatiser
+リク	drop	no examples; clipping/name ambiguous, cannot confirm a merge target
+ケルン	pending-names	place name (Cologne, Germany)
+八雲	pending-names	place name (Yakumo), appears mixed with surname use in examples
+沖縄本島	pending-names	geographic place name
+エスト	drop	clipped brand/shop name component
+バングラデシュ	pending-names	country name
+ミクル	drop	website/forum name
+敦	drop	personal given name
+欠	keep	real standalone noun meaning deficiency/lack
+支払額	keep	common compound noun, "amount paid"
+花咲	drop	examples are shop/surname uses and 花咲く verb fragments, no place-name evidence
+リンクス	drop	counts are character surnames and brands; animal sense is オオヤマネコ in ordinary Japanese
+紆余	merge:紆余曲折	clipped half of the fixed four-character idiom
+そっ	drop	no examples; broken/clipped form with no confirmable lemma
+然	drop	bound kanji fragment, insufficient evidence of standalone use
+スケ	drop	ambiguous slang clipping with no examples to confirm sense
+ホーク	drop	only occurs as part of fictional names/team names, not generic "hawk"
+ナイジェリア	pending-names	country name
+御前	keep	real word meaning "you" (archaic) or "presence" (御前会議); common usage
+桑原	drop	only appears as a surname of various people
+紗	keep	real word for sheer silk fabric
+ばむ	merge:汗ばむ	bound suffix cut off from 汗ばむ, examples all show that verb
+ピープル	drop	only occurs inside fixed compound names, not used as a standalone word
+遊びる	merge:遊ぶ	lemmatiser error on verb form; underlying word is 遊ぶ
+三点八	drop	spelled decimal number, not a core number word
+求	drop	bound morpheme, not used as a standalone noun; no supporting examples
+聖徳	drop	fragment of the person name 聖徳太子
+リーズ	pending-names	appears to be the place name Leeds
+大黒	drop	counts are surnames/place references, common Daikokuten sense not shown
+ローテ	merge:ローテーション	katakana clipping of ローテーション, clear from rotation-sense examples
+八百二点一一	drop	technical code number (IEEE 802.11), not a learnable number
+さわ	drop	fragment of a surname (ひらさわ), not a standalone word
+杉原	drop	only appears as a surname of various people
+教委	keep	common abbreviation for 教育委員会, widely used
+デパ	merge:デパート	katakana clipping of デパート
+よろしくお願いします	keep	extremely common fixed polite phrase learners need
+ドスパラ	drop	minor company/brand name (PC retailer)
+切	drop	bound fragment, no clear standalone meaning shown
+キリト	drop	fictional character name
+彡	drop	decorative kaomoji symbol, not a standalone word
+日本シリーズ	keep	well-known standard term for Japan's baseball championship series
+四六	merge:四六時中	fragment of the idiom 四六時中, all examples show that
+エポス	drop	credit-card brand name
+セルビア	pending-names	country name
+もえ	drop	no examples; hiragana spelling of a name, standard word spelling is 萌え
+ドトール	drop	coffee chain brand, not an institution-level household name
+想	drop	bound morpheme and popular given name; no standalone use shown
+潔	drop	bound morpheme/adjective stem, not standalone
+整	drop	bound morpheme, not standalone
+ジャ	drop	fragment of anime title おジャ魔女どれみ
+っつ	drop	colloquial sound fragment, not a standalone word
+すんる	merge:する	broken colloquial form of する
+大蔵	keep	refers to historical Ministry of Finance (大蔵省/大蔵大臣), common institutional term
+F1	keep	well-known racing category abbreviation
+新山	drop	low-diversity adult-video performer name spam
+本宮	keep	common word for a shrine's main hall, shown in examples
+縁組	keep	real word for adoption/marital arrangement (養子縁組)
+デトロイト	pending-names	city name
+四日市市	pending-names	city name (Mie prefecture)
+失	drop	bound kanji, no standalone use shown
+寄	drop	bound kanji, no standalone use shown
+一樹	drop	person given name
+四点八	drop	spelled decimal number
+筒井	drop	surname (person/shop name)
+スーダン	pending-names	country name
+ブータン	pending-names	country name
+攻殻	drop	clipped title of work (攻殻機動隊)
+開る	merge:開く	lemmatiser split of 開く(開,開い,開ろ forms)
+フロム	drop	not an established loanword, used in brand/company names
+則	drop	bound kanji, no clear standalone use
+きび	keep	real word (millet)
+メガハウス	drop	toy company brand name
+ピジョン	drop	brand name (baby products), not the ordinary word for pigeon
+慧	drop	personal given name, common sense rare here
+所#ご	drop	no examples; reading ご for 所 unclear/likely tagger error
+ウォーミング	merge:ウォーミングアップ	clipped form, examples all ウォーミングアップ
+五点二	drop	spelled decimal number
+エコキュート	keep	genericised brand used as ordinary word for the heat-pump water heater
+シチュ	merge:シチュエーション	slang clipping, examples show シチュ=シチュエーション
+アスタ	drop	no examples, insufficient evidence of real word
+ハロプロ	drop	brand/organisation name (Hello! Project), not a national institution
+平岡	pending-names	place name (Sapporo district) despite also being a surname
+三点七	drop	spelled decimal number
+リバ	drop	no examples, insufficient evidence of real word
+さんら	drop	name+さん+ら, not a standalone word
+ポルト	pending-names	city name (Porto)
+スターリング	keep	real term for sterling (currency/alloy) used in text
+ヴォクシー	drop	car model/product name
+デジモ	drop	low-diversity spam term from AV listings
+トゥー	drop	transliteration fragment of English "to/too" in titles, not a word
+暗鬼	merge:疑心暗鬼	clipped idiom, examples all 疑心暗鬼
+ハイド	drop	personal name/alias
+ラブプラス	drop	title of work (video game)
+新社	drop	clipped fragment of publisher company names, not a general word
+微々	keep	dictionary headword (微々たる); 微々たる is not the dictionary form
+ペコ	drop	character name (mascot), insufficient evidence of common use
+さう	drop	archaic/garbled kana variants, not a stable headword
+ガニ	drop	no examples, insufficient evidence of real word
+バーグ	merge:ハンバーグ	clipped from ハンバーグ as shown in example
+シータ	drop	character name (Laputa's Sheeta)
+コスタリカ	pending-names	country name
+ピノ	drop	brand/wine-variety name, not an ordinary word
+導	drop	bound form, not used standalone as a word
+モバマス	drop	title/clipping of a game product name
+クアラルンプール	pending-names	city name
+箱根駅伝	drop	named event, not an ordinary word
+クロウ	drop	person name (Russell Crowe) / work title
+大極	drop	low-diversity template spam text
+ドンキー	drop	character/brand name (Donkey Kong, びっくりドンキー)
+ガーナ	pending-names	country name
+パンツァー	drop	tied to anime title/loan jargon, not an ordinary word
+小田急線	drop	named train line facility
+泥沼	keep	ordinary word meaning quagmire/mire
+マイリス	merge:マイリスト	clipping of マイリスト (niconico "my list")
+ルーブル	keep	established currency loanword a learner meets in ordinary news reading
+レック	drop	no usable examples; likely brand/clipping junk
+コペンハーゲン	pending-names	city name
+つか#しじょう	drop	no examples; apparent broken/mislemmatized form
+クロックス	drop	brand name (Crocs)
+サーモ	drop	clipping/brand fragment, no clear target
+ケット	drop	no examples; ambiguous clipping, no clear target
+ヒルナンデス	drop	TV program title
+十色	merge:十人十色	fragment of the idiom 十人十色
+エビス	drop	beer brand name (Yebisu), not genericised
+万葉	keep	general cultural term (万葉歌人, 万葉仮名) beyond the name uses
+のっ	drop	fragment, not a real word
+アイコス	drop	specific product brand; not the ordinary Japanese word for heated-tobacco devices
+当事	merge:当時	typo/homophone for 当時 as shown in examples
+ハリアー	drop	car model name (Toyota Harrier)
+パコパコママ	drop	sex-industry brand/site name, spam jargon
+聖堂	keep	ordinary word for cathedral/temple
+シュウ	drop	cosmetics brand name (Shu Uemura)
+キャ	drop	katakana clip, truncated example leaves target ambiguous (キャスト/キャラ)
+既	drop	bound kanji, not standalone word
+廉	drop	counts are given-name readings; archaic legal 〜の廉で does not show in examples
+タヒチ	pending-names	place name (Tahiti)
+からー	drop	drawled fragment of から, not a word
+ボーテ	drop	loanword fragment used only in cosmetics brand names
+カノ	merge:彼女	katakana clipping of 彼女, used in 元カノ
+セフ	drop	clipping of spam/jargon セフレ, not ordinary reading
+パコ	drop	appears only as part of a film title/character name
+振	drop	bound kanji piece, no standalone usage shown
+収	drop	bound kanji piece (収入, 回収 etc.), not standalone
+スティ	drop	no examples, unclear real standalone word
+トモ	drop	no examples, likely name/slang clipping, unclear
+アトレ	drop	station-building brand/facility name
+ミスチル	drop	nickname for a band (named entity, not institution)
+アルバ	pending-names	appears to be a place name (Aruba/Alba)
+潮干	merge:潮干狩り	duplicate entry, see above
+群生	keep	real common noun (clustered growth)
+しら	drop	no examples, unclear if real standalone word
+十点一	drop	spelled decimal number, not a core number word
+ゆら	drop	appears only as part of a person/character name list
+千差	merge:千差万別	only occurs as part of idiom 千差万別
+勤	drop	bound kanji piece (勤める, 出勤 etc.), not standalone
+柳川	pending-names	place name (Yanagawa)
+オムニ	drop	only used as a bound prefix in compounds/brand names
+十一点五	drop	spelled decimal number
+城南	pending-names	place-name element (ward/city name)
+稿	keep	real standalone word (manuscript/draft, e.g. 本稿)
+ぐらし	merge:暮らし	rendaku form of 暮らし seen in compounds/titles
+狭	drop	bound adjective stem (狭い), not standalone
+ヒ	drop	single katakana fragment, no real usage shown
+ヘル	drop	no examples, unclear fragment/clipping
+オークランド	pending-names	place name (Auckland)
+ガルパン	drop	nickname for an anime title (work title)
+ケンコー	drop	minor camera-accessory brand name
+シャーク	keep	established katakana loanword for "shark"
+ターニング	merge:ターニングポイント	only used as part of ターニングポイント
+滅裂	merge:支離滅裂	only occurs as part of idiom 支離滅裂
+ミラージュ	drop	examples are product and fiction names only; generic "mirage" sense is 蜃気楼
+七点一	drop	spelled decimal number
+黄門	drop	only used referring to the TV drama title/nickname
+ジョージア	pending-names	examples show place-name/person-name uses, not the brand sense
+探し求める	keep	real compound verb "to search for"
+航	drop	bound kanji piece (航海, 航空 etc.), not standalone
+丿	drop	kanji radical used as emoticon stroke, not a word
+青山学院	keep	nationally famous university (institution)
+支離	merge:支離滅裂	always appears as part of 支離滅裂, never standalone
+更	drop	no examples; bound classical form, unclear standalone use
+神起	drop	band name clipped from 東方神起 (K-pop group); minor group, not an institution
+ワ	drop	no examples; single mora fragment, unclear source word
+パナマ	pending-names	country name
+左往	merge:右往左往	only occurs as part of the idiom 右往左往
+篤	drop	examples are all a personal/given name
+ブッダ	keep	common word for the Buddha, widely used in everyday religious/cultural writing
+右往	merge:右往左往	only occurs as part of the idiom 右往左往
+トリニティ	drop	examples are anime title/company brand, not a common word
+公文	keep	household-name educational company (Kumon), used as institution
+垂水	pending-names	place name (district/city)
+産業省	merge:経済産業省	clipped from 経済産業省 in all examples
+ベネズエラ	pending-names	country name
+カービィ	drop	video game character name
+ンコ	drop	no examples; unclear fragment
+駐	drop	bound morpheme, not a standalone word (part of 駐車/駐在 etc.)
+都城	pending-names	place name (city)
+小籠	merge:小籠包	always part of 小籠包 in examples
+芭蕉	drop	examples are the historical person Matsuo Bashō / place names; no plant-sense usage shown
+行っ	merge:行く	conjugated form of 行く mislemmatized
+アストロ	drop	katakana clipping/prefix with no single clear target word in examples
+様#ぶん	drop	unclear reading/homograph mismatch, no examples
+それでい	drop	clipped phrase fragment with no examples; それでいい is not a lemma
+みつ	merge:見る	inflected forms (みた, みて, みちゃ, みとう) show these are conjugations of 見る
+務所	merge:事務所	clipped from 事務所
+タヒ	drop	net censorship substitute spanning 必死/死ね, no single word or merge target
+素晴らし	merge:素晴らしい	adjective stem/classical form of 素晴らしい
+キャプ	drop	no examples; ambiguous clipping (キャプチャー/キャプテン/キャップ)
+バング	keep	real katakana loanword meaning hair "bangs" (アップバング etc.)
+プラーザ	merge:プラザ	alternate spelling of プラザ, seen in たまプラーザ etc.
+渋	drop	bound/clipped element (渋谷, 渋い) with no standalone use shown
+タダマン	drop	sex-industry spam jargon
+干	drop	bound morpheme (駐/干す/干物 component), no clear standalone sense shown
+陣内	drop	examples are personal names (actors)
+梶	keep	used as real word for rudder/helm (梶をとる), despite also being a surname
+カテ	drop	katakana clipping with no examples to confirm the expansion
+ストックホルム	pending-names	city name
+忍び	keep	real word meaning stealth/ninja, used in genuine sentences
+ぷー	drop	nickname/onomatopoeia fragment, not a real word
+ありす	drop	only spam/adult-site person-name uses, not a common word
+マダガスカル	pending-names	country name
+ハロワ	merge:ハローワーク	common clipping of ハローワーク, confirmed by examples
+美姫	drop	used only as part of real/fictional person names
+んよう	drop	tokenizer noise, not a word
+佳	drop	no clear standalone use, appears to be a name-fragment
+符	drop	only appears in fictional/game compound naming, not standalone
+ゴル	drop	no examples, unclear clipping
+吾妻	pending-names	mountain/region/surname, place-name sense dominant
+投	drop	no examples, unclear source word
+テクノロジ	merge:テクノロジー	broken/clipped form missing long vowel
+校生	drop	no examples; fragment ambiguous between 高校生 and 転校生
+モッピージョブモバイル	drop	job-listing boilerplate brand/app name
+ヤリトモ	drop	spam-only adult jargon
+十三点五	drop	spelled-out decimal number
+喜怒	merge:喜怒哀楽	only occurs as part of the idiom 喜怒哀楽
+眞	merge:真	kyūjitai variant spelling of the lemma 真
+もぐ	drop	tokenizer noise/sound variants, not a real word
+バジリスク	keep	established loanword for the mythical creature, used generically
+ランクル	drop	clipping of a car model name; the full form is itself a droppable product name
+クロコ	merge:クロコダイル	common fashion clipping of crocodile(leather)
+取り回し	keep	ordinary word for handling/maneuverability
+在特	drop	clipping of a minor political organization's name
+堕天	merge:堕天使	only occurs as part of 堕天使
+平壌	pending-names	city name
+アパホテル	drop	hotel chain brand name, not a national institution
+スタンレー	drop	person/company name
+ぜる	drop	tokenizer noise, not a word
+六点二	drop	spelled-out decimal number
+美ら	keep	established Okinawan word "beautiful" used in everyday branding/speech
+シング	drop	no examples, unclear clipping
+自画	merge:自画自賛	only occurs as part of 自画自賛
+もが	drop	tokenizer noise, not a word
+オークス	drop	specific horse-race/company name
+デリカ	drop	specific car-model/company name
+万別	merge:千差万別	only occurs as part of 千差万別
+アルター	drop	only in brand/fictional-character contexts, no clear common sense
+二十五点五	drop	spelled-out decimal number
+ジェネシス	drop	only used as a specific work/product/brand name
+ルパン三世	drop	title of a work (anime/manga)
+インプレ	keep	established net-slang noun for a product review, distinct in sense from インプレッション
+クランベリー	keep	common katakana loanword "cranberry"
+ノヴァ	drop	used as game/anime character or product name in all examples
+ミルキィ	drop	Counts are the anime title/character names (ミルキィホームズ); the ordinary "milky" sense is rare here and standardly spelled ミルキー
+モダリーナ	drop	low-diversity brand/shop name (fashion e-commerce site)
+売りる	merge:売り	bogus verb lemma; the real word used is the noun 売り
+パラオ	pending-names	country name (Palau)
+四点六	drop	spelled-out decimal number, not a core number word
+夏樹	drop	personal given name (real people), not an institution
+空海	drop	historical person's name (Kūkai), not an institution
+アポクリン	keep	real medical loanword (apocrine), used in ordinary reading
+七点二	drop	spelled-out decimal number
+織姫	keep	established cultural/mythological term tied to Tanabata vocabulary
+ヘルシンキ	pending-names	city name (Helsinki)
+マイナビニュース	drop	news website/brand, not a nationally talked-about institution
+内膜症	merge:子宮内膜症	clipped form; examples all show 子宮内膜症
+有馬記念	drop	named sporting event, not an institution
+グラニュー	merge:グラニュー糖	clipped form; examples all show グラニュー糖
+ツタヤ	keep	nationwide household-name retail chain used as common reference point
+八尾市	pending-names	city name (Yao City)
+日刊スポーツ	keep	major national sports newspaper, institution-level fame
+フラペチーノ	drop	specific Starbucks product name, not genericized
+松陰	drop	refers to historical person Yoshida Shōin in examples
+十四点五	drop	spelled-out decimal number
+定刻	keep	ordinary common word "scheduled time"
+九十九点九	drop	spelled-out decimal number
+マリオン	drop	personal surname (Marion) in all examples
+十五点六	drop	spelled-out decimal number
+エスカ	drop	no usable examples; likely facility/clipping, unclear
+サス	drop	no usable examples to confirm clipping target
+プラレール	drop	specific toy brand/product name (Plarail)
+キャンベル	drop	personal surname (Campbell) in examples
+スイフト	drop	car model/product name (Suzuki Swift)
+六点一	drop	spelled-out decimal number
+共同通信	keep	major national news agency, institution-level fame
+時半ごろ	drop	formulaic news-report time phrase, not a real lemma
+清水寺	drop	named facility (temple), not a place/region/city etc.
+ご	drop	noise token, no clear word identified
+ツクール	drop	brand name for game-making software series (RPGツクール)
+婦	drop	bound kanji piece with no example to confirm merge target
+エピ	drop	spam brand term (Hermès Epi leather line), not a general word
+六点三	drop	spelled decimal number, not a core number word
+アベ	drop	appears to be the surname Abe (person name), no clear common-word evidence
+神代	keep	real dictionary word 神代(じんだい), "age of the gods"
+ちょび	drop	only seen as part of brand/product/character names, no standalone use shown
+J2	keep	common everyday term for Japan's 2nd football division
+ウルグアイ	pending-names	country name
+二十六点五	drop	spelled decimal number
+名取	pending-names	examples show place name (Natori city/ward); common-noun sense not evidenced
+次亜	merge:次亜塩素酸	Bound prefix cut off; every example is 次亜塩素酸(ナトリウム), whose minimal word is 次亜塩素酸
+ブッ	drop	bound intensifying prefix fragment, no clear merge target
+割りる	merge:割る	broken conjugation; real verb is 割る
+藤浪	drop	baseball player's surname (person name)
+みづ	drop	adult-spam character name, not a real word
+シュプリーム	drop	brand name (Supreme), not generic word
+アミ	drop	likely a personal name (Ami), no common-word evidence
+東京新聞	keep	major national newspaper, institution
+トシ	drop	likely a personal nickname/name (Toshi)
+ケシ	merge:消す	stem of 消す (消し), mislemmatized
+セン	drop	unclear fragment, no evidence of standalone word
+書紀	merge:日本書紀	all examples refer to 日本書紀, clipped form
+パワプロ	drop	video game title/brand clipping
+ミュー	drop	likely character/brand name (e.g. Pokémon Mew), no common-word evidence
+聴い	merge:聴く	verb stem, mislemmatized
+ひこ	merge:飛行機	clipped from ひこうき (飛行機)
+クス	drop	unclear fragment (no evidence of standalone word)
+シエル	drop	fictional character name (Tsukihime)
+バチカン	pending-names	place name (Vatican)
+桃園	pending-names	place name (Taoyuan) dominant in examples
+マスタ	merge:マスター	Real word filed under a long-vowel-less variant spelling of マスター
+五点三	drop	spelled decimal number
+すと	drop	unclear fragment, no evidence of standalone word
+ブリュッセル	pending-names	place name (Brussels)
+ビーグレン	drop	minor cosmetics brand name
+チューリッヒ	pending-names	place name (Zurich)
+三毛	keep	real word for calico/tri-color cat pattern
+インプレス	drop	minor publishing company name
+インタ	drop	Katakana clipping with no examples and several possible sources (インター/インタビュー/インターネット); no clear merge target
+デレステ	drop	mobile game title clipping
+ヲチ	keep	established net-culture slang term (watching/observing someone online)
+イーネット	drop	minor company name (ATM network brand), not an institution learners need
+メンバ	merge:メンバー	katakana clipping of メンバー (member), clear from context
+コラ	drop	No example evidence to establish the コラージュ sense over other readings; ambiguous fragment
+セッ	drop	bound fragment/censored piece, not a standalone word
+ロワイヤル	keep	established katakana loanword "royale" used in common phrases (バトルロワイヤル etc.)
+槿恵	drop	real person's name (Park Geun-hye), not an institution
+表#しじょう	drop	spelling/reading mismatch with no clear source word; likely tagger error
+カイル	drop	personal/character name "Kyle"
+ヱヴァンゲリヲン	drop	title of an anime work
+ちゅら	drop	spammy/ambiguous fragment, no clear standalone meaning in examples
+ナル	drop	no examples, unclear fragment/clipping
+イラネ	merge:要る	Slang contraction of 要らない, whose dictionary-form lemma is 要る
