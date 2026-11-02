@@ -1,0 +1,44 @@
+Together	drop	English phrase, not established in German
+VDMA	drop	trade association acronym, minor organisation
+Viessmann	drop	company name
+Weigel	drop	surname
+deutsch-polnisch	keep	real hyphenated compound adjective
+nahend	merge:nahen	participle form filed as lemma
+pazifisch	keep	real adjective, only the inflected forms are written
+AES	drop	technical acronym
+Couscous	keep	common noun mistagged as a name
+Finanzierungs-Bahn	drop	splitter junk
+Geschwindigkeitsüberschreitung	keep	real compound
+HWK	drop	minor organisation acronym
+Heinrich-Böll-Stiftung	drop	named foundation, not a national institution on the list
+Juice	drop	English, not established
+Moer	drop	town name (Moers)
+Produktdat	merge:Produktdaten	cut-off lemma
+RD	drop	abbreviation
+Schulungs-Bahn	drop	splitter junk
+Tahiti	drop	place name not on the reviewed list
+US-Kongress	keep	real compound, well-known institution
+feuchtigkeitsspenden	merge:feuchtigkeitsspendend	participle adjective filed under a cut-off lemma
+posts	drop	English, not established
+uf	drop	fragment, two letters
+Alert	drop	English, not established
+Bennett	drop	surname
+Chiara	drop	first name
+DaWanda	drop	company/brand
+Destatis	keep	nationally known statistics office, referred to by name
+DiCaprio	drop	person
+Down-Syndrom	keep	real hyphenated compound
+Eduardo	drop	first name
+Ellwange	drop	town name (Ellwangen)
+Geo	drop	name/brand
+Ideas	drop	English, not established
+Idstein	drop	town name
+Irving	drop	surname
+KONTAKT	merge:Kontakt	common noun filed in capitals
+Maryland	drop	foreign place name not on the list
+Microsoft Word	drop	product
+Modeling	drop	English, not established
+# question Heinrich-Böll-Stiftung: a party-affiliated foundation could count as a nationally famous institution, but the rules list no such case; decided drop
+# question Destatis: not on the named list of institutions, but it is the common short name of the Statistisches Bundesamt; decided keep
+# question HWK: Handwerkskammer abbreviation, could count as an institution or an abbreviation; decided drop
+# question nahend: participle form of nahen, but it may also stand as its own adjective; decided merge:nahen

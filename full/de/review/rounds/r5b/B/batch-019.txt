@@ -1,0 +1,41 @@
+Ja-Stimme	keep	real hyphenated compound
+Jerez	drop	minor foreign town
+MADE	drop	English, not established
+Moderna	drop	company/brand
+Musikhör	merge:Musikhören	cut-off nominalised verb
+NX	drop	product code
+Preuß	drop	mostly surname
+Rückmelder	keep	real German noun
+Vector	drop	English, not established
+ASC	drop	organisation acronym
+Abschlussarbeite	merge:Abschlussarbeit	cut-off, plural filed
+Andromeda	drop	name
+Arkham	drop	fictional place/brand
+Edelweiß	keep	common noun (flower)
+Gaal	drop	surname
+IKT	drop	technical acronym
+Ibn	drop	name element
+Ischl	drop	minor town
+Ivy	drop	name/product
+Liszt	drop	person
+Offices	drop	English, not established
+Pfaff	drop	surname/brand
+Podolski	drop	person
+Server-Logfile	keep	real compound used in German
+Stadtverordnet	merge:Stadtverordnete	inflected noun form filed as lemma
+TNS	drop	company acronym
+To-Do-Liste	keep	real hyphenated compound
+review	merge:Review	established loan, noun filed lower-case
+search	drop	English, not established
+Alleinreisendim	merge:alleinreisend	"Alleinreisend im" run together
+Assistance	drop	English, mostly company name
+Bertrand	drop	first name
+Betsson	drop	company/brand
+Chap	drop	English, not established
+Clinic	drop	English, part of names
+Colonia	drop	name
+Coming	drop	English, not established
+FOS	drop	acronym
+Function	drop	English, not established
+Fußball-Fan	keep	real hyphenated compound
+# question review: is "Review" established enough in German to keep? I merged it into Review on the assumption that it is.

@@ -1,0 +1,43 @@
+Benni	drop	first name
+Bertolt	drop	person's first name (Brecht)
+Broke	drop	English "broken", not German
+Casein	keep	common noun (Casein/Kasein), tagger error
+Coins	drop	English word, not established in German
+Entry	drop	English word, not established in German
+Forge	drop	English name/brand
+Friedland	drop	minor town
+Gotham	drop	fictional place name
+Inverkehrbring	merge:Inverkehrbringen	cut-off nominalised verb
+KLM	drop	company acronym
+Langenthal	drop	minor town
+Limett	merge:Limette	cut-off plural stem of Limette
+Meersburg	drop	minor town
+Oldesloe	drop	minor town (Bad Oldesloe)
+PLA	drop	acronym, not a word in German
+Paralympics	keep	well-known event word, like Olympia
+Plön	drop	minor town
+Regula	drop	first name
+Rhein-Ruhr	drop	regional place name not on the reviewed list
+Sakura	drop	mostly names, no clear German use
+Schlachter	keep	real German word (butcher)
+unternehmenseigen	keep	real adjective, inflected forms dominate normally
+ANWENDUNG	merge:Anwendung	capitalised form of a common noun
+BITKOM	drop	industry association, minor organisation
+Boppard	drop	minor town
+Cooking	drop	English word, not established
+Drew	drop	first name
+ESO	drop	organisation acronym, unclear
+GOP	drop	foreign party/company acronym
+Hirscher	drop	person's surname
+Kerpe	drop	cut-off town name (Kerpen), minor town
+Lazio	drop	sports club
+Lenny	drop	first name
+Levante	drop	place name not on list, no examples
+Lizenzbedingung	keep	real noun, plural use is normal
+Lorch	drop	minor town
+Moschus	keep	common noun (musk)
+Netscape	drop	brand/product
+Observation	keep	real German noun (Observation/Observationen)
+# question Sakura: used as a common loanword (cherry blossom) in some contexts; dropped as mostly names.
+# question Levante: also a common noun (eastern Mediterranean region); no examples, dropped as a place name not on the list.
+# question Paralympics: event name rather than an institution; kept as a well-known common event word.

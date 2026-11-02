@@ -1,0 +1,41 @@
+G-BA	drop	Specialist health-body acronym, a minor organisation
+Hewlett-Packard	drop	Company name
+ICO	drop	Technical or brand acronym, name-like
+Kröger	drop	Surname
+L-Arginin	keep	Real chemical noun, a common noun mistagged as a name
+Lich	drop	Small place or name
+Niemeyer	drop	Surname
+OFF	drop	English word, not established in German
+Pkw-Maut	keep	Real German compound
+Rheinbach	drop	Small town
+Riedl	drop	Surname
+Stettin	drop	Foreign city, not on the reviewed list
+Swap	keep	Established financial loan word, a common noun
+Taft	keep	Common noun (the fabric)
+Verizon	drop	Company name
+Weserbergland	drop	Place name not on the reviewed list
+Zeitz	drop	Small town
+apply	drop	English word, not established in German
+brows	merge:Browser	Cut-off lemma, written mostly as browser
+Alfa Romeo	drop	Brand name
+Almose	merge:Almosen	Clipped citation of Almosen
+Alzenau	drop	Small town
+Bundesliga-Spiel	keep	Real German compound
+Chapeau	keep	Established interjection used in German
+Ciao	keep	Established interjection used in German
+Download-Bereich	keep	Real compound with an established loan word
+Edmonton	drop	Foreign city
+Erlenbach	drop	Small town or surname
+FUN	drop	English word, not established in German
+Fliesenschneider	keep	Real German word, though concentrated in shop text
+Foods	drop	English word and company name
+Libraries	drop	English word, not established in German
+Mahmud	drop	First name or surname
+Monty	drop	Name
+No-Go	keep	Established loan, common in German
+Online-Meeting	keep	Established loan compound
+Print-Ausgabe	keep	Real German compound
+Robertson	drop	Surname
+SDS	drop	Technical or brand acronym
+Scientist	drop	English word, not established in German
+# question G-BA: Health-sector institution that is nationally significant but known mainly to specialists; I dropped it, though it could count as a nationally famous institution.

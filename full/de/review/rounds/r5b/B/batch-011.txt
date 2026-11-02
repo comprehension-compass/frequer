@@ -1,0 +1,43 @@
+Polyrattan	keep	common noun (material), tagger mistook for name
+Stadt-Anzeiger	drop	newspaper title/brand, hyphenated name
+VDS	drop	minor organisation acronym
+special	drop	English, not established in German
+two	drop	English number word, not German
+Anniversary	drop	English, not established in German
+BASIC	drop	programming language/English word, not established as German word
+Catania	drop	foreign city, not on place list
+EU-Projekt	keep	real German compound
+Elia	drop	first name
+Emmy	drop	first name / award name
+FSB	drop	foreign security service/minor org acronym
+GERMANY	drop	English name form
+GOTS	drop	certification label acronym, specialist
+Going	drop	English fragment of titles
+Goodman	drop	surname
+Healing	drop	English, not established
+Hochdorf	drop	small town
+Lenzburg	drop	small town
+Naturkautschuk	keep	common noun, tagger mistook for name
+Phnom	drop	part of foreign city name (Phnom Penh)
+Reese	drop	surname
+Renovierungsarbeite	merge:Renovierungsarbeit	cut-off form of Renovierungsarbeiten; the singular is the dictionary form
+Riot	drop	English word/brand name, not established
+STIKO	keep	nationally known German vaccination commission
+Spid#Neut	merge:Spider	broken lemma, text is "spider"
+Suggestion	keep	established German noun (Suggestion)
+Tiguan	drop	car brand product
+URTEIL	merge:Urteil	capitalised all-caps form of common noun Urteil
+Weiwei	drop	surname/person name
+Wyss	drop	surname
+Antennenelement	keep	real German compound, plural forms; low diversity but real word
+Astoria	drop	name of hotels/clubs
+Bindegeweb	merge:Bindegewebe	cut-off lemma; see question
+Davidson	drop	surname
+Gender	keep	established German loan, used as a common noun and verb (gendern)
+Goodbye	drop	English, not established in German
+KWG	drop	specialist legal acronym (Kreditwesengesetz)
+Lustenau	drop	small town
+Mitsing	merge:mitsingen	cut-off form, text is "mitsingen"
+# question Renovierungsarbeite: the singular Renovierungsarbeit is rare; the word is mostly plural, so Renovierungsarbeiten (plural-only usage) could be the better target.
+# question Bindegeweb: the correct lemma is Bindegewebe or the singular Bindegewebe; I used Bindegewebe, as that is the German dictionary form (neuter noun, same singular).
+# question Antennenelement: only 2 documents, so possibly template text; kept as a real compound.

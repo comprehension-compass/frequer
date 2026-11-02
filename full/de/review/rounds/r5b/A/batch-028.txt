@@ -1,0 +1,44 @@
+xxl	drop	size abbreviation, not a word
+Atomic	drop	brand name
+Autoteile	merge:Autoteil	noun filed under its plural
+Biontech	drop	company name
+CTO	drop	technical acronym
+Caramel	drop	English spelling, not established in German
+GDV	drop	minor organisation
+Graupner	drop	surname
+Hawks	drop	sports club
+IW	drop	two-letter abbreviation
+Internet-Nutzer	keep	real German compound
+Internetanbiete	merge:Internetanbieter	cut-off lemma
+Kirch	drop	surname
+Leeds	drop	foreign city not on the places list
+Linear	merge:linear	adjective filed under a capital
+Lokalmatador	keep	common noun
+Löwenstein	drop	surname or town
+Netzteile	merge:Netzteil	noun filed under its plural
+Online-Beratung	keep	real German compound
+Online-Kauf	keep	real German compound
+Onyx	keep	common noun (mineral)
+PETA	keep	nationally known organisation, like Greenpeace
+Plain	drop	English word, not established in German
+Produktempfehlunge	merge:Produktempfehlung	cut-off lemma
+Ranze	merge:Ranzen	cut-off lemma
+Referentinn	merge:Referentin	cut-off lemma
+Russ	drop	surname, or a Swiss spelling of Ruß with no evidence
+Tiramisu	keep	common noun (dessert)
+Ufo	keep	common noun
+Unterschleißheim	drop	town not on the places list
+VISION	merge:Vision	common noun filed in capitals
+Zimbabwe	merge:Simbabwe	English spelling of the German country name
+add	drop	English word, not established in German
+nordhessisch	keep	real adjective, flagged only because it appears inflected
+togeth	drop	cut-off English word
+ARENA	merge:Arena	common noun filed in capitals
+Air France	drop	company name
+BEM	drop	acronym with no common use for a learner
+BOX	merge:Box	established loan filed in capitals
+Beltz	drop	publisher or surname
+
+# question PETA: an international organisation rather than a German national institution; kept by analogy with Greenpeace.
+# question Russ: could be a Swiss spelling of Ruß (soot), but the tagger saw a name and no examples are available.
+# question Zimbabwe: a place name not on the list, but a variant spelling of the country Simbabwe, so I merged it instead of dropping.

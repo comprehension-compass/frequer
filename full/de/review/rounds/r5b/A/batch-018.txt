@@ -1,0 +1,43 @@
+Service-Hotline	keep	real German compound, commonly used
+TzBfG	drop	legal statute acronym, specialist only
+days	drop	English word not established in German
+rights	drop	English word not established in German
+skin	drop	English word, skins as gaming term not established
+Änderungskündigung	keep	real German legal/employment compound
+Auslandsversand	keep	common noun mis-tagged as name
+Autogas	keep	common noun mis-tagged as name
+BMX	keep	established sport term, ordinary word
+Bethel	drop	institution/place name, not nationally famous
+COVID	keep	ordinary word in German
+DFB-Elf	keep	common nickname for the national team, a real compound
+Draxler	drop	person surname
+Erwachsenwerde	merge:Erwachsenwerden	nominalised infinitive cut off
+Flander	merge:Flandern	cut-off place name; Flandern is a major region
+Fuel	drop	English word not established
+Heinze	drop	surname
+Lechner	drop	surname
+Packard	drop	surname/company
+Petr	drop	first name
+Piräus	drop	minor foreign city not on list
+Suter	drop	surname
+Tanga	keep	common noun (garment)
+Teck	drop	name/place, not learnable
+Thom	drop	first name
+Thoma	drop	surname
+Vuitton	drop	brand/person name
+Zusammensetzunge	merge:Zusammensetzung	plural/cut-off form of Zusammensetzung
+board	drop	English word not established
+ADR	drop	specialist or organisation acronym
+Brugg	drop	small town
+Burns	drop	surname
+Catalina	drop	first name/product name
+Coronavirus-Pandemie	keep	real German compound
+DREI	merge:drei	number word filed under capitalised lemma
+DuMont	drop	publisher company name
+ELO	drop	rating system/brand name, specialist
+Faith	drop	English name/word
+Frederic	drop	first name
+Guangzhou	drop	foreign city not on list
+# question DFB-Elf: nickname of a nationally famous team; treated as a real compound, but could count as a sports-club/team name
+# question Flander: Flandern is a region but not confirmed as on the reviewed places list; merged to the region name
+# question Bethel: well-known institution in Bielefeld, but not on the listed nationally famous institutions; dropped

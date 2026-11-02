@@ -1,0 +1,42 @@
+MAL	keep	real particle "mal", tagger error
+Pay-TV	keep	established hyphenated compound
+Perez	drop	surname
+Preisbestandteil	keep	real compound, mostly plural in use but lemma is already singular
+Ras	drop	name/fragment
+Rhein-Sieg	drop	minor district, not on place list
+SHOP	keep	established loan Shop
+Starburst	drop	slot-game brand
+VOLKES	merge:Volk	genitive of Volk
+gw	drop	abbreviation
+impossibel	drop	English film title
+number	drop	unestablished English
+schwierigst	merge:schwierig	superlative inflection
+Ballerinas	merge:Ballerina	plural of Ballerina
+Drittanbieter-Cookie	keep	real compound
+Ebenholz	keep	common noun
+Everest	drop	mountain, not on place list
+Fußball-EM	keep	real compound
+HW	drop	abbreviation
+Holzkohlegrill	keep	common noun
+I-II	drop	condition grade notation
+Labbadia	drop	surname
+Landschaftspfleg	merge:Landschaftspflege	cut-off lemma
+Moody	drop	name/brand
+NA	drop	abbreviation/name
+NYSE	drop	stock exchange ticker text, specialist
+RBB	keep	national public broadcaster like WDR
+Reebok	drop	brand
+Sanierungs-Bahn	drop	splitter junk
+Scale	drop	unestablished English/product
+Schmelzer	drop	surname
+Smile	drop	unestablished English/name
+Smoking	keep	German word for tuxedo
+Süditalien	drop	place name not on reviewed list
+Tourism	drop	English word
+WZ	drop	abbreviation
+YPG	drop	minor organisation
+sa	drop	abbreviation/fragment
+Bomb	drop	English word
+Canton	drop	brand name
+# question YPG: Kurdish militia often in news; treated as minor organisation, not in the famous list (Hamas-like?)
+# question Süditalien: region name, but rule says any place name still in batch drops

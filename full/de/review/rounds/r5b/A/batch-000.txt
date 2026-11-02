@@ -1,0 +1,42 @@
+DICE	drop	game studio, company name
+Dale	drop	first name
+EB	drop	two-letter name or abbreviation
+Excel-Tabelle	keep	real German compound
+FAO	keep	UN agency, comparable to UNO
+Gandhi	drop	person
+Hasan	drop	first name
+Haushaltssatzung	keep	real German municipal-finance word
+ING	drop	bank brand
+Prism	drop	product name
+RH	drop	two-letter abbreviation or name
+SCM	drop	acronym of a company or organisation
+Spielstätt	merge:Spielstätte	cut-off singular of Spielstätten
+Tomorrow	drop	English film title, not German
+US-Armee	keep	real compound, nationally known body
+VPN-Verbindung	keep	real compound
+Vicky	drop	first name
+Wiegand	drop	surname
+Xerox	drop	brand
+branchenübergreifen	merge:branchenübergreifend	cut-off adjective
+vorgehalt	merge:vorhalten	participle of vorhalten, not an adjective entry of its own
+watch	drop	English word not established in German
+Absterbe	merge:Absterben	nominalised infinitive, cut-off
+Andersen	drop	surname
+BBL	drop	league or club acronym
+Cedric	drop	first name
+Comdirect	drop	bank brand
+Composite	drop	English technical term not established in German
+Erna	drop	first name
+GNTM	drop	TV show brand
+Gilles	drop	name
+Goldmann	drop	surname and publisher
+Hooligan	keep	established loan and common noun
+IMHO	drop	internet abbreviation
+Loeb	drop	surname
+Mamma	drop	name or film title
+Ottawa	drop	place name not on the reviewed list
+Primark	drop	company brand
+Schneewittch	merge:Schneewittchen	cut-off lemma
+Schools	drop	English word not established in German
+# question FAO: an international UN agency, not strictly a national institution; kept as comparable to UNO/NATO
+# question BBL: Basketball Bundesliga; dropped as a sports league acronym, though Bundesliga itself is kept

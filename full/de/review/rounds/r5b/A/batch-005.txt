@@ -1,0 +1,43 @@
+Petro	drop	personal name
+Rückenbeschwerde	keep	real noun, used almost only in the plural
+SPD-Kanzlerkandidat	keep	real hyphenated German compound
+Weinzierl	drop	surname
+file	drop	English word, not established in German
+multilateral	keep	real German adjective
+Arabica	keep	common noun for a coffee variety
+Bolognese	keep	common noun (sauce), in everyday use
+Candle	drop	English word, brand use
+Cortison	keep	common medical noun
+GK	drop	abbreviation, 2 letters
+Gods	drop	English word in titles
+Hiddensee	drop	minor place name, not on the list
+InCopy	drop	product name
+Kanban	keep	established business-method term
+Menorca	drop	place name not on the reviewed list
+Mother	drop	English word, film title
+Platini	drop	surname
+Powered	drop	English template text
+Serena	drop	first name
+Smoke	drop	English word, not established
+Spa-Bereich	keep	real German compound
+Stallunge	merge:Stallung	plural Stallungen filed under a cut-off lemma
+Vergewisser	merge:vergewissern	infinitive filed under a cut-off lemma
+Voltaire	drop	historical figure
+WPC	drop	technical or brand acronym
+elfjährig	keep	real adjective, correct lemma
+Butt	drop	mostly English use and names
+Crews	merge:Crew	plural of the established loan Crew
+Defence	drop	English word in company names
+Goal	drop	English word, not established
+Hartholz	keep	common German noun
+Hurricane	drop	English word, brand and band name
+ICC	drop	specialist acronym
+Malcolm	drop	first name
+Marquardt	drop	surname
+Melitta	drop	brand and first name
+Mop	merge:Mops	examples show the dog breed Mops
+Mustermann	drop	placeholder surname
+ND	drop	abbreviation or minor organisation
+# question Kanban: a proper-noun-tagged method name; kept as an established business term, unclear if it counts as a common noun.
+# question Mop: forms are mostly "mops" (dog breed), but "Mop" (cleaning tool) is also a word; merged to Mops on the evidence.
+# question Mustermann: placeholder surname known to all German speakers; dropped as a person name.

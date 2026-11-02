@@ -1,0 +1,43 @@
+Lampion	keep	common noun, lantern
+Nigel	drop	first name
+Pattern	drop	English word, not established in German
+Plastic	drop	English word, not established in German
+Printer	drop	English; German uses Drucker
+Sell	drop	English word, not established in German
+Sparkassen-Finanzgruppe	drop	company/organisation name
+TV-Show	keep	real hyphenated compound, established loan
+local	drop	English word, not established in German
+lübben	drop	small-town place name
+Architect	drop	English; German is Architekt
+Arendt	drop	surname
+Arosa	drop	village place name
+Bellatrix	drop	name (star/fictional character)
+Bubbles	drop	English word or name
+Buschmann	drop	mostly a surname
+Butzbach	drop	town name
+Connecticut	drop	place name not on the reviewed list
+Cricket	keep	sport name used in German
+Falco	drop	name/company
+GPRS	drop	technical acronym
+Gerold	drop	first name
+Grevenbroich	drop	town name
+Installations-Bahn	drop	splitter junk, cut-off hyphen form
+Ismaning	drop	town name
+Leather	drop	English word, not established in German
+Menowin	drop	person's first name
+Mörfelden-Walldorf	drop	town name
+Ostwestfalen-Lippe	drop	place name still in batch, so not on the reviewed list
+Poseidon	drop	mythological figure/name
+Renzi	drop	surname
+Rosetta	drop	name/place
+SRH	drop	organisation acronym
+Sahin	drop	surname
+Steinheim	drop	town name
+Themse	drop	place name still in batch, so not on the reviewed list
+YOUR	drop	English word
+Abarth	drop	brand name
+Alias	keep	ordinary word in German
+BLZ	drop	abbreviation
+# question Cricket: English-origin sport word; kept as an established term for the sport, but it is borderline under the foreign rule.
+# question Themse: major river and well known, but it is not on the reviewed place list, so dropped per the rule.
+# question Sparkassen-Finanzgruppe: hyphenated compound, but it names a specific financial group, so dropped as a company/organisation; it could count as nationally famous.

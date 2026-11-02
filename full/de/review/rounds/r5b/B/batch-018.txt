@@ -1,0 +1,42 @@
+Service-Hotline	keep	real German compound, commonly used
+TzBfG	drop	legal statute acronym, specialist only
+days	drop	English, not established in German
+rights	drop	English, not established in German
+skin	drop	English, not established in German
+Änderungskündigung	keep	real German labour-law compound noun
+Auslandsversand	keep	common noun compound mistagged as name
+Autogas	keep	common noun mistagged as name
+BMX	keep	established loan, ordinary word for the sport/bike
+Bethel	drop	town district/institution name, not a learnable place
+COVID	keep	ordinary word in German
+DFB-Elf	keep	common national-team nickname, real compound
+Draxler	drop	person surname
+Erwachsenwerde	merge:Erwachsenwerden	nominalised infinitive clipped
+Flander	merge:Flandern	clipped region name; Flandern is a major region
+Fuel	drop	English, not established in German
+Heinze	drop	person surname
+Lechner	drop	person surname
+Packard	drop	person surname/company
+Petr	drop	first name
+Piräus	drop	foreign city not on the reviewed list
+Suter	drop	person surname
+Tanga	keep	common noun (garment)
+Teck	drop	place/name, not learnable
+Thom	drop	first name/surname
+Thoma	drop	surname
+Vuitton	drop	brand/person name
+Zusammensetzunge	merge:Zusammensetzung	plural filed under clipped form, singular is the lemma
+board	drop	English, not established in German
+ADR	drop	specialist acronym
+Brugg	drop	minor town
+Burns	drop	person surname
+Catalina	drop	first name/product name
+Coronavirus-Pandemie	keep	real German compound
+DREI	merge:drei	number word filed under capitalised lemma
+DuMont	drop	publisher company name
+ELO	drop	rating system/brand name, specialist
+Faith	drop	English name
+Frederic	drop	first name
+Guangzhou	drop	foreign city not on the reviewed list
+# question Flander: Flandern is a region, not on the stated reviewed list as far as visible; merged assuming it is learnable as a major region.
+# question COVID: tagged as proper noun but used as an ordinary word; kept as established vocabulary.

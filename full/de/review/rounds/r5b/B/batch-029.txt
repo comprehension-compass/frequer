@@ -1,0 +1,46 @@
+Benefit	drop	English word, mostly the Benefit Cosmetics brand
+Croft	drop	person/character name
+Disneys	drop	brand name
+Django	drop	name
+Euro-Land	keep	real German compound
+Felicitas	drop	first name
+Golf von Mexiko	drop	place name not on the reviewed list
+HERZLICH	merge:herzlich	adjective filed under a capitalised lemma
+Jense	drop	surname Jensen
+Kinderschmink	merge:Kinderschminken	clipped lemma
+Malu	drop	name
+Marktdat	merge:Marktdaten	clipped lemma
+Mayen	drop	small town and surname
+Modular	merge:modular	adjective filed under a capitalised lemma
+Ottmar	drop	first name
+Unionsmarke	keep	real legal term
+maschin	merge:Maschine	clipped lemma
+should	drop	English word
+Barmherzige	merge:barmherzig	inflected adjective, not a name
+CSU-Bundestagsfraktion	keep	nationally known institution, real compound
+ENERGY	drop	English word/brand
+Fahnd	merge:Fahnder	clipped lemma
+Fickt	merge:ficken	inflected verb form
+GD	drop	company acronym
+GPL	drop	technical licence acronym
+Harbor	drop	place name/English
+Hint	merge:hinten	mostly "hinten", not the English word
+IBB	drop	minor organisation
+Lecithin	keep	common noun
+Liahona	drop	name of a magazine
+Oct	drop	English month abbreviation
+Scope	drop	English term not established
+Section	drop	English word
+Timoschenko	drop	surname
+Top-Modell	keep	real German compound
+did	drop	English word
+ju	drop	abbreviation or junk
+nürnberg	drop	place name still in batch, so not on the reviewed list
+AfD-Fraktion	keep	nationally known party body, real compound
+Boulder	keep	established climbing loan
+
+# question Golf von Mexiko: a major gulf, but the rule says any place name still in the batch is dropped
+# question Hint: written forms are mostly "hinten" (German) with some English "hint(s)", so the lemma is mixed
+# question ju: "ju" (289) and "juden" (45) are mixed, so I dropped it on the majority form
+# question nürnberg: a well-known city, but it was not taken out of the batch, so I dropped it
+# question Marktdat: "Marktdaten" is effectively plural-only, so I merged into the plural

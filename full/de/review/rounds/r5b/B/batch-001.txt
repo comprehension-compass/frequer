@@ -1,0 +1,43 @@
+Sidney	drop	personal name
+Sissi	drop	personal name
+Tan	drop	name or English word, not a German lemma
+Tilman	drop	personal name
+WIN	drop	English word or brand name
+West-Berlin	drop	place name not on the reviewed list
+Wick	drop	surname
+sant	drop	fragment, few documents
+Bildschirmschoner	keep	ordinary German noun, tagger error
+Conti	drop	brand or name
+Cradle	drop	English word or brand text
+Curacao	drop	place name not on the list
+Curtis	drop	personal name
+Drill	keep	real German noun
+Elvira	drop	first name
+Gündogan	drop	surname
+Halogenlampe	keep	ordinary German noun
+Ilka	drop	first name
+Joanna	drop	first name
+Milton	drop	surname
+Scania	drop	brand
+Securities	drop	English word in company names
+Service-Center	keep	established hyphenated loan compound
+Shock	drop	English word or brand
+Speisesalz	keep	ordinary German noun
+Stacheldraht	keep	ordinary German noun
+Truth	drop	English word
+USB-Schnittstelle	keep	real compound
+Wilhelmsburg	drop	district, not on the place list
+Yale	drop	university name
+ebendies	merge:ebendieser	declined form of ebendieser
+zukunftssich	merge:zukunftssicher	cut-off lemma
+Backlinks	merge:Backlink	plural of an established web loan
+Celebrity	drop	English word, not established
+Delay	drop	English word, mostly the name Jan Delay
+Deus	drop	Latin word in names and titles
+GIGA	drop	website name
+Galatasaray	drop	sports club
+Grimma	drop	town
+Kügelche	merge:Kügelchen	cut-off lemma
+
+# question Backlinks: SEO jargon that may be specialist-only, but it is a common web loan, so I merged it to the singular rather than dropping it.
+# question West-Berlin: a historically well-known name, but not on the developer's added list, so I dropped it under the place-name rule.

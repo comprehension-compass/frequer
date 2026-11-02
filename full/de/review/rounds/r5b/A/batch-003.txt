@@ -1,0 +1,43 @@
+FP	drop	abbreviation, length 2
+HNO	drop	medical specialty acronym, specialists only
+ICS	drop	technical acronym
+KL	drop	abbreviation
+Lohmann	drop	surname
+Metropolitan	drop	English name element, not established German
+Morrison	drop	surname
+Nebenfach	keep	common noun mis-tagged as name
+Olympics	drop	English name, not established
+Pjöngjang	drop	foreign city not on the reviewed list (Korea added, not its capital)
+Rams	drop	name/English junk
+Shoes	drop	English word, brand/shop text
+Steglitz	drop	Berlin district
+Stichwörter	merge:Stichwort	plural of a noun
+Sumatra	drop	island not on the added list, not reviewed list
+Viernheim	drop	small town
+Wdr	keep	nationally famous institution (WDR), wrong case in lemma
+Wunschdenke	merge:Wunschdenken	cut-off citation of real noun
+XML-Datei	keep	real German compound
+around	drop	English, not established
+fucking	drop	English, not established
+guy	drop	English, not established
+päckch	merge:Päckchen	cut-off lemma
+Bückeburg	drop	small town
+Engelhardt	drop	surname
+Exploration	keep	real German noun
+Gesundheitsfrag	merge:Gesundheitsfrage	cut-off lemma
+Give	drop	English, not established
+Grote	drop	surname/name element
+Haifa	drop	foreign city not on list
+Herkules	drop	mythological figure/name
+Installateure	merge:Installateur	plural of a noun
+Katzenberger	drop	person
+Legends	drop	English game title
+Loose	drop	English/name
+Louisa	drop	first name
+NB	drop	abbreviation
+Newcastle	drop	foreign city
+Runs	drop	English baseball term
+Susann	drop	first name
+# question Pjöngjang: Korea was added but the capital was not named; dropped as a foreign city, though a learner might want it.
+# question Sumatra: island, not a country or major region listed; dropped, though well known.
+# question Wdr: the lemma is written with lowercase letters "Wdr"; kept as the institution WDR, but the correct form may be "WDR".

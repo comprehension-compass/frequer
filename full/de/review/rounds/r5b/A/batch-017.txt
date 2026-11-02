@@ -1,0 +1,43 @@
+Couture	keep	common noun (Haute Couture), tagger took brand uses for a name
+ISMS	drop	technical acronym only specialists use
+Isa	drop	first name
+Langstrumpf	drop	fictional character's surname
+Leitfäde	merge:Leitfaden	broken plural citation of Leitfaden
+Lifecycle	drop	English technical term, not established
+NS-Regime	keep	real German compound
+Online-Anbieter	keep	real German compound
+Ozeanien	drop	place name not on the reviewed list
+Piet	drop	first name
+Political	drop	English word, not established in German
+Rösche	merge:Röschen	cut-off form of Röschen (cauliflower florets)
+Skinhead	keep	established common noun
+Supervisor	keep	established loan in coaching and work contexts
+Teatro	drop	foreign name element
+Waldeck	drop	place or surname
+better	drop	English word
+driv	drop	broken English fragment
+lie	drop	English word
+mom	drop	English word
+AUFGABEN	merge:Aufgabe	plural filed in capitals, singular is Aufgabe
+Anika	drop	first name
+Blog-Artikel	keep	real German compound
+CAT	drop	name or acronym, not a learner word
+Chloe	drop	first name
+Closed	drop	English word, not established
+Dieburg	drop	minor town
+Erzherzog	keep	common noun for a rank, though flagged as a title
+Flavonoide	merge:Flavonoid	plural filed as lemma
+Graphit	keep	common noun (material)
+Guideline	keep	established business loan
+Neal	drop	name
+Nougat	keep	common noun
+Quinta	drop	estate or place name
+RICHTIG	merge:richtig	adjective filed in capitals
+Ramelow	drop	surname of a person
+RoboHelp	drop	software brand
+Russian	drop	English word
+SPAM	keep	established loan Spam
+Schengen	drop	place name not on the reviewed list
+# question Erzherzog: rules say titles drop, but this is a common noun for a historical rank; kept.
+# question Schengen: a village name, but also the well-known agreement; dropped because it is not on the place list.
+# question Couture: tagged as a name, mostly in brand contexts, but the word is an ordinary loan; kept.

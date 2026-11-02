@@ -1,0 +1,31 @@
+# lemma	A	reason A	B	reason B
+Mamma	drop	name or film title	keep	common noun (anatomy, colloquial mother)
+Amman	keep	capital city of Jordan, well-known city	drop	foreign city not on list
+MIDI	keep	acronym used as ordinary word	drop	technical acronym
+Basel-Landschaft	keep	Swiss canton, major region	drop	canton, not on reviewed list
+Butt	drop	mostly English use and names	keep	real German word (flatfish)
+DAK	drop	health insurer, treated as a company	keep	nationwide health insurer, nationally known body
+Mae	merge:Maß	Maße with ß lost; singular is Maß	merge:Maße	broken encoding of Maße
+cash	keep	established loan	drop	English, mostly a magazine name
+Andalusie	drop	clipped lemma of Andalusien, a region name not on the reviewed list	merge:Andalusien	clipped place-name lemma; Andalusien is a major region
+strip	drop	English word, not established in German	merge:Strip	noun filed under a lower-case lemma
+PreisEUR	merge:Preis	scraped price text with "EUR" attached	drop	template junk from shop text
+Variant	drop	English, not established in German	merge:Variante	English spelling of the German word
+Fromm	drop	surname in the examples	merge:fromm	adjective filed in capitals
+untergehend	merge:untergehen	inflected participle form	keep	participle adjective in set phrase (untergehende Sonne), lemma form is valid
+Logfiles	merge:Logfile	noun filed under plural	keep	common noun used in German IT (Logfile)
+BfR	keep	federal risk-assessment institute, often cited by name in food-safety news	drop	specialist federal institute, not nationally famous
+Bolschewiki	keep	real historical term, plural-only noun	merge:Bolschewik	noun filed under its plural
+MAL	keep	real particle "mal", tagger error	merge:mal	adverb filed under a capitalised lemma
+SHOP	keep	established loan Shop	merge:Shop	noun filed under an all-caps lemma
+review	keep	established loan (Review/Reviews)	merge:Review	established loan, noun filed lower-case
+Alleinreisendim	merge:Alleinreisende	"alleinreisend im" run together	merge:alleinreisend	"Alleinreisend im" run together
+Order	keep	real German noun (Order, Ordern), though "orders" may be English	drop	mostly English "orders"
+TOUR	keep	common noun (Tour)	merge:Tour	common noun filed under an uppercase lemma
+rigid	keep	real German adjective (rigide/rigid)	merge:rigide	dictionary form of the German adjective is rigide
+Brasil	drop	place name not on the list, and a company-name spelling	merge:Brasilien	variant spelling and cut-off form of the country
+Kollektivprokura	drop	low-diversity register-entry template text	keep	real German legal term
+Unionsmarke	drop	low diversity, legal/template text	keep	real legal term
+Boulder	drop	English word/proper noun, not established	keep	established climbing loan
+VAE	keep	country acronym like USA	drop	place-like acronym not on the reviewed list
+Fitting	keep	German noun for a pipe fitting, also used for bike fitting	drop	English technical term, not established

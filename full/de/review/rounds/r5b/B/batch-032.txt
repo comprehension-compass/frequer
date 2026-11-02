@@ -1,0 +1,41 @@
+Yaris	drop	car model, a product name
+AAC	drop	technical acronym
+Althaus	drop	surname
+Au-pair	keep	established loan, real hyphenated compound
+Baselland	drop	place name not on the reviewed list
+Bel	drop	name fragment
+Calais	drop	foreign city not on the list
+Clearing	drop	English finance term, not established for learners
+Domaine	drop	French wine-estate name
+Entrümpelunge	merge:Entrümpelung	plural form filed as a cut-off lemma
+Fitting	drop	English technical term, not established
+Hands	drop	English word, not established
+Hazard	drop	English word and name, not established
+Helmuth	drop	first name
+Heringsdorf	drop	small town
+IVD	drop	organisation acronym
+Iwan	drop	first name
+Kirchstraße	drop	street name
+Loire	drop	place name not on the reviewed list
+Lucca	drop	foreign city not on the list
+Lukas Podolski	drop	person name
+Marquez	drop	surname
+Moda	drop	brand name
+Montreux	drop	foreign town not on the list
+Roots	drop	English word and name
+Sommaruga	drop	surname
+Top-Preis	keep	real German compound
+Ullmann	drop	surname
+class	drop	English word, not established
+color	drop	English or Spanish word
+head	drop	English word, not established
+umb	drop	fragment, few documents
+would	drop	English word
+BFS	drop	minor organisation acronym
+Bafög	keep	nationally known German funding scheme, ordinary word
+BfS	drop	minor organisation acronym
+Cortisol	keep	common noun the tagger mistook for a name
+GROHE	drop	brand name
+Germering	drop	small town
+Henke	drop	surname
+# question Fitting: could be a real term in German plumbing and bike trades, but it reads as an English loan not widely established; dropped

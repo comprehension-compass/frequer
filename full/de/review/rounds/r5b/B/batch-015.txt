@@ -1,0 +1,42 @@
+Professorinn	merge:Professorin	cut-off lemma, written as the plural professorinnen
+San Marino	drop	place name not on the learnable list
+electronic	drop	English word, brand text
+Battlefront	drop	game title
+BfR	drop	specialist federal institute, not nationally famous
+COO	drop	technical acronym
+Clay	drop	name
+Cramer	drop	surname
+Donauwörth	drop	town
+Fundamentaliste	merge:Fundamentalist	wrong lemma, singular is Fundamentalist
+GAP	drop	acronym, organisation or project name
+Hauck	drop	surname or brand
+Lau	drop	surname
+Melamin	keep	common noun (material)
+Meppen	drop	town
+Mighty	drop	English word, brand name
+Naturheilpraxis	keep	real German compound noun
+Resistance	drop	English word, not established in German
+Ricciardo	drop	person
+Schwarzenegger	drop	person
+Silverstone	drop	race track, place name not on list
+Volker Bouffier	drop	person
+WTF	drop	slang acronym
+Weibch	merge:Weibchen	cut-off lemma
+Würstch	merge:Würstchen	cut-off lemma
+fünfköpfig	keep	real adjective, lemma is correct
+pfenning	drop	name or spam, concentrated in 6 documents
+think	drop	English word
+when	drop	English word
+AUCH	merge:auch	adverb filed under a capitalised lemma
+Angels	drop	name or brand
+Auskühl	merge:auskühlen	cut-off lemma, written as auskühlen
+Balea	drop	brand
+Bernburg	drop	town
+Bolschewiki	merge:Bolschewik	noun filed under its plural
+Cheesecake	keep	common noun, established loan
+Chronicles	drop	title text
+Hiller	drop	surname
+Kamenz	drop	town
+Küssche	merge:Küsschen	cut-off lemma
+# question Bolschewiki: plural of Bolschewik; I merged it, but it could also be kept as a plural with its own meaning for the historical group
+# question Auskühl: examples show the nominalised verb (das Auskühlen); I merged to the verb auskühlen, but Auskühlen as a noun is also possible

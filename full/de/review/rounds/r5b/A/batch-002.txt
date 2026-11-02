@@ -1,0 +1,43 @@
+Moni	drop	first name/nickname
+Pax	drop	surname/name
+Pirate	drop	English, not established; name in context
+Produzier	merge:produzieren	cut-off verb, written produzieren
+SPIEL	merge:Spiel	capitalised noun in caps, common noun Spiel
+Schmutzpartikel	keep	real German compound noun
+Schwesing	drop	village name, low diversity
+Sheraton	drop	hotel brand
+congstar	drop	brand
+sternzeich	merge:Sternzeichen	clipped noun
+Altmark	drop	minor region not on list
+Amman	keep	capital city of Jordan, well-known city
+Boat	drop	English, not established
+Brünn	drop	foreign city not on list
+Chantal	drop	first name
+Character	drop	English, not established
+Charms	drop	brand/jewelry product term, English
+Gliederschmerz	merge:Gliederschmerzen	plural-only noun
+Helvetia	drop	personification/name, not common
+Herausnehm	merge:herausnehmen	cut-off verb
+Into	drop	English word, not established
+Jos	drop	first name
+Klosterneuburg	drop	town
+MIDI	keep	acronym used as ordinary word
+Moringa	keep	real plant noun
+Neustrelitz	drop	town
+Onboarding	keep	established loan in German business use
+Reimer	drop	surname
+Smartwatche	merge:Smartwatch	plural filed as lemma
+Stickereie	merge:Stickerei	plural filed as lemma
+XBox	drop	brand/product
+Zorro	drop	fictional character name
+may	drop	English word, not established
+Barney	drop	first name
+Basel-Landschaft	keep	Swiss canton, major region
+Borkum	drop	island/town not on list
+Camilla	drop	first name
+Cara	drop	first name
+Dannenberg	drop	town
+Exportier	merge:exportieren	cut-off verb
+# question Amman: not clearly on the reviewed place list; kept as a well-known capital
+# question Basel-Landschaft: canton may not count as a major region; kept as a Swiss canton
+# question Gliederschmerz: rule says plural-only nouns stay keep, but the lemma spelling is clipped; merged into the plural form Gliederschmerzen

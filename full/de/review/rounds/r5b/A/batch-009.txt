@@ -1,0 +1,42 @@
+PreisEUR	merge:Preis	scraped price text with "EUR" attached
+BRK	drop	regional Red Cross body, not nationally famous
+Balanced	drop	English, only part of "Balanced Scorecard"
+Baschar al-Assad	drop	person
+Bezos	drop	person
+Cortana	drop	product
+Emsdetten	drop	small town
+Fastfood	keep	common noun, established loan
+GREEN	drop	brand or name
+Kara	drop	name
+Lucien	drop	first name
+Marschall	keep	common noun (military rank)
+PSN	drop	brand acronym
+Penn	drop	name
+QM-System	keep	real German compound
+RG	drop	two-letter abbreviation
+SAM	drop	name or brand
+Speyerer	drop	adjective from a minor town's name
+Splash	drop	brand or name
+Streitereie	merge:Streiterei	cut-off citation; the text has the plural Streitereien
+USB-Gerät	keep	real compound
+VSBG	drop	specialist legal acronym
+Variant	drop	English, not established in German
+Windeseile	keep	common noun, set phrase "in Windeseile"
+Wong	drop	surname
+Zusatzstoffen	merge:Zusatzstoff	inflected plural of the noun
+ever	drop	English word, not established in German
+selbstsich	merge:selbstsicher	clipped citation
+BGV	drop	specialist acronym
+Bergkamen	drop	small town
+Berlin-Kreuzberg	drop	district name
+Bosco	drop	name
+Bundesverkehrsministerium	keep	national federal ministry
+C-Jugend	keep	real compound
+Chemical	drop	English, not established in German
+DH	drop	short acronym with no clear word use
+Diligence	drop	English, only part of "Due Diligence"
+Dörfche	merge:Dörfchen	clipped citation
+Gorbatschow	drop	person
+Guns	drop	English, band name
+
+# question BRK: Bayerisches Rotes Kreuz is a regional body, so I dropped it as a minor organisation. If regional emergency organisations count as nationally famous, it should be keep.

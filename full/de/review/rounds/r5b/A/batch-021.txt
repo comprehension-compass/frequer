@@ -1,0 +1,42 @@
+Tournament	drop	English form of Turnier, tagged as a name in product titles
+blau-weiß	keep	real German compound adjective
+nächsthoch	merge:nächsthöher	only the inflected comparative forms occur
+Ammon	drop	personal name
+Chateau	drop	name in titles (Chateau Frontenac)
+Docs	drop	product name (Google Docs)
+Eggert	drop	surname
+FRA	drop	airport code or abbreviation
+FTI	drop	company acronym
+Familia	drop	name (Sagrada Familia)
+Friedemann	drop	first name
+Geiles	merge:geil	adjective filed under a capitalised lemma
+Giulia	drop	first name
+Jacobi	drop	surname
+Loss	drop	English word
+Materials	drop	English word
+Meckenheim	drop	town
+Moving	drop	English word
+Nordenham	drop	town
+Online-Befragung	keep	real German compound
+Penguin	drop	English (German is Pinguin) or team name
+Rousseau	drop	historical figure
+Russia	drop	English form of a place name
+SKY	drop	brand
+Schwaz	drop	minor town
+Sporting	drop	sports club
+Web-Anwendung	keep	real German compound
+dark	drop	English word
+gelenkschonen	merge:gelenkschonend	adjective cut off from its real form
+match	drop	mostly English text; German noun Match is not what is counted here
+Akira	drop	first name or title
+Carnival	drop	English word or company name
+Einkaufsbedingung	keep	real noun, used almost only in the plural (like AGB)
+Floating	drop	English word not established in German
+GEO	drop	magazine brand
+Getting	drop	English word
+Hahnemann	drop	historical figure
+Ionen	merge:Ion	plural filed as lemma
+Köniz	drop	minor town
+Lagos	drop	foreign city not on the reviewed list
+# question match: tagged ADV, with forms matches/matchen/matche; could be German matchen (verb) or noun Match, so I dropped it because most hits look like English text
+# question nächsthoch: the dictionary form is unclear (nächsthöher as comparative, or nächsthoch); I merged to nächsthöher, the most frequent bare form

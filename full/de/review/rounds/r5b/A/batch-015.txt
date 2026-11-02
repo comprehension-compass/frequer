@@ -1,0 +1,43 @@
+Professorinn	merge:Professorin	cut-off lemma, the word is Professorin
+San Marino	drop	place name still in batch, so not on the reviewed list
+electronic	drop	English word, from a company name
+Battlefront	drop	game title
+BfR	keep	federal risk-assessment institute, often cited by name in food-safety news
+COO	drop	business acronym
+Clay	drop	name or English word
+Cramer	drop	surname or publisher
+Donauwörth	drop	small town
+Fundamentaliste	merge:Fundamentalist	wrong lemma, only the plural is attested
+GAP	drop	acronym or brand
+Hauck	drop	surname or brand
+Lau	drop	surname
+Melamin	keep	common noun for a material
+Meppen	drop	small town
+Mighty	drop	English word or brand
+Naturheilpraxis	keep	ordinary German compound noun
+Resistance	drop	English word, not established in German
+Ricciardo	drop	person
+Schwarzenegger	drop	person
+Silverstone	drop	racetrack or place name
+Volker Bouffier	drop	person
+WTF	drop	English slang acronym
+Weibch	merge:Weibchen	cut-off lemma
+Würstch	merge:Würstchen	cut-off lemma
+fünfköpfig	keep	real adjective, the lemma is the dictionary form
+pfenning	drop	concentrated in 6 documents, name or spam
+think	drop	English word
+when	drop	English word
+AUCH	merge:auch	adverb filed under a capitalised lemma
+Angels	drop	English name
+Auskühl	merge:auskühlen	cut-off lemma, the verb auskühlen used as a noun
+Balea	drop	brand
+Bernburg	drop	town
+Bolschewiki	keep	real historical term, plural-only noun
+Cheesecake	keep	established loan and common noun
+Chronicles	drop	English title
+Hiller	drop	surname
+Kamenz	drop	town
+Küssche	merge:Küsschen	cut-off lemma
+
+# question San Marino: it is a country, but it is still in the batch, so the rule says drop; it may have been missed by the reviewed list
+# question BfR: a federal institute, not clearly among the named national institutions; kept as nationally known

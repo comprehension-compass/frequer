@@ -1,0 +1,43 @@
+PAL	drop	acronym/name, 0% noun-like
+Pantolett	merge:Pantolette	cut-off lemma; singular is Pantolette
+Rambo	drop	film character name
+Spülbecke	merge:Spülbecken	cut-off lemma
+They	drop	English word not established in German
+Weichenstellunge	merge:Weichenstellung	cut-off plural; the singular is the lemma
+Wunderlich	merge:wunderlich	adjective filed under a capital (also a surname in examples)
+XYZ	drop	placeholder
+Ahrens	drop	surname
+Ba	drop	name/fragment
+Bergamo	drop	minor foreign city, not on the place list
+Camino	drop	name (Camino de Santiago)
+Cloud-Dokument	keep	real hyphenated compound
+Diez	drop	surname
+Friends	drop	English title/name
+Gambia	drop	place not on the reviewed list
+Kathleen	drop	first name
+Lindt	drop	brand
+MFG	drop	abbreviation (Mit freundlichen Grüßen)
+Mathieu	drop	first name
+Mediaplayer	keep	established loan compound
+RTP	drop	technical or organisation acronym
+Rules	drop	English word not established in German
+Saigon	drop	foreign city, not on the list
+Salvatore	drop	first name
+UndoUndo	drop	doubled-word junk
+Verstappen	drop	surname
+Windhoek	drop	foreign city, not on the list
+available	drop	English word not established in German
+perfect	drop	English word not established in German
+ARBEIT	merge:Arbeit	common noun in caps
+Ark	drop	name or English fragment
+But	drop	English word, not established in German
+Carte	drop	fragment of "à la carte", name-like
+Condition	drop	English word not established in German
+Disaster	drop	English word not established in German
+Einatm	merge:einatmen	cut-off lemma
+Einkommens-Bahn	drop	splitter junk
+Gedankengäng	merge:Gedankengang	cut-off plural
+Heade	merge:Header	cut-off lemma; Header is an established loan
+
+# question Wunderlich: surname in the examples, but the forms wunderliches/wunderlichen are the adjective; merged into wunderlich by the case rule.
+# question Einatm: examples use the nominalised "Einatmen"; merged to the verb einatmen, which may be better kept as the noun Einatmen.

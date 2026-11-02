@@ -1,0 +1,43 @@
+Chevy	drop	car brand
+Corvette	drop	car model name
+False	drop	English word, not established in German
+Fleet	drop	English word and place name (Fleet Street)
+Flynn	drop	surname
+Fold	drop	English word, not established in German
+LL	drop	two-letter fragment
+Luck	drop	English word, not established in German
+Matching	drop	technical English, not established enough
+Michaelis	drop	surname
+Pistorius	drop	surname
+Rieder	drop	surname
+Robbie	drop	first name
+Rundgäng	merge:Rundgang	cut-off lemma; the text has the plural Rundgänge
+Straub	drop	surname
+Synology	drop	brand
+Tamaris	drop	brand
+Tannin	keep	common noun
+Transmission	keep	German technical noun
+US-Botschaft	keep	real compound
+Utility	drop	English word, not established in German
+Westerland	drop	town
+ZIP	keep	ordinary file-format word like PDF
+mecklenburgisch	keep	real adjective
+strip	drop	English word, not established in German
+timelin	merge:Timeline	cut-off lemma
+which	drop	English word
+Alfredo	drop	first name and brand
+Bällche	merge:Bällchen	cut-off lemma
+Discover	drop	English word and product name
+Domain-Name	keep	real compound
+E-Mail-Newsletter	keep	real compound
+Geyer	drop	surname
+GvG	drop	obscure name or acronym
+Knorr	drop	brand and surname
+Lupo	drop	car model and name
+Melina	drop	first name
+Offense	drop	English sports term, not established in German
+Online-Casinos	merge:Online-Casino	plural filed as lemma
+Overwatch	drop	game title
+# question Matching: established business and tech loan, or specialist English? I dropped it.
+# question Transmission: German technical word, but the examples are mostly English. I kept it.
+# question Corvette: the ship type is a common noun, but the examples are almost all the car. I dropped it.

@@ -1,0 +1,42 @@
+Exhibition	drop	English word not established in German
+GEBRAUCHSINFORMATION	merge:Gebrauchsinformation	real noun filed in capitals
+Henderson	drop	surname
+Herwig	drop	first name/surname
+Internet-Verbindung	keep	real German compound
+Kling	drop	surname
+Melsunge	drop	cut-off form of Melsungen, a town not on the place list
+Mile	drop	English word/place name
+Notebooks	merge:Notebook	established loan filed under its plural
+Properties	drop	English word not established in German
+SCC	drop	sports club/organisation acronym
+Serial	drop	English word not established in German
+Trunk	drop	English word not established in German
+Vocal	drop	English word not established in German
+Wesley	drop	name
+Abe	drop	name
+BO	drop	name/initialism
+Basti	drop	first name
+Figaro	drop	name/newspaper/opera character
+Gianni	drop	first name
+HSBC	drop	company acronym
+Hampshire	drop	minor foreign place name
+Heidenau	drop	town not on the place list
+Heldt	drop	surname
+Herzform	keep	common noun, wrongly tagged as a name
+INTERNATIONAL	merge:international	adjective filed in capitals
+JF	drop	abbreviation of a newspaper name
+Jugendwart	keep	real German noun
+Katarina	drop	first name
+Kris	drop	first name
+Lichtenau	drop	town not on the place list
+Mat	drop	name/fragment
+Nawalny	drop	person's name
+Oral-B	drop	brand
+PW	drop	abbreviation
+SUB	drop	abbreviation/fragment
+Strg-Taste	keep	real compound (keyboard key)
+U-Wert	keep	real technical compound used in German
+Waschlappe	merge:Waschlappen	cut-off lemma
+Weißenburg	drop	town/surname not on the place list
+# question Mat: written forms mat/mates/mate could hint at Mate (the drink) or matt; unclear, dropped as a name/fragment
+# question GEBRAUCHSINFORMATION: diversity flag suggests template text, but the word itself is real; merged to the normal noun

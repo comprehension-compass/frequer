@@ -1,0 +1,42 @@
+PreisEUR	drop	template junk from shop text
+BRK	drop	regional Bavarian Red Cross body, not nationally famous
+Balanced	drop	English, only in "Balanced Scorecard"
+Baschar al-Assad	drop	person
+Bezos	drop	person
+Cortana	drop	product
+Emsdetten	drop	small town
+Fastfood	keep	common noun, tagged as a name by mistake
+GREEN	drop	name or brand
+Kara	drop	first name
+Lucien	drop	first name
+Marschall	keep	common noun (rank), also a name
+PSN	drop	brand
+Penn	drop	surname
+QM-System	keep	real compound
+RG	drop	two-letter acronym, not an ordinary word
+SAM	drop	name or acronym
+Speyerer	drop	adjective from a town name
+Splash	drop	English brand name
+Streitereie	merge:Streiterei	cut-off lemma, the singular of Streitereien
+USB-Gerät	keep	real compound
+VSBG	drop	specialist legal acronym
+Variant	merge:Variante	English spelling of the German word
+Windeseile	keep	real German word, not a name
+Wong	drop	surname
+Zusatzstoffen	merge:Zusatzstoff	inflected plural filed as the lemma
+ever	drop	English, not established in German
+selbstsich	merge:selbstsicher	cut-off lemma
+BGV	drop	specialist acronym
+Bergkamen	drop	town
+Berlin-Kreuzberg	drop	district
+Bosco	drop	name
+Bundesverkehrsministerium	keep	national institution
+C-Jugend	keep	real German hyphenated compound
+Chemical	drop	English
+DH	drop	abbreviation
+Diligence	drop	English, only in "Due Diligence"
+Dörfche	merge:Dörfchen	cut-off lemma
+Gorbatschow	drop	person
+Guns	drop	English, band name
+
+# question BRK: Bavarian Red Cross is regional, but similar to the DRK; unclear whether it counts as nationally famous.

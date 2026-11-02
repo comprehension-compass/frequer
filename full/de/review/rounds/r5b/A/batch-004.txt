@@ -1,0 +1,43 @@
+Together	drop	English, not established in German
+VDMA	drop	trade-association acronym, minor organisation
+Viessmann	drop	company name
+Weigel	drop	surname
+deutsch-polnisch	keep	real hyphenated adjective
+nahend	merge:nahen	participle filed as lemma
+pazifisch	keep	real adjective, dictionary form
+AES	drop	technical or organisation acronym
+Couscous	keep	common noun mistagged as a name
+Finanzierungs-Bahn	drop	splitter junk
+Geschwindigkeitsüberschreitung	keep	real compound
+HWK	drop	minor organisation acronym
+Heinrich-Böll-Stiftung	drop	minor organisation, named after a person
+Juice	drop	English word, name or brand
+Moer	drop	town name (Moers), not on the place list
+Produktdat	merge:Produktdaten	cut-off lemma, written as produktdaten
+RD	drop	abbreviation or name
+Schulungs-Bahn	drop	splitter junk
+Tahiti	drop	place name not on the list
+US-Kongress	keep	real hyphenated compound
+feuchtigkeitsspenden	merge:feuchtigkeitsspendend	adjective filed under its verb stem
+posts	drop	English, not established
+uf	drop	fragment
+Alert	drop	English word or name
+Bennett	drop	surname
+Chiara	drop	first name
+DaWanda	drop	company/brand
+Destatis	keep	nationally known statistics office
+DiCaprio	drop	person
+Down-Syndrom	keep	real hyphenated compound
+Eduardo	drop	first name
+Ellwange	drop	town name (Ellwangen), not on the list
+Geo	drop	name or brand fragment
+Ideas	drop	English, not established
+Idstein	drop	town name
+Irving	drop	surname
+KONTAKT	merge:Kontakt	capitalised form of the common noun
+Maryland	drop	US state not on the place list
+Microsoft Word	drop	product name
+Modeling	drop	English, not established
+# question Heinrich-Böll-Stiftung: a well-known political foundation, but it is not on the named-institution list; dropped as a minor organisation
+# question Destatis: the short name of the Statistisches Bundesamt; kept as a nationally known body, but it is not named in the rulings
+# question Produktdat: the plural Produktdaten has no natural singular (Produktdatum is rare), so I merged to the plural

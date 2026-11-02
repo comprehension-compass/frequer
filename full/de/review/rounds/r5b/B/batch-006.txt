@@ -1,0 +1,43 @@
+Offset	keep	established German printing term
+Shelter	drop	English, not established in German
+Wasserbecke	merge:Wasserbecken	cut-off lemma, the word is Wasserbecken
+kreisangehörig	keep	real adjective, forms are inflected
+some	drop	English word
+Agatha	drop	first name
+Alphakanal	keep	real compound noun (graphics term)
+Beanie	keep	established loan for the hat
+Corsair	drop	brand name
+DAK	keep	nationwide health insurer, nationally known body
+Eintret	merge:eintreten	cut-off verb stem
+Fenix	drop	name of a hotel or brand
+Flash-Speicher	keep	real German compound
+Flipchart	keep	common noun
+Hanauer	drop	adjective from a minor town name
+Here	drop	English word
+Hängesessel	keep	real German compound
+Incentives	merge:Incentive	noun filed under its plural
+Kirchengesetz	keep	real German compound
+Langlebig	merge:langlebig	adjective filed under a capitalised lemma
+Lega	drop	Italian party name
+MBK	drop	minor organisation acronym
+Mae	merge:Maße	broken encoding of Maße
+Massachusett	drop	US state, not on the place list
+Online-Apotheke	keep	real compound
+Passus	keep	common noun
+Patientendat	merge:Patientendaten	cut-off plural compound
+Prüfungs-Bahn	drop	splitter junk
+RDA	drop	specialist acronym
+Sailing	drop	English, mostly brand names
+Salzwedel	drop	minor town
+Sparta	drop	place name not on the list
+Taipeh	drop	foreign city not on the list
+Umwälzunge	merge:Umwälzung	cut-off plural, singular is Umwälzung
+cash	drop	English, mostly a magazine name
+Büttner	drop	surname
+CMYK	drop	technical acronym
+Clans	merge:Clan	noun filed under its plural
+Cm	drop	abbreviation
+Dahme-Spreewald	drop	district name
+
+# question DAK: a health insurer is a company, but also a nationally known statutory body; kept as a famous institution.
+# question Beanie: kept as an established loan; the English-speaking-learner test is borderline.

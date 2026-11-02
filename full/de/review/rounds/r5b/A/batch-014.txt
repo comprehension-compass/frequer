@@ -1,0 +1,41 @@
+Wrap	keep	established food loan
+Wuhan	drop	foreign city not on place list
+AE	drop	two-letter abbreviation
+BMU	drop	ministry acronym only specialists use
+Copenhagen	drop	English spelling of a foreign city name
+EBITDA	drop	technical finance acronym
+Equal	drop	English word not established in German
+Fellow	drop	English word not established in German
+Fundstell	merge:Fundstelle	clipped citation of plural Fundstellen
+Gevelsberg	drop	small town
+HRS	drop	company name
+Kobo	drop	brand
+Kriegs-Bahn	drop	splitter junk from "Kriegs-" fragment
+Lexmark	drop	brand
+PPP	drop	technical acronym
+Paribas	drop	company name
+RTF	drop	technical file-format acronym
+See#Fem	merge:See	broken lemma marker, the noun See
+Sonnenberg	drop	place/district name
+WRC	drop	sports championship/brand acronym
+Wellness-Bereich	keep	real German compound
+Wire	drop	band/brand name
+depech	drop	fragment of band name Depeche Mode
+paydirekt	drop	brand
+untergehend	merge:untergehen	inflected participle form
+were	drop	English word
+AVI	drop	technical file-format acronym
+Balancing	drop	English term not established enough
+Bettwanz	merge:Bettwanze	clipped citation of plural Bettwanzen
+Chopin	drop	person
+Eppendorf	drop	district name
+Hans-Werner	drop	first name
+La Paz	drop	foreign city not on place list
+Logfiles	merge:Logfile	noun filed under plural
+Lore	drop	name
+Mokka	keep	common noun (coffee)
+PADI	drop	organisation/brand
+Pebble	drop	brand
+Plettenberg	drop	town
+Presenter	drop	English word not established
+# question BMU: federal ministry acronym; unclear whether it counts as a nationally famous institution (dropped as specialist acronym)

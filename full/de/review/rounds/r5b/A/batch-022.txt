@@ -1,0 +1,43 @@
+Lampion	keep	ordinary common noun, tagger error
+Nigel	drop	first name
+Pattern	drop	English word not established in German
+Plastic	drop	English word, not the German Plastik
+Printer	drop	English word, not established
+Sell	drop	English word, not established
+Sparkassen-Finanzgruppe	drop	company/organisation name
+TV-Show	keep	real hyphenated compound, established loan
+local	drop	English word, not established
+lübben	drop	small-town place name
+Architect	drop	English word, band name
+Arendt	drop	surname
+Arosa	drop	minor town
+Bellatrix	drop	name (character/star), low diversity
+Bubbles	drop	English word, name
+Buschmann	drop	mostly a surname
+Butzbach	drop	minor town
+Connecticut	drop	place name not on the reviewed list
+Cricket	keep	established sport name in German
+Falco	drop	name/company
+GPRS	drop	technical acronym
+Gerold	drop	first name
+Grevenbroich	drop	minor town
+Installations-Bahn	drop	splitter junk, cut-off citation
+Ismaning	drop	minor town
+Leather	drop	English word, brand use
+Menowin	drop	person's name, low diversity
+Mörfelden-Walldorf	drop	minor town
+Ostwestfalen-Lippe	drop	place name not on the reviewed list
+Poseidon	drop	mythological figure's name
+Renzi	drop	surname
+Rosetta	drop	name/place
+SRH	drop	minor organisation acronym
+Sahin	drop	surname
+Steinheim	drop	minor town
+Themse	drop	place name not on the reviewed list
+YOUR	drop	English word, not established
+Abarth	drop	brand
+Alias	keep	ordinary word used in German
+BLZ	drop	abbreviation (Bankleitzahl), excluded for now
+# question Sparkassen-Finanzgruppe: could count as a nationally famous institution, but I read it as a company/organisation name and dropped it
+# question Themse: a major river, but the rules say any place name still in the batch is not on the reviewed list, so I dropped it
+# question Buschmann: the plural Buschmänner is a common noun for some readers, but the word is overwhelmingly a surname here, so I dropped it

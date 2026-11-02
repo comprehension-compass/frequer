@@ -1,0 +1,42 @@
+Reds	drop	English club nickname, not established German
+Seminarreihe	keep	ordinary German compound noun
+Soldatinn	merge:Soldatin	cut-off lemma, plural Soldatinnen
+Spremberg	drop	town
+Verwechslunge	merge:Verwechslung	cut-off lemma, plural Verwechslungen
+überdi	merge:überdies	clipped form of überdies
+Amos	drop	personal name
+BAuA	drop	minor federal agency acronym
+BESCHREIBUNG	merge:Beschreibung	uppercase template spelling of a common noun
+BMAS	drop	ministry acronym, not a nationally famous name
+Barfuß	merge:barfuß	adverb/adjective filed under a capital
+Brasil	merge:Brasilien	variant spelling and cut-off form of the country
+Corpus	drop	Latin or name usage
+DSM	drop	specialist acronym
+Edathy	drop	person
+Furious	drop	film title
+Hendrix	drop	person
+KVP	drop	technical acronym
+Kindertagesstätt	merge:Kindertagesstätte	cut-off lemma, plural Kindertagesstätten
+Kollektivprokura	keep	real German legal term
+Lazarus	drop	biblical or personal name
+Main-Kinzig-Kreis	drop	district, a minor place name
+McKinsey	drop	company
+NH	drop	two-letter abbreviation
+OMV	drop	company
+Orth	drop	surname or place
+SALE	drop	English word, not established
+Saeco	drop	brand
+Sandbox	keep	established IT loan, common noun
+Scratch	drop	English word and programming-language name
+Sergei	drop	first name
+Sexpuppe	keep	real German compound noun
+Sheikh	drop	name and English spelling
+Silbereisen	drop	person
+Voices	drop	English word, not established
+Völkling	drop	town Völklingen, filed under a wrong lemma
+Wegener	drop	surname
+god	drop	English or Scandinavian word, not German
+multiple	drop	English word, not established
+südchinesisch	keep	real adjective, the lemma is the dictionary form
+# question BMAS: ministry acronym, unclear whether it counts as a nationally famous institution or a minor body
+# question Brasil: the merge target Brasilien assumes that country is on the reviewed place list

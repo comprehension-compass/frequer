@@ -1,0 +1,43 @@
+DICE	drop	game studio, company name
+Dale	drop	first name or surname
+EB	drop	two-letter acronym, not a word
+Excel-Tabelle	keep	real German compound
+FAO	keep	UN organisation, treated like UNO
+Gandhi	drop	historical figure
+Hasan	drop	first name
+Haushaltssatzung	keep	real German noun
+ING	drop	bank brand
+Prism	drop	product name
+RH	drop	two-letter acronym
+SCM	drop	acronym, not a word
+Spielstätt	merge:Spielstätte	cut-off lemma, all occurrences are plural Spielstätten
+Tomorrow	drop	English title or name
+US-Armee	keep	real compound
+VPN-Verbindung	keep	real compound
+Vicky	drop	first name
+Wiegand	drop	surname
+Xerox	drop	brand
+branchenübergreifen	merge:branchenübergreifend	cut-off adjective
+vorgehalt	merge:vorhalten	participle form of vorhalten
+watch	drop	English word not established in German
+Absterbe	merge:Absterben	clipped lemma of the noun Absterben
+Andersen	drop	surname
+BBL	drop	sports league acronym, not a word
+Cedric	drop	first name
+Comdirect	drop	bank brand
+Composite	drop	English word not established in German
+Erna	drop	first name
+GNTM	drop	TV show acronym
+Gilles	drop	first name or surname
+Goldmann	drop	surname or publisher
+Hooligan	keep	common noun
+IMHO	drop	internet abbreviation
+Loeb	drop	surname
+Mamma	keep	common noun (anatomy, colloquial mother)
+Ottawa	drop	foreign city not on the places list
+Primark	drop	brand
+Schneewittch	merge:Schneewittchen	cut-off lemma
+Schools	drop	English word not established in German
+# question FAO: international UN body rather than a national institution; kept as comparable to UNO
+# question BBL: Basketball Bundesliga could count as a nationally known body like Bundesliga; dropped as an unclear acronym with no examples
+# question Mamma: mostly "Mamma Mia" in the examples; kept as a common noun (anatomical and colloquial)

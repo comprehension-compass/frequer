@@ -1,0 +1,43 @@
+Neuenkirche	drop	place name (small town), not on reviewed list
+Nikita	drop	first name
+POLO	keep	common noun (Polo, sport/shirt), tagger error
+Ruhpolding	drop	small town
+Rückenlehn	merge:Rückenlehne	cut-off lemma, plural/singular noun Rückenlehne
+SanDisk	drop	brand
+Snippets	drop	English tech term not established in German
+Arnstadt	drop	small town
+Bottas	drop	surname
+Bryant	drop	surname
+Caracas	drop	foreign city, not on list
+Cecil	drop	first name/surname
+Evan	drop	first name
+Glock	drop	surname/brand
+IMMOBILIEN	merge:Immobilie	capitalised plural of noun, singular Immobilie
+Interfaces	merge:Interface	English loan in plural, established tech word, singular
+Joko	drop	first name/nickname
+Lorbeer	keep	common noun (laurel, bay leaf)
+MAS	drop	acronym/name, no evidence of common word
+Mats	drop	first name
+Miesbach	drop	small town
+Milk	drop	English word not established, name
+Mohammad	drop	first name
+RK	drop	abbreviation, 2 letters
+Raffael	drop	first name/historical figure
+SC Paderborn	drop	sports club
+Schuler	drop	surname
+Shin	drop	name, no learner word
+Shops	merge:Shop	plural of established loan Shop
+Steinfeld	drop	place name/surname
+Thiago	drop	first name
+WISO	drop	software brand
+WM-Qualifikation	keep	real German compound
+Awareness	drop	English word not established in German
+BEACHTEN	merge:beachten	verb filed under capitalised lemma
+Beast	drop	English word, not established
+Bestands-Bahn	drop	splitter junk from truncated "Bestands-" compound
+CAN	drop	English word/acronym, not established
+Fabienne	drop	first name
+Gal	drop	name, no learner word
+
+# question POLO: no examples shown; assumed common noun (Polo shirt/sport) given 3.8% common-noun-like usage
+# question IMMOBILIEN: uppercase plural of Immobilie; could also be a brand/site name in spam text, but merged as a plural noun

@@ -1,0 +1,43 @@
+Reds	drop	English word not established in German
+Seminarreihe	keep	ordinary German compound noun
+Soldatinn	merge:Soldatin	cut-off lemma; written only as the plural Soldatinnen
+Spremberg	drop	town
+Verwechslunge	merge:Verwechslung	cut-off lemma; written as the plural Verwechslungen
+überdi	merge:überdies	clipped form of überdies
+Amos	drop	personal name
+BAuA	drop	minor federal agency acronym
+BESCHREIBUNG	merge:Beschreibung	common noun filed in capitals
+BMAS	drop	ministry acronym, not a nationally famous institution
+Barfuß	merge:barfuß	adjective/adverb filed under a capitalised lemma
+Brasil	drop	place name not on the list, and a company-name spelling
+Corpus	drop	Latin phrase fragments and names, not a German lemma
+DSM	drop	technical acronym
+Edathy	drop	person's surname
+Furious	drop	film title
+Hendrix	drop	person's surname
+KVP	drop	technical business acronym
+Kindertagesstätt	merge:Kindertagesstätte	cut-off lemma; written as the plural Kindertagesstätten
+Kollektivprokura	drop	low-diversity register-entry template text
+Lazarus	drop	name
+Main-Kinzig-Kreis	drop	district, a place name not on the list
+McKinsey	drop	company
+NH	drop	two-letter abbreviation
+OMV	drop	company
+Orth	drop	surname
+SALE	drop	English word not established in German
+Saeco	drop	brand
+Sandbox	keep	established loan, common-noun use
+Scratch	drop	programming product name and English word
+Sergei	drop	first name
+Sexpuppe	keep	real German noun; the diversity value is only slightly under the threshold
+Sheikh	drop	title/name
+Silbereisen	drop	person's surname
+Voices	drop	English word, titles
+Völkling	drop	town (Völklingen), a place name not on the list
+Wegener	drop	surname
+god	drop	English/Scandinavian word, not German
+multiple	drop	English word not established in German
+südchinesisch	keep	real adjective; the flag only reflects inflected spellings
+# question BMAS: ministry acronym could count as a nationally famous institution; dropped as minor
+# question Kollektivprokura: real legal term, but the flagged low diversity points to register template text; dropped
+# question Sexpuppe: real word, but the examples look like spam text; kept

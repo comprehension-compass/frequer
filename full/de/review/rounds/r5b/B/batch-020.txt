@@ -1,0 +1,42 @@
+G-BA	drop	specialist health-care body, not a nationally famous institution
+Hewlett-Packard	drop	company name
+ICO	drop	acronym of an organisation or term only specialists use
+Kröger	drop	surname
+L-Arginin	keep	real chemical/nutrition noun, not a name
+Lich	drop	small town
+Niemeyer	drop	surname
+OFF	drop	English word, not established in German
+Pkw-Maut	keep	real German compound
+Rheinbach	drop	small town
+Riedl	drop	surname
+Stettin	drop	foreign city, not on the reviewed list
+Swap	keep	established financial loanword
+Taft	keep	common noun (taffeta fabric)
+Verizon	drop	company name
+Weserbergland	drop	place name not on the reviewed list
+Zeitz	drop	small town
+apply	drop	English word, not established in German
+brows	merge:Browser	almost all occurrences are "browser"
+Alfa Romeo	drop	brand name
+Almose	merge:Almosen	cut-off citation; 346 of 347 occurrences are "Almosen"
+Alzenau	drop	small town
+Bundesliga-Spiel	keep	real German compound
+Chapeau	keep	interjection used in German, tagger mistook it for a name
+Ciao	keep	common greeting used in German
+Download-Bereich	keep	real compound
+Edmonton	drop	foreign city
+Erlenbach	drop	small town and surname
+FUN	drop	English word, not established in German
+Fliesenschneider	keep	real German noun (tile cutter)
+Foods	drop	English word, not established in German
+Libraries	drop	English word, not established in German
+Mahmud	drop	first name
+Monty	drop	first name
+No-Go	keep	established German loan
+Online-Meeting	keep	real compound in common use
+Print-Ausgabe	keep	real compound
+Robertson	drop	surname
+SDS	drop	acronym of a minor organisation or product
+Scientist	drop	English word, not established in German
+
+# question G-BA: Gemeinsamer Bundesausschuss is a national health-care body, but it is not clearly a nationally famous institution like Bundestag or ARD, so I dropped it.

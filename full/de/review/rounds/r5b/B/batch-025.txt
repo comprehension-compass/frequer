@@ -1,0 +1,43 @@
+Informationssysteme	merge:Informationssystem	plural of a common noun
+Jefferson	drop	surname
+Luiz	drop	first name
+MAD	drop	English word or name, not learnable
+MI	drop	unclear abbreviation
+MSV	drop	sports club
+Master-Studiengänge	merge:Master-Studiengang	plural of a real compound
+Mühlheim	drop	minor town
+Oboe	keep	common noun, mis-tagged as a name
+Osama bin Laden	drop	person
+Plug-in-Hybrid	keep	real compound
+Pong	drop	game name
+Related	drop	English, not established in German
+Sailor	drop	English or a name
+Sauerrahm	keep	common noun
+Siegen-Wittgenstein	drop	district name
+Skiverleih	keep	common noun
+Sock	drop	English, not established
+Specialist	drop	English job title
+Vinzenz	drop	first name
+Wallner	drop	surname
+Windows-PC	keep	real compound
+schwarz-grün	keep	real political adjective
+ATS	drop	unclear acronym
+Al-Kaida	keep	nationally known organisation, like Hamas
+Apolda	drop	minor town
+Archos	drop	brand
+Atembeschwerde	keep	real noun, usually plural
+Barthel	drop	surname
+Beacons	drop	English tech term
+Beats	merge:Beat	plural of an established loan
+Blast	drop	English
+Bludenz	drop	minor town
+Boko Haram	keep	nationally known organisation, like Hamas
+Como	drop	minor place or name
+Converse	drop	brand
+DIREKT	merge:direkt	adverb filed under a capitalised lemma
+Deco	drop	name
+Eberbach	drop	minor town
+GI	drop	short abbreviation
+
+# question Boko Haram: kept as a famous organisation on the Hamas model; the rules do not mention terror groups explicitly (Al-Kaida likewise).
+# question Atembeschwerde: kept as a singular noun that occurs almost only in the plural; the citation flag may still call for a different treatment.

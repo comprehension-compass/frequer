@@ -1,0 +1,41 @@
+Neuenkirche	drop	minor town (Neuenkirchen), not on the place list
+Nikita	drop	first name
+POLO	keep	common noun (Polo, the sport and the shirt)
+Ruhpolding	drop	minor town
+Rückenlehn	merge:Rückenlehne	cut-off citation of Rückenlehne
+SanDisk	drop	brand
+Snippets	drop	English tech term, not established in German
+Arnstadt	drop	minor town
+Bottas	drop	person's surname
+Bryant	drop	person's surname
+Caracas	drop	foreign city not on the reviewed list
+Cecil	drop	first name
+Evan	drop	first name
+Glock	drop	surname/brand
+IMMOBILIEN	merge:Immobilie	plural filed as a capitalised lemma
+Interfaces	merge:Interface	plural of an established IT loan
+Joko	drop	person's name
+Lorbeer	keep	common noun (bay leaf)
+MAS	drop	name/acronym with no word use
+Mats	drop	first name
+Miesbach	drop	minor town
+Milk	drop	English word, not established in German
+Mohammad	drop	first name
+RK	drop	abbreviation
+Raffael	drop	first name/historical figure
+SC Paderborn	drop	sports club
+Schuler	drop	surname
+Shin	drop	name, no clear German word
+Shops	merge:Shop	plural of an established loan
+Steinfeld	drop	place name
+Thiago	drop	first name
+WISO	drop	software brand
+WM-Qualifikation	keep	real German compound
+Awareness	drop	English word, not established in German
+BEACHTEN	merge:beachten	verb filed under a capitalised lemma
+Beast	drop	English word, not established in German
+Bestands-Bahn	drop	splitter junk from "Bestands- und …"
+CAN	drop	English word or acronym, not German
+Fabienne	drop	first name
+Gal	drop	name, no German word
+# question Interfaces: merged into Interface as an established IT loan; drop if the developer considers it too technical

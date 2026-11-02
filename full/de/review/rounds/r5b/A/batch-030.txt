@@ -1,0 +1,43 @@
+CEE	drop	region acronym, specialist
+Cathedral	drop	English name
+Dahm	drop	surname
+Domenico	drop	first name
+Ecclestone	drop	surname
+Einkaufszentr	merge:Einkaufszentrum	cut-off lemma, plural forms only
+Fork	drop	English tech term, not established
+Fußminute	keep	lemma is already the correct singular
+GWB	drop	law acronym, specialist
+Geographic	drop	English, part of a brand name
+Gigawatt	keep	common unit noun
+Hatha	drop	yoga style name
+Homeschooling	keep	established loan
+IKK	drop	health insurer group, minor organisation
+Lower	drop	English, part of a place name
+Nintendo DS	drop	brand/product
+One-Night-Stand	keep	real hyphenated loan compound
+Pelikan	keep	common noun (the bird)
+Plate	drop	surname
+Row	drop	English, name fragment
+Sellin	drop	small place name
+Stranger	drop	English, title fragment
+Stripe	drop	brand
+UNESCO-Welterbe	keep	real German compound
+VAE	keep	country acronym like USA
+Veneer	drop	English dental term, not established
+Wiggle	drop	brand
+Wikipedia-Artikel	keep	real compound
+Wotan	drop	mythological figure
+Wunstorf	drop	town
+network	drop	English, not established
+unbeeindrucken	merge:unbeeindruckt	adjective filed under a wrong infinitive
+AddOn	keep	established software loan
+Associate	drop	English title
+Augstein	drop	surname
+Cali	drop	foreign city/name
+Chorus	keep	music term used in German
+Configuration	drop	English
+EBM	drop	specialist medical-billing acronym
+Excel-Datei	keep	real compound
+# question IKK: well-known health insurer group; unclear if it counts as a nationally famous institution
+# question VAE: place-like acronym not on the place list; kept by analogy with USA
+# question Fußminute: only the plural is attested; the lemma itself is correct, so kept

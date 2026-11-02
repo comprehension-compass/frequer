@@ -1,0 +1,42 @@
+Tournament	drop	English word not established in German; here part of names
+blau-weiß	keep	real German hyphenated colour adjective
+nächsthoch	merge:nächsthöher	only comparative forms are written; the dictionary form is nächsthöher
+Ammon	drop	personal name
+Chateau	drop	appears only in names such as Chateau Frontenac
+Docs	drop	product name (Google Docs)
+Eggert	drop	surname
+FRA	drop	airport code or abbreviation, no ordinary-word use
+FTI	drop	company acronym
+Familia	drop	name (Sagrada Familia)
+Friedemann	drop	first name
+Geiles	merge:geil	inflected adjective filed as a capitalised name
+Giulia	drop	first name
+Jacobi	drop	surname
+Loss	drop	English word not established in German
+Materials	drop	English word not established in German
+Meckenheim	drop	small town, not on the place list
+Moving	drop	English word not established in German
+Nordenham	drop	small town, not on the place list
+Online-Befragung	keep	real German compound
+Penguin	drop	English spelling, mostly team and company names
+Rousseau	drop	historical figure's name
+Russia	drop	English name; Russland is the German word
+SKY	drop	brand
+Schwaz	drop	small town, not on the place list
+Sporting	drop	sports club name
+Web-Anwendung	keep	real German compound
+dark	drop	English word not established in German
+gelenkschonen	merge:gelenkschonend	only the adjective forms are written; dictionary form is gelenkschonend
+match	drop	lower-case English, mixed noun and verb forms, no examples
+Akira	drop	first name and title
+Carnival	drop	company or brand name
+Einkaufsbedingung	keep	real noun; only the plural is used, but the singular lemma is correct
+Floating	drop	English word not established in German
+GEO	drop	magazine or brand name
+Getting	drop	English word not established in German
+Hahnemann	drop	historical figure's name
+Ionen	merge:Ion	plural of Ion filed as a name
+Köniz	drop	small town, not on the place list
+Lagos	drop	foreign city, not on the place list
+
+# question match: English "Match" is used in German sports contexts, but there are no examples and the lemma is lower-case with mixed noun and verb forms; I dropped it, so keep or merge:Match could also fit.

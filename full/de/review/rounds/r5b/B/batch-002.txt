@@ -1,0 +1,42 @@
+Moni	drop	first name
+Pax	drop	surname/name
+Pirate	drop	English, not established
+Produzier	merge:produzieren	clipped verb, verb filed under capital
+SPIEL	merge:Spiel	uppercase variant of the noun
+Schmutzpartikel	keep	real German compound noun
+Schwesing	drop	village, few documents
+Sheraton	drop	hotel brand
+congstar	drop	brand
+sternzeich	merge:Sternzeichen	clipped noun
+Altmark	drop	minor region name, not on list
+Amman	drop	foreign city not on list
+Boat	drop	English, not established
+Brünn	drop	foreign city not on list
+Chantal	drop	first name
+Character	drop	English, not established
+Charms	drop	brand/product use, English
+Gliederschmerz	merge:Gliederschmerzen	plural-only noun filed under clipped singular
+Helvetia	drop	personification/name, not a learnable place
+Herausnehm	merge:herausnehmen	clipped verb
+Into	drop	English preposition, not established
+Jos	drop	name
+Klosterneuburg	drop	town
+MIDI	drop	technical acronym
+Moringa	keep	real plant noun
+Neustrelitz	drop	town
+Onboarding	keep	established loan in German business usage
+Reimer	drop	surname
+Smartwatche	merge:Smartwatch	plural filed under cut-off lemma
+Stickereie	merge:Stickerei	clipped plural of Stickerei
+XBox	drop	brand
+Zorro	drop	fictional character name
+may	drop	English word
+Barney	drop	first name
+Basel-Landschaft	drop	canton, not on reviewed list
+Borkum	drop	island/town not on list
+Camilla	drop	first name
+Cara	drop	first name
+Dannenberg	drop	town
+Exportier	merge:exportieren	clipped verb
+# question Basel-Landschaft: a Swiss canton might count as a major region, but it was not on the reviewed list, so I dropped it
+# question Gliederschmerz: the word is normally used in the plural (Gliederschmerzen), so the target could be either a plural-only keep or the singular Gliederschmerz

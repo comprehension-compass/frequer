@@ -1,0 +1,44 @@
+Informationssysteme	merge:Informationssystem	plural filed as lemma
+Jefferson	drop	person name
+Luiz	drop	first name
+MAD	drop	English word or acronym, not German
+MI	drop	unclear acronym or abbreviation
+MSV	drop	sports club
+Master-Studiengänge	merge:Master-Studiengang	plural of a real compound
+Mühlheim	drop	minor town
+Oboe	keep	common noun, an instrument
+Osama bin Laden	drop	person
+Plug-in-Hybrid	keep	real compound
+Pong	drop	game or brand name
+Related	drop	English web-template text
+Sailor	drop	English word or name
+Sauerrahm	keep	common noun
+Siegen-Wittgenstein	drop	district name
+Skiverleih	keep	common noun
+Sock	drop	English word, not established; German has Socke
+Specialist	drop	English job-title text
+Vinzenz	drop	first name
+Wallner	drop	surname
+Windows-PC	keep	real hyphenated compound
+schwarz-grün	keep	real political adjective
+ATS	drop	unclear acronym
+Al-Kaida	keep	nationally known organisation, like Hamas
+Apolda	drop	minor town
+Archos	drop	brand
+Atembeschwerde	keep	used almost only in the plural, a plural-only noun
+Barthel	drop	surname
+Beacons	drop	English technical term
+Beats	merge:Beat	English plural of the loan Beat
+Blast	drop	English word
+Bludenz	drop	minor town
+Boko Haram	keep	nationally known organisation
+Como	drop	place or company name
+Converse	drop	brand
+DIREKT	merge:direkt	adverb filed under a capitalised lemma
+Deco	drop	brand or name
+Eberbach	drop	minor town
+GI	drop	two-letter abbreviation
+
+# question Atembeschwerde: written almost only as the plural; I treated it as a plural-only noun (keep), but merging into the singular is also defensible.
+# question Boko Haram: I treated it as a nationally known organisation like Hamas; the rules do not list it.
+# question Beats: tagged as a brand name, but the examples are the common noun for music beats; I chose merge:Beat.

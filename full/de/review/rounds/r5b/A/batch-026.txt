@@ -1,0 +1,43 @@
+Groningen	drop	Dutch city, not on the learnable places list
+Gruyter	drop	surname in a publisher's name
+IIS	drop	technical or product acronym
+Kantonsspital	keep	common noun (Swiss cantonal hospital) tagged as a name
+Milka	drop	brand
+Neureuther	drop	person's surname
+Operating	drop	English, not established in German
+Order	keep	real German noun (Order, Ordern), though "orders" may be English
+PEI	drop	institute acronym, name-like
+PZN	drop	technical acronym for specialists
+Powd	drop	cut-off English "powder", not German
+Premium-Qualität	keep	real German compound
+Pulheim	drop	small town
+Schwetzing	drop	cut-off form of the town Schwetzingen, not a learnable place
+Sieben-Tage-Inzidenz	keep	real German compound
+Southampton	drop	foreign city, not on the list
+Sterntaler	drop	brand name
+TOUR	keep	common noun (Tour)
+Trainerinne	merge:Trainerin	clipped lemma, plural Trainerinnen
+Vöcklabruck	drop	small Austrian town
+rigid	keep	real German adjective (rigide/rigid)
+toolani	drop	spam, 15 documents
+Barley	drop	English name or brand
+Borderland	drop	game or title name
+Burk	drop	surname
+CARE	drop	organisation or brand name
+CEWE	drop	company
+Celine	drop	first name
+Citronensäure	merge:Zitronensäure	old spelling variant
+Feuchtigkeitscrem	merge:Feuchtigkeitscreme	cut-off lemma
+Fring	drop	surname
+Gebhard	drop	first name or surname
+Gideon	drop	first name
+HMS	drop	abbreviation, ship prefix
+Hans-Dieter	drop	first name
+Kraft-Wärme-Kopplung	keep	real German compound
+Mercedes-AMG	drop	brand
+Monet	drop	painter's name
+Morales	drop	surname
+Ramsau	drop	small place name
+
+# question Order: forms "orders" (274) look mostly English, but Order/Ordern is also a real German word; kept.
+# question Monet: 32 occurrences are "Moneten" (slang for money), but the lemma is mostly the painter; dropped.

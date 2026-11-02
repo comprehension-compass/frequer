@@ -1,0 +1,44 @@
+Wrap	keep	established food loan (Wrap) used in German
+Wuhan	drop	foreign city not on place list
+AE	drop	two-letter abbreviation/junk
+BMU	drop	federal ministry acronym, specialist; not nationally famous by name
+Copenhagen	drop	English spelling of foreign city
+EBITDA	drop	technical finance acronym
+Equal	drop	English word in fixed phrases, not established
+Fellow	drop	English title word, not established
+Fundstell	merge:Fundstelle	plural filed as clipped lemma
+Gevelsberg	drop	small town
+HRS	drop	company acronym
+Kobo	drop	brand, low diversity
+Kriegs-Bahn	drop	splitter junk from "Kriegs-" fragment
+Lexmark	drop	brand
+PPP	drop	technical acronym
+Paribas	drop	company name
+RTF	drop	technical acronym
+See#Fem	merge:See	noun See (lake/sea) with broken lemma tag
+Sonnenberg	drop	place/district name
+WRC	drop	sports organisation/brand acronym
+Wellness-Bereich	keep	real German compound
+Wire	drop	band/brand name, English
+depech	drop	fragment of band name Depeche Mode
+paydirekt	drop	brand, low diversity
+untergehend	keep	participle adjective in set phrase (untergehende Sonne), lemma form is valid
+were	drop	English word
+AVI	drop	technical file-format acronym
+Balancing	drop	English word not established
+Bettwanz	merge:Bettwanze	plural filed as cut-off lemma
+Chopin	drop	person name
+Eppendorf	drop	district name
+Hans-Werner	drop	first name
+La Paz	drop	foreign city not on list
+Logfiles	keep	common noun used in German IT (Logfile)
+Lore	drop	name/English word, no evidence
+Mokka	keep	common noun (coffee), tagger mistake
+PADI	drop	organisation acronym
+Pebble	drop	brand
+Plettenberg	drop	town name
+Presenter	drop	English word not established
+
+# question Logfiles: kept as established IT loan but lemma is plural; could merge to Logfile, which was not offered as target
+# question untergehend: participle with its own adjective use in the phrase "untergehende Sonne"; kept as dictionary-form adjective though the verb untergehen is the alternative
+# question Mokka: no examples given; kept assuming the coffee sense

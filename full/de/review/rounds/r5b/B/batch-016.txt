@@ -1,0 +1,43 @@
+MAL	merge:mal	adverb filed under a capitalised lemma
+Pay-TV	keep	established hyphenated compound
+Perez	drop	surname
+Preisbestandteil	keep	real compound noun; singular is simply rare in text
+Ras	drop	name or fragment, no learner value
+Rhein-Sieg	drop	district name, not on the place list
+SHOP	merge:Shop	noun filed under an all-caps lemma
+Starburst	drop	brand or slot-game name
+VOLKES	merge:Volk	genitive of Volk
+gw	drop	abbreviation
+impossibel	drop	English film title, not German
+number	drop	English word not established in German
+schwierigst	merge:schwierig	inflected superlative form
+Ballerinas	merge:Ballerina	noun filed under its plural
+Drittanbieter-Cookie	keep	real German compound
+Ebenholz	keep	common noun (ebony)
+Everest	drop	place name not on the list
+Fußball-EM	keep	real hyphenated compound
+HW	drop	abbreviation
+Holzkohlegrill	keep	common compound noun
+I-II	drop	grading code, not a word
+Labbadia	drop	surname
+Landschaftspfleg	merge:Landschaftspflege	cut-off lemma
+Moody	drop	name or brand
+NA	drop	abbreviation or fragment
+NYSE	drop	technical or company acronym
+RBB	keep	nationally known broadcaster, like WDR
+Reebok	drop	brand
+Sanierungs-Bahn	drop	splitter junk
+Scale	drop	English word not established in German
+Schmelzer	drop	surname
+Smile	drop	English word not established in German
+Smoking	keep	German word for tuxedo
+Süditalien	drop	region not on the place list
+Tourism	drop	English word not established in German
+WZ	drop	abbreviation
+YPG	drop	minor foreign organisation
+sa	drop	abbreviation or fragment
+Bomb	drop	English word not established in German
+Canton	drop	brand name
+
+# question Süditalien: a major region, but not on the reviewed list, so dropped under the "any place name you still see" rule
+# question Everest: a famous mountain rather than a town or river, but not on the list, so dropped

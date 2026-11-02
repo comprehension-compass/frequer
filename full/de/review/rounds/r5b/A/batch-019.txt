@@ -1,0 +1,42 @@
+Ja-Stimme	keep	real hyphenated German compound
+Jerez	drop	minor foreign town
+MADE	drop	English, not established
+Moderna	drop	company/brand name
+Musikhör	merge:Musikhören	cut-off nominalised verb
+NX	drop	product code
+Preuß	drop	surname reading dominates
+Rückmelder	keep	real German noun
+Vector	drop	English, not established
+ASC	drop	organisation acronym
+Abschlussarbeite	merge:Abschlussarbeit	cut-off plural
+Andromeda	drop	name
+Arkham	drop	fictional place/brand name
+Edelweiß	keep	common noun (flower)
+Gaal	drop	surname
+IKT	drop	technical acronym
+Ibn	drop	name element
+Ischl	drop	minor town
+Ivy	drop	name/product
+Liszt	drop	person
+Offices	drop	English, not established
+Pfaff	drop	surname/brand
+Podolski	drop	person
+Server-Logfile	keep	real compound, established tech term
+Stadtverordnet	merge:Stadtverordnete	adjectival noun, wrong form
+TNS	drop	company name
+To-Do-Liste	keep	real compound
+review	keep	established loan (Review/Reviews)
+search	drop	English, not established
+Alleinreisendim	merge:Alleinreisende	"alleinreisend im" run together
+Assistance	drop	English, not established
+Bertrand	drop	first name/surname
+Betsson	drop	company/brand
+Chap	drop	English, not established
+Clinic	drop	English in brand names
+Colonia	drop	name/place
+Coming	drop	English, not established
+FOS	drop	minor acronym
+Function	drop	English, not established
+Fußball-Fan	keep	real hyphenated compound
+# question Preuß: surname vs. Preuße (nationality-like, 10 occurrences); dropped as mostly a surname
+# question review: English but common in German web text; kept as an established loan

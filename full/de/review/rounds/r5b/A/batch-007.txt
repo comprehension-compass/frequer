@@ -1,0 +1,43 @@
+Diver	drop	name/brand (Wiener Städtische text), not a learner word
+E-Business	keep	real hyphenated loan compound established in German
+ESD	drop	technical acronym only specialists use
+Kompott	keep	common noun (stewed fruit) mistagged as name
+Maple	drop	English word/product name, not established
+Military	drop	English word, not established in German
+Mitsegel	merge:mitsegeln	verb filed under cut-off noun lemma; mitsegeln is the dictionary form
+Moreno	drop	surname
+Other	drop	English word, not established in German
+Schönfeld	drop	surname/place name
+Zensus	keep	common noun (census), mistagged as name
+minimal-invasiv	keep	real German compound adjective
+unbewaffnen	merge:unbewaffnet	adjective filed under cut-off verb-like lemma
+Übertragungsrat	merge:Übertragungsrate	clipped lemma; text is Übertragungsrate(n)
+Ahoi	keep	ordinary German interjection (nautical greeting)
+Andalusie	drop	clipped lemma of Andalusien, a region name not on the reviewed list
+D-Jugend	keep	real German compound (youth football category)
+Gossau	drop	minor place name
+Gregory	drop	name/brand
+Guesthouse	drop	English word, not established in German
+Hate	drop	English word, not established in German
+Implementation	keep	real German noun (Implementation)
+Lund	drop	minor foreign place/surname
+Luzifer	keep	well-known figure with common-noun use in German (the devil)
+Morrowind	drop	game title/product
+Pirmasen	drop	clipped lemma of a minor town name (Pirmasens)
+Rüdesheim	drop	minor town name
+Shawn	drop	first name
+Stromberg	drop	surname/TV character
+Wahlvorstand	keep	real German word (election board)
+Wertheim	drop	minor town name/brand
+Winterkorn	drop	person's surname
+ZK	drop	abbreviation, two letters
+nachleg	merge:nachlegen	clipped verb lemma
+nachreden	merge:Nachrede	noun Nachrede filed under verb lemma; mostly "üble Nachrede"
+äthiopisch	keep	real adjective; inflected forms are the normal usage
+Aerosole	merge:Aerosol	noun filed under plural
+Altmann	drop	surname
+BDI	keep	nationally famous institution (Bundesverband der Deutschen Industrie)
+Bale	drop	surname
+# question Luzifer: name vs. common noun; kept as a widely known figure used like a common noun, though the rules list only names to drop
+# question nachreden: lemma is a verb but 350 of 370 occurrences are the noun Nachrede; merged to the noun, though the verb forms (nachgeredet, nachredet) would then be lost
+# question BDI: not on the named-institution list; kept as a nationally famous body

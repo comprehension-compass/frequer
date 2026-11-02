@@ -1,0 +1,42 @@
+Couture	keep	common noun (haute couture), tagged as a name only because of brand text
+ISMS	drop	technical acronym only specialists use
+Isa	drop	first name
+Langstrumpf	drop	fictional character's surname
+Leitfäde	merge:Leitfaden	cut-off plural form of Leitfaden
+Lifecycle	drop	English term not established in German
+NS-Regime	keep	real German compound
+Online-Anbieter	keep	real German compound
+Ozeanien	drop	place name not on the reviewed list
+Piet	drop	first name
+Political	drop	English word, not established in German
+Rösche	merge:Röschen	cut-off form of Röschen
+Skinhead	keep	established loan, common noun
+Supervisor	keep	established loan used in German coaching
+Teatro	drop	name of a theatre
+Waldeck	drop	place or surname
+better	drop	English word
+driv	drop	broken lemma of English "drive"
+lie	drop	English word
+mom	drop	English word
+AUFGABEN	merge:Aufgabe	all-caps plural of Aufgabe
+Anika	drop	first name
+Blog-Artikel	keep	real German compound
+CAT	drop	English word or name
+Chloe	drop	first name
+Closed	drop	English word
+Dieburg	drop	minor town
+Erzherzog	keep	common noun for a historical rank
+Flavonoide	merge:Flavonoid	plural filed as lemma
+Graphit	keep	common noun
+Guideline	keep	established loan
+Neal	drop	surname
+Nougat	keep	common noun
+Quinta	drop	name of an estate or hotel
+RICHTIG	merge:richtig	adjective filed under a capitalised lemma
+Ramelow	drop	politician's surname
+RoboHelp	drop	product name
+Russian	drop	English word
+SPAM	keep	established loan, common noun
+Schengen	drop	place name not on the reviewed list
+# question Erzherzog: a title, but a common noun for a historical rank; kept, not treated as a name
+# question Schengen: a place name that is also the well-known agreement (Schengen-Raum); dropped as a place name, but may deserve a ruling

@@ -1,0 +1,43 @@
+Benni	drop	first name
+Bertolt	drop	person's first name
+Broke	drop	English "broken" in titles, not German
+Casein	keep	common noun (Kasein), a protein
+Coins	drop	English, not established in German
+Entry	drop	English, not established in German
+Forge	drop	name or brand, English
+Friedland	drop	minor town
+Gotham	drop	fictional place name
+Inverkehrbring	merge:Inverkehrbringen	nominalised infinitive, cut off
+KLM	drop	company acronym
+Langenthal	drop	minor town
+Limett	merge:Limette	cut-off lemma, written as Limetten
+Meersburg	drop	minor town
+Oldesloe	drop	minor town
+PLA	drop	acronym, not an ordinary word
+Paralympics	keep	well-known event, ordinary plural-only noun
+Plön	drop	minor town
+Regula	drop	first name
+Rhein-Ruhr	drop	regional name not on the place list
+Sakura	drop	mostly a name or brand in the sample
+Schlachter	keep	common noun (butcher)
+unternehmenseigen	keep	real adjective; the flag arises only from its inflected forms
+ANWENDUNG	merge:Anwendung	capitalised noun filed in upper case
+BITKOM	drop	minor organisation
+Boppard	drop	minor town
+Cooking	drop	English, not established in German
+Drew	drop	English first name
+ESO	drop	organisation acronym
+GOP	drop	foreign party and venue name
+Hirscher	drop	person
+Kerpe	drop	cut-off form of the town Kerpen, minor town
+Lazio	drop	sports club in the sample
+Lenny	drop	first name
+Levante	drop	region not on the place list
+Lizenzbedingung	keep	real noun, already the singular; examples are mostly plural
+Lorch	drop	minor town
+Moschus	keep	common noun (musk)
+Netscape	drop	brand
+Observation	keep	real German noun, used in detective and medical contexts
+# question Sakura: also a common noun for Japanese cherry blossom, but the sample is mostly names and brands
+# question Levante: could count as a major region (the Levant), but no example shows that sense
+# question Paralympics: rules cover famous institutions, not events; kept as an ordinary plural-only noun

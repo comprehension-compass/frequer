@@ -1,0 +1,44 @@
+Petro	drop	personal name
+Rückenbeschwerde	keep	real compound noun; the flag only reflects that it occurs mostly as a plural
+SPD-Kanzlerkandidat	keep	real hyphenated compound with a nationally famous party
+Weinzierl	drop	surname
+file	drop	English word, not established in German
+multilateral	keep	real German adjective
+Arabica	keep	common noun for a coffee variety
+Bolognese	keep	common noun (Bolognese sauce)
+Candle	drop	English word, not established in German
+Cortison	keep	common medical noun
+GK	drop	abbreviation of length 2
+Gods	drop	English word in titles
+Hiddensee	drop	minor place name
+InCopy	drop	software product name
+Kanban	keep	established method term, not a brand
+Menorca	drop	place name not on the reviewed list
+Mother	drop	English word, film title
+Platini	drop	surname
+Powered	drop	English template text
+Serena	drop	personal name
+Smoke	drop	English word
+Spa-Bereich	keep	real hyphenated compound
+Stallunge	merge:Stallung	plural filed as the lemma
+Vergewisser	merge:vergewissern	verb cut off
+Voltaire	drop	historical figure
+WPC	drop	technical or brand acronym
+elfjährig	keep	real adjective, written in inflected forms
+Butt	keep	real German word (flatfish)
+Crews	merge:Crew	plural of an established loan
+Defence	drop	English word in company names
+Goal	drop	English word, not established
+Hartholz	keep	common noun, tagger error
+Hurricane	drop	English word, brand or festival name
+ICC	drop	technical acronym
+Malcolm	drop	personal name
+Marquardt	drop	surname
+Melitta	drop	brand and first name
+Mop	merge:Mops	mostly the dog breed Mops
+Mustermann	drop	placeholder surname
+ND	drop	abbreviation
+
+# question Butt: German flatfish word, but the sample has no examples and the forms may be English "butt", so I kept it on the German reading.
+# question Kanban: a management method with a Japanese name, treated as a common noun rather than a brand.
+# question Mustermann: a placeholder name known to every German, but the rules drop personal names, so I dropped it.

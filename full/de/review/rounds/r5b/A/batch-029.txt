@@ -1,0 +1,45 @@
+Benefit	drop	English word not established in German; seen as the Benefit Cosmetics brand
+Croft	drop	surname (Lara Croft)
+Disneys	drop	brand/company name
+Django	drop	personal name
+Euro-Land	keep	real German compound (Euro-Länder)
+Felicitas	drop	first name
+Golf von Mexiko	drop	place name not on the reviewed list
+HERZLICH	merge:herzlich	adjective filed under a capitalised lemma
+Jense	drop	cut-off form of the surname Jensen
+Kinderschmink	merge:Kinderschminken	clipped noun
+Malu	drop	first name
+Marktdat	merge:Marktdaten	clipped noun
+Mayen	drop	town and surname
+Modular	merge:modular	adjective filed under a capitalised lemma
+Ottmar	drop	first name
+Unionsmarke	drop	low diversity, legal/template text
+maschin	merge:Maschine	clipped noun, forms are Maschine/Maschinen
+should	drop	English word
+Barmherzige	merge:barmherzig	inflected adjective filed under a capitalised lemma
+CSU-Bundestagsfraktion	keep	nationally known parliamentary body, real compound
+ENERGY	drop	English brand/name
+Fahnd	merge:Fahnder	clipped noun
+Fickt	merge:ficken	inflected verb form mislabelled as a name
+GD	drop	company acronym (General Dynamics)
+GPL	drop	technical acronym
+Harbor	drop	English place-name element
+Hint	merge:hinten	mostly "hinten" (210 of 334)
+IBB	drop	minor regional bank/organisation
+Lecithin	keep	ordinary common noun
+Liahona	drop	name of a church magazine
+Oct	drop	English month abbreviation
+Scope	drop	English word not established
+Section	drop	English word not established
+Timoschenko	drop	surname
+Top-Modell	keep	real German hyphenated compound
+did	drop	English word
+ju	drop	mostly the abbreviation JU, not a word
+nürnberg	drop	place name not on the reviewed list
+AfD-Fraktion	keep	nationally known party faction, real compound
+Boulder	drop	English word/proper noun, not established
+# question CSU-Bundestagsfraktion: a party's parliamentary group is not explicitly covered by the institution rulings; kept by analogy with Bundestag and the parties
+# question AfD-Fraktion: same as CSU-Bundestagsfraktion
+# question Hint: the forms are mixed (hinten 210, hint 95, hints 29); merged to hinten as the majority, though the English "hint" cases would drop
+# question Fickt: vulgar verb; merged to ficken as a real German word
+# question ju: "juden" (45) would belong to Jude, but the lemma is mostly the abbreviation JU; dropped

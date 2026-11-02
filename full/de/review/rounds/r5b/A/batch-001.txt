@@ -1,0 +1,42 @@
+Sidney	drop	personal name
+Sissi	drop	personal name
+Tan	drop	surname/name, not a German word
+Tilman	drop	first name
+WIN	drop	English word/name, not established in German
+West-Berlin	drop	place name not on the reviewed list
+Wick	drop	surname
+sant	drop	fragment, low diversity
+Bildschirmschoner	keep	common noun mistagged as a name
+Conti	drop	brand/name
+Cradle	drop	English word, brand text
+Curacao	drop	minor place name not on the list
+Curtis	drop	personal name
+Drill	keep	real German noun
+Elvira	drop	first name
+Gündogan	drop	person
+Halogenlampe	keep	common noun
+Ilka	drop	first name
+Joanna	drop	first name
+Milton	drop	personal name
+Scania	drop	brand
+Securities	drop	English, not established in German
+Service-Center	keep	established hyphenated compound
+Shock	drop	English, not established in German
+Speisesalz	keep	common noun
+Stacheldraht	keep	common noun
+Truth	drop	English, not established in German
+USB-Schnittstelle	keep	real hyphenated compound
+Wilhelmsburg	drop	district name
+Yale	drop	university/name
+ebendies	merge:ebendieser	inflected forms of the determiner ebendieser
+zukunftssich	merge:zukunftssicher	cut-off lemma
+Backlinks	merge:Backlink	plural filed as lemma
+Celebrity	drop	English, not established in German
+Delay	drop	mostly the name Jan Delay, English word
+Deus	drop	Latin/name
+GIGA	drop	website name
+Galatasaray	drop	sports club
+Grimma	drop	town name
+Kügelche	merge:Kügelchen	cut-off lemma
+# question ebendies: ebendiese/ebendieser/ebendiesen are forms of the determiner ebendieser; I assumed that as the dictionary form, but ebendieser may be too rare or specialised for a learner list (drop would be the alternative).
+# question Backlinks: SEO jargon that may count as a technical term; I merged it to Backlink under the plural rule.

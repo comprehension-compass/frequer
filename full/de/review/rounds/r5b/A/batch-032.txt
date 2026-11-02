@@ -1,0 +1,42 @@
+Yaris	drop	car model, a brand product
+AAC	drop	technical audio-format acronym
+Althaus	drop	surname
+Au-pair	keep	established loan, hyphenated real compound
+Baselland	drop	place name not on the reviewed list
+Bel	drop	name fragment, no word
+Calais	drop	foreign city not on the list
+Clearing	drop	specialist finance and English term, low German use
+Domaine	drop	French wine-estate term, not German
+Entrümpelunge	merge:Entrümpelung	cut-off plural of Entrümpelung
+Fitting	keep	German noun for a pipe fitting, also used for bike fitting
+Hands	drop	English word, not established in German
+Hazard	drop	English word and name
+Helmuth	drop	first name
+Heringsdorf	drop	town not on the list
+IVD	drop	minor organisation acronym
+Iwan	drop	first name
+Kirchstraße	drop	street name
+Loire	drop	place name not on the reviewed list
+Lucca	drop	town not on the list
+Lukas Podolski	drop	person's name
+Marquez	drop	surname
+Moda	drop	brand name
+Montreux	drop	town not on the list
+Roots	drop	English word and brand name
+Sommaruga	drop	surname
+Top-Preis	keep	real German hyphenated compound
+Ullmann	drop	surname
+class	drop	English word, not established in German
+color	drop	English or Spanish word, not German
+head	drop	English word, not established in German
+umb	drop	fragment, concentrated in few documents
+would	drop	English word
+BFS	drop	minor organisation acronym
+Bafög	keep	well-known German funding scheme, used as a common word
+BfS	drop	minor organisation acronym
+Cortisol	keep	common noun, hormone name
+GROHE	drop	brand name
+Germering	drop	town not on the list
+Henke	drop	surname
+
+# question Clearing: a finance term used in German but specialist and low-frequency in German usage; I decided drop.

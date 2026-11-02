@@ -1,0 +1,43 @@
+Diver	drop	name/brand (Wiener Städtische text), not a learner word
+E-Business	keep	real established hyphenated loan compound
+ESD	drop	technical acronym only specialists use
+Kompott	keep	common noun mistaken for name
+Maple	drop	English name/software, not established
+Military	drop	English word in names, not established
+Mitsegel	merge:mitsegeln	verb filed under cut-off noun lemma; mitsegeln is the dictionary form
+Moreno	drop	surname
+Other	drop	English word not established in German
+Schönfeld	drop	surname/place name
+Zensus	keep	common noun (census), nationally used term
+minimal-invasiv	keep	real German compound adjective
+unbewaffnen	merge:unbewaffnet	inflected adjective form; unbewaffnet is the adjective entry
+Übertragungsrat	merge:Übertragungsrate	clipped lemma, forms are Übertragungsrate(n)
+Ahoi	keep	established German interjection (nautical greeting)
+Andalusie	merge:Andalusien	clipped place-name lemma; Andalusien is a major region
+D-Jugend	keep	real German compound (youth football class)
+Gossau	drop	minor town
+Gregory	drop	first name/surname/brand
+Guesthouse	drop	English word, not established
+Hate	drop	English word not established (Hate Speech)
+Implementation	keep	real German noun (Implementation), loan established in German
+Lund	drop	minor foreign town/surname
+Luzifer	keep	well-known mythological figure, ordinary word in German (Teufel-like)
+Morrowind	drop	game title/brand
+Pirmasen	drop	minor town
+Rüdesheim	drop	minor town
+Shawn	drop	first name
+Stromberg	drop	surname/TV character
+Wahlvorstand	keep	real German noun
+Wertheim	drop	minor town
+Winterkorn	drop	person's surname
+ZK	drop	abbreviation
+nachleg	merge:nachlegen	cut-off verb lemma
+nachreden	merge:Nachrede	noun Nachrede filed under lowercase verb lemma; mostly noun usage
+äthiopisch	keep	real adjective for nationality
+Aerosole	merge:Aerosol	noun filed under plural
+Altmann	drop	surname
+BDI	keep	nationally known industry federation
+Bale	drop	surname (footballer)
+# question Luzifer: a mythological/religious figure rather than person or common noun; kept as ordinary word
+# question nachreden: lemma also covers the verb nachreden (nachgeredet, nachzureden), but nearly all uses are the noun Nachrede, so merged to the noun
+# question BDI: treated as a nationally famous institution (Bundesverband der Deutschen Industrie), not a minor organisation

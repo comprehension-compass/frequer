@@ -1,0 +1,44 @@
+Chevy	drop	car brand
+Corvette	drop	car brand
+False	drop	English word, not established in German
+Fleet	drop	English word and name
+Flynn	drop	surname
+Fold	drop	English word, not established in German
+LL	drop	two letters, no word
+Luck	drop	English word, not established in German
+Matching	drop	English IT term, not established in German
+Michaelis	drop	surname
+Pistorius	drop	person's name
+Rieder	drop	surname
+Robbie	drop	first name
+Rundgäng	merge:Rundgang	cut-off lemma; the texts have the plural Rundgänge
+Straub	drop	surname
+Synology	drop	brand
+Tamaris	drop	brand
+Tannin	keep	common noun
+Transmission	keep	real German technical noun
+US-Botschaft	keep	real compound
+Utility	drop	English word, not established in German
+Westerland	drop	minor town
+ZIP	keep	file format used as an ordinary word, like PDF
+mecklenburgisch	keep	correct adjective lemma; the inflected forms come from it
+strip	merge:Strip	noun filed under a lower-case lemma
+timelin	merge:Timeline	cut-off lemma; the text is written timeline
+which	drop	English word
+Alfredo	drop	first name and brand
+Bällche	merge:Bällchen	cut-off lemma
+Discover	drop	English word and product name
+Domain-Name	keep	real compound
+E-Mail-Newsletter	keep	real compound
+Geyer	drop	surname
+GvG	drop	minor organisation or acronym
+Knorr	drop	brand
+Lupo	drop	car model and name
+Melina	drop	first name
+Offense	drop	English sports term, not established in German
+Online-Casinos	merge:Online-Casino	plural filed as lemma
+Overwatch	drop	game title
+
+# question Matching: "Pattern Matching" appears in English-leaning IT contexts; unclear whether it counts as established in German.
+# question Transmission: examples look technical or English-leaning, but Transmission is a recognised German noun, so I kept it.
+# question timelin: Timeline is an established loan in social-media German but may still count as English.

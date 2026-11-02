@@ -1,0 +1,42 @@
+xxl	drop	size abbreviation, not a word
+Atomic	drop	brand name
+Autoteile	merge:Autoteil	plural filed as lemma
+Biontech	drop	company name
+CTO	drop	technical or company acronym
+Caramel	drop	English word, not established in German
+GDV	drop	minor organisation acronym
+Graupner	drop	surname or brand
+Hawks	drop	sports club
+IW	drop	two-letter acronym of a minor organisation
+Internet-Nutzer	keep	real German compound
+Internetanbiete	merge:Internetanbieter	cut-off lemma
+Kirch	drop	surname
+Leeds	drop	foreign city
+Linear	merge:linear	adjective filed under a capital
+Lokalmatador	keep	common noun
+Löwenstein	drop	surname or small town
+Netzteile	merge:Netzteil	plural filed as lemma
+Online-Beratung	keep	real German compound
+Online-Kauf	keep	real German compound
+Onyx	keep	common noun (mineral)
+PETA	keep	nationally known organisation, like Greenpeace
+Plain	drop	English word, mostly from place names
+Produktempfehlunge	merge:Produktempfehlung	cut-off plural, singular is the lemma
+Ranze	merge:Ranzen	clipped lemma
+Referentinn	merge:Referentin	clipped lemma
+Russ	drop	surname, no usable examples
+Tiramisu	keep	common noun
+Ufo	keep	established common noun
+Unterschleißheim	drop	town
+VISION	merge:Vision	common noun filed in capitals
+Zimbabwe	merge:Simbabwe	English spelling of the country, German form is Simbabwe
+add	drop	English word
+nordhessisch	keep	real adjective
+togeth	drop	cut-off English word
+ARENA	merge:Arena	common noun filed in capitals
+Air France	drop	company
+BEM	drop	minor acronym, low diversity
+BOX	merge:Box	common noun filed in capitals
+Beltz	drop	publisher or surname
+# question PETA: an international organisation, not strictly national; kept by analogy with Greenpeace
+# question Russ: could be the Swiss spelling of Ruß, but no examples are available; dropped as a name

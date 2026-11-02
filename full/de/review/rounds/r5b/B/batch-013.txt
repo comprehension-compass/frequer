@@ -1,0 +1,42 @@
+Herrenberg	drop	town, not on the places list
+Hyatt	drop	brand
+Janukowitsch	drop	person
+LAND	merge:Land	common noun filed in capitals
+NEO	drop	name or brand
+NIEMALS	merge:niemals	adverb filed in capitals
+PJ	drop	two-letter name or abbreviation
+Romero	drop	surname
+Rürup-Rente	keep	real German compound
+Sana	drop	name or brand
+Selbstmontag	merge:Selbstmontage	cut-off lemma
+Stirnband	keep	common noun
+Sweater	keep	established loan
+Vorbring	merge:vorbringen	cut-off verb
+Wildau	drop	town
+Yu	drop	surname
+ZOB	keep	ordinary German word for the central bus station
+beautiful	drop	English, not established in German
+oberfläch	merge:Oberfläche	clipped noun
+own	drop	English
+Altach	drop	town
+Australian Open	drop	tournament name
+Discs	drop	English plural, not established
+Eastern	drop	English
+Foam	drop	English product term
+Fromm	merge:fromm	adjective filed in capitals
+GZSZ	drop	TV show
+Gartenstraße	drop	street name
+Hoffman	drop	surname
+Jacobsen	drop	surname
+Kartenspiele	merge:Kartenspiel	plural filed as lemma
+Kos	drop	minor place
+Mau	drop	name
+O-Ring	keep	real technical compound
+Schlossberg	drop	place or street name
+TOM	drop	name
+Tillmann	drop	surname
+Tri	drop	name fragment
+US-Medium	keep	real compound
+Widmer	drop	surname
+# question ZOB: it is an abbreviation (Zentraler Omnibusbahnhof), but it is used as an ordinary word and not a brand, so I kept it. Please confirm it is not meant to be excluded as an abbreviation.
+# question Fromm: all the examples are surnames, but the flag shows some adjective use (fromm), so I merged it. It would be a drop if the adjective is already on the list.

@@ -1,0 +1,43 @@
+FP	drop	abbreviation, length 2
+HNO	drop	medical specialty acronym, specialist use
+ICS	drop	technical acronym
+KL	drop	abbreviation/name-like, not a word
+Lohmann	drop	surname
+Metropolitan	drop	English name element, not established German
+Morrison	drop	surname
+Nebenfach	keep	real German common noun mis-tagged as name
+Olympics	drop	English form, name element (Special Olympics)
+Pjöngjang	drop	foreign capital not on reviewed list
+Rams	drop	name/English fragment (Ramses)
+Shoes	drop	English word / brand name
+Steglitz	drop	Berlin district, minor place
+Stichwörter	merge:Stichwort	plural of Stichwort
+Sumatra	drop	place not on reviewed list
+Viernheim	drop	small town
+Wdr	keep	nationally famous broadcaster WDR
+Wunschdenke	merge:Wunschdenken	cut-off lemma, real noun Wunschdenken
+XML-Datei	keep	real German compound
+around	drop	English, not established
+fucking	drop	English, not established
+guy	drop	English, not established
+päckch	merge:Päckchen	cut-off lemma
+Bückeburg	drop	small town
+Engelhardt	drop	surname
+Exploration	keep	real German noun
+Gesundheitsfrag	merge:Gesundheitsfrage	cut-off lemma, plural form of Gesundheitsfrage
+Give	drop	English, not established
+Grote	drop	surname/Dutch name element
+Haifa	drop	foreign city not on reviewed list
+Herkules	drop	mythological figure, name
+Installateure	merge:Installateur	plural of Installateur
+Katzenberger	drop	surname
+Legends	drop	English, game title
+Loose	drop	name/brand/place
+Louisa	drop	first name
+NB	drop	abbreviation
+Newcastle	drop	foreign city not on reviewed list
+Runs	drop	English baseball term, not established
+Susann	drop	first name
+# question Haifa: well-known foreign city, but rules say any place name still in batch is dropped
+# question KL: ambiguous abbreviation (Kilolitre/Kuala Lumpur etc.), dropped as non-word
+# question Herkules: Hercules could be a mythological common-ish name; treated as a name per rules

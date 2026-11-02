@@ -1,0 +1,42 @@
+Offset	keep	established printing term (Offsetdruck)
+Shelter	drop	English, not established in German
+Wasserbecke	merge:Wasserbecken	cut-off lemma
+kreisangehörig	keep	real adjective; flag only reflects inflected forms
+some	drop	English word
+Agatha	drop	first name
+Alphakanal	keep	real compound (image editing)
+Beanie	keep	established loan for a cap
+Corsair	drop	brand
+DAK	drop	health insurer, treated as a company
+Eintret	merge:eintreten	cut-off verb
+Fenix	drop	hotel and brand name
+Flash-Speicher	keep	real compound
+Flipchart	keep	common noun
+Hanauer	drop	derived from a minor town name
+Here	drop	English word
+Hängesessel	keep	real German noun
+Incentives	merge:Incentive	plural filed as lemma
+Kirchengesetz	keep	real German noun
+Langlebig	merge:langlebig	adjective under capitalised lemma
+Lega	drop	Italian party/name
+MBK	drop	organisation acronym
+Mae	merge:Maß	Maße with ß lost; singular is Maß
+Massachusett	drop	minor place name
+Online-Apotheke	keep	real compound
+Passus	keep	common noun
+Patientendat	merge:Patientendaten	cut-off lemma
+Prüfungs-Bahn	drop	splitter junk
+RDA	drop	specialist acronym
+Sailing	drop	English, name in the examples
+Salzwedel	drop	town
+Sparta	drop	place name not on the list
+Taipeh	drop	foreign city
+Umwälzunge	merge:Umwälzung	cut-off plural
+cash	keep	established loan
+Büttner	drop	surname
+CMYK	drop	technical acronym
+Clans	merge:Clan	plural filed as lemma
+Cm	drop	abbreviation
+Dahme-Spreewald	drop	district name
+
+# question DAK: nationally known health insurer; treated as a company, but it could count as a famous institution like KfW.

@@ -1,0 +1,43 @@
+CEE	drop	region acronym, specialist/organisation name
+Cathedral	drop	English, not established in German
+Dahm	drop	surname
+Domenico	drop	first name
+Ecclestone	drop	person
+Einkaufszentr	merge:Einkaufszentrum	cut-off lemma; text has the plural Einkaufszentren
+Fork	drop	English tech term, not established
+Fußminute	keep	real compound, already singular
+GWB	drop	specialist legal acronym
+Geographic	drop	brand name (National Geographic)
+Gigawatt	keep	ordinary unit noun
+Hatha	drop	yoga-style name, not a common German word
+Homeschooling	keep	established loan
+IKK	drop	health insurer, brand/organisation acronym
+Lower	drop	English, part of a place name
+Nintendo DS	drop	brand/product
+One-Night-Stand	keep	established hyphenated loan, common-noun use
+Pelikan	keep	common noun (the bird)
+Plate	drop	surname/English
+Row	drop	English, no usable evidence
+Sellin	drop	minor place name
+Stranger	drop	English, from titles
+Stripe	drop	company/brand
+UNESCO-Welterbe	keep	real German compound
+VAE	drop	place-like acronym not on the reviewed list
+Veneer	drop	English dental term, not established
+Wiggle	drop	shop brand
+Wikipedia-Artikel	keep	real compound
+Wotan	drop	mythological/personal name
+Wunstorf	drop	small town
+network	drop	English, not established
+unbeeindrucken	merge:unbeeindruckt	participle adjective with its own entry; the infinitive is not a word
+AddOn	keep	established loan (Add-on)
+Associate	drop	English job title
+Augstein	drop	surname
+Cali	drop	foreign city
+Chorus	keep	music term used in German (effects, refrain)
+Configuration	drop	English
+EBM	drop	specialist fee-schedule acronym
+Excel-Datei	keep	real compound
+# question VAE: a country acronym like USA/EU, but countries were already removed to the reviewed list and it is still here, so I dropped it
+# question IKK: nationally known health-insurer group; I treated it as a brand/organisation and dropped it
+# question Chorus: used in German music contexts but close to English; I kept it

@@ -1,0 +1,43 @@
+Groningen	drop	minor foreign city, not on the place list
+Gruyter	drop	surname, publisher name
+IIS	drop	product/technical acronym
+Kantonsspital	keep	common noun (Swiss cantonal hospital) mistagged as a name
+Milka	drop	brand
+Neureuther	drop	person
+Operating	drop	English, not established in German
+Order	drop	mostly English "orders"
+PEI	drop	minor organisation
+PZN	drop	technical acronym for specialists
+Powd	drop	cut-off English "powder"
+Premium-Qualität	keep	real German compound
+Pulheim	drop	town
+Schwetzing	drop	cut-off form of a town name (Schwetzingen), not on the place list
+Sieben-Tage-Inzidenz	keep	real German compound
+Southampton	drop	foreign city, not on the place list
+Sterntaler	drop	brand
+TOUR	merge:Tour	common noun filed under an uppercase lemma
+Trainerinne	merge:Trainerin	clipped lemma, plural Trainerinnen
+Vöcklabruck	drop	town
+rigid	merge:rigide	dictionary form of the German adjective is rigide
+toolani	drop	spam/brand text from few documents
+Barley	drop	name/brand
+Borderland	drop	game title
+Burk	drop	surname
+CARE	drop	organisation/brand
+CEWE	drop	company
+Celine	drop	first name/person
+Citronensäure	merge:Zitronensäure	old spelling of a common noun
+Feuchtigkeitscrem	merge:Feuchtigkeitscreme	clipped lemma
+Fring	drop	surname
+Gebhard	drop	first name/surname
+Gideon	drop	first name/person
+HMS	drop	ship prefix/name acronym
+Hans-Dieter	drop	first name
+Kraft-Wärme-Kopplung	keep	real German compound
+Mercedes-AMG	drop	brand
+Monet	drop	painter's name
+Morales	drop	surname
+Ramsau	drop	village
+
+# question Order: forms are mostly English "orders", but "ordern" (German verb, 65) is present; dropped the lemma, though merge:ordern could also fit.
+# question rigid: merged into the dictionary form rigide despite the foreign flag, since it is a real German adjective.
