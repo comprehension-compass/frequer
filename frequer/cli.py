@@ -1,4 +1,4 @@
-"""Command line: ``python -m frequer {count,build,pilot,sync-manifest,forms,select} <lang>``."""
+"""Command line: ``python -m frequer {pipeline,count,checkpoint,coordinate,ship,build,pilot,sync-manifest,forms,select} <lang>``."""
 
 from __future__ import annotations
 
@@ -38,12 +38,14 @@ def _build_args(p: argparse.ArgumentParser) -> None:
     p.add_argument("--no-snapshot", action="store_true")
     p.add_argument("--reference-root", type=Path,
                    help="Honeyeater checkout for reference data and checks (default: the pinned runtime checkout)")
+    p.add_argument("--leave-out-pending-names", action="store_true",
+                   help="interim list: drop place names still waiting for the learnable-names list")
 
 
 def _opts(args: argparse.Namespace, scope: str) -> BuildOptions:
     return BuildOptions(score=args.score, top_n=args.top_n, candidates=args.candidates, scope=scope,
                         lemma_dir=args.lemma_dir, wheel=args.wheel, write_snapshot=not args.no_snapshot,
-                        reference_root=args.reference_root)
+                        reference_root=args.reference_root, leave_out_pending_names=args.leave_out_pending_names)
 
 
 def main(argv: list[str] | None = None) -> None:
@@ -59,6 +61,13 @@ def main(argv: list[str] | None = None) -> None:
     c.add_argument("--out-dir", type=Path, help="where checkpoints go (default out/<lang>; give build the same)")
     c.add_argument("--part", help="i/N: count only part i of N (README §Distributed counting)")
     c.add_argument("--no-cooc", action="store_true", help="skip the co-occurrence pass (remote parts)")
+    c.add_argument("--skip-file", type=Path,
+                   help="counts file names finished elsewhere, one per line: cut past, never counted (remote parts)")
+    pp = sub.add_parser("pipeline", help="read-only: where the list build stands, stage by stage, and what to check")
+    pp.add_argument("lang")
+    pp.add_argument("--data-dir", type=Path, default=Path(os.environ.get("FREQUER_DATA", "data")))
+    pp.add_argument("--out-dir", type=Path, help="build output (default out/<lang>)")
+    pp.add_argument("--review-config", type=Path, help="the scripts/review JSON config (its work directory)")
     ck = sub.add_parser("checkpoint", help="take the convergence checkpoints that are due; print the decision")
     _common(ck)
     ck.add_argument("--out-dir", type=Path)
@@ -126,12 +135,16 @@ def main(argv: list[str] | None = None) -> None:
         print(json.dumps(stats, indent=1))
     elif args.cmd == "count":
         dirs = RunDirs(args.data_dir / args.lang)
+        skip = frozenset(
+            line.strip() for line in args.skip_file.read_text(encoding="utf-8").splitlines()
+            if line.strip() and not line.startswith("#")
+        ) if args.skip_file else frozenset()
         if args.no_cooc:
             manifest = manifest.model_copy(update={"cooc": manifest.cooc.model_copy(update={"enabled": False})})
         summary = count_language(
             manifest, dirs, part=parse_part(args.part) if args.part else None, workers=args.workers, shard_chars=args.shard_chars, sources=names,
             limits=lambda n: Limits(max_chars=args.max_chars, max_urls=args.max_urls,
-                                    stride=manifest.source(n).stride),
+                                    stride=manifest.source(n).stride, skip=skip),
             lemma_dir=args.lemma_dir, wheel=args.wheel,
             checkpoints_out=(args.out_dir or Path("out") / args.lang) if args.checkpoints else None,
         )
@@ -166,6 +179,14 @@ def main(argv: list[str] | None = None) -> None:
                                    parts=args.parts, local_pid=args.local_pid, checkpoint=checkpoint,
                                    interval=args.interval, log=lambda m: print(m, flush=True))
         print(json.dumps({"ended": why}))
+    elif args.cmd == "pipeline":
+        from frequer import pipeline
+        from frequer.junk import review_path
+
+        work = json.loads(args.review_config.read_text(encoding="utf-8"))["work"] if args.review_config else None
+        paths = pipeline.Paths(lang=args.lang, data=args.data_dir / args.lang, out=args.out_dir or Path("out") / args.lang,
+                               review=Path(work) if work else None, review_file=review_path(args.lang))
+        print(pipeline.render(manifest, paths))
     elif args.cmd == "checkpoint":
         dirs = RunDirs(args.data_dir / args.lang)
         state = run_checkpoints(manifest, dirs.counts, args.out_dir or Path("out") / args.lang,

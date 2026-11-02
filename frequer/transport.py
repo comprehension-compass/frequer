@@ -108,6 +108,12 @@ def ship(lang: str, counts_dir: Path, repo: Path, *, prefix: str, part: int, cou
     """
     branch = f"{prefix}p{part}"
     open_branch(repo, branch, origin_url())
+    stale = repo / "shards" / lang / f"DONE-p{part}"
+    if stale.exists() and count_pid is not None and _alive(count_pid):
+        # A rerun after the manifest grew (more URLs or sources): the part is not done any more.
+        git(repo, "rm", "-q", str(stale.relative_to(repo)))
+        git(repo, "commit", "-q", "-m", f"{lang} part {part}: running again{TRAILER}")
+        push(repo, branch)
     started = time.time()
     while True:
         alive = count_pid is not None and _alive(count_pid)

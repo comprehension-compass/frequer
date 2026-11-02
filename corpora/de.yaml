@@ -7,8 +7,32 @@ language:
   fold_case: false
   lowercase_forms: true
   readings: false
-  top_n: 50000
+  top_n: 50000  # cutoff pending (2026-11-02): the developer picks it from the per-band report
   forms_kept: 5
+  append_learnable_names: true  # 2026-11-01 (developer): learnable names outside the cut follow it
+  # Junk-filter heuristics (frequer/junk.py; README §Junk filter), 2026-11-01. Differences from es and why:
+  # umlaut folds instead of the accent strip (fur, fuer -> für; strasse -> straße; unique owner and 5x only);
+  # no capitalisation band (every noun is capitalised): propn_usage instead, every PROPN-majority lemma to
+  # review with its article/adjective share; no fragment-final test (German ends words in many consonant
+  # clusters; cut-off lemmas are caught by citation); length limit 30 (compounds); no verb exemption from the
+  # citation rule (German infinitives are written as words all the time).
+  junk:
+    rules: [diversity, citation, foreign, shape, propn_usage]
+    accent_ratio: 5
+    diversity_max_clumping: 0.3  # HPLT documents are long: 0.3-0.6 is mostly real words (calibrated 2026-11-01)
+    fold_maps:
+      - {ä: a, ö: o, ü: u, Ä: A, Ö: O, Ü: U}
+      - {ä: ae, ö: oe, ü: ue, Ä: Ae, Ö: Oe, Ü: Ue, ß: ss}
+    fragment_finals: ''
+    max_length: 30
+    propn_usage_determiners: [ein, eine, einen, einem, einer, eines, kein, keine, keinen, keinem, keiner, keines]
+    propn_usage_name_max: 0.03
+    review_top: 30000
+    review_multi_flag: true
+    # 2026-11-01 standard (docs/DECISIONS.md): the app's own number check decides spelled numbers, and the
+    # reviewed learnable-names list decides every pending place once it is final (PLAYBOOK §Place names).
+    number_rule: true
+    names_final: false  # true once reference/learnable-names/<lang>.json in --reference-root is final
 hygiene: {min_chars: 20, max_chars: 600, min_alpha_ratio: 0.6, gap_filter: true, langid_min_prob: 0.5}
 parts: 100
 checks:
@@ -51,7 +75,41 @@ sources:
     # 17 URLs x 95M raw characters at ~11 raw characters per counted token (pilot) ~ 150M tokens.
     # The planned 185M per URL (~285M tokens, ~86 core-hours: the backend still runs the full
     # de_core_news_sm parse in segment) did not fit the 2026-11 deadline (2026-11-01 full run).
-    max_chars_per_url: 95000000
+    max_chars_per_url: 185000000
+  - name: hplt-v2-de-deep
+    kind: hplt
+    licence: CC0-1.0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/
+    notes: >-
+      The same 17 HPLT v2.0 cleaned shards (CC0), read deeper: each URL's first
+      185M raw characters (counted as hplt-v2-de) are skipped by the same stopping
+      test, so this source starts at exactly the next document and no document is
+      counted twice. Added 2026-11-01 (developer-approved extension to ~450M tokens:
+      the map has no further deu_Latn URLs). Same URL order, so each URL stays with
+      its part (k % N) in a distributed run.
+    segment_lang: deu_Latn
+    urls:
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/10.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/11.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/12.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/13.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/14.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/15.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/16.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/17.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/1.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/2.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/3.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/4.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/5.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/6.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/7.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/8.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/deu_Latn/9.jsonl.zst
+    shard_chars: 20000000
+    skip_chars: 185000000
+    # 17 URLs x 110M raw characters at ~11 raw characters per counted token ~ 168M tokens (~458M in all).
+    max_chars_per_url: 110000000
   - name: tatoeba-deu
     first: true  # counted before the web: every checkpoint holds it whole
     kind: tsv

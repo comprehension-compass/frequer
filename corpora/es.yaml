@@ -7,8 +7,25 @@ language:
   fold_case: true
   lowercase_forms: false
   readings: false
-  top_n: 50000
+  top_n: 30000  # 2026-11-01 (developer): list and review to 30k; the app default-ignores past 25k
+  cutoff: '2026-11-01 developer: 30k (full/es/band-report.md, full/es/junk-review.md)'
   forms_kept: 5
+  append_learnable_names: true  # 2026-11-01 (developer): learnable names outside the 30k follow it
+  propn_rule: none  # proper nouns go through the junk rules' propn_band (2026-11-01)
+  junk:
+    rules: [diversity, citation, foreign, shape, propn_band]
+    accent_ratio: 5
+    verb_citation_pattern: '(ar|er|ir|ír)(se)?$'
+    allowed_final_pairs: [rd, ld, nd]  # récord, gold, stand: loans, not fragments
+    fragment_finals: lnrdz
+    propn_drop: 0.9
+    propn_keep: 0.2
+    review_top: 30000
+    review_multi_flag: true  # cut-off real words (citation + shape) are merged, not dropped (2026-11-01)
+    # 2026-11-01 standard (docs/DECISIONS.md): the app's own number check decides spelled numbers, and the
+    # reviewed learnable-names list decides every pending place once it is final (PLAYBOOK §Place names).
+    number_rule: true
+    names_final: false  # true once reference/learnable-names/<lang>.json in --reference-root is final
 hygiene: {min_chars: 20, max_chars: 600, min_alpha_ratio: 0.6, gap_filter: true, langid_min_prob: 0.5}
 parts: 100
 checks:
@@ -30,12 +47,17 @@ sources:
       snapshot counted the whole Spanish side (~4.8B tokens; rank 50,000 at ~1,400
       occurrences), and 1/14 of it leaves rank 50,000 near 100 (plan §7). The head of
       the file is one site's templates (the 2026-10-31 pilot), so never cap without a stride.
+      Full run 2026-11-01: stride 28 (~150M tokens over the whole file), so a run the
+      convergence rule stops early still samples every part of the file, not its head.
     urls:
       - https://web-language-models.s3.amazonaws.com/paracrawl/release9/en-es/en-es.txt.gz
     column: 1
     pseudo_doc_lines: 50
     shard_chars: 20000000
-    stride: 14
+    stride: 28
+    # 2026-11-01 extension (README §Distributed counting): ten disjoint stride-28 passes as virtual URLs
+    # (offset 0 is the pass counted first); `count --part i/5` reads offsets i and i+5.
+    stride_offsets: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
   - name: tatoeba-spa
     first: true  # counted before the web: every checkpoint holds it whole
     kind: tsv
@@ -50,7 +72,7 @@ sources:
       - https://downloads.tatoeba.org/exports/per_language/spa/spa_sentences.tsv.bz2
     column: 2
     pseudo_doc_lines: 50
-    shard_chars: 20000000
+    shard_chars: 4000000  # five shards, so the workers share the top-up (2026-11-01 full run)
     hygiene: {min_chars: 3, max_chars: 300, min_alpha_ratio: 0.5, gap_filter: true, langid_min_prob: 0.0}
 # `frequer forms`: tokenizer-only inventory (see frequer/forms_run.py). spaCy's blank-Spanish
 # tokenizer gives the app's tokens. ParaCrawl is read whole, keeping every 85th 50-line
@@ -75,6 +97,13 @@ observed:
     scope: pilot
     shards: 7
     tokens: 1974498
+  - date: '2026-11-01'
+    documents: 129359
+    lines: 4948749
+    partial: false
+    scope: full
+    shards: 35
+    tokens: 102399277
   tatoeba-spa:
   - date: '2026-10-24'
     documents: 792
@@ -83,3 +112,10 @@ observed:
     scope: pilot
     shards: 1
     tokens: 269370
+  - date: '2026-11-01'
+    documents: 8862
+    lines: 441314
+    partial: false
+    scope: full
+    shards: 5
+    tokens: 3326967

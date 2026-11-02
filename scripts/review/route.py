@@ -15,7 +15,7 @@ from pathlib import Path
 
 from common import load
 
-from frequer import filters, snapshot
+from frequer import combos, filters, snapshot
 from frequer.config import load_manifest
 from frequer.merge import merge_counts
 
@@ -31,7 +31,8 @@ else:
     cache.write_bytes(pickle.dumps(result))
 merged = copy.deepcopy(result.merged)
 weights = {s.name: s.weight for s in m.sources}
-flt = filters.apply(m, merged, weights, "frequency", Path(cfg["reference"]))
+flt = filters.apply(m, merged, weights, "frequency", Path(cfg["reference"]),
+                    cooc=Path(cfg["counts"]).parent / combos.MERGED)  # propn_usage reads it
 with (work / "routed.tsv").open("w", encoding="utf-8") as fp:
     fp.write("# rank\tlemma\taction\tfreq\tpos\tforms\tflags\tkept_position\n")
     kept = 0

@@ -60,7 +60,9 @@ def honeyeater_rules(script: str) -> IgnoreRules:
     setup_django()
     from lexicon import lemma_defaults as ld
 
-    return IgnoreRules(script, ld._is_language, ld._number_is_learnable, ld.has_script_letter, ld.is_acronym)
+    # Honeyeater #766 renames the figure check _number_is_learnable -> numeral_is_learnable.
+    numeral = getattr(ld, "numeral_is_learnable", None) or ld._number_is_learnable
+    return IgnoreRules(script, ld._is_language, numeral, ld.has_script_letter, ld.is_acronym)
 
 
 def ignore_reason(form: str, rules: IgnoreRules) -> str | None:

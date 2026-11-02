@@ -31,7 +31,7 @@ import gzip
 import hashlib
 import json
 from collections.abc import Callable, Mapping, Sequence
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
@@ -45,6 +45,8 @@ class LearnableNames:
     path: Path
     sha256: str
     names: frozenset[str]
+    #: case-folded name -> the spelling the list writes (for a bare entry's key)
+    spellings: Mapping[str, str] = field(default_factory=dict)
 
 
 @dataclass(frozen=True)
@@ -67,8 +69,11 @@ def load_names(honeyeater_root: Path, lang: str) -> LearnableNames:
     if not path.exists():
         raise SystemExit(f"{path}: no learnable-names file; the proper-noun rule needs one")
     raw = path.read_bytes()
-    names = frozenset(str(n).casefold() for n in json.loads(raw)["names"])
-    return LearnableNames(path, hashlib.sha256(raw).hexdigest(), names)
+    listed = [str(n) for n in json.loads(raw)["names"]]
+    spellings: dict[str, str] = {}
+    for n in listed:
+        spellings.setdefault(n.casefold(), n)
+    return LearnableNames(path, hashlib.sha256(raw).hexdigest(), frozenset(spellings), spellings)
 
 
 def case_path(lang: str, root: Path = MANIFEST_DIR) -> Path:
