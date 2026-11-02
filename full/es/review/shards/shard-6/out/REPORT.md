@@ -111,8 +111,10 @@ under the final rules.
 
 ## Question lines
 
-All `# question` lines (reviewers, and the final adjudication) are in `s6-flagged/questions.txt` (132 lines) and
-`s6-unflagged/questions.txt` (159 lines). They're reproduced in full below.
+All `# question` lines (from the reviewers, and from the final adjudication only) are in `s6-flagged/questions.txt`
+(125 lines: 120 from reviewers, 5 from the adjudicator) and `s6-unflagged/questions.txt` (148 lines: 138 + 10).
+The runner appends adjudicator questions, so after the rerun I removed the first adjudication's lines and kept the
+stage-1 lines plus the rerun's. They're reproduced in full below.
 
 ### s6-flagged
 # question aire-acondicionado: it is a hyphenated compound of two listed words (which would drop), but I merged it into the one-noun entry "aire acondicionado".
@@ -235,13 +237,6 @@ All `# question` lines (reviewers, and the final adjudication) are in `s6-flagge
 # question warez: it could count as an established jargon loan, but I judged it not established in Spanish
 # question ylang-ylang: it is a hyphenated loan, so I kept it as established, though the academy writes ilang-ilang.
 # question óblast: a common noun in Spanish, but the examples are mostly place names; kept as the common word.
-# question ffaa, sci-fi: the queries assume "an abbreviation of a listed word merges", but the binding rules have no such rule; can merge targets be multiword lemmas (fuerzas armadas, ciencia ficción)?
-# question lacar: when a real common word shares its spelling with a frequent place name, should its rank be corrected for the place-name occurrences, or kept as counted?
-# question pio: the query cites a "minority rule" that is not in the binding rules; is there a threshold below which the common-word reading of a name-dominated lemma drops?
-# question post-consumo: should prefixed words be merged to the RAE-preferred pos- form (posconsumo) or to the post- form common in Latin American usage (postconsumo)?
-# question satan: are religious and figurative names that act as words (Satán, Satanás) kept, or dropped as personal names?
-# question sci-fi, shonen, onboard: how established must a fandom or jargon loan be to count as established?
-# question tato, millo, prez, laso: these junk lemmas also hold forms of a different real word (tata, milla, preces, lasa); should those forms be moved to their own lemma when this one is dropped?
 # question ffaa: should abbreviations of institutions merge into a multi-word expansion (fuerzas armadas), or stay as acronyms like ONU?
 # question glbt: should variant-order acronyms (GLBT, LGTB) merge into one form, and which form is canonical, LGBT or Spain's LGTB?
 # question millo, prez, tato: a second real word's forms are filed under the lemma (milla, preces, tata); should those forms be split out to their own lemmas rather than staying here?
@@ -387,17 +382,6 @@ All `# question` lines (reviewers, and the final adjudication) are in `s6-flagge
 # question zoster: occurs only in "herpes zóster"; could be treated as a split loan or kept as is, I merged it to the accented form
 # question ñoño: most forms are nona (a different word), which the lemmatiser conflated with ñoño; I kept ñoño as a real word.
 # question ñoño: the forms are mostly nona, a different word; I kept ñoño because it is a real word.
-# question airfryer: is a brand name that is becoming generic (Airfryer) kept as a loan or dropped as a brand?
-# question capar, avocar: real Spanish lemmas whose counts are inflated by English homographs (Cape, avocado). Keep them at the inflated rank, or recount?
-# question comuníquense: should pronominal forms merge into the bare infinitive (comunicar) or a separate -se lemma (comunicarse)? I used the bare infinitive.
-# question desvivir, asóciese, imaginaos: should pronominal-only verbs be lemmatised with -se (desvivirse), or always as the base infinitive?
-# question doña: the rules do not cover titles of address (don, doña); should they always be kept?
-# question importantísimos, famosísimo: should -ísimo superlatives stay as their own lemmas or merge into the base adjective (importante, famoso)?
-# question mediar, pontificar, almidonar, trovar, maño: a single decision cannot split a lemma that mixes two real words (mediar/mediados, almidonar/almidón, maño/maña); can these be split, and which should hold the frequency?
-# question pomeranio: the breed noun pomerania shares its form with the place name Pomerania. Should the merged lemma stay on the list, or go to pending-names?
-# question sitar, mugir: these are kept as real words, but their counts are mostly junk forms ("site", "Mugen"); should their frequency be recomputed?
-# question trasparencia: should academy-accepted minor variants merge into the main spelling, or stay as separate lemmas?
-# question trigésimo, decimoctavo, vigesimoctavo: should an ordinal that exists as a word be kept when all its counted tokens are digits?
 # question airfryer: should a product name that is turning generic (airfryer) count as a brand or as an established loan?
 # question capar, avocar: if a real Spanish lemma's occurrences are mostly a misattributed foreign token, should the lemma stay as keep (my reading) or drop?
 # question galaadita: are gentilics of places not on the place list (biblical or minor) always drop?

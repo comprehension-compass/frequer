@@ -118,13 +118,6 @@
 # question warez: it could count as an established jargon loan, but I judged it not established in Spanish
 # question ylang-ylang: it is a hyphenated loan, so I kept it as established, though the academy writes ilang-ilang.
 # question óblast: a common noun in Spanish, but the examples are mostly place names; kept as the common word.
-# question ffaa, sci-fi: the queries assume "an abbreviation of a listed word merges", but the binding rules have no such rule; can merge targets be multiword lemmas (fuerzas armadas, ciencia ficción)?
-# question lacar: when a real common word shares its spelling with a frequent place name, should its rank be corrected for the place-name occurrences, or kept as counted?
-# question pio: the query cites a "minority rule" that is not in the binding rules; is there a threshold below which the common-word reading of a name-dominated lemma drops?
-# question post-consumo: should prefixed words be merged to the RAE-preferred pos- form (posconsumo) or to the post- form common in Latin American usage (postconsumo)?
-# question satan: are religious and figurative names that act as words (Satán, Satanás) kept, or dropped as personal names?
-# question sci-fi, shonen, onboard: how established must a fandom or jargon loan be to count as established?
-# question tato, millo, prez, laso: these junk lemmas also hold forms of a different real word (tata, milla, preces, lasa); should those forms be moved to their own lemma when this one is dropped?
 # question ffaa: should abbreviations of institutions merge into a multi-word expansion (fuerzas armadas), or stay as acronyms like ONU?
 # question glbt: should variant-order acronyms (GLBT, LGTB) merge into one form, and which form is canonical, LGBT or Spain's LGTB?
 # question millo, prez, tato: a second real word's forms are filed under the lemma (milla, preces, tata); should those forms be split out to their own lemmas rather than staying here?

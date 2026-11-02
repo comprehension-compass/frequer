@@ -136,17 +136,6 @@
 # question zoster: occurs only in "herpes zóster"; could be treated as a split loan or kept as is, I merged it to the accented form
 # question ñoño: most forms are nona (a different word), which the lemmatiser conflated with ñoño; I kept ñoño as a real word.
 # question ñoño: the forms are mostly nona, a different word; I kept ñoño because it is a real word.
-# question airfryer: is a brand name that is becoming generic (Airfryer) kept as a loan or dropped as a brand?
-# question capar, avocar: real Spanish lemmas whose counts are inflated by English homographs (Cape, avocado). Keep them at the inflated rank, or recount?
-# question comuníquense: should pronominal forms merge into the bare infinitive (comunicar) or a separate -se lemma (comunicarse)? I used the bare infinitive.
-# question desvivir, asóciese, imaginaos: should pronominal-only verbs be lemmatised with -se (desvivirse), or always as the base infinitive?
-# question doña: the rules do not cover titles of address (don, doña); should they always be kept?
-# question importantísimos, famosísimo: should -ísimo superlatives stay as their own lemmas or merge into the base adjective (importante, famoso)?
-# question mediar, pontificar, almidonar, trovar, maño: a single decision cannot split a lemma that mixes two real words (mediar/mediados, almidonar/almidón, maño/maña); can these be split, and which should hold the frequency?
-# question pomeranio: the breed noun pomerania shares its form with the place name Pomerania. Should the merged lemma stay on the list, or go to pending-names?
-# question sitar, mugir: these are kept as real words, but their counts are mostly junk forms ("site", "Mugen"); should their frequency be recomputed?
-# question trasparencia: should academy-accepted minor variants merge into the main spelling, or stay as separate lemmas?
-# question trigésimo, decimoctavo, vigesimoctavo: should an ordinal that exists as a word be kept when all its counted tokens are digits?
 # question airfryer: should a product name that is turning generic (airfryer) count as a brand or as an established loan?
 # question capar, avocar: if a real Spanish lemma's occurrences are mostly a misattributed foreign token, should the lemma stay as keep (my reading) or drop?
 # question galaadita: are gentilics of places not on the place list (biblical or minor) always drop?
