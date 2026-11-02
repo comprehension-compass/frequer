@@ -115,6 +115,22 @@ Follow-ups (confirmed 2026-11-02): lexicalised superlatives (*el Altísimo*, *la
 pronoun (*llamarnos*, *dándote*) go to the plain verb; Latin genus names used as ordinary Spanish nouns (*boletus*,
 *lilium*) keep, raw taxa drop.
 
+## Paused (2026-11-02, developer request): resume point
+
+Collected into `corpora/review/es.tsv`: rounds 1-11 (the 105.7M-token build, `snapshots/es.json`), rounds 12-13
+(shards 1-6 on the extended counts, 1,382,684,047 tokens), the second-set rulings and follow-ups, and round 14
+shards 7, 8, 10 (4,122 decisions). To resume:
+
+1. **Shard 9** (`full/es/review/shards/shard-9.md`, queue `shard-9/routed.tsv`: 858 flagged, 997 unflagged) had
+   pushed nothing when the pause came: run it (or collect `es-review-shard-9` if it committed later).
+2. **Splits requested by the shards**, to write as `split:` lines from their forms: afijar, desparejar, ufanar,
+   empachar, chaga (shard 7); hombr, trasuntar (shard 10). Shard 8's flagged clitic merges were decided before
+   the clitic ruling: check them against ruling 3.
+3. **Route again** on the extended counts (`review_top: 41500`, reference Honeyeater #766 `9bbae4b`): new pending
+   lemmas and unscreened unflagged keeps in 0-40k go to another shard round, until none remain.
+4. **Final build** (`top_n` 30k as planned; window reviewed to 40k), `load_lemmas --dry-run`, then
+   `band-samples.md` with 30-35k and 35-40k bands (25 glossed keeps each) and kept ranks 39,971-40,000.
+
 ## The rules the reviewers had
 
 # Review rules (the developer's; binding)
