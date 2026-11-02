@@ -1,0 +1,152 @@
+# question AFD: written in capitals AFD; kept as the party acronym, spelling variant of AfD
+# question Anfahr: target could be the verb anfahren or the nominalised Anfahren; chose the noun as the examples use it capitalised
+# question AntifaschistInnen: the gendered plural form could also be filed under Antifaschistin; merged to Antifaschist.
+# question Ardenn: merged to Ardennen, but Ardennen is a region that may not be on the learnable places list
+# question Ardenn: the region Ardennen is a place name not on the list, so dropped rather than merged
+# question Aufsetz: verb aufsetzen or nominalised Aufsetzen? Merged to the verb since the forms are all infinitive-based.
+# question BFD: could be Bundesfreiwilligendienst (a nationally known institution, which would be keep), but the example reads as an organisation-specific application template, so dropped
+# question BMZ: a federal ministry acronym could count as a nationally famous institution, but it is little known by name and the examples include a non-ministry use; I dropped it.
+# question BMZ: a federal ministry acronym, but also appears as an insurance product; kept as a nationally known institution, unclear whether ministries count
+# question BNP: it is both an ordinary abbreviation (Bruttonationalprodukt) and the bank BNP Paribas; dropped because the examples are mostly the bank
+# question BNP: most examples are BNP Paribas (a company), but the common-word sense (Bruttonationalprodukt) occurs too; kept as an ordinary acronym
+# question Bosnien-Herzegowina: a country that should have been taken out already; dropped per the "any place name you still see" rule
+# question Bosnien-Herzegowina: country in hyphenated form that was not in the reviewed place list; dropped under the "place name still seen" rule, but it may have been missed by the list
+# question Cayenne: ambiguous between the spice (common noun) and the Porsche model; kept for the spice sense.
+# question Chai: loan word for the tea, but not clearly established enough in German; kept
+# question Chai: tagged PROPN but a common word for spiced tea; kept as an established loan
+# question Clouds: I merged it into Cloud as a plural, but the English-plural spelling may be debatable.
+# question Coworking: tagged PROPN but used as a common loan; kept as established.
+# question Cyberpunk: genre loan word, but the evidence is almost all the game title, so I dropped it.
+# question Cyberpunk: the genre term is a common noun, but the examples are almost all the game title; dropped
+# question DECT: it could count as a technical acronym, but it is a consumer term in Germany, so I kept it.
+# question DIW: counted it as nationally famous like KfW, but it is borderline versus a minor organisation
+# question DRV: Deutsche Rentenversicherung might count as a nationally famous institution, but examples mix in a racing association
+# question DVR: Deutscher Verkehrssicherheitsrat is a minor body; dropped, though it could count as nationally known
+# question DVR: Deutscher Verkehrssicherheitsrat may count as nationally known, but it is a small body; dropped
+# question Din: lowercase "din" may be the DIN norm or a name, with no usable examples; I dropped it.
+# question EBA: Eisenbahn-Bundesamt might count as a national body, but it is little known to learners; dropped
+# question EGMR: a court acronym; I treated it as a nationally known institution and kept it, but it could count as a specialist acronym.
+# question EGMR: counted as a nationally famous institution (like EU, UNO); a stricter reading would drop it as a specialist acronym.
+# question EMRK: a famous treaty acronym, but not listed as nationally famous institution; dropped as a specialist acronym
+# question EMRK: a well-known legal treaty abbreviation, so it may count as a nationally known institution; dropped as a specialist acronym
+# question Eckdat: Eckdaten is effectively plural-only, so I merged to the plural form rather than a singular
+# question Eckdat: the real lemma is plural-only Eckdaten (singular Eckdatum is rare), so I merged into the plural
+# question Eislaufen: the lemma is mostly a nominalised infinitive (das Eislaufen), which could count as a noun in its own right; I merged it into the verb.
+# question ExpertInn: the target could be Experte or Expertin; chose Experte as the generic masculine lemma.
+# question Extensions: hair extensions are a loan used in German, but the plural filed as a lemma was dropped as English
+# question Extensions: hair extensions are used in German, but I judged it not established enough; dropped
+# question FRAGEN: could also be the plural of Frage, but the lower-case spelling points to the verb fragen
+# question GLP: Swiss party acronym; rules name CDU/SPD as keep but GLP is a minor foreign party, dropped
+# question GLP: Swiss party, not German; kept as a national party by analogy with CDU/SPD, but the rules name only German parties
+# question Gefickt: vulgar and concentrated in porn spam, so merging it to ficken may not suit a learner list; the rules say to merge participle forms
+# question Geodat: Geodaten is effectively plural-only, so I merged into the plural form rather than a singular.
+# question Goliath: also used as a common noun for a giant opponent ("David gegen Goliath"), but with 0 % name-like evidence I dropped it as a biblical name.
+# question Goliath: biblical figure used as a common metaphor, but the rules drop cultural figures. I dropped it.
+# question HPV: it could count as a technical acronym only specialists use, but laypeople know it from vaccination talk, so I kept it.
+# question HPV: it could count as a technical acronym, but the public knows it from vaccination campaigns, so I kept it
+# question Hausmann: tagged as a name, but plural and genitive forms show common-noun use; kept.
+# question Helmholtz-Zentrum: may count as a nationally famous institution (Helmholtz-Gemeinschaft), but it is a generic label for many individual centres, so I dropped it.
+# question Hofburg: it is a Vienna place name, but also a common noun for a royal palace; I kept it as a common noun.
+# question Hofburg: well-known Vienna landmark; treated as a minor place name and dropped, but it could count as a nationally known institution
+# question Hopp: could be the interjection *hopp*, but the inflected forms hopps/hoppen point to a surname; I dropped it.
+# question IPO: finance acronym; unclear whether it counts as an ordinary word or a specialist acronym
+# question IT-Services: the rules don't say whether an English plural in a hyphenated loan compound should be merged to the singular, so I merged it.
+# question Jahwe: religious name, not covered by the rules for people or institutions. I dropped it.
+# question Jahwe: the rules do not say whether names of God count as "figures" (drop) or as ordinary religious vocabulary (keep); I dropped it.
+# question KGaA: legal-form acronym treated like GmbH, but it could count as a company-style acronym.
+# question KGaA: the rules keep GmbH as an ordinary acronym but do not say whether other legal-form acronyms count; dropped as specialist.
+# question KPCh: acronym of the Chinese Communist Party; unclear whether foreign party acronyms count as nationally famous, dropped.
+# question Kali: could be mostly Kali Linux or the goddess; kept as the potash noun
+# question Kfz-Steuer#Neut: merged to the clean hyphenated compound; the Kfz abbreviation rule applies only to the bare abbreviation.
+# question Kiewer: Kiew is a place name that may be on the reviewed list; if not, drop would apply.
+# question Kiewer: place-derived adjective (Kiew is learnable); merge target is Kiew's adjective form, not clearly a lemma, so merged to Kiewer itself is a no-op; consider drop or merge:Kiew
+# question KundInnen: could merge to Kunde or Kundin; chose Kunde as the generic form
+# question KundInnen: gendered plural with internal capital I; merged to Kunde, but Kundin or keeping as its own lemma is also arguable
+# question Kürbiskerne: the plural is the usual form, but I merged it to the singular as the rule says.
+# question LOL: internet slang acronym; kept as an ordinary word, but it could also count as informal chat-only text
+# question LOL: slang acronym, treated as an abbreviation and dropped
+# question Lesbos: well-known Greek island, but not on the developer-added list and no reviewed-list evidence; dropped per the rule
+# question Liane: a real noun (liana) but the examples are mostly the first name; I kept it.
+# question Lid: tagger and wordfreq suggest English, but the inflected forms (lides, liden) look like German Lid (eyelid)
+# question Logs: the English plural may not be the German Log; merged on the assumption that Log is established in German IT usage
+# question Ludwig-Maximilians-Universität: a university name is not listed among the famous institutions; kept as nationally well known
+# question Ludwig-Maximilians-Universität: not named in the institution list; kept as a nationally famous university
+# question MMA: could be read as a sports-organisation acronym, but it is used as an ordinary word for the sport, so I kept it.
+# question MMA: sport acronym; it is not an organisation name in common use, but it may be specialist; kept as an ordinary word
+# question Melk: mostly the Austrian town, but "melken" (50 occurrences) is a real verb filed under it; dropped as a place name rather than merged.
+# question Melk: mostly the town in Austria (356), but 50 occurrences are the verb melken; dropped as a place name
+# question Memoir: filed lemma is the singular, but the text is almost all memoiren; merged to the plural-only noun Memoiren
+# question MfS: an acronym for a historical institution, not on the explicit institution list. I kept it as nationally known.
+# question Moldawien: rules say remaining place names drop, but Moldawien is a country; I dropped it per the rule, though it may belong on the reviewed list.
+# question Moldawien: the rules say countries are already removed from the batch, yet it is here; kept as a country, but it may be missing from the reviewed place list.
+# question Moll: the only sampled example is a surname, but Moll is also the common music term (a-Moll); kept for the music sense.
+# question Nordhesse: lemma means a person from North Hesse, but nearly all uses are the region name Nordhessen; I dropped it as a minor region.
+# question Nordstadt: district name in the examples but also a common noun; kept as common noun
+# question Nordstadt: is a district name or a common noun (northern part of a city); dropped as a district
+# question Nude: colour word in fashion, tagged PROPN; kept as an established loan but borderline
+# question Nude: kept as an established fashion colour loan; the tagger marked it PROPN with name-like usage, so this is borderline.
+# question Nutzungsdat: same as Eckdat, Nutzungsdaten is used almost only in the plural
+# question OLED: consumer-known display term or specialist technical acronym? I kept it.
+# question Offshore: it is an English loan used mostly in compounds; I judged it established enough to keep
+# question PCR: a technical acronym, kept only because it became everyday vocabulary
+# question Pancakes: it is mostly used in the plural, so merging to the singular Pancake follows the plural rule but may not suit.
+# question Phi: could count as a common noun (Greek letter), but there are no examples, so I dropped it.
+# question Polizeikraft: kept as the plural-only-type noun Polizeikräfte, but the singular lemma form is rarely written as a word
+# question Polizeikraft: lemma is the singular but the text is almost always the plural Polizeikräfte; kept as a plural with its own meaning
+# question RECHT: lemma is all-caps and written "recht" (441). It could be the adjective/adverb *recht* rather than the noun *Recht*; I merged to the noun.
+# question RECHT: written lowercase "recht" with 14.5% noun-like use, so it could be the adverb/adjective *recht*; I merged to the noun Recht.
+# question Reck: kept as the gymnastics noun, but the tag and the missing examples suggest it may mostly be a surname
+# question Reck: tagged as a name, but it is also a real noun (gymnastics horizontal bar); I kept it.
+# question Registration: it is a real German noun, mostly Swiss and technical use, while Registrierung is the usual word. I kept it.
+# question Reykjavik: a well-known capital, but the rules say any place name still in the batch is not on the learnable list, so I dropped it.
+# question Ries: 19.5% common-noun-like could be the paper measure or the Nördlinger Ries region, but it is also a surname; kept on that evidence
+# question SSL-Zertifikat: SSL alone drops as a technical acronym, but the compound is common in everyday web text; kept
+# question SSL-Zertifikat: the hyphen-compound rule and the SSL technical-acronym rule point in different directions; dropped as specialist jargon
+# question Scala: could be the Milan opera house (name) or a miswritten Skala; dropped as a name.
+# question Schiffer: also a rare common noun (boatman), but the evidence reads as a surname; dropped
+# question Seenland: regional name (Fränkisches Seenland) but also a real common compound (31.5% after adjective); dropped as a place name not on the list
+# question Selbstbewusstseinstraining: concentrated in 26 documents with brand-like text (IntSel); kept because it is a real compound.
+# question Slide: "Slides" is used in business German, but the evidence here is only a game name, so I dropped it.
+# question Spotlight: the phrase "im Spotlight" is used in German, but the sample is mostly software and product use. I dropped it.
+# question Stumpf: capitalised PROPN with mixed usage; kept as the noun Stumpf and adjective stumpf, may need a case merge to stumpf for the adjective forms
+# question Stumpf: capitalised, but the adjective stumpf and the noun Stumpf (stump) both exist; kept as the noun.
+# question TUN: the lemma is all-caps and tagged PROPN, but every occurrence is written "tun", so I read it as the verb.
+# question Tabellenzweit: the noun is inflected like an adjective (Tabellenzweiter); I chose the masculine form
+# question Tages-Anzeiger: a Swiss newspaper may count as a nationally famous institution, but I treated it as a title and dropped it.
+# question Tagungs-Bahn: could be read as a clipped Tagung-compound fragment, but there is no obvious single target, so dropped
+# question Tasting: kept as an established loan, but it is mainly used in wine and spirits contexts.
+# question Thanksgiving: a foreign-flagged holiday name; kept as a common noun, but it could be read as a name or an unestablished English word.
+# question Thanksgiving: foreign-looking holiday name, kept as an established cultural term; could be dropped as an English word.
+# question VWL: abbreviation by shape rules (would drop), but acronym used as an ordinary word in payroll/economics contexts; kept as an acronym word
+# question Visit: 75 of the 403 occurrences are "visiten" (Visite, medical round); mostly English "visit", so dropped
+# question Visit: written visit (327) is mostly English, but visiten (75) is the plural of the German Visite; I dropped it rather than merging.
+# question Web-Sit: the rules list Website as an established loan, so I merged into it; the spelling variant Web-Site could also be the target.
+# question Workspace: could count as an established tech loan; dropped as not yet established.
+# question Workspace: established tech loan or English term? Dropped as not established.
+# question Zeitgrund: only the plural is attested, in the set phrase "aus Zeitgründen", so I kept it as the singular lemma.
+# question Zip: tagger reads it as a name, but it may count as a loan for the file format; dropped as not established.
+# question aufsetzen: the noun-tagged lemma Aufsetz could also merge to the nominalised Aufsetzen; I chose the verb.
+# question auserkiesen: the lemma is the dictionary form but only participle forms occur; kept as a rare real verb.
+# question diplomieren: the text is almost all participles (diplomierte); kept as the verb lemma, but diplomiert could also be argued.
+# question eu: lemma mixes the acronym EU (426) with euer inflections (euen, eue, euem, eues); I kept it as EU
+# question eu: lowercased text merges EU with forms of the possessive euer (euen, eue, euem, eues); I kept it as EU because 426 of 454 occurrences are "eu".
+# question lebensretten: the forms are all the adjective lebensrettend, which I chose as the target; check that lebensrettend is a wanted lemma
+# question mind: lemma mixes mind/minden/mindes with no example sentences; dropped as junk, but it might be an abbreviation of mindestens
+# question namenhaft: the correct spelling is namhaft; the lemma is a common misspelling of it
+# question namenhaft: the intended lemma is namhaft, a different spelling of the same word, so I merged it.
+# question nicht-kommerziell: kept as hyphenated form, though the standard spelling is nichtkommerziell
+# question nicht-kommerziell: usually written nichtkommerziell; kept as a real hyphenated compound
+# question release: "Release" is used in German IT contexts, but this lemma is lower-case and tagged ADJ, so I dropped it rather than merging to Release.
+# question release: it is unclear whether Release is established enough as a loan; I judged it established in German IT usage and merged it.
+# question sechsmonatig: the citation flag is triggered by inflected-only spelling, but the dictionary form is a real adjective; kept as is.
+# question ÖSTERREICH: Österreich is a country that should have been taken out of the batch; merged into the normal spelling.
+# question ÖSTERREICH: Österreich is presumably on the place list and would have been removed from the batch; I merged it into the proper-case lemma.
+# question Überling: the lemma is a clipped form of Überlingen; I dropped it because the town is not on the learnable list, so the merge target would also be dropped.
+# question BMZ: are federal ministries and their acronyms (BMZ, BMBF, BMF) nationally famous institutions to keep?
+# question Bosnien-Herzegowina, Moldawien: both are sovereign countries left in the batch; should they be added to the learnable place list, as Mazedonien and Weißrussland were?
+# question GLP, DIW: does "nationally famous institution" cover Swiss and Austrian national parties, and research institutes that are often cited in the news?
+# question Kiewer: are inhabitant/adjective forms of learnable cities (Kiewer, Berliner, Wiener) kept as words or merged into the city name?
+# question KundInnen, MitarbeiterInnen, AktivistInnen, AntifaschistInn, AutorInn: Binnen-I / gender plurals mean both sexes. I merged them all to the feminine singular, the form they inflect as. Should they go to the masculine base (Kunde, Mitarbeiter) instead?
+# question LOL: should chat interjection acronyms (lol, omg) be treated as abbreviations (drop) or as words used in German?
+# question SSL-Zertifikat: do hyphenated compounds whose first part is a specialist acronym (SSL-, HTML-, SEO-) follow the acronym rule (drop)?
+# question kuch: when a clipped lemma mixes two real words (Kuchen and Küche without umlaut), should it be dropped, or split between the two targets?

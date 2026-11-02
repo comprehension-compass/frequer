@@ -1,0 +1,1324 @@
+# lemma	decision	reason	how	rank
+Strasser	drop	surname	agreed	34042
+Corona-Regel	keep	real German compound	agreed	34061
+GLP	keep	Swiss national party in parliament; parties count as nationally famous institutions like CDU/SPD	adjudicated	34065
+Maintenance	drop	English, not established in German	agreed	34075
+Schwabing	drop	city district	agreed	34083
+Triest	drop	foreign city not on the list	agreed	34088
+USP	drop	marketing jargon acronym	agreed	34089
+Ardenn	drop	clipped form of Ardennen, a region still in the batch, so not on the place list	adjudicated	34103
+Civic	drop	car model brand	agreed	34111
+Colitis	keep	common medical noun	agreed	34112
+GBP	drop	currency code, abbreviation	agreed	34117
+Harms	drop	surname	agreed	34118
+Hussein	drop	person name	agreed	34120
+Luxor	drop	foreign city	agreed	34124
+Monats-Bahn	drop	splitter junk from "Monats-"	agreed	34127
+PSV	drop	minor organisation acronym	agreed	34128
+STIHL	drop	brand	agreed	34133
+Shenzhen	drop	foreign city	agreed	34134
+Spaces	drop	English, not established	agreed	34135
+Winnenden	drop	small town	agreed	34144
+Ausführer	keep	real German noun (exporter)	agreed	34161
+Bosnien-Herzegowina	drop	place name still in batch; rule says drop even though it is a country	adjudicated	34164
+Dreams	drop	English title/name	agreed	34167
+Elba	drop	island place name not on the list	agreed	34169
+Frederick	drop	first name	agreed	34172
+Ischgl	drop	village	agreed	34177
+Mölln	drop	town	agreed	34181
+Powell	drop	surname	agreed	34185
+Singh	drop	surname	agreed	34192
+Sophos	drop	company	agreed	34193
+VLC	drop	software brand	agreed	34194
+VR-Brille	keep	real German compound	agreed	34195
+Warburg	drop	town/surname	agreed	34202
+alternate	drop	English spam template text	agreed	34206
+begrün	merge:begrünen	clipped lemma of begrünen	agreed	34209
+ARM	drop	written forms are case-folded, so this is all-caps ARM: chip brand/architecture, not the adjective arm	adjudicated	34226
+GroKo	keep	ordinary German political word	agreed	34240
+Hautreizunge	merge:Hautreizung	misspelt lemma, plural in text	agreed	34241
+Heppenheim	drop	town	agreed	34243
+Jugendmedizin	keep	common noun	agreed	34245
+Kali	drop	0% common-noun use; mostly names (goddess, Kali Linux); potash sense is rare	adjudicated	34246
+Moll	keep	Moll is the music term (a-Moll), a common noun	agreed	34255
+Moves	drop	English word not established in German	agreed	34256
+Neckarsulm	drop	town, not on the place list	agreed	34257
+Reisebüros	merge:Reisebüro	plural filed as lemma	agreed	34261
+Screenshots	merge:Screenshot	plural of an established loan	agreed	34263
+Seidl	drop	surname	agreed	34265
+Albers	drop	surname	agreed	34280
+Beautiful	drop	English word, not established	agreed	34285
+Deutz	drop	district and company name	agreed	34286
+Haydn	drop	historical figure	agreed	34291
+Iowa	drop	foreign place name not on the list	agreed	34294
+KNX	drop	technical acronym	agreed	34295
+MANAGEMENT	merge:Management	capitalised form of an established loan	agreed	34299
+Reitbeteiligung	keep	real German word	agreed	34309
+SEITE	merge:Seite	all-caps form of a common noun	agreed	34310
+SWISS	drop	airline brand	agreed	34311
+Sozialangabe	merge:Sozialabgabe	the text has sozialabgaben, a clipped lemma	agreed	34314
+Stephen King	drop	person	agreed	34315
+ready	drop	English word, not established	agreed	34325
+Brush	drop	English word and product name	agreed	34331
+Category	drop	English word, not established	agreed	34332
+Crossing	drop	English word and game title	agreed	34333
+Cäsar	drop	historical figure	agreed	34334
+DRV	drop	organisation acronym, mixed uses	agreed	34335
+Güstrow	drop	town	agreed	34338
+L-Carnitin	keep	real hyphenated compound	agreed	34343
+Pigmentflecke	merge:Pigmentfleck	plural filed as lemma	agreed	34348
+Päckch	merge:Päckchen	cut-off lemma	agreed	34349
+ThyssenKrupp	drop	company	agreed	34353
+connect	drop	English word, not established	agreed	34360
+food	drop	English word, not established	agreed	34364
+versteuernd	merge:versteuern	participle form filed as lemma	agreed	34373
+AirPods	drop	brand and product	agreed	34375
+FCI	drop	minor organisation acronym	agreed	34381
+FCK	drop	club or slogan acronym	agreed	34382
+Gerlach	drop	surname	agreed	34383
+Jucke	merge:jucken	verb form filed under a noun lemma	agreed	34385
+PCR	keep	PCR is widely used in German (PCR-Test)	agreed	34393
+Sahra	drop	first name	agreed	34400
+Satteldach	keep	common noun mistagged as PROPN	agreed	34401
+Schavan	drop	surname of a person	agreed	34402
+Service-Team	keep	established loan compound, real word	agreed	34404
+dreiwöchig	keep	real adjective; inflected forms are the normal written shape	agreed	34417
+kontaktanzeig	merge:Kontaktanzeige	cut-off lemma of Kontaktanzeige	agreed	34421
+portable	drop	English adjective, not established in German	agreed	34425
+wochenen	merge:Wochenende	broken lemma, all occurrences are Wochenende	agreed	34427
+Arbeitsstätt	merge:Arbeitsstätte	cut-off lemma of Arbeitsstätte	agreed	34430
+Bunny	drop	name/costume brand word, English, name-like	agreed	34434
+Contemporary	drop	English word not established in German	agreed	34437
+DGE	drop	minor organisation acronym	agreed	34438
+Erkrath	drop	small town	agreed	34444
+Isla	drop	first name or place, not on list	agreed	34449
+Muttermal	keep	real German noun, low diversity only from topic	agreed	34454
+Naumann	drop	surname	agreed	34455
+October	drop	English month name, not German	agreed	34458
+Vorverkaufsstell	merge:Vorverkaufsstelle	cut-off lemma of Vorverkaufsstelle	agreed	34472
+Yücel	drop	surname of a person	agreed	34474
+Apple-Gerät	keep	real German compound, learner-useful	agreed	34489
+CSV-Datei	keep	real German compound with common file term	agreed	34494
+Eau	drop	fragment of French perfume names	agreed	34497
+Ex-Freundin	keep	real German compound	agreed	34499
+Haan	drop	small town	agreed	34504
+ICT	drop	technical acronym only specialists use	agreed	34507
+Kästner	drop	surname of a person	agreed	34511
+Moldawien	drop	country but still in batch, so not on the place list; rule says drop	adjudicated	34516
+Nordhorn	drop	small town	agreed	34518
+QS	drop	two-letter abbreviation/acronym, not a word	agreed	34523
+Quedlinburg	drop	small town	agreed	34524
+Rudergerät	keep	real German noun	agreed	34527
+Salem	drop	place or name	agreed	34528
+Scala	drop	name (opera house, software); not common word	agreed	34530
+Teltow	drop	small town	agreed	34535
+Thierry	drop	first name	agreed	34536
+ÖSTERREICH	merge:Österreich	capitalised variant of the country name	agreed	34558
+Casino-Spiel	keep	real German compound	agreed	34566
+DMG	drop	transliteration standard acronym, specialist	agreed	34567
+De-Mail	keep	real German compound/service term used by public	agreed	34568
+Diehl	drop	surname	agreed	34569
+Eli	drop	first name	agreed	34571
+Erlangen-Nürnberg	drop	place name not on the reviewed list	agreed	34573
+Guerilla	keep	common noun (Guerilla, Guerillas)	agreed	34578
+HD-Qualität	keep	real hyphenated compound	agreed	34579
+Hitachi	drop	brand/company	agreed	34581
+IEEE	drop	technical organisation acronym	agreed	34583
+Johann Sebastian Bach	drop	person	agreed	34584
+MSc	drop	abbreviation	agreed	34587
+Nasenspray	keep	common noun	agreed	34588
+Offshore	keep	established loan (Offshore-Windpark)	agreed	34589
+Radisson	drop	brand	agreed	34592
+Sarajevo	drop	foreign city not on the list	agreed	34595
+Soltau	drop	town	agreed	34601
+Start-Ups	merge:Start-up	plural filed as lemma	agreed	34602
+eDarling	drop	brand, low diversity	agreed	34615
+eu	merge:EU	case-folded "eu" is mostly the acronym EU filed lower-case; euen/eue/euem forms are a small minority	adjudicated	34619
+AntifaschistInn	merge:Antifaschistin	Binnen-I plural; merged to feminine singular, the form it inflects as (same treatment as KundInnen)	adjudicated	34626
+Augusta	drop	name	agreed	34627
+Benson	drop	surname	agreed	34629
+Bruckner	drop	composer/surname	agreed	34632
+COMPUTER	merge:Computer	all-caps filing of an established loan; merge to the correctly written lemma	adjudicated	34634
+Franz-Josef	drop	first name	agreed	34642
+GO-Antrag	drop	narrow specialist term, few documents	agreed	34643
+Ham	drop	name/English word	agreed	34647
+Hughes	drop	surname	agreed	34650
+IAS	drop	technical acronym	agreed	34651
+Indigo	keep	common noun (colour/dye)	agreed	34652
+Karina	drop	first name	agreed	34654
+Leading	drop	English word not established in German	agreed	34659
+Naked	drop	English word not established in German	agreed	34661
+Postdeutschland	drop	broken lemma, only "post-" in text	agreed	34665
+Pünktch	merge:Pünktchen	cut-off lemma	agreed	34667
+Silence	drop	English word/title	agreed	34673
+Sweat	drop	English word, marginal in German	agreed	34676
+much	drop	English word	agreed	34695
+solutions	drop	English word, brand text	agreed	34700
+ud	drop	junk fragment	agreed	34704
+ATM	drop	technical acronym	agreed	34707
+Britney	drop	first name	agreed	34710
+HPV	keep	widely known medical acronym	agreed	34716
+Marbella	drop	town	agreed	34724
+Preetz	drop	town, not on the place list	agreed	34728
+RF	drop	abbreviation/name, two letters	agreed	34729
+Sekundarstuf	merge:Sekundarstufe	cut-off lemma	agreed	34731
+Sherlock	drop	fictional character name	agreed	34734
+Trinidad	drop	place name not on the learnable list	agreed	34741
+trading	drop	English word not established in German	agreed	34755
+Cayenne	keep	common noun (the spice), also a car brand	agreed	34765
+Chamäleon	keep	common noun the tagger took for a name	agreed	34766
+Clouds	merge:Cloud	plural of an established loan	agreed	34768
+IPS	drop	technical acronym	agreed	34778
+IT-Dienstleistung	keep	real German compound	agreed	34779
+Inch	drop	English unit word	agreed	34780
+Internet-Auftritt	keep	real German compound	agreed	34782
+Mao	drop	historical figure	agreed	34786
+Melzer	drop	surname	agreed	34787
+Pak	drop	name or abbreviation	agreed	34789
+Single-Frau	keep	real German compound	agreed	34795
+e-Bikes	merge:E-Bike	plural filed under a lower-case form	agreed	34808
+their	drop	English word	agreed	34814
+Accounting	drop	English word not established in German	agreed	34816
+Asterix	drop	fictional character name	agreed	34817
+Coworking	keep	established loan	agreed	34819
+Eike	drop	first name	agreed	34821
+Hurghada	drop	town, not on the place list	agreed	34829
+Kistler	drop	company or surname	agreed	34832
+Klug	merge:klug	adjective filed under a capital; 15% adjective-like use, surname share is minor	adjudicated	34833
+Papenburg	drop	town	agreed	34840
+Rechnungs-Bahn	drop	splitter junk from a cut-off compound	agreed	34841
+Tages-Anzeiger	drop	newspaper name, a brand	agreed	34851
+Wirtschaftsprüfungsgesellschaft	keep	real long compound	agreed	34854
+rot-weiß	keep	real hyphenated adjective	agreed	34873
+Befestig	merge:befestigen	cut-off verb, written as befestigen	agreed	34881
+Chen	drop	surname	agreed	34884
+Drilling	keep	real German word (triplet)	agreed	34887
+Favre	drop	surname	agreed	34892
+Freitagmorge	merge:Freitagmorgen	cut-off lemma	agreed	34893
+Haartransplantation	keep	real word	agreed	34897
+Hager	drop	surname or company name	agreed	34898
+Helferinne	merge:Helferin	cut-off lemma	agreed	34899
+Honecker	drop	historical figure	agreed	34900
+Nahle	drop	surname (Andrea Nahles)	agreed	34905
+Nude	merge:nude	established fashion colour adjective ("nude"); capital is a case variant; nudes spam is negligible	adjudicated	34906
+PDC	drop	organisation acronym	agreed	34907
+Ph	drop	abbreviation	agreed	34908
+Sachsenhaus	drop	cut-off place name (Sachsenhausen), not on place list	agreed	34913
+Shaw	drop	surname	agreed	34915
+Sheldon	drop	first name/surname	agreed	34916
+Threat	drop	unestablished English	agreed	34918
+US-Soldat	keep	real compound	agreed	34919
+V-Mann	keep	real German compound	agreed	34921
+diplomieren	merge:diplomiert	almost all uses are the adjective diplomiert, which has its own dictionary entry; verb form written 2 times	adjudicated	34926
+picture	drop	unestablished English	agreed	34931
+siebent	merge:siebte	variant ordinal form of siebte	agreed	34932
+Dürkheim	drop	town name	agreed	34939
+Gelnhaus	drop	cut-off town name	agreed	34941
+Kie	merge:Kies	mostly the noun Kies	agreed	34944
+Kinderbecke	merge:Kinderbecken	cut-off noun	agreed	34945
+Kremer	drop	surname	agreed	34947
+Lexware	drop	software brand	agreed	34948
+Montgomery	drop	surname	agreed	34954
+Objekt-Nr	drop	abbreviation, template text	agreed	34956
+Organization	drop	unestablished English	agreed	34957
+Responsibility	drop	unestablished English	agreed	34963
+Basiswisse	merge:Basiswissen	cut-off noun	agreed	34994
+Behrens	drop	surname	agreed	34995
+Blair	drop	surname	agreed	34997
+EU-Beitritt	keep	real compound	agreed	35000
+Europa-Park	drop	brand/theme park name	agreed	35001
+Herdecke	drop	town name	agreed	35005
+IT-Recht	keep	real compound	agreed	35007
+Lehrkräfte	merge:Lehrkraft	plural filed as lemma	agreed	35012
+Leonberg	drop	town name	agreed	35013
+MacOS	drop	product name	agreed	35014
+Pants	drop	unestablished English	agreed	35019
+Scientific	drop	unestablished English	agreed	35023
+US-Bürger	keep	real compound	agreed	35026
+AntwortenLöschenAntwort	drop	blog template junk	agreed	35042
+Booking	drop	brand/unestablished English	agreed	35047
+Campo	drop	place/name fragment	agreed	35050
+DWS	drop	company name	agreed	35051
+EMRK	drop	treaty acronym only legal specialists use	agreed	35053
+Gartenstuhl	keep	ordinary common noun, tagger mistook it for a name	agreed	35060
+HBO	drop	company/brand name	agreed	35064
+Köster	drop	surname	agreed	35069
+MitarbeiterInnen	merge:Mitarbeiterin	Binnen-I plural; merged to feminine singular, consistent with the other -Innen forms	adjudicated	35072
+Nazareth	drop	place name not on the learnable list	agreed	35075
+Ramon	drop	first name	agreed	35079
+Rhodan	drop	fictional character/surname	agreed	35081
+Sammy	drop	first name	agreed	35083
+Torbe	drop	cut-off form of the first name Torben	agreed	35087
+Web-App	keep	real hyphenated compound, established loan	agreed	35090
+yeah	drop	English interjection not established in German	agreed	35105
+Baltic	drop	English name word	agreed	35107
+Bergisch	drop	uninflected bergisch (398) is mostly the town name Bergisch Gladbach / Bergisches Land, a minor place	adjudicated	35109
+Bhutan	drop	place name still in batch, so not on the learnable list	agreed	35111
+CR	drop	two-letter abbreviation	agreed	35113
+Einvernehm	merge:Einvernehmen	cut-off lemma, the real noun is Einvernehmen	agreed	35114
+Forsthaus	keep	ordinary common noun	agreed	35117
+Freital	drop	town name	agreed	35120
+Juri	drop	first name	agreed	35125
+Knights	drop	English name/brand word	agreed	35127
+License	drop	English word not established in German	agreed	35131
+Lights	drop	English word not established in German	agreed	35133
+MVP	drop	sports acronym, not an ordinary German word	agreed	35135
+Melle	drop	town/surname	agreed	35136
+Menlo	drop	place name	agreed	35137
+Precision	drop	English word not established in German	agreed	35142
+Queensland	drop	place name still in batch, so not on the learnable list	agreed	35143
+Selena	drop	first name	agreed	35146
+T-Online	drop	company/brand name	agreed	35149
+T-System	drop	company/brand name	agreed	35150
+UFC	drop	sports organisation/brand	agreed	35152
+US-Konzern	keep	real German compound	agreed	35153
+Wrestling	keep	established loan, common noun	agreed	35157
+Zhang	drop	surname	agreed	35159
+basic	drop	English word not established in German	agreed	35162
+nicht-kommerziell	keep	real hyphenated adjective compound	agreed	35170
+AktivistInnen	merge:Aktivistin	Binnen-I plural; merged to feminine singular, consistent with the other -Innen forms	adjudicated	35177
+Baar	drop	town name	agreed	35181
+Battery	drop	English word not established in German	agreed	35182
+CF	drop	two-letter abbreviation/name	agreed	35187
+DDR-Zeit	keep	real German compound	agreed	35188
+Download-Link	keep	established loan compound	agreed	35190
+Dutt	keep	common noun (hair bun)	agreed	35191
+Gazprom	drop	company name	agreed	35194
+Germanwings	drop	company/brand name	agreed	35197
+Git	drop	technical product name	agreed	35198
+Goliath	drop	biblical figure's name	agreed	35200
+Jin	drop	personal name	agreed	35202
+Neuenburg	drop	minor place name	agreed	35209
+Nickerche	merge:Nickerchen	cut-off lemma	agreed	35210
+Sinai	drop	place name not on the learnable list	agreed	35220
+Spotlight	drop	English, mostly a software/brand name	agreed	35223
+Treatment	drop	English word not established in German	agreed	35224
+Binance	drop	company name	agreed	35244
+Bleaching	keep	established loan, common noun	agreed	35245
+Mursi	drop	person's name	agreed	35262
+OLED	keep	acronym used as an ordinary consumer word	agreed	35265
+Peer Steinbrück	drop	person's name	agreed	35267
+Pit	drop	English word or first name	agreed	35268
+Plug-In	keep	established hyphenated loan	agreed	35270
+Scheer	drop	surname	agreed	35274
+Stoll	drop	surname	agreed	35280
+VdK	keep	nationally known social organisation	agreed	35284
+Verordnungsgeber	keep	real legal compound; diversity just under threshold	agreed	35285
+family	drop	English, not established	agreed	35291
+got	drop	English, not established	agreed	35294
+small	drop	English, not established	agreed	35301
+Überling	drop	cut-off form of the town Überlingen, a minor place name	agreed	35304
+AUDI	drop	brand name	agreed	35305
+Critical	drop	English word, not established	agreed	35309
+Jahwe	drop	name of a religious figure	agreed	35317
+Jansen	drop	surname	agreed	35318
+Korbach	drop	minor town	agreed	35319
+Packaging	drop	English, not established	agreed	35329
+SOA	drop	technical acronym	agreed	35330
+TF	drop	two-letter abbreviation	agreed	35335
+Tanzpartnerin	keep	real German noun	agreed	35336
+Transportbox	keep	real German compound	agreed	35339
+Trennmittel	keep	real German noun	agreed	35340
+Trittin	drop	person's name	agreed	35341
+UL	drop	two-letter abbreviation	agreed	35342
+Urt	drop	name fragment	agreed	35343
+Wanderurlaub	keep	real German compound noun	agreed	35344
+Brake	drop	town or name	agreed	35370
+Brick	drop	English word, not established in German	agreed	35371
+DSC	drop	brand or technical acronym	agreed	35372
+ESF	drop	specialist acronym	agreed	35375
+Einleg	merge:einlegen	cut-off form of einlegen	agreed	35376
+Griesheim	drop	town	agreed	35383
+HE	drop	acronym or English word, not a German word	agreed	35384
+Heimtextilie	merge:Heimtextilien	plural-only noun filed under a cut-off singular	agreed	35385
+Hopp	drop	name	agreed	35387
+Karla	drop	first name	agreed	35389
+Lennart	drop	first name	agreed	35392
+Nolte	drop	surname or brand	agreed	35398
+Query	drop	English IT term, not established	agreed	35402
+RECHT	merge:Recht	all-caps citation of the common noun	agreed	35403
+UCI	drop	minor sports organisation	agreed	35411
+VersandPreisvorschlag	drop	web shop template text	agreed	35412
+please	drop	English word, not established	agreed	35427
+Carol	drop	name	agreed	35443
+Clement	drop	surname	agreed	35444
+EGBGB	drop	legal acronym only specialists use	agreed	35446
+Gesichts-Bahn	drop	splitter junk	agreed	35451
+Haarpfleg	merge:Haarpflege	cut-off lemma	agreed	35454
+LED-Technik	keep	real German compound	agreed	35455
+MfS	keep	nationally known institution (Stasi ministry)	agreed	35458
+Neuendorf	drop	minor place name	agreed	35461
+Parodontiti	merge:Parodontitis	cut-off lemma	agreed	35464
+Pencil	drop	product name	agreed	35467
+Sc	drop	abbreviation or club	agreed	35471
+Schulferie	merge:Schulferien	plural-only noun filed under a cut-off singular	agreed	35473
+article	drop	English word, not established	agreed	35487
+ketogen	keep	real adjective	agreed	35495
+westafrikanisch	keep	real adjective, dictionary form	agreed	35499
+Add-Ons	merge:Add-on	plural filed as lemma; singular is the established loan Add-on	adjudicated	35502
+Bastei	drop	examples are names (Bastei Lübbe publisher, Bastei rock); 0% common-noun use	adjudicated	35504
+Darkness	drop	English word or name	agreed	35508
+Deployment	drop	English IT jargon, not established	agreed	35509
+Duncan	drop	personal name	agreed	35510
+Eagles	drop	sports club / name, English	agreed	35511
+Ebersberg	drop	town, not on the place list	agreed	35512
+Erdnuß	merge:Erdnuss	old spelling; the text mostly has the plural Erdnüsse	agreed	35514
+Fahrstraße	keep	real German compound (railway and road term)	agreed	35515
+Growth	drop	English word, not established in German	agreed	35517
+Julien	drop	first name	agreed	35519
+Juristin	keep	common noun (female lawyer)	agreed	35520
+Ka	drop	name or fragment	agreed	35521
+Kurth	drop	surname	agreed	35522
+Nordstadt	drop	district name used in many cities (Dortmunder/Pforzheimer Nordstadt); districts drop	adjudicated	35530
+Schwartz	drop	surname	agreed	35534
+Serge	drop	first name	agreed	35536
+WEB	drop	minor organisation or technical acronym	agreed	35539
+Wallace	drop	name	agreed	35540
+Wildlife	drop	English word, part of organisation names	agreed	35541
+case	drop	English word, not established in German	agreed	35544
+nebenh	merge:nebenher	cut-off lemma, text has nebenher	agreed	35547
+phpBB	drop	software brand	agreed	35548
+Draft	drop	English sports term, not established	agreed	35566
+Exclusive	drop	English adjective (German is exklusiv)	agreed	35568
+Extensions	drop	English plural, not established as a lemma	agreed	35569
+Giant	drop	brand name	agreed	35571
+Kenneth	drop	first name	agreed	35579
+Lauda	drop	surname	agreed	35580
+NP	drop	two-letter abbreviation	agreed	35584
+PUR	drop	all-caps PUR, 1.4% common-noun use: the band PUR / PUR polyurethane, not the adjective	adjudicated	35585
+Rakut	drop	cut-off brand name (Rakuten)	agreed	35588
+Tölz	drop	small town (Bad Tölz)	agreed	35593
+Ukraine-Krise	keep	real German compound	agreed	35594
+Uncharted	drop	game title	agreed	35595
+Verhandlungstermin	keep	real German noun	agreed	35597
+VersandMarke	drop	template text from shop pages	agreed	35598
+err	drop	junk, low diversity	agreed	35605
+warikos	drop	junk, low diversity	agreed	35612
+ATI	drop	company brand	agreed	35613
+Baling	drop	cut-off town name (Balingen), not on the place list	agreed	35614
+Captivate	drop	software product	agreed	35619
+DVR	drop	minor organisation or technical acronym	agreed	35620
+Disease	drop	English word, not established in German	agreed	35622
+FensterDeutsche	drop	spam/template text, 3 documents	agreed	35626
+Middle	drop	English word, not established in German	agreed	35640
+Para	drop	name/foreign fragment, not a German word	agreed	35643
+Produktratgeber	keep	real German compound, common-noun use	agreed	35646
+Telefonate	merge:Telefonat	plural filed as lemma	agreed	35654
+VZ	drop	abbreviation/name, not a learner word	agreed	35657
+Verpackungs-Bahn	drop	splitter junk, cut-off compound	agreed	35660
+Windows-Version	keep	real German compound	agreed	35665
+Backhaus	keep	common noun mistagged as name	agreed	35684
+Brooks	drop	surname	agreed	35687
+Caribbean	drop	English word, not established	agreed	35688
+Humanismus	keep	common noun	agreed	35694
+IPO	drop	English finance acronym; German says Börsengang; only specialists use it	adjudicated	35697
+Königssee	drop	minor place name (lake)	agreed	35699
+Lu	drop	name	agreed	35702
+Lucius	drop	first name	agreed	35703
+Marita	drop	first name	agreed	35705
+Milo	drop	first name	agreed	35706
+Randy	drop	first name	agreed	35711
+VWL	drop	abbreviation (Volkswirtschaftslehre / vermögenswirksame Leistungen); abbreviations excluded for now	adjudicated	35719
+Zionist	keep	real German word	agreed	35722
+help	drop	English word, not established	agreed	35732
+place	drop	English word, not established	agreed	35737
+why	drop	English word, not established	agreed	35743
+Bambi	drop	name/award brand	agreed	35749
+Ego-Shooter	keep	established German compound loan	agreed	35754
+Ernest	drop	first name	agreed	35756
+Frida	drop	first name	agreed	35760
+Hella	drop	first name/brand	agreed	35765
+Holy	drop	English word/name	agreed	35766
+Mapping	drop	English technical term, not established	agreed	35772
+Schulstraße	drop	street name	agreed	35783
+Sourcing	drop	English business jargon, not established	agreed	35785
+WTO	keep	nationally famous international organisation	agreed	35793
+point	drop	English word, not established	agreed	35800
+Überdie#Masc	merge:überdies	broken lemma for the adverb überdies	agreed	35809
+Abwassergebühr	keep	real German noun	agreed	35810
+Anfahr	merge:anfahren	cut-off lemma; text is the verb anfahren, also used as a nominalised infinitive	adjudicated	35813
+Bodyguard	keep	established loan	agreed	35818
+Cord	drop	name/foreign fragment	agreed	35819
+Diem	drop	personal name	agreed	35821
+Falkenberg	drop	place name not on list	agreed	35824
+Handschuhfach	keep	common noun mistagged as a name	agreed	35825
+KundInnen	merge:Kundin	Binnen-I plural; merged to feminine singular, consistent with Antifaschistin/Autorin	adjudicated	35828
+LSD	keep	ordinary acronym in German	agreed	35830
+Laufband	keep	common noun	agreed	35831
+Middleton	drop	surname	agreed	35833
+Neuruppin	drop	town	agreed	35834
+Polizeikraft	keep	Polizeikräfte is a real plural with its own meaning	agreed	35835
+Reinickendorf	drop	Berlin district	agreed	35837
+Sido	drop	person (rapper)	agreed	35842
+Spar	drop	brand	agreed	35844
+Tessa	drop	first name	agreed	35845
+Cats	drop	English name or title	agreed	35868
+DOC	drop	file format or name, not a learner word	agreed	35869
+Didier	drop	first name	agreed	35870
+E-Mail-Postfach	keep	real German compound	agreed	35872
+Elst	drop	place or surname	agreed	35873
+FDP-Fraktion	keep	real compound naming a national political body	agreed	35874
+Joyce	drop	personal name	agreed	35885
+Lan	drop	name or fragment	agreed	35889
+Leibniz-Institut	keep	real compound, well-known institution type	agreed	35890
+MSN	drop	brand	agreed	35893
+PID	drop	technical acronym	agreed	35896
+Superb	drop	car model, English adjective	agreed	35901
+Worlds	drop	English word, not established	agreed	35908
+prinen	drop	English "print", broken lemma	agreed	35912
+AFD	keep	nationally famous party	agreed	35917
+Chamber	drop	English word	agreed	35921
+Create	drop	English word	agreed	35922
+GdP	keep	nationally known police union	agreed	35927
+Guido Westerwelle	drop	person	agreed	35930
+Havelland	drop	minor region	agreed	35931
+Lid	keep	real German word (Augenlid)	agreed	35940
+Lobo	drop	person (Sascha Lobo)	agreed	35941
+Mid	drop	English word	agreed	35942
+Push-Nachricht	keep	real German compound	agreed	35946
+Riker	drop	fictional character name	agreed	35948
+Terre	drop	name or foreign word	agreed	35958
+Vorbeug	merge:vorbeugen	cut-off verb	agreed	35962
+ACC	drop	acronym of a minor organisation, name-like	agreed	35981
+Alsfeld	drop	small town, not on the place list	agreed	35983
+Appel	drop	surname	agreed	35985
+BNP	drop	mostly BNP Paribas (bank brand); Bruttonationalprodukt use is rare	adjudicated	35986
+EK	drop	two-letter abbreviation	agreed	35993
+Ellis	drop	surname/first name	agreed	35996
+Fleischmann	drop	surname	agreed	35998
+Gesellschafts-Bahn	drop	splitter junk from "Gesellschafts- und ..."	agreed	36000
+Graduate	drop	English word, not established in German	agreed	36001
+Herta	drop	first name	agreed	36007
+Josephine	drop	first name	agreed	36011
+Metzinge	drop	cut-off form of the town Metzingen, not on the place list	agreed	36015
+Mosbach	drop	small town	agreed	36016
+Nierenversag	merge:Nierenversagen	cut-off lemma	agreed	36018
+Norditalien	drop	place name not on the reviewed list	agreed	36019
+Sagrada	drop	part of a landmark name	agreed	36022
+Selina	drop	first name	agreed	36023
+She	drop	English word, not German	agreed	36024
+Transportier	merge:transportieren	cut-off verb	agreed	36029
+US-Staat	keep	real hyphenated compound	agreed	36030
+venezolanisch	keep	correct adjective lemma, only inflected forms occur in text	agreed	36047
+DHBW	drop	regional university, minor organisation	agreed	36051
+DIW	keep	nationally cited research institute, comparable to KfW and NABU	adjudicated	36052
+Jojo	keep	common noun (Jojo-Effekt, toy)	agreed	36061
+Joop	drop	person and brand name	agreed	36062
+Kreuzling	drop	cut-off form of the town Kreuzlingen, not on the place list	agreed	36063
+Nivea	drop	brand	agreed	36068
+Saddam Hussein	drop	person	agreed	36072
+Sullivan	drop	surname	agreed	36075
+Sword	drop	English word in a title, name-like	agreed	36076
+Wittmann	drop	surname	agreed	36080
+hannov	merge:Hannover	cut-off of Hannover, a well-known city and state capital, so a learnable place	adjudicated	36088
+lebensretten	merge:lebensrettend	adjective filed under a verb-like cut-off lemma	agreed	36091
+BBS	drop	acronym of a minor organisation or brand	agreed	36106
+Essentials	drop	English word, not established in German	agreed	36111
+Ex-Präsident	keep	real German compound	agreed	36113
+Fehlerbehebunge	merge:Fehlerbehebung	cut-off plural form	agreed	36116
+Griffin	drop	surname	agreed	36119
+Hartz-IV-Empfänger	keep	real German compound	agreed	36120
+Hennef	drop	small town	agreed	36121
+IPTV	drop	technical acronym only specialists use	agreed	36125
+Langenscheidt	drop	publisher brand name	agreed	36129
+Load	drop	English word not established in German	agreed	36131
+Online-Katalog	keep	real German compound	agreed	36136
+Pilatus	drop	mountain or person name, not on the place list	agreed	36137
+Riley	drop	surname	agreed	36138
+Tagungs-Bahn	drop	cut-off fragment of Tagungs- (and/or), no obvious single target	agreed	36148
+VV	drop	two-letter abbreviation or name	agreed	36150
+kuch	drop	fragment mixing Kuchen (327) and kuche/Küche without umlaut (92); merging would join two words	adjudicated	36167
+zwölfjährig	keep	real adjective, and the lemma is the dictionary form	agreed	36172
+FRAGEN	merge:Frage	all-caps headings ("Häufige FRAGEN", "Noch FRAGEN?"): plural noun, so merge to the singular	adjudicated	36184
+Harper	drop	surname	agreed	36193
+Herzogenaurach	drop	town not on the place list	agreed	36194
+Insignia	drop	car model name	agreed	36195
+Kaufbeur	drop	cut-off form of the town Kaufbeuren, not on the place list	agreed	36196
+Nespresso	drop	brand	agreed	36208
+PUMA	drop	brand	agreed	36209
+Parc	drop	name of a restaurant	agreed	36210
+Salman	drop	first name	agreed	36213
+TLS-Verschlüsselung	drop	compound built on a specialist technical acronym (TLS, like SSL)	adjudicated	36217
+Tapatalk	drop	app brand	agreed	36218
+WORLD	drop	English word that is not established, and a name	agreed	36221
+Word-Dokument	keep	established German compound	agreed	36224
+Bitch	drop	English word not established in German	agreed	36244
+Francois	drop	first name	agreed	36250
+Functional	drop	English word not established in German	agreed	36251
+Gebhardt	drop	surname	agreed	36253
+Hellsehe	merge:Hellsehen	clipped noun, Hellsehen is the right lemma	agreed	36257
+Jensen	drop	surname	agreed	36261
+Moss	drop	surname	agreed	36267
+NMM	drop	organisation acronym with low diversity	agreed	36268
+Reykjavik	drop	foreign capital not among the added places	agreed	36273
+START	merge:Start	common noun filed under an upper-case lemma	agreed	36275
+Sachstand	keep	ordinary German noun wrongly tagged as a name	agreed	36277
+Sue	drop	first name	agreed	36282
+Synchronisier	merge:synchronisieren	clipped verb	agreed	36283
+Tavern	merge:Taverne	noun filed under a plural or foreign-looking form	agreed	36285
+Vince	drop	first name	agreed	36288
+school	drop	English word not established in German	agreed	36303
+Ale	drop	English beer word and a name	agreed	36309
+Backnang	drop	town, not on the place list	agreed	36310
+Coleman	drop	surname and brand	agreed	36312
+Ex-Frau	keep	real German compound	agreed	36314
+Gerard	drop	personal name	agreed	36321
+Hopper	drop	surname	agreed	36326
+MMA	keep	acronym in ordinary German use for the sport	agreed	36333
+Online-Buchung	keep	real compound, established	agreed	36336
+Poetry	drop	English word, not established alone	agreed	36338
+SMD	drop	technical acronym	agreed	36342
+Serra	drop	place or surname	agreed	36346
+VBA	drop	technical acronym	agreed	36349
+selbstreden	merge:selbstredend	clipped form of selbstredend	agreed	36366
+Bones	drop	TV series title	agreed	36381
+Dario	drop	first name	agreed	36384
+EW	drop	unclear abbreviation	agreed	36386
+Fremdkapital	keep	common noun	agreed	36389
+Gill	drop	surname	agreed	36391
+Integrated	drop	English, company-name text	agreed	36394
+Lienz	drop	town	agreed	36399
+Lindemann	drop	surname	agreed	36400
+Merchant	drop	English word, not established	agreed	36401
+Quito	drop	place name still in batch, not on the reviewed list	agreed	36410
+Remarketing	keep	established marketing term	agreed	36411
+Ripple	drop	cryptocurrency brand	agreed	36413
+Social-Media	keep	established loan compound	agreed	36416
+Thin	drop	English word	agreed	36421
+namenhaft	merge:namhaft	misspelling of namhaft	agreed	36443
+Überschreit	merge:überschreiten	cut-off verb	agreed	36452
+Advents-Bahn	drop	splitter junk	agreed	36453
+DKV	drop	organisation acronym	agreed	36462
+Helmholtz-Zentrum	drop	minor institution name	agreed	36470
+Immobiliensuch	merge:Immobiliensuche	cut-off noun	agreed	36471
+KINDER	merge:Kind	plural of Kind, filed under capitalised form	agreed	36474
+Kartenleger	keep	real German noun	agreed	36475
+Object	drop	English word	agreed	36483
+Strange	drop	English word and surname	agreed	36490
+Support-Team	keep	established loan compound	agreed	36491
+card	drop	English word	agreed	36502
+entry	drop	English word	agreed	36504
+had	drop	English word	agreed	36505
+AutorInn	merge:Autorin	Binnen-I plural; merged to feminine singular, consistent with the other -Innen forms	adjudicated	36510
+Blankenburg	drop	town name	agreed	36511
+Clio	drop	car brand	agreed	36515
+Falkensee	drop	small town	agreed	36520
+Fitz	drop	surname	agreed	36522
+Mumia	drop	personal name	agreed	36535
+Mund-Nasen-Schutz	keep	real German compound	agreed	36536
+Progress	drop	English word, not established	agreed	36541
+USB-C	keep	established tech compound with USB	agreed	36550
+herauskristallisi	merge:herauskristallisieren	cut-off verb lemma	agreed	36560
+Aida	drop	brand/company	agreed	36573
+Balm	drop	English product word	agreed	36577
+Cloud-Dienst	keep	real compound, established loan element	agreed	36578
+D-Mark	keep	real German currency compound	agreed	36579
+DATA	drop	English word, not established	agreed	36580
+Disko	keep	common noun	agreed	36582
+EBA	drop	minor agency acronym	agreed	36584
+Flame	drop	English word/name junk	agreed	36587
+Juhu	keep	German interjection	agreed	36592
+Kaffeetrinke	merge:Kaffeetrinken	cut-off nominalised noun	agreed	36593
+Ludwig-Maximilians-Universität	keep	nationally known university	agreed	36596
+MY	drop	English word/name	agreed	36597
+Marten	drop	surname	agreed	36599
+Memoir	merge:Memoiren	German plural-only noun	agreed	36600
+Processing	drop	English word, not established	agreed	36603
+Quarter	drop	English word, not established	agreed	36605
+Rewards	drop	English word/brand programme	agreed	36606
+Romance	drop	English genre word, not established	agreed	36608
+SSL-Zertifikat	drop	compound built on the specialist acronym SSL, website boilerplate	adjudicated	36609
+Tampa	drop	foreign city	agreed	36616
+Töt	merge:töten	cut-off verb lemma	agreed	36619
+Verden	drop	small town	agreed	36620
+Weekly	drop	English word/title	agreed	36624
+Window	drop	English word, not established	agreed	36625
+Wusterhause	drop	town name (Königs Wusterhausen)	agreed	36626
+Zahlungs-Bahn	drop	splitter junk	agreed	36628
+body	drop	English word, not established	agreed	36630
+Alive	drop	English word, not established	agreed	36651
+Alta	drop	name	agreed	36652
+B-Klasse	keep	real German compound (league class)	agreed	36654
+BUSINESS	merge:Business	established loan, written only as "business", so it belongs under the capitalised noun	adjudicated	36655
+Bildband	keep	common noun the tagger mistook for a name	agreed	36657
+DO	drop	English word or name, not German	agreed	36658
+Döring	drop	surname	agreed	36659
+ESL	drop	brand or organisation acronym	agreed	36660
+Glory	drop	English word and brand name	agreed	36667
+Handbremse	keep	common noun	agreed	36669
+Kammerjäger	keep	real German noun	agreed	36672
+McQueen	drop	surname	agreed	36675
+Mitarbeitervertretung	keep	real German noun	agreed	36677
+Nutzungsdat	merge:Nutzungsdaten	cut-off citation of Nutzungsdaten	agreed	36681
+Opener	drop	English word not established in German	agreed	36682
+PET-Flasche	keep	real German compound	agreed	36683
+Schiffer	drop	used as a surname in the examples	agreed	36687
+Schuppenflecht	merge:Schuppenflechte	cut-off citation	agreed	36688
+Sherlock Holmes	drop	fictional character	agreed	36689
+Top-Thema	keep	real hyphenated compound	agreed	36691
+Voucher	drop	English word not established in German	agreed	36696
+patriarchal	keep	real German adjective	agreed	36712
+BTW	drop	abbreviation	agreed	36726
+Brüderle	drop	surname	agreed	36727
+Eckdat	merge:Eckdaten	cut-off citation of Eckdaten	agreed	36728
+Ex-Freund	keep	real hyphenated compound	agreed	36731
+Hanser	drop	publisher or surname	agreed	36740
+Lutherstadt	drop	place name not on the reviewed list	agreed	36746
+McCartney	drop	surname	agreed	36748
+NET	drop	name or English word, no German use	agreed	36751
+Newsfeed	keep	established loan, common noun	agreed	36754
+Online-Version	keep	real hyphenated compound	agreed	36756
+Seas	drop	English word or name	agreed	36761
+U-Bahnstation	keep	real hyphenated compound	agreed	36763
+Very	drop	English word not established in German	agreed	36765
+ZTE	drop	company acronym	agreed	36771
+Älterwerde	merge:Älterwerden	cut-off citation of the nominalised verb	agreed	36785
+Catrice	drop	brand	agreed	36789
+Dorian	drop	first name	agreed	36790
+Expertinn	merge:Expertin	cut-off citation	agreed	36791
+FES	drop	minor organisation acronym or place	agreed	36792
+LKW-Fahrer	keep	real hyphenated compound	agreed	36803
+LOL	drop	chat abbreviation; abbreviations are excluded for now	adjudicated	36804
+Mascarpone	keep	common food noun	agreed	36808
+Nights	drop	English, not established in German	agreed	36810
+Prüfungsfrag	merge:Prüfungsfrage	cut-off lemma, written as the plural Prüfungsfragen	agreed	36814
+Silk	drop	English or brand name	agreed	36817
+Tabellenzweit	merge:Tabellenzweiter	cut-off lemma, written Tabellenzweiten	agreed	36821
+Wirsing	keep	common noun (savoy cabbage)	agreed	36826
+Wisconsin	drop	US state, not on the place list	agreed	36827
+Würstche	merge:Würstchen	cut-off lemma	agreed	36828
+X-Men	drop	film or comic name	agreed	36829
+XVI	drop	Roman numeral in a name	agreed	36830
+ZWEI	merge:zwei	number word filed under a capitalised lemma	agreed	36831
+BFV	drop	minor organisation acronym	agreed	36852
+Baldrian	keep	common noun (valerian)	agreed	36853
+Bauleiter	keep	common noun	agreed	36854
+Blutzelle	keep	valid singular lemma	agreed	36857
+Credits	drop	English, name-like	agreed	36859
+EASY	drop	English or brand	agreed	36860
+ENDLICH	merge:endlich	adverb filed under a capitalised lemma	agreed	36861
+Grönemeyer	drop	person	agreed	36865
+Hansjörg	drop	first name	agreed	36867
+Leitzin	merge:Leitzins	cut-off lemma	agreed	36872
+Mercury	drop	brand or person	agreed	36876
+Nashville	drop	foreign city not on the list	agreed	36877
+Shepherd	drop	English dog breed or name	agreed	36884
+Spice	drop	English or band name	agreed	36885
+TFT	drop	technical acronym	agreed	36888
+Vader	drop	fictional character	agreed	36889
+mind	drop	English-looking fragment or abbreviation, not a learnable lemma	agreed	36901
+Blended	drop	English, not established	agreed	36913
+CLS	drop	car model	agreed	36914
+Camille	drop	first name	agreed	36915
+Chai	keep	established loan for tea	agreed	36916
+Germain	drop	name	agreed	36918
+Halsband	keep	common noun	agreed	36921
+Lampedusa	drop	small island, not on the place list	agreed	36926
+MWST	drop	abbreviation	agreed	36931
+Novartis	drop	company	agreed	36936
+PCB	drop	technical acronym	agreed	36937
+Planschbecke	merge:Planschbecken	cut-off lemma	agreed	36939
+RTW	drop	abbreviation	agreed	36941
+Wasserski	keep	ordinary common noun (water skiing)	agreed	36954
+Youngtimer	keep	established German common noun for a car	agreed	36957
+BMS	drop	brand/company acronym	agreed	36982
+Böhnhardt	drop	surname	agreed	36983
+Chaussee	keep	real German common noun, though here mostly in street names	agreed	36984
+Familienbeihilfe	keep	real compound noun (Austrian benefit)	agreed	36991
+Hartwig	drop	first name or surname	agreed	36996
+Hipster	keep	established loan, common noun	agreed	37000
+Liane	keep	real word (liana), though examples are mostly the first name	agreed	37006
+MailChimp	drop	brand	agreed	37007
+Massachusetts	drop	place name not on the learnable list	agreed	37008
+TUM	drop	minor organisation acronym	agreed	37019
+Television	drop	English word, and also a company name	agreed	37020
+ThinkPad	drop	product brand	agreed	37021
+Untersuchungs-Bahn	drop	splitter junk from a clipped compound	agreed	37024
+Vehicle	drop	English word not established in German	agreed	37025
+VertreterInn	merge:Vertreterin	cut-off of the gendered plural VertreterInnen; the base is Vertreterin	adjudicated	37027
+Weiters	merge:weiters	adverb filed under a capitalised lemma	agreed	37031
+Yasmin	drop	first name	agreed	37033
+anzuwendend	merge:anwenden	inflected gerundive filed as a lemma	agreed	37037
+bipolar	keep	real adjective (bipolare Störung)	agreed	37041
+büch	merge:Buch	clipped lemma, the forms are mostly Bücher	agreed	37042
+here	drop	English word	agreed	37048
+Alt-Taste	keep	real German compound	agreed	37061
+Atletico	drop	sports club name	agreed	37062
+Banana	drop	English word or brand name	agreed	37063
+Betreuungs-Bahn	drop	splitter junk from a clipped compound	agreed	37064
+Co-Autor	keep	real German compound	agreed	37067
+Cristina	drop	first name	agreed	37068
+Din	drop	norm acronym or name, not an ordinary word	agreed	37069
+Eva-Maria	drop	first name	agreed	37071
+Flamenco	keep	common noun (dance/music style)	agreed	37072
+Gefickt	merge:ficken	participle filed as a lemma	agreed	37074
+Gomera	drop	place name not on the learnable list	agreed	37077
+Holle	drop	name (Frau Holle) or place	agreed	37080
+Jared	drop	first name	agreed	37082
+Scharf	merge:scharf	15.8 % after an article or adjective is not name-like, so this is the adjective	adjudicated	37089
+Solaris	drop	product or brand name	agreed	37092
+T-shirt	merge:T-Shirt	wrong-case spelling of an established loan	agreed	37095
+Tolkien	drop	surname	agreed	37097
+Troy	drop	first name/person	agreed	37098
+Ziri	drop	first name	agreed	37101
+Ancelotti	drop	surname of a person	agreed	37118
+Android-Handy	keep	real German compound	agreed	37119
+Boards	drop	English word, not established	agreed	37122
+Casablanca	drop	place name not on the reviewed list	agreed	37123
+Dating-Seite	keep	real German compound	agreed	37125
+Deborah	drop	first name	agreed	37126
+EWE	drop	company	agreed	37128
+Emerging	drop	English word	agreed	37129
+Geberit	drop	brand/company	agreed	37132
+Hamann	drop	surname	agreed	37134
+Hürth	drop	town	agreed	37136
+Mueller	drop	surname	agreed	37142
+Mühlhausen	drop	town/district	agreed	37143
+Success	drop	English word	agreed	37155
+UNTERNEHMEN	merge:Unternehmen	common noun written in capitals	agreed	37158
+buy	drop	English word	agreed	37166
+essence	drop	English word/brand	agreed	37171
+mehrmonatig	keep	real adjective; only inflected forms occur, but the lemma is the dictionary form	agreed	37177
+Blockchain-Technologie	keep	real German compound	agreed	37185
+DSV	drop	organisation acronym	agreed	37187
+Eisenberg	drop	town/surname	agreed	37188
+Gerhardt	drop	surname	agreed	37194
+Geschäftsstell	merge:Geschäftsstelle	cut-off lemma	agreed	37195
+IT-Spezialist	keep	real German compound	agreed	37199
+Kinect	drop	product brand	agreed	37201
+Piece	drop	English word/name	agreed	37210
+Rocrail	drop	software product	agreed	37211
+Vanilla	drop	English word/brand	agreed	37217
+benei	merge:beneiden	cut-off verb	agreed	37225
+essbereich	merge:Essbereich	noun under a lower-case lemma	agreed	37226
+Aufsetz	merge:aufsetzen	cut-off lemma, forms are from the verb	agreed	37241
+Brass	drop	surname/name	agreed	37242
+Facebook-Nutzer	keep	real German compound	agreed	37245
+GPS-Gerät	keep	real German compound	agreed	37248
+HTW	drop	institution acronym, minor	agreed	37251
+Kissing	drop	fragment of the town name Bad Kissingen	agreed	37255
+Kundennutz	merge:Kundennutzen	cut-off lemma	agreed	37258
+Leslie	drop	first name	agreed	37262
+NMS	drop	acronym for a licence plate or school, not a learner word	agreed	37265
+Nrw	drop	abbreviation for Nordrhein-Westfalen, excluded for now	agreed	37267
+Registration	keep	the examples are German prose, and Registration is an established German noun alongside Registrierung	adjudicated	37269
+Sansibar	drop	place name not on the reviewed list	agreed	37271
+Staff	drop	English word not established in German	agreed	37273
+bAV	drop	specialist abbreviation	agreed	37285
+Auschecke	merge:auschecken	nominalised verb filed under a cut-off, capitalised lemma	agreed	37304
+Bernie	drop	first name	agreed	37305
+Chill	merge:chillen	"chill" is mainly the German imperative ("chill mal") of the established verb chillen	adjudicated	37307
+Elli	drop	first name	agreed	37311
+FIS	drop	sports organisation or acronym	agreed	37313
+FREE	drop	English word, not established in German	agreed	37314
+FREI	merge:frei	adjective filed under a capitalised lemma	agreed	37315
+Google-Dienst	keep	real German compound	agreed	37321
+Hildebrandt	drop	surname	agreed	37322
+Kürbiskerne	merge:Kürbiskern	noun filed under its plural	agreed	37325
+Machu	drop	fragment of a foreign place name	agreed	37327
+Merk	drop	forms merks/merkes at 0.0 % look like the surname Merk; the verb merken is already on the list	adjudicated	37328
+Samos	drop	place name not on the reviewed list	agreed	37334
+Tabea	drop	first name	agreed	37338
+Unterstellunge	merge:Unterstellung	cut-off lemma, plural filed under a clipped singular	agreed	37347
+WIRKLICH	merge:wirklich	adverb filed under a capitalised lemma	agreed	37348
+Westfalia	drop	company or club name	agreed	37349
+Zip	drop	name or foreign word, not a learner word	agreed	37352
+adult	keep	zoological German adjective; the inflected forms adulte/adulten/adultes show German use	adjudicated	37354
+alia	merge:alias	written form is mostly alias	agreed	37355
+always	drop	English word, not established in German	agreed	37356
+auserkiesen	keep	real verb, the dictionary form	agreed	37360
+erik	drop	first name	agreed	37365
+Bundesliga-Saison	keep	real German compound	agreed	37383
+Cha	drop	not a German word, name or fragment	agreed	37384
+Clock	drop	English word, not established in German	agreed	37385
+Lo	drop	name or fragment	agreed	37404
+MSV Duisburg	drop	sports club	agreed	37405
+Maintal	drop	minor place or valley name	agreed	37406
+Monatsrat	merge:Monatsrate	noun filed under a cut-off lemma	agreed	37409
+PB	drop	abbreviation	agreed	37411
+Pansy	drop	English name, low diversity	agreed	37412
+Picchu	drop	fragment of a foreign place name	agreed	37414
+Steuerungs-Bahn	drop	splitter junk	agreed	37420
+TN	drop	abbreviation, length 2	agreed	37423
+TSC	drop	sports club/name	agreed	37424
+TUN	merge:tun	the verb "tun" filed under a capitalised lemma	agreed	37425
+Anselm	drop	first name or surname	agreed	37447
+Capitol	drop	building/place name	agreed	37454
+Chiang	drop	name	agreed	37455
+ExpertInn	merge:Expertin	cut-off of ExpertInnen; the base is Expertin, consistent with Vertreterin	adjudicated	37460
+Haug	drop	surname	agreed	37464
+KGV	drop	minor organisation or specialist abbreviation	agreed	37467
+Line-Up	keep	established loan, real compound	agreed	37471
+Manor	drop	name	agreed	37472
+Margin	drop	English word not established in German	agreed	37473
+Reynolds	drop	surname/brand	agreed	37484
+Roses	drop	band name (Guns N' Roses)	agreed	37485
+SOS-Kinderdorf	keep	nationally known institution	agreed	37486
+Seenland	drop	the examples are regional names (Fränkisches, Oberpfälzer Seenland) not on the place list	adjudicated	37488
+Spirulina	keep	common noun (alga)	agreed	37490
+VIA	merge:via	the preposition never follows an article, so the low name score is no evidence of a name	adjudicated	37496
+root	drop	English word not established in German	agreed	37515
+Assisi	drop	town not on the place list	agreed	37524
+Bilddat	merge:Bilddaten	cut-off lemma, the real word is Bilddaten	agreed	37528
+CLUB	merge:Club	established loan, written only as "club"/"clubs"	adjudicated	37530
+Cora	drop	first name	agreed	37531
+DSA	drop	name/brand (game system)	agreed	37532
+Dahl	drop	surname	agreed	37533
+Dyson	drop	brand	agreed	37536
+FSG	drop	minor organisation or acronym	agreed	37538
+Fail	drop	English word not established in German	agreed	37539
+Gewerbeimmobilien	merge:Gewerbeimmobilie	noun filed under its plural	agreed	37542
+Hanno	drop	first name	agreed	37543
+Herzklopfen	keep	real German noun	agreed	37544
+Pal	drop	name or English word	agreed	37559
+RZ	drop	abbreviation, length 2	agreed	37563
+Uelze	drop	town (Uelzen) not on the place list	agreed	37569
+Xinhua	drop	news agency, name	agreed	37576
+Zach	drop	first name	agreed	37577
+friends	drop	English word not established in German	agreed	37581
+nev	drop	broken English fragment	agreed	37587
+Adi	drop	first name	agreed	37595
+EMEA	drop	business acronym, specialists only	agreed	37604
+Fischbach	drop	village/surname	agreed	37607
+Fortan	merge:fortan	adverb capitalised at the start of a sentence	adjudicated	37608
+George Clooney	drop	person	agreed	37611
+Gesichtscrem	merge:Gesichtscreme	cut-off lemma	agreed	37612
+Hausmann	keep	common noun (house-husband, plural Hausmänner)	agreed	37614
+Homberg	drop	minor town	agreed	37615
+Immigration	keep	German word, used in German	agreed	37617
+Jonny	drop	first name	agreed	37618
+KPCh	drop	foreign party acronym, few documents	agreed	37619
+Knoll	drop	surname	agreed	37623
+Konami	drop	company	agreed	37626
+Mechthild	drop	first name	agreed	37630
+Patrol	drop	English word, brand/name use	agreed	37635
+Picard	drop	surname/character	agreed	37636
+Platt	keep	das Platt (Low German) is a noun in its own right; genitive "platts" confirms the noun	adjudicated	37637
+Satellite	drop	English form, not German	agreed	37642
+Schöneberger	drop	surname/district	agreed	37645
+oberbayerisch	keep	real adjective, lemma is the dictionary form	agreed	37664
+take	drop	English word not established in German	agreed	37665
+Algier	drop	foreign city not on place list	agreed	37669
+Arminia Bielefeld	drop	sports club	agreed	37673
+Cloud-Lösung	keep	real compound	agreed	37679
+Diaz	drop	surname	agreed	37681
+Feldkirche	drop	town (Feldkirchen)	agreed	37692
+Melk	drop	mostly a town name	agreed	37699
+Tebartz-van	drop	cut-off surname	agreed	37708
+Well	drop	English word	agreed	37714
+Alanya	drop	foreign town	agreed	37741
+Alexandre	drop	first name	agreed	37742
+Ballack	drop	person	agreed	37746
+Bully	drop	name/brand use	agreed	37751
+E-Herd	keep	real compound	agreed	37754
+EU-Kommissar	keep	real compound	agreed	37755
+GIMP	drop	software brand	agreed	37758
+Lesbos	drop	place not on the reviewed list	agreed	37763
+MFA	drop	unclear acronym/organisation	agreed	37764
+PERRY	drop	name	agreed	37767
+Rhein-Sieg-Kreis	drop	district name	agreed	37771
+SIP	drop	technical acronym	agreed	37772
+Seeds	drop	English word/name	agreed	37775
+Sinclair	drop	person's surname	agreed	37777
+Wilders	drop	person's surname	agreed	37786
+hard	drop	English word not established in German	agreed	37793
+key	drop	English word not established in German	agreed	37795
+Attendorn	drop	town, not on the learnable places list	agreed	37803
+BOSCH	drop	company brand	agreed	37806
+Bolero	keep	common noun (dance, short jacket)	agreed	37807
+Complex	drop	English product-name text	agreed	37811
+Crowd	drop	English, not established in German	agreed	37812
+Donaueschingen	drop	town, not on the learnable places list	agreed	37814
+Frankenberg	drop	town, not on the learnable places list	agreed	37819
+Gobbi	drop	surname	agreed	37821
+Kontra	keep	ordinary word (Pro und Kontra)	agreed	37824
+Logs	drop	English IT plural, not established for learners	adjudicated	37827
+Nordhesse	drop	minor region name; not on the learnable places list	agreed	37830
+PGA	drop	sports organisation or brand acronym	agreed	37832
+Schwelm	drop	town, not on the learnable places list	agreed	37838
+Spam-Ordner	keep	real German compound	agreed	37840
+Timmendorfer	drop	place-name fragment (Timmendorfer Strand)	agreed	37844
+Toledo	drop	foreign city, not on the learnable places list	agreed	37845
+UN-Generalsekretär	keep	real compound, nationally relevant title	agreed	37846
+security	drop	English word not established in German	agreed	37863
+speed	drop	English word not established in German	agreed	37865
+Bailey	drop	surname	agreed	37874
+Barmenia	drop	company name	agreed	37875
+CSI	drop	TV series brand	agreed	37883
+KAUFEN	merge:kaufen	verb filed under a capitalised lemma	agreed	37893
+Must-have	keep	established loan, hyphenated compound	agreed	37895
+Notre	drop	fragment of the name Notre Dame	agreed	37897
+Online-Marktplatz	keep	real German compound	agreed	37898
+Prater	drop	Vienna park, a place name not on the list	agreed	37899
+SEC	drop	foreign agency acronym	agreed	37903
+Selenskyj	drop	person's name	agreed	37905
+SumUp	drop	brand, low diversity	agreed	37910
+Sustainability	drop	English word not established in German	agreed	37912
+Visit	drop	mostly English; the German noun is Visite	agreed	37916
+WSV	drop	sports or club acronym	agreed	37918
+Wanda	drop	first name	agreed	37919
+Web-Sit	merge:Website	cut-off citation of Web-Site/Website	agreed	37920
+Abmeld	merge:abmelden	cut-off form of the verb abmelden	agreed	37939
+Ammann	drop	surname	agreed	37941
+Claudius	drop	personal name	agreed	37945
+Construction	drop	English word, not established in German	agreed	37946
+Dienstleistungs-Bahn	drop	splitter junk, cut-off compound fragment	agreed	37948
+Dübendorf	drop	minor town, not on the place list	agreed	37949
+Emmending	drop	cut-off form of a minor town (Emmendingen), not on the place list	agreed	37952
+HIV-Infektion	keep	real German compound	agreed	37958
+Hopkin	drop	surname	agreed	37961
+Janssen	drop	surname	agreed	37962
+Luxe	drop	not a German word, name-like or brand text	agreed	37964
+Mazedonie	merge:Mazedonien	cut-off lemma of Mazedonien, which is on the learnable places list	agreed	37965
+Platzgrund	keep	real compound, mostly seen in plural or in "aus Platzgründen"	agreed	37972
+QVC	drop	brand	agreed	37975
+Raven	drop	name or brand	agreed	37976
+Santos	drop	surname or place name	agreed	37979
+Spiderman	drop	fictional character, brand	agreed	37982
+Thanksgiving	keep	common noun for a well-known holiday	agreed	37986
+Togo	drop	place name not on the reviewed list	agreed	37987
+Treasure	drop	English word, in titles	agreed	37988
+US-Markt	keep	real German compound	agreed	37989
+Vertrags-Bahn	drop	splitter junk, cut-off compound fragment	agreed	37991
+WOHNEN	merge:wohnen	verb filed under a capitalised lemma	agreed	37992
+Zadar	drop	foreign city	agreed	37996
+AbholstationKostenloser	drop	concatenation junk from shop text	agreed	38019
+Acronis	drop	company or product	agreed	38020
+Bachelor-Abschluss	keep	real German compound	agreed	38022
+Bahia	drop	Brazilian state, not on the place list	agreed	38023
+Beuth	drop	surname or publisher name	agreed	38024
+Bio-Lebensmittel	keep	real German compound	agreed	38025
+DIN-Norm	keep	real German compound	agreed	38029
+IT-Security	drop	English compound, not established; German is IT-Sicherheit	agreed	38039
+KGaA	drop	specialist legal-form acronym, unlike the everyday GmbH	adjudicated	38042
+Margret	drop	first name	agreed	38048
+Midnight	drop	English word, in titles	agreed	38049
+Painting	drop	English word, not established in German	agreed	38052
+Partnership	drop	English word, not established in German	agreed	38053
+Push-Benachrichtigungen	merge:Push-Benachrichtigung	plural filed as lemma	agreed	38056
+RTX	drop	product acronym	agreed	38057
+Rangnick	drop	surname	agreed	38059
+Richard Wagner	drop	historical person	agreed	38060
+Rimini	drop	Italian city, not on the places list	agreed	38061
+Schloss-Symbol	keep	real German compound	agreed	38062
+Slide	drop	English word, here a game name	agreed	38065
+Sticky	drop	English word, not established in German	agreed	38069
+VT	drop	abbreviation	agreed	38073
+Victory	drop	English word, only in names	agreed	38074
+WLAN-Verbindung	keep	real compound	agreed	38076
+relational	keep	real German adjective (relationale Datenbank)	agreed	38086
+Amazing	drop	English word, brand name	agreed	38095
+Collect	drop	English, only in "Click & Collect"	agreed	38100
+Gaia	drop	name	agreed	38107
+IAB	drop	organisation acronym	agreed	38110
+Ist-Zustand	keep	real compound	agreed	38111
+Jill	drop	first name	agreed	38112
+Meschede	drop	minor town	agreed	38120
+Miltenberg	drop	minor town	agreed	38121
+OGS	drop	minor acronym	agreed	38123
+SBS	drop	organisation acronym	agreed	38127
+Thule	drop	mythic place name, not on the list	agreed	38131
+Vivian	drop	first name	agreed	38136
+WEITERLESEN	drop	template "read more" text with low diversity	adjudicated	38137
+Zi	drop	two-letter fragment	agreed	38142
+Böttcher	drop	surname	agreed	38162
+Concert	drop	English word, not established	agreed	38163
+DECT	drop	technical acronym	adjudicated	38164
+Eislaufen	keep	nominalised noun in its own right (das Eislaufen), like Essen	adjudicated	38169
+Fear	drop	English word, not established	agreed	38171
+Greiz	drop	minor town	agreed	38177
+Infineon	drop	company	agreed	38178
+Kane	drop	name	agreed	38181
+Rupp	drop	surname	agreed	38191
+Skull	drop	English word, not established	agreed	38198
+Skywalker	drop	fictional name	agreed	38199
+Sopran	keep	common noun	agreed	38200
+Springfield	drop	foreign place name, not on the list	agreed	38203
+call	drop	English word, not established	agreed	38214
+schwarz-rot	keep	real German compound adjective	agreed	38219
+sechsmonatig	keep	real adjective, lemma form is correct	agreed	38220
+Abklingzeit	keep	real German compound	agreed	38226
+AntifaschistInnen	merge:Antifaschistin	gendered plural; the base is Antifaschistin, consistent with KundInnen	adjudicated	38227
+BMZ	drop	ministry acronym, not at the level of the named famous institutions; also has another meaning	adjudicated	38229
+Berta	drop	first name	agreed	38233
+Elephant	drop	English spelling, mostly in a proper name	agreed	38238
+Geodat	merge:Geodaten	cut-off citation of Geodaten	agreed	38242
+HSK	drop	minor acronym	agreed	38243
+Hennig	drop	surname	agreed	38245
+Homburger	drop	place-derived name	agreed	38247
+Imagination	keep	real German noun	agreed	38248
+Katherine	drop	first name	agreed	38250
+Klaus-Peter	drop	first name	agreed	38252
+Klickrat	merge:Klickrate	cut-off lemma	agreed	38253
+LOVE	drop	English word, name usage	agreed	38255
+Mahagoni	keep	common noun mistagged as a name	agreed	38259
+Marienberg	drop	minor town	agreed	38261
+Niersbach	drop	surname	agreed	38263
+Radiator	keep	established German word	agreed	38266
+Rank	drop	English use, not an established German word	agreed	38267
+Seiler	drop	surname in the examples	agreed	38269
+Spiegelunge	merge:Spiegelung	cut-off lemma	agreed	38274
+Standortdat	merge:Standortdaten	cut-off lemma	agreed	38275
+Studies	drop	English word	agreed	38276
+Thomson	drop	surname/brand	agreed	38278
+Wessel	drop	surname	agreed	38283
+Ahrensburg	drop	minor town	agreed	38303
+Asics	drop	brand	agreed	38306
+Brink	drop	surname/brand	agreed	38309
+CDI	drop	car-engine brand label	agreed	38312
+DHCP	drop	technical acronym	agreed	38314
+David Cameron	drop	person	agreed	38315
+Dörrautomat	keep	real compound noun	agreed	38316
+Fever	drop	English word in a game title	agreed	38320
+Heiligenhaus	drop	minor town	agreed	38326
+Late	drop	English word	agreed	38330
+Lovoo	drop	brand	agreed	38332
+Mischa	drop	first name	agreed	38335
+OpenStreetMap	drop	website/brand	agreed	38337
+Pancakes	merge:Pancake	plural of an established loan	agreed	38338
+Pendelleucht	merge:Pendelleuchte	cut-off lemma	agreed	38340
+PowerShell	drop	product	agreed	38343
+Reagan	drop	person	agreed	38344
+Tilo	drop	first name	agreed	38351
+Amboss	keep	common noun (anvil), tagger error	agreed	38368
+BOS	drop	minor acronym/name	agreed	38369
+Branch	drop	English word not established in German	agreed	38375
+Brustwarz	merge:Brustwarze	cut-off citation of Brustwarze	agreed	38376
+Charger	drop	English word or brand/team name	agreed	38377
+EGMR	keep	nationally known court, referred to by its acronym	agreed	38379
+EU-Datenschutzgrundverordnung	keep	real German compound	agreed	38380
+IDS	drop	specialist institute acronym	agreed	38394
+ITS	drop	English "its" or minor acronym	agreed	38395
+Milliardenhöhe	keep	common noun	agreed	38401
+OER	drop	specialist acronym, low diversity	agreed	38402
+Sen	drop	name/fragment	agreed	38411
+Soden	drop	minor place name	agreed	38413
+Strasbourg	drop	foreign city not on the place list	agreed	38415
+Thrones	drop	part of a title	agreed	38419
+Tucholsky	drop	surname of a historical figure	agreed	38424
+VDA	drop	trade association acronym	agreed	38425
+ZGB	drop	specialist legal abbreviation	agreed	38435
+portabl	merge:portabel	cut-off citation of portabel	agreed	38444
+AFC	drop	sports club	agreed	38450
+Andernach	drop	town	agreed	38453
+Audio-CD	keep	real hyphenated compound	agreed	38456
+Baier	drop	surname	agreed	38458
+Domingo	drop	name	agreed	38466
+Fairy	drop	English word or brand	agreed	38470
+Fanny	drop	first name	agreed	38471
+Gravity	drop	film title	agreed	38476
+Hitchcock	drop	surname of a cultural figure	agreed	38478
+January	drop	English word	agreed	38481
+Luka	drop	first name	agreed	38484
+M-V	drop	abbreviation for a federal state	agreed	38485
+Merchandising	keep	established loan, common noun	agreed	38487
+Nebelscheinwerfer	keep	common noun	agreed	38491
+Ostfildern	drop	town	agreed	38493
+Pace	drop	English word not established in German	agreed	38494
+Pressing	keep	established football loan	agreed	38499
+Shabby	drop	English word, not established	agreed	38504
+Stillkissen	keep	real German noun	agreed	38508
+Tasting	keep	established loan in wine and food contexts	agreed	38510
+AVG	drop	Austrian law abbreviation / antivirus brand, a name	agreed	38536
+Based	drop	English word, not established in German	agreed	38540
+Casper	drop	personal name	agreed	38544
+Chianti	keep	common noun (wine), mistagged as a name	agreed	38545
+EFH	drop	abbreviation of Einfamilienhaus	agreed	38548
+Engelbert	drop	first name	agreed	38549
+Hämatom	keep	ordinary medical noun	agreed	38555
+IT-Services	merge:IT-Service	plural of the German compound IT-Service, built on the established loan Service	adjudicated	38556
+Internet-Zugang	keep	real German compound	agreed	38557
+Karlsbad	drop	town not on the place list	agreed	38559
+Kenny	drop	personal name	agreed	38560
+Kolb	drop	surname	agreed	38561
+Mask	drop	English word, not established	agreed	38565
+NOW	drop	English word / name	agreed	38568
+OE	drop	two-letter fragment	agreed	38569
+Olympic	drop	English word / brand name	agreed	38570
+Turkish	drop	English word, not established	agreed	38580
+Wandsbek	drop	district name	agreed	38581
+XPS	drop	product name	agreed	38583
+after	drop	English word, not established	agreed	38585
+AVB	drop	insurance-terms abbreviation	agreed	38603
+Appliance	drop	English IT jargon, not established	agreed	38606
+BIZ	drop	abbreviation / website name	agreed	38608
+Barrow	drop	street name in an address	agreed	38610
+Cannstatt	drop	district name	agreed	38613
+DirectX	drop	product/brand name	agreed	38616
+Drums	drop	English word, not established	agreed	38619
+Eddy	drop	personal name	agreed	38620
+Frühschoppe	merge:Frühschoppen	clipped citation form of Frühschoppen	agreed	38624
+Monti	drop	surname	agreed	38634
+Müntefering	drop	politician's surname	agreed	38636
+Sheet	drop	English word, not established	agreed	38647
+Soros	drop	surname	agreed	38648
+Speech	drop	English word, not established	agreed	38649
+Therese	drop	first name	agreed	38656
+Unterabsatz	keep	real German noun, legal-text vocabulary	agreed	38658
+Wissenschafts-Bahn	drop	splitter junk from a truncated compound	agreed	38665
+release	drop	lower-case and tagged ADJ with no examples, so mostly English text rather than the noun das Release	adjudicated	38674
+Anneliese	drop	first name	agreed	38688
+Audition	drop	English word, not established in German	agreed	38689
+Automatic	drop	English word not established in German; product and name usage	agreed	38691
+Blau-Weiß	keep	nominalised colour compound ("in Blau-Weiß"), like das Blau	adjudicated	38694
+Cyberpunk	drop	mostly the game title, name-like	agreed	38697
+Hauke	drop	first name	agreed	38703
+Magna	drop	part of the name Magna Graecia	agreed	38707
+PSI	drop	institute and bus-stop name, acronym	agreed	38715
+Witte	drop	surname	agreed	38732
+Aristotele	drop	historical figure's name (cut-off lemma)	agreed	38752
+Avengers	drop	film and brand name	agreed	38753
+BVA	drop	organisation acronym	agreed	38754
+Backgammon	keep	common noun for a game	agreed	38755
+Bob Dylan	drop	person	agreed	38759
+Borneo	drop	place name not on the learnable list	agreed	38760
+CLA	drop	technical acronym	agreed	38761
+CMD	drop	technical acronym	agreed	38762
+Canadian	drop	English word, name usage	agreed	38763
+Cuisine	drop	English/French word in brand names	agreed	38764
+DBV	drop	minor organisation acronym	agreed	38765
+Filip	drop	first name	agreed	38768
+Funktions-Bahn	drop	splitter junk from "Funktions-"	agreed	38769
+Hecking	drop	surname	agreed	38773
+IDW	drop	organisation acronym	agreed	38777
+Initial	keep	German word (initial, Initiale)	agreed	38779
+Murnau	drop	town	agreed	38786
+Netzwerktechnik	keep	ordinary German compound noun	agreed	38787
+Peach	drop	game character name	agreed	38790
+Recklinghaus	drop	town name, cut-off lemma	agreed	38792
+Ries	drop	mostly a surname or the place Nördlinger Ries; the paper unit is too rare to matter	adjudicated	38793
+Simply	drop	English word, brand name	agreed	38796
+Teak	keep	common noun for a wood	agreed	38798
+Wei	drop	name	agreed	38803
+Zeitgrund	keep	real noun, used in "aus Zeitgründen"	agreed	38804
+spid	drop	broken lemma for English "spider"	agreed	38817
+Altötting	drop	town	agreed	38819
+Heidrun	drop	first name	agreed	38834
+Mainstream-Medium	keep	real compound, established loan (Mainstream-Medien)	agreed	38842
+Massa	drop	surname	agreed	38843
+Noel	drop	first name	agreed	38848
+Oleg	drop	first name	agreed	38849
+Phi	drop	Greek letter, name-like usage, no examples	agreed	38850
+Tetra	drop	brand name (aquarium products)	agreed	38860
+Bandai	drop	company name	agreed	38890
+CE-Kennzeichnung	keep	real German compound	agreed	38891
+GPR	drop	technical acronym, few documents	agreed	38897
+HT	drop	two-letter acronym/name	agreed	38899
+Habitat	keep	established German noun	agreed	38900
+Heiligendamm	drop	minor place name	agreed	38902
+Hermin	drop	first name (Hermine)	agreed	38903
+Kentucky	drop	place name not on the learnable list	agreed	38905
+Kondenswasser	keep	ordinary common noun	agreed	38907
+Massimo	drop	first name	agreed	38913
+Monitore	merge:Monitor	plural filed as lemma	agreed	38914
+Ridge	drop	name	agreed	38917
+Rotkäppche	merge:Rotkäppchen	cut-off lemma	agreed	38918
+Titus	drop	first name	agreed	38923
+Wash	drop	English word, not established	agreed	38928
+Westminster	drop	place name not on the learnable list	agreed	38930
+Workspace	drop	English product/tech term, not established	agreed	38931
+fü	merge:für	cut-off of für	agreed	38937
+professional	drop	English word, not established (German: professionell)	agreed	38940
+BAD	merge:Bad	written only as "bad"; the common noun Bad, including the spa-town prefix	adjudicated	38952
+Cayennepfeffer	keep	ordinary common noun	agreed	38956
+DIGITAL	merge:digital	adjective filed under capitals	agreed	38957
+E-Book-Reader	keep	real hyphenated compound	agreed	38959
+E-Scooter	keep	real hyphenated compound	agreed	38960
+Empires	drop	game title, English	agreed	38961
+Flush	drop	English poker term, not established	agreed	38964
+Frontier	drop	English word/brand	agreed	38966
+Johansson	drop	surname	agreed	38968
+Kfz-Steuer#Neut	merge:Kfz-Steuer	lemma has a tagging artifact; real compound	agreed	38970
+LU	drop	two-letter acronym/name	agreed	38972
+Path	drop	English word, not established	agreed	38977
+Selbstbewusstseinstraining	keep	real compound, ordinary noun	agreed	38984
+Siem	drop	name	agreed	38985
+Vorhofflimmer	merge:Vorhofflimmern	clipped lemma	agreed	38993
+WLAN-Router	keep	real hyphenated compound	agreed	38994
+Wiesloch	drop	town name	agreed	38998
+massag	merge:Massage	clipped lemma	agreed	39008
+Überwachungs-Bahn	drop	splitter junk	agreed	39015
+Banks	drop	surname	agreed	39016
+CX	drop	marketing acronym, specialist use	agreed	39023
+Diebstahls	merge:Diebstahl	genitive form of Diebstahl	agreed	39024
+Dmitri	drop	first name	agreed	39025
+Doug	drop	first name	agreed	39026
+Fußball-Europameisterschaft	keep	real German compound	agreed	39027
+Geröll	keep	ordinary common noun	agreed	39030
+Hofburg	drop	named Vienna palace, a place name not on the list	adjudicated	39032
+KA	drop	abbreviation or name fragment	agreed	39034
+Lindsay	drop	first name	agreed	39036
+Michail	drop	first name	agreed	39037
+Oakley	drop	brand	agreed	39039
+Tunis	drop	foreign city not on the place list	agreed	39054
+Wittgenstein	drop	surname of a historical figure	agreed	39058
+Wulf	drop	first name	agreed	39059
+dead	drop	English word not established in German	agreed	39061
+future	drop	English word not established in German	agreed	39063
+Attersee	drop	minor place name (lake and village)	agreed	39080
+Barbado	merge:Barbados	clipped citation of the country name; countries are learnable	adjudicated	39083
+Bentheim	drop	minor place name	agreed	39086
+Biermann	drop	surname	agreed	39088
+Brighton	drop	foreign city not on the place list	agreed	39089
+Corona-Verordnung	keep	real German compound	agreed	39091
+Fatih	drop	first name	agreed	39098
+Fricke	drop	surname	agreed	39100
+Hohenheim	drop	district and university name	agreed	39103
+Kati	drop	first name	agreed	39105
+LWL	drop	minor regional organisation	agreed	39106
+Malereie	merge:Malerei	clipped plural, text has Malereien	agreed	39109
+Reck	keep	common noun (gymnastics apparatus)	agreed	39117
+U-Haft	keep	real German compound	agreed	39120
+Utopia	keep	common noun	agreed	39122
+Woraus	merge:woraus	adverb filed under a capitalised lemma	agreed	39126
+XXXL	drop	size and brand text	agreed	39128
+Yukon	drop	minor river and territory name	agreed	39129
+Ziernäht	merge:Ziernaht	clipped plural, text has Ziernähte	agreed	39131
+Assa	drop	name	agreed	39155
+Beam	drop	English word and name, not established	agreed	39158
+Cave	drop	English word and name (Nick Cave), not established	agreed	39162
+Drittländer	merge:Drittland	noun filed under its plural	agreed	39163
+Friedman	drop	surname	agreed	39167
+GU	drop	two-letter name/fragment	agreed	39169
+Hain	drop	surname	agreed	39172
+Lucie	drop	first name	agreed	39182
+Marty	drop	first name	agreed	39183
+Mina	drop	first name	agreed	39185
+Neudorf	drop	minor village name	agreed	39188
+Payments	drop	English, brand use (Amazon Payments)	agreed	39191
+Presley	drop	person name	agreed	39192
+Prof	drop	abbreviation/title	agreed	39193
+SPSS	drop	specialist software brand	agreed	39199
+Spiritus	keep	common noun (Spiritus, alcohol/spirit)	agreed	39203
+Themenübersicht	keep	real German compound noun	agreed	39205
+VDH	drop	minor organisation acronym	agreed	39207
+koronar	keep	real medical adjective, lemma form valid	agreed	39216
+B-Jugend	keep	real German compound (youth team category)	agreed	39225
+BMW Group	drop	company name	agreed	39226
+BPA-frei	keep	real compound adjective	agreed	39227
+Bally	drop	brand/company	agreed	39228
+Bankkaufmann	keep	common noun mistagged as name	agreed	39229
+Barroso	drop	person name	agreed	39230
+Cadillac	drop	brand	agreed	39231
+Castello	drop	place/name, not learnable	agreed	39232
+Environmental	drop	English, not established	agreed	39240
+FOX	drop	brand/company	agreed	39243
+Gamble	drop	surname/English	agreed	39244
+Imaging	drop	English, company name use	agreed	39253
+Kaya	drop	first name/surname	agreed	39254
+Kiewer	keep	city-derived adjective and inhabitant noun, a word distinct from Kiew	adjudicated	39255
+Lombardi	drop	surname	agreed	39259
+Nanny	keep	established loan, common noun	agreed	39262
+Norwegian	drop	English word, not German form	agreed	39263
+PLM	drop	technical acronym	agreed	39264
+RLP	drop	abbreviation of region	agreed	39265
+Said	drop	name/English word	agreed	39269
+Schweizerinn	merge:Schweizerin	misspelt citation of Schweizerin	agreed	39270
+Schönebeck	drop	town name	agreed	39271
+Stumpf	keep	real German word (stumpf/Stumpf), not a name here	agreed	39274
+Subway	drop	brand	agreed	39275
+Wohnungseigentümergemeinschaft	keep	real long German compound	agreed	39281
+XR	drop	two-letter technical acronym	agreed	39282
+Audience	drop	English word not established in German; marketing jargon, name-like usage	agreed	39299
+BFD	drop	Minor organisation acronym (Bundesfreiwilligendienst-type job text), not a word learners need	agreed	39302
+Christophe	drop	First name, person name	agreed	39306

@@ -1,0 +1,158 @@
+# question AfD-Fraktion: same as CSU-Bundestagsfraktion
+# question Amman: not clearly on the reviewed place list; kept as a well-known capital
+# question Antennenelement: only 2 documents, so possibly patent/spam text, but kept as a real compound
+# question Antennenelement: only 2 documents, so possibly template text; kept as a real compound.
+# question Atembeschwerde: kept as a singular noun that occurs almost only in the plural; the citation flag may still call for a different treatment.
+# question Atembeschwerde: written almost only as the plural; I treated it as a plural-only noun (keep), but merging into the singular is also defensible.
+# question Auskühl: examples show the nominalised verb (das Auskühlen); I merged to the verb auskühlen, but Auskühlen as a noun is also possible
+# question BBL: Basketball Bundesliga could count as a nationally known body like Bundesliga; dropped as an unclear acronym with no examples
+# question BBL: Basketball Bundesliga; dropped as a sports league acronym, though Bundesliga itself is kept
+# question BDI: not on the named-institution list; kept as a nationally famous body
+# question BDI: treated as a nationally famous institution (Bundesverband der Deutschen Industrie), not a minor organisation
+# question BMAS: ministry acronym could count as a nationally famous institution; dropped as minor
+# question BMAS: ministry acronym, unclear whether it counts as a nationally famous institution or a minor body
+# question BMU: federal ministry acronym; unclear whether it counts as a nationally famous institution (dropped as specialist acronym)
+# question BRK: Bavarian Red Cross is regional, but similar to the DRK; unclear whether it counts as nationally famous.
+# question BRK: Bayerisches Rotes Kreuz is a regional body, so I dropped it as a minor organisation. If regional emergency organisations count as nationally famous, it should be keep.
+# question Backlinks: SEO jargon that may be specialist-only, but it is a common web loan, so I merged it to the singular rather than dropping it.
+# question Backlinks: SEO jargon that may count as a technical term; I merged it to Backlink under the plural rule.
+# question Basel-Landschaft: a Swiss canton might count as a major region, but it was not on the reviewed list, so I dropped it
+# question Basel-Landschaft: canton may not count as a major region; kept as a Swiss canton
+# question Beanie: kept as an established loan; the English-speaking-learner test is borderline.
+# question Beats: tagged as a brand name, but the examples are the common noun for music beats; I chose merge:Beat.
+# question Bethel: well-known institution in Bielefeld, but not on the listed nationally famous institutions; dropped
+# question BfR: a federal institute, not clearly among the named national institutions; kept as nationally known
+# question Bindegeweb: target Bindegewebe vs the singular form Bindegewebe; chose Bindegewebe as the normal dictionary form
+# question Bindegeweb: the correct lemma is Bindegewebe or the singular Bindegewebe; I used Bindegewebe, as that is the German dictionary form (neuter noun, same singular).
+# question Boko Haram: I treated it as a nationally known organisation like Hamas; the rules do not list it.
+# question Boko Haram: kept as a famous organisation on the Hamas model; the rules do not mention terror groups explicitly (Al-Kaida likewise).
+# question Bolschewiki: plural of Bolschewik; I merged it, but it could also be kept as a plural with its own meaning for the historical group
+# question Brasil: the merge target Brasilien assumes that country is on the reviewed place list
+# question Buschmann: the plural Buschmänner is a common noun for some readers, but the word is overwhelmingly a surname here, so I dropped it
+# question Butt: German flatfish word, but the sample has no examples and the forms may be English "butt", so I kept it on the German reading.
+# question COVID: tagged as proper noun but used as an ordinary word; kept as established vocabulary.
+# question CSU-Bundestagsfraktion: a party's parliamentary group is not explicitly covered by the institution rulings; kept by analogy with Bundestag and the parties
+# question Chorus: used in German music contexts but close to English; I kept it
+# question Clearing: a finance term used in German but specialist and low-frequency in German usage; I decided drop.
+# question Corvette: the ship type is a common noun, but the examples are almost all the car. I dropped it.
+# question Couture: tagged as a name, mostly in brand contexts, but the word is an ordinary loan; kept.
+# question Cricket: English-origin sport word; kept as an established term for the sport, but it is borderline under the foreign rule.
+# question DAK: a health insurer is a company, but also a nationally known statutory body; kept as a famous institution.
+# question DAK: nationally known health insurer; treated as a company, but it could count as a famous institution like KfW.
+# question DFB-Elf: nickname of a nationally famous team; treated as a real compound, but could count as a sports-club/team name
+# question Destatis: not on the named list of institutions, but it is the common short name of the Statistisches Bundesamt; decided keep
+# question Destatis: the short name of the Statistisches Bundesamt; kept as a nationally known body, but it is not named in the rulings
+# question Eichhorn: also an old variant of Eichhörnchen, but the evidence is surnames; dropped.
+# question Einatm: examples are nominalised (Einatmen); merged to the verb einatmen, but Einatmen as a noun would also be defensible.
+# question Einatm: examples use the nominalised "Einatmen"; merged to the verb einatmen, which may be better kept as the noun Einatmen.
+# question Erzherzog: a title, but a common noun for a historical rank; kept, not treated as a name
+# question Erzherzog: rules say titles drop, but this is a common noun for a historical rank; kept.
+# question Everest: a famous mountain rather than a town or river, but not on the list, so dropped
+# question FAO: an international UN agency, not strictly a national institution; kept as comparable to UNO/NATO
+# question FAO: international UN body rather than a national institution; kept as comparable to UNO
+# question Fickt: vulgar verb; merged to ficken as a real German word
+# question Fitting: could be a real term in German plumbing and bike trades, but it reads as an English loan not widely established; dropped
+# question Flander: Flandern is a region but not confirmed as on the reviewed places list; merged to the region name
+# question Flander: Flandern is a region, not on the stated reviewed list as far as visible; merged assuming it is learnable as a major region.
+# question Fromm: all the examples are surnames, but the flag shows some adjective use (fromm), so I merged it. It would be a drop if the adjective is already on the list.
+# question Fromm: could be the adjective fromm, but all examples are surnames. Dropped.
+# question Fußminute: only the plural is attested; the lemma itself is correct, so kept
+# question G-BA: Gemeinsamer Bundesausschuss is a national health-care body, but it is not clearly a nationally famous institution like Bundestag or ARD, so I dropped it.
+# question G-BA: Health-sector institution that is nationally significant but known mainly to specialists; I dropped it, though it could count as a nationally famous institution.
+# question GEBRAUCHSINFORMATION: diversity flag suggests template text, but the word itself is real; merged to the normal noun
+# question Gliederschmerz: rule says plural-only nouns stay keep, but the lemma spelling is clipped; merged into the plural form Gliederschmerzen
+# question Gliederschmerz: the word is normally used in the plural (Gliederschmerzen), so the target could be either a plural-only keep or the singular Gliederschmerz
+# question Golf von Mexiko: a major gulf, but the rule says any place name still in the batch is dropped
+# question HWK: Handwerkskammer abbreviation, could count as an institution or an abbreviation; decided drop
+# question Haifa: well-known foreign city, but rules say any place name still in batch is dropped
+# question Heinrich-Böll-Stiftung: a party-affiliated foundation could count as a nationally famous institution, but the rules list no such case; decided drop
+# question Heinrich-Böll-Stiftung: a well-known political foundation, but it is not on the named-institution list; dropped as a minor organisation
+# question Herkules: Hercules could be a mythological common-ish name; treated as a name per rules
+# question Hint: the forms are mixed (hinten 210, hint 95, hints 29); merged to hinten as the majority, though the English "hint" cases would drop
+# question Hint: written forms are mostly "hinten" (German) with some English "hint(s)", so the lemma is mixed
+# question IKK: nationally known health-insurer group; I treated it as a brand/organisation and dropped it
+# question IKK: well-known health insurer group; unclear if it counts as a nationally famous institution
+# question IMMOBILIEN: uppercase plural of Immobilie; could also be a brand/site name in spam text, but merged as a plural noun
+# question Interfaces: merged into Interface as an established IT loan; drop if the developer considers it too technical
+# question KL: ambiguous abbreviation (Kilolitre/Kuala Lumpur etc.), dropped as non-word
+# question Kanban: a management method with a Japanese name, treated as a common noun rather than a brand.
+# question Kanban: a proper-noun-tagged method name; kept as an established business term, unclear if it counts as a common noun.
+# question Kollektivprokura: real legal term, but the flagged low diversity points to register template text; dropped
+# question Levante: also a common noun (eastern Mediterranean region); no examples, dropped as a place name not on the list.
+# question Levante: could count as a major region (the Levant), but no example shows that sense
+# question Logfiles: kept as established IT loan but lemma is plural; could merge to Logfile, which was not offered as target
+# question Luzifer: a mythological/religious figure rather than person or common noun; kept as ordinary word
+# question Luzifer: name vs. common noun; kept as a widely known figure used like a common noun, though the rules list only names to drop
+# question Mamma: mostly "Mamma Mia" in the examples; kept as a common noun (anatomical and colloquial)
+# question Marktdat: "Marktdaten" is effectively plural-only, so I merged into the plural
+# question Mat: written forms mat/mates/mate could hint at Mate (the drink) or matt; unclear, dropped as a name/fragment
+# question Matching: "Pattern Matching" appears in English-leaning IT contexts; unclear whether it counts as established in German.
+# question Matching: established business and tech loan, or specialist English? I dropped it.
+# question Mokka: no examples given; kept assuming the coffee sense
+# question Monet: 32 occurrences are "Moneten" (slang for money), but the lemma is mostly the painter; dropped.
+# question Mop: forms are mostly "mops" (dog breed), but "Mop" (cleaning tool) is also a word; merged to Mops on the evidence.
+# question Mustermann: a placeholder name known to every German, but the rules drop personal names, so I dropped it.
+# question Mustermann: placeholder surname known to all German speakers; dropped as a person name.
+# question Order: forms "orders" (274) look mostly English, but Order/Ordern is also a real German word; kept.
+# question Order: forms are mostly English "orders", but "ordern" (German verb, 65) is present; dropped the lemma, though merge:ordern could also fit.
+# question PETA: an international organisation rather than a German national institution; kept by analogy with Greenpeace.
+# question PETA: an international organisation, not strictly national; kept by analogy with Greenpeace
+# question POLO: no examples shown; assumed common noun (Polo shirt/sport) given 3.8% common-noun-like usage
+# question Paralympics: event name rather than an institution; kept as a well-known common event word.
+# question Paralympics: rules cover famous institutions, not events; kept as an ordinary plural-only noun
+# question Pjöngjang: Korea was added but the capital was not named; dropped as a foreign city, though a learner might want it.
+# question Preuß: surname vs. Preuße (nationality-like, 10 occurrences); dropped as mostly a surname
+# question Produktdat: the plural Produktdaten has no natural singular (Produktdatum is rare), so I merged to the plural
+# question Renovierungsarbeite: Renovierungsarbeiten is a plural-only-like noun; singular Renovierungsarbeit is rare, merged to it per plural rule
+# question Renovierungsarbeite: the singular Renovierungsarbeit is rare; the word is mostly plural, so Renovierungsarbeiten (plural-only usage) could be the better target.
+# question Russ: could be a Swiss spelling of Ruß (soot), but the tagger saw a name and no examples are available.
+# question Russ: could be the Swiss spelling of Ruß, but no examples are available; dropped as a name
+# question Sakura: also a common noun for Japanese cherry blossom, but the sample is mostly names and brands
+# question Sakura: used as a common loanword (cherry blossom) in some contexts; dropped as mostly names.
+# question San Marino: it is a country, but it is still in the batch, so the rule says drop; it may have been missed by the reviewed list
+# question Schengen: a place name that is also the well-known agreement (Schengen-Raum); dropped as a place name, but may deserve a ruling
+# question Schengen: a village name, but also the well-known agreement; dropped because it is not on the place list.
+# question Sexpuppe: real word, but the examples look like spam text; kept
+# question Sparkassen-Finanzgruppe: could count as a nationally famous institution, but I read it as a company/organisation name and dropped it
+# question Sparkassen-Finanzgruppe: hyphenated compound, but it names a specific financial group, so dropped as a company/organisation; it could count as nationally famous.
+# question Spid#Neut: written as spider (noun, Spider as car type); merged to Spider with capital
+# question Sumatra: island, not a country or major region listed; dropped, though well known.
+# question Süditalien: a major region, but not on the reviewed list, so dropped under the "any place name you still see" rule
+# question Süditalien: region name, but rule says any place name still in batch drops
+# question Themse: a major river, but the rules say any place name still in the batch is not on the reviewed list, so I dropped it
+# question Themse: major river and well known, but it is not on the reviewed place list, so dropped per the rule.
+# question Transmission: German technical word, but the examples are mostly English. I kept it.
+# question Transmission: examples look technical or English-leaning, but Transmission is a recognised German noun, so I kept it.
+# question VAE: a country acronym like USA/EU, but countries were already removed to the reviewed list and it is still here, so I dropped it
+# question VAE: place-like acronym not on the place list; kept by analogy with USA
+# question Wdr: the lemma is written with lowercase letters "Wdr"; kept as the institution WDR, but the correct form may be "WDR".
+# question West-Berlin: a historically well-known name, but not on the developer's added list, so I dropped it under the place-name rule.
+# question Wunderlich: all examples are the surname, but the inflected forms (wunderliches, wunderlichen) suggest the adjective; merged on that basis.
+# question Wunderlich: surname in the examples, but the forms wunderliches/wunderlichen are the adjective; merged into wunderlich by the case rule.
+# question YPG: Kurdish militia often in news; treated as minor organisation, not in the famous list (Hamas-like?)
+# question ZOB: abbreviation or acronym used as an ordinary word? Kept as the latter.
+# question ZOB: it is an abbreviation (Zentraler Omnibusbahnhof), but it is used as an ordinary word and not a brand, so I kept it. Please confirm it is not meant to be excluded as an abbreviation.
+# question Zander: also a real fish (Zander), but all examples are the surname; dropped on the usage evidence.
+# question Zander: also the fish (Zander), but the examples are surnames and 0.0 % common-noun use; dropped.
+# question Zimbabwe: a place name not on the list, but a variant spelling of the country Simbabwe, so I merged it instead of dropping.
+# question ebendies: ebendiese/ebendieser/ebendiesen are forms of the determiner ebendieser; I assumed that as the dictionary form, but ebendieser may be too rare or specialised for a learner list (drop would be the alternative).
+# question ju: "ju" (289) and "juden" (45) are mixed, so I dropped it on the majority form
+# question ju: "juden" (45) would belong to Jude, but the lemma is mostly the abbreviation JU; dropped
+# question match: English "Match" is used in German sports contexts, but there are no examples and the lemma is lower-case with mixed noun and verb forms; I dropped it, so keep or merge:Match could also fit.
+# question match: tagged ADV, with forms matches/matchen/matche; could be German matchen (verb) or noun Match, so I dropped it because most hits look like English text
+# question nachreden: lemma also covers the verb nachreden (nachgeredet, nachzureden), but nearly all uses are the noun Nachrede, so merged to the noun
+# question nachreden: lemma is a verb but 350 of 370 occurrences are the noun Nachrede; merged to the noun, though the verb forms (nachgeredet, nachredet) would then be lost
+# question nahend: participle form of nahen, but it may also stand as its own adjective; decided merge:nahen
+# question nächsthoch: the dictionary form is unclear (nächsthöher as comparative, or nächsthoch); I merged to nächsthöher, the most frequent bare form
+# question nürnberg: a well-known city, but it was not taken out of the batch, so I dropped it
+# question review: English but common in German web text; kept as an established loan
+# question review: is "Review" established enough in German to keep? I merged it into Review on the assumption that it is.
+# question rigid: merged into the dictionary form rigide despite the foreign flag, since it is a real German adjective.
+# question timelin: Timeline is an established loan in social-media German but may still count as English.
+# question untergehend: participle with its own adjective use in the phrase "untergehende Sonne"; kept as dictionary-form adjective though the verb untergehen is the alternative
+# question DAK: are nationwide health insurers (AOK, TK, DAK, Barmer) nationally famous institutions like Telekom, or companies to drop?
+# question Destatis: is the Statistical Office learnable under its brand name "Destatis", or only as Statistisches Bundesamt?
+# question Mop: one lemma mixes Mops (dog) with Mop/Mopp (cleaning); should the "mop" forms be split off and merged to Mopp?
+# question PETA: is PETA a nationally famous institution (keep) or a minor organisation (drop)? It is not in the developer's list of rulings; decided keep by analogy with Greenpeace and NABU.
+# question Zimbabwe, Brasil: when a foreign or variant spelling of a learnable country (Simbabwe, Brasilien) appears in the batch, should it drop under the places rule (as decided here) or merge into the country's German spelling on the places list?
+# question pending-names: the answer format allows this decision, but the rules do not define it; when should it be used instead of drop?
