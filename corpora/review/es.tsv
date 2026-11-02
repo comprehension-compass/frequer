@@ -12847,3 +12847,765 @@ mvrdv	drop	company
 myqnapcloud	drop	brand
 # rulings 2026-11-02 (developer): split loans, hala, interjections
 hala	keep	¡hala!, interjection: its own entry (developer ruling 2026-11-02)
+# round 10 (2026-11-02): flagged lemmas pulled into the 30k by the place-name and number drops; places now drop
+jersey	keep	common word
+belén	keep	common word (nativity scene)
+caimán	keep	animal
+anguila	keep	animal
+scatters	drop	English slot term
+scramble	drop	English
+screencast	drop	specialist English
+segorbe	drop	place
+senasa	drop	agency acronym
+senseo	drop	brand
+sh-awd	drop	code
+shave	drop	English
+shifter	drop	English
+shiny	drop	English
+shuriken	keep	the word Spanish uses for the ninja throwing star; the first example is an ordinary common-noun use
+sib	drop	code
+siele	drop	exam brand
+sikh	merge:sij	Spanish spelling
+smv	drop	code
+socials	drop	English
+socio-ambiental	merge:socioambiental	hyphen
+sow	drop	acronym
+spal	drop	club
+sre	drop	acronym
+standar	merge:estándar	misspelling
+sto	drop	fragment
+strapless	drop	English fashion
+stretching	keep	gym loan
+studer	drop	brand
+studs	drop	English
+stylish	drop	English
+super-precio	drop	all occurrences are one repeated Agoda boilerplate line; web artefact
+supernatural	drop	English
+surgical	drop	English
+swamp	drop	English
+swipe	drop	English
+sz	drop	code
+szl	drop	code
+t-shirts	drop	English
+teens	drop	English
+tef	drop	code
+tei	drop	code
+teriyaki	keep	established food word
+tesa	drop	brand
+tgb	drop	brand
+tla	drop	code
+tme	drop	code
+topping	drop	English
+transponder	drop	English
+traver	drop	fragment/name
+treehouse	drop	English
+triathlon	merge:triatlón	English spelling
+triple-s	drop	code
+truss	drop	English
+ttf	drop	file ext
+ttk	drop	brand
+twitcasting	drop	website
+typ	drop	code
+uce	drop	code
+ucp	drop	code
+ueni	drop	brand
+ufcw	drop	union
+ugly	drop	English
+unter	drop	German
+uv-c	drop	technical
+varroa	keep	bee mite
+vdr	drop	code
+vein	drop	English
+verita	drop	Latin/name
+vistahermosa	drop	place/clinic
+vitis	drop	Latin genus
+vmc	drop	code
+vxi	drop	code
+waka	drop	name
+wf	drop	code
+willi	drop	name
+wod	drop	jargon
+xxxxx	drop	placeholder
+yerbabuena	keep	herb
+zal	drop	code
+zapper	drop	English
+a-gps	drop	technical
+aat	drop	code
+abap	drop	technical
+abm	drop	code
+accessible	drop	English
+aceituno	keep	olive tree
+adas	drop	technical
+administrative	drop	English
+aecc	drop	private charity association, an ordinary organisation, not a public body (same class as asnef)
+ael	drop	typo
+afe	drop	code
+aguilas	drop	occurrences are the town Águilas and the group name "Aguilas Negras"; no common-noun use to merge
+aiesec	drop	organisation
+aila	drop	organisation
+airbrush	drop	English
+alemán-español	drop	dictionary label
+allrounder	drop	brand
+alto-bajo	drop	shape
+ambrosia	keep	common word
+amorgo	drop	island
+andro	drop	place/fragment
+ane	drop	name
+aneca	keep	national public accreditation agency, referred to by name across Spanish higher education
+anni	drop	name
+ansa	drop	specialist technical term (watch lugs, dental clasps) plus ASEAN acronym; learners use asa
+apivita	drop	brand
+apoyarno	merge:apoyar	cut-off form
+approved	drop	English
+arf	drop	acronym
+asnef	drop	private credit-default register run by a trade association; ordinary organisation (already raised as a question)
+atman	drop	Sanskrit
+atol	keep	Central American drink
+auto-evaluación	merge:autoevaluación	hyphen
+auto-servicio	merge:autoservicio	hyphen
+autobúse	merge:autobús	plural fragment
+babes	drop	English
+bark	drop	English
+batey	keep	Caribbean word
+bca	drop	code
+bcb	drop	code
+beans	drop	English
+beuchat	drop	brand
+bfs	drop	code
+bgi	drop	code
+bha	drop	technical
+binzel	drop	brand
+biobanco	keep	real word
+biography	drop	English
+bisuteria	merge:bisutería	missing accent
+bkt	drop	brand
+blaugrana	keep	adjective for Barça
+bleue	drop	French
+blm	drop	code
+bmv	keep	Bolsa Mexicana de Valores
+boheme	drop	French/brand
+bons	drop	place
+bookmarks	drop	English
+breakaway	drop	English
+bric	keep	economics acronym used as an ordinary word in news ("los países del BRIC")
+brill	drop	place/fragment
+brs	drop	code
+bulking	drop	English
+busters	drop	English
+busty	drop	English
+buy-ins	drop	English
+caba	drop	acronym
+cabg	drop	medical code
+cabs	drop	English
+caffeine	drop	English
+cair	drop	code
+can-am	drop	brand
+can-spam	drop	law name
+canotier	keep	RAE word
+caramel	drop	English
+carousel	drop	English
+carpi	drop	place
+cartaya	drop	place
+carving	drop	English
+cati	drop	name
+ccw	drop	code
+chairman	drop	English
+chi-cuadrado	merge:chi cuadrado	hyphenated spelling of the statistics term; ji is the letter's own lemma, so not that
+cial	drop	code
+cixi	drop	place
+cld	drop	code
+clubman	drop	brand
+cmms	drop	technical
+cnmc	keep	national regulator
+cocker	keep	dog breed
+cocopa	drop	commission acronym
+colihue	keep	real Southern Cone common noun (native bamboo); mostly lowercase in running text despite the publisher example
+combined	drop	English
+contraofensivo	merge:contraofensiva	wrong lemma
+cotizaaprenda	drop	brand
+counts	drop	English
+cpv	drop	code
+crn	drop	code
+cross-country	keep	established sport loan; every example is an ordinary use in Spanish
+crv	drop	brand
+ctim	drop	specialist
+ctu	drop	code
+cucina	drop	Italian
+culinaria	merge:culinario	feminine adjective form filed as lemma; all examples are adjectival
+cur	drop	fragment
+cushion	drop	English
+cvm	drop	code
+delp	drop	code
+dendrítico	keep	real adjective
+deniz	drop	name
+depositphoto	drop	brand
+depth	drop	English
+desi	drop	foreign
+dga	drop	code
+dgc	drop	code
+digit	drop	English
+dingbats	drop	English
+directivo-obediente	drop	shape
+disconfor	merge:disconforme	cut-off
+dlo	drop	code
+dls	drop	code
+dreadnought	drop	English
+dy	drop	code
+dándono	merge:dar	conjugated fragment
+désir	drop	name
+ears	drop	English
+efficient	drop	English
+efl	drop	code
+egs	drop	code
+empajadora	keep	farm machine
+epacket	drop	brand
+epd	drop	code
+español-alemán	drop	shape
+estn	drop	typo
+etsam	drop	school acronym
+ews	drop	code
+ex-alumno	merge:exalumno	hyphen
+explicarl	merge:explicar	cut-off
+explicit	drop	English
+expr	drop	code
+fbs	drop	code
+fcd	drop	code
+fdb	drop	code
+fdc	drop	code
+feag	drop	EU fund acronym
+febico	drop	brand
+femp	drop	organisation
+fence	drop	English
+ffc	drop	code
+fgv	drop	company
+fielder	drop	name
+finis	drop	Latin
+fintechs	merge:fintech	plural
+fitoestrógeno	keep	real word
+flexa	drop	brand
+flights	drop	English
+flip-flop	drop	English
+flipper	drop	English
+fls	drop	code
+flyboard	drop	brand
+fmbbva	drop	organisation
+folding	drop	English
+forint	keep	the currency name as Spanish actually writes it; not a broken lemma, so no merge to forinto
+fpi	drop	code
+fpnul	drop	UN force acronym
+francais	drop	French
+franchi	drop	name
+freelang	drop	website
+freeway	drop	English
+fts	drop	code
+fuzzy	drop	English
+garant	drop	brand
+gcm	drop	code
+gfc	drop	code
+gim	drop	code
+glossy	drop	English
+gnd	drop	code
+gnf	drop	code
+grit	drop	English
+guadaira	drop	place
+guadaíra	drop	place
+hamburger	drop	English; examples are a quoted English word and names, not Spanish use for hamburguesa
+hct	drop	code
+hedge	drop	English
+hhsc	drop	agency
+hi-lo	drop	poker term
+homie	drop	English
+hoon	drop	name
+hop-on	drop	English
+hottie	drop	English
+hug	drop	English
+ibdd	drop	code
+icn	drop	airport code
+iel	drop	code
+iem	drop	code
+ika	drop	code
+ila	drop	code
+illustration	drop	English
+ilm	drop	code
+immortal	drop	English
+imu	drop	technical
+incorrect	drop	English
+intellectual	drop	English
+invalid	drop	English
+ipam	drop	code
+ipec	drop	code
+ipg	drop	code
+isea	drop	code
+isk	drop	currency code
+iztapalapa	drop	place
+jaro	drop	name
+jayne	drop	name
+kaifeng	drop	place
+kareem	drop	name
+keen	drop	English
+keri	drop	place
+kes	drop	code
+kickr	drop	brand
+kind	drop	English
+kirtan	drop	Sanskrit
+kmt	drop	code
+kula	drop	place
+labyrinth	drop	English
+lalín	drop	place
+lavadora-secadora	drop	hyphenated compound of two listed words (settled line, round 6)
+lcf	drop	code
+ldm	drop	code
+lep	drop	code
+lineup	drop	English
+livre	drop	French
+lmr	drop	code
+loka	drop	place
+lpl	drop	code
+lpt	drop	code
+lrf	drop	file ext
+lubrication	drop	English
+luma	drop	name
+mape	drop	code
+mapei	drop	brand
+martingala	keep	real word
+masaj	drop	no examples and mostly capitalised; likely Turkish/name, cut-off from masaje not shown
+mascot	drop	English
+matchmaking	drop	English
+matsuri	drop	Japanese
+mav	drop	code
+mch	drop	code
+mdr	drop	code
+medi	drop	fragment
+mencia	drop	name
+mercadolibre	drop	brand
+mht	drop	code
+miniature	drop	English
+miravalles	drop	place
+misc	drop	code
+miwe	drop	brand
+mln	drop	code
+mlpd	drop	party acronym
+mobotix	drop	brand
+mocho	keep	real word
+montage	drop	English
+monástica	merge:monástico	feminine form
+moonstone	drop	English
+msu	drop	code
+msv	drop	code
+msy	drop	airport code
+mu-mimo	drop	technical
+mug	drop	English
+muggl	merge:muggle	cut-off
+multi-capa	merge:multicapa	hyphen
+multi-color	merge:multicolor	hyphen
+muri	drop	place
+naco	keep	Mexican slang
+narón	drop	place
+nella	drop	Italian
+nhc	drop	code
+nip	drop	code
+nitrado	drop	brand
+niu	drop	code
+no-show	drop	English
+nsaid	drop	technical
+nsc	drop	code
+nsp	drop	code
+nupcia	merge:nupcias	plural-only noun
+o-ring	drop	English
+okc	drop	code
+okm	drop	code
+ollie	drop	name
+ones	drop	English
+optimal	merge:óptimo	English spelling used adjectivally in Spanish sentences; óptimo is the adapted word
+orcada	drop	place
+ors	drop	code
+ort	drop	code
+ouija	keep	loan
+oversized	drop	English
+ovp	drop	code
+oxps	drop	file ext
+oyunlari	drop	Turkish
+pachá	keep	real word
+panax	drop	Latin genus
+pancake	drop	only one of three examples is a common-noun use (others are product and place names); minority rule
+panton	drop	name
+papanicolau	keep	Pap test
+parlor	drop	English
+pavía	drop	place
+pbm	drop	code
+pdk	drop	code
+peleteo	drop	biblical gentilic for a people, a proper name
+penthous	merge:penthouse	cut-off
+permanent	drop	English
+permitirno	merge:permitir	cut-off
+pfos	drop	technical
+philosophy	drop	English
+physical	drop	English
+pidesc	drop	code
+pietra	drop	Italian
+piquet	drop	name
+pli	drop	code
+pll	drop	code
+plugs	drop	English
+polymer	drop	English
+popping	drop	English
+post-conflicto	merge:posconflicto	hyphen
+praxi	merge:praxis	cut-off
+pre-flop	drop	poker term
+pre-instalación#hunt	merge:preinstalación	artefact
+pre-pago	merge:prepago	hyphen
+pregúntal	merge:preguntar	cut-off
+presents	drop	English
+prm	drop	code
+proporcionándono	merge:proporcionar	cut-off
+prototype	drop	occurrences are JavaScript code identifiers and a product title, not Spanish use
+psico-social	merge:psicosocial	hyphen
+pum	keep	interjection
+purity	drop	English
+push-in	drop	English
+puños	merge:puño	plural
+pzev	drop	code
+qb	drop	code
+qhd	drop	technical
+quit	drop	English
+re-edición	merge:reedición	hyphen
+readers	drop	English
+rehab	drop	English
+relaxed	drop	English
+repeat	drop	English
+rerum	drop	Latin
+rhodiola	drop	Latin genus
+rias	merge:ría	plural without accent
+ribs	drop	English
+ringana	drop	brand
+rls	drop	code
+rmm	drop	code
+rnc	drop	code
+roadshow	keep	established loan
+rohm	drop	brand
+rosana	drop	name
+rothko	drop	name
+rugged	drop	English
+rutilo	keep	mineral
+rx-grado	drop	shape
+salvi	drop	name
+sassi	drop	Italian
+sauvage	drop	French
+scanning	drop	English
+sdq	drop	airport code
+seae	drop	acronym
+sections	drop	English
+sein	drop	German
+selenium	drop	English
+sensors	drop	English
+seq	drop	code
+servicio-a-sí-mismo	drop	shape
+sfs	drop	code
+shirts	drop	English
+shoppe	drop	English
+singleton	drop	English
+sixth	drop	English
+sju	drop	code
+smart-ups	drop	brand
+smn	drop	code
+snooping	drop	English
+soca	drop	music-genre sense is a minority of examples (team name, brand); not established in Spanish
+socio-económicas	merge:socioeconómico	hyphen
+spcc	drop	code
+spell	drop	English
+sporty	drop	English
+sqft	drop	unit
+srx	drop	code
+ssis	drop	technical
+stakeholders	merge:stakeholder	plural of an established business loan filed as lemma
+starting	drop	English
+suf	drop	code
+suh	drop	name
+superwooper	drop	brand
+supplies	drop	English
+surigao	drop	place
+svb	drop	code
+svt	drop	code
+talaia	drop	Catalan word, occurring in place names and a product name; Spanish form is atalaya
+tapp	drop	brand
+tdk	drop	brand
+teamspeak	drop	software
+tenerse	keep	pronominal verb
+tmj	drop	medical acronym
+tolle	drop	name
+tons	drop	English
+torich	drop	brand
+towel	drop	English
+towns	drop	English
+transaction	drop	English
+ual	drop	code
+uda	drop	code
+ultra-delgado	merge:ultradelgado	prefix written with a hyphen; Spanish attaches ultra- to the word
+unia	drop	brand
+upd	drop	code
+usana	drop	brand
+utv	drop	vehicle acronym
+v-ray	drop	software
+vaping	merge:vapeo	English form of the adapted Spanish word; the examples are ordinary uses for vaping
+vegf	drop	technical
+velilla	drop	place
+verd	drop	Catalan
+vha	drop	code
+vigila	merge:vigilar	conjugated form
+vovworld	drop	website
+vsm	drop	code
+vz	drop	code
+wawa	drop	place
+waza	drop	code
+weee	drop	code
+weg	drop	German
+wfi	drop	code
+whmcs	drop	software
+wig	drop	English
+winning	drop	English
+wls	drop	code
+wrath	drop	English
+wrong	drop	English
+wss	drop	code
+xinxiang	drop	place
+xpf	drop	currency code
+xxs	drop	size code
+yt	drop	code
+yuyao	drop	place
+zafira	drop	car model
+zaporta	drop	company
+zapote	keep	fruit
+zm	drop	code
+zucchetti	drop	brand
+abracadabra	keep	real word
+abril-mayo	drop	shape
+achuar	drop	ethnonym
+acompáñeno	merge:acompañar	cut-off
+acth	drop	medical acronym
+addams	drop	name
+aerial	drop	English
+aesthetic	drop	English
+aib	drop	code
+aip	drop	code
+aliá	drop	organisation
+ambra	drop	Italian
+amethyst	drop	English
+amour	drop	French
+amémono	merge:amar	cut-off
+anais	drop	name
+anr	drop	code
+anti-estrógeno	merge:antiestrógeno	hyphen
+anti-huella	drop	shape
+anything	drop	English
+aplásico	keep	real adjective
+apoyarl	merge:apoyar	cut-off
+armilla	keep	real word
+aromatherapy	drop	English
+arq	merge:arquitecto	abbreviation of a listed word (the title "Arq."); other readings are protocol/magazine names
+arrival	drop	English
+auto-control	merge:autocontrol	hyphen
+auto-estima	merge:autoestima	hyphen
+autoalineabl	merge:autoalineable	cut-off
+azuqueca	drop	place
+bacha	keep	Rioplatense word
+bambino	drop	Italian
+baths	drop	English
+bdf	drop	code
+beatle	drop	band name
+beaux	drop	French
+beb	drop	code
+bebed	merge:beber	imperative form
+bebop	keep	music genre
+bep	drop	name
+berber	merge:bereber	Spanish spelling
+beumer	drop	brand
+bidart	drop	place
+bidding	drop	English
+biemh	drop	event
+biking	drop	English
+biwa	drop	Japanese
+blf	drop	file ext
+bns	drop	code
+borealis	drop	Latin
+borsalino	drop	brand
+bosphorus	drop	English place
+botanica	drop	foreign
+boudoir	keep	RAE loan
+bowden	drop	name
+brn	drop	code
+brogue	drop	English
+bsl	drop	airport code
+btx	drop	code
+buf	drop	file ext
+buga	keep	slang for car
+bup	keep	Spanish education term used as an ordinary word ("estudié BUP y COU")
+bze	drop	airport code
+caad	drop	code
+calefactabl	merge:calefactable	cut-off
+caray	keep	interjection
+carraco	merge:carraca	wrong lemma
+castelar	drop	name
+catec	drop	organisation
+cbg	drop	code
+ceci	drop	name
+ceh	drop	code
+cejn	drop	brand
+centésima	keep	real noun
+ceutí	keep	real gentilic adjective (from Ceuta); a common word stays even when many occurrences are the town name
+cfpb	drop	US agency
+cfrp	drop	technical
+charging	drop	English
+chd	drop	code
+checking	drop	English
+cheste	drop	place
+chita	keep	animal
+chord	drop	English
+chou	drop	name
+ciam	drop	code
+ciénega	keep	real word
+clap	drop	English
+clembuterol	keep	drug name word
+clorinda	drop	name
+cnes	drop	French agency
+cnm	drop	code
+cnumad	drop	UN acronym
+co-pago	merge:copago	hyphen
+conaf	drop	Chilean agency
+conferences	drop	English
+consecuentes	merge:consecuente	plural
+consent	drop	English
+conversation	drop	English
+conveyor	drop	English
+counsel	drop	English
+countryside	drop	English
+courtesy	drop	English
+crit	drop	brand
+cron	drop	technical
+cruza	merge:cruzar	conjugated form
+cso	drop	code
+cuansa	drop	code
+cucharadit#Maac	merge:cucharadita	artefact
+cvrs	drop	code
+daimiel	drop	place
+dalet	drop	brand
+darkwoods	drop	band album
+darts	drop	English
+dav	drop	file ext
+dbl	drop	code
+dch	drop	code
+debugger	drop	English
+decanoate	drop	chemical
+dekton	drop	brand
+delux	drop	brand
+demiurgo	keep	real word
+despojarno	merge:despojar	cut-off
+detect	drop	English
+difference	drop	English
+dirigirno	merge:dirigir	cut-off
+djsi	drop	index acronym
+dlls	drop	technical
+docusign	drop	brand
+doh	drop	English
+donner	drop	name
+doorbell	drop	English
+dotm	drop	file ext
+dryden	drop	place
+ducentésimo	drop	only written as digits
+dunk	drop	English
+dusk	drop	English
+edl	drop	code
+efta	drop	acronym
+ehedg	drop	code
+elbow	drop	English
+elec	drop	abbreviation fragment
+emapa-g	drop	code
+embutidor	keep	real word
+enero-marzo	drop	shape
+ere	keep	common Spanish labour-law term (un ERE), and also the name of the letter r
+eri	drop	name
+espanola	drop	place
+español-francés	drop	shape
+etias	drop	acronym
+etn	drop	code
+eurobono	keep	real word
+europages	drop	website
+evolucionismo	keep	real word
+ewg	drop	code
+familiaris	drop	Latin
+farruco	keep	real adjective
+faster	drop	English
+fdp	drop	party acronym
+feie	drop	code
+fet	drop	technical
+filamentoso	keep	real adjective
+fisica	merge:física	missing accent
+fnc	drop	file ext
+footprint	drop	English
+foreclosure	drop	English
+foy	drop	name
+fpo	drop	code
+francés-español	drop	shape
+freedompop	drop	brand
+fsi	drop	code
+fsr	drop	code
+fst	drop	code
+fucking	drop	English
+garantizarl	merge:garantizar	cut-off
+gci	drop	acronym
+gdr	drop	code
+giropay	drop	brand
+glace	drop	French
+glitters	drop	English
+gmx	drop	brand
+gourmand	drop	French
+gradient	drop	English
+grazie	drop	Italian
+gsd	drop	code
+gsr	drop	code
+gtb	drop	code
+gte-clp	drop	code
+guangsheng	drop	brand
+guayama	drop	place
+guitars	drop	English
+gully	drop	English
+gyojin	drop	fiction name
+hamer	drop	name
+handbrake	drop	software
+hashe	merge:hash	plural fragment
+hass	drop	avocado variety name
+hbp	drop	code
+herodiano	keep	real word
+hft	drop	technical
+homag	drop	brand
+honest	drop	English
+hop-off	drop	English
+horny	drop	English
+hrm	drop	code
+hrv	drop	code
+hsc	drop	code
+hsn	drop	code
+htl	drop	code
+hurt	drop	English
+hymer	drop	brand
+hébrida	drop	place
+i-pace	drop	car model
+icaa	drop	code
+icai	drop	school acronym
+icb	drop	code
+idrc	drop	code
+iff	drop	code
+illy	drop	brand
+ilx	drop	car model
+imex	drop	company
+in-stream	drop	English
+inb	drop	acronym
+inclasificados	drop	website
+influencers	merge:influencer	plural
+informacióne	merge:información	cut-off
+inra	drop	French institute
+insulation	drop	English
+introduction	drop	English
+ipys	drop	organisation
+iqf	drop	technical
+iru	drop	code
+iw	drop	code
