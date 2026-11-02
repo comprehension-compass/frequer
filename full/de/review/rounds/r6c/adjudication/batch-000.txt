@@ -1,0 +1,34 @@
+nachhause	keep	official one-word variant of "nach Hause" (Duden, AT/CH), not clearly broken
+ui	keep	real German interjection; the ADJ tag is a tagger error, not junk
+eich	merge:Eiche	most written forms (eiche, eichen, eicher) fit Eiche; treated as a cut-off fragment
+manag	merge:Manager	cut-off fragment; "manager" is 412 of 464 forms
+sal	merge:Sale	cut-off fragment; sales/sale dominate, and Sale is the established shop loan
+ersteinmal	merge:erst einmal	misspelling written together; the standard form is "erst einmal"
+model	merge:Model	"models" plural and "modeln" forms point to the loan "das Model", not Modell (plural Modelle)
+Marienkirche	drop	name of individual churches, not a famous institution
+Weis	drop	no examples; could be misspelt "weiß" (wissen or the adjective) or the surname, so the target is not obvious
+nehmend	merge:nehmen	present participle with no own entry merges to its verb
+Rit	merge:Ritus	"riten" (Riten) dominates; Ritt's plural is Ritte
+Cas	merge:Case	"cases" dominates; the example shows the phone-case loan
+Unendliche	keep	"das Unendliche" (ins Unendliche) is a noun in its own right, like "das Gute"
+Südland	merge:Südländer	forms are almost all Südländer (a person noun); lemmatiser misfiled them as a plural of Südland
+nude	keep	established fashion colour adjective (Duden: nude = hautfarben)
+eingemacht	merge:Eingemachte	"ans Eingemachte" uses the noun "das Eingemachte", filed in lower case
+stade	merge:stad	inflected form of the regional adjective stad ("die stade Zeit")
+Titanium	drop	occurs only in product names (Titanium TV, Titanium Backup, trim level), never as the metal
+ala	merge:à la	"à la" written without the accent
+leg	merge:leger	forms are leger/legere/legeren; a bare "leg" does not occur
+eingeschrieben	keep	adjective with its own entry ("eingeschriebener Brief", geometry)
+gefassten	merge:fassen	examples show the verb (Entschluss fassen, Steine fassen), not the adjective "gefasst" (calm)
+Nom	merge:Nomen	"nomen" dominates; cut-off fragment
+angeklagt	merge:Angeklagte	tagged NOUN; "der/die Angeklagte" is its own noun entry, filed in lower case
+Gunstgewerblerin	drop	frequency comes entirely from spun spam text; not real usage
+Bergischen	drop	place-derived regional name (Bergisches Land), not on the place list
+brand	merge:Brand	noun filed as a lower-case verb; both German Brand and the marketing loan share this spelling
+Bildende	merge:bilden	inflected present participle (bildenden Kunst) under a capitalised lemma
+Vs	merge:versus	abbreviation of the listed word "versus"
+hr	drop	target not obvious: forms fit ihr/ihrer, hören/Hörer with ö lost, or "Hr." (Herr)
+# question ersteinmal, ala: may merge targets be multi-word lemmas ("erst einmal", "à la"), and are they on the list? If not, should ersteinmal go to "erstmal"?
+# question Weis, hr, eich: with no examples and several plausible targets (misspelt weiß/wissen vs surname; ihr vs hören vs Hr.; Eiche vs dialect "euch"), should these drop or merge to the majority reading?
+# question angeklagt: forms mix the noun ("Angeklagter, warum…") with participle use ("angeklagter Arzt"); should mixed lemmas follow the NOUN tag or the majority use?
+# question Bildende: does a participle in a fixed term ("bildende Kunst") count as an adjective with its own entry (keep bildend) or merge to the verb?

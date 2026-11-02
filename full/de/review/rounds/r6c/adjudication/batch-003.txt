@@ -1,0 +1,9 @@
+widern	merge:anwidern	separable-verb fragment; widert/widerte/widerst are "widert … an"; standalone widern is archaic, not a learner lemma
+Parallel	merge:parallel	"Parallel" is the adjective's spelling, capitalised (paralleles); the noun's lemma would be Parallele; brand "Parallels" is noise
+tank	merge:Tank	written forms are case-folded, so "tank" (323) is most likely the noun Tank filed lower-case; only 10 tanken
+Sechster	merge:sechste	inflected ordinal ("wurde Sechster"); the dictionary form is sechste, not sechst; spelled out, so not a digit-only ordinal
+wun	merge:Wunde	cut-off fragment of "wunde" (316); written forms are case-folded and the noun Wunde is far commoner than the adjective wund
+Benehme	merge:Benehmen	cut-off fragment; all forms "benehmen" and the example is the noun (gutes Benehmen); the pronominal verb would be "sich benehmen"
+aufgaben	merge:Aufgabe	lemmatiser left "aufgaben" unchanged instead of producing aufgeben, so it is likely the plural noun Aufgaben, case-folded and mis-tagged VERB
+# question widern, Parallel: when most of a lemma's tokens belong elsewhere ("wider" as a preposition or a particle of widerspiegeln; the brand Parallels Desktop), should we merge on the minority real-word reading, as here, or drop?
+# question wun, aufgaben, tank: written forms are case-folded and there are no examples, so noun versus adjective/verb readings (Wunde/wund, Aufgabe/aufgeben, Tank/tanken) were decided on frequency. Should ambiguous no-example cases instead be held for a corpus check?

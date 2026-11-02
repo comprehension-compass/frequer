@@ -1,0 +1,35 @@
+Frühe	merge:früh	only form is "frühen", the adjective; the noun "Frühe" would not take -n
+Sextreffe	merge:Sextreffen	cut-off of the attested form sextreffen (fragments are merged, not dropped)
+sprach	merge:Sprache	all forms are "sprache", a lower-case noun, not the past tense of sprechen
+Symptomprüfer	drop	tool name repeated in site template text, not a learnable compound
+Abg	merge:Abgeordnete	abbreviation of a listed word; target follows the lemmatiser's usual form
+ti	merge:Tier	fragment; the real word among its forms is mostly tier
+Fünfte	merge:fünfte	capitalised inflected ordinal; target matches sechste for consistency
+recyceltem	merge:recyceln	inflected participle with no adjective entry of its own (like gesponsert)
+angaben	merge:Angabe	lower-case plural noun "Angaben", far more frequent than the verb form
+Unterland	keep	common noun with its own dictionary entry (lowland), not just a place name
+sehnlichst	merge:sehnlich	superlative form of the listed adjective sehnlich
+Unimog	drop	brand name
+Kürzere	keep	nominalised in the fixed idiom "den Kürzeren ziehen", like das Gute
+Ar	keep	standard unit noun (das Ar) with its own entry
+galaxy	drop	English word or Samsung brand, not a spelling of Galaxie
+mindesten	merge:mindest	real inflected form (im Mindesten), not a broken mindestens
+Cd	merge:CD	wrong casing of the established word CD
+weiterbildend	keep	participle adjective with its own entry (weiterbildender Studiengang)
+zuck	merge:Zucker	cut-off fragment; Zucker is the most frequent real word among its forms
+Rech	merge:Rechen	cut-off fragment, mostly written rechen; no evidence for Rechnung or Recht
+Grüß	merge:grüßen	mainly the verb imperative (grüß Gott, grüß dich) under a capitalised lemma
+flash	drop	English word; the adapted verb flashen is a minority of the forms
+Prompt	merge:prompt	mostly the adverb "prompt" capitalised at sentence start
+center	merge:Center	lower-case form of the established loan Center
+frites	merge:Pommes	fragment of "Pommes frites"; Pommes is the listed lemma
+aufnahmen	merge:Aufnahme	lower-case plural noun "Aufnahmen", consistent with angaben
+Fried	drop	mostly a surname or English "fried"; friede is only 11 hits
+gehört	merge:hören	adjectival participle forms (gehörtes, gehörter) belong to hören, not gehören
+hall	merge:Halle	cut-off fragment; most forms are halle
+Vot	merge:Vote	garbled form; the examples confirm the noun "Votes"
+# question Fünfte: which ordinal target form is standard (fünfte/sechste or fünft/sechst)? I chose the -te form to match sechste.
+# question Abg: is the listed lemma "Abgeordnete" or "Abgeordneter"? Reviewers split on this.
+# question ti, zuck: if a fragment's own form is its largest share (ti 181, zuck 266), should it be merged into the commonest real word or dropped?
+# question Symptomprüfer, Sextreffe: should compounds whose frequency comes only from template or spam text be dropped, even when well formed?
+# question Unimog: should trademark nouns that dictionaries list as common nouns count as names (drop) or established words (keep)?

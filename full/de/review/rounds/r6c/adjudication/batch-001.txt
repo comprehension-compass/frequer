@@ -1,0 +1,34 @@
+ssen	drop	broken fragment with no examples; the source could be essen, müssen, wissen or lassen, so there is no obvious target
+Knacken	keep	nominalised verb that is a noun in its own right (das Knacken), like Essen
+Offizielle	merge:offiziell	inflected adjective capitalised in a title ("Der Offiziellen Seite"), not a noun
+Deg	merge:Degen	cut-off fragment; nearly all forms are degen, a real noun, even though the one example is a surname
+befassten	merge:sich befassen	conjugated form of a pronominal verb; all examples use "befassten sich"
+Bundesrechtsanwaltskammer	drop	specialist professional body, not a famous institution a learner meets
+rang	drop	no examples; mixes English range/ranger with rang (ringen or Rang), so there is no clear target
+angesammelt	merge:ansammeln	participle forms; transitive ansammeln also exists ("das angesammelte Wissen")
+Wett	merge:wettmachen	almost always the detached particle of wettmachen ("macht das wett"), not a cut of Wette
+nachrichten	merge:Nachrichten	lower-case noun; the plural has its own meaning (the news)
+Twister	drop	game brand and band name, not an established loan
+eingeschüchtert	merge:einschüchtern	participle without its own dictionary entry
+bie	drop	garbled forms (bie, bieden, bien), apparently Dutch or French; no clear German target
+merkur	drop	lower-case name (newspaper, URL or planet) with no examples
+Mem	merge:Meme	plural and variant forms of the established loan Meme
+Glucose	keep	accepted German technical spelling, not a broken or English-only form
+erstenmal	merge:Mal	pre-1996 spelling of "zum ersten Mal"; the lemma is broken
+bes	drop	mixed garble (bes, beser, besste); possibly the abbreviation bes. (besonders), with no evidence
+Nasch	merge:Naschen	every example is the nominalised noun (das Naschen); the lemma is a cut-off stem
+bewahrheitet	merge:sich bewahrheiten	conjugated form of a pronominal verb ("haben sich bewahrheitet")
+bemehlten	merge:bemehlen	inflected participle form of bemehlen
+mutt	merge:Mutter	written forms are overwhelmingly mutter; the English look-alike is minor
+anhin	keep	real Swiss adverb (bis anhin) with its own dictionary entry
+sep	merge:September	abbreviation of a listed word (Sep in dates)
+Volkszeitung	drop	used only in regional newspaper titles, not famous institutions
+Zollverein	keep	famous World Heritage site and important historical term (Deutscher Zollverein)
+beigeordnet	merge:Beigeordnete	nominalised adjective noun (der/die Beigeordnete) filed as a lower-case participle
+Luch	merge:Luchs	written forms and all examples are Luchs
+befragt	merge:Befragte	lower-case form of the noun der/die Befragte, as in the example
+Fer	merge:fern	cut-off fragment; most written forms are fern
+# question ssen, rang, bes: when there are no examples and the written forms point to several targets, should the lemma be dropped or held for a manual corpus lookup?
+# question erstenmal: for pre-1996 spellings of multi-word expressions, which lemma is the merge target: the head noun (Mal), a synonym (erstmals) or nothing?
+# question merkur: are planet and astronomical names (Merkur, Mars, Venus) learnable nouns or names to drop?
+# question Glucose: should officially accepted technical variant spellings (Glucose/Glukose, Calcium/Kalzium) be kept or merged into the common spelling?
