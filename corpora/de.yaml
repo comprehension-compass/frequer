@@ -7,8 +7,9 @@ language:
   fold_case: false
   lowercase_forms: true
   readings: false
-  top_n: 50000
+  top_n: 50000  # cutoff pending (2026-11-02): the developer picks it from the per-band report
   forms_kept: 5
+  append_learnable_names: true  # 2026-11-01 (developer): learnable names outside the cut follow it
   # Junk-filter heuristics (frequer/junk.py; README §Junk filter), 2026-11-01. Differences from es and why:
   # umlaut folds instead of the accent strip (fur, fuer -> für; strasse -> straße; unique owner and 5x only);
   # no capitalisation band (every noun is capitalised): propn_usage instead, every PROPN-majority lemma to
@@ -28,6 +29,10 @@ language:
     propn_usage_name_max: 0.03
     review_top: 30000
     review_multi_flag: true
+    # 2026-11-01 standard (docs/DECISIONS.md): the app's own number check decides spelled numbers, and the
+    # reviewed learnable-names list decides every pending place once it is final (PLAYBOOK §Place names).
+    number_rule: true
+    names_final: false  # true once reference/learnable-names/<lang>.json in --reference-root is final
 hygiene: {min_chars: 20, max_chars: 600, min_alpha_ratio: 0.6, gap_filter: true, langid_min_prob: 0.5}
 parts: 100
 checks:

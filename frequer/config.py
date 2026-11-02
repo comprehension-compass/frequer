@@ -70,12 +70,6 @@ class JunkConfig(Strict):
     short_zipf_min: float = 3.5
     propn_drop: float = 0.9
     propn_keep: float = 0.2
-    #: ``propn_usage`` (a language whose nouns are all capitalised, so case says nothing): names rarely take an
-    #: indefinite or negative article or an attributive adjective. Every PROPN-majority lemma is flagged for
-    #: review with the share of its occurrences right after one of ``propn_usage_determiners`` or an
-    #: ADJ-majority word (from the co-occurrence bigrams); under ``propn_usage_name_max`` reads as a name.
-    propn_usage_determiners: list[str] = Field(default_factory=list)
-    propn_usage_name_max: float = 0.03
     #: Where ``propn_band`` takes its evidence: ``case`` (capitalisation in running text, the case tally) or
     #: ``dictionary`` (the language's dictionary's proper-noun subtags, for a script without case).
     propn_evidence: Literal["case", "dictionary"] = "case"
@@ -85,6 +79,15 @@ class JunkConfig(Strict):
     #: ``lexicon.lemma_defaults``) calls a number it ignores is dropped (千九百九十八): the list keeps the core
     #: number words, base words and counter or date forms, as the app does.
     number_rule: bool = False
+    #: ``propn_usage`` (a language whose nouns are all capitalised, so case says nothing): names rarely take an
+    #: indefinite or negative article or an attributive adjective. Every PROPN-majority lemma is flagged for
+    #: review with the share of its occurrences right after one of ``propn_usage_determiners`` or an
+    #: ADJ-majority word (from the co-occurrence bigrams); under ``propn_usage_name_max`` reads as a name.
+    propn_usage_determiners: list[str] = Field(default_factory=list)
+    propn_usage_name_max: float = 0.03
+    #: The learnable-names list is final: ``pending-names`` (reviewed or from dictionary place evidence) resolves
+    #: to a keep for a listed name and a drop (``place-drop``) for any other place.
+    names_final: bool = False
     #: Single-flag lemmas within this many kept ranks go to review.
     review_top: int = 20_000
     #: Within ``review_top``, send 2+-flag lemmas to review too instead of dropping them: the citation and shape
@@ -100,6 +103,12 @@ class LanguageConfig(Strict):
     lemma_package: str
     #: A lemma key must match this (the loader's ``lemma_pattern``) to be counted.
     lemma_pattern: str
+    #: After the ``top_n`` cut, append every learnable name (Honeyeater's ``reference/learnable-names``) that
+    #: ranked below it, in rank order: a listed name is learnable whatever its frequency.
+    append_learnable_names: bool = False
+    #: The developer's cutoff ruling for ``top_n`` (date and where it is recorded), set when the cutoff is chosen
+    #: from the per-band report (docs/PLAYBOOK.md §7); ``frequer pipeline`` waits for it.
+    cutoff: str | None = None
     #: Lower-case lemma keys, summing on collapse (the Spanish snapshot's convention).
     fold_case: bool = False
     #: Lower-case surface forms before counting them (the German snapshot's convention).

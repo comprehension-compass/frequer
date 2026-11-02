@@ -22,6 +22,10 @@ The same pass counts **co-occurrences** (lemma n-grams, verb pairs, marginals) a
 scores them into a table the unit detector can read and a queue of associated
 combinations the unit list lacks, for the next labelling pass (§Co-occurrence).
 
+**Building a list for a language, start to finish: [docs/PLAYBOOK.md](docs/PLAYBOOK.md).** Every settled ruling,
+with its date, rationale and where the code enforces it: [docs/DECISIONS.md](docs/DECISIONS.md).
+`python -m frequer pipeline <lang>` shows where a language stands and what to check next.
+
 ## Layout
 
 ```
@@ -29,6 +33,9 @@ corpora/<lang>.yaml   manifest: sources, licences, hygiene, checks, pilot caps, 
 frequer/              the package (see below)
 tests/                pytest: dispersion measures and the shard merge (the pure cores)
 pilot/<lang>/         committed pilot reports (report.md, perf.json); no counts, no snapshots
+docs/                 PLAYBOOK.md (the procedure), DECISIONS.md (the rulings)
+scripts/review/       the review runner: two reviewers and an adjudicator per lemma, prompts as versioned files
+scripts/remote-part.sh  a distributed part's setup, count and ship
 legacy/               the 2025 scripts and data, kept for provenance
 ```
 
@@ -60,6 +67,8 @@ original post-processing ideas the review report now carries on.
 | `assoc.py` | association measures (PMI, NPMI, signed G2, min over splits) and the scored table (pure) |
 | `combos.py` | compaction, final merge, the shipped table, the unit-list comparison and the labelling queue |
 | `run.py`, `build.py`, `cli.py`, `perf.py` | orchestration, build, commands, throughput table |
+| `pipeline.py` | `frequer pipeline`: the read-only stage checklist and the licence rule |
+| `propn_usage.py` | article/adjective evidence for proper nouns where case says nothing (de) |
 | `converge.py`, `checkpoint.py` | per-shard convergence checkpoints, split-half stopping rule, calibration (pure core tested) |
 | `forms.py`, `forms_run.py`, `select.py` | the **form inventory** and candidate selection (below) |
 
