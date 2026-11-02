@@ -1,0 +1,43 @@
+Challeng	merge:Challenge	cut-off form of the loan Challenge
+Murr	merge:murren	forms are murren/murr, a verb
+Prototyping	keep	established loan in German technical use
+abspritz	merge:abspritzen	cut-off verb
+dtv	drop	publisher abbreviation
+prozent	merge:Prozent	lower-case noun
+schaff	merge:schaffen	cut-off or imperative form
+Ag	drop	chemical symbol or abbreviation
+Ginger	drop	English word, mostly names or Ginger Beer
+Rubbellose	merge:Rubbellos	plural filed as lemma
+Rube	drop	mostly the name Ruben
+Songwriting	keep	established loan
+Verkleben	merge:verkleben	capitalised verb infinitive
+eingeschüchtert	keep	participle with its own adjective entry
+fÜr	merge:für	broken casing
+gesundheit	merge:Gesundheit	lower-case noun
+mittag	merge:Mittag	lower-case noun
+Dalla	drop	place name (Dallas) not on the list
+Effizient	merge:effizient	capitalised adjective
+Erinner	merge:erinnern	cut-off verb
+Mißbrauch	merge:Missbrauch	old spelling
+Porridge	keep	established loan for a food
+Razer	drop	brand name
+Wenigste	merge:wenig	inflected form of wenig
+angehäuft	merge:anhäufen	participle of anhäufen
+angereist	merge:anreisen	participle of anreisen
+bie	merge:bieten	cut-off fragment
+merkur	drop	name or brand
+vordefinierte	merge:vordefiniert	inflected adjective
+Babel	drop	place or biblical name
+Coburger	drop	derived from a place name not on the list
+Hautirritationen	merge:Hautirritation	plural filed as lemma
+Koblenzer	drop	derived from a place name not on the list
+Vorteilhaft	merge:vorteilhaft	capitalised adjective
+größen	merge:Größe	garbled plural of Größe
+heranzuziehen	merge:heranziehen	zu-infinitive form
+individualisierte	merge:individualisieren	inflected participle
+maß	merge:Maß	forms are Maße and Maßen, plural of the noun Maß
+wahrscheinlicher	merge:wahrscheinlich	comparative form
+zugreifend	merge:zugreifen	present participle
+# question größen: tagged VERB with forms größen/größenen, so Größe is a guess; could also be a verb form of a different word.
+# question Prototyping: English word, but kept as an established loan in technical German; this is borderline.
+# question Ginger: dropped as non-established English and a name in examples (Ginger Baker); Ginger Beer might count as a loan.

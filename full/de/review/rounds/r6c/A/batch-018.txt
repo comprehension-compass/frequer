@@ -1,0 +1,43 @@
+erzeugt	merge:erzeugen	participle filed as lemma, not an adjective in its own right
+gewährt	merge:gewähren	participle filed as lemma
+Benedict	drop	personal name
+Creditreform	drop	company name
+Hildesheimer	drop	demonym from a place name not on the list
+Hochladen	merge:hochladen	verb filed under a capitalised lemma
+Personalie	keep	singular used with its own meaning
+Pommer	drop	place name or demonym (Pommern), not on the list
+Provisorium	keep	ordinary noun, plural is just a form
+Torgau	drop	place name not on the list
+bestell	merge:bestellen	imperative or stem form
+durchnässen	keep	valid verb lemma, though tagged ADJ
+geschenkt	merge:schenken	participle filed as lemma
+hervorgerufen	merge:hervorrufen	participle filed as lemma
+hälst	merge:halten	misspelt conjugated form
+lern	merge:lernen	stem or misspelt form
+minute	merge:Minute	lower-case noun
+sukzessive	keep	adverb with its own dictionary entry
+upgrade	merge:Upgrade	lower-case noun, established loan
+Burberry	drop	brand name
+Kaufmännische	merge:kaufmännisch	adjective filed under a capitalised lemma
+Norma	drop	name
+Omen	keep	ordinary German noun
+Peperoni	keep	established loan
+kuchen	merge:Kuchen	lower-case noun
+lage	merge:Lage	lower-case noun
+sh	drop	fragment or abbreviation
+tolino	drop	brand name
+unangetastet	keep	adjective with its own dictionary entry
+var	drop	non-German word
+Achter	keep	real noun (rowing boat, eight)
+Adorno	drop	personal name
+BHs	merge:BH	plural of an abbreviation filed as lemma
+Demeter	drop	mythological name
+FreundIn	merge:Freundin	odd capitalisation, plural form filed as lemma
+Illuminat	keep	real noun, historical group, mostly plural in use
+Kaiserstraße	drop	street name
+Ramsauer	drop	surname or demonym
+Recruiter	keep	established loan in German HR usage
+Slideshow	keep	loan in common use
+# question durchnässen: infinitive filed as lemma but nearly all uses are the adjective durchnässt; kept as a valid verb lemma, though merging into durchnässt could be argued.
+# question Slideshow: unclear whether it is an established loan or should merge into Diashow; kept as an established loan.
+# question Illuminat: nearly all uses are plural (Illuminaten) for a historical group; kept as the singular lemma.

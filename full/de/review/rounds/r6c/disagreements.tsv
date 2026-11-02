@@ -1,0 +1,59 @@
+# lemma	A	reason A	B	reason B
+nachhause	keep	accepted one-word adverb variant (AT/CH), not clearly broken	merge:nach Hause	misspelt, written together
+ui	drop	interjection-like, tagged ADJ, no examples	keep	real interjection despite ADJ tag
+manag	merge:Manager	Cut-off fragment; the surface forms are mostly "manager".	merge:managen	cut-off fragment of managen
+ersteinmal	merge:erstmal	Misspelling of erst einmal; erstmal is the one-word form	merge:erst einmal	Misspelling of "erst einmal".
+Marienkirche	keep	common church-name compound used for many churches	drop	one of many churches of this name, not a famous institution
+Weis	merge:weiß	dropped ß, probable target	drop	fragment, target unclear
+eingemacht	merge:einmachen	participle filed as a lemma	merge:Eingemachte	nominalised "ans Eingemachte" filed in lower case
+stade	merge:stad	inflected form of the regional adjective stad	keep	dictionary adjective (südd./österr. "still, ruhig")
+Titanium	drop	English form used only in product names	merge:Titan	English/Latin spelling of the adapted word Titan
+ala	merge:à la	missing accent	drop	fragment/foreign phrase, no usable evidence
+eingeschrieben	keep	adjective with own entry (eingeschriebener Brief)	merge:einschreiben	inflected participle form
+gefassten	merge:fassen	inflected participle form	merge:gefasst	inflected form of the adjective gefasst
+Gunstgewerblerin	merge:Kunstgewerblerin	garbled spelling	drop	spam-text garble, not a real word
+Bergischen	merge:bergisch	inflected adjective capitalised	drop	place-derived regional name
+Bildende	merge:bilden	inflected participle under a capitalised lemma	merge:bildend	capitalised participle-adjective
+Vs	drop	Abbreviation of versus, a foreign word.	merge:versus	abbreviation of versus
+Knacken	merge:knacken	capitalised verb form	keep	nominalised verb that is a noun in its own right (das Knacken)
+Offizielle	keep	nominalised adjective	merge:offiziell	adjective inflection filed as a noun
+befassten	merge:sich befassen	conjugated form of a pronominal verb	merge:befassen	conjugated form
+Bundesrechtsanwaltskammer	keep	national institution, the German federal bar association	drop	specialist institution, not a famous one
+angesammelt	merge:ansammeln	participle forms, not an adjective of its own	merge:sich ansammeln	participle forms of pronominal verb
+nachrichten	merge:Nachrichten	lower-case noun, plural with own meaning	merge:Nachricht	lower-case plural noun
+Twister	keep	established loan/game name	drop	brand/game name
+eingeschüchtert	keep	participle with its own adjective entry	merge:einschüchtern	participle
+merkur	drop	name or brand	merge:Merkur	lower-case noun
+Glucose	merge:Glukose	variant spelling	keep	accepted German spelling variant
+erstenmal	merge:Mal	misspelling of "erstes Mal"	merge:erstmals	variant of "zum ersten Mal"
+bes	drop	garbled fragment with no obvious target	merge:besser	cut-off fragment of besser/beste
+Nasch	merge:naschen	stem of naschen, not a real lemma	merge:Naschen	cut-off fragment; usage is the nominalised noun
+bewahrheitet	merge:sich bewahrheiten	conjugated form of a pronominal verb	merge:bewahrheiten	conjugated form
+bemehlten	merge:bemehlen	inflected participle form	merge:bemehlt	inflected adjective form
+anhin	drop	fragment of the Swiss phrase "bis anhin", not a standalone lemma	merge:bisher	Fragment of the Swiss phrase "bis anhin"
+sep	drop	abbreviation or code	merge:September	Abbreviation of a listed word
+Volkszeitung	keep	generic compound noun, though used here in newspaper titles	drop	Regional newspaper name, not a famous institution
+Zollverein	drop	mostly the Essen site name, so a place name not on the list	keep	Famous institution and historical term
+beigeordnet	merge:Beigeordnete	noun (der Beigeordnete) filed as lower-case participle	merge:Beigeordneter	nominalised adjective (der Beigeordnete) filed in lower case
+Sextreffe	drop	spam-like junk form	merge:Sextreffen	cut-off or inflected form of Sextreffen
+Symptomprüfer	drop	template text	keep	real compound noun, even if the frequency comes from template text
+Abg	merge:Abgeordneter	abbreviation of a listed word	merge:Abgeordnete	abbreviation of a listed word
+ti	merge:Tier	Fragment; most of its counted forms are tier	drop	Fragment, mixed with tier/ties; no obvious target
+recyceltem	merge:recyceln	inflected participle form	merge:recycelt	inflected adjective form
+angaben	merge:Angabe	lower-case plural noun, not a verb form	merge:angeben	conjugated form of angeben
+Unterland	keep	regional common noun with own entry	drop	regional place name
+sehnlichst	merge:sehnlich	superlative form filed as lemma	keep	standard adverb, no usable base form
+Unimog	drop	brand name	keep	vehicle noun with plural, in dictionaries
+Kürzere	merge:kurz	inflected adjective in the idiom "den Kürzeren ziehen"	keep	nominalised idiom (den Kürzeren ziehen)
+Ar	drop	unit abbreviation, noisy	keep	valid unit noun in dictionaries
+Cd	drop	abbreviation	merge:CD	wrong casing of common abbreviation
+weiterbildend	keep	adjective with its own dictionary entry	merge:weiterbilden	participle with no clear entry of its own
+zuck	merge:zucken	cut-off fragment	merge:Zucker	cut-off fragment, most plausible target
+flash	drop	English word, not an established loan	merge:flashen	English spelling of an adapted verb
+Prompt	keep	established loan and German adverb	merge:prompt	the adverb "prompt" is filed under a capitalised lemma
+center	merge:Center	lower-case noun, wrong POS	merge:Zentrum	English spelling of an adapted word
+frites	merge:Pommes frites	fragment of Pommes frites	merge:Pommes	fragment of "Pommes frites"
+Fried	drop	mostly a surname	merge:Friede	cut-off fragment of Friede, though many hits may be the surname
+gehört	merge:gehören	participle/inflected forms of gehören filed as a noun	merge:hören	adjectival forms of the participle filed as a noun
+widern	merge:wider	Garbled form; majority of forms are wider	keep	real verb infinitive (anwidern-type); forms are mixed with wider
+Sechster	merge:sechst	inflected ordinal	merge:sechste	inflected ordinal form

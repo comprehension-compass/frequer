@@ -1,0 +1,43 @@
+rasante	merge:rasant	inflected adjective form
+saturn	drop	planet/brand name, not a learnable lemma
+straße	merge:Straße	lower-case noun
+techn	merge:technisch	abbreviation of a listed word
+Deichmann	drop	company/surname
+Parcour	merge:Parcours	misspelling
+Wische	merge:wischen	cut-off/inflected form, mostly wischen
+Wohlgefallen	keep	noun in its own right
+Zuschau	merge:zuschauen	cut-off fragment
+berufsbedingt	keep	valid adjective/adverb, only the tag is off
+dutzend	merge:Dutzend	noun filed lower-case
+ed	drop	meaningless fragment
+hasste	merge:hassen	conjugated form
+kommunikation	merge:Kommunikation	lower-case noun
+schwächelt	merge:schwächeln	conjugated form
+sehnlichst	merge:sehnlich	superlative form filed as lemma
+tuen	merge:tun	non-standard form of tun
+Berufstätige	keep	nominalised adjective, a noun in its own right
+Bolz	merge:bolzen	cut-off fragment
+Büsum	drop	place name not on list
+Gabler	drop	surname/publisher name
+Inh	merge:Inhaber	abbreviation of a listed word
+JAHRE	merge:Jahr	plural filed as lemma, upper-case
+Kombo	keep	established colloquial loan
+Lipgloss	keep	established loan
+Mopped	merge:Moped	misspelling
+Nordhaus	drop	place name
+Rück	drop	cut-off fragment with no clear target
+Striptease	keep	established loan
+Tolino	drop	brand name
+Unbekannt	merge:unbekannt	adjective under a capitalised lemma
+beschreibung	merge:Beschreibung	lower-case noun
+ios	drop	product/OS name
+mißbrauchen	merge:missbrauchen	old spelling
+transfer	merge:Transfer	lower-case noun
+uro	drop	fragment
+verstanden	merge:verstehen	participle forms filed as lemma
+verunfallen	keep	valid verb, forms are its participles
+wieg	merge:wiegen	imperative/stem form
+Außergewöhnlich	merge:außergewöhnlich	adjective under a capitalised lemma
+# question saturn: the planet name has no clear rule, and the sample shows only the brand use; dropped as another name
+# question Rück: could be a prefix of Rück-words, but no single target is obvious; dropped
+# question verstanden: the forms are all inflected, but verstanden could count as an adjective with its own entry; merged to verstehen

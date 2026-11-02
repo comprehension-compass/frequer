@@ -1,0 +1,44 @@
+geist	merge:Geist	lower-case noun
+mitglied	merge:Mitglied	lower-case noun
+saug	merge:saugen	imperative/stem form
+startend	merge:starten	present participle, no adjective entry of its own
+unbefangen	keep	adjective with its own entry
+ung	drop	cut-off fragment with no obvious target
+verschwiegen	keep	adjective with its own entry (discreet)
+Coffeeshop	keep	established loan
+Editier	merge:editieren	stem fragment
+Einsteig	merge:einsteigen	stem fragment
+Filler	keep	established loan in the cosmetic-medicine sense
+Forststraße	keep	ss/ß spelling variants of one lemma
+Friedel	drop	personal name
+Hindus	merge:Hindu	plural filed as lemma
+Kunstschaffende	keep	nominalised participle noun in its own right
+Linktipp	keep	valid compound noun
+Mieder	keep	real noun (bodice)
+Obliegenheit	keep	valid noun
+Pfefferkörner	merge:Pfefferkorn	plural filed as lemma
+Thal	merge:Tal	archaic spelling of Tal
+Twain	drop	personal name
+diplomarbeit	merge:Diplomarbeit	lower-case noun
+ergebnisse	merge:Ergebnis	lower-case plural
+fahrrad	merge:Fahrrad	lower-case noun
+gelösten	merge:lösen	inflected participle
+hall	merge:Halle	cut-off fragment
+interactiv	merge:interaktiv	English/misspelt form
+lizensiert	merge:lizenzieren	misspelling of the participle
+pornokino	merge:Pornokino	lower-case noun
+sen	drop	cut-off fragment with no obvious target
+vergrössert	merge:vergrößern	Swiss-spelt participle
+werd	merge:werden	garbled form
+zahlung	merge:Zahlung	lower-case noun
+ABUS	drop	brand/company name
+Ascorbinsäure	keep	accepted spelling variant
+Auflege	merge:auflegen	stem fragment
+Ausschlaggebend	merge:ausschlaggebend	capitalised adjective
+Begrüssung	merge:Begrüßung	Swiss ss spelling
+Erotisch	merge:erotisch	capitalised adjective
+Flipper	keep	established loan (pinball machine)
+# question ung: cut-off fragment with no clear source word (Ung-/-ung?), so I dropped it instead of merging.
+# question sen: cut-off fragment with no clear source word, so I dropped it instead of merging.
+# question Thal: "Thal" may also be a place or surname; I merged it to Tal as an archaic spelling.
+# question Ascorbinsäure: the rules don't say whether a c/k spelling variant counts as a misspelling; I kept it as an accepted variant.

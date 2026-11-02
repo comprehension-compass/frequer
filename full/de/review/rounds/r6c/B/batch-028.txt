@@ -1,0 +1,44 @@
+Reichenau	drop	place name not on list
+Vogelsberg	drop	place name not on list
+berg	merge:Berg	lower-case noun
+geschossen	merge:schießen	participle, not its own adjective entry
+teilzuhaben	merge:teilhaben	zu-infinitive form
+vorkommend	merge:vorkommen	participle form
+zurückzulegen	merge:zurücklegen	zu-infinitive form
+Blütenstände	merge:Blütenstand	plural of Blütenstand
+Brownies	merge:Brownie	plural of Brownie
+Dateianhänge	merge:Dateianhang	plural of Dateianhang
+Druckerzeugnisse	merge:Druckerzeugnis	plural of Druckerzeugnis
+Ländle	drop	regional name for Baden-Württemberg, treated as a place name
+Parma	drop	place name not on list
+Spitzberg	drop	place name (Spitzbergen)
+Weiterstadt	drop	place name not on list
+bemerkenswerte	merge:bemerkenswert	inflected adjective
+ideen	merge:Idee	lower-case plural noun
+Überzeuge	merge:überzeugen	capitalised verb form
+Ada	drop	personal name
+Frühe	merge:früh	capitalised inflected adjective
+Hooligans	merge:Hooligan	plural of Hooligan
+Umsteige	merge:umsteigen	capitalised verb form
+kerl	merge:Kerl	lower-case noun
+shar	drop	cut-off English word, not an adapted German word
+verringert	merge:verringern	participle, no separate adjective entry
+Athener	keep	demonym noun with its own entry, not a place name
+Gebrauchte	merge:gebraucht	capitalised inflected adjective
+Großglockner	drop	place name (mountain) not on list
+Mysteri	merge:Mysterium	cut-off form of the plural Mysterien
+Philosophische	merge:philosophisch	capitalised inflected adjective
+Predictive	drop	English word
+Sextreffe	merge:Sextreffen	cut-off or inflected form of Sextreffen
+Zeil	drop	street name
+abu	drop	name fragment
+anschluss	merge:Anschluss	lower-case noun
+events	merge:Event	English plural of an adapted word
+gaaaanz	merge:ganz	garbled spelling of ganz
+glitzert	merge:glitzern	conjugated verb form
+lter	merge:alt	broken encoding of älter (comparative of alt)
+sprach	merge:Sprache	forms are all "sprache", a lower-case noun
+# question shar: the forms are English "share"; merging into a lemma "share" would add an English word, so I chose drop.
+# question Sextreffe: the text form is "sextreffen" (spam-like); I merged to Sextreffen, but it could also be dropped as junk.
+# question Ländle: a dialect nickname for a region rather than a strict place name; I applied the place-name drop rule.
+# question Athener: a demonym derived from a place name; I treated it as a noun in its own right and kept it.

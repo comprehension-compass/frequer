@@ -1,0 +1,43 @@
+TZ	drop	newspaper-name abbreviation
+Voß	drop	surname
+firmiert	merge:firmieren	conjugated form
+gebloggt	merge:bloggen	participle, not an adjective with its own entry
+germany	drop	English spelling of a place name, not an adapted word
+rutsch	merge:rutschen	conjugated form or stem
+tanz	merge:tanzen	imperative or conjugated form
+Büffet	keep	accepted variant spelling of Buffet or Büfett
+Erweiter	merge:erweitern	fragment of the verb
+Frameset	drop	English technical term
+Goalie	keep	established sports loan
+Inning	drop	English baseball term
+Installiere	merge:installieren	verb filed as a noun
+Kaiserstuhl	drop	place name not on the list
+Kelsterbach	drop	place name not on the list
+Lei	drop	mixed forms (Lei, Leier); unclear lemma
+Op	merge:Operation	abbreviation of a listed word
+Zurverfügungstellung	keep	valid noun, if long
+bpc	drop	brand code
+netzwerk	merge:Netzwerk	lower-case noun
+systems	merge:System	English inflected form
+teppich	merge:Teppich	lower-case noun
+Dt	merge:deutsch	abbreviation of a listed word
+Dustin	drop	personal name
+Gemahl	keep	valid noun, dated
+Haager	drop	adjective derived from a place name
+Headline	keep	established loan
+Langweilig	merge:langweilig	adjective filed under a capital
+Lappland	drop	place name not on the list
+Malik	drop	personal name
+Steigenberger	drop	hotel brand name
+Understatement	keep	established loan
+Yogalehrerin	keep	feminine noun with its own entry
+entsandt	merge:entsenden	inflected participle forms
+gehegt	merge:hegen	inflected participle forms
+roulett	merge:Roulette	misspelt noun
+Akademische	merge:akademisch	inflected adjective under a capital
+Baß	merge:Bass	old spelling and inflected forms
+Erhitz	merge:erhitzen	fragment of the verb
+Inbound	drop	English marketing term
+
+# question Lei: counted forms mix Lei (currency or garland) and Leier (lyre); it is unclear which lemma applies, so I dropped it.
+# question Haager: a demonym-style adjective from Den Haag (Haager Konvention); the rules cover place names but not derived adjectives, so I dropped it as place-derived.

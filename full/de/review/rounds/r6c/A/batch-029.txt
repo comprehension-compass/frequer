@@ -1,0 +1,46 @@
+verarbeitung	merge:Verarbeitung	lower-case noun
+verlinkter	merge:verlinken	inflected participle
+Ärzteblatt	keep	famous publication
+Ablege	merge:ablegen	capitalised verb form
+Arbeitnehmende	keep	nominalised participle, a noun in its own right
+Ausschluß	merge:Ausschluss	old spelling
+Enzo	drop	personal name
+Erholungssuchende	keep	nominalised participle, a noun in its own right
+Nordschleife	drop	facility/place name not on the list
+Richie	drop	personal name
+Sensei	keep	established loan
+Symptomprüfer	drop	template text
+Ungläubiger	keep	nominalised adjective, a noun in its own right
+fahrzeug	merge:Fahrzeug	lower-case noun
+gesetz	merge:Gesetz	lower-case noun
+kindgerechten	merge:kindgerecht	inflected adjective
+traden	keep	established loan verb
+tägig	drop	cut-off suffix with no obvious target
+Abg	merge:Abgeordneter	abbreviation of a listed word
+Cusco	drop	place name
+Eichsfeld	drop	place name
+Garmisch	drop	place name
+Mart	drop	surname/fragment
+Stör	merge:stören	mostly verb forms
+Vorbeigehe	merge:vorbeigehen	capitalised verb form
+badezimmer	merge:Badezimmer	lower-case noun
+brave	merge:brav	inflected adjective
+erreichend	merge:erreichen	participle form
+ingesamt	merge:insgesamt	misspelling
+seeehr	merge:sehr	elongated misspelling
+spezial	merge:speziell	fragment/inflected form
+vorneherein	merge:vornherein	misspelling
+Amiga	drop	brand name
+Atmungsaktiv	merge:atmungsaktiv	capitalised adjective
+Casey	drop	personal name
+Cornwall	drop	place name
+Dimitri	drop	personal name
+Intern	merge:intern	capitalised adjective
+Profiteure	merge:Profiteur	plural
+Reutlinge	drop	place name, cut off
+# question Ärzteblatt: kept as a famous institution/publication, but it could also be read as an ordinary compound noun.
+# question Nordschleife: dropped as a facility/place name, but it is also a common noun in motorsport use.
+# question tägig: a cut-off suffix of compounds such as dreitägig, so no single merge target exists.
+# question Abg: Abgeordneter is not confirmed to be on the list, so the merge target is a guess.
+# question Stör: could be the fish noun Stör, but the counted forms are mostly stören.
+# question vorneherein: the target vornherein is only part of "von vornherein", so the lemma form is unclear.

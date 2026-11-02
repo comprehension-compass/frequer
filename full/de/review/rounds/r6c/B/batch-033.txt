@@ -1,0 +1,43 @@
+rasante	merge:rasant	inflected adjective form
+saturn	drop	brand/retailer in the examples, a name
+straße	merge:Straße	lower-case noun
+techn	merge:technisch	abbreviation of a listed word
+Deichmann	drop	company/person name
+Parcour	merge:Parcours	misspelling
+Wische	merge:wischen	broken lemma, mostly wischen
+Wohlgefallen	keep	genuine noun
+Zuschau	merge:zuschauen	cut-off fragment
+berufsbedingt	keep	valid adjective/adverb
+dutzend	merge:Dutzend	lower-case noun
+ed	drop	meaningless fragment
+hasste	merge:hassen	conjugated form
+kommunikation	merge:Kommunikation	lower-case noun
+schwächelt	merge:schwächeln	conjugated form
+sehnlichst	keep	standard adverb, no usable base form
+tuen	merge:tun	non-standard verb form
+Berufstätige	keep	nominalised adjective is a noun in its own right
+Bolz	merge:bolzen	cut-off fragment
+Büsum	drop	place name not on list
+Gabler	drop	surname/publisher name
+Inh	merge:Inhaber	abbreviation of a listed word
+JAHRE	merge:Jahr	upper-case plural form
+Kombo	keep	established colloquial loan
+Lipgloss	keep	established loan
+Mopped	merge:Moped	misspelling
+Nordhaus	drop	place name
+Rück	drop	fragment with no obvious target
+Striptease	keep	established loan
+Tolino	drop	brand name
+Unbekannt	merge:unbekannt	capitalised adjective
+beschreibung	merge:Beschreibung	lower-case noun
+ios	drop	product/OS name
+mißbrauchen	merge:missbrauchen	old spelling
+transfer	merge:Transfer	lower-case noun
+uro	drop	fragment from "euro"
+verstanden	merge:verstehen	participle forms
+verunfallen	keep	valid (Swiss) verb lemma
+wieg	merge:wiegen	imperative/inflected form
+Außergewöhnlich	merge:außergewöhnlich	capitalised adjective
+# question saturn: examples show a retailer/brand, but it could be the planet Saturn (which would be merge:Saturn); I dropped it as a name.
+# question Rück: possibly from Rücken or a Rück- compound fragment, no obvious target, so I dropped it rather than merged it.
+# question uro: it may be a fragment of "euro", but the single example is a brand-like title, so I dropped it.

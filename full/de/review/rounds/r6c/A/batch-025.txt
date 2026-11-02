@@ -1,0 +1,46 @@
+Innehalte	merge:innehalten	cut-off capitalised verb form; surface forms are innehalten
+Kronach	drop	place name not on the list
+Ricky	drop	personal name
+Ruhrpott	drop	regional place name not on the list
+Sachse	keep	ordinary noun for an inhabitant of Saxony, with a distinct meaning from the place name
+Sommerhaus	keep	ordinary compound noun; the Sommerhausen place-name variant doesn't change the lemma
+anhin	drop	fragment of the Swiss phrase "bis anhin", not a standalone lemma
+einzigste	merge:einzig	non-standard inflected superlative of einzig
+hygienischen	merge:hygienisch	inflected adjective form
+meer	merge:Meer	lower-case noun
+paket	merge:Paket	lower-case noun
+stress	merge:Stress	lower-case noun
+umrissen	merge:umreißen	participle form filed as lemma
+Parque	drop	Spanish word and place names, not an established loan
+Präses	keep	real German noun (church or association title)
+Wählerstimme	keep	valid noun; plural forms are only surface variants
+aufflammen	keep	valid separable verb; conjugated variants are only surface forms
+balkon	merge:Balkon	lower-case noun
+bolivianisch	keep	ordinary derived adjective, not a place name
+freitag	merge:Freitag	lower-case noun
+gegensatz	merge:Gegensatz	lower-case noun
+neo	drop	prefix fragment
+sep	drop	abbreviation or code
+unsereiner	keep	pronoun, wrongly tagged ADV
+zuwinken	keep	valid separable verb
+Garda	drop	place name not on the list
+Heidegger	drop	personal name
+Hellblau	merge:hellblau	capitalised adjective; the text is lower-case
+Hotelbuchung	keep	ordinary compound noun
+Lieblingssong	keep	valid compound with the established loan Song
+Novo	drop	brand or foreign name
+Siggi	drop	personal name
+Unsicher	merge:unsicher	capitalised adjective
+Volkszeitung	keep	generic compound noun, though used here in newspaper titles
+Zollverein	drop	mostly the Essen site name, so a place name not on the list
+mitzuführen	merge:mitführen	zu-infinitive filed as lemma
+ulcerosa	drop	Latin medical term
+Randstad	drop	company or region name
+Soap	keep	established loan (short for Soap Opera)
+ball	merge:Ball	lower-case noun with a wrong tag
+
+# question anhin: only occurs in "bis anhin" (Swiss for "bisher"); no clean merge target, so dropped as a fragment
+# question Sachse: the surface form "sachsen" (141) is probably mostly the place name Sachsen, but the lemma is a valid noun, so kept
+# question Zollverein: the historical customs union is a common noun, but the examples are the Essen site, so dropped as a place name
+# question Soap: examples show the cosmetics brand "Soap & Glory"; kept as an established loan, but the frequency may be inflated by the brand
+# question Ruhrpott: colloquial regional name used as a common noun; dropped as a place name not on the reviewed list

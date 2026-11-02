@@ -1,0 +1,43 @@
+spter	merge:später	broken encoding (ä dropped)
+Blanco	drop	surname/brand name
+Cliff	drop	name
+Flint	drop	mostly a name; Flinte (a different noun) is a minority of the forms
+Spessart	drop	place name not on the reviewed list
+bes	drop	garbled fragment with no obvious target
+dvd	merge:DVD	lower-case abbreviation of an established loan
+heruntergefahren	merge:herunterfahren	participle filed as lemma
+persona	drop	Latin word
+registrierung	merge:Registrierung	noun filed in lower case
+tunlichst	keep	adverb with its own dictionary entry
+verfassten	merge:verfassen	inflected verb form
+wald	merge:Wald	noun filed in lower case
+weiterverwendet	merge:weiterverwenden	participle filed as lemma
+Cathy	drop	person name
+Crysis	drop	product name
+Görlitzer	drop	derived from a place name
+Kassenärztliche	merge:kassenärztlich	inflected adjective filed under a capitalised lemma
+Nasch	merge:naschen	stem of naschen, not a real lemma
+Scheitern	keep	noun in its own right; scheiterns is its genitive
+Stalker	keep	established English loan
+Tanner	drop	surname
+bewahrheitet	merge:sich bewahrheiten	conjugated form of a pronominal verb
+machend	merge:machen	participle, not an adjective in its own right
+tel	drop	abbreviation/fragment
+werk	merge:Werk	noun filed in lower case
+Avalon	drop	name
+Eschenbach	drop	place name not on the reviewed list
+Flüchtlingsunterkünfte	merge:Flüchtlingsunterkunft	plural filed as lemma
+HuffPost	drop	website/brand name
+Intensive	merge:intensiv	inflected adjective filed under a capitalised lemma
+Momo	drop	name/title of a work
+Montpellier	drop	place name not on the reviewed list
+Ricoh	drop	brand name
+Werfen	merge:werfen	verb in capitalised form (nearly all tokens are verb forms)
+beleuchtung	merge:Beleuchtung	noun filed in lower case
+bemehlten	merge:bemehlen	inflected participle form
+mutt	merge:Mutter	cut-off fragment of Mutter
+nutzerfreundlicher	merge:nutzerfreundlich	comparative form
+rechten	merge:recht	inflected form of the adjective recht
+# question bes: forms beser/besste suggest a form of gut/besser, but the lemma is not obviously recoverable, so dropped
+# question Flint: the tokens "flinte" (142) are the German noun Flinte; dropped because the lemma is mostly the English word or name
+# question rechten: mixed lemma (adjective rechte, verb rechten, noun Recht); merged to recht as the majority reading

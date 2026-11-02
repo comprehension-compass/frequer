@@ -1,0 +1,45 @@
+zielgerichteten	merge:zielgerichtet	inflected adjective form
+Atla	merge:Atlas	cut-off fragment of Atlas
+Maggi	drop	brand name
+Maritime	merge:maritim	inflected adjective form
+Orginal	merge:Original	misspelling
+Paragon	drop	English word or name
+Russel	drop	name
+Schwedt	drop	place name not on list
+Toby	drop	person name
+produktion	merge:Produktion	lower-case noun
+Ehrenfeld	drop	place name not on list
+Empfehl	merge:empfehlen	truncated verb form
+HI	drop	abbreviation or code
+Hartung	drop	surname
+Hockenheimring	drop	facility name, a place rather than a famous institution
+Malibu	drop	place name or brand
+Parallel	merge:Parallele	inflected or plural forms of Parallele; the brand Parallels dominates the examples
+Pfr	merge:Pfarrer	abbreviation of a listed word
+Sous	drop	French word
+rissen	merge:reißen	conjugated verb form
+shemal	drop	non-German spam term
+tank	merge:tanken	verb form filed as an adjective
+Ahr	drop	river or place name
+Heiligenstadt	drop	place name not on list
+Nena	drop	person name
+Sechster	merge:sechste	inflected ordinal form
+ausgehebelt	merge:aushebeln	participle, not an adjective in its own right
+fil	drop	cut-off fragment of an English word
+gekannt	merge:kennen	participle, not an adjective in its own right
+grösstenteils	merge:größtenteils	non-standard ss spelling
+kombination	merge:Kombination	lower-case noun
+sterreich	merge:Österreich	broken encoding
+stv	drop	abbreviation
+trink	merge:trinken	truncated verb stem
+wun	merge:wund	cut-off fragment
+Ö	drop	single letter
+Arabi	drop	place-name fragment of Arabien, which is not on the list
+Brenz	drop	river or place name
+Christuskirche	drop	ordinary church name, not a famous institution
+Ellie	drop	first name
+
+# question Parallel: the written forms are mostly the brand "Parallels", so the lemma may be junk rather than a plural of Parallele; I merged it to Parallele.
+# question Sechster: it could be a nominalised person (the sixth-placed finisher) that stays as its own noun; I treated it as an inflected ordinal and merged it to sechste.
+# question Hockenheimring: it is a famous racetrack, but the rules do not say whether that counts as a famous institution; I dropped it as a place name.
+# question Arabi: the rules say to merge a cut-off fragment into its word, but Arabien is a place name that may not be on the list; I dropped it.

@@ -1,0 +1,44 @@
+Reichenau	drop	place name not on the list
+Vogelsberg	drop	place name not on the list
+berg	merge:Berg	lower-case noun
+geschossen	merge:schießen	participle, not an adjective with its own entry
+teilzuhaben	merge:teilhaben	zu-infinitive form
+vorkommend	merge:vorkommen	participle form
+zurückzulegen	merge:zurücklegen	zu-infinitive and inflected form
+Blütenstände	merge:Blütenstand	plural form
+Brownies	merge:Brownie	plural form
+Dateianhänge	merge:Dateianhang	plural form
+Druckerzeugnisse	merge:Druckerzeugnis	plural form
+Ländle	drop	nickname for a region, place name not on the list
+Parma	drop	place name not on the list
+Spitzberg	drop	place name (Spitzbergen) not on the list
+Weiterstadt	drop	place name not on the list
+bemerkenswerte	merge:bemerkenswert	inflected adjective
+ideen	merge:Idee	lower-case plural noun
+Überzeuge	merge:überzeugen	verb filed under a capitalised lemma
+Ada	drop	personal name
+Frühe	merge:früh	inflected adjective filed under a capitalised lemma
+Hooligans	merge:Hooligan	plural form
+Umsteige	merge:umsteigen	verb filed under a capitalised lemma
+kerl	merge:Kerl	lower-case noun
+shar	drop	cut-off English word, not an established loan
+verringert	merge:verringern	participle form
+Athener	keep	demonym is a noun in its own right, not a place name
+Gebrauchte	merge:gebraucht	inflected adjective filed under a capitalised lemma
+Großglockner	drop	place name (mountain) not on the list
+Mysteri	merge:Mysterium	cut-off form of the plural Mysterien
+Philosophische	merge:philosophisch	inflected adjective filed under a capitalised lemma
+Predictive	drop	English word, not an established loan
+Sextreffe	drop	spam-like junk form
+Zeil	drop	street name
+abu	drop	name fragment
+anschluss	merge:Anschluss	lower-case noun
+events	merge:Event	English plural of an established loan, lower-case
+gaaaanz	merge:ganz	garbled spelling
+glitzert	merge:glitzern	conjugated verb form
+lter	merge:alt	broken encoding of älter, comparative of alt
+sprach	merge:Sprache	lower-case noun (all forms are "sprache")
+# question Athener: demonym derived from a place name; rules only say place names drop, so I kept it (like Lehrerin-type person nouns).
+# question Sextreffe: spam-like form; the rules give no drop reason for spam, but I dropped it as junk rather than merging into Sextreffen.
+# question Ländle: dialect nickname for Baden-Württemberg; treated as a place name, though it is a regional common word.
+# question lter: the dictionary form of älter is alt (comparative); merged there rather than to a comparative lemma.

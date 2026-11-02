@@ -1,0 +1,46 @@
+Highspeed	keep	established English loan used in German
+Mittelland	drop	region name not on the reviewed place list
+Mountainbikes	merge:Mountainbike	plural filed as lemma
+Mühlviertel	drop	region name not on the reviewed place list
+Rabbit	drop	English word or name, not an adapted loan
+Unilever	drop	company name, not a famous institution
+Vot	merge:Vote	garbled form of Vote
+alliierte	merge:alliiert	inflected adjective form
+jeans	merge:Jeans	lower-case noun
+polizei	merge:Polizei	lower-case noun
+schuh	merge:Schuh	lower-case noun
+übung	merge:Übung	lower-case noun
+Diss	drop	colloquial clipping with no clear target
+Muck	merge:Mucks	cut-off fragment of Mucks
+Sach	merge:Sache	cut-off fragment
+Verf	merge:Verfasser	abbreviation of a listed word
+block	merge:Block	lower-case noun
+consulting	merge:Consulting	lower-case noun (established loan)
+dbb	drop	specialist acronym or organisation
+existireren	merge:existieren	misspelt verb
+fleisch	merge:Fleisch	lower-case noun
+gegner	merge:Gegner	lower-case noun
+herausgeholt	merge:herausholen	participle form filed as lemma
+mio	merge:Million	abbreviation of a listed word
+ruck	merge:Ruck	lower-case noun
+status	merge:Status	lower-case noun
+widern	keep	real verb infinitive (anwidern-type); forms are mixed with wider
+Abschicke	merge:abschicken	dropped letter, broken lemma
+Alhambra	drop	name (car model or building), not a famous institution
+Auf	merge:auf	capitalised function word, form aufs
+Ausweiche	merge:ausweichen	conjugated form filed as lemma
+Barclay	drop	other name
+Drosten	drop	person name
+Eßplatz	merge:Essplatz	old spelling
+Poly	drop	fragment with no obvious target
+Rioja	drop	place or region name not on list
+Sämlinge	merge:Sämling	plural filed as lemma
+Verfolgte	keep	nominalised participle that is a noun in its own right
+april	merge:April	lower-case noun
+stars	merge:Star	lower-case plural
+# question Vot: the written forms are English "votes"; merged to Vote, but if Vote is not accepted as an adapted loan this should be drop.
+# question Sach: the forms sach/sachs may be the surname Sachs rather than a fragment of Sache; merged to Sache as the likeliest intended target.
+# question Verf: Verfasser is assumed from the abbreviation; no examples were available to confirm.
+# question widern: the written forms are mostly the preposition wider plus verb forms of widern; kept as a genuine verb lemma, but merge:wider is arguable.
+# question Diss: could be a clipping of Dissertation or of English "diss"; no usable context, so dropped.
+# question Poly: prefix fragment with no obvious target and no examples, so dropped rather than merged.

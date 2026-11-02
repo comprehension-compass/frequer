@@ -1,0 +1,43 @@
+Prototyping	keep	established loan in German tech usage
+Challeng	merge:Challenge	cut-off fragment of Challenge
+Murr	merge:murren	fragment of murren (171 of 404 forms)
+abspritz	merge:abspritzen	cut-off verb form
+dtv	drop	publisher abbreviation
+prozent	merge:Prozent	lower-case noun
+schaff	merge:schaffen	imperative or cut-off form
+Ag	drop	chemical symbol or abbreviation
+Ginger	drop	English word, mostly a name or brand
+Rubbellose	merge:Rubbellos	plural filed as lemma
+Rube	drop	mostly the name Ruben
+Songwriting	keep	established loan
+Verkleben	merge:verkleben	capitalised nominalised verb, not a lexicalised noun
+eingeschüchtert	merge:einschüchtern	participle
+fÜr	merge:für	broken casing
+gesundheit	merge:Gesundheit	lower-case noun
+mittag	merge:Mittag	lower-case noun
+Dalla	drop	cut-off place name (Dallas), not on list
+Effizient	merge:effizient	capitalised adjective
+Erinner	merge:erinnern	cut-off form
+Mißbrauch	merge:Missbrauch	old spelling
+Porridge	keep	established loan
+Razer	drop	brand name
+Wenigste	merge:wenig	inflected superlative form
+angehäuft	merge:anhäufen	participle
+angereist	merge:anreisen	participle
+bie	merge:bieten	cut-off fragment
+merkur	merge:Merkur	lower-case noun
+vordefinierte	merge:vordefiniert	inflected adjective
+Babel	drop	place or biblical name, not on list
+Coburger	drop	place-name derivative
+Hautirritationen	merge:Hautirritation	plural filed as lemma
+Koblenzer	drop	place-name derivative
+Vorteilhaft	merge:vorteilhaft	capitalised adjective
+größen	merge:Größe	garbled plural of Größe
+heranzuziehen	merge:heranziehen	zu-infinitive form
+individualisierte	merge:individualisieren	inflected participle
+maß	merge:Maß	noun forms (Maße, Maßen) filed as lemma
+wahrscheinlicher	merge:wahrscheinlich	comparative form
+zugreifend	merge:zugreifen	present participle
+# question Verkleben: examples are nominalised infinitives (des Verklebens); the rules don't say whether a nominalisation counts as a noun in its own right like Essen. I merged it.
+# question Wenigste: nominalised superlative (das Wenigste). I merged it to wenig, but it could count as a noun in its own right.
+# question individualisierte: unclear whether individualisiert has its own adjective entry like bekannt. I merged it to individualisieren.

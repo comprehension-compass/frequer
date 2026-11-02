@@ -1,0 +1,44 @@
+spter	merge:später	dropped letter ä
+Blanco	drop	surname/brand, not a learnable word
+Cliff	drop	name/English word
+Flint	drop	English word/name; Flinte forms are mixed in
+Spessart	drop	place name not on list
+bes	merge:besser	cut-off fragment of besser/beste
+dvd	merge:DVD	lower-case abbreviation, not a PRON
+heruntergefahren	merge:herunterfahren	participle form
+persona	drop	Latin word
+registrierung	merge:Registrierung	noun under lower-case lemma
+tunlichst	keep	real adverb
+verfassten	merge:verfassen	inflected form
+wald	merge:Wald	noun under lower-case lemma
+weiterverwendet	merge:weiterverwenden	participle
+Cathy	drop	person name
+Crysis	drop	game title
+Görlitzer	drop	derived from place name
+Kassenärztliche	merge:kassenärztlich	inflected adjective, capitalised
+Nasch	merge:Naschen	cut-off fragment; usage is the nominalised noun
+Scheitern	keep	nominalised noun in its own right
+Stalker	keep	established loan
+Tanner	drop	surname
+bewahrheitet	merge:bewahrheiten	conjugated form
+machend	merge:machen	participle, not an adjective in its own right
+tel	drop	abbreviation/fragment
+werk	merge:Werk	noun under lower-case lemma
+Avalon	drop	name
+Eschenbach	drop	place name/surname
+Flüchtlingsunterkünfte	merge:Flüchtlingsunterkunft	plural filed as lemma
+HuffPost	drop	website/brand name
+Intensive	merge:intensiv	inflected adjective, capitalised
+Momo	drop	name/title of work
+Montpellier	drop	place name not on list
+Ricoh	drop	brand name
+Werfen	merge:werfen	verb under capitalised lemma
+beleuchtung	merge:Beleuchtung	noun under lower-case lemma
+bemehlten	merge:bemehlt	inflected adjective form
+mutt	merge:Mutter	cut-off fragment of Mutter
+nutzerfreundlicher	merge:nutzerfreundlich	comparative form
+rechten	merge:recht	inflected form, mostly adjective
+# question bes: forms beser/besste/bese could belong to besser, beste or gut; chose besser
+# question Flint: lemma mixes the English word/name with Flinte (142 tokens); dropped rather than merged
+# question rechten: mixed lemma (adjective recht, verb rechten, noun Recht); chose merge:recht
+# question Nasch: examples are the nominalised Naschen; chose the noun rather than the verb naschen

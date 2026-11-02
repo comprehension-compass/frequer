@@ -1,0 +1,41 @@
+Kimmich	drop	person name
+Krass	merge:krass	capitalised adjective
+Mindener	drop	place-derived adjective, Minden not on list
+Tempelhofer	drop	place-derived, Tempelhof not on list
+Verwandel	merge:verwandeln	truncated imperative stem
+char	drop	fragment
+gelüsten	keep	valid verb lemma
+htte	merge:haben	broken encoding of hätte
+indoor	drop	English word, not an established loan
+tatschlich	merge:tatsächlich	broken encoding
+ton	merge:Ton	lower-case noun
+Aufnehmen	merge:aufnehmen	capitalised verb
+Benehme	merge:Benehmen	cut-off form of the noun Benehmen
+Identifizier	merge:identifizieren	cut-off stem
+Kassa	keep	established regional variant
+Klaue	keep	valid noun, plural Klauen in text
+Patin	keep	own feminine entry
+Rammstein	drop	band name, not an institution
+Regierungschefin	keep	own feminine entry
+Rev	drop	abbreviation fragment
+Sondern	merge:sondern	capitalised conjunction
+Syriza	drop	party name
+Thiem	drop	person name
+Thür	merge:Tür	archaic spelling
+Webhoster	keep	ordinary compound noun
+aufgaben	merge:aufgeben	lower-case verb form
+gönn	merge:gönnen	truncated imperative stem
+hrt	merge:hören	broken encoding of hört
+kWp	drop	specialist unit abbreviation
+org	drop	web suffix fragment
+rabattieren	keep	dictionary verb form
+selbigen	merge:selbig	inflected adjective
+vie	drop	non-German fragment
+Ander	merge:ander	inflected form of andere
+Betablocker	keep	valid noun
+Chiptuning	keep	established loan noun
+Greiner	drop	surname
+Hebräer	keep	common noun with own entry
+# question htte: the real word hätte is itself a conjugated form of haben; merged to the lemma haben.
+# question Syriza: a political party might count as a famous institution; dropped like Rammstein.
+# question aufgaben: could be the plural of Aufgabe (lower-case) or a form of aufgeben; no examples, so I followed the VERB tag.

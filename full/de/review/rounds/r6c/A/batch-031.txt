@@ -1,0 +1,45 @@
+Koenig	merge:König	Transliterated spelling (oe for ö) of König
+Kollektor	keep	Valid noun lemma; the plural forms are just inflection
+Konfirmand	keep	Valid noun lemma
+Niedersachse	drop	Counts are almost all the place name Niedersachsen, which is not on the list
+Pils	keep	Common beer noun
+Priceline	drop	Company or brand name
+Reaper	drop	English word or product name
+Rürup	drop	Surname (and the Rürup-Rente name)
+Wiehl	drop	Place name not on the list
+Zerrung	keep	Valid noun lemma; the plural is just inflection
+ausgelö	merge:auslösen	Cut-off fragment of the participle ausgelöste
+einladungskarten	merge:Einladungskarte	Lower-case plural noun filed as a verb
+forte	keep	Established musical term in German
+schellen	keep	Valid verb lemma (schellen)
+ti	merge:Tier	Fragment; most of its counted forms are tier
+Überzeugungskraft	keep	Valid noun lemma
+Bison	keep	Valid noun lemma
+Chromecast	drop	Product or brand name
+Lili	drop	Personal name
+Meditier	merge:meditieren	Imperative stem filed as a noun; the counted forms are mostly meditieren
+Pl	drop	Abbreviation
+Pula	drop	Place name or currency, not on the list
+Ricarda	drop	Personal name
+Todesser	drop	Fictional character name (Harry Potter)
+Touchpoint	keep	Established marketing loan
+Universelle	merge:universell	Capitalised inflected adjective
+Zeitlos	merge:zeitlos	Capitalised adjective
+allenthalben	keep	Real adverb; the verb tag is irrelevant
+blut	merge:Blut	Noun filed under a lower-case lemma
+sizzling	drop	English word
+Alcatel	drop	Company or brand name
+Baptist	keep	Valid noun lemma
+Bloch	drop	Surname
+Brandy	keep	Established loan
+Fünfte	merge:fünft	Capitalised inflected ordinal (only fünften is attested)
+GELD	merge:Geld	Upper-case spelling of Geld
+Garnier	drop	Brand or surname
+Grundlegend	merge:grundlegend	Capitalised adjective
+KPIs	drop	Specialist acronym
+Patty	drop	Name or English word; the examples are personal names
+
+# question Niedersachse: The lemma is a real demonym, but the counted forms are mostly the place name Niedersachsen. I dropped it under the place-name rule.
+# question ti: Fragment with no clear target. I merged it to Tier because tier accounts for 183 of the counted forms.
+# question Fünfte: The dictionary form of an ordinal (fünft vs fünfte) is not settled by the rules. I used fünft.
+# question Todesser: This is an established German term for a fictional group, not a person's name. The rules do not cover fictional terms, so I dropped it as a name-like word.

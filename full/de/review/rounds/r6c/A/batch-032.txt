@@ -1,0 +1,48 @@
+Verrichtung	keep	ordinary noun
+paarmal	keep	"ein paarmal" is an accepted adverb spelling
+recyceltem	merge:recyceln	inflected participle form
+schränken	merge:einschränken	cut-off fragment of einschränken
+ungefiltert	keep	adjective with its own entry
+Anbieterin	keep	feminine noun with its own entry
+Belfast	drop	place name not on list
+Erbach	drop	place name not on list
+Fettabbau	keep	ordinary compound noun
+Forsch	merge:forschen	capitalised verb form (most forms are forschen)
+Helpdesk	keep	established loan
+Luftfeucht	merge:Luftfeuchte	cut-off fragment of Luftfeuchte
+Rheinmetall	drop	company name, not a famous institution
+Sera	merge:Serum	plural filed as lemma
+erlaufen	keep	real verb with regular forms
+faxen	keep	real verb (tag error only)
+kandieren	keep	real verb
+Ölfarbe	keep	ordinary noun, plural is a form of it
+Bundesrätin	keep	feminine noun with its own entry
+Forenbetreiber	keep	ordinary compound noun
+Namco	drop	company name
+Opladen	drop	place name not on list
+Veltliner	keep	established noun (Grüner Veltliner)
+abgesagt	merge:absagen	participle form of absagen
+angaben	merge:Angabe	lower-case plural noun, not a verb form
+beigesteuert	merge:beisteuern	participle form
+entstanden	merge:entstehen	participle form
+hlt	merge:halten	dropped-letter form (hält)
+junior	keep	established loan word
+Bort	merge:Borte	cut-off fragment of Borte
+Fedora	drop	mostly software or brand name
+Fendt	drop	company name
+Hydra	drop	name, not an established common noun
+Kaliningrad	drop	place name not on list
+Rieg	merge:Riege	cut-off fragment of Riege
+Sasha	drop	personal name
+Tailor	drop	English word or brand part (Tom Tailor)
+Unterland	keep	regional common noun with own entry
+falzen	keep	real verb
+kognitive	merge:kognitiv	inflected adjective form
+
+# question paarmal: Duden accepts "paarmal", but the screeners called it misspelt (ein paar Mal). I kept it.
+# question recyceltem: the dictionary form could be the adjective "recycelt" or the verb "recyceln". I chose the verb.
+# question Forsch: the written forms are mostly the verb forschen, but "forsch" is also the adjective (38). I merged to forschen.
+# question angaben: tagged VERB, but the form is most likely the plural noun Angaben. I merged to Angabe.
+# question hlt: the original word is not certain (hält, or hielten for "hlten"). I chose halten.
+# question Fedora: "der Fedora" (the hat) is a common noun, but the counted use is mostly software. I dropped it.
+# question Rheinmetall: whether a major company counts as a "famous institution" is unclear. I dropped it.

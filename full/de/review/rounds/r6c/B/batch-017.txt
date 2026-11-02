@@ -1,0 +1,46 @@
+firma	merge:Firma	lower-case noun
+ih	merge:ihr	dropped-letter fragment of ihr/ihre forms
+versierten	merge:versiert	inflected adjective form
+zeichen	merge:Zeichen	lower-case noun
+Bundesrechtsanwaltskammer	drop	specialist institution, not a famous one
+Etsy	drop	brand/website name
+Eutin	drop	place name not on list
+Michelangelo	drop	person name
+rang	merge:ringen	past tense of ringen
+sicherzugehen	merge:sichergehen	zu-infinitive form
+ua	drop	abbreviation (unter anderem), no single lemma to merge into
+verstören	keep	valid verb lemma; participle forms filed under it
+werbeflächen	merge:Werbefläche	plural filed as lemma, lower-case
+Entsprechende	merge:entsprechend	adjective filed under capitalised lemma
+Feucht	merge:feucht	adjective filed under capitalised lemma
+Gallerie	merge:Galerie	misspelling
+Telecom	drop	company name
+eShop	drop	brand-like spelling
+lampe	merge:Lampe	lower-case noun
+samstag	merge:Samstag	lower-case noun
+stehts	merge:stets	misspelling
+store	drop	English word, lower-case, no German evidence
+vorallem	merge:vor allem	misspelling
+Attila	drop	person name
+Gerlinde	drop	person name
+Oasis	drop	band/venue name
+Odyssey	drop	work/product name
+Quattro	drop	brand name
+Unbeschadet	merge:unbeschadet	preposition/adjective filed under capitalised lemma
+angesammelt	merge:sich ansammeln	participle forms of pronominal verb
+auserwählt	keep	participle with own adjective entry
+ARTIKEL	merge:Artikel	upper-case form of Artikel
+Antifaschistische	merge:antifaschistisch	adjective filed under capitalised lemma
+Isaak	drop	biblical person name
+Korinther	drop	biblical name/book reference
+Mey	drop	name
+Scarlett	drop	person name
+Wett	merge:Wette	cut-off fragment
+begünstigt	merge:begünstigen	participle forms, nominalised
+bescheidene	merge:bescheiden	inflected adjective form
+# question Bundesrechtsanwaltskammer: institution is official but not famous to a learner; dropped as a non-famous institution
+# question rang: forms ranger/range/ranges look like English or noun Rang, not ringen; merged to ringen on the main form
+# question ua: abbreviation of "unter anderem" (a phrase), no clear lemma to merge into
+# question store: could be the German loan Store (shop/curtain) but no examples to confirm
+# question Wett: fragment target unclear (Wette vs Wettbewerb), no examples
+# question eShop: could be merged into a Shop-type lemma, but brand-like spelling so dropped

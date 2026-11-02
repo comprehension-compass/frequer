@@ -1,0 +1,45 @@
+Koenig	merge:König	oe is a transliteration of ö, so the lemma is a misspelling of König
+Kollektor	keep	Ordinary noun; singular lemma with its plural forms
+Konfirmand	keep	Ordinary noun
+Niedersachse	drop	Lemma is cut off from the place name Niedersachsen (325 of 367 occurrences), which is not on the list
+Pils	keep	Ordinary noun for a type of beer
+Priceline	drop	Company or brand name
+Reaper	drop	English word or product name
+Rürup	drop	Surname
+Wiehl	drop	Place name not on the list
+Zerrung	keep	Correct dictionary noun
+ausgelö	merge:auslösen	Cut-off fragment of the participle ausgelöste
+einladungskarten	merge:Einladungskarte	Lower-case plural noun filed as a verb
+forte	keep	Established musical loan word (Duden entry), though the verb tag is wrong
+schellen	keep	Real verb (schellen, "to ring"); the forms listed are verb forms
+ti	drop	Fragment, mixed with tier/ties; no obvious target
+Überzeugungskraft	keep	Correct noun
+Bison	keep	Ordinary noun
+Chromecast	drop	Brand or product name
+Lili	drop	Personal name
+Meditier	merge:meditieren	Cut-off fragment of the verb
+Pl	drop	Abbreviation
+Pula	drop	Place name and currency
+Ricarda	drop	Personal name
+Todesser	drop	Fictional character name (Harry Potter)
+Touchpoint	keep	Established marketing loan
+Universelle	merge:universell	Adjective filed under a capitalised inflected form
+Zeitlos	merge:zeitlos	Adjective filed under a capital letter
+allenthalben	keep	Real adverb; the verb tag is wrong
+blut	merge:Blut	Noun filed under a lower-case lemma
+sizzling	drop	English word
+Alcatel	drop	Company or brand name
+Baptist	keep	Ordinary noun
+Bloch	drop	Surname
+Brandy	keep	Established loan word
+Fünfte	merge:fünft	Capitalised inflected ordinal adjective
+GELD	merge:Geld	Upper-case spelling of the noun
+Garnier	drop	Brand name or surname
+Grundlegend	merge:grundlegend	Adjective filed under a capital letter
+KPIs	drop	Specialist acronym
+Patty	drop	English name or word
+
+# question Niedersachse: the lemma is a real noun (inhabitant) but the counts are almost all the place name Niedersachsen; I dropped it as a cut-off place name.
+# question ti: the written forms tier (183) and ti (181) point to different words, so no single merge target is obvious; I dropped it.
+# question forte: it is a music term and a loan word, tagged as a verb; I kept it as an established loan, but it could count as a specialist term.
+# question schellen: the tag is NOUN but the forms are mostly verb forms; I kept it as the verb lemma.

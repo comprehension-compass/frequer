@@ -1,0 +1,45 @@
+Omaha	drop	place name not on list
+Pädophil	merge:pädophil	adjective filed under a capital
+Rahel	drop	person name
+Sexdate	keep	established loan with its own plural
+Vogelsang	drop	place name or surname
+dekoration	merge:Dekoration	noun filed in lower case
+ni	drop	fragment with no clear target
+AMC	drop	company abbreviation
+Fuldaer	drop	adjective derived from a place name not on the list
+Hauptverwaltung	keep	ordinary compound noun
+Hinten	merge:hinten	adverb filed under a capital
+Kolosseum	keep	famous landmark with an adapted German spelling
+Mandarin	keep	ordinary word (language, fruit)
+Teuer	merge:teuer	adjective filed under a capital
+Trentino	drop	place name not on list
+Verstellbarer	merge:verstellbar	inflected adjective filed under a capital
+Zion	drop	place name not on list
+angegriffen	keep	participle with its own adjective entry
+ankleiden	keep	real verb lemma
+bestätigt	merge:bestätigen	only inflected participle forms
+hochstehen	keep	real verb lemma
+kicker	merge:Kicker	noun filed in lower case
+linie	merge:Linie	noun filed in lower case
+pet	drop	forms are only the names Peter and Pete
+Donuts	merge:Donut	plural filed as lemma
+Idealerweise	merge:idealerweise	adverb filed under a capital
+Leoben	drop	place name not on list
+PageRank	drop	brand or product name
+Pfingstsonntag	keep	ordinary holiday noun
+ausgestrahlt	merge:ausstrahlen	participle filed as lemma
+bordell	merge:Bordell	noun filed in lower case
+dermassen	merge:dermaßen	misspelling of dermaßen
+galaxy	merge:Galaxie	English spelling of an adapted word
+mindesten	merge:mindest	inflected form
+thun	merge:tun	archaic spelling
+Antigua	drop	place name not on list
+Arafat	drop	person name
+Cd	drop	abbreviation
+Ipad	drop	brand or product name
+Lenke	merge:lenken	verb form filed as noun
+# question angegriffen: the forms are inflected participles, but the word also has its own adjective entry (geschwächt). I kept it; merge:angreifen is the alternative.
+# question ankleiden: the lemma is a real verb, but the examples are the noun Ankleide (dressing room), which would need its own lemma Ankleide.
+# question hochstehen: the forms are adjectival participles (hochstehend). I kept the verb lemma; merge:hochstehend is the alternative.
+# question Kolosseum: it is a landmark, not a place name. I treated it as a famous institution and kept it.
+# question Pädophil: the examples show nominalised forms (Pädophiler), which could count as a noun in its own right. I merged it because the counted forms are lower-case adjectives.

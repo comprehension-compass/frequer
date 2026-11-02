@@ -1,0 +1,44 @@
+geist	merge:Geist	lower-case noun
+mitglied	merge:Mitglied	lower-case noun
+saug	merge:saugen	imperative/stem form
+startend	merge:starten	present participle, no own adjective entry
+unbefangen	keep	adjective with its own entry
+ung	drop	cut-off fragment with no obvious target
+verschwiegen	keep	participle adjective with its own entry
+Coffeeshop	keep	established loan
+Editier	merge:editieren	stem fragment
+Einsteig	merge:einsteigen	stem fragment
+Filler	keep	established loan (cosmetic filler)
+Forststraße	keep	valid noun; ss/ß variants only
+Friedel	drop	personal name
+Hindus	merge:Hindu	plural filed as lemma
+Kunstschaffende	keep	nominalised adjective, noun in its own right
+Linktipp	keep	valid compound noun
+Mieder	keep	real noun (garment)
+Obliegenheit	keep	valid noun
+Pfefferkörner	merge:Pfefferkorn	plural filed as lemma
+Thal	merge:Tal	archaic spelling of Tal
+Twain	drop	personal name
+diplomarbeit	merge:Diplomarbeit	lower-case noun
+ergebnisse	merge:Ergebnis	lower-case plural
+fahrrad	merge:Fahrrad	lower-case noun
+gelösten	merge:lösen	inflected participle
+hall	merge:Halle	cut-off fragment
+interactiv	merge:interaktiv	English/misspelt form
+lizensiert	merge:lizenzieren	misspelt participle
+pornokino	merge:Pornokino	lower-case noun
+sen	drop	cut-off fragment with no obvious target
+vergrössert	merge:vergrößern	Swiss-spelt participle
+werd	merge:werden	garbled form
+zahlung	merge:Zahlung	lower-case noun
+ABUS	drop	brand name
+Ascorbinsäure	keep	accepted variant spelling
+Auflege	merge:auflegen	stem fragment
+Ausschlaggebend	merge:ausschlaggebend	capitalised adjective
+Begrüssung	merge:Begrüßung	Swiss spelling
+Erotisch	merge:erotisch	capitalised adjective
+Flipper	keep	established loan (pinball machine)
+# question ung: the fragment has no recoverable target (could be many words), so I dropped it instead of merging.
+# question sen: the fragment has no recoverable target, so I dropped it instead of merging.
+# question Thal: it could also be a place or family name, but the forms (thale, thales) fit archaic Tal, so I merged it.
+# question Ascorbinsäure: the screener called it a misspelling, but it is an accepted variant of Askorbinsäure, so I kept it.

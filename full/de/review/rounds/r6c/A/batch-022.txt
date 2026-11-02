@@ -1,0 +1,45 @@
+wiedergeboren	keep	participle used as adjective, with its own entry
+Ergänzende	merge:ergänzend	capitalised inflected participle-adjective
+Hank	drop	personal name
+Kathy	drop	personal name
+Lüttich	drop	place name not on list
+Mem	merge:Meme	English-form and plural-derived lemma of Meme
+Osmanische	merge:osmanisch	adjective filed under a capitalised inflected form
+Primus	keep	common noun (top of class)
+Tora	keep	common noun in the dictionary
+Trocke	merge:trocken	cut-off or inflected form of trocken
+Verschließe	merge:verschließen	verb filed capitalised
+Vidal	drop	personal name
+WA	drop	abbreviation
+Wetterau	drop	place name not on list
+aha	keep	interjection, only the POS tag is wrong
+hintern	merge:Hintern	lower-case noun
+kross	keep	valid adjective, only the POS tag is wrong
+müll	merge:Müll	lower-case noun
+wher	drop	English word or garbled form
+Ars	drop	vulgar or Latin fragment
+Barrierefrei	merge:barrierefrei	adjective filed capitalised
+DT	drop	abbreviation
+Datacenter	keep	established loan
+Dessin	keep	established loan
+Glucose	merge:Glukose	variant spelling
+Helmstedt	drop	place name not on list
+Innenpool	keep	regular German compound
+Leia	drop	character name
+Livecam	keep	established loan
+Oberrhein	drop	region name not on list
+Paperback	keep	established loan
+Pavel	drop	personal name
+Querverweise	merge:Querverweis	plural filed as lemma
+Se	drop	fragment
+Sozialpädagog	merge:Sozialpädagoge	truncated lemma
+Wenn	merge:wenn	conjunction filed as noun, inflected fragments
+erstenmal	merge:Mal	misspelling of "erstes Mal"
+fehlgeschlagen	keep	participle that is an adjective in its own right
+gelegenheit	merge:Gelegenheit	lower-case noun
+grey	drop	English word
+# question wiedergeboren: could be filed as the participle of wiedergebären, but kept as an adjective in its own right
+# question Ergänzende: merged to the participle-adjective ergänzend, but the verb ergänzen is also possible
+# question hintern: could be the noun Hintern or the colloquial contraction of "hinter den"; the single example suggests a noun
+# question Datacenter: English compound; kept as an established loan, though Rechenzentrum is the German equivalent
+# question erstenmal: a multi-word phrase "erstes Mal" has no single lemma; merged to Mal as the closest option

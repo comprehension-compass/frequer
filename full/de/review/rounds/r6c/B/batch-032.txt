@@ -1,0 +1,46 @@
+Verrichtung	keep	ordinary noun
+paarmal	keep	valid adverb in "ein paarmal"
+recyceltem	merge:recycelt	inflected adjective form
+schränken	merge:einschränken	fragment of einschränken
+ungefiltert	keep	adjective with its own entry
+Anbieterin	keep	feminine entry
+Belfast	drop	place name not on list
+Erbach	drop	place name not on list
+Fettabbau	keep	ordinary compound noun
+Forsch	merge:forschen	capitalised verb, mostly forschen forms
+Helpdesk	keep	established loan
+Luftfeucht	merge:Luftfeuchte	dropped letter
+Rheinmetall	drop	company name
+Sera	merge:Serum	plural filed as lemma
+erlaufen	keep	real verb
+faxen	keep	real verb, tag error only
+kandieren	keep	real verb
+Ölfarbe	keep	ordinary noun
+Bundesrätin	keep	feminine entry
+Forenbetreiber	keep	ordinary noun
+Namco	drop	company name
+Opladen	drop	place name not on list
+Veltliner	keep	wine-term noun
+abgesagt	merge:absagen	participle form
+angaben	merge:angeben	conjugated form of angeben
+beigesteuert	merge:beisteuern	participle form
+entstanden	merge:entstehen	participle form
+hlt	merge:halten	broken encoding of hält
+junior	keep	established loan
+Bort	merge:Borte	cut-off form
+Fedora	drop	mostly software/brand name
+Fendt	drop	company name
+Hydra	drop	name
+Kaliningrad	drop	place name not on list
+Rieg	merge:Riege	cut-off form
+Sasha	drop	personal name
+Tailor	drop	English word / brand name
+Unterland	drop	regional place name
+falzen	keep	real verb
+kognitive	merge:kognitiv	inflected adjective
+# question schränken: forms could belong to einschränken, beschränken or verschränken; no examples to tell, chose einschränken per screener
+# question Forsch: forms are mostly the verb forschen but also the adjective forsch; chose forschen as the majority
+# question angaben: no examples; could be the noun Angaben, but tagged VERB and the screener says angeben, so chose angeben
+# question hlt: hält vs. hielt/hälten ambiguous, no examples; chose halten
+# question Fedora: also a real German noun for a hat (der Fedora), but the counts look mostly software-related; chose drop
+# question recyceltem: unclear whether recycelt has its own adjective entry; chose recycelt

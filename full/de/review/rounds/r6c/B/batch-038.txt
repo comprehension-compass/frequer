@@ -1,0 +1,43 @@
+Ammerland	drop	place name not on the reviewed list
+Ceranfeld	keep	ordinary German compound noun for a ceramic hob
+FeWo	merge:Ferienwohnung	abbreviation of a listed word
+IDs	merge:ID	plural of an abbreviation
+Kreuzberger	drop	adjective from a place name
+Nordwestschweiz	drop	region name not on the list
+Piz	drop	name fragment
+Rech	merge:Rechen	cut-off fragment of Rechen
+Schneeschuhwander	merge:Schneeschuhwandern	cut-off fragment
+Unicorn	drop	English word, used in names and titles, not an adapted loan
+VIER	merge:vier	number word filed under a capitalised lemma
+beteiligten	merge:beteiligen	conjugated form filed as a lemma
+dreissig	merge:dreißig	non-standard spelling
+getrieben	merge:treiben	participle forms filed as a lemma
+gruppen	merge:Gruppe	lower-case plural of a noun
+pulverbeschichtetem	merge:pulverbeschichtet	inflected adjective form
+saison	merge:Saison	lower-case noun
+Beschlussfähigkeit	keep	valid compound noun
+Grüß	merge:Gruß	imperative or plural form filed as a lemma
+Handlungsstränge	merge:Handlungsstrang	plural filed as a lemma
+Hidde	drop	garbled English "hidden"
+Hülse	keep	valid singular lemma
+Mandala	keep	established loan
+Matze	drop	nickname
+Pantheon	keep	common noun
+Persi	drop	cut-off of a place name not on the list
+Reid	drop	surname
+Slowene	keep	demonym with its own entry, like Lehrer
+Wirtschaftsplan	keep	valid compound noun
+abgetreten	merge:abtreten	participle forms filed as a lemma
+ebenholz	merge:Ebenholz	lower-case noun
+flash	merge:flashen	English spelling of an adapted verb
+portal	merge:Portal	lower-case noun
+restaurant	merge:Restaurant	lower-case noun
+tee	merge:Tee	lower-case noun
+verwahrlosen	keep	valid verb lemma
+änderung	merge:Änderung	lower-case noun
+Franziskaner	keep	common noun (member of the order)
+Golfstaat	keep	common compound noun
+Jessie	drop	given name
+# question gruppen: could be the plural of Gruppe or a form of gruppieren; I chose Gruppe, the likelier source.
+# question IDs: unclear whether ID is a listed word or a specialist acronym; I merged it to ID.
+# question flash: the forms (flashen, flasher) point to a verb, but the noun Flash is also possible; I chose flashen.

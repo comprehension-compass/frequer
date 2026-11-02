@@ -1,0 +1,45 @@
+Persische	merge:persisch	capitalised inflected adjective
+Preußische	merge:preußisch	capitalised inflected adjective
+Reel	drop	English social-media term, not an established loan
+Saarländische	merge:saarländisch	capitalised inflected adjective
+Thumbnail	keep	established loan in German IT usage
+display	merge:Display	noun filed under a lower-case lemma
+dit	drop	French/Dutch foreign word
+hoc	drop	Latin fragment of "ad hoc"
+sigmaringen	drop	place name not on the list
+teilig	drop	cut-off -teilig fragment with no standalone target
+Berufsbildende	merge:berufsbildend	capitalised inflected adjective
+Fernreisen	merge:Fernreise	plural filed as lemma
+Gleit	merge:gleiten	verb form filed as a capitalised noun
+Königstraße	drop	street/place name
+PCIe	drop	specialist acronym
+ZHAW	drop	specialist abbreviation, institution not famous enough
+alla	drop	Italian foreign word
+begleitet	merge:begleiten	participle form
+errettet	merge:erretten	participle form
+loszulegen	merge:loslegen	zu-infinitive form
+medikament	merge:Medikament	noun filed under a lower-case lemma
+verfgbar	merge:verfügbar	broken encoding
+zugeschaltet	merge:zuschalten	participle form
+Brandenburgische	merge:brandenburgisch	capitalised inflected adjective
+Fitch	drop	company name
+Fürstin	keep	own feminine entry
+Geringste	merge:gering	capitalised inflected superlative (im Geringsten)
+Kampfjets	merge:Kampfjet	plural filed as lemma
+Klarstein	drop	brand name
+grundiert	merge:grundieren	participle form
+missglückt	merge:missglücken	participle form
+mässig	merge:mäßig	Swiss spelling/misspelling
+orginal	merge:original	misspelling
+populärst	merge:populär	superlative form
+reisend	merge:reisen	participle form
+ur	drop	prefix fragment
+wiki	merge:Wiki	noun filed under a lower-case lemma
+Europaabgeordnete	keep	nominalised adjective that is a noun in its own right
+Fichtelgebirge	drop	place name not on the list
+Gbit	drop	unit abbreviation
+
+# question teilig: -teilig is a cut-off suffix with no obvious target lemma to merge into, so I dropped it.
+# question ur: prefix fragment with no obvious target, so I dropped it.
+# question ZHAW: a Swiss university abbreviation; unclear whether it counts as a famous institution, so I dropped it.
+# question Thumbnail: unclear whether it is an established loan; I kept it because it is common in German web usage.

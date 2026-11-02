@@ -1,0 +1,42 @@
+erzeugt	merge:erzeugen	participle, not an adjective in its own right
+gewährt	merge:gewähren	participle, not an adjective in its own right
+Benedict	drop	personal name
+Creditreform	drop	company name, not a famous institution
+Hildesheimer	drop	demonym from place name
+Hochladen	merge:hochladen	almost always written as the verb
+Personalie	keep	real singular noun
+Pommer	drop	place and demonym name (Pommern)
+Provisorium	keep	ordinary noun, plural is a regular form
+Torgau	drop	place name not on list
+bestell	merge:bestellen	imperative/stem form
+durchnässen	keep	real verb lemma
+geschenkt	merge:schenken	participle, no clear adjective entry
+hervorgerufen	merge:hervorrufen	participle
+hälst	merge:halten	misspelt form of hältst
+lern	merge:lernen	stem/misspelling
+minute	merge:Minute	lower-case noun
+sukzessive	keep	adverb with its own entry
+upgrade	merge:Upgrade	lower-case, established loan noun
+Burberry	drop	brand name
+Kaufmännische	merge:kaufmännisch	capitalised adjective
+Norma	drop	name
+Omen	keep	real noun
+Peperoni	keep	established loan
+kuchen	merge:Kuchen	lower-case noun
+lage	merge:Lage	lower-case noun
+sh	drop	fragment
+tolino	drop	brand name
+unangetastet	keep	adjective with its own entry
+var	drop	non-German word
+Achter	keep	noun in its own right (rowing boat)
+Adorno	drop	personal name
+BHs	merge:BH	plural of abbreviation
+Demeter	drop	mythological name
+FreundIn	merge:Freundin	odd capitalisation, plural form filed as lemma
+Illuminat	keep	real noun for a historical group member
+Kaiserstraße	drop	street/place name
+Ramsauer	drop	surname/demonym
+Recruiter	keep	established loan in German HR usage
+Slideshow	keep	common loan noun in German
+# question Creditreform: a well-known German credit agency; unclear whether it counts as a famous institution (dropped as a company name)
+# question Slideshow: unclear whether it is an established loan or just an English word (kept as a common German usage)

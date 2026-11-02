@@ -1,0 +1,45 @@
+wiedergeboren	keep	participle used as an adjective (wiedergeboren werden); no infinitive to merge into
+Ergänzende	merge:ergänzend	capitalised inflected participle-adjective
+Hank	drop	personal name
+Kathy	drop	personal name
+Lüttich	drop	place name not on list
+Mem	merge:Meme	plural/variant filed as lemma
+Osmanische	merge:osmanisch	capitalised inflected adjective
+Primus	keep	German noun (top of the class)
+Tora	keep	established common noun
+Trocke	merge:trocken	inflected adjective fragment
+Verschließe	merge:verschließen	verb form capitalised
+Vidal	drop	personal name
+WA	drop	abbreviation
+Wetterau	drop	place name not on list
+aha	keep	interjection, wrong POS tag only
+hintern	merge:Hintern	lower-case noun
+kross	keep	adjective, wrong POS tag only
+müll	merge:Müll	lower-case noun
+wher	drop	English word or garbled form
+Ars	drop	vulgar or Latin fragment
+Barrierefrei	merge:barrierefrei	adjective filed under capital
+DT	drop	abbreviation
+Datacenter	keep	established loan
+Dessin	keep	established French loan
+Glucose	keep	accepted German spelling variant
+Helmstedt	drop	place name not on list
+Innenpool	keep	German compound
+Leia	drop	character name
+Livecam	keep	established loan
+Oberrhein	drop	place name not on list
+Paperback	keep	established loan
+Pavel	drop	personal name
+Querverweise	merge:Querverweis	plural filed as lemma
+Se	drop	fragment, not a German word
+Sozialpädagog	merge:Sozialpädagoge	truncated lemma
+Wenn	merge:wenn	conjunction filed as capitalised noun (wenns/wenne)
+erstenmal	merge:erstmals	variant of "zum ersten Mal"
+fehlgeschlagen	keep	adjective in its own right
+gelegenheit	merge:Gelegenheit	lower-case noun
+grey	drop	English word
+# question wiedergeboren: no infinitive exists, so keep as an adjective; confirm that is the intended treatment.
+# question Ergänzende: ergänzend may count as an adjective with its own entry; merged to the adjective rather than to ergänzen.
+# question hintern: the examples show the adjective hintere(n), but the forms (hinterns) suggest the noun Hintern; merged to the noun.
+# question Glucose: it could be treated as a variant of Glukose (merge); kept because it is an accepted German spelling.
+# question erstenmal: the rules don't cover a fused adverbial phrase; merged to erstmals as the closest single lemma.

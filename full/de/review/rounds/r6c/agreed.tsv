@@ -1,0 +1,1781 @@
+# lemma	decision	reason
+Zentralverriegelung	keep	Established compound noun; the lemma is correctly capitalised.
+feinste	merge:fein	Inflected superlative filed as a lemma.
+mfg	drop	Abbreviation (mit freundlichen Grüßen) with no listed full word to merge into.
+nils	drop	Personal name.
+ppm	drop	Unit abbreviation.
+Einchecke	merge:einchecken	Cut-off fragment; the text shows nominalised "Einchecken" from the verb.
+Jause	keep	Regional (Austrian) but established German noun.
+Ostpreußen	drop	Place name not on the reviewed list.
+Schieb	merge:schieben	Imperative or cut-off form of the verb.
+Sr	drop	Abbreviation.
+einstellung	merge:Einstellung	Noun filed under a lower-case lemma.
+gaaanz	merge:ganz	Elongated misspelling.
+getaggt	merge:taggen	Participle with no adjective entry of its own.
+kleinanzeigen	merge:Kleinanzeige	Lower-case plural noun; the singular exists.
+Albus	drop	Personal name.
+Cranberries	merge:Cranberry	English-spelled plural of an adapted word.
+Dojo	keep	Established loan word.
+Miner	drop	English word with no German use.
+Münsteraner	keep	Demonym noun with its own entry (feminine Münsteranerin).
+Rolladen	keep	Accepted variant spelling in its own right, not broken.
+Traumhaft	merge:traumhaft	Adjective filed under a capitalised lemma.
+Weinviertel	drop	Place name (region) not on the reviewed list.
+Wu	drop	Name or foreign fragment.
+Wörtche	merge:Wörtchen	Inflected form filed as a lemma.
+heit	drop	Suffix fragment with no obvious target word.
+sing	merge:singen	Conjugated or English form of the verb.
+stösst	merge:stoßen	Misspelt conjugated form.
+Ghostwriter	keep	Established loan.
+Montafon	drop	Place name (region) not on the reviewed list.
+Praktikantin	keep	Noun with its own feminine entry.
+Ringstraße	keep	Common noun, not just a street name.
+Sexcam	drop	Spam-type website term, not an established loan.
+Souther	drop	Garbled English fragment with no German target.
+Speicherstadt	drop	Place name (Hamburg district) not on the reviewed list.
+Stck	merge:Stück	Broken encoding.
+Verlangsamung	keep	Correctly capitalised noun.
+Weltliteratur	keep	Correctly capitalised noun.
+Werbematerial	keep	Correctly capitalised noun.
+Zurich	drop	Place name or company name, not on the reviewed list.
+marod	keep	Adjective with its own dictionary entry.
+Befestigungsmaterial	keep	correct noun lemma, forms are only inflections
+Erle	keep	correct noun lemma, erlen is its plural
+Fahrradweg	keep	correct noun lemma
+Gesundheitsreform	keep	correct noun lemma
+Glasfasernetz	keep	correct noun lemma
+Glaubensgemeinschaft	keep	correct noun lemma
+Kinderlied	keep	correct noun lemma
+Parteifreund	keep	correct noun lemma
+Ramos	drop	surname
+Rindsleder	keep	correct noun lemma
+Roadshow	keep	established loan
+Serienfertigung	keep	correct noun lemma
+Unterordnung	keep	correct noun lemma
+Verlockung	keep	correct noun lemma
+Verschreibung	keep	correct noun lemma
+Wassersportler	keep	correct noun lemma
+Wildbiene	keep	correct noun lemma
+altbacken	keep	genuine adjective, only the POS tag is wrong
+detailiert	merge:detailliert	misspelling
+eich	merge:Eiche	cut-off fragment of Eiche
+erscheinend	merge:erscheinen	inflected participle with no adjective entry of its own
+ungebunden	keep	participle with its own adjective entry
+wiederholend	merge:wiederholen	inflected participle with no adjective entry of its own
+zugeteilt	merge:zuteilen	participle form filed as lemma
+Artikelserie	keep	correct noun lemma
+Bestellmöglichkeit	keep	correct noun lemma
+Duale	merge:dual	inflected adjective (dualen) filed as noun
+Erdung	keep	correct noun lemma
+Ernährungsgewohnheit	keep	correct noun lemma, mostly used in the plural but not plural-only
+Fernsehfilm	keep	correct noun lemma
+Förderrichtlinie	keep	correct noun lemma
+Glücksrad	keep	correct noun lemma
+Holzofen	keep	correct noun lemma
+Jage	merge:jagen	inflected verb form filed as noun
+Jugendpsychiatrie	keep	correct noun lemma
+Knethaken	keep	correct noun lemma
+Landschaftspark	keep	correct noun lemma
+Lieferverzögerung	keep	correct noun lemma
+Limo	keep	Established noun; the lemma is already capitalised.
+Menopause	keep	Ordinary noun.
+Mikrobiologie	keep	Ordinary noun.
+Missgeschick	keep	Ordinary noun.
+Oz	drop	Abbreviation (ounce) or a name; not a learnable lemma.
+Polizeichef	keep	Ordinary compound noun.
+Replik	keep	Ordinary noun.
+Routenplanung	keep	Ordinary compound noun.
+Sparpaket	keep	Ordinary compound noun.
+Sprachversion	keep	Ordinary compound noun.
+Stahlbau	keep	Ordinary compound noun.
+Streu	keep	Real noun (Streu, litter); "streuen" is a separate verb.
+Türschloss	keep	Ordinary compound noun.
+Weihnachtsstimmung	keep	Ordinary compound noun.
+katze	merge:Katze	Noun filed under a lower-case lemma.
+reinhören	keep	Valid colloquial separable verb.
+spuren	keep	Valid verb (spuren, to obey; spurten, to sprint).
+Ackerland	keep	Ordinary noun.
+Autosalon	keep	Ordinary noun.
+Berufsordnung	keep	Ordinary noun.
+Bewerbungsformular	keep	Ordinary noun.
+Eisenmangel	keep	Ordinary noun.
+Entscheidungsgrundlage	keep	Ordinary noun.
+Freikirche	keep	Ordinary noun.
+Gesundheitsschaden	keep	Ordinary noun.
+Gewaltprävention	keep	Ordinary noun.
+Grundlinie	keep	Ordinary noun.
+Herzschrittmacher	keep	Ordinary noun.
+Hochschulabsolvent	keep	Ordinary noun.
+Integrierte	merge:integriert	Inflected adjective/participle filed as a noun lemma.
+Jahresverlauf	keep	Ordinary noun.
+Kilowatt	keep	Unit word, established noun.
+Lebensaufgabe	keep	Ordinary noun.
+Mikrobe	keep	Ordinary noun.
+Nagelstudio	keep	Ordinary noun.
+Nebenkostenabrechnung	keep	Ordinary noun.
+Pflasterstein	keep	Ordinary noun.
+Präposition	keep	Ordinary noun.
+Renovier	merge:renovieren	Cut-off verb stem, capitalised.
+Sammelbegriff	keep	Correct capitalised noun; lower-casing is only in the counted text
+Serienproduktion	keep	Correct noun lemma
+Strafmaß	keep	Correct noun lemma; the "strafmass" spelling is a variant
+Travemünde	drop	Place name not on the reviewed list
+Treueprogramm	keep	Correct noun lemma
+Vorbau	keep	Correct noun lemma
+Weinanbaugebiet	keep	Correct noun lemma
+lebend	keep	Participial adjective with its own dictionary entry
+parece	drop	Spanish word
+rbb	drop	Broadcaster acronym
+unterrichte	merge:unterrichten	Conjugated verb form filed as a lemma
+verwendung	merge:Verwendung	Noun filed under a lower-case lemma and mis-tagged ADJ
+Aufrichtigkeit	keep	Correct noun lemma
+Automatikgetriebe	keep	Correct noun lemma
+Betätige	merge:betätigen	Verb form under a capitalised lemma
+Blöd	merge:blöd	Adjective under a capitalised lemma
+Bombenangriff	keep	Correct noun lemma
+Brotaufstrich	keep	Correct noun lemma
+Buchverlag	keep	Correct noun lemma
+Erlernte	keep	Nominalised participle (das Erlernte), a noun in its own right
+Fachwerk	keep	Correct noun lemma
+Frontkamera	keep	Correct noun lemma
+Fürbitte	keep	Correct noun lemma
+Hausverbot	keep	Correct noun lemma
+Landesbetrieb	keep	Correct noun lemma
+Lizenzgeber	keep	Correct noun lemma
+Locarno	drop	Place name not on the reviewed list
+Lösegeld	keep	Correct noun lemma
+Megabyte	keep	Established loan noun
+Paketversand	keep	Correct noun lemma
+Pistenkilometer	keep	Correct noun lemma
+Polarisierung	keep	Correct noun lemma
+Presseartikel	keep	Correct noun lemma
+Strahlenbelastung	keep	Correct noun lemma
+Tagesklinik	keep	Correct noun lemma
+Tonabnehmer	keep	Correct noun lemma
+Versorgungsausgleich	keep	Correct noun lemma
+Viereck	keep	Correct noun lemma
+Weit	merge:weit	Adjective/adverb under a capitalised lemma
+Willenserklärung	keep	Correct noun lemma
+Wohnimmobilie	keep	Lemma is already capitalised; a regular noun
+dent	drop	Fragment of the loan phrase "al dente", not a word on its own
+frühmorgens	keep	Valid adverb
+hintergrund	merge:Hintergrund	Noun filed under a lower-case lemma
+leuten	merge:Leute	Inflected (dative plural) form of Leute
+sal	merge:Sale	Cut-off fragment of sale/sales
+stutzig	keep	Valid adjective; the NUM tag is just wrong
+whlen	merge:wählen	Broken encoding of wählen
+Atlantikküste	keep	Regular noun, already capitalised
+Auftragsvergabe	keep	Regular noun, already capitalised
+Bayreuther	drop	Adjective derived from the place name Bayreuth, which is not on the list
+Besprechungsraum	keep	Regular noun, already capitalised
+Dauerkarte	keep	Regular noun, already capitalised
+Deutschschweiz	drop	Place name not on the reviewed list
+Durchsatz	keep	Regular noun, already capitalised
+Energiestrategie	keep	Regular noun, already capitalised
+Fehleinschätzung	keep	Regular noun, already capitalised
+Gebein	keep	Singular noun lemma; plural forms are only variants
+Gestüt	keep	Regular noun, already capitalised
+Gewerbepark	keep	Regular noun, already capitalised
+Hemmschwelle	keep	Regular noun, already capitalised
+Kreisvorstand	keep	Regular noun, already capitalised
+Minispiel	keep	Regular noun, already capitalised
+Mitverantwortung	keep	Regular noun, already capitalised
+Neueintragung	keep	Regular noun, already capitalised
+Osterfeuer	keep	Regular noun, already capitalised
+Panikmache	keep	Regular noun, already capitalised
+Privatparkplatz	keep	Regular noun, already capitalised
+Reisetermin	keep	Regular noun, already capitalised
+Rosette	keep	Regular noun, already capitalised
+Rundbrief	keep	Regular noun, already capitalised
+Schnittblume	keep	Regular noun, already capitalised
+Schwangerschaftstest	keep	Regular noun, already capitalised
+Variabilität	keep	Regular noun, already capitalised
+Vermisste	keep	Nominalised adjective that works as a noun in its own right (like das Gute)
+Verzweigung	keep	Regular noun, already capitalised
+Vordenker	keep	Regular noun, already capitalised
+Vorinstanz	keep	Regular noun, already capitalised
+Wachsamkeit	keep	Regular noun, already capitalised
+Weltreligion	keep	Regular noun, already capitalised
+Werbefläche	keep	Compound noun; the lower case is only the counted spelling
+Zwischenmahlzeit	keep	Ordinary noun
+ibn	drop	Arabic name element, not German
+intakte	merge:intakt	Inflected adjective form
+trau	merge:trauen	Cut-off verb form, tagged VERB
+Aktionszeitraum	keep	Ordinary noun
+Arbeitssuchende	keep	Nominalised adjective that works as a noun, like Arbeitslose
+BVerwG	drop	Specialist abbreviation
+Blumenbeet	keep	Ordinary noun
+Bonusbetrag	keep	Ordinary noun
+Datensammlung	keep	Ordinary noun
+Durststrecke	keep	Ordinary noun
+Ehrenvorsitzende	keep	Nominalised adjective that works as a noun
+Entwicklerstudio	keep	Ordinary noun
+Erinnerungsstück	keep	Ordinary noun
+Gartentisch	keep	Ordinary noun
+Geschichtswissenschaft	keep	Ordinary noun
+Hochzeitstorte	keep	Ordinary noun
+Kegelbahn	keep	Ordinary noun
+Klimatisierung	keep	Ordinary noun
+Klugheit	keep	Ordinary noun
+Kulturstiftung	keep	Ordinary noun
+Liegestütze	merge:Liegestütz	Plural filed as lemma
+Lind	drop	Surname
+Luftkurort	keep	Ordinary noun
+Marktstart	keep	Ordinary noun
+Notrufnummer	keep	Ordinary noun
+Privatkredit	keep	Ordinary noun
+Schrader	drop	Surname
+Sediment	keep	Ordinary noun
+Steckverbinder	keep	Ordinary noun
+Tierquälerei	keep	Ordinary noun
+Warenlieferung	keep	Ordinary noun
+ss	drop	Garbled fragment with no obvious target word
+Heyne	drop	Publisher or person name, not a famous institution
+Ihrem	merge:ihr	Inflected determiner form
+Museo	drop	Foreign word, mostly in museum and place names
+Radolfzell	drop	Place name not on the reviewed list
+SaaS	drop	Specialist tech acronym
+ar	drop	garbled fragment with no clear target
+model	merge:Modell	English spelling of an adapted word
+Indigen	merge:Indigene	cut-off form of the nominalised adjective
+album	merge:Album	lower-case noun
+fetisch	merge:Fetisch	lower-case noun
+konstante	merge:konstant	inflected adjective form
+projekt	merge:Projekt	lower-case noun
+ve	drop	garbled fragment
+Adsense	drop	brand name
+BfArM	drop	specialist agency acronym
+Dunlop	drop	brand name
+Memphis	drop	place name not on list
+SI	drop	abbreviation
+Slider	keep	established loan
+moechte	merge:möchte	transliterated umlaut
+Freudenstadt	drop	place name not on list
+Rod	drop	English word or name
+Siegerland	drop	region name not on list
+ebendiese	merge:ebendieser	inflected form
+verliehen	merge:verleihen	inflected participle forms
+Bugatti	drop	brand name
+Deppe	merge:Depp	inflected plural form
+Jannik	drop	personal name
+Sandhausen	drop	place name not on list
+apple	drop	brand name
+main	drop	river name or English word
+nat	drop	garbled fragment
+pediküren	merge:Pediküre	plural and verb forms of Pediküre
+schwester	merge:Schwester	lower-case noun
+zeitgemäss	merge:zeitgemäß	ss spelling for ß
+Ariel	drop	brand or personal name
+Bolze	merge:Bolzen	misfiled form
+Buff	drop	brand name
+Trese	merge:Tresen	misfiled form
+Vox	drop	TV channel name
+dipl	drop	specialist abbreviation
+eingeblendet	merge:einblenden	inflected participle forms
+tourt	merge:touren	conjugated verb form
+Codec	keep	established loan
+Klöckner	drop	surname
+Konstanzer	drop	demonym from a place name, not on the learnable list
+Leverkusener	drop	demonym from a place name, not on the learnable list
+Niese	merge:niesen	cut-off form of niesen
+Regine	drop	given name
+Willow	drop	English name
+gesellschaft	merge:Gesellschaft	lower-case noun
+handgefertigten	merge:handgefertigt	inflected adjective
+iii	drop	numeral or code
+montag	merge:Montag	lower-case noun
+nachricht	merge:Nachricht	lower-case noun
+tantra	merge:Tantra	lower-case noun, established loan
+unterstützung	merge:Unterstützung	lower-case noun
+Garrett	drop	surname or given name
+Mittendrin	merge:mittendrin	adverb filed under a capital
+Ver	drop	cut-off fragment with no clear target
+aufwarts	merge:aufwärts	missing umlaut
+brig	merge:übrig	missing umlaut
+nehmend	drop	participle fragment with no clear target
+Beispielhaft	merge:beispielhaft	adjective filed under a capital
+Brilon	drop	place name
+Burghaus	drop	place name (Burghausen)
+Ingolstädter	drop	demonym from a place name, not on the learnable list
+Pflegeleicht	merge:pflegeleicht	adjective filed under a capital
+Presets	merge:Preset	English plural, merged to the singular
+WISSEN	merge:wissen	verb filed under a capital (all tokens are lower-case)
+ausbildung	merge:Ausbildung	lower-case noun
+Kappel	drop	place name (Kappeln)
+Laure	drop	given name
+Rit	merge:Ritus	cut-off fragment of Ritus (riten)
+int	drop	meaningless fragment
+medium	merge:Medium	lower-case noun
+mist	merge:Mist	lower-case noun
+nnen	drop	cut-off fragment with broken encoding and no clear target
+satz	merge:Satz	lower-case noun
+Deutschlandweit	merge:deutschlandweit	adjective filed under a capital
+Diepholz	drop	place name
+Eschweg	drop	place name (Eschwege)
+Ryder	drop	surname
+Segway	keep	genericised loan noun with own plural (Segway fahren)
+Staud	merge:Staude	cut-off plural of Staude
+Utrecht	drop	place name not on list
+adresse	merge:Adresse	lower-case noun
+casual	keep	established English loan adjective in German fashion usage
+hren	merge:hören	broken encoding
+wogegen	keep	function word (adverb/conjunction), mis-tagged
+Überhole	merge:überholen	verb filed under capitalised lemma
+Augustinus	drop	personal name
+Cas	merge:Case	cut-off fragment of Case/Cases
+Greifswalder	drop	demonym of place name not on list
+Minion	drop	character/brand name
+Percussion	keep	established loan in music
+Thieme	drop	publisher/surname, other name
+Thunderbolt	drop	product name
+VwGO	drop	specialist acronym
+produziert	merge:produzieren	participle without own entry
+Abweichende	merge:abweichend	inflected adjective under capitalised lemma
+Balthasar	drop	personal name
+Christie	drop	personal name
+Maserati	drop	brand name
+Terminator	drop	film title/character name
+Unendliche	merge:unendlich	inflected adjective under capitalised lemma
+Zusammenschluß	merge:Zusammenschluss	old spelling
+fünfjährigen	merge:fünfjährig	inflected adjective
+gebrauch	merge:Gebrauch	lower-case noun
+Electro	keep	established loan (music genre)
+Finanzier	keep	valid noun in its own right (Finanzier, Finanziers)
+Hau	merge:hauen	imperative/fragment of hauen
+Saniere	merge:sanieren	verb filed under capitalised lemma
+Südland	merge:Südländer	cut-off fragment of Südländer
+nude	keep	adopted colour adjective in German fashion usage
+reissen	merge:reißen	Swiss/non-standard spelling
+Kostenfrei	merge:kostenfrei	adjective under capitalised lemma
+Persönlich	merge:persönlich	adjective under capitalised lemma
+Stabil	merge:stabil	adjective under capitalised lemma
+fabelhafte	merge:fabelhaft	inflected adjective
+mitgelesen	merge:mitlesen	participle without own entry
+zugesagt	merge:zusagen	participle without own entry
+Agoda	drop	company/website name
+Brückner	drop	surname
+Dithmarschen	drop	place name not on the reviewed list
+Geforce	drop	product brand
+Relativ	merge:relativ	adjective filed under a capitalised lemma
+Shepard	drop	surname
+gabi	drop	personal name
+haette	merge:haben	misspelling of hätte, a form of haben
+Kite	keep	established loan (Kitesurfen)
+Kodak	drop	brand name
+Oberhof	drop	place name not on the reviewed list
+Playmobil	drop	brand name
+Webber	drop	surname
+angegeben	merge:angeben	participle filed as a lemma
+angelockt	merge:anlocken	participle filed as a lemma
+bin	merge:sein	conjugated form of sein
+gerendert	merge:rendern	participle filed as a lemma
+levitra	drop	drug brand and spam
+Anfänglich	merge:anfänglich	adjective filed under a capitalised lemma
+Kraichgau	drop	place name not on the reviewed list
+Nasa	keep	famous institution
+ann	drop	name or fragment
+beratung	merge:Beratung	noun filed under a lower-case lemma
+extravaganten	merge:extravagant	inflected adjective form
+hnlich	merge:ähnlich	broken encoding
+Dunkelblau	merge:dunkelblau	adjective filed under a capitalised lemma
+Inga	drop	personal name
+Kathi	drop	personal name
+MEHR	merge:mehr	capitalised form of a grammatical word
+Medaillon	keep	ordinary noun, plural forms belong to the same lemma
+Schlüter	drop	surname
+db	drop	abbreviation or acronym
+german	drop	English word
+kumulieren	keep	real dictionary verb with participle forms
+leg	merge:leger	cut-off fragment of leger
+trag	merge:tragen	imperative or cut-off form of tragen
+vorfertigen	keep	real dictionary verb
+Aust	drop	surname/name fragment (Austen)
+Behandlungskosten	keep	plural-only in practice, like Kosten
+Behältnisse	merge:Behältnis	plural filed as lemma
+Boxershort	keep	already singular; Boxershorts is the usual plural-only usage
+Golem	keep	common noun (der Golem)
+Minusgrade	merge:Minusgrad	plural filed as lemma
+Riesa	drop	place name not on list
+UA	drop	abbreviation/acronym
+Unglaublich	merge:unglaublich	capitalised adjective
+angefragt	merge:anfragen	inflected participle, no adjective entry of its own
+bedurfte	merge:bedürfen	conjugated form
+pool	merge:Pool	noun filed lower-case
+studio	merge:Studio	noun filed lower-case
+wiederrum	merge:wiederum	misspelling
+Janin	drop	personal name
+Moment	keep	valid noun lemma
+Schwer	merge:schwer	capitalised adjective
+schlag	merge:schlagen	cut-off/imperative form
+Benötige	merge:benötigen	capitalised verb form
+Deuter	drop	brand/surname
+Habsburger	keep	demonym-type common noun like Berliner
+Pimmel	keep	real (vulgar) noun
+Pingback	keep	established loan
+Zeitdauer	keep	valid noun
+termin	merge:Termin	noun filed lower-case
+Bedrucke	merge:bedrucken	capitalised verb form
+Kissinger	drop	personal name
+Mousse	keep	established loan
+Sniper	keep	established loan
+Sterbende	keep	nominalised participle, noun in its own right
+Verlinke	merge:verlinken	capitalised verb form
+Wirken	keep	nominalised verb, noun in its own right (das Wirken)
+Zimmerei	keep	valid noun
+ffentlich	merge:öffentlich	broken encoding
+geförderten	merge:fördern	inflected participle
+gelöst	keep	participle adjective with own entry (relaxed)
+lösungsorientierte	merge:lösungsorientiert	inflected adjective form
+san	drop	fragment/foreign word
+Besucherströme	merge:Besucherstrom	plural filed as lemma
+Breitengrade	merge:Breitengrad	plural filed as lemma
+Leichte	merge:leicht	capitalised inflected adjective
+Ling	drop	fragment/name with no clear target (Lingen is a place)
+Nom	merge:Nomen	cut-off of Nomen (mostly written "nomen")
+Trockene	merge:trocken	capitalised inflected adjective
+blogge	merge:bloggen	conjugated verb form
+dargelegt	merge:darlegen	participle, no adjective entry of its own
+eloxiert	merge:eloxieren	participle filed as verb lemma
+gekoppelt	merge:koppeln	participle form
+laptop	merge:Laptop	lower-case noun
+produkte	merge:Produkt	plural noun
+Alaba	drop	person name
+Dresdener	drop	place-derived form of a place name not on the list
+Faszinierende	merge:faszinierend	capitalised adjective form
+Freche	drop	actually the place name Frechen
+Gießener	drop	place-derived form of a place name not on the list
+Levin	drop	person name
+StVZO	drop	specialist abbreviation
+bee	drop	English "been", not German
+ehr	merge:eher	misspelling
+handvoll	merge:Handvoll	lower-case noun
+Ahrweiler	drop	place name
+Angelique	drop	person name
+BZgA	drop	specialist abbreviation
+DLCs	drop	specialist acronym, plural
+Essstörungen	merge:Essstörung	plural filed as lemma
+Isolde	drop	person name
+Mayo	keep	established colloquial word
+Rocco	drop	person name
+Schlecht	merge:schlecht	capitalised adjective
+Sonnenblumenkerne	merge:Sonnenblumenkern	plural filed as lemma
+bemisst	merge:bemessen	conjugated verb form
+perforieren	keep	infinitive is the correct dictionary form
+rausgekommen	merge:rauskommen	participle form
+technik	merge:Technik	lower-case noun
+Begünstigte	keep	nominalised adjective, noun in its own right (der Begünstigte)
+Gent	drop	place name
+Hauf	merge:Haufen	cut-off fragment of Haufen
+Mitwirke	merge:mitwirken	verb filed under capitalised lemma
+Resch	drop	personal or place name, not a learnable word
+Schütte	merge:schütten	forms are conjugated schütten; capitalised verb form
+Suse	drop	given name or software brand
+Toben	merge:toben	capitalised verb filed as a lemma
+eingelassen	merge:einlassen	inflected participle
+wichtigst	merge:wichtig	superlative form
+BvR	drop	specialist legal abbreviation
+Fujifilm	drop	company name, not an institution
+Villeroy	drop	company name fragment
+angeklagt	merge:Angeklagte	nominalised adjective filed in lower case
+gestützt	merge:stützen	inflected participle
+scheisse	merge:Scheiße	misspelt noun (ss for ß)
+wusstest	merge:wissen	conjugated form
+Finanzinstitute	merge:Finanzinstitut	plural filed as lemma
+Horus	drop	deity name
+Mur	drop	river or place name
+Paß	merge:Pass	old spelling; forms are plurals
+Velde	drop	place name
+Vin	drop	French word
+mattiert	merge:mattieren	participle
+wertgeschätzt	merge:wertschätzen	participle
+Falsche	merge:falsch	inflected adjective capitalised
+Neuköllner	drop	place-derived adjective
+Parabene	merge:Paraben	plural filed as lemma
+Wern	drop	place name (Werne)
+aufjedenfall	merge:auf jeden Fall	misspelling
+edelstahl	merge:Edelstahl	noun in lower case
+einsetzend	merge:einsetzen	participle
+html	drop	specialist acronym
+marketing	merge:Marketing	noun in lower case
+miteinbezogen	merge:miteinbeziehen	participle
+Fabrikate	merge:Fabrikat	plural filed as lemma
+Hierunter	merge:hierunter	adverb capitalised
+Kempe	drop	place name (Kempen)
+beta	drop	Greek/English word, code usage
+brand	merge:Brand	noun forms filed as verb in lower case
+gelaufen	merge:laufen	participle
+juris	drop	database name
+verortet	merge:verorten	participle filed as lemma
+Affiliat	merge:Affiliate	cut-off form of the loan Affiliate
+Fak	merge:Fake	cut-off fragment of Fake
+Füll	merge:füllen	cut-off imperative
+Königswinter	drop	place name not on list
+Psychopathen	merge:Psychopath	plural filed as lemma
+zeitversetzt	keep	adjective/adverb with its own entry
+Glasflächen	merge:Glasfläche	plural filed as lemma
+Jenner	drop	surname
+Jumper	keep	established loan (sweater)
+Kanye	drop	personal name
+Bewahr	merge:bewahren	cut-off imperative
+Hambacher	drop	place-derived adjective
+Pentium	drop	brand name
+eineMehr	drop	garbled text
+stündig	drop	cut-off compound piece with no single target
+sühnen	keep	valid verb lemma, only the POS tag is off
+Abhebe	merge:abheben	verb form filed as noun
+Alzey	drop	place name not on list
+Angkor	drop	place name not on list
+Dicht	merge:dicht	adjective under a capitalised lemma
+Evangelien	merge:Evangelium	plural filed as lemma
+Petersberg	drop	place name not on list
+Privat	merge:privat	adjective under a capitalised lemma
+Rhino	drop	brand/software name
+Schlecker	drop	company name
+Sybille	drop	personal name
+Umwelthilfe	keep	ordinary German noun
+Vegetarisch	merge:vegetarisch	adjective under a capitalised lemma
+Vive	drop	non-German word/product name
+berhaupt	merge:überhaupt	broken encoding
+bestrichen	merge:bestreichen	participle filed as lemma
+gefestigt	keep	adjective with its own entry
+Überdosis	keep	valid noun, correctly capitalised
+Auserwählte	keep	nominalised participle, noun in its own right
+Cyberkriminelle	keep	nominalised adjective, noun in its own right
+Kleingedrucktes	keep	nominalised adjective (das Kleingedruckte)
+MotoGP	drop	brand/series name
+Speis	merge:Speise	truncated form
+Tumorzelle	keep	Ordinary compound noun, singular lemma.
+appliziert	merge:applizieren	Conjugated or participle form filed as a lemma.
+zubehör	merge:Zubehör	Noun filed under a lower-case lemma.
+Über	merge:über	Contractions übers and übern, so the lemma is the preposition über.
+Blutergüsse	merge:Bluterguss	Plural filed as lemma.
+Familieim	merge:Familie	Garbled run-together text (Familie im).
+Geb	merge:geboren	Abbreviation of geboren.
+Jahresabo	keep	Established compound noun with its own meaning.
+KR	drop	Abbreviation or code.
+Nationalelf	keep	Common noun for the national team.
+Russin	keep	Feminine noun with its own entry.
+Uranus	drop	Proper name (planet), not a learnable common noun.
+Xylit	keep	Real noun, not an acronym.
+beschieden	merge:bescheiden	Participle of the verb bescheiden (to grant), not an adjective entry.
+verpackung	merge:Verpackung	Noun filed under a lower-case lemma.
+wurd	merge:werden	Garbled or inflected form of werden (wurde).
+Interessanterweise	merge:interessanterweise	Adverb filed under a capitalised lemma.
+Telegraph	keep	Common noun (Telegraf) and a famous newspaper title.
+Turismo	drop	Italian or Spanish foreign word.
+Waidhofen	drop	Place name not on the list.
+fnf	merge:fünf	Broken encoding.
+hr	merge:ihr	Broken encoding: hrer, hren and hrem are ihrer, ihren and ihrem.
+naturnahe	merge:naturnah	Inflected adjective form.
+roulette	merge:Roulette	Noun filed under a lower-case lemma.
+verletzten	merge:verletzen	Inflected verb form.
+vorgenannten	merge:vorgenannt	Inflected adjective form.
+Firmung	keep	Ordinary noun.
+Gebäudemanagement	keep	Established compound noun.
+Landesanstalt	keep	Ordinary common noun.
+Merle	drop	Personal name.
+Quell	merge:Quelle	Truncated or poetic form of Quelle.
+Reichelt	drop	Surname.
+Umweltministerin	keep	Feminine noun with its own entry.
+Verfolge	merge:verfolgen	Verb filed under a capitalised lemma.
+Weihnachtsdeko	keep	Established compound noun.
+dopen	keep	Established loan verb, and dopen is a valid infinitive lemma.
+hinzubekommen	merge:hinbekommen	zu-infinitive form of hinbekommen.
+hochglanz	merge:Hochglanz	Noun filed under a lower-case lemma.
+paysafecard	drop	Brand name.
+ssen	merge:essen	dropped letter (ß lost)
+tabulos	keep	real adjective
+vertrag	merge:Vertrag	lower-case noun
+zuhauf	keep	real adverb
+zurueck	merge:zurück	transliterated spelling
+übersät	keep	adjective with its own entry
+Aktienfonds	keep	valid noun, singular and plural identical
+Ehrenzeichen	keep	valid noun
+Gesamtverband	keep	valid compound noun
+Gleichaltrige	keep	nominalised adjective, a noun in its own right
+Highscore	keep	established loan
+Rogue	drop	English word/name
+Weblink	keep	established loan compound
+aufgegeben	merge:aufgeben	participle form
+cookies	merge:Cookie	English plural of an adapted loan
+eingepflegt	merge:einpflegen	participle, not an adjective in its own right
+geschmiedet	merge:schmieden	participle form
+mt	drop	abbreviation/fragment
+unselbstständig	keep	valid adjective, spelling variants only
+Lügenpresse	keep	valid German noun
+Mittelrhein	drop	place name not on list
+Pdf	merge:PDF	miscapitalised form of a common abbreviation
+florierend	keep	adjective with its own entry
+gespeichert	merge:speichern	participle form
+kostüm	merge:Kostüm	lower-case noun
+rasend	keep	adjective with its own entry
+seufz	merge:seufzen	cut-off form
+sonntag	merge:Sonntag	lower-case noun
+tip	merge:Tipp	misspelling
+Audible	drop	brand name
+Loewe	drop	surname/brand
+ausgedient	keep	adjective with its own entry
+elektr	merge:elektrisch	truncated abbreviation
+hauptsache	merge:Hauptsache	lower-case noun
+zugeführt	merge:zuführen	participle form
+Arbeitstechnik	keep	valid noun
+Berühmt	merge:berühmt	capitalised adjective
+Em	drop	fragment/abbreviation
+Softshell	keep	established loan noun
+Vaart	drop	Dutch surname
+aufsehenerregend	keep	adjective with its own entry
+betörend	keep	adjective with its own entry
+grösst	merge:groß	Swiss spelling of an inflected superlative
+hufig	merge:häufig	dropped letter, obvious
+mai	merge:Mai	lower-case month
+park	merge:Park	lower-case noun
+vera	drop	personal name
+Deg	merge:Degen	cut-off fragment of Degen
+Erinnern	merge:erinnern	capitalised verb
+Guinness	drop	brand name
+Jumbo	keep	established loan noun
+Spazierengehe	merge:spazierengehen	capitalised verb
+Sportevent	keep	established loan compound
+angedeutet	merge:andeuten	participle form
+beschleunigt	merge:beschleunigen	participle form
+bewegung	merge:Bewegung	lower-case noun
+cl	drop	abbreviation
+einzuloggen	merge:einloggen	inflected zu-infinitive
+freischaffend	keep	adjective with its own entry
+sekunden	merge:Sekunde	plural filed as lemma, lower-case
+visualisiert	merge:visualisieren	participle form
+Erlerne	merge:erlernen	capitalised verb
+Ger	drop	garbled fragment, no obvious target
+Outback	keep	established loan noun
+Packer	keep	German agent noun
+Psycholog	merge:Psychologe	truncated form
+Selbstständiger	keep	masculine nominalised adjective with its own entry
+Voyager	drop	product or name
+geschmack	merge:Geschmack	lower-case noun
+vorlage	merge:Vorlage	lower-case noun
+Minifigur	keep	common noun
+Mittelerde	drop	fictional place name, not on the list
+Rechtsextrem	merge:rechtsextrem	capitalised adjective
+Shemal	drop	offensive or spam term
+Toto	drop	name or brand
+Wendy	drop	personal name
+dauer	merge:Dauer	lower-case noun
+firma	merge:Firma	lower-case noun
+ih	merge:ihr	dropped letter: ihr, ihrer, ihren, ihrem
+versierten	merge:versiert	inflected adjective form
+zeichen	merge:Zeichen	lower-case noun
+Etsy	drop	brand/website name
+Eutin	drop	place name not on the list
+Michelangelo	drop	person name
+rang	merge:ringen	conjugated verb forms
+sicherzugehen	merge:sichergehen	zu-infinitive form
+ua	drop	abbreviation of a phrase that is not a lemma
+verstören	keep	correct verb infinitive; the ADJ tag comes from the participle
+werbeflächen	merge:Werbefläche	lower-case plural noun
+Entsprechende	merge:entsprechend	forms are lower-case inflected adjective forms
+Feucht	merge:feucht	capitalised adjective
+Gallerie	merge:Galerie	misspelling
+Telecom	drop	company name
+eShop	drop	brand-like spelling
+lampe	merge:Lampe	lower-case noun
+samstag	merge:Samstag	lower-case noun
+stehts	merge:stets	misspelling
+store	drop	English word
+vorallem	merge:vor allem	misspelling
+Attila	drop	person name
+Gerlinde	drop	person name
+Oasis	drop	band/venue name
+Odyssey	drop	product/company name in the examples
+Quattro	drop	brand name
+Unbeschadet	merge:unbeschadet	sentence-initial capital on a preposition
+auserwählt	keep	adjective with its own dictionary entry
+ARTIKEL	merge:Artikel	upper-case form
+Antifaschistische	merge:antifaschistisch	capitalised inflected adjective
+Isaak	drop	biblical person name
+Korinther	drop	biblical name
+Mey	drop	name
+Scarlett	drop	person name
+Wett	merge:Wette	cut-off fragment
+begünstigt	merge:begünstigen	participle forms
+bescheidene	merge:bescheiden	inflected adjective form
+erzeugt	merge:erzeugen	participle filed as lemma, not an adjective in its own right
+gewährt	merge:gewähren	participle filed as lemma
+Benedict	drop	personal name
+Creditreform	drop	company name
+Hildesheimer	drop	demonym from a place name not on the list
+Hochladen	merge:hochladen	verb filed under a capitalised lemma
+Personalie	keep	singular used with its own meaning
+Pommer	drop	place name or demonym (Pommern), not on the list
+Provisorium	keep	ordinary noun, plural is just a form
+Torgau	drop	place name not on the list
+bestell	merge:bestellen	imperative or stem form
+durchnässen	keep	valid verb lemma, though tagged ADJ
+geschenkt	merge:schenken	participle filed as lemma
+hervorgerufen	merge:hervorrufen	participle filed as lemma
+hälst	merge:halten	misspelt conjugated form
+lern	merge:lernen	stem or misspelt form
+minute	merge:Minute	lower-case noun
+sukzessive	keep	adverb with its own dictionary entry
+upgrade	merge:Upgrade	lower-case noun, established loan
+Burberry	drop	brand name
+Kaufmännische	merge:kaufmännisch	adjective filed under a capitalised lemma
+Norma	drop	name
+Omen	keep	ordinary German noun
+Peperoni	keep	established loan
+kuchen	merge:Kuchen	lower-case noun
+lage	merge:Lage	lower-case noun
+sh	drop	fragment or abbreviation
+tolino	drop	brand name
+unangetastet	keep	adjective with its own dictionary entry
+var	drop	non-German word
+Achter	keep	real noun (rowing boat, eight)
+Adorno	drop	personal name
+BHs	merge:BH	plural of an abbreviation filed as lemma
+Demeter	drop	mythological name
+FreundIn	merge:Freundin	odd capitalisation, plural form filed as lemma
+Illuminat	keep	real noun, historical group, mostly plural in use
+Kaiserstraße	drop	street name
+Ramsauer	drop	surname or demonym
+Recruiter	keep	established loan in German HR usage
+Slideshow	keep	loan in common use
+Waltraud	drop	personal name
+abgeschnitten	merge:abschneiden	participle filed as lemma
+anstimmen	keep	valid verb lemma
+campen	keep	valid verb lemma
+fermentiert	merge:fermentieren	participle form
+nachhinein	merge:Nachhinein	lower-case noun fragment of "im Nachhinein"
+Anette	drop	personal name
+Bestimmte	merge:bestimmt	capitalised inflected adjective
+Chatt	merge:chatten	cut-off verb form
+Ergonomisch	merge:ergonomisch	capitalised adjective
+Heimmannschaft	keep	valid compound noun
+Messner	drop	surname
+Paroli	keep	established loan
+Poncho	keep	established loan
+Vorraus	merge:Voraus	misspelling
+Weblinks	merge:Weblink	plural filed as lemma
+bemannen	keep	valid verb lemma
+gelingend	merge:gelingen	present participle form
+kampf	merge:Kampf	lower-case noun
+modifiziert	merge:modifizieren	participle form
+nr	merge:Nummer	abbreviation of a listed word
+pornofilm	merge:Pornofilm	lower-case noun
+stattgefunden	merge:stattfinden	participle form
+verein	merge:Verein	lower-case noun
+verletzungsbedingt	keep	valid adjective/adverb, only the tag is wrong
+wovor	keep	function word
+Attac	drop	organisation name, not a famous institution
+Compilation	keep	established loan
+Kleist	drop	surname
+Osterode	drop	place name
+Pike	keep	valid noun (von der Pike auf)
+Recke	keep	valid noun
+Sechser	keep	valid noun
+Te	drop	meaningless fragment
+Wacke	drop	place name (Wacken)
+bestellung	merge:Bestellung	lower-case noun
+frh	merge:früh	broken encoding
+Anomali	merge:Anomalie	cut-off lemma
+Challeng	merge:Challenge	cut-off form of the loan Challenge
+Murr	merge:murren	forms are murren/murr, a verb
+Prototyping	keep	established loan in German technical use
+abspritz	merge:abspritzen	cut-off verb
+dtv	drop	publisher abbreviation
+prozent	merge:Prozent	lower-case noun
+schaff	merge:schaffen	cut-off or imperative form
+Ag	drop	chemical symbol or abbreviation
+Ginger	drop	English word, mostly names or Ginger Beer
+Rubbellose	merge:Rubbellos	plural filed as lemma
+Rube	drop	mostly the name Ruben
+Songwriting	keep	established loan
+Verkleben	merge:verkleben	capitalised verb infinitive
+fÜr	merge:für	broken casing
+gesundheit	merge:Gesundheit	lower-case noun
+mittag	merge:Mittag	lower-case noun
+Dalla	drop	place name (Dallas) not on the list
+Effizient	merge:effizient	capitalised adjective
+Erinner	merge:erinnern	cut-off verb
+Mißbrauch	merge:Missbrauch	old spelling
+Porridge	keep	established loan for a food
+Razer	drop	brand name
+Wenigste	merge:wenig	inflected form of wenig
+angehäuft	merge:anhäufen	participle of anhäufen
+angereist	merge:anreisen	participle of anreisen
+bie	merge:bieten	cut-off fragment
+vordefinierte	merge:vordefiniert	inflected adjective
+Babel	drop	place or biblical name
+Coburger	drop	derived from a place name not on the list
+Hautirritationen	merge:Hautirritation	plural filed as lemma
+Koblenzer	drop	derived from a place name not on the list
+Vorteilhaft	merge:vorteilhaft	capitalised adjective
+größen	merge:Größe	garbled plural of Größe
+heranzuziehen	merge:heranziehen	zu-infinitive form
+individualisierte	merge:individualisieren	inflected participle
+maß	merge:Maß	forms are Maße and Maßen, plural of the noun Maß
+wahrscheinlicher	merge:wahrscheinlich	comparative form
+zugreifend	merge:zugreifen	present participle
+Bange	merge:bange	forms are almost all the adjective (bange, bangen)
+Eiweiss	merge:Eiweiß	ss-spelling variant
+Erwähnenswert	merge:erwähnenswert	adjective under capitalised lemma
+Primär	merge:primär	adjective under capitalised lemma
+austretend	merge:austreten	present participle filed as lemma
+bauschen	drop	counts are mostly the surname Bausch
+ddp	drop	news-agency abbreviation
+ger	drop	cut-off fragment with no obvious target
+verkrachen	keep	real verb and verkracht is an established adjective
+vibriert	merge:vibrieren	conjugated form
+vol	merge:voll	misspelling
+zufallen	keep	valid separable verb
+Gl	drop	abbreviation or fragment
+Inhaltstoff	merge:Inhaltsstoff	misspelling
+Ortenau	drop	place name not on list
+Rheine	drop	place name not on list
+SUVs	merge:SUV	plural filed as lemma
+Sharepoint	drop	product name
+Velvet	drop	English word or brand name, not an established loan
+abdunkeln	keep	valid verb
+anbieter	merge:Anbieter	noun under lower-case lemma
+drosera	drop	Latin plant name
+giropay	drop	brand name
+In	drop	garbled lemma, forms are the name Ines
+Sanft	merge:sanft	adjective under capitalised lemma
+Siegmund	drop	personal name
+Teamspeak	drop	product name
+doofe	merge:doof	inflected adjective
+eingescannt	merge:einscannen	participle filed as lemma
+kuratiert	merge:kuratieren	participle filed as lemma
+sähen	merge:sehen	conjugated form; examples are Konjunktiv II of sehen
+titelte	merge:titeln	conjugated form
+Brunsbüttel	drop	place name not on list
+Futter	keep	valid noun
+Pflanzenextrakte	merge:Pflanzenextrakt	plural filed as lemma
+darunterliegen	keep	infinitive is a valid dictionary form
+heist	merge:heißen	misspelling of heißt
+konto	merge:Konto	noun under lower-case lemma
+perlen	keep	valid verb
+verdrecken	keep	valid verb
+wiedergeboren	keep	participle used as adjective, with its own entry
+Ergänzende	merge:ergänzend	capitalised inflected participle-adjective
+Hank	drop	personal name
+Kathy	drop	personal name
+Lüttich	drop	place name not on list
+Mem	merge:Meme	English-form and plural-derived lemma of Meme
+Osmanische	merge:osmanisch	adjective filed under a capitalised inflected form
+Primus	keep	common noun (top of class)
+Tora	keep	common noun in the dictionary
+Trocke	merge:trocken	cut-off or inflected form of trocken
+Verschließe	merge:verschließen	verb filed capitalised
+Vidal	drop	personal name
+WA	drop	abbreviation
+Wetterau	drop	place name not on list
+aha	keep	interjection, only the POS tag is wrong
+hintern	merge:Hintern	lower-case noun
+kross	keep	valid adjective, only the POS tag is wrong
+müll	merge:Müll	lower-case noun
+wher	drop	English word or garbled form
+Ars	drop	vulgar or Latin fragment
+Barrierefrei	merge:barrierefrei	adjective filed capitalised
+DT	drop	abbreviation
+Datacenter	keep	established loan
+Dessin	keep	established loan
+Helmstedt	drop	place name not on list
+Innenpool	keep	regular German compound
+Leia	drop	character name
+Livecam	keep	established loan
+Oberrhein	drop	region name not on list
+Paperback	keep	established loan
+Pavel	drop	personal name
+Querverweise	merge:Querverweis	plural filed as lemma
+Se	drop	fragment
+Sozialpädagog	merge:Sozialpädagoge	truncated lemma
+Wenn	merge:wenn	conjunction filed as noun, inflected fragments
+fehlgeschlagen	keep	participle that is an adjective in its own right
+gelegenheit	merge:Gelegenheit	lower-case noun
+grey	drop	English word
+spter	merge:später	broken encoding (ä dropped)
+Blanco	drop	surname/brand name
+Cliff	drop	name
+Flint	drop	mostly a name; Flinte (a different noun) is a minority of the forms
+Spessart	drop	place name not on the reviewed list
+dvd	merge:DVD	lower-case abbreviation of an established loan
+heruntergefahren	merge:herunterfahren	participle filed as lemma
+persona	drop	Latin word
+registrierung	merge:Registrierung	noun filed in lower case
+tunlichst	keep	adverb with its own dictionary entry
+verfassten	merge:verfassen	inflected verb form
+wald	merge:Wald	noun filed in lower case
+weiterverwendet	merge:weiterverwenden	participle filed as lemma
+Cathy	drop	person name
+Crysis	drop	product name
+Görlitzer	drop	derived from a place name
+Kassenärztliche	merge:kassenärztlich	inflected adjective filed under a capitalised lemma
+Scheitern	keep	noun in its own right; scheiterns is its genitive
+Stalker	keep	established English loan
+Tanner	drop	surname
+machend	merge:machen	participle, not an adjective in its own right
+tel	drop	abbreviation/fragment
+werk	merge:Werk	noun filed in lower case
+Avalon	drop	name
+Eschenbach	drop	place name not on the reviewed list
+Flüchtlingsunterkünfte	merge:Flüchtlingsunterkunft	plural filed as lemma
+HuffPost	drop	website/brand name
+Intensive	merge:intensiv	inflected adjective filed under a capitalised lemma
+Momo	drop	name/title of a work
+Montpellier	drop	place name not on the reviewed list
+Ricoh	drop	brand name
+Werfen	merge:werfen	verb in capitalised form (nearly all tokens are verb forms)
+beleuchtung	merge:Beleuchtung	noun filed in lower case
+mutt	merge:Mutter	cut-off fragment of Mutter
+nutzerfreundlicher	merge:nutzerfreundlich	comparative form
+rechten	merge:recht	inflected form of the adjective recht
+Betway	drop	brand name
+Blockieren	merge:blockieren	capitalised verb form
+Headliner	keep	established loan
+Hochtaunus	drop	place name not on list
+Ing	drop	abbreviation/name fragment
+MWSt	merge:Mehrwertsteuer	abbreviation of a listed word
+Süss	merge:süß	misspelt capitalised adjective
+bbw	drop	spam abbreviation
+ergebnis	merge:Ergebnis	lower-case noun
+papier	merge:Papier	lower-case noun
+sc	drop	abbreviation/code
+Barmer	drop	company name
+Coinbase	drop	brand name
+Finsterwalde	drop	place name not on list
+Headhunter	keep	established loan
+Mitt	drop	cut-off/English fragment
+NM	drop	abbreviation
+Polyp	keep	correct singular lemma
+Raptor	drop	brand/team name usage
+Shaun	drop	personal name
+Tätige	merge:tätigen	inflected form of verb tätigen
+Tüv	keep	famous institution
+Unreal	drop	product name
+bericht	merge:Bericht	lower-case noun
+erde	merge:Erde	lower-case noun
+kaffee	merge:Kaffee	lower-case noun
+leerstehend	keep	participial adjective with own entry
+unterbrochen	merge:unterbrechen	participle form
+Antragsstellung	merge:Antragstellung	misspelling
+Ausdrücken	merge:ausdrücken	capitalised verb
+Freistadt	drop	place name not on list
+Gigabit	keep	established technical loan
+Singleborse	merge:Singlebörse	dropped umlaut
+Domän	merge:Domäne	cut-off lemma
+Krist	drop	name fragment
+Lüdinghausen	drop	place name not on list
+Vocals	keep	established loan, used in plural
+hineinversetzen	keep	pronominal verb (sich hineinversetzen)
+hippen	merge:hip	inflected adjective form
+GVBl	drop	specialist abbreviation
+Innehalte	merge:innehalten	cut-off capitalised verb form; surface forms are innehalten
+Kronach	drop	place name not on the list
+Ricky	drop	personal name
+Ruhrpott	drop	regional place name not on the list
+Sachse	keep	ordinary noun for an inhabitant of Saxony, with a distinct meaning from the place name
+Sommerhaus	keep	ordinary compound noun; the Sommerhausen place-name variant doesn't change the lemma
+einzigste	merge:einzig	non-standard inflected superlative of einzig
+hygienischen	merge:hygienisch	inflected adjective form
+meer	merge:Meer	lower-case noun
+paket	merge:Paket	lower-case noun
+stress	merge:Stress	lower-case noun
+umrissen	merge:umreißen	participle form filed as lemma
+Parque	drop	Spanish word and place names, not an established loan
+Präses	keep	real German noun (church or association title)
+Wählerstimme	keep	valid noun; plural forms are only surface variants
+aufflammen	keep	valid separable verb; conjugated variants are only surface forms
+balkon	merge:Balkon	lower-case noun
+bolivianisch	keep	ordinary derived adjective, not a place name
+freitag	merge:Freitag	lower-case noun
+gegensatz	merge:Gegensatz	lower-case noun
+neo	drop	prefix fragment
+unsereiner	keep	pronoun, wrongly tagged ADV
+zuwinken	keep	valid separable verb
+Garda	drop	place name not on the list
+Heidegger	drop	personal name
+Hellblau	merge:hellblau	capitalised adjective; the text is lower-case
+Hotelbuchung	keep	ordinary compound noun
+Lieblingssong	keep	valid compound with the established loan Song
+Novo	drop	brand or foreign name
+Siggi	drop	personal name
+Unsicher	merge:unsicher	capitalised adjective
+mitzuführen	merge:mitführen	zu-infinitive filed as lemma
+ulcerosa	drop	Latin medical term
+Randstad	drop	company or region name
+Soap	keep	established loan (short for Soap Opera)
+ball	merge:Ball	lower-case noun with a wrong tag
+excellence	drop	foreign word, only in "par excellence"
+fabrik	merge:Fabrik	lower-case noun
+gespräch	merge:Gespräch	lower-case noun
+pvp	drop	English abbreviation
+uvm	drop	abbreviation of a phrase (und vieles mehr), not a single word
+Derek	drop	personal name
+Fa	merge:Firma	abbreviation of a listed word
+Gimp	drop	software name
+grossen	merge:groß	ss spelling of groß
+smartphon	merge:Smartphone	cut-off fragment
+technologie	merge:Technologie	lower-case noun
+Alverde	drop	brand name
+Merchandise	keep	established loan
+Morgenpost	drop	regional newspaper name, not a famous institution
+Pforzheimer	drop	derived from place name
+Siebenbürger	drop	region name or demonym
+Wirre	merge:wirr	adjective filed under a capitalised lemma
+jobs	merge:Job	English plural of an established loan
+mans	drop	cut-off fragment with no clear source word
+port	drop	garbled and ambiguous fragment
+reisst	merge:reißen	ss spelling of reißt
+schränkt	merge:einschränken	cut-off verb fragment
+stick	merge:Stick	lower-case noun and loan (USB-Stick, Sticker)
+verstossen	merge:verstoßen	ss spelling
+Bosporus	drop	place name
+Kahl	merge:kahl	adjective filed under a capitalised lemma
+Luch	merge:Luchs	mislemmatised form of Luchs
+Terroir	keep	established loan
+akzeptiert	merge:akzeptieren	inflected participle
+gerettet	merge:retten	inflected participle
+herangetragen	merge:herantragen	participle filed as lemma
+nebensachlich	merge:nebensächlich	missing umlaut
+publica	drop	Latin word, event name
+streamt	merge:streamen	conjugated verb form
+Ausbleibe	merge:ausbleiben	verb filed under a capitalised cut-off lemma
+Selb	drop	place name
+aufgezeichnet	merge:aufzeichnen	inflected participle
+ecke	merge:Ecke	lower-case noun
+eingeklemmt	merge:einklemmen	inflected participle
+mac	drop	brand/abbreviation, not a learnable word
+verantwortungsbewussten	merge:verantwortungsbewusst	inflected adjective form
+Anwende	merge:anwenden	capitalised, cut-off verb form
+Bilderberger	drop	name of a conference group, derived from a place name
+Sechste	merge:sechste	capitalised inflected ordinal
+Sylter	drop	derived from Sylt, a place name not on the list
+Thurgauer	drop	derived from Thurgau, a place name not on the list
+datenblatt	merge:Datenblatt	lower-case noun
+herstellung	merge:Herstellung	lower-case noun
+liiert	keep	participle with its own adjective entry
+sehbehinderte	merge:sehbehindert	inflected adjective form
+sekundar	merge:sekundär	missing umlaut
+Birkenstock	drop	brand name
+Dür	drop	fragment of the place name Düren (mostly "Düren")
+Dürer	drop	person name
+Kimi	drop	name
+Rathenow	drop	place name not on the list
+Yosemite	drop	place name not on the list
+metall	merge:Metall	lower-case noun
+neig	merge:neigen	cut-off verb form
+waehrend	merge:während	transliterated spelling
+Abspritz	merge:abspritzen	cut-off form
+Dahme	drop	place or river name
+Engadin	drop	place name not on the list
+Nachschlage	merge:nachschlagen	cut-off verb form
+Ultras	merge:Ultra	plural filed as a lemma
+Zillertaler	drop	derived from Zillertal, a place name not on the list
+befragt	merge:Befragte	lower-case noun form
+brief	merge:Brief	lower-case noun
+gewinnbringen	merge:gewinnbringend	wrong lemma form of the adjective
+verplanen	keep	infinitive is a valid verb lemma, only the tag is off
+Ansgar	drop	person name
+Bogner	drop	name or brand
+Christliche	merge:christlich	capitalised inflected adjective
+Dexter	drop	name
+Fer	merge:fern	cut-off fragment
+Glck	merge:Glück	broken encoding
+Hierüber	merge:hierüber	capitalised adverb
+Leicester	drop	place or team name not on the list
+Optimus	drop	name or brand
+Reichenau	drop	place name not on the list
+Vogelsberg	drop	place name not on the list
+berg	merge:Berg	lower-case noun
+geschossen	merge:schießen	participle, not an adjective with its own entry
+teilzuhaben	merge:teilhaben	zu-infinitive form
+vorkommend	merge:vorkommen	participle form
+zurückzulegen	merge:zurücklegen	zu-infinitive and inflected form
+Blütenstände	merge:Blütenstand	plural form
+Brownies	merge:Brownie	plural form
+Dateianhänge	merge:Dateianhang	plural form
+Druckerzeugnisse	merge:Druckerzeugnis	plural form
+Ländle	drop	nickname for a region, place name not on the list
+Parma	drop	place name not on the list
+Spitzberg	drop	place name (Spitzbergen) not on the list
+Weiterstadt	drop	place name not on the list
+bemerkenswerte	merge:bemerkenswert	inflected adjective
+ideen	merge:Idee	lower-case plural noun
+Überzeuge	merge:überzeugen	verb filed under a capitalised lemma
+Ada	drop	personal name
+Frühe	merge:früh	inflected adjective filed under a capitalised lemma
+Hooligans	merge:Hooligan	plural form
+Umsteige	merge:umsteigen	verb filed under a capitalised lemma
+kerl	merge:Kerl	lower-case noun
+shar	drop	cut-off English word, not an established loan
+verringert	merge:verringern	participle form
+Athener	keep	demonym is a noun in its own right, not a place name
+Gebrauchte	merge:gebraucht	inflected adjective filed under a capitalised lemma
+Großglockner	drop	place name (mountain) not on the list
+Mysteri	merge:Mysterium	cut-off form of the plural Mysterien
+Philosophische	merge:philosophisch	inflected adjective filed under a capitalised lemma
+Predictive	drop	English word, not an established loan
+Zeil	drop	street name
+abu	drop	name fragment
+anschluss	merge:Anschluss	lower-case noun
+events	merge:Event	English plural of an established loan, lower-case
+gaaaanz	merge:ganz	garbled spelling
+glitzert	merge:glitzern	conjugated verb form
+lter	merge:alt	broken encoding of älter, comparative of alt
+sprach	merge:Sprache	lower-case noun (all forms are "sprache")
+verarbeitung	merge:Verarbeitung	lower-case noun
+verlinkter	merge:verlinken	inflected participle
+Ärzteblatt	keep	famous publication
+Ablege	merge:ablegen	capitalised verb form
+Arbeitnehmende	keep	nominalised participle, a noun in its own right
+Ausschluß	merge:Ausschluss	old spelling
+Enzo	drop	personal name
+Erholungssuchende	keep	nominalised participle, a noun in its own right
+Nordschleife	drop	facility/place name not on the list
+Richie	drop	personal name
+Sensei	keep	established loan
+Ungläubiger	keep	nominalised adjective, a noun in its own right
+fahrzeug	merge:Fahrzeug	lower-case noun
+gesetz	merge:Gesetz	lower-case noun
+kindgerechten	merge:kindgerecht	inflected adjective
+traden	keep	established loan verb
+tägig	drop	cut-off suffix with no obvious target
+Cusco	drop	place name
+Eichsfeld	drop	place name
+Garmisch	drop	place name
+Mart	drop	surname/fragment
+Stör	merge:stören	mostly verb forms
+Vorbeigehe	merge:vorbeigehen	capitalised verb form
+badezimmer	merge:Badezimmer	lower-case noun
+brave	merge:brav	inflected adjective
+erreichend	merge:erreichen	participle form
+ingesamt	merge:insgesamt	misspelling
+seeehr	merge:sehr	elongated misspelling
+spezial	merge:speziell	fragment/inflected form
+vorneherein	merge:vornherein	misspelling
+Amiga	drop	brand name
+Atmungsaktiv	merge:atmungsaktiv	capitalised adjective
+Casey	drop	personal name
+Cornwall	drop	place name
+Dimitri	drop	personal name
+Intern	merge:intern	capitalised adjective
+Profiteure	merge:Profiteur	plural
+Reutlinge	drop	place name, cut off
+TZ	drop	newspaper abbreviation
+Voß	drop	surname
+firmiert	merge:firmieren	conjugated form
+gebloggt	merge:bloggen	participle, not an adjective entry
+germany	drop	English country name, not an adapted loan
+rutsch	merge:rutschen	conjugated form or fragment
+tanz	merge:tanzen	imperative or conjugated form
+Büffet	keep	accepted variant spelling of Buffet
+Erweiter	merge:erweitern	fragment of the verb
+Frameset	drop	English web-technical term
+Goalie	keep	established sports loan
+Inning	drop	English baseball term
+Installiere	merge:installieren	verb filed under a capitalised lemma
+Kaiserstuhl	drop	place name not on the list
+Kelsterbach	drop	place name not on the list
+Lei	drop	foreign currency, mixed with Leier forms
+Op	merge:Operation	abbreviation of a listed word
+Zurverfügungstellung	keep	genuine German noun
+bpc	drop	brand code
+netzwerk	merge:Netzwerk	lower-case noun
+systems	merge:System	English-form inflection
+teppich	merge:Teppich	lower-case noun
+Dt	merge:deutsch	abbreviation of a listed word
+Dustin	drop	personal name
+Gemahl	keep	dated but valid noun
+Haager	drop	place-derived adjective from Den Haag
+Headline	keep	established media loan
+Langweilig	merge:langweilig	adjective under a capitalised lemma
+Lappland	drop	place name not on the list
+Malik	drop	personal name
+Steigenberger	drop	hotel company name
+Understatement	keep	established loan
+Yogalehrerin	keep	feminine noun with its own entry
+entsandt	merge:entsenden	inflected participle forms
+gehegt	merge:hegen	inflected participle forms
+roulett	merge:Roulette	misspelt or inflected form
+Akademische	merge:akademisch	adjective under a capitalised lemma
+Baß	merge:Bass	old spelling
+Erhitz	merge:erhitzen	fragment of the verb
+Inbound	drop	English marketing term
+Koenig	merge:König	Transliterated spelling (oe for ö) of König
+Kollektor	keep	Valid noun lemma; the plural forms are just inflection
+Konfirmand	keep	Valid noun lemma
+Niedersachse	drop	Counts are almost all the place name Niedersachsen, which is not on the list
+Pils	keep	Common beer noun
+Priceline	drop	Company or brand name
+Reaper	drop	English word or product name
+Rürup	drop	Surname (and the Rürup-Rente name)
+Wiehl	drop	Place name not on the list
+Zerrung	keep	Valid noun lemma; the plural is just inflection
+ausgelö	merge:auslösen	Cut-off fragment of the participle ausgelöste
+einladungskarten	merge:Einladungskarte	Lower-case plural noun filed as a verb
+forte	keep	Established musical term in German
+schellen	keep	Valid verb lemma (schellen)
+Überzeugungskraft	keep	Valid noun lemma
+Bison	keep	Valid noun lemma
+Chromecast	drop	Product or brand name
+Lili	drop	Personal name
+Meditier	merge:meditieren	Imperative stem filed as a noun; the counted forms are mostly meditieren
+Pl	drop	Abbreviation
+Pula	drop	Place name or currency, not on the list
+Ricarda	drop	Personal name
+Todesser	drop	Fictional character name (Harry Potter)
+Touchpoint	keep	Established marketing loan
+Universelle	merge:universell	Capitalised inflected adjective
+Zeitlos	merge:zeitlos	Capitalised adjective
+allenthalben	keep	Real adverb; the verb tag is irrelevant
+blut	merge:Blut	Noun filed under a lower-case lemma
+sizzling	drop	English word
+Alcatel	drop	Company or brand name
+Baptist	keep	Valid noun lemma
+Bloch	drop	Surname
+Brandy	keep	Established loan
+Fünfte	merge:fünft	Capitalised inflected ordinal (only fünften is attested)
+GELD	merge:Geld	Upper-case spelling of Geld
+Garnier	drop	Brand or surname
+Grundlegend	merge:grundlegend	Capitalised adjective
+KPIs	drop	Specialist acronym
+Patty	drop	Name or English word; the examples are personal names
+Verrichtung	keep	ordinary noun
+paarmal	keep	"ein paarmal" is an accepted adverb spelling
+schränken	merge:einschränken	cut-off fragment of einschränken
+ungefiltert	keep	adjective with its own entry
+Anbieterin	keep	feminine noun with its own entry
+Belfast	drop	place name not on list
+Erbach	drop	place name not on list
+Fettabbau	keep	ordinary compound noun
+Forsch	merge:forschen	capitalised verb form (most forms are forschen)
+Helpdesk	keep	established loan
+Luftfeucht	merge:Luftfeuchte	cut-off fragment of Luftfeuchte
+Rheinmetall	drop	company name, not a famous institution
+Sera	merge:Serum	plural filed as lemma
+erlaufen	keep	real verb with regular forms
+faxen	keep	real verb (tag error only)
+kandieren	keep	real verb
+Ölfarbe	keep	ordinary noun, plural is a form of it
+Bundesrätin	keep	feminine noun with its own entry
+Forenbetreiber	keep	ordinary compound noun
+Namco	drop	company name
+Opladen	drop	place name not on list
+Veltliner	keep	established noun (Grüner Veltliner)
+abgesagt	merge:absagen	participle form of absagen
+beigesteuert	merge:beisteuern	participle form
+entstanden	merge:entstehen	participle form
+hlt	merge:halten	dropped-letter form (hält)
+junior	keep	established loan word
+Bort	merge:Borte	cut-off fragment of Borte
+Fedora	drop	mostly software or brand name
+Fendt	drop	company name
+Hydra	drop	name, not an established common noun
+Kaliningrad	drop	place name not on list
+Rieg	merge:Riege	cut-off fragment of Riege
+Sasha	drop	personal name
+Tailor	drop	English word or brand part (Tom Tailor)
+falzen	keep	real verb
+kognitive	merge:kognitiv	inflected adjective form
+rasante	merge:rasant	inflected adjective form
+saturn	drop	planet/brand name, not a learnable lemma
+straße	merge:Straße	lower-case noun
+techn	merge:technisch	abbreviation of a listed word
+Deichmann	drop	company/surname
+Parcour	merge:Parcours	misspelling
+Wische	merge:wischen	cut-off/inflected form, mostly wischen
+Wohlgefallen	keep	noun in its own right
+Zuschau	merge:zuschauen	cut-off fragment
+berufsbedingt	keep	valid adjective/adverb, only the tag is off
+dutzend	merge:Dutzend	noun filed lower-case
+ed	drop	meaningless fragment
+hasste	merge:hassen	conjugated form
+kommunikation	merge:Kommunikation	lower-case noun
+schwächelt	merge:schwächeln	conjugated form
+tuen	merge:tun	non-standard form of tun
+Berufstätige	keep	nominalised adjective, a noun in its own right
+Bolz	merge:bolzen	cut-off fragment
+Büsum	drop	place name not on list
+Gabler	drop	surname/publisher name
+Inh	merge:Inhaber	abbreviation of a listed word
+JAHRE	merge:Jahr	plural filed as lemma, upper-case
+Kombo	keep	established colloquial loan
+Lipgloss	keep	established loan
+Mopped	merge:Moped	misspelling
+Nordhaus	drop	place name
+Rück	drop	cut-off fragment with no clear target
+Striptease	keep	established loan
+Tolino	drop	brand name
+Unbekannt	merge:unbekannt	adjective under a capitalised lemma
+beschreibung	merge:Beschreibung	lower-case noun
+ios	drop	product/OS name
+mißbrauchen	merge:missbrauchen	old spelling
+transfer	merge:Transfer	lower-case noun
+uro	drop	fragment
+verstanden	merge:verstehen	participle forms filed as lemma
+verunfallen	keep	valid verb, forms are its participles
+wieg	merge:wiegen	imperative/stem form
+Außergewöhnlich	merge:außergewöhnlich	adjective under a capitalised lemma
+Craps	drop	English game name, not an established loan
+Dschihad	keep	established loan in German
+Fintech	keep	established loan
+Geschäftspraktik	keep	singular lemma is correct, so the plural-heavy usage doesn't matter
+Goodie	keep	adapted loan
+Greis	keep	ordinary German noun
+Irgendwas	merge:irgendwas	pronoun filed under a capitalised lemma
+Mitbewohnerin	keep	own feminine entry
+Problemlos	merge:problemlos	adjective filed under a capitalised lemma
+Statist	keep	ordinary noun, singular lemma
+Supercup	keep	German compound noun in general use
+Uncategorized	drop	English template text
+deal	merge:Deal	lower-case noun, mixed with dealer
+moderne	merge:modern	inflected adjective form
+ohr	merge:Ohr	lower-case noun
+sexualisierte	merge:sexualisieren	inflected participle
+waagrecht	keep	valid adjective, only the tag is wrong
+Üben	merge:üben	verb filed under a capitalised lemma
+Aufgepasst	merge:aufpassen	participle or imperative form of the verb
+Aufkleben	merge:aufkleben	verb filed under a capitalised lemma
+Bagel	keep	established loan
+Bridgestone	drop	company name
+Geoffrey	drop	person name
+Lindenhof	drop	place or facility name
+geburt	merge:Geburt	lower-case noun
+pectoris	drop	Latin word from a medical term
+sL	drop	abbreviation or code
+traum	merge:Traum	lower-case noun
+vhs	merge:Volkshochschule	abbreviation of a listed word
+Adelheid	drop	person name
+Borusse	keep	dictionary noun
+Brady	drop	person name
+Erkelenz	drop	place name not on the list
+Esch	drop	place name or surname
+Flotte	keep	ordinary noun, the lemma is correct
+Kandel	drop	place name or surname
+Nemo	drop	name or character
+Omaha	drop	place name not on list
+Pädophil	merge:pädophil	adjective filed under a capital
+Rahel	drop	person name
+Sexdate	keep	established loan with its own plural
+Vogelsang	drop	place name or surname
+dekoration	merge:Dekoration	noun filed in lower case
+ni	drop	fragment with no clear target
+AMC	drop	company abbreviation
+Fuldaer	drop	adjective derived from a place name not on the list
+Hauptverwaltung	keep	ordinary compound noun
+Hinten	merge:hinten	adverb filed under a capital
+Kolosseum	keep	famous landmark with an adapted German spelling
+Mandarin	keep	ordinary word (language, fruit)
+Teuer	merge:teuer	adjective filed under a capital
+Trentino	drop	place name not on list
+Verstellbarer	merge:verstellbar	inflected adjective filed under a capital
+Zion	drop	place name not on list
+angegriffen	keep	participle with its own adjective entry
+ankleiden	keep	real verb lemma
+bestätigt	merge:bestätigen	only inflected participle forms
+hochstehen	keep	real verb lemma
+kicker	merge:Kicker	noun filed in lower case
+linie	merge:Linie	noun filed in lower case
+pet	drop	forms are only the names Peter and Pete
+Donuts	merge:Donut	plural filed as lemma
+Idealerweise	merge:idealerweise	adverb filed under a capital
+Leoben	drop	place name not on list
+PageRank	drop	brand or product name
+Pfingstsonntag	keep	ordinary holiday noun
+ausgestrahlt	merge:ausstrahlen	participle filed as lemma
+bordell	merge:Bordell	noun filed in lower case
+dermassen	merge:dermaßen	misspelling of dermaßen
+galaxy	merge:Galaxie	English spelling of an adapted word
+mindesten	merge:mindest	inflected form
+thun	merge:tun	archaic spelling
+Antigua	drop	place name not on list
+Arafat	drop	person name
+Ipad	drop	brand or product name
+Lenke	merge:lenken	verb form filed as noun
+Persische	merge:persisch	capitalised inflected adjective
+Preußische	merge:preußisch	capitalised inflected adjective
+Reel	drop	English social-media term, not an established loan
+Saarländische	merge:saarländisch	capitalised inflected adjective
+Thumbnail	keep	established loan in German IT usage
+display	merge:Display	noun filed under a lower-case lemma
+dit	drop	French/Dutch foreign word
+hoc	drop	Latin fragment of "ad hoc"
+sigmaringen	drop	place name not on the list
+teilig	drop	cut-off -teilig fragment with no standalone target
+Berufsbildende	merge:berufsbildend	capitalised inflected adjective
+Fernreisen	merge:Fernreise	plural filed as lemma
+Gleit	merge:gleiten	verb form filed as a capitalised noun
+Königstraße	drop	street/place name
+PCIe	drop	specialist acronym
+ZHAW	drop	specialist abbreviation, institution not famous enough
+alla	drop	Italian foreign word
+begleitet	merge:begleiten	participle form
+errettet	merge:erretten	participle form
+loszulegen	merge:loslegen	zu-infinitive form
+medikament	merge:Medikament	noun filed under a lower-case lemma
+verfgbar	merge:verfügbar	broken encoding
+zugeschaltet	merge:zuschalten	participle form
+Brandenburgische	merge:brandenburgisch	capitalised inflected adjective
+Fitch	drop	company name
+Fürstin	keep	own feminine entry
+Geringste	merge:gering	capitalised inflected superlative (im Geringsten)
+Kampfjets	merge:Kampfjet	plural filed as lemma
+Klarstein	drop	brand name
+grundiert	merge:grundieren	participle form
+missglückt	merge:missglücken	participle form
+mässig	merge:mäßig	Swiss spelling/misspelling
+orginal	merge:original	misspelling
+populärst	merge:populär	superlative form
+reisend	merge:reisen	participle form
+ur	drop	prefix fragment
+wiki	merge:Wiki	noun filed under a lower-case lemma
+Europaabgeordnete	keep	nominalised adjective that is a noun in its own right
+Fichtelgebirge	drop	place name not on the list
+Gbit	drop	unit abbreviation
+Geistige	merge:geistig	capitalised adjective; the examples show attributive adjective use
+Hg	drop	abbreviation/chemical symbol, not learnable
+Maidan	drop	place name not on the list
+PatientIn	merge:Patientin	gendered spelling variant of Patientin
+Siegener	drop	adjective derived from a place name (Siegen), capitalised and not on the list
+geliehen	merge:leihen	participle form
+generalisieren	keep	valid verb infinitive, only the POS tag is off
+gesenkt	merge:senken	participle form
+heranzukommen	merge:herankommen	zu-infinitive form
+lippen	merge:Lippe	plural of Lippe filed as a lower-case verb
+migriert	merge:migrieren	conjugated form
+oderMehr	drop	garbled concatenation, no real word
+schwerbehinderte	merge:schwerbehindert	inflected adjective
+selbstbewussten	merge:selbstbewusst	inflected adjective
+BZSt	drop	specialist acronym
+Baumgarten	drop	surname/place name
+Bestehende	merge:bestehend	inflected adjective use
+Brandl	drop	surname
+Contao	drop	product name
+Lottoland	drop	brand name
+MÜSSEN	merge:müssen	capitalised verb form
+Payback	drop	brand name
+Raabe	drop	surname
+Sideboards	merge:Sideboard	plural form
+beilaufig	merge:beiläufig	missing umlaut
+mallorquinisch	keep	ordinary adjective with its own dictionary entry
+vergrößert	merge:vergrößern	participle form
+Bandbreit	merge:Bandbreite	cut-off fragment
+Einmalig	merge:einmalig	adjective filed under a capitalised lemma
+Himbeer	merge:Himbeere	cut-off fragment
+Hohenzoller	drop	dynasty/place name
+Hyde	drop	name
+Netanyahu	drop	person name
+detail	merge:Detail	lower-case noun
+drinne	merge:drinnen	colloquial variant
+herbst	merge:Herbst	lower-case noun
+steifer	merge:steif	inflected comparative
+Adlige	keep	nominalised adjective that is a noun in its own right, like Adliger/Adlige
+Ammerland	drop	place name not on the reviewed list
+Ceranfeld	keep	established kitchen-appliance compound noun
+FeWo	merge:Ferienwohnung	abbreviation of a listed word
+IDs	merge:ID	plural of a common abbreviation
+Kreuzberger	drop	adjective derived from a place name
+Nordwestschweiz	drop	region name not on the list
+Piz	drop	name element or fragment
+Rech	merge:Rechen	cut-off fragment, mostly written rechen
+Schneeschuhwander	merge:Schneeschuhwandern	cut-off fragment of the nominalised verb
+Unicorn	drop	English word and brand names; German is Einhorn
+VIER	merge:vier	capitalised number word
+beteiligten	merge:beteiligen	inflected form filed as lemma
+dreissig	merge:dreißig	non-standard spelling
+getrieben	merge:treiben	inflected participle filed as lemma
+gruppen	merge:Gruppe	lower-case plural of a noun
+pulverbeschichtetem	merge:pulverbeschichtet	inflected adjective form
+saison	merge:Saison	lower-case noun
+Beschlussfähigkeit	keep	valid noun
+Grüß	merge:Gruß	plural or fragment form of Gruß
+Handlungsstränge	merge:Handlungsstrang	plural filed as lemma
+Hidde	drop	garbled English "hidden"
+Hülse	keep	correct singular lemma; only the plural is attested
+Mandala	keep	established loan
+Matze	drop	nickname or given name
+Pantheon	keep	established noun
+Persi	drop	cut-off of the place name Persien
+Reid	drop	surname
+Slowene	keep	valid demonym noun
+Wirtschaftsplan	keep	valid compound noun
+abgetreten	merge:abtreten	participle with no own adjective entry
+ebenholz	merge:Ebenholz	lower-case noun
+portal	merge:Portal	lower-case noun
+restaurant	merge:Restaurant	lower-case noun
+tee	merge:Tee	lower-case noun
+verwahrlosen	keep	correct verb lemma
+änderung	merge:Änderung	lower-case noun
+Franziskaner	keep	valid noun for members of the order
+Golfstaat	keep	valid compound noun
+Jessie	drop	given name
+Kauder	drop	surname
+Klack	merge:Klacks	cut-off fragment; most forms are Klacks
+Marktstraße	drop	street name, not on the reviewed list
+Starterset	keep	established compound
+Stent	keep	established medical loan
+Wisch	keep	real noun (Wisch)
+Wüstenrot	drop	company and place name
+award	merge:Award	lower-case noun, English spelling
+eingeloggte	merge:einloggen	inflected participle form without its own adjective entry
+kreiert	merge:kreieren	participle form
+nahen	keep	verb infinitive is a correct lemma
+Börsenverein	keep	famous institution
+Fanshop	keep	established loan compound
+Hochdeutsch	keep	noun naming a language variety
+Investier	merge:investieren	cut-off imperative stem; the forms are mostly investieren
+Panem	drop	fictional place name
+Popo	keep	common colloquial noun
+Rother	drop	surname
+Schnapp	merge:schnappen	cut-off or interjection fragment; the forms are mostly schnappen
+Sozialistische	merge:sozialistisch	adjective under a capitalised lemma
+Wunderbares	merge:wunderbar	adjective under a capitalised lemma
+dessous	merge:Dessous	lower-case noun
+duellieren	keep	reflexive verb sich duellieren
+esst	merge:essen	conjugated form
+sechst	merge:sechste	cut-off ordinal form
+twittert	merge:twittern	conjugated form
+übern	merge:über	contraction of über den
+Bruns	drop	surname
+Diclofenac	keep	well-known drug name, common in general text
+Docker	drop	product name
+Emotional	merge:emotional	adjective under a capitalised lemma
+Longplayer	keep	established loan
+Pranayama	drop	specialist foreign word
+Tyrannen	merge:Tyrann	plural filed as lemma
+bersicht	merge:Übersicht	broken encoding
+boot	merge:Boot	lower-case noun
+bus	merge:Bus	lower-case noun, wrong POS
+documenta	keep	famous art exhibition, treated as a famous institution
+durchströmen	keep	valid verb, only the POS tag is wrong
+erlernt	merge:erlernen	participle forms, no adjective entry of its own
+jaja	keep	interjection, only the tag is wrong
+keck	keep	valid adjective, only the tag is wrong
+klassich	merge:klassisch	misspelling
+sieg	merge:Sieg	lower-case noun
+Filderstadt	drop	place name not on the list
+Gestapo	keep	famous historical institution
+Gnome	merge:Gnom	plural form filed as a lemma
+Lourdes	drop	place name not on the list
+Markier	merge:markieren	verb form filed under a capitalised lemma
+Marlon	drop	person name
+Sanchez	drop	person name
+Vulkaneifel	drop	place name not on the list
+Wfl	merge:Wohnfläche	abbreviation of a listed word
+beerben	keep	valid verb; the stray form "bearb" is noise
+fhrt	merge:führen	broken encoding
+imag	merge:Image	cut-off fragment
+iur	drop	Latin abbreviation fragment
+selbstkleben	merge:selbstklebend	inflected participle forms of selbstklebend
+sonstwie	keep	colloquial adverb, only the tag is wrong
+Abhole	merge:abholen	verb filed under a capitalised lemma
+Alkoholeinfluss	keep	valid compound noun
+Dachgeschoß	merge:Dachgeschoss	old spelling
+Kabellänge	keep	valid compound noun
+Krper	merge:Körper	broken encoding
+Loki	drop	mythological name, treated as an other name
+Mic	merge:Mikrofon	clipping of a listed word
+Tabellenletzte	keep	nominalised adjective, a noun in its own right
+Wurz	merge:Wurzel	cut-off fragment
+aufnahmen	merge:aufnehmen	conjugated form
+besucht	merge:besuchen	participle forms
+gestärkt	merge:stärken	participle forms
+huren	keep	valid verb
+loten	keep	valid verb; infinitive is the lemma
+medien	merge:Medien	noun with its own meaning in the plural, filed under a lower-case lemma
+sexfilme	merge:Sexfilm	plural form
+zeitung	merge:Zeitung	lower-case noun
+Überbelastung	keep	valid noun; the garbled variant is a minor form
+Avis	drop	rare French loan, not established in German
+Bong	keep	established loan for a water pipe
+Entwicklungspotenzial	keep	valid lemma, the potential/potenzial variant is only a spelling variant
+Nagold	drop	place name not on the reviewed list
+Pessimist	keep	singular is the lemma, plural is just an inflected form
+Poolbar	keep	ordinary German compound
+Solinger	drop	adjective derived from a place name
+Ural	drop	geographic name
+Voodoo	keep	established loan
+balance	merge:Balance	lower-case noun filed under the wrong case
+laesst	merge:lassen	transliterated inflected form of lassen
+metallic	keep	established loan adjective (Metallic-Lackierung)
+oO	drop	chat code/emoticon
+retournieren	keep	valid German verb
+selbsternannte	merge:selbsternannt	inflected adjective filed as lemma
+veraltet	keep	adjective with its own dictionary entry
+vergilben	keep	valid verb, dictionary form
+wunsch	merge:Wunsch	lower-case noun
+Übergangsregierung	keep	ordinary noun
+Bianco	drop	Italian word/surname
+Giropay	drop	brand name
+Heather	drop	English first name
+Lowboard	keep	established loan
+Minimal	merge:minimal	adjective filed under a capitalised lemma
+Verwundete	keep	nominalised adjective, noun in its own right
+heile	merge:heil	inflected form of heil
+latex	merge:Latex	lower-case noun
+wärend	merge:während	misspelling
+überspitzen	keep	valid verb, dictionary form
+Atlantische	merge:atlantisch	inflected adjective filed under a capitalised lemma
+Blacklist	keep	established loan
+Bootloader	keep	established IT loan
+Britin	keep	feminine noun with its own entry
+Klamm	keep	capitalised noun in its own right (gorge)
+Mecklenburgische	merge:mecklenburgisch	inflected adjective filed under a capitalised lemma
+bmw	drop	brand abbreviation
+disruptiv	keep	valid adjective
+festgehalten	merge:festhalten	inflected participle with no adjective entry of its own
+geist	merge:Geist	lower-case noun
+mitglied	merge:Mitglied	lower-case noun
+saug	merge:saugen	imperative/stem form
+startend	merge:starten	present participle, no own adjective entry
+unbefangen	keep	adjective with its own entry
+ung	drop	cut-off fragment with no obvious target
+verschwiegen	keep	participle adjective with its own entry
+Coffeeshop	keep	established loan
+Editier	merge:editieren	stem fragment
+Einsteig	merge:einsteigen	stem fragment
+Filler	keep	established loan (cosmetic filler)
+Forststraße	keep	valid noun; ss/ß variants only
+Friedel	drop	personal name
+Hindus	merge:Hindu	plural filed as lemma
+Kunstschaffende	keep	nominalised adjective, noun in its own right
+Linktipp	keep	valid compound noun
+Mieder	keep	real noun (garment)
+Obliegenheit	keep	valid noun
+Pfefferkörner	merge:Pfefferkorn	plural filed as lemma
+Thal	merge:Tal	archaic spelling of Tal
+Twain	drop	personal name
+diplomarbeit	merge:Diplomarbeit	lower-case noun
+ergebnisse	merge:Ergebnis	lower-case plural
+fahrrad	merge:Fahrrad	lower-case noun
+gelösten	merge:lösen	inflected participle
+hall	merge:Halle	cut-off fragment
+interactiv	merge:interaktiv	English/misspelt form
+lizensiert	merge:lizenzieren	misspelt participle
+pornokino	merge:Pornokino	lower-case noun
+sen	drop	cut-off fragment with no obvious target
+vergrössert	merge:vergrößern	Swiss-spelt participle
+werd	merge:werden	garbled form
+zahlung	merge:Zahlung	lower-case noun
+ABUS	drop	brand name
+Ascorbinsäure	keep	accepted variant spelling
+Auflege	merge:auflegen	stem fragment
+Ausschlaggebend	merge:ausschlaggebend	capitalised adjective
+Begrüssung	merge:Begrüßung	Swiss spelling
+Erotisch	merge:erotisch	capitalised adjective
+Flipper	keep	established loan (pinball machine)
+Highspeed	keep	Established loan in German usage (Highspeed-Internet)
+Mittelland	drop	Region name not on the reviewed list
+Mountainbikes	merge:Mountainbike	Plural filed as lemma
+Mühlviertel	drop	Region name not on the reviewed list
+Rabbit	drop	English word or name, not an established loan
+Unilever	drop	Company name, not a famous institution
+Vot	merge:Vote	Garbled form of the English-origin noun Vote (votes, voten)
+alliierte	merge:alliiert	Inflected adjective form
+jeans	merge:Jeans	Lower-case noun
+polizei	merge:Polizei	Lower-case noun
+schuh	merge:Schuh	Lower-case noun
+übung	merge:Übung	Lower-case noun
+Diss	drop	Colloquial clipping or abbreviation
+Muck	merge:Mucks	Cut-off fragment of Mucks
+Sach	merge:Sache	Cut-off fragment of Sache
+Verf	merge:Verfasser	Abbreviation of Verfasser
+block	merge:Block	Lower-case noun
+consulting	merge:Consulting	Lower-case noun, established loan
+dbb	drop	Organisation acronym
+existireren	merge:existieren	Misspelt verb
+fleisch	merge:Fleisch	Lower-case noun
+gegner	merge:Gegner	Lower-case noun
+herausgeholt	merge:herausholen	Participle form filed as lemma
+mio	merge:Million	Abbreviation of Million
+ruck	merge:Ruck	Lower-case noun
+status	merge:Status	Lower-case noun
+Abschicke	merge:abschicken	Verb form filed under a capitalised lemma
+Alhambra	drop	Place or building name, or car model, not on the list
+Auf	merge:auf	Capitalised preposition (aufs)
+Ausweiche	merge:ausweichen	Verb form filed under a capitalised lemma
+Barclay	drop	Personal or brand name
+Drosten	drop	Personal name
+Eßplatz	merge:Essplatz	Old spelling
+Poly	drop	Cut-off fragment with no obvious target
+Rioja	drop	Place or region name not on the list
+Sämlinge	merge:Sämling	Plural filed as lemma
+Verfolgte	keep	Nominalised participle, a noun in its own right
+april	merge:April	Lower-case noun
+stars	merge:Star	English plural, adapted loan Star
+zielgerichteten	merge:zielgerichtet	inflected adjective form
+Atla	merge:Atlas	cut-off of Atlas
+Maggi	drop	brand name
+Maritime	merge:maritim	capitalised inflected adjective
+Orginal	merge:Original	misspelling
+Paragon	drop	English word or product name
+Russel	drop	name
+Schwedt	drop	place name not on list
+Toby	drop	person name
+produktion	merge:Produktion	lower-case noun
+Ehrenfeld	drop	place name
+Empfehl	merge:empfehlen	truncated verb stem
+HI	drop	abbreviation or code
+Hartung	drop	surname
+Hockenheimring	drop	place or facility name not on list
+Malibu	drop	place name or brand
+Parallel	merge:Parallele	inflected form of the noun
+Pfr	merge:Pfarrer	abbreviation of a listed word
+Sous	drop	French word or garbled
+rissen	merge:reißen	conjugated form
+shemal	drop	English spam term
+tank	merge:tanken	verb form mis-filed
+Ahr	drop	river or place name
+Heiligenstadt	drop	place name
+Nena	drop	person name
+ausgehebelt	merge:aushebeln	participle
+fil	drop	fragment or English "files"
+gekannt	merge:kennen	participle with no adjective entry of its own
+grösstenteils	merge:größtenteils	ss for ß spelling
+kombination	merge:Kombination	lower-case noun
+sterreich	merge:Österreich	broken encoding
+stv	drop	abbreviation
+trink	merge:trinken	truncated verb stem
+wun	merge:wund	cut-off fragment
+Ö	drop	single letter
+Arabi	drop	cut-off of the place name Arabien
+Brenz	drop	river or place name
+Christuskirche	drop	specific church name, not a famous institution
+Ellie	drop	first name
+Kimmich	drop	surname of a person
+Krass	merge:krass	adjective filed under a capital
+Mindener	drop	place-derived adjective (Minden), not on the reviewed list
+Tempelhofer	drop	place-derived (Tempelhof), not on the reviewed list
+Verwandel	merge:verwandeln	truncated, capitalised verb stem
+char	drop	fragment, not a German lemma
+gelüsten	keep	real verb (es gelüstet jdn), correctly lemmatised
+htte	merge:haben	broken encoding of hätte, a form of haben
+indoor	drop	English word, not an established loan
+tatschlich	merge:tatsächlich	broken encoding
+ton	merge:Ton	noun filed in lower case
+Aufnehmen	merge:aufnehmen	verb filed under a capital
+Benehme	merge:Benehmen	cut-off form; the example shows the noun Benehmen
+Identifizier	merge:identifizieren	cut-off verb stem
+Kassa	keep	real regional variant with its own entry
+Klaue	keep	correct singular noun; "klauen" is only the plural written form
+Patin	keep	feminine noun with its own entry
+Rammstein	drop	band name, not a famous institution
+Regierungschefin	keep	feminine noun with its own entry
+Rev	drop	abbreviation or fragment
+Sondern	merge:sondern	conjunction filed under a capital
+Syriza	drop	foreign party name
+Thiem	drop	surname of a person
+Thür	merge:Tür	archaic or misspelt form of Tür
+Webhoster	keep	transparent established compound noun
+aufgaben	merge:aufgeben	inflected verb form in lower case
+gönn	merge:gönnen	truncated imperative stem
+hrt	merge:hören	broken encoding of hört
+kWp	drop	specialist unit abbreviation
+org	drop	web suffix, not a word
+rabattieren	keep	real verb with its own entry
+selbigen	merge:selbig	inflected adjective form
+vie	drop	non-German fragment
+Ander	merge:ander	inflected adjective form under a capital
+Betablocker	keep	established medical noun
+Chiptuning	keep	established loan noun
+Greiner	drop	surname of a person
+Hebräer	keep	noun in its own right (the people, and the biblical book)

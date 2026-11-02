@@ -1,0 +1,42 @@
+Waltraud	drop	personal name
+abgeschnitten	merge:abschneiden	inflected participle forms only, filed as lemma
+anstimmen	keep	valid verb infinitive
+campen	keep	established loan verb
+fermentiert	merge:fermentieren	participle, no separate adjective entry
+nachhinein	merge:Nachhinein	lower-case noun fragment of "im Nachhinein"
+Anette	drop	personal name
+Bestimmte	merge:bestimmt	inflected adjective forms, written lower-case
+Chatt	merge:chatten	truncated form of chatten
+Ergonomisch	merge:ergonomisch	adjective under a capitalised lemma
+Heimmannschaft	keep	valid compound noun
+Messner	drop	surname
+Paroli	keep	established loan
+Poncho	keep	established loan
+Vorraus	merge:Voraus	misspelling
+Weblinks	merge:Weblink	plural of an adapted English compound
+bemannen	keep	valid infinitive lemma
+gelingend	merge:gelingen	present participle form
+kampf	merge:Kampf	lower-case noun
+modifiziert	merge:modifizieren	participle form
+nachrichten	merge:Nachricht	lower-case plural noun
+nr	merge:Nummer	abbreviation of a listed word
+pornofilm	merge:Pornofilm	lower-case noun
+stattgefunden	merge:stattfinden	participle form
+verein	merge:Verein	lower-case noun
+verletzungsbedingt	keep	valid adjective/adverb, only the tag is wrong
+wovor	keep	function word
+Attac	drop	activist organisation, not a famous institution
+Compilation	keep	established loan
+Kleist	drop	surname
+Osterode	drop	place name not on list
+Pike	keep	real noun (von der Pike auf)
+Recke	keep	real noun (der Recke)
+Sechser	keep	valid noun
+Te	drop	meaningless fragment
+Twister	drop	brand/game name
+Wacke	drop	evidence is the place name Wacken
+bestellung	merge:Bestellung	lower-case noun
+frh	merge:früh	broken encoding
+Anomali	merge:Anomalie	cut-off lemma
+# question Attac: unclear whether a well-known activist organisation counts as a "famous institution" (keep) or an "other name" (drop); I dropped it.
+# question Te: a fragment with no obvious target word, so the rule to merge fragments can't be applied; I dropped it.

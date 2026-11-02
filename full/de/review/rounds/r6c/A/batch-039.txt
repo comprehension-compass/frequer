@@ -1,0 +1,44 @@
+Kauder	drop	surname
+Klack	merge:Klacks	cut-off fragment; most forms are Klacks
+Marktstraße	drop	street name, not on the reviewed list
+Prompt	keep	established loan and German adverb
+Starterset	keep	established compound
+Stent	keep	established medical loan
+Wisch	keep	real noun (Wisch)
+Wüstenrot	drop	company and place name
+award	merge:Award	lower-case noun, English spelling
+center	merge:Center	lower-case noun, wrong POS
+eingeloggte	merge:einloggen	inflected participle form without its own adjective entry
+kreiert	merge:kreieren	participle form
+nahen	keep	verb infinitive is a correct lemma
+Börsenverein	keep	famous institution
+Fanshop	keep	established loan compound
+Hochdeutsch	keep	noun naming a language variety
+Investier	merge:investieren	cut-off imperative stem; the forms are mostly investieren
+Panem	drop	fictional place name
+Popo	keep	common colloquial noun
+Rother	drop	surname
+Schnapp	merge:schnappen	cut-off or interjection fragment; the forms are mostly schnappen
+Sozialistische	merge:sozialistisch	adjective under a capitalised lemma
+Wunderbares	merge:wunderbar	adjective under a capitalised lemma
+dessous	merge:Dessous	lower-case noun
+duellieren	keep	reflexive verb sich duellieren
+esst	merge:essen	conjugated form
+frites	merge:Pommes frites	fragment of Pommes frites
+sechst	merge:sechste	cut-off ordinal form
+twittert	merge:twittern	conjugated form
+übern	merge:über	contraction of über den
+Bruns	drop	surname
+Diclofenac	keep	well-known drug name, common in general text
+Docker	drop	product name
+Emotional	merge:emotional	adjective under a capitalised lemma
+Longplayer	keep	established loan
+Pranayama	drop	specialist foreign word
+Tyrannen	merge:Tyrann	plural filed as lemma
+bersicht	merge:Übersicht	broken encoding
+boot	merge:Boot	lower-case noun
+bus	merge:Bus	lower-case noun, wrong POS
+# question Marktstraße: it is a compound common noun, but the evidence shows it used almost only as a street name, so I dropped it.
+# question sechst: the ordinal dictionary form is not specified, so I chose sechste.
+# question Pranayama: it could count as an established loan in yoga vocabulary, but I treated it as a specialist foreign word.
+# question center: could also be treated as an adapted-word spelling of Zentrum, but I chose Center since it is used in German as a loan.

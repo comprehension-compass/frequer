@@ -1,0 +1,44 @@
+Avis	drop	rare French loan, not established in German
+Bong	keep	established loan for a water pipe
+Entwicklungspotenzial	keep	valid lemma, the potential/potenzial variant is only a spelling variant
+Nagold	drop	place name not on the reviewed list
+Pessimist	keep	singular is the lemma, plural is just an inflected form
+Poolbar	keep	ordinary German compound
+Solinger	drop	adjective derived from a place name
+Ural	drop	geographic name
+Voodoo	keep	established loan
+balance	merge:Balance	lower-case noun filed under the wrong case
+laesst	merge:lassen	transliterated inflected form of lassen
+metallic	keep	established loan adjective (Metallic-Lackierung)
+oO	drop	chat code/emoticon
+retournieren	keep	valid German verb
+selbsternannte	merge:selbsternannt	inflected adjective filed as lemma
+veraltet	keep	adjective with its own dictionary entry
+vergilben	keep	valid verb, dictionary form
+wunsch	merge:Wunsch	lower-case noun
+Übergangsregierung	keep	ordinary noun
+Bianco	drop	Italian word/surname
+Fried	drop	mostly a surname
+Giropay	drop	brand name
+Heather	drop	English first name
+Lowboard	keep	established loan
+Minimal	merge:minimal	adjective filed under a capitalised lemma
+Verwundete	keep	nominalised adjective, noun in its own right
+gehört	merge:gehören	participle/inflected forms of gehören filed as a noun
+heile	merge:heil	inflected form of heil
+latex	merge:Latex	lower-case noun
+wärend	merge:während	misspelling
+überspitzen	keep	valid verb, dictionary form
+Atlantische	merge:atlantisch	inflected adjective filed under a capitalised lemma
+Blacklist	keep	established loan
+Bootloader	keep	established IT loan
+Britin	keep	feminine noun with its own entry
+Klamm	keep	capitalised noun in its own right (gorge)
+Mecklenburgische	merge:mecklenburgisch	inflected adjective filed under a capitalised lemma
+bmw	drop	brand abbreviation
+disruptiv	keep	valid adjective
+festgehalten	merge:festhalten	inflected participle with no adjective entry of its own
+# question Fried: the forms are mostly the surname, but friede/friedes suggest some belong to Friede; dropped as a name
+# question Klamm: counted text is only lower-case klamm (adjective?), kept as the noun Klamm, which may be wrong
+# question metallic: the lemma is English-looking, kept as an established German loan adjective
+# question Bootloader: may count as a specialist term rather than an established loan, kept

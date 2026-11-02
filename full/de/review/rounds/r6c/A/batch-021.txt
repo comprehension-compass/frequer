@@ -1,0 +1,45 @@
+Bange	merge:bange	forms are almost all the adjective (bange, bangen)
+Eiweiss	merge:Eiweiß	ss-spelling variant
+Erwähnenswert	merge:erwähnenswert	adjective under capitalised lemma
+Primär	merge:primär	adjective under capitalised lemma
+austretend	merge:austreten	present participle filed as lemma
+bauschen	drop	counts are mostly the surname Bausch
+ddp	drop	news-agency abbreviation
+ger	drop	cut-off fragment with no obvious target
+verkrachen	keep	real verb and verkracht is an established adjective
+vibriert	merge:vibrieren	conjugated form
+vol	merge:voll	misspelling
+zufallen	keep	valid separable verb
+Gl	drop	abbreviation or fragment
+Inhaltstoff	merge:Inhaltsstoff	misspelling
+Ortenau	drop	place name not on list
+Rheine	drop	place name not on list
+SUVs	merge:SUV	plural filed as lemma
+Sharepoint	drop	product name
+Velvet	drop	English word or brand name, not an established loan
+abdunkeln	keep	valid verb
+anbieter	merge:Anbieter	noun under lower-case lemma
+drosera	drop	Latin plant name
+giropay	drop	brand name
+In	drop	garbled lemma, forms are the name Ines
+Sanft	merge:sanft	adjective under capitalised lemma
+Siegmund	drop	personal name
+Teamspeak	drop	product name
+doofe	merge:doof	inflected adjective
+eingescannt	merge:einscannen	participle filed as lemma
+kuratiert	merge:kuratieren	participle filed as lemma
+sähen	merge:sehen	conjugated form; examples are Konjunktiv II of sehen
+titelte	merge:titeln	conjugated form
+Brunsbüttel	drop	place name not on list
+Futter	keep	valid noun
+Pflanzenextrakte	merge:Pflanzenextrakt	plural filed as lemma
+darunterliegen	keep	infinitive is a valid dictionary form
+heist	merge:heißen	misspelling of heißt
+konto	merge:Konto	noun under lower-case lemma
+perlen	keep	valid verb
+verdrecken	keep	valid verb
+# question Bange: "keine Bange" is a noun use, but most forms are the adjective, so I chose merge:bange.
+# question bauschen: the verb is real, but most of the counts are the surname Bausch; I chose drop.
+# question ger: the forms (ger, gere, gerste) have no obvious target, so I dropped it rather than merging.
+# question verkrachen: the forms are mainly the adjective verkracht (verkrachte Existenz); I kept the verb lemma.
+# question darunterliegen: the forms are mostly participles, but the lemma is the infinitive, so I kept it.

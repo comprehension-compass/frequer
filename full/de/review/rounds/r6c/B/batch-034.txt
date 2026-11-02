@@ -1,0 +1,45 @@
+Craps	drop	English game name, not an established loan
+Dschihad	keep	established loan
+Fintech	keep	established loan in business German
+Geschäftspraktik	keep	singular lemma, correctly formed
+Goodie	keep	established loan
+Greis	keep	ordinary noun
+Irgendwas	merge:irgendwas	pronoun wrongly capitalised
+Mitbewohnerin	keep	own feminine entry
+Problemlos	merge:problemlos	adjective wrongly capitalised
+Statist	keep	singular noun, correct lemma
+Supercup	keep	common compound noun, not a specific name
+Uncategorized	drop	English template text
+Unimog	keep	vehicle noun with plural, in dictionaries
+deal	merge:Deal	lower-case noun
+moderne	merge:modern	inflected adjective form
+ohr	merge:Ohr	lower-case noun
+sexualisierte	merge:sexualisieren	inflected participle form
+waagrecht	keep	valid adjective lemma
+Üben	merge:üben	verb under a capitalised lemma
+Aufgepasst	merge:aufpassen	participle or imperative form
+Aufkleben	merge:aufkleben	verb under a capitalised lemma
+Bagel	keep	established loan
+Bridgestone	drop	company or brand name
+Geoffrey	drop	person name
+Kürzere	keep	nominalised idiom (den Kürzeren ziehen)
+Lindenhof	drop	place or facility name
+geburt	merge:Geburt	lower-case noun
+pectoris	drop	Latin word, only in Angina pectoris
+sL	drop	abbreviation or code
+traum	merge:Traum	lower-case noun
+vhs	merge:Volkshochschule	abbreviation of a listed word
+Adelheid	drop	person name
+Ar	keep	valid unit noun in dictionaries
+Borusse	keep	dictionary noun
+Brady	drop	person name
+Erkelenz	drop	place name not on list
+Esch	drop	place name or surname
+Flotte	keep	correct singular noun lemma
+Kandel	drop	place name
+Nemo	drop	name or character
+# question Irgendwas: pronouns are not named in the case-merge rule; I applied the adjective/adverb/verb ruling by analogy.
+# question deal: the forms are a mix of "Deal" and "Dealer"; I merged to Deal, but Dealer could be its own lemma.
+# question Unimog: brand name, but it is a dictionary noun with a plural; I kept it rather than dropping it as a company name.
+# question vhs: I assumed Volkshochschule is on the list; I did not check this.
+# question Kürzere: the idiom "den Kürzeren ziehen" is a nominalised adjective; I kept it like "das Gute", though merge:kurz is arguable.

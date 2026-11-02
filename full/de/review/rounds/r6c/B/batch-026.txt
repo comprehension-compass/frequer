@@ -1,0 +1,46 @@
+beigeordnet	merge:Beigeordneter	nominalised adjective (der Beigeordnete) filed in lower case
+excellence	drop	French/English word, not an adapted loan
+fabrik	merge:Fabrik	lower-case noun
+gespräch	merge:Gespräch	lower-case noun
+pvp	drop	English abbreviation
+uvm	drop	abbreviation of a phrase (und vieles mehr), not of a single listed word
+Derek	drop	personal name
+Fa	merge:Firma	abbreviation of Firma
+Gimp	drop	software name
+grossen	merge:groß	ss spelling of the inflected adjective
+smartphon	merge:Smartphone	cut-off fragment
+technologie	merge:Technologie	lower-case noun
+Alverde	drop	brand name
+Merchandise	keep	established loan
+Morgenpost	drop	newspaper name, not a famous institution
+Pforzheimer	drop	derived from place name
+Siebenbürger	drop	region name/demonym
+Wirre	merge:wirr	capitalised inflected adjective
+jobs	merge:Job	English plural of an established loan
+mans	drop	garbled fragment, no obvious target
+port	drop	mostly English/fragment forms
+reisst	merge:reißen	ss spelling of reißt
+schränkt	merge:einschränken	cut-off verb fragment
+stick	merge:Stick	established loan filed lower-case and inflected
+verstossen	merge:verstoßen	ss spelling
+Bosporus	drop	place name
+Kahl	merge:kahl	adjective filed capitalised
+Luch	merge:Luchs	wrong lemma, variant of Luchs
+Terroir	keep	established wine term
+akzeptiert	merge:akzeptieren	inflected participle form, not a separate adjective entry
+gerettet	merge:retten	inflected participle form
+herangetragen	merge:herantragen	inflected participle form
+nebensachlich	merge:nebensächlich	missing umlaut
+publica	drop	event name (re:publica)
+streamt	merge:streamen	conjugated verb form
+Ausbleibe	merge:ausbleiben	cut-off form of the verb
+Selb	drop	place name
+aufgezeichnet	merge:aufzeichnen	inflected participle form
+ecke	merge:Ecke	lower-case noun
+eingeklemmt	merge:einklemmen	inflected participle form
+
+# question beigeordnet: the target noun is der/die Beigeordnete; I used Beigeordneter (the form in the examples), so check which form the list uses.
+# question port: Port (harbour, noun) may be intended, but the forms look like English "port", so I dropped it.
+# question reisst: could be reißt (reißen) or reist (reisen); I chose reißen.
+# question schränkt: the likely source is einschränken (separated prefix), but beschränken is also possible.
+# question Ausbleibe: the written form is the nominalised infinitive "(das) Ausbleiben"; I merged to the verb, but it could stay as a noun.

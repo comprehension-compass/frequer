@@ -1,0 +1,46 @@
+Bange	merge:bange	written almost always as the adjective bange
+Eiweiss	merge:Eiweiß	ss-spelling of Eiweiß
+Erwähnenswert	merge:erwähnenswert	adjective filed under a capital
+Primär	merge:primär	adjective filed under a capital
+austretend	merge:austreten	present participle, no entry of its own
+bauschen	drop	forms are almost all the surname or brand Bausch
+ddp	drop	news-agency abbreviation
+ger	drop	cut-off fragment, no obvious target
+verkrachen	keep	valid verb (sich verkrachen)
+vibriert	merge:vibrieren	conjugated form
+vol	merge:voll	misspelling
+zufallen	keep	valid verb, forms are regular
+Gl	drop	abbreviation or fragment
+Inhaltstoff	merge:Inhaltsstoff	misspelling
+Ortenau	drop	place name not on the list
+Rheine	drop	place name not on the list
+SUVs	merge:SUV	plural of an established loan
+Sharepoint	drop	product name
+Velvet	drop	English word or brand name
+abdunkeln	keep	valid verb
+anbieter	merge:Anbieter	noun filed in lower case
+drosera	drop	Latin plant genus name
+giropay	drop	brand name
+In	drop	garbled lemma, forms ines and inen
+Sanft	merge:sanft	adjective filed under a capital
+Siegmund	drop	personal name
+Teamspeak	drop	product name
+doofe	merge:doof	inflected adjective
+eingescannt	merge:einscannen	participle, not an adjective in its own right
+kuratiert	merge:kuratieren	participle, not an adjective in its own right
+sähen	merge:sehen	examples show the subjunctive of sehen
+titelte	merge:titeln	conjugated form
+Brunsbüttel	drop	place name not on the list
+Futter	keep	valid noun, genitive and dative forms
+Pflanzenextrakte	merge:Pflanzenextrakt	plural filed as lemma
+darunterliegen	keep	infinitive of a valid verb
+heist	merge:heißen	misspelling
+konto	merge:Konto	noun filed in lower case
+perlen	keep	valid verb
+verdrecken	keep	valid verb
+
+# question ger: only the fragment forms ger/gere/geren are given, with no example, so no target could be identified; dropped.
+# question sähen: forms (sähen, gesäht, säht) fit säen, but the examples are the subjunctive of sehen; merged to sehen.
+# question drosera: Drosera is also the German name of the plant (Sonnentau), but it reads as a specialist Latin name, so dropped instead of merge:Drosera.
+# question bauschen: bauschen is a real verb, but the counted forms are almost all the surname Bausch; dropped.
+# question Bange: "keine Bange" and "Angst und Bange" could count as a noun, but the counted forms are the adjective bange, so merged.

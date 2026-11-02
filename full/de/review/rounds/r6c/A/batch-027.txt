@@ -1,0 +1,44 @@
+mac	drop	brand/abbreviation, not a learnable word
+verantwortungsbewussten	merge:verantwortungsbewusst	inflected adjective form
+Anwende	merge:anwenden	capitalised, cut-off verb form
+Bilderberger	drop	name of a conference group, derived from a place name
+Sechste	merge:sechste	capitalised inflected ordinal
+Sylter	drop	derived from Sylt, a place name not on the list
+Thurgauer	drop	derived from Thurgau, a place name not on the list
+datenblatt	merge:Datenblatt	lower-case noun
+herstellung	merge:Herstellung	lower-case noun
+liiert	keep	participle with its own adjective entry
+sehbehinderte	merge:sehbehindert	inflected adjective form
+sekundar	merge:sekundär	missing umlaut
+Birkenstock	drop	brand name
+Dür	drop	fragment of the place name Düren (mostly "Düren")
+Dürer	drop	person name
+Kimi	drop	name
+Rathenow	drop	place name not on the list
+Yosemite	drop	place name not on the list
+metall	merge:Metall	lower-case noun
+neig	merge:neigen	cut-off verb form
+waehrend	merge:während	transliterated spelling
+Abspritz	merge:abspritzen	cut-off form
+Dahme	drop	place or river name
+Engadin	drop	place name not on the list
+Nachschlage	merge:nachschlagen	cut-off verb form
+Ultras	merge:Ultra	plural filed as a lemma
+Zillertaler	drop	derived from Zillertal, a place name not on the list
+befragt	merge:Befragte	lower-case noun form
+brief	merge:Brief	lower-case noun
+gewinnbringen	merge:gewinnbringend	wrong lemma form of the adjective
+verplanen	keep	infinitive is a valid verb lemma, only the tag is off
+Ansgar	drop	person name
+Bogner	drop	name or brand
+Christliche	merge:christlich	capitalised inflected adjective
+Dexter	drop	name
+Fer	merge:fern	cut-off fragment
+Glck	merge:Glück	broken encoding
+Hierüber	merge:hierüber	capitalised adverb
+Leicester	drop	place or team name not on the list
+Optimus	drop	name or brand
+# question Bilderberger: could count as a famous institution (keep), but I treated it as a name derived from the place Bilderberg and dropped it.
+# question Sechste: not clear whether ordinals have a lemma of their own; I merged it into the lower-case "sechste".
+# question Ultras: could be a plural-only noun with its own meaning (football fans); I merged it into the singular Ultra.
+# question verplanen: tagged ADJ with mostly "verplant" forms; I kept the verb infinitive as the lemma.

@@ -1,0 +1,46 @@
+Omaha	drop	place name not on list
+Pädophil	merge:pädophil	adjective filed under capital
+Rahel	drop	person name
+Sexdate	keep	established loan compound
+Vogelsang	drop	place/surname
+dekoration	merge:Dekoration	lower-case noun
+ni	drop	garbled fragment, forms of unrelated words
+AMC	drop	company abbreviation
+Fuldaer	drop	adjective derived from place name
+Hauptverwaltung	keep	ordinary compound noun
+Hinten	merge:hinten	adverb filed under capital
+Kolosseum	keep	famous landmark, common German noun
+Mandarin	keep	ordinary noun (language/fruit)
+Teuer	merge:teuer	adjective filed under capital
+Trentino	drop	place name
+Verstellbarer	merge:verstellbar	inflected adjective form
+Zion	drop	place/biblical name
+angegriffen	keep	participle with own adjective entry
+ankleiden	keep	real verb, own lemma
+bestätigt	merge:bestätigen	participle forms of verb
+hochstehen	keep	real verb, dictionary form
+kicker	merge:Kicker	lower-case noun
+linie	merge:Linie	lower-case noun
+pet	drop	English/name forms (Peter, Pete)
+Donuts	merge:Donut	plural filed as lemma
+Idealerweise	merge:idealerweise	adverb filed under capital
+Leoben	drop	place name
+PageRank	drop	product/brand name
+Pfingstsonntag	keep	ordinary holiday noun
+ausgestrahlt	merge:ausstrahlen	participle forms
+bordell	merge:Bordell	lower-case noun
+dermassen	merge:dermaßen	misspelling
+galaxy	merge:Galaxie	English spelling of adapted word
+mindesten	merge:mindest	inflected form
+thun	merge:tun	archaic spelling
+Antigua	drop	place name
+Arafat	drop	person name
+Cd	merge:CD	wrong casing of common abbreviation
+Ipad	drop	brand/product name
+Lenke	merge:lenken	verb form filed as noun
+# question Fuldaer: a place-derived adjective is not a place name itself; dropped because it is tied to Fulda, which is not on the list.
+# question Kolosseum: counted as a famous landmark (like an institution) and a common noun, not as an unlisted place name.
+# question Cd: the target CD may not exist as a lemma; the rules don't say whether an everyday abbreviation is kept or dropped.
+# question ni: forms (nies, nider, niere, niem) have no single obvious target, so dropped rather than merged.
+# question hochstehen: the counted forms are all the adjective hochstehend; kept as the verb lemma, but merging into hochstehend is arguable.
+# question angegriffen: only inflected adjective forms are counted; kept because the adjective has its own dictionary entry, but this is borderline.

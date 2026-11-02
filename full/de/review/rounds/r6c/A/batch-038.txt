@@ -1,0 +1,45 @@
+Ammerland	drop	place name not on the reviewed list
+Ceranfeld	keep	established kitchen-appliance compound noun
+FeWo	merge:Ferienwohnung	abbreviation of a listed word
+IDs	merge:ID	plural of a common abbreviation
+Kreuzberger	drop	adjective derived from a place name
+Nordwestschweiz	drop	region name not on the list
+Piz	drop	name element or fragment
+Rech	merge:Rechen	cut-off fragment, mostly written rechen
+Schneeschuhwander	merge:Schneeschuhwandern	cut-off fragment of the nominalised verb
+Unicorn	drop	English word and brand names; German is Einhorn
+VIER	merge:vier	capitalised number word
+beteiligten	merge:beteiligen	inflected form filed as lemma
+dreissig	merge:dreißig	non-standard spelling
+getrieben	merge:treiben	inflected participle filed as lemma
+gruppen	merge:Gruppe	lower-case plural of a noun
+pulverbeschichtetem	merge:pulverbeschichtet	inflected adjective form
+saison	merge:Saison	lower-case noun
+Beschlussfähigkeit	keep	valid noun
+Grüß	merge:Gruß	plural or fragment form of Gruß
+Handlungsstränge	merge:Handlungsstrang	plural filed as lemma
+Hidde	drop	garbled English "hidden"
+Hülse	keep	correct singular lemma; only the plural is attested
+Mandala	keep	established loan
+Matze	drop	nickname or given name
+Pantheon	keep	established noun
+Persi	drop	cut-off of the place name Persien
+Reid	drop	surname
+Slowene	keep	valid demonym noun
+Wirtschaftsplan	keep	valid compound noun
+abgetreten	merge:abtreten	participle with no own adjective entry
+ebenholz	merge:Ebenholz	lower-case noun
+flash	drop	English word, not an established loan
+portal	merge:Portal	lower-case noun
+restaurant	merge:Restaurant	lower-case noun
+tee	merge:Tee	lower-case noun
+verwahrlosen	keep	correct verb lemma
+änderung	merge:Änderung	lower-case noun
+Franziskaner	keep	valid noun for members of the order
+Golfstaat	keep	valid compound noun
+Jessie	drop	given name
+
+# question Rech: the data shows "rechen" (195) and "rech" (151); I assumed the noun Rechen (rake), but the verb rechen is possible.
+# question flash: the lemma covers the English noun and the adapted verb "flashen"; I dropped it as a foreign word, but it could be kept as an established loan.
+# question Kreuzberger: this is a derived place-name adjective; the rules cover place names but not adjectives derived from them, so I dropped it.
+# question getrieben: it could count as an adjective with its own entry; the evidence shows compounds like "Vocal getriebenen", so I merged it into treiben.

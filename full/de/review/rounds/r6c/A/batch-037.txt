@@ -1,0 +1,42 @@
+Geistige	merge:geistig	capitalised adjective; the examples show attributive adjective use
+Hg	drop	abbreviation/chemical symbol, not learnable
+Maidan	drop	place name not on the list
+PatientIn	merge:Patientin	gendered spelling variant of Patientin
+Siegener	drop	adjective derived from a place name (Siegen), capitalised and not on the list
+geliehen	merge:leihen	participle form
+generalisieren	keep	valid verb infinitive, only the POS tag is off
+gesenkt	merge:senken	participle form
+heranzukommen	merge:herankommen	zu-infinitive form
+lippen	merge:Lippe	plural of Lippe filed as a lower-case verb
+migriert	merge:migrieren	conjugated form
+oderMehr	drop	garbled concatenation, no real word
+schwerbehinderte	merge:schwerbehindert	inflected adjective
+selbstbewussten	merge:selbstbewusst	inflected adjective
+weiterbildend	keep	adjective with its own dictionary entry
+zuck	merge:zucken	cut-off fragment
+BZSt	drop	specialist acronym
+Baumgarten	drop	surname/place name
+Bestehende	merge:bestehend	inflected adjective use
+Brandl	drop	surname
+Contao	drop	product name
+Lottoland	drop	brand name
+MÜSSEN	merge:müssen	capitalised verb form
+Payback	drop	brand name
+Raabe	drop	surname
+Sideboards	merge:Sideboard	plural form
+beilaufig	merge:beiläufig	missing umlaut
+mallorquinisch	keep	ordinary adjective with its own dictionary entry
+vergrößert	merge:vergrößern	participle form
+Bandbreit	merge:Bandbreite	cut-off fragment
+Einmalig	merge:einmalig	adjective filed under a capitalised lemma
+Himbeer	merge:Himbeere	cut-off fragment
+Hohenzoller	drop	dynasty/place name
+Hyde	drop	name
+Netanyahu	drop	person name
+detail	merge:Detail	lower-case noun
+drinne	merge:drinnen	colloquial variant
+herbst	merge:Herbst	lower-case noun
+steifer	merge:steif	inflected comparative
+Adlige	keep	nominalised adjective that is a noun in its own right, like Adliger/Adlige
+# question zuck: the forms zuck, zucker and zucken have no clear common lemma; I chose zucken, but zuck may be "Zuck" (Zuckerberg) or Zucker.
+# question Bestehende: could count as a noun like "das Bestehende", but the written forms look like attributive adjective use, so I merged it.

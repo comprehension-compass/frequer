@@ -1,0 +1,44 @@
+verarbeitung	merge:Verarbeitung	lower-case noun
+verlinkter	merge:verlinken	inflected participle, no adjective entry of its own
+Ärzteblatt	keep	well-known publication, treated as a famous institution
+Ablege	merge:ablegen	cut-off verb filed under a capitalised lemma
+Arbeitnehmende	keep	established nominalised participle, like Studierende
+Ausschluß	merge:Ausschluss	old spelling
+Enzo	drop	personal name
+Erholungssuchende	keep	established nominalised participle
+Nordschleife	drop	place or facility name not on the reviewed list
+Richie	drop	personal name
+Sensei	keep	established loanword
+Symptomprüfer	keep	real compound noun, even if the frequency comes from template text
+Ungläubiger	keep	nominalised adjective with its own noun entry
+fahrzeug	merge:Fahrzeug	lower-case noun
+gesetz	merge:Gesetz	lower-case noun
+kindgerechten	merge:kindgerecht	inflected adjective
+traden	keep	established loan verb
+tägig	drop	cut-off compound fragment with no target lemma
+Abg	merge:Abgeordnete	abbreviation of a listed word
+Cusco	drop	place name not on the list
+Eichsfeld	drop	place name not on the list
+Garmisch	drop	place name not on the list
+Mart	drop	name or fragment
+Stör	merge:stören	inflected verb form
+Vorbeigehe	merge:vorbeigehen	conjugated verb form filed as a noun
+badezimmer	merge:Badezimmer	lower-case noun
+brave	merge:brav	inflected adjective
+erreichend	merge:erreichen	participle form
+ingesamt	merge:insgesamt	misspelling
+seeehr	merge:sehr	elongated misspelling
+spezial	merge:speziell	non-lemma form
+vorneherein	merge:vornherein	misspelling of vornherein
+Amiga	drop	brand name
+Atmungsaktiv	merge:atmungsaktiv	capitalised adjective
+Casey	drop	personal name
+Cornwall	drop	place name not on the list
+Dimitri	drop	personal name
+Intern	merge:intern	capitalised adjective
+Profiteure	merge:Profiteur	plural filed as a lemma
+Reutlinge	drop	place name not on the list
+# question Ärzteblatt: publication title, not clearly an institution or a plain noun; kept as a famous publication
+# question tägig: a cut-off fragment should be merged, but there is no standalone lemma to merge into (e.g. dreitägig); dropped
+# question vorneherein: the correct form is the particle in "von vornherein"; merged into vornherein, which may not exist as a lemma
+# question Nordschleife: could count as a famous institution (Nürburgring) rather than a place name; dropped as a place name

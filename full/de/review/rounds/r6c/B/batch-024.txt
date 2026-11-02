@@ -1,0 +1,45 @@
+Betway	drop	brand name
+Blockieren	merge:blockieren	capitalised verb form
+Headliner	keep	established loan
+Hochtaunus	drop	place name not on list
+Ing	drop	abbreviation/name fragment
+MWSt	merge:Mehrwertsteuer	abbreviation of a listed word
+Süss	merge:süß	capitalised adjective, Swiss spelling
+bbw	drop	spam abbreviation
+ergebnis	merge:Ergebnis	noun filed lower-case
+papier	merge:Papier	noun filed lower-case
+sc	drop	abbreviation/code
+Barmer	drop	company name
+Coinbase	drop	brand name
+Finsterwalde	drop	place name not on list
+Headhunter	keep	established loan
+Mitt	drop	cut-off fragment/English word, no German use
+NM	drop	abbreviation
+Polyp	keep	valid noun lemma, singular
+Raptor	drop	brand/team name, not an established loan
+Shaun	drop	personal name
+Tätige	merge:tätigen	verb filed under capitalised lemma
+Tüv	keep	famous institution
+Unreal	drop	brand/product name
+bericht	merge:Bericht	noun filed lower-case
+erde	merge:Erde	noun filed lower-case
+kaffee	merge:Kaffee	noun filed lower-case
+leerstehend	keep	adjective in its own right
+unterbrochen	merge:unterbrechen	participle form
+Antragsstellung	merge:Antragstellung	misspelling
+Ausdrücken	merge:ausdrücken	verb filed under capitalised lemma
+Freistadt	drop	place name not on list
+Gigabit	keep	established technical loan
+Singleborse	merge:Singlebörse	dropped umlaut
+Domän	merge:Domäne	cut-off lemma
+Krist	drop	name fragment (Kristen)
+Lüdinghausen	drop	place name not on list
+Vocals	keep	established loan, used in the plural
+hineinversetzen	keep	pronominal verb (sich hineinversetzen)
+hippen	merge:hip	inflected adjective form
+GVBl	drop	specialist abbreviation
+
+# question MWSt: I assumed Mehrwertsteuer is on the list; if it isn't, drop is the alternative.
+# question Tüv: lemma is spelled in lower case; the rules call for keeping famous institutions, but a merge to TÜV may be better.
+# question unterbrochen: unclear whether it counts as an adjective with its own dictionary entry; I chose to merge.
+# question Raptor: it is a brand name here, but could also pass as a loan word (a type of dinosaur).

@@ -1,0 +1,46 @@
+Betway	drop	brand name
+Blockieren	merge:blockieren	capitalised verb form
+Headliner	keep	established loan
+Hochtaunus	drop	place name not on list
+Ing	drop	abbreviation/name fragment
+MWSt	merge:Mehrwertsteuer	abbreviation of a listed word
+Süss	merge:süß	misspelt capitalised adjective
+bbw	drop	spam abbreviation
+ergebnis	merge:Ergebnis	lower-case noun
+papier	merge:Papier	lower-case noun
+sc	drop	abbreviation/code
+Barmer	drop	company name
+Coinbase	drop	brand name
+Finsterwalde	drop	place name not on list
+Headhunter	keep	established loan
+Mitt	drop	cut-off/English fragment
+NM	drop	abbreviation
+Polyp	keep	correct singular lemma
+Raptor	drop	brand/team name usage
+Shaun	drop	personal name
+Tätige	merge:tätigen	inflected form of verb tätigen
+Tüv	keep	famous institution
+Unreal	drop	product name
+bericht	merge:Bericht	lower-case noun
+erde	merge:Erde	lower-case noun
+kaffee	merge:Kaffee	lower-case noun
+leerstehend	keep	participial adjective with own entry
+unterbrochen	merge:unterbrechen	participle form
+Antragsstellung	merge:Antragstellung	misspelling
+Ausdrücken	merge:ausdrücken	capitalised verb
+Freistadt	drop	place name not on list
+Gigabit	keep	established technical loan
+Singleborse	merge:Singlebörse	dropped umlaut
+Domän	merge:Domäne	cut-off lemma
+Krist	drop	name fragment
+Lüdinghausen	drop	place name not on list
+Vocals	keep	established loan, used in plural
+hineinversetzen	keep	pronominal verb (sich hineinversetzen)
+hippen	merge:hip	inflected adjective form
+GVBl	drop	specialist abbreviation
+
+# question MWSt: I cannot confirm Mehrwertsteuer is on the list; if it is not, drop instead.
+# question Tüv: the lemma is lower-case/mis-cased for the acronym TÜV; I kept it as a famous institution, but merge:TÜV is possible.
+# question leerstehend: unclear whether the participle counts as an adjective with its own entry; I kept it.
+# question Raptor: the examples mix a sports team, a vehicle and dinosaurs/birds; I dropped it as name-like.
+# question Barmer: a major insurer, so possibly a famous institution; I dropped it as a company name.

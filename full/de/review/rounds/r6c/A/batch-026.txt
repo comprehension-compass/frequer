@@ -1,0 +1,43 @@
+beigeordnet	merge:Beigeordnete	noun (der Beigeordnete) filed as lower-case participle
+excellence	drop	foreign word, only in "par excellence"
+fabrik	merge:Fabrik	lower-case noun
+gespräch	merge:Gespräch	lower-case noun
+pvp	drop	English abbreviation
+uvm	drop	abbreviation of a phrase (und vieles mehr), not a single word
+Derek	drop	personal name
+Fa	merge:Firma	abbreviation of a listed word
+Gimp	drop	software name
+grossen	merge:groß	ss spelling of groß
+smartphon	merge:Smartphone	cut-off fragment
+technologie	merge:Technologie	lower-case noun
+Alverde	drop	brand name
+Merchandise	keep	established loan
+Morgenpost	drop	regional newspaper name, not a famous institution
+Pforzheimer	drop	derived from place name
+Siebenbürger	drop	region name or demonym
+Wirre	merge:wirr	adjective filed under a capitalised lemma
+jobs	merge:Job	English plural of an established loan
+mans	drop	cut-off fragment with no clear source word
+port	drop	garbled and ambiguous fragment
+reisst	merge:reißen	ss spelling of reißt
+schränkt	merge:einschränken	cut-off verb fragment
+stick	merge:Stick	lower-case noun and loan (USB-Stick, Sticker)
+verstossen	merge:verstoßen	ss spelling
+Bosporus	drop	place name
+Kahl	merge:kahl	adjective filed under a capitalised lemma
+Luch	merge:Luchs	mislemmatised form of Luchs
+Terroir	keep	established loan
+akzeptiert	merge:akzeptieren	inflected participle
+gerettet	merge:retten	inflected participle
+herangetragen	merge:herantragen	participle filed as lemma
+nebensachlich	merge:nebensächlich	missing umlaut
+publica	drop	Latin word, event name
+streamt	merge:streamen	conjugated verb form
+Ausbleibe	merge:ausbleiben	verb filed under a capitalised cut-off lemma
+Selb	drop	place name
+aufgezeichnet	merge:aufzeichnen	inflected participle
+ecke	merge:Ecke	lower-case noun
+eingeklemmt	merge:einklemmen	inflected participle
+# question uvm: abbreviation of a multi-word phrase, with no single lemma to merge into; dropped
+# question stick: written forms mix Stick, Sticker and English "sticks"; merged to Stick, though Sticker may deserve its own entry
+# question beigeordnet: could instead be treated as the participle of beiordnen; merged to the noun Beigeordnete because the examples are mostly nominal

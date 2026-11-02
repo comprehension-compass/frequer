@@ -1,0 +1,46 @@
+Geistige	merge:geistig	adjective inside names, not a noun in its own right
+Hg	drop	abbreviation, ambiguous (Herausgeber/Quecksilber)
+Maidan	drop	place name (square in Kyiv) and surname
+PatientIn	merge:Patientin	gendered spelling variant of the feminine entry
+Siegener	drop	adjective from the place name Siegen, which is not on the list
+geliehen	merge:leihen	participle with no entry of its own
+generalisieren	keep	already a valid infinitive; the ADJ tag is a tagging issue only
+gesenkt	merge:senken	participle form
+heranzukommen	merge:herankommen	zu-infinitive form
+lippen	merge:Lippe	plural filed as a verb
+migriert	merge:migrieren	conjugated form
+oderMehr	drop	garbled token
+schwerbehinderte	merge:schwerbehindert	inflected adjective
+selbstbewussten	merge:selbstbewusst	inflected adjective
+weiterbildend	merge:weiterbilden	participle with no clear entry of its own
+zuck	merge:Zucker	cut-off fragment, most plausible target
+BZSt	drop	specialist acronym
+Baumgarten	drop	surname/place name
+Bestehende	merge:bestehend	adjective filed under a capital letter
+Brandl	drop	surname
+Contao	drop	product name
+Lottoland	drop	brand name
+MÜSSEN	merge:müssen	verb filed under a capital letter
+Payback	drop	brand name
+Raabe	drop	surname
+Sideboards	merge:Sideboard	plural filed as lemma
+beilaufig	merge:beiläufig	missing umlaut
+mallorquinisch	keep	regular adjective, not itself a place name
+vergrößert	merge:vergrößern	participle form
+Bandbreit	merge:Bandbreite	cut-off fragment
+Einmalig	merge:einmalig	adjective filed under a capital letter
+Himbeer	merge:Himbeere	cut-off fragment
+Hohenzoller	drop	dynasty/place name
+Hyde	drop	name
+Netanyahu	drop	person name
+detail	merge:Detail	noun filed in lower case
+drinne	merge:drinnen	colloquial variant
+herbst	merge:Herbst	noun filed in lower case
+steifer	merge:steif	inflected comparative
+Adlige	keep	nominalised adjective, a noun in its own right (der Adlige)
+# question Hg: abbreviation could stand for Herausgeber (merge) or be a symbol/acronym (drop); chose drop
+# question weiterbildend: unclear whether it has its own adjective entry; chose merge to weiterbilden
+# question zuck: forms mix zuck, zucker and zucken, so the target is not obvious; chose merge:Zucker
+# question mallorquinisch: unclear whether adjectives derived from place names are covered by the place-name drop rule; chose keep
+# question drinne: rules don't cover dialect variants; chose merge:drinnen
+# question Bestehende: could be read as a noun in its own right (das Bestehende); no examples, chose merge:bestehend

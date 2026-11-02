@@ -1,0 +1,43 @@
+documenta	keep	famous art exhibition, institution-like name
+durchströmen	keep	real verb; the forms belong to it, the POS tag is just wrong
+erlernt	merge:erlernen	participle with no adjective entry of its own
+jaja	keep	interjection, established word
+keck	keep	real adjective, the verb tag is wrong
+klassich	merge:klassisch	misspelling
+sieg	merge:Sieg	lower-case noun
+Filderstadt	drop	place name not on the list
+Gestapo	keep	famous institution
+Gnome	merge:Gnom	plural filed as a lemma
+Lourdes	drop	place name not on the list
+Markier	merge:markieren	capitalised verb form
+Marlon	drop	person name
+Sanchez	drop	person name
+Vulkaneifel	drop	place/region name not on the list
+Wfl	merge:Wohnfläche	abbreviation of a listed word
+beerben	keep	real verb; "bearb" is only noise among the forms
+fhrt	merge:führen	broken encoding
+imag	merge:Image	cut-off fragment of Image
+iur	drop	Latin abbreviation fragment
+selbstkleben	merge:selbstklebend	fragment of the participial adjective
+sonstwie	keep	colloquial adverb, the tag is just wrong
+Abhole	merge:abholen	verb filed under a capitalised lemma
+Alkoholeinfluss	keep	valid compound noun
+Dachgeschoß	merge:Dachgeschoss	old spelling
+Kabellänge	keep	valid compound noun
+Krper	merge:Körper	broken encoding
+Loki	drop	mythological/other name
+Mic	merge:Mikrofon	clipping of a listed word
+Tabellenletzte	keep	nominalised adjective with its own noun use
+Wurz	merge:Wurzel	cut-off fragment
+aufnahmen	merge:aufnehmen	conjugated form
+besucht	merge:besuchen	participle without a dictionary entry of its own
+gestärkt	merge:stärken	participle form
+huren	keep	real verb
+loten	keep	real verb (lotet etc. belong to it)
+medien	merge:Medien	lower-case noun; plural with its own meaning
+sexfilme	merge:Sexfilm	plural filed as a lemma
+zeitung	merge:Zeitung	lower-case noun
+Überbelastung	keep	valid noun; the garbled variant is negligible
+# question Gnome: the examples all show the desktop software GNOME (a name), but the forms gnome/gnomen look like the plural of Gnom; I merged to Gnom.
+# question Mic: no examples; I assumed a clipping of Mikrofon, but it could be the English word "mic".
+# question besucht: unclear whether "besucht" (as in "gut besucht") counts as an adjective with its own entry; I merged to besuchen.

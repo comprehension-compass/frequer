@@ -1,0 +1,42 @@
+Kimmich	drop	surname of a person
+Krass	merge:krass	adjective filed under a capital
+Mindener	drop	place-derived adjective (Minden), not on the reviewed list
+Tempelhofer	drop	place-derived (Tempelhof), not on the reviewed list
+Verwandel	merge:verwandeln	truncated, capitalised verb stem
+char	drop	fragment, not a German lemma
+gelüsten	keep	real verb (es gelüstet jdn), correctly lemmatised
+htte	merge:haben	broken encoding of hätte, a form of haben
+indoor	drop	English word, not an established loan
+tatschlich	merge:tatsächlich	broken encoding
+ton	merge:Ton	noun filed in lower case
+Aufnehmen	merge:aufnehmen	verb filed under a capital
+Benehme	merge:Benehmen	cut-off form; the example shows the noun Benehmen
+Identifizier	merge:identifizieren	cut-off verb stem
+Kassa	keep	real regional variant with its own entry
+Klaue	keep	correct singular noun; "klauen" is only the plural written form
+Patin	keep	feminine noun with its own entry
+Rammstein	drop	band name, not a famous institution
+Regierungschefin	keep	feminine noun with its own entry
+Rev	drop	abbreviation or fragment
+Sondern	merge:sondern	conjunction filed under a capital
+Syriza	drop	foreign party name
+Thiem	drop	surname of a person
+Thür	merge:Tür	archaic or misspelt form of Tür
+Webhoster	keep	transparent established compound noun
+aufgaben	merge:aufgeben	inflected verb form in lower case
+gönn	merge:gönnen	truncated imperative stem
+hrt	merge:hören	broken encoding of hört
+kWp	drop	specialist unit abbreviation
+org	drop	web suffix, not a word
+rabattieren	keep	real verb with its own entry
+selbigen	merge:selbig	inflected adjective form
+vie	drop	non-German fragment
+Ander	merge:ander	inflected adjective form under a capital
+Betablocker	keep	established medical noun
+Chiptuning	keep	established loan noun
+Greiner	drop	surname of a person
+Hebräer	keep	noun in its own right (the people, and the biblical book)
+# question htte: hätte is a form of haben, but there is no separate lemma for it; I merged into the infinitive.
+# question Benehme: could merge to the verb benehmen, but the example is the noun Benehmen, so I chose the noun.
+# question aufgaben: could be the plural noun Aufgabe, but the tag is VERB and it is lower case, so I merged to aufgeben.
+# question Syriza: a political party, not clearly covered by the "famous institutions keep" rule; I dropped it as a foreign name.

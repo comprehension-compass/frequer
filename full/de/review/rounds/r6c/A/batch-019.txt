@@ -1,0 +1,43 @@
+Waltraud	drop	personal name
+abgeschnitten	merge:abschneiden	participle filed as lemma
+anstimmen	keep	valid verb lemma
+campen	keep	valid verb lemma
+fermentiert	merge:fermentieren	participle form
+nachhinein	merge:Nachhinein	lower-case noun fragment of "im Nachhinein"
+Anette	drop	personal name
+Bestimmte	merge:bestimmt	capitalised inflected adjective
+Chatt	merge:chatten	cut-off verb form
+Ergonomisch	merge:ergonomisch	capitalised adjective
+Heimmannschaft	keep	valid compound noun
+Messner	drop	surname
+Paroli	keep	established loan
+Poncho	keep	established loan
+Vorraus	merge:Voraus	misspelling
+Weblinks	merge:Weblink	plural filed as lemma
+bemannen	keep	valid verb lemma
+gelingend	merge:gelingen	present participle form
+kampf	merge:Kampf	lower-case noun
+modifiziert	merge:modifizieren	participle form
+nachrichten	merge:Nachrichten	lower-case noun, plural with own meaning
+nr	merge:Nummer	abbreviation of a listed word
+pornofilm	merge:Pornofilm	lower-case noun
+stattgefunden	merge:stattfinden	participle form
+verein	merge:Verein	lower-case noun
+verletzungsbedingt	keep	valid adjective/adverb, only the tag is wrong
+wovor	keep	function word
+Attac	drop	organisation name, not a famous institution
+Compilation	keep	established loan
+Kleist	drop	surname
+Osterode	drop	place name
+Pike	keep	valid noun (von der Pike auf)
+Recke	keep	valid noun
+Sechser	keep	valid noun
+Te	drop	meaningless fragment
+Twister	keep	established loan/game name
+Wacke	drop	place name (Wacken)
+bestellung	merge:Bestellung	lower-case noun
+frh	merge:früh	broken encoding
+Anomali	merge:Anomalie	cut-off lemma
+# question nachrichten: the lower-case form could merge to Nachricht or Nachrichten; chose Nachrichten because the plural has its own meaning (news).
+# question Twister: the game/brand name is borderline between a loan and a proper noun; kept as an established loan.
+# question Te: it is unclear what word the fragment stands for, so it was dropped rather than merged.

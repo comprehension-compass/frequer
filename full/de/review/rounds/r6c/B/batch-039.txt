@@ -1,0 +1,44 @@
+Kauder	drop	surname
+Klack	merge:Klacks	cut-off fragment; the text is mostly "Klacks"
+Marktstraße	drop	street name, not on the place list
+Prompt	merge:prompt	the adverb "prompt" is filed under a capitalised lemma
+Starterset	keep	established compound noun
+Stent	keep	established medical loan
+Wisch	keep	real noun (Wisch)
+Wüstenrot	drop	company and place name
+award	merge:Award	noun filed in lower case
+center	merge:Zentrum	English spelling of an adapted word
+eingeloggte	merge:einloggen	inflected participle filed as a lemma
+kreiert	merge:kreieren	participle filed as a lemma
+nahen	keep	valid verb infinitive (nahen)
+Börsenverein	keep	famous institution
+Fanshop	keep	established loan compound
+Hochdeutsch	keep	language name, a noun in its own right
+Investier	merge:investieren	cut-off imperative stem; the text is mostly "investieren"
+Panem	drop	fictional place name
+Popo	keep	common noun
+Rother	drop	surname
+Schnapp	merge:schnappen	verb filed under a capitalised lemma
+Sozialistische	merge:sozialistisch	inflected adjective under a capitalised lemma
+Wunderbares	merge:wunderbar	inflected adjective under a capitalised lemma
+dessous	merge:Dessous	noun filed in lower case
+duellieren	keep	pronominal verb (sich duellieren)
+esst	merge:essen	conjugated form
+frites	merge:Pommes	fragment of "Pommes frites"
+sechst	merge:sechste	inflected ordinal fragment
+twittert	merge:twittern	conjugated form
+übern	merge:über	contraction of "über den"
+Bruns	drop	surname
+Diclofenac	keep	common generic drug name, not an acronym
+Docker	drop	product name
+Emotional	merge:emotional	adjective under a capitalised lemma
+Longplayer	keep	established loan
+Pranayama	drop	foreign Sanskrit term
+Tyrannen	merge:Tyrann	plural filed as a lemma
+bersicht	merge:Übersicht	dropped letter (broken encoding)
+boot	merge:Boot	noun filed in lower case
+bus	merge:Bus	noun filed in lower case
+# question center: German "Center" exists as a loan, mostly in compounds; I merged it into Zentrum as an English spelling of an adapted word.
+# question frites: it is only the second half of "Pommes frites"; I merged it into Pommes, but the multiword lemma may be the better target.
+# question sechst: the dictionary form of the ordinal is unclear; I chose "sechste".
+# question Diclofenac: the rules do not say whether a generic drug name counts as a name or as an established term; I kept it.

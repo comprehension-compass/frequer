@@ -1,0 +1,46 @@
+Avis	drop	rare French or brand word, not learnable
+Bong	keep	established loan (water pipe); the botanist-authority hit is incidental
+Entwicklungspotenzial	keep	valid noun; both spellings are correct
+Nagold	drop	place name not on the reviewed list
+Pessimist	keep	correct singular lemma
+Poolbar	keep	ordinary German compound noun
+Solinger	drop	adjective derived from the place name Solingen
+Ural	drop	geographic name not on the reviewed list
+Voodoo	keep	established loanword
+balance	merge:Balance	English spelling of an adapted noun, filed lower-case
+laesst	merge:lassen	transliterated conjugated form of lassen
+metallic	keep	established loan used in German (car paint, colour)
+oO	drop	chat code or emoticon
+retournieren	keep	valid verb
+selbsternannte	merge:selbsternannt	inflected adjective form filed as lemma
+veraltet	keep	participle with its own adjective entry
+vergilben	keep	valid verb lemma
+wunsch	merge:Wunsch	lower-case noun mis-tagged as ADV
+Übergangsregierung	keep	valid compound noun
+Bianco	drop	Italian name or word, not German
+Fried	merge:Friede	cut-off fragment of Friede, though many hits may be the surname
+Giropay	drop	brand or product name
+Heather	drop	English personal name
+Lowboard	keep	established loan for a piece of furniture
+Minimal	merge:minimal	adjective filed under a capitalised lemma
+Verwundete	keep	nominalised adjective, a noun in its own right
+gehört	merge:hören	adjectival forms of the participle filed as a noun
+heile	merge:heil	inflected form of heil
+latex	merge:Latex	lower-case noun mis-tagged as VERB
+wärend	merge:während	misspelling of während
+überspitzen	keep	valid verb lemma
+Atlantische	merge:atlantisch	capitalised inflected adjective
+Blacklist	keep	established IT loan
+Bootloader	keep	established technical loan
+Britin	keep	feminine noun with its own entry
+Klamm	keep	valid noun (gorge)
+Mecklenburgische	merge:mecklenburgisch	capitalised inflected adjective
+bmw	drop	brand abbreviation
+disruptiv	keep	valid adjective
+festgehalten	merge:festhalten	participle forms filed as an adjective lemma
+# question metallic: it could be kept as an established loan or merged into a German adjective such as metallisch, and the rules don't settle which
+# question Fried: the written form is almost all "fried", which may be a surname (drop) rather than a fragment of Friede (merge)
+# question Giropay: it is a brand name, but a payment method learners meet in German shops, and the rules don't say whether such product names count as established loans
+# question gehört: the forms could also belong to gehören, so hören is a guess
+# question Klamm: the written form is lower-case with no examples, so I couldn't tell whether this is the noun Klamm or the adjective klamm
+# question Bong: the botanical-authority use and the water-pipe noun are mixed in one lemma

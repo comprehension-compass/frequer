@@ -1,0 +1,47 @@
+Highspeed	keep	Established loan in German usage (Highspeed-Internet)
+Mittelland	drop	Region name not on the reviewed list
+Mountainbikes	merge:Mountainbike	Plural filed as lemma
+Mühlviertel	drop	Region name not on the reviewed list
+Rabbit	drop	English word or name, not an established loan
+Unilever	drop	Company name, not a famous institution
+Vot	merge:Vote	Garbled form of the English-origin noun Vote (votes, voten)
+alliierte	merge:alliiert	Inflected adjective form
+jeans	merge:Jeans	Lower-case noun
+polizei	merge:Polizei	Lower-case noun
+schuh	merge:Schuh	Lower-case noun
+übung	merge:Übung	Lower-case noun
+Diss	drop	Colloquial clipping or abbreviation
+Muck	merge:Mucks	Cut-off fragment of Mucks
+Sach	merge:Sache	Cut-off fragment of Sache
+Verf	merge:Verfasser	Abbreviation of Verfasser
+block	merge:Block	Lower-case noun
+consulting	merge:Consulting	Lower-case noun, established loan
+dbb	drop	Organisation acronym
+existireren	merge:existieren	Misspelt verb
+fleisch	merge:Fleisch	Lower-case noun
+gegner	merge:Gegner	Lower-case noun
+herausgeholt	merge:herausholen	Participle form filed as lemma
+mio	merge:Million	Abbreviation of Million
+ruck	merge:Ruck	Lower-case noun
+status	merge:Status	Lower-case noun
+widern	merge:wider	Garbled form; majority of forms are wider
+Abschicke	merge:abschicken	Verb form filed under a capitalised lemma
+Alhambra	drop	Place or building name, or car model, not on the list
+Auf	merge:auf	Capitalised preposition (aufs)
+Ausweiche	merge:ausweichen	Verb form filed under a capitalised lemma
+Barclay	drop	Personal or brand name
+Drosten	drop	Personal name
+Eßplatz	merge:Essplatz	Old spelling
+Poly	drop	Cut-off fragment with no obvious target
+Rioja	drop	Place or region name not on the list
+Sämlinge	merge:Sämling	Plural filed as lemma
+Verfolgte	keep	Nominalised participle, a noun in its own right
+april	merge:April	Lower-case noun
+stars	merge:Star	English plural, adapted loan Star
+# question Unilever: company name, not clearly a "famous institution"; dropped as an other name
+# question Diss: could be a clipping of Dissertation, which I could not check against the list; dropped
+# question Sach: forms sach/sachs may be the name Sachs rather than a fragment of Sache; merged to Sache
+# question widern: forms mix the preposition wider with the rare verb widern; merged to wider as the majority
+# question Poly: fragment of Polyester, Polytechnikum or something else is not obvious; dropped
+# question consulting: unclear whether Consulting is an established loan with its own entry; merged under the case rule
+# question Vot: unclear whether Vote counts as an adapted loan; merged to Vote

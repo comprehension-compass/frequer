@@ -1,0 +1,45 @@
+Persische	merge:persisch	capitalised inflected adjective
+Preußische	merge:preußisch	capitalised inflected adjective
+Reel	drop	English social-media/fishing term, not established
+Saarländische	merge:saarländisch	capitalised inflected adjective
+Thumbnail	keep	established tech loan in German texts
+display	merge:Display	lower-case noun (das Display)
+dit	drop	French/Dutch foreign word
+hoc	drop	Latin fragment of "ad hoc"
+sigmaringen	drop	place name not on list
+teilig	drop	suffix fragment, no standalone lemma
+Berufsbildende	merge:berufsbildend	capitalised inflected participle adjective
+Fernreisen	merge:Fernreise	plural filed as lemma
+Gleit	merge:gleiten	verb form filed as noun
+Königstraße	drop	street/place name
+PCIe	drop	specialist acronym
+ZHAW	drop	abbreviation of institution, specialist
+alla	drop	Italian foreign word
+begleitet	merge:begleiten	participle form
+errettet	merge:erretten	participle/conjugated form
+loszulegen	merge:loslegen	zu-infinitive form
+medikament	merge:Medikament	lower-case noun
+verfgbar	merge:verfügbar	broken encoding
+zugeschaltet	merge:zuschalten	participle form
+Brandenburgische	merge:brandenburgisch	capitalised inflected adjective
+Fitch	drop	company name
+Fürstin	keep	own feminine noun entry
+Geringste	merge:gering	capitalised inflected superlative (im Geringsten)
+Kampfjets	merge:Kampfjet	plural filed as lemma
+Klarstein	drop	brand name
+grundiert	merge:grundieren	participle form
+missglückt	merge:missglücken	participle form
+mässig	merge:mäßig	Swiss spelling
+orginal	merge:original	misspelling
+populärst	merge:populär	superlative form
+reisend	merge:reisen	participle form
+ur	drop	prefix fragment with no target lemma
+wiki	merge:Wiki	noun filed in lower case
+Europaabgeordnete	keep	nominalised adjective noun in its own right
+Fichtelgebirge	drop	place name not on list
+Gbit	drop	unit abbreviation
+# question Reel: unclear whether "Reel" (Instagram/video) counts as an established loan; dropped as not yet established.
+# question Thumbnail: borderline established loan; kept because it is common in German tech texts.
+# question teilig: cut-off fragment, but no target lemma exists to merge into; dropped.
+# question ur: prefix fragment with no target lemma; dropped.
+# question ZHAW: university abbreviation; unclear if "famous institution" applies to a regional Swiss university; dropped.

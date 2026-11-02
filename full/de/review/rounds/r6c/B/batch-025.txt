@@ -1,0 +1,47 @@
+Innehalte	merge:innehalten	Cut-off fragment of the verb innehalten
+Kronach	drop	Place name not on the list
+Ricky	drop	Personal name
+Ruhrpott	drop	Regional place name not on the list
+Sachse	keep	Inhabitant noun with its own masculine entry
+Sommerhaus	keep	Ordinary compound noun; the place name is only noise
+anhin	merge:bisher	Fragment of the Swiss phrase "bis anhin"
+einzigste	merge:einzig	Inflected superlative form of einzig
+hygienischen	merge:hygienisch	Inflected adjective form
+meer	merge:Meer	Noun filed under a lower-case lemma
+paket	merge:Paket	Noun filed under a lower-case lemma
+stress	merge:Stress	Noun filed under a lower-case lemma
+umrissen	merge:umreißen	Participle form of umreißen
+Parque	drop	Spanish word, not an established loan
+Präses	keep	Real German title noun
+Wählerstimme	keep	Regular compound noun
+aufflammen	keep	Valid separable verb
+balkon	merge:Balkon	Noun filed under a lower-case lemma
+bolivianisch	keep	Ordinary derived adjective
+freitag	merge:Freitag	Noun filed under a lower-case lemma
+gegensatz	merge:Gegensatz	Noun filed under a lower-case lemma
+neo	drop	Prefix fragment with no target lemma
+sep	merge:September	Abbreviation of a listed word
+unsereiner	keep	Pronoun
+zuwinken	keep	Valid separable verb
+Garda	drop	Place name not on the list
+Heidegger	drop	Personal name
+Hellblau	merge:hellblau	Adjective filed under a capitalised lemma
+Hotelbuchung	keep	Regular compound noun
+Lieblingssong	keep	Established loan compound
+Novo	drop	Brand or foreign name
+Siggi	drop	Personal name
+Unsicher	merge:unsicher	Adjective filed under a capitalised lemma
+Volkszeitung	drop	Regional newspaper name, not a famous institution
+Zollverein	keep	Famous institution and historical term
+mitzuführen	merge:mitführen	zu-infinitive form filed as a lemma
+ulcerosa	drop	Latin medical term
+Randstad	drop	Place or region name, also a company name
+Soap	keep	Established loan
+ball	merge:Ball	Noun filed under a lower-case lemma
+
+# question Innehalte: The examples are nominalised uses (das Innehalten), so Innehalten could be a noun in its own right. I treated the lemma as a cut-off fragment and merged it into innehalten.
+# question anhin: No clear target exists, since "bis anhin" is a real Swiss idiom. I merged it into bisher as the closest standard equivalent.
+# question neo: It is a prefix fragment with no obvious merge target, so I dropped it.
+# question sep: It could be an abbreviation of September or of something else, and no examples were found.
+# question Volkszeitung: It is a generic compound, but all the examples are regional newspaper names. I dropped it as a non-famous name.
+# question Ruhrpott: It is a colloquial region name, and I treated it as a place name to drop.

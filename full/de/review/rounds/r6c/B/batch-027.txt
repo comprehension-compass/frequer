@@ -1,0 +1,43 @@
+mac	drop	brand/abbreviation, not a number
+verantwortungsbewussten	merge:verantwortungsbewusst	inflected adjective form
+Anwende	merge:anwenden	verb filed under a capitalised lemma
+Bilderberger	drop	name of a group, not a famous institution
+Sechste	merge:sechste	inflected ordinal adjective
+Sylter	drop	derived from the place name Sylt, which is not on the list
+Thurgauer	drop	derived from the place name Thurgau, which is not on the list
+datenblatt	merge:Datenblatt	lower-case noun
+herstellung	merge:Herstellung	lower-case noun
+liiert	keep	participle with its own adjective entry
+sehbehinderte	merge:sehbehindert	inflected adjective form
+sekundar	merge:sekundär	missing umlaut
+Birkenstock	drop	brand name
+Dür	drop	forms are mostly the place name Düren
+Dürer	drop	person name
+Kimi	drop	personal name
+Rathenow	drop	place name
+Yosemite	drop	place name
+metall	merge:Metall	lower-case noun
+neig	merge:neigen	truncated verb form
+waehrend	merge:während	transliterated spelling
+Abspritz	merge:abspritzen	verb filed under a capitalised, cut-off lemma
+Dahme	drop	place name or river name
+Engadin	drop	place name
+Nachschlage	merge:nachschlagen	verb filed under a capitalised, cut-off lemma
+Ultras	merge:Ultra	plural filed as lemma
+Zillertaler	drop	derived from the place name Zillertal, which is not on the list
+befragt	merge:Befragte	lower-case noun (der/die Befragte)
+brief	merge:Brief	lower-case noun
+gewinnbringen	merge:gewinnbringend	wrong lemma form of the adjective
+verplanen	keep	the lemma is already the dictionary verb
+Ansgar	drop	person name
+Bogner	drop	name or brand
+Christliche	merge:christlich	inflected adjective under a capitalised lemma
+Dexter	drop	personal name
+Fer	merge:fern	cut-off fragment
+Glck	merge:Glück	broken encoding
+Hierüber	merge:hierüber	adverb under a capitalised lemma
+Leicester	drop	place name or team name
+Optimus	drop	name or brand
+# question Sechste: could be the nominalised "der/die Sechste", but the written forms are mostly the ordinal adjective, so I merged to the adjective sechste.
+# question Ultras: the plural may have its own meaning (the fan group), but I merged to the singular Ultra.
+# question verplanen: the examples are mostly the participle "verplant" used as an adjective, but the lemma is the infinitive, so I kept it.

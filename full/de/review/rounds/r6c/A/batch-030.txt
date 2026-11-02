@@ -1,0 +1,44 @@
+TZ	drop	newspaper abbreviation
+Voß	drop	surname
+firmiert	merge:firmieren	conjugated form
+gebloggt	merge:bloggen	participle, not an adjective entry
+germany	drop	English country name, not an adapted loan
+rutsch	merge:rutschen	conjugated form or fragment
+tanz	merge:tanzen	imperative or conjugated form
+Büffet	keep	accepted variant spelling of Buffet
+Erweiter	merge:erweitern	fragment of the verb
+Frameset	drop	English web-technical term
+Goalie	keep	established sports loan
+Inning	drop	English baseball term
+Installiere	merge:installieren	verb filed under a capitalised lemma
+Kaiserstuhl	drop	place name not on the list
+Kelsterbach	drop	place name not on the list
+Lei	drop	foreign currency, mixed with Leier forms
+Op	merge:Operation	abbreviation of a listed word
+Zurverfügungstellung	keep	genuine German noun
+bpc	drop	brand code
+netzwerk	merge:Netzwerk	lower-case noun
+systems	merge:System	English-form inflection
+teppich	merge:Teppich	lower-case noun
+Dt	merge:deutsch	abbreviation of a listed word
+Dustin	drop	personal name
+Gemahl	keep	dated but valid noun
+Haager	drop	place-derived adjective from Den Haag
+Headline	keep	established media loan
+Langweilig	merge:langweilig	adjective under a capitalised lemma
+Lappland	drop	place name not on the list
+Malik	drop	personal name
+Steigenberger	drop	hotel company name
+Understatement	keep	established loan
+Yogalehrerin	keep	feminine noun with its own entry
+entsandt	merge:entsenden	inflected participle forms
+gehegt	merge:hegen	inflected participle forms
+roulett	merge:Roulette	misspelt or inflected form
+Akademische	merge:akademisch	adjective under a capitalised lemma
+Baß	merge:Bass	old spelling
+Erhitz	merge:erhitzen	fragment of the verb
+Inbound	drop	English marketing term
+# question Lei: the forms are mixed (lei is a currency or garland, leier is Leier); dropped as foreign, but merge:Leier is possible.
+# question Op: it could also stand for Operationssaal; merged to Operation.
+# question Gemahl: gemahlen is mostly a form of mahlen and is mixed in; kept Gemahl.
+# question Büffet: valid Duden variant of Buffet; kept rather than merged.

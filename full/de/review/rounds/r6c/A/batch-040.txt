@@ -1,0 +1,42 @@
+documenta	keep	famous art exhibition, treated as a famous institution
+durchströmen	keep	valid verb, only the POS tag is wrong
+erlernt	merge:erlernen	participle forms, no adjective entry of its own
+jaja	keep	interjection, only the tag is wrong
+keck	keep	valid adjective, only the tag is wrong
+klassich	merge:klassisch	misspelling
+sieg	merge:Sieg	lower-case noun
+Filderstadt	drop	place name not on the list
+Gestapo	keep	famous historical institution
+Gnome	merge:Gnom	plural form filed as a lemma
+Lourdes	drop	place name not on the list
+Markier	merge:markieren	verb form filed under a capitalised lemma
+Marlon	drop	person name
+Sanchez	drop	person name
+Vulkaneifel	drop	place name not on the list
+Wfl	merge:Wohnfläche	abbreviation of a listed word
+beerben	keep	valid verb; the stray form "bearb" is noise
+fhrt	merge:führen	broken encoding
+imag	merge:Image	cut-off fragment
+iur	drop	Latin abbreviation fragment
+selbstkleben	merge:selbstklebend	inflected participle forms of selbstklebend
+sonstwie	keep	colloquial adverb, only the tag is wrong
+Abhole	merge:abholen	verb filed under a capitalised lemma
+Alkoholeinfluss	keep	valid compound noun
+Dachgeschoß	merge:Dachgeschoss	old spelling
+Kabellänge	keep	valid compound noun
+Krper	merge:Körper	broken encoding
+Loki	drop	mythological name, treated as an other name
+Mic	merge:Mikrofon	clipping of a listed word
+Tabellenletzte	keep	nominalised adjective, a noun in its own right
+Wurz	merge:Wurzel	cut-off fragment
+aufnahmen	merge:aufnehmen	conjugated form
+besucht	merge:besuchen	participle forms
+gestärkt	merge:stärken	participle forms
+huren	keep	valid verb
+loten	keep	valid verb; infinitive is the lemma
+medien	merge:Medien	noun with its own meaning in the plural, filed under a lower-case lemma
+sexfilme	merge:Sexfilm	plural form
+zeitung	merge:Zeitung	lower-case noun
+Überbelastung	keep	valid noun; the garbled variant is a minor form
+# question documenta: the written form is always lower-case and the official name is "documenta", so merging into a capitalised "Documenta" is possible, but I kept it as a famous institution.
+# question Gnome: all examples are the GNOME desktop software, not the plural of Gnom, so a drop as a name is also plausible.
