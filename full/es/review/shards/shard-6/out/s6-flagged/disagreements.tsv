@@ -1,0 +1,26 @@
+# lemma	A	reason A	B	reason B
+mol	drop	mixed forms (mol, MOL company, mola verb), no clean lemma	keep	real word (unit)
+hibiscus	drop	Latin/English name; Spanish is hibisco	merge:hibisco	Latin/English spelling of the Spanish word hibisco
+hech	merge:hecho	abbreviation of Hechos (Hech.)	drop	cut-off fragment/abbreviation (Hechos), no obvious lemma
+jokers	drop	English plural, mostly game and show titles	merge:joker	English plural filed as lemma
+egb	drop	acronym of defunct school stage, mixed with file extension and medical use	keep	Spanish education-level acronym (Educación General Básica)
+oif	drop	organisation acronym, not well known in Spanish usage	keep	International body (Francophonie), comparable to the other famous international bodies
+tato	drop	mostly a personal name	merge:tata	Real word tata (and plural tatas) filed under a broken lemma
+sci-fi	drop	hyphenated English abbreviation	merge:ciencia ficción	hyphenated abbreviation of a listed word
+multiplicao	merge:multiplicar	imperative with clitic "multiplicaos" filed as a lemma	merge:multiplicarse	"multiplicaos" is the imperative of multiplicarse
+laso	drop	mostly surname or name	keep	real Spanish adjective (lax, weary), though many hits are a surname
+glucose	merge:glucosa	English spelling of an adapted word	drop	English product-name use
+frac	drop	Name or acronym, not a learner word	keep	Real Spanish word (frac, tailcoat), though many uses are the FRAC art-fund acronym
+arra	drop	Mostly the acronym ARRA, so the real-word reading is a minority	merge:arras	Real plural-only noun (arras) filed under a broken lemma
+aliaga	keep	Real Spanish word (gorse), even though many uses are names	drop	Place name and surname
+maitre	drop	French title or personal name, not established in Spanish	merge:maître	missing accent; the restaurant term, though many examples are a name
+onboard	drop	English word, not established enough in Spanish	keep	established in Spanish motorsport, as in "cámaras onboard"
+millo	drop	mostly a name; the common-word reading is a minority	keep	real word (millet or maize in Canarias and Galicia), though mostly written as a name
+ruc	drop	tax-ID code, no examples	keep	tax-registry number written as an ordinary word in Latin America
+shoji	keep	established loan for the Japanese screen	drop	mostly a name; Japanese term not established in Spanish
+handball	keep	established loan for balonmano in parts of the Spanish-speaking world	drop	English word, not established in Spanish
+tragus	drop	Latin/English jewellery-listing term	merge:trago	Latin/English form of the ear part, Spanish is trago
+shonen	keep	Manga genre term used in Spanish by fans	drop	Manga term, not established for learners
+post-consumo	merge:postconsumo	hyphenated spelling of a prefixed adjective	merge:posconsumo	hyphenated spelling of an adapted word
+aire-acondicionado	merge:aire acondicionado	hyphenated spelling of a two-word noun	drop	hyphenated compound of two listed words
+lacar	drop	Mostly the lake name Lacar; verb reading is a minority	keep	Real Spanish verb (lacar, lacarse, lacados), even though many occurrences are the lake name
