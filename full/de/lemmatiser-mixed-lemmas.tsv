@@ -1,0 +1,118 @@
+# Lemmas whose counts mix another word (developer ruling 2026-11-02 #13: decided by the lemma's own reading here;
+# input for lemma release 1.6). From the review rounds' questions. lemma, round, note.
+Arbeiten	r7	the forms are mostly "des Arbeitens" (nominalised verb), so I kept it rather than merging into Arbeit, but merge:arbeiten would also be defensible.
+Auslese	r6b	the forms are mostly the nominalised verb Auslesen, but Auslese is a real noun, so I kept it
+Außergewöhnliche	r6a	nominalised "etwas Außergewöhnliches" could count as a noun in its own right; merged because the counted forms are mostly lower-case inflected adjectives
+Blogg	r6a	surface forms are mostly the verb/nominalised bloggen, but the noun Blog also occurs; chose bloggen as the dominant form
+Buffett	r6b	examples mix the surname with the misspelling of Buffet; dropped as a name
+Buse	r7	the written forms are mostly busen (Busen), but I couldn't confirm that Busen is already on the list as a lemma.
+CA	r6a	the example is California (CA), but the forms are mostly "ca." = circa, and I assumed circa is on the list.
+Deutsche	r7	the lemma is a legitimate nominalised adjective (der/die Deutsche), but the counted forms are mostly lower-case adjective inflections; I merged into deutsch, though 'Deutsch' (capitalised) is the entry on the list
+Drei	r6a	each lemma is decided on its own reading, but most counted forms belong to another word (forschen, Dreier, Angehörige(r), Kehle). Should those counts be reassigned, or those words added, if they are not already listed?
+Drift	r6b	the forms mix the noun with driften (verb); I kept it as the noun loan
+Eingreifen	r6b	the forms are mostly lower-case "eingreifen", but the examples show nominalised use; I kept it as a noun like Essen.
+Ernste	r6b	the examples mix the noun Ernst (allen Ernstes) with the nominalised adjective (nichts Ernstes); I merged to the adjective
+Finanzier	r6c	forms are mostly the verb finanzieren, but Finanzier is a valid noun, so kept; the verb forms may belong under finanzieren
+Flint	r6c	lemma mixes the English word/name with Flinte (142 tokens); dropped rather than merged
+Forsch	r6c	forms are mostly the verb forschen but also the adjective forsch; chose forschen as the majority
+Freske	r6b	Freske is a rare variant of Fresko, and the forms are mostly the plural fresken, so I merged it into Fresko.
+Fried	r6c	the forms are mostly the surname, but friede/friedes suggest some belong to Friede; dropped as a name
+Füsse	r6a	counted forms are mostly "füssen", which may be the town Füssen; merged to Fuß as the plural/Swiss spelling.
+Glut	r6a	written forms are mostly Gluten (the protein, a noun in its own right), but the lemma Glut is also a real word; I kept it.
+Herold	r6b	examples mix the common noun (herald) with a surname; I kept it as the common noun.
+Hint	r5b	written forms are mostly "hinten" (German) with some English "hint(s)", so the lemma is mixed
+Jumbo	r6c	examples mix the loan "Jumbo" with names and product uses, so I kept it as an established loan.
+Kaschmir	r6b	the examples mix the region and the fabric; I kept it as the fabric noun.
+Kehl	r6a	the forms mix the city Kehl with the noun Kehle (602 uses). I dropped it as a place name, but Kehle should be checked against the list.
+Kollage	r6a	each lemma is kept or merged on its own merits, but most of its counts belong to another word (Flöte, motorisiert, verträumt, wild, erblich, krank, Gelehrter, Kollagen). Should those counts be reassigned, and should vert
+Lei	r6c	counted forms mix Lei (currency or garland) and Leier (lyre); it is unclear which lemma applies, so I dropped it.
+Mop	r5b	forms are mostly "mops" (dog breed), but "Mop" (cleaning tool) is also a word; merged to Mops on the evidence.
+Niedersachse	r6c	The lemma is a real demonym, but the counted forms are mostly the place name Niedersachsen. I dropped it under the place-name rule.
+Ober	r6a	these were kept as real words, but most of their counts belong to another word (Gluten, Schnelltest, Ausrede, gravierend, Anpfiff, Sachverständiger, ober). Should those counts be re-lemmatised or split?
+Oberst	r7	these lemmas mix two real words (colonel/top, Raute/rau, Reich/die Reichen). Can they be split, or does the majority reading decide?
+Order	r5b	forms are mostly English "orders", but "ordern" (German verb, 65) is present; dropped the lemma, though merge:ordern could also fit.
+Parallel	r6c	the written forms are mostly the brand "Parallels", so the lemma may be junk rather than a plural of Parallele; I merged it to Parallele.
+Prim	r6a	the screeners suggest Primzahl or prime, but the forms are mostly English "prime"; I dropped it because no German target is clear.
+Raptor	r6c	the examples mix a sports team, a vehicle and dinosaurs/birds; I dropped it as name-like.
+Reiche	r7	written forms are mostly the verb 'reichen' and the plural of Reich; kept as the nominalised adjective 'der Reiche', but a merge into Reich is arguable
+Schild	r6a	the forms mix in schildern; the Schild noun was kept, but the verb forms may need a separate lemma.
+Sechste	r6c	could be the nominalised "der/die Sechste", but the written forms are mostly the ordinal adjective, so I merged to the adjective sechste.
+Stag	r6a	the forms are mostly "stage", used in names like Stage Entertainment; I treated it as English and dropped it rather than merging.
+Stärkere	r6b	it is a nominalised comparative (der Stärkere) but the counted forms are mostly adjectival; merged into stark.
+Stör	r6c	could be the fish noun Stör, but the counted forms are mostly stören.
+Stütze	r6a	each lemma is kept or merged on its own merits, but most of its counts belong to another word (Flöte, motorisiert, verträumt, wild, erblich, krank, Gelehrter, Kollagen). Should those counts be reassigned, and should vert
+Unbewusst	r6b	when the forms are mostly a nominalised adjective or participle (des Unbewussten, Trauernde) but the lemma lacks the -e, should they merge to the adjective or verb, or move to a noun lemma (Unbewusste, Trauernde)?
+Univers	r6b	forms are mostly the English "Universe", so merging into Universum is a guess.
+Verbund	r7	the lemma is a capitalised noun tagged VERB, but the written forms are mostly "verbunden". I merged to verbunden (an adjective with its own entry) rather than to verbinden.
+Walt	r6b	written forms are mostly the name Walt, but walten (41) is a verb, so merge:walten was possible
+Zoller	r7	it mixes a surname with the colloquial "15,6 Zoller" (inch-sized device); I dropped it as mostly a name.
+Zuviel	r6b	surface forms are mostly lower-case adverbial "zuviel"; I kept it because the examples show a nominalised noun.
+angehörig	r6a	each lemma is decided on its own reading, but most counted forms belong to another word (forschen, Dreier, Angehörige(r), Kehle). Should those counts be reassigned, or those words added, if they are not already listed?
+angeklagt	r6c	forms mix the noun ("Angeklagter, warum…") with participle use ("angeklagter Arzt"); should mixed lemmas follow the NOUN tag or the majority use?
+anpfeifen	r6a	anpfeifen is a real verb, but the forms are mostly the noun Anpfiff.
+ausreden	r6a	the forms mix the noun Ausrede with the verb ausreden. I merged to the noun because it is the majority.
+auswachsen	r6a	counted forms mix the verb with the noun Auswuchs and the adjective ausgewachsen; kept as the verb
+bauschen	r6c	the verb is real, but most of the counts are the surname Bausch; I chose drop.
+begünstigt	r6c	the forms are mostly nominalised, and it is unclear whether begünstigt has an adjective entry of its own.
+behindern	r6a	forms are mostly the adjective behinderte, but the verb is a real dictionary form, so kept
+darunterliegen	r6c	the forms are mostly participles, but the lemma is the infinitive, so I kept it.
+durchfahren	r6a	The counted forms are mostly durchführen, so I kept durchfahren as a real verb, but the counts may belong to a different lemma.
+düsen	r6a	the forms are mostly the noun Düse (926 of 1,420), so the lemma may really belong to Düse; I kept it as the valid verb lemma.
+erbleichen	r6a	each lemma is kept or merged on its own merits, but most of its counts belong to another word (Flöte, motorisiert, verträumt, wild, erblich, krank, Gelehrter, Kollagen). Should those counts be reassigned, and should vert
+eu	r5a	lemma mixes the acronym EU (426) with euer inflections (euen, eue, euem, eues); I kept it as EU
+feinschleifen	r6b	the counted forms are mostly Feinschliff, with some feingeschliffen/feinschleifen; I merged to Feinschliff as the dominant form.
+fing	r6b	the counted forms are mostly "finger" (319) and only 161 "fing"; I merged to fangen, but the lemma may be mixed with Finger.
+flauen	r6b	the forms are mostly the noun Flaute, but flaute can also be the verb (abflauen); I chose the noun
+flirt	r6a	the lemma reads as the noun Flirt, but most counted forms are the verb flirten. Should the counts be split between the two?
+flöten	r6a	each lemma is kept or merged on its own merits, but most of its counts belong to another word (Flöte, motorisiert, verträumt, wild, erblich, krank, Gelehrter, Kollagen). Should those counts be reassigned, and should vert
+forsch	r6a	each lemma is decided on its own reading, but most counted forms belong to another word (forschen, Dreier, Angehörige(r), Kehle). Should those counts be reassigned, or those words added, if they are not already listed?
+gedacht	r6a	forms mix denken and gedenken (gedachten sie der...), so the target is unclear
+gelehrt	r6a	each lemma is kept or merged on its own merits, but most of its counts belong to another word (Flöte, motorisiert, verträumt, wild, erblich, krank, Gelehrter, Kollagen). Should those counts be reassigned, and should vert
+gravieren	r6a	these were kept as real words, but most of their counts belong to another word (Gluten, Schnelltest, Ausrede, gravierend, Anpfiff, Sachverständiger, ober). Should those counts be re-lemmatised or split?
+größ	r6a	the forms are mostly the noun Größe, but some are the adjective groß.
+hallen	r6a	the forms are mostly the verb hallen (hall, hallt, hallte), but the lemma is also the plural of Halle; I kept it.
+hellen	r7	Forms mix the adjective hell with the verb hellen (hellt, hellte); I chose hell as the dominant reading.
+infinit	r6b	counted forms are mostly the English "Halo Infinite", not German; kept because infinit is a real German adjective.
+klamm	r7	forms are mostly Klammer (1,415) but the lemma is klamm; merged into Klammer rather than Klamm or the adjective klamm, and Klammer may not itself be on the list
+kranken	r6a	each lemma is kept or merged on its own merits, but most of its counts belong to another word (Flöte, motorisiert, verträumt, wild, erblich, krank, Gelehrter, Kollagen). Should those counts be reassigned, and should vert
+kuch	r5a	when a clipped lemma mixes two real words (Kuchen and Küche without umlaut), should it be dropped, or split between the two targets?
+lik	r6a	the forms are mostly "likes", and it is unclear whether Like is a listed lemma; I merged to Like.
+mark	r6b	forms split between Mark (currency) and Marke (brand); I chose Marke because marke is the second most frequent form and "marker" fits it better.
+mod	r6a	the forms mix mod, mode and modder, so there is no single clear target, and I dropped it.
+motorisieren	r6a	each lemma is kept or merged on its own merits, but most of its counts belong to another word (Flöte, motorisiert, verträumt, wild, erblich, krank, Gelehrter, Kollagen). Should those counts be reassigned, and should vert
+post	r6b	forms mix post/poster/gepost, so no clear target
+pulen	r6b	pulen is also a real (northern colloquial) verb, but the counted forms are mostly Pult, so I merged into Pult.
+rauen	r7	the forms mix Raute, rau and rauen, so the target is unclear; I chose Raute because it is the most frequent form.
+regen	r6a	forms are mostly rege (adjective) but regen also exists as a verb and as a plural; merged into reg
+sachverständig	r6a	these were kept as real words, but most of their counts belong to another word (Gluten, Schnelltest, Ausrede, gravierend, Anpfiff, Sachverständiger, ober). Should those counts be re-lemmatised or split?
+sal	r6c	forms are mostly English "sales"/"sale"; I merged to Sale as the adapted loan, but if Sale is not an accepted loan it should be dropped.
+schellen	r6c	the tag is NOUN but the forms are mostly verb forms; I kept it as the verb lemma.
+schlampen	r6b	the lemma is tagged ADJ but the forms mix the noun Schlampe with the verb schlampen; I kept it as the verb.
+schlitzen	r6b	lemma is a valid verb but the counted forms are mostly the noun Schlitze; I kept it, though a Schlitz entry may be needed
+schnellen	r6a	forms are mostly Schnelltest (a compound), merged into schnell as the closest base
+spachteln	r6b	counts mix noun (Spachtel, 404) and verb forms; kept as the verb, and the noun Spachtel may need a separate entry
+spiel	r6a	forms are mostly spieler but also spieles/spieln, so the target could be spielen
+spitzen	r6a	The forms mix the verb spitzen and the adjective spitz, so the lemma may need splitting.
+spuren	r6c	the surface forms mix spuren (to obey) with spurt/spurten (sprint); I kept the lemma, but the counts may combine two verbs.
+stick	r6c	written forms mix Stick, Sticker and English "sticks"; merged to Stick, though Sticker may deserve its own entry
+strand	r6b	could be a form of the verb stranden rather than the noun Strand; I chose Strand because the lower-case forms are mostly the noun.
+stream	r6b	the forms mix noun (Stream, Streamer) and verb (streamen); I chose the noun.
+studierend	r6b	a nominalised participle (Studierende, noun) or the verb studieren? I chose Studierende because the forms are mostly nouns.
+swing	r6a	forms are mostly "swinger", which may be spam; I merged to Swing as the lower-case lemma.
+tim	r6a	forms are mostly "time" and "timer", which could merge into Timer, but the lemma "tim" itself is a name or fragment; I dropped it.
+trau	r6c	the counts mix trau (427) and trauer (34), and trau could be an imperative of trauen; I picked trauen.
+trauernd	r6b	when the forms are mostly a nominalised adjective or participle (des Unbewussten, Trauernde) but the lemma lacks the -e, should they merge to the adjective or verb, or move to a noun lemma (Unbewusste, Trauernde)?
+umkleiden	r7	the forms mix the noun Umkleide with the verb umkleiden; I chose the noun because of the NOUN tag.
+verdächtigen	r6a	forms are mostly the adjective verdächtig and the participle verdächtigt; I kept the verb because it is a real lemma.
+verspäten	r6a	these lemmas mix a real verb with forms of another word (the participle adjective verspätet/zuvorkommend, or the noun Weide). Should such lemmas be split rather than kept or merged whole?
+verträumen	r6a	each lemma is kept or merged on its own merits, but most of its counts belong to another word (Flöte, motorisiert, verträumt, wild, erblich, krank, Gelehrter, Kollagen). Should those counts be reassigned, and should vert
+weiden	r6a	the written forms mix noun (Weide) and verb (weiden) forms; the examples are all the noun, so merged to Weide.
+weinen	r6a	the screener's note says the 'Weine' examples are the noun plural of Wein, but the written forms are mostly verb forms
+wellen	r6b	the forms (welle, gewellt, wellen) mix the noun Welle, the adjective gewellt and a rare verb wellen, so the target is unclear.
+widern	r6c	forms mix the preposition wider with the rare verb widern; merged to wider as the majority
+wildern	r6a	the counted forms are mostly the adjective wilder, so the verb is kept and the adjective count is not reassigned.
+wippen/Verbund	r7	these mixed lemmas are kept for their own reading, but the forms belonging to another word (wippe → Wippe, verbunden) can't be reassigned; should such forms be split?
+zuck	r6c	forms mix zuck, zucker and zucken, so the target is not obvious; chose merge:Zucker
+zutun	r6b	it is both the noun Zutun (ohne Zutun) and a misspelling of "zu tun", and the text mixes the two.
+zuvorkommen	r6a	these lemmas mix a real verb with forms of another word (the participle adjective verspätet/zuvorkommend, or the noun Weide). Should such lemmas be split rather than kept or merged whole?
+zwängen	r6b	the forms mix the plural Zwänge with forms of the real verb zwängen (gezwängt, zwängt, zwängte); I chose Zwang by majority, but the verb may need its own lemma.
