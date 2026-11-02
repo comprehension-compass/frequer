@@ -80,7 +80,10 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
     if jc.accent_ratio:
         taken = {m.source for m in merges}
         vetoed = {k for k, (d, _r) in out.review.decisions.items() if d == "keep"} if out.review else set()
-        merges += [m for m in junk.accent_merges(merged.lemmas, jc.accent_ratio)
+        # an accent merge into a lemma the review merged away follows it to the review's target
+        redirect = {m.source: m.target for m in merges}
+        merges += [junk.Merge(m.source, redirect.get(m.target, m.target), m.source_freq, m.evidence)
+                   for m in junk.accent_merges(merged.lemmas, jc.accent_ratio)
                    if m.source not in taken and m.source not in vetoed]
     out.merges = splits + junk.apply_merges(merged, merges)
 
