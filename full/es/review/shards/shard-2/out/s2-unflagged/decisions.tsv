@@ -1,0 +1,742 @@
+# lemma	decision	reason	how	rank
+dos	keep	numeral; digit forms are the same word	agreed	44
+diez	keep	numeral	agreed	196
+veinte	keep	numeral	agreed	407
+jugar	keep	core verb	agreed	428
+etcétera	keep	correct lemma for the abbreviation forms etc.	agreed	590
+ciento	keep	numeral, "por ciento"	agreed	632
+costo	keep	real word, common Latin American form	agreed	868
+once	keep	numeral and real word; also ONCE	agreed	889
+vincular	keep	real verb; ADJ tag is just participle use	agreed	1717
+judío	keep	real noun/adjective	agreed	1773
+veintinueve	keep	numeral	agreed	1833
+victoria	keep	real common word	agreed	1878
+destinar	keep	real verb	agreed	1901
+luna	keep	real common word	agreed	1949
+convertirse	keep	pronominal verb	agreed	1955
+rosa	keep	real common word	agreed	2051
+fumador	keep	real noun	agreed	2977
+nervios	merge:nervio	plural filed as lemma	agreed	3710
+morar	keep	real verb (to dwell; morar 1,476 plus some mora/more); count inflated by English "more" and hides morado and mora	adjudicated	3797
+asar	keep	real verb	agreed	4953
+film	keep	RAE-accepted variant; "film"/"films" is the dominant written form, also cling film	adjudicated	5007
+estimado	keep	adjective and letter salutation (Estimado cliente), a separate dictionary entry from estimar	adjudicated	5251
+medioambiente	merge:medio ambiente	single-word spelling of the two-word standard form	agreed	5703
+abrirse	keep	pronominal verb	agreed	6157
+inserto	merge:insertar	inserta/insertas forms dominate; noun share (insertos ~2,000) is minor and technical	adjudicated	6288
+deriva	keep	real noun ("a la deriva"), also verb forms	agreed	6307
+escalada	keep	real noun (climbing, escalation)	agreed	6422
+inscribirse	keep	pronominal verb	agreed	6631
+secarse	keep	pronominal verb	agreed	7271
+lanzarse	keep	pronominal verb	agreed	7435
+llenarse	keep	pronominal verb	agreed	7705
+clasificarse	keep	pronominal verb	agreed	8184
+billar	keep	real noun	agreed	8574
+rendirse	keep	pronominal verb	agreed	8869
+tijeras	keep	usual plural-only noun	agreed	8957
+oxandrolona	drop	drug name, spam artefact	agreed	9619
+colocarse	keep	pronominal verb	agreed	9689
+rascacielo	merge:rascacielos	back-formed singular, real lemma is rascacielos	agreed	10512
+fentermina	drop	drug name, spam artefact	agreed	10615
+sabana	keep	real word (savanna), though many forms are misspelt sábana	agreed	11215
+kernel	keep	established computing loan, used in Spanish tech writing	agreed	12215
+sendos	keep	real distributive adjective (sendas/sendos), plural-only	agreed	13003
+eslabonar	merge:eslabón	forms are mostly eslabones, so the lemma is wrong	agreed	13258
+ultimar	keep	real verb (ultimando, ultimado); the "ultimas" forms are a side issue	agreed	14149
+izar	keep	real verb (izado, izar)	agreed	14612
+memorar	merge:memorando	forms are overwhelmingly memorando	agreed	14970
+comisar	merge:comisaría	almost all forms are comisaría (police station, accented); verb comisar and comiso are negligible	adjudicated	15593
+fajar	merge:faja	forms are faja/fajas; verb share negligible (fajo 175 is a different noun)	adjudicated	15685
+cabrero	keep	real word (goatherd) even though many occurrences are the surname	agreed	16034
+papelear	merge:papeleo	forms are papeleo	agreed	16620
+temerse	keep	pronominal verb	agreed	16927
+piar	merge:pie	pié/píe misspellings dominate; piar only 59; piara and pío are other words	adjudicated	16935
+domótico	keep	real adjective and noun with its own entries	agreed	17320
+buscarse	keep	pronominal verb	agreed	17611
+alicatar	merge:alicate	alicates/alicate dominate; alicatado about 25%, mostly the tiling noun	adjudicated	18085
+lustrar	merge:lustre	lustre dominates; verb share about 15%; lustro (344) is a separate word	adjudicated	18831
+complutense	keep	real adjective and famous university name	agreed	18986
+paulista	keep	gentilic common word (of São Paulo), not itself a place name	adjudicated	19352
+indexado	merge:indexar	participle filed as lemma	agreed	20074
+ralentización	keep	real noun	agreed	21031
+poli	keep	established colloquial clipping of policía	agreed	22631
+superuniverso	drop	jargon from a single text, not a learner word	agreed	23646
+roer	keep	real verb; Roe/ROE are name and acronym uses	agreed	23862
+tetona	keep	real feminine form with its own entry	agreed	24597
+mozzarella	keep	established food loan	agreed	24617
+entristecerse	keep	pronominal verb	agreed	25081
+vacación	merge:vacaciones	learners study the plural; singular and unaccented forms belong there	adjudicated	25420
+pretorio	keep	real word (praetorium)	agreed	26388
+permitirse	keep	pronominal verb	agreed	26571
+carrión	drop	surname and place name	agreed	26704
+afanarse	keep	pronominal verb	agreed	27078
+trasporte	merge:transporte	variant spelling	agreed	28492
+ratito	keep	common diminutive	agreed	28908
+inscripto	merge:inscrito	variant spelling	agreed	29961
+sicológico	merge:psicológico	variant spelling	agreed	30011
+culotte	merge:culote	Spanish adaptation of the French spelling, like ángelus	adjudicated	30628
+pajarito	keep	common diminutive	agreed	30641
+tenofovir	drop	drug name known to specialists	agreed	31366
+espirar	keep	real verb	agreed	32459
+machar	drop	fragment of "papel maché" plus Machar/Machado names and machas; no verb use	adjudicated	32604
+heurística	keep	Real noun (la heurística) as well as adjective; own feminine entry	agreed	32918
+engancharse	keep	Pronominal verb	agreed	33340
+sardinero	pending-names	dominant reading is El Sardinero (Santander beach/district); common word only ~150 uses	adjudicated	33563
+hifi	keep	Established loan (hi-fi) used as ordinary word	agreed	33815
+cisplatino	keep	Real Spanish chemical/drug noun	agreed	34226
+giga	keep	Colloquial "gigas" for gigabytes	agreed	34256
+chavismo	keep	Common political noun	agreed	34395
+radián	keep	Real unit noun (radianes)	agreed	34632
+ensancharse	keep	Pronominal verb	agreed	35331
+vuelto	keep	residual ADJ forms (participle already counted under volver) are likely the noun "el vuelto" (change)	adjudicated	35871
+registrante	keep	Used in Spanish domain and legal texts; the ADV tag is a tagger error	agreed	35904
+respondedor	keep	Regular Spanish formation, used in medical and emergency texts	agreed	35934
+morderse	keep	Pronominal verb	agreed	36211
+grupaje	keep	Real specialised noun (freight)	agreed	36768
+electrotécnico	keep	Real adjective/noun (electrotecnia)	agreed	36804
+elcano	drop	Surname or institute name, not a common word	agreed	36891
+bromuro	keep	Real chemical noun	agreed	37143
+quercetina	keep	Real noun, though a technical one	agreed	37168
+mandrágora	keep	Real noun	agreed	37296
+rubricar	keep	Real verb	agreed	37309
+descentrar	keep	Real verb; participles are common	agreed	37330
+excelentísimo	keep	Lexicalised honorific title	agreed	37372
+signar	keep	Real verb	agreed	37493
+hectómetro	keep	Real unit noun	agreed	37518
+cartujo	keep	Real common word (Carthusian, cartuja)	agreed	37558
+inadecuadamente	keep	Real adverb; the ADJ tag is a tagger error	agreed	37569
+insolvente	keep	Real adjective; the ADV tag is a tagger error	agreed	37596
+sidonio	keep	Real demonym and adjective, not a place name	agreed	37608
+tocadisco	merge:tocadiscos	Dictionary form is tocadiscos	agreed	37641
+orlar	keep	Real verb, with orla as its noun	agreed	37887
+priorato	keep	Real common noun	agreed	37934
+equidistante	keep	Real adjective; the ADV tag is a tagger error	agreed	38013
+lixiviar	keep	Real verb, with lixiviado as its noun	agreed	38095
+requirente	keep	Real legal adjective	agreed	38316
+enlucir	keep	Real verb	agreed	38339
+mesurar	keep	Real verb, with mesura as its noun	agreed	38479
+desvergonzar	merge:desvergonzado	forms are the adjective; the verb is barely used	adjudicated	38510
+zapoteco	keep	Common demonym and language noun	agreed	38563
+contristar	keep	Real verb, though archaic	agreed	38571
+abigarrar	keep	Real verb, with common participial adjectives	agreed	38793
+sendo	merge:sendos	plural-only word, lemma should be sendos	agreed	38869
+concienzudamente	keep	real adverb, only the POS tag is wrong	agreed	39008
+canelón	keep	common word (canelones, the pasta), not just the place Canelones	agreed	39283
+sashimi	keep	established food loan	agreed	39369
+maliense	keep	common demonym adjective	agreed	39519
+charro	keep	real word (Mexican horseman), not only a name	agreed	39690
+emplumar	keep	real verb with its participles	agreed	39749
+kárstico	keep	real geological adjective	agreed	39811
+terraplenar	merge:terraplén	forms are mostly the noun terraplenes	agreed	39951
+alambicar	merge:alambique	forms are mostly the noun alambique	agreed	40076
+dihidrotestosterona	drop	specialist chemical term	agreed	40194
+espaldera	keep	real noun, only the POS tag is wrong	agreed	40247
+apantallar	keep	real verb with its participles	agreed	40273
+curro	keep	colloquial Spanish word for job	agreed	40282
+brigadier	keep	real Spanish rank word	agreed	40424
+falafel	keep	established food loan	agreed	40434
+plantarse	keep	pronominal verb	agreed	40494
+entroncar	keep	real verb	agreed	40527
+texano	keep	accepted Spanish word and spelling	agreed	40637
+aramida	keep	real noun, only the POS tag is wrong	agreed	40856
+desbocar	keep	real verb with its participles	agreed	40951
+decibel	keep	accepted Spanish form (decibeles)	agreed	41145
+friuli	drop	place name	agreed	41153
+acrilamida	keep	real word in food-safety news	agreed	41366
+desaliñar	keep	real verb with its participles	agreed	41484
+apropiarse	keep	pronominal verb	agreed	41517
+chutar	keep	real verb	agreed	41629
+taladrador	merge:taladradora	the machine is overwhelmingly written taladradora	adjudicated	41664
+linealmente	keep	real adverb, only the POS tag is wrong	agreed	41694
+cardón	keep	common word for the cactus	agreed	41736
+propranolol	drop	drug name, too specialist	agreed	41775
+trasferencia	merge:transferencia	accepted but minority variant; file under the dominant spelling	adjudicated	41846
+reticulado	keep	real word	agreed	41903
+afelpar	keep	real verb with its participles	agreed	41920
+diaporama	keep	in the DLE; used in Spain for a slide show	adjudicated	41937
+nazareo	keep	real Spanish religious term	agreed	41963
+conectador	merge:conector	non-standard form of conector	agreed	42046
+huecograbado	keep	real Spanish printing term	agreed	42110
+castañar	keep	common word (chestnut grove)	agreed	42144
+alquitranar	keep	real verb with its participles	agreed	42189
+dimanante	keep	real formal/legal adjective (dimanar); the "-" form is a one-off artefact	agreed	42326
+manzanar	keep	real word (apple orchard) even though many occurrences are Manzanares	agreed	42349
+ovacionar	keep	real verb; ovaciones forms are a minor mix	agreed	42415
+absorbedor	keep	real technical noun, used for absorbers	agreed	42435
+rehusarse	keep	genuine pronominal use of rehusar, common in Latin America	agreed	42476
+castrista	keep	common political adjective derived from a name	agreed	42563
+extralargo	keep	real adjective with a regular prefix, used in hotel and product text	agreed	42574
+transcendental	merge:trascendental	variant spelling of trascendental	agreed	42611
+angustiante	keep	real adjective	agreed	42688
+rastreabilidad	keep	real noun, a variant of trazabilidad	agreed	42774
+adsorber	keep	real technical verb	agreed	42797
+desminado	keep	real noun for demining	agreed	42866
+microcemento	keep	common construction noun, not a brand	agreed	42880
+aprestar	keep	real verb; apresto is a related noun	agreed	42909
+reinsertar	keep	real verb	agreed	42953
+anillar	keep	real verb; the participles are the usual forms	agreed	42965
+barbechar	merge:barbecho	nearly all occurrences are the noun barbecho	adjudicated	43091
+aciclovir	keep	generic drug name used as an ordinary word, not a brand	agreed	43346
+empatizar	keep	real verb in current use	agreed	43363
+omeya	keep	historical adjective, not a place name	agreed	43388
+solario	merge:solárium	variant of solárium	agreed	43404
+bióxido	keep	real variant of dióxido used in Latin America	agreed	43423
+indolente	keep	real adjective, wrongly tagged ADV	agreed	43510
+fiscalmente	keep	real adverb	agreed	43565
+nectarino	merge:nectarina	nectarina is the standard form	agreed	43590
+trivialidad	keep	real noun	agreed	43608
+rapel	keep	established sports loan	agreed	43652
+besazo	keep	real augmentative noun	agreed	43729
+entronizar	keep	real verb	agreed	43751
+monada	keep	real noun	agreed	43833
+trocha	keep	real Latin American word	agreed	43851
+farolito	keep	real diminutive of farol, even though many occurrences are a business name	agreed	43930
+esperable	keep	real adjective; the "--" form is a one-off artefact	agreed	44055
+limeño	keep	common demonym adjective, not a place name	agreed	44076
+sidecar	keep	established loan	agreed	44092
+bernés	keep	common demonym adjective	agreed	44112
+inapropiadamente	keep	real adverb	agreed	44142
+sostén	keep	real noun for bra or support; sostenes is its plural	agreed	44171
+almohade	keep	historical adjective in common use	agreed	44254
+ghanés	keep	common demonym adjective	agreed	44403
+hijab	keep	established loan for the headscarf	agreed	44457
+trifosfato	keep	real chemical noun, not an acronym	agreed	44493
+interpolar	keep	real verb	agreed	44532
+bentonita	keep	real noun, the ADJ tag does not matter	agreed	44632
+extrusora	keep	real noun for the machine	agreed	44644
+logar	merge:lograr	misspelling of lograr ("logar un óptimo desempeño")	agreed	44665
+arrancarse	keep	pronominal verb	agreed	44705
+escarchar	keep	real verb	agreed	44720
+chancho	keep	Latin American word for pig	agreed	44849
+financista	keep	real noun	agreed	44861
+frigo	keep	colloquial Spanish for refrigerator	agreed	44929
+atendimiento	drop	Portuguese calque (atendimento); standard Spanish is atención	adjudicated	44974
+multilenguaje	drop	template compound in hotel and software listings; Spanish says multilingüe	adjudicated	45012
+comprensiblemente	keep	real adverb	agreed	45046
+monovarietal	keep	real wine term	agreed	45065
+spaniel	keep	established breed name, as in cocker spaniel	agreed	45083
+agazapar	keep	real verb	agreed	45097
+sincronicidad	keep	real noun	agreed	45227
+deseleccionar	keep	real verb, used in software contexts	agreed	45258
+arlequín	keep	real common noun	agreed	45314
+calcedonia	keep	common word for the mineral	agreed	45463
+incrustarse	keep	pronominal verb	agreed	45484
+aleatorización	keep	real noun	agreed	45611
+desbalance	keep	real noun, used in Latin America	agreed	45681
+luthier	keep	established loan	agreed	45702
+vulvar	keep	real adjective	agreed	45798
+hidrófilo	keep	real adjective	agreed	45907
+popurrí	keep	real noun, variant spellings are fine	agreed	45929
+citalopram	keep	generic drug name, not a brand	agreed	45965
+tadalafilo	keep	generic drug name, not a brand	agreed	46020
+ejote	keep	Mexican word for green bean	agreed	46055
+sapienza	drop	Italian university name, mostly "La Sapienza" in Rome	agreed	46104
+cejar	keep	real verb	agreed	46204
+vertimiento	keep	real noun	agreed	46272
+preste	merge:prestar	examples are all prestes, subjunctive of prestar	agreed	46501
+formo	drop	no examples; forma may be the noun or formar, Formo looks like a name; no obvious target	adjudicated	46549
+sobreexponer	keep	real verb	agreed	46581
+lorquino	keep	demonym is a common adjective, not a place name	agreed	46801
+rebrotar	keep	real verb	agreed	46820
+vítor	keep	vítores is a real word; the name Vítor is the minority use	agreed	46837
+estilosas	merge:estiloso	feminine plural filed as lemma	agreed	46860
+mogol	keep	real Spanish demonym/adjective	agreed	46886
+saiyano	drop	fictional name (Dragon Ball)	agreed	46898
+avanafil	drop	specialist drug name	agreed	46922
+convesaciones	merge:conversación	misspelt plural	agreed	46935
+fregador	merge:fregadora	fregadora (floor scrubber) forms dominate	adjudicated	46950
+isopropílico	keep	real adjective	agreed	46959
+rectorado	keep	ordinary Spanish noun	agreed	46989
+actuante	keep	real adjective/noun, POS tag is wrong	agreed	47106
+ligante	keep	real word	agreed	47156
+ubiquinol	drop	biochemical term	agreed	47194
+diazepam	keep	generic drug name widely known in Spanish	agreed	47218
+malfuncionamiento	keep	attested Spanish noun	agreed	47239
+secante	keep	real adjective/noun, POS tag is wrong	agreed	47259
+postmenopáusicas	merge:postmenopáusico	feminine plural filed as lemma	agreed	47572
+mathias	drop	personal name	agreed	48142
+benjaminita	keep	real Spanish gentilic	agreed	48241
+styl	drop	English fragment	agreed	48474
+spudger	drop	English tool name	agreed	48655
+pocito	keep	ordinary diminutive of pozo ('small well/hole'); a real common word stays even though most hits are the place name Pocitos	adjudicated	48732
+interlinear	merge:interlineado	mostly interlineado	agreed	48895
+refregar	keep	real verb	agreed	48919
+escitalopram	drop	specialist drug name	agreed	48965
+valhalla	drop	mythological place name	agreed	49202
+echadle	merge:echar	imperative with clitic	agreed	49324
+sobreintensidad	keep	real technical noun	agreed	49387
+departmento	merge:departamento	misspelling	agreed	49426
+mtor	drop	specialist acronym	agreed	49454
+colonoscopía	merge:colonoscopia	accent variant	agreed	50516
+recientementecerca	drop	fused web artefact	agreed	50687
+masturbarse	keep	pronominal verb	agreed	50763
+angelus	merge:ángelus	Spanish writes the established prayer name with an accent	adjudicated	50811
+regresarse	keep	pronominal verb	agreed	50889
+águas	drop	Portuguese/place name	agreed	51297
+ovalle	drop	place name	agreed	51365
+ire	drop	not a Spanish lemma, English IRE/fragment	agreed	51446
+notifiqueme	merge:notificar	conjugated verb with clitic	agreed	51653
+consellería	keep	official regional government term in Spain	agreed	51917
+cofundó	merge:cofundar	conjugated form	agreed	52125
+shochu	drop	Japanese word not established in Spanish	agreed	52386
+bizhub	drop	brand name	agreed	52415
+pinoso	drop	place name (Pinoso)	agreed	52487
+eugin	drop	clinic brand/name	agreed	52651
+pilgrim	drop	English word, mostly place and film names	agreed	52700
+catarí	keep	valid Spanish demonym, majority spelling	agreed	52752
+hiponatremia	keep	real medical term	agreed	52778
+astilladora	keep	real noun (wood chipper)	agreed	52859
+résumé	drop	French/English word, not established in Spanish	agreed	52947
+bordador	keep	real noun	agreed	52984
+edmonds	drop	place/surname	agreed	53111
+lucidum	drop	Latin species epithet	agreed	53139
+protur	drop	hotel brand	agreed	53163
+aplíquese	merge:aplicarse	imperative with clitic	agreed	53197
+electrochapado	keep	real technical word	agreed	53333
+hidroxilo	keep	real chemistry noun	agreed	53349
+hydráulico	merge:hidráulico	misspelling	agreed	53585
+cropped	drop	English word, not established in Spanish	agreed	53679
+kitesurfing	keep	established sports loan	agreed	53716
+panathinaikos	drop	club name	agreed	53734
+elyria	drop	place name	agreed	53817
+tokenización	keep	established technical noun	agreed	53889
+consellera	keep	title regularly used in Spanish press	agreed	53926
+encóder	keep	adapted anglicism used in Spanish	agreed	53938
+paqueter	merge:paquetería	cut-off fragment	agreed	53987
+sicólogo	keep	accepted spelling variant	agreed	54003
+kebabs	merge:kebab	plural filed as lemma	agreed	54088
+pequenas	merge:pequeño	missing ñ, inflected form	agreed	54242
+cafetalera	merge:cafetalero	feminine adjective filed as lemma	agreed	54289
+energiza	merge:energizar	conjugated form	agreed	54303
+desafinar	keep	real verb	agreed	54415
+ensenanza	merge:enseñanza	missing ñ	agreed	54424
+nalgada	keep	real noun	agreed	54463
+thermador	drop	brand name	agreed	54491
+rellenador	keep	real noun/adjective	agreed	54599
+telesalud	keep	established term	agreed	54615
+impeledor	drop	machine-translated calque of "impeller"; Spanish uses impulsor/rodete	adjudicated	54699
+notificante	keep	real word in legal usage	agreed	54718
+permea	merge:permear	conjugated form	agreed	54730
+desganar	merge:desgana	lemma broken, forms belong to desgana	agreed	54807
+albero	keep	real word (bullring sand)	agreed	54909
+fondeadero	keep	real Spanish nautical noun (anchorage)	agreed	54947
+mitzrayim	drop	Hebrew name for Egypt, a place name not established in Spanish	agreed	55093
+wookiee	drop	fictional species name	agreed	55152
+dde	drop	technical acronym (dynamic data exchange)	agreed	55181
+tipeo	keep	real Spanish noun (from tipear), used in Latin America	agreed	55244
+carsharing	keep	established loan for a common service	agreed	55404
+slipper	keep	shoe loan in fashion text (slippers); some examples are proper names	agreed	55491
+apoyador	keep	real Spanish noun (supporter, linebacker)	agreed	55521
+shekel	keep	established currency loan; shekeles is also attested	agreed	55614
+vivar	drop	mainly Díaz de Vivar (the Cid's surname); common noun and verb uses only ~7	adjudicated	55629
+autolimpiante	keep	real Spanish adjective, mis-tagged ADV	agreed	55642
+exultante	keep	real Spanish adjective, mis-tagged ADV	agreed	55678
+maón	drop	place name	agreed	55711
+dolutegravir	drop	drug name, specialist term	agreed	55810
+ramitas	merge:ramita	plural/diminutive filed as lemma	agreed	55872
+subjetivación	keep	real Spanish noun	agreed	55892
+adrienne	drop	personal name	agreed	55915
+dermopurifyer	drop	brand name	agreed	55945
+omnitrix	drop	fictional device name	agreed	56149
+basmati	keep	established loan for a rice variety	agreed	56214
+aeromodelismo	keep	real Spanish noun	agreed	56347
+cacito	keep	real diminutive used for measuring scoops	agreed	56370
+enguantar	keep	real Spanish verb, forms are participles	agreed	56387
+complexo	drop	mostly Portuguese proper name (Complexo do Alemão)	agreed	56506
+fatimí	keep	real Spanish adjective/noun (Fatimid)	agreed	56527
+gruas	merge:grúa	missing accent, plural	agreed	56541
+wynwood	drop	place name	agreed	56622
+atrapante	keep	real Spanish adjective, mis-tagged ADV	agreed	56637
+lisis	keep	real Spanish medical noun	agreed	56713
+proteje	merge:proteger	misspelling of protege	agreed	56738
+wolframio	keep	real Spanish word for tungsten	agreed	56763
+baghdad	drop	place name, English spelling	agreed	56776
+circonitas	merge:circonita	plural filed as lemma	agreed	56923
+alégrense	merge:alegrarse	conjugated imperative filed as lemma	agreed	57042
+bootloader	drop	specialist English computing term	adjudicated	57055
+rosea	drop	mostly Latin species epithet	agreed	57156
+tut	drop	name/fragment, not Spanish	agreed	57175
+bórax	keep	real Spanish noun	agreed	57209
+compadrar	merge:compadre	wrong lemma; forms are compadre	agreed	57221
+despampanante	keep	real Spanish adjective, mis-tagged ADV	agreed	57236
+patita	keep	real diminutive noun, plural only in text	agreed	57291
+reflectiva	merge:reflectivo	feminine adjective form filed as lemma	agreed	57301
+mandado	keep	real noun (errand, order)	agreed	57401
+optimas	merge:óptimo	missing accent, plural form	agreed	57418
+radioescucha	keep	real noun	agreed	57430
+redirigiremos	merge:redirigir	conjugated verb form	agreed	57554
+tvos	drop	Apple product name	agreed	57584
+damiana	keep	real Spanish word for the plant	agreed	57630
+luminar	keep	real word (luminares, "lumbreras")	agreed	57675
+académie	drop	French word	agreed	57746
+descuido	keep	real noun	agreed	57770
+escarpín	keep	real noun (bootie)	agreed	57778
+multibrazo	drop	specialist car-suspension term, not a learner word	adjudicated	57823
+porcar	merge:porqué	porqué misfiled as a verb	agreed	57843
+subartículo	drop	specialist legal-text compound	agreed	57869
+touchdowns	merge:touchdown	English plural of an established sports loan	agreed	58028
+approx	drop	English abbreviation in English fragments	agreed	58048
+driblar	keep	real Spanish verb	agreed	58083
+pitlochry	drop	place name	agreed	58156
+significantemente	merge:significativamente	non-standard adverb for significativamente	agreed	58330
+tenar	merge:tener	voseo forms of tener	agreed	58340
+fundraising	drop	English term, not established in Spanish	agreed	58403
+snowpark	drop	niche English ski compound, not established for a learner	adjudicated	58483
+decider	merge:decidir	English or misspelt form of decidir	agreed	58539
+encapotar	keep	real verb (participle usage)	agreed	58547
+telemando	keep	real noun	agreed	58625
+pullmantur	drop	company name	agreed	58757
+francetv	drop	brand name	agreed	58858
+solita	merge:solo	diminutive of solo; base lemma is solo	adjudicated	58931
+hahaha	drop	English-style laugh transcription, not a word	adjudicated	59010
+sines	drop	place name	agreed	59067
+vallecito	keep	real diminutive noun	agreed	59083
+comprehensivo	keep	listed in the RAE	agreed	59133
+lúrex	keep	listed in the RAE	agreed	59193
+mortis	drop	Latin fragment	agreed	59204
+simposium	merge:simposio	Latin variant of simposio	agreed	59237
+twh	drop	unit abbreviation	agreed	59252
+conéctelo	merge:conectar	imperative with clitic	agreed	59435
+decs	drop	specialist acronym	agreed	59442
+novembre	drop	French/Italian/Catalan word	agreed	59513
+paramahansa	drop	person's title/name	agreed	59526
+suporte	drop	Portuguese word, not Spanish	agreed	59719
+violaciónes	merge:violación	misspelt plural	agreed	59733
+acuérdense	merge:acordarse	imperative of pronominal verb filed as lemma	agreed	59748
+dpkg	drop	software command	agreed	59795
+invítelo	merge:invitar	imperative with clitic	agreed	59833
+workawayer	drop	brand-derived English word	agreed	59916
+delfina	drop	mostly the personal name Delfina	agreed	59962
+justificadamente	keep	real Spanish adverb	agreed	59995
+ruidera	keep	real common word (continuous noise), though most uses are the place	agreed	60044
+separándolo	merge:separar	gerund with clitic	agreed	60226
+mediopié	keep	real compound (midfoot) in footwear	agreed	60341
+originación	drop	specialist finance calque a learner would not study	adjudicated	60354
+propriedad	merge:propiedad	misspelling	agreed	60364
+rooteado	drop	niche tech slang from English "root"	adjudicated	60371
+brusquedad	keep	real noun; the hyphen form is just an artefact	agreed	60418
+iforex	drop	brand name	agreed	60480
+isosorbide	drop	English drug name	agreed	60486
+reuso	keep	real noun, used in Latin America	agreed	60539
+sílex	keep	real noun (flint)	agreed	60559
+focolares	drop	ordinary religious movement, not a famous institution	agreed	60627
+habiéndose	merge:haber	gerund with clitic	agreed	60642
+siquiatra	merge:psiquiatra	accepted variant; psiquiatra is the standard lemma	adjudicated	60704
+desarreglar	keep	real verb; its forms are in use	agreed	60778
+frambueso	keep	real word (raspberry bush)	agreed	60786
+oberta	drop	Catalan word	agreed	60833
+quirinale	drop	Italian place name	agreed	60849
+entretelar	merge:entretela	lemma wrong, forms are entretela	agreed	60931
+interminablemente	keep	real adverb	agreed	60957
+mantita	keep	real diminutive of manta	agreed	60977
+pelet	merge:pélet	missing accent on the academy form	agreed	60995
+romanov	drop	surname	agreed	61006
+swiftnet	drop	brand/product name	agreed	61018
+calanque	drop	mostly place names (Calanques); French loan	agreed	61072
+curita	keep	regional word for adhesive plaster	agreed	61097
+sepultáronlo	merge:sepultar	conjugated form with clitic	agreed	61215
+androgenicidad	drop	not an established word, spam text	agreed	61251
+penne	keep	established loan for pasta	agreed	61357
+creeper	drop	English word, not established	agreed	61450
+engrasador	keep	real word (greaser/grease gun)	agreed	61462
+paty	drop	personal name	agreed	61526
+wenceslas	drop	name from the place name Wenceslas Square	agreed	61590
+antikaria	drop	brand or site name	agreed	61607
+cusqueña	merge:cusqueño	feminine adjective filed as lemma; the masculine is the base form	agreed	61637
+dotándola	merge:dotar	gerund with clitic	agreed	61647
+piraka	drop	Bionicle product name	agreed	61729
+ten	merge:tener	"ten" and voseo "tenes"/"tens" are forms of tener; river Tenes is noise	adjudicated	61764
+bañ	drop	cut-off fragment, mostly a name	agreed	61807
+hol	drop	fragment or acronym, not a word	agreed	61876
+winks	drop	English word, not established in Spanish	agreed	61959
+autoproclamarse	keep	pronominal verb	agreed	61972
+clonidina	keep	real Spanish pharmaceutical noun	agreed	61986
+annaever	drop	username	agreed	62133
+cocteler	merge:coctelería	wrong lemma; the text has coctelería	agreed	62171
+empápate	merge:empaparse	imperative with clitic	agreed	62192
+prepar	merge:preparar	fragment; its forms are voseo or infinitive of preparar	agreed	62284
+alojándose	merge:alojarse	gerund with clitic	agreed	62343
+arrástrala	merge:arrastrar	imperative with clitic	agreed	62352
+estandardizar	merge:estandarizar	misspelling	agreed	62396
+horcajada	merge:horcajadas	used almost only in "a horcajadas", the dictionary form	adjudicated	62576
+mediocampo	keep	real Spanish football term	agreed	62602
+och	drop	fragment or acronym, not Spanish	agreed	62615
+pipo	drop	mostly a name or brand (PiPO)	agreed	62627
+mototaxi	keep	real Latin American word	agreed	62779
+perdonándoos	merge:perdonar	gerund with clitic	agreed	62792
+companero	merge:compañero	missing ñ	agreed	62886
+valdepeña	drop	place name	agreed	63026
+embotelladora	keep	has its own noun entry (bottling company or machine)	agreed	63095
+pasqual	drop	personal name	agreed	63330
+tíquico	drop	biblical personal name	agreed	63553
+aparatokitchenaid	drop	fused brand artefact	agreed	63579
+webapp	keep	established tech loan	agreed	63744
+antineumocócica	merge:antineumocócico	feminine form filed as lemma	agreed	63757
+deseás	merge:desear	voseo conjugated form	agreed	63788
+eaux	drop	French	agreed	63795
+hmmm	drop	hesitation sound in translated text; merge target hmm/mmm not shown as listed	adjudicated	63828
+senti	drop	mostly Italian or Catalan or a name	agreed	63890
+íconos	merge:ícono	plural filed as lemma	agreed	63928
+gistograma	merge:histograma	misspelling	agreed	64002
+marcio	drop	personal name	agreed	64034
+pinto	keep	real Spanish adjective (frijol pinto), although many hits are the surname	agreed	64060
+stemtech	drop	brand	agreed	64094
+tullerías	drop	place name	agreed	64109
+comentariospuntuación	drop	web artefact	agreed	64169
+drach	drop	place name (Cuevas del Drach)	agreed	64184
+satchel	drop	English word	agreed	64292
+amaderada	merge:amaderado	feminine form filed as lemma	agreed	64332
+esrb	drop	organisation acronym	agreed	64385
+monnet	drop	person's surname	agreed	64450
+recuéstese	merge:recostarse	imperative with clitic	agreed	64498
+comboniana	drop	adjective from a religious order's name, of no use to a learner	adjudicated	64592
+elfyn	drop	person's name	agreed	64606
+palier	keep	established Spanish term for a half-shaft	agreed	64700
+famlia	merge:familia	misspelling	agreed	64821
+veia	merge:ver	missing accent on veía, a conjugated form	agreed	64940
+mrna	drop	English technical abbreviation	agreed	65073
+brahmana	merge:brahmán	Sanskrit spelling of the Spanish word brahmán	adjudicated	65171
+comex	drop	company or acronym	agreed	65189
+tipster	keep	loan established in Spanish betting vocabulary	agreed	65347
+actora	keep	legal term with its own feminine entry	agreed	65379
+datetime	drop	code term	agreed	65437
+flyback	drop	English watch term	agreed	65468
+dovelar	merge:dovela	noun lemma is dovela	agreed	65668
+inlay	drop	English dental term	agreed	65703
+levantáronse	merge:levantarse	conjugated form with clitic	agreed	65726
+transcendente	merge:trascendente	variant spelling	agreed	65800
+digite	merge:digitar	conjugated form	agreed	66097
+undefined	drop	code artefact	agreed	66238
+reúnanse	merge:reunirse	imperative with clitic	agreed	66412
+scones	merge:scone	plural of an established loan	agreed	66420
+electromágnetico	merge:electromagnético	misspelling	agreed	66548
+ethinyl	drop	English chemical term	agreed	66558
+mézclelo	merge:mezclar	imperative with clitic	agreed	66625
+titulizaciones	merge:titulización	plural form	agreed	66683
+correopostal	drop	fused web artefact	agreed	66757
+danar	merge:dañar	missing ñ	agreed	66764
+fcbescola	drop	brand or name artefact	agreed	66786
+saved	drop	English word	agreed	66882
+suprimirlo	merge:suprimir	infinitive with clitic	agreed	66896
+destaparse	keep	pronominal verb	agreed	66995
+hist	drop	truncated fragment; no examples, so no obvious target	agreed	67026
+nmol	drop	specialist unit abbreviation	agreed	67074
+quadrados	merge:cuadrado	Portuguese/old spelling in "metros cuadrados"	adjudicated	67088
+arrastrándolo	merge:arrastrar	gerund with clitic	agreed	67165
+destruídos	merge:destruir	plural participle with missing accent	agreed	67213
+ribamontán	drop	place name	agreed	67334
+secoya	keep	real Spanish word for the sequoia tree	agreed	67341
+departament	drop	Catalan	agreed	67436
+pisga	drop	place name	agreed	67536
+rigoroso	merge:riguroso	Portuguese/Italian spelling of riguroso	agreed	67560
+vivax	drop	Latin species epithet	agreed	67596
+akademie	drop	German	agreed	67611
+coproducido	merge:coproducir	participle filed as lemma	agreed	67659
+descargá	merge:descargar	voseo imperative	agreed	67667
+essenza	drop	Italian word and brand name	agreed	67686
+pimp	drop	English, not established	agreed	67765
+utilizándola	merge:utilizar	gerund with clitic	agreed	67812
+anio	merge:año	misspelling of año	agreed	67841
+dak	drop	name or fragment	agreed	67875
+ferrous	drop	English drug name	agreed	67905
+girándola	merge:girar	gerund with clitic	agreed	67918
+hermosísimo	merge:hermoso	superlative form of hermoso	agreed	67930
+pantys	merge:panti	English-style plural of panti	agreed	67990
+plainview	drop	place name	agreed	67998
+softgel	drop	English product term	agreed	68041
+vouchers	merge:voucher	established loan, plural filed as lemma	agreed	68064
+energies	drop	French/English word, mostly company names	agreed	68132
+mairie	drop	French	agreed	68194
+pcmark	drop	brand name	agreed	68221
+rotc	drop	US organisation acronym	agreed	68242
+desinstala	merge:desinstalar	conjugated form	agreed	68357
+etiqueado	merge:etiquetar	misspelt participle of etiquetar	agreed	68375
+martinis	merge:martini	plural filed as lemma	agreed	68433
+asignandole	merge:asignar	gerund with clitic and missing accent	agreed	68564
+logout	drop	English interface term, not established	agreed	68666
+matebook	drop	brand name	agreed	68674
+archeologico	merge:arqueológico	Italian/misspelt form of arqueológico	agreed	68802
+panoro	drop	company name	agreed	68933
+spacer	drop	English word and product name	agreed	68982
+aligner	drop	English word	agreed	69037
+consígalo	merge:conseguir	imperative with clitic, so a conjugated form filed as a lemma	agreed	69083
+cyberbullying	keep	established loan used in Spanish text	agreed	69091
+importantemente	drop	nonstandard adverb, a calque from English	agreed	69140
+ofre	drop	cut-off fragment	agreed	69178
+simlock	drop	technical English jargon	agreed	69229
+unámonos	merge:unirse	imperative of unirse with clitic	agreed	69257
+cedillo	drop	mostly a surname	agreed	69312
+dayana	drop	personal name	agreed	69342
+izakaya	drop	Japanese word not established in Spanish	agreed	69401
+strandhotel	drop	German word, part of hotel names	agreed	69503
+trachomatis	drop	Latin species name	agreed	69516
+verbs	drop	English word (from "phrasal verbs")	agreed	69524
+bandeau	drop	French fashion term, niche	adjudicated	69568
+capodichino	drop	place name	agreed	69588
+cernobbio	drop	place name	agreed	69595
+enséñanos	merge:enseñar	imperative with clitic	agreed	69627
+mandarno	merge:mandar	fragment of mandarnos	agreed	69696
+mensa	drop	mostly the society Mensa; only 14 lowercase uses, which would belong under menso anyway	adjudicated	69704
+transmilenio	drop	name of Bogotá's transit system	adjudicated	69786
+ineunte	drop	Latin fragment from a document title	agreed	69913
+pixelada	merge:pixelado	feminine form filed as a lemma	agreed	69987
+serigrafiada	merge:serigrafiado	feminine participle filed as a lemma	agreed	70024
+spezial	drop	German word	agreed	70033
+would	drop	English word	agreed	70058
+cady	drop	name	agreed	70108
+contruir	merge:construir	misspelling	agreed	70130
+cubico	merge:cúbico	missing accent	agreed	70139
+desatadlo	merge:desatar	imperative with clitic	agreed	70145
+randomizados	merge:randomizado	plural form filed as a lemma	agreed	70275
+unibody	drop	English product term	agreed	70332
+parlodel	drop	brand name	agreed	70524
+soulful	drop	English word	agreed	70563
+enjoylife	drop	brand name	agreed	70682
+ferratas	merge:ferrata	plural form filed as a lemma	agreed	70689
+linksy	drop	brand name (Linksys)	agreed	70743
+matémosle	merge:matar	imperative with clitic	agreed	70753
+traduciéndose	merge:traducirse	gerund with clitic	agreed	70837
+proyectación	merge:proyección	non-standard form of proyección	agreed	71076
+apáguelo	merge:apagar	imperative with clitic	agreed	71166
+conociéndose	merge:conocerse	gerund with clitic	agreed	71207
+florister	merge:floristería	cut-off fragment, always written floristería	agreed	71247
+niñxs	merge:niño	inclusive-x plural of niño	adjudicated	71323
+preveer	merge:prever	misspelling	agreed	71347
+jjoo	keep	common Spanish abbreviation for Juegos Olímpicos, used as an ordinary word	adjudicated	71551
+superfície	merge:superficie	Catalan/Portuguese spelling	agreed	71645
+aparatohaier	drop	web artefact with brand	agreed	71703
+cientifica	merge:científico	missing accent, inflected form	agreed	71743
+favourite	drop	English word	agreed	71783
+cmu	drop	university abbreviation, not a famous Spanish-world body	agreed	72019
+gesso	keep	established craft term in Spanish crafts text	agreed	72079
+keyframe	drop	English term, examples are English UI text	agreed	72121
+ohhh	merge:oh	stretched interjection	agreed	72172
+súmese	merge:sumarse	verb form with clitic	agreed	72222
+unboxing	keep	established loan	agreed	72237
+vistasen	drop	web artefact	agreed	72248
+autolesiones	merge:autolesión	plural filed as lemma	agreed	72285
+gloríese	merge:gloriarse	verb form with clitic	agreed	72381
+hominis	drop	Latin taxonomic term	agreed	72398
+lluvianoche	drop	web artefact	agreed	72426
+shinning	drop	English word	agreed	72499
+vlogs	merge:vlog	plural filed as lemma	agreed	72546
+aplastarlo	merge:aplastar	verb with clitic	agreed	72578
+droguer	merge:droguería	cut-off fragment	agreed	72638
+multiestación	keep	real compound noun (fitness machine, surveying)	agreed	72747
+pierlot	drop	brand name	agreed	72781
+tiquet	keep	accepted Spanish spelling of ticket	agreed	72849
+clevo	drop	brand name	agreed	72932
+preflop	drop	English poker jargon	agreed	73103
+desarollado	merge:desarrollado	misspelling	agreed	73255
+ephesus	drop	place name	agreed	73280
+kombu	keep	established food loan	agreed	73329
+miskito	keep	ethnonym and language name, not a place	agreed	73351
+peraltar	merge:peralte	broken verb lemma, the forms are peralte/peraltado	agreed	73386
+sidrer	merge:sidrería	cut-off fragment	agreed	73425
+bryceresorts	drop	web artefact and brand	agreed	73524
+creatur	drop	fragment of English "creatures"	agreed	73553
+ganciclovir	keep	real generic drug name	agreed	73591
+mihrab	keep	established Arabic loan	agreed	73647
+poliquística	merge:poliquístico	feminine form filed as lemma	agreed	73689
+rodiado	keep	real word (rhodium-plated), not a misspelling of rodeado	agreed	73713
+teatralizadas	merge:teatralizado	feminine plural filed as lemma	agreed	73742
+antiinterferente	keep	real Spanish adjective, rare but valid	agreed	73793
+bestshot	drop	brand name	agreed	73809
+comunicándote	merge:comunicarse	gerund with clitic filed as lemma	agreed	73846
+crontab	drop	technical command	agreed	73852
+hepatotóxica	merge:hepatotóxico	feminine form filed as lemma	agreed	73892
+mandriva	drop	product name	agreed	73940
+runes	drop	English word, mostly a game title	agreed	74011
+sesionar	keep	real Latin American verb	agreed	74022
+turísticamente	keep	real adverb	agreed	74048
+aiguamolls	drop	Catalan place name	agreed	74080
+citotel	drop	brand name	agreed	74123
+desherbar	keep	real verb	agreed	74141
+espahotel	drop	brand name	agreed	74159
+hazmerreír	keep	real Spanish noun	agreed	74181
+prolífero	merge:prolífico	wrong lemma form, standard adjective is prolífico	agreed	74287
+sincopar	keep	real verb, with the adjective sincopado as a related form	agreed	74318
+aqueste	drop	archaic demonstrative, almost only in old Bible text	adjudicated	74391
+calco	keep	real noun	agreed	74408
+dogon	drop	ethnonym/room name	agreed	74448
+epinal	drop	place name	agreed	74460
+machihembrar	keep	real verb	agreed	74528
+aerotransportadas	merge:aerotransportado	feminine plural filed as lemma	agreed	74660
+dense	drop	non-Spanish token	agreed	74728
+doping	keep	established loan, widely used alongside dopaje	adjudicated	74734
+orfebrer	merge:orfebrería	cut-off fragment	agreed	74838
+prescolar	merge:preescolar	misspelling	agreed	74853
+rockchip	drop	brand name	agreed	74875
+sencillísimo	merge:sencillo	regular absolute superlative of sencillo	adjudicated	74886
+tatio	drop	place name	agreed	74904
+yóguica	merge:yóguico	feminine form filed as lemma	agreed	74940
+grep	drop	computer command	agreed	75060
+mulá	keep	established loan	agreed	75134
+ostoma	keep	real medical noun	agreed	75154
+partimiento	keep	real Spanish noun, dated	agreed	75165
+ravioli	keep	established food loan	agreed	75198
+sombrar	drop	mixed unrelated forms, no coherent lemma	agreed	75231
+colestipol	drop	specialist drug name	adjudicated	75339
+estel	drop	name	agreed	75378
+margrave	keep	historical title, Spanish word	agreed	75452
+sarzana	drop	place name (Italian town)	agreed	75525
+temanita	drop	obscure biblical gentilic	adjudicated	75553
+ump	drop	French party acronym	agreed	75576
+anahata	drop	Sanskrit term, not established in Spanish	agreed	75618
+artísta	merge:artista	missing accent form	agreed	75628
+avonal	drop	unknown name or invented word	agreed	75637
+contrareembolso	merge:contrarreembolso	misspelt; standard spelling has rr	adjudicated	75678
+desasociar	keep	real word, used in the sense of undoing an association	agreed	75695
+drakensberg	drop	place name (mountain range in South Africa)	agreed	75705
+esgrafiar	keep	real verb, with esgrafiado as its common participle	agreed	75722
+instálela	merge:instalar	verb with clitic	agreed	75767
+migo	drop	band name or SAP code	agreed	75812
+squat	drop	English gym word; Spanish uses sentadilla	adjudicated	75897
+utlizar	merge:utilizar	misspelling	agreed	75923
+diputar	merge:diputada	forms are mostly diputadas, which has its own entry	agreed	76014
+estacio	drop	name or fragment	agreed	76035
+inlab	drop	brand or lab name	agreed	76074
+specified	drop	English word	agreed	76194
+villita	drop	place name (Chicago neighbourhood)	agreed	76223
+wikilibros	drop	website name	agreed	76231
+aserto	keep	real noun	agreed	76267
+coworker	keep	established loan (coworking)	agreed	76309
+estámos	merge:estar	misaccented estamos, a form of estar	adjudicated	76345
+flipped	drop	English, only in "flipped classroom"	agreed	76355
+generalísimo	keep	real Spanish word	agreed	76366
+inte	drop	fragment	agreed	76399
+prepirineo	drop	geographic region name	agreed	76489
+rápidaente	merge:rápidamente	misspelling	agreed	76512
+ámplia	merge:amplio	examples are the adjective ("ámplia experiencia", "zona ámplia"), not amplía	adjudicated	76570
+anvar	drop	name or acronym	agreed	76592
+catology	drop	English word	agreed	76628
+cobot	keep	established technical loan	agreed	76639
+creosotar	merge:creosota	the noun is the real lemma	agreed	76647
+dubli	drop	brand name	agreed	76660
+essonne	drop	French département name	agreed	76672
+nerds	merge:nerd	English plural of an established loan	agreed	76777
+paranoide	keep	real adjective and noun	agreed	76800
+santer	merge:santería	mostly santería, with some Jacques Santer	agreed	76848
+analizarla	merge:analizar	verb with clitic	agreed	76930
+arpegiar	merge:arpegio	occurrences are mostly the noun arpegio	adjudicated	76940
+bronquiolo	keep	real Spanish anatomical noun; the VERB tag is a tagging error	agreed	76965
+lapices	merge:lápiz	plural written without its accent	agreed	77098
+qubits	merge:qubit	English plural filed as the lemma	agreed	77186
+additio	drop	brand or app name	agreed	77285
+atópicas	merge:atópico	feminine plural filed as the lemma	agreed	77308
+carnauba	keep	Spanish name of the wax, as in "cera de carnauba"	agreed	77342
+crawlers	drop	specialist English term, not established in Spanish	agreed	77379
+plomeria	merge:plomería	missing accent	agreed	77562
+provolone	keep	cheese name used in Spanish; the VERB tag is wrong	agreed	77570
+reenganchar	keep	real verb; the forms are consistent with it	agreed	77579
+wallets	drop	English plural, not established; Spanish uses billetera/cartera	adjudicated	77649
+acaramelar	keep	real verb, with acaramelado as its participle	agreed	77665
+ahusar	keep	real verb, with ahusado as its participle	agreed	77678
+collpa	drop	Quechua ecological term, too specialised for a learner list	agreed	77753
+dimage	drop	camera brand name	agreed	77782
+mattias	drop	personal name	agreed	77880
+ombré	keep	established beauty/hair term in Spanish	agreed	77909
+presal	drop	Portuguese geological term	agreed	77939
+subtel	keep	Chilean telecommunications regulator, a public body rather than a place	agreed	77984
+torniller	merge:tornillería	cut-off fragment of tornillería	agreed	78001
+pagamento	drop	Italian/Portuguese word, not Spanish	agreed	78277
