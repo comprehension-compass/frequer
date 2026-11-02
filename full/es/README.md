@@ -1,10 +1,13 @@
-> **Current snapshot (2026-11-01, evening): 20,000 reviewed lemmas.** It is built from the frozen 105,726,244-token
-> counts (40 shards; the extension's new shards are not in it) through the exclusion list, 1,377 merges (1,198
-> accent, 179 review), the junk rules and three review rounds (`junk-review.md`). Proper nouns go through the
-> capitalisation band (>= 90 % drop, middle band reviewed). Frequency at rank 1k / 5k / 10k / 15k / 20k: 12,587 /
-> 1,320 / 332 / 129 / 61. `load_lemmas --dry-run`: 20,000 ranked, 0 skipped, 1,245 unit headwords, 42 homograph
-> keys. Per-lemma flags and actions: `es.flags.tsv`; depth analysis: `depth-comparison.md`. The sections below
-> describe the first build and its later revisions.
+> **Current snapshot (2026-11-02): 30,000 reviewed lemmas plus 108 learnable names after the cut.** Built from the
+> frozen 105,726,244-token counts (40 shards) through the exclusion list, merges, the junk rules, eleven review rounds
+> (flagged rounds 1-7, 10, 11; unflagged rounds 8-9; `junk-review.md`), the institutions ruling, the number rule and
+> the learnable-names list of Honeyeater #766 `25ec0b1` (1,017 names): 709 in the top 30k, 41 appended after it in
+> frequency order, 67 never counted appended with bare entries (frequency 0); 7 whose spelling the release files under
+> another lemma are reported in the header, not appended; 183 multi-word names wait for lemma release 1.6
+> (`learnable-multiword-names.tsv`). Number rule (`number_is_learnable`, #766 `25ec0b1`): 16 dropped. Frequency at
+> rank 1k / 5k / 10k / 20k / 25k / 30k: 12,615 / 1,330 / 333 / 56 / 28 / 16. `load_lemmas --dry-run`: 30,108 ranked,
+> 0 skipped, 1,554 unit headwords, 57 homograph keys. Interim list: `snapshots/es-top10k.json`. Procedure:
+> `review/README.md`; steps: `steps.md`. The sections below describe the first build and its later revisions.
 
 # Spanish full build, 2026-11-01: lemma release 1.5.0
 
