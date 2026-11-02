@@ -73,7 +73,8 @@ Places get `pending-names` in review, never a decision, until Honeyeater's revie
 (`reference/learnable-names/<lang>.json`) is final. Then: a pending place in the list becomes `keep`, the others
 `drop`; earlier keeps of places not in the list drop; listed places that were dropped or merged become `keep`.
 With `append_learnable_names: true`, learnable names outside the top N follow it in the snapshot.
-`FREQUER_NAMES_ROOT` points the build at a Honeyeater checkout whose names list is newer than the pinned runtime's.
+`FREQUER_REFERENCE_ROOT` points the build at a Honeyeater checkout whose reference data (the names list, the number
+rule) is newer than the pinned runtime's; the header records its commit.
 An interim list built before the names are final uses `--leave-out-pending-names`.
 
 ## Scale and cost (es)

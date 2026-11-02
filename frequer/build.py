@@ -88,6 +88,10 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
     if excluded is not None:
         head["exclusions"] = excluded
     head["proper_nouns"] = propn_head
+    if cfg.number_rule:
+        head["number_rule"] = {"function": "lexicon.number_words.number_is_learnable",
+                               "honeyeater": filters.reference_commit(runtime.root),
+                               "dropped": len(flt.number_dropped)}
     if opts.leave_out_pending_names:
         head["pending_names"] = "left out (interim list; place names wait for the learnable-names list)"
     if flt.flags is not None:
@@ -101,7 +105,7 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
                     if r.lemma not in top and propn.learnable(r.lemma, flt.learnable)]
         counted = {r.lemma.split("#")[0].casefold() for r in rows}
         head["learnable_names"] = {
-            "file": str(flt.learnable.path), "sha256": flt.learnable.sha256, "names": len(flt.learnable.names),
+            "file": str(flt.learnable.path), "honeyeater": filters.reference_commit(runtime.root), "sha256": flt.learnable.sha256, "names": len(flt.learnable.names),
             "in_top_n": sum(1 for lem in top if propn.learnable(lem, flt.learnable)),
             "appended_after_top_n": len(appended),
             "not_counted": sorted(n for n in flt.learnable.names if n not in counted)}

@@ -10,6 +10,7 @@ language:
   top_n: 30000  # 2026-11-01 (developer): list and review to 30k; the app default-ignores past 25k
   forms_kept: 5
   append_learnable_names: true  # 2026-11-01 (developer): learnable names outside the 30k follow it
+  number_rule: true  # 2026-11-02: Honeyeater number_is_learnable decides number lemmas (drop on False)
   propn_rule: none  # proper nouns go through the junk rules' propn_band (2026-11-01)
   junk:
     rules: [diversity, citation, foreign, shape, propn_band]

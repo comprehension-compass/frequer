@@ -13,7 +13,7 @@ from collections.abc import Mapping
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from frequer import compare, exclude, junk, propn, snapshot
+from frequer import compare, exclude, junk, numbers, propn, snapshot
 from frequer.config import Manifest
 from frequer.counts import Merged
 from frequer.ranking import Row, build_rows, rank_rows
@@ -42,6 +42,26 @@ class Filtered:
     merges: list[junk.Merge] = field(default_factory=list)
     flags: junk.Flags | None = None
     routed: list[junk.Routed] = field(default_factory=list)
+    #: (rank, lemma) dropped by the number rule (Honeyeater's number_is_learnable said False)
+    number_dropped: list[tuple[int, str]] = field(default_factory=list)
+
+
+def reference_root(root: Path | None = None) -> Path:
+    """FREQUER_REFERENCE_ROOT: a Honeyeater checkout whose reference data (learnable names, number rule) is newer
+    than the pinned runtime's; otherwise the runtime's own checkout."""
+    if "FREQUER_REFERENCE_ROOT" in os.environ:
+        return Path(os.environ["FREQUER_REFERENCE_ROOT"])
+    return root or honeyeater_root()
+
+
+def reference_commit(root: Path | None = None) -> str:
+    """The reference checkout's commit (and ``-dirty``), for the snapshot header."""
+    import subprocess
+
+    ref = reference_root(root)
+    sha = subprocess.run(["git", "-C", str(ref), "rev-parse", "HEAD"], capture_output=True, text=True).stdout.strip()
+    dirty = subprocess.run(["git", "-C", str(ref), "status", "--porcelain"], capture_output=True, text=True).stdout
+    return (sha or str(ref)) + ("-dirty" if dirty.strip() else "")
 
 
 def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], score: str = "frequency",
@@ -68,12 +88,16 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
     rank_of = {r.lemma: i for i, r in enumerate(ranked, start=1)}
     out.exclusions = exclude.load(cfg.code)
     ranked, out.excluded = exclude.apply(ranked, lambda r: r.lemma, out.exclusions)
+    if cfg.number_rule:  # judged over the head of the ranking: the tail never reaches the list
+        head = [r.lemma for r in ranked[: cfg.top_n * 4]]
+        verdict = numbers.verdicts(head, cfg.code, reference_root(root))
+        out.number_dropped = [(rank_of[lem], lem) for lem in head if verdict.get(lem) is False]
+        gone = {lem for _r, lem in out.number_dropped}
+        ranked = [r for r in ranked if r.lemma not in gone]
 
     needs_case = cfg.propn_rule == "capitalised_mid_sentence" or "propn_band" in jc.rules
     if needs_case:
-        # FREQUER_NAMES_ROOT: a Honeyeater checkout whose learnable-names list is newer than the pinned runtime's
-        names_root = Path(os.environ["FREQUER_NAMES_ROOT"]) if "FREQUER_NAMES_ROOT" in os.environ else None
-        out.learnable = propn.load_names(names_root or root or honeyeater_root(), cfg.code)
+        out.learnable = propn.load_names(reference_root(root), cfg.code)
         out.tally = propn.load_case(cfg.code)
     if cfg.propn_rule == "capitalised_mid_sentence" and out.learnable and out.tally:
         ranked, out.propn_dropped, out.names_kept, out.case_kept = propn.apply(

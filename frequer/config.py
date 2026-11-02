@@ -100,6 +100,8 @@ class LanguageConfig(Strict):
     propn_capitalised_min: float = 0.5
     #: Learnable names (Honeyeater's reviewed list) outside the top_n are appended after it (developer, 2026-11-01).
     append_learnable_names: bool = False
+    #: Drop number lemmas Honeyeater's ``lexicon.number_words.number_is_learnable`` marks False (``frequer/numbers.py``).
+    number_rule: bool = False
     junk: JunkConfig = Field(default_factory=JunkConfig)
 
 
