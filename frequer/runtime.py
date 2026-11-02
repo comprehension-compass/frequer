@@ -425,6 +425,14 @@ class Runtime:
                              tuple(range(len(parts))), name=False)
         return head or ""
 
+    def splits(self, text: str) -> bool:
+        """Whether ``text`` analysed alone is cut into several tokens that no single occurrence (a word or a
+        unit) covers whole: the reader would never carry it as one lemma."""
+        for sentence in self.sentences(text):
+            return len(sentence.words) > 1 and not any(len(o.tokens) == len(sentence.words)
+                                                       for o in sentence.occurrences)
+        return False
+
     def lemma_of_word(self, word: str) -> str | None:
         """The counted key of ``word`` analysed alone (for the review checks)."""
         for sentence in self.sentences(word):

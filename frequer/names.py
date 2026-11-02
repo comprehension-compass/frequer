@@ -10,7 +10,8 @@ set. For every listed name not already on the list (after the ``top_n`` cut), in
    already on the list. A key the release never produces would never match a token in the reader.
 3. **Uncounted single token**: appended bare (frequency 0, no forms), under the list's spelling (folded when the
    language folds case).
-4. **Multiword, not emitted as a unit**: not appended (no token would ever carry it); written to
+4. **Multiword, not emitted as a unit** (a space in it, or, in a language written without spaces, cut into
+   several tokens no unit covers): not appended (no token would ever carry it); written to
    ``learnable-multiword-names.tsv`` as input for the next lemma release's unit training.
 
 The plan is pure (``plan``); the build applies it.
@@ -40,9 +41,12 @@ class NamePlan:
 
 
 def plan(spellings: Mapping[str, str], on_list: Iterable[str], counted_in_rank_order: Iterable[str],
-         lemma_of: Callable[[str], str | None], fold_case: bool) -> NamePlan:
+         lemma_of: Callable[[str], str | None], fold_case: bool,
+         split: Callable[[str], bool] | None = None) -> NamePlan:
     """``spellings``: case-folded name -> listed spelling; ``on_list``: the keys already chosen; ``lemma_of``:
-    the counted key the runtime files a word under (None when it files none)."""
+    the counted key the runtime files a word under (None when it files none); ``split``: whether the runtime
+    cuts a name with no space into several tokens that no unit covers (a language written without spaces: ja
+    近畿|地方), which makes it multiword too."""
     out = NamePlan()
     listed = {k.split("#")[0].casefold() for k in on_list}
     counted = list(counted_in_rank_order)
@@ -62,6 +66,9 @@ def plan(spellings: Mapping[str, str], on_list: Iterable[str], counted_in_rank_o
             out.multiword.append(name)
             continue
         lemma = lemma_of(name)
+        if lemma is None and split is not None and split(name):  # 4. cut into tokens no unit carries
+            out.multiword.append(name)
+            continue
         if lemma and lemma.split("#")[0].casefold() != n:  # 2. filed under another lemma
             out.filed.append((name, lemma))
             target = lemma.split("#")[0].casefold()
