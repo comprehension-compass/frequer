@@ -36,7 +36,7 @@ cp "$FQ/review/scripts/examples10.py" "$WORK/up/scripts/review/examples10.py"
 cat > "$WORK/config.json" <<JSON
 {"lang": "es", "language_name": "Spanish", "work": "$WORK", "counts": "$WORK/none",
  "honeyeater": "$WORK/he", "lemma_dir": "$WORK/site/honeyeater_lemma_es", "wheel": "$WORK/$WHEEL",
- "window": 40000, "sample": {"paracrawl-en-es": {"urls": [0], "max_chars": 300000000}},
+ "window": 41500, "sample": {"paracrawl-en-es": {"urls": [0], "max_chars": 300000000}},
  "rules": "prompts/es/rules-flagged.md", "rules_unflagged": "prompts/es/rules-unflagged.md",
  "screener": "prompts/es/screener.md", "reviewer_model": "sonnet", "adjudicator_model": "opus", "parallel": 6}
 JSON
