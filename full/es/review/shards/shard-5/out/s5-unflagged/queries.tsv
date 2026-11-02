@@ -1,0 +1,8 @@
+capitular	agreed merge:capítulo, but capitular (423) and capitulares (237) are the real verb and adjective (sala capitular, capitular ante); merging them into capítulo hides a second real word
+combar	agreed merge:combo, but combado/combada/combarse are the real verb combar (to bend); check whether the verb share is large enough to keep
+enseriar	agreed merge:enserio, but enserio is a misspelling of the phrase en serio, not a Spanish lemma; target looks wrong (merge into serio, or drop)
+pacer	agreed drop, but paciendo/pacían (233) are the real verb pacer (to graze); Pace/Pacer are names, the verb should keep
+boj	agreed drop as BOJ (Bank of Japan), but lowercase boj (95) is the real Spanish noun boj (boxwood)
+uro	agreed drop as the Uros people, but uro/uros is also the Spanish noun for the aurochs; check the lowercase share
+híper	agreed drop, but híper is colloquial Spanish for hipermercado and a stand-alone prefix-word; examples only show one reading
+neoyorkino	agreed keep, but Spanish writes neoyorquino; per the spelling rules a misspelling merges (merge:neoyorquino) unless neoyorkino is the form people write

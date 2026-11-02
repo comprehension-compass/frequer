@@ -1,0 +1,44 @@
+# lemma	A	reason A	B	reason B
+salivar	keep	real verb and adjective	merge:saliva	almost all forms are the noun saliva
+platear	keep	real verb with participial adjectives	merge:plateado	forms are the adjective plateado
+balizar	keep	real verb	merge:baliza	forms are the noun baliza
+ornamentar	keep	real verb with participial adjectives	merge:ornamento	almost all forms are the noun ornamento
+perturbado	keep	real adjective and noun	merge:perturbar	participle filed as lemma
+trancar	merge:tranca	forms are mostly tranca/tranque/tranco (noun), not the verb	keep	real verb; the noun forms are tranca/tranque
+pirar	merge:pira	forms are mostly pira (pyre); "Pires" is a surname	keep	real verb; Pires is a minority of examples
+estilográfico	merge:estilográfica	pluma estilográfica is almost always feminine	keep	lemma not clearly broken; the feminine forms are a noun use
+damnificar	merge:damnificado	forms are almost all the participle adjective	keep	real verb with its participle forms
+servico	drop	Portuguese or misspelling, not Spanish	merge:servicio	misspelling of servicio
+gravísima	merge:grave	feminine superlative form filed as lemma	merge:gravísimo	feminine superlative form filed as lemma
+ganas	keep	essentially plural-only noun (tener ganas)	merge:gana	plural form filed as lemma
+macarons	merge:macarón	French plural of a loan, adapted Spanish singular	merge:macaron	French plural filed as lemma
+aneto	drop	place name (mountain)	keep	real Spanish word for dill, even though the examples are the mountain
+pleyadiano	keep	real derived noun and adjective (of the Pleiades)	drop	name for a UFO-lore group derived from the Pléyades
+crimpado	keep	technical but used in Spanish (crimpar)	drop	English-derived technical term, not established
+minut	drop	Catalan plural "minuts" dominates; not Spanish	merge:minuto	Catalan/Romanian spelling of minuto
+multilínea	keep	real compound adjective	drop	technical compound
+quemarropa	keep	fixed locution word, real Spanish	merge:a quemarropa	cut-off fragment of the fixed phrase
+embárquese	merge:embarcar	imperative with clitic	merge:embarcarse	clitic imperative of a pronominal verb
+gabapentina	drop	specialist drug name	keep	generic drug name, ordinary Spanish noun
+carboplatino	drop	specialist drug name	keep	generic drug name, ordinary Spanish noun
+preconfigurada	merge:preconfigurar	participle feminine form as lemma	merge:preconfigurado	feminine participle filed as lemma
+guilloché	drop	French specialist term	keep	established watchmaking term
+cimbrar	merge:cimbra	forms are the noun cimbra (formwork)	keep	real verb, also covers cimbra forms
+marketers	merge:marketer	English plural filed as lemma	drop	English plural, not established
+unío	merge:unir	fragment of imperative "uníos"	merge:unirse	fragment of imperative uníos
+globulin	merge:globulina	English spelling of adapted word	drop	English spelling, not a lemma
+regimenes	merge:régimen	plural filed as lemma, missing accent	merge:regímenes	missing accent
+patagón	keep	real common word (patagón), though most examples are the place Patagones	drop	mostly the place name Patagones
+remanufacturados	merge:remanufacturar	participle form	merge:remanufacturado	plural participle filed as lemma
+bajísima	merge:bajísimo	inflected superlative form	merge:bajo	superlative inflected form
+divertidísima	merge:divertidísimo	inflected superlative form	merge:divertido	superlative inflected form
+rien	drop	French name, or ríen without accent	merge:reír	"ríen" without accent, as in "Se me ríen los pies"
+fucus	drop	Latin genus name	keep	Spanish noun for the brown alga
+centrándome	merge:centrar	gerund with clitic	merge:centrarse	gerund with clitic, pronominal verb
+multidominio	keep	real compound noun	drop	technical term, specialist compound
+deejay	merge:dj	spelling variant of established loan	keep	established loan, variant of DJ
+chilaquil	merge:chilaquiles	nearly all uses are the plural dish name	keep	real dish word, lemma is a valid singular
+parvo	merge:parva	majority of uses are parva	keep	real word (parvo, parva)
+iodo	merge:yodo	variant spelling, list uses the common form	keep	accepted variant spelling of yodo
+sonotrodo	keep	real technical noun	drop	specialist engineering term
+dorio	keep	real adjective (Dorian), though many examples are place or surname	drop	mostly place and surname uses; the ethnonym is a minority
