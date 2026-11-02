@@ -1,0 +1,118 @@
+# question Allerbeste: counts are mostly lower-case adjective forms (allerbeste/allerbesten), but the examples are the nominalised "das Allerbeste"; kept by analogy with das Gute.
+# question Anlaß: counts are mostly anlassen forms, but the lemma's own reading is the old spelling of Anlass, so I merged it there.
+# question Aphrodite: the rules don't mention mythological names; I treated them as "other names" and dropped, though Greek gods may be learnable like planets.
+# question Aspe: the counts are nearly all "Aspen" (the place and the Aspen Institute), so the lemma can't be judged by its own reading. Aspe is a rare variant of Espe (aspen tree), so I dropped it; merging it into Espe would be an alternative.
+# question Aspe: the examples are almost all the place name Aspen, but the lemma Aspe is a real noun, so I decided by its own reading (rule 13)
+# question Bab: the written forms (babes, bab, babs) look like English "babe"/a fragment, so no German target is clear; dropped.
+# question Bento: it is a Japanese loan that is not clearly established in German; I kept it, but it could be dropped.
+# question Bento: its status as an established loan is borderline.
+# question Bespiel: counts are mostly bespielen, but the lemma as written is a misspelling of Beispiel (example sentence), so I merged it into Beispiel under ruling 13
+# question Dalton: it is also a unit (Dalton), but the examples are mostly surnames and the rules treat units as symbols, so I dropped it.
+# question Delegierte: the headword form (Delegierte vs Delegierter) is not fixed by the rules; chose the -e form like Angestellte.
+# question Einnahmen: the lemma is tagged VERB, but "einnahmen" is far more likely the plural noun than a conjugated form of einnehmen.
+# question Eros: could also be the common noun Eros (love), but the counts are lower-case and read as a name, so I dropped it.
+# question Eros: the mythological name is also a German concept noun (der Eros), but the counts are all lower-case and probably mostly names/brands; dropped as an other name.
+# question Fl: the abbreviation's expansion is unclear (Fläche, Florin?), so decided drop.
+# question Freebie: Duden status as an established loan is uncertain; kept.
+# question Freifunk: a community network name that is close to a common noun, but I treated it as a project name
+# question Freiheitliche: it could be a lexicalised party-member noun (FPÖ); I treated it as an inflected adjective.
+# question Freiheitliche: the plural noun for Austrian FPÖ members could count as lexicalised (keep); I chose merge because the evidence shows mostly adjective use.
+# question Gau: Counts may be dominated by the Nazi-era or regional administrative sense; I kept it as a real German noun.
+# question Gesch: fragment could be Geschichte, Geschäft or geschehen (geschen), so no obvious host word; dropped
+# question Gesch: the written forms (gesch, geschen) could be a fragment of geschehen or Geschäft; no target is obvious, so dropped.
+# question Gleichgesinnt: counts are mostly the nominalised "Gleichgesinnte" (people who share one's views); merged to the adjective, but it could be a lexicalised noun like Angestellte.
+# question Gleichgesinnt: forms are almost all nominalised (Gleichgesinnte); I merged to the adjective, but a lexicalised noun entry Gleichgesinnte would also be defensible.
+# question Grünliberale: nominalised adjective like Angestellte, but it names a minor party (GLP-type), so I dropped it.
+# question Grünliberale: ruling 3 names GLP as a minor party; applied to the inflected noun form as well.
+# question Identitäre: could be merged into identitär, but kept as a lexicalised group noun like Angestellte.
+# question Identitäre: nominalised adjective and group name. I treated it as lexicalised like Angestellte, but it could be dropped as a niche political term.
+# question Innerste: could be kept as a lexicalised noun (im Innersten), but I merged it to Innere.
+# question Klapper: counts are mostly klappern (nominalised infinitive), but I kept the lemma by its own noun reading under ruling 13.
+# question Klapper: counts are mostly klappern/Klappern (nominalised infinitive, which would merge into klappern), but Klapper is a real noun on its own reading; I kept it under rule 13.
+# question Kr: counts are mostly "Kren" (Meerrettich, Austrian/Bavarian), so the lemma is arguably a different word; dropped as an abbreviation or fragment.
+# question Kr: the counts are split between the abbreviation kr and Kren (horseradish, Austrian), and the rules say the counts cannot be separated here; I judged by the abbreviation reading, so Kren may deserve its own lemma
+# question Lastminute: English phrase written as one word; I kept it as an established travel-sector loan.
+# question Lastminute: the English phrase written as one word may be a fragment of Last-Minute; kept as an established loan.
+# question Liechtensteiner: I assumed Liechtenstein is on the learnable list; if it is not, this should be drop.
+# question Liechtensteiner: Liechtenstein is not in the listed place additions; I assumed it is on the learnable list.
+# question Litecoin: cryptocurrency names could count as established loans like Bitcoin; I treated this one as a specific brand.
+# question Lk: could be Leistungskurs, Landkreis or the Gospel of Luke, with no clear single host, so I dropped it.
+# question Lk: could stand for Landkreis, Leistungskurs or Lkw; I dropped it as unresolved.
+# question MO: I assumed Montag is on the list; if not, this should be dropped.
+# question Poste: tagged ADJ with no examples; could be a plural of Post or a French word, so dropped
+# question Poste: the lemma is lower-case in the text and tagged ADJ; it could be a form of Posten or French "poste", so dropped.
+# question Ran: counts are mostly "ran", a clipping of heran/heran-; merged to heran, but it is unclear whether "ran" has its own colloquial entry.
+# question Ran: the lemma could also be a name (the TV show Ran); I read it as the contraction of heran.
+# question Sanssouci: the name is French but it is a famous German landmark. The rules cover landmarks with German names, so I kept it.
+# question Sanssouci: the name is French, not German, so it is unclear whether the landmark rule applies; kept as a famous palace.
+# question Schär: possibly a cut-off form of Schäre (plural schären), but the lower-case "schär" counts look mostly like the surname/brand; dropped rather than merged.
+# question Scirocco: the counts are mostly the VW car; I decided by the lemma's own reading, the wind. Drop is the alternative if you treat it as a brand.
+# question Ser: counts are seren/ser/sern; the host word is unclear (possibly a Spanish verb or a fragment), so I dropped it
+# question Ser: forms seren/ser/sern/sers give no clear host word, so I decided drop rather than merge.
+# question Shorty: Examples show a product/size name and a nickname; I chose drop, but the word could be an established loan.
+# question Stanze: all counts are "stanzen" (verb form), but the lemma Stanze is a valid noun, so keep.
+# question Stanze: counts are all "stanzen", mostly the verb, but the lemma's own reading is the noun, so I kept it
+# question Streikende: keep or merge:streiken? Treated as a lexicalised participle noun.
+# question Stromer: counts may be largely the Swiss e-bike brand; I decided by the lemma's own reading and kept it.
+# question Stromer: examples read as electric vehicles (common noun), though Stromer is also an e-bike brand, so I kept it.
+# question SuB: book-community jargon, and its counts are mostly the word "sub", so I dropped it
+# question SuB: lower-case counts are probably mostly the prefix or particle "sub", so I dropped the Stapel-ungelesener-Bücher abbreviation as niche
+# question Südafrikaner: I assumed Südafrika is on the learnable place list; if not, this should be dropped.
+# question Südafrikaner: assumed Südafrika is on the learnable place list; drop if it is not.
+# question Thais: Counts look like the name or brand "Thais" (steroid forum) and the plural of Thai; I chose merge:Thai, but drop is possible if Thailand is not on the learnable list.
+# question Thais: the plural demonym may belong to Thai or to a different reading; I merged it to the singular Thai.
+# question Unterstützende: unterstützend may count as an adjective with its own entry; I chose merge:unterstützen under the participle rule
+# question Westberlin: a historical city-part name, not on the list, so dropped; merging into Berlin might be intended
+# question Westschweiz: a common regional term, but the rules say any place name not on the list is dropped.
+# question Württembergische: a regional adjective (mostly in institution names) not on the learnable list; dropped under the place-adjective ruling, but merge:württembergisch is possible.
+# question abgedunkelt: it may be an adjective in its own right (like bekannt), but I treated it as a participle of abdunkeln; same for gekreuzt, unterschätzt and verzögert
+# question allerbeste: I could not tell whether the dictionary form is allerbest or best. I used allerbest.
+# question bluetooth: it is a brand name, but genericised and used as a common noun, so I merged it into Bluetooth.
+# question bo: the written forms are mostly "bo" with a few "boden"; Boden is assumed to be the host.
+# question brok: the counts are mostly broker, with some broken; I merged to Broker as an established loan, but the lemma's own reading is unclear.
+# question button: the lemma is lower-case and the screener flagged "English word"; I treated it as an established loan and merged it to Button, but it could be dropped as English.
+# question coloriert: kolorieren vs. colorieren spelling; I chose the Duden main spelling kolorieren
+# question ders: "ders" could be der + es or a mis-split of something else; I merged it to der as the host word, though the text does not make clear which word it contracts.
+# question ders: the host of "der's" (der es) is ambiguous between der and es, so I chose der.
+# question einnahmen: no examples and tagged VERB; I read it as the plural-only noun Einnahmen rather than a form of einnehmen.
+# question emeritieren: nearly all the counts are the adjective emeritiert; I kept the verb infinitive as the lemma.
+# question emeritieren: the counts are mostly the participle emeritiert, but the verb infinitive is a valid lemma, so I kept it, as with fortdauern.
+# question farb: fragment could be Farbe (noun) or färben/farben; the plural "farben" dominates, so I chose Farbe
+# question fernseh: the counts are mostly Fernseher, but the lemma itself is a verb stem; merged to fernsehen, though merge:Fernseher is arguable.
+# question fin: the forms (fine, fin, fines) are mostly English/French; no German target, so dropped.
+# question fortdauern: nearly all the counts are the participle fortdauernd; I kept the lemma as the verb infinitive. Counts split across forms are otherwise left to the lemmatiser (ruling 13).
+# question geleakt: could be kept as an adjective with its own entry, but I merged it into leaken
+# question gew: no obvious host word, so I dropped it instead of merging.
+# question girocard: I treated it as a genericised product noun and merged it to Girocard, but it could be argued to be a brand and dropped
+# question haftend: no dictionary entry as an adjective is certain, so merged into haften
+# question harzen: counts are mostly the noun plural Harze, but I kept the lemma by its own reading as the verb harzen
+# question harzen: most counts are the noun Harze, but I judged by the verb reading of the lemma
+# question hergerissen: tagged VERB, but kept as an adjective with its own entry (hin- und hergerissen); the lemmatiser may want it re-tagged.
+# question hingekommen: counts are almost all hinzugekommen (hinzukommen); decided by the lemma's own reading.
+# question hingekommen: lemma is spelled hingekommen but the counts are hinzugekommen; I decided by the actual word, hinzukommen (ruling 13).
+# question ibis: counts are mostly the hotel brand, but the lemma could also be the bird (Ibis); dropped under rule 13.
+# question ibis: the counts are mostly the hotel brand, but I decided by the bird reading under ruling 13
+# question ital: could stand for Italien, italienisch or another word, so no merge target is obvious.
+# question ital: no obvious target (Italien, Italienisch, Italiener); dropped.
+# question len: counts (len/lens/lende) are a fragment with no identifiable host word, so I dropped it rather than merging.
+# question len: fragment, forms len/lens/lende; no obvious host word, so I dropped it rather than merging.
+# question letztemal: the correct form is the two-word "letztes Mal", so I merged it to Mal.
+# question miete: it could be the noun Miete in lower case; I followed the VERB tag and chose mieten.
+# question nichtMehr: "nicht mehr" is two words with no single lemma to merge into, so I dropped it.
+# question rad: the written forms include gerad and rader, so the counts may belong to another word; decided by the lemma's own reading (Rad).
+# question saft: the adjective saft/saftes is rare; I read the lemma as the noun Saft.
+# question sonde: counts are mostly "sonder" (another word); decided by the lemma's own reading as the noun Sonde.
+# question sonde: counts are mostly "sonder", but the lemma's own reading is the noun Sonde, so I merged it there
+# question tools: tagged ADJ and written only as "tools". I treated it as the plural of the established loan Tool, but the rules don't say whether English plurals of loans should merge or drop.
+# question tränen: Written forms are mostly verb forms (tränt, tränte, getränt), but the lemma could also be read as the plural of Träne; I kept it as the verb.
+# question tränen: the counts are mostly the noun Tränen (a different word); I kept it for the verb's own reading.
+# question voten: I treated it as an established loan verb; the ADJ tag is wrong.
+# question wartend: I merged it to warten, but "wartende" could be argued as a lexicalised noun or adjective.
+# question weitern: the forms weiterte and weitert suggest a verb, but I took the most likely reading as weiter
+# question wrden: a conjugated form of werden (würden) with broken encoding; I merged to the dictionary form werden rather than würden.
+# question wrden: it is a broken würden, so the real lemma is werden; I chose merge:werden rather than the conjugated form würden.
+# question zus: could be zusätzlich or zusammen, so I dropped it rather than merging
+# question zus: zus. could abbreviate zusammen or zusätzlich, so I could not pick a merge target and dropped it
+# question Wenige: is the headword for wenige/wenigen the lemma wenig, or is wenige its own pronoun or determiner lemma, like einem or einer under ruling 10?
+# question bo: a cut-off fragment whose target is not recoverable — is drop right, given "fragments are merged, not dropped"?
+# question letztemal: pre-reform fused spellings (letztemal, erstemal, jedesmal) — should these merge into the noun (Mal) or into the ordinal or determiner (letzte, jede)?

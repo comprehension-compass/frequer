@@ -1,0 +1,766 @@
+# lemma	decision	reason	how	rank
+B	drop	only a fragment of the abbreviation z. B., not a word in itself	agreed	355
+vierte	keep	ordinal headword in the -te form (ruling 6)	agreed	736
+fünfte	keep	ordinal headword (ruling 6)	agreed	919
+Neue	keep	das Neue is a lexicalised nominalisation, like das Gute (ruling 9)	agreed	1117
+sechste	keep	ordinal headword (ruling 6)	agreed	1187
+Berliner	keep	Berlin is on the learnable list, so the demonym stays (ruling 1)	agreed	1431
+Deutsche	keep	der/die Deutsche is a noun in its own right	agreed	1576
+zwanzigste	keep	ordinal headword (ruling 6)	agreed	1645
+Gute	keep	das Gute is explicitly kept (ruling 9)	agreed	1684
+neunzehnte	keep	ordinal headword (ruling 6)	agreed	1689
+SPD	keep	major party; the SPÖ/SP type is kept (ruling 3)	agreed	1691
+fünfzehnte	keep	ordinal headword (ruling 6)	agreed	1804
+achtzehnte	keep	ordinal headword (ruling 6)	agreed	1832
+vierzehnte	keep	ordinal headword (ruling 6)	agreed	2047
+siebzehnte	keep	ordinal headword (ruling 6)	agreed	2057
+CDU	keep	major party (ruling 3)	agreed	2093
+einundzwanzigste	keep	ordinal headword (ruling 6)	agreed	2096
+sechzehnte	keep	ordinal headword (ruling 6)	agreed	2098
+dreizehnte	keep	ordinal headword (ruling 6)	agreed	2107
+dreißigste	keep	ordinal headword (ruling 6)	agreed	2206
+FC	drop	generic club-name prefix, not a learnable word	agreed	2227
+fünfundzwanzigste	keep	ordinal headword (ruling 6)	agreed	2253
+fr	merge:für	dropped letter (ü) in broken encoding	agreed	2297
+Allgemeine	keep	lexicalised nominalisation in the fixed phrase "im Allgemeinen" (ruling 13: decide by the lemma's own reading)	adjudicated	2337
+PS	keep	abbreviation used as a word (ruling 12)	agreed	2373
+NRW	keep	abbreviation used as a word for a learnable place (ruling 12; compare VAE in ruling 2)	adjudicated	2443
+zweiundzwanzigste	keep	ordinal headword (ruling 6)	agreed	2452
+Folgende	keep	im Folgenden is a lexicalised nominalisation	agreed	2466
+vierundzwanzigste	keep	ordinal headword (ruling 6)	agreed	2505
+dreiundzwanzigste	keep	ordinal headword (ruling 6)	agreed	2544
+einunddreißigste	drop	ordinal above 30; the first-set 1–30 limit is not revoked by ruling 6	adjudicated	2557
+sechsundzwanzigste	keep	ordinal headword (ruling 6)	agreed	2587
+achtundzwanzigste	keep	ordinal headword (ruling 6)	agreed	2621
+mg	drop	unit symbol (ruling 12)	agreed	2633
+siebenundzwanzigste	keep	ordinal headword (ruling 6)	agreed	2646
+neunundzwanzigste	keep	ordinal headword (ruling 6)	agreed	2832
+GB	drop	specialist abbreviation (gigabyte or Great Britain)	agreed	2937
+grüßen	keep	real verb; the Grüße counts are the lemmatiser's problem (ruling 13)	agreed	2969
+Beschäftigte	keep	der/die Beschäftigte is a noun in its own right (ruling 9)	agreed	3024
+Linke	keep	die Linke is a noun and a party name	agreed	3058
+Frankfurter	keep	sausage noun in its own right; Frankfurt is a major city, so the demonym is likely on the list	adjudicated	3150
+Franken	keep	currency is a common noun (Swiss francs in the examples)	agreed	3322
+KG	drop	counts are the unit symbol kg	agreed	3349
+SV	drop	club abbreviation	agreed	3405
+FDP	keep	major party, per ruling 3	agreed	3408
+AfD	keep	major party	agreed	3572
+Abgeordnete	keep	lexicalised nominalisation (der/die Abgeordnete)	agreed	3609
+Münchner	keep	listed place demonym, per ruling 1	agreed	3653
+LG	drop	abbreviation (Landgericht or liebe Grüße), not a word	agreed	3715
+Wesentliche	keep	das Wesentliche / im Wesentlichen, nominal reading	agreed	3732
+Richtige	keep	das Richtige, nominal reading	agreed	3748
+Ra	drop	abbreviation	agreed	3775
+Kölner	keep	listed place demonym, per ruling 1	agreed	3838
+MB	drop	unit symbol	agreed	3885
+U	drop	single letter	agreed	3955
+Besondere	keep	etwas Besonderes, nominalised	agreed	3976
+ca	merge:circa	written abbreviation of a single listed word; abbreviations are lemmatised to their full word	adjudicated	4045
+etc	drop	written-only abbreviation (first-set exclusion); its expansion "et cetera" is not a single lemma	adjudicated	4544
+US	drop	abbreviation of a place name that isn't on the list	agreed	4840
+Co	drop	abbreviation with no listed full word	agreed	5021
+CSU	keep	major party	agreed	5208
+Übrige	keep	im Übrigen, fixed nominalised phrase	agreed	5269
+EL	drop	code/abbreviation	agreed	5441
+TG	drop	abbreviation	agreed	5582
+SG	drop	abbreviation	agreed	5733
+Wissenswerte	keep	Wissenswertes, lexicalised noun	agreed	5927
+kW	drop	unit symbol	agreed	6051
+ff	drop	specialist abbreviation	agreed	6145
+Pkw	keep	abbreviation used as a word, per ruling 12	agreed	6192
+DM	keep	established currency abbreviation used as a word	agreed	6226
+NPD	keep	national party	agreed	6233
+med	drop	abbreviation/fragment	agreed	6246
+KB	drop	unit symbol	agreed	6461
+Leipziger	drop	demonym of a place not on the list	agreed	6465
+Zürcher	drop	demonym of a place not on the list	agreed	6548
+Bremer	drop	demonym of a place not on the list	agreed	6690
+usw	drop	written-only abbreviation (first-set exclusion); its expansion "und so weiter" is not a single lemma	adjudicated	6710
+Salzburger	drop	demonym of a place not on the list	agreed	6941
+Dresdner	drop	demonym of a place not on the list	agreed	7384
+Düsseldorfer	drop	demonym of a place not on the list	agreed	7408
+IG	drop	specialist abbreviation, ambiguous	agreed	7929
+zB	drop	explicitly excluded by the first set; read out as "zum Beispiel", not a word like WG or Kita	adjudicated	8037
+OLG	drop	specialist court abbreviation	agreed	8057
+PM	drop	ambiguous abbreviation (Pressemitteilung, private message)	agreed	8081
+mbH	drop	company-name suffix	agreed	8191
+PN	drop	specialist abbreviation	agreed	8214
+O	drop	single letter	agreed	8235
+Dortmunder	drop	Dortmund not on learnable list (ruling 1)	agreed	8242
+AK	drop	ambiguous abbreviation	agreed	8361
+TL	drop	ambiguous abbreviation	agreed	8382
+Berner	drop	Bern not on learnable list (ruling 1)	agreed	8386
+RS	drop	abbreviation, not a word	agreed	8394
+Nürnberger	drop	Nürnberg not on learnable list (ruling 1)	agreed	8586
+SP	keep	major Swiss party (ruling 3)	agreed	8668
+Yorker	drop	place adjective, New York not on list	agreed	8736
+FF	drop	ambiguous abbreviation	agreed	8891
+SHAB	drop	Swiss gazette acronym	agreed	9047
+Ähnliche	keep	lexicalised nominalisation in the fixed phrase "und Ähnliches" (u. Ä.)	adjudicated	9061
+XXL	keep	established abbreviation used as a word (ruling 12)	agreed	9163
+HR	drop	broadcaster/HR abbreviation	agreed	9319
+Reiche	keep	der/die Reiche is a noun in its own right (ruling 13)	agreed	9390
+BI	drop	abbreviation, garbled	agreed	9586
+GW	drop	abbreviation	agreed	9603
+St	drop	ambiguous abbreviation (Sankt, Stück)	agreed	9958
+Nm	drop	unit symbol (ruling 12)	agreed	10000
+ZR	drop	legal abbreviation	agreed	10069
+EP	drop	specialist abbreviation	agreed	10160
+Mainzer	drop	Mainz not on learnable list (ruling 1)	agreed	10177
+OG	drop	ambiguous abbreviation	agreed	10205
+Handeln	merge:handeln	productive nominalised infinitive (ruling 9)	agreed	10238
+TB	drop	abbreviation	agreed	10351
+Prominente	keep	lexicalised nominalised adjective (like Angestellte)	agreed	10440
+ABS	drop	ambiguous abbreviation, counts include Abs.	agreed	10660
+KV	drop	specialist abbreviation	agreed	10672
+GHz	drop	unit symbol (ruling 12)	agreed	10684
+Kieler	drop	Kiel not on learnable list (ruling 1)	agreed	10714
+BW	drop	abbreviation	agreed	10750
+Sek	drop	ambiguous abbreviation	agreed	10801
+PLZ	keep	abbreviation used as a word (ruling 12)	agreed	10834
+CS	drop	abbreviation	agreed	10879
+KW	drop	unit symbol / Kalenderwoche abbreviation, not a learnable word	agreed	10888
+MHz	drop	unit symbol (ruling 12)	agreed	10900
+eG	drop	specialist legal abbreviation	agreed	11011
+zb	drop	abbreviation of the phrase "zum Beispiel", not a single word	agreed	11050
+SS	drop	abbreviation/name	agreed	11161
+Hz	drop	unit symbol (ruling 12)	agreed	11251
+SD	drop	abbreviation	agreed	11255
+Sa	merge:Samstag	abbreviation of a listed weekday	agreed	11300
+Überlebende	keep	lexicalised nominalisation like Angestellte (ruling 9)	agreed	11361
+Münchener	merge:Münchner	variant of the listed demonym Münchner	agreed	11372
+Basler	drop	demonym of a place not on the list (ruling 1)	agreed	11402
+Versagen	keep	lexicalised nominalisation (ruling 9)	agreed	11497
+SZ	keep	famous national newspaper (Süddeutsche Zeitung); famous institutions keep	adjudicated	11563
+GS	drop	abbreviation/code	agreed	11636
+aka	drop	English abbreviation	agreed	11647
+re	drop	fragment/abbreviation	agreed	11737
+BGBl	drop	specialist legal abbreviation	agreed	11745
+SA	drop	company suffix/organisation abbreviation	agreed	11795
+HGB	drop	specialist legal abbreviation	agreed	11879
+Mo	merge:Montag	abbreviation of a listed weekday	agreed	11948
+Kfz	keep	abbreviation used as a word, like Lkw (ruling 12)	agreed	12146
+ots	drop	abbreviation/code	agreed	12151
+UVP	keep	abbreviation used as a word in everyday retail text, "der UVP" (ruling 12)	adjudicated	12311
+Bw	drop	abbreviation	agreed	12314
+Mi	merge:Mittwoch	abbreviation of a listed weekday	agreed	12341
+Abs	drop	legal abbreviation	agreed	12389
+Gewerbetreibende	keep	lexicalised nominalisation like Angestellte (ruling 9)	agreed	12399
+dB	drop	unit symbol (ruling 12)	agreed	12477
+UV	keep	abbreviation used as a word (UV-Strahlung, UV-Licht)	agreed	12550
+mitführen	keep	valid verb lemma	agreed	12621
+CH	drop	abbreviation	agreed	12686
+Schlimmste	keep	used as a noun in all examples ("das Schlimmste"), like das Gute	adjudicated	12777
+AKW	keep	abbreviation used as a word, like Kita (ruling 12)	agreed	12837
+ra	drop	abbreviation	agreed	12843
+VG	drop	court abbreviation	agreed	12912
+MV	drop	abbreviation	agreed	12927
+FM	drop	abbreviation	agreed	12942
+RA	drop	abbreviation/code	agreed	13006
+Essener	drop	demonym of a place not on the list (ruling 1)	agreed	13013
+OT	drop	abbreviation	agreed	13019
+SL	drop	abbreviation, not a word	agreed	13073
+RC	drop	abbreviation	agreed	13144
+Heidelberger	drop	demonym of Heidelberg, not on the learnable list	agreed	13159
+Aachener	drop	demonym of Aachen, not on the learnable list	agreed	13170
+Alleinerziehende	keep	lexicalised nominalised adjective, like Angestellte	agreed	13205
+Fraktionsvorsitzende	keep	lexicalised nominalised adjective, noun in its own right	agreed	13256
+Bochumer	drop	demonym of Bochum, not on the learnable list	agreed	13278
+Mannheimer	drop	demonym of Mannheim, not on the learnable list	agreed	13307
+BWL	keep	abbreviation used as a word (school subject), like WG and Kita	agreed	13318
+www	drop	web abbreviation	agreed	13326
+Rn	drop	abbreviation	agreed	13473
+IE	drop	abbreviation	agreed	13589
+VS	drop	abbreviation	agreed	13614
+ichs	merge:ich	colloquial contraction of ich es	agreed	13659
+BB	drop	abbreviation or code	agreed	13661
+PP	drop	abbreviation or code	agreed	13696
+WS	drop	abbreviation	agreed	13702
+gGmbH	drop	legal-form abbreviation	agreed	13758
+ZH	drop	canton code	agreed	13775
+Linkspartei	keep	national party	agreed	13818
+CE	drop	abbreviation	agreed	13858
+hl	drop	unit symbol or fragment	agreed	13945
+Bj	drop	abbreviation	agreed	13976
+Nov	merge:November	abbreviation of a listed word	adjudicated	14031
+vs	drop	abbreviation	agreed	14053
+MC	drop	abbreviation	agreed	14209
+ST	drop	abbreviation	agreed	14222
+FB	drop	abbreviation of a brand name	agreed	14226
+Hunderttausende	keep	nominalised number with its own meaning	agreed	14246
+AO	drop	abbreviation or code	agreed	14368
+Hl	drop	unit symbol or abbreviation	agreed	14473
+MP	drop	abbreviation	agreed	14638
+ev	drop	abbreviation or fragment with mixed forms	agreed	14644
+AP	drop	agency abbreviation	agreed	14666
+FA	drop	abbreviation	agreed	14675
+Sub	drop	fragment or English abbreviation	agreed	14740
+Brandenburger	drop	demonym of Brandenburg, not on the learnable list	agreed	14753
+BV	drop	abbreviation	agreed	14836
+DZ	drop	abbreviation	agreed	14889
+FG	drop	abbreviation	agreed	14891
+CVP	keep	major Swiss party (ruling 3)	agreed	14977
+kcal	drop	unit symbol (ruling 12)	agreed	15092
+LV	drop	abbreviation	agreed	15105
+MA	drop	abbreviation	agreed	15125
+MSC	drop	abbreviation	agreed	15163
+GM	drop	abbreviation	agreed	15179
+UStG	drop	specialist law acronym	agreed	15198
+Disc	drop	English word, not an established loan	agreed	15203
+TT	drop	abbreviation	agreed	15234
+SBB	keep	famous institution, Swiss national railway	agreed	15240
+rd	drop	rare abbreviation	agreed	15250
+OÖ	drop	abbreviation of a place name not on the list	agreed	15276
+SK	drop	abbreviation	agreed	15285
+CO	drop	abbreviation or chemical symbol	agreed	15291
+EC	drop	abbreviation or code	agreed	15383
+Kantonsrat	keep	regular noun for a Swiss institution	agreed	15435
+BJ	drop	abbreviation	agreed	15492
+MW	drop	abbreviation or unit symbol	agreed	15499
+SF	drop	abbreviation	agreed	15553
+Linzer	drop	demonym of Linz, which is not on the list (ruling 1)	agreed	15699
+RV	drop	specialist abbreviation	agreed	15743
+Feinste	keep	lexicalised nominalisation in the fixed phrase "vom Feinsten"	adjudicated	15805
+AA	drop	abbreviation or code	agreed	15812
+RT	drop	abbreviation	agreed	15846
+AD	drop	abbreviation	agreed	15848
+Ps	drop	abbreviation or unit symbol, not a word like Kita	agreed	15903
+div	drop	abbreviation or garbled	agreed	15978
+Scannen	merge:scannen	productive -en infinitive (ruling 9)	agreed	16028
+BC	drop	abbreviation	agreed	16086
+GP	drop	specialist abbreviation	agreed	16144
+Neo	drop	mostly the prefix fragment; the party NEOS is only a minor share of the counts (ruling 13)	agreed	16206
+tg	drop	abbreviation or code	agreed	16299
+SW	drop	abbreviation	agreed	16514
+AV	drop	abbreviation	agreed	16577
+MdB	drop	abbreviation, not an everyday word	agreed	16612
+dts	drop	news-agency abbreviation	agreed	16626
+Hunderte	keep	lexicalised nominalised numeral	agreed	16663
+GV	drop	abbreviation	agreed	16691
+lg	drop	chat abbreviation	agreed	16722
+XS	drop	size abbreviation, not a word	agreed	16733
+gg	drop	unclear abbreviation, not a word in its own right	agreed	16786
+mAh	drop	unit symbol	agreed	16818
+dm	drop	brand name (drugstore chain)	agreed	16941
+Ulmer	drop	demonym of Ulm (not on list), also a publisher's surname	agreed	17078
+UrhG	drop	specialist legal abbreviation	agreed	17138
+HS	drop	abbreviation, not a word in its own right	agreed	17146
+SR	drop	abbreviation, not a word in its own right	agreed	17370
+Moskauer	drop	place adjective, Moskau not on the learnable list	agreed	17399
+Lüneburger	drop	place-derived name, Lüneburg not on the list	agreed	17488
+MM	drop	abbreviation, not a word in its own right	agreed	17509
+CT	drop	specialist abbreviation	agreed	17514
+Jüngste	keep	lexicalised noun ("unsere Jüngsten" = the children; der Jüngste Tag)	adjudicated	17523
+AHV	keep	nationally famous Swiss institution	agreed	17550
+Prenzlauer	drop	place-derived name, not on the list	agreed	17573
+Hd	drop	abbreviation, not a word in its own right	agreed	17612
+Fressen	keep	lexicalised noun (das Fressen = animal food; "ein gefundenes Fressen")	adjudicated	17646
+Tg	drop	abbreviation, not a word in its own right	agreed	17679
+DR	drop	abbreviation, not a word in its own right	agreed	17687
+THC	drop	specialist acronym	agreed	17772
+Ehrenamtliche	keep	lexicalised nominalisation (like Angestellte)	agreed	17807
+SRF	keep	famous Swiss broadcaster	agreed	17824
+Kasseler	drop	place-derived form, Kassel not on the list	agreed	17834
+Wiesbadener	drop	place-derived form, Wiesbaden not on the list	agreed	17918
+Würzburger	drop	place-derived form, Würzburg not on the list	agreed	17932
+sec	drop	abbreviation or foreign unit symbol	agreed	17945
+MRT	drop	specialist acronym	agreed	17965
+AZ	drop	abbreviation (Aktenzeichen)	agreed	18046
+USt	drop	specialist abbreviation	agreed	18180
+Joh	drop	cut-off abbreviation of a name	agreed	18247
+GByte	drop	unit symbol	agreed	18321
+lol	drop	internet abbreviation, not an established loan	agreed	18329
+Doc	drop	English abbreviation	agreed	18334
+Juso	keep	established common noun for a party youth member	agreed	18428
+BBQ	drop	English abbreviation	agreed	18446
+Wahlberechtigte	keep	lexicalised nominalisation	agreed	18451
+Brüsseler	drop	place-derived form, Brüssel not on the list	agreed	18485
+Vorarlberger	drop	place-derived form, Vorarlberg not on the list	agreed	18501
+BStBl	drop	specialist legal abbreviation	agreed	18516
+Erlernen	merge:erlernen	productive -en infinitive	agreed	18577
+BVerfG	drop	specialist legal abbreviation	agreed	18600
+Swisscom	drop	company brand, not genericised, not a listed institution (ruling 5)	agreed	18661
+pm	drop	English time abbreviation, not a word in use	agreed	18816
+milf	drop	English slang, spam-like	agreed	18901
+Norweger	keep	demonym of a listed country, has feminine entry Norwegerin	agreed	18906
+Dr	merge:Doktor	abbreviation of a listed word	agreed	18926
+RP	drop	abbreviation	agreed	19050
+Ravensburger	drop	place-derived adjective and brand, place not listed	agreed	19243
+BS	drop	abbreviation	agreed	19263
+Hesse	keep	demonym noun (Hesse/Hessin) for a listed state	agreed	19265
+Corp	drop	English company abbreviation	agreed	19298
+Std	merge:Stunde	abbreviation of a listed word	agreed	19307
+AR	drop	specialist acronym	agreed	19348
+Pflegebedürftiger	merge:Pflegebedürftige	inflected form of the nominalised lemma	agreed	19425
+Schalker	drop	club/place-derived name, not listed	agreed	19427
+Magdeburger	drop	demonym of a place not on the list	agreed	19464
+Fachangestellte	keep	lexicalised nominalised adjective	agreed	19485
+Bros	drop	brand abbreviation	agreed	19515
+Sim	drop	abbreviation/name	agreed	19522
+Chemnitzer	drop	demonym of a place not on the list	agreed	19532
+Göttinger	drop	demonym of a place not on the list	agreed	19601
+Werbetreibende	keep	lexicalised nominalised participle	agreed	19662
+Luzerner	drop	demonym of a place not on the list	agreed	19673
+Darmstädter	drop	demonym of a place not on the list	agreed	19685
+Jun	drop	abbreviation/name	agreed	19692
+hd	drop	abbreviation	agreed	19725
+Oz	drop	unit abbreviation	agreed	19735
+gelehrt	keep	adjective with its own entry	agreed	19851
+BT	drop	abbreviation	agreed	19901
+Mt	drop	abbreviation	agreed	19990
+DG	drop	abbreviation	agreed	20015
+Pflegebedürftige	keep	lexicalised nominalised adjective, like Angestellte	agreed	20019
+DAV	drop	organisation abbreviation, not a listed institution	agreed	20094
+Jg	merge:Jahrgang	abbreviation of a listed word	agreed	20167
+TH	drop	abbreviation	agreed	20200
+Bamberger	drop	demonym of a place not on the list	agreed	20235
+HB	drop	abbreviation	agreed	20252
+dpi	drop	unit symbol	agreed	20263
+KK	drop	abbreviation	agreed	20272
+KH	drop	abbreviation	agreed	20308
+bdsm	drop	specialist acronym, spam context	agreed	20334
+Oldenburger	drop	place demonym, Oldenburg not on the list	agreed	20534
+Die Linke	keep	major national party	agreed	20622
+Wuppertaler	drop	place demonym, Wuppertal not on the list	agreed	20634
+SSW	drop	minor regional party	agreed	20806
+Wolfsburger	drop	place demonym, Wolfsburg not on the list	agreed	20963
+pp	drop	abbreviation	agreed	20967
+NSDAP	keep	famous institution	agreed	20997
+dh	drop	abbreviation of d.h., a phrase rather than a listed word	agreed	21003
+Fürther	drop	place demonym, Fürth not on the list	agreed	21011
+SH	drop	abbreviation/code	agreed	21034
+Grass	drop	not a variant of Gras and no examples; likely a surname or English	agreed	21051
+Auslaufen	merge:auslaufen	productive -en nominalisation	agreed	21139
+nrw	drop	abbreviation	agreed	21167
+Cottbuser	drop	place demonym, Cottbus not on the list	agreed	21341
+Mächtige	keep	lexicalised nominalised adjective (die Mächtigen)	agreed	21345
+Pfälzer	drop	place demonym, Pfalz not on the list	agreed	21347
+Jüngere	keep	nominalised adjective used as a noun (die Jüngeren)	agreed	21376
+KS	drop	abbreviation	agreed	21377
+PH	drop	abbreviation	agreed	21428
+HRB	drop	register abbreviation	agreed	21485
+Berchtesgadener	drop	place demonym, Berchtesgaden not on the list	agreed	21500
+VA	drop	abbreviation	agreed	21537
+ms	drop	unit symbol	agreed	21540
+MK	drop	abbreviation	agreed	21663
+CL	drop	unit symbol	agreed	21683
+ML	drop	unit symbol	agreed	21688
+HG	drop	abbreviation	agreed	21738
+WK	drop	abbreviation	agreed	21770
+bb	drop	abbreviation/code	agreed	21875
+sm	drop	abbreviation/code	agreed	21933
+Mitreisende	keep	lexicalised nominalised participle, like Angestellte	agreed	21972
+StVO	drop	specialist legal acronym	agreed	22123
+FW	drop	abbreviation	agreed	22134
+Kl	drop	abbreviation	agreed	22166
+MdL	drop	specialist title abbreviation	agreed	22197
+vo	drop	fragment/abbreviation	agreed	22204
+JVA	keep	abbreviation used as a word, like Kita	agreed	22229
+zw	drop	abbreviation	agreed	22292
+Erfurter	drop	place demonym, Erfurt is explicitly dropped by ruling 1	agreed	22344
+Gothaer	drop	place/company-derived name, Gotha not on the list	agreed	22363
+BK	drop	specialist abbreviation	agreed	22415
+AAA	drop	battery-size code	agreed	22654
+HH	drop	abbreviation	agreed	22664
+HA	drop	abbreviation	agreed	22710
+ZB	drop	abbreviation of a phrase (zum Beispiel), not a word	agreed	22810
+mMn	drop	abbreviation of a phrase	agreed	22871
+GR	drop	abbreviation	agreed	22898
+Marburger	drop	place adjective, Marburg not on list	agreed	22921
+bj	drop	abbreviation or code	agreed	23004
+KPD	keep	famous historical party	agreed	23020
+MT	drop	abbreviation	agreed	23025
+NW	drop	abbreviation	agreed	23026
+Heranwachsende	keep	lexicalised nominalised participle	agreed	23152
+VP	drop	abbreviation	agreed	23164
+PK	drop	abbreviation	agreed	23177
+Med	drop	abbreviation	agreed	23224
+Eingreifen	merge:eingreifen	productive nominalised infinitive	agreed	23281
+Sat	drop	TV channel abbreviation	agreed	23312
+CM	drop	unit symbol	agreed	23376
+MG	drop	unit symbol	agreed	23533
+Zeller	drop	surname or place-derived name	agreed	23604
+btw	drop	English chat abbreviation	agreed	23701
+ham	merge:haben	colloquial contraction of haben	agreed	23704
+EU-DSGVO	drop	specialist acronym	agreed	23740
+cam	drop	English word, not an established loan	agreed	23791
+Bl	drop	abbreviation fragment	agreed	23815
+sG	drop	abbreviation or code	agreed	23919
+Älteste	keep	lexicalised nominalised adjective	agreed	23989
+Pflegende	keep	lexicalised nominalised participle, like Angestellte	agreed	24046
+GE	drop	code or abbreviation	agreed	24065
+NN	drop	abbreviation	agreed	24118
+Tübinger	drop	place demonym, Tübingen not on list	agreed	24129
+AktG	drop	specialist legal acronym	agreed	24247
+LK	drop	abbreviation, not an established word like Lkw	agreed	24283
+Velo	keep	Swiss word for bicycle	agreed	24366
+WW	drop	abbreviation	agreed	24368
+sp	drop	abbreviation fragment	agreed	24374
+vors	keep	standard contraction like ins and fürs, not a colloquial one under ruling 8	adjudicated	24375
+CV	keep	established loan abbreviation used as a word in job texts (ruling 12)	adjudicated	24479
+NK	drop	abbreviation	agreed	24492
+GF	drop	abbreviation (Geschäftsführer), not an established word like Kita or WG	agreed	24625
+Albaner	keep	demonym of a country, with its own feminine entry (Albanerin)	agreed	24740
+Liebende	keep	lexicalised nominalised participle, a noun in its own right	agreed	24777
+Verborgene	keep	lexicalised nominalisation in the fixed phrase "im Verborgenen"	adjudicated	24812
+LM	drop	abbreviation	agreed	24862
+Tessiner	drop	demonym of a region not on the list	agreed	24950
+Mo-Fr	drop	abbreviation	agreed	24996
+BMEL	drop	federal-ministry acronym	agreed	25009
+zweitgroß	keep	real ordinal-superlative adjective family	agreed	25088
+DKP	drop	minor party	agreed	25110
+InsO	drop	legal abbreviation	agreed	25114
+Personenkraftwagen	keep	full word	agreed	25139
+VB	drop	abbreviation	agreed	25197
+GL	drop	abbreviation	agreed	25373
+Heilbronner	drop	place adjective for a city not on the list	agreed	25396
+FL	drop	abbreviation	agreed	25457
+Hbf	merge:Hauptbahnhof	abbreviation of a listed word	adjudicated	25489
+Passauer	drop	demonym of a city not on the list	agreed	25551
+Schuldige	keep	lexicalised nominalised adjective	agreed	25626
+Br	drop	fragment or abbreviation	agreed	25666
+ABl	drop	abbreviation	agreed	25692
+BMF	drop	federal-ministry acronym	agreed	25754
+Aufständische	keep	lexicalised nominalised adjective	agreed	25788
+ct	drop	unit symbol or abbreviation	agreed	25806
+DD	drop	abbreviation or code	agreed	25814
+GewO	drop	legal abbreviation	agreed	25843
+BF	drop	abbreviation	agreed	25866
+Untote	keep	lexicalised nominalised adjective	agreed	25914
+Herrschende	keep	lexicalised nominalised participle	agreed	25948
+Behinderte	keep	lexicalised nominalised participle	agreed	26008
+BAB	drop	technical abbreviation	agreed	26139
+Lg	drop	chat abbreviation, not a word	agreed	26181
+unb	drop	abbreviation fragment	agreed	26196
+IR	drop	abbreviation	agreed	26323
+BGHZ	drop	legal citation abbreviation	agreed	26354
+Ch	drop	abbreviation or code	agreed	26393
+Innsbrucker	drop	demonym of a city not on the list	agreed	26398
+Erwerbstätige	keep	lexicalised nominalised participle	agreed	26423
+RM	drop	abbreviation	agreed	26435
+fa	drop	fragment or abbreviation	agreed	26440
+TR	drop	abbreviation, not an established word	agreed	26455
+Berechtigte	keep	lexicalised nominalised adjective, like Angestellte	agreed	26496
+UE	drop	abbreviation	agreed	26515
+Schwache	keep	nominalised adjective used as a noun, like das Gute	agreed	26543
+SPD-Politiker	keep	ordinary compound with a major party name	agreed	26600
+AHK	drop	specialist abbreviation (Auslandshandelskammer)	agreed	26612
+PL	drop	abbreviation	agreed	26684
+NR	drop	abbreviation	agreed	26706
+AF	drop	abbreviation	agreed	26720
+Walliser	drop	demonym of Wallis, which is not on the learnable list	agreed	26867
+FK	drop	abbreviation	agreed	26916
+KSchG	drop	specialist legal acronym	agreed	26920
+SuS	drop	specialist school jargon; the counts look like another word (lowercase "sus") and there are no examples	adjudicated	26932
+Zusammensein	keep	lexicalised nominalisation with its own entry	agreed	26937
+SPD-Chef	keep	real compound with a major party name	agreed	26994
+EVP	drop	minor party	agreed	27080
+NC	drop	abbreviation	agreed	27140
+obs	merge:ob	colloquial contraction ob's = ob es (ruling 8)	adjudicated	27174
+DN	drop	technical abbreviation	agreed	27180
+GZ	drop	abbreviation	agreed	27216
+ag	merge:AG	the counts are mostly case-folded AG, an abbreviation used as a word	adjudicated	27234
+BDP	drop	minor Swiss party	agreed	27278
+IB	drop	abbreviation	agreed	27284
+VK	drop	abbreviation	agreed	27299
+Arbeiten	merge:arbeiten	productive -en infinitive, ruling 9	agreed	27370
+WB	drop	abbreviation	agreed	27500
+co	drop	fragment or abbreviation	agreed	27572
+BD	drop	abbreviation	agreed	27579
+EFZ	drop	specialist Swiss qualification acronym	agreed	27607
+LB	drop	abbreviation	agreed	27614
+Publ	drop	abbreviation	agreed	27653
+TI	drop	abbreviation	agreed	27725
+cc	drop	abbreviation	agreed	27728
+Positive	keep	das Positive, lexicalised nominalised adjective like das Gute	agreed	27792
+MF	drop	abbreviation	agreed	27865
+Oberpfälzer	drop	demonym of the Oberpfalz, which is not on the learnable list	agreed	27898
+Starnberger	drop	place adjective for a place not on the list	agreed	27973
+FU	drop	abbreviation	agreed	27997
+Th	drop	abbreviation	agreed	28076
+Plexiglas	keep	genericised brand used as a common noun	agreed	28105
+ft	drop	unit/abbreviation symbol	agreed	28119
+PG	drop	abbreviation	agreed	28151
+Fußballspielen	keep	correctly written nominalisation, but there is no single-word verb to merge into	adjudicated	28166
+Kassier	keep	real noun (Swiss/Austrian)	agreed	28210
+SEK	drop	abbreviation	agreed	28262
+Trierer	drop	demonym of Trier, not on the learnable list	agreed	28269
+SRG	keep	national Swiss broadcaster, a famous institution	agreed	28338
+Piratenpartei Deutschland	drop	minor party	agreed	28442
+retour	keep	established word in Swiss/Austrian German	agreed	28499
+DL	drop	abbreviation	agreed	28504
+HJ	drop	abbreviation	agreed	28565
+imho	drop	chat abbreviation	agreed	28586
+PPS	drop	abbreviation	agreed	28632
+fps	drop	unit symbol	agreed	28705
+HV	drop	abbreviation	agreed	28715
+Harzer	drop	place adjective, Harz not on the list	agreed	28716
+Neustädter	drop	demonym of unlisted places	agreed	28727
+kl	drop	abbreviation/fragment	agreed	28743
+HK	drop	abbreviation	agreed	28751
+Stud	drop	abbreviation/name	agreed	28828
+Homosexuelle	keep	lexicalised nominalised adjective, like Angestellte	agreed	28850
+sry	drop	chat abbreviation	agreed	28911
+Kb	drop	unit symbol	agreed	29060
+fl	drop	abbreviation/fragment	agreed	29076
+Ad	drop	abbreviation/English fragment	agreed	29201
+dmg	drop	code/abbreviation	agreed	29230
+PDS	keep	notable German party/institution (earlier agreed keep)	agreed	29252
+Kath	merge:katholisch	abbreviation of a listed word	adjudicated	29284
+Friese	keep	people/demonym noun like Deutscher	agreed	29315
+PT	drop	abbreviation	agreed	29330
+WR	drop	abbreviation	agreed	29340
+Dampfen	merge:dampfen	productive -en infinitive	agreed	29365
+CB	drop	abbreviation	agreed	29626
+JP	drop	abbreviation	agreed	29674
+KP	drop	abbreviation	agreed	29677
+JS	drop	abbreviation	agreed	29728
+RW	drop	abbreviation	agreed	29818
+NV	drop	abbreviation	agreed	29924
+IGS	drop	minor school-type abbreviation	agreed	29961
+OVG	drop	court abbreviation, specialist	agreed	29973
+wS	drop	abbreviation	agreed	30034
+Stimmberechtigte	keep	lexicalised nominalised adjective (der Stimmberechtigte)	agreed	30066
+LT	drop	abbreviation	agreed	30093
+Appenzeller	drop	place not on list; examples are surnames	agreed	30121
+EE	drop	abbreviation	agreed	30175
+NJW	drop	legal journal abbreviation	agreed	30187
+Tun	keep	lexicalised noun (das Tun, "Tun und Lassen")	agreed	30197
+Wohnen	keep	lexicalised noun (housing, "betreutes Wohnen")	adjudicated	30202
+MByte	drop	unit symbol	agreed	30230
+OC	drop	abbreviation	agreed	30232
+VVG	drop	legal abbreviation	agreed	30239
+doc	drop	abbreviation/English fragment	agreed	30327
+DV	drop	abbreviation	agreed	30348
+FI	drop	abbreviation	agreed	30350
+VL	drop	abbreviation	agreed	30451
+SAT	drop	abbreviation/brand	agreed	30484
+Botox	keep	genericised brand used as common noun	agreed	30508
+KBA	drop	authority acronym, not a listed institution	agreed	30558
+nd	drop	abbreviation/fragment	agreed	30592
+LSG	drop	court abbreviation	agreed	30613
+MfG	drop	sign-off abbreviation of a phrase	agreed	30615
+Schwabe	drop	demonym of a region not shown as listed (ruling 1); the examples are surnames	adjudicated	30663
+ts	drop	abbreviation	agreed	30679
+Lateinische	keep	lexicalised nominalised adjective (das Lateinische)	agreed	30792
+Protestierende	keep	participle noun in its own right (like Angestellte)	agreed	30881
+BPM	drop	technical abbreviation	agreed	30916
+Meißner	drop	place-derived name, place not on list	agreed	30927
+AKP	drop	foreign party/specialist qualification acronym	agreed	30948
+HQ	drop	English abbreviation	agreed	30959
+Lesen	merge:lesen	productive -en infinitive	agreed	31090
+imo	drop	chat abbreviation	agreed	31204
+Erziehungsberechtigte	keep	lexicalised nominalised adjective	agreed	31215
+ds	drop	garbled/abbreviation	agreed	31294
+Fewo	keep	abbreviation used as a word (like WG, Kita)	agreed	31350
+Erlanger	drop	place adjective, place not on list	agreed	31388
+Krefelder	drop	demonym, place not on list	agreed	31393
+merci	keep	established loan interjection	agreed	31508
+FT	drop	unit abbreviation	agreed	31532
+Offenbacher	drop	demonym, place not on list	agreed	31545
+Rosenheimer	drop	demonym, place not on list	agreed	31597
+TD	drop	specialist abbreviation/company	agreed	31701
+Jenaer	drop	demonym of Jena, which is not on the learnable list	agreed	31722
+sms	merge:SMS	abbreviation used as a word, filed under a lower-case lemma	adjudicated	31760
+Ev	drop	ambiguous abbreviation	agreed	31778
+Verrückte	keep	lexicalised nominalised adjective, like Angestellte	agreed	31889
+feat	drop	English abbreviation	agreed	31898
+hg	drop	abbreviation	agreed	31951
+BGM	drop	specialist abbreviation	agreed	31959
+CW	drop	abbreviation	agreed	32009
+Amp	drop	abbreviation/HTML fragment (&amp;)	agreed	32042
+Frauenkirche	keep	famous landmark with a German name (ruling 4)	agreed	32141
+Pr	merge:PR	PR is kept under ruling 12; this lemma is the same word with broken casing	adjudicated	32151
+mfg	drop	sign-off abbreviation, not used as a word	agreed	32177
+ppm	drop	unit symbol	agreed	32183
+Sr	drop	abbreviation	agreed	32209
+Münsteraner	drop	Münster is not on the learnable list (ruling 1)	agreed	32244
+OM	drop	abbreviation	agreed	32286
+Rz	drop	legal abbreviation	agreed	32384
+Erlernte	keep	lexicalised nominalisation (das Erlernte)	agreed	32453
+GBP	drop	currency code	agreed	32457
+Vermisste	keep	lexicalised nominalised adjective, like Angestellte	agreed	32531
+Arbeitssuchende	keep	lexicalised nominalised adjective, like Arbeitslose	agreed	32557
+BVerwG	drop	specialist institution acronym	agreed	32558
+Ehrenvorsitzende	keep	lexicalised nominalised adjective	agreed	32563
+SI	drop	abbreviation	agreed	32706
+QS	drop	acronym	agreed	32820
+MSc	drop	degree abbreviation	agreed	32877
+dipl	drop	specialist abbreviation	agreed	32898
+Konstanzer	drop	Konstanz is not on the learnable list	agreed	32939
+Leverkusener	drop	Leverkusen is not on the learnable list	agreed	32942
+RF	drop	abbreviation	agreed	33001
+Ingolstädter	drop	Ingolstadt is not on the learnable list	agreed	33048
+Pak	drop	name/abbreviation	agreed	33055
+Ph	drop	abbreviation	agreed	33156
+Greifswalder	drop	Greifswald is not on the learnable list	agreed	33182
+Objekt-Nr	drop	template abbreviation	agreed	33197
+CR	drop	abbreviation	agreed	33343
+CF	drop	abbreviation	agreed	33408
+TF	drop	abbreviation	agreed	33546
+UL	drop	abbreviation	agreed	33553
+db	drop	abbreviation, not a learnable word	agreed	33623
+MfS	drop	ministry acronym (ruling 3 analogy); the learnable word is Stasi	adjudicated	33657
+Sc	drop	abbreviation/club	agreed	33669
+UA	drop	abbreviation	agreed	33676
+Habsburger	keep	dynasty common noun, not a place demonym	agreed	33754
+NP	drop	abbreviation	agreed	33764
+Sterbende	keep	nominalised participle, noun in its own right	agreed	33829
+VZ	drop	abbreviation/name	agreed	33833
+Wirken	keep	lexicalised nominalisation (das Wirken)	agreed	33841
+VWL	keep	abbreviation used as a word, like WG and Kita	agreed	33887
+Dresdener	drop	demonym of a place not on the list	agreed	33915
+Gießener	drop	demonym of a place not on the list	agreed	33924
+StVZO	drop	specialist legal acronym	agreed	33948
+BZgA	drop	federal agency acronym, treated like the ministry acronyms	agreed	33973
+Begünstigte	keep	nominalised adjective with its own entry	agreed	34015
+AFD	keep	famous party	agreed	34061
+BvR	drop	specialist legal abbreviation	agreed	34064
+EK	drop	abbreviation	agreed	34131
+Sagrada	drop	fragment of the landmark name Sagrada Familia, which is not a German name	agreed	34157
+Bergischen	drop	regional place name not on the list	agreed	34183
+Neuköllner	drop	demonym of a place not on the list	agreed	34200
+VV	drop	abbreviation	agreed	34273
+Hambacher	drop	place adjective for a place not on the list	agreed	34428
+EW	drop	abbreviation	agreed	34489
+Auserwählte	keep	nominalised participle, noun in its own right	agreed	34554
+Cyberkriminelle	keep	nominalised adjective, noun in its own right	agreed	34557
+Kleingedrucktes	keep	lexicalised nominalisation (das Kleingedruckte)	agreed	34570
+KR	drop	abbreviation/code	agreed	34615
+BTW	drop	abbreviation	agreed	34787
+Gleichaltrige	keep	nominalised adjective, noun in its own right	agreed	34797
+mt	drop	abbreviation/fragment	agreed	34833
+Knacken	merge:knacken	productive -en infinitive	agreed	34852
+LOL	drop	chat abbreviation	agreed	34856
+mind	merge:mindestens	"mind." is the usual abbreviation of mindestens; ruling 13 decides by the lemma's own reading, so the Minden counts don't change it	adjudicated	34937
+Em	drop	fragment/abbreviation	agreed	34951
+MWST	merge:Mehrwertsteuer	abbreviation of a listed word	agreed	34963
+RTW	drop	specialist abbreviation	agreed	34973
+cl	drop	unit symbol	agreed	35057
+Selbstständiger	merge:Selbstständige	inflected masculine form of the lexicalised nominalised adjective	agreed	35096
+Shemal	drop	offensive/spam term	agreed	35154
+ua	drop	abbreviation of the phrase "unter anderem/und andere", not a lemma	agreed	35223
+Nrw	drop	abbreviation of Nordrhein-Westfalen, a place not on the list	agreed	35254
+bAV	drop	specialist insurance acronym	agreed	35272
+PB	drop	unclear abbreviation	agreed	35379
+TN	drop	unclear abbreviation	agreed	35390
+Hildesheimer	drop	demonym of Hildesheim, not on the list	agreed	35422
+KGV	drop	specialist acronym	agreed	35423
+Pommer	drop	place name or demonym (Pommern), not on the list	agreed	35435
+Zuger	drop	demonym of Zug, not on the list	agreed	35454
+RZ	drop	unclear abbreviation	agreed	35508
+sh	drop	fragment or garble	agreed	35529
+KPCh	drop	foreign party acronym	agreed	35556
+Ramsauer	drop	surname or place-derived name	agreed	35576
+dtv	drop	publisher abbreviation	agreed	35771
+Ag	drop	chemical symbol; counts are mixed with other words (ruling 13), so decided by its own reading	agreed	35782
+merkur	merge:Merkur	lower-case filing of the planet name, which is learnable	agreed	35903
+Gelsenkirchener	drop	demonym of Gelsenkirchen, not on the list	agreed	35926
+VT	drop	unclear abbreviation	agreed	35963
+ddp	drop	news-agency abbreviation	agreed	36021
+Eislaufen	merge:eislaufen	productive -en nominalisation (ruling 9)	agreed	36042
+Gl	drop	fragment or abbreviation	agreed	36049
+Homburger	drop	place-derived name, not on the list	agreed	36114
+WA	drop	unclear abbreviation	agreed	36274
+ZGB	drop	specialist legal acronym	agreed	36279
+DT	drop	unclear abbreviation	agreed	36301
+M-V	drop	abbreviation of a federal state, not on the list	agreed	36325
+AVG	drop	law abbreviation or brand name	agreed	36370
+EFH	merge:Einfamilienhaus	abbreviation of a listed word that is written, not spoken as a word like WG or Lkw	adjudicated	36382
+bes	drop	garbled fragment	agreed	36418
+AVB	drop	insurance-terms acronym	agreed	36429
+BIZ	drop	abbreviation or site name	agreed	36434
+tel	drop	abbreviation or fragment	agreed	36503
+Blau-Weiß	keep	colour compound used as a noun, like das Blau	agreed	36515
+Ing	drop	name or abbreviation fragment	agreed	36589
+bbw	drop	spam abbreviation	agreed	36616
+sc	drop	abbreviation or code	agreed	36622
+NM	drop	unit symbol or abbreviation	agreed	36653
+Langlaufen	merge:langlaufen	productive -en nominalisation (ruling 9)	agreed	36708
+GVBl	drop	specialist abbreviation	agreed	36814
+KA	drop	unclear abbreviation	agreed	36819
+Sachse	keep	ordinary noun for an inhabitant of Saxony, with its own meaning (ruling 13: decided by the lemma's own reading)	agreed	36832
+anhin	keep	real Swiss adverb ("bis anhin") with its own entry	agreed	36845
+Prof	merge:Professor	abbreviation of a listed word	agreed	36958
+Kiewer	drop	demonym of Kiew, which is not on the learnable list	agreed	37018
+RLP	drop	region abbreviation	agreed	37028
+pvp	drop	English abbreviation	agreed	37048
+uvm	drop	abbreviation of a phrase, not a word	agreed	37052
+EB	drop	two-letter abbreviation	agreed	37067
+RH	drop	two-letter abbreviation	agreed	37092
+IMHO	drop	internet abbreviation	agreed	37144
+Siebenbürger	drop	region name or demonym, not on the list	agreed	37167
+mac	drop	brand or abbreviation	agreed	37316
+FP	drop	abbreviation	agreed	37401
+KL	drop	abbreviation	agreed	37411
+NB	drop	abbreviation	agreed	37499
+RD	drop	abbreviation	agreed	37573
+GK	drop	abbreviation	agreed	37711
+Athener	keep	demonym of Athen, a capital assumed to be on the learnable list (ruling 1)	adjudicated	37766
+ND	drop	abbreviation	agreed	37793
+Arbeitnehmende	merge:Arbeitnehmer	gender-inclusive form (ruling 7)	agreed	37837
+Erholungssuchende	keep	lexicalised nominalised participle, like Angestellte	agreed	37845
+Lega	drop	Italian party name	agreed	37867
+Ungläubiger	keep	lexicalised nominalised adjective	agreed	37899
+Cm	drop	unit symbol	agreed	37930
+TZ	drop	newspaper abbreviation	agreed	38050
+ZK	drop	abbreviation	agreed	38056
+Haager	drop	place adjective for Den Haag, which is not on the list	agreed	38164
+RG	drop	abbreviation	agreed	38237
+mA	drop	unit symbol	agreed	38270
+Bundesverkehrsministerium	keep	full German compound noun, not an acronym	agreed	38293
+Pl	drop	bare abbreviation with no examples and an unclear expansion (Plural, Platz …)	adjudicated	38326
+saturn	merge:Saturn	planet filed under a lower-case lemma	agreed	38647
+RK	drop	abbreviation	agreed	38678
+Berufstätige	keep	lexicalised nominalised adjective	agreed	38716
+PJ	drop	abbreviation or name	agreed	38747
+AE	drop	abbreviation	agreed	38882
+BMU	drop	federal-ministry acronym (ruling 3)	agreed	38883
+Kürzere	keep	fixed nominalisation in "den Kürzeren ziehen"	agreed	38911
+sL	drop	abbreviation or code	agreed	38945
+AMC	drop	company abbreviation	agreed	39039
+gw	drop	abbreviation, not a word	agreed	39193
+HW	drop	abbreviation, not a word	agreed	39223
+NA	merge:na	the forms are lower-case "na", the interjection filed under a wrong-case lemma	adjudicated	39237
+WZ	drop	abbreviation, not a word	agreed	39267
+sa	drop	abbreviation/fragment	agreed	39289
+ZHAW	drop	Swiss university acronym, not a listed institution	agreed	39350
+Europaabgeordnete	keep	lexicalised nominalised adjective (like Angestellte)	agreed	39475
+Gbit	drop	unit symbol	agreed	39483
+Hg	drop	chemical symbol	agreed	39487
+Adlige	keep	lexicalised noun (Adlige/Adliger)	agreed	39712
+Slowene	keep	nationality noun, not a city or place adjective	agreed	39849
+FRA	drop	airport code	agreed	39883
+BLZ	keep	abbreviation in common use as a word (Bankleitzahl)	agreed	40128
+iur	drop	fragment of the Latin "Dr. iur."	agreed	40206
+GOP	drop	foreign party and venue name	agreed	40235
+Tabellenletzte	keep	lexicalised nominalised adjective	agreed	40274
+MFG	drop	chat sign-off abbreviation of a phrase	agreed	40329
+MI	drop	unclear acronym	agreed	40419
+Verwundete	keep	lexicalised nominalised participle	agreed	40455
+GI	drop	abbreviation	agreed	40507
+Kantonsspital	keep	common noun wrongly tagged as a name	agreed	40518
+bmw	drop	brand abbreviation	agreed	40567
+HMS	drop	ship prefix abbreviation	agreed	40604
+Kunstschaffende	keep	lexicalised nominalised participle	agreed	40611
+NH	drop	abbreviation	agreed	40697
+xxl	drop	size abbreviation, not a word	agreed	40743
+Diss	merge:Dissertation	clipping/abbreviation of a listed word	agreed	40762
+IW	drop	abbreviation	agreed	40777
+Russ	merge:Ruß	the lemma's own reading is the Swiss ss spelling of Ruß (rulings 13, 14)	adjudicated	40804
+Verfolgte	keep	lexicalised nominalised participle	agreed	40894
+Oct	drop	English month abbreviation in English date stamps, not German usage (German is Okt.)	adjudicated	40964
+ju	drop	mostly the abbreviation JU, not a word	agreed	40996
+AfD-Fraktion	keep	real compound, nationally known	agreed	41014
+HI	drop	abbreviation/code	agreed	41042
+IKK	keep	major health insurer, like AOK/TK/DAK/Barmer	agreed	41048
+stv	drop	abbreviation	agreed	41194
+JF	drop	newspaper abbreviation	agreed	41239
+Mindener	drop	place adjective, Minden not on the list	agreed	41253
+PW	drop	abbreviation	agreed	41257
+SUB	drop	abbreviation/fragment	agreed	41262
+Tempelhofer	drop	place-derived adjective for Tempelhof (Berlin district), not on the learnable list per ruling 1	agreed	41266
+Rev	drop	abbreviation/fragment, no clear listed host word	agreed	41365
+Syriza	drop	Greek party, not in the Swiss/Austrian major parties or the keep list	agreed	41376
+kWp	drop	unit symbol (ruling 12)	agreed	41400
+Füs	merge:Fuß	clipped Swiss-spelling form of Fuß (Füße/Füsse), ruling 14 and fragment rule	agreed	185698

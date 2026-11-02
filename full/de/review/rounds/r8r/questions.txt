@@ -1,0 +1,161 @@
+# question ABS: Antiblockiersystem would be a word-like abbreviation (ruling 12) but counts are only lowercase abs, so dropped as ambiguous
+# question ABS: tagged PROPN and ambiguous (Antiblockiersystem vs other uses); dropped, but could be an established abbreviation worth keeping.
+# question Ag: counts are split between Ag (chemical symbol) and AG (Aktiengesellschaft, a common word); I decided by the lemma's own reading, but a separate AG lemma may need checking.
+# question Albaner: the rules don't say whether Albanien is on the learnable list. I kept it as a nationality noun with its own feminine entry, but the Albaner See example is a place adjective.
+# question Athener: Athens is not named among the learnable places, so I assumed it is not on the list and dropped the demonym.
+# question Athener: I could not confirm that Athen is on the learnable place list; I kept it assuming the capital is listed.
+# question B: z. B. is a multi-word abbreviation, so the rules on abbreviations used as words don't clearly cover a lone letter; dropped.
+# question B: z. B. is the abbreviation of "zum Beispiel", which has no single lemma to merge into; I dropped it as a fragment.
+# question BLZ: it is an abbreviation like Kita or Lkw, but it is a form-field term, not clearly a word in general use; kept on that basis.
+# question BLZ: kept under ruling 12 as a spoken/written everyday abbreviation; if Bankleitzahl is a listed lemma, merge:Bankleitzahl instead.
+# question BVerfG: it could count as a famous institution (keep) or as an abbreviation of Bundesverfassungsgericht (merge); I dropped it as a specialist legal abbreviation.
+# question BVerfG: the Bundesverfassungsgericht is a famous institution, but ruling 3 only names party and health-insurance acronyms; I dropped it as a legal abbreviation.
+# question BWL: the earlier decision was drop, but ruling 12 covers abbreviations used as words, so keep.
+# question BZgA: it is a federal agency, not a ministry, a party or a research institute, so no ruling covers it; I dropped it as a specialist acronym.
+# question Basler: the rules do not say whether Basel is on the learnable list; assumed not, so dropped.
+# question Berner: Bern is a capital but not on the learnable list, so dropped; check if Bern should be added
+# question Blau-Weiß: in the examples it is mostly a club-name element, so it may be a name rather than a nominalised colour; I kept it per the earlier decision
+# question Blau-Weiß: it is used partly as a club-name element (Blau-Weiß Günthersdorf); I kept it as the colour compound.
+# question Bundesverkehrsministerium: ruling 3 only covers acronyms such as BMZ. I kept the spelled-out compound, but it is a federal ministry and could be read as a drop.
+# question CV: English abbreviation commonly used as a word in German job contexts; kept under ruling 12, though it could count as a non-established foreign abbreviation.
+# question DM: abbreviation of a phrase (Deutsche Mark), also the dm brand; I kept it as an established currency abbreviation.
+# question DM: it is also the dm brand and could be merge:Mark; the examples show the currency, so I kept it.
+# question Deutsche: the counts are mostly the adjective deutsch and there is no example; I kept it on the noun reading.
+# question Dr: ruling 12 (abbreviations used as words keep) could also apply, but the rules on broken lemmas favour merging into Doktor.
+# question EFH: it may count as an abbreviation used as a word (like WG or Lkw, which are kept), but it is a niche real-estate abbreviation; I merged it into Einfamilienhaus, assuming that word is on the list
+# question EFH: ruling 12 keeps abbreviations used as words (WG, Kita), but this is a narrow real-estate-ad abbreviation of Einfamilienhaus; I dropped it, though merge:Einfamilienhaus is possible if that is listed.
+# question Eingreifen: the lemma is a nominalised infinitive. I judged it productive rather than lexicalised like das Essen, so I merged it into eingreifen.
+# question Feinste: only occurs in the fixed phrase "vom Feinsten"; I treated it as a nominalised superlative and merged it into fein rather than keeping it as a lexicalised noun like das Gute.
+# question Fewo: abbreviation of Ferienwohnung; kept under ruling 12, but the merge rule for abbreviations of listed words could apply
+# question Fewo: it abbreviates Ferienwohnung; I kept it under ruling 12, but if Ferienwohnung is a listed lemma, merge:Ferienwohnung would fit.
+# question Folgende: the counts are mostly the adjective folgend, but the example is nominalised (im Folgenden); I kept it, consistent with Gute.
+# question Frankfurter: Frankfurt is not named as a listed place, so I dropped it as a demonym; the sausage reading (a noun in its own right) would be keep if Frankfurt is on the list.
+# question Frankfurter: examples show only the demonym, and Frankfurt isn't named on the learnable list; I kept it for the sausage/inhabitant noun. If Frankfurt isn't listed, drop.
+# question Frauenkirche: counts mix the Dresden landmark with the town Frauenkirchen (37 of 469); I decided by the lemma's own reading (landmark) under rulings 4 and 13.
+# question Frauenkirche: counts mix the Dresden landmark with the town Frauenkirchen; I decided by the lemma's own reading (landmark).
+# question Friese: Friesland is a region, not a listed place; kept as a person noun, but the place-derived rule could argue for dropping it.
+# question Fußballspielen: no verb entry "fußballspielen" is confirmed. The dictionary form may be the separable "Fußball spielen"; I merged to the one-word verb.
+# question Fußballspielen: the verb is usually written as separate words "Fußball spielen"; merged to that form, but the verb lemma could also be "fußballspielen" if the list uses compound verbs.
+# question Füs: the written forms "fuses" and "fus" look like a clipped or cut-off Fuß/Füße, but could also be foreign (English "fuses") or the abbreviation FüS; merged to Fuß following the earlier agreed decision.
+# question Füs: written forms fuses/fus look like a clipped Füße/Füsse, so merged to Fuß; confirm the plural-to-singular mapping.
+# question GF: the rules don't say whether it counts as an established abbreviation like WG or Kita (Geschäftsführer). I dropped it.
+# question Grass: this could be a Swiss-style or English spelling of Gras, but with no examples I dropped it as a likely surname.
+# question Handeln: could be treated as lexicalised (das Handeln = conduct), but I treated it as a productive infinitive; the counts are only genitive handelns.
+# question Hbf: Hauptbahnhof is assumed to be on the list. If it is not, the entry should be dropped.
+# question Hbf: it abbreviates Hauptbahnhof, but I don't know if Hauptbahnhof is listed, so I dropped it rather than merging.
+# question Heidelberger: Heidelberg is not named among the learnable places, so I dropped it as a demonym. If Heidelberg is on the list, this should be keep.
+# question Hesse: counts are mostly the surname (Hermann Hesse); kept by the lemma's own reading as the demonym under ruling 13.
+# question Hesse: the written form is mostly a surname, but I decided by the demonym reading, assuming Hessen is on the learnable list.
+# question IKK: it is not named in ruling 3, but it is a major insurer group comparable to the listed ones; kept on that basis.
+# question IKK: ruling 3 does not name IKK; kept because it is a major insurer group like AOK, TK and DAK.
+# question JVA: could count as an abbreviation used as a word (ruling 12) or as an institution acronym; I kept it.
+# question JVA: it is a specialist acronym, but it is common in news text and works as a word like Kita, so I kept it.
+# question Jüngere: comparative of jung used as a noun; it could instead be merge:jung, but I treated it like Angestellte.
+# question Jüngere: only "jüngeren" is attested, so it could be a comparative of jung; I kept it as a nominalised adjective noun.
+# question Jüngste: it is the superlative of jung used as a noun; I decided keep as a lexicalised nominalisation, but merge:jung is arguable.
+# question Jüngste: the examples show the nominalised "unsere Jüngsten", which could be a lexicalised noun (keep); I merged it to jung as a superlative.
+# question Kassier: counts include "kassieren" (2), a different word; decided on the noun reading.
+# question Kürzere: it occurs only in the idiom, so it might instead merge into kurz; I kept it as with das Gute.
+# question Lesen: could also count as lexicalised (das Lesen as an activity); I treated it as productive and merged.
+# question Linke: the counts are mostly the adjective link; I kept it on the noun/party reading.
+# question MFG: not clearly covered by ruling 12 (written sign-off, not spoken); dropped.
+# question MfG: it is an abbreviation of a phrase rather than a single word, so I dropped it instead of applying ruling 12.
+# question MfG: ruling 12 keeps abbreviations used as words, but this abbreviates a closing phrase, not a word; dropped
+# question MfS: ministry acronym (drop) or a nationally known institution (keep)? Rule 3 names only federal ministries.
+# question MfS: the rules drop federal-ministry acronyms but keep famous institutions; MfS is a defunct GDR ministry, and I kept it as a famous institution.
+# question Mi: same as Sa; "mi" may be mostly Spanish or a musical note rather than Mittwoch.
+# question Mi: the counts may mix Mittwoch with other readings (Esperanto, music note), and Mittwoch is assumed to be on the list; merged by the abbreviation reading.
+# question Mo: same as Sa; the "mosen" form suggests mixed readings.
+# question Mo: the counts may mix Montag with other readings (names), and Montag is assumed to be on the list; merged by the abbreviation reading.
+# question Moskauer: I assumed Moskau is not on the learnable place list, so I dropped the demonym; if it is listed, this should be keep.
+# question NA: counts are "na" (346) and "nas" (8); I read it as the interjection "na", so merged to lower-case na, which may not exist as a separate lemma.
+# question Neo: counts are split between "neo" (986, a tech product term) and "Neos" (255, the Austrian party); I decided by the lemma's own reading and dropped it, which loses the party sense that ruling 3 would keep.
+# question Neo: the lemma mixes the prefix/adjective neo with the Austrian party NEOS (255 counts); if the party is meant to be a major party under ruling 3 it should be a separate lemma Neos.
+# question Neue: counts are mostly adjective forms (neuen, neue), so the lemmatiser may be mis-filing neu; decided by the lemma's own nominalised reading (ruling 13).
+# question Neue: the counts are mostly the adjective neu in lower case, and only the nominalised reading is shown; I kept it, consistent with Gute.
+# question Nov: I assumed an abbreviation of a listed word merges to it (November) rather than being dropped as an abbreviation.
+# question Nürnberger: earlier keep reversed because Nürnberg is not on the learnable list; also a sausage/insurer name
+# question OG: Obergeschoss is common in addresses, but the abbreviation is ambiguous, so dropped
+# question PDS: a German party, not one of the Swiss/Austrian parties the ruling names; kept as an established institution, but it could be treated as a minor party and dropped.
+# question PDS: the party is defunct and not covered by the Swiss/Austrian-party ruling; I kept it per the earlier decision.
+# question PLZ: could instead merge:Postleitzahl as abbreviation of a listed word; kept under ruling 12
+# question PLZ: kept as a word-like abbreviation (ruling 12); the earlier "abbreviations excluded" ruling seems superseded.
+# question PS: Postskriptum is an abbreviation used as a word (keep), but PS as a horsepower unit would be a unit symbol (drop).
+# question PS: horsepower unit symbol (drop under ruling 12) or word-like abbreviation (keep under ruling 12); kept because it is used as a word ("150 PS") and as the postscript abbreviation.
+# question Pflegebedürftiger: the -e and -er forms are separate lemmas of the same word; I kept the -e form and merged the -er form into it, following the Angestellte convention.
+# question Pflegebedürftiger: the lemma form Pflegebedürftige exists as a separate entry; merged there, assuming the -e form is the canonical lemma.
+# question Pfälzer: Pfalz is a region, not a listed place, but Pfälzer is also a common noun (a person or a wine); I treated it as a demonym and dropped it.
+# question Pfälzer: Pfalz is a region, not a listed place, so ruling 1 says drop; the earlier decision was keep.
+# question Pl: it is unclear whether "Pl" is a listed abbreviation of Plural or just a stray abbreviation. I merged it, but it could also be a drop.
+# question Pr: the lemma may also reflect "pres" (2 counts) and other readings; I took it as PR.
+# question Prof: ruling 12 (abbreviations used as words) could also support keep; I chose merge:Professor because it is a clipping of a listed word.
+# question Ps: unclear whether PS (Pferdestärke) counts as a unit symbol (drop) or an abbreviation used as a word like Lkw (keep); decided drop, as the lemma is a cased variant that also covers postscript.
+# question RTW: it abbreviates Rettungswagen, but I don't know whether that word is on the list, so I dropped it instead of merging.
+# question Rev: no example sentence available; could be an abbreviation of Reverend or Revision, dropped as unresolvable.
+# question Richtige: counts are mostly lower-case richtige (adjective); I decided by the lemma's own noun reading (ruling 13), same for Wesentliche, Besondere, Wissenswerte, Übrige. Listed for the lemmatiser.
+# question Russ: it could be the Swiss spelling of Ruß (ruling 14), but it is tagged PROPN and has no evidence, so I dropped it.
+# question Russ: the counted text is lower-case "russ" with no examples, so it could be a surname; merged as a Swiss spelling of Ruß.
+# question SZ: the rules do not name newspapers; I treated it as a famous institution, but it could count as a mere abbreviation.
+# question Sa: day abbreviations are merged as abbreviations of listed words, but the counts may include other readings (SA, sa); the rules do not settle this.
+# question Sa: the counts may mix Samstag with other readings (SA, Sa as a name), and Samstag is assumed to be on the list; merged by the abbreviation reading.
+# question Sachse: counts include "sachsen" (141), which is the place name Sachsen; decided by the lemma's own reading as the person noun.
+# question Schlimmste: das Schlimmste could count as a lexicalised nominalisation like das Gute (keep); merged because the lemma is a superlative inflection.
+# question Schwabe: unclear whether Schwaben is on the learnable list; kept as a common-noun demonym, though the examples are mostly surnames
+# question Schwabe: unclear whether Schwaben is on the learnable place list; I dropped it as a demonym of an unlisted region, and the examples are mostly surnames.
+# question SuS: nearly all counts are the Spanish word "sus", so the decision rests on the lemma's own German reading (ruling 13). Dropping it is defensible if the abbreviation is not wanted as a word.
+# question SuS: the abbreviation for Schülerinnen und Schüler is school jargon, but the counts are lowercase "sus" with no examples and probably mostly another word. Decided drop.
+# question Swisscom: a Swiss national telecom company is neither a listed institution (ruling 3) nor a genericised brand (ruling 5); I dropped it as a brand, reversing the earlier keep.
+# question Swisscom: a Swiss telecom company, neither a listed institution nor a genericised brand; dropped under ruling 5, but the earlier decision was keep.
+# question Tempelhofer: Tempelhofer Feld is a Berlin landmark but not a German-named famous landmark like Eiffelturm; the adjective is dropped as a non-listed place derivative.
+# question Tempelhofer: it only occurs in "Tempelhofer Feld/Hafen", names of specific places, so it is dropped as a name rather than as a demonym.
+# question Tun: "das Tun" could be seen as a productive nominalised infinitive (merge:tun) or lexicalised (Tun und Lassen); I kept it as lexicalised.
+# question Tun: ruling 9 productive vs lexicalised; kept because "Tun und Lassen"/"sein Tun" is a fixed noun use, but could be merge:tun
+# question US: a common prefix (US-Präsident), but it abbreviates a place name; I dropped it. Merge:USA if USA is listed.
+# question UVP: unclear whether it is an abbreviation used as a word (ruling 12) or a specialist acronym; I chose drop.
+# question VWL: it can mean Volkswirtschaftslehre or vermögenswirksame Leistungen; I kept it as an abbreviation used as a word, but it could instead be merged into Volkswirtschaftslehre.
+# question VWL: it covers two abbreviations, Volkswirtschaftslehre and vermögenswirksame Leistungen. I decided by the school-subject reading.
+# question Verborgene: only occurs as "im Verborgenen". It could be read as a lexicalised noun (keep), but I merged it into the adjective.
+# question Wirken: all the counts are the genitive form wirkens, and it is unclear whether das Wirken is lexicalised or a productive infinitive; I kept it.
+# question Wirken: lexicalised "das Wirken" (keep) or a productive infinitive (merge:wirken)? Counts are genitive only.
+# question Wohnen: could also count as lexicalised (das Wohnen as a housing topic); I treated it as productive and merged.
+# question Wohnen: kept as lexicalised (housing sense); could be seen as productive and merged to wohnen
+# question ag: written as ag/ages/age/ager/agem, which are mostly other-language forms. I read the lemma as the common German abbreviation AG (ruling 12) and merged it into AG. Please check that AG exists as a lemma; otherwise drop.
+# question ca: no listed full word (circa) is shown; I kept it as an everyday abbreviation under ruling 12. Merge to the full word if it is listed.
+# question ca: this could be merge:circa if circa is a listed word; I kept it as an abbreviation used as a word (ruling 12).
+# question dh: abbreviation of "d.h." (das heißt), a multi-word phrase; the rules say nothing on phrase abbreviations, so I dropped it.
+# question einunddreißigste: the earlier "ordinals 1–30 only" ruling is not in the rules shown; I followed ruling 6 and kept it. If that limit is binding, drop it.
+# question einunddreißigste: the second-set rulings set no ordinal cap; dropped only because of the earlier "ordinals 1–30" note.
+# question fr: could also be a cut-off fragment of another word, but "für" is by far the most likely.
+# question fr: could be Fr. (Frau/Franken), but at 18,035 occurrences it is most likely für with the ü lost.
+# question gelehrt: the forms are mostly nominalised (Gelehrte/Gelehrter); kept as the adjective, but a separate Gelehrte entry may be wanted.
+# question gg: the abbreviation is ambiguous (gegebenenfalls vs. chat "good game"); I dropped it rather than merging it to a lemma that may not be on the list.
+# question gg: written as gg/ggen; could be a clipped "gegen" or "ggf." (gegebenenfalls); I decided drop as an unclear abbreviation.
+# question grüßen: the counts are mostly the noun Grüße (a plural of Gruß); I decided by the verb reading under ruling 13.
+# question ham: covers ham, hamer, hams (haben/haben wir); merged to haben under ruling 8 although hamer is a contraction of two words.
+# question ham: the written forms (ham, hamer, hams) could stand for haben, ihm or habt ihr. I merged it into haben as the most likely host.
+# question ichs: contraction of ich + es, so the host word is unclear; merged into ich, but es is also plausible. Tagged VERB.
+# question ichs: the contraction is ich's (ich es), so the host is ambiguous between ich and es. I chose ich by analogy with weils → weil.
+# question ju: its counts are split between the abbreviation JU and "juden" (Jude plural); decided by the lemma's own reading.
+# question lol: ruling 12 keeps abbreviations used as words, but I treated lol as an internet interjection rather than an established word and dropped it.
+# question mind: the counts mix "mind." (mindestens) with the place name Minden. I decided by the abbreviation reading.
+# question mind: the counts mix "mind." (mindestens), the city Minden and the English word "mind"; I dropped it rather than merging.
+# question obs: it could be read as a fragment (the earlier drop), but I treated it as the ob's contraction under ruling 8. Please check that the counts are not mostly something else.
+# question sms: the lemma is lower-case and tagged PRON, but the rules give SMS no listing; I merged it into SMS on the case ruling, so if SMS isn't a lemma on the list it should be keep instead.
+# question sms: the lemma is lower-case, but the established word is SMS; I kept it as an abbreviation used as a word, so a case merge to SMS may be wanted if the list stores it in capitals.
+# question sry: could be merge:sorry as an abbreviation of a listed word, but I'm unsure "sorry" is on the list, so I dropped it as chat slang.
+# question ua: the abbreviation u. a. stands for a phrase, so no single host word applies; I dropped it
+# question vors: ruling 8 merges colloquial contractions, but vors is a standard contraction (like ins, fürs); kept per the earlier decision.
+# question vors: ruling 8 merges contractions like aufm and weils into the host word, but vors is a standard written contraction like fürs and ins, which the earlier decision kept. I applied ruling 8 and merged it into vor.
+# question zB: abbreviation of a multi-word phrase, so it is neither a lemma to merge into nor clearly a word-like abbreviation; I kept it under ruling 12.
+# question zB: abbreviation of a phrase (zum Beispiel), not a listed single word; kept under ruling 12
+# question zb: no rule covers abbreviations of multi-word phrases; dropped.
+# question zweitgroß: the lemma is a stem built from an ordinal plus a superlative, so no dictionary form exists. I kept it as the family lemma.
+# question Ähnliche: only the form Ähnliches occurs; merged to ähnlich as not lexicalised, could be kept like Angestellte
+# question Übrige: the only form counted is "übrigen", mostly in the fixed phrase "im Übrigen"; merge:übrig is possible if that phrase is treated as adjectival.
+# question Allgemeine, Ähnliche, Schlimmste, Feinste, Jüngste, Verborgene: where is the line between lexicalised nominalised adjectives or superlatives (keep) and productive ones (merge into the adjective)? Ruling 9 only covers -en infinitives and das Gute.
+# question Athener: please confirm Athen is on the learnable place list; if it is not, ruling 1 makes this drop
+# question Fußballspielen: how should a nominalised infinitive whose verb is a two-word phrase (Fußball spielen) be handled under ruling 9?
+# question MfS: do historic ministry acronyms (MfS) fall under the federal-ministry drop in ruling 3?
+# question Oct: should English month abbreviations in date stamps (Oct, Dec, May …) drop as foreign text, or merge into the German month as "English spellings of an adapted word"?
+# question einunddreißigste: does the first-set 1–30 ordinal limit still stand, given that 31. is frequent in dates?
+# question etc, usw, zB, ca: should written-only abbreviations be merged into their full word when it is a single lemma (ca -> circa) and dropped otherwise? Or does ruling 12 cover them?
