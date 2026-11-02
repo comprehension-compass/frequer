@@ -147,3 +147,13 @@
 # question sitar, mugir: these are kept as real words, but their counts are mostly junk forms ("site", "Mugen"); should their frequency be recomputed?
 # question trasparencia: should academy-accepted minor variants merge into the main spelling, or stay as separate lemmas?
 # question trigésimo, decimoctavo, vigesimoctavo: should an ordinal that exists as a word be kept when all its counted tokens are digits?
+# question airfryer: should a product name that is turning generic (airfryer) count as a brand or as an established loan?
+# question capar, avocar: if a real Spanish lemma's occurrences are mostly a misattributed foreign token, should the lemma stay as keep (my reading) or drop?
+# question galaadita: are gentilics of places not on the place list (biblical or minor) always drop?
+# question importantísimos, famosísimo: should superlatives (-ísimo) keep their own lemma or merge into the base adjective (importante, famoso)? I treated them as their own lemma, as the rules list only plurals and conjugations as broken.
+# question lasallista: should adjectives derived from the names of large but non-institutional organisations (religious orders, school networks) be kept like franquista-type words or dropped as name-derived?
+# question mediar: keeping mediar leaves the far more frequent "mediados" (a mediados de) attached to it; should mediados get its own entry when a mislemmatised word dwarfs a real lemma?
+# question sitar, mugir, mesar, agio, aventador: when the lemma string is a real Spanish word but most forms belong to a foreign word, brand or place, is there a share or frequency threshold for keep vs drop?
+# question trasparencia: should academy-accepted minority variants (tras-/trans-, etc.) stay separate or merge into the majority spelling under the "form people write" rule?
+# question trigésimo, decimoctavo, vigesimoctavo: should "only written as digits" be judged on this corpus's forms, especially when many digit forms are degrees rather than ordinals?
+# question vemurafenib: the rules drop specialist acronyms but don't cover specialist non-acronym terms such as generic drug names; I treated them the same way (drop)

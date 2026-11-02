@@ -1,8 +1,10 @@
 # es review shard 6: report
 
 Base `c4aacac` (`origin/full-es`), runner uplift `f8c8a67` with `review/scripts/examples10.py`, rules
-`review/rules/es-flagged-final.md` and `es-unflagged-final.md`. Screeners and reviewers ran on the sonnet alias and
-the adjudicator on the opus alias, as the config sets. No step had failed calls or failed batches.
+`review/rules/es-flagged-final.md` and `es-unflagged-final.md`. Reviewers and adjudicator used those rules through
+`--rules`; both adjudications were rerun on the corrected commands in `f117a3a` (see below). Screeners and reviewers
+ran on the sonnet alias and the adjudicator on the opus alias, as the config sets. No step had failed calls or
+failed batches.
 
 ## Counts
 
@@ -16,49 +18,81 @@ the adjudicator on the opus alias, as the config sets. No step had failed calls 
 
 | round | lemmas | reviewers agreed | to adjudicator (disagreements + queries) | keep | drop | merge | pending-names |
 |---|---|---|---|---|---|---|---|
-| s6-flagged | 944 | 919 (910 after queries) | 34 (25 + 9) | 79 | 780 | 84 | 1 |
-| s6-unflagged | 966 | 924 (903 after queries) | 63 (42 + 21) | 503 | 244 | 219 | 0 |
+| s6-flagged | 944 | 919 (910 after queries) | 34 (25 + 9) | 82 | 779 | 83 | 0 |
+| s6-unflagged | 966 | 924 (903 after queries) | 63 (42 + 21) | 506 | 240 | 220 | 0 |
 
 Undecided: 0 in both rounds. Accent-only agreed merges: 5 (flagged), 13 (unflagged).
 
 ## Gate: my queries and outcomes
 
 I read every agreed merge and keep in both rounds and every agreed drop lemma, then queried the decisions that might
-hide a second real word, a missing-accent word or a misspelling.
+hide a second real word, a missing-accent word or a misspelling. The outcomes below are from the final adjudication
+under the final rules.
 
 **s6-flagged (9)**
 - `diagnostico` (merge:diagnóstico; also yo diagnostico): merge stands.
 - `decima` (merge:décima; also a verb form): merge stands.
-- `sangr` (merge:sangría; could be sangre/sangrar): merge stands (forms are all sangría).
+- `sangr` (merge:sangría; could be sangre/sangrar): merge stands.
 - `pio` (merge:pío; mostly the name): merge stands.
-- `satan` (drop; missing-accent Satán?): **changed to merge:satán**.
-- `prez` (drop; prez/preces are real words): drop stands.
-- `mistica` (drop; missing-accent mística?): drop stands (it's project text).
+- `satan` (drop; missing-accent Satán?): drop stands.
+- `prez` (drop; prez/preces are real words): **changed to keep**.
+- `mistica` (drop; missing-accent mística?): **changed to merge:mística**.
 - `ffaa` (keep; abbreviation of fuerzas armadas, merge?): keep stands.
 - `glbt` (keep; variant of LGBT): **changed to merge:LGBT**.
 
 **s6-unflagged (21)**
-- Noun-form merges that absorb a real verb or word: `mediar` **changed to keep** (about 2,700 verb tokens);
-  `pontificar`, `almidonar`, `sisar`, `trovar` and `maño` merges stand (the verb or word is a small share).
+- Noun-form merges that absorb a real verb or word: `mediar` **changed to keep**; the `pontificar`, `almidonar`,
+  `sisar`, `trovar` and `maño` merges stand.
 - Agreed keeps:
   - `transtorno` **changed to merge:trastorno**.
   - `eternalmente` **changed to merge:eternamente**.
-  - `trasparencia` **changed to merge:transparencia**.
-  - `xacobeo` **changed to drop** (it's the event).
-  - `reusar` and `purina` stay keep.
+  - `xacobeo` **changed to drop**.
+  - `trasparencia`, `reusar` and `purina` stay keep.
 - Agreed drops:
   - `sitar`, `capar` and `avocar` **changed to keep**.
   - `vertir` **changed to merge:verter**.
-  - `agio` and `tambi` stay drop.
-  - `trigésimo`, `decimoctavo` and `vigesimoctavo` stay drop, because every counted form is a digit (18º, 28ª). The adjudicator asked about this.
+  - `tambi` **changed to merge:también**.
+  - `agio`, `trigésimo`, `decimoctavo` and `vigesimoctavo` stay drop. The ordinals' counted forms are all digits, and
+    the adjudicator asked about this.
 
 ## Things to know
 
-- **`pending-names` (1): `aliaga`** in s6-flagged. The runner's default `--decisions` (common.DECISIONS) still
-  offers `pending-names`, which the final rules replaced with `drop` for place names. The adjudicator gave it to
-  `aliaga` ("mainly the town Aliaga; the gorse reading is rare"). I left it as written and messaged the
-  coordinator; under the final rules it reads as drop. The unflagged round has none.
-- Two of my queries cited a rule loosely, and the adjudicator flagged that in its questions:
+- **The adjudication was rerun.** The first adjudication of both rounds ran without `--rules` (the step-3 commands
+  before `f117a3a`), so the adjudicator saw the config's older uplift rules (`prompts/es/rules-*.md`). That is why
+  it gave `aliaga` a `pending-names` decision. On the coordinator's instruction I set the first adjudication aside
+  and reran both with `--rules`. The reviewer stage already had the final rules and was not rerun.
+- **24 decisions changed between the two adjudications**, all of them lemmas the adjudicator saw.
+  - s6-flagged (11, old → new):
+    - aliaga: pending-names → keep
+    - hibiscus: merge:hibisco → drop
+    - maitre: merge:maître → drop
+    - millo: drop → keep
+    - mistica: drop → merge:mística
+    - multiplicao: merge:multiplicar → merge:multiplicarse
+    - prez: drop → keep
+    - satan: merge:satán → drop
+    - sci-fi: keep → drop
+    - tato: drop → keep
+    - tragus: drop → merge:trago
+  - s6-unflagged (13, old → new):
+    - asóciese: merge:asociar → merge:asociarse
+    - boolean: drop → merge:booleano
+    - choker: keep → drop
+    - comuníquense: merge:comunicar → merge:comunicarse
+    - gurdo: drop → merge:gurda
+    - imaginaos: merge:imaginar → merge:imaginarse
+    - inserir: merge:insertar → drop
+    - intarsia: drop → keep
+    - mesar: drop → keep
+    - proclama: merge:proclamar → keep
+    - shells: drop → merge:shell
+    - tambi: drop → merge:también
+    - trasparencia: merge:transparencia → keep
+  - Only some of these follow from the rules text: the old rules had `pending-names`, and the final rules' Spellings
+    and Split loans paragraphs are new. Others (satan, prez, tato, trasparencia, choker) look like run-to-run variance
+    on borderline cases. You may want to spot-check them. The first adjudication isn't committed; it's kept on the
+    shard machine.
+- Two of my queries cited a rule loosely:
   - The `pio` query mentioned a "minority rule". The binding minority rule covers only non-Spanish tokens.
   - The `ffaa` query said "an abbreviation of a listed word merges". The rules list that as a case of a broken
     lemma, but the adjudicator kept FFAA as an acronym used as a word.
@@ -66,19 +100,19 @@ hide a second real word, a missing-accent word or a misspelling.
 - `full/es/review/shards/shard-6/out/` matches the repo's `.gitignore` line `out/`, so I force-added it as the shard
   file asks.
 - I ran the flagged reviewers and the unflagged screen at the same time. The worker restarted once, after the
-  unflagged reviewers had finished. Nothing was lost, and every step finished with no failed calls.
-- Several adjudicator questions repeat across rounds and probably need one ruling each:
-  - Mixed lemmas that hold two real words: mediar/mediados, tato/tata, millo/milla.
+  unflagged reviewers had finished, and nothing was lost.
+- Recurring question themes, which probably need one ruling each:
+  - Mixed lemmas that hold two real words (mediar/mediados, tato/tata, millo/milla).
   - Whether -ísimo superlatives get their own lemma.
-  - Pronominal verbs written with or without -se in merge targets.
-  - Ordinals that are words but appear only as digits.
+  - Pronominal -se in merge targets (the two adjudications disagreed on asociar/asociarse and similar).
+  - Ordinals that are words but are counted only as digits.
   - How established a jargon or fandom loan must be.
   - Real words whose counts are inflated by English homographs (capar, avocar, sitar, mugir).
 
 ## Question lines
 
-All `# question` lines, from reviewers and adjudicator, are in `s6-flagged/questions.txt` (127 lines) and
-`s6-unflagged/questions.txt` (149 lines). They're reproduced in full below.
+All `# question` lines (reviewers, and the final adjudication) are in `s6-flagged/questions.txt` (132 lines) and
+`s6-unflagged/questions.txt` (159 lines). They're reproduced in full below.
 
 ### s6-flagged
 # question aire-acondicionado: it is a hyphenated compound of two listed words (which would drop), but I merged it into the one-noun entry "aire acondicionado".
@@ -208,6 +242,11 @@ All `# question` lines, from reviewers and adjudicator, are in `s6-flagged/quest
 # question satan: are religious and figurative names that act as words (Satán, Satanás) kept, or dropped as personal names?
 # question sci-fi, shonen, onboard: how established must a fandom or jargon loan be to count as established?
 # question tato, millo, prez, laso: these junk lemmas also hold forms of a different real word (tata, milla, preces, lasa); should those forms be moved to their own lemma when this one is dropped?
+# question ffaa: should abbreviations of institutions merge into a multi-word expansion (fuerzas armadas), or stay as acronyms like ONU?
+# question glbt: should variant-order acronyms (GLBT, LGTB) merge into one form, and which form is canonical, LGBT or Spain's LGTB?
+# question millo, prez, tato: a second real word's forms are filed under the lemma (milla, preces, tata); should those forms be split out to their own lemmas rather than staying here?
+# question post-consumo: both posconsumo and postconsumo are widely written; should the list prefer the academy's pos- form or the more frequent web form for pos(t)- prefixes?
+# question tragus: when Spanish uses the Latin form for a specialist sense (the tragus piercing), should it merge into the native word (trago) or drop as specialist?
 
 ### s6-unflagged
 # question abajar: dialectal/dated verb, kept since it is a real entry; no examples to check
@@ -359,3 +398,13 @@ All `# question` lines, from reviewers and adjudicator, are in `s6-flagged/quest
 # question sitar, mugir: these are kept as real words, but their counts are mostly junk forms ("site", "Mugen"); should their frequency be recomputed?
 # question trasparencia: should academy-accepted minor variants merge into the main spelling, or stay as separate lemmas?
 # question trigésimo, decimoctavo, vigesimoctavo: should an ordinal that exists as a word be kept when all its counted tokens are digits?
+# question airfryer: should a product name that is turning generic (airfryer) count as a brand or as an established loan?
+# question capar, avocar: if a real Spanish lemma's occurrences are mostly a misattributed foreign token, should the lemma stay as keep (my reading) or drop?
+# question galaadita: are gentilics of places not on the place list (biblical or minor) always drop?
+# question importantísimos, famosísimo: should superlatives (-ísimo) keep their own lemma or merge into the base adjective (importante, famoso)? I treated them as their own lemma, as the rules list only plurals and conjugations as broken.
+# question lasallista: should adjectives derived from the names of large but non-institutional organisations (religious orders, school networks) be kept like franquista-type words or dropped as name-derived?
+# question mediar: keeping mediar leaves the far more frequent "mediados" (a mediados de) attached to it; should mediados get its own entry when a mislemmatised word dwarfs a real lemma?
+# question sitar, mugir, mesar, agio, aventador: when the lemma string is a real Spanish word but most forms belong to a foreign word, brand or place, is there a share or frequency threshold for keep vs drop?
+# question trasparencia: should academy-accepted minority variants (tras-/trans-, etc.) stay separate or merge into the majority spelling under the "form people write" rule?
+# question trigésimo, decimoctavo, vigesimoctavo: should "only written as digits" be judged on this corpus's forms, especially when many digit forms are degrees rather than ordinals?
+# question vemurafenib: the rules drop specialist acronyms but don't cover specialist non-acronym terms such as generic drug names; I treated them the same way (drop)

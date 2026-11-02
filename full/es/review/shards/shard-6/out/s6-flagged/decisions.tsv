@@ -21,7 +21,7 @@ braille	keep	real word, the writing system	agreed	19519
 nochevieja	keep	real Spanish noun (New Year's Eve)	agreed	19894
 magnetic	drop	English, mostly product names	agreed	20070
 beam	drop	English, mostly brands and product text	agreed	20268
-pio	merge:pío	real word (no decir ni pío) with a missing accent; the written rules have no minority rule, so the name forms Pío and PIO do not block the merge	adjudicated	21694
+pio	merge:pío	missing accent; real word (ni pío, pío "pious"), and the common-word rule keeps it despite the name (minority rule is for non-Spanish tokens)	adjudicated	21694
 coll	drop	place name or surname, cut-off fragment	agreed	22132
 cerrito	keep	real diminutive of cerro, even though many uses are place names	agreed	22196
 fenix	merge:fénix	missing accent	agreed	22714
@@ -29,7 +29,7 @@ basándonos	merge:basarse	gerund with a clitic filed as a lemma	agreed	23742
 citrus	drop	Latin genus or place name	agreed	23903
 kasbah	drop	mostly hotel and place names	agreed	23913
 wikiloc	drop	website	agreed	24233
-mol	keep	lowercase mol (489) is the chemistry unit, a real Spanish word	adjudicated	25172
+mol	keep	real Spanish word (chemistry unit); lowercase mol is about half the uses	adjudicated	25172
 asian	drop	English, mostly names	agreed	26930
 xvid	drop	specialist codec name	agreed	27075
 scooby	drop	character name	agreed	27218
@@ -61,7 +61,7 @@ reels	drop	English casino/product term	agreed	38067
 plum	drop	English word/name	agreed	38230
 vento	drop	Italian/Portuguese name	agreed	38407
 workplace	drop	English product name	agreed	39039
-hibiscus	merge:hibisco	Latin/English spelling of the plant; Spanish lemma is hibisco	adjudicated	39054
+hibiscus	drop	mostly hotel names and Latin binomials; lowercase common-noun use is a small minority	adjudicated	39054
 residential	drop	English	agreed	39080
 changer	drop	English product names	agreed	40519
 beatitud	keep	real Spanish word	agreed	40647
@@ -76,7 +76,7 @@ aljarafe	drop	place name (comarca)	agreed	42253
 ipbes	drop	specialist acronym	agreed	42930
 fink	drop	surname	agreed	44134
 adhesive	drop	English	agreed	44183
-hech	drop	citation abbreviation of the book of Hechos, not a learner word	adjudicated	44579
+hech	drop	abbreviation of the book title Hechos (Acts), not of the word hecho; titles drop	adjudicated	44579
 kilogram	merge:kilogramo	English spelling of adapted word	agreed	44662
 bara	drop	name/fragment	agreed	44838
 sender	drop	capitalised name/brand, not a Spanish lemma	agreed	45365
@@ -111,7 +111,7 @@ naturehike	drop	brand	agreed	50768
 timeless	drop	English word	agreed	50798
 measure	drop	English word	agreed	50869
 reception	drop	English word	agreed	50887
-sangr	merge:sangría	written forms are sangría (275), with no sangre or sangrar forms	adjudicated	50895
+sangr	merge:sangría	written forms are sangría almost entirely, not sangre or sangrar	adjudicated	50895
 cidra	keep	real Spanish common word (citron fruit)	agreed	50931
 qm	drop	specialist acronym or code	agreed	51076
 posse	drop	surname or English word	agreed	51264
@@ -141,7 +141,7 @@ tpd	drop	specialist acronym/code	agreed	54142
 close-up	drop	hyphenated English term, not established in Spanish	agreed	54172
 flybe	drop	airline brand	agreed	54200
 knockout	keep	established loan (boxing, games)	agreed	54222
-jokers	drop	English plural, mostly titles; Spanish says comodín	adjudicated	54326
+jokers	drop	English plural, used in show and game titles; not established in Spanish	adjudicated	54326
 vardenafilo	keep	real Spanish drug name	agreed	54376
 everglad#Fem	drop	place name (Everglades)	agreed	54428
 suministrados	merge:suministrar	participle filed as a lemma	agreed	54487
@@ -174,14 +174,14 @@ entrepreneurship	drop	English word	agreed	56669
 fen	drop	English/fragment	agreed	56678
 ipca	drop	specialist acronym	agreed	56702
 parellada	drop	grape variety name	agreed	56730
-satan	merge:satán	missing-accent form of Satán, a Spanish word; the one example (Dragon Ball's Satan) is a minority use	adjudicated	56746
+satan	drop	Dragon Ball character and English Satan; the Spanish lowercase noun use is a small minority	adjudicated	56746
 tns	drop	company acronym	agreed	56758
 neat	drop	English word	agreed	56845
 pottery	drop	English/brand	agreed	56863
 maj	drop	abbreviation/fragment	agreed	56975
 shor	drop	name/fragment	agreed	57015
 bmz	drop	organisation/code	agreed	57053
-egb	keep	EGB is used as an ordinary word in Spain (school stage, job requirements)	adjudicated	57080
+egb	keep	Spanish education-level acronym used as an ordinary word (la EGB, generación EGB)	adjudicated	57080
 gtp	drop	technical acronym	agreed	57092
 junípero	keep	real Spanish word (juniper), even though many occurrences are a name	agreed	57110
 neg	drop	fragment/abbreviation	agreed	57129
@@ -244,14 +244,14 @@ lrt	drop	specialist acronym	agreed	59847
 r-design	drop	car trim brand name, hyphenated	agreed	59877
 certain	drop	English word, mostly in names	agreed	59947
 growing	drop	English word, mostly in titles and names	agreed	59980
-oif	drop	organisation acronym (Francophonie), not an everyday word	adjudicated	60015
+oif	drop	Francophonie acronym, not famous in the Spanish-speaking world	adjudicated	60015
 boosters	drop	English plural in product names	agreed	60102
 comedor-estar	drop	hyphenated compound of two listed words	agreed	60117
 enseñaro	merge:enseñar	enseñaros is enseñar plus the clitic os, filed under a cut-off lemma	agreed	60139
 inia	drop	specialist research institute acronym	agreed	60167
 lj	drop	brand or code	agreed	60182
 panamax	drop	ship class and brand name	agreed	60208
-tato	drop	mostly a personal name; tato itself is not a learner word, and tata is a separate lemma	adjudicated	60236
+tato	keep	real colloquial word (tato/tata, brother or sister); the name doesn't remove it	adjudicated	60236
 bel-air	drop	place name	agreed	60264
 cazatalento	merge:cazatalentos	the word is written cazatalentos, which is invariant in the singular	agreed	60276
 nua	drop	name or code	agreed	60352
@@ -284,7 +284,7 @@ jatropha	drop	botanical genus name, not established in Spanish	agreed	61681
 modelling	drop	English word, not established in Spanish	agreed	61697
 phenylpropionate	drop	English chemical name	agreed	61726
 redux	drop	English word/title, not established in Spanish	agreed	61738
-sci-fi	keep	hyphenated loan used in Spanish genre talk, like other established loans	adjudicated	61746
+sci-fi	drop	English abbreviation, not an adapted spelling of ciencia ficción	adjudicated	61746
 unplugged	drop	English word, mostly a title	agreed	61772
 carrozzeria	drop	Italian business name	agreed	61823
 desearl	merge:desear	infinitive with clitic "desearles" filed as a lemma	agreed	61851
@@ -305,7 +305,7 @@ smashing	drop	English word or band name	agreed	62475
 auch	drop	place name	agreed	62518
 hamman	merge:hammam	misspelling of the loan hammam	agreed	62572
 marking	drop	English word, not established in Spanish	agreed	62600
-multiplicao	merge:multiplicar	multiplicaos is the vosotros imperative plus clitic; lemma is the infinitive	adjudicated	62610
+multiplicao	merge:multiplicarse	multiplicaos is the vosotros imperative of the pronominal verb	adjudicated	62610
 vast	drop	English word or acronym, not Spanish	agreed	62669
 cht	drop	company acronym	agreed	62702
 hes	drop	acronym or English token	agreed	62742
@@ -344,7 +344,7 @@ skg	drop	airport code	agreed	64088
 aij	drop	specialist acronym	agreed	64129
 gigavatios-hora	drop	hyphenated compound of two listed words	agreed	64204
 ier	drop	fragment or acronym	agreed	64213
-laso	drop	mostly the surname Laso or a misspelt lazo; the archaic adjective is not a learner word	adjudicated	64231
+laso	drop	surname, plus misspellings of lazo (Herramienta Laso); the rare adjective isn't a learner word	adjudicated	64231
 aktiv	drop	German word	agreed	64328
 emui	drop	brand or product name	agreed	64381
 gpd	drop	brand acronym	agreed	64405
@@ -356,8 +356,8 @@ apoia-se	drop	Portuguese	agreed	64570
 ciso	drop	specialist acronym	agreed	64588
 daiquiri	keep	common cocktail name	agreed	64599
 flors	drop	Catalan word or name	agreed	64623
-glucose	drop	English product-name text; not the Spanish word glucosa	adjudicated	64631
-mistica	drop	examples and capitalised forms are the MISTICA project; lowercase forms come from the same project text	adjudicated	64681
+glucose	drop	English product names, not Spanish use of the word	adjudicated	64631
+mistica	merge:mística	missing accent of a common word; the project name doesn't remove it (same as pio)	adjudicated	64681
 pmm	drop	specialist acronym	agreed	64712
 voyageur	drop	French hotel and brand name, not established in Spanish	agreed	64760
 bute	drop	Scottish island, a place name	agreed	64790
@@ -367,10 +367,10 @@ nrf	drop	Specialist acronym	agreed	64873
 quin	drop	Catalan word and a name	agreed	64895
 stupid	drop	English word and a title or name	agreed	64917
 campaigns	drop	English word	agreed	64984
-frac	keep	frac/fracs (tailcoat) is a real Spanish word, with 64 lowercase forms	adjudicated	65023
+frac	keep	real Spanish word (tailcoat)	adjudicated	65023
 isra	drop	Company name or acronym	agreed	65051
 teórico-práctica	drop	Hyphenated compound of two listed words	agreed	65123
-arra	merge:arras	arras (70) is a real plural-only noun; ARRA is an English acronym	adjudicated	65157
+arra	merge:arras	arras (plural-only noun) is the real word here; ARRA is a foreign acronym	adjudicated	65157
 crus	drop	Name, not a Spanish word	agreed	65196
 erd	drop	Acronym	agreed	65215
 fling	drop	English word or app name	agreed	65222
@@ -386,7 +386,7 @@ heap	drop	English word	agreed	65491
 ncf	drop	Acronym	agreed	65537
 raedera	keep	Real Spanish word (scraper)	agreed	65565
 yesterday	drop	English word, a song title or name	agreed	65604
-aliaga	pending-names	mainly the town Aliaga (and a surname); the gorse reading is rare	adjudicated	65614
+aliaga	keep	real Spanish word (gorse); the place name and surname don't remove it	adjudicated	65614
 capsulette	drop	Watch product name	agreed	65648
 disable	drop	English software term	agreed	65665
 lch	drop	Specialist acronym	agreed	65724
@@ -399,7 +399,7 @@ une-en-iso	drop	Hyphenated standards code	agreed	65805
 aprecio	keep	Real Spanish noun (esteem)	agreed	65833
 basse	drop	French word or name	agreed	65844
 iuf	drop	Specialist organisation acronym	agreed	65928
-maitre	merge:maître	restaurant term established in Spanish, written maître	adjudicated	65943
+maitre	drop	French token; most uses are names (Maître Gims, Maitre Charcot), and the restaurant-term reading is a minority	adjudicated	65943
 panna	merge:panna cotta	split loan, the other half is "cotta"	agreed	65958
 rayne	drop	personal name or brand	agreed	65976
 curves	drop	brand	agreed	66089
@@ -423,7 +423,7 @@ zinkia	drop	company name	agreed	66472
 anticiparno	merge:anticiparse	truncated form of "anticiparnos", a pronominal verb	agreed	66483
 goce	keep	real Spanish word, even though many uses are the satellite name	agreed	66574
 madam	drop	English word	agreed	66613
-onboard	drop	English word, not established beyond motorsport and tech jargon	adjudicated	66633
+onboard	drop	English, only niche motorsport and hardware use	adjudicated	66633
 skie	drop	name or English fragment	agreed	66666
 tge	drop	vehicle model code	agreed	66680
 ater	drop	name or acronym	agreed	66723
@@ -448,7 +448,7 @@ taichi	keep	established loan for the martial art	agreed	67362
 unifem	keep	famous international UN body	agreed	67375
 fpx	drop	product code	agreed	67453
 ldw	drop	specialist car-rental acronym	agreed	67494
-millo	drop	mostly a name; regional millo is not a learner word; milla forms belong to milla	adjudicated	67512
+millo	keep	real regional word (maize in Canarias and Galicia)	adjudicated	67512
 ninds	drop	US institute, not a famous Spanish-world body	agreed	67523
 owa	drop	technical acronym	agreed	67532
 pre-registro	merge:preregistro	hyphenated spelling of the adapted word	agreed	67543
@@ -502,7 +502,7 @@ iapc	drop	specialist acronym	agreed	68880
 luengo	keep	real Spanish word (luengo, 'long'), though mostly a surname	agreed	68906
 musac	drop	single museum, not a nationally famous institution	agreed	68922
 omisiones	merge:omisión	plural filed as lemma	agreed	68931
-ruc	keep	acronym used as an ordinary word in Peru and Ecuador (número de RUC), like IVA	adjudicated	68966
+ruc	keep	tax-registry number used as an ordinary word in several Latin American countries (like IVA, NIF)	adjudicated	68966
 soas	drop	UK university	agreed	68979
 tabby	drop	English word	agreed	68991
 ttx	drop	file extension	agreed	69004
@@ -515,7 +515,7 @@ pepfar	drop	US programme acronym	agreed	69186
 veen	drop	surname	agreed	69263
 accu	drop	brand/organisation acronym	agreed	69279
 ccna	drop	technical certification acronym	agreed	69310
-ffaa	keep	standard abbreviation used as an ordinary word in news; rules keep such acronyms	adjudicated	69365
+ffaa	keep	acronym of the Fuerzas Armadas, a famous institution; kept like ONU and UE rather than expanded	adjudicated	69365
 hina	drop	name, no examples	agreed	69384
 hydroponic	drop	English word/brand	agreed	69392
 ker	drop	name/fragment	agreed	69412
@@ -575,7 +575,7 @@ cuina	drop	Catalan word, not Spanish	agreed	70939
 imsi	drop	Technical telecom acronym	agreed	71001
 laz	drop	Name or code with no Spanish word reading	agreed	71025
 oab	drop	Organisation or technical acronym	agreed	71053
-prez	drop	mostly a company name; prez and preces are archaic or liturgical, not learner words	adjudicated	71074
+prez	keep	real Spanish noun (honour); its plural preces (prayers) is filed here, and the company name doesn't remove it	adjudicated	71074
 aetate	drop	Latin, only in the title Nostra Aetate	agreed	71154
 cursed	drop	English word in game titles	agreed	71214
 enqa	drop	Organisation acronym	agreed	71235
@@ -628,7 +628,7 @@ lna	drop	foreign militia acronym	agreed	72717
 nol	drop	technical acronym	agreed	72755
 pfas	drop	technical acronym	agreed	72779
 rht	drop	stock ticker	agreed	72802
-shoji	drop	Japanese term, mostly a name; not established in Spanish	adjudicated	72821
+shoji	drop	mostly a name; the Japanese term is not established in Spanish	adjudicated	72821
 terminals	drop	English plural, not Spanish	agreed	72841
 volubilis	drop	place name (ruins)	agreed	72866
 controlling	keep	business loan used in Spanish	agreed	72939
@@ -684,7 +684,7 @@ blancs	drop	French word in names	agreed	74403
 cella	drop	place or surname, not a Spanish word	agreed	74414
 dmre	drop	specialist medical acronym	agreed	74445
 fbr	drop	specialist acronym	agreed	74470
-glbt	merge:LGBT	variant letter order of the same everyday acronym	adjudicated	74481
+glbt	merge:LGBT	variant letter order of the same acronym; Spanish usage centres on LGBT	adjudicated	74481
 iir	drop	technical code	agreed	74494
 mano-ojo	drop	hyphenated compound of two listed words	agreed	74533
 mian	drop	surname or place name	agreed	74542
@@ -710,7 +710,7 @@ clack	drop	surname or foreign word	agreed	75002
 cors	drop	technical acronym	agreed	75010
 dgs	drop	file extension or code	agreed	75019
 e-conomic	drop	brand or software name	agreed	75028
-handball	keep	established loan for balonmano in the Southern Cone and the Caribbean	adjudicated	75067
+handball	keep	established loan, the usual name for balonmano in the Southern Cone	adjudicated	75067
 ibtm	drop	event name	agreed	75080
 nbk	drop	file extension or code	agreed	75140
 pruftechnik	drop	company name	agreed	75184
@@ -745,7 +745,7 @@ terra-i	drop	project name	agreed	75906
 ultra-rápido	merge:ultrarrápido	hyphenated spelling	agreed	75920
 bmm	drop	brand/file-type acronym	agreed	75976
 cyl	drop	regional abbreviation, place	agreed	76005
-diagnostico	merge:diagnóstico	forms carry the noun reading (Centro de Diagnostico, plural diagnosticos), not yo diagnostico	adjudicated	76012
+diagnostico	merge:diagnóstico	forms are noun headings and plurals (Centro de Diagnostico, diagnosticos), not yo diagnostico	adjudicated	76012
 egf	drop	specialist biochemistry acronym	agreed	76023
 excursions	drop	English company name	agreed	76042
 ipr	drop	technical acronym	agreed	76078
@@ -753,7 +753,7 @@ krs	drop	company acronym	agreed	76096
 lfi	drop	unclear acronym	agreed	76108
 piracetam	keep	real drug name used in Spanish	agreed	76161
 sombrerete	keep	real common noun (chimney cap)	agreed	76191
-tragus	drop	piercing-listing jargon; merging would inflate trago (drink) with jewellery text	adjudicated	76210
+tragus	merge:trago	Latin/English form of the ear part, which Spanish calls trago	adjudicated	76210
 wcr	drop	code/acronym	agreed	76229
 achieve	drop	English brand name	agreed	76243
 amiloid	merge:amiloide	plural filed as lemma	agreed	76251
@@ -815,7 +815,7 @@ mondiale	drop	French/Italian word, company name	agreed	77892
 ntu	drop	Technical unit acronym	agreed	77905
 outta	drop	English slang in titles	agreed	77914
 rádio	drop	Portuguese word	agreed	77960
-shonen	drop	niche manga-fandom term, not established for learners	adjudicated	77972
+shonen	drop	manga-fan genre term, not established for learners	adjudicated	77972
 tdl	drop	File-type/technical acronym	agreed	77991
 técnico-comercial	drop	Hyphenated compound of two listed words	agreed	78008
 zk	drop	Code, length 2	agreed	78034
@@ -857,15 +857,15 @@ interior-exterior	drop	hyphenated compound of two listed words	agreed	78910
 krc	drop	football club acronym	agreed	78936
 maap	drop	project or organisation acronym	agreed	78954
 nutri	drop	brand or fragment	agreed	78980
-post-consumo	merge:posconsumo	Real adjective "after consumption" (recycled material); Spanish writes prefixes joined, and the RAE prefers pos- before a consonant	adjudicated	79012
+post-consumo	merge:posconsumo	Hyphenated spelling of a prefixed adjective; Spanish attaches the prefix, and posconsumo is the academy's form and widely written	adjudicated	79012
 rega	drop	name or brand	agreed	79029
 sbe	drop	file extension and school acronym	agreed	79050
 tipnis	drop	national park, a place name	agreed	79087
 wear-resistant	drop	English product-listing term	agreed	79112
-aire-acondicionado	drop	Hyphenated web compound like salón-comedor; aire and acondicionado are already listed separately	adjudicated	79140
+aire-acondicionado	drop	Hyphenated compound of two listed words (aire, acondicionado); the open two-word spelling is the normal one	adjudicated	79140
 bankai	drop	anime term, not established in Spanish	agreed	79162
 cilia	drop	mostly a place or personal name (Santa Cilia, Cilia Flores)	agreed	79201
-decima	merge:décima	Missing accent on décima/décimas; the "decimates" reading would be diezma (from diezmar), and decimar is not a word a learner meets	adjudicated	79226
+decima	merge:décima	Missing accent; diezmar's 3sg is diezma and decimar is too rare for a learner, while the examples are décima or the Italian Decima MAS	adjudicated	79226
 fool	drop	English word in titles and names	agreed	79262
 in-vitro	merge:in vitro	hyphenated spelling of an established phrase	agreed	79303
 lgd	drop	file extension	agreed	79328
@@ -914,7 +914,7 @@ devociona	merge:devocional	Plural filed as lemma (devocionales)	agreed	80429
 esca	drop	Mostly names or acronym, rare as a word	agreed	80453
 hmf	drop	Brand acronym	agreed	80499
 inspect	drop	English word, not established in Spanish	agreed	80510
-lacar	keep	Real verb ("to lacquer"; lacarse, lacados); the lake Lacar shares the spelling but doesn't cancel the common word	adjudicated	80530
+lacar	keep	Real Spanish verb (lacar, lacarse, lacados); a real common word stays even if many occurrences are a name (Lago Lacar)	adjudicated	80530
 nakivo	drop	Company name	agreed	80567
 oes	drop	Software product acronym	agreed	80582
 pmb	drop	Address or file-extension code	agreed	80603
