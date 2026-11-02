@@ -107,7 +107,7 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
         every = rank_rows(rows, opts.score)
         row_of = {r.lemma: r for r in every}
         plan = names.plan(flt.learnable.spellings, [r.lemma for r in chosen], [r.lemma for r in every],
-                          runtime.lemma_of_word, cfg.fold_case)
+                          runtime.lemma_of_word, cfg.fold_case, split=runtime.splits)
         chosen += [row_of[k] for k in plan.appended() if k in row_of]
     entries = snapshot.build_entries(chosen, result.merged, manifest, citation)
     if plan is not None:
