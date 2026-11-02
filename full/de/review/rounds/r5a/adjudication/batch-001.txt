@@ -1,0 +1,34 @@
+SSL-Zertifikat	drop	compound built on the specialist acronym SSL, website boilerplate
+BUSINESS	merge:Business	established loan, written only as "business", so it belongs under the capitalised noun
+LOL	drop	chat abbreviation; abbreviations are excluded for now
+VertreterInn	merge:Vertreterin	cut-off of the gendered plural VertreterInnen; the base is Vertreterin
+Scharf	merge:scharf	15.8 % after an article or adjective is not name-like, so this is the adjective
+Registration	keep	the examples are German prose, and Registration is an established German noun alongside Registrierung
+Chill	merge:chillen	"chill" is mainly the German imperative ("chill mal") of the established verb chillen
+Merk	drop	forms merks/merkes at 0.0 % look like the surname Merk; the verb merken is already on the list
+adult	keep	zoological German adjective; the inflected forms adulte/adulten/adultes show German use
+ExpertInn	merge:Expertin	cut-off of ExpertInnen; the base is Expertin, consistent with Vertreterin
+Seenland	drop	the examples are regional names (Fränkisches, Oberpfälzer Seenland) not on the place list
+VIA	merge:via	the preposition never follows an article, so the low name score is no evidence of a name
+CLUB	merge:Club	established loan, written only as "club"/"clubs"
+Fortan	merge:fortan	adverb capitalised at the start of a sentence
+Platt	keep	das Platt (Low German) is a noun in its own right; genitive "platts" confirms the noun
+Logs	drop	English IT plural, not established for learners
+KGaA	drop	specialist legal-form acronym, unlike the everyday GmbH
+WEITERLESEN	drop	template "read more" text with low diversity
+DECT	drop	technical acronym
+Eislaufen	keep	nominalised noun in its own right (das Eislaufen), like Essen
+AntifaschistInnen	merge:Antifaschistin	gendered plural; the base is Antifaschistin, consistent with KundInnen
+BMZ	drop	ministry acronym, not at the level of the named famous institutions; also has another meaning
+IT-Services	merge:IT-Service	plural of the German compound IT-Service, built on the established loan Service
+release	drop	lower-case and tagged ADJ with no examples, so mostly English text rather than the noun das Release
+Blau-Weiß	keep	nominalised colour compound ("in Blau-Weiß"), like das Blau
+Ries	drop	mostly a surname or the place Nördlinger Ries; the paper unit is too rare to matter
+BAD	merge:Bad	written only as "bad"; the common noun Bad, including the spa-town prefix
+Hofburg	drop	named Vienna palace, a place name not on the list
+Barbado	merge:Barbados	clipped citation of the country name; countries are learnable
+Kiewer	keep	city-derived adjective and inhabitant noun, a word distinct from Kiew
+# question BMZ: are federal ministries and their acronyms (BMZ, BMBF, BMF) nationally famous institutions to keep?
+# question Kiewer: are inhabitant/adjective forms of learnable cities (Kiewer, Berliner, Wiener) kept as words or merged into the city name?
+# question LOL: should chat interjection acronyms (lol, omg) be treated as abbreviations (drop) or as words used in German?
+# question SSL-Zertifikat: do hyphenated compounds whose first part is a specialist acronym (SSL-, HTML-, SEO-) follow the acronym rule (drop)?

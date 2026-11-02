@@ -1,0 +1,34 @@
+GLP	keep	Swiss national party in parliament; parties count as nationally famous institutions like CDU/SPD
+Ardenn	drop	clipped form of Ardennen, a region still in the batch, so not on the place list
+Bosnien-Herzegowina	drop	place name still in batch; rule says drop even though it is a country
+ARM	drop	written forms are case-folded, so this is all-caps ARM: chip brand/architecture, not the adjective arm
+Kali	drop	0% common-noun use; mostly names (goddess, Kali Linux); potash sense is rare
+Moldawien	drop	country but still in batch, so not on the place list; rule says drop
+eu	merge:EU	case-folded "eu" is mostly the acronym EU filed lower-case; euen/eue/euem forms are a small minority
+AntifaschistInn	merge:Antifaschistin	Binnen-I plural; merged to feminine singular, the form it inflects as (same treatment as KundInnen)
+COMPUTER	merge:Computer	all-caps filing of an established loan; merge to the correctly written lemma
+Klug	merge:klug	adjective filed under a capital; 15% adjective-like use, surname share is minor
+Nude	merge:nude	established fashion colour adjective ("nude"); capital is a case variant; nudes spam is negligible
+diplomieren	merge:diplomiert	almost all uses are the adjective diplomiert, which has its own dictionary entry; verb form written 2 times
+MitarbeiterInnen	merge:Mitarbeiterin	Binnen-I plural; merged to feminine singular, consistent with the other -Innen forms
+Bergisch	drop	uninflected bergisch (398) is mostly the town name Bergisch Gladbach / Bergisches Land, a minor place
+AktivistInnen	merge:Aktivistin	Binnen-I plural; merged to feminine singular, consistent with the other -Innen forms
+Add-Ons	merge:Add-on	plural filed as lemma; singular is the established loan Add-on
+Bastei	drop	examples are names (Bastei Lübbe publisher, Bastei rock); 0% common-noun use
+Nordstadt	drop	district name used in many cities (Dortmunder/Pforzheimer Nordstadt); districts drop
+PUR	drop	all-caps PUR, 1.4% common-noun use: the band PUR / PUR polyurethane, not the adjective
+IPO	drop	English finance acronym; German says Börsengang; only specialists use it
+VWL	drop	abbreviation (Volkswirtschaftslehre / vermögenswirksame Leistungen); abbreviations excluded for now
+Anfahr	merge:anfahren	cut-off lemma; text is the verb anfahren, also used as a nominalised infinitive
+KundInnen	merge:Kundin	Binnen-I plural; merged to feminine singular, consistent with Antifaschistin/Autorin
+BNP	drop	mostly BNP Paribas (bank brand); Bruttonationalprodukt use is rare
+DIW	keep	nationally cited research institute, comparable to KfW and NABU
+hannov	merge:Hannover	cut-off of Hannover, a well-known city and state capital, so a learnable place
+kuch	drop	fragment mixing Kuchen (327) and kuche/Küche without umlaut (92); merging would join two words
+FRAGEN	merge:Frage	all-caps headings ("Häufige FRAGEN", "Noch FRAGEN?"): plural noun, so merge to the singular
+TLS-Verschlüsselung	drop	compound built on a specialist technical acronym (TLS, like SSL)
+AutorInn	merge:Autorin	Binnen-I plural; merged to feminine singular, consistent with the other -Innen forms
+# question Bosnien-Herzegowina, Moldawien: both are sovereign countries left in the batch; should they be added to the learnable place list, as Mazedonien and Weißrussland were?
+# question KundInnen, MitarbeiterInnen, AktivistInnen, AntifaschistInn, AutorInn: Binnen-I / gender plurals mean both sexes. I merged them all to the feminine singular, the form they inflect as. Should they go to the masculine base (Kunde, Mitarbeiter) instead?
+# question GLP, DIW: does "nationally famous institution" cover Swiss and Austrian national parties, and research institutes that are often cited in the news?
+# question kuch: when a clipped lemma mixes two real words (Kuchen and Küche without umlaut), should it be dropped, or split between the two targets?

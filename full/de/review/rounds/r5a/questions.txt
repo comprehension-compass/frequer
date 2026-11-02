@@ -142,3 +142,11 @@
 # question ÖSTERREICH: Österreich is a country that should have been taken out of the batch; merged into the normal spelling.
 # question ÖSTERREICH: Österreich is presumably on the place list and would have been removed from the batch; I merged it into the proper-case lemma.
 # question Überling: the lemma is a clipped form of Überlingen; I dropped it because the town is not on the learnable list, so the merge target would also be dropped.
+# question BMZ: are federal ministries and their acronyms (BMZ, BMBF, BMF) nationally famous institutions to keep?
+# question Bosnien-Herzegowina, Moldawien: both are sovereign countries left in the batch; should they be added to the learnable place list, as Mazedonien and Weißrussland were?
+# question GLP, DIW: does "nationally famous institution" cover Swiss and Austrian national parties, and research institutes that are often cited in the news?
+# question Kiewer: are inhabitant/adjective forms of learnable cities (Kiewer, Berliner, Wiener) kept as words or merged into the city name?
+# question KundInnen, MitarbeiterInnen, AktivistInnen, AntifaschistInn, AutorInn: Binnen-I / gender plurals mean both sexes. I merged them all to the feminine singular, the form they inflect as. Should they go to the masculine base (Kunde, Mitarbeiter) instead?
+# question LOL: should chat interjection acronyms (lol, omg) be treated as abbreviations (drop) or as words used in German?
+# question SSL-Zertifikat: do hyphenated compounds whose first part is a specialist acronym (SSL-, HTML-, SEO-) follow the acronym rule (drop)?
+# question kuch: when a clipped lemma mixes two real words (Kuchen and Küche without umlaut), should it be dropped, or split between the two targets?
