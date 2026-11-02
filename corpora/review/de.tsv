@@ -48,7 +48,7 @@ AMG	drop	agreed: brand
 AMS	drop	agreed: organisation acronym
 AN	merge:an	agreed: preposition an
 AND	drop	agreed: English
-AOK	keep	agreed: famous national insurer
+AOK	keep	developer ruling 2026-11-02 (second set): nationally famous institution
 AOL	drop	agreed: company
 APA	drop	agreed: minor agency
 API	drop	agreed: technical acronym
@@ -168,7 +168,7 @@ Airport	drop	agreed: English
 Airways	drop	agreed: company
 Ajax	drop	agreed: club/technology name
 Aktivier	merge:aktivieren	agreed: clipped lemma
-AktivistInn	merge:Aktivistin	agreed: gender form
+AktivistInn	merge:Aktivist	developer ruling 2026-11-02 (second set): Binnen-I form merges into the base headword
 Aktualisier	merge:aktualisieren	agreed: clipped
 Akzeptier	merge:akzeptieren	agreed: clipped verb
 Al	drop	agreed: name
@@ -513,7 +513,7 @@ BKK	drop	agreed: organisation acronym
 BL	drop	agreed: abbrev
 BLACK	drop	agreed: English/name
 BM	drop	agreed: acronym
-BMBF	drop	adjudicated: ministry acronym only specialists use
+BMBF	drop	developer ruling 2026-11-02 (second set): ministry acronym, minor party or research institute
 BMEL	drop	agreed: minor ministry acronym
 BMF	drop	agreed: minor ministry acronym
 BMG	drop	agreed: brand/acronym
@@ -702,7 +702,7 @@ Bestens	merge:bestens	adjudicated: wrong-case citation of the adverb
 Bestrebunge	merge:Bestrebung	agreed: cut-off
 Bestätig	merge:bestätigen	agreed: clipped verb
 Bestätigungs-E-Mail	keep	r4 agreed: real compound
-BesucherInn	merge:Besucherin	agreed: gender form
+BesucherInn	merge:Besucher	developer ruling 2026-11-02 (second set): Binnen-I form merges into the base headword
 Besucherinn	merge:Besucherin	agreed: cut-off lemma
 Bet	drop	agreed: English
 Beta-Version	keep	agreed: established compound
@@ -1989,7 +1989,7 @@ FOCUS	drop	agreed: brand
 FOR	drop	agreed: English
 FORUM	merge:Forum	agreed: wrong case
 FPS	drop	agreed: technical acronym
-FPÖ	keep	agreed: national party
+FPÖ	keep	developer ruling 2026-11-02 (second set): nationally famous institution
 FRANKFURT	merge:Frankfurt	agreed: case variant of major city
 FRITZ	drop	agreed: name/brand
 FS	drop	agreed: acronym
@@ -3360,7 +3360,7 @@ Köpenick	drop	agreed: district
 Köpfch	merge:Köpfchen	agreed: clipped
 Körbche	merge:Körbchen	agreed: clipped
 Kühlbox	keep	agreed: real noun
-KünstlerInn	merge:Künstlerin	agreed: gender form
+KünstlerInn	merge:Künstler	developer ruling 2026-11-02 (second set): Binnen-I form merges into the base headword
 LA	drop	agreed: junk
 LAN	keep	agreed: everyday acronym like WLAN
 LB	drop	agreed: abbreviation
@@ -3374,7 +3374,7 @@ LED-Beleuchtung	keep	r4 agreed: real word
 LED-Lampe	keep	adjudicated: established compound
 LED-Leuchte	keep	r4 agreed: real compound
 LED-Licht	keep	r4 agreed: real compound
-LEGO	drop	agreed: brand
+LEGO	keep	developer ruling 2026-11-02 (second set): genericised brand used as a common noun
 LESEN	merge:lesen	agreed: case variant
 LF	drop	agreed: length 2 junk
 LG	drop	agreed: org abbreviation
@@ -3472,7 +3472,7 @@ Legacy	drop	agreed: English
 Legal	merge:legal	agreed: adjective legal
 Legend	drop	agreed: English
 Lehmann	drop	agreed: surname
-LehrerInnen	merge:Lehrerin	agreed: gendered form
+LehrerInnen	merge:Lehrer	developer ruling 2026-11-02 (second set): Binnen-I form merges into the base headword
 Leica	drop	agreed: brand
 Leichtathletik	keep	agreed: common noun
 Leipzig	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
@@ -3805,7 +3805,7 @@ Marl	drop	agreed: minor town
 Marlene	drop	agreed: name
 Marlies	drop	agreed: first name
 Marokko	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
-Mars	keep	agreed: planet
+Mars	keep	developer ruling 2026-11-02 (second set): planets are learnable
 Marseille	drop	agreed: foreign city not on list
 Marshall	drop	agreed: surname
 Marta	drop	agreed: first name
@@ -3902,7 +3902,7 @@ Merino	keep	agreed: common noun
 Merke	merge:merken	agreed: imperative form of merken
 Merkel	drop	agreed: person
 Merkliste	keep	agreed: real word
-Merkur	keep	agreed: planet/common noun
+Merkur	keep	developer ruling 2026-11-02 (second set): planets are learnable
 Merlot	keep	agreed: common noun
 Merseburg	drop	agreed: minor town
 Merten	drop	agreed: surname/brand
@@ -3943,7 +3943,7 @@ Microsoft	drop	agreed: brand
 Midi	drop	agreed: name or fashion tag, not a learner word
 Mietpreisbremse	keep	agreed: common noun
 Mietverhältniss	merge:Mietverhältnis	agreed: clipped
-MigrantInn	merge:Migrant	agreed: clipped gendered form
+MigrantInn	merge:Migrant	developer ruling 2026-11-02 (second set): Binnen-I form merges into the base headword
 Migrantinn	merge:Migrantin	agreed: clipped lemma
 Migro	drop	agreed: company
 Migräne	keep	agreed: common noun
@@ -4175,7 +4175,7 @@ Neopr	merge:Neopren	agreed: clipped lemma
 Nepal	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Nephi	drop	agreed: religious text name
 Nephit	drop	agreed: Book of Mormon people
-Neptun	keep	agreed: planet name
+Neptun	keep	developer ruling 2026-11-02 (second set): planets are learnable
 Nero	drop	agreed: person
 Neteller	drop	agreed: company
 Netflix	drop	agreed: brand
@@ -4679,7 +4679,7 @@ Plexiglas	keep	agreed: genericised common noun
 Plot	keep	agreed: established loan
 Plug-Ins	merge:Plug-in	adjudicated: plural of established loan
 Plug-in	keep	agreed: established loan
-Pluto	keep	agreed: planet, ordinary word
+Pluto	keep	developer ruling 2026-11-02 (second set): planets are learnable
 Pocket	drop	agreed: English
 Pod	drop	agreed: English/brand
 Pohl	drop	agreed: surname
@@ -5140,7 +5140,7 @@ SPD-Politiker	keep	adjudicated: ordinary compound with party acronym
 SPIEGEL	merge:Spiegel	agreed: uppercase variant of Spiegel
 SPORT	merge:Sport	agreed: wrong case
 SPS	drop	agreed: technical acronym
-SPÖ	keep	agreed: nationally famous party
+SPÖ	keep	developer ruling 2026-11-02 (second set): nationally famous institution
 SQL	drop	agreed: technical acronym
 SRF	keep	agreed: nationally famous Swiss broadcaster
 SRG	keep	agreed: national Swiss broadcaster
@@ -5162,7 +5162,7 @@ SUPER	merge:super	agreed: case
 SUV	keep	agreed: common noun
 SV	drop	agreed: club abbreviation
 SVG	drop	agreed: technical acronym
-SVP	keep	agreed: national party
+SVP	keep	developer ruling 2026-11-02 (second set): nationally famous institution
 SW	drop	agreed: abbreviation
 SWF-Datei	drop	r4 agreed: obsolete technical file format, low diversity
 SWR	keep	agreed: national broadcaster
@@ -5839,7 +5839,7 @@ Teddy	keep	agreed: common noun
 Teen	drop	agreed: English/spam
 Tegernsee	drop	agreed: place
 Teheran	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
-TeilnehmerInn	merge:Teilnehmerin	agreed: gender form
+TeilnehmerInn	merge:Teilnehmer	developer ruling 2026-11-02 (second set): Binnen-I form merges into the base headword
 TeilnehmerInne	merge:Teilnehmerin	agreed: cut-off
 Tel	drop	agreed: place fragment
 Tel Aviv	drop	agreed: multiword foreign city
@@ -8292,7 +8292,7 @@ zwölftausendfünfhundert	drop	number rule: lexicon.number_words.number_is_learn
 Äthiopien	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 ÖBB	keep	agreed: national railway
 ÖPNV	keep	agreed: everyday acronym
-ÖVP	keep	agreed: nationally famous party
+ÖVP	keep	developer ruling 2026-11-02 (second set): nationally famous institution
 Öko	keep	agreed: ordinary German word
 Öko-Tex	drop	r4 agreed: brand/label name
 Öle	merge:Öl	agreed: plural
@@ -8308,7 +8308,7 @@ zwölftausendfünfhundert	drop	number rule: lexicon.number_words.number_is_learn
 # round r5a (40k window, pending flagged, shard 1)
 Strasser	drop	surname
 Corona-Regel	keep	real German compound
-GLP	keep	Swiss national party in parliament; parties count as nationally famous institutions like CDU/SPD
+GLP	drop	developer ruling 2026-11-02 (second set): ministry acronym, minor party or research institute
 Maintenance	drop	English, not established in German
 Schwabing	drop	city district
 Triest	drop	foreign city not on the list
@@ -8327,7 +8327,7 @@ Shenzhen	drop	foreign city
 Spaces	drop	English, not established
 Winnenden	drop	small town
 Ausführer	keep	real German noun (exporter)
-Bosnien-Herzegowina	drop	place name still in batch; rule says drop even though it is a country
+Bosnien-Herzegowina	keep	developer ruling 2026-11-02 (second set): place added to the learnable list
 Dreams	drop	English title/name
 Elba	drop	island place name not on the list
 Frederick	drop	first name
@@ -8411,7 +8411,7 @@ Ex-Freundin	keep	real German compound
 Haan	drop	small town
 ICT	drop	technical acronym only specialists use
 Kästner	drop	surname of a person
-Moldawien	drop	country but still in batch, so not on the place list; rule says drop
+Moldawien	keep	developer ruling 2026-11-02 (second set): place added to the learnable list
 Nordhorn	drop	small town
 QS	drop	two-letter abbreviation/acronym, not a word
 Quedlinburg	drop	small town
@@ -8441,7 +8441,7 @@ Soltau	drop	town
 Start-Ups	merge:Start-Up	plural of Start-Up (was merge:Start-up: plural filed as lemma)
 eDarling	drop	brand, low diversity
 eu	merge:EU	case-folded "eu" is mostly the acronym EU filed lower-case; euen/eue/euem forms are a small minority
-AntifaschistInn	merge:Antifaschistin	Binnen-I plural; merged to feminine singular, the form it inflects as (same treatment as KundInnen)
+AntifaschistInn	merge:Antifaschist	developer ruling 2026-11-02 (second set): Binnen-I form merges into the base headword
 Augusta	drop	name
 Benson	drop	surname
 Bruckner	drop	composer/surname
@@ -8550,7 +8550,7 @@ EMRK	drop	treaty acronym only legal specialists use
 Gartenstuhl	keep	ordinary common noun, tagger mistook it for a name
 HBO	drop	company/brand name
 Köster	drop	surname
-MitarbeiterInnen	merge:Mitarbeiterin	Binnen-I plural; merged to feminine singular, consistent with the other -Innen forms
+MitarbeiterInnen	merge:Mitarbeiter	developer ruling 2026-11-02 (second set): Binnen-I form merges into the base headword
 Nazareth	drop	place name not on the learnable list
 Ramon	drop	first name
 Rhodan	drop	fictional character/surname
@@ -8583,7 +8583,7 @@ Wrestling	keep	established loan, common noun
 Zhang	drop	surname
 basic	drop	English word not established in German
 nicht-kommerziell	keep	real hyphenated adjective compound
-AktivistInnen	merge:Aktivistin	Binnen-I plural; merged to feminine singular, consistent with the other -Innen forms
+AktivistInnen	merge:Aktivist	developer ruling 2026-11-02 (second set): Binnen-I form merges into the base headword
 Baar	drop	town name
 Battery	drop	English word not established in German
 CF	drop	two-letter abbreviation/name
@@ -8749,7 +8749,7 @@ Cord	drop	name/foreign fragment
 Diem	drop	personal name
 Falkenberg	drop	place name not on list
 Handschuhfach	keep	common noun mistagged as a name
-KundInnen	merge:Kundin	Binnen-I plural; merged to feminine singular, consistent with Antifaschistin/Autorin
+KundInnen	merge:Kunde#Masc	developer ruling 2026-11-02 (second set): Binnen-I form merges into the base headword
 LSD	keep	ordinary acronym in German
 Laufband	keep	common noun
 Middleton	drop	surname
@@ -8808,7 +8808,7 @@ Transportier	merge:transportieren	cut-off verb
 US-Staat	keep	real hyphenated compound
 venezolanisch	keep	correct adjective lemma, only inflected forms occur in text
 DHBW	drop	regional university, minor organisation
-DIW	keep	nationally cited research institute, comparable to KfW and NABU
+DIW	drop	developer ruling 2026-11-02 (second set): ministry acronym, minor party or research institute
 Jojo	keep	common noun (Jojo-Effekt, toy)
 Joop	drop	person and brand name
 Kreuzling	drop	cut-off form of the town Kreuzlingen, not on the place list
@@ -8857,7 +8857,7 @@ Hellsehe	merge:Hellsehen	clipped noun, Hellsehen is the right lemma
 Jensen	drop	surname
 Moss	drop	surname
 NMM	drop	organisation acronym with low diversity
-Reykjavik	drop	foreign capital not among the added places
+Reykjavik	keep	developer ruling 2026-11-02 (second set): place added to the learnable list
 START	merge:Start	common noun filed under an upper-case lemma
 Sachstand	keep	ordinary German noun wrongly tagged as a name
 Sue	drop	first name
@@ -8906,7 +8906,7 @@ Support-Team	keep	established loan compound
 card	drop	English word
 entry	drop	English word
 had	drop	English word
-AutorInn	merge:Autorin	Binnen-I plural; merged to feminine singular, consistent with the other -Innen forms
+AutorInn	merge:Autor	developer ruling 2026-11-02 (second set): Binnen-I form merges into the base headword
 Blankenburg	drop	town name
 Clio	drop	car brand
 Falkensee	drop	small town
@@ -9042,7 +9042,7 @@ Television	drop	English word, and also a company name
 ThinkPad	drop	product brand
 Untersuchungs-Bahn	drop	splitter junk from a clipped compound
 Vehicle	drop	English word not established in German
-VertreterInn	merge:Vertreterin	cut-off of the gendered plural VertreterInnen; the base is Vertreterin
+VertreterInn	merge:Vertreter	developer ruling 2026-11-02 (second set): Binnen-I form merges into the base headword
 Weiters	merge:weiters	adverb filed under a capitalised lemma
 Yasmin	drop	first name
 anzuwendend	merge:anwenden	inflected gerundive filed as a lemma
@@ -9152,7 +9152,7 @@ TUN	merge:tun	the verb "tun" filed under a capitalised lemma
 Anselm	drop	first name or surname
 Capitol	drop	building/place name
 Chiang	drop	name
-ExpertInn	merge:Expertin	cut-off of ExpertInnen; the base is Expertin, consistent with Vertreterin
+ExpertInn	merge:Experte	developer ruling 2026-11-02 (second set): Binnen-I form merges into the base headword
 Haug	drop	surname
 KGV	drop	minor organisation or specialist abbreviation
 Line-Up	keep	established loan, real compound
@@ -9345,8 +9345,8 @@ call	drop	English word, not established
 schwarz-rot	keep	real German compound adjective
 sechsmonatig	keep	real adjective, lemma form is correct
 Abklingzeit	keep	real German compound
-AntifaschistInnen	merge:Antifaschistin	gendered plural; the base is Antifaschistin, consistent with KundInnen
-BMZ	drop	ministry acronym, not at the level of the named famous institutions; also has another meaning
+AntifaschistInnen	merge:Antifaschist	developer ruling 2026-11-02 (second set): Binnen-I form merges into the base headword
+BMZ	drop	developer ruling 2026-11-02 (second set): ministry acronym, minor party or research institute
 Berta	drop	first name
 Elephant	drop	English spelling, mostly in a proper name
 Geodat	merge:Geodaten	cut-off citation of Geodaten
@@ -9759,7 +9759,7 @@ Metropolitan	drop	English name element, not established German
 Morrison	drop	surname
 Nebenfach	keep	common noun mis-tagged as name
 Olympics	drop	English name, not established
-Pjöngjang	drop	foreign city not on the reviewed list (Korea added, not its capital)
+Pjöngjang	keep	developer ruling 2026-11-02 (second set): place added to the learnable list
 Rams	drop	name/English junk
 Shoes	drop	English word, brand/shop text
 Steglitz	drop	Berlin district
@@ -9817,7 +9817,7 @@ Alert	drop	English word or name
 Bennett	drop	surname
 Chiara	drop	first name
 DaWanda	drop	company/brand
-Destatis	keep	Federal Statistical Office, widely cited by name in news (like KfW)
+Destatis	keep	developer ruling 2026-11-02 (second set): nationally famous institution
 DiCaprio	drop	person
 Down-Syndrom	keep	real hyphenated compound
 Eduardo	drop	first name
@@ -9879,7 +9879,7 @@ Agatha	drop	first name
 Alphakanal	keep	real compound (image editing)
 Beanie	keep	established loan for a cap
 Corsair	drop	brand
-DAK	keep	nationwide health insurer, a nationally known body referred to by name
+DAK	keep	developer ruling 2026-11-02 (second set): nationally famous institution
 Eintret	merge:eintreten	cut-off verb
 Fenix	drop	hotel and brand name
 Flash-Speicher	keep	real compound
@@ -10231,7 +10231,7 @@ Pebble	drop	brand
 Plettenberg	drop	town
 Presenter	drop	English word not established
 Professorinn	merge:Professorin	cut-off lemma, the word is Professorin
-San Marino	drop	place name still in batch, so not on the reviewed list
+San Marino	keep	developer ruling 2026-11-02 (second set): place added to the learnable list
 electronic	drop	English word, from a company name
 Battlefront	drop	game title
 BfR	drop	specialist federal institute, not nationally famous
@@ -10545,7 +10545,7 @@ Rosetta	drop	name/place
 SRH	drop	minor organisation acronym
 Sahin	drop	surname
 Steinheim	drop	minor town
-Themse	drop	place name not on the reviewed list
+Themse	keep	developer ruling 2026-11-02 (second set): place added to the learnable list
 YOUR	drop	English word, not established
 Abarth	drop	brand
 Alias	keep	ordinary word used in German
@@ -10719,9 +10719,9 @@ Verwechslunge	merge:Verwechslung	cut-off lemma; written as the plural Verwechslu
 Amos	drop	personal name
 BAuA	drop	minor federal agency acronym
 BESCHREIBUNG	merge:Beschreibung	common noun filed in capitals
-BMAS	drop	ministry acronym, not a nationally famous institution
+BMAS	drop	developer ruling 2026-11-02 (second set): ministry acronym, minor party or research institute
 Barfuß	merge:barfuß	adjective/adverb filed under a capitalised lemma
-Brasil	drop	place name not on the reviewed list; examples are company names (NürnbergMesse Brasil)
+Brasil	merge:Brasilien	developer ruling 2026-11-02 (second set): variant spelling of a listed place
 Corpus	drop	Latin phrase fragments and names, not a German lemma
 DSM	drop	technical acronym
 Edathy	drop	person's surname
@@ -10771,7 +10771,7 @@ Netzteile	merge:Netzteil	noun filed under its plural
 Online-Beratung	keep	real German compound
 Online-Kauf	keep	real German compound
 Onyx	keep	common noun (mineral)
-PETA	keep	organisation widely referred to by name in Germany, comparable to Greenpeace and NABU
+PETA	keep	developer ruling 2026-11-02 (second set): nationally famous institution
 Plain	drop	English word, not established in German
 Produktempfehlunge	merge:Produktempfehlung	cut-off lemma
 Ranze	merge:Ranzen	cut-off lemma
@@ -10781,7 +10781,7 @@ Tiramisu	keep	common noun (dessert)
 Ufo	keep	common noun
 Unterschleißheim	drop	town not on the places list
 VISION	merge:Vision	common noun filed in capitals
-Zimbabwe	drop	place name still in the batch, so not on the reviewed places list; places rule applies, not merge
+Zimbabwe	merge:Simbabwe	developer ruling 2026-11-02 (second set): variant spelling of a listed place
 add	drop	English word, not established in German
 nordhessisch	keep	real adjective, flagged only because it appears inflected
 togeth	drop	cut-off English word
@@ -10854,7 +10854,7 @@ Sellin	drop	small place name
 Stranger	drop	English, title fragment
 Stripe	drop	brand
 UNESCO-Welterbe	keep	real German compound
-VAE	drop	place acronym (Vereinigte Arabische Emirate) not on the reviewed list; only USA and EU are exempted
+VAE	keep	developer ruling 2026-11-02 (second set): place added to the learnable list
 Veneer	keep	established dental loanword (was drop: English dental term, not established)
 Wiggle	drop	brand
 Wikipedia-Artikel	keep	real compound
@@ -10988,7 +10988,7 @@ Erfassen	merge:erfassen	verb filed under capitalised lemma
 Roadster	keep	established loan
 typ	merge:Typ	lower-case noun
 Zügel	keep	noun, plural-like but a normal lemma
-Kärcher	drop	brand name; most examples are the product brand
+Kärcher	keep	developer ruling 2026-11-02 (second set): genericised brand used as a common noun
 Ostseeküste	drop	geographic place name not on list
 Wendland	drop	place name
 bedrücken	keep	real verb
@@ -11425,7 +11425,7 @@ weils	merge:weil	colloquial contraction weil's written without its apostrophe
 Füttern	merge:füttern	capitalised verb form
 Woods	drop	English surname
 Charakteristisch	merge:charakteristisch	adjective filed under a capital letter
-Eiffelturm	keep	famous landmark with a German name, treated like a famous institution
+Eiffelturm	keep	developer ruling 2026-11-02 (second set): famous landmark with a German name
 Energetische	merge:energetisch	capitalised inflected adjective
 ind	drop	fragment
 optionen	merge:Option	plural filed as lemma
@@ -12192,7 +12192,7 @@ bedienend	merge:bedienen	participle in "zu bedienend", no entry of its own
 häßlich	merge:hässlich	old spelling
 mei	drop	dialect interjection or garbled form of mein
 Marg	merge:Marge	cut-off form; Margen is the plural of Marge
-Neger	drop	offensive slur, not suitable as a study item for learners
+Neger	drop	developer ruling 2026-11-02 (second set): slur/offensive word
 filme	merge:Film	lower-case plural noun
 fördernd	merge:fördern	present participle, no separate adjective entry
 hülsen	merge:Hülse	lower-case noun, mostly the singular form
@@ -13043,7 +13043,7 @@ konstante	merge:konstant	inflected adjective form
 projekt	merge:Projekt	lower-case noun
 ve	drop	garbled fragment
 Adsense	drop	brand name
-BfArM	drop	specialist agency acronym
+BfArM	drop	developer ruling 2026-11-02 (second set): ministry acronym, minor party or research institute
 Dunlop	drop	brand name
 Memphis	drop	place name not on list
 SI	drop	abbreviation
@@ -13113,7 +13113,7 @@ Deutschlandweit	merge:deutschlandweit	adjective filed under a capital
 Diepholz	drop	place name
 Eschweg	drop	place name (Eschwege)
 Ryder	drop	surname
-Segway	keep	genericised loan noun with own plural (Segway fahren)
+Segway	keep	developer ruling 2026-11-02 (second set): genericised brand used as a common noun
 Staud	merge:Staude	cut-off plural of Staude
 Utrecht	drop	place name not on list
 adresse	merge:Adresse	lower-case noun
@@ -13364,7 +13364,7 @@ Jahresabo	keep	Established compound noun with its own meaning.
 KR	drop	Abbreviation or code.
 Nationalelf	keep	Common noun for the national team.
 Russin	keep	Feminine noun with its own entry.
-Uranus	drop	Proper name (planet), not a learnable common noun.
+Uranus	keep	developer ruling 2026-11-02 (second set): planets are learnable
 Vs	merge:versus	abbreviation of the listed word "versus"
 Xylit	keep	Real noun, not an acronym.
 beschieden	merge:bescheiden	Participle of the verb bescheiden (to grant), not an adjective entry.
@@ -13764,7 +13764,7 @@ bbw	drop	spam abbreviation
 ergebnis	merge:Ergebnis	lower-case noun
 papier	merge:Papier	lower-case noun
 sc	drop	abbreviation/code
-Barmer	drop	company name
+Barmer	keep	developer ruling 2026-11-02 (second set): nationally famous institution
 Coinbase	drop	brand name
 Finsterwalde	drop	place name not on list
 Headhunter	keep	established loan
@@ -14165,7 +14165,7 @@ Problemlos	merge:problemlos	adjective filed under a capitalised lemma
 Statist	keep	ordinary noun, singular lemma
 Supercup	keep	German compound noun in general use
 Uncategorized	drop	English template text
-Unimog	drop	brand name
+Unimog	drop	developer ruling 2026-11-02 (second set): brand, not a common noun
 deal	merge:Deal	lower-case noun, mixed with dealer
 moderne	merge:modern	inflected adjective form
 ohr	merge:Ohr	lower-case noun
@@ -14204,7 +14204,7 @@ AMC	drop	company abbreviation
 Fuldaer	drop	adjective derived from a place name not on the list
 Hauptverwaltung	keep	ordinary compound noun
 Hinten	merge:hinten	adverb filed under a capital
-Kolosseum	keep	famous landmark with an adapted German spelling
+Kolosseum	keep	developer ruling 2026-11-02 (second set): famous landmark with a German name
 Mandarin	keep	ordinary word (language, fruit)
 Teuer	merge:teuer	adjective filed under a capital
 Trentino	drop	place name not on list
@@ -14555,7 +14555,7 @@ april	merge:April	Lower-case noun
 stars	merge:Star	English plural, adapted loan Star
 zielgerichteten	merge:zielgerichtet	inflected adjective form
 Atla	merge:Atlas	cut-off of Atlas
-Maggi	drop	brand name
+Maggi	drop	developer ruling 2026-11-02 (second set): brand, not a common noun
 Maritime	merge:maritim	capitalised inflected adjective
 Orginal	merge:Original	misspelling
 Paragon	drop	English word or product name
@@ -14567,7 +14567,7 @@ Ehrenfeld	drop	place name
 Empfehl	merge:empfehlen	truncated verb stem
 HI	drop	abbreviation or code
 Hartung	drop	surname
-Hockenheimring	drop	place or facility name not on list
+Hockenheimring	drop	developer ruling 2026-11-02 (second set): landmark not kept
 Malibu	drop	place name or brand
 Parallel	merge:parallel	"Parallel" is the adjective's spelling, capitalised (paralleles); the noun's lemma would be Parallele; brand "Parallels" is noise
 Pfr	merge:Pfarrer	abbreviation of a listed word
@@ -14632,8 +14632,8 @@ Chiptuning	keep	established loan noun
 Greiner	drop	surname of a person
 Hebräer	keep	noun in its own right (the people, and the biblical book)
 # round r6a (screener suspects, shard 3)
-einem	keep	lemmatiser files article forms as own lemmas (eine is kept the same way), so this is convention, not a broken lemma
-eines	keep	same as einem; one example is also the pronoun use (über eines nachgedacht)
+einem	keep	developer ruling 2026-11-02 (second set): own lemma, like ein/eine
+eines	keep	developer ruling 2026-11-02 (second set): own lemma, like ein/eine
 folgen	keep	valid verb infinitive; forms folgt, folgte, folgen belong to it
 B	drop	single letter, from the abbreviation z. B.
 fünfundzwanzig	keep	real number word
@@ -14761,7 +14761,7 @@ SG	drop	abbreviation/code
 gestellt	merge:stellen	participle filed as lemma
 Andere	merge:andere	capitalised adjective form
 behindern	keep	valid verb infinitive, a real dictionary form
-LKW	keep	common established abbreviation, like Pkw
+LKW	keep	developer ruling 2026-11-02 (second set): abbreviation used as a word
 Mögliche	merge:möglich	capitalised adjective
 Wissenswerte	keep	nominalised adjective, a noun in its own right (Wissenswertes)
 verdecken	keep	valid verb infinitive
@@ -14847,7 +14847,7 @@ benannt	merge:benennen	participle, not an adjective in its own right
 gebucht	merge:buchen	participle, not an adjective in its own right
 seite	merge:Seite	lower-case noun
 paaren	keep	correct verb dictionary form, only the POS tag is wrong
-PR	keep	lexicalised abbreviation in general use (PR-Abteilung); not specialist
+PR	keep	developer ruling 2026-11-02 (second set): abbreviation used as a word
 Fit	merge:fit	capitalised adjective
 Sichere	merge:sicher	capitalised inflected adjective
 ZU	merge:zu	garbled capitalisation of the preposition
@@ -14862,7 +14862,7 @@ Beliebe	merge:Belieben	cut-off fragment of "nach Belieben"
 jeher	keep	fixed adverb (seit/von jeher)
 Schwarze	merge:schwarz	inflected nominalised adjective
 Gerichte	merge:Gericht	plural filed as lemma
-OP	keep	lexicalised everyday abbreviation (im OP); ambiguous between Operation and Operationssaal, so no single merge target
+OP	keep	developer ruling 2026-11-02 (second set): abbreviation used as a word
 iM	merge:im	miscapitalised form
 IG	drop	specialist abbreviation
 KMU	drop	specialist acronym
@@ -14890,7 +14890,7 @@ Berner	drop	place-derived adjective, not on list
 Oscar	keep	established award noun (einen Oscar gewinnen; oscars 621); name tokens in sample are incidental
 Awards	merge:Award	English plural filed as lemma
 dato	keep	fixed adverbial bis dato, common and learnable
-BH	keep	everyday abbreviation spoken as a word
+BH	keep	developer ruling 2026-11-02 (second set): abbreviation used as a word
 pdf	drop	specialist acronym
 Universal	merge:universal	adjective filed as capitalised noun
 Y	drop	single letter
@@ -14908,7 +14908,7 @@ zugeschnitten	merge:zuschneiden	participle form
 Firmware	keep	established loan
 Türke	keep	nationality noun with own entry
 wenns	merge:wenn	contraction of wenn es
-Lkw	keep	everyday abbreviation spoken as a word; the standard word for a truck
+Lkw	keep	developer ruling 2026-11-02 (second set): abbreviation used as a word
 Passende	merge:passend	capitalised adjective form
 Yorker	drop	place-derived adjective, not on list
 Monitoring	keep	established loan
@@ -15154,7 +15154,7 @@ Petrus	drop	Personal name.
 Komplett	merge:komplett	Capitalised adverb/adjective.
 Buddha	keep	Common noun too (Buddha statue); lemma is fine
 NSU	drop	Acronym of an organisation/brand, no example
-WG	keep	Established everyday word, used and spoken as a word in its own right (like Kita)
+WG	keep	developer ruling 2026-11-02 (second set): abbreviation used as a word
 Commerzbank	keep	Famous institution
 gr	merge:groß	Encoding loss: grer/gres/gren are größer/größes/größen with ö/ß dropped, so gr is groß
 irgendeiner	merge:irgendein	Inflected form of irgendein
@@ -15195,7 +15195,7 @@ wünsch	merge:wünschen	Imperative/stem of wünschen
 mitgelieferten	merge:mitliefern	inflected participle, not an adjective entry of its own
 Prim	drop	Mostly English "prime" with no examples and no clear German target
 renommierte	merge:renommiert	inflected form of the adjective renommiert
-Saturn	keep	planet name, standard learner vocabulary
+Saturn	keep	developer ruling 2026-11-02 (second set): planets are learnable
 Weimarer	drop	adjective derived from a place name
 lust	merge:Lust	lower-case noun
 Leonardo	drop	personal name
@@ -15228,7 +15228,7 @@ Schlimmste	keep	nominalised superlative, as in das Schlimmste
 angewandt	keep	adjective with its own entry
 Frames	merge:Frame	English plural of an adapted loan
 Genfer	drop	adjective derived from a place name
-Venus	keep	planet name, standard learner vocabulary
+Venus	keep	developer ruling 2026-11-02 (second set): planets are learnable
 Kolbe	merge:Kolben	surname-looking form of the noun Kolben
 Strick	keep	noun Strick (rope)
 verdächtigen	keep	real verb lemma
@@ -15431,7 +15431,7 @@ Gera	drop	place name not on the list
 Adria	drop	place name not on the list
 Hl	drop	ambiguous abbreviation (heilig or Hektoliter)
 Niederland	merge:Niederländer	Cut-off lemma; forms and examples are the noun Niederländer
-Jupiter	drop	Proper name (planet/god); "other names drop"
+Jupiter	keep	developer ruling 2026-11-02 (second set): planets are learnable
 pornos	merge:Porno	plural filed as lemma
 gings	merge:gehen	colloquial contraction of "ging's"
 ambitionierte	merge:ambitioniert	inflected adjective form
@@ -15635,7 +15635,7 @@ geschenk	merge:Geschenk	lower-case noun
 KM	merge:Kilometer	abbreviation of a listed word
 Lecker	merge:lecker	capitalised adjective
 Ethereum	drop	brand/product name
-TK	drop	specialist acronym
+TK	keep	developer ruling 2026-11-02 (second set): nationally famous institution
 bescheid	merge:Bescheid	lower-case noun
 od	merge:oder	abbreviation of a listed word
 Toke	merge:Token	cut-off of the loan Token
@@ -15808,7 +15808,7 @@ Ausrede	keep	lemma is already the correct singular
 fu	merge:für	fragment of fuer/für
 SR	drop	abbreviation
 gedacht	keep	adjective with its own entry (gedacht = intended/imagined, "als Nutzfahrzeug gedachte"); the other examples are gedenken preterite
-Lego	keep	established brand loan
+Lego	keep	developer ruling 2026-11-02 (second set): genericised brand used as a common noun
 Moskauer	drop	place-derived name
 ide	merge:Idee	fragment of Idee
 Inwieweit	merge:inwieweit	capitalised adverb
@@ -16195,7 +16195,7 @@ Swinger	keep	established loan noun
 farben	merge:Farbe	plural noun filed as a verb
 nimm	merge:nimmer	all forms and examples are the adverb nimmer; the lemma label is broken, not the target
 teilnahmen	merge:teilnehmen	conjugated past form
-zigeunern	drop	examples are spam with the word inserted at random, so no evidence of genuine use
+zigeunern	drop	developer ruling 2026-11-02 (second set): slur/offensive word
 praxisnahe	merge:praxisnah	inflected adjective
 Intelligent	merge:intelligent	adjective under a capitalised lemma
 Mt	drop	abbreviation
@@ -16203,7 +16203,7 @@ Rider	drop	English word, not an established loan
 Treibhausgase	merge:Treibhausgas	plural filed as lemma
 fach	drop	adjective-inflected fragments of the -fach suffix (mehrfache, vielfacher); not the noun Fach and no single obvious target
 interesse	merge:Interesse	noun under a lower-case lemma
-Jakobsweg	drop	named pilgrim route, treated as a place name not on the reviewed list
+Jakobsweg	keep	developer ruling 2026-11-02 (second set): famous landmark with a German name
 Geschenkgutscheine	merge:Geschenkgutschein	plural filed as lemma
 Pflegebedürftige	keep	nominalised adjective, a noun in its own right
 UTC	drop	specialist acronym
@@ -16555,7 +16555,7 @@ Funke	keep	Funke is a real noun, the singular of Funken, not a plural of Funk
 Mais	keep	Mais (maize) is a noun in its own right, not a form of Mai
 hellen	merge:hell	inflected forms of the adjective hell filed under a lower-case non-lemma
 Potenziale	merge:Potenzial	plural filed as a lemma
-kWh	keep	correctly written unit symbol; units are release entries; the lower-case kwh should merge here
+kWh	drop	developer ruling 2026-11-02 (second set): unit symbol
 Reiche	keep	der/die Reiche (die Reichen) is a nominalised adjective and a learnable noun; only 139 reiches point to Reich
 Planer	keep	agent noun with its own entry
 Starter	keep	agent noun with its own entry
@@ -16689,7 +16689,7 @@ Achja	merge:achja	capitalised interjection, lower-case lemma is on the list
 Graben	keep	real noun (ditch), not a plural of Grab
 Farmer	keep	person noun with its own entry
 Nahezu	merge:nahezu	capitalised adverb
-kHz	keep	correctly written unit symbol; units are release entries; KHz should merge here
+kHz	drop	developer ruling 2026-11-02 (second set): unit symbol
 ibiza	merge:Ibiza	lower-case place name, Ibiza is on the list
 Wahlweise	merge:wahlweise	capitalised adverb
 Rote	merge:rot	inflected adjective forms (roten, rote)
@@ -16789,7 +16789,7 @@ chance	merge:Chance	lower-case noun
 Klon	keep	real noun; not a plural of Klo
 Kreuzer	keep	real noun (cruiser, coin), not a plural of Kreuz
 Passe	merge:passen	all forms are written passen, so it is the verb filed as a noun
-BMWi	drop	specialist acronym of a ministry
+BMWi	drop	developer ruling 2026-11-02 (second set): ministry acronym, minor party or research institute
 sp	drop	lower-case abbreviation fragment
 Städtereisen	merge:Städtereise	plural filed as lemma
 Umweltschützer	keep	person noun with its own entry
@@ -17144,3 +17144,10 @@ Circa	merge:circa	adverb filed in capitals
 Glätten	merge:glätten	nominalised infinitive, not a noun in its own right
 Hochdeutsche	merge:hochdeutsch	inflected adjective (der Hochdeutschen Mundart), not the noun Hochdeutsch
 umkleiden	keep	correctly written verb (sich umkleiden) that a learner meets; the misfiled Umkleide tokens belong under Umkleide
+BMWI	drop	developer ruling 2026-11-02 (second set): ministry acronym, minor party or research institute
+Tempo	keep	developer ruling 2026-11-02 (second set): genericised brand used as a common noun
+Kita	keep	developer ruling 2026-11-02 (second set): abbreviation used as a word
+KHz	drop	developer ruling 2026-11-02 (second set): unit symbol
+kwh	drop	developer ruling 2026-11-02 (second set): unit symbol
+einer	keep	developer ruling 2026-11-02 (second set): own lemma, like ein/eine
+einen	keep	developer ruling 2026-11-02 (second set): own lemma, like ein/eine

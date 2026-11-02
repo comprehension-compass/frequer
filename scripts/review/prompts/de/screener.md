@@ -14,7 +14,9 @@ Below are lemmas (lemma, POS tag, how it is written in text). Most are fine. Lis
   (a place name is a suspect so that it is routed to the place-name list);
 - abbreviations (zB, Hbf, cm, Kfz: excluded for now), codes, spam, template or garbled text.
 Do NOT list ordinary words, established loans, nationally famous institutions (Bundestag, ARD, Deutsche Bahn),
-acronyms used as words (EU, USA, GmbH, PDF), interjections or grammatical words.
+acronyms and abbreviations used as words (EU, USA, GmbH, PDF, WG, Kita, Lkw), demonyms of listed places (Berliner,
+Münchner), planets, interjections or grammatical words (including einem, eines, einer, einen, which are their own
+lemmas). DO list colloquial contractions (ner, gabs, aufm), Binnen-I forms (KundInnen) and Swiss ss spellings (Gruss).
 
 Answer with one suspect per line: `<lemma>\t<short reason>`, the lemma copied exactly. If there are none, answer
 `none`. Nothing else.
