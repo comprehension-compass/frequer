@@ -1,0 +1,132 @@
+# question acollador: a real nautical word, but the examples are product spam where it mistranslates "lanyard"; dropped on that basis
+# question ajar: forms are mostly "Aja"/"aja" (about 205 of 382), probably a name or interjection, while ajado/ajada are the real verb; kept for the verb reading
+# question ajar: the examples are mostly the interjection or name "Aja"; it is kept for the real verb ajar (ajado)
+# question akáshico: real derived adjective but esoteric; dropped as not useful to a learner
+# question all-star: English hyphenated term, but it might count as an established loan in sports contexts
+# question all-star: mostly English event and team names, but all-star is also used as a sports loan; dropped because the examples are proper names
+# question altcoin: established loan or crypto-specialist jargon?
+# question amadísimo: same superlative issue; merged to amado
+# question antidesgaste: not in dictionaries, but it is a regular prefixed compound; kept
+# question antidesgaste: transparent anti- compound that is common in industrial Spanish; dropped as not a dictionary word
+# question arrobar: most forms are the noun arroba, so the lemma may belong to arroba; I kept it because arrobar is a real verb.
+# question bizona: no examples were available, so I could not check the reading
+# question bocinar: forms are mostly the noun bocina; kept because bocinar is a real verb
+# question brea: the forms mix brea (tar), the name Brea and English "bread"; I merged to brea as the only clear Spanish word
+# question carport: a regional loan, borderline for a learner's list; I kept it
+# question carport: loan may be established enough in Spanish real-estate text to keep
+# question catolica: the feminine católica or the masculine católico as the lemma; chose católico
+# question changar: mixed English "change" and Spanish chango/changa, so the real-word reading is unclear
+# question changar: mixed English "change", Spanish "chango" (monkey), and "changa"; no single obvious lemma, so dropped
+# question chinchar: the verb exists, but the examples are the noun chinche; merged to the noun
+# question choro: real Chilean noun but many examples are names; kept
+# question clorella: kept as the form people write, though the academy form may be clorela.
+# question coffeeshops: unclear whether coffeeshop is established enough in Spanish to keep; I merged on the assumption that it is
+# question completísima: superlative merged to completo on the reading that it is an inflected form, though it could be read as a derived word
+# question contendor: contendor is a real Spanish word, but the examples are typos of contenedor; I merged on the evidence of the examples.
+# question contendor: contendor is also a valid Spanish word (contender), but the examples are mostly misspellings of contenedor
+# question contenidor: the counted forms are mostly contenidos (contenido), but the lemma looks like Catalan or a misspelt contenedor.
+# question coñito: I kept it as a real word and did not merge it into coño, because the diminutive is not clearly a broken lemma
+# question crumble: some occurrences are a company name, but the food sense seems the majority
+# question customizado: could be an English-derived adaptation of customizar (merge:customizar); judged nonstandard and dropped
+# question customizado: could merge into personalizado, but that is a synonym rather than a spelling variant; dropped.
+# question customizados: customizar is an anglicism; the rules don't say whether to merge or drop it.
+# question córneo: córneo is a real adjective (horny), but the forms are overwhelmingly the noun córnea, so merged
+# question córneo: córneo is a real adjective, but nearly all examples are the noun córnea, so I merged
+# question daimyo: historical Japanese loan, unclear whether established enough in Spanish; dropped
+# question dashboards: merged to dashboard, though dashboard itself may not count as an established loan.
+# question dashboards: unclear whether the English loan dashboard is established enough to keep, so I merged it to the singular
+# question datasets: "dataset" is a technical loan that may not be established enough; merged because the plural is filed as a lemma.
+# question datasets: unclear whether dataset is established enough as a loan; merged on the assumption that it is
+# question dronabinol: generic drug name, treated as specialist vocabulary
+# question encoders: could instead merge into encoder if the technical loan counts as established
+# question encoders: encoder is a technical loan and may not be wanted at all; I merged it to the singular.
+# question encontro: Portuguese "Encontro(s)" is a minority of the examples; merged on the Spanish reading
+# question encontro: could be a missing-accent "encontró" or a Portuguese noun, so the lemma is unclear
+# question espectroscopio: a real word, but the examples are mostly espectroscopia; merged since the lemma looks conflated
+# question espectroscopio: most forms are espectroscopia, a separate real word; kept without merging, but the lemma may be mismatched.
+# question fluconazol: generic drug names (also oxicodona, lisinopril, salmeterol) are not covered by the rules; kept as ordinary Spanish medical nouns, but they could count as specialist vocabulary.
+# question fluconazol: rules don't say whether generic drug names count as specialist vocabulary; dropped all drug names (fluconazol, oxicodona, lisinopril, salmeterol)
+# question fluoxetina: drug name kept as widely known, unlike trastuzumab and bevacizumab; the rules don't say where everyday drug names stop
+# question fluoxetina: no rule covers generic drug names; it is kept as a household medicine, unlike the INN biologics
+# question foul: attested mostly in baseball text, so it may be too narrow for a general learner's list
+# question gazebo: it may count as a foreign word not yet established
+# question geocaching: English hobby term that may be a brand; I kept it as an established loan
+# question guar: could be the real word guar (gum or plant) but no examples to check
+# question haggis: well-known dish, but not established in Spanish; dropped
+# question hutí: Spanish news uses it regularly, but it is a group name, so dropped under the proper-noun rule
+# question hutí: ethnonym or group name versus an established common word in Spanish news; kept
+# question imipramina: a specialist drug name, but a genuine Spanish word with a Spanish spelling
+# question imipramina: a specialist drug name; kept as a real Spanish word, but it may count as too technical.
+# question interesar: tagged ADJ and the forms are mostly the participle interesado, but the verb lemma is real, so kept rather than merged
+# question jebuseo: biblical gentilic of an ancient people. Gentilics like yemení are kept, but this one is almost only Bible text and of little use to a learner.
+# question jebuseo: lowercase gentilic of an ancient people (like cananeo), not a place, so rules on names versus real words don't clearly settle it
+# question linebacker: established sports loan or specialist English term? Dropped as not established.
+# question linebacker: sports loan might be established in Spanish sports press; judged not established enough for learners
+# question loque: "loque" is also a real Spanish noun (a bee disease), but the PRON tag suggests most uses are "lo que" misspelt, and there are no examples to check; "lo que" as a merge target is a multiword phrase, not a clean lemma.
+# question loque: "loque" is also a real word (a bee disease, "loque americana"), but the screener's note suggests the examples are mostly "lo que" typos, and no examples were available to check.
+# question morphing: borderline between an established loan and a specialist term
+# question morphing: unclear whether it is established in Spanish or just a software term.
+# question multicloud: it is used in Spanish IT writing, so it might count as an established loan, but I judged it a specialist term.
+# question murta: most examples are place names, but murta is a real Spanish plant word, so kept per the common-word rule
+# question nivolumab: drug name kept like zidovudina would be consistent, but it is an INN used only by specialists
+# question nivolumab: unadapted INN drug name; dropped as specialist, though zidovudina was kept as it is Spanish-adapted
+# question numerosísimo: the rules cover plurals and conjugated forms but not superlatives; merged to the base adjective numeroso, though keeping it is arguable.
+# question okra: not in the academy dictionary (quimbombó is the usual word), but used as a plain Spanish noun in the examples; kept
+# question omnichannel: could be kept as an English marketing loan like marketing, but omnicanal is the Spanish form
+# question omnichannel: merged to omnicanal on the assumption that omnicanal is the Spanish form; it could instead be kept as an established marketing loan.
+# question orisha: established in Spanish religious and cultural writing, but niche; kept
+# question orisha: religious term used in Spanish but borderline for being an established loan
+# question oxandrolone: English spelling merged into oxandrolona, but a drug name only specialists use could also be dropped
+# question oxandrolone: this is an English spelling of a drug name; I merged it into oxandrolona, but it could also be dropped as specialist vocabulary.
+# question palear: most occurrences are "paleo" (diet), a clipped prefix form, but I kept the real verb palear
+# question palear: paleo (diet) is the majority of the examples while the lemma is the verb palear
+# question peplum: Latin/English-origin fashion term; kept as established in Spanish fashion usage
+# question peplum: fashion term used in Spanish retail text, but also a Latin or French film-genre word; unclear whether established enough
+# question perizita: could count as a proper name (ancient people) and drop
+# question pitar: forms are mostly the nouns pita/pito, but the verb is real; kept as the verb rather than merging
+# question playita: Las Playitas is a place name in many examples, but the common diminutive stays
+# question prepa: clipping of preparatoria; kept as an established colloquial word instead of merging
+# question prepa: kept as an established clipping, but the rules would merge an abbreviation of a listed word if preparatoria is listed
+# question presidium: Latin/Russian loan, kept because dictionaries list presídium, but examples are mostly Russian-institution contexts
+# question presidium: Latin/Russian-origin word that mostly refers to Soviet or Russian bodies; kept as established in Spanish
+# question proméxico: government agency that is not a place, but unclear whether it is famous enough to count as a national institution; dropped
+# question pruebo: the written form is always "prueba" (noun), so merged to prueba rather than probar
+# question raeliano: demonym-like common word or movement name? Dropped as niche.
+# question rever: the real verb is a minority of the forms against English "reverse"; dropped under the minority-reading rule
+# question rifampicina: the rules don't say whether common drug names (rifampicina, alprazolam, sofosbuvir) count as specialist terms; I dropped them
+# question rifampicina: the rules don't say whether drug names count as specialist terms; I kept them (also alprazolam, sofosbuvir, pantenol) but dropped the chemical-compound terms docosahexaenoico and enantato
+# question rutilar: rutilado forms (29) may be a participle of rutilar, a real verb, rather than of rutilo; merged to rutilo as the majority form
+# question rutilar: rutilar is also a real verb (to shine), but the examples are all about the mineral rutilo.
+# question saz: no examples; saz is a rare real Spanish word (willow), but the counted forms look mostly like names/acronyms
+# question scalping: English trading term; unclear whether it is established enough in Spanish finance to keep
+# question scalping: a finance loan Spanish traders do use, but specialist; dropped
+# question seder: a Jewish ritual term that Spanish does use (seder de Pésaj), but it is not clearly established enough to keep.
+# question seder: foreign ritual term; kept because Spanish writes about the Pésaj seder, but could be treated as a specialist foreign word
+# question shinto: Spanish also uses "shinto" itself, and "sintoísmo" names the religion; merged on the spelling rule.
+# question sobreentender: the academy prefers sobrentender, but people write sobreentender, so I kept it
+# question sobreentender: the academy prefers sobrentender, but sobreentender is the form people write, so I kept it
+# question solapar: forms are mostly the noun solapa, which may need its own entry; kept because solapar is a real verb
+# question stablecoin: the loan is newer and mostly used in crypto texts; kept as established in news Spanish
+# question start-up: the target spelling startup is a guess; keep may be better if the list holds the hyphenated form
+# question suscripto: variant of suscrito; kept as a written Rioplatense form rather than merged
+# question taxa: could merge into taxón if read as the Latin plural, but examples use it as a singular, so I dropped it as a specialist term.
+# question tealight: English product term; Spanish usually says "vela de té" or "velita"; dropped
+# question telegrafiar: the verb is real, but most forms are the noun telegrafía; merged to the noun
+# question ticks: the examples mix trading ticks (English loan) and nervous tics (Spanish tic); I merged to tic, but tick may be the intended lemma.
+# question toppings: topping itself may not be established enough; merged on the assumption that it is
+# question trackbacks: could be merge:trackback if web loans like blog count; dropped as specialist jargon.
+# question trackbacks: merged to trackback, whose own keep/drop depends on whether it counts as an established web loan
+# question transcendencia: RAE accepts both spellings; merged as a variant spelling
+# question trascripción: RAE-accepted variant of transcripción, but it is what people write; kept rather than merged
+# question trascripción: accepted variant of transcripción, so kept rather than merged; merge is arguable.
+# question ultranza: kept as a word, but it only occurs in the phrase "a ultranza"; merge:a ultranza is the alternative.
+# question ultranza: only occurs inside "a ultranza"; merged to the phrase, but a one-word keep could also be defended
+# question valiosísimo: superlatives in -ísimo may count as their own lemma under the lemmatiser's conventions; I merged them as inflected forms (same for amadísimo)
+# question valiosísimo: superlatives may count as conventions that stand (keep) rather than broken lemmas
+# question veracruzana: demonym adjective, merged to masculine, though often part of the name Universidad Veracruzana
+# question veracruzana: demonym derived from a place name; I merged the feminine adjective into veracruzano rather than treating it as an own-entry feminine
+# question vestibilidad: calque from English "wearability", but it is a real Spanish word in common fashion use; kept
+# question vestibilidad: possibly a calque of English "fit", but widely used in Spanish fashion retail, so kept
+# question wargame: English hobby term that may be semi-established, but it is mostly product-listing text; dropped
+# question wargame: established hobby loan or too specialist?
+# question zoledrónico: the rules don't say whether drug names (zoledrónico, aripiprazol, verapamil) count as words a learner wants; I dropped them as specialist terms.

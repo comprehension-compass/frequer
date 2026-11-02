@@ -1,0 +1,48 @@
+# lemma	A	reason A	B	reason B
+transplante	merge:trasplante	variant spelling	keep	valid accepted variant spelling, not clearly broken
+start-up	keep	established loan	merge:startup	hyphenated English spelling of the loan
+acollador	drop	occurrences are machine-translated product spam (lanyards), not real usage	keep	real Spanish word
+desajustar	merge:desajuste	mostly the noun desajuste	keep	real verb with its derived forms
+antidesgaste	drop	ad hoc technical compound, not a dictionary word	keep	solid-written prefixed adjective used in Spanish technical text
+hutí	drop	ethnonym and group name	keep	established news term for Houthis, used as a common noun
+rifampicina	keep	common drug name, ordinary Spanish noun	drop	specialist drug name
+pantenol	keep	common ingredient name, ordinary noun	drop	cosmetic/chemical ingredient, specialist
+vinil	keep	real word	merge:vinilo	Spanish form is vinilo
+sofosbuvir	keep	drug name, ordinary Spanish noun	drop	specialist drug name
+alprazolam	keep	common drug name, ordinary Spanish noun	drop	specialist drug name
+fluconazol	keep	generic drug name, Spanish spelling, ordinary medical noun	drop	drug name only specialists use
+oxicodona	keep	generic drug name, Spanish medical noun	drop	drug name only specialists use
+lisinopril	keep	generic drug name, Spanish medical noun	drop	drug name only specialists use
+clorella	keep	food-supplement word written this way in Spanish text	drop	genus/supplement name
+salmeterol	keep	generic drug name, Spanish medical noun	drop	drug name only specialists use
+alijar	keep	real verb, with the noun alijo as its main form	merge:alijo	forms are mostly alijo
+espectroscopio	keep	real word, a valid lemma separate from espectroscopia	merge:espectroscopia	forms are mostly espectroscopia
+prion	keep	established scientific term, plural priones	merge:prión	plural priones; accented Spanish form
+peplum	keep	established fashion term in Spanish	drop	foreign fashion term, not established in Spanish
+telegrafiar	keep	real verb	merge:telegrafía	forms are mostly the noun telegrafía
+dronabinol	keep	real drug name used as a common noun	drop	specialist drug name
+sopar	drop	Catalan or mixed forms (sopes, sopas); lemma broken	merge:sopa	forms are sopa/sopas/sopes, so the lemma is broken
+encoders	merge:encoder	English plural filed as lemma	drop	specialist technical English plural
+encontro	merge:encontrar	mostly missing-accent encontró; some Portuguese noise	drop	mostly Portuguese noun or unaccented typo
+seder	drop	foreign ritual term, not established as a common word	keep	Jewish ritual, used in Spanish
+ultranza	merge:a ultranza	fragment of fixed phrase	keep	real word, though it occurs only in "a ultranza"
+saz	drop	mostly name/acronym	keep	real Spanish word (saz, plural saces)
+carport	drop	English, little established in Spanish	keep	used in Spanish real-estate text for a covered parking space
+trackbacks	merge:trackback	plural filed as lemma	drop	specialist English web term
+suscripto	keep	accepted variant of suscrito, used in Rioplatense Spanish	merge:suscrito	variant spelling of suscrito
+sorpréndase	merge:sorprender	verb with clitic	merge:sorprenderse	pronominal verb imperative form
+cremados	merge:cremado	plural participle filed as lemma	merge:cremar	participle plural filed as lemma
+remasterizados	merge:remasterizado	plural participle	merge:remasterizar	participle plural filed as lemma
+foul	drop	English baseball term, not established	keep	established baseball loan in Spanish
+otrxs	merge:otros	inclusive-writing spelling	merge:otro	inclusive-writing form of otros
+enlistadas	merge:enlistado	participle form	merge:enlistar	participle plural filed as lemma
+zoledrónico	keep	Real Spanish adjective in "ácido zoledrónico"	drop	specialist drug-name term
+aripiprazol	keep	Spanish generic drug name	drop	specialist drug name
+pleyadianos	merge:pleyadiano	Plural filed as a lemma	drop	name of a fringe group, plural form
+verapamil	keep	Spanish generic drug name	drop	specialist drug name
+akáshico	drop	esoteric term, not useful to learner	keep	real adjective from Akasha
+haggis	keep	established food loan	drop	foreign dish name, not established in Spanish
+centrarte	merge:centrarse	verb with clitic	merge:centrar	verb with clitic
+ismos	merge:ismo	plural of ismo filed as lemma	drop	suffix fragment, not a word
+shinto	merge:sintoísmo	foreign spelling of the religion's name	keep	established religion name used in Spanish
+numerosísimo	merge:numeroso	superlative of numeroso, mostly plural	keep	real adjective, a legitimate lemma

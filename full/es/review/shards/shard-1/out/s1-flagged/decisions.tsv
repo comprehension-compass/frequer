@@ -1,0 +1,939 @@
+# lemma	decision	reason	how	rank
+de	keep	function word, own lemma	agreed	1
+no	keep	function word	agreed	19
+tu	keep	possessive determiner	agreed	34
+sí	keep	real word	agreed	386
+tú	keep	pronoun	agreed	620
+karma	keep	established word	agreed	9980
+mer	drop	name/fragment	agreed	16205
+jump	drop	English, mostly names	agreed	16933
+elder	drop	English, mostly names	agreed	17483
+rei	drop	Portuguese/name	agreed	18887
+healthy	drop	English, names	agreed	19508
+snake	drop	English, names	agreed	19777
+resource	drop	English, names	agreed	19828
+solariego	keep	real Spanish adjective	agreed	19951
+signal	drop	English, names	agreed	21501
+doom	drop	English, game name	agreed	21907
+hotelera	merge:hotelero	all examples are adjectival (Zona Hotelera, Dirección Hotelera); the noun reading 'la hotelera' does not appear	adjudicated	21999
+protocol	drop	English, mostly names	agreed	22554
+prieto	keep	real Spanish adjective, also surname	agreed	22881
+cabrio	keep	real common noun for a convertible car (lowercase 219, plural cabrios 44); common word stays despite model-name hits	adjudicated	23231
+espana	merge:España	missing tilde	agreed	23620
+scuba	drop	English	agreed	24166
+beagle	keep	dog breed, established word	agreed	24235
+behr	drop	brand	agreed	26139
+lda	drop	acronym/company	agreed	26505
+anchor	drop	English, names	agreed	26703
+villaviciosa	drop	place name	agreed	28989
+bianco	drop	Italian, names	agreed	29251
+pima	drop	people/place name	agreed	29417
+vert	drop	French/name	agreed	29561
+bardo	keep	real Spanish word	agreed	29656
+patrol	drop	English, names	agreed	29877
+shalom	drop	Hebrew, mostly names	agreed	30120
+tadalafil	drop	specialist drug name, mostly pharmacy spam; not a learner word in either spelling	adjudicated	30570
+carioca	keep	real Spanish word	agreed	30749
+camí	drop	Catalan place name	agreed	31065
+wrestling	drop	English, names	agreed	31084
+bomb	drop	English	agreed	31270
+coria	drop	place name	agreed	31632
+advisors	drop	English, company names	agreed	32156
+mute	drop	English button label, not established in Spanish	agreed	32343
+clínic	drop	Catalan form of one hospital's name, not a Spanish word nor a national body like RENFE or RTVE	adjudicated	33370
+logistica	merge:logística	Missing accent	agreed	33441
+dávila	drop	Surname	agreed	33464
+sof	drop	Fragment or acronym, not a word	agreed	33516
+nubia	drop	Place or personal name	agreed	33592
+chipotle	keep	Real Spanish word for the smoked chile	agreed	33609
+bershka	drop	Brand	agreed	33863
+claxon	keep	Real Spanish word (car horn)	agreed	33897
+guardaesquís	keep	Real Spanish compound noun	agreed	34406
+dolls	drop	English	agreed	34493
+micro-usb	drop	Hyphenated compound of two listed words	agreed	35057
+amarok	drop	Software or product name	agreed	35942
+aster	drop	examples are a firm name; the flower is spelled áster in Spanish, so the real-word reading is a minority	adjudicated	36008
+isofix	drop	technical fixing standard and product label, not an ordinary Spanish word	adjudicated	36061
+knife	drop	English	agreed	36305
+syma	drop	Brand	agreed	36828
+tomahawk	drop	Mostly product, place and aircraft names	agreed	37578
+danger	drop	English	agreed	37832
+romantic	drop	English	agreed	38069
+lavapiés	drop	Madrid neighbourhood, a place name	agreed	38587
+gamo	keep	Real Spanish word (fallow deer)	agreed	38849
+ding	drop	Name or onomatopoeia, not a Spanish word	agreed	38921
+projector	drop	English	agreed	39257
+blur	drop	Band name and English	agreed	39686
+cloth	drop	English	agreed	40021
+desarme	keep	Real Spanish noun	agreed	40613
+fond	drop	Foreign word, not Spanish	agreed	41100
+coslada	drop	Place name	agreed	41320
+banker	drop	English and malware name	agreed	42385
+kala	drop	Brand or name	agreed	42878
+loud	drop	English	agreed	42935
+biociencias	merge:biociencia	plural filed as lemma; not an established plural-only noun	adjudicated	43232
+punt	drop	Foreign word, not Spanish	agreed	43461
+goo	drop	English	agreed	43506
+uy	keep	Interjection	agreed	43908
+aki	drop	Name or non-standard spelling	agreed	43974
+miku	drop	Character name	agreed	44010
+agustí	drop	Personal name (mixed with agustinos)	agreed	44184
+stations	drop	English	agreed	44309
+sildenafilo	keep	generic drug name used in Spanish	agreed	44485
+usitc	drop	specialist acronym for a US agency	agreed	44699
+barbastro	drop	place name	agreed	44911
+levis	drop	brand and name	agreed	45062
+signs	drop	English word in brand and product names	agreed	45082
+bison	drop	English or Latin genus and software name, not Spanish usage	agreed	45808
+cooker	drop	English word in product names	agreed	45890
+tweak	drop	English word in software names	agreed	46270
+aging	drop	English word in organisation names	agreed	46522
+cpg	drop	specialist or file-type acronym	agreed	46611
+neverland	drop	proper name	agreed	46720
+lingerie	drop	English word, mostly brand names; Spanish uses lencería	agreed	46799
+pgi	drop	file-type or company acronym	agreed	47080
+uzi	drop	brand and rapper name	agreed	47100
+ifp	drop	organisation acronym	agreed	47233
+jove	drop	name or journal title	agreed	47307
+shinkansen	drop	foreign proper name for a train service	agreed	47421
+vasa	drop	name of a ship or museum	agreed	47435
+cui	drop	code or acronym	agreed	47613
+baena	drop	place name and surname	agreed	47684
+exam	drop	English word	agreed	47868
+amadores	drop	place name	agreed	48094
+inglésd	merge:inglés	web artefact, a stray "d" attached to inglés	agreed	48128
+tooth	drop	English word in product names	agreed	48307
+oas	drop	company or specialist acronym	agreed	48378
+aspergillus	drop	specialist taxonomic term	agreed	48415
+piceno	drop	place name	agreed	48461
+striker	drop	English word in game and product names	agreed	48473
+ziploc	drop	brand	agreed	48586
+picón	keep	real Spanish word (picón) despite many surname uses	agreed	48731
+abg	drop	code or acronym	agreed	48762
+markup	drop	English technical term	agreed	48814
+fmla	drop	US law acronym	agreed	49052
+writers	drop	English word in organisation names	agreed	49103
+amari	drop	name	agreed	49300
+hybris	drop	mostly the SAP company name; the Spanish word is hibris	agreed	49341
+syncro	drop	brand name	agreed	49551
+henificadora	keep	real Spanish word for a hay-making machine	agreed	49872
+mirabel	drop	mostly hotel and place names	agreed	49895
+clerk	drop	English word, name and product	agreed	49945
+eld	drop	brand/product code	agreed	49957
+asug	drop	organisation acronym	agreed	50026
+medic	drop	English word or game name	agreed	50079
+forn	drop	company/surname fragment	agreed	50152
+tsu	drop	name or acronym	agreed	50393
+molo	drop	hotel/proper name	agreed	50460
+sotelo	drop	surname	agreed	50488
+cpf	drop	foreign tax-ID acronym	agreed	50834
+gtk	drop	technical acronym	agreed	50954
+dauphine	drop	proper name	agreed	51039
+agli	drop	Italian/proper name	agreed	51096
+brazzers	drop	brand	agreed	51105
+zapping	keep	established loan	agreed	51296
+sofi	drop	brand/name	agreed	51377
+goodbye	drop	English, not established	agreed	51440
+pef	drop	specialist acronym	agreed	51569
+tyc	drop	company acronym	agreed	51583
+triduo	keep	real Spanish word	agreed	51683
+nera	drop	Italian/place name	agreed	51757
+vengeance	drop	English/brand	agreed	51796
+mirrors	drop	English/title	agreed	51964
+contractors	drop	English	agreed	52027
+facilitarl	merge:facilitar	infinitive plus clitic filed as a cut-off lemma	agreed	52224
+scorecard	drop	English, not established	agreed	52384
+prt	drop	specialist acronym	agreed	52588
+counseling	drop	English, mostly in names and titles; Spanish uses orientación or asesoramiento	adjudicated	52637
+skydive	drop	English/brand	agreed	52719
+gom	drop	software brand	agreed	52774
+palavras-chave	drop	Portuguese	agreed	52813
+aup	drop	specialist acronym	agreed	52980
+encrypted	drop	English	agreed	53011
+ssm	drop	specialist acronym	agreed	53066
+plume	drop	French/English name	agreed	53265
+fj	drop	code/initials	agreed	53341
+baden-wurtemberg	drop	place name	agreed	53426
+pills	drop	English/brand	agreed	53491
+asn	drop	technical acronym	agreed	53536
+cnae	drop	specialist classification acronym	agreed	53553
+hemp	drop	English/brand	agreed	53584
+tarahumara	keep	Spanish ethnonym and language name	agreed	53640
+xindao	drop	brand/website name	agreed	53650
+emb	drop	unclear acronym, no example	agreed	53692
+kendo	keep	established loan for the martial art	agreed	53715
+on-site	drop	hyphenated English, not established	agreed	53733
+truly	drop	English word/brand name	agreed	53770
+dreaming	drop	English word/product names	agreed	53811
+idfa	drop	festival/ad-ID acronym, specialist	agreed	53836
+fibc	drop	technical product acronym	agreed	53943
+iniciosalud	drop	web artefact (menu text run together)	agreed	54083
+fluxus	drop	brand/product name, mostly not a common word	agreed	54311
+salón-bar	drop	hyphenated compound of two listed words	agreed	54356
+jabber	drop	software/protocol name	agreed	54447
+miui	drop	brand/product name	agreed	54462
+bap	drop	Peruvian navy ship prefix, specialist acronym	agreed	54514
+hosted	drop	English word	agreed	54555
+realigro	drop	website/brand name	agreed	54597
+ecd	drop	specialist acronym, file type	agreed	54668
+incae	drop	ordinary organisation (business school)	agreed	54834
+v-cuello	drop	hyphenated calque from a product listing	agreed	54893
+aire-aire	drop	hyphenated compound of two listed words	agreed	54908
+estados-nación	drop	hyphenated compound of two listed words	agreed	55062
+bukkake	drop	foreign term not established in Spanish	agreed	55168
+cotto	drop	surname/brand name	agreed	55179
+ipj	drop	specialist acronym	agreed	55209
+q-sys	drop	brand/product name	agreed	55354
+hr-v	drop	car model name	agreed	55433
+shortlist	drop	English word, mostly listing label	agreed	55490
+yanomami	keep	common noun for the Indigenous people (lowercase in 69% of uses)	agreed	55508
+claw	drop	English word/brand	agreed	55536
+ifsp	drop	specialist acronym	agreed	55573
+maritima	merge:marítimo	missing accent; plural maritimas also filed here	agreed	55584
+vfr	drop	specialist aviation acronym	agreed	55628
+dit	drop	acronym/foreign token	agreed	55668
+iptabl	drop	technical software term, cut-off lemma	agreed	55691
+chlamydia	drop	Latin genus name (Chlamydia trachomatis); the learner word clamidia stands on its own	adjudicated	55794
+curly	drop	English word/name	agreed	55942
+publish	drop	English word/button label	agreed	56014
+washer	drop	English word/surname	agreed	56040
+aplicada	merge:aplicado	feminine form filed as lemma	agreed	56060
+echinacea	merge:equinácea	Latin spelling of the adapted word	agreed	56094
+npm	drop	software tool name, technical acronym	agreed	56146
+ogv	drop	file-format code	agreed	56295
+pif	drop	specialist acronym	agreed	56304
+rummy	keep	card-game name used as an ordinary noun in Spanish (jugar al rummy), established loan	adjudicated	56318
+smarter	drop	English word in brand names	agreed	56450
+equis	keep	real Spanish word (the letter x)	agreed	56670
+scf	drop	specialist acronym	agreed	56747
+markdown	drop	technical software term	agreed	56834
+sweat	drop	English word, brand and name uses	agreed	56889
+faj	drop	airport code	agreed	56944
+muéstrano	merge:mostrar	imperative with clitic filed as a lemma	agreed	56984
+sufi	merge:sufí	missing accent	agreed	57020
+longa	drop	foreign word in place and business names	agreed	57116
+pearls	drop	English word, brand names	agreed	57138
+cnb	drop	unclear acronym, no examples	agreed	57220
+stylo	drop	phone model name	agreed	57439
+ubi	drop	unclear token, no examples	agreed	57448
+beg	drop	airport code and English word	agreed	57611
+habit	drop	English word	agreed	57652
+ergon	drop	brand name	agreed	57777
+v-one	drop	product model name, hyphenated	agreed	57884
+anuncioshabitaciones	drop	web artefact from merged text	agreed	57900
+brik	drop	Tetra Brik brand	agreed	58059
+multidepor	merge:multideporte	cut-off fragment	agreed	58140
+syrup	drop	English word	agreed	58189
+jive	drop	software brand, English word	agreed	58281
+salat	drop	Arabic religious term, not established in general Spanish	adjudicated	58327
+wpp	drop	company acronym	agreed	58351
+basis	drop	English word and product names	agreed	58365
+efm	drop	specialist acronym	agreed	58392
+fingerprint	drop	English word, product names	agreed	58401
+vab	drop	specialist acronym and file extension	agreed	58632
+al-din	drop	part of Arabic names, hyphenated	agreed	58647
+isaf	drop	sports-federation acronym	agreed	58723
+mobil-home	drop	French-form hyphenated loan from camping sites; Spanish uses casa móvil or caravana	adjudicated	58739
+kdp	drop	brand acronym	agreed	58879
+opium	drop	brand and club name	agreed	58900
+secretariass	drop	site-name artefact	agreed	58929
+arris	drop	company brand	agreed	58961
+cepe	keep	real Spanish word (cepe, a mushroom)	agreed	58978
+ecosys	drop	brand/product line	agreed	58995
+ondina	keep	real Spanish word (water nymph)	agreed	59217
+ncap	drop	organisation acronym (Euro NCAP)	agreed	59365
+pre-tratamiento	merge:pretratamiento	hyphenated spelling of a Spanish word	agreed	59378
+lbc	drop	brand/organisation acronym	agreed	59488
+mdw	drop	airport code	agreed	59501
+acti	drop	brand name	agreed	59588
+bonoloto	drop	lottery product name	agreed	59603
+ion-litio	drop	hyphenated compound of two listed words	agreed	59660
+skd	drop	technical trade acronym	agreed	59715
+vien	drop	name/fragment, no evidence of a real word	agreed	59731
+dirigiéndono	merge:dirigirse	gerund plus clitic; dominant use is 'dirigiéndonos a' meaning heading towards, which is the pronominal verb	adjudicated	59792
+mcas	drop	specialist acronym	agreed	59851
+wea	drop	mostly an acronym or file extension	agreed	59915
+guarantee	drop	English word, not established in Spanish	agreed	59981
+roco	drop	name	agreed	60042
+wikiquote	drop	website	agreed	60074
+bdp	drop	acronym, no evidence of a real word	agreed	60096
+eoi	drop	school/organisation acronym	agreed	60140
+lrd	drop	airport/currency code	agreed	60183
+rossetti	drop	person's surname	agreed	60224
+toaster	drop	English word/brand	agreed	60238
+eldrazi	drop	fictional game race name	agreed	60298
+olap	drop	technical acronym	agreed	60353
+rm#Fem	drop	biblical abbreviation (Romanos), 2 letters	agreed	60369
+inna	drop	name	agreed	60485
+microphone	drop	English word in product names	agreed	60509
+steady	drop	English word/brand	agreed	60554
+ciq	drop	specialist acronym	agreed	60604
+valquiria	keep	real Spanish word	agreed	60725
+caring	drop	English word/brand	agreed	60760
+kiddie	drop	English word	agreed	60808
+pts	drop	abbreviation/acronym	agreed	60846
+amarte	merge:amar	infinitive with clitic filed as lemma	agreed	60895
+clonidine	drop	English drug name	agreed	60916
+lrc	drop	file extension/acronym	agreed	60975
+paranaense	keep	demonym adjective, ordinary Spanish word	agreed	60993
+seac	drop	brand name	agreed	61012
+vegetarian	drop	English word	agreed	61027
+weird	drop	English word	agreed	61039
+hanger	drop	English word, not established in Spanish	agreed	61131
+tota	drop	no examples; real-word reading unclear	agreed	61233
+bearings	drop	English product text	agreed	61259
+icrea	drop	research institution not famous nationally	agreed	61309
+msha	drop	US agency acronym, specialist	agreed	61342
+conduit	drop	English word and company name	agreed	61449
+endo	drop	fragment, dental product text	agreed	61461
+lgp	drop	file-type or technical acronym	agreed	61495
+mayal	keep	real Spanish word (flail mower)	agreed	61507
+rzr	drop	Polaris product name	agreed	61546
+vaisnava	keep	religious term used in Spanish text	agreed	61579
+folly	drop	English word and place name	agreed	61659
+jep	keep	Colombian public body, widely known	agreed	61682
+solve	drop	English word and brand	agreed	61758
+almost	drop	English word, not a loan	agreed	61794
+etecsa	keep	Cuba's state telecom operator, referred to by name nationwide, comparable to RENFE	adjudicated	61864
+smx	drop	code or product name	agreed	61934
+huétor	drop	place name	agreed	62027
+seseña	drop	place name	agreed	62097
+tum	drop	university acronym or noise	agreed	62114
+acro	drop	fragment or brand	agreed	62129
+cnx	drop	product or code	agreed	62170
+eirl	drop	Peruvian company-type abbreviation	agreed	62191
+fie	drop	no real Spanish reading	agreed	62199
+iz	drop	fragment	agreed	62234
+menswear	drop	English term not established	agreed	62257
+parti	drop	cut-off fragment	agreed	62274
+cairn	drop	English word and name	agreed	62366
+nws	drop	US agency acronym	agreed	62442
+perform	drop	English word	agreed	62450
+aeronaval	keep	real Spanish adjective	agreed	62505
+cerciorarno	merge:cerciorarse	conjugated or clitic form filed as lemma	agreed	62536
+hiphop	merge:hip hop	spelling of established loan	agreed	62575
+realistic	drop	English word and brand	agreed	62635
+stain	drop	English word and name	agreed	62653
+circutor	drop	company name	agreed	62704
+livechat	drop	brand name	agreed	62762
+mirasol	keep	real Spanish word (sunflower)	agreed	62776
+peanut	drop	English word	agreed	62791
+rivet	drop	English word	agreed	62809
+xlstat	drop	software brand	agreed	62851
+cafo	drop	English specialist acronym	agreed	62878
+cpk	drop	technical acronym/file extension	agreed	62891
+ett	drop	unclear acronym, no Spanish word	agreed	62903
+hats	drop	English word in product names	agreed	62918
+investigation	drop	English word in organisation names	agreed	62927
+mhc	drop	specialist acronym	agreed	62955
+punjabi	merge:panyabí	English spelling of the adapted name of the language (poemas en punjabi); Spanish writes panyabí	adjudicated	62989
+sudoe	drop	EU programme/region name, not a famous institution	agreed	63013
+autorun	drop	software term, not established Spanish	agreed	63058
+couch	drop	English word	agreed	63253
+ifco	drop	company name	agreed	63291
+isolate	drop	English word in product names	agreed	63299
+outbound	drop	English business jargon, not established	agreed	63327
+corr	drop	cut-off fragment	agreed	63427
+lyocell	keep	real textile fibre name used in Spanish	agreed	63490
+nazar	drop	place/person name	agreed	63502
+tsd	drop	file-extension acronym	agreed	63550
+yoloestoyviendo	drop	website name	agreed	63564
+bald	drop	English word in an address	agreed	63591
+kpd	drop	German party acronym	agreed	63672
+piretroid	merge:piretroide	plural filed as lemma	agreed	63705
+cguv	drop	website terms acronym	agreed	63776
+dogecoin	drop	brand/product name	agreed	63793
+kcna	drop	foreign news agency, not famous in the Spanish-speaking world	agreed	63840
+requirements	drop	English word	agreed	63877
+sefatía	drop	biblical personal name	agreed	63888
+winch	drop	English word	agreed	63924
+eurorai	drop	minor organisation	agreed	63992
+galapagar	drop	place name	agreed	64000
+iee	drop	programme acronym	agreed	64013
+pili	drop	personal name	agreed	64059
+souq	drop	foreign word, mostly in a place name (Souq Waqif)	agreed	64090
+vsg	drop	specialist medical acronym	agreed	64118
+algete	drop	place name	agreed	64130
+barilla	keep	real Spanish word (rod, plant) despite brand uses	agreed	64148
+diám	merge:diámetro	abbreviation of diámetro	agreed	64183
+girlfriend	drop	English word	agreed	64205
+ingl	merge:inglés	abbreviation of inglés	agreed	64217
+saludiberoamericana	drop	website name	agreed	64289
+bands	drop	English plural, mostly names and titles	agreed	64338
+esab	drop	company name	agreed	64384
+frangipani	keep	Spanish word for the plumeria flower	agreed	64393
+grao	drop	place name (Valencia, Castellón)	agreed	64407
+ifd	drop	acronym or product name	agreed	64422
+moly	drop	name or brand	agreed	64449
+oikos	drop	Greek word and organisation name	agreed	64462
+tarpon	drop	mostly brand and place (Tarpon Springs)	agreed	64526
+tronic	drop	company name	agreed	64536
+asgardiano	drop	fictional Marvel term	agreed	64572
+etr	drop	specialist acronym	agreed	64617
+fluoxetine	merge:fluoxetina	English spelling of the Spanish drug name	agreed	64624
+postfix	drop	software name	agreed	64713
+vtp	drop	technical acronym	agreed	64761
+bux	drop	brand	agreed	64791
+explicándol	merge:explicar	conjugated form filed as a cut-off lemma	agreed	64820
+gfr	drop	acronym	agreed	64830
+interval	drop	English word and brand	agreed	64846
+meditation	drop	English word and title	agreed	64865
+blond	drop	surname and brand	agreed	64974
+cide	keep	nationally known Mexican research institution (CIDE)	agreed	64989
+highlight	drop	English word, not established	agreed	65043
+keypress	drop	technical or wiki term	agreed	65057
+zina	drop	name, no evidence of a Spanish word	agreed	65145
+clubbing	keep	established loan	agreed	65188
+esker	drop	English geological term and company name	agreed	65216
+limestone	drop	English word and place name	agreed	65256
+resuelve	merge:resolver	conjugated form, capitalised in legal text	agreed	65311
+ssf	drop	acronym	agreed	65335
+basauri	drop	place name	agreed	65403
+rdu	drop	airport code	agreed	65568
+tricks	drop	English word	agreed	65588
+zhangjiagang	drop	place name	agreed	65606
+jms	drop	technical acronym	agreed	65710
+ler	drop	no evidence, not a Spanish word	agreed	65725
+nobody	drop	English word in titles	agreed	65750
+playbook	drop	product and English word	agreed	65759
+sott	drop	website name	agreed	65787
+tn-matrices	drop	hyphenated technical artefact	agreed	65798
+alamillo	drop	place name and surname	agreed	65822
+gedpro	drop	company name	agreed	65897
+ixil	drop	ethnic group and language name, proper noun	agreed	65929
+telc	drop	exam brand	agreed	66010
+asea	drop	company name	agreed	66058
+freeform	drop	brand/product name	agreed	66111
+irq	drop	technical acronym only specialists use	agreed	66123
+mower	drop	English word, not established in Spanish	agreed	66160
+scb	drop	unclear acronym with no examples	agreed	66213
+silk-épil	drop	brand name, hyphenated	agreed	66221
+vtt	drop	mixed readings (ATV, bike, Finnish institute); not clearly an ordinary Spanish word	agreed	66248
+boardshorts	drop	English word not established in Spanish	agreed	66273
+fcr	drop	specialist acronym	agreed	66316
+padrespadr	merge:padre	doubled-link artefact of 'padres'; the merge is obvious	adjudicated	66389
+uplink	drop	English technical term/product	agreed	66455
+by-pass	merge:bypass	hyphenated English spelling of an established loan	agreed	66509
+diffusion	drop	company name/English word	agreed	66545
+fizz	drop	English word/brand	agreed	66566
+skool	drop	brand spelling (Vans Old Skool)	agreed	66667
+contributor	drop	English word, web artefact	agreed	66755
+cxt	drop	file extension code	agreed	66763
+itesm	keep	famous Mexican university	agreed	66808
+ofi	drop	fragment/abbreviation with no evidence	agreed	66848
+pui	drop	specialist acronym/company name	agreed	66868
+ecma	drop	standards/trade organisation acronym	agreed	67002
+factum	drop	media outlet name/Latin word, not a learner word	agreed	67012
+travelling	keep	established film term (travelling shot) in Spanish	agreed	67125
+arak	drop	place name (city in Iran)	agreed	67162
+imoca	drop	sailing class acronym, specialist	agreed	67254
+kum	drop	name, no evidence of Spanish word	agreed	67271
+prf	drop	specialist acronym	agreed	67312
+req	drop	code/file extension/game term	agreed	67331
+schwing	drop	company name	agreed	67340
+soshanguve	drop	place name	agreed	67354
+tmm	drop	specialist acronym	agreed	67367
+vrv	drop	brand/technical acronym	agreed	67378
+blower	drop	English word, not established	agreed	67410
+daad	drop	German organisation, not a famous Spanish-world body	agreed	67433
+ftps	drop	technical acronym only specialists use	agreed	67455
+lists	drop	English word	agreed	67498
+psk	drop	specialist acronym	agreed	67546
+rft	drop	specialist tyre acronym	agreed	67559
+sewa	drop	ordinary organisation	agreed	67569
+avaibook	drop	brand	agreed	67627
+borderline	drop	mostly a bar name; the English word is a minority of uses	agreed	67642
+esdr	drop	Bible citation abbreviation	agreed	67685
+fdd	drop	technical acronym	agreed	67691
+ghb	drop	technical acronym	agreed	67703
+icms	drop	Brazilian tax acronym	agreed	67716
+msia	drop	organisation acronym	agreed	67741
+shoei	drop	brand	agreed	67787
+ukiyo-e	drop	specialist Japanese art term, not a learner word	adjudicated	67810
+webarchive	drop	file extension	agreed	67822
+augmented	drop	English word	agreed	67847
+dagger	drop	English word/brand	agreed	67874
+dou	drop	name or code	agreed	67888
+fct	drop	organisation acronym	agreed	67904
+headquarters	drop	English word	agreed	67928
+ihop	drop	brand	agreed	67938
+nanoparticl	merge:nanopartícula	English plural filed under a cut-off lemma	agreed	67979
+profiles	drop	English word/brand	agreed	68006
+roofing	drop	English word	agreed	68028
+campagne	drop	French word/surname	agreed	68095
+collider	drop	English word	agreed	68108
+distributed	drop	English word	agreed	68122
+eib	drop	acronym	agreed	68131
+gch	drop	technical acronym	agreed	68152
+ieca	drop	specialist medical acronym	agreed	68170
+locked	drop	English word	agreed	68193
+registered	drop	English word	agreed	68234
+starts	drop	English word	agreed	68272
+tmr	drop	acronym	agreed	68285
+ultralight	drop	English word/brand	agreed	68299
+distributors	drop	English word	agreed	68363
+minikit	drop	product	agreed	68438
+squire	drop	English word/name	agreed	68498
+trampoline	drop	English word/brand	agreed	68511
+yaml	drop	technical term	agreed	68538
+arinaga	drop	place name	agreed	68562
+bice	drop	bank acronym	agreed	68577
+colomba	drop	name	agreed	68601
+icts	drop	specialist acronym	agreed	68648
+locals	drop	English word, not established in Spanish	agreed	68665
+newspaper	drop	English word, not established in Spanish	agreed	68687
+qp	drop	code or fragment	agreed	68709
+tpn	drop	specialist acronym	agreed	68751
+wnba	drop	organisation acronym	agreed	68771
+aquilea	keep	real Spanish word (yarrow) that is also a place name	agreed	68801
+efes	drop	Bible book abbreviation, or plural of efe	agreed	68860
+iasb	drop	specialist acronym	agreed	68881
+mantras	merge:mantra	plural filed as lemma	agreed	68913
+nfp	drop	specialist acronym	agreed	68924
+restinga	keep	real Spanish word (sandbar), also a place name	agreed	68960
+tally	drop	English word or name	agreed	68993
+undo	drop	English software term	agreed	69008
+akl	drop	foreign organisation acronym	agreed	69034
+connecting	drop	English word	agreed	69081
+fecom	drop	forum or organisation acronym	agreed	69113
+glf	drop	company acronym	agreed	69125
+mecca	merge:meca	English spelling of meca	agreed	69160
+unf	drop	specialist acronym	agreed	69256
+villarrubia	drop	place name	agreed	69266
+cedex	drop	French postal term	agreed	69311
+gnb	drop	specialist acronym	agreed	69376
+ivs	drop	specialist or game acronym	agreed	69399
+meterno	merge:meterse	infinitive with clitic "meternos" filed as lemma	agreed	69441
+mummy	drop	English word or title	agreed	69451
+permit	drop	English word	agreed	69461
+slab	drop	English word or place name	agreed	69498
+dcg	drop	company or technical acronym	agreed	69611
+ewoks	drop	fictional creatures, proper noun	agreed	69639
+frm	drop	specialist acronym	agreed	69649
+histoire	drop	French word	agreed	69666
+losan	drop	brand	agreed	69692
+medicinalespregunta	drop	web artefact	agreed	69702
+mycoplasma	drop	Latin genus name in medical text (Mycoplasma pneumoniae), specialist	adjudicated	69714
+parachute	drop	English word or place name	agreed	69727
+ramp	drop	English word or acronym	agreed	69747
+sgm	drop	abbreviation, no obvious lemma	agreed	69763
+tcd	drop	specialist acronym	agreed	69775
+vant	drop	specialist acronym	agreed	69797
+awr	drop	airport/file-type code	agreed	69822
+blusher	drop	English word not established in Spanish (colorete)	agreed	69833
+few	drop	English word, mostly in titles	agreed	69885
+hei	drop	name or code, no Spanish reading	agreed	69903
+jora	drop	examples are the biblical name; chicha de jora is a regional minority reading	adjudicated	69922
+ndvi	drop	specialist acronym	agreed	69965
+proc	drop	technical token, not a Spanish word	agreed	69997
+sefm	drop	forum name	agreed	70022
+spelling	drop	English word, not established	agreed	70032
+wia	drop	acronym or model code	agreed	70057
+contracting	drop	English word in company names	agreed	70129
+dejémono	merge:dejarse	imperative plus clitic filed as lemma	agreed	70144
+gur	drop	name fragment	agreed	70185
+potx	drop	file extension	agreed	70263
+says	drop	English word in titles and brands	agreed	70295
+sleeps	drop	English listing word	agreed	70308
+tempered	drop	English word	agreed	70317
+ultra-alta	drop	hyphenated compound of listed words	agreed	70330
+whi	drop	acronym, not a Spanish word	agreed	70340
+arti	drop	name or fragment	agreed	70359
+citic	drop	company name	agreed	70383
+lgbtqi	keep	ordinary-use acronym, variant of LGBT	agreed	70484
+papo	keep	real Spanish word (papo: double chin, bird's crop); common word stays despite brand hits	adjudicated	70523
+rsl	drop	organisation acronym	agreed	70550
+soli	drop	name or fragment	agreed	70562
+uvex	drop	brand	agreed	70589
+artdeco	drop	cosmetics brand	agreed	70620
+gcl	drop	code or acronym	agreed	70699
+keuco	drop	brand	agreed	70735
+maso	drop	name	agreed	70752
+netzsch	drop	company name	agreed	70767
+sentri	drop	border programme name	agreed	70812
+stri	drop	research institute acronym	agreed	70824
+verify	drop	English word	agreed	70846
+audiobook	drop	English, mostly in English titles; audiolibro is a separate Spanish word, not a respelling	adjudicated	70889
+been	drop	English word	agreed	70899
+buna	drop	place or name	agreed	70909
+g-string	drop	English product term	agreed	70976
+hfp	drop	technical acronym	agreed	70993
+inpe	drop	ambiguous acronym (Peruvian prisons body, Brazilian space institute), not a nationally famous body at RENFE or UNAM level	adjudicated	71003
+osg	drop	specialist acronym (geostationary orbit)	agreed	71056
+progressio	drop	Latin, from the title Populorum progressio	agreed	71075
+shn	drop	file extension, not a word	agreed	71103
+teclast	drop	brand	agreed	71114
+wcm	drop	specialist acronym	agreed	71140
+apy	drop	English financial acronym	agreed	71165
+bilstein	drop	brand	agreed	71183
+cartridge	drop	English word, not established (Spanish: cartucho)	agreed	71196
+dapper	drop	English word or brand	agreed	71216
+drifting	drop	English word or product term	agreed	71227
+financing	drop	English word in a company name	agreed	71245
+gptw	drop	organisation acronym	agreed	71258
+humilladero	keep	real Spanish common word (roadside shrine), even though most examples are the place name	agreed	71270
+initio	drop	Latin, from "ab initio"	agreed	71279
+nafld	drop	medical specialist acronym	agreed	71319
+reaktor	drop	software brand	agreed	71357
+roam	drop	English word or brand	agreed	71365
+shut	drop	English word	agreed	71376
+trapero	keep	real Spanish word (ragpicker)	agreed	71403
+go-go	merge:gogó	English hyphenated spelling of the adapted loan Spanish writes gogó (dancer, a gogó)	adjudicated	71519
+herbs	drop	English word or brand	agreed	71529
+igloo	merge:iglú	English spelling of the adapted word	agreed	71538
+jaxa	drop	foreign space agency acronym, not a Spanish-world institution	agreed	71549
+kret	drop	Russian company acronym	agreed	71563
+metrobus	merge:metrobús	common noun for a bus rapid transit line in several countries, accent missing (metrobuses attested)	adjudicated	71579
+optel	drop	company	agreed	71594
+sedena	keep	Mexican Secretaría de la Defensa Nacional, a famous ministry	agreed	71632
+spikes	drop	English word or product name	agreed	71643
+trait	drop	English word or company name	agreed	71653
+ubc	drop	organisation acronym	agreed	71663
+yb	drop	code or symbol	agreed	71687
+baked	drop	English word in product names	agreed	71712
+candeleda	drop	place name	agreed	71732
+chol	drop	abbreviation or ethnic name, not a learner word	agreed	71742
+enhancement	drop	English word in product names	agreed	71775
+ipsw	drop	file extension	agreed	71815
+metalocus	drop	website	agreed	71847
+obc	drop	organisation acronym	agreed	71858
+rbf	drop	technical acronym or file extension	agreed	71885
+sewing	drop	English word	agreed	71912
+stepping	drop	English term in "stepping motor" and product names	agreed	71924
+xrs	drop	model code	agreed	71946
+atz	drop	file extension/brand code	agreed	71976
+bfc	drop	unclear acronym	agreed	71989
+clad	drop	regional organisation acronym, not a nationally famous body	agreed	72018
+dansa	drop	Catalan word and company names	agreed	72042
+gdb	drop	technical acronym	agreed	72078
+guilty	drop	English word, song/book titles	agreed	72091
+jpm	drop	file extension/company acronym	agreed	72120
+lungomare	drop	Italian place-type name, not established in Spanish	agreed	72138
+sth	drop	product/company code	agreed	72218
+wbs	drop	specialist acronym	agreed	72255
+contin	drop	fragment/name	agreed	72328
+damn	drop	English word, magazine name	agreed	72338
+gingko	merge:ginkgo	variant spelling of ginkgo	agreed	72379
+mayday	keep	established distress call	agreed	72440
+obd-ii	drop	technical code	agreed	72459
+plantuml	drop	software/file extension	agreed	72475
+qvs	drop	brand code	agreed	72491
+scv	drop	airport code	agreed	72498
+stormtrooper	drop	English fiction term	agreed	72512
+bana	drop	name	agreed	72589
+chemo	drop	company name	agreed	72613
+conn	drop	name/fragment	agreed	72622
+deif	drop	company name	agreed	72632
+logon	drop	English computing term/product name	agreed	72718
+pge	drop	company/technical acronym	agreed	72780
+rii	drop	obscure acronym	agreed	72805
+sourceforge	drop	website	agreed	72831
+tic-tac	keep	Spanish onomatopoeic noun	agreed	72847
+vrn	drop	airport code	agreed	72867
+bica	drop	place/name in Lisbon and Madeira	agreed	72909
+cah	drop	medical specialist acronym	agreed	72919
+convencerl	merge:convencer	cut-off form of convencerles	agreed	72940
+crimene	merge:crimen	plural crimenes (missing accent) filed as lemma	agreed	72949
+fixer	drop	English word/product name	agreed	72982
+homeless	drop	English word not established	agreed	73011
+jarl	drop	foreign historical title	agreed	73023
+marquina	drop	surname/place name	agreed	73052
+sdsu	drop	US university, not a Spanish-world institution	agreed	73122
+smartline	drop	brand name	agreed	73136
+teekland	drop	brand name	agreed	73150
+banya	drop	place name (Dolna Banya)	agreed	73211
+brm	drop	specialist acronym	agreed	73225
+copic	drop	brand of markers	agreed	73245
+f-odm	drop	hyphenated specialist acronym	agreed	73289
+kissing	drop	English token, part of a venue name	agreed	73328
+nts	drop	acronym with no clear sense	agreed	73368
+rmd	drop	specialist acronym	agreed	73408
+takumi	drop	personal or business name	agreed	73433
+canguros	merge:canguro	plural filed as lemma	agreed	73532
+duvet	drop	foreign word not established in Spanish	agreed	73565
+founder	drop	English word	agreed	73587
+inflatable	drop	English word	agreed	73608
+lej	drop	unclear acronym	agreed	73623
+multicam	drop	brand name	agreed	73660
+pdif	drop	technical acronym	agreed	73685
+rems	drop	specialist acronym	agreed	73709
+sasa	drop	personal name or restaurant name	agreed	73721
+spca	drop	organisation acronym, not a famous body	agreed	73733
+uru	drop	unclear token	agreed	73755
+abnt	drop	Brazilian standards body, not a famous Spanish-world institution	agreed	73775
+antiaging	keep	established cosmetics loan, mostly lowercase and used adjectivally in Spanish text	adjudicated	73792
+brevet	drop	French word or brand	agreed	73822
+flawless	drop	English word or product name	agreed	73873
+iat	drop	specialist acronym	agreed	73899
+lrh	drop	person's initials	agreed	73935
+nataly	drop	personal name	agreed	73962
+rollback	drop	technical English	agreed	74010
+x-trail	drop	car model name	agreed	74065
+condestable	keep	real Spanish word	agreed	74128
+debian-installer	drop	software name, hyphenated	agreed	74138
+equivocarno	merge:equivocarse	cut-off form of equivocarnos, pronominal verb	agreed	74157
+fibo	drop	company name	agreed	74164
+lecture	drop	English word	agreed	74220
+multivac	drop	company brand	agreed	74251
+orcid	drop	website or ID system	agreed	74267
+reusabl	merge:reusable	cut-off fragment, plural reusables	agreed	74300
+sfk	drop	organisation acronym	agreed	74313
+sprocket	drop	English word or brand	agreed	74324
+tol	drop	name/fragment	agreed	74348
+ulv	drop	specialist acronym	agreed	74355
+volk	drop	German word/name	agreed	74365
+bmf	drop	organisation acronym	agreed	74404
+cmdb	drop	technical acronym	agreed	74423
+eob	drop	English-specific technical acronym	agreed	74459
+kleenex	keep	widely used generically for a paper tissue ('un kleenex'); people write this form far more than clínex	adjudicated	74511
+luminesce	drop	brand/English	agreed	74526
+mareos	merge:mareo	plural filed as lemma	agreed	74535
+nti	drop	organisation acronym	agreed	74557
+renedo	drop	place name/surname	agreed	74581
+wenge	keep	common noun for a wood	agreed	74640
+activitie	drop	English word	agreed	74658
+fica	drop	not Spanish/acronym	agreed	74747
+friss	drop	company name	agreed	74755
+manzanera	keep	real Spanish word (apple tree)	agreed	74808
+ojs	drop	software acronym	agreed	74836
+rais	drop	name/acronym	agreed	74863
+rhel	drop	software acronym	agreed	74874
+sencha	drop	tea/software brand, not established	agreed	74885
+sxf	drop	specialist acronym	agreed	74902
+totoro	drop	fictional character name	agreed	74911
+acquisition	drop	English word	agreed	74948
+formalidades	merge:formalidad	plural filed as lemma	agreed	75048
+gilet	drop	occurrences are product names and a place	agreed	75056
+instance	drop	English word	agreed	75082
+longifolia	drop	Latin species name	agreed	75107
+marg	drop	name/fragment	agreed	75117
+neuvoo	drop	website	agreed	75143
+onereel	drop	brand	agreed	75151
+personalized	drop	English word	agreed	75171
+rns	drop	technical acronym/product code	agreed	75209
+shantui	drop	brand	agreed	75222
+vóley-playa	drop	hyphenated compound of listed words	agreed	75264
+bef	drop	specialist acronym/code	agreed	75303
+cambo	drop	name	agreed	75320
+coed	drop	English/name	agreed	75337
+gsn	drop	acronym/code	agreed	75401
+invader	drop	English word/product name	agreed	75426
+listed	drop	English word	agreed	75447
+nipple	drop	English word, not established in Spanish	agreed	75476
+pareo	keep	real Spanish word (sarong)	agreed	75489
+samburu	drop	people, place and lodge name	agreed	75523
+tbp	drop	specialist acronym	agreed	75551
+uit-d	drop	hyphenated code for a sector of the ITU	agreed	75574
+yn	drop	two-letter token with no meaning	agreed	75591
+admins	drop	English word, not established in Spanish	agreed	75603
+argos	drop	brand or company name	agreed	75626
+botel	drop	mostly a proper name	agreed	75652
+dobra	keep	São Tomé currency, a real Spanish word	agreed	75701
+ecoline	drop	brand name	agreed	75712
+erte	keep	ERTE is an ordinary acronym in Spanish	agreed	75720
+iagp	drop	organisation acronym	agreed	75760
+litchi	merge:lichi	non-standard spelling of lichi	agreed	75795
+methods	drop	English word	agreed	75811
+nacidos	merge:nacido	plural filed as a lemma	agreed	75825
+pre-autorización	merge:preautorización	hyphenated spelling of an adapted word	agreed	75852
+segula	drop	company name	agreed	75883
+tfp	drop	specialist acronym	agreed	75907
+adhoc	merge:ad hoc	misspelling of the Latin phrase ad hoc	agreed	75945
+arriva	drop	company and brand name	agreed	75960
+bedding	drop	English word	agreed	75969
+cdda	drop	file-extension code	agreed	75989
+fbg	drop	specialist acronym	agreed	76044
+livin	drop	English fragment	agreed	76110
+plas	drop	fragment or acronym	agreed	76163
+veloci	drop	cut-off fragment	agreed	76221
+weta	drop	company name	agreed	76230
+zippyshare	drop	website	agreed	76238
+anti-aliasing	drop	specialist hyphenated term	agreed	76255
+feds	drop	English slang or acronym	agreed	76352
+marathi	merge:maratí	English spelling of the adapted Spanish name	agreed	76435
+mindstorms	drop	product brand	agreed	76449
+myvisit	drop	website or brand	agreed	76456
+param	drop	programming term or name	agreed	76469
+ppk	drop	party acronym or product name	agreed	76488
+tranquil	drop	English word	agreed	76544
+velociraptor	keep	established Spanish word for the dinosaur	agreed	76552
+ae-l	drop	camera button code	agreed	76578
+anti-gravedad	merge:antigravedad	hyphenated compound of an adapted prefix	agreed	76590
+cidr	drop	technical acronym (CIDR networking term)	agreed	76636
+creature	drop	English word, not established in Spanish	agreed	76646
+discus	drop	foreign word or name, not established	agreed	76655
+fpd	drop	specialist acronym	agreed	76685
+glm	drop	specialist acronym	agreed	76692
+improve	drop	English word or brand	agreed	76716
+ndd	drop	specialist trading acronym	agreed	76776
+nsi	drop	acronym with no Spanish use	agreed	76784
+pillow-top	drop	English hyphenated term, not established	agreed	76812
+renuncian	merge:renunciar	conjugated form filed as lemma	agreed	76833
+sandal	drop	English word or brand; Spanish is sandalia	agreed	76847
+taps	drop	English word or brand	agreed	76883
+therma	drop	brand name	agreed	76889
+avtovaz	drop	company name	agreed	76949
+bless	drop	English word	agreed	76960
+captur	drop	car model or brand	agreed	76975
+dedicándono	merge:dedicarse	truncated form of dedicándonos, from the pronominal verb dedicarse	agreed	76999
+esla	drop	river name (place)	agreed	77033
+handset	drop	English word, not established	agreed	77062
+ifat	drop	trade fair name	agreed	77071
+kraiburg	drop	company name	agreed	77092
+lq	drop	code or abbreviation	agreed	77108
+mbp	drop	file-extension or product code	agreed	77124
+postmir	drop	website or forum name	agreed	77175
+psx	drop	product abbreviation	agreed	77182
+villavieja	drop	place name	agreed	77260
+wosawe	drop	brand name	agreed	77273
+attention	drop	English word	agreed	77307
+castella	drop	name or foreign word	agreed	77347
+co-producción	merge:coproducción	hyphenated spelling of an adapted word	agreed	77360
+discussion	drop	English word; Spanish is discusión	agreed	77398
+eot	drop	specialist acronym	agreed	77413
+hustler	drop	English word or brand	agreed	77463
+keisha	drop	personal name	agreed	77484
+ngp	drop	specialist acronym or file type	agreed	77534
+producers	drop	English word or name	agreed	77569
+reco	drop	fragment or acronym	agreed	77578
+shahid	drop	personal name	agreed	77602
+wad	drop	English word or acronym	agreed	77648
+adlib	drop	brand name	agreed	77671
+agter	drop	organisation acronym/name, minor	agreed	77677
+anim	drop	fragment/foreign, not a Spanish word	agreed	77690
+bonk	drop	file format name	agreed	77717
+cazacarro	merge:cazacarros	plural filed as lemma; but real word is cazacarros (invariable noun)	agreed	77739
+closure	drop	English word, not established	agreed	77751
+confirm	drop	English UI word	agreed	77758
+decal	drop	English word, not established	agreed	77772
+ef-m	drop	camera lens code	agreed	77791
+fusina	drop	minor organisation name	agreed	77815
+gvt	drop	company/file extension	agreed	77829
+implementation	drop	English word	agreed	77845
+ir-cut	drop	technical hyphenated English term	agreed	77851
+kmd	drop	code/company acronym	agreed	77863
+mpaa	drop	US organisation acronym	agreed	77895
+penis	merge:pene	English spelling of Spanish pene	agreed	77924
+prank	drop	English word, not established	agreed	77938
+shout	drop	English word, not established	agreed	77973
+ssx	drop	file extension	agreed	77983
+upside	drop	English word in titles	agreed	78010
+wellbeing	drop	English word	agreed	78023
+alfacar	drop	place name	agreed	78046
+gss	drop	company acronym	agreed	78165
+italiano-español	drop	hyphenated compound of listed words	agreed	78186
+lemo	drop	brand name	agreed	78207
+mid-city	drop	place name, hyphenated	agreed	78234
+ordinary	drop	English brand name	agreed	78276
+platforms	drop	English word	agreed	78292
+scx	drop	file extension	agreed	78314
+spritz	keep	established drink loan, used in Spanish	agreed	78327
+uo	drop	code/fragment	agreed	78352
+yh	drop	code/brand	agreed	78372
+bdd	drop	specialist acronym/file extension	agreed	78426
+concederl	merge:conceder	cut-off fragment of conceder + les	agreed	78465
+evm	drop	technical acronym	agreed	78503
+gyd	drop	currency code	agreed	78528
+jakemy	drop	brand	agreed	78554
+medio-largo	drop	hyphenated compound of listed words	agreed	78595
+pagada	merge:pagar	participle in verbal use (la cantidad pagada por usted); pagar is the obvious lemma, and pagado may not exist as a lemma	adjudicated	78633
+proactive	drop	English word/brand	agreed	78650
+rpf	drop	specialist acronym	agreed	78674
+seascape	drop	English word, hotel names	agreed	78690
+vegetable	drop	English word, product names	agreed	78731
+xj-serie	drop	Jaguar model name, hyphenated	agreed	78747
+artistic	drop	English word, not established in Spanish	agreed	78778
+btrfs	drop	technical acronym for specialists	agreed	78800
+curiosidades	merge:curiosidad	plural filed as lemma	agreed	78830
+flar	drop	mostly English "flares", acronym fragment	agreed	78872
+harness	drop	English word	agreed	78896
+itcilo	drop	organisation acronym, specialist	agreed	78913
+lali	drop	personal or place name	agreed	78939
+mineco	keep	Spanish ministry acronym, widely referred to by name	agreed	78966
+otn	drop	technical telecom acronym	agreed	78988
+powerhouse	drop	English word, brand names	agreed	79014
+reservation	drop	English word	agreed	79031
+sbk	drop	file-type or code, specialist	agreed	79051
+tlt	drop	treaty acronym, specialist	agreed	79088
+worksheet	drop	English word, not established in Spanish	agreed	79121
+aparthotels	merge:apartahotel	plural of an adapted word	agreed	79150
+breach	drop	English word	agreed	79176
+clia	drop	industry association acronym	agreed	79204
+ecdc	keep	famous international health body	agreed	79237
+frustrado	keep	real Spanish adjective, only capitalised sentence-initially	agreed	79267
+incibe	keep	Spanish national public body	agreed	79304
+loureiro	drop	surname	agreed	79334
+nacex	drop	courier brand	agreed	79367
+occupational	drop	English word	agreed	79382
+promt	drop	company or brand	agreed	79410
+rsna	drop	foreign specialist society	agreed	79431
+shacman	drop	truck brand	agreed	79445
+tented	drop	English word	agreed	79475
+watchlist	drop	English web artefact	agreed	79496
+yasmina	drop	personal name	agreed	79508
+aparatodell	drop	web artefact, merged tokens	agreed	79531
+belcher	drop	surname	agreed	79556
+chant	drop	English word or name	agreed	79587
+en-ki	drop	deity name, hyphenated	agreed	79624
+gdn	drop	technical acronym or airport code	agreed	79655
+hitch	drop	English word	agreed	79682
+infanto-juvenil	merge:infantojuvenil	hyphenated spelling of a word Spanish writes as one; infanto is not a listed word	adjudicated	79694
+leak	drop	English word	agreed	79719
+mcsa	drop	Microsoft certification acronym, specialist	agreed	79739
+nodejs	drop	software product name	agreed	79765
+oximetr	merge:oximetría	cut-off fragment; always written oximetría	agreed	79784
+plioceno	keep	real Spanish geological epoch term	agreed	79797
+tack	drop	English word or name, not established in Spanish	agreed	79857
+éufrate	drop	river, so a place name	agreed	79901
+axle	drop	English word or product name	agreed	79938
+chanson	drop	French loan; mostly a genre label or name, not established enough	agreed	79973
+cryo	drop	brand or game DLC name	agreed	79998
+encoding	drop	English technical word, not established	agreed	80030
+haart	drop	specialist medical acronym	agreed	80074
+innúmero	keep	real Spanish adjective; flag only because the text has plural forms	agreed	80093
+kir	drop	acronym or name, not a core word	agreed	80112
+methenolone	drop	English spelling of a specialist steroid name	adjudicated	80149
+nefesh	drop	Hebrew term	agreed	80167
+o-cuello	drop	web artefact from product listings	agreed	80174
+pten	drop	gene name, specialist acronym	agreed	80206
+rmt	drop	company or organisation acronym	agreed	80225
+someone	drop	English word	agreed	80250
+toons	drop	English word or brand	agreed	80282
+vdo	drop	brand name	agreed	80311
+visibility	drop	English word or product name	agreed	80318
+advertenciaseditar	drop	web artefact	agreed	80340
+bcra	keep	Argentine central bank, a famous public body and not a place	agreed	80373
+bul	drop	fragment or name	agreed	80392
+doggystyle	drop	English slang, not established	agreed	80436
+fami	drop	fragment or acronym	agreed	80460
+horrocrux	drop	fictional term from Harry Potter	agreed	80501
+intern	drop	English word or cut-off fragment	agreed	80513
+lez	drop	fragment or acronym	agreed	80537
+nclb	drop	US law acronym	agreed	80569
+okapi	keep	real Spanish word for the animal	agreed	80583
+pull-ups	drop	brand name	agreed	80607
+roissy-en-france	drop	place name	agreed	80622
+t-sql	drop	technical acronym	agreed	80653
+uio	drop	code or institution acronym, not a famous Spanish-world body	agreed	80678
+wayúu	keep	established name of an indigenous people and language, used lowercase as a common word	agreed	80695
+ahar	drop	brand acronym or name	agreed	80723
+asegurémono	merge:asegurarse	imperative plus clitic, 'asegurémonos de que' is the pronominal verb	adjudicated	80748
+bule	drop	mostly a proper name in the examples	agreed	80773
+desgaste-resistente	drop	hyphenated compound of two listed words	agreed	80825
+duns	drop	surname (Duns Scoto) or clothing product name	agreed	80837
+erv	drop	code or acronym, not a Spanish word	agreed	80847
+fum	drop	acronym (Foro Urbano Mundial) or product name	agreed	80874
+handyman	drop	English word not established in Spanish	agreed	80889
+indautxu	drop	place name (Bilbao district)	agreed	80906
+krissy	drop	personal name	agreed	80927
+masking	drop	English word ("masking tape"), not established in Spanish	agreed	80956
+mutis	keep	real Spanish word (hacer mutis), even though many examples are the surname	agreed	80981
+oxicor	merge:oxicorte	lemma is cut off; the word is written oxicorte	agreed	81009
+pfx	drop	technical file-extension acronym	agreed	81024
+rishi	drop	personal name or title, not established in Spanish	agreed	81047
+trobajo	drop	place name (Trobajo del Camino)	agreed	81096
+adizero	drop	brand name	agreed	81130
+ausa	drop	company or acronym name	agreed	81151
+cnk	drop	file-extension code	agreed	81197
+costo-efectiva	drop	hyphenated compound of two listed words	agreed	81211
+cucos	drop	all-caps site-name artefact	agreed	81218
