@@ -27,12 +27,12 @@ language:
     max_length: 30
     propn_usage_determiners: [ein, eine, einen, einem, einer, eines, kein, keine, keinen, keinem, keiner, keines]
     propn_usage_name_max: 0.03
-    review_top: 30000
+    review_top: 40000  # developer 2026-11-02: German is cleaned to 40k
     review_multi_flag: true
     # 2026-11-01 standard (docs/DECISIONS.md): the app's own number check decides spelled numbers, and the
     # reviewed learnable-names list decides every pending place once it is final (PLAYBOOK §Place names).
     number_rule: true
-    names_final: false  # true once reference/learnable-names/<lang>.json in --reference-root is final
+    names_final: true  # Honeyeater reference/learnable-names/de.json @ 25ec0b1 (761 names, incl. the 12 added 2026-11-02)
 hygiene: {min_chars: 20, max_chars: 600, min_alpha_ratio: 0.6, gap_filter: true, langid_min_prob: 0.5}
 parts: 100
 checks:
