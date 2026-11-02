@@ -39,3 +39,19 @@ def test_reviewed_keep_overrides_propn_drop() -> None:
     review = junk.Review(Path("r.tsv"), "", {"renfe": ("keep", "famous institution")})
     routed = {r.lemma: r.action for r in junk.route(["renfe", "acme"], flags, review, 10)}
     assert routed == {"renfe": "review-keep", "acme": "propn-drop"}
+
+
+def test_split_moves_listed_forms_and_merges_the_rest() -> None:
+    # halar holds the noun halo and the interjection Hala (developer ruling 2026-11-01).
+    from pathlib import Path
+
+    from frequer.counts import Merged
+    merged = Merged(parts=1)
+    merged.lemmas["halar"] = LemmaStats(freq=100, df=50, forms=Counter({"halo": 80, "Hala": 20}),
+                                        pos=Counter({"NOUN": 80, "INTJ": 20}))
+    review = junk.Review(Path("r.tsv"), "", {"halar": ("split:halo|hala=Hala", "")})
+    done = junk.apply_splits(merged, review.splits())
+    junk.apply_merges(merged, [junk.Merge("halar", t, 0, "") for t in review.merges().values()])
+    assert [m.target for m in done] == ["hala"]
+    assert merged.lemmas["hala"].freq == 20 and merged.lemmas["hala"].forms == Counter({"Hala": 20})
+    assert merged.lemmas["halo"].freq == 80 and "halar" not in merged.lemmas

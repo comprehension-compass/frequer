@@ -40,6 +40,47 @@ Round 3:
 # question tonic: lemma is one part of a multiword loan (gin tonic); kept rather than merged, since no single-token target is obvious; should such parts keep or merge into a multiword lemma?
 # question celebritie: broken English plural of a loan whose Spanish equivalent is a different word (celebridad); dropped rather than merged into the translation; confirm translation targets are never merges
 
+## Later rounds (2026-11-01/02)
+
+Rounds 4-7 reviewed the lemmas pulled into the widening window (to 31.5k) and turned the lemmatiser
+fragments into merges. Rounds 8-9 reviewed the lemmas no rule flagged, in two stages: two screeners marked
+each `ok` or `suspect`, and the union of suspects (minus units, homograph keys and learnable names, which are
+the release's own entries) went through two reviewers and an adjudicator, with example sentences.
+
+| round | screened | reviewed | keep | drop | merge | pending-names |
+|---|---:|---:|---:|---:|---:|---:|
+| 8 (positions 1-10k) | 9,538 | 307 | 139 | 62 | 102 | 4 |
+| 9 (positions 10k-30k) | 18,744 | 2,946 | 323 | 1,239 | 1,160 | 224 |
+
+**Institutions** (developer ruling, 2026-11-01: famous institutions that aren't places are kept): four
+screeners read the 23,842 earlier drops in the 30k window (7,286 review drops, 16,556 automatic proper-noun
+drops) and picked 754; two reviewers and an adjudicator kept 158 (127 earlier review drops overturned). A
+reviewed keep now overrides the automatic proper-noun drop.
+
+**Place names** (Honeyeater #766 `1bf77f0`, `reference/learnable-names/es.json`, 1,010 names): a place in
+the list is learnable even when its name is also a common word; any other place drops. Of the 430 pending
+place names, 11 are in the list (kept) and 419 drop. Round 1's "major city" keeps that are not in the list
+drop (Perth, Brisbane, Edmonton, Albacete, Zamora, Elche, Teruel, Bursa, Freetown, Perm, URSS); CDMX and EUA
+merge into Ciudad de México and Estados Unidos. Learnable names outside the top 30k are appended after it.
+
+## Developer rulings (2026-11-02)
+
+1. **Split loanwords.** A two-token loan whose halves only occur together is one entry: the first half
+   merges into the compound and the second half follows it (*ping* → *ping-pong*, *pong* follows; *hip* →
+   *hip hop*, *hop* follows; also *modus operandi*, *mutatis mutandis*, *savoir faire*, found as the list
+   pairs whose two-token sequence covers at least 60 % of both halves' frequency). The second half is
+   dropped rather than merged, because its occurrences are the same phrase: merging both would count each
+   occurrence twice.
+2. ***halar* / *hala*.** *halar* was a broken lemma holding two words. It is split by form
+   (`split:halo|hala=…` in `corpora/review/es.tsv`, `junk.apply_splits`): the *Hala* forms go to *hala*,
+   the interjection, which is its own entry; the rest (*halo* the noun, plus a few verb forms) merge into *halo*.
+   The other counts (documents, POS, sources) move in proportion to the forms.
+3. **Verb forms that are also interjections.** A learner's need decides, not the sampled sentences.
+   Where the release keys the interjection as its own lemma (*vaya*, from capitalised *Vaya*; *ojalá*;
+   *hala*), it stays as its own entry. Where the release folds it into the verb (*venga* → *venir*,
+   *anda* → *andar*, *oye* → *oír*, *vamos* → *ir*), the interjection is counted inside the verb's entry:
+   a separate key the release never produces would never match a token in the reader.
+
 ## The rules the reviewers had
 
 # Review rules (the developer's; binding)

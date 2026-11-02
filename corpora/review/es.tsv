@@ -9667,7 +9667,7 @@ hacking	keep	established loan
 banner	keep	established loan
 ponte	merge:ponerse	imperative with clitic
 spot	keep	established loan
-vaya	keep	¡vaya! is a distinct, very common interjection learners meet constantly; only form is capitalised Vaya, as in sentence-initial ¡Vaya!
+vaya	keep	¡vaya!, interjection: the release keys it as its own lemma vaya (capitalised Vaya); kept for a learner's need (developer ruling 2026-11-02); was keep
 ethernet	keep	widely known technology word
 performance	keep	established loan in arts
 situ	drop	fragment of in situ
@@ -9847,13 +9847,13 @@ unids	drop	abbreviation
 windsurf	keep	established loan
 alójate	merge:alojarse	imperative with clitic
 espigar	merge:espiga	forms are espiga
-halar	merge:halo	halar not attested; forms are halo (noun, the commonest form) plus Halo (game) and Hala (interjection)
+halar	split:halo|hala=Hala,HALA,hala,Halas,HALAS	forms split as the examples show: Hala (interjection) to hala, the rest (halo the noun, plus a few verb forms) to halo (developer ruling 2026-11-02); was merge:halo
 macizar	merge:macizo	forms are macizo
 tran	drop	fragment
 eau	drop	French word
 escucha	merge:escuchar	conjugated form
 levar	merge:leva	examples are all the noun leva (cam); levar (anclas) not attested
-hop	drop	English fragment
+hop	drop	second half of a split two-token loan: its occurrences are the same phrase, counted once through the first half (hip → hip hop) (developer ruling 2026-11-02); was drop
 utc	drop	technical acronym
 mazar	merge:mazo	forms are mazo
 amberes	keep	place in the learnable-names list, Honeyeater #766 1bf77f0; was pending-names: place name
@@ -10023,7 +10023,7 @@ slot	keep	loan used in Spanish (casino slots, memory slot)
 dt	drop	abbreviation
 sulfatar	merge:sulfato	wrong lemma
 criada	keep	feminine entry
-pong	drop	fragment of ping pong
+pong	drop	second half of a split two-token loan: its occurrences are the same phrase, counted once through the first half (ping → ping-pong) (developer ruling 2026-11-02); was drop
 avellanar	merge:avellana	wrong lemma
 duomo	drop	Italian
 nu	drop	fragment
@@ -10641,7 +10641,7 @@ emiliano	drop	name
 halter	drop	English fashion term, not established
 iframe	drop	web technical term
 miraflores	drop	place not in the learnable-names list, Honeyeater #766 1bf77f0; was pending-names: place
-modus	drop	Latin fragment
+modus	merge:modus operandi	first half of the split loan modus operandi (developer ruling 2026-11-02); was drop
 octavio	drop	name
 palés	merge:palé	plural filed as lemma
 sneakers	merge:sneaker	English plural as lemma
@@ -11078,7 +11078,7 @@ asensio	drop	surname
 bhopal	drop	place not in the learnable-names list, Honeyeater #766 1bf77f0; was pending-names: place
 bondage	drop	English
 mud	drop	English/abbreviation
-operandi	drop	Latin fragment
+operandi	drop	second half of a split two-token loan: its occurrences are the same phrase, counted once through the first half (modus → modus operandi) (developer ruling 2026-11-02); was drop
 pachamama	keep	Andean concept used as a common word in Spanish
 panorámicar	merge:panorámica	not a word
 quad-core	drop	specialist English
@@ -11693,7 +11693,7 @@ dkv	drop	company
 ekimae	drop	brand
 enisa	drop	institution acronym
 euroliga	drop	competition name
-faire	drop	French
+faire	drop	second half of a split two-token loan: its occurrences are the same phrase, counted once through the first half (savoir → savoir faire) (developer ruling 2026-11-02); was drop
 faisalabad	drop	place not in the learnable-names list, Honeyeater #766 1bf77f0; was pending-names: city
 fíjense	merge:fijarse	clitic imperative
 gita	drop	fragment
@@ -11905,7 +11905,7 @@ rabá	drop	biblical name
 rapallo	drop	place not in the learnable-names list, Honeyeater #766 1bf77f0; was pending-names: town
 remítale	merge:remitir	clitic imperative
 salgar	drop	surname context
-savoir	drop	French
+savoir	merge:savoir faire	first half of the split loan savoir faire (developer ruling 2026-11-02); was drop
 sextoy	drop	English
 silvano	drop	name
 sobrevilla	drop	surname
@@ -12139,8 +12139,8 @@ jab	drop	specialist boxing term and a brand
 japa	drop	Sanskrit
 levántense	merge:levantarse	reflexive imperative
 muchisimos	merge:muchísimo	missing accent
-mutandis	drop	Latin phrase
-mutatis	drop	Latin phrase
+mutandis	drop	second half of a split two-token loan: its occurrences are the same phrase, counted once through the first half (mutatis → mutatis mutandis) (developer ruling 2026-11-02); was drop
+mutatis	merge:mutatis mutandis	first half of the split loan mutatis mutandis (developer ruling 2026-11-02); was drop
 naming	drop	English
 oberland	drop	place not in the learnable-names list, Honeyeater #766 1bf77f0; was pending-names: place name
 objectivo	merge:objetivo	misspelling
@@ -12845,3 +12845,5 @@ mul	drop	fragment
 multiétnica	merge:multiétnico	feminine form
 mvrdv	drop	company
 myqnapcloud	drop	brand
+# rulings 2026-11-02 (developer): split loans, hala, interjections
+hala	keep	¡hala!, interjection: its own entry (developer ruling 2026-11-02)

@@ -54,6 +54,7 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
     def fold(target: str) -> str:  # keys are case-folded, so review targets are too
         return target.lower() if cfg.fold_case else target
 
+    splits = junk.apply_splits(merged, out.review.splits(), fold) if out.review else []
     merges = [junk.Merge(s, fold(t), merged.lemmas[s].freq, "review: merge")
               for s, t in (out.review.merges() if out.review else {}).items() if s in merged.lemmas]
     if jc.accent_ratio:
@@ -61,7 +62,7 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
         vetoed = {k for k, (d, _r) in out.review.decisions.items() if d == "keep"} if out.review else set()
         merges += [m for m in junk.accent_merges(merged.lemmas, jc.accent_ratio)
                    if m.source not in taken and m.source not in vetoed]
-    out.merges = junk.apply_merges(merged, merges)
+    out.merges = splits + junk.apply_merges(merged, merges)
 
     ranked = rank_rows(build_rows(merged, weights), score)
     rank_of = {r.lemma: i for i, r in enumerate(ranked, start=1)}

@@ -80,11 +80,22 @@ def is_unit(lemma: str) -> bool:
 class Review:
     path: Path
     sha256: str
-    #: lemma -> (decision, reason); decision is keep, drop or merge:<lemma>
+    #: lemma -> (decision, reason); decision is keep, drop, pending-names, merge:<lemma> or
+    #: split:<lemma>|<other>=<form>,<form>... (the listed forms go to <other>, the rest merge into <lemma>)
     decisions: dict[str, tuple[str, str]]
 
     def merges(self) -> dict[str, str]:
-        return {k: d.split(":", 1)[1] for k, (d, _r) in self.decisions.items() if d.startswith("merge:")}
+        out = {k: d.split(":", 1)[1] for k, (d, _r) in self.decisions.items() if d.startswith("merge:")}
+        out.update({k: default for k, (default, _moves) in self.splits().items()})
+        return out
+
+    def splits(self) -> dict[str, tuple[str, dict[str, frozenset[str]]]]:
+        out: dict[str, tuple[str, dict[str, frozenset[str]]]] = {}
+        for k, (d, _r) in self.decisions.items():
+            if d.startswith("split:"):
+                default, *moves = d.split(":", 1)[1].split("|")
+                out[k] = (default, {t: frozenset(f.split(",")) for t, f in (m.split("=", 1) for m in moves)})
+        return out
 
 
 def review_path(lang: str, root: Path = MANIFEST_DIR) -> Path:
@@ -102,8 +113,11 @@ def load_review(lang: str, root: Path = MANIFEST_DIR) -> Review | None:
             continue
         parts = line.split("\t")
         decision = parts[1].strip() if len(parts) > 1 else ""
-        if decision not in ("keep", "drop", "pending-names") and not decision.startswith("merge:"):
-            raise SystemExit(f"{path}:{n}: decision {decision!r} is not keep, drop, pending-names or merge:<lemma>")
+        ok = decision in ("keep", "drop", "pending-names") or decision.startswith("merge:") or (
+            decision.startswith("split:") and "|" in decision and "=" in decision)
+        if not ok:
+            raise SystemExit(f"{path}:{n}: decision {decision!r} is not keep, drop, pending-names, merge:<lemma> "
+                             "or split:<lemma>|<other>=<forms>")
         decisions[parts[0]] = (decision, parts[2].strip() if len(parts) > 2 else "")
     return Review(path, hashlib.sha256(raw).hexdigest(), decisions)
 
@@ -161,6 +175,44 @@ def _merge_stats(into: LemmaStats, other: LemmaStats) -> None:
     into.parts.update(other.parts)
     into.readings.update(other.readings)
     into.kinds.update(other.kinds)
+
+
+def apply_splits(merged: Merged, splits: Mapping[str, tuple[str, dict[str, frozenset[str]]]],
+                 fold: Callable[[str], str] = lambda t: t) -> list[Merge]:
+    """Carve each split's listed forms out of its source into their own lemma (before the merges).
+
+    The forms move exactly; the source's other counts (documents, POS, sources, parts, unit kinds) move in
+    proportion to the forms' share of its frequency.
+    """
+    done: list[Merge] = []
+    for source, (_default, moves) in splits.items():
+        src = merged.lemmas.get(source)
+        if src is None or not src.freq:
+            continue
+        for target, forms in moves.items():
+            moved = Counter({f: c for f, c in src.forms.items() if f in forms})
+            n = sum(moved.values())
+            if not n:
+                continue
+            share = n / src.freq
+            part = LemmaStats(freq=n, df=round(src.df * share), forms=moved)
+            for name in ("by_source", "pos", "parts", "kinds"):
+                whole: Counter[Any] = getattr(src, name)
+                cut = Counter({k: round(v * share) for k, v in whole.items() if round(v * share)})
+                getattr(part, name).update(cut)
+                whole.subtract(cut)
+                setattr(src, name, +whole)
+            src.freq -= n
+            src.df -= part.df
+            for f in moved:
+                del src.forms[f]
+            t = fold(target)
+            if t in merged.lemmas:
+                _merge_stats(merged.lemmas[t], part)
+            else:
+                merged.lemmas[t] = part
+            done.append(Merge(source, t, n, f"review: split ({', '.join(sorted(moved))})"))
+    return done
 
 
 def apply_merges(merged: Merged, merges: Sequence[Merge]) -> list[Merge]:
