@@ -1,0 +1,12 @@
+# lemma	A	reason A	B	reason B
+marshmallow	keep	established loan	drop	mostly Android version/brand
+noodl	drop	broken lemma for English "noodles", which is not established (fideos)	merge:noodles	cut-off lemma of the glossed loan noodles
+visco	drop	mostly a brand or prefix, not a standalone word	keep	real Spanish word (birdlime, viscous), also a prefix-like form
+valium	drop	brand name	keep	genericised drug name used as a common word
+afiliadas	merge:afiliada	plural filed as lemma	merge:afiliado	plural form filed as a lemma
+junker	drop	foreign historical term/name	keep	established historical term for Prussian nobles
+inkas	merge:inca	k-spelling of inca	drop	mostly a hotel or brand name
+betta	drop	niche fish name, mostly foreign/proper use	keep	aquarium fish name used in Spanish
+peritado	keep	real Spanish adjective or noun, already in singular form	merge:peritar	plural participle filed as lemma
+resilience	drop	English word	merge:resiliencia	English spelling of adapted word
+pre-construcción	drop	hyphenated prefix form, not a standard lemma	merge:preconstrucción	hyphenated spelling of the single word preconstrucción

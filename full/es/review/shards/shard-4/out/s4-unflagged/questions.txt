@@ -1,0 +1,101 @@
+# question alegadamente: calque of English "allegedly" that is not in the DLE but is common in news writing; kept as established usage
+# question amicus: "amicus curiae" is a Latin legal phrase used in Spanish; dropped as specialist
+# question avellano: the second example sentence has no visible avellano form and may be a place or proper-name use. Even so, the common-word reading is the clear majority, so it stays.
+# question cantilever: technical design term, kept as an established loan, but it could count as specialist
+# question capitoné: French-origin upholstery term; borderline between established loan and foreign word
+# question capitoné: French-origin upholstery term; kept as established in Spanish decor vocabulary
+# question cedeao: it is a regional African body (ECOWAS), not clearly "famous" in the sense of the rule; kept as an international body
+# question cedeao: not sure whether a West African regional bloc counts as a famous international body, which the rules list only by example (ONU, UE, OTAN, OMS)
+# question chenille: chenilla is the Spanish form, but these hits are mostly product listings
+# question chontal: mostly the Nicaraguan department Chontales, but also an ethnonym/adjective; I chose drop as the place reading is the majority.
+# question chontal: the forms are mostly "Chontales" (a Nicaraguan department), but "chontal" is also a common ethnonym; I treated it as a place name and dropped it.
+# question chorrillo: the real common word is a minority of the occurrences and most are the place Chorrillos
+# question claretiano: derived from a religious order's name; I treated it as an ordinary adjective and kept it
+# question computerizada: the right target is unclear between computarizado and computerizado; I chose the verb computarizar.
+# question computerizada: unclear whether the right lemma is computarizado or computerizado; I chose the adapted spelling computarizado
+# question creatura: could be merged into criatura as a variant, but the RAE lists it as a word in its own right
+# question cristino: mixed between the place Isla Cristina and misspelt cristianas; I dropped it as the majority is the place
+# question cristino: the main form cristina is the Isla Cristina place name or a given name, while cristinas in the examples is a misspelling of cristianas; I dropped it rather than merging into cristiano.
+# question customización: borderline anglicism (from customizar); kept as a Spanish-formed derivative
+# question datum: used in Spanish geodesy/GIS, but only specialists use it; dropped as technical
+# question descriminalización: it is a misspelling-flagged but widely attested Spanish variant; merging into despenalización is the alternative.
+# question descriminalización: it is attested in Latin American Spanish, so keep is arguable; I merged it into despenalización, though decriminalización is the other candidate
+# question dinamo: most examples are club names (Dinamo); I merged to the common word dínamo.
+# question encostrar: real but rare verb; the inflected forms look unusual, so it may be a lemmatiser artefact
+# question entregabilidad: calque of English "deliverability", kept as a real Spanish formation
+# question entregabilidad: calque of English "deliverability", real Spanish formation but narrow email-marketing jargon; kept
+# question exagente: ex- compounds are normally written solid in news text but the academy prefers a separate ex; kept as a real word
+# question exagente: the rules say nothing on ex- compounds; I dropped it as a prefix compound, but a merge to "agente" or a keep for "ex agente" could also be argued.
+# question facelift: car-trade loan used in Spanish listings, but all examples are model-spec strings, so I dropped it
+# question facelift: only seen in car listings, so it may be too niche to count as established
+# question fobos: Fobos is the Spanish name for the moon Phobos, which could count as a place name (drop) or a name for a body in space; I dropped it either way.
+# question gadita: biblical demonym only (Gad tribe), borderline for a learner list, kept as a real word
+# question grappa: grappa is also an established Italian spirit, but nearly all examples are the place name, so I dropped it
+# question gravísimo: it is unclear whether a superlative counts as a broken lemma; I merged it into grave
+# question habitacio: no examples were available, so I assumed Catalan or a cut-off form; if it is mostly an accent-less habitación it should merge:habitación.
+# question hase: majority of examples are archaic "ha+se" with some spam/name uses; merged to haber though a drop is defensible
+# question hmm: an English-style spelling of a hesitation interjection (Spanish usually writes "mmm"), so whether it counts as established is unclear
+# question impeachment: loan, though Spanish also uses "juicio político"; kept as an established loan
+# question jitter: could count as an established technical loan, but treated as specialist
+# question kayac: kayac is the adapted spelling, but kayak is the more common form people write; merged
+# question kulak: borderline historical Russian loan; kept as used in Spanish historical texts
+# question lamivudine: same doubt as sumatriptan; merged into lamivudina, though dropping could be argued.
+# question lamivudine: same issue as sumatriptan. I merged it to lamivudina as an English spelling of an adapted word, but it could be a specialist term to drop.
+# question lidio: lidio is a real adjective (Lydian), but most forms are lidia, so I merged
+# question malls: established in Latin American Spanish but not in all varieties; I merged to mall rather than dropping it.
+# question malls: mall is a loan mainly in Latin America; merged the plural to mall rather than dropping.
+# question mapeados: merged to the verb mapear, though mapeado (participle/adjective) is also plausible
+# question mirrorless: a photography loan that may only be specialist; I kept it as widely used in Spanish camera text
+# question mirrorless: the term is used in Spanish camera writing but may be too specialist for a learner list.
+# question molesta: could be the feminine of the adjective molesto or a form of molestar; the examples were unavailable
+# question montesino: the real adjective is rare and most occurrences are the surname or place Montesinos, so keep is borderline
+# question mortem: "post" is not in this batch, so I dropped it as the second half of the split loan "post mortem"
+# question moño: most counted forms are "monos" (mono), so the lemma may be mis-assigned, but moño itself is a real word and is kept
+# question notariado: forms mix the noun notariado and the participle notariada; I kept the noun lemma
+# question nylon: the academy spells it nailon, but the counted text almost always writes nylon; I kept it as the form people write rather than merging into nailon.
+# question opacar: forms are mostly the adjective opaco; I merged it, though opacar is also a real verb
+# question orear: lemma is a real verb, but the counts are dominated by the Oreo brand
+# question orear: the forms are mostly the Oreo brand, but orear is a real verb, so I kept it under the common-word rule
+# question pachinko: unclear whether it is established enough in Spanish to count as a loan
+# question pachinko: well-known Japanese game, but not established in Spanish; dropped
+# question pacificar: forms are mostly the name Pacifica and pacifico, so unclear whether to merge into pacífico or drop; chose drop.
+# question pacificar: real verb exists, but most forms are the name Pacifica or the misspelling pacifico, so I dropped it
+# question pallar: the capitalised Pallas/Pallares/Palla are probably names, which may outnumber the real bean word
+# question politburó: could be read as an institution name, but treated as a common noun
+# question predeterminadamente: real-sounding adverb used for "by default" but not a standard dictionary form; dropped as dubious
+# question qubit: a specialist term; I kept it as an established loan, but it could be read as technical vocabulary only specialists use.
+# question qubit: could count as a specialist term; kept because it is the established Spanish form in general science writing
+# question rapidísima: unclear whether a superlative should merge into rapidísimo or rápido; chose rapidísimo
+# question rapidísima: unclear whether the lemma should be rápido or rapidísimo
+# question realize: some of the 169 occurrences may be English, but all three examples are Spanish misspellings of "realice", so I merged it.
+# question rectar: almost all the occurrences are recta, which is a noun in its own right and also the feminine of recto; I merged to recta, but recto is also defensible.
+# question responsivo: calque from English "responsive", but common enough in Spanish web writing that I kept it
+# question responsivo: calque of English "responsive" but widely used in Spanish web-design text; I kept it.
+# question roadbook: the examples are mostly product listings, but it is the standard rally term in Spanish, so I kept it.
+# question roadbook: this is a niche rally term; I kept it as an established loan
+# question rosáceo: the noun rosácea dominates; I kept the lemma instead of merging it to rosácea.
+# question salita: a diminutive that could merge into sala, but it is not a broken lemma, so I kept it
+# question siquiátrico: it is an accepted academy spelling, so I kept it rather than merging it into psiquiátrico.
+# question siquiátrico: kept as an accepted variant; merging into psiquiátrico is possible if one spelling is preferred.
+# question subsiguientemente: adverb of real subsiguiente, used in legal/formal text, but not clearly established; dropped
+# question sumatriptan: drug generic names may be too specialist for a learner list; I merged them into the Spanish spelling.
+# question sumatriptan: the rules don't say whether generic drug names belong on a learner's list. I merged it as a missing-accent form, but it could be a specialist term to drop.
+# question telf: the abbreviation of teléfono is a minority of occurrences versus the town Telfs, so I dropped it rather than merging into teléfono
+# question trimado: nautical term, kept as real Spanish, but all examples are product/technical text
+# question trimado: nautical/technical sense only; kept as real Spanish word
+# question ultimadamente: a calque but widely written in Spanish web text; I chose drop because it is not standard.
+# question ultimadamente: it is a calque of English "ultimately" and is not obviously a misspelling, so I dropped it rather than merging it into "finalmente".
+# question upyd: a political party is neither a listed famous institution nor an ordinary organisation; dropped as a party acronym
+# question valsartán: drug generic names aren't covered by the technical-acronym rule, so it could be a specialist term
+# question valsartán: real generic drug name, but possibly too specialist for a learner list; kept as a common noun
+# question velour: unclear if velour is established enough to keep as written or should merge into velur
+# question vicenciano: real but niche religious adjective, so keep is borderline
+# question zapar: zapa is also a distinct word (sap/spade) but most occurrences are zapas (shoes), so merged to zapa.
+# question zapar: zapa/zapas could be the real word zapa (spade/sap) rather than the clipping of zapatilla; the examples shown are all sneakers, so I merged to zapatilla.
+# question zucchini: Spanish texts do use it, so it may be an established loan, but calabacín is the standard word; I dropped it.
+# question zucchini: it may be established in some regions, but calabacín is the standard Spanish word
+# question cedeao: should regional international bodies (CEDEAO, OEA) count as famous international bodies under the institutions rule? OEA in particular seems learner-relevant.
+# question gadita: are demonyms of biblical tribes and peoples (gaditas, rubenitas, manasitas) common words to keep or names to drop?
+# question molesta, habitacio: no examples in the sample; molesta could be the verb molestar, and habitacio could be Catalan habitació rather than cut-off habitación.
+# question opacar, diezmar, cascar, jalear: two real words are filed under one lemma (opaco, cáscara and jaleo are hidden); should the hidden word be split out into its own entry, or is one decision per lemma final?
+# question rapidísima: should -ísimo superlatives merge into the base adjective (rápido) or into a masculine superlative lemma (rapidísimo)?
