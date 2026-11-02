@@ -1,0 +1,36 @@
+Deutsche	keep	nominalised adjective der/die Deutsche is a noun in its own right, distinct from the language Deutsch
+eBook	merge:Ebook	same loan word written two ways; the noun is filed with a lower-case initial, so it goes to the listed capitalised entry
+fall	merge:Fall	falle/falles are old case forms of Fall (im Falle, des Falles), so German Fall, not English; noun filed lower-case
+Arme	merge:Arm	the example "den Armen" means arms; bare "arme" occurs only 3 times, so it is not the noun der/die Arme
+Grille	merge:grillen	all examples are das Grillen (the verb); the insect hardly occurs in the forms
+Fr	drop	für is not obvious: capitalised Fr is usually Freitag/Frau/Franken, there are no examples, and fren fits none of them
+Letzte	merge:letzte	forms are only letzten, an inflected adjective under a capital; letzte is the listed adjective lemma
+kWh	keep	correctly written unit symbol; units are release entries; the lower-case kwh should merge here
+Reiche	keep	der/die Reiche (die Reichen) is a nominalised adjective and a learnable noun; only 139 reiches point to Reich
+Oberst	keep	bare oberst (866) and obersts are the noun Oberst (colonel), since the adjective almost never appears uninflected; the oberste forms belong to the adjective
+klamm	merge:Klammer	the lemmatiser read Klammer as the comparative of klamm; 1,415 klammer plus a Klammer example
+kB	keep	kB is the correct kilobyte symbol (unit); KB is the variant that should merge here
+Essener	keep	city demonym, consistent with Berliner/Kölner/Nürnberger; not a plural of Essen
+Single	keep	der/die Single (plural Singles, 1,634) is an established noun loan
+Grabe	merge:Graben	all forms are graben, and the examples show Graben (ditch) and Graben as the verb noun; Grabe itself is only an inflected form of Grab
+rüde	merge:Rüde	forms and examples are Rüden (male dogs); adjective forms are about 34
+Buse	merge:Busen	forms and examples are Busen; not a plural of Bus
+Testen	merge:testen	pure verb noun of testen with no meaning of its own, unlike Essen
+Grüsse	merge:Gruss	plural filed as lemma; Gruss is the listed singular
+j	drop	single letter with no examples; J is a PROPN initial, so there is nothing learnable to merge into
+kHz	keep	correctly written unit symbol; units are release entries; KHz should merge here
+Schnitte	merge:Schnitt	the examples ("Muster und Schnitten") are plural cuts of Schnitt, not Schnitte (slice)
+Responsive	drop	English web-design jargon (Responsive Design), not an established loan; the lower-case entry is not a real target either
+wichtigste	merge:Wichtigste	tagged NOUN; das Wichtigste is listed; noun filed lower-case
+gend	merge:Gender	879 of 899 forms are gender (the lemmatiser read it as a comparative); Gender is an established loan
+rauen	merge:rau	the adjective forms raue/rauen/rau (488) outnumber raute/raut (391); a mixed lemma, merged into the larger share
+Kickers	drop	all examples are club or team names (Kickers United, Kid Kickers, the Burghausen opponent)
+Grass	drop	not a known spelling of Gras (Swiss writes Gras too) and there are no examples; likely Günter Grass or English, so not an obvious merge
+Gelbe	merge:gelb	only gelben, an inflected adjective, as in the Rote -> rot precedent
+ms	keep	correctly written unit symbol (millisecond), not MS (multiple sclerosis/Microsoft); units are release entries
+# question kWh, kB, kHz, ms: the README says units are not candidates, but the rules say specialist abbreviations drop. I kept the correctly cased symbols. Please confirm, and confirm that kwh/KB/KHz merge into them.
+# question eBook: neither eBook nor Ebook is the Duden form (E-Book). Which lemma is canonical for this loan?
+# question Testen, Grille: should pure verb nouns (das Testen, das Grillen) merge into the verb? Reviewer 1 cites Scannen as kept.
+# question Grüsse: should Swiss ss lemmas (Gruss, Süsse) fold into ß forms (Gruß, süß)? Grüße already goes to Gruß.
+# question klamm, gend: the lemmatiser files nouns that look like comparatives (Klammer, Gender) under a made-up base word. Merging klamm leaves the real adjective klamm (clammy) without an entry. Should it be added?
+# question Oberst, rauen, Reiche: these lemmas mix two real words (colonel/top, Raute/rau, Reich/die Reichen). Can they be split, or does the majority reading decide?

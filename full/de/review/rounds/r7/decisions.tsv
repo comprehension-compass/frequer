@@ -1,0 +1,711 @@
+# lemma	decision	reason	how	rank
+m	merge:M	single letter filed in lower case; 'M' is on the list	agreed	472
+weiterlesen	keep	real separable verb, only its tag is wrong	agreed	517
+x	merge:X	single letter filed in lower case	agreed	690
+s	merge:S	single letter filed in lower case	agreed	970
+g	merge:G	single letter filed in lower case	agreed	1035
+Schweizer	keep	noun in its own right (person from Switzerland)	agreed	1346
+Berliner	keep	noun in its own right (inhabitant of Berlin)	agreed	1414
+Deutsche	keep	nominalised adjective der/die Deutsche is a noun in its own right, distinct from the language Deutsch	adjudicated	1560
+Gern	merge:gern	adverb filed under a capitalised lemma	agreed	1863
+Online	merge:online	adverb filed under a capitalised lemma	agreed	1977
+b	merge:B	single letter filed in lower case	agreed	2080
+e	merge:E	single letter filed in lower case	agreed	2719
+Wiener	keep	noun in its own right (Viennese person, sausage)	agreed	2792
+Musiker	keep	own agent noun, not a plural of Musik	agreed	2844
+Blüte	keep	correct singular lemma; Blüten is its plural	agreed	2848
+rauchen	keep	real verb; the noun Rauchen is a separate entry	agreed	3034
+Anfänger	keep	own agent noun, not a plural of Anfang	agreed	3051
+grüßen	keep	real verb; the Grüße forms belong with it, and grüssen is the Swiss spelling	agreed	3124
+Frankfurter	keep	noun in its own right (inhabitant, sausage)	agreed	3126
+l	merge:L	single letter filed in lower case	agreed	3206
+baden	keep	real verb; the noun Baden is separate	agreed	3209
+c	merge:C	single letter filed in lower case	agreed	3246
+Designer	keep	own agent noun, not a plural of Design	agreed	3509
+t	merge:T	single letter filed in lower case	agreed	3534
+Gründer	keep	own agent noun, not a plural of Grund	agreed	3614
+Sieger	keep	own agent noun, not a plural of Sieg	agreed	3756
+Kölner	keep	noun in its own right (inhabitant of Cologne)	agreed	3815
+Falle	keep	own noun (trap), not a plural of Fall	agreed	3950
+Drucker	keep	own noun (printer), not a plural of Druck	agreed	4353
+Arbeiter	keep	own agent noun, not a plural of Arbeit	agreed	4480
+Erste	merge:erste	inflected adjective form (ersten) filed under a capitalised lemma	agreed	4663
+Highlights	merge:Highlight	plural filed as lemma	agreed	4847
+Mag	merge:mögen	conjugated form of mögen filed as lemma	agreed	4878
+Unterlagen	keep	usual plural with its own meaning (documents)	agreed	5025
+US-amerikanisch	keep	valid adjective lemma	agreed	5064
+Ausländer	keep	own agent noun, not a plural of Ausland	agreed	5148
+Nächste	merge:nächste	inflected adjective form filed under a capitalised lemma	agreed	5304
+Eisen	keep	own noun (iron), not a plural of Eis	agreed	5319
+Wähler	keep	own agent noun, not a plural of Wahl	agreed	5326
+Schütze	keep	own noun (marksman), not a plural of Schutz	agreed	5354
+Kritiker	keep	agent noun in its own right, not the plural of Kritik	agreed	5438
+Maler	keep	agent noun "painter", distinct from Mal	agreed	5604
+gedenken	keep	genuine verb lemma; forms are verbal	agreed	5626
+eBook	merge:Ebook	same loan word written two ways; the noun is filed with a lower-case initial, so it goes to the listed capitalised entry	adjudicated	5648
+Urlauber	keep	agent noun distinct from Urlaub	agreed	5937
+Techniker	keep	agent noun distinct from Technik	agreed	5953
+Gesellschafter	keep	agent noun distinct from Gesellschaft	agreed	6093
+Montage	keep	own noun "assembly", distinct from Montag	agreed	6106
+radfahren	keep	separable verb lemma	agreed	6387
+ringen	keep	genuine verb lemma	agreed	6416
+Lieber	merge:lieber	adverb filed under a capitalised lemma	agreed	6441
+Leipziger	keep	derived adjective/noun for an inhabitant, not a place name	agreed	6451
+Leiden	keep	noun "das Leiden" in its own right	agreed	6520
+Läufer	keep	agent noun distinct from Lauf	agreed	6700
+fall	merge:Fall	falle/falles are old case forms of Fall (im Falle, des Falles), so German Fall, not English; noun filed lower-case	adjudicated	6753
+spannen	keep	genuine verb lemma	agreed	6927
+Arme	merge:Arm	the example "den Armen" means arms; bare "arme" occurs only 3 times, so it is not the noun der/die Arme	adjudicated	6944
+Krieger	keep	agent noun distinct from Krieg	agreed	6988
+Mehr	merge:mehr	adverb filed under a capitalised lemma	agreed	7004
+Mediziner	keep	agent noun distinct from Medizin	agreed	7200
+Kämpfer	keep	agent noun distinct from Kampf	agreed	7275
+Profitieren	merge:profitieren	verb filed under a capitalised lemma	agreed	7371
+Zähler	keep	own noun "numerator/meter", distinct from Zahl	agreed	7419
+Grille	merge:grillen	all examples are das Grillen (the verb); the insect hardly occurs in the forms	adjudicated	7516
+Werkstätte	merge:Werkstatt	mostly the plural Werkstätten; variant of Werkstatt	agreed	7566
+Tablets	merge:Tablet	plural filed as a lemma	agreed	7589
+Botschafter	keep	agent noun distinct from Botschaft	agreed	7642
+verschulden	keep	genuine verb lemma	agreed	7718
+Praktische	merge:praktisch	adjective filed under a capitalised lemma	agreed	7835
+Stürmer	keep	agent noun distinct from Sturm	agreed	8100
+Lüfter	keep	own noun "fan", distinct from Luft	agreed	8110
+mbH	drop	abbreviation (company-name suffix), not learnable	agreed	8218
+Fr	drop	für is not obvious: capitalised Fr is usually Freitag/Frau/Franken, there are no examples, and fren fits none of them	adjudicated	8235
+Perfekt	merge:perfekt	adjective filed under a capitalised lemma	agreed	8255
+Französische	merge:französisch	inflected adjective forms filed as a lemma	agreed	8288
+Güte	keep	own noun "kindness/quality", distinct from gut	agreed	8566
+Nürnberger	keep	derived adjective/noun for an inhabitant, not a place name	agreed	8613
+Letzte	merge:letzte	forms are only letzten, an inflected adjective under a capital; letzte is the listed adjective lemma	adjudicated	8813
+DVDs	merge:DVD	plural of an established loan abbreviation	agreed	8817
+Plakate	merge:Plakat	plural filed as a lemma	agreed	8972
+Leinen	keep	Leinen (linen fabric) is a noun in its own right, not the plural of Leine	agreed	9039
+Berger	drop	surname (Christoph Berger), other names drop	agreed	9071
+Funke	keep	Funke is a real noun, the singular of Funken, not a plural of Funk	agreed	9103
+Mais	keep	Mais (maize) is a noun in its own right, not a form of Mai	agreed	9175
+hellen	merge:hell	inflected forms of the adjective hell filed under a lower-case non-lemma	agreed	9271
+Potenziale	merge:Potenzial	plural filed as a lemma	agreed	9331
+kWh	keep	correctly written unit symbol; units are release entries; the lower-case kwh should merge here	adjudicated	9410
+Reiche	keep	der/die Reiche (die Reichen) is a nominalised adjective and a learnable noun; only 139 reiches point to Reich	adjudicated	9437
+Planer	keep	agent noun with its own entry	agreed	9871
+Rate	keep	Rate (instalment, rate) is its own noun, not a form of Rat	agreed	9897
+Starter	keep	agent noun with its own entry	agreed	9918
+Personenbezogene	merge:personenbezogen	inflected adjective filed under a capitalised lemma	agreed	9921
+Betrüger	keep	agent noun with its own entry	agreed	9995
+v	drop	single letter	agreed	10000
+Transporter	keep	own noun (vehicle, carrier)	agreed	10027
+Gewürze	merge:Gewürz	plural filed as a lemma	agreed	10121
+Handeln	keep	nominalised verb (das Handeln), a noun in its own right like Essen	agreed	10290
+Dinger	merge:Ding	colloquial plural filed as a lemma	agreed	10297
+Röhre	keep	own noun, a distinct word from Rohr	agreed	10368
+Displays	merge:Display	plural filed as a lemma	agreed	10496
+derMehr	drop	brand or junk token	agreed	10535
+Fußballer	keep	agent noun with its own entry	agreed	10560
+Tänzer	keep	agent noun with its own entry	agreed	10706
+xD	drop	emoticon	agreed	10719
+Überzeugen	merge:überzeugen	verb filed under a capitalised lemma	agreed	10877
+Tweets	merge:Tweet	plural filed as a lemma	agreed	11043
+Wettbewerber	keep	agent noun with its own entry	agreed	11119
+Lassen	merge:lassen	verb filed under a capitalised lemma	agreed	11333
+turnen	keep	correct lower-case verb lemma, distinct from the noun Turnen	agreed	11399
+Tippen	merge:tippen	verb filed under a capitalised lemma	agreed	11495
+nichtsdestotrotz	keep	correct lower-case adverb	agreed	11501
+Module	merge:Modul	plural filed as a lemma	agreed	11532
+Tester	keep	agent noun with its own entry	agreed	11657
+samen	merge:Samen	noun filed under a lower-case lemma	agreed	11757
+Oberst	keep	bare oberst (866) and obersts are the noun Oberst (colonel), since the adjective almost never appears uninflected; the oberste forms belong to the adjective	adjudicated	11889
+Aktiv	merge:aktiv	adjective filed under a capitalised lemma	agreed	11956
+Camper	keep	own noun (person, vehicle)	agreed	11989
+Schläger	keep	own noun (racket, thug)	agreed	12137
+Palme	keep	own noun, distinct from Palm	agreed	12209
+Angeblich	merge:angeblich	adjective filed under a capitalised lemma	agreed	12249
+Völlig	merge:völlig	capitalised adverb, real lemma is völlig	agreed	12294
+iN	merge:in	odd casing of the preposition in	agreed	12308
+Medizinische	merge:medizinisch	inflected adjective filed under a capital	agreed	12382
+Mia	drop	personal name	agreed	12456
+klamm	merge:Klammer	the lemmatiser read Klammer as the comparative of klamm; 1,415 klammer plus a Klammer example	adjudicated	12622
+Fels	keep	correct singular lemma	agreed	12685
+Mods	merge:Mod	plural filed as lemma	agreed	12758
+Größere	merge:groß	inflected comparative of groß	agreed	12781
+Pools	merge:Pool	plural filed as lemma	agreed	12788
+Kürzlich	merge:kürzlich	capitalised adverb	agreed	12800
+Negativ	merge:negativ	capitalised adjective, mostly adjectival forms	agreed	12898
+kB	keep	kB is the correct kilobyte symbol (unit); KB is the variant that should merge here	adjudicated	13067
+dieMehr	drop	article and word run together, not a word	agreed	13094
+Essener	keep	city demonym, consistent with Berliner/Kölner/Nürnberger; not a plural of Essen	adjudicated	13184
+e-mail	merge:E-Mail	lower-case spelling of E-Mail	agreed	13198
+Ständer	keep	own noun (stand, rack), not a plural of Stand	agreed	13223
+Schlager	keep	own noun, not a plural of Schlag	agreed	13266
+Ranger	keep	established loan noun, not a plural of Rang	agreed	13362
+Prüfen	merge:prüfen	capitalised verb	agreed	13379
+Dealer	keep	own noun, not a plural of Deal	agreed	13420
+nächste	merge:nächst	inflected adjective form filed as lemma	agreed	13501
+Single	keep	der/die Single (plural Singles, 1,634) is an established noun loan	adjudicated	13509
+pH-Wert	keep	correct spelling of the term	agreed	13575
+uhr	merge:Uhr	noun filed under a lower-case lemma	agreed	13585
+Hierzu	merge:hierzu	capitalised adverb	agreed	13717
+Physiker	keep	own noun, not a plural of Physik	agreed	13733
+Felsen	merge:Fels	inflected form of Fels	agreed	13885
+Parker	drop	surname/given name in the examples, not a plural of Park	agreed	13953
+Jährlich	merge:jährlich	capitalised adjective	agreed	13972
+Tattoos	merge:Tattoo	plural filed as lemma	agreed	14335
+Anrufer	keep	own noun, not a plural of Anruf	agreed	14365
+Pole	keep	own noun (a Pole), not a plural of Pol	agreed	14372
+Boxer	keep	own noun, not a plural of Box	agreed	14437
+Grabe	merge:Graben	all forms are graben, and the examples show Graben (ditch) and Graben as the verb noun; Grabe itself is only an inflected form of Grab	adjudicated	14679
+ev	drop	abbreviation/fragment with mixed forms (ever, even)	agreed	14905
+rüde	merge:Rüde	forms and examples are Rüden (male dogs); adjective forms are about 34	adjudicated	14986
+Muslime	merge:Muslim	plural filed as lemma	agreed	15033
+Julie	drop	personal name	agreed	15073
+Studiengänge	merge:Studiengang	plural filed as lemma	agreed	15325
+dürr	keep	genuine adjective (dürr, dürre); the NOUN tag is wrong	agreed	15367
+Kreditinstitute	merge:Kreditinstitut	plural filed as lemma	agreed	15404
+wii	merge:Wii	lower-case variant of the listed lemma	agreed	15463
+Benziner	keep	own noun (petrol car), not a plural of Benzin	agreed	15517
+Toner	keep	own noun, not a plural of Ton	agreed	15716
+nm	merge:Nm	case variant of the listed abbreviation	agreed	15870
+Rinde	keep	own noun (bark), not a plural of Rind	agreed	16014
+Hure	keep	own noun, not a plural of Hur	agreed	16141
+thema	merge:Thema	lower-case noun	agreed	16146
+Hecke	keep	own noun (hedge), not a plural of Heck	agreed	16303
+Scannen	keep	nominalised infinitive, a noun in its own right (examples are all nominal)	agreed	16376
+Gräber	merge:Grab	plural filed as lemma	agreed	16421
+Workflows	merge:Workflow	plural filed as lemma	agreed	16462
+Tracker	keep	own noun, not a plural of Track	agreed	16471
+pc	merge:PC	lower-case variant of the listed abbreviation	agreed	16587
+Buse	merge:Busen	forms and examples are Busen; not a plural of Bus	adjudicated	16702
+Wohnmobile	merge:Wohnmobil	plural filed as lemma	agreed	16824
+Zelte	merge:Zelt	plural filed as lemma	agreed	17076
+Onlineshops	merge:Onlineshop	plural filed as lemma	agreed	17387
+Testen	merge:testen	pure verb noun of testen with no meaning of its own, unlike Essen	adjudicated	17396
+Grüsse	merge:Gruss	plural filed as lemma; Gruss is the listed singular	adjudicated	17447
+Bildschirme	merge:Bildschirm	plural filed as lemma	agreed	17509
+Rausche	merge:rauschen	cut-off fragment; the written form is rauschen	agreed	17564
+ch	drop	letter fragment/suffix pieces with no clear target	agreed	17575
+Wunderbar	merge:wunderbar	adjective filed under a capitalised lemma	agreed	17595
+Staun	merge:staunen	cut-off fragment of the verb	agreed	17737
+Automobile	merge:Automobil	plural filed as lemma	agreed	17746
+Grafiker	keep	own noun (agent noun), not a plural of Grafik	agreed	17815
+Digitale	merge:digital	inflected adjective form (digitalen) filed as lemma	agreed	17894
+Maßgeblich	merge:maßgeblich	adjective filed under a capitalised lemma	agreed	17975
+ex	merge:Ex	lower-case variant of the listed noun	agreed	18036
+j	drop	single letter with no examples; J is a PROPN initial, so there is nothing learnable to merge into	adjudicated	18137
+Labore	merge:Labor	plural filed as lemma	agreed	18188
+Gass	merge:Gasse	cut-off fragment; the written form is mostly gasse	agreed	18225
+Anschliessend	merge:anschließend	capitalised adverb, ss spelling variant	agreed	18361
+reimen	keep	correct lower-case verb lemma	agreed	18397
+Downloade	merge:downloaden	inflected/cut-off form of the verb	agreed	18446
+Erlöser	keep	own noun, not a plural of Erlös	agreed	18506
+Rocker	keep	own noun, not a plural of Rock	agreed	18536
+Pedale	merge:Pedal	plural filed as lemma	agreed	18591
+Schals	merge:Schal	plural filed as lemma	agreed	18616
+Neugierig	merge:neugierig	capitalised adjective, real lemma is neugierig	agreed	18656
+ge	drop	cut-off prefix fragment with no obvious target	agreed	18695
+Federer	drop	person name, not a plural of Feder	agreed	18737
+Kindertagesstätten	merge:Kindertagesstätte	plural filed as lemma	agreed	18740
+Wendungen	merge:Wendung	plural filed as lemma	agreed	18798
+Isabel	drop	personal name	agreed	18863
+Sonnenschirme	merge:Sonnenschirm	plural filed as lemma	agreed	18880
+Therme	keep	real noun (thermal spa), not a plural of "Therm"	agreed	18908
+Vorgehensweisen	merge:Vorgehensweise	plural filed as lemma	agreed	18955
+Grüße	merge:Gruß	plain plural of Gruß	agreed	18969
+Informatiker	keep	person noun with its own entry	agreed	19016
+Schwierigkeitsgrade	merge:Schwierigkeitsgrad	plural filed as lemma	agreed	19059
+Mathematiker	keep	person noun with its own entry	agreed	19069
+Zinn	keep	real noun (tin), not a plural of "Zin"	agreed	19075
+Platine	keep	real noun (circuit board), distinct from Platin	agreed	19097
+Jackpots	merge:Jackpot	plural filed as lemma	agreed	19187
+Einkäufer	keep	person noun with its own entry	agreed	19295
+herz	merge:Herz	noun filed in lower case	agreed	19380
+Urlaube	merge:Urlaub	plural filed as lemma	agreed	19395
+Achja	merge:achja	capitalised interjection, lower-case lemma is on the list	agreed	19402
+Graben	keep	real noun (ditch), not a plural of Grab	agreed	19450
+Farmer	keep	person noun with its own entry	agreed	19466
+Nahezu	merge:nahezu	capitalised adverb	agreed	19470
+kHz	keep	correctly written unit symbol; units are release entries; KHz should merge here	adjudicated	19472
+ibiza	merge:Ibiza	lower-case place name, Ibiza is on the list	agreed	19506
+Wahlweise	merge:wahlweise	capitalised adverb	agreed	19636
+Rote	merge:rot	inflected adjective forms (roten, rote)	agreed	19697
+Natalie	drop	personal name	agreed	19781
+Laster	keep	real noun (vice, lorry), not a plural of Last	agreed	19860
+vanessa	drop	personal name	agreed	19880
+Tutorials	merge:Tutorial	plural filed as lemma	agreed	19950
+Musikalisch	merge:musikalisch	capitalised adjective	agreed	20068
+Elektroniker	keep	person noun with its own entry	agreed	20346
+Patche	merge:Patch	plural filed as lemma	agreed	20389
+Anschreiben	keep	real noun (cover letter)	agreed	20430
+Blatter	drop	mostly the surname (Sepp Blatter)	agreed	20433
+Webinare	merge:Webinar	plural filed as lemma	agreed	20473
+Schnitte	merge:Schnitt	the examples ("Muster und Schnitten") are plural cuts of Schnitt, not Schnitte (slice)	adjudicated	20487
+Pfeiler	keep	real noun (pillar), not a plural of Pfeil	agreed	20509
+Willen	merge:Wille	genitive form (willens) filed as lemma	agreed	20512
+Materiale	merge:Material	misspelt plural (Materialen), singular is on the list	agreed	20541
+Responsive	drop	English web-design jargon (Responsive Design), not an established loan; the lower-case entry is not a real target either	adjudicated	20602
+Spaziergänger	keep	agent noun in its own right, not a plural of Spaziergang	agreed	20631
+Dates	merge:Date	plural filed as lemma	agreed	20682
+wichtigste	merge:Wichtigste	tagged NOUN; das Wichtigste is listed; noun filed lower-case	adjudicated	20771
+Extrakte	merge:Extrakt	plural filed as lemma	agreed	20900
+gend	merge:Gender	879 of 899 forms are gender (the lemmatiser read it as a comparative); Gender is an established loan	adjudicated	21013
+rauen	merge:rau	the adjective forms raue/rauen/rau (488) outnumber raute/raut (391); a mixed lemma, merged into the larger share	adjudicated	21124
+ausser	merge:außer	ss spelling of außer	agreed	21210
+Bergische	merge:bergisch	inflected adjective filed under a capital	agreed	21253
+Texter	keep	agent noun with its own meaning	agreed	21351
+ps	merge:PS	lower-case variant of listed PS	agreed	21393
+PDFs	merge:PDF	plural filed as lemma	agreed	21405
+Dell	drop	personal or company name (e.g. "nach Dell")	agreed	21415
+Stifter	keep	agent noun with its own meaning	agreed	21494
+Versagen	keep	nominalised verb, a noun in its own right	agreed	21506
+Backups	merge:Backup	plural filed as lemma	agreed	21592
+Kickers	drop	all examples are club or team names (Kickers United, Kid Kickers, the Burghausen opponent)	adjudicated	21671
+Grass	drop	not a known spelling of Gras (Swiss writes Gras too) and there are no examples; likely Günter Grass or English, so not an obvious merge	adjudicated	21709
+Optiker	keep	agent noun, not a plural of Optik	agreed	21738
+Cousine	keep	feminine entry of its own	agreed	21783
+Auslaufen	keep	nominalised verb	agreed	21803
+Straftäter	keep	agent noun with its own meaning	agreed	21847
+iPhon	merge:iPhone	cut-off fragment, 844 of 850 written as iphones	agreed	21916
+icloud	merge:iCloud	lower-case variant of listed iCloud	agreed	21932
+Gelbe	merge:gelb	only gelben, an inflected adjective, as in the Rote -> rot precedent	adjudicated	21958
+Allein	merge:allein	adverb filed under a capital	agreed	22184
+ms	keep	correctly written unit symbol (millisecond), not MS (multiple sclerosis/Microsoft); units are release entries	adjudicated	22241
+Bauarbeiter	keep	agent noun with its own meaning	agreed	22331
+Plane	keep	real noun (tarpaulin), not a plural of Plan	agreed	22382
+kamera	merge:Kamera	noun filed under a lower-case lemma	agreed	22400
+Vintage	merge:vintage	capitalised variant of listed vintage	agreed	22497
+Retoure	keep	noun with its own meaning	agreed	22514
+Kombinieren	merge:kombinieren	verb filed under a capital	agreed	22528
+Fingerabdrücke	merge:Fingerabdruck	plural filed as lemma	agreed	22604
+wippen	keep	wippen is a real verb with a correct lower-case lemma; the verb forms wippt, wippte and wippten are attested; noun forms (Wippe) are mis-assigned, not a reason to merge	adjudicated	22635
+Nr	merge:Nummer	abbreviation of Nummer	agreed	22665
+Mikrofone	merge:Mikrofon	plural filed as lemma	agreed	22677
+Rechtzeitig	merge:rechtzeitig	adjective filed under a capital	agreed	22761
+Munich	drop	English exonym used inside names (Munich Center, Munich Network); any place name still here is drop	adjudicated	22780
+Etikette	merge:Etikett	plural of Etikett (labels in the examples)	agreed	22797
+Deutlich	merge:deutlich	capitalised adjective	agreed	22869
+Schlosser	keep	locksmith, its own noun (plural of Schloss is Schlösser)	agreed	23047
+Bande	keep	gang, its own noun	agreed	23091
+Erfurter	keep	demonym adjective, always capitalised (lower-case target is wrong); state capital, so it matches Leipziger and Nürnberger	adjudicated	23093
+Schleimhäute	merge:Schleimhaut	plural	agreed	23118
+Erneuerbar	merge:erneuerbar	capitalised adjective	agreed	23126
+Transparente	merge:Transparent	the example "von Transparenten" is the dative plural of the noun Transparent (banner)	adjudicated	23158
+Taler	keep	coin, its own noun (not the plural of Tal)	agreed	23178
+Ü	merge:ü	upper-case duplicate of the listed letter entry ü; fragments are merged, not dropped	adjudicated	23225
+Unikate	merge:Unikat	plural	agreed	23233
+Becken	keep	basin or pelvis, its own noun	agreed	23243
+Vertragsverhältniss	merge:Vertragsverhältnis	dropped letter or genitive	agreed	23404
+Kehle	keep	correct singular noun	agreed	23445
+Erwerber	keep	buyer, its own noun	agreed	23471
+interessanterweise	keep	correctly written adverb	agreed	23510
+eugen	drop	first name (other names drop); merging into Eugen would keep a name	adjudicated	23550
+anm	merge:Anmerkung	abbreviation of a listed word	agreed	23636
+Geldbörsen	merge:Geldbörse	plural	agreed	23644
+Felse	merge:Fels	plural	agreed	23753
+Kreative	merge:kreativ	inflected adjective	agreed	23759
+Neon	keep	real noun	agreed	23761
+Selfies	merge:Selfie	plural	agreed	24067
+Gestalter	keep	designer, its own noun	agreed	24108
+pdf-Datei	merge:PDF-Datei	lower-case spelling	agreed	24143
+Wandtattoos	merge:Wandtattoo	plural	agreed	24257
+Shampoos	merge:Shampoo	plural	agreed	24278
+So	merge:so	capitalised adverb	agreed	24359
+Kontaktformulars	merge:Kontaktformular	genitive form	agreed	24376
+Politische	merge:politisch	inflected adjective	agreed	24422
+Träume	merge:Traum	plural (dative in the examples)	agreed	24476
+LKWs	merge:LKW	plural	agreed	24494
+Eigene	merge:eigen	inflected adjective	agreed	24519
+Definitiv	merge:definitiv	capitalised adjective	agreed	24661
+Bl	drop	abbreviation fragment	agreed	24680
+Fichte	keep	correct singular noun	agreed	24736
+Blitzer	keep	speed camera, its own noun	agreed	24857
+Kocher	keep	cooker, its own noun	agreed	24884
+Dampfer	keep	steamer, its own noun	agreed	24904
+Spitäler	merge:Spital	plural	agreed	24948
+chance	merge:Chance	lower-case noun	agreed	24953
+Klon	keep	real noun; not a plural of Klo	agreed	25088
+Kreuzer	keep	real noun (cruiser, coin), not a plural of Kreuz	agreed	25139
+Passe	merge:passen	all forms are written passen, so it is the verb filed as a noun	agreed	25168
+BMWi	drop	specialist acronym of a ministry	agreed	25215
+sp	drop	lower-case abbreviation fragment	agreed	25289
+Städtereisen	merge:Städtereise	plural filed as lemma	agreed	25390
+Umweltschützer	keep	person noun with its own entry	agreed	25392
+Verbraucherschützer	keep	person noun with its own entry	agreed	25451
+examen	merge:Examen	lower-case noun	agreed	25499
+Raps	keep	real noun (rapeseed)	agreed	25543
+gute	merge:gut	inflected adjective forms filed as lemma	agreed	25580
+lumen	merge:Lumen	lower-case noun	agreed	25774
+Birke	keep	real noun	agreed	25782
+Schrein	keep	real noun	agreed	26020
+Rundreisen	merge:Rundreise	plural filed as lemma	agreed	26075
+Hänger	keep	real noun (trailer)	agreed	26088
+Gage	keep	real noun	agreed	26115
+Passen	merge:passen	capitalised verb	agreed	26118
+Todesfälle	merge:Todesfall	plural filed as lemma	agreed	26182
+Robe	keep	real noun	agreed	26296
+Terminals	merge:Terminal	genitive or plural filed as lemma	agreed	26300
+Drücker	keep	real noun (door handle, "letzter Drücker")	agreed	26433
+Nachhaltig	merge:nachhaltig	capitalised adjective	agreed	26598
+Winde	merge:Wind	the only form is winden, and the example "vor den Winden" is the plural of Wind	adjudicated	26608
+Kaffees	merge:Kaffee	genitive filed as lemma	agreed	26626
+Töpfer	keep	real noun (potter)	agreed	26655
+Faxe	merge:Fax	plural filed as lemma	agreed	26768
+Gewerkschafter	keep	person noun with its own entry	agreed	26771
+ct	drop	abbreviation	agreed	26842
+Wusstest	merge:wissen	conjugated form filed as lemma	agreed	26892
+Bewusst	merge:bewusst	capitalised adjective	agreed	26971
+Wunderschön	merge:wunderschön	capitalised adjective	agreed	27036
+Delfine	merge:Delfin	plural filed as lemma	agreed	27046
+Hirte	keep	real noun	agreed	27050
+eau	merge:Eau	fragment of Eau de Toilette/Cologne; lower-case duplicate of the listed Eau; fragments merge	adjudicated	27192
+Hmmm	merge:hmmm	capitalised variant of the listed interjection	agreed	27207
+Mangan	keep	real noun (manganese)	agreed	27253
+Ihrerseits	merge:ihrerseits	capitalised adverb	agreed	27311
+Fährte	keep	real noun (track, trail)	agreed	27352
+Künftig	merge:künftig	capitalised adjective	agreed	27357
+dasMehr	merge:Mehr	article fused to the noun	agreed	27376
+Perücken	merge:Perücke	plural	agreed	27524
+Fleischer	keep	"Fleischer" (butcher) is its own noun, not a plural of Fleisch	agreed	27571
+eckdaten	merge:Eckdaten	lower-case noun	agreed	27617
+Mitteldeutsch	merge:mitteldeutsch	capitalised adjective	agreed	27888
+lego	merge:LEGO	brand noun in lower case; the listed lemma is LEGO, not Lego	adjudicated	27904
+Verstellbare	merge:verstellbar	inflected adjective	agreed	27941
+Campe	merge:campen	the text shows nominalised "Campen", not a plural of Camp	agreed	27957
+Optimieren	merge:optimieren	capitalised verb	agreed	28076
+Stocker	drop	surname in the examples	agreed	28080
+Ähm	merge:ähm	capitalised interjection	agreed	28157
+selbermachen	merge:Selbermachen	lower-case noun	agreed	28407
+Freien	keep	"im Freien" is a noun in its own right, like das Gute	adjudicated	28415
+Tribute	merge:Tribut	plural	agreed	28433
+Sonderanfertigungen	merge:Sonderanfertigung	plural	agreed	28511
+Deniz	drop	first name	agreed	28524
+Arbeiten	keep	nominalised infinitive, a noun in its own right like Essen	agreed	28549
+Headsets	merge:Headset	plural	agreed	28559
+Zähle	merge:zählen	capitalised verb	agreed	28571
+ß	drop	single letter, not a word	agreed	28580
+Schlagworte	merge:Schlagwort	plural	agreed	28762
+autofahren	merge:Autofahren	lower-case noun	agreed	28797
+details	merge:Detail	plural of Detail; forms are lower-cased throughout the data, so the case is no evidence of English	adjudicated	28832
+Hilden	drop	place name not on the reviewed list	agreed	28844
+Historisch	merge:historisch	capitalised adjective	agreed	28923
+Positive	keep	"das Positive" is a nominalised adjective, a noun in its own right like das Gute	adjudicated	29006
+Objektive	merge:Objektiv	plural	agreed	29035
+ePaper	keep	correct spelling of the word, the lower-case entry is the odd one	agreed	29067
+Datenschützer	keep	its own noun, not a plural of Datenschutz	agreed	29081
+Schreie	merge:Schrei	NOUN tag plus genitive schreies show the noun Schrei (dative plural Schreien), not the verb	adjudicated	29090
+Anlasser	keep	its own noun (starter motor)	agreed	29105
+Lanze	keep	its own noun (lance)	agreed	29271
+Decker	drop	surname in the examples	agreed	29373
+ai	merge:AI	lower-case form of a listed abbreviation	agreed	29397
+Fußballspielen	keep	nominalised infinitive, a noun in its own right	agreed	29410
+Pulse	merge:Puls	plural	agreed	29423
+Lang	merge:lang	capitalised adverb	agreed	29458
+Träumer	keep	its own noun (dreamer)	agreed	29520
+Graphen	merge:Graph	plural	agreed	29671
+Griechische	merge:Griechisch	"im/aus dem Griechischen" is the nominalised language name, the same word as the listed Griechisch	adjudicated	29850
+Lippenstifte	merge:Lippenstift	plural filed as lemma	agreed	29983
+Harzer	drop	place-derived demonym or adjective (Harz region), not a plural of Harz (resin); place not on the reviewed list	adjudicated	30015
+penis	merge:Penis	lower-case noun	agreed	30043
+Rotweine	merge:Rotwein	plural filed as lemma	agreed	30097
+Homosexuelle	keep	nominalised adjective, a person noun in its own right	agreed	30162
+Rückkehrer	keep	agent noun with its own meaning	agreed	30176
+Spanische	merge:Spanisch	"im Spanischen" is the nominalised language name, the same word as the listed Spanisch	adjudicated	30180
+Basketballer	keep	person noun with its own meaning	agreed	30199
+Grundig	drop	brand or surname, not the adjective grundig; not an institution a learner needs	adjudicated	30291
+Vegane	merge:vegan	adjective filed under a capitalised inflected form	agreed	30309
+Whirlpools	merge:Whirlpool	plural filed as lemma	agreed	30403
+Puzzles	merge:Puzzle	plural filed as lemma	agreed	30442
+Verbund	keep	der Verbund (Verkehrsverbund) is a real noun (verbund and verbunds); the verbunden forms are mis-assigned participles	adjudicated	30494
+schmerz	merge:Schmerz	lower-case noun	agreed	30505
+Kämmerer	keep	person noun (treasurer), not a plural of Kammer	agreed	30598
+Verweisen	merge:Verweis	both examples ("bei Verweisen") are the dative plural of the noun Verweis	adjudicated	30691
+ggmbH	merge:gGmbH	case variant	agreed	30705
+Dampfen	keep	nominalised verb used as a noun (das Dampfen)	agreed	30720
+KMUs	merge:KMU	plural filed as lemma	agreed	30731
+Veränderungsprozesse	merge:Veränderungsprozess	plural filed as lemma	agreed	30912
+Bundesamts	merge:Bundesamt	genitive filed as lemma	agreed	30995
+Hämorrhoiden	merge:Hämorrhoide	plural filed as lemma, singular is on the list	agreed	31102
+Zertifiziert	merge:zertifiziert	capitalised form of an adjective on the list	agreed	31121
+aufMehr	drop	scraping artifact from a "auf Mehr" link, not a word	agreed	31181
+Produktionsprozesse	merge:Produktionsprozess	plural filed as lemma	agreed	31318
+Verbinden	merge:verbinden	capitalised verb	agreed	31424
+Schläfe	keep	correct singular (temple), unrelated to Schlaf	agreed	31508
+Japanische	merge:Japanisch	"aus dem Japanischen" is the nominalised language name, the same word as the listed Japanisch	adjudicated	31597
+Wohnen	keep	nominalised verb used as a noun (das Wohnen)	agreed	31619
+pH	keep	common school-level term, separate from PH	agreed	31625
+Kaserne	keep	correct singular lemma	agreed	31823
+davis	merge:Davis	lower-case form of the name already on the list	agreed	31901
+Hotspots	merge:Hotspot	plural filed as lemma	agreed	31976
+Nichten	drop	only occurs as spam "nichtens", not the noun Nichte	agreed	32027
+PKWs	merge:PKW	plural filed as lemma	agreed	32086
+Schwabe	keep	demonym noun with its own meaning	agreed	32134
+Streicher	keep	noun in its own right (string players)	agreed	32137
+Audits	merge:Audit	plural filed as lemma	agreed	32156
+Hoodies	merge:Hoodie	plural filed as lemma	agreed	32170
+Erweitern	merge:erweitern	verb filed under a capitalised lemma	agreed	32268
+Lagerbestände	merge:Lagerbestand	plural filed as lemma	agreed	32454
+Tanke	merge:tanken	the only form is tanken, and the example "kein Tanken" is the verb, not die Tanke	adjudicated	32467
+Gewänder	merge:Gewand	plural filed as lemma	agreed	32549
+Schlafsäcke	merge:Schlafsack	plural filed as lemma	agreed	32611
+Phillips	drop	surname, not a learnable word	agreed	32657
+Grosser	merge:groß	Swiss ß-less spelling of an inflected form of groß	agreed	32696
+Erziehungsberechtigte	keep	nominalised adjective, a noun in its own right (der/die Erziehungsberechtigte)	agreed	32743
+Huhu	merge:huhu	interjection filed under a capitalised lemma	agreed	32852
+Neuerscheinungen	merge:Neuerscheinung	plural filed as lemma	agreed	32860
+Livestreams	merge:Livestream	plural filed as lemma	agreed	32907
+Öffentlich	merge:öffentlich	adjective filed under a capitalised lemma	agreed	32927
+Gräbern	merge:Grab	inflected plural filed as lemma	agreed	32942
+Arbeitsprozesse	merge:Arbeitsprozess	plural filed as lemma	agreed	32978
+Halb	merge:halb	adjective filed under a capitalised lemma	agreed	33049
+merci	keep	established interjection loan ("merci für", Swiss usage), correctly lower-case; Merci is the brand or noun entry	adjudicated	33077
+zustandekommen	keep	finite verb forms (zustandekommt, zustandekam) show the verb zustandekommen, a different word from the noun Zustandekommen	adjudicated	33086
+Tourer	drop	not a plural of Tour; mostly car model names (Active Tourer)	agreed	33180
+Räucher	merge:räuchern	cut-off fragment of the verb	agreed	33228
+Slogans	merge:Slogan	plural filed as lemma	agreed	33233
+Dienstleistern	merge:Dienstleister	inflected plural filed as lemma	agreed	33267
+Balladen	merge:Ballade	plural filed as lemma	agreed	33306
+kurs	merge:Kurs	noun filed under a lower-case lemma	agreed	33354
+oz	merge:Oz	lower-case duplicate of the listed lemma	agreed	33355
+Balle	merge:Ballen	cut-off fragment; the text has Ballen (bale, ball of the foot), not Bälle	agreed	33368
+Derivate	merge:Derivat	plural filed as lemma	agreed	33426
+Interessieren	merge:interessieren	verb filed under a capitalised lemma	agreed	33441
+Patente	merge:Patent	plural filed as lemma	agreed	33540
+Staune	merge:staunen	cut-off fragment; every written form is staunen	agreed	33606
+Seltsam	merge:seltsam	adjective filed under a capitalised lemma	agreed	33648
+Maniere	merge:Manieren	broken lemma; Manieren (manners) has its own meaning, distinct from Manier	agreed	33671
+Paneele	merge:Paneel	plural filed as lemma	agreed	33676
+Kuscheln	merge:kuscheln	verb filed under a capitalised lemma	agreed	33827
+Solide	merge:solide	adjective filed under a capitalised lemma	agreed	33839
+Horden	merge:Horde	plural filed as lemma	agreed	33879
+Herausragend	merge:herausragend	adjective filed under a capitalised lemma	agreed	33920
+Königreiche	merge:Königreich	plural filed as lemma	agreed	33924
+Ausschließlich	merge:ausschließlich	adverb filed under a capitalised lemma	agreed	33961
+Mk	drop	specialist acronym	agreed	34028
+Rosie	drop	personal name	agreed	34034
+Unfassbar	merge:unfassbar	capitalised adjective, lower-case form is on the list	agreed	34139
+Gesuche	merge:Gesuch	plural of Gesuch	agreed	34239
+Heile	merge:heilen	heilen is no plural of Heil; under a NOUN tag it is most likely nominalised heilen, not the adjective heil	adjudicated	34242
+Porter	keep	own word (beer, porter), not the plural of Port	agreed	34259
+Aufklebern	merge:Aufkleber	inflected plural of Aufkleber	agreed	34281
+Bewerbe	merge:Bewerb	NOUN tag plus genitive bewerbes show the noun Bewerb (dative plural Bewerben)	adjudicated	34330
+Geldscheine	merge:Geldschein	plural of Geldschein	agreed	34337
+Pigmentflecke	merge:Pigmentfleck	plural of Pigmentfleck	agreed	34348
+Quere	keep	real feminine noun (in die Quere kommen)	agreed	34396
+einkaufszentren	merge:Einkaufszentrum	lower-case plural of Einkaufszentrum	agreed	34418
+Sicherheitslücken	merge:Sicherheitslücke	plural of Sicherheitslücke	agreed	34465
+Preisnachlässe	merge:Preisnachlass	plural of Preisnachlass	agreed	34521
+Sonnenuntergänge	merge:Sonnenuntergang	plural of Sonnenuntergang	agreed	34532
+zion	drop	place name, lower-case duplicate	agreed	34555
+Gewiss	merge:gewiss	adverb under a capitalised lemma	agreed	34576
+Romantiker	keep	person noun with its own entry, not a plural of Romantik	agreed	34594
+Sinnvoll	merge:sinnvoll	capitalised adjective	agreed	34600
+Start-Ups	merge:Start-Up	plural of Start-Up	agreed	34602
+Probieren	merge:probieren	verb under a capitalised lemma	agreed	34666
+Qualitativ	merge:qualitativ	capitalised adjective, inflected form in text	agreed	34668
+Ratschläge	merge:Ratschlag	plural of Ratschlag	agreed	34669
+Clouds	merge:Cloud	plural of Cloud	agreed	34768
+Moduls	merge:Modul	genitive of Modul	agreed	34788
+Wichtig	merge:wichtig	capitalised adjective, inflected forms in text	agreed	34802
+Kaper	keep	Kaper (capers) is a noun in its own right, not related to Kap	agreed	34830
+Weißweine	merge:Weißwein	plural of Weißwein	agreed	34852
+Messestände	merge:Messestand	plural of Messestand	agreed	34904
+Wehre	merge:Wehr	NOUN tag plus genitive wehres show the noun Wehr; the one example is a surname	adjudicated	34923
+gb	merge:GB	lower-case abbreviation of a listed word	agreed	35167
+Ferienunterkünfte	merge:Ferienunterkunft	plural of Ferienunterkunft	agreed	35193
+Konstrukteure	merge:Konstrukteur	plural of Konstrukteur	agreed	35257
+Poloshirts	merge:Poloshirt	plural of Poloshirt	agreed	35271
+walken	keep	correct lower-case verb; the pair Walken is a surname	agreed	35302
+Dashboards	merge:Dashboard	plural of Dashboard	agreed	35310
+Balke	merge:Balken	cut-off form; the real noun is Balken	agreed	35367
+Maschinenbauer	keep	person noun with its own entry, not a plural of Maschinenbau	agreed	35395
+Add-Ons	merge:Add-On	plural of Add-On	agreed	35502
+Anhalte	merge:anhalten	written as the verb anhalten, filed under a capitalised lemma	agreed	35503
+Denkweisen	merge:Denkweise	plural of Denkweise	agreed	35564
+Exclusive	merge:exklusiv	English spelling of an adapted word (rule-mandated merge), even though it appears in product text	adjudicated	35568
+Stadtplaner	keep	agent noun (urban planner), not a plural of Stadtplan	agreed	35591
+Bedarfe	merge:Bedarf	plural form	agreed	35615
+Altenheime	merge:Altenheim	plural form	agreed	35746
+Highlighter	keep	own noun (marker pen, make-up highlighter), not a plural of Highlight	agreed	35932
+Spielotheke	merge:Spielothek	variant singular, mostly written as the plural	agreed	35954
+Fehlerbehebunge	merge:Fehlerbehebung	dropped letter, plural form	agreed	36116
+Annett	drop	first name	agreed	36177
+Ausbildungsberufe	merge:Ausbildungsberuf	plural form	agreed	36238
+Smileys	merge:Smiley	plural form	agreed	36279
+Stadträte	merge:Stadtrat	plural form	agreed	36281
+Strange	drop	surname (Bonnie Strange, Jimmy Strange)	agreed	36490
+Innovativ	merge:innovativ	adjective under capitalised lemma	agreed	36527
+Schaller	drop	mostly a surname; the helmet sense is marginal	agreed	36611
+Superfoods	merge:Superfood	plural form	agreed	36615
+Urlaubsreisen	merge:Urlaubsreise	plural form	agreed	36693
+Wollen	merge:wollen	verb filed under capitalised lemma	agreed	36702
+Wissenschafter	keep	Austrian agent noun, not a plural of Wissenschaft	agreed	36770
+Baumstämme	merge:Baumstamm	plural form	agreed	36786
+Buchs	merge:Buchse	the only form is buchsen, the plural of Buchse (socket); not Buch, the place Buchs or boxwood	adjudicated	36787
+Expertinn	merge:Expertin	cut-off fragment	agreed	36791
+Teilnahmeberechtigt	merge:teilnahmeberechtigt	adjective under capitalised lemma	agreed	36822
+q	merge:Q	letter filed under lower case	agreed	36839
+Lande	merge:landen	landen is no form of Land (plural Länder), so it is the verb landen	adjudicated	36927
+Leckerlis	merge:Leckerli	plural form	agreed	36928
+basiswissen	merge:Basiswissen	noun under lower-case lemma	agreed	36959
+Jugendämter	merge:Jugendamt	plural form	agreed	37001
+zunge	merge:Zunge	noun under lower-case lemma	agreed	37058
+Hochwertig	merge:hochwertig	adjective under capitalised lemma	agreed	37079
+T-shirt	merge:T-Shirt	case variant of the existing noun	agreed	37095
+Reisemobile	merge:Reisemobil	plural form	agreed	37270
+Entscheidungsprozesse	merge:Entscheidungsprozess	plural form	agreed	37391
+Hande	merge:Hand	broken plural (Hände) of Hand	agreed	37397
+Revolutionäre	merge:Revolutionär	inflected plural form	agreed	37417
+Geldgebern	merge:Geldgeber	inflected plural form	agreed	37462
+Roses	drop	band name (Guns N' Roses), not the German plural	agreed	37485
+Zuger	drop	demonym of Zug (canton), a place not on the reviewed list	adjudicated	37499
+Kerner	drop	surname (Johannes B. Kerner)	agreed	37548
+Satellite	merge:Satellit	written satellite is English for the adapted word Satellit (German plural is Satelliten), so it is not a dropped letter	adjudicated	37642
+Synonyme	merge:Synonym	plural form	agreed	37649
+vidya	drop	only appears in the brand/organisation name Yoga Vidya; Sanskrit name, not learnable German	adjudicated	37666
+Grauen	keep	das Grauen is a noun in its own right; not a form of Grau	agreed	37822
+Parodontitis	keep	correct noun lemma; the "Parodontiti" entry is the broken one	agreed	37833
+Must-have	merge:Must-Have	case duplicate of the noun entry	agreed	37895
+Persönliche	merge:persönlich	inflected adjective (persönlichen) under a capitalised lemma	agreed	37971
+Gelsenkirchener	drop	place-derived adjective; Gelsenkirchen is not on the reviewed place list; lower-case target is the misspelling, so merging into it is wrong	adjudicated	38035
+Dritten	merge:drittens	all 400 written forms are drittens (the adverb, as in the example), not der Dritte	adjudicated	38102
+Faire	merge:fair	inflected adjective (fairen) under a capitalised lemma	agreed	38106
+Gehölze	merge:Gehölz	plural filed as lemma	agreed	38108
+Lyriker	keep	the poet is a separate word from Lyrik	agreed	38118
+Petite	drop	foreign (French) word in spam text, not an established loan	agreed	38124
+Sichtweisen	merge:Sichtweise	plural filed as lemma	agreed	38197
+Diebstähle	merge:Diebstahl	plural filed as lemma	agreed	38236
+Leitzins	keep	correct singular; "Leitzin" is the broken entry	agreed	38257
+Spiegelunge	merge:Spiegelung	cut-off fragment of a plural	agreed	38274
+Fahren	merge:fahren	des Fahrens is the productive nominalisation of fahren with no meaning of its own (unlike Essen)	adjudicated	38319
+Spielen	merge:spielen	des Spielens is the productive nominalisation of spielen with no meaning of its own	adjudicated	38348
+walther	merge:Walther	lower-case noun filed under a lower-case lemma; merges into the listed Walther	agreed	38363
+Finne	keep	der Finne (Finnish person) and die Finne (fin; hill ridge) are real nouns, not forms of the name Finn	adjudicated	38386
+Wegen	merge:wegen	preposition filed under a capitalised lemma	agreed	38433
+Heut	merge:heute	clipped form of the adverb heute, wrongly tagged as a verb	agreed	38554
+Pellets	merge:Pellet	plural filed as lemma	agreed	38571
+Wünsch	merge:wünschen	imperative/stem of a verb under a capitalised lemma	agreed	38666
+Reisen	merge:reisen	reisens is the productive nominalisation of reisen; the stray forms are verb or plural forms of Reise	adjudicated	38718
+Jahresabschlüsse	merge:Jahresabschluss	plural filed as lemma	agreed	38780
+Tipper	keep	a person noun (typist, tipster) with its own entry	agreed	38799
+Hübsch	merge:hübsch	case duplicate of the adjective	agreed	38835
+erspart	merge:Ersparte	written forms are the lexicalised nominalised adjective das Ersparte/Erspartes (savings), not the participle of ersparen	adjudicated	38873
+Langlaufen	keep	nominalised infinitive (das Langlaufen, gen. des Langlaufens) used as a noun in every example, like Essen; not a plural of Langlauf (plural Langläufe)	adjudicated	38910
+Schilde	merge:Schild	plural filed as lemma	agreed	38982
+Malereie	merge:Malerei	cut-off plural fragment	agreed	39109
+Miene	keep	correct singular; "Mien" is the broken entry	agreed	39110
+Playliste	merge:Playlist	adapted spelling variant of the listed Playlist	agreed	39114
+Beete	merge:Beet	plural filed as lemma	agreed	39159
+Dreher	keep	a person noun (lathe operator) with its own entry	agreed	39236
+Schweizerinn	merge:Schweizerin	cut-off plural fragment	agreed	39270
+Äußerlich	merge:äußerlich	adjective under a capitalised lemma	agreed	39298
+Statistiker	keep	a person noun with its own entry, distinct from Statistik	agreed	39344
+Ringer	keep	a person noun (wrestler) with its own entry	agreed	39494
+Ärgerlich	merge:ärgerlich	adjective under a capitalised lemma	agreed	39535
+Logistiker	keep	a person noun with its own entry, distinct from Logistik	agreed	39557
+Tannen	merge:Tanne	plural filed as lemma	agreed	39577
+kw	merge:kW	case variant of listed abbreviation	agreed	39592
+Börde	drop	region and district name in all examples	agreed	39611
+Jedesmal	merge:jedesmal	adverb under a capital	agreed	39627
+Smartwatche	merge:Smartwatch	plural	agreed	39646
+Stickereie	merge:Stickerei	plural	agreed	39649
+demo	merge:Demo	lower-case variant	agreed	39825
+Bellen	merge:bellen	nominalised verb, not a plural of Bell	agreed	39843
+Übertrage	merge:übertragen	verb form (nominalised infinitive)	agreed	39927
+Farbtöne	merge:Farbton	plural	agreed	39949
+Naturschützer	keep	agent noun with its own entry, not a plural of Naturschutz	agreed	40058
+Schwärme	merge:Schwarm	plural	agreed	40068
+cent	merge:Cent	lower-case variant	agreed	40081
+Sommerabende	merge:Sommerabend	plural	agreed	40147
+Geschosse	merge:Geschoss	plural	agreed	40209
+Wirtschafts	merge:Wirtschaft	cut-off fragment	agreed	40264
+tz	drop	fragment of broken words (tzen, tzes), no clear target	agreed	40457
+Anbringen	merge:anbringen	nominalised infinitive, verb is the lemma	agreed	40467
+Gesunde	merge:gesund	inflected adjective	agreed	40487
+Stopper	keep	agent noun with its own meaning	agreed	40516
+Talkshows	merge:Talkshow	plural	agreed	40520
+Trau	merge:trauen	conjugated verb form under a capital	agreed	40524
+xy	merge:XY	lower-case variant	agreed	40546
+Ergebniss	merge:Ergebnis	misspelling	agreed	40560
+Finanziell	merge:finanziell	adjective under a capital	agreed	40626
+mA	drop	specialist unit abbreviation (milliampere)	adjudicated	40690
+mb	merge:MB	lower-case variant of listed abbreviation	agreed	40693
+Blocker	keep	established loan, agent noun	agreed	40713
+Interviewer	keep	agent noun with its own entry	agreed	40737
+Lecke	merge:lecken	verb form (nominalised infinitive)	agreed	40742
+Demnächst	merge:demnächst	adverb under a capital	agreed	40802
+Löte	merge:löten	verb form (nominalised infinitive)	agreed	40828
+Membrane	merge:Membran	plural	agreed	40830
+Verstecke	merge:Versteck	plural	agreed	40850
+auerdem	merge:außerdem	broken encoding of ß	agreed	40858
+Allgemeinmediziner	keep	person noun with its own entry	agreed	40960
+Renovierungsarbeite	merge:Renovierungsarbeit	plural	agreed	41000
+Ödeme	merge:Ödem	plural	agreed	41037
+Brokern	merge:Broker	inflected plural dative	agreed	41047
+Lauren	drop	personal name	agreed	41063
+Mamis	merge:Mami	plural of Mami	agreed	41142
+Zimmerer	keep	carpenter, a noun in its own right, not a plural of Zimmer	agreed	41171
+Diagramme	merge:Diagramm	plural form	agreed	41204
+amen	merge:Amen	lower-case noun	agreed	41264
+hopfen	merge:Hopfen	lower-case noun	agreed	41274
+Fraglich	merge:fraglich	capitalised adjective	agreed	41488
+Novell	drop	company name in the examples, not a learnable word	agreed	41508
+Professorinn	merge:Professorin	cut-off fragment	agreed	41517
+Zaubern	merge:zaubern	nominalised verb filed under a capitalised lemma	agreed	41633
+Pioniere	merge:Pionier	plural form	agreed	41703
+Zoller	drop	mostly a surname, otherwise a colloquial size word	agreed	41726
+Lattenroste	merge:Lattenrost	plural form	agreed	41785
+Antifas	merge:Antifa	plural form	agreed	41854
+Importeure	merge:Importeur	plural form	agreed	41876
+Regionale	merge:regional	inflected adjective (regionalen) under a capitalised lemma	agreed	41902
+mom	drop	English word	agreed	41938
+Bauen	merge:bauen	nominalised verb filed under a capitalised lemma	agreed	41958
+Pseudonyme	merge:Pseudonym	plural form	agreed	42000
+würstchen	merge:Würstchen	lower-case noun	agreed	42042
+Ökologisch	merge:ökologisch	capitalised adjective	agreed	42045
+Deiche	merge:Deich	plural form	agreed	42059
+Zusammensetzunge	merge:Zusammensetzung	cut-off plural form	agreed	42115
+Mixen	merge:mixen	nominalised verb, not a plural of Mix	agreed	42189
+Abschlussarbeite	merge:Abschlussarbeit	cut-off plural form	agreed	42240
+Eigelbe	merge:Eigelb	plural form	agreed	42250
+Elternabende	merge:Elternabend	plural form	agreed	42350
+apply	drop	English word	agreed	42411
+Auslandsaufenthalte	merge:Auslandsaufenthalt	plural form	agreed	42442
+Downloader	keep	person who downloads, a noun in its own right	agreed	42452
+Treffe	merge:Treffen	cut-off fragment of treffen; tagged NOUN, so das Treffen (meeting), a noun in its own right	adjudicated	42492
+Anomalie	keep	correct lemma; 'Anomali' is the broken one	agreed	42520
+hefe	merge:Hefe	lower-case noun	agreed	42597
+Würstchen	keep	correct lemma; 'Würstch' is the cut-off	agreed	42677
+lübben	drop	place name not on the reviewed list	agreed	42686
+pr	merge:PR	abbreviation of a listed word	agreed	42792
+Elektronische	merge:elektronisch	inflected adjective under a capitalised lemma	agreed	42818
+Fundstelle	keep	correct lemma; 'Fundstell' is the cut-off	agreed	42826
+Herzlichst	merge:herzlichst	capitalised form of a listed word	agreed	42838
+Kain	drop	biblical name, not a plural of Kai	agreed	42845
+Tragegriffe	merge:Tragegriff	plural form	agreed	42883
+Vllt	merge:vielleicht	capitalised abbreviation of vielleicht	agreed	42975
+Kupplunge	merge:Kupplung	plural with a cut-off ending	agreed	43028
+Rassisten	merge:Rassist	plural filed as lemma	agreed	43045
+Stickern	merge:Sticker	inflected plural	agreed	43055
+Ganser	drop	surname, not the plural of Gans	agreed	43121
+winter	merge:Winter	noun filed in lower case	agreed	43316
+Verwechslunge	merge:Verwechslung	plural with a cut-off ending	agreed	43387
+Datenbestände	merge:Datenbestand	plural filed as lemma	agreed	43434
+Süsse	merge:süß	inflected adjective forms in Swiss spelling	agreed	43483
+Widgets	merge:Widget	plural filed as lemma	agreed	43492
+Referentinn	merge:Referentin	cut-off fragment of the plural	agreed	43584
+Sorgfältig	merge:sorgfältig	adjective filed in capitals	agreed	43591
+Wraps	merge:Wrap	English plural filed as lemma	agreed	43607
+Dokus	merge:Doku	plural filed as lemma	agreed	43657
+Finke	drop	mostly a surname in the examples	agreed	43663
+Zehe	keep	standard variant of Zeh, valid lemma	agreed	43707
+Erfolgreich	merge:erfolgreich	adjective filed in capitals	agreed	43748
+Blutgefäßen	merge:Blutgefäß	inflected plural filed as lemma	agreed	43840
+Gatten	merge:Gatte	inflected form of Gatte	agreed	43861
+Stranger	drop	English title word (Stranger Things), not German	agreed	43905
+Veneer	keep	established dental loanword	agreed	43910
+Wärmepumpen	merge:Wärmepumpe	plural filed as lemma	agreed	43918
+Dekore	merge:Dekor	plural filed as lemma	agreed	43961
+Euronen	merge:Euro	colloquial plural of Euro	agreed	43963
+Tanker	keep	a noun in its own right (ship), not a plural of Tank	agreed	44002
+Circa	merge:circa	adverb filed in capitals	agreed	44064
+Glätten	merge:glätten	nominalised infinitive, not a noun in its own right	agreed	44078
+Hochdeutsche	merge:hochdeutsch	inflected adjective (der Hochdeutschen Mundart), not the noun Hochdeutsch	adjudicated	44086
+Entrümpelunge	merge:Entrümpelung	plural with a cut-off ending	agreed	44176
+umkleiden	keep	correctly written verb (sich umkleiden) that a learner meets; the misfiled Umkleide tokens belong under Umkleide	adjudicated	44276

@@ -1,0 +1,17 @@
+Satellite	merge:Satellit	written satellite is English for the adapted word Satellit (German plural is Satelliten), so it is not a dropped letter
+vidya	drop	only appears in the brand/organisation name Yoga Vidya; Sanskrit name, not learnable German
+Gelsenkirchener	drop	place-derived adjective; Gelsenkirchen is not on the reviewed place list; lower-case target is the misspelling, so merging into it is wrong
+Dritten	merge:drittens	all 400 written forms are drittens (the adverb, as in the example), not der Dritte
+Fahren	merge:fahren	des Fahrens is the productive nominalisation of fahren with no meaning of its own (unlike Essen)
+Spielen	merge:spielen	des Spielens is the productive nominalisation of spielen with no meaning of its own
+Finne	keep	der Finne (Finnish person) and die Finne (fin; hill ridge) are real nouns, not forms of the name Finn
+Reisen	merge:reisen	reisens is the productive nominalisation of reisen; the stray forms are verb or plural forms of Reise
+erspart	merge:Ersparte	written forms are the lexicalised nominalised adjective das Ersparte/Erspartes (savings), not the participle of ersparen
+mA	drop	specialist unit abbreviation (milliampere)
+Treffe	merge:Treffen	cut-off fragment of treffen; tagged NOUN, so das Treffen (meeting), a noun in its own right
+Hochdeutsche	merge:hochdeutsch	inflected adjective (der Hochdeutschen Mundart), not the noun Hochdeutsch
+umkleiden	keep	correctly written verb (sich umkleiden) that a learner meets; the misfiled Umkleide tokens belong under Umkleide
+# question Fahren/Spielen/Reisen/Langlaufen: should productive nominalised infinitives (das Fahren, das Reisen) merge into the verb, as decided here, or count as nouns in their own right like Essen? For Langlaufen, should the target be langlaufen (merged here, consistent with the others) or the existing noun Langlauf?
+# question Gelsenkirchener: are demonym adjectives in -er (Gelsenkirchener, Erfurter) place names (drop unless the place is listed), or adjectives to keep in capitalised form? Either way, lower-case 'gelsenkirchener' should not be the merge target.
+# question umkleiden: about 287 of 330 tokens are the noun Umkleide misfiled under the verb lemma; should these be re-filed to Umkleide, and should the capitalised 'Umkleiden' (plural) merge into Umkleide?
+# question erspart/Dritten: is 'Ersparte' on the list as a target? Should capitalised 'Erspart' also merge into it? Should merge targets not yet on the list (drittens, Ersparte) be created?

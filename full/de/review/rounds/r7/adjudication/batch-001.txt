@@ -1,0 +1,36 @@
+wippen	keep	wippen is a real verb with a correct lower-case lemma; the verb forms wippt, wippte and wippten are attested; noun forms (Wippe) are mis-assigned, not a reason to merge
+Munich	drop	English exonym used inside names (Munich Center, Munich Network); any place name still here is drop
+Erfurter	keep	demonym adjective, always capitalised (lower-case target is wrong); state capital, so it matches Leipziger and Nürnberger
+Transparente	merge:Transparent	the example "von Transparenten" is the dative plural of the noun Transparent (banner)
+Ü	merge:ü	upper-case duplicate of the listed letter entry ü; fragments are merged, not dropped
+eugen	drop	first name (other names drop); merging into Eugen would keep a name
+Winde	merge:Wind	the only form is winden, and the example "vor den Winden" is the plural of Wind
+eau	merge:Eau	fragment of Eau de Toilette/Cologne; lower-case duplicate of the listed Eau; fragments merge
+lego	merge:LEGO	brand noun in lower case; the listed lemma is LEGO, not Lego
+Freien	keep	"im Freien" is a noun in its own right, like das Gute
+details	merge:Detail	plural of Detail; forms are lower-cased throughout the data, so the case is no evidence of English
+Positive	keep	"das Positive" is a nominalised adjective, a noun in its own right like das Gute
+Schreie	merge:Schrei	NOUN tag plus genitive schreies show the noun Schrei (dative plural Schreien), not the verb
+Griechische	merge:Griechisch	"im/aus dem Griechischen" is the nominalised language name, the same word as the listed Griechisch
+Harzer	drop	place-derived demonym or adjective (Harz region), not a plural of Harz (resin); place not on the reviewed list
+Spanische	merge:Spanisch	"im Spanischen" is the nominalised language name, the same word as the listed Spanisch
+Grundig	drop	brand or surname, not the adjective grundig; not an institution a learner needs
+Verbund	keep	der Verbund (Verkehrsverbund) is a real noun (verbund and verbunds); the verbunden forms are mis-assigned participles
+Verweisen	merge:Verweis	both examples ("bei Verweisen") are the dative plural of the noun Verweis
+Japanische	merge:Japanisch	"aus dem Japanischen" is the nominalised language name, the same word as the listed Japanisch
+Tanke	merge:tanken	the only form is tanken, and the example "kein Tanken" is the verb, not die Tanke
+merci	keep	established interjection loan ("merci für", Swiss usage), correctly lower-case; Merci is the brand or noun entry
+zustandekommen	keep	finite verb forms (zustandekommt, zustandekam) show the verb zustandekommen, a different word from the noun Zustandekommen
+Heile	merge:heilen	heilen is no plural of Heil; under a NOUN tag it is most likely nominalised heilen, not the adjective heil
+Bewerbe	merge:Bewerb	NOUN tag plus genitive bewerbes show the noun Bewerb (dative plural Bewerben)
+Wehre	merge:Wehr	NOUN tag plus genitive wehres show the noun Wehr; the one example is a surname
+Exclusive	merge:exklusiv	English spelling of an adapted word (rule-mandated merge), even though it appears in product text
+Buchs	merge:Buchse	the only form is buchsen, the plural of Buchse (socket); not Buch, the place Buchs or boxwood
+Lande	merge:landen	landen is no form of Land (plural Länder), so it is the verb landen
+Zuger	drop	demonym of Zug (canton), a place not on the reviewed list
+# question Erfurter/Harzer/Zuger/Essener: confirm the demonym rule "keep only if the place is on the reviewed list" (is Erfurt on it? why is Essener dropped while Kölner is kept?)
+# question Französische: should it go to Französisch, like Griechische, Spanische and Japanische, instead of französisch?
+# question Grundig/LEGO: do well-known brands count as "famous institutions" (keep) or as "other names" (drop)?
+# question wippen/Verbund: these mixed lemmas are kept for their own reading, but the forms belonging to another word (wippe → Wippe, verbunden) can't be reassigned; should such forms be split?
+# question Schreie/Wehre/Bewerbe/Heile: with no examples, forms like -en are ambiguous between a noun plural and a verb; I decided by the NOUN tag and the genitive -es forms; confirm this test
+# question eugen: the answer format offers pending-names, but the rules don't define it; I applied "other names drop"

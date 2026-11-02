@@ -161,3 +161,20 @@
 # question zustandekommen: the written forms (zustandekommt, zustandekam) are verb forms, but the tag is NOUN, so I merged into Zustandekommen.
 # question Ü: a single letter tagged VERB; merged into ü as a case pair, though it may be better dropped as a non-word.
 # question Ü: merging into the existing single-letter 'ü' would be pointless, so I dropped it.
+# question Erfurter/Harzer/Zuger/Essener: confirm the demonym rule "keep only if the place is on the reviewed list" (is Erfurt on it? why is Essener dropped while Kölner is kept?)
+# question Fahren/Spielen/Reisen/Langlaufen: should productive nominalised infinitives (das Fahren, das Reisen) merge into the verb, as decided here, or count as nouns in their own right like Essen? For Langlaufen, should the target be langlaufen (merged here, consistent with the others) or the existing noun Langlauf?
+# question Französische: should it go to Französisch, like Griechische, Spanische and Japanische, instead of französisch?
+# question Gelsenkirchener: are demonym adjectives in -er (Gelsenkirchener, Erfurter) place names (drop unless the place is listed), or adjectives to keep in capitalised form? Either way, lower-case 'gelsenkirchener' should not be the merge target.
+# question Grundig/LEGO: do well-known brands count as "famous institutions" (keep) or as "other names" (drop)?
+# question Grüsse: should Swiss ss lemmas (Gruss, Süsse) fold into ß forms (Gruß, süß)? Grüße already goes to Gruß.
+# question Langlaufen: should a nominalised infinitive stay `keep` when a near-synonymous noun (Langlauf) is already on the list, or merge into that noun? Same question for Skifahren and Schneeschuhwandern.
+# question Oberst, rauen, Reiche: these lemmas mix two real words (colonel/top, Raute/rau, Reich/die Reichen). Can they be split, or does the majority reading decide?
+# question Schreie/Wehre/Bewerbe/Heile: with no examples, forms like -en are ambiguous between a noun plural and a verb; I decided by the NOUN tag and the genitive -es forms; confirm this test
+# question Testen, Grille: should pure verb nouns (das Testen, das Grillen) merge into the verb? Reviewer 1 cites Scannen as kept.
+# question eBook: neither eBook nor Ebook is the Duden form (E-Book). Which lemma is canonical for this loan?
+# question erspart/Dritten: is 'Ersparte' on the list as a target? Should capitalised 'Erspart' also merge into it? Should merge targets not yet on the list (drittens, Ersparte) be created?
+# question eugen: the answer format offers pending-names, but the rules don't define it; I applied "other names drop"
+# question kWh, kB, kHz, ms: the README says units are not candidates, but the rules say specialist abbreviations drop. I kept the correctly cased symbols. Please confirm, and confirm that kwh/KB/KHz merge into them.
+# question klamm, gend: the lemmatiser files nouns that look like comparatives (Klammer, Gender) under a made-up base word. Merging klamm leaves the real adjective klamm (clammy) without an entry. Should it be added?
+# question umkleiden: about 287 of 330 tokens are the noun Umkleide misfiled under the verb lemma; should these be re-filed to Umkleide, and should the capitalised 'Umkleiden' (plural) merge into Umkleide?
+# question wippen/Verbund: these mixed lemmas are kept for their own reading, but the forms belonging to another word (wippe → Wippe, verbunden) can't be reassigned; should such forms be split?
