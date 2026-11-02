@@ -62,3 +62,17 @@ What was done, in order, so the run can be repeated for another language. Commit
    Developer rulings applied: nationally famous institutions kept (Bundestag, ARD, ZDF, Deutsche Bahn); spelled
    numbers by the standing rule.
 6. Round 2: the lemmas round 1's drops pulled into the 30k window (`review/r2/`).
+
+## 5. 40k cleaning (2026-11-02), paused at the developer's request
+
+Done and collected in `corpora/review/de.tsv`: shards r5a/r5b/r6a/r6b/r6c/r7 (8,870 lemmas), r8 (1,775 pending),
+r8s (581 screener suspects), r8r (765 re-decisions under the second set of rulings). Rules: both sets of developer
+rulings of 2026-11-02 are in `scripts/review/prompts/de/rules-*.md` and `full/de/junk-review.md`; names list and
+number rule from Honeyeater #766 at 9bbae4b. After re-routing, kept rank 40,000 = raw rank 49,470 (f 261).
+
+**On resume:** round 9 = the 543 pending flagged lemmas in the window plus the suspects of the third screen
+(`screen40k-c`, kept positions 38,609-40,000, already screened). Run `examples.py` from the pinned Honeyeater
+backend directory (it needs `config` on the path), then `review.py` (r9 flagged rules, r9s unflagged rules), gate,
+`--adjudicate`, `collect.py`; route again; then `report.py` and `band_samples.py --gloss --cut 40000` with bands
+0-10k/10-20k/20-25k/25-30k/30-35k/35-40k, copied to `full/de/band-report.md` and `band-samples.md`. No snapshot
+until the developer confirms the 40k cutoff.
