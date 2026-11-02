@@ -53,6 +53,9 @@ for p in sorted((cfg["work"] / "sample/work").glob("*.tsv.gz")):
             lines.append(text)
             docs.append(f"{p.name}:{doc}")
 text = "\n".join(lines)
+# A language that lower-cases its forms (de) must be searched in lower case too, or a capitalised noun never matches.
+if load_manifest(cfg["lang"]).language.lowercase_forms:
+    text = text.lower()
 starts, pos_ = [], 0
 for ln in lines:
     starts.append(pos_)
