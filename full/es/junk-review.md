@@ -81,6 +81,11 @@ merge into Ciudad de México and Estados Unidos. Learnable names outside the top
    *anda* → *andar*, *oye* → *oír*, *vamos* → *ir*), the interjection is counted inside the verb's entry:
    a separate key the release never produces would never match a token in the reader.
 
+4. **Adapted spellings of currencies and loans:** the list uses the form people write (*forint*, not the
+   academy's *forinto*); the recommended form can be a card note later.
+5. **International bodies:** the institutions rule covers famous international bodies (OTAN, OMS, AIEA, ONU, UE),
+   which are kept.
+
 ## The rules the reviewers had
 
 # Review rules (the developer's; binding)
