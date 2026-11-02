@@ -130,3 +130,15 @@
 # question wargame: English hobby term that may be semi-established, but it is mostly product-listing text; dropped
 # question wargame: established hobby loan or too specialist?
 # question zoledrónico: the rules don't say whether drug names (zoledrónico, aripiprazol, verapamil) count as words a learner wants; I dropped them as specialist terms.
+# question antidesgaste: are solid-written prefixed technical adjectives (anti-, multi-) keep or drop when the base word is listed?
+# question chinchar, telegrafiar: I kept the real verb lemma while most counted forms belong to another word (chinche, telegrafía). Should these counts be split, or should keep imply moving them?
+# question córneo, esponjar, desajustar, decrementar, despechar, simultanear (vs trozar, hibridar, fregón, ripiar): when a lemma is a real word but most forms belong to another listed word, should it be kept or merged? I kept it when the lemma's own forms are well attested and it is a word a learner meets.
+# question haggis: should foreign culture-specific words with no Spanish equivalent (dish names and the like) count as established loans?
+# question hutí: should lowercase ethnonyms or movement names used as common nouns (hutíes, talibanes) be kept, or dropped as organisation names?
+# question numerosísimo: should -ísimo superlatives stay as their own lemmas, or merge into the base adjective (numeroso)?
+# question rifampicina, pantenol, sofosbuvir, alprazolam, fluconazol, oxicodona, lisinopril: the rules don't cover generic drug and ingredient names. I kept those the general public knows and dropped prescription or clinical ones; please set a rule.
+# question salmeterol, dronabinol: generic drug names (INNs) aren't covered by the rules; I dropped them as specialist terms. Should they always drop?
+# question seder: foreign religious terms used in Spanish with no Spanish equivalent (séder, kosher, sabbat): established loan or drop?
+# question transplante, vinil: should accepted variant spellings of a listed word (trasplante, vinilo) be kept as separate entries or merged?
+# question ultranza: words that occur only inside a fixed phrase (a ultranza, de antemano): keep the word, or create a multiword entry like the split-loan rule?
+# question zoledrónico, aripiprazol, verapamil, akáshico: the rules only drop specialist acronyms; please confirm that real but specialist or esoteric full words (drug names, New Age jargon) also drop
