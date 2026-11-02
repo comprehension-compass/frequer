@@ -85,9 +85,14 @@ class Review:
     decisions: dict[str, tuple[str, str]]
 
     def merges(self) -> dict[str, str]:
-        out = {k: d.split(":", 1)[1] for k, (d, _r) in self.decisions.items() if d.startswith("merge:")}
+        out = {k: d.split(":", 1)[1].removesuffix("|half") for k, (d, _r) in self.decisions.items()
+               if d.startswith("merge:")}
         out.update({k: default for k, (default, _moves) in self.splits().items()})
         return out
+
+    def halves(self) -> set[str]:
+        """``merge:<lemma>|half``: a lemma whose every phrase counts it twice (cous cous) moves half its counts."""
+        return {k for k, (d, _r) in self.decisions.items() if d.startswith("merge:") and d.endswith("|half")}
 
     def splits(self) -> dict[str, tuple[str, dict[str, frozenset[str]]]]:
         out: dict[str, tuple[str, dict[str, frozenset[str]]]] = {}
@@ -213,6 +218,15 @@ def apply_splits(merged: Merged, splits: Mapping[str, tuple[str, dict[str, froze
                 merged.lemmas[t] = part
             done.append(Merge(source, t, n, f"review: split ({', '.join(sorted(moved))})"))
     return done
+
+
+def halve(stats: LemmaStats) -> None:
+    """Halve a lemma's counts in place (``merge:<lemma>|half``)."""
+    stats.freq = (stats.freq + 1) // 2
+    stats.df = (stats.df + 1) // 2
+    for name in ("by_source", "pos", "forms", "parts", "readings", "kinds"):
+        c: Counter[Any] = getattr(stats, name)
+        setattr(stats, name, Counter({k: (v + 1) // 2 for k, v in c.items()}))
 
 
 def apply_merges(merged: Merged, merges: Sequence[Merge]) -> list[Merge]:

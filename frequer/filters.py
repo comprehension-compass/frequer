@@ -75,6 +75,9 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
         return target.lower() if cfg.fold_case else target
 
     splits = junk.apply_splits(merged, out.review.splits(), fold) if out.review else []
+    for lemma in out.review.halves() if out.review else ():
+        if lemma in merged.lemmas:
+            junk.halve(merged.lemmas[lemma])
     merges = [junk.Merge(s, fold(t), merged.lemmas[s].freq, "review: merge")
               for s, t in (out.review.merges() if out.review else {}).items() if s in merged.lemmas]
     if jc.accent_ratio:

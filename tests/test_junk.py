@@ -55,3 +55,13 @@ def test_split_moves_listed_forms_and_merges_the_rest() -> None:
     assert [m.target for m in done] == ["hala"]
     assert merged.lemmas["hala"].freq == 20 and merged.lemmas["hala"].forms == Counter({"Hala": 20})
     assert merged.lemmas["halo"].freq == 80 and "halar" not in merged.lemmas
+
+
+def test_half_merge_counts_a_doubled_phrase_once() -> None:
+    # cous cous: both tokens are "cous", so the phrase counts twice; merge:cuscús|half moves half (ruling 2026-11-02).
+    from pathlib import Path
+    review = junk.Review(Path("r.tsv"), "", {"cous": ("merge:cuscús|half", "")})
+    assert review.merges() == {"cous": "cuscús"} and review.halves() == {"cous"}
+    st = LemmaStats(freq=10, df=4, forms=Counter({"cous": 10}))
+    junk.halve(st)
+    assert st.freq == 5 and st.forms == Counter({"cous": 5}) and st.df == 2
