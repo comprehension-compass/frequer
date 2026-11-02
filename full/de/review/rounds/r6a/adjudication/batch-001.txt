@@ -1,0 +1,35 @@
+Pariser	keep	common adjective and noun from Paris (Pariser Klimaziele, der Pariser); not itself a place name
+PR	keep	lexicalised abbreviation in general use (PR-Abteilung); not specialist
+Dunkle	keep	noun in its own right like das Gute; im Dunkeln is the dative of das Dunkle, not of Dunkel
+OP	keep	lexicalised everyday abbreviation (im OP); ambiguous between Operation and Operationssaal, so no single merge target
+Oscar	keep	established award noun (einen Oscar gewinnen; oscars 621); name tokens in sample are incidental
+dato	keep	fixed adverbial bis dato, common and learnable
+BH	keep	everyday abbreviation spoken as a word
+Lkw	keep	everyday abbreviation spoken as a word; the standard word for a truck
+ner	merge:eine	colloquial cut-off of einer, dative/genitive of eine
+gehalt	merge:halten	forms are almost all the participle gehalten-; the noun Gehalt is only 118 tokens
+letzt	merge:letzte	inflection stem split off the core adjective; forms are letzter/letzten
+Sir	keep	established English title used in German (Duden)
+Palm	merge:Palme	1,035 forms are Palme; remaining palm tokens are names (Palm Harbor) and not a word to keep
+OG	drop	ambiguous abbreviation (Obergeschoss, offene Gesellschaft, Ortsgruppe); no examples
+verspäten	keep	real verb (sich verspäten); the forms are its participle, so the lemma is not broken
+angestellt	merge:Angestellter	forms are the nominalised noun Angestellter/Angestellte under a lower-case lemma
+Ausbild	merge:Ausbilder	cut-off fragment; forms are overwhelmingly Ausbilder
+mini	keep	established loan (mini, Mini); tag is wrong but the word is real
+zertifizierten	merge:zertifizieren	inflected participle; zertifiziert has no adjective entry of its own
+Mass	merge:Maß	Swiss/ASCII spelling of Maß (in hohem Mass); masses/masse are marginal
+Sek	drop	ambiguous abbreviation (Sekunde, Sekundarstufe/Sek I); no examples
+schi	merge:schier	forms are schier (2,174) against schi (38); examples are schier
+weiden	merge:Weide	tagged NOUN; examples and most forms are the noun Weide under a lower-case lemma
+weissen	merge:wissen	forms are mostly weisst = weißt (wissen); weisse/weissen (weiß) are a minority
+gabs	merge:geben	verb+es contraction; merge to the host verb
+Mod	keep	established loan noun (Mod, game modification; Mods subculture)
+Roll	drop	English (Rock 'n' Roll, Rolls-Royce), not a cut-off of Rolle
+red	drop	English red (brand and name tokens), not a cut-off of reden
+Hz	drop	unit symbol; specialist abbreviation
+# question ner, gabs: I settled contractions as merge to the host word (ner→eine, nem→ein, gabs/wars/ists→verb, kannste→können, ichs→ich, aufm→auf); please confirm that earlier drops of nem/ists/ichs/kannste/aufm should be redone as merges.
+# question PR, OP, BH, Lkw: lexicalised abbreviations were kept here, but Kfz was apparently excluded. Should Kfz/Pkw be kept as well for consistency?
+# question Hz, Sek, OG: the rule merges abbreviations of listed words, but I cannot see whether Hertz, Sekunde or Obergeschoss are listed. Should unambiguous unit symbols (Hz→Hertz) merge when the target is listed?
+# question verspäten, zuvorkommen, weiden: these lemmas mix a real verb with forms of another word (the participle adjective verspätet/zuvorkommend, or the noun Weide). Should such lemmas be split rather than kept or merged whole?
+# question letzt: is the list's lemma for the adjective letzte or letzter? Please confirm the merge target.
+# question Pariser: are demonym adjectives and nouns from listed places (Pariser, Berliner, Wiener) to be kept as words?

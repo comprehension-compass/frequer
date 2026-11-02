@@ -1,0 +1,36 @@
+Glut	keep	Real noun (Glut, 819 forms); merging into Gluten would hide a word learners meet
+WG	keep	Established everyday word, used and spoken as a word in its own right (like Kita)
+gr	merge:groß	Encoding loss: grer/gres/gren are größer/größes/größen with ö/ß dropped, so gr is groß
+facebook	merge:Facebook	Famous company filed under a lower-case lemma
+Fel	merge:Fels	Cut-off fragment; nearly all forms and the example are Fels, none are Fell
+schnellen	keep	Real verb (schnellte, in die Höhe schnellen); the lemma is not broken
+Schlei	merge:Schleier	Forms and examples are Schleier; the fjord reading is an unlisted place and would drop anyway
+Prim	drop	Mostly English "prime" with no examples and no clear German target
+ausreden	keep	Real verb (jemanden ausreden lassen; ausgeredet, auszureden); not broken
+max	merge:maximal	Lower-case abbreviation of maximal (max.); no sign of the name
+gravieren	keep	Real verb (engrave); the lemma is not broken, though most counts belong to gravierend
+größ	merge:Größe	Cut-off stem; nearly all forms are Größe/Größen
+anpfeifen	keep	Real verb (angepfiffen, anzupfeifen); not broken
+sachverständig	keep	Adjective with its own dictionary entry; the lemma is not broken
+Brennen	merge:brennen	Plain nominalised infinitive, not a lexicalised noun like Essen
+kauf	merge:Kauf	Forms kaufs/kaufes are genitives of the noun Kauf, filed in lower case
+personal	merge:Personal	Noun (Personal/Personaler) filed under a lower-case lemma
+Ober	keep	der Ober (waiter) is a noun learners meet
+reg	merge:rege	Fragment; forms are reges/reger of the adjective rege
+dam	merge:Dame	Forms and example are Dame/Damen; no sign of English "dam"
+google	merge:Google	Lower-case form of a famous company; only the form "google", no googeln inflections
+anfang	merge:Anfang	Lower-case noun Anfang; a bare verb form "anfang" is implausible at this count
+nichtmal	merge:mal	Misspelling of "nicht mal"; mal is the listed lemma
+BMI	keep	Everyday acronym (body mass index), not specialist
+zurückgelegen	merge:zurücklegen	Forms are zurückgelegt/zurückgelegte, participles of zurücklegen
+Niederland	merge:Niederländer	Cut-off lemma; forms and examples are the noun Niederländer
+Jupiter	drop	Proper name (planet/god); "other names drop"
+wass	merge:Wasser	Cut-off fragment; forms are wasser/wasse
+Raiffeisen	keep	Well-known banking institution in the DACH countries
+sachen	merge:Sache	Lower-case plural of Sache
+# question Glut, schnellen, ausreden, gravieren, anpfeifen, sachverständig, Ober: these were kept as real words, but most of their counts belong to another word (Gluten, Schnelltest, Ausrede, gravierend, Anpfiff, Sachverständiger, ober). Should those counts be re-lemmatised or split?
+# question WG: the rules call for merging "an abbreviation of a listed word", but WG is the everyday word itself. Do everyday abbreviations like WG, Kita and LKW stay keep?
+# question gr: the bare form "gr" (1,919) has no examples and could partly be the abbreviation of Gramm. Is merge:groß acceptable on the evidence of grer/gres/gren?
+# question nichtmal: the misspelling stands for two words (nicht mal / nicht einmal). Is merging into one part (mal) right, or should a two-word target be allowed?
+# question Jupiter: are planet and other celestial names (Jupiter, Mars, Saturn) "other names" to drop, or learnable common words?
+# question personal: the Personaler counts (800) were merged into Personal (staff). Should Personaler be its own lemma instead?

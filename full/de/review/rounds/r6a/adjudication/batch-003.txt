@@ -1,0 +1,36 @@
+inneren	merge:innert	broken verb lemma; all forms are the Swiss preposition innert
+Maxi	keep	established clipped word with a Duden entry; no evidence of brand-only use
+Zin	merge:Zins	cut-off fragment; 1,394 of 1,417 forms are zins, none are zinn
+Misstraue	merge:Misstrauen	capitalised NOUN lemma, forms and examples are the noun Misstrauen, not the imperative
+FR	merge:für	lower-case fr, 1,411 times, is the ü-dropped für, like wrde and nchst
+forsch	keep	forsch is a real adjective a learner meets; the lemma itself is not broken
+beleg	merge:belegen	forms and example are mostly the verb belegen; imperative filed as lemma
+versuch	merge:versuchen	tagged VERB; imperative use (versuch mal) filed as lemma
+teen	drop	lower-case, untranslated English use with no German example; not the adapted noun Teen
+Ambient	merge:Ambiente	1,036 of 1,364 forms are Ambiente; the music-genre use is a minority
+gam	merge:Game	cut-off fragment; forms are mostly games/game, the established loan Game
+bad	merge:Bad	lower-case noun Bad; no example supports the English adjective
+Fed	keep	famous institution (US Federal Reserve), common in German news
+Feinste	keep	nominalised superlative (vom Feinsten), a noun in its own right like das Gute
+Kehl	drop	the lemma is the place name Kehl, which is not on the list
+Drei	keep	die Drei is a noun of its own; the lemma is not broken
+angehörig	keep	angehörig is an adjective with its own dictionary entry; the lemma is not broken
+schweizer	merge:Schweizer	the place-name adjective is written capitalised (Schweizer Markt)
+Ne	merge:eine	colloquial reduced form ('ne) of eine, tagged PRON
+naht	merge:nahen	examples are all the verb (der Winter naht); conjugated form filed as lemma
+Sicher	merge:sichern	all 1,182 forms are sichern; there is no adjective use in the evidence
+Finn	drop	personal name; the nationality noun is Finne
+wei	merge:weiß	ß dropped (weie, weier = weiße, weißer)
+Versage	merge:Versagen	capitalised NOUN lemma; forms and examples are the noun das Versagen
+verbündet	merge:Verbündeter	participle without its own adjective entry; text is the noun Verbündete(r)
+Krypto	merge:Kryptowährung	clipping of a listed word
+scheiß	merge:Scheiß	attributive or prefix use (scheiß egal), the noun Scheiß, tagged ADJ
+dei	drop	Italian or dialect, garbled; no obvious German target
+spiel	merge:Spieler	cut-off fragment; 1,109 of 1,128 forms are spieler
+Bemühe	merge:Bemühen	capitalised NOUN lemma; forms and examples are the noun das Bemühen
+# question forsch, Drei, angehörig, Kehl: each lemma is decided on its own reading, but most counted forms belong to another word (forschen, Dreier, Angehörige(r), Kehle). Should those counts be reassigned, or those words added, if they are not already listed?
+# question Maxi, Krypto: should established clippings be kept as their own lemma, or merged into the full word? Is Kryptowährung on the list?
+# question versuch, bad, FR: there are no usable examples, so lower-case noun vs imperative, English word or abbreviation was judged from the forms and tags only. Please confirm.
+# question Ne: colloquial ne mixes 'ne (eine) with the tag particle ne/nee; I merged it into eine. Should the particle get a lemma of its own?
+# question scheiß: is the noun Scheiß on the list as distinct from Scheiße, or should both merge into Scheiße?
+# question inneren: innert is a Swiss-only preposition; is it on the list, or learnable at all?

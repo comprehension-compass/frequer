@@ -1,0 +1,35 @@
+gedacht	keep	adjective with its own entry (gedacht = intended/imagined, "als Nutzfahrzeug gedachte"); the other examples are gedenken preterite
+flöten	keep	real verb lemma (flötete, flötet, geflötet; "flöten gehen"); not broken
+flirt	merge:Flirt	the lemma's own reading is the noun Flirt filed lower-case; the flirten forms belong to a separate lemma
+Jüngste	keep	nominalised noun in its own right (unsere Jüngsten, die Jüngste); written forms are case-folded
+Anschreibe	merge:Anschreiben	cut-off fragment; all forms and examples are the noun Anschreiben (cover letter)
+motorisieren	keep	valid verb dictionary form; lemma not broken
+sic	keep	established Latin insertion in German texts (Duden entry)
+verträumen	keep	real verb (den Tag verträumen); lemma not broken, even though the forms are mostly the adjective verträumt
+wg	merge:Wohngemeinschaft	abbreviation of a listed word; the example is WG (Wohngemeinschaft), not wegen
+Automotiv	drop	English specialist industry term, wrong form, not an adapted loan
+Stütze	keep	correctly written noun (die Stütze); lemma not broken
+wildern	keep	real verb (to poach); lemma not broken, even though the adjective wilder is miscounted here
+erbleichen	keep	real verb (erbleichen, archaic preterite erblich/erblichen explains the mis-assignment); lemma not broken
+Arcade	drop	English gaming term and names (Penny Arcade, Arcade Fire), not the adapted Arkade
+Diversity	keep	established loan in current German (Diversity und Inklusion)
+Swisscom	keep	famous institution (the Swiss national telecom company)
+web	merge:Web	lower-case form of the established noun loan das Web
+Kollage	merge:Collage	the lemma is the spelling variant of Collage; the kollagen forms are a different noun (Kollagen) wrongly counted here
+kranken	keep	real verb (an etwas kranken; krankt, krankte); lemma not broken
+dr	merge:Doktor	abbreviation of a listed word (Dr., Dres.)
+Hoster	keep	established loan in German IT use (mein Hoster)
+trompeten	keep	real verb (trompetet, trompetend, trompeteten); lemma not broken
+Äußere	keep	noun in its own right (das Äußere); written forms are case-folded, so lower case is not evidence
+herzlichst	keep	lexicalised adverb with its own entry (closing formula "Herzlichst")
+punkto	keep	own dictionary word (in punkto, punkto Sicherheit)
+Fallout	keep	German noun entry (radioactive Fallout); game-title uses don't change that
+Nicht	merge:Nichte	cut-off fragment; the forms are nichte (945), the example is Nichte, and none are nicht
+Lach	merge:Lachs	cut-off fragment; most forms are lachs (821)
+gelehrt	keep	adjective with its own entry; the nominalised Gelehrter forms don't make the lemma broken
+Wacker	drop	the examples are the company name Wacker Chemie, which is not a famous institution; the adjective wacker is not evidenced here
+# question flöten, motorisieren, verträumen, wildern, erbleichen, kranken, gelehrt, Stütze, Kollage: each lemma is kept or merged on its own merits, but most of its counts belong to another word (Flöte, motorisiert, verträumt, wild, erblich, krank, Gelehrter, Kollagen). Should those counts be reassigned, and should verträumt, Gelehrter and Kollagen be added if they are missing?
+# question flirt: the lemma reads as the noun Flirt, but most counted forms are the verb flirten. Should the counts be split between the two?
+# question wg: wg is ambiguous between WG (Wohngemeinschaft) and wg. (wegen), and the sample has only one example. Should WG be its own lemma as an everyday word?
+# question Swisscom, Wacker: do large companies count as "famous institutions"? Is regional fame (Swisscom in Switzerland) enough?
+# question gedacht: the counts mix the adjective gedacht with gedenken preterite forms (gedachte, gedachten). Should the gedenken share be reassigned?

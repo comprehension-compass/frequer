@@ -1,0 +1,35 @@
+Vierter	merge:vierte	inflected nominalised ordinal; consistent with vierte as the ordinal lemma
+nimm	merge:nimmer	all forms and examples are the adverb nimmer; the lemma label is broken, not the target
+zigeunern	drop	examples are spam with the word inserted at random, so no evidence of genuine use
+fach	drop	adjective-inflected fragments of the -fach suffix (mehrfache, vielfacher); not the noun Fach and no single obvious target
+Jakobsweg	drop	named pilgrim route, treated as a place name not on the reviewed list
+Sep	merge:September	abbreviation of a listed word
+aufeinanderfolgen	keep	real verb infinitive, not a broken lemma ("folgen aufeinander" attested)
+Gefall	merge:Gefälle	dropped umlaut; examples are all Gefälle (slope)
+Sele	merge:Selen	the dominant form selen is the element in the example; sele is a fragment, not Seele
+Freu	merge:sich freuen	capitalised imperative of a pronominal verb; lemmatiser files it as sich freuen
+Stack	keep	established IT loan with a dictionary entry
+Ahn	keep	der Ahn is a real noun; ahnen is also its plural (die Ahnen), so the lemma is not broken
+Kühle	keep	die Kühle is a real noun; the lemma is not broken
+Kühn	drop	tagged NOUN and every example is the surname Kühn; the adjective kühn is lemmatised separately
+admin	merge:Admin	lower-case noun; Admin is an established noun
+aufm	merge:auf	colloquial contraction (auf dem), merged to its base word as with gabs/wars
+Fu	drop	no obvious target: Fuß, für and Kung Fu all fit poorly with the ADP tag and the form fuen
+Pc	merge:PC	established abbreviation with broken casing
+Rach	merge:Rachen	dominant form rachen is the noun Rachen with the -n cut off; Rache would appear as rache
+ists	merge:sein	verb+es contraction, merged to the verb as with gabs/wars/hats
+kannste	merge:können	colloquial verb+du contraction, merged to the verb as with gabs/wars
+komplizieren	keep	real verb infinitive; the lemma is not broken
+ie	drop	bulk form ie is not jeder (likely je in old spelling, or i.e.); no single obvious target
+Pfälzer	keep	demonym noun like Berliner, not itself a place name
+verheeren	keep	real verb infinitive; the lemma is not broken
+Jüngere	keep	nominalised adjective, a noun in its own right (die Jüngeren), like das Gute
+haftungsbeschränkt	keep	real adjective with no verb to merge to; the legal-form context does not make it junk
+Kribbel	merge:Kribbeln	examples are the noun das Kribbeln; the lemma is a cut-off
+Zitronensäure	keep	lemma is already a correctly capitalised normal noun
+tags	keep	adverb with its own dictionary entry (tags darauf)
+# question zigeunern: the rules don't cover offensive or slur-derived words that are genuinely used; should they be dropped as a class?
+# question fach, Fu, ie: fragments are to be merged, but these have no single obvious target; is drop correct, or should they be held?
+# question Jakobsweg, Pfälzer: do named routes count as place names, and do demonyms and place-derived adjectives (Pfälzer, Berliner) count as names?
+# question aufeinanderfolgen, komplizieren, verheeren: most forms are the participle adjectives (aufeinanderfolgend, kompliziert, verheerend); should those forms be moved to the adjective lemma, or stay under the valid verb?
+# question aufm, ists, kannste: please confirm that colloquial contractions merge to their base word (auf, sein, können), as with gabs/wars.

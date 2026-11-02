@@ -1,0 +1,35 @@
+einem	keep	lemmatiser files article forms as own lemmas (eine is kept the same way), so this is convention, not a broken lemma
+eines	keep	same as einem; one example is also the pronoun use (über eines nachgedacht)
+vierte	keep	vierte is the dictionary headword for ordinals (der/die/das vierte); use the -e form for all ordinals
+AG	merge:Aktiengesellschaft	abbreviation of a single listed word
+fünfte	keep	ordinal headword in -e form, same as vierte
+sechste	keep	ordinal headword in -e form, same as vierte
+ne	keep	established colloquial word (tag particle ne? and 'ne); merging would hide the particle reading
+Gute	keep	nominalised in the examples (was Gutes, Alles Gute); das Gute rule
+Neue	keep	nominalised in the example (Was gibt es Neues)
+Allgemeine	keep	im Allgemeinen is a nominalised fixed phrase
+Folgende	keep	im Folgenden is nominalised
+Hamburger	keep	not a place name; also the food noun, which learners meet
+Neues	merge:Neue	inflected form of the kept nominalised lemma Neue
+Kleine	keep	der/die/das Kleine is a noun in its own right; no counter-evidence in the examples
+letzter	keep	letzterer/letztere (the latter) is its own dictionary entry, not an inflection of letzte
+Würde	merge:werden	all written forms are lower-case würde, tagged AUX, so this is the verb; the noun Würde is lemmatised separately as a NOUN
+Münchner	pending-names	demonym, not a place name; route to place-name review
+Wesentliche	keep	im Wesentlichen is nominalised in all examples
+Richtige	keep	das Richtige is nominalised in the example
+Besondere	keep	etwas ganz Besonderes is nominalised
+Gleiche	merge:gleich	the only example is a sentence-initial adjective (Gleiche Rechte)
+Einzelne	keep	der Einzelnen is used as a noun in the example
+Übrige	keep	im Übrigen is a nominalised fixed phrase
+Lady	keep	established loan with a German dictionary entry
+Buche	merge:buchen	example is the verb (Buchen Sie); the forms are buchen
+nem	merge:einem	colloquial contraction of a listed word, consistent with ner→eine
+DM	drop	abbreviation of a phrase (Deutsche Mark), also the dm brand; not a single listed word
+FH	merge:Fachhochschule	abbreviation of a single listed word
+regen	keep	sich regen is a real verb (forms regt, regte); merging would hide it
+usw	keep	common general abbreviation, not a specialist acronym
+# question einem/eines: confirm that inflected article forms (einem, eines, also einer, einen) follow the ein/eine own-lemma convention rather than merging into ein
+# question vierte/fünfte/sechste: confirm the -e form (vierte) as the single ordinal target, so Vierter, viert and dritt merge into it
+# question AG/FH: merge assumes Aktiengesellschaft and Fachhochschule are on the list; if they are not, should the abbreviation be kept instead?
+# question Münchner: should demonym adjectives of listed cities be kept like Hamburger, or always go to place-name review?
+# question regen: the rege adjective forms are mixed with the regen verb forms under one lemma; should the rege forms be split off into their own adjective lemma?
