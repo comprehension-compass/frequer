@@ -1,0 +1,24 @@
+BAD	agreed merge:Bad, but an all-caps BAD with no examples may be the English word "bad" (titles such as Breaking Bad, Bad Religion): English look-alike, check before merging
+VIA	agreed merge:via, but the evidence is name-like (1.9 %) and all caps: may be the brand/company VIA or English; check
+CLUB	agreed merge:Club; all-caps with no examples, could be English titles or club names; confirm
+Chill	agreed merge:chillen; "chill" (297 of 411) may be the English word (Chill Out, Netflix and chill) rather than the German verb; English look-alike
+Merk	agreed merge:merken; forms merk/merks/merkes at 0.0 % after an article look like the surname Merk (genitive Merks), not the verb
+Klug	agreed merge:klug; Klug is also a surname (capitalised PROPN); check whether the capitalised uses are a name
+Scharf	agreed merge:scharf; Scharf is also a surname (capitalised PROPN); check whether the capitalised uses are a name
+Platt	agreed merge:platt; das Platt (Low German dialect, "auf Platt") is a noun in its own right, and the forms include genitive "platts": keep, not merge, if so
+kuch	agreed merge:Kuchen, but 92 of 429 are "kuche", likely Küche written without the umlaut: merging would mix two words (Kuchen/Küche)
+hannov	agreed merge:Hannover; check the merge target is a learnable place (well-known city) rather than a place to drop
+Barbado	agreed merge:Barbados; check the target is a learnable place (country) rather than a place to drop
+Bosnien-Herzegowina	agreed drop as a place not on the list, but it is a country (Bosnien und Herzegowina); both reviewers asked whether the list missed it
+KundInnen	agreed merge:Kunde; gendered forms are handled inconsistently in this round (AntifaschistInn -> Antifaschistin, AntifaschistInnen -> Antifaschist, AutorInn -> Autorin): decide consistently and ask a question if the rules don't settle it
+AntifaschistInnen	agreed merge:Antifaschist; see KundInnen: inconsistent with AntifaschistInn -> Antifaschistin
+AntifaschistInn	agreed merge:Antifaschistin; see KundInnen
+AutorInn	agreed merge:Autorin; see KundInnen
+VertreterInn	agreed merge:Vertreterin; see KundInnen
+eu	agreed keep, but lower-case "eu" with forms euen/eue/euem/eues looks like a fragment (neu/teuer/euer clipped) rather than the EU acronym; check
+COMPUTER	agreed keep, but an all-caps filing of an established loan should be merge:Computer under the case rulings
+BUSINESS	agreed keep, but all caps: merge:Business if the loan is established, otherwise drop as English
+adult	agreed keep; examples are the zoological German adjective adult (adulte Tiere), but check the counts are not mostly English "adult" (porn spam)
+Nude	agreed keep; "nude" as a colour in fashion text vs English porn spam (nudes); check it is an established loan
+Registration	agreed keep; English look-alike, German uses Registrierung; check it is established and not English text
+Bastei	agreed keep, but the examples are the publisher Bastei Lübbe and the Bastei rock formation (names): check
