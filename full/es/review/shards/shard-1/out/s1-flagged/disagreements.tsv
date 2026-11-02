@@ -1,0 +1,24 @@
+# lemma	A	reason A	B	reason B
+tadalafil	merge:tadalafilo	English spelling of adapted drug name	drop	specialist drug name
+aster	keep	Real Spanish word (the flower), though many hits are a firm name	drop	mostly a company name, so the real-word reading is a minority
+isofix	keep	Standard term parents use for car-seat fixings	drop	technical standard and product name
+biociencias	keep	Real Spanish noun (biosciences)	merge:biociencia	plural filed as lemma
+counseling	keep	used as a loan in Spanish psychology	drop	English, not established
+chlamydia	merge:clamidia	Latin spelling of the adapted word	drop	examples are the Latin taxon Chlamydia trachomatis, not the Spanish word
+rummy	drop	card-game name, mostly app titles	keep	card game name, established loan
+salat	drop	foreign religious term, not established in Spanish	keep	Islamic prayer, used in Spanish texts
+mobil-home	keep	established loan for camping, hyphenated	drop	hyphenated foreign compound
+dirigiéndono	merge:dirigirse	gerund with clitic filed as lemma	merge:dirigir	gerund with clitic filed as a lemma
+etecsa	drop	company acronym	keep	Cuba's national telecom operator, widely known
+punjabi	merge:panyabí	English spelling of the adapted Spanish word	merge:punyabí	English spelling of the adapted Spanish word for the language
+padrespadr	drop	web artefact: doubled word "padrespadres"	merge:padre	web artefact of "padres" doubled; the real word is padre
+ukiyo-e	drop	hyphenated Japanese term, not established	keep	established art term used as is in Spanish
+mycoplasma	drop	specialist Latin genus name	merge:micoplasma	Latin/English spelling of the adapted word
+papo	keep	real Spanish word (papo), though examples are brand names	drop	mostly brand and name
+audiobook	merge:audiolibro	English spelling of the adapted Spanish word	drop	English word; Spanish uses audiolibro
+inpe	keep	public body (Peru's penitentiary institute, Brazil's space institute)	drop	institute acronym, not nationally famous
+go-go	keep	established loan (go-go boy, go-go dancer)	drop	hyphenated doubled word, not a lemma
+antiaging	drop	English marketing term	keep	established marketing loan in Spanish
+infanto-juvenil	keep	real Spanish adjective	merge:infantojuvenil	hyphenated spelling of a word the academy writes as one
+methenolone	drop	English drug name, specialist	merge:metenolona	English spelling of the adapted Spanish drug name
+asegurémono	merge:asegurarse	imperative with clitic filed as lemma	merge:asegurar	conjugated form with clitic filed as a lemma

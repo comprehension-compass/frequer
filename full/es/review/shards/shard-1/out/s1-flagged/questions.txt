@@ -1,0 +1,105 @@
+# question antiaging: an English cosmetics loan, written as one word, with no clear Spanish form (antiedad); kept as established, but borderline
+# question antiaging: could count as an established marketing loan (anti-aging), but I judged it not established enough and dropped it
+# question aparthotels: the academy spells it apartahotel but people also write aparthotel; merged to the academy form
+# question aquilea: mostly a place or brand in the examples, but "aquilea" is also a real Spanish plant name, so I kept it as the common word.
+# question aster: mostly a firm name in the examples, but the botanical noun is real Spanish, so kept
+# question aster: the flower is a real Spanish word, but examples show only the company name
+# question biociencias: could also be kept as a plural-only noun, but biociencia is the clear singular lemma
+# question bonoloto: a famous Spanish state lottery game, but a product name; dropped as a product rather than kept as an institution.
+# question bonoloto: state lottery game could count as a famous public institution, but treated as a product
+# question borderline: the English word is used in Spanish psychiatry, but most examples are a bar name
+# question bule: Spanish regional common word (calabash) possible, but the examples show a proper name
+# question by-pass: the academy writes "baipás" and people write "bypass"; merged to the form people write.
+# question cazacarro: lemma is written only as cazacarros (invariable); unsure whether the intended lemma is cazacarros or cazacarro, merged to cazacarros as the written form
+# question cazacarro: lemma looks like singular but the word is invariable in the text (cazacarros singular); I chose merge:cazacarros to match the written form
+# question cepe: acronym reading (CEPE) is the majority, but the common word cepe exists
+# question cepe: the examples are mostly the UN commission acronym CEPE, but the real Spanish word cepe exists; kept as the common word
+# question chanson: French loan for a music genre; unclear whether it is established enough in Spanish to keep
+# question chanson: it is used as a music genre label in Spanish text, but I judged it not established enough for a learner and dropped it.
+# question chlamydia: could merge to clamidia, but the examples are almost all the Latin binomial, so I dropped it
+# question cide: CIDE is nationally known in Mexico but less famous than UNAM, so whether it counts as a famous institution is unclear
+# question cide: a nationally known Mexican research institution but not a household name like UNAM; kept as a famous institution.
+# question clad: it is an intergovernmental centre, but not a famous international body, so I dropped it
+# question costo-efectiva: this is a calque of the English "cost-effective"; I dropped it as a hyphenated compound rather than merging it into a lemma such as costoefectivo, since no obvious Spanish lemma exists.
+# question counseling: mostly English-phrase examples, but the term is used as a loan in Spanish psychology; kept as a borderline case.
+# question cucos: all-caps website name; the real plural of "cuco" is a minority reading, so I dropped it.
+# question dedicándono: the lemmatiser's pronominal convention suggests dedicarse, but plain dedicar is also possible; I chose dedicarse because the examples all use the "-nos" reflexive form.
+# question dobra: examples mix the São Tomé currency with names and a Portuguese festival word; kept as the currency
+# question dogecoin: cryptocurrency name could count as an established term or as a product/brand; dropped as a brand.
+# question duvet: used as a shop term in some regions, but edredón is the usual word; dropped as not established
+# question duvet: used in some Spanish regions for a quilt, but no examples were available, so I dropped it
+# question ecdc: an EU agency that is not a place and is known mainly to specialists; kept as a famous international body on the AIEA/OMS model, but it could be judged a specialist acronym
+# question echinacea: examples are mostly Latin binomials (Echinacea purpurea), but the plant name is real Spanish, so I merged it
+# question eirl: Peruvian legal-form abbreviation, could count as an ordinary acronym, but treated as an organisation acronym
+# question eirl: a legal-form abbreviation (like SL or SA) used in Peru; dropped as a specialist or organisation acronym
+# question eoi: Escuela de Negocios EOI vs. Escuela Oficial de Idiomas; unclear whether it is a nationally famous public body, dropped as an ordinary organisation
+# question etecsa: a state telecom company rather than a ministry or broadcaster; kept as nationally famous in Cuba, but it could count as a company brand
+# question frangipani: it is a real word for the flower, but may be seen as a foreign term not fully adapted (Spanish also has franchipán)
+# question gilet: a French loan that is used in cycling and fashion, but most examples are product names or a place, so I dropped it.
+# question go-go: hyphenated, but not a compound of two listed words; kept as an established loan.
+# question humilladero: most examples are the place name (Humilladero), but it is also a real common word; kept under the common-word rule.
+# question hybris: hýbris may be a real Spanish word, but the examples are overwhelmingly the SAP product, so dropped
+# question hybris: the Greek-origin word is a real concept (Spanish hibris), but the examples are the SAP company, so dropped rather than merged.
+# question ieca: ordinary word in Spanish medicine (drug class) but only specialists use it; I decided drop
+# question infanto-juvenil: could be kept as written instead if the hyphenated form is the one people write
+# question infanto-juvenil: hyphenated but a standard Spanish adjective, not a compound of two listed words; kept
+# question inpe: Peruvian prison institute or Brazilian space institute; neither is clearly famous enough, so dropped
+# question inpe: two different national bodies share the acronym; unclear it is famous enough to keep
+# question iptabl: the written form "iptables" is a real loan in sysadmin Spanish, but specialist only; dropped rather than merged.
+# question isofix: standard/brand term that parents do use in Spanish; kept as an established technical term
+# question ixil: Ixil is a Mayan people/language name (lowercase adjective ixil is used in Spanish); dropped as a proper noun, but could be kept as an ethnonym.
+# question ixil: ethnic group and language of Guatemala, not a place; dropped as an ordinary proper name, but could be kept like maya
+# question jaxa: a foreign national space agency, not a Spanish-world body or a listed international body; dropped as an ordinary organisation
+# question lda: "Lda." can abbreviate "licenciada", but the examples show the technical acronym LDA and a company name; dropped.
+# question lda: Lda can abbreviate licenciada, but the examples show LDA mostly as a technical acronym or company name; dropped.
+# question lgbtqi: a variant of LGBT, which may merge into it if that lemma is on the list
+# question lgbtqi: variant of the established LGBT; kept as an ordinary-use acronym but could be merged into LGBT if that is the listed form
+# question litchi: DLE standard is lichi but litchi is also common; merged to lichi under the spelling rule
+# question marathi: English spelling of the Spanish language name maratí; examples mostly come from English-language text
+# question marathi: maratí is the academy form, but the counted text is mostly English-language context
+# question maritima: most examples are place or proper-noun uses ("Stazione Maritima"), so the common-word reading may be a minority; merged because the lemma is a missing-accent form.
+# question maritima: some examples are Italian place names (Stazione Maritima), but the lemma is mostly the unaccented adjective
+# question mayday: loan used mostly in emergency-procedure texts; kept as an established distress call
+# question mineco: a ministry-name acronym of a former ministry; kept as a famous public body
+# question mirabel: mirabel is a rare plant name in Spanish, but the examples are hotel and place names, so dropped
+# question mobil-home: French loan used for campsites; Spanish may write "mobil home", but the rules say hyphenated compounds drop
+# question mobil-home: hyphenated French-origin loan used in Spanish camping contexts; unclear whether it counts as established or a hyphenated spelling to normalise
+# question mutis: examples show only the surname (José Celestino Mutis, Red Universitaria Mutis), but "mutis" is a real Spanish word, so I kept it under the common-word rule.
+# question mutis: the examples are mostly the surname Mutis, but mutis is a real Spanish word, so I kept it under the common-word rule.
+# question pagada: could also be merge:pagar or an adjective lemma pagado; chose pagado
+# question pagada: could be merge:pagar (participle) or pagado; chose pagado
+# question papo: real but rare word, and the examples are almost all brand or name uses
+# question paranaense: a demonym adjective derived from a place name, kept as a common adjective, though most uses are in team or region names.
+# question paranaense: gentilic derived from a place name; kept as an ordinary adjective
+# question picón: most examples are surnames, but picón is a real Spanish word; kept as a common word
+# question picón: most occurrences are a surname, but the word picón is real Spanish, so kept under the common-word rule.
+# question punjabi: panyabí is the academy form, but unsure how the list spells it; merged to panyabí.
+# question punjabi: the Spanish form could be panyabí or punyabí; I chose punyabí.
+# question rummy: card game name used in Spanish, but the examples are mostly app and brand titles
+# question rummy: mostly "Gin Rummy" product names, but the game name is used in Spanish
+# question salat: Islamic prayer term that appears in Spanish religious texts; unclear whether it counts as established
+# question salat: transliterated religious term, could count as foreign
+# question sandal: mixed English "sandal" and Spanish-looking "sandales"; dropped as mostly brand or English, but sandalia is the Spanish word
+# question sedena: a Mexican ministry, kept as a famous institution, though it is mostly known by its acronym
+# question sgm: abbreviation of "Segunda Guerra Mundial", a phrase and not a single listed lemma, so I dropped it instead of merging.
+# question souq: Arabic loan with Spanish equivalent zoco, but occurrences are mostly in place names; dropped.
+# question spritz: tagged ADJ and may be borderline loan, kept as established drink name
+# question spritz: tagged ADJ but is a noun for the drink; kept as established loan
+# question tadalafil: a generic drug name that is a real word in Spanish, but specialist and mostly spam context; dropped.
+# question tadalafil: it may be too specialist for a learner's list; merged into the Spanish spelling.
+# question tarahumara: an ethnonym is not a place, but the rules do not say whether people-group names count as common words; I kept it.
+# question tarpon: Spanish has tarpón for the fish, but the counted uses are mostly brand and place, so dropped.
+# question tic-tac: hyphenated, but it is a single onomatopoeic noun rather than a compound of two listed words, so kept
+# question tic-tac: the academy writes "tictac", but people write the hyphenated form, so I kept the form as given
+# question tomahawk: it is an established loan, but all sampled uses are names
+# question tota: no examples available; "tota" may be Catalan or a name, dropped on the minority-reading rule
+# question travelling: kept as an established film-camera term; the examples are mixed with English web text
+# question uit-d: could merge into UIT if that entry is listed, but the "-D" sector code is not a separate word
+# question ukiyo-e: an established art term in Spanish, but hyphenated and foreign
+# question ukiyo-e: hyphenated but a single established art-term loan; keep vs drop is unclear under the rules
+# question vaisnava: religious term from Sanskrit, adapted to Spanish spelling; kept, but it is niche vocabulary
+# question vaisnava: specialist religious term, kept because it is written as a Spanish common noun
+# question vtt: Spanish "VTT" (vehículo todo terreno) appears in two of three examples, but the Finnish institute reading also occurs; dropped as unsettled.
+# question wayúu: it is a capitalised ethnonym, and the rules do not say whether ethnic-group names count as common words or as proper nouns; I kept it.
+# question wenge: Spanish usually writes the wood as wengué, but the examples mix wood and place or brand uses; kept as written.
+# question wenge: the academy writes wengué, but people write wenge, so I kept it as written.
