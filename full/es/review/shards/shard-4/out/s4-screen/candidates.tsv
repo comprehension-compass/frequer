@@ -1,0 +1,653 @@
+# lemma	screeners	notes
+verse	2	verb with clitic; dictionary form is ver / verb with clitic attached; lemma should be ver
+hacerse	2	verb with clitic; dictionary form is hacer / verb with clitic attached; lemma should be hacer
+resort	1	English word, doubtful as an established loan
+moverse	2	clitic verb; dictionary form is mover / reflexive clitic attached; dictionary form is mover
+ofrecerse	2	clitic verb; dictionary form is ofrecer / reflexive clitic attached; dictionary form is ofrecer
+parking	1	English loan, tagged ADJ
+buffet	1	English/French loan, tagged VERB
+hallarse	2	verb with clitic; dictionary form hallar / verb with clitic; dictionary form is hallar
+casarse	2	verb with clitic; dictionary form casar / verb with clitic; dictionary form is casar
+juzgado	2	participle/noun form; dictionary verb is juzgar / participle/noun form; dictionary form is juzgar
+iniciarse	2	verb with clitic; dictionary form iniciar / verb with clitic; dictionary form is iniciar
+caché	1	loan/French form, odd ADJ tag
+nylon	1	English spelling; Spanish is nailon
+beta	1	"BETA" possible abbreviation/name
+protegerse	1	verb with clitic, dictionary form proteger
+acta	1	"Acta" capitalised variant, possible name
+presunto	1	tagged NOUN, adjective/noun mix
+narrativo	1	forms narrativa/narrativas; dictionary form likely narrativa
+emplearse	1	verb with clitic, dictionary form emplear
+gourmet	2	loan word tagged VERB / French loan, tagged VERB; likely adjective/noun loan
+cazar	1	forms "cazo" ambiguous with noun cazo
+retro	1	short clipping, informal
+rentar	1	forms "Rente"; Latin American "rentar" fine but odd; likely misfiled
+empeñar	1	tagged NOUN, forms empeño/empeñado; POS mismatch
+graduado	1	tagged NOUN, participle form
+rectangular	2	tagged VERB, adjective / tagged VERB but forms are adjective; dictionary form differs
+dúo	1	variants "Duo"/"DUO" missing accent form
+refresco	1	tagged ADJ, forms refrescos; noun
+moño	2	forms "monos" suggest wrong lemma (mono) / forms "monos" suggests wrong lemma merge
+tópico	1	ADJ tag, noun sense
+botar	1	tagged NOUN, forms bote/botar; mixed lemma
+avatar	1	"Avatar" capitalised, film/name
+rebotar	1	tagged NOUN, forms rebote/rebotar; mixed lemma
+fiscalía	1	"Fiscalía" capitalised, institution name
+ventanal	1	tagged ADJ, is a noun
+lavarse	2	verb with clitic, dictionary form lavar / "se lavar" odd form
+marear	2	lemma/POS mismatch: forms are mareas/mareo/mareada (marea, mareo) / lemma is a verb tagged NOUN; forms are mareas/mareo/mareada (marea, mareo)
+arenal	1	capitalised forms suggest a place name
+barajar	1	forms are the noun baraja
+triangular	1	forms are adjectival or noun, not the verb
+numerar	1	only participle forms
+opacar	1	forms are the adjective opaco
+bobinar	1	forms are the noun bobina, participle
+egresar	1	forms are egresado and egreso
+industrializar	1	only participle forms
+nevar	1	only participle forms (nevado)
+desproporcionar	1	only participle forms
+diezmar	1	forms include noun diezmo
+alcantarillar	1	forms are alcantarilla and alcantarillado
+pavimentar	1	only participle forms
+dobladillar	1	forms are the noun dobladillo
+cascar	1	forms are cascada and cáscara, not the verb
+cribar	1	forms are the noun criba, participle
+dentar	1	only participle forms
+diluviar	1	forms are the noun diluvio
+escarpar	1	only participle forms
+decibelio	1	mis-tagged VERB, form "dB" is an abbreviation
+elevadora	2	feminine form (elevador) / feminine form filed as lemma (elevador)
+dictado	2	participle of dictar / participle/noun form, verb lemma is dictar
+recordarse	2	reflexive/clitic form (recordar) / reflexive/clitic form, dictionary form is recordar
+bolsita	1	diminutive of bolsa
+cubito	1	diminutive of cubo
+jalear	2	lemma doesn't match forms (jalea/jaleo), noun-tagged / forms jalea/jaleo don't match the verb lemma
+felicidades	2	plural/interjection form, dictionary form is felicidad / plural/interjection form, dictionary form felicidad
+pacificar	1	forms Pacifica/pacifico look like a misspelt pacífico or a name
+socia	2	feminine form of socio, plus Italian "sociale" among forms / feminine form, dictionary form is socio
+murar	1	inflected forms only (muramos, Mures); likely "mures" from murciélago/other, dubious verb
+canto	2	ambiguous homonym (cantar/canto/cant.), only capitalized forms in text; possible name/fragment / ambiguous/only capitalized forms, possibly name or fragment
+delicatessen	2	foreign loan (German), tagged VERB; plural/uninflected loan / foreign (German/English) loan, mis-tagged VERB
+vertido	2	participle filed as noun; dictionary form verter / participle/noun, borderline
+sobra	2	plural-only forms; dictionary form sobrar/sobra / only plural "sobras"; lemma/POS dubious
+aglomerar	2	lemma tagged NOUN, forms are participles; POS mismatch / lemma filed as NOUN, forms are participles
+martino	2	name (Martino), not a Spanish word / name (Martino)
+tripleta	2	tagged VERB, doubtful; likely misc form / mis-tagged VERB; dubious
+tétano	2	misspelt/variant; dictionary form is tétanos / misspelt; dictionary form is tétanos
+sobrecalentar	1	form "sobrecaliente" odd; possible artefact
+autentificación	1	variant of autenticación, borderline
+guardaespaldas	2	tagged ADJ; actually noun / tagged ADJ, noun
+retractar	2	form "retracto" odd; possible artefact / form "retracto" ambiguous; pronominal retractarse
+ratán	2	variant/ratan; likely rattan loan variant / variant "Ratan"; dubious form (rota/ratán)
+descalzar	2	forms descalzo; POS/lemma mismatch / forms descalzo/Descalzo, adjective
+psicosis	1	variant "sicosis" mixed
+ayahuasca	2	Quechua loan tagged VERB; POS error / mis-tagged VERB; Quechua loan, borderline
+embrujar	2	tagged ADJ with form "embrujo"; POS mismatch / tagged ADJ, forms participial/noun
+enfadarse	2	clitic verb filed as lemma; dictionary form enfadar / pronominal verb form filed as lemma; dictionary form enfadar
+albor	2	forms include Alborán (place name) / "Alborán" place name among forms
+responsivo	1	calque from English "responsive", borderline
+puntal	2	tagged ADJ; actually noun / tagged ADJ, noun
+folicular	2	tagged VERB; POS mismatch / mis-tagged VERB
+parrillada	2	tagged VERB; POS mismatch / mis-tagged VERB
+automatismo	2	tagged VERB; POS mismatch / mis-tagged VERB
+raer	2	forms "Rae" (RAE institution) suggest artefact / forms "Rae" (the Academy), raída; mixed
+subcarpeta	2	computing neologism; doubtful / borderline compound/computing term
+inframundo	2	tagged VERB; POS mismatch / mis-tagged VERB
+desbordante	2	tagged ADV; POS mismatch / mis-tagged ADV
+postularse	2	clitic verb filed as lemma; dictionary form postular / pronominal form filed as lemma; dictionary form postular
+constructo	1	borderline
+emparentar	2	tagged ADJ, forms are participles; POS mismatch / tagged ADJ, participial forms
+gasoil	2	variant loan (gasóleo); possibly fine but doubtful / foreign loan (English/French gasoil), borderline
+llamado	1	"llamado-" artefact; forms look like noun llamada
+rosáceo	1	noun is rosácea; masculine form filed
+portaherramienta	2	dictionary form is portaherramientas / dictionary form is portaherramientas
+leguminoso	1	noun is leguminosa; feminine/plural forms
+substituto	2	variant spelling of sustituto / variant spelling of sustituto
+archidiócesis	2	variant of arquidiócesis / variant of arquidiócesis
+glamoroso	1	variant or misspelling (glamuroso)
+fracking	1	English term
+privarse	2	verb with clitic, dictionary form privar / verb with clitic attached
+fiarse	2	verb with clitic, dictionary form fiar / verb with clitic attached
+teneis	2	missing accent, conjugated form of tener / missing accent, conjugated form (tenéis)
+alistarse	2	verb with clitic, dictionary form alistar / verb with clitic attached
+esputar	1	not a standard verb; noun esputo
+apuntarse	2	verb with clitic, dictionary form apuntar / verb with clitic attached
+microcosmo	1	dictionary form is microcosmos
+dinamo	1	missing accent (dínamo) or club name
+agacharse	2	verb with clitic, dictionary form agachar / verb with clitic attached
+domo	2	plural noun filed as verb / plural-looking form filed as verb; likely English/Latin or non-lemma
+atarear	1	participle atareado; adjective form
+notariado	1	odd feminine forms; POS/lemma mismatch
+claretiano	1	derived from a name (Claretians order)
+grappa	2	Italian word / Italian word
+mahatma	1	title/name
+habeis	2	missing accent (habéis) / missing accent, conjugated form (habéis)
+accademia	2	Italian spelling / Italian spelling
+creatura	1	variant of criatura
+niñito	1	diminutive of niño
+pulimentar	2	forms are pulimento/pulimentado, lemma mismatch / forms are pulimento/pulimentado; dictionary form is likely pulimento
+montesino	2	capitalised surname forms (Montesinos) / surname (Montesinos)
+ahijar	1	forms are ahijado, noun lemma differs
+orear	2	forms Oreo/oreo, brand name / forms are Oreo, a brand name
+hmm	2	interjection, not a word / hesitation interjection, probably English-style
+lidio	2	forms are lidia (bullfighting), lemma mismatch / forms are lidia/lidias (bullfighting), so lemma likely lidia
+abacavir	2	drug name / drug name, tagged VERB
+pedraza	2	surname or place name / surname/place name
+dispar	2	"disparán" is a misspelt or conjugated form of disparar / includes the misspelling "disparán", tagged VERB
+chorrillo	2	forms Chorrillos, place name / forms are Chorrillos, a place name
+lipoico	1	rare chemical adjective, possibly only in "ácido lipoico"
+vicenciano	1	derived from a name (San Vicente de Paúl)
+lavarropa	1	dictionary form is "lavarropas"
+eclíptico	1	feminine noun "eclíptica" is the dictionary form
+piedrecita	1	diminutive of "piedra"
+hoydomingo	2	web artefact or name, not a word / web artefact, not a word
+proporcionándote	2	verb with clitic attached / gerund with clitic attached
+kiosko	2	non-standard spelling of "quiosco" / variant spelling of "quiosco"
+consejer	2	fragment of "consejería" / fragment
+sunitas	2	plural form, dictionary form is "suní" / plural filed as a lemma
+ojito	2	diminutive of "ojo" / diminutive of "ojo"
+tun	2	fragment or abbreviation / fragment or non-word
+pedicure	1	French-style form; Spanish is "pedicura"
+vardenafil	1	drug name
+chenille	2	French word / French word
+eléctrica	2	feminine adjective form with hyphen artefacts / hyphen artefact, feminine form
+hydrocortisone	2	English word / English word
+podreis	2	missing accent, form of "poder" / misspelt "podréis" (missing accent)
+gravísimo	2	superlative form of "grave" / superlative of "grave"
+limina	2	Latin or non-word / Latin or fragment
+msata	2	abbreviation or product code / technical code (mSATA)
+enramar	2	inflected form (enramada) filed as verb/noun; POS mismatch / forms are the noun "enramada"
+monzónico	1	rare/dubious adjective (monzónico vs monzónico?)
+mímico	2	feminine/plural form mímica listed; lemma mismatch / forms are feminine "mímica"
+imantar	1	participle forms filed as ADJ
+omeprazol	1	drug name; POS ADJ wrong
+remasterizado	1	participle form
+aprisa	1	likely fine adverb but tagged NOUN
+acurrucarse	1	clitic verb; likely fine but check form
+guipur	1	French loan
+cunnilingus	2	Latin term / Latin word
+highscore	2	English word / English word
+hospédese	2	conjugated verb with clitic / imperative form with clitic
+gouache	2	French word / French word
+nauseabundo	1	POS VERB wrong
+campingcard	2	brand name / brand/product name
+liquido	2	missing accent (líquido) / missing accent (líquido)
+deshidrogenasa	1	POS VERB wrong; enzyme
+enlosar	1	participle forms filed as NOUN
+jardí	2	Catalan word / Catalan word
+recicladores	2	plural filed as lemma / plural form filed as lemma
+brainstorming	2	English word / English word
+enquistar	1	participle forms filed as ADJ
+protegiéndola	2	gerund with clitic / gerund with clitic
+imprimar	1	participle forms; POS check
+qaida	2	fragment of name al-Qaida / fragment of a name (Al Qaida)
+cedeao	2	acronym / acronym
+santiamén	1	fixed phrase (en un santiamén)
+rimel	1	POS VERB wrong
+chequee	2	conjugated verb form / conjugated subjunctive form
+customización	1	anglicism, dubious
+diphenhydramine	2	English drug name / English drug name
+hidraulico	2	missing accent / missing accent (hidráulico)
+marjal	1	name/POS ADJ wrong
+guata	1	dubious
+alfajor	1	fine but check
+nori	1	PROPN tag, Japanese loan
+dtap	2	vaccine abbreviation / vaccine abbreviation
+peleg	2	biblical name / personal name
+rábida	2	place name / place name (La Rábida)
+alborozar	1	participle forms
+soacha	2	place name / place name
+twitteado	2	participle form / participle form
+stockreferencia	2	web artefact / web/code artefact
+cantilever	2	English word / English word
+extruidos	2	plural participle filed as lemma / plural participle
+neumocócica	2	feminine form / feminine form
+triclosán	1	POS VERB wrong; variant triclosan
+orquestra	2	Portuguese/Catalan word / Catalan/Portuguese word
+craso	1	POS NOUN; feminine crasa
+piélago	1	plural/variant forms
+furosemida	1	POS ADJ wrong
+entubar	1	participle forms filed as ADJ
+cuño	1	feminine cuña mixed
+politburó	1	name/organization
+uship	2	company name / company name
+intravascular	1	POS VERB wrong
+plumín	1	plural plumínes wrong
+antonino	2	name / personal name
+cebollín	1	dubious
+colla	2	place/Catalan / Catalan/name-like, doubtful
+motivante	1	POS ADV wrong
+ahimaas	2	biblical name / biblical name
+santificaos	2	verb with clitic / verb with clitic attached
+inlingua	2	brand name / brand name
+mortem	2	Latin / Latin
+presidential	2	English / English
+humanar	2	forms mismatch, place name Humanes / odd lemma, from the place name Humanes and the participle humanado
+sofas	2	plural, dictionary form sofá / plural of sofá, accent missing
+ultramoderna	2	feminine form as lemma / feminine form filed as lemma
+imagerunner	2	product name / product name
+semper	2	Latin / Latin
+tér	2	fragment / fragment
+gcloud	2	product/code / product/command name
+hyperthreading	2	English term / English
+més	2	Catalan / Catalan
+petrino	2	adjective from a name, doubtful / adjective of a name (Petrine), probably a name
+focaccia	2	Italian word / Italian word, borderline loan
+gadita	2	derived feminine/diminutive, doubtful / feminine diminutive of a demonym
+agroecológicas	2	feminine plural form / feminine plural form
+clotilde	2	personal name / personal name
+dexamethasone	2	English / English
+facelift	2	English / English
+corset	2	French/misspelt, Spanish is corsé / French/non-standard spelling, dictionary form is corsé
+milimétricas	2	feminine plural form / feminine plural form
+famíla	2	misspelt, missing accent / misspelt, accent wrong
+hikersbay	2	web/site name / website name
+altivar	2	wrong lemma, form of altivo / wrong lemma, dictionary form is altivo
+prepintada	2	feminine form as lemma / feminine form
+sask	2	abbreviation/place / abbreviation
+cristino	2	forms of a name, Cristina / name-related form (Cristina/Cristino)
+quijarro	2	surname / surname/place name
+concluído	2	misspelt, wrong accent / misspelt, wrong accent
+pregrabados	2	plural participle / plural form
+servio	2	wrong lemma, forms mismatched / conjugated form or other-language word
+tersar	2	wrong lemma, form of terso / wrong lemma, dictionary form is terso
+dizi	2	Chinese word / Chinese instrument name, foreign word
+reproduciéndose	2	gerund with clitic / gerund with clitic
+cúbralo	2	imperative with clitic / imperative with clitic
+periurbana	2	feminine form as lemma / feminine form
+storico	2	Italian / Italian
+unsubscribe	2	English / English
+activecifra	2	web artefact / web artefact
+santee	2	place name / place name
+tracfone	2	brand name / brand name
+brindándote	2	gerund with clitic / gerund with clitic
+escariar	2	forms mismatched, surname Escario / inflected form and name mixed (escariado, Escario)
+reciprocar	2	wrong lemma, forms of recíproco / wrong lemma, dictionary form is recíproco
+rectar	2	wrong lemma, forms of recto / wrong lemma, from recta
+ashemaletube	2	web site name / website name
+acidophilus	2	Latin/bacterial name / Latin/biological name
+pozzallo	2	place name / place name
+descalabrar	1	mixed forms (descalabro, descalabrado)
+heated	2	English / English
+mostrarlo	2	infinitive with clitic / verb with clitic
+salita	2	diminutive, wrong POS / diminutive form
+móbil	2	Catalan/misspelt, Spanish is móvil / Catalan/non-standard, dictionary form is móvil
+skating	2	English / English
+ametlla	2	Catalan / Catalan
+prasadam	2	Sanskrit word / Sanskrit/foreign word
+tempus	2	Latin / Latin
+mirrorless	2	English / English
+telf	2	abbreviation / abbreviation
+rigging	2	English / English
+gratuíto	2	misspelt, wrong accent / misspelt, dictionary form is gratuito
+neuromarketing	2	English term / English-style compound
+puntación	2	misspelt, puntuación / misspelt, dictionary form is puntuación
+rápita	2	place-name fragment / place name
+combisystem	2	brand name / product name
+devolviéndole	2	gerund with clitic / gerund with clitic
+fastest	2	English word / English word
+paquetito	2	diminutive of paquete / diminutive of paquete
+soldadito	2	diminutive of soldado / diminutive of soldado
+trimado	2	unclear; likely English "trim" derivative / doubtful, from English trim
+estadistica	2	missing accent (estadística) / missing accent (estadística)
+matadlo	2	imperative with clitic / imperative with clitic
+panigale	2	Ducati model name / product name (Ducati)
+descubir	2	misspelling of descubrir / misspelt descubrir
+aquagym	2	foreign/brand-like compound / brand-like loan
+entregabilidad	2	calque of English "deliverability" / calque of "deliverability"
+pippa	2	name / name
+aristo	2	clipping/slang / clipped colloquial form
+inyectora	1	feminine form (inyector)
+série	2	misspelling/Portuguese-French (serie) / French/Portuguese form
+bols	2	French/English plural / English/French plural
+contraceptivo	1	variant of anticonceptivo
+podées	2	not Spanish (Galician) / not Spanish
+renders	2	English plural / English plural
+barrar	1	participle form (barrado)
+entel	2	company name / company name
+animatronic	2	English word / English word
+gruesar	2	form of grueso/gruesa / form of gruesa, not a verb
+inscribiéndose	2	gerund with clitic / gerund with clitic
+suscribiéndose	2	gerund with clitic / gerund with clitic
+deseleccione	2	conjugated verb form / conjugated form
+rosselot	2	surname / surname
+equipaciones	2	plural form / plural form
+aleia	2	name / name or unknown
+easequit	2	brand/product name / product name
+gantry	2	English word / English word
+impeachment	2	English word / English word
+amicus	2	Latin word / Latin word
+solanum	2	Latin genus name / Latin genus name
+artículonombre	2	web/code artefact / web or code artefact
+rapidísima	2	superlative feminine form / feminine superlative
+deshabilitado	1	participle form
+ampli	2	clipping / abbreviation
+envato	2	company name / company name
+jus	2	fragment/foreign word / French/Latin fragment
+tracklist	2	English word / English word
+benicia	2	place name / place name
+acoplándolo	2	gerund with clitic / gerund with clitic
+desalinizadora	1	feminine form
+methotrexate	2	English spelling (metotrexato) / English spelling (metotrexato)
+díficil	2	misspelling of difícil / misspelt difícil
+ugento	2	place name / place name
+devolo	2	conjugated/foreign form / not Spanish form
+jitter	2	English word / English word
+cebollita	2	diminutive of cebolla / diminutive of cebolla
+descatalogados	2	plural participle / inflected participle
+experencia	2	misspelling of experiencia / misspelt experiencia
+nanotube	2	English word / English word
+magayo	2	dubious regional/unclear word / unknown, doubtful
+preinstalados	2	plural participle / inflected plural participle
+semanaamanecer	2	web artefact, fused words / web artefact
+fanpage	2	English word / English loan or web term
+tellows	2	brand/website name / website name
+circeo	2	place name / proper noun / place name
+esslingen	2	place name / place name
+équipements	2	French word / French word
+anabólica	2	feminine form / feminine form
+shampoos	2	English plural / English plural
+encripción	2	misspelling/variant of encriptación / nonstandard form (encriptación)
+bioclimáticas	2	feminine plural form / feminine plural form
+sentral	2	foreign word/name / foreign or name
+viéndola	2	gerund with clitic / gerund with clitic
+inhalation	2	English word / English word
+erbe	2	name/acronym (ERBE) / acronym/name, not a regular word
+perma	2	not a Spanish verb; fragment/name / not a Spanish verb; fragment/English
+tattoos	2	English word / English plural
+kulak	2	Russian loan, borderline historical term / Russian loan, inflected/foreign
+velour	2	French/English loan / French/English word
+atrévase	2	inflected form with clitic (atreverse) / verb with clitic/imperative form
+capitoné	2	French word / French word
+elastane	2	English word / English word
+gtlds	2	abbreviation / abbreviation
+mobs	2	English word / English word
+percival	2	name / name
+prednisolona	1	drug name
+separadora	2	feminine/inflected form / feminine/inflected form
+zapar	2	inflected form; lemma zapa / odd lemma, likely from zapa
+cran	2	fragment/English name / English/name fragment
+partie	2	French/English word / French/English word
+hananía	2	name / name
+eao	2	abbreviation / abbreviation
+papita	1	diminutive/inflected form
+regocíjense	2	imperative with clitic / imperative with clitic
+showman	2	English word / English word
+acompañándolo	2	gerund with clitic / gerund with clitic
+dosha	2	Sanskrit term / Sanskrit loan
+haine	2	French word/name / French word/name
+malls	2	English word, wrong POS / English plural
+periódo	2	misspelt (missing accent: período) / misspelt, missing accent
+qiclub	2	brand name / brand name
+almud	1	rare, check
+fólder	2	borderline loan, variant folders / check loan variant
+interesantísima	2	superlative form / superlative inflected form
+tazo	2	wrong lemma (taza/brand) / inflected/odd form of taza
+fossa	2	Latin/Italian word / Latin/Italian word
+reminiscente	2	wrong POS, doubtful / wrong POS, check
+sobrecompra	2	doubtful/anglicism calque / doubtful word
+vinotecas	2	plural form / plural filed as lemma
+añádalo	2	imperative with clitic / verb with clitic
+diafonía	2	wrong POS, doubtful / wrong POS, doubtful
+químicoscalidad	2	web artefact / web artefact
+ríete	2	imperative with clitic / imperative with clitic
+arenilla	1	doubtful
+guardadlo	2	imperative with clitic / imperative with clitic
+impostar	2	lemma mismatch (imposta) / lemma mismatch with imposta
+profiling	2	English word / English word
+alabear	2	lemma mismatch (alabeo) / lemma mismatch with alabeo
+bupropion	2	English drug name / drug name, English spelling
+personae	2	Latin / Latin
+añadió	2	fragment with hyphens / conjugated verb/fragment artefact
+duar	2	fragment of name Duarte / from name Duarte
+iet	2	abbreviation / abbreviation
+puden	2	not Spanish, misspelling / not a Spanish form
+stander	2	English word / English word
+troupe	2	French word / French word
+distópica	1	feminine form
+identitarias	2	feminine plural form / feminine plural form
+kilojulio	2	symbol kJ, odd POS / symbol kJ
+ultimadamente	1	doubtful
+vallehermoso	2	place name/brand / name
+alcaravea	2	wrong POS, doubtful / wrong POS, doubtful
+cerval	1	doubtful
+extralimitar	1	check lemma, reflexive forms
+metrocentro	2	brand/place name / name/brand
+ocurrente	1	wrong POS
+purépecha	1	ethnonym/name
+tomadura	2	doubtful / doubtful
+crore	2	Indian-English numeral / Hindi loan
+deshabilite	2	subjunctive/imperative form / subjunctive form
+malhumorar	2	participle form; lemma malhumorado / participle forms, lemma mismatch
+aimar	2	inflected form of aimara / aimara, inflected/odd lemma
+glabro	1	feminine/inflected, POS
+listín	1	possibly brand/doubtful
+microsdxc	2	product code / product code
+semanita	1	diminutive
+dimitrio	2	name / name
+pipí	1	informal, doubtful
+realize	2	English word / English word
+rois	2	abbreviation/English / abbreviation
+zoonóticas	2	feminine plural form / feminine plural form
+amlodipine	2	English drug name / English drug name
+chontal	2	ethnonym/name / ethnonym/name, check
+dimensionalmente	2	doubtful, wrong POS / wrong POS, doubtful
+especiadas	2	feminine plural form / feminine plural form
+gopi	2	Sanskrit term / Hindi loan
+córtelo	2	imperative with clitic / verb with clitic
+ecolíder	2	brand/name / brand/name
+eurobasket	2	name / name
+neuropsicológicas	2	feminine plural form / feminine plural form
+projeto	2	Portuguese / Portuguese
+ahórrese	2	imperative with clitic / verb with clitic
+coquí	1	regional animal name, doubtful
+pastorcito	1	diminutive
+remecer	2	doubtful regional / check regional
+consorci	2	Catalan / Catalan
+ebv	2	abbreviation / abbreviation
+nitroglycerin	2	English/German form / English/German form
+pelito	2	diminutive of pelo / diminutive of pelo
+qual	2	Italian/Catalan/Portuguese word / Italian/Portuguese/Latin word
+smileys	2	English plural / English plural
+celeb	2	English word / English clipping
+démosle	2	verb with clitic / verb with clitic
+explíquele	2	verb with clitic / verb with clitic
+servidle	2	verb with clitic / verb with clitic
+voilá	2	French word, misspelt / French word, misspelt
+cidad	2	fragment of ciudad / fragment of ciudad
+costanza	2	name / name
+zucchini	2	Italian word / Italian word
+alayhi	2	Arabic word / Arabic word
+bacnet	2	protocol/product name / protocol name
+kernels	2	English plural / English plural
+mendocina	2	feminine demonym form / feminine demonym form
+prebendar	2	lemma should be prebenda / lemma wrong, should be prebenda
+roadbook	2	English word / English word
+coproducida	2	feminine participle / feminine participle
+torito	2	diminutive / diminutive
+chicopee	2	place name / place name
+computerizada	2	feminine participle form / feminine form, anglicism
+cubillo	2	surname / surname
+edcalivia	2	brand name / product name
+habitac	2	fragment / truncated fragment
+huskie	2	English word / English word
+pasaro	2	misspelling or fragment / misspelling
+cardós	2	place name / place name
+ibook	2	brand name / brand name
+ladyboy	2	English word / English word
+campín	2	stadium or place name / name
+eragon	2	name / name
+evista	2	brand name / brand name
+molesta	2	feminine or verb form / inflected form
+obtenlo	2	verb with clitic / verb with clitic
+pornoxo	2	web artefact / web artefact
+breeder	2	English word / English word
+compte	2	French or Catalan word / French/Catalan word
+descriminalización	2	misspelling of despenalización or decriminalización / misspelling
+karaokes	2	plural / plural
+priesa	1	archaic variant of prisa
+reinterpretan	2	conjugated verb / conjugated verb
+caching	2	English word / English word
+companía	2	misspelling of compañía / misspelling of compañía
+estaran	2	missing accent / missing accent
+overhead	2	English word / English word
+semiárida	2	feminine form / feminine form
+anatel	2	name or brand / name
+broiler	2	English word / English word
+edulis	2	Latin word / Latin word
+errno	2	code / code artefact
+habitacio	2	Catalan or missing accent / Catalan/fragment
+slut	2	English word / English word
+supernítido	2	superlative-type form / superlative-like compound
+vírgen	2	misspelling of virgen / misspelling
+angrauto	2	name / name
+camiónes	2	misspelt plural / misaccented plural
+elisur	2	name or brand / name
+identifíquese	2	verb with clitic / verb with clitic
+mirándola	2	gerund with clitic / gerund with clitic
+caraja	2	feminine form or vulgar variant / feminine/name form
+coatepeque	2	place name / place name
+durruti	2	surname / surname
+lowcost	2	English fragment / English compound
+pescia	2	place name / place name
+scientologist	2	English word / English word
+benzocaine	2	English word / English word
+diríjanse	2	verb with clitic / verb with clitic
+kilt	1	English word
+redirige	2	conjugated verb / conjugated verb
+yoro	2	place name / place name
+naproxen	2	English form; Spanish naproxeno / English form, Spanish naproxeno
+reconfigurado	2	participle / participle filed as lemma
+cumulus	1	Latin form; Spanish cúmulo
+upyd	2	party abbreviation / party acronym
+empoderada	2	feminine participle / feminine participle
+adenomatosa	2	feminine form / feminine form
+bildad	2	name / name
+hvelocidad	2	web artefact / web artefact
+jeux	2	French word / French word
+sostenlo	2	verb with clitic / verb with clitic
+trademanager	2	product name / product name
+asiatica	2	missing accent / missing accent
+búfala	2	feminine form / feminine form
+dallar	2	name or fragment / name fragment
+hyperlink	2	English word / English word
+kayac	2	variant of kayak / variant of kayak
+sustituyéndolo	2	gerund with clitic / gerund with clitic
+veranito	2	diminutive / diminutive
+bolsito	2	diminutive / diminutive
+calatravo	2	name (Calatrava) / name/Calatrava
+cómprala	2	verb with clitic / verb with clitic
+desestacionalizada	2	feminine participle / feminine participle
+emotional	2	English word / English word
+hidración	2	misspelling of hidratación / misspelling of hidratación
+pallar	2	mixed with name Pallas / mixed forms incl. name Pallas
+utmc	2	abbreviation / acronym/code
+careplus	2	brand name / brand name
+deciembre	2	misspelling of diciembre / misspelling of diciembre
+encostrar	2	not standard; likely encostrada form/regional / rare/dubious; likely "encostrada" from another form
+facetadas	2	inflected feminine plural / inflected feminine plural; dictionary form differs
+güero	1	Mexican regional; likely fine but name-like
+mashups	2	English plural filed as verb / English plural filed as verb
+sodré	2	surname / surname
+tufo	1	fine but name capitalised
+valsartán	2	drug name, tagged verb / drug name, tagged as verb
+báñate	2	verb with clitic / verb with clitic
+cheesecakes	2	English plural / English plural
+conversoras	2	inflected, PROPN tag / inflected feminine plural, tagged PROPN
+gradelink	2	brand name / brand name
+pachinko	2	Japanese loanword/game / Japanese game, foreign word
+rembolso	2	variant of reembolso / variant of reembolso
+sadhu	2	Sanskrit/Hindi word / foreign (Sanskrit) word
+teshuvá	2	Hebrew word / Hebrew word
+almizclar	2	participle-derived, dictionary form differs / lemma from participle; dictionary form differs
+emina	2	name/brand / name/unclear
+iess	2	acronym (Ecuadorian institute) / acronym (Ecuadorian social security)
+licua	2	conjugated verb form / conjugated verb form; lemma should be licuar
+prorruso	2	questionable prefix compound / prefixed political adjective, likely not dictionary
+sabiéndolo	2	gerund with clitic / gerund with clitic
+siquiátrico	2	variant of psiquiátrico / variant spelling of psiquiátrico
+alijo	2	tagged ADJ, noun / possible wrong POS (ADJ), plural forms
+cataño	2	place name / place name
+chana	2	unclear/name / unclear/slang or name
+mandalorianas	2	fictional name, inflected / fictional name, inflected
+meteorológicasábado	2	web artefact, merged words / web artefact, merged words
+máximoaceleración	2	web artefact, merged words / web artefact, merged words
+sonero	1	possibly fine, regional
+desenrolladoras	2	inflected, NUM tag wrong / inflected, wrong POS NUM
+duratón	2	river/place name / river name
+sastrer	2	fragment from sastrería / fragment; real word is sastrería
+skylines	2	English plural / English plural
+desdentar	2	participle-derived lemma / lemma from participle; dictionary form differs
+esgueva	2	river/place name / river name
+exponiéndose	2	gerund with clitic / gerund with clitic
+fucked	2	English word / English word
+hyeres	2	place name / place name
+manchú	2	ethnonym, plural odd / gentilic, plural manchúes; likely fine but check
+minador	1	dubious
+refrigerativo	1	rare/dubious
+cañadón	2	regional, check / regional/rare, check
+consortio	2	rare/dubious / rare/dubious (consorcio)
+explicarle	2	infinitive with clitic / verb with clitic, tagged ADJ
+fruición	1	fine but check
+mujeres	2	plural with hyphen artefact / plural with hyphen artefact
+olivenza	2	place name / place name
+plastrón	2	odd tag, questionable / wrong POS, plural forms
+sumatriptan	2	drug name, tagged verb / drug name, tagged as verb
+terras	2	name/fragment / name/unclear
+webos	2	brand webOS / product name (webOS)
+elegans	2	Latin species epithet / Latin species epithet
+lamivudine	2	English drug name / English drug name
+taula	2	Catalan word / Catalan/Balearic word
+avit	2	unclear fragment/name / unclear fragment/name
+cmake	2	software name / software name
+desgastante	2	tagged ADV, adjective / wrong POS ADV
+dóblala	2	verb with clitic / verb with clitic
+enseñárselo	2	verb with clitics / verb with clitic
+eurotel	2	brand name / company name
+gamification	2	English word / English word
+predeterminadamente	2	questionable adverb / dubious adverb, wrong POS
+útilmente	2	dubious adverb / dubious adverb
+alegadamente	1	calque from English "allegedly"
+datum	2	Latin/English word / Latin/English word
+fragrances	2	English plural / English plural
+geoestratégica	1	feminine form filed as lemma
+típo	2	misspelt tipo / misspelling of tipo
+albiceleste	2	tagged verb, adjective / wrong POS VERB, plural form
+avellano	1	plural/feminine forms mixed
+bolshevique	2	variant of bolchevique / misspelling of bolchevique
+deshojar	1	check; forms include deshoje
+hase	2	conjugated form/ name / archaic verb form (ha + se) / name
+marsellés	2	inflected forms, Marsellesa / forms mixed with Marsellesa
+nicholls	2	surname / surname
+radioemisor	2	inflected forms listed / feminine form in variants, check
+région	2	French word / French word
+subsiguientemente	1	dubious adverb
+antiaborto	1	hyphen artefact variants
+asurar	2	asura forms, not a verb / lemma from noun forms asura
+calobra	2	place name / place name
+cobicistat	2	English drug name / drug name
+fontaneria	2	missing accent fontanería / missing accent (fontanería), wrong POS
+hediondo	1	tagged verb
+libérese	2	verb with clitic / verb with clitic
+naschmarkt	2	German market name / German place name
+wamba	2	name / name
+applicación	2	misspelling of aplicación / misspelling/English-influenced
+autodenomina	2	conjugated verb form / conjugated verb form
+españaqué	2	web artefact / web artefact, merged words
+inténtalo	2	verb with clitic / imperative with clitic
+mapeados	2	inflected participle / participle plural filed as lemma
+preferenciasver	2	web artefact / web artefact, merged words
+universitas	2	Latin word / Latin word
+choto	2	dubious regional/inflected / forms mixed with chota, check
+drunk	2	English word / English word
+empollar	1	fine? check polysemy
+exagente	2	prefix compound questionable / check prefix compound
+intranasal	2	tagged verb / wrong POS VERB
+jetski	2	English brand/loan / English brand/loan
+pasamanar	2	pasamano, wrong lemma / lemma wrong; word is pasamano
+qubit	1	English loan, check
+servi	2	unclear fragment / unclear fragment
+ñoquis	2	plural of ñoqui / plural of ñoqui, tagged verb
+clindamycin	2	English drug name / English drug name
+fobos	2	name (Phobos) / name (Phobos)/plural
+natatorio	2	fine but inflected forms listed / forms mixed with natatoria, check
