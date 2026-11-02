@@ -1,0 +1,303 @@
+Radiodienstleistung	drop	concatenation junk
+Sample	keep	established music loan
+UV-beständig	drop	hyphenated web compound
+Alfa	drop	brand
+Anti-Aging	keep	established hyphenated loan
+Betriebsrät	merge:Betriebsrat	clipped plural of Betriebsrat
+Dani	drop	first name
+Lingen	drop	minor town
+Seifert	drop	surname
+Cage	drop	surname
+Canva	drop	brand
+Ericsson	drop	company/surname
+FCB	drop	sports club
+LM	drop	abbreviation junk
+Salafiste	merge:Salafist	clipped lemma
+Schönefeld	drop	district/airport name
+Tsipras	drop	person
+WER	merge:wer	pronoun wer
+torrent	drop	technical/low diversity
+Abos	merge:Abo	plural of Abo
+Bestens	merge:bestens	adverb bestens
+Dorothea	drop	first name
+Downtown	drop	foreign place word
+Gardena	drop	brand
+Revisionsstelle	keep	real word
+BU	merge:Bus	examples are Bus
+Doll	merge:doll	adverb doll
+Irina	drop	first name
+Kreisstraße	keep	common noun
+Miley	drop	person
+QM	drop	unit abbreviation
+Shire	drop	company
+sonderpädagogisch	keep	real adjective
+Dacia	drop	brand
+Fish	drop	English
+Harbour	drop	English place name
+Nordost	keep	real noun
+Reuter	drop	surname
+Schultz	drop	surname
+line	drop	English
+Bookmark	keep	established IT loan
+Elon Musk	drop	person
+Gerber	keep	common noun (tanner)
+Migrantinn	merge:Migrantin	clipped lemma
+Siena	drop	foreign city
+Wil	drop	town
+Autofahre	merge:Autofahren	clipped lemma
+Conditioner	keep	established product word
+GEW	drop	minor organisation
+Marta	drop	first name
+Mo-Fr	drop	hyphenated abbreviation
+BMEL	drop	minor ministry acronym
+Gmbh	merge:GmbH	wrong case
+Interim	drop	English, not established
+Johanniskraut	keep	common noun
+Mason	drop	surname
+SDK	drop	technical acronym
+Wake	drop	English
+XX	drop	placeholder
+reichern	merge:reich	examples are reicher
+Brügge	drop	foreign city
+Ines	drop	first name
+Nah	merge:nah	adjective nah
+Spark	drop	brand
+UN-Sicherheitsrat	keep	famous institution
+WAZ	drop	newspaper brand
+Giorgio	drop	first name
+Rihanna	drop	person
+Tamara	drop	first name
+Uschi	drop	first name
+level	merge:Level	examples are Level
+zweitgroß	keep	real superlative-only adjective
+Campbell	drop	surname
+Fabia	drop	car model
+Heiko Maas	drop	person
+Kaufland	drop	brand
+Mitchell	drop	surname
+Pfaffenhofen	drop	town
+Bear	drop	English
+Charly	drop	first name
+DEVK	drop	company
+DKP	drop	minor party
+InsO	drop	legal specialist abbreviation
+Sync	drop	brand/English
+kartenlegen	drop	spam, low diversity
+Heat	drop	English
+Remote	drop	English not established
+frischgebacken	keep	real adjective
+ASP	drop	acronym
+Bitter	merge:bitter	adjective bitter
+Handtaschen	merge:Handtasche	plural
+Reizunge	merge:Reizung	clipped plural
+Sharon	drop	first name
+Tax	drop	English
+Holly	drop	first name
+PIRATEN	merge:Pirat	plural of Pirat
+RR	drop	length 2 junk
+Reiseunterlage	keep	real noun
+Rohrreinigung	keep	real noun
+Beamtinn	merge:Beamtin	clipped lemma
+Berry	drop	surname
+Böhmermann	drop	person
+Have	drop	English
+Kronberg	drop	town
+Lip	drop	English
+VB	drop	abbreviation
+hoppen	drop	surname Hoppe
+AL	drop	name fragment
+Background	drop	English not established
+Corsa	drop	car model
+Datenschutzvorschrift	keep	real noun
+Fußpfleg	merge:Fußpflege	clipped lemma
+Graphics	drop	English
+Imperial	drop	English
+Koch-Institut	keep	famous institution
+Mazedonien	drop	place name not on list
+Suhl	drop	town
+Volks-Bahn	drop	junk
+ampnet	drop	agency tag
+ASB	drop	minor organisation
+Absolventinn	merge:Absolventin	clipped lemma
+DFG	keep	famous research body
+Le Mans	drop	foreign city
+Monroe	drop	person
+NWO	drop	conspiracy acronym
+Pack	keep	real noun
+Valve	drop	company
+Wandmontag	merge:Wandmontage	clipped lemma
+Better	drop	English
+DOSB	keep	famous sports federation
+Dalai Lama	drop	person/title
+Floor	drop	English
+Mom	drop	English
+Musk	drop	person
+Punta	drop	place fragment
+SPORT	merge:Sport	wrong case
+Alumni	keep	established loan
+Begrifflichkeite	merge:Begrifflichkeit	clipped lemma
+Birmingham	drop	foreign city
+Franzi	drop	first name
+New Jersey	drop	foreign state
+Projektleiter	keep	common noun
+Property	drop	English
+Ricardo	drop	first name
+Spider-Man	drop	fictional name
+Veilche	merge:Veilchen	clipped lemma
+gummieren	keep	real verb
+remot	drop	English cut-off
+very	drop	English
+Architecture	drop	English
+EF	drop	length 2 junk
+Herder	drop	publisher/surname
+ISDN	keep	ordinary acronym
+Voting	drop	English not established
+Ward	merge:werden	archaic form of werden
+lesenAm	drop	web template junk
+nice	drop	English
+zweiundvierzigste	drop	number compound
+Abbas	drop	person
+Allnet	drop	brand
+Ashley	drop	name
+Gelee	keep	common noun
+Homophobie	keep	common noun
+Ko	drop	fragment
+LED-Leuchte	drop	hyphenated compound
+Muster-Widerrufsformular	drop	hyphenated web compound
+VIDEO	merge:Video	wrong case
+Winterberg	drop	town
+Djokovic	drop	person
+Ebert	drop	surname
+Evo	drop	name
+GL	drop	abbreviation
+Groß-Gerau	drop	town
+Helferinn	merge:Helferin	clipped lemma
+High-Tech	keep	established hyphenated word
+Tierche	merge:Tierchen	clipped lemma
+Aviation	drop	English
+Jolie	drop	person
+Mozilla Firefox	drop	brand
+frisur	merge:Frisur	wrong case
+ABB	drop	company
+Apollonowitsch	drop	name
+E-Paper	keep	established hyphenated loan
+Gray	drop	surname
+Leaf	drop	English
+Smartphone-App	drop	hyphenated web compound
+VOX	drop	TV brand
+kontrover	merge:kontrovers	clipped lemma
+ATP	drop	acronym
+Cello	keep	common noun
+FL	drop	abbreviation
+Madeleine	drop	mostly name
+Top-Qualität	drop	hyphenated web compound
+Troika	keep	common noun
+Twilight	drop	title
+kolumbianisch	keep	nationality adjective
+ASR	drop	technical acronym
+Century	drop	English
+E-Plus	drop	company
+Hbf	keep	abbreviation read daily
+NAV	drop	technical acronym
+Pride	drop	English
+andr	merge:ander	elided form of ander
+weltgrößt	keep	real superlative adjective
+Advisor	drop	English
+EVO	drop	name
+Nassau	drop	place name
+QR	keep	everyday acronym
+B-Vitamin	keep	established hyphenated word
+Goethe-Institut	keep	famous institution
+Kleinformat	keep	common noun
+Legacy	drop	English
+Lilli	drop	first name
+VfL Bochum	drop	sports club
+Weasley	drop	fictional name
+Winner	drop	English
+Anderenfall	merge:anderenfalls	examples are anderenfalls
+Breaking	drop	English
+Hour	drop	English
+Hugh	drop	first name
+Liebevoll	merge:liebevoll	adjective
+Nele	drop	first name
+Riva	drop	name/brand
+Shiatsu	keep	common noun
+know	drop	English
+ABE	drop	name
+Annemarie	drop	first name
+Breuer	drop	surname
+Corner	drop	English
+Fitness-Studio	merge:Fitnessstudio	standard spelling
+Neopr	merge:Neopren	clipped lemma
+Bachelor-Studiengang	drop	hyphenated compound
+EQ	drop	length 2 junk
+LINK	merge:Link	wrong case
+Bushido	drop	person
+Feel	drop	English
+Keyframes	drop	technical English
+LF	drop	length 2 junk
+Odyssee	keep	common noun
+Oeynhausen	drop	town
+Products	drop	English
+Root	drop	English
+Round	drop	English
+Sommerspiel	keep	real noun
+Wandleucht	merge:Wandleuchte	clipped lemma
+EMA	drop	acronym
+GSM	drop	technical acronym
+Kommentier	merge:kommentieren	clipped lemma
+Paint	drop	English
+Polypropyl	merge:Polypropylen	clipped lemma
+Voss	drop	surname
+insid	merge:Insider	clipped lemma
+people	drop	English
+zweithoch	keep	real superlative-only adjective
+Desire	drop	English
+EVA	drop	name
+Gifhorn	drop	town
+SERVICE	merge:Service	wrong case
+classic	drop	English
+Beyer	drop	surname
+DWD	keep	famous national weather service
+Kamp	drop	surname
+Nutella	drop	brand
+Punch	drop	English
+Schlüsselnotdienst	drop	ad spam, low diversity
+Severin	drop	name
+Views	drop	English
+touch	drop	English
+BMF	drop	minor ministry acronym
+Fighter	drop	English
+Jehova	keep	religious term
+Kirk	drop	name
+Miser	merge:Misere	clipped lemma
+Sportstätt	merge:Sportstätte	clipped lemma
+abhan	merge:abhanden	clipped lemma
+letztgenannt	keep	real adjective
+vierundvierzigste	drop	number compound
+Creatin	merge:Kreatin	standard spelling
+Kaspar	drop	first name
+KÖNNEN	merge:können	wrong case
+SGS	drop	company
+Taekwondo	keep	common noun
+Watchers	drop	brand
+Auckland	drop	foreign city
+Dolphin	drop	English
+Fat	drop	English
+Hollande	drop	person
+Lockerunge	merge:Lockerung	clipped lemma
+Seth	drop	name
+Wieland	drop	name
+Doodle	drop	brand
+Rendsburg	drop	town
+Seminarhotel	keep	real noun
+Styropor	keep	common noun
+Vario	drop	brand
+iMac	drop	brand
+non	drop	English/junk
+BF	drop	abbreviation
+Cindy	drop	first name
+Dutch	drop	English
+# question zweitgroß: lemma is a superlative-only stem (zweitgrößte); kept as is, same for zweithoch, weltgrößt, letztgenannt.
+# question Hbf: kept as an everyday station abbreviation; QM and Mo-Fr dropped as comparable abbreviations, confirm policy.
+# question Remote: dropped as not established German; could be kept like Team/Event if the developer disagrees.

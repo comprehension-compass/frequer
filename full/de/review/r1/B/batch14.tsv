@@ -1,0 +1,300 @@
+MD	drop	abbreviation/name
+Palo	drop	place name
+Ulla	drop	first name
+Webcrwaler	merge:Webcrawler	typo
+BTC	drop	crypto ticker
+Bühler	drop	surname
+Nathan	drop	first name
+fun	merge:Fund	clipped Funde
+ir	drop	MHG/Iren fragment
+sol	drop	junk fragment
+BUNDESGERICHTSHOF	keep	national court
+Klitschko	drop	surname
+Liberty	drop	name
+Loft	keep	common noun
+Monkey	drop	English/brand
+Pirna	drop	minor town
+Rhein-Main	drop	region name hyphenated
+Online-Seminar	drop	hyphenated web compound
+Stretch	drop	English
+iPhones	drop	brand
+stylish	drop	English not established
+Google-Konto	drop	hyphenated web compound
+Karat	keep	real word
+Kart	merge:Karte	clipped Karten
+Moers	drop	minor town
+Molly	drop	first name
+Piper	drop	publisher/name
+Converter	drop	English
+Natron	keep	common noun
+EINER	merge:ein	miscased form of ein
+Justice	drop	English name
+Tours	drop	foreign city
+Helge	drop	first name
+Kamagra	drop	spam brand
+Neuwied	drop	minor town
+Umsetz	merge:umsetzen	clipped verb
+now	drop	English
+Animal	drop	English
+Röttgen	drop	surname
+Tv	merge:TV	miscased TV
+übereinan	merge:übereinander	clipped
+Corona-Zeit	drop	hyphenated compound
+DESIGN	merge:Design	miscased
+Eagle	drop	English/brand
+GTI	drop	brand
+Gorilla	keep	common noun
+LED-Lampe	keep	established compound
+OV	drop	abbreviation
+Tschernobyl	drop	place name not on list
+Cheat	drop	English
+Fernando	drop	first name
+HEUTE	merge:heute	miscased
+Looks	merge:Look	plural of loan Look
+Sharing	drop	English
+Vattenfall	drop	company
+Fältche	merge:Fältchen	clipped
+click	drop	English
+Ahorn	keep	common noun
+Allahs	drop	name
+Beyond	drop	English
+Dante	drop	person
+Liam	drop	first name
+Schriftenreihe	keep	common noun
+territorial	keep	German adjective
+Cabernet	drop	grape name
+EDIT	drop	English
+Lunch	drop	English not established
+Nutzerinne	merge:Nutzerin	clipped
+PCR-Test	keep	established compound
+Professionals	drop	English
+württembergisch	keep	real adjective
+Adult	drop	English
+Benedikt XVI	drop	person
+Gebärmutter	keep	common noun
+Hauser	drop	surname
+Marien	drop	name form
+Pinneberg	drop	minor town
+Regulation	keep	German noun
+Byt	merge:Byte	clipped
+FSC	drop	certification brand
+INHALT	merge:Inhalt	miscased
+Louise	drop	first name
+Con	drop	foreign fragment
+Lava	keep	common noun
+PET	keep	common material acronym
+Ullrich	drop	surname
+dpa-AFX	drop	news agency tag
+FN	drop	abbreviation
+Flatrate	keep	common loan
+Illinois	drop	place not on list
+Imam	keep	common noun
+Logistics	drop	English
+OR	drop	English
+Raw	drop	English
+Sant	drop	name fragment
+Atlantic	drop	English place name
+Aufraum	merge:aufräumen	clipped
+Demand	drop	English
+Isabella	drop	first name
+Nutzungsdate	merge:Nutzungsdaten	clipped
+Twitter-Account	drop	hyphenated web compound
+Voigt	drop	surname
+somm	merge:Sommer	clipped
+Beobacht	merge:beobachten	clipped
+Sandro	drop	first name
+Weißwasser	drop	minor town
+Files	drop	English
+Flower	drop	English
+Granada	drop	place not on list
+Kartenleg	merge:Kartenlegen	clipped
+Sommersaison	keep	common noun
+Starnberg	drop	minor town
+Bocholt	drop	minor town
+CETA	drop	treaty name
+Charm	drop	English
+ChinaJetzt	drop	website
+Culture	drop	English
+Essential	drop	English
+God	drop	English
+Hold	keep	real German adjective
+Holmes	drop	surname
+Industry	drop	English
+Saskia	drop	first name
+AVM	drop	company
+Android-App	drop	hyphenated web compound
+Bergisch Gladbach	drop	minor town
+CFD	drop	technical finance acronym
+HTL	drop	specialist abbreviation
+Joachim Gauck	drop	person
+Lionel	drop	first name
+Melissa	drop	first name
+Schlauf	merge:Schlaufe	clipped
+beieinan	merge:beieinander	clipped
+Donna	drop	first name
+Trophy	drop	English
+Cristiano	drop	first name
+Emilia	drop	first name
+RAW	drop	technical acronym
+Siegburg	drop	minor town
+Sigrid	drop	first name
+Trolley	keep	loan in use
+Unique	drop	English
+CFDs	drop	technical finance acronym
+Citizen	drop	English
+Kilian	drop	first name
+Kunz	drop	name
+Parties	merge:Party	plural of Party
+Tobi	drop	first name
+Abel	drop	biblical name
+Builder	drop	English
+OHG	keep	legal form like GmbH
+Binder	keep	common noun
+Dinkel	keep	common noun
+Fraunhofer-Institut	keep	famous institution
+Hans-Joachim	drop	first name
+Jules	drop	first name
+NS	keep	common abbreviation
+Stausee	keep	common noun
+VC	drop	abbreviation
+Vertriebs-Bahn	drop	junk
+Wedel	merge:wedeln	verb examples
+Zeus	drop	mythological name
+Muskat	keep	common noun
+Pick	merge:picken	verb examples
+Fly	merge:Flyer	Flyern
+GOTT	merge:Gott	miscased
+Conan	drop	name
+Krems	drop	minor town
+Lock	drop	English
+PREMIUM	merge:Premium	miscased
+RWTH	drop	university acronym
+Rally	merge:Rallye	spelling variant
+Rosenberg	drop	surname
+desMehr	drop	scrape junk
+zweiunddreißigste	drop	compound number word
+EZ	drop	abbreviation
+Esser	keep	real noun
+FOR	drop	English
+Inflationsrat	merge:Inflationsrate	clipped
+Lindenberg	drop	surname
+McDonald	drop	brand
+Online-Bestellung	drop	hyphenated web compound
+Schnittfenster	drop	software-doc concentrated
+Wat	drop	name/dialect
+is	drop	English/dialect
+ETA	drop	abbreviation
+Lausitzer	drop	regional name
+Preis-Leistungs-Sieger	drop	spam compound
+Republic	drop	English
+Ryanair	drop	company
+Canal	drop	name
+Choice	drop	English
+Haider	drop	surname
+zw	drop	abbreviation
+Burda	drop	company
+Editorial	keep	loan in use
+Friedrichshain	drop	district
+BIG	drop	English/brand
+Combi	drop	brand
+Dip	keep	loan in use
+Mahler	drop	surname
+PSA	drop	company
+Quasi	merge:quasi	miscased adverb
+VDE	drop	specialist org
+Cargo	drop	English/brand
+Fuck	drop	English
+Scientology	drop	organisation name
+Eve	drop	name
+Fabio	drop	first name
+Hautentzündung	keep	real noun
+Relations	drop	English
+Weekend	drop	English
+direct	drop	English
+Affiliate-Link	drop	hyphenated web compound
+Bankdat	merge:Bankdaten	clipped
+Mohamed	drop	first name
+Synergien	merge:Synergie	plural
+Zahlungsdate	merge:Zahlungsdaten	clipped
+BAO	drop	name
+Buy	drop	English
+Fingerfood	keep	loan in use
+Geland	merge:Geländer	clipped
+Thiel	drop	surname
+UP	merge:ups	interjection Ups
+Ulf	drop	first name
+WLAN-Internetzugang	drop	hyphenated web compound
+Check-In	keep	established loan
+Nebensaison	keep	common noun
+Rain	drop	English examples
+Sinti	keep	ordinary group noun
+Berlin-Mitte	drop	district
+E-Mobilität	keep	established compound
+Regionalverband	keep	common noun
+Beijing	merge:Peking	German name of city
+Kill	drop	English
+LuB	drop	name
+Owner	drop	English
+RL	drop	abbreviation
+Ausmalbild	keep	real noun
+DLR	drop	specialist institution
+Over	drop	English
+Coop	drop	company
+Craft	drop	English
+Erwart	merge:erwarten	clipped
+Max-Planck-Institut	keep	famous institution
+Zugriffsdat	merge:Zugriffsdaten	clipped
+eingefleischt	keep	real adjective
+flachen	merge:flach	inflected form
+GNU	merge:Gnu	animal
+HM	merge:hm	interjection
+Jungle	drop	English
+Manufacturing	drop	English
+McLaren	drop	brand
+Ride	drop	English/name
+Sekundenschnelle	keep	real noun
+karieren	merge:kariert	wrong lemma
+BM	drop	abbreviation
+Ban	drop	name
+Beatrice	drop	first name
+Collins	drop	surname
+Neuerscheinunge	merge:Neuerscheinung	clipped
+Sitemap	drop	web term
+Theatre	drop	English
+vergünstig	merge:vergünstigt	clipped
+Humboldt-Universität	keep	famous institution
+Kerry	drop	surname
+Live-Chat	drop	hyphenated web compound
+Paolo	drop	first name
+SUPER	merge:super	miscased
+U-Bahnhof	keep	established compound
+Joachim Löw	drop	person
+CD-Player	keep	established compound
+Columbus	drop	person
+Lydia	drop	first name
+Picasso	drop	person
+Sideboard	keep	loan in use
+Fortune	drop	English
+Spielgeld	keep	real noun
+Verkehrs-Bahn	drop	junk
+Algorithme	merge:Algorithmus	wrong form
+Australia	merge:Australien	English form
+CDU-Politiker	keep	ordinary compound
+Kontodate	merge:Kontodaten	clipped
+Magen-Darm-Trakt	keep	established compound
+Three	drop	English
+Wasserburg	keep	common noun
+EINFACH	merge:einfach	miscased
+Euskirche	drop	minor town
+Flamingo	keep	common noun
+Herzrhythmusstörunge	merge:Herzrhythmusstörung	clipped
+LehrerInnen	merge:Lehrerin	gendered plural
+NHL	drop	foreign league
+Newton	drop	person
+Portable	drop	English
+Thorst	drop	name fragment
+CI	drop	abbreviation
+Caesar	drop	person
+DMS	drop	technical acronym
+HH	drop	abbreviation
+Knowledge	drop	English

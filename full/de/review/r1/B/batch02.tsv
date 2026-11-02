@@ -1,0 +1,302 @@
+IN	merge:in	preposition tagged as name
+SGB	drop	legal code acronym
+George	drop	first name
+Award	keep	established loan
+Florian	drop	first name
+Uwe	drop	first name
+Jens	drop	first name
+Otto	drop	first name
+Marco	drop	first name
+SVP	keep	national party
+Barbara	drop	first name
+Patrick	drop	first name
+Tim	drop	first name
+legal	keep	German adjective
+Gerhard	drop	first name
+more	drop	English
+Cup	keep	established sports loan
+Stephan	drop	first name
+Sabine	drop	first name
+Style	keep	established loan
+Joseph	drop	first name
+All	keep	das All, real noun
+Flyer	keep	established loan
+Rainer	drop	first name
+Location	keep	established loan
+WhatsApp	drop	brand
+Grand	drop	name part
+More	drop	English/name
+King	drop	surname
+US	keep	ordinary acronym
+Jung	merge:jung	adjective jung
+SEO	drop	technical acronym
+Jury	keep	common noun
+Day	drop	English
+Helmut	drop	first name
+Felix	drop	first name
+Action	keep	established loan
+Nintendo	drop	brand
+El	drop	foreign article/name
+Claudia	drop	first name
+Classic	drop	brand/name part
+Angela Merkel	drop	person
+Manfred	drop	first name
+Kryptowährung	keep	real word
+Bach	keep	common noun stream
+WordPress	drop	product
+Corporate	drop	English
+Jack	drop	first name
+OS	drop	technical acronym
+DHL	drop	company
+Meditation	keep	common noun
+Resort	keep	established loan
+OK	keep	ordinary word
+you	drop	English
+Know-how	keep	established hyphenated
+MIT	merge:mit	preposition mit
+Muslim	keep	ordinary word
+JavaScript	drop	technical product
+Photoshop	drop	product
+Besteller	keep	real word
+SC	drop	sports club
+Eva	drop	first name
+Sky	drop	brand
+Klägerin	keep	real word
+National	drop	English/name part
+German	merge:Germane	Germanen mislemma
+Tobias	drop	first name
+Ralf	drop	first name
+General	keep	common noun
+TSV	drop	sports club
+Weber	drop	surname
+Street	drop	English
+Life	drop	English
+US-amerikanisch	keep	real adjective
+Beach	drop	English place name
+Creative	drop	English
+Le	drop	French article
+Marc	drop	first name
+Alex	drop	first name
+Wild	merge:wild	adjective wild
+Hermann	drop	first name
+Network	drop	English
+syrisch	keep	real adjective
+Fritz	drop	first name
+Bluetooth	keep	ordinary tech word
+Mercedes	drop	brand
+Blue	drop	English
+Hermine	drop	first name
+Jesus Christus	drop	person
+Express	drop	brand/English
+Heinz	drop	first name
+Merkliste	keep	real word
+URL	drop	technical acronym
+CSU	keep	national party
+CEST	drop	timezone abbreviation
+Roland	drop	first name
+Bernhard	drop	first name
+These	keep	real word
+American	drop	English
+Obama	drop	person
+Security	drop	English
+TOP	merge:Top	Top loan
+Austria	drop	English place name
+Geweb	merge:Gewebe	clipped Gewebe
+Boston	drop	foreign city
+Chris	drop	first name
+alle	keep	real word
+EN	drop	code
+Youtube	drop	brand
+Report	keep	German word
+House	drop	English
+Sarah	drop	first name
+dortig	keep	real adjective
+Braun	merge:braun	adjective braun
+Wars	drop	title part
+EG	keep	known institution
+Justiz	keep	common noun
+Hit	keep	established loan
+Meyer	drop	surname
+Of	drop	English
+Telekom	drop	company
+Joachim	drop	first name
+HTML	drop	technical acronym
+Champions	drop	name part
+Music	drop	English
+Lisa	drop	first name
+Porsche	drop	brand
+Release	keep	established loan
+ZDF	keep	national broadcaster
+Special	keep	loan noun
+Lange	merge:lange	adverb lange
+HIER	merge:hier	adverb hier
+Flash	drop	product
+TG	drop	abbreviation
+Anne	drop	first name
+Petra	drop	first name
+Susanne	drop	first name
+Europe	drop	English
+Holland	drop	place not on list
+School	drop	English
+Intel	drop	company
+Mike	drop	first name
+Royal	drop	English/name part
+Günter	drop	first name
+Elisabeth	drop	first name
+BGH	keep	national court
+William	drop	first name
+Donald	drop	first name
+Real	merge:real	adjective real
+Katharina	drop	first name
+Junior	keep	common noun
+Spa	keep	common noun
+Dating	drop	spam English
+Ben	drop	first name
+White	drop	English surname
+Wagner	drop	surname
+Track	keep	established loan
+Science	drop	English
+EU-Kommission	keep	institution compound
+Opel	drop	brand
+VON	merge:von	preposition von
+TÜV	keep	everyday institution
+Carl	drop	first name
+Istanbul	drop	city not on list
+neunzehnhundertsechsundachtzig	drop	spelled number
+CBD	drop	technical acronym
+ARD	keep	national broadcaster
+Kevin	drop	first name
+Investment	keep	established loan
+European	drop	English
+eBay	drop	brand
+Sven	drop	first name
+Gaming	keep	established loan
+neunzehnhundertsiebenundachtzig	drop	spelled number
+with	drop	English
+Rio	drop	city not on list
+Siemens	drop	company
+Verschlagwortet	drop	web template text
+Gabriel	drop	first name
+Extrem	merge:extrem	adjective extrem
+Günther	drop	first name
+Meeting	keep	established loan
+ID	keep	ordinary acronym
+Neustadt	drop	town
+Lukas	drop	first name
+Jakob	drop	first name
+Outlook	drop	product
+Bosch	drop	company
+XP	drop	product
+Horst	drop	first name
+Hitler	drop	person
+gestrig	keep	real adjective
+Ron	drop	first name
+Madrid	drop	city not on list
+Echtzeit	keep	real word
+Rudolf	drop	first name
+RTL	drop	company
+Guide	drop	English
+Sandra	drop	first name
+Firefox	drop	product
+mental	keep	real adjective
+Up	drop	English
+Los Angeles	drop	city not on list
+Sports	drop	English
+Volkswagen	drop	brand
+ausverkaufen	keep	real verb
+IS	drop	English/organisation
+Herbert	drop	first name
+Match	keep	established loan
+Marie	drop	first name
+Hot	drop	English
+Becker	drop	surname
+PDF-Datei	keep	established compound
+USD	drop	currency code
+Norbert	drop	first name
+NPD	keep	national party
+Excel	drop	product
+Volker	drop	first name
+niedersächsisch	keep	real adjective
+Marcel	drop	first name
+Jerusalem	drop	city not on list
+Stream	keep	established loan
+Smith	drop	surname
+teilweis	merge:teilweise	clipped teilweise
+Harald	drop	first name
+Kurt	drop	first name
+Made	keep	real noun maggot
+Public	drop	English
+Paypal	drop	brand
+Corona-Pandemie	keep	real compound
+My	drop	English
+Sicherheitsgrund	keep	real noun
+Touch	keep	established loan
+Rolf	drop	first name
+Adam	drop	first name
+Arbeits-Bahn	drop	broken hyphenated
+Comic	keep	common noun
+IHK	keep	known institution
+kW	drop	unit abbreviation
+Laura	drop	first name
+NEU	merge:neu	adjective neu
+Engineering	drop	English
+Hahn	keep	common noun
+final	keep	real adjective
+up	drop	English
+US-Präsident	keep	real compound
+Enterprise	drop	name
+DE	drop	code
+FAQ	keep	ordinary acronym
+Point	merge:Pointe	Pointe
+First	keep	real noun roof ridge
+Entertainment	drop	English
+free	drop	English
+Gerichtsstand	keep	real word
+Konkurrente	merge:Konkurrent	Konkurrent
+Christine	drop	first name
+your	drop	English
+Line	drop	English
+Merkur	keep	planet
+Axel	drop	first name
+Anton	drop	first name
+Rosa	merge:rosa	colour rosa
+Mountain	drop	English
+Beat	keep	loan word
+Benjamin	drop	first name
+Kim	drop	first name
+Bundesgerichtshof	keep	national court
+Hill	drop	surname
+Cottbus	drop	town
+Monika	drop	first name
+Amsterdam	drop	city not on list
+Schulz	drop	surname
+ADAC	keep	national institution
+Beck	merge:Becken	Becken
+Kaufmann	keep	common noun
+EZB	keep	national institution
+Venedig	drop	city not on list
+GPS	keep	ordinary acronym
+Van	keep	vehicle loan
+Food	drop	English
+hauseigen	keep	real adjective
+Foundation	drop	English
+Research	drop	English
+Go	drop	English
+Continue	drop	English
+Arbeitsbedingung	keep	real noun
+Equipment	keep	established loan
+Alfred	drop	first name
+Love	drop	English
+australisch	keep	real adjective
+Administration	keep	German word
+Steffen	drop	first name
+Focus	drop	brand
+Santa	drop	name part
+Albert	drop	first name
+kanadisch	keep	real adjective
+Review	keep	loan noun
+Time	drop	English
+E-Book	keep	established hyphenated
+Rheinland	drop	region not on list
+# question Jesus Christus: religious figure, dropped under people rule
+# question Telekom: national company, dropped as company

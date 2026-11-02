@@ -1,0 +1,303 @@
+SIM-Karte	keep	established compound
+LAN	keep	everyday acronym like WLAN
+Reutling	drop	clipped town name, not on list
+Kunstleder	keep	common noun
+Outlet	keep	established loan
+Tech	drop	English fragment
+morgig	keep	real adjective
+Opera	drop	browser/brand
+Thai	keep	language
+Exklusiv	keep	ordinary adjective
+IWF	keep	famous international institution
+Manuela	drop	first name
+Straßburg	drop	place name not on list
+Bastian	drop	first name
+E-Bike	keep	established hyphenated word
+Wide	drop	English fragment
+BGBl	drop	legal specialist abbreviation
+It	drop	English word
+Machine	drop	English word
+Mountainbike	keep	established loan
+Schubert	drop	person
+FC Bayern München	drop	sports club
+Speyer	drop	town
+Michelle	drop	first name
+Luca	drop	first name
+Hannah	drop	first name
+SA	drop	abbreviation/company suffix
+SKU	drop	jargon, low diversity
+Schmitt	drop	surname
+Henkel	keep	common noun handle
+Linda	drop	first name
+Stone	drop	name
+jedwed	merge:jedweder	clipped lemma of jedweder
+taz	drop	newspaper brand
+neunzehnhundertsiebenunddreißig	drop	spelled number compound
+Sexy	keep	established loan
+dotieren	keep	real verb
+Season	drop	English word
+Stellenanzeig	merge:Stellenanzeige	clipped
+SUV	keep	common noun
+Borussia	drop	club name
+HGB	drop	legal specialist abbreviation
+Diamond	drop	English word/name
+South	drop	English word
+Fig	drop	English/jargon
+ERP	drop	technical acronym
+Handelsblatt	drop	newspaper brand
+Allee	keep	common noun
+Jet	keep	common noun
+Mozart	drop	person
+Society	drop	English word
+NEIN	merge:nein	capitalised nein
+Niederrhein	drop	region not on list
+Gerald	drop	first name
+Rudi	drop	first name
+Mo	drop	name/abbreviation
+Voll	merge:voll	wrong-case voll
+DRK	keep	famous national institution
+Barack Obama	drop	person
+Room	drop	English word
+Jason	drop	first name
+Moin	keep	common greeting
+Stephen	drop	first name
+Days	drop	English word
+Judith	drop	first name
+Flat	keep	Flatrate colloquial
+Schwäbisch	keep	dialect/language
+Michaela	drop	first name
+Carmen	drop	first name
+Douglas	drop	first name
+People	drop	English word
+Area	drop	English word
+Bush	drop	surname
+Rita	drop	first name
+Forder	merge:fordern	clipped verb stem
+Freier	keep	real noun
+Square	drop	English word
+away	drop	English word
+Brian	drop	first name
+Migräne	keep	common noun
+Maier	drop	surname
+Gordon	drop	first name
+sechzigste	drop	derived ordinal of number word
+CAD	drop	technical acronym
+Hartmut	drop	first name
+Silvia	drop	first name
+Besteck	keep	common noun
+Benedikt	drop	first name
+Comfort	drop	English word
+Corporation	drop	English word
+GO	drop	English/game name
+Masters	drop	English name
+Elektro	keep	used as word in German
+Thron	keep	common noun
+Gütersloh	drop	town
+BEI	merge:bei	wrong-case bei
+Hannes	drop	first name
+Anal	keep	real adjective
+Online-Casino	drop	hyphenated web compound
+This	drop	English word
+news	drop	English word
+Janeiro	drop	part of place name
+Baumann	drop	surname
+Kfz	keep	everyday abbreviation
+Reporting	keep	established business loan
+have	drop	English word
+Seehofer	drop	person
+Erik	drop	first name
+Age	drop	English word
+Commons	drop	English name
+Tausende	keep	real noun
+Hard	drop	English fragment
+Records	drop	English word
+Canyon	keep	common noun loan
+can	drop	English word
+UNO	keep	famous institution
+Cornelia	drop	first name
+Beratungs-Bahn	drop	junk compound
+Presse-Agentur	merge:Presseagentur	standard spelling
+Verschuld	merge:verschulden	clipped lemma
+BSC	drop	sports club
+EDV	keep	everyday acronym
+Viktor	drop	first name
+Ankara	drop	place not on list
+Aschaffenburg	drop	town
+Eye	drop	English word
+Cream	drop	English word
+Diskutier	merge:diskutieren	clipped lemma
+Haas	drop	surname
+Water	drop	English word
+Kelly	drop	first name
+UVP	keep	consumer price abbreviation
+Bw	drop	abbreviation, low diversity
+US-Regierung	keep	standard compound
+Fußball-Bundesliga	drop	web compound of Bundesliga
+Mi	drop	abbreviation/Esperanto
+Verena	drop	first name
+County	drop	English word
+Anthony	drop	first name
+Forex	drop	finance jargon
+Luis	drop	first name
+Prime	drop	brand
+Verschmutzunge	merge:Verschmutzung	clipped plural
+Step	drop	English word
+Variz	merge:Varize	clipped
+Kong	drop	part of name
+Lea	drop	first name
+selbig	keep	real adjective
+Abs	drop	legal abbreviation
+Karl-Heinz	drop	first name
+British	drop	English word
+GTX	drop	product code
+Airbus	drop	company brand
+Jersey	drop	place/name
+Zwischendurch	keep	adverb
+Potential	keep	accepted spelling of Potenzial
+Trusted	drop	English word
+ABER	merge:aber	wrong-case aber
+Dildo	keep	real noun
+VIP	keep	ordinary acronym
+Men	drop	English word
+Steffi	drop	first name
+Greifswald	drop	town
+Pauli	drop	name
+Eintracht Frankfurt	drop	sports club
+Ayurveda	keep	common noun
+Oslo	drop	place not on list
+Palace	drop	English word
+List	keep	real noun
+Reinhold	drop	first name
+but	drop	English word
+ABC	keep	ordinary word alphabet
+Tommy	drop	first name
+vital	keep	real adjective
+Distribution	keep	real German word
+ETFs	merge:ETF	plural of ETF
+Vogt	keep	common noun historic title
+Harry Potter	drop	fictional name
+Pfingst	merge:Pfingsten	clipped
+Real Madrid	drop	sports club
+Bali	drop	place not on list
+Solinge	drop	clipped town name
+Storage	drop	English word
+Dual	drop	English fragment
+abmagern	keep	real verb
+Cap	drop	English word
+Lyrics	keep	used in German music context
+UV	keep	everyday abbreviation
+like	drop	English word
+ZUR	merge:zu	contraction zur
+Taliban	keep	news common noun
+Hanf	keep	common noun
+Löw	drop	surname
+Sea	drop	English word
+new	drop	English word
+Sara	drop	first name
+UG	drop	company form
+wallen	keep	real verb
+Schäuble	drop	person
+Jeff	drop	first name
+Multi	drop	prefix fragment
+Hart	merge:hart	wrong-case hart
+Trek	drop	name
+Cabrio	keep	common noun
+Hanau	drop	town
+pflegeleichen	merge:pflegeleicht	broken lemma
+Landshut	drop	town
+Alan	drop	first name
+Schmitz	drop	surname
+LP	keep	common noun record
+PvP	drop	gaming jargon
+Vegan	merge:vegan	wrong-case vegan
+Whatsapp	drop	brand
+Satan	keep	common noun
+WELT	merge:Welt	wrong-case Welt
+Nicolas	drop	first name
+Werder	drop	club name
+CH	drop	abbreviation
+RKI	keep	famous national institution
+Motorola	drop	company
+Check-in	keep	established hyphenated word
+Detlef	drop	first name
+Celle	drop	town
+Secret	drop	English word
+Nature	drop	English word
+Race	drop	English word
+LCD	keep	everyday acronym
+Win	drop	English word
+Education	drop	English word
+Visual	drop	English word
+RSS	drop	technical acronym
+cialis	drop	spam
+Vincent	drop	first name
+high	drop	English word
+Chain	drop	English word
+Bruce	drop	first name
+Toronto	drop	foreign city
+Neukölln	drop	district
+Emil	drop	first name
+Flex	keep	common tool noun
+Sirius	drop	star name
+AKW	keep	everyday abbreviation
+Inklusive	merge:inklusive	wrong-case inklusive
+Moon	drop	English word
+Schuster	keep	common noun
+Sophia	drop	first name
+ra	drop	abbreviation
+Cook	drop	surname
+Online-Marketing	drop	hyphenated web compound
+Acryl	keep	common noun
+HSG	drop	sports club
+Kalk	keep	common noun
+Bergmann	keep	common noun
+Regionalliga	keep	league name used as noun
+Abmagerung	keep	real noun
+East	drop	English word
+Kontaktanzeig	merge:Kontaktanzeige	clipped
+Kreuzberg	drop	district
+AOK	keep	famous national insurer
+Potter	drop	surname
+Host	drop	English jargon
+Coburg	drop	town
+Revue	keep	common noun
+Sander	drop	surname
+Greenpeace	drop	NGO name
+Urlaubs-Bahn	drop	junk compound
+Elizabeth	drop	first name
+VG	drop	court abbreviation
+MTV	drop	brand
+MV	drop	abbreviation
+Friend	drop	English word
+Maya	keep	ethnonym
+FM	drop	abbreviation
+Luke	drop	first name
+Industrial	drop	English word
+Kommunikations-Bahn	drop	junk compound
+Tango	keep	common noun
+VHS	keep	everyday acronym
+Clara	drop	first name
+Congress	drop	English word
+Ikea	drop	brand
+Sami	drop	first name
+Gewind	merge:Gewinde	clipped
+Acer	drop	brand
+Ginny	drop	fictional name
+Saint	drop	English fragment
+Granit	keep	common noun
+Ocean	drop	English word
+Kennedy	drop	surname
+Place	drop	English word
+TTIP	drop	specific treaty acronym
+Lucky	drop	English name
+Miriam	drop	first name
+fixen	merge:fix	from fix und fertig
+Heel	drop	English word
+Unna	drop	town
+Bag	drop	English word/abbrev
+Erika	drop	first name
+XII	drop	roman numeral
+US-Bundesstaat	keep	standard compound
+# question taz: newspapers (taz, Handelsblatt) dropped as brands; are national newspapers "nationally famous institutions"?
+# question Greenpeace: dropped as NGO name; is a famous international NGO an institution to keep?
+# question Potential: kept as accepted spelling of Potenzial; merge if Potenzial is already on the list?

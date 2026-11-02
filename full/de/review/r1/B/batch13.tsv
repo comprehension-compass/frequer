@@ -1,0 +1,303 @@
+Let	drop	English word / song title
+Reinigungs-Bahn	drop	hyphenated junk
+Crown	drop	English brand/title
+EU-Mitgliedstaat	keep	established compound
+Importier	merge:importieren	clipped verb
+Inge	drop	first name
+PV-Anlage	keep	common energy term
+Petry	drop	surname
+Strauss	drop	surname
+Veteran	keep	real noun
+Devices	drop	English
+Erding	drop	town
+Fußball-Bundesligist	keep	real compound
+Hogwart	drop	fiction place
+Invest	drop	company name part
+Octavia	drop	name/brand
+Opt-Out-Cookie	drop	web compound
+Reus	drop	surname
+ÖBB	keep	national railway institution
+Knut	drop	first name
+BIC	drop	banking acronym
+DATEN	merge:Daten	wrong case
+Hochsaison	keep	real noun
+JBL	drop	brand
+Murphy	drop	surname
+gribka	drop	spam
+Ballerina	keep	common noun
+Jade	keep	common noun
+Monica	drop	first name
+Glasgow	drop	foreign city
+IT-Lösung	keep	real compound
+märkisch	drop	region name adjective, name usage
+Born	drop	surname mostly, archaic word
+EV	drop	abbreviation/Turkish
+Han	drop	name
+Pep	keep	real word (Pep)
+Wang	drop	surname
+Dobrindt	drop	surname
+Kirchberg	drop	town
+Size	drop	English
+Survival	drop	English
+Albanie	merge:Albanien	clipped
+Arnsberg	drop	town
+Svenja	drop	first name
+Mirror	drop	English
+Online-Bewerbung	keep	real compound
+VM	drop	technical acronym
+Wiesn	keep	common regional word
+Yves	drop	first name
+neunzigste	drop	ordinal compound number word
+Assessment	drop	English not established
+BIO	keep	common prefix word Bio
+Ronny	drop	first name
+CES	drop	trade fair acronym
+Carina	drop	first name
+We	drop	English
+Flying	drop	English
+Moroni	drop	name
+Train	drop	English
+keinst	merge:kein	from keinster
+Die Linke	keep	national party
+Disk	drop	English
+Homosexuell	keep	real word
+Rossi	drop	surname
+That	drop	English
+Zähneputz	merge:Zähneputzen	clipped
+meets	drop	English
+Friederike	drop	first name
+Halterunge	merge:Halterung	broken lemma
+Wayne	drop	name
+Adressdat	merge:Adressdaten	clipped
+Christof	drop	first name
+Gaddafi	drop	person
+Directory	drop	English
+Mate	keep	real noun (tea)
+Rossmann	drop	company
+Schalott	merge:Schalotte	clipped
+Augustin	drop	name
+Blackberry	drop	brand
+son	merge:Sonde	from Sonde
+Wieviele	merge:wie viele	spelling
+Xavier	drop	first name
+best	merge:gut	superlative of gut
+Trainings-Bahn	drop	hyphenated junk
+achtzehnhundertsechsundachtzig	drop	compound number
+Blaise	drop	first name
+Buxtehude	drop	town
+Fluid	keep	real noun
+Larry	drop	first name
+Lincoln	drop	surname
+Montana	drop	US state minor
+Olli	drop	first name
+Online-Dating-Abenteuer	drop	web compound
+Sergio	drop	first name
+Bratislava	drop	not on reviewed place list
+Kahn	keep	common noun (boat)
+NVIDIA	drop	brand
+Westdeutschland	drop	place name not on list
+Equity	drop	English
+Ewald	drop	first name
+Fuerteventura	drop	island not on list
+Henri	drop	first name
+WARUM	merge:warum	wrong case
+Aspirin	keep	common noun
+Denim	keep	established loan
+SSW	drop	acronym/party minor
+römisch-katholisch	keep	established adjective
+Baldur	drop	name
+Fröhlich	merge:fröhlich	wrong case
+Irish	drop	English
+Labs	drop	English
+Orchestra	drop	English
+PayPal-Konto	drop	brand compound
+Spielberg	drop	surname
+iMMER	merge:immer	wrong case
+Cologne	drop	English name
+Overall	keep	established loan
+Wenzel	drop	name
+gribok	drop	spam
+Scree	merge:Screen	clipped loan
+style	drop	English
+EU-Bürger	keep	established compound
+Pentagon	keep	widely used institution word
+Pot	drop	English/unclear
+TO	drop	English
+Keys	drop	English
+Luxury	drop	English
+Marshall	drop	surname
+Apollo	drop	name
+Communications	drop	English
+Indiana	drop	name
+Tree	drop	English
+Altmaier	drop	surname
+DP	drop	acronym
+IT-Dienstleister	keep	real compound
+WWW	keep	everyday acronym
+DBY	drop	spam
+Egger	drop	surname
+Erhard	drop	surname
+Royale	drop	title/brand
+Getreu	merge:getreu	wrong case
+Jorge	drop	first name
+Klee	keep	common noun
+Kretschmann	drop	surname
+Switzerland	drop	English
+Viva	drop	brand
+Wings	drop	English
+has	merge:Hase	from Hasen
+DTM	drop	racing series
+NSDAP	keep	famous historical party
+Find	merge:finden	elided verb form
+Pat	drop	name
+Warcraft	drop	game brand
+Cobra	drop	brand/unit
+Gernot	drop	first name
+PV	drop	technical acronym
+Andernfall	merge:andernfalls	clipped
+empfehlensweren	merge:empfehlenswert	broken lemma
+Automotive	drop	English jargon
+BAFA	drop	minor agency acronym
+Commander	drop	English
+Davis	drop	surname
+Terry	drop	first name
+gymnasial	keep	real adjective
+Chanel	drop	brand
+Coco	drop	name/brand
+DGUV	drop	minor organisation
+Koriand	merge:Koriander	clipped
+Marketingzweck	keep	real noun
+Work-Life-Balance	keep	established loan
+Hameln	drop	town
+Task	drop	English
+Airways	drop	brand
+Ann	drop	first name
+FIT	merge:fit	wrong case
+Antidepressiva	keep	real noun
+Lama	keep	common noun
+Limette	keep	common noun
+Zuckerberg	drop	surname
+ADFC	drop	minor organisation
+Beckmann	drop	surname
+MAX	drop	name
+Matteo	drop	first name
+rheinland-pfälzisch	keep	real adjective
+Analsex	keep	real noun
+Benno	drop	first name
+Jürgens	drop	surname
+Mitteldeutschland	drop	place name not on list
+SUP	drop	niche acronym
+Andrej	drop	first name
+Geld-zurück-Garantie	drop	web compound
+Nauheim	drop	town
+Pennsylvania	drop	US state minor
+Abkühl	merge:abkühlen	clipped
+Arndt	drop	surname
+Edgar	drop	first name
+Hüpfburg	keep	common noun
+Klara	drop	first name
+Michigan	drop	US state minor
+Under	drop	English
+dreiunddreißigste	drop	number compound
+schwarz-gelb	keep	established adjective
+weltgroß	drop	only superlative form used
+Game of Thrones	drop	title
+Mailing	keep	established loan
+Metz	drop	foreign city
+Share	drop	English
+Tayyip	drop	first name
+Hannelore	drop	first name
+Produktionsstätt	merge:Produktionsstätte	clipped
+Unterfranken	drop	region name not on list
+Vorwerk	drop	brand/historic term
+Description	drop	English
+Domina	keep	real noun
+HTTP	drop	technical acronym
+Silent	drop	English
+Trance	keep	real noun
+CCC	drop	minor organisation
+Haushaltsauflösung	keep	real noun
+Plantag#day	merge:Plantage	broken lemma
+drittgrößt	drop	only inflected superlative ordinal
+LH	drop	abbreviation
+OPC	drop	technical acronym
+Package	drop	English
+Rösler	drop	surname
+Sonnencrem	merge:Sonnencreme	clipped
+Strike	drop	English
+neuronal	keep	real adjective
+Aquarie	merge:Aquarium	broken lemma
+Inside	drop	English
+Migro	drop	company
+WMF	drop	brand
+Wel	merge:Wels	clipped
+bundesdeutsch	keep	real adjective
+Absag	merge:absagen	clipped
+ESP	drop	technical acronym
+Wonder	drop	English
+EU-weit	keep	established adjective
+FDA	drop	foreign agency
+Peace	drop	English
+blin	merge:blind	clipped
+Contra	keep	common word
+W-Lan	merge:WLAN	spelling variant
+Animat	drop	broken/English
+CDU-Fraktion	keep	national political institution term
+Deggendorf	drop	town
+GMBH	merge:GmbH	wrong case
+Stanley	drop	name
+Bavaria	drop	brand
+Hauptsaison	keep	real noun
+SAS	drop	company
+Schleimhäut	merge:Schleimhaut	clipped
+VISA	merge:Visum	plural Visa
+übernächst	keep	real adjective
+India	drop	English
+Kneipp	drop	brand/name
+Ott	drop	surname
+Tuchel	drop	surname
+Vilbel	drop	town
+Cham	drop	town
+Dolby	drop	brand
+Friedhelm	drop	first name
+Herz-Kreislauf-Erkrankung	keep	established compound
+Superman	drop	fictional character
+BSV	drop	club
+Hyaluron	keep	real noun
+Laurent	drop	first name
+Study	drop	English
+Tomatenmark	keep	common noun
+Augmented	drop	English
+Interior	drop	English
+Navy	drop	English
+ON	drop	English
+Us	drop	English
+wIE	merge:wie	wrong case
+Darwin	drop	person
+Rights	drop	English
+Elsa	drop	first name
+HRB	drop	register abbreviation
+SPS	drop	technical acronym
+potent	keep	real adjective
+Neu-Ulm	drop	town
+SEAT	drop	brand
+Sina	drop	first name
+Thompson	drop	surname
+Verwaltungs-Bahn	drop	hyphenated junk
+e-Mail	merge:E-Mail	capitalisation
+Alb	drop	place name not on list
+BL	drop	abbreviation
+Höcke	drop	surname
+stern	merge:Stern	wrong case
+Burton	drop	surname
+Coast	drop	English
+EMS	drop	acronym
+Hofheim	drop	town
+Stempelset	keep	real noun
+ARGE	merge:arg	from arge
+Acrylglas	keep	common noun
+Charlottenburg	drop	district
+Dry	drop	English
+# question Westdeutschland: major region name; rules say any place name still in batch is not on the reviewed list so dropped, though it is an everyday word
+# question Pentagon: kept as a widely used institution word although it is not German
+# question WWW: kept as an everyday acronym; examples are only URLs

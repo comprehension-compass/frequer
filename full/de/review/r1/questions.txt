@@ -1,0 +1,76 @@
+# question einunddreißigste: ordinals above 30 follow the cardinal rule? kept as it is a calendar date (31st)
+# question Bundesrepublik Deutschland: multiword place/state name, kept as official state name
+# question IT: kept as everyday acronym, examples mostly English "it"
+# question zwanzigste: ordinals dreizehnte-zwanzigste and dreißigste kept, compound ordinals (einundzwanzigste etc.) dropped by analogy with the cardinal rule; confirm
+# question IT: lemma mixes German acronym IT and English it; kept as the acronym
+# question Telekom: company, but analogous to Deutsche Bahn; kept as nationally referenced.
+# question Jesus Christus: religious figure, dropped as a person name under the rules.
+# question US: examples are junk, kept as the USA abbreviation seen in US-compounds.
+# question Jesus Christus: religious figure, dropped under people rule
+# question Telekom: national company, dropped as company
+# question zB: lowercase abbreviation of z. B.; kept as daily-read abbreviation, may duplicate zum Beispiel
+# question Sowjetunion: country-like place name not on the reviewed list; kept as ordinary historical common noun
+# question DB: ambiguous (Deutsche Bahn vs dB vs Datenbank); dropped
+# question WDR: regional ARD broadcaster, nationally famous? dropped as minor organisation
+# question Sowjetunion: historic state not on place list; kept as common noun-like
+# question DB: kept as Deutsche Bahn but examples mix dB and Datenbank
+# question Atlantik: ocean, which the rules say were already moved to the reviewed list, yet it appears here; kept as obviously learnable
+# question Dublin: capital of Ireland; rule says any remaining place name drops, but capitals like Dublin, Budapest, Bangkok, Shanghai, Miami may deserve the reviewed list
+# question Atlantik: rules say oceans were already removed from the batch, yet it appears; kept as an obviously learnable word
+# question Amnesty International: multiword organisation name; dropped as not a single-word national institution
+# question Fick: vulgar but real word; kept per the real-word rule
+# question KfW: nationally famous state bank or company-like organisation? kept as famous institution
+# question Korea: major country but it was still in the batch; dropped per rule, check it is on the places list
+# question wieviel: kept as spelling variant; no merge target since wie viel is two words
+# question CIA: foreign organisation acronym, dropped; EU/UNO/NATO kept
+# question taz: newspapers (taz, Handelsblatt) dropped as brands; are national newspapers "nationally famous institutions"?
+# question Greenpeace: dropped as NGO name; is a famous international NGO an institution to keep?
+# question Potential: kept as accepted spelling of Potenzial; merge if Potenzial is already on the list?
+# question taz: national newspaper, brand or institution?
+# question Greenpeace: major NGO; kept as nationally famous organisation
+# question sechzigste: ordinal form, no obvious dictionary lemma
+# question Potential: variant of Potenzial, merged
+# question Hamas: foreign organisation, not a German institution, but constant in news; kept
+# question NABU: nationally known NGO; dropped as minor organisation like AWO
+# question Dax: stock index, not an institution; kept as everyday news word
+# question UEFA: international sports body, not a German institution; kept with DFB-Pokal and MDR as nationally known names
+# question Auschwitz: widely meaningful place name but not on the place list; dropped per rule
+# question Skandinavien: well-known region absent from place list; dropped per rule (same for Nordafrika)
+# question Pazifik: ocean/region (Pazifik, Südostasien) kept although not on the place list; rule says drop any place seen
+# question CVP: Swiss party kept as nationally famous; PKV kept as everyday insurance term, BKK dropped
+# question Online-Händler: kept hyphenated Online- compounds as ordinary nouns but dropped jargon ones (Android-Smartphone, Session-Cookie, PDF-Format); boundary unclear
+# question Steuereinnahme: plural-dominant noun; kept as dictionary lemma, merge to Steuereinnahmen not needed
+# question Versicherungsbedingung: same plural-dominant case, kept
+# question EKD: kept as nationally famous church body; could be judged minor organisation
+# question Weißrussland: country not on the reviewed list per rules; dropped, but may deserve keep or merge into Belarus
+# question Sahara: major region/geographic name seen despite rule; dropped
+# question Arktis: major region, but place names still in batch are not on the reviewed list; dropped per rule
+# question Sibirien: same as Arktis
+# question Kanar: merged to Kanaren, a place name that may not be on the place list (then drop)
+# question Hesse: inhabitant of Hessen (common noun) vs mostly Hermann Hesse; dropped
+# question Arktis: place names not on the list drop by rule, but Arktis, Sibirien, Südfrankreich are well-known regions a learner may want
+# question Kanar: merged-looking to Kanaren but place-name rule says drop; dropped
+# question neunzigste: ordinal 90 lemma in inflected form; dropped as low value
+# question weltgroß: weltgrößte/drittgrößte superlative compounds are common but have no clean lemma; dropped
+# question Scree: merged to Screen (loan) which may not be on the list
+# question Alb: Schwäbische Alb is a region name, dropped per place rule
+# question Westdeutschland: major region name; rules say any place name still in batch is not on the reviewed list so dropped, though it is an everyday word
+# question Pentagon: kept as a widely used institution word although it is not German
+# question WWW: kept as an everyday acronym; examples are only URLs
+# question Allahs: deity names (Allah, Zeus) are neither people nor common nouns; dropped both
+# question ZB: abbreviation of zum Beispiel; kept as read daily, but lemma is the abbreviation not a word
+# question CM: lemma is the unit cm; kept as an abbreviation read daily
+# question MG: lemma is the unit mg; kept as an abbreviation read daily
+# question ALG: dropped as bureaucratic abbreviation (Arbeitslosengeld), could be kept as everyday acronym
+# question Tour de France: multiword event name, kept as nationally famous; confirm multiword lemmas are allowed
+# question zweitgroß: lemma is a superlative-only stem (zweitgrößte); kept as is, same for zweithoch, weltgrößt, letztgenannt.
+# question Hbf: kept as an everyday station abbreviation; QM and Mo-Fr dropped as comparable abbreviations, confirm policy.
+# question Remote: dropped as not established German; could be kept like Team/Event if the developer disagrees.
+# question zweitgroß: superlative-compound adjectives (zweitgroß, weltgrößt, zweithoch) occur only inflected; kept as lemmas, confirm convention
+# question Mazedonien: country but not on reviewed place list; dropped per rule
+# question LINZ: merged to Linz on the assumption it is a major Austrian city on the reviewed place list; drop if not
+# question EU-Verordnung: kept the standard hyphenated compounds (EU-Verordnung, EU-Ausland, U-Bahn-Station, Software-Update, Web-Browser) and dropped tech/marketing/bureaucratic ones; rule on hyphenated compounds is not fully settled
+# question BER: kept as nationally known airport abbreviation; could be seen as place name
+# question Giessen: could be the verb giessen at sentence start or the city Gießen; treated as city
+# question RAF: kept as famous German group but also Royal Air Force
+# question DFL: kept as nationally known football body; borderline

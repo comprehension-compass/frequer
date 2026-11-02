@@ -1,0 +1,1119 @@
+# German exclusion list (frequer/exclude.py): lemma<TAB>class<TAB>reason. 2026-11-02.
+# The foreign-flagged lemmas of the junk review, under the es criterion: drop English leakage, keep loans
+# an English-speaking learner would want to know German uses. keep-loan rows exempt a lemma from the
+# foreign and shape rules.
+A	exclude-english	agreed: single letter
+AND	exclude-english	agreed: English
+AS	exclude-english	agreed: junk
+AT	exclude-english	agreed: English/domain
+About	exclude-english	agreed: English
+Abstract	keep-loan	agreed: common academic noun
+Access	exclude-english	agreed: English/software
+Act	exclude-english	agreed: English
+Action	keep-loan	agreed: established loan
+Active	exclude-english	agreed: English
+Activity	exclude-english	agreed: English
+Add-on	keep-loan	agreed: established IT loan
+Addition	keep-loan	agreed: German word
+Administration	keep-loan	agreed: real noun
+Adult	exclude-english	agreed: English
+Advanced	exclude-english	agreed: English
+Advertising	exclude-english	agreed: English
+Advisor	exclude-english	agreed: English
+Affair	exclude-english	agreed: English
+Affirmation	keep-loan	agreed: German word
+Africa	exclude-english	agreed: English
+After	keep-loan	agreed: real German word
+Age	exclude-english	agreed: English word
+Agency	exclude-english	agreed: English
+Agreement	exclude-english	agreed: English
+Airport	exclude-english	agreed: English
+All	keep-loan	agreed: German noun das All
+Alliance	exclude-english	agreed: English
+Alumni	keep-loan	agreed: established loan
+Ambition	keep-loan	agreed: real noun
+America	exclude-english	agreed: English
+American	exclude-english	agreed: English word
+Analysis	keep-loan	agreed: German math noun
+And	exclude-english	agreed: English
+Animal	exclude-english	agreed: English
+Anonymous	exclude-english	agreed: group name
+Anti-Aging	keep-loan	agreed: established hyphenated loan
+Application	exclude-english	agreed: English
+Architecture	exclude-english	agreed: English
+Are	exclude-english	agreed: English
+Area	exclude-english	agreed: English word
+Army	exclude-english	agreed: English
+Array	exclude-english	agreed: technical English
+Artist	keep-loan	agreed: real German word
+Arts	exclude-english	agreed: English
+Artwork	keep-loan	adjudicated: established loan
+Aspire	exclude-english	agreed: brand
+Assassin	exclude-english	agreed: English
+Assessment	exclude-english	agreed: not established
+Assets	exclude-english	agreed: English finance
+Assist	exclude-english	agreed: English
+Assistant	exclude-english	agreed: English product name
+Association	exclude-english	agreed: English
+Audit	keep-loan	agreed: German noun
+Australian	exclude-english	agreed: English
+Author	exclude-english	agreed: English
+Authority	exclude-english	agreed: English
+Aviation	exclude-english	agreed: English
+BAG	exclude-english	agreed: institution acronym, specialist
+BE	exclude-english	agreed: English/junk
+BIG	exclude-english	agreed: English
+Background	exclude-english	agreed: English not established
+Bag	exclude-english	agreed: English word/abbrev
+Barrel	keep-loan	adjudicated: unit used in German news
+Base	keep-loan	agreed: real German word (female cousin)
+Basic	exclude-english	agreed: English/programming language
+Battle	exclude-english	agreed: English
+Be	exclude-english	agreed: English fragment
+Bear	exclude-english	agreed: English
+Beat	keep-loan	agreed: music loan
+Bed	exclude-english	agreed: English
+Beijing	exclude-english	adjudicated: place name not on reviewed list
+Benefits	exclude-english	agreed: English
+Best	exclude-english	agreed: English
+Bet	exclude-english	agreed: English
+Better	exclude-english	agreed: English
+Beyond	exclude-english	agreed: English
+Big	exclude-english	agreed: English
+Billion	keep-loan	agreed: German number word
+Bird	exclude-english	agreed: English
+Birmingham	exclude-english	agreed: foreign city
+Birthday	exclude-english	agreed: English
+Bit	keep-loan	agreed: established loan
+Blood	exclude-english	agreed: English
+Blush	exclude-english	agreed: English cosmetics
+Board	keep-loan	adjudicated: established loan (Sideboard, Gremium)
+Body	exclude-english	agreed: English
+Book	exclude-english	agreed: English
+Bookmark	keep-loan	agreed: established IT loan
+Boost	exclude-english	adjudicated: English not established
+Border	exclude-english	agreed: English
+Born	exclude-english	agreed: mostly surname
+Brain	exclude-english	agreed: English
+Break	exclude-english	agreed: English
+Breakfast	exclude-english	agreed: English
+Breaking	exclude-english	agreed: English
+Bridge	keep-loan	agreed: card game
+British	exclude-english	agreed: English word
+Brother	exclude-english	agreed: English
+Brothers	exclude-english	agreed: English
+Build	exclude-english	agreed: English
+Builder	exclude-english	agreed: English
+Building	exclude-english	agreed: English
+Business	keep-loan	agreed: established loan
+Buy	exclude-english	agreed: English
+By	exclude-english	agreed: English
+Cake	exclude-english	agreed: English
+California	exclude-english	agreed: foreign place
+Call	exclude-english	agreed: English
+Camera	exclude-english	agreed: English
+Campaign	exclude-english	agreed: English
+Can	exclude-english	agreed: English/name
+Capital	exclude-english	agreed: English
+Capture	exclude-english	agreed: English
+Car	exclude-english	agreed: English
+Carbon	keep-loan	adjudicated: established loan (carbon fibre)
+Card	exclude-english	agreed: English
+Cards	exclude-english	agreed: English
+Care	exclude-english	agreed: English
+Career	exclude-english	agreed: English
+Cars	exclude-english	agreed: English
+Case	exclude-english	agreed: English
+Cash	exclude-english	agreed: English
+Cast	exclude-english	agreed: English
+Cell	exclude-english	agreed: English
+Central	exclude-english	agreed: English
+Centre	exclude-english	agreed: English/French
+Century	exclude-english	agreed: English
+Certified	exclude-english	agreed: English
+Chain	exclude-english	agreed: English word
+Championship	exclude-english	agreed: English
+Change	exclude-english	agreed: English
+Charge	keep-loan	agreed: real noun
+Charm	exclude-english	agreed: English
+Chart	keep-loan	agreed: established loan (Charts)
+Chase	exclude-english	agreed: English/name
+Cheat	exclude-english	agreed: English
+Check	keep-loan	agreed: established loan
+Check-In	keep-loan	agreed: established hyphenated loan
+Check-in	keep-loan	agreed: established hyphenated word
+Chicken	exclude-english	agreed: English
+Chief	exclude-english	agreed: English
+Children	exclude-english	agreed: English
+Chinese	keep-loan	agreed: nationality noun
+Chocolate	exclude-english	agreed: English
+Choice	exclude-english	agreed: English
+Christmas	exclude-english	agreed: English
+Church	exclude-english	agreed: English
+Circle	exclude-english	agreed: English
+Circuit	exclude-english	agreed: English
+Cities	exclude-english	agreed: English
+Citizen	exclude-english	agreed: English
+Civil	exclude-english	agreed: English
+Class	exclude-english	agreed: English
+Clean	exclude-english	agreed: English
+Clear	exclude-english	agreed: English
+Click	exclude-english	agreed: English
+Climate	exclude-english	agreed: English
+Coast	exclude-english	agreed: English
+Coffee	exclude-english	agreed: English
+Coil	exclude-english	agreed: English
+Coin	exclude-english	agreed: English
+Cold	exclude-english	agreed: English
+Collection	exclude-english	agreed: English
+College	keep-loan	adjudicated: established loan
+Color	exclude-english	agreed: foreign
+Comfort	exclude-english	agreed: English word
+Command	exclude-english	agreed: English
+Comment	exclude-english	agreed: English
+Commission	exclude-english	agreed: English
+Committee	exclude-english	agreed: English
+Common	exclude-english	agreed: English
+Communication	exclude-english	agreed: English
+Communications	exclude-english	agreed: English
+Company	exclude-english	agreed: English
+Competition	exclude-english	agreed: English
+Complete	exclude-english	agreed: English
+Concept	exclude-english	agreed: English
+Conditioner	keep-loan	agreed: established product word
+Conference	exclude-english	agreed: English
+Congress	exclude-english	agreed: English word
+Connect	exclude-english	agreed: English
+Connection	exclude-english	agreed: English
+Connector	exclude-english	agreed: English
+Console	exclude-english	agreed: English
+Consumer	exclude-english	agreed: English
+Contact	exclude-english	agreed: English
+Continue	exclude-english	agreed: English web text
+Control	exclude-english	agreed: English
+Convention	exclude-english	agreed: English
+Conversion	exclude-english	agreed: English
+Converter	exclude-english	agreed: English
+Cook	exclude-english	agreed: surname
+Copy	exclude-english	agreed: English
+Core	exclude-english	agreed: English
+Corner	exclude-english	agreed: English
+Corporation	exclude-english	agreed: English word
+Cotton	exclude-english	agreed: English
+Council	exclude-english	agreed: English
+Counter	exclude-english	agreed: English
+Country	exclude-english	agreed: English
+County	exclude-english	agreed: English word
+Court	exclude-english	agreed: English
+Crack	keep-loan	agreed: German word (drug, sports)
+Craft	exclude-english	agreed: English
+Crazy	exclude-english	agreed: English
+Cream	exclude-english	agreed: English word
+Creation	exclude-english	agreed: English
+Creative	exclude-english	agreed: English word
+Creator	exclude-english	agreed: English not established
+Credit	exclude-english	agreed: English
+Crime	exclude-english	agreed: English
+Cross	exclude-english	agreed: English
+Crown	exclude-english	agreed: brand
+Cry	exclude-english	agreed: English
+Culture	exclude-english	agreed: English
+Curriculum	keep-loan	agreed: German noun
+Custom	exclude-english	agreed: English
+Customer	exclude-english	agreed: English
+Cut	exclude-english	agreed: English
+Dad	exclude-english	agreed: English
+Daily	exclude-english	agreed: English
+Dark	exclude-english	agreed: English
+Data	exclude-english	agreed: English
+Database	exclude-english	agreed: English
+Day	exclude-english	agreed: English word
+Days	exclude-english	agreed: English word
+Dead	exclude-english	agreed: English
+Death	exclude-english	agreed: English
+Dec	exclude-english	agreed: English abbreviation
+Deep	exclude-english	agreed: English
+Defender	exclude-english	agreed: English/brand
+Defense	exclude-english	agreed: English
+Delivery	exclude-english	agreed: English
+Demand	exclude-english	agreed: English
+Department	keep-loan	agreed: used in German universities
+Deposit	exclude-english	agreed: English
+Description	exclude-english	agreed: English
+Desire	exclude-english	agreed: English
+Destination	keep-loan	agreed: real word
+Developer	exclude-english	agreed: English
+Development	exclude-english	agreed: English
+Device	exclude-english	agreed: English
+Devices	exclude-english	agreed: English
+Devil	exclude-english	agreed: English
+Direct	exclude-english	agreed: English
+Director	exclude-english	agreed: English
+Directory	exclude-english	agreed: English
+Discovery	exclude-english	agreed: English
+Distribution	keep-loan	agreed: real German word
+Distributor	keep-loan	adjudicated: established loan
+District	exclude-english	agreed: English/place
+Do	exclude-english	agreed: English
+Doctor	exclude-english	agreed: English
+Document	exclude-english	agreed: English
+Dog	exclude-english	agreed: English, from Hot Dog
+Dogs	exclude-english	agreed: English
+Door	exclude-english	agreed: English
+Down	exclude-english	agreed: English
+Downtown	exclude-english	agreed: foreign place word
+Drag	exclude-english	agreed: English
+Dream	exclude-english	agreed: English
+Dress	exclude-english	agreed: English
+Dressing	keep-loan	agreed: established loan
+Drink	keep-loan	agreed: established loan
+Drive	exclude-english	agreed: English
+Driver	exclude-english	agreed: English
+Drop	exclude-english	agreed: English, not established
+Drops	exclude-english	agreed: brand/English
+Dry	exclude-english	agreed: English
+Dutch	exclude-english	agreed: English
+Duty	exclude-english	agreed: English
+Dynamic	exclude-english	agreed: English
+E-Learning	keep-loan	agreed: established hyphenated loan
+E-Paper	keep-loan	agreed: established hyphenated loan
+Early	exclude-english	agreed: English
+Earth	exclude-english	agreed: English
+East	exclude-english	agreed: English word
+Easy	exclude-english	agreed: English
+Economic	exclude-english	agreed: English
+Economics	exclude-english	agreed: English
+Economy	exclude-english	agreed: English
+Edge	exclude-english	agreed: English/product
+Editor	keep-loan	agreed: German noun
+Editorial	keep-loan	agreed: loan
+Education	exclude-english	agreed: English word
+Effect	exclude-english	agreed: English
+Effects	exclude-english	agreed: English
+Electric	exclude-english	agreed: English
+Electronic	exclude-english	agreed: English
+Electronics	exclude-english	agreed: English
+Employer	exclude-english	agreed: English
+Energy	exclude-english	agreed: English/brand
+Engine	exclude-english	agreed: English
+Engineer	exclude-english	agreed: English
+Epic	exclude-english	agreed: English
+Equipment	keep-loan	agreed: loan in use
+Equity	exclude-english	agreed: English
+Escape	exclude-english	agreed: English
+Essential	exclude-english	agreed: English
+Establishment	keep-loan	agreed: established loan
+Estate	exclude-english	agreed: English
+European	exclude-english	agreed: English word
+Evil	exclude-english	agreed: English
+Exchange	exclude-english	agreed: English
+Executive	exclude-english	agreed: English
+Experience	exclude-english	agreed: English
+Expert	exclude-english	agreed: English
+Expression	keep-loan	agreed: real German word
+Extension	exclude-english	agreed: English
+Eye	exclude-english	agreed: English word
+Eyes	exclude-english	agreed: English
+FOR	exclude-english	agreed: English
+Face	exclude-english	agreed: English
+Facility	exclude-english	agreed: English
+Fact	exclude-english	agreed: English
+Factory	exclude-english	agreed: English
+Family	exclude-english	agreed: English
+Far	exclude-english	agreed: English/Italian
+Fat	exclude-english	agreed: English
+Feature	keep-loan	agreed: established loan
+Feb	exclude-english	agreed: date abbreviation
+Federal	exclude-english	agreed: English
+Federation	exclude-english	agreed: English
+Feed	keep-loan	agreed: established loan
+Feel	exclude-english	agreed: English
+Feeling	keep-loan	agreed: established loan
+Field	exclude-english	agreed: English
+Fight	exclude-english	agreed: English
+Fighter	exclude-english	agreed: English
+Files	exclude-english	agreed: English
+Finance	exclude-english	agreed: English
+Financial	exclude-english	agreed: English
+Fine	exclude-english	agreed: name
+Finish	keep-loan	agreed: established loan
+Fire	exclude-english	agreed: English
+First	keep-loan	agreed: German noun First
+Fish	exclude-english	agreed: English
+Five	exclude-english	agreed: English
+Flag	exclude-english	agreed: English
+Flat	keep-loan	adjudicated: colloquial Flatrate
+Flight	exclude-english	agreed: English
+Floor	exclude-english	agreed: English
+Flow	keep-loan	agreed: established loan
+Flower	exclude-english	agreed: English
+Fluid	keep-loan	agreed: real noun
+Flying	exclude-english	agreed: English
+Folder	keep-loan	agreed: German word (brochure)
+Food	exclude-english	agreed: English word
+Football	keep-loan	agreed: established loan for American football
+For	exclude-english	agreed: English
+Force	exclude-english	agreed: English
+Forest	exclude-english	agreed: English
+Forever	exclude-english	agreed: English
+Fortune	exclude-english	agreed: English
+Forward	exclude-english	agreed: English
+Foundation	exclude-english	agreed: English word
+Four	exclude-english	agreed: English
+Frame	exclude-english	agreed: English
+Framework	exclude-english	agreed: English IT term
+Free	exclude-english	agreed: English
+Freedom	exclude-english	agreed: English
+French	exclude-english	agreed: English
+Fresh	exclude-english	agreed: English
+Friday	exclude-english	agreed: English
+Friend	exclude-english	agreed: English word
+From	exclude-english	agreed: English
+Fruit	exclude-english	agreed: English
+Fuck	exclude-english	agreed: English
+Full	exclude-english	agreed: English
+Fun	exclude-english	agreed: English/Kung Fu
+Fundraising	keep-loan	agreed: established loan
+Future	exclude-english	agreed: English
+GO	exclude-english	agreed: English/game name
+GROUP	exclude-english	agreed: English
+Game	exclude-english	agreed: not established
+Games	exclude-english	agreed: not established
+Gay	exclude-english	agreed: English
+Gear	exclude-english	agreed: English
+Genius	keep-loan	agreed: real German word
+Get	exclude-english	agreed: English
+Girl	exclude-english	agreed: English
+Glass	exclude-english	agreed: English/surname
+Globe	exclude-english	agreed: English
+Go	exclude-english	agreed: English/game name
+God	exclude-english	agreed: English
+Good	exclude-english	agreed: English
+Graphics	exclude-english	agreed: English
+Great	exclude-english	agreed: English
+Grid	exclude-english	agreed: English
+Ground	exclude-english	agreed: English
+Group	exclude-english	agreed: English
+Guard	exclude-english	agreed: English
+Guest	exclude-english	agreed: English
+Guy	exclude-english	agreed: name
+Gym	exclude-english	agreed: English
+Hair	exclude-english	agreed: English
+Handling	keep-loan	adjudicated: established loan
+Happy	exclude-english	agreed: English
+Harbour	exclude-english	agreed: English place name
+Hard	exclude-english	agreed: English fragment
+Have	exclude-english	agreed: English
+Head	exclude-english	agreed: English
+Health	exclude-english	agreed: English
+Healthcare	exclude-english	agreed: English
+Heart	exclude-english	agreed: English
+Heat	exclude-english	agreed: English
+Heavy	exclude-english	agreed: English
+Held	keep-loan	agreed: real German word
+Hello	exclude-english	agreed: English
+Hero	exclude-english	agreed: English
+High	exclude-english	agreed: English
+High-End	keep-loan	agreed: established hyphenated word
+History	exclude-english	agreed: English
+Hit	keep-loan	agreed: established loan
+Hold	keep-loan	agreed: real German adjective
+Holding	keep-loan	agreed: established business noun
+Holiday	exclude-english	agreed: English
+Home	exclude-english	agreed: English
+Home-Office	keep-loan	agreed: established loan
+Honor	exclude-english	agreed: English
+Hook	exclude-english	agreed: English
+Hope	exclude-english	agreed: name
+Horse	exclude-english	agreed: English
+Hospital	keep-loan	agreed: real German noun
+Host	exclude-english	agreed: English jargon
+Hosting	exclude-english	agreed: English
+Hot	exclude-english	agreed: English word
+Hour	exclude-english	agreed: English
+House	exclude-english	agreed: English word
+How	exclude-english	agreed: English
+I	exclude-english	agreed: single letter
+IS	exclude-english	agreed: English/junk
+IT	keep-loan	agreed: everyday acronym
+Identity	exclude-english	agreed: English
+If	exclude-english	agreed: English
+Illinois	exclude-english	agreed: foreign place
+Impact	exclude-english	agreed: English
+Imperial	exclude-english	agreed: English
+Impression	keep-loan	agreed: German noun
+Independent	exclude-english	agreed: English
+India	exclude-english	agreed: English
+Industrial	exclude-english	agreed: English word
+Industry	exclude-english	agreed: English
+Inside	exclude-english	agreed: English
+Insight	exclude-english	agreed: English
+Intelligence	exclude-english	agreed: English
+Interactive	exclude-english	agreed: English
+Interim	exclude-english	agreed: English, not established
+Interior	exclude-english	agreed: English
+Invest	exclude-english	agreed: company text
+Investment	keep-loan	agreed: loan in use
+Ireland	exclude-english	agreed: English
+Irish	exclude-english	agreed: English
+Iron	exclude-english	agreed: English
+Is	exclude-english	agreed: English word
+Israeli	keep-loan	agreed: nationality word
+It	exclude-english	agreed: English word
+Item	keep-loan	adjudicated: established loan in games/surveys
+Jacket	exclude-english	agreed: English
+Journey	exclude-english	agreed: English
+Jump	exclude-english	agreed: English
+June	exclude-english	agreed: English/name
+Just	keep-loan	agreed: real German adverb
+Justice	exclude-english	agreed: English
+Keep	exclude-english	agreed: English
+Key	exclude-english	agreed: English
+Kid	keep-loan	agreed: established loan
+Kill	exclude-english	agreed: English
+Kingdom	exclude-english	agreed: English
+Kiss	exclude-english	agreed: English/band
+Kitchen	exclude-english	agreed: English
+Know	exclude-english	agreed: English
+Know-How	keep-loan	agreed: established hyphenated loan
+Know-how	keep-loan	agreed: established hyphenated loan
+Knowledge	exclude-english	agreed: English
+LED	keep-loan	agreed: ordinary acronym
+Lack	keep-loan	agreed: real German word
+Lake	exclude-english	agreed: English
+Landing	exclude-english	agreed: English
+Language	exclude-english	agreed: English
+Large	exclude-english	agreed: English
+Last	keep-loan	agreed: real German word
+Launch	exclude-english	agreed: English
+Law	exclude-english	agreed: English
+Layer	exclude-english	agreed: English
+Lead	exclude-english	agreed: English
+Leader	exclude-english	agreed: English, not established
+Leadership	exclude-english	agreed: English
+Leads	exclude-english	agreed: marketing English
+Leaf	exclude-english	agreed: English
+Leak	exclude-english	agreed: spam context
+Learning	exclude-english	agreed: English
+Led	exclude-english	agreed: band name part
+Legacy	exclude-english	agreed: English
+Let	exclude-english	agreed: English/name
+Letter	keep-loan	adjudicated: real German word (Lettern)
+Level	keep-loan	agreed: established loan
+Liberty	exclude-english	agreed: English name
+Library	exclude-english	agreed: English
+Life	exclude-english	agreed: English word
+Lift	keep-loan	agreed: German noun
+Light	exclude-english	agreed: English
+Like	exclude-english	agreed: English
+Likes	exclude-english	agreed: English
+Limited	exclude-english	agreed: English
+Line	exclude-english	agreed: English word
+Lip	exclude-english	agreed: English
+Liquid	exclude-english	agreed: English
+List	keep-loan	agreed: real noun
+Little	exclude-english	agreed: English
+Living	exclude-english	agreed: English
+Local	exclude-english	agreed: English
+Location	keep-loan	agreed: established loan
+Lock	exclude-english	agreed: English
+Long	exclude-english	agreed: English/surname
+Look	keep-loan	agreed: established loan
+Lot	keep-loan	agreed: German noun
+Love	exclude-english	agreed: English word
+Low	exclude-english	agreed: English
+Lucky	exclude-english	agreed: English name
+Lunch	exclude-english	agreed: English
+Luxury	exclude-english	agreed: English
+Lyrics	keep-loan	agreed: used in German music context
+ME	exclude-english	agreed: English
+Machine	exclude-english	agreed: English word
+Mad	exclude-english	agreed: English
+Made	keep-loan	agreed: German noun
+Mailing	keep-loan	agreed: established loan
+Major	keep-loan	agreed: rank, German word
+Make	exclude-english	agreed: English
+Make-Up	keep-loan	agreed: established hyphenated word
+Make-up	keep-loan	agreed: established hyphenated word
+Making	exclude-english	agreed: English
+Managed	exclude-english	agreed: English
+Managing	exclude-english	agreed: English
+Manual	exclude-english	agreed: English
+Manufacturing	exclude-english	agreed: English
+Map	exclude-english	agreed: English
+March	exclude-english	agreed: English
+Market	exclude-english	agreed: English
+Marketplace	exclude-english	agreed: English
+Markets	exclude-english	agreed: English
+Match	keep-loan	agreed: loan in use
+Mate	keep-loan	agreed: real word (tea)
+May	exclude-english	agreed: surname/English
+Me	exclude-english	agreed: English
+Medical	exclude-english	agreed: English brand
+Medicine	exclude-english	agreed: English
+Meet	exclude-english	agreed: English
+Meeting	keep-loan	agreed: established loan
+Member	exclude-english	agreed: English
+Memorial	exclude-english	agreed: English/organisation
+Memory	keep-loan	agreed: common noun (game)
+Men	exclude-english	agreed: English word
+Message	exclude-english	agreed: English
+Michigan	exclude-english	agreed: US state
+Miles	exclude-english	agreed: name/English
+Mind	exclude-english	agreed: English
+Mindset	keep-loan	agreed: established loan
+Mine	keep-loan	agreed: real word
+Mining	exclude-english	agreed: English
+Mirror	exclude-english	agreed: English
+Miss	exclude-english	agreed: English title, not German
+Mixed	exclude-english	agreed: English
+Mom	exclude-english	agreed: English
+Monday	exclude-english	agreed: English
+Money	exclude-english	agreed: English
+More	exclude-english	agreed: English word/name
+Morning	exclude-english	agreed: English
+Most	keep-loan	agreed: German noun
+Motion	exclude-english	agreed: English
+Mouse	exclude-english	agreed: English / name
+Move	exclude-english	agreed: English
+Movie	exclude-english	agreed: English
+Mr	exclude-english	agreed: English abbreviation
+Mrs	exclude-english	agreed: English
+Music	exclude-english	agreed: English word
+Muslim	keep-loan	agreed: ordinary word
+Must	exclude-english	agreed: English/typo
+Must-Have	keep-loan	agreed: established hyphenated loan
+My	exclude-english	agreed: English word
+NEW	exclude-english	agreed: English
+NO	exclude-english	agreed: English/Japanese particle
+Nail	exclude-english	agreed: English
+National	exclude-english	agreed: English name part
+Natural	exclude-english	agreed: English
+Nature	exclude-english	agreed: English word
+Network	exclude-english	agreed: English word
+Never	exclude-english	agreed: English
+New	exclude-english	agreed: English
+Next	exclude-english	agreed: English
+Nickname	keep-loan	agreed: established loan
+Night	exclude-english	agreed: English
+No	exclude-english	agreed: English
+Non	exclude-english	agreed: Latin/French
+North	exclude-english	agreed: English
+Not	keep-loan	agreed: real German word
+Now	exclude-english	agreed: English
+Number	exclude-english	agreed: English
+Nutrition	exclude-english	agreed: English
+OF	exclude-english	agreed: English
+ON	exclude-english	agreed: English
+ONE	exclude-english	agreed: English
+OR	exclude-english	agreed: English
+Ocean	exclude-english	agreed: English word
+Of	exclude-english	agreed: English word
+Off	exclude-english	agreed: English
+Office	keep-loan	agreed: established loan
+Officer	exclude-english	agreed: English
+Ohio	exclude-english	agreed: place name not on list
+Oil	exclude-english	agreed: English
+Old	exclude-english	agreed: English
+On	exclude-english	agreed: English
+One	exclude-english	agreed: English
+Only	exclude-english	agreed: English
+Operations	exclude-english	agreed: English
+Operator	keep-loan	agreed: common noun
+Organic	exclude-english	agreed: English
+Organizer	keep-loan	agreed: established loan
+Origin	exclude-english	agreed: English brand
+Output	keep-loan	agreed: established loan
+Over	exclude-english	agreed: English
+Overall	keep-loan	agreed: established loan
+Owner	exclude-english	agreed: English
+Pacific	exclude-english	agreed: English
+Package	exclude-english	agreed: English
+Page	exclude-english	agreed: rare/English
+Pain	exclude-english	agreed: English
+Paint	exclude-english	agreed: English
+Pair	exclude-english	agreed: English
+Panel	keep-loan	agreed: established loan
+Paper	exclude-english	agreed: English
+Part	keep-loan	adjudicated: real German noun (role)
+Pay	exclude-english	agreed: English
+Payment	exclude-english	agreed: English
+Peace	exclude-english	agreed: English
+Peak	exclude-english	agreed: English
+Pennsylvania	exclude-english	agreed: US state
+People	exclude-english	agreed: English word
+Perfect	exclude-english	agreed: English
+Performance	keep-loan	agreed: established loan
+Perish	exclude-english	agreed: English/junk
+Phone	exclude-english	agreed: English
+Pitch	keep-loan	agreed: established business loan
+Place	exclude-english	agreed: English word
+Platform	exclude-english	agreed: English
+Platinum	exclude-english	agreed: English
+Play	exclude-english	agreed: English
+Player	exclude-english	agreed: English
+Please	exclude-english	agreed: English
+Plot	keep-loan	agreed: established loan
+Pocket	exclude-english	agreed: English
+Police	keep-loan	agreed: insurance policy
+Policy	exclude-english	agreed: English
+Popularity	exclude-english	agreed: English
+Population	keep-loan	agreed: German word
+Portable	exclude-english	agreed: English
+Posted	exclude-english	agreed: English
+Posting	exclude-english	agreed: English jargon
+Pot	exclude-english	agreed: English
+Power	keep-loan	adjudicated: established colloquial loan
+Practice	exclude-english	agreed: English
+Practices	exclude-english	agreed: English
+President	exclude-english	agreed: English
+Price	exclude-english	agreed: English
+Pride	exclude-english	agreed: English
+Prince	exclude-english	agreed: English/person
+Princess	exclude-english	agreed: English
+Privacy	exclude-english	agreed: English
+Process	exclude-english	agreed: English
+Producer	exclude-english	agreed: English
+Product	exclude-english	agreed: English
+Production	exclude-english	agreed: English
+Products	exclude-english	agreed: English
+Professional	exclude-english	agreed: English
+Professionals	exclude-english	agreed: English
+Program	exclude-english	agreed: English
+Project	exclude-english	agreed: English
+Property	exclude-english	agreed: English
+Proportion	keep-loan	agreed: common noun
+Protection	exclude-english	agreed: English
+Protocol	exclude-english	agreed: English
+Public	exclude-english	agreed: English word
+Publishing	exclude-english	agreed: English
+Punch	exclude-english	agreed: English
+Purple	exclude-english	agreed: English
+Push	exclude-english	agreed: English
+Quality	exclude-english	agreed: English
+Quick	exclude-english	agreed: English
+RAW	exclude-english	agreed: English
+Race	exclude-english	agreed: English word
+Rack	exclude-english	agreed: English
+Rail	exclude-english	agreed: English
+Rain	exclude-english	agreed: English/rare
+Rate	keep-loan	agreed: real German noun
+Raw	exclude-english	agreed: English
+Read	exclude-english	agreed: English
+Reading	exclude-english	agreed: English
+Ready	exclude-english	agreed: English
+Reality	exclude-english	agreed: English
+Record	exclude-english	agreed: English
+Records	exclude-english	agreed: English word
+Recovery	exclude-english	agreed: English
+Recruiting	keep-loan	agreed: established loan
+Registry	exclude-english	agreed: English
+Regulation	keep-loan	agreed: German noun
+Relations	exclude-english	agreed: English
+Relax	exclude-english	agreed: English
+Release	keep-loan	agreed: established loan
+Relief	keep-loan	agreed: German noun
+Remote	exclude-english	agreed: English not established
+Render	exclude-english	agreed: English/technical
+Repair	exclude-english	agreed: English
+Report	keep-loan	agreed: loan in use
+Reporting	keep-loan	agreed: established business loan
+Republic	exclude-english	agreed: English
+Reputation	keep-loan	agreed: real noun
+Research	exclude-english	agreed: English word
+Residence	exclude-english	agreed: English
+Resident	exclude-english	agreed: English
+Resource	exclude-english	agreed: English
+Resources	exclude-english	agreed: English
+Response	exclude-english	agreed: English
+Retail	exclude-english	agreed: English
+Return	exclude-english	agreed: English
+Review	keep-loan	agreed: loan in use
+Reviews	exclude-english	agreed: English
+Rich	exclude-english	agreed: English
+Ride	exclude-english	agreed: English name
+Rights	exclude-english	agreed: English
+Rise	exclude-english	agreed: English
+Rising	exclude-english	agreed: English
+Risk	exclude-english	agreed: English
+River	exclude-english	agreed: English place element
+Road	exclude-english	agreed: English
+Robot	exclude-english	agreed: English use, German is Roboter
+Room	exclude-english	agreed: English word
+Root	exclude-english	agreed: English
+Round	exclude-english	agreed: English
+Run	exclude-english	agreed: English
+Running	exclude-english	agreed: English
+Rush	exclude-english	agreed: English/name
+SEA	exclude-english	agreed: English
+SEAT	exclude-english	agreed: brand
+Safe	keep-loan	agreed: German noun
+Safety	exclude-english	agreed: English
+Sale	keep-loan	agreed: established loan
+Sales	exclude-english	agreed: English
+Sample	keep-loan	agreed: established music loan
+Save	exclude-english	agreed: English
+Scatter	exclude-english	agreed: English
+School	exclude-english	agreed: English word
+Score	keep-loan	adjudicated: established loan
+Screen	exclude-english	agreed: English
+Scroll	exclude-english	agreed: English
+Sea	exclude-english	agreed: English word
+Search	exclude-english	agreed: English
+Season	exclude-english	agreed: English word
+Seat	exclude-english	agreed: brand
+Second	exclude-english	agreed: English
+Secret	exclude-english	agreed: English word
+Secure	exclude-english	agreed: English
+Security	exclude-english	agreed: English word
+Select	exclude-english	agreed: English
+Self	exclude-english	agreed: English
+Senior	keep-loan	agreed: real word
+Sense	keep-loan	agreed: real German word
+Separatist	keep-loan	agreed: German noun
+Series	exclude-english	agreed: English
+Set	keep-loan	agreed: established loan noun
+Setting	keep-loan	adjudicated: established loan
+Seven	exclude-english	agreed: English
+Shake	keep-loan	agreed: established loan
+Share	exclude-english	agreed: English
+Shared	exclude-english	agreed: English
+Sharing	exclude-english	agreed: English
+Shark	exclude-english	agreed: English
+Sharp	exclude-english	agreed: brand/English
+Shire	exclude-english	agreed: company
+Shooting	keep-loan	agreed: established loan
+Shot	keep-loan	adjudicated: established loan
+Side	exclude-english	agreed: English
+Sign	exclude-english	agreed: English
+Signature	exclude-english	agreed: English
+Silent	exclude-english	agreed: English
+Silver	exclude-english	agreed: English
+Sit	exclude-english	agreed: English
+Site	exclude-english	agreed: English
+Six	exclude-english	agreed: English/brand
+Size	exclude-english	agreed: English
+Skill	exclude-english	agreed: English
+Skills	exclude-english	agreed: English not established enough
+Skin	exclude-english	agreed: English
+Slow	exclude-english	agreed: English
+Small	exclude-english	agreed: English
+Snow	exclude-english	agreed: English
+Soccer	exclude-english	agreed: English
+Society	exclude-english	agreed: English word
+Soft	exclude-english	agreed: English
+Sole	keep-loan	agreed: real German noun (brine)
+Solid	exclude-english	agreed: English
+Solution	exclude-english	agreed: English
+Son	exclude-english	agreed: foreign
+Soul	exclude-english	agreed: English
+Source	exclude-english	agreed: English
+South	exclude-english	agreed: English word
+Space	exclude-english	agreed: English
+Spark	exclude-english	agreed: brand
+Speaker	keep-loan	agreed: established loan
+Special	keep-loan	agreed: loan in use
+Speed	exclude-english	agreed: English
+Spirit	exclude-english	agreed: English
+Split	exclude-english	agreed: English/place
+Spot	keep-loan	agreed: established loan
+Spread	exclude-english	agreed: English
+Squad	exclude-english	agreed: English
+Square	exclude-english	agreed: English word
+Start-up	keep-loan	agreed: established loan
+Stat	exclude-english	agreed: English
+State	exclude-english	agreed: English
+States	exclude-english	agreed: English
+Stay	exclude-english	agreed: English
+Steel	exclude-english	agreed: English/surname
+Step	exclude-english	agreed: English word
+Storage	exclude-english	agreed: English word
+Stores	exclude-english	agreed: English plural, not established
+Storm	exclude-english	agreed: surname/English
+Strategy	exclude-english	agreed: English
+Stretch	exclude-english	agreed: English
+Strike	exclude-english	agreed: English
+Strip	exclude-english	agreed: English
+Study	exclude-english	agreed: English
+Style	keep-loan	agreed: established loan
+Sugar	exclude-english	agreed: English
+Summer	exclude-english	agreed: English
+Summit	exclude-english	agreed: English
+Sun	exclude-english	agreed: English/brand
+Superior	exclude-english	agreed: English
+Supply	exclude-english	agreed: English
+Support	keep-loan	agreed: established loan
+Surface	exclude-english	agreed: product
+Survival	exclude-english	agreed: English
+Sustainable	exclude-english	agreed: English
+Sweet	exclude-english	agreed: English
+Switzerland	exclude-english	agreed: English
+THE	exclude-english	agreed: English
+TO	exclude-english	agreed: English
+Table	exclude-english	agreed: English
+Tagged	exclude-english	agreed: English web
+Take	exclude-english	agreed: English
+Talk	keep-loan	agreed: real word (talc) and Talk
+Target	exclude-english	agreed: English
+Task	exclude-english	agreed: English
+Taste	keep-loan	agreed: real German word
+Tax	exclude-english	agreed: English
+Tea	exclude-english	agreed: English
+Technical	exclude-english	agreed: English
+Technology	exclude-english	agreed: English
+Ten	exclude-english	agreed: English fragment
+Term	keep-loan	agreed: German math term
+Testing	exclude-english	agreed: English
+That	exclude-english	agreed: English
+The	exclude-english	agreed: English
+Theatre	exclude-english	agreed: English
+Them	exclude-english	agreed: English
+Themes	exclude-english	agreed: English
+These	keep-loan	agreed: real German noun
+Thing	exclude-english	agreed: English
+Things	exclude-english	agreed: English
+Think	exclude-english	agreed: English
+Thinking	exclude-english	agreed: English
+This	exclude-english	agreed: English word
+Three	exclude-english	agreed: English
+Till	exclude-english	agreed: first name
+Time	exclude-english	agreed: English magazine
+Times	exclude-english	agreed: English
+Tiny	exclude-english	agreed: English
+Title	exclude-english	agreed: English
+To	exclude-english	agreed: English
+Today	exclude-english	agreed: English
+Topping	keep-loan	agreed: established loan
+Touch	keep-loan	agreed: loan in use
+Town	exclude-english	agreed: English
+Toy	exclude-english	agreed: English
+Toys	exclude-english	agreed: English
+Track	keep-loan	agreed: loan in use
+Trade	exclude-english	agreed: English
+Trading	exclude-english	agreed: English finance jargon
+Traffic	exclude-english	agreed: English
+Trail	exclude-english	agreed: English
+Train	exclude-english	agreed: English
+Transitional	exclude-english	agreed: English
+Travel	exclude-english	agreed: English
+Tree	exclude-english	agreed: English
+Trip	keep-loan	agreed: established loan
+Truck	exclude-english	agreed: English
+True	exclude-english	agreed: English
+Trust	exclude-english	agreed: English
+Trusted	exclude-english	agreed: English word
+Two	exclude-english	agreed: English
+UK	keep-loan	agreed: place-like acronym like USA
+Ultimate	exclude-english	agreed: English
+Under	exclude-english	agreed: English
+Unified	exclude-english	agreed: English
+Unique	exclude-english	agreed: English
+Unit	exclude-english	agreed: English
+United	exclude-english	agreed: English club name
+University	exclude-english	agreed: English
+Up	exclude-english	agreed: English word
+Use	exclude-english	agreed: English
+Username	exclude-english	agreed: English
+Using	exclude-english	agreed: English
+VICE	exclude-english	agreed: brand/English
+Value	exclude-english	agreed: English
+Valve	exclude-english	agreed: company
+Veteran	keep-loan	agreed: ordinary noun
+Vice	exclude-english	agreed: English
+View	exclude-english	agreed: English
+Viewing	exclude-english	agreed: English fragment
+Views	exclude-english	agreed: English
+Village	exclude-english	agreed: English
+Visual	exclude-english	agreed: English word
+Voice	exclude-english	agreed: English
+Volume	exclude-english	agreed: English
+Voting	exclude-english	agreed: English not established
+WE	exclude-english	agreed: English
+WHO	keep-loan	agreed: famous international organisation
+Wake	exclude-english	agreed: English
+Walk	exclude-english	agreed: English
+Walking	exclude-english	agreed: English
+Warehouse	exclude-english	agreed: English
+Warfare	exclude-english	agreed: English
+Warrior	exclude-english	agreed: English
+Watch	exclude-english	agreed: English
+Water	exclude-english	agreed: English word
+Wave	exclude-english	agreed: English
+Way	exclude-english	agreed: English
+We	exclude-english	agreed: English
+Wear	exclude-english	agreed: English
+Wedding	exclude-english	agreed: district / English
+Week	exclude-english	agreed: English
+Weekend	exclude-english	agreed: English
+Weight	exclude-english	agreed: English
+Welcome	exclude-english	agreed: English
+Western	keep-loan	agreed: established loan
+What	exclude-english	agreed: English
+Wheel	exclude-english	agreed: English
+White	exclude-english	agreed: English surname
+Who	exclude-english	agreed: English
+Wide	exclude-english	agreed: English fragment
+Win	exclude-english	agreed: English word
+Wing	exclude-english	agreed: English
+Winner	exclude-english	agreed: English
+With	exclude-english	agreed: English
+Woman	exclude-english	agreed: English
+Wonder	exclude-english	agreed: English
+Wood	exclude-english	agreed: surname
+Word	exclude-english	agreed: software brand
+Work	exclude-english	agreed: English
+Work-Life-Balance	keep-loan	agreed: established loan
+Working	exclude-english	agreed: English
+World	exclude-english	agreed: English
+Yeah	exclude-english	agreed: English
+Year	exclude-english	agreed: English
+Yes	exclude-english	agreed: English
+You	exclude-english	agreed: English
+Young	exclude-english	agreed: English surname
+Your	exclude-english	agreed: English
+Youth	exclude-english	agreed: English
+a	exclude-english	agreed: single letter
+about	exclude-english	agreed: English
+all	keep-loan	agreed: real word
+and	exclude-english	agreed: English
+are	exclude-english	agreed: English
+at	exclude-english	agreed: English
+away	exclude-english	agreed: English word
+be	exclude-english	agreed: English
+bet	exclude-english	agreed: English
+big	exclude-english	agreed: English
+bilateral	keep-loan	agreed: real word
+book	exclude-english	agreed: English
+build	exclude-english	agreed: English
+but	exclude-english	agreed: English word
+by	exclude-english	agreed: English
+can	exclude-english	agreed: English word
+clean	exclude-english	agreed: English
+click	exclude-english	agreed: English
+day	exclude-english	agreed: English
+direct	exclude-english	agreed: English
+do	exclude-english	agreed: English/solfege
+down	exclude-english	agreed: English
+easy	exclude-english	agreed: English
+expire	exclude-english	agreed: English
+final	keep-loan	agreed: real adjective
+floral	keep-loan	agreed: German adjective
+for	exclude-english	agreed: English
+free	exclude-english	agreed: English word
+from	exclude-english	agreed: English
+full	exclude-english	agreed: English
+fundamental	keep-loan	agreed: real adjective
+game	exclude-english	agreed: English
+games	exclude-english	agreed: English
+gay	exclude-english	agreed: English
+get	exclude-english	agreed: English
+girl	exclude-english	agreed: English
+girls	exclude-english	agreed: English
+go	exclude-english	agreed: English
+goes	exclude-english	agreed: English
+good	exclude-english	agreed: English
+group	exclude-english	agreed: English
+happy	keep-loan	adjudicated: loan in German use (Happy End, happy sein)
+have	exclude-english	agreed: English word
+he	keep-loan	agreed: real German interjection
+her	keep-loan	agreed: real German adverb
+high	exclude-english	agreed: English word
+hold	keep-loan	agreed: real German adjective
+home	exclude-english	agreed: English
+hot	exclude-english	agreed: English
+how	exclude-english	agreed: English
+human	keep-loan	agreed: real adjective
+i	exclude-english	agreed: single letter
+if	exclude-english	agreed: English
+imperial	keep-loan	agreed: real adjective
+inner	keep-loan	agreed: attributive adjective lemma
+is	exclude-english	agreed: English
+it	exclude-english	agreed: English
+just	keep-loan	agreed: real German adverb
+know	exclude-english	agreed: English
+lateral	keep-loan	agreed: real adjective
+least	exclude-english	agreed: English
+legal	keep-loan	agreed: real German adjective
+let	exclude-english	agreed: English
+light	keep-loan	agreed: established loan adjective
+like	exclude-english	agreed: English word
+line	exclude-english	agreed: English
+long	exclude-english	agreed: English
+lose	keep-loan	agreed: real adjective
+love	exclude-english	agreed: English
+low	exclude-english	agreed: English
+made	exclude-english	agreed: English
+make	exclude-english	agreed: English
+map	exclude-english	agreed: English
+me	exclude-english	agreed: English; examples are Meer mislemmatised
+meets	exclude-english	agreed: English
+men	exclude-english	agreed: English
+mental	keep-loan	agreed: real adjective
+militant	keep-loan	agreed: real German adjective
+more	exclude-english	agreed: English word
+multinational	keep-loan	agreed: German adjective
+my	exclude-english	agreed: English
+national	keep-loan	agreed: real adjective
+need	exclude-english	agreed: English
+neuronal	keep-loan	agreed: real adjective
+new	exclude-english	agreed: English word
+next	exclude-english	agreed: English
+nice	exclude-english	agreed: English
+no	exclude-english	agreed: English
+now	exclude-english	agreed: English
+off	exclude-english	agreed: English
+old	exclude-english	agreed: English
+on	exclude-english	agreed: English
+one	exclude-english	agreed: English
+only	exclude-english	agreed: English
+orthodox	keep-loan	agreed: real adjective
+our	exclude-english	agreed: English
+out	keep-loan	agreed: German colloquial adjective out
+over	exclude-english	agreed: English
+people	exclude-english	agreed: English
+play	exclude-english	agreed: English
+player	exclude-english	agreed: English
+potent	keep-loan	agreed: real adjective
+powered	exclude-english	agreed: English
+protected	exclude-english	agreed: email-protection junk
+public	exclude-english	agreed: English
+read	exclude-english	agreed: English
+reading	exclude-english	agreed: English
+reply	exclude-english	agreed: English
+set	keep-loan	agreed: Set is an established German noun
+sit	exclude-english	agreed: English
+site	exclude-english	agreed: English
+skills	exclude-english	agreed: English
+soft	exclude-english	agreed: English
+source	exclude-english	agreed: English
+stat	exclude-english	agreed: English fragment
+still	keep-loan	agreed: real German word
+style	exclude-english	agreed: English
+stylish	exclude-english	agreed: English not established
+territorial	keep-loan	agreed: real adjective
+that	exclude-english	agreed: English
+the	exclude-english	agreed: English
+they	exclude-english	agreed: English
+this	exclude-english	agreed: English
+to	exclude-english	agreed: English
+topic	exclude-english	agreed: English
+touch	exclude-english	agreed: English
+try	exclude-english	agreed: English
+up	exclude-english	agreed: English word
+use	exclude-english	agreed: English
+very	exclude-english	agreed: English
+view	exclude-english	agreed: English
+viral	keep-loan	agreed: established adjective
+vital	keep-loan	agreed: real adjective
+way	exclude-english	agreed: English
+we	exclude-english	agreed: English
+what	exclude-english	agreed: English
+win	exclude-english	agreed: English
+with	exclude-english	agreed: English word
+within	exclude-english	agreed: English
+women	exclude-english	agreed: English
+work	exclude-english	agreed: English
+world	exclude-english	agreed: English
+year	exclude-english	agreed: English
+you	exclude-english	agreed: English word
+your	exclude-english	agreed: English word

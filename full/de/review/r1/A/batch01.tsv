@@ -1,0 +1,303 @@
+all	keep	real word
+du	keep	real word
+ander	keep	attributive-only adjective lemma
+nennen	keep	real verb
+Tom	drop	first name
+besonder	keep	attributive adjective lemma
+of	merge:Ofen	Ofen mis-lemmatised
+E-Mail	keep	established hyphenated word
+weiterlesen	keep	real verb
+Google	drop	brand
+Absatz	keep	real word
+Cookie	keep	established loan
+A	drop	single letter
+Casino	keep	real word
+The	drop	English
+Facebook	drop	brand
+sogenannt	keep	real adjective
+de	drop	foreign particle
+personenbezogen	keep	real adjective
+Maria	drop	first name
+Windows	drop	brand
+heutig	keep	attributive adjective lemma
+ehemalig	keep	attributive adjective lemma
+the	drop	English
+EU	keep	institution acronym
+her	keep	real German adverb
+Michael	drop	first name
+I	drop	single letter
+EUR	drop	currency code
+Twitter	drop	brand
+Thomas	drop	first name
+sonstig	keep	attributive adjective lemma
+Peter	drop	first name
+a	drop	single letter
+and	drop	English
+national	keep	real adjective
+See#Masc	merge:See	sense-suffixed lemma
+w	drop	single letter
+Apple	drop	brand
+Amazon	drop	brand
+Top	keep	established loan
+bisherig	keep	attributive adjective lemma
+inner	keep	attributive adjective lemma
+Martin	drop	first name
+iPhone	drop	brand
+Microsoft	drop	brand
+zwanzigste	keep	ordinal 20
+n	drop	single letter
+neunzehnte	keep	ordinal 19
+SPD	keep	famous party
+Christian	drop	first name
+Quelltext	keep	real compound
+fünfzehnte	keep	ordinal 15
+Business	keep	established loan
+achtzehnte	keep	ordinal 18
+Media	drop	English name element
+Social	drop	English
+to	drop	English
+Adobe	drop	brand
+London	drop	place not on reviewed list
+for	drop	English
+Paris	drop	place not on reviewed list
+News	keep	established loan
+Andreas	drop	first name
+Set	keep	established loan noun
+jeglich	keep	real determiner
+DSGVO	drop	technical acronym
+Android	drop	brand
+vierzehnte	keep	ordinal 14
+siebzehnte	keep	ordinal 17
+E-Mail-Adresse	keep	established hyphenated compound
+CDU	keep	famous party
+einundzwanzigste	keep	ordinal 21
+S	drop	single letter
+sechzehnte	keep	ordinal 16
+dreizehnte	keep	ordinal 13
+Jesus	drop	person name
+dreißigste	keep	ordinal 30
+UND	merge:und	uppercase variant
+fünfundzwanzigste	keep	ordinal 25
+Stefan	drop	first name
+fr	drop	abbreviation fragment
+vorherig	keep	attributive adjective lemma
+Schwarz	merge:schwarz	colour adjective
+Müller	drop	surname
+Paul	drop	first name
+NRW	drop	region abbreviation
+Frank	drop	first name
+zweiundzwanzigste	keep	ordinal 22
+Services	merge:Service	plural of Service
+Robert	drop	first name
+Arzneimittel	keep	real word
+PS	keep	everyday abbreviation
+David	drop	first name
+Samsung	drop	brand
+New	drop	English
+vierundzwanzigste	keep	ordinal 24
+Daniel	drop	first name
+Wolfgang	drop	first name
+DER	merge:der	uppercase article
+dreiundzwanzigste	keep	ordinal 23
+Wikipedia	drop	website
+einunddreißigste	keep	ordinal for dates
+Alexander	drop	first name
+sechsundzwanzigste	keep	ordinal 26
+X	drop	single letter
+on	drop	English
+achtundzwanzigste	keep	ordinal 28
+mg	drop	unit abbreviation
+John	drop	first name
+World	drop	English
+siebenundzwanzigste	keep	ordinal 27
+machenRückgängig	drop	web UI junk
+Markus	drop	first name
+International	merge:international	adjective
+diesjährig	keep	attributive adjective lemma
+Max	drop	first name
+Feature	keep	established loan
+AntwortenLöschen	drop	blog template junk
+Johannes	drop	first name
+Hans	drop	first name
+Karl	drop	first name
+City	drop	English
+äußer	keep	attributive adjective lemma
+ISBN	drop	technical acronym
+neunundzwanzigste	keep	ordinal 29
+IT	keep	everyday acronym
+BMW	drop	brand
+iPad	drop	brand
+Mobile	keep	real noun
+Level	keep	established loan
+restlich	keep	attributive adjective lemma
+Last	keep	real German word
+Edition	keep	real German word
+sex	merge:Sex	noun mis-tagged
+Online-Shop	keep	established hyphenated word
+Harry	drop	first name
+IP-Adresse	keep	established hyphenated compound
+LED	keep	ordinary acronym
+Klaus	drop	first name
+Support	keep	established loan
+Senior	keep	real word
+raum	merge:Raum	lowercase variant
+La	drop	foreign article
+Trump	drop	person
+damalig	keep	attributive adjective lemma
+Linke	keep	real noun
+Open	drop	English
+Black	drop	English
+Book	drop	English
+Look	keep	established loan
+AGB	keep	everyday acronym
+Instagram	drop	brand
+Held	keep	real German word
+Union	keep	common noun
+Merkel	drop	person
+Performance	keep	established loan
+YouTube	drop	brand
+by	drop	English
+Jürgen	drop	first name
+Group	drop	English
+T	drop	single letter
+One	drop	English
+DIN	keep	everyday acronym
+Franz	drop	first name
+Onlin	merge:online	clipped lemma
+Corona	keep	everyday word
+Not	keep	real German word
+Friedrich	drop	first name
+BGB	drop	specialist acronym
+Mac	drop	brand
+Beklagte	keep	real noun
+dpa	drop	agency name
+USB	keep	ordinary acronym
+Games	drop	not established
+Power	keep	established loan
+Villa	keep	common noun
+Office	keep	established loan
+Krampfader	keep	real word
+SV	drop	club abbreviation
+FDP	keep	famous party
+Christoph	drop	first name
+Matthias	drop	first name
+Digital	merge:digital	adjective
+HD	drop	technical acronym
+Big	drop	English
+FÜR	merge:für	uppercase variant
+Smart	keep	used adjective
+still	keep	real German word
+Jan	drop	first name
+lit	merge:Liter	Liter mis-lemmatised
+DVD	keep	ordinary acronym
+Sebastian	drop	first name
+Bundestag	keep	famous institution
+etlich	keep	real determiner
+Store	keep	real German noun
+Analytics	drop	brand/technical
+AfD	keep	famous party
+Galaxy	drop	brand
+neunzehnhundertsiebenundneunzig	drop	spelled year
+Air	drop	English
+PayPal	drop	brand
+Georg	drop	first name
+Schmidt	drop	surname
+Anna	drop	first name
+T-Shirt	keep	established hyphenated word
+iOS	drop	brand
+Fischer	keep	common noun
+Ernst	keep	common noun
+III	drop	roman numeral
+Christus	drop	person name
+Sony	drop	brand
+la	drop	foreign article
+Kinderbericht	drop	template junk
+neunzehnhundertsechsundneunzig	drop	spelled year
+Kläger	keep	real noun
+LG	drop	org abbreviation
+Werner	drop	first name
+Main	drop	place not on reviewed list
+Bundesliga	keep	famous institution
+US-Dollar	keep	established hyphenated word
+Ra	drop	abbreviation
+CHF	drop	currency code
+Home	drop	English
+James	drop	first name
+Taste	keep	real German word
+Walter	drop	first name
+San	drop	place fragment
+Golf	keep	common noun
+League	drop	English
+Bitcoin	keep	established word
+SAP	drop	company
+Oliver	drop	first name
+i	drop	single letter
+Washington	drop	place not on reviewed list
+Play	drop	English
+DDR	keep	ordinary acronym
+Josef	drop	first name
+Red	merge:reden	reden mis-lemmatised
+Bernd	drop	first name
+MB	drop	unit abbreviation
+Audi	drop	brand
+Mark	keep	common noun
+ISO	drop	technical acronym
+ca	keep	daily abbreviation
+Player	drop	English
+Bakterie	keep	real noun
+Johann	drop	first name
+irgendwelch	keep	determiner lemma
+Jörg	drop	first name
+Game	drop	not established
+SMS	keep	ordinary acronym
+West	keep	compass noun
+Richard	drop	first name
+VW	drop	brand
+Data	drop	English
+N	drop	single letter
+jetzig	keep	attributive adjective lemma
+High	drop	English
+Mario	drop	first name
+Kid	keep	established loan
+Free	drop	English
+Wilhelm	drop	first name
+Heinrich	drop	first name
+Barcelona	drop	place not on reviewed list
+Germany	drop	English
+Putin	drop	person
+Mary	drop	first name
+De	drop	foreign particle
+Board	keep	established loan
+Partnersuche	keep	real compound
+Mini	keep	used word
+Julia	drop	first name
+Andrea	drop	first name
+Linux	drop	brand
+Philipp	drop	first name
+Girl	drop	English
+Xbox	drop	brand
+Nutzungsbedingung	keep	real compound
+Schneider	keep	common noun
+Dieter	drop	first name
+Simon	drop	first name
+No	drop	English
+IV	drop	roman numeral
+Ford	drop	brand
+University	drop	English
+at	drop	English
+it	drop	English
+Green	drop	English
+Dirk	drop	first name
+Read	drop	English
+Best	drop	English
+Ludwig	drop	first name
+Ähnlichkeitsmerkmal	drop	template junk
+Bundeswehr	keep	famous institution
+Bundesrepublik Deutschland	keep	official state name
+van	drop	name particle
+Global	merge:global	adjective
+Ulrich	drop	first name
+Lack	keep	real German word
+# question einunddreißigste: ordinals above 30 follow the cardinal rule? kept as it is a calendar date (31st)
+# question Bundesrepublik Deutschland: multiword place/state name, kept as official state name
+# question IT: kept as everyday acronym, examples mostly English "it"

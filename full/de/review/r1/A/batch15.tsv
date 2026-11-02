@@ -1,0 +1,300 @@
+Madison	drop	person name
+Pluto	keep	planet, ordinary word
+Stores	drop	English plural, not established
+einwöchig	keep	real adjective
+Hood	drop	name
+Labrador	keep	dog breed, common noun
+Mouse	drop	English / name
+Creator	drop	English not established
+Dior	drop	brand
+Dress	drop	English
+GA	merge:Gas	examples are Gas
+Karpfe	merge:Karpfen	cut-off lemma
+Norris	drop	person name
+Only	drop	English
+Bethesda	drop	company/place
+Clash	drop	band name
+Inserente	merge:Inserent	wrong ending
+Mont	drop	name fragment
+OTTO	drop	brand/name
+Bowling	keep	common noun
+Dana	drop	first name
+Dia	keep	slide, common noun
+Kleinanzeig	merge:Kleinanzeige	clipped
+Röntg	merge:Röntgen	clipped
+Tatjana	drop	first name
+Thalia	drop	company/name
+Wissenschaftlerinne	merge:Wissenschaftlerin	clipped
+BVG	drop	minor organisation
+Benny	drop	first name
+Bläsch	merge:Bläschen	clipped
+Budot	drop	spam junk
+Drupal	drop	product
+If	drop	English
+Wear	drop	English
+Analysis	keep	German math noun
+Pius	drop	name
+Riester-Rente	keep	established compound
+ZB	keep	zB abbreviation read daily
+Armstrong	drop	person name
+Flag	drop	English
+Michael Schumacher	drop	person name
+NO	drop	English/Japanese particle
+Repair	drop	English
+check	drop	English not established as adjective
+Anthrazit	keep	colour word
+Fact	drop	English
+Fujitsu	drop	company
+Guard	drop	English
+HU	drop	name
+Kaspersky	drop	company
+Olpe	drop	minor town
+SEA	drop	English
+Touchscreen	keep	established loan
+Vladimir	drop	first name
+vielversprechen	merge:vielversprechend	wrong form
+Number	drop	English
+TP	drop	short acronym
+Büchner	drop	surname
+EU-Recht	keep	established compound
+Luigi	drop	first name
+Manual	drop	English
+Tigers	merge:Tiger	genitive form
+GR	drop	abbreviation junk
+Jo	drop	name/dialect
+Mosia	drop	name
+Rhein-Main-Gebiet	drop	place name not on list
+Rotenburg	drop	minor town
+Amadeus	drop	name
+Bienenwachs	keep	common noun
+Gertrud	drop	first name
+IFRS	drop	specialist acronym
+Rise	drop	English
+Snowde	drop	clipped surname
+wohnungen	merge:Wohnung	plural noun
+AMS	drop	organisation acronym
+Coaches	merge:Coach	plural
+Graham	drop	name
+MX	drop	product
+Rattan	keep	common noun
+TCP	drop	technical acronym
+Feldkirch	drop	minor town
+Jelly	drop	English
+Popularity	drop	English
+Porta	drop	brand/name
+Thing	drop	English
+Tombola	keep	common noun
+Wing	drop	English
+low	drop	English
+Citrix	drop	company
+Ilse	drop	first name
+Nordrhein	drop	place fragment
+Registry	drop	English
+siebenunddreißigste	drop	compound number word
+Hypo	drop	prefix/bank
+Mondeo	drop	car model
+Please	drop	English
+Ranch	keep	established loan
+BÜNDNIS	merge:Bündnis	case variant
+Eder	drop	surname
+KPD	keep	famous historical party
+MT	drop	abbreviation
+Africa	drop	English
+Auspack	merge:auspacken	clipped verb
+Duke	drop	English
+Nielsen	drop	surname/company
+Vli	merge:Vlies	clipped
+BESCHLUSS	merge:Beschluss	case variant
+Rucola	keep	common noun
+Falcon	drop	name
+Gewahrsam	keep	common noun
+Greg	drop	first name
+Matomo	drop	product
+Meet	drop	English
+Rothschild	drop	surname
+Serviett	merge:Serviette	clipped
+UI	drop	technical acronym
+Ramona	drop	first name
+DATEV	drop	company
+Dot	drop	English/brand
+Kitty	drop	name
+Kroos	drop	person name
+Maike	drop	first name
+Monday	drop	English
+Racer	drop	English
+VP	drop	abbreviation
+großhandel	merge:Großhandel	noun, lowercase
+DK	drop	short code
+Kufstein	drop	minor town
+Making	drop	English
+Move	drop	English
+PK	drop	abbreviation junk
+Chakra	keep	established word
+Citroen	drop	brand
+Employer	drop	English
+Marketplace	drop	English
+Monk	drop	name
+Outdoor-Aktivität	drop	hyphenated web compound
+Saarlouis	drop	minor town
+Südeuropa	drop	place name not on list
+Diner	keep	common noun
+Economics	drop	English
+Karlheinz	drop	first name
+Niko	drop	first name
+Online-Magazin	drop	hyphenated web compound
+SOS	keep	ordinary acronym
+Stasi	keep	famous institution
+Bibi	drop	name
+Climate	drop	English
+New Orleans	drop	foreign city
+Rack	drop	English
+Term	keep	German math term
+Working	drop	English
+Border	drop	English
+Counter	drop	English
+ET	drop	short junk
+Kiss	drop	English/band
+Lymphknote	merge:Lymphknoten	clipped
+Nickname	keep	established loan
+Schwandorf	drop	minor town
+wüssen	merge:wissen	wrong form
+Coca-Cola	drop	brand
+Marl	drop	minor town
+PCI	drop	technical acronym
+VOB	drop	specialist acronym
+XT	drop	product code
+don	drop	name/title
+wohnzimm	merge:Wohnzimmer	clipped
+Yeah	drop	English
+pdf-Datei	keep	established compound
+retweets	drop	social media junk
+Alberto	drop	first name
+COPD	drop	medical acronym
+DURCH	merge:durch	case variant
+Fonts	drop	English
+IMMER	merge:immer	case variant
+Kärtche	merge:Kärtchen	clipped
+Lane	drop	English
+Manner	merge:Mann	Männer misspelt
+Pair	drop	English
+ALG	keep	common German social acronym
+Margit	drop	first name
+Neteller	drop	company
+Nutrition	drop	English
+Spots	merge:Spot	plural
+VO	drop	junk
+CM	keep	unit abbreviation read daily
+Campaign	drop	English
+Freistaat Bayern	merge:Bayern	region
+Kreuznach	drop	minor town
+LR	drop	short junk
+Likes	drop	English
+Mähroboter	keep	real compound
+Topping	keep	established loan
+Warehouse	drop	English
+Wheel	drop	English
+achtunddreißigste	drop	compound number word
+bekiffen	keep	real verb
+Hockenheim	drop	minor town
+Johannesburg	drop	foreign city not on list
+Lin	drop	name
+Luftreiniger	keep	real compound
+Oregon	drop	place not on list
+Toy	drop	English
+sechsunddreißigste	drop	compound number word
+Ahaus	drop	minor town
+Niki	drop	name
+Alabama	drop	place not on list
+Ankomm	merge:ankommen	clipped verb
+Artwork	keep	established loan
+Authority	drop	English
+Keith	drop	first name
+LOTTO	merge:Lotto	case variant
+Poroschenko	drop	person name
+need	drop	English
+Bo	drop	name
+DOWNLOAD	merge:Download	case variant
+Messia	merge:Messias	clipped
+Reisevertrag	keep	real compound
+Ariane	drop	first name
+Cardigan	keep	common noun
+Commission	drop	English
+Freddy	drop	first name
+Grünwald	drop	minor place
+Herman	drop	name
+Alonso	drop	person name
+Bet	drop	English
+Alpaka	keep	common noun
+Baumgartner	drop	surname
+Giuseppe	drop	first name
+Jacqueline	drop	first name
+MG	keep	unit abbreviation mg
+altbewähren	merge:altbewährt	wrong form
+Cotton	drop	English
+Intensiv	merge:intensiv	case variant
+Jinping	drop	person name
+Spread	drop	English
+achtzehnhundertsiebenundsechzig	drop	compound number word
+Cole	drop	name
+LC	drop	short junk
+Medicine	drop	English
+Zschäpe	drop	person name
+Adenauer	drop	person name
+Rust	drop	town/language name
+SED	keep	famous institution
+brüst	merge:Brust	clipped plural Brüste
+EPS	drop	technical acronym
+GEGEN	merge:gegen	case variant
+High-End	keep	established hyphenated word
+Katalonie	merge:Katalonien	clipped
+Organic	drop	English
+skills	drop	English
+A-Klasse	drop	car model
+Brinkmann	drop	surname
+EHC	drop	sports club
+Facebook-Plugin	drop	brand web compound
+Kurdistan	drop	place not on list
+Ursula von der Leyen	drop	person name
+nesen	merge:genesen	clipped
+Özdemir	drop	person name
+Bismarck	drop	person name
+Buck	drop	name
+Domino	keep	common noun
+Pyjama	keep	common noun
+Romney	drop	person name
+bit	merge:Bit	noun lowercase
+Chicken	drop	English
+Cornelius	drop	first name
+DAB	drop	technical acronym
+Flatrat	merge:Flatrate	clipped
+IT-Abteilung	keep	real compound
+Owen	drop	name
+Tiny	drop	English
+meistverkauft	keep	real adjective
+neuseeländisch	keep	nationality adjective
+support	merge:Support	established loan, noun
+work	drop	English
+Harley	drop	brand
+Pegasus	drop	name/product
+Petri	drop	name
+Pflegeheime	merge:Pflegeheim	plural
+map	drop	English
+public	drop	English
+Baerbock	drop	person name
+Beta-Version	keep	established compound
+Blum	drop	surname
+EU-DSGVO	drop	specialist acronym compound
+Sindelfingen	drop	minor town
+Wachstumsrat	merge:Wachstumsrate	clipped
+site	drop	English
+Dirty	drop	English
+Golf#Masc	merge:Golf	tag junk
+Heinsberg	drop	minor town
+Scatter	drop	English
+Verbesser	merge:verbessern	clipped verb
+ck	drop	junk
+Abkürzungsverzeichnis	keep	real compound
+Baskets	drop	sports club
+Cell	drop	English
+Chardonnay	keep	common noun
+Spam-Mail	keep	established compound

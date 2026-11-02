@@ -1,0 +1,304 @@
+Pforzheim	drop	town
+Gregor	drop	first name
+neunzehnhundertsechsundvierzig	drop	spelled year number
+Summer	drop	English word
+Jenny	drop	first name
+Heidi	drop	first name
+Steiner	drop	surname
+Turbo	drop	brand/name use
+that	drop	English word
+Billion	keep	number word on allowed list
+Handumdreh	merge:Handumdrehen	clipped lemma
+Aufsehe	merge:Aufsehen	clipped lemma
+BA	drop	fragment/acronym
+Christiane	drop	first name
+Geocache	keep	real hobby word
+Setting	keep	established loan
+Nico	drop	first name
+Explorer	drop	product name
+FSV	drop	sports club
+Leckereie	merge:Leckerei	wrong ending
+Lidl	drop	brand
+Antonio	drop	first name
+Mathias	drop	first name
+Luther	drop	historical person
+Eifel	drop	place not on list
+Ostdeutschland	drop	place not on list
+Car	drop	English word
+Class	drop	English word
+ZUM	merge:zum	capitalised contraction
+Thorste	drop	clipped first name
+fundamental	keep	real adjective
+körpereigen	keep	real adjective
+Sydney	drop	foreign city
+Asset	drop	finance jargon, not established
+Jana	drop	first name
+Achim	drop	first name
+Angelika	drop	first name
+Philip	drop	first name
+Renate	drop	first name
+Vorlieg	merge:vorliegen	clipped verb
+VfB	drop	sports club
+English	merge:Englisch	English spelling of the language
+KfW	keep	nationally known public bank
+Soul	drop	English word
+Adrian	drop	first name
+RWE	drop	company
+Medical	drop	English word
+Ferdinand	drop	first name
+Lebens-Bahn	drop	hyphenated junk
+Jordan	drop	name/place not on list
+Lamm	keep	common noun
+Next	drop	English word
+AM	merge:am	contraction in capitals
+Baureihe	keep	common noun
+Männch	merge:Männchen	clipped lemma
+Soft	drop	English word
+Petersburg	drop	place not on list
+Bremerhaven	drop	town
+Preis-Leistungsverhältnis	keep	established compound
+Fun	drop	English word
+Krüger	drop	surname
+VII	drop	roman numeral
+TMG	drop	specialist law acronym
+ORF	keep	national broadcaster
+Back	merge:backen	short verb form
+Color	drop	foreign word
+AUS	merge:aus	preposition in capitals
+Feed	keep	established loan
+Them	drop	English word
+Batman	drop	fictional character
+Change	drop	English word
+Cola	keep	common noun
+How	drop	English word
+Consultant	drop	English job title
+Zucchini	keep	common noun
+Fox	drop	brand/name
+Old	drop	English word
+Peugeot	drop	brand
+Henning	drop	first name
+PIN	keep	ordinary acronym
+Scholz	drop	surname
+Vintag#day	drop	broken web junk
+Diego	drop	first name
+Gustav	drop	first name
+Nordic	drop	English word
+ODER	merge:oder	conjunction in capitals
+Carbon	drop	English word
+APA	drop	news agency/name
+Winterthur	drop	town
+Computing	drop	English word
+he	keep	German interjection
+Mohammed	drop	person name
+Nexus	drop	brand/name
+Truck	drop	English word
+Liquid	drop	English word
+ABS	drop	mostly abbreviation Abs.
+Fortuna	drop	name
+Daily	drop	English word
+Pfort	merge:Pforte	clipped lemma
+Neumann	drop	surname
+UPC	drop	company, low diversity
+Allergiker	keep	common noun
+Lucas	drop	first name
+Easy	drop	English word
+Reality	drop	English word
+Koran	keep	common noun
+Allah	keep	religious term learners meet
+Lodge	drop	English word
+Pascal	drop	person name
+Search	drop	English word
+AT	drop	fragment/country code
+BW	drop	fragment/club
+Startup	keep	established loan
+Mormon	merge:Mormone	German common noun
+Forschungs-Bahn	drop	hyphenated junk
+neunzehnhundertsiebenundvierzig	drop	spelled year number
+Edit	drop	English word
+Tel	drop	fragment of place name
+Clinton	drop	person
+iPod	drop	brand
+Ausführungsform	keep	real compound noun
+Lara	drop	first name
+Oracle	drop	company
+Bambus	keep	common noun
+Englischkenntnis	merge:Englischkenntnisse	usual plural form
+Julius	drop	first name
+Centre	drop	English/French word
+Lorenz	drop	first name
+Telefax	keep	real word
+Communication	drop	English word
+al	drop	fragment
+Lothar	drop	first name
+PLZ	keep	daily abbreviation
+Hofmann	drop	surname
+Spotify	drop	brand
+OHNE	merge:ohne	preposition in capitals
+Carlos	drop	first name
+Executive	drop	English word
+Silke	drop	first name
+Bella	drop	first name
+Sales	drop	English word
+Kundendate	merge:Kundendaten	clipped plural
+Les	drop	fragment
+Cam	drop	spam/English
+Schumacher	drop	surname
+Zero	drop	English word
+Wegweise	merge:Wegweiser	clipped lemma
+IT-Sicherheit	keep	established compound
+UN	keep	famous institution
+Ansichtskarte	keep	real word
+Monte	drop	fragment of names
+Paper	drop	English word
+Baden-Baden	drop	town, hyphenated
+Jacob	drop	first name
+Movie	drop	English word
+just	keep	real German adverb
+Long	drop	English/surname
+InDesign	drop	product
+alias	keep	established word
+Cool	merge:cool	capitalised variant
+neuest	merge:neu	superlative form
+Western	keep	established loan
+go	drop	English word
+ÖPNV	keep	daily acronym
+SSL	drop	technical acronym
+Alexa	drop	product/name
+THW	keep	national relief agency
+Make	drop	English word
+Navi	keep	ordinary word
+Phoenix	drop	foreign city
+HDMI	keep	common tech acronym
+Spring	merge:springen	imperative form
+Vita	keep	real word
+Great	drop	English word
+PDF-Dokument	keep	established compound
+geraum	keep	real adjective
+Amnesty International	drop	NGO name
+Week	drop	English word
+Württemberg	drop	place not on list
+Caritas	keep	well-known national charity
+Rapid	drop	English word
+Leasing	keep	established loan
+Ludwigshafen	drop	town
+Premier	keep	common noun
+Ute	drop	first name
+Ice	keep	ICE train
+Your	drop	English word
+Online-Angebot	keep	established compound
+sehensweren	merge:sehenswert	garbled lemma
+Electronic	drop	English word
+Inkrafttret	merge:Inkrafttreten	clipped lemma
+Adolf	drop	first name
+SS	drop	historical organisation/name
+Flow	keep	established loan
+neunzehnhundertsechsunddreißig	drop	spelled year number
+Grimm	drop	surname
+Thymian	keep	common noun
+Mülheim	drop	town
+Motion	drop	foreign word
+Prüfungsordnung	keep	real compound noun
+California	drop	foreign place
+Intelligence	drop	English word
+Press	merge:pressen	verb form
+Andre	merge:ander	colloquial andere
+Ingrid	drop	first name
+Ryan	drop	first name
+BBC	drop	foreign broadcaster
+Ruth	drop	first name
+Casa	drop	foreign word
+Johnny	drop	first name
+SD	drop	acronym fragment
+Jonathan	drop	first name
+Clemen	drop	clipped first name
+Branding	drop	English word
+Stop	merge:Stopp	German spelling
+Finance	drop	English word
+Sa	drop	abbreviation fragment
+Good	drop	English word
+unberechtigen	merge:unberechtigt	wrong ending
+Grip	merge:Grips	examples show Grips
+Volvo	drop	brand
+End	merge:Ende	clipped lemma
+Jutta	drop	first name
+Barrier	merge:Barriere	wrong spelling
+Fick	keep	real (vulgar) word
+TC	drop	sports club
+BFH	drop	specialist court acronym
+Joomla	drop	product
+Konsen	merge:Konsens	clipped lemma
+KFZ	keep	daily abbreviation
+PLUS	merge:plus	capitalised variant
+Maurer	keep	common noun
+Silver	drop	English word
+Destination	keep	real loan word
+Las	merge:lesen	past form of lesen
+Oskar	drop	first name
+Ray	drop	first name
+TS	drop	fragment
+Mango	keep	common noun
+Mastercard	drop	brand
+Lehmann	drop	surname
+Nikon	drop	brand
+Abu	drop	fragment of names
+Werdegang	keep	common noun
+CIA	drop	foreign organisation acronym
+IX	drop	roman numeral
+Nadine	drop	first name
+Miller	drop	surname
+easy	drop	English word
+jed	merge:jeder	clipped lemma
+Conference	drop	English word
+Ludwigsburg	drop	town
+Maps	drop	product
+Astrid	drop	first name
+Hack	keep	real noun (mince)
+Norddeutschland	drop	region not on list
+Do	drop	English word
+made	drop	English word
+Cross	drop	English word
+Deep	drop	English word
+NSA	drop	foreign agency acronym
+Aloe	keep	common noun
+EU-Land	keep	established compound
+Voice	drop	English word
+BIP	keep	daily acronym
+Artist	keep	real word
+Hosting	drop	English tech word
+männ	merge:Mann	clipped lemma
+Chief	drop	English word
+GbR	keep	legal form like GmbH
+Basilikum	keep	common noun
+Spirit	drop	English word
+bequemen	merge:bequem	inflected form
+Effects	drop	English word
+Ubuntu	drop	product
+EU-Staat	keep	established compound
+Suisse	drop	foreign name
+WP	drop	two-letter fragment
+Peters	drop	surname
+Liverpool	drop	foreign city
+TSG	drop	sports club
+Jane	drop	first name
+BR	drop	regional broadcaster acronym
+Korea	drop	place not on list
+Yahoo	drop	brand
+LLC	drop	legal form foreign
+geschweig	merge:geschweige	clipped lemma
+Sonnenstrahle	merge:Sonnenstrahl	wrong ending
+wieviel	keep	accepted spelling variant
+Hoffenheim	drop	town/club
+Carlo	drop	first name
+FPÖ	keep	national party
+Funktionsweis	merge:Funktionsweise	clipped lemma
+Mitteleuropa	drop	region not on list
+Touchscree	merge:Touchscreen	clipped lemma
+Living	drop	English word
+AS	drop	fragment
+Framework	drop	IT jargon
+Steven	drop	first name
+Juan	drop	first name
+# question KfW: nationally famous state bank or company-like organisation? kept as famous institution
+# question Korea: major country but it was still in the batch; dropped per rule, check it is on the places list
+# question wieviel: kept as spelling variant; no merge target since wie viel is two words
+# question CIA: foreign organisation acronym, dropped; EU/UNO/NATO kept

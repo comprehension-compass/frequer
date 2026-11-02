@@ -1,0 +1,302 @@
+Jahrmarkt	keep	common noun
+Maverick	drop	name
+Scholl	drop	surname
+Sharp	drop	brand/English
+Sonnenbaden	keep	real word
+Wendel	drop	name
+ausdienen	keep	real verb (ausgedient)
+Bikes	drop	shop text, plural English
+Brauer	keep	common noun
+EU-Verordnung	keep	standard news compound
+Genius	keep	real German word
+Mendelssohn	drop	surname
+Naruto	drop	anime title
+Operations	drop	English
+Panikattack	merge:Panikattacke	clipped lemma
+WILLKOMMEN	merge:willkommen	uppercase variant
+Zugspitze	drop	place not on list
+dahinstellen	keep	real verb
+Stan	drop	first name
+Zöllner	keep	common noun
+tub	merge:Tube	clipped lemma
+uli	drop	first name
+Ground	drop	English
+Keep	drop	English
+Peine	drop	town
+Kirmes	keep	common noun
+Nitro	drop	brand
+Wendt	drop	surname
+Bea	drop	name
+Bertram	drop	first name
+Magenta	keep	colour word
+Südosteuropa	drop	region not on list
+Today	drop	English
+girl	drop	English
+goes	drop	English
+Carsharing	keep	established loan
+Eurovision Song Contest	drop	multiword event name
+Expression	keep	real German word
+Soda	keep	common noun
+Web-Browser	keep	established compound
+iOS-Gerät	drop	tech hyphenated compound
+Austrockn	merge:austrocknen	clipped lemma
+EU-Ausland	keep	standard compound
+Legend	drop	English
+Protocol	drop	English
+Rising	drop	English
+Stevens	drop	surname
+Tivoli	drop	place/stadium name
+lateral	keep	real adjective
+view	drop	English
+Aufbewahrungsbox	keep	common noun
+BZ	drop	newspaper name
+Freestyle	keep	established loan
+INHALTSVERZEICHNIS	merge:Inhaltsverzeichnis	case variant
+Integral	keep	maths noun
+Kasper	keep	common noun
+Stimmungsschwankunge	merge:Stimmungsschwankung	clipped lemma
+Suchergebnisse	merge:Suchergebnis	plural to singular lemma
+U-Bahn-Station	keep	standard compound
+Balsamico	keep	common noun
+Blake	drop	surname
+HTTPS	drop	technical acronym
+Hightech	keep	established loan
+Jeffrey	drop	first name
+Mehmet	drop	first name
+Retina	keep	anatomical noun
+Zweibrücke	drop	town (Zweibrücken)
+Zöliakie	keep	medical noun
+BAB	drop	technical abbreviation
+Babyschale	keep	common noun
+INFORMATION	merge:Information	case variant
+June	drop	English/name
+Kyoto	drop	foreign city not on list
+Manila	drop	foreign city not on list
+Ready	drop	English
+Schweitzer	drop	surname
+Shark	drop	English
+Tran	drop	surname/trans junk
+Unger	drop	misparse of ungern
+AppStore	drop	brand
+Civil	drop	English
+unb	drop	abbreviation junk
+Activision	drop	company
+BER	drop	airport abbreviation
+Bewegungsmangel	keep	common noun
+DRM	drop	technical acronym
+Metallic	keep	loan adjective/noun
+Never	drop	English
+Stat	drop	English
+Thessaloniki	drop	foreign city not on list
+Beschwerdeführerin	keep	real legal noun
+Chase	drop	English/name
+Herzberg	drop	town
+Landesstraße	keep	common noun
+Logan	drop	name
+Mietpreisbremse	keep	common noun
+Musikante	merge:Musikant	inflected citation
+Pain	drop	English
+Software-Update	keep	established compound
+einundvierzigste	drop	compound number
+LINZ	merge:Linz	case variant of major city
+Landing	drop	English
+Marilyn	drop	first name
+Schönberg	drop	surname/place
+Spermie	merge:Spermium	inflected citation
+Viking	drop	English
+XIII	drop	roman numeral
+XIV	drop	roman numeral
+vermögenswirksam	keep	real adjective
+Ahornsirup	keep	common noun
+Bentley	drop	brand
+Circuit	drop	English
+Creation	drop	English
+Cyrus	drop	name
+Dressur	keep	common noun
+Kits	drop	English plural
+Morning	drop	English
+Postbot	merge:Postbote	clipped lemma
+Weißgold	keep	common noun
+schaltfläch	merge:Schaltfläche	clipped lemma
+tour	merge:Tour	case variant
+unnd	drop	archaic spelling junk
+BGHZ	drop	legal citation abbreviation
+Binz	drop	town
+Eckart	drop	first name
+Healthcare	drop	English
+Heidi Klum	drop	person
+Isaac	drop	first name
+Jedi	drop	fictional term
+Kaufratgeber	keep	real compound
+Medina	drop	place name
+Rue	drop	French street
+States	drop	English
+feuchen	merge:feucht	wrong lemma
+rate	merge:raten	verb form
+ureigen	keep	real adjective
+Oetker	drop	brand
+Standby	keep	established loan
+lisen	merge:List	wrong lemma of List
+try	drop	English
+Ethan	drop	first name
+Harrison	drop	surname
+RM	drop	abbreviation
+Schöneberg	drop	district
+Things	drop	English
+n-tv	drop	broadcaster brand
+DAAD	drop	minor organisation
+Ducati	drop	brand
+IT-Projekt	drop	hyphenated tech compound
+Joey	drop	first name
+Konversations-Lexikon	drop	bibliographic hyphenated
+Rey	drop	name
+Self	drop	English
+Verkaufs-Bahn	drop	junk
+Wernigerode	drop	town
+AngeboteKostenlose	drop	web junk
+Dreyer	drop	surname
+Economic	drop	English
+Fruit	drop	English
+Leak	drop	spam context
+MSM	drop	acronym
+Neville	drop	first name
+look	merge:Look	loan noun
+Bio-Qualität	drop	hyphenated web compound
+Brain	drop	English
+Capture	drop	English
+Jupp	drop	first name
+Kyle	drop	name
+Master-Studiengang	drop	hyphenated compound
+PNG	drop	technical acronym
+Performances	merge:Performance	plural
+UE	drop	abbreviation
+Aero	drop	brand
+Annegret	drop	first name
+Anonymous	drop	group name
+Competition	drop	English
+Dorfstraße	keep	common noun
+ECM	drop	acronym
+EKG	keep	medical acronym in daily use
+Eschborn	drop	town
+FRANKFURT	merge:Frankfurt	case variant of major city
+Gysi	drop	surname
+Kathmandu	drop	foreign city not on list
+PC-Version	drop	hyphenated tech compound
+Reeperbahn	drop	street
+SCHUFA	keep	nationally known institution
+SeitenDateityp	drop	web junk
+Walldorf	drop	town
+Anbiet	merge:anbieten	clipped lemma
+Cloppenburg	drop	town
+Joe Biden	drop	person
+Schönbrunn	drop	place name
+Zahnspang	merge:Zahnspange	clipped lemma
+powered	drop	English
+Öko-Tex	drop	brand
+Drops	drop	brand/English
+Fundraising	keep	established loan
+Must-Have	keep	established hyphenated loan
+Record	drop	English
+Relax	drop	English
+SPD-Politiker	drop	hyphenated compound
+AHK	drop	abbreviation
+CSD	drop	minor acronym
+DEL	drop	junk
+GTS	drop	acronym
+Hauschka	drop	brand
+Jurassic	drop	film title
+Lemgo	drop	town
+Non	drop	Latin/French
+Sarkozy	drop	person
+Social-Media-Kanal	drop	hyphenated web compound
+eg	drop	junk (EG)
+Bellevue	drop	name
+ERGO	merge:ergo	case variant
+GEZ	keep	nationally known institution
+GOLD	merge:Gold	case variant
+Neptun	keep	planet name
+SEM	drop	technical acronym
+Stuart	drop	first name
+Sustainable	drop	English
+Unitymedia	drop	company
+Albert Einstein	drop	person
+Liz	drop	first name
+NEW	drop	English
+Orion	keep	constellation
+PL	drop	abbreviation
+Promo	keep	colloquial German word
+TEAM	merge:Team	case variant
+Timm	drop	surname
+UX	drop	technical acronym
+reply	drop	English
+Beef	drop	English
+Falun	drop	town
+Instagram-Account	drop	hyphenated web compound
+KO	drop	misparse
+Mubarak	drop	person
+NR	drop	abbreviation
+Online-Werbung	drop	hyphenated web compound
+Stammkapital	keep	common noun
+they	drop	English
+AF	drop	abbreviation
+Floyd	drop	person
+Gutschein-Code	drop	hyphenated web compound
+KSV	drop	sports club
+Mickey	drop	name
+Render	drop	English/technical
+Toulouse	drop	foreign city not on list
+Zufrieden	merge:zufrieden	case variant
+fünfundfünfzigste	drop	compound number
+Federation	drop	English
+Heribert	drop	first name
+IT-Branche	drop	hyphenated compound
+Kuvertür	merge:Kuvertüre	clipped lemma
+OWL	drop	region acronym
+Saalfeld	drop	town
+TNT	drop	brand
+BAMF	keep	nationally known institution
+Bradley	drop	first name
+CVJM	drop	minor organisation
+Centro	drop	name
+E-Mail-Marketing	drop	hyphenated compound
+GROUP	drop	English
+Liu	drop	surname
+Mindset	keep	established loan
+Nowitzki	drop	person
+PR-Agentur	drop	hyphenated compound
+SMART	merge:smart	case variant
+VfR	drop	sports club
+sieden	keep	real verb
+Children	drop	English
+Committee	drop	English
+Crack	keep	German word (drug, sports)
+Hörmann	drop	surname
+Letter	keep	real German word (Lettern)
+Schoko	keep	colloquial word
+USK	drop	minor organisation
+run	merge:rund	misparse of rund
+AND	drop	English
+Activity	drop	English
+Bewerbungsschreibe	merge:Bewerbungsschreiben	clipped lemma
+GMX	drop	brand
+Gore	drop	surname/brand
+Junker	keep	historical common noun
+Leads	drop	marketing English
+Memorial	drop	English/organisation
+Naumburg	drop	town
+Oppermann	drop	surname
+Pisa	drop	foreign city not on list
+FCA	drop	sports club
+HAMBURG	merge:Hamburg	case variant of major city
+HTML-Code	drop	technical hyphenated
+Lynn	drop	name
+Remix	keep	established loan
+Rohrbach	drop	place
+Steinfurt	drop	town
+Zverev	drop	person
+Agreement	drop	English
+Door	drop	English
+Druckstell	merge:Druckstelle	clipped lemma
+Establishment	keep	established loan
+# question LINZ: merged to Linz on the assumption it is a major Austrian city on the reviewed place list; drop if not
+# question EU-Verordnung: kept the standard hyphenated compounds (EU-Verordnung, EU-Ausland, U-Bahn-Station, Software-Update, Web-Browser) and dropped tech/marketing/bureaucratic ones; rule on hyphenated compounds is not fully settled

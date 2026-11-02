@@ -1,0 +1,43 @@
+VOM	merge:vom	wrong-case citation of the contraction vom
+Dating-App	keep	established hyphenated compound
+ECTS	drop	specialist academic acronym
+Seidel	keep	real common noun (beer mug); surname uses aside
+Tapa	keep	established loan; Tapa is the singular of Tapas
+Tour de France	drop	event name, not an institution
+Stripperin	keep	real word
+Stripper	keep	real word
+Photovoltaik-Anlage	keep	valid hyphenated spelling of an ordinary compound
+Kunsthaus	keep	real common noun
+Wilhelmshave	drop	clipped minor place name
+AU	merge:aus	examples are capitalised Aus
+Bestens	merge:bestens	wrong-case citation of the adverb
+QM	merge:qm	everyday abbreviation for Quadratmeter, wrong case
+DOSB	drop	organisation acronym
+Fitness-Studio	keep	valid hyphenated spelling of an ordinary compound
+Jehova	keep	religious term in Zeugen Jehovas
+non	merge:Note	examples are Noten
+Bikes	merge:Bike	plural of the established loan Bike
+Web-Browser	keep	valid hyphenated spelling of an ordinary compound
+BER	drop	airport name
+Metallic	keep	established loan (Metalliclack, schwarz metallic)
+LINZ	drop	place name not on the reviewed list
+lisen	merge:List	examples are the noun List
+look	merge:Look	established loan noun, capitalised
+Performances	merge:Performance	plural of the established loan
+SPD-Politiker	keep	ordinary compound with party acronym
+Promo	keep	established colloquial loan
+Letter	keep	real German word (Lettern)
+run	merge:rund	examples are rundes
+Latina	keep	nationality-like ordinary word
+DSLR	drop	specialist technical acronym
+end	merge:Ende	examples are letzten Endes
+DFL	drop	minor organisation acronym
+Transformer	drop	examples are the franchise name
+Browsergames	merge:Browsergame	plural of loan noun
+Koller	keep	real noun (einen Koller kriegen)
+Standart	drop	misspelling ambiguous between Standard and Standarte
+# question Photovoltaik-Anlage: rules do not say whether valid hyphenated spelling variants (also Fitness-Studio, Web-Browser) should merge into the closed form to avoid duplicate list entries
+# question Tour de France: are nationally famous events treated like nationally famous institutions?
+# question Jehova: is a divine name in a fixed phrase (Zeugen Jehovas) a learnable term or a name to drop?
+# question QM: should a unit abbreviation merge to its abbreviation (qm) or to the full word (Quadratmeter)?
+# question Standart: common misspelling of Standard, but examples also show Standarte; merge:Standard if a dominant misspelling may be merged

@@ -1,0 +1,208 @@
+FK	drop	abbreviation/club
+JPEG	keep	common file format acronym
+Latina	drop	name-like loan
+Malediv	merge:Malediven	clipped country name
+SuS	drop	Spanish text/abbreviation
+Unternehmerinn	merge:Unternehmerin	clipped form
+XV	drop	Roman numeral in a name
+old	drop	English
+Ace	drop	name
+Casio	drop	brand
+DSLR	drop	technical acronym
+Führungs-Bahn	drop	junk compound
+Hansi	drop	first name
+Janet	drop	first name
+Masterstudiengäng	merge:Masterstudiengang	clipped plural
+Teamplayer	keep	established loan
+Wirth	drop	surname
+Connection	drop	English
+Corona-Maßnahme	drop	transparent hyphenated compound
+Einkaufs-Bahn	drop	junk compound
+Pamela	drop	first name
+SPD-Chef	drop	transparent hyphenated compound
+end	merge:Ende	from letzten Endes
+Öko	keep	ordinary word
+Affirmation	keep	German word
+Cities	drop	English
+DFL	keep	nationally known football body
+Defender	drop	English/brand
+GUI	drop	technical acronym
+Hudson	drop	surname
+IOC	keep	famous international institution
+Interactive	drop	English/company
+Naomi	drop	first name
+Schätzche	merge:Schätzchen	clipped form
+Scroll	drop	English
+Serotonin	keep	common noun
+Username	drop	English
+Carlse	drop	surname Carlsen cut off
+EU-Gipfel	drop	transparent hyphenated compound
+Forchheim	drop	minor place
+Monopoly	drop	brand
+USV	drop	technical acronym
+AUTO	merge:Auto	case variant
+Alessandro	drop	first name
+EEG-Umlage	drop	transparent hyphenated compound
+EPÜ	drop	specialist acronym
+EVP	drop	minor party
+Gesichtszug	keep	real word, singular of Gesichtszüge
+Isle	drop	place name
+Testing	drop	English
+Anet	drop	company
+EAN	drop	technical acronym
+FV	drop	club abbreviation
+GFK	drop	company/technical
+Münch	drop	surname
+Rothenburg	drop	minor place
+Seibert	drop	surname
+US-Notenbank	drop	transparent hyphenated compound
+group	drop	English
+Beirut	drop	place name not on reviewed list
+Copy	drop	English
+NC	drop	abbreviation
+S-Bahnhof	keep	established word
+Schwarzenberg	drop	place/surname
+Sugar	drop	English
+TKG	drop	legal acronym
+Using	drop	English
+Aston	drop	name
+CSR	drop	technical acronym
+Mountainbik	merge:Mountainbike	clipped form
+Nahles	drop	surname
+ng	drop	unit/letters
+Bensheim	drop	minor town
+DN	drop	technical abbreviation
+Larissa	drop	first name
+Radebeul	drop	minor town
+Tirschenreuth	drop	minor town
+Vortag	keep	common noun
+Beginner	drop	English
+ECO	drop	surname
+GZ	drop	abbreviation
+Landesbibliothek	keep	common noun
+Paillett	merge:Paillette	clipped form
+Transformer	drop	franchise/English
+Brahms	drop	person
+MZ	drop	newspaper/brand
+Mentoring	keep	established loan
+Neckermann	drop	company
+Pepe	drop	name
+Rückstellunge	merge:Rückstellung	clipped form
+Squad	drop	English
+BDP	drop	minor party
+Brisbane	drop	foreign city not on list
+Crime	drop	English
+Neunkirchen	drop	minor town
+Premium-Mitgliedschaft	drop	web compound
+RAF	keep	famous German group
+Schwarz-Gelb	keep	established political term
+Seychelle	merge:Seychellen	clipped country name
+Sole	keep	German word (brine)
+StaSeVe	drop	spam/ideological site
+Tunika	keep	common noun
+VK	drop	abbreviation/website
+Wimbledon	drop	place/event name
+paumeister	drop	junk
+Abdullah	drop	first name
+Browsergames	drop	niche loan plural
+Cicero	drop	historical person
+Enter	merge:entern	examples are the verb entern
+Feldmann	drop	surname
+IDE	drop	technical acronym
+Jam	drop	band/English
+NEWS	drop	English
+Sunshine	drop	English
+Wohnungs-Bahn	drop	junk compound
+Addition	keep	German word
+Folder	keep	German word for brochure
+Hiroshima	drop	place name not on reviewed list
+Koller	drop	surname
+Landgericht Hamburg	drop	multiword proper name
+PSD	drop	technical/party acronym
+Signature	drop	English
+Tischleucht	merge:Tischleuchte	clipped form
+dl	drop	unit
+games	drop	English
+Altenkirche	drop	clipped minor town
+Bee	drop	English
+Bestandsdat	merge:Bestandsdaten	clipped form
+Complete	drop	English
+Facebook-Profil	drop	web compound
+Merlot	keep	common noun
+Polyethyl	merge:Polyethylen	clipped form
+Romy	drop	first name
+Stevia	keep	common noun
+sit	drop	English
+A-Jugend	keep	established sports term
+Bestrebunge	merge:Bestrebung	clipped form
+Bild-Zeitung	drop	brand
+Concordia	drop	club name
+Detlev	drop	first name
+Gabriela	drop	first name
+Morris	drop	name
+Omar	drop	first name
+Quali	keep	colloquial word
+Standart	merge:Standarte	misspelt/clipped
+Stromanbiet	merge:Stromanbieter	clipped form
+Torchancen	merge:Torchance	plural to lemma
+VIEL	merge:viel	case variant
+Wallbox	keep	established loan
+esth	drop	cut-off name
+Drake	drop	surname
+Getty	drop	brand
+Hämorrhoide	keep	real word
+Judas	drop	biblical name
+Krem	drop	name/junk
+Palazzo	drop	foreign
+Sao	drop	cut-off place name
+Sherry	keep	common noun
+Strobl	drop	surname
+US-Geheimdienst	drop	transparent hyphenated compound
+Ausserdem	merge:außerdem	umlaut spelling
+draussen	merge:draußen	ß spelling
+ausserdem	merge:außerdem	ß spelling
+schliesslich	merge:schließlich	ß spelling
+hiess	merge:heißen	ß spelling
+ausserordentlich	merge:außerordentlich	ß spelling
+grossem	merge:groß	ß spelling
+einschliesslich	merge:einschließlich	ß spelling
+Weisse	merge:weiß	ß spelling
+weisse	merge:weiß	ß spelling
+geniesst	merge:genießen	ß spelling
+Gunter	drop	first name
+fliesst	merge:fließen	ß spelling
+Massnahme	merge:Maßnahme	ß spelling
+Gartner	drop	company/surname, not Gärtner
+gezahlt	merge:zahlen	participle of zahlen, not zählen
+einigermassen	merge:einigermaßen	ß spelling
+Aussendienst	merge:Außendienst	ß spelling
+Lucke	drop	surname, not Lücke
+Kohler	drop	surname
+sass	merge:sitzen	ß spelling
+Gunther	drop	first name
+Kurzer	merge:kurz	inflected form
+gleichermassen	merge:gleichermaßen	ß spelling
+koennte	merge:können	oe spelling
+OVP	drop	packaging abbreviation
+Gruner	drop	company
+Bader	drop	surname
+fruchten	keep	real verb, not Frucht
+mutmasslich	merge:mutmaßlich	ß spelling
+Vorstoss	merge:Vorstoß	ß spelling
+giessen	merge:gießen	ß spelling
+Debut	merge:Debüt	umlaut spelling
+beschliesst	merge:beschließen	ß spelling
+Strassenverkehr	merge:Straßenverkehr	ß spelling
+Verguetung	merge:Vergütung	ue spelling
+Arbeitsverhaeltnis	merge:Arbeitsverhältnis	ae spelling
+Schliessung	merge:Schließung	ß spelling
+Weisswein	merge:Weißwein	ß spelling
+schiesst	merge:schießen	ß spelling
+beschliessen	merge:beschließen	ß spelling
+einfliessen	merge:einfließen	ß spelling
+Giessen	drop	city name not on list
+Aussenminister	merge:Außenminister	ß spelling
+waere	merge:sein	ae spelling of wäre
+# question Giessen: could be the verb giessen at sentence start or the city Gießen; treated as city
+# question RAF: kept as famous German group but also Royal Air Force
+# question DFL: kept as nationally known football body; borderline

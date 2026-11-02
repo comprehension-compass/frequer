@@ -1,0 +1,303 @@
+Hanna	drop	first name
+OT	drop	abbreviation/name
+Oberpfalz	drop	place name not on list
+bilateral	keep	real word
+Stephanie	drop	first name
+e-mail	keep	established hyphenated word
+IKEA	drop	brand
+Tuning	keep	common noun
+Schwellunge	merge:Schwellung	clipped lemma
+Slots	drop	casino spam
+Anana	merge:Ananas	clipped lemma
+Cookie-Einstellung	drop	web compound
+Schön	merge:schön	adjective capitalised
+Major	keep	military rank
+DGB	keep	national institution
+Mikroorganism	merge:Mikroorganismus	clipped lemma
+President	drop	English
+Fukushima	drop	place
+Ronaldo	drop	person
+Sierra	drop	place name part
+Alu	keep	ordinary word
+Brandt	drop	surname
+Luna	drop	name/brand
+Besucherinn	merge:Besucherin	clipped lemma
+Rechenzentr	merge:Rechenzentrum	clipped lemma
+Tipico	drop	brand
+Surface	drop	brand/English
+Ads	drop	English
+Football	keep	established loan
+Wilson	drop	surname
+Cut	drop	English/name
+Mahjong	keep	common noun
+Münsterland	drop	region not on list
+Theodor	drop	first name
+BERLIN	merge:Berlin	uppercase variant
+RC	drop	club abbreviation
+Grey	drop	surname
+Karste	drop	name Karsten
+Teen	drop	spam text
+saarländisch	keep	real adjective
+Lebensbedingung	keep	real noun
+Yvonne	drop	first name
+Playa	drop	place/Spanish
+Indian	merge:Indianer	German word is Indianer
+Napoleon	drop	person
+Phil	drop	first name
+Skandinavien	drop	place name not on list
+Götz	drop	first name
+Pen	drop	name/English
+Doris	drop	first name
+Jasmin	keep	common noun flower
+Casual	drop	English
+Nissan	drop	brand
+Staats-Bahn	drop	junk compound
+Görlitz	drop	town
+Ambition	keep	real noun
+Einfüg	merge:einfügen	clipped lemma
+Off	drop	English
+Posted	drop	English web text
+Apples	drop	brand
+Start-up	keep	established loan
+Vienna	drop	English name
+irakisch	keep	real adjective
+Dax	keep	well-known index
+Boeing	drop	company
+Handels-Bahn	drop	junk compound
+about	drop	English
+ICE	keep	ordinary acronym
+Adventure	drop	English
+Tokyo	merge:Tokio	German spelling
+Dreamweaver	drop	product
+Secure	drop	English
+Venture	drop	English
+Application	drop	English
+MAN	merge:man	pronoun
+Melbourne	drop	foreign city
+singl	merge:Single	clipped lemma
+BWL	keep	everyday abbreviation
+Evtl	keep	everyday abbreviation
+UEFA	keep	famous football body
+human	keep	real adjective
+Sabrina	drop	first name
+Scheide	keep	real noun
+Helga	drop	first name
+Regina	drop	first name
+Simulator	keep	real noun
+Ken	drop	first name
+SD-Karte	keep	established compound
+pH-Wert	keep	established hyphenated word
+Bertelsmann	drop	company
+Bubble	keep	loan in German use
+Friedrichshafen	drop	town
+Earth	drop	English
+handgefertigen	merge:handgefertigt	wrong ending
+Turin	drop	city not on list
+Gebrauchsspur	keep	real noun
+Layer	drop	English
+Raus	merge:raus	adverb
+WIE	merge:wie	uppercase variant
+Elena	drop	first name
+Geschäfts-Bahn	drop	junk compound
+Javascript	drop	technical product
+Battle	drop	English
+Metadat	merge:Metadaten	clipped lemma
+RSS-Feed	drop	technical
+Slim	drop	name
+Cartoon	keep	established loan
+Quick	drop	English
+Haartrockner	keep	real noun
+Kork	merge:Korken	examples are Korken
+XING	drop	company
+STANDARD	merge:Standard	uppercase variant
+Berufsunfähigkeitsversicherung	keep	real compound
+FBI	keep	ordinary acronym
+Hyperlinks	merge:Hyperlink	singular
+Delta	keep	common noun
+Vorab	merge:vorab	adverb
+Advertising	drop	English
+Deutschkenntnis	keep	real noun
+TUI	drop	company
+ten	merge:Test	junk lemma for Test
+Nachfrag	merge:Nachfrage	clipped lemma
+neunzehnhundertsiebenundzwanzig	drop	spelled number
+Managed	drop	English
+Holiday	drop	English/name
+Down	drop	English
+Click	drop	English
+Economy	drop	English
+Paula	drop	first name
+OF	drop	English
+Aaron	drop	first name
+Winkler	drop	surname
+Email-Adresse	merge:E-Mailadresse	variant spelling
+Bistro	keep	common noun
+Macron	drop	person
+Yes	drop	English
+book	drop	English
+Iron	drop	English
+elterlich	keep	real adjective
+Matthäus	drop	first name
+Dream	drop	English
+Leichtathletik	keep	common noun
+Presse-GmbH	drop	junk compound
+Psoriasis	keep	real noun
+Supply	drop	English
+Clean	drop	English
+Uli	drop	first name
+Concept	drop	English
+Häusche	merge:Häuschen	clipped lemma
+Victor	drop	first name
+Christa	drop	first name
+Plug-in	keep	established loan
+Conrad	drop	surname
+BUND	merge:Bund	common noun
+DS	drop	brand
+Cialis	drop	spam brand
+Asus	drop	brand
+WKN	drop	technical acronym
+Xing	drop	company
+macOS	drop	product
+Friday	drop	English
+OB	merge:ob	conjunction
+Bingo	keep	common noun
+Perish	drop	spam
+Niklas	drop	first name
+WS	drop	abbreviation
+Fotografier	merge:fotografieren	clipped lemma
+Dessous	keep	common noun
+IT-System	keep	common compound
+Noah	drop	first name
+Benz	drop	surname
+krausen	merge:kraus	adjective forms
+Installationsanleitung	keep	real noun
+Law	drop	English
+umweltschonen	merge:umweltschonend	wrong form
+Mrs	drop	English
+Town	drop	English
+umh	merge:umher	clipped lemma
+Assad	drop	person
+Can	drop	English/name
+Frame	drop	English
+Tierpark	keep	common noun
+ZH	drop	canton abbreviation
+Duty	drop	English
+HC	drop	club abbreviation
+SEPA	keep	everyday banking acronym
+Zell	drop	place/surname
+Hermes	drop	name/company
+Nova	drop	name
+Police	keep	insurance policy noun
+Rieme	merge:Riemen	clipped lemma
+Scham	keep	real noun
+Loop	drop	English
+Linkspartei	keep	party
+Rechts-Bahn	drop	junk compound
+Herne	drop	town
+Coin	drop	English
+Dynamics	drop	company name
+Gisela	drop	first name
+Split	drop	city/English
+Hol	merge:holen	imperative form
+Just	keep	real German adverb
+CE	drop	abbreviation
+Satire	keep	real noun
+Valencia	drop	foreign city
+Son	drop	foreign word
+Dave	drop	first name
+Recruiting	keep	loan in German use
+Zwickau	drop	town
+Freud	drop	person
+Ubisoft	drop	company
+AWO	keep	known welfare organisation
+Alliance	drop	English
+Eberhard	drop	first name
+BE	drop	abbreviation/English
+Dick	merge:dick	adjective
+Hamas	keep	major organisation in news
+Wulff	drop	surname
+Conversion	drop	English
+Camera	drop	English
+What	drop	English
+neunzehnhundertsechsundzwanzig	drop	spelled number
+schlafzimm	merge:Schlafzimmer	clipped lemma
+Electric	drop	English
+weitermach	merge:weitermachen	clipped lemma
+E-Mailadresse	keep	established compound
+Governance	drop	English
+Koh	drop	Thai place word
+LE	drop	abbreviation
+Death	drop	English
+Sigmar	drop	first name
+Gear	drop	English
+Hofer	drop	surname/company
+Crystal	drop	English
+Consumer	drop	English
+Deutsche Telekom	drop	company
+Natural	drop	English
+Reuters	drop	company
+History	drop	English
+Nov	drop	month abbreviation web
+Skill	drop	English
+SharePoint	drop	product
+Zalando	drop	company
+Sofia	drop	city not on list
+Cambridge	drop	foreign city
+Jugendherberg	merge:Jugendherberge	clipped lemma
+Money	drop	English
+NABU	keep	known nature organisation
+Dec	drop	English month
+Pater	keep	common noun
+Offenburg	drop	town
+Porn	drop	spam
+Seat	drop	brand
+Sylvia	drop	first name
+iPod touch	drop	product
+Now	drop	English
+Sat-TV	keep	everyday compound
+Unit	drop	English
+Eindring	merge:eindringen	clipped lemma
+Winfried	drop	first name
+Nordafrika	drop	region not on list
+Anderson	drop	surname
+Gotha	drop	town
+GTA	drop	game brand
+WE	drop	English
+Anke	drop	first name
+Auschwitz	drop	place name not on list
+Officer	drop	English
+DFB-Pokal	keep	famous competition
+Kompatibel	merge:kompatibel	adjective
+MDR	keep	national broadcaster
+Dressing	keep	loan in German use
+Hero	drop	English
+Weltkulturerbe	keep	real noun
+happy	keep	loan in German use
+Israeli	keep	real noun
+Rover	drop	English/brand
+Arthritis	keep	real noun
+Fotz	merge:Fotze	clipped lemma
+VfL Wolfsburg	drop	sports club
+MC	drop	abbreviation
+Champignon	keep	common noun
+ST	drop	abbreviation
+Cruz	drop	place/surname
+Wales	drop	place name not on list
+südafrikanisch	keep	real adjective
+Hepatitis	keep	real noun
+MILF	drop	spam
+LA	drop	abbreviation
+Quality	drop	English
+Sushi	keep	common noun
+Lead	drop	English
+Saar	drop	region not on list
+France	drop	English name
+argentinisch	keep	real adjective
+Launch	drop	English
+Spezial	drop	template word
+Neurodermitis	keep	real noun
+such	merge:suchen	imperative form
+Danny	drop	first name
+# question UEFA: international sports body, not a German institution; kept with DFB-Pokal and MDR as nationally known names
+# question Auschwitz: widely meaningful place name but not on the place list; dropped per rule
+# question Skandinavien: well-known region absent from place list; dropped per rule (same for Nordafrika)

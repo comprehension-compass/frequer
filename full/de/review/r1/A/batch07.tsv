@@ -1,0 +1,303 @@
+Hanna	drop	first name
+OT	drop	abbreviation/junk
+Oberpfalz	drop	region not on place list
+bilateral	keep	real word
+Stephanie	drop	first name
+e-mail	keep	established E-Mail
+IKEA	drop	brand
+Tuning	keep	established loan
+Schwellunge	merge:Schwellung	cut-off lemma
+Slots	drop	casino spam
+Anana	merge:Ananas	cut-off lemma
+Cookie-Einstellung	drop	web compound
+Schön	merge:schön	wrong-case adjective
+Major	keep	rank, German word
+DGB	keep	national trade union federation
+Mikroorganism	merge:Mikroorganismus	cut-off lemma
+President	drop	English
+Fukushima	drop	place
+Ronaldo	drop	person
+Sierra	drop	place fragment
+Alu	keep	ordinary word
+Brandt	drop	surname
+Luna	drop	name/brand
+Besucherinn	merge:Besucherin	cut-off lemma
+Rechenzentr	merge:Rechenzentrum	cut-off lemma
+Tipico	drop	brand
+Surface	drop	product
+Ads	drop	English/junk
+Football	keep	established loan for American football
+Wilson	drop	surname
+Cut	drop	English
+Mahjong	keep	common noun game
+Münsterland	drop	region not on list
+Theodor	drop	first name
+BERLIN	merge:Berlin	uppercase variant
+RC	drop	abbreviation
+Grey	drop	surname
+Karste	drop	cut-off first name Karsten
+Teen	drop	English/spam
+saarländisch	keep	real adjective
+Lebensbedingung	keep	real noun
+Yvonne	drop	first name
+Playa	drop	foreign
+Indian	merge:Indianer	English form of Indianer
+Napoleon	drop	person
+Phil	drop	name
+Skandinavien	drop	region not on list
+Götz	drop	first name
+Pen	drop	name/English
+Doris	drop	first name
+Jasmin	keep	flower noun
+Casual	drop	English
+Nissan	drop	brand
+Staats-Bahn	drop	broken hyphenated junk
+Görlitz	drop	town
+Ambition	keep	real noun
+Einfüg	merge:einfügen	cut-off lemma
+Off	drop	English
+Posted	drop	English
+Apples	drop	brand
+Start-up	keep	established loan
+Vienna	drop	English place name
+irakisch	keep	real adjective
+Dax	keep	national stock index
+Boeing	drop	company
+Handels-Bahn	drop	broken hyphenated junk
+about	drop	English
+ICE	keep	ordinary word
+Adventure	drop	English
+Tokyo	drop	place
+Dreamweaver	drop	product
+Secure	drop	English
+Venture	drop	English
+Application	drop	English
+MAN	merge:man	uppercase pronoun
+Melbourne	drop	foreign city
+singl	merge:Single	cut-off lemma
+BWL	keep	common abbreviation
+Evtl	merge:eventuell	abbreviation of eventuell
+UEFA	drop	sports body
+human	keep	real adjective
+Sabrina	drop	first name
+Scheide	keep	real noun
+Helga	drop	first name
+Regina	drop	first name
+Simulator	keep	established loan
+Ken	drop	first name
+SD-Karte	keep	established compound
+pH-Wert	keep	established compound
+Bertelsmann	drop	company
+Bubble	drop	English
+Friedrichshafen	drop	town
+Earth	drop	English
+handgefertigen	merge:handgefertigt	inflected form
+Turin	drop	place not on list
+Gebrauchsspur	keep	real noun
+Layer	drop	English
+Raus	merge:raus	wrong case
+WIE	merge:wie	uppercase variant
+Elena	drop	first name
+Geschäfts-Bahn	drop	broken hyphenated junk
+Javascript	drop	technical term
+Battle	drop	English
+Metadat	merge:Metadaten	cut-off lemma
+RSS-Feed	drop	technical
+Slim	drop	name
+Cartoon	keep	established loan
+Quick	drop	English
+Haartrockner	keep	real noun
+Kork	keep	common noun
+XING	drop	brand
+STANDARD	merge:Standard	uppercase variant
+Berufsunfähigkeitsversicherung	keep	real compound
+FBI	keep	widely used acronym
+Hyperlinks	keep	established loan
+Delta	keep	common noun
+Vorab	merge:vorab	wrong case
+Advertising	drop	English
+Deutschkenntnis	keep	real noun
+TUI	drop	company
+ten	drop	junk fragment
+Nachfrag	merge:Nachfrage	cut-off lemma
+neunzehnhundertsiebenundzwanzig	drop	spelled number
+Managed	drop	English
+Holiday	drop	English
+Down	drop	English
+Click	drop	English
+Economy	drop	English
+Paula	drop	first name
+OF	drop	English
+Aaron	drop	first name
+Winkler	drop	surname
+Email-Adresse	merge:E-Mail-Adresse	spelling variant
+Bistro	keep	common noun
+Macron	drop	person
+Yes	drop	English
+book	drop	English
+Iron	drop	English
+elterlich	keep	real adjective
+Matthäus	drop	first name
+Dream	drop	English
+Leichtathletik	keep	common noun
+Presse-GmbH	drop	junk
+Psoriasis	keep	real noun
+Supply	drop	English
+Clean	drop	English
+Uli	drop	first name
+Concept	drop	English
+Häusche	merge:Häuschen	cut-off lemma
+Victor	drop	first name
+Christa	drop	first name
+Plug-in	keep	established loan
+Conrad	drop	name
+BUND	merge:Bund	uppercase variant
+DS	drop	product
+Cialis	drop	spam brand
+Asus	drop	brand
+WKN	drop	specialist acronym
+Xing	drop	brand
+macOS	drop	product
+Friday	drop	English
+OB	merge:ob	uppercase variant
+Bingo	keep	common noun
+Perish	drop	English/junk
+Niklas	drop	first name
+WS	drop	abbreviation
+Fotografier	merge:fotografieren	cut-off lemma
+Dessous	keep	common noun
+IT-System	keep	established compound
+Noah	drop	first name
+Benz	drop	surname
+krausen	merge:kraus	inflected adjective
+Installationsanleitung	keep	real compound
+Law	drop	English
+umweltschonen	merge:umweltschonend	wrong lemma
+Mrs	drop	English
+Town	drop	English
+umh	merge:umher	cut-off lemma
+Assad	drop	person
+Can	drop	English/name
+Frame	drop	English
+Tierpark	keep	common noun
+ZH	drop	abbreviation
+Duty	drop	English
+HC	drop	sports club
+SEPA	keep	everyday banking term
+Zell	drop	place/name
+Hermes	drop	name/brand
+Nova	drop	name
+Police	keep	insurance policy
+Rieme	merge:Riemen	cut-off lemma
+Scham	keep	common noun
+Loop	drop	English
+Linkspartei	keep	national party
+Rechts-Bahn	drop	broken hyphenated junk
+Herne	drop	town
+Coin	drop	English
+Dynamics	drop	company
+Gisela	drop	first name
+Split	drop	English/place
+Hol	merge:holen	imperative form
+Just	keep	real German adverb
+CE	drop	abbreviation
+Satire	keep	common noun
+Valencia	drop	foreign city
+Son	drop	foreign
+Dave	drop	first name
+Recruiting	keep	established loan
+Zwickau	drop	town
+Freud	drop	person
+Ubisoft	drop	company
+AWO	drop	minor organisation
+Alliance	drop	English
+Eberhard	drop	first name
+BE	drop	English/junk
+Dick	merge:dick	adjective
+Hamas	keep	organisation in constant German news
+Wulff	drop	person
+Conversion	drop	English
+Camera	drop	English
+What	drop	English
+neunzehnhundertsechsundzwanzig	drop	spelled number
+schlafzimm	merge:Schlafzimmer	cut-off lemma
+Electric	drop	English
+weitermach	merge:weitermachen	cut-off lemma
+E-Mailadresse	merge:E-Mail-Adresse	spelling variant
+Governance	drop	English
+Koh	drop	foreign place element
+LE	drop	junk
+Death	drop	English
+Sigmar	drop	first name
+Gear	drop	English
+Hofer	drop	surname/brand
+Crystal	drop	English
+Consumer	drop	English
+Deutsche Telekom	drop	company
+Natural	drop	English
+Reuters	drop	agency name
+History	drop	English
+Nov	drop	abbreviation
+Skill	drop	English
+SharePoint	drop	product
+Zalando	drop	company
+Sofia	drop	place not on list
+Cambridge	drop	foreign city
+Jugendherberg	merge:Jugendherberge	cut-off lemma
+Money	drop	English
+NABU	drop	minor organisation
+Dec	drop	English abbreviation
+Pater	keep	real German word
+Offenburg	drop	town
+Porn	drop	spam
+Seat	drop	brand
+Sylvia	drop	first name
+iPod touch	drop	product
+Now	drop	English
+Sat-TV	keep	established compound
+Unit	drop	English
+Eindring	merge:eindringen	cut-off lemma
+Winfried	drop	first name
+Nordafrika	drop	region not on list
+Anderson	drop	surname
+Gotha	drop	town
+GTA	drop	game brand
+WE	drop	English
+Anke	drop	first name
+Auschwitz	drop	place not on list
+Officer	drop	English
+DFB-Pokal	keep	national football cup
+Kompatibel	merge:kompatibel	wrong case
+MDR	keep	public broadcaster
+Dressing	keep	established loan
+Hero	drop	English
+Weltkulturerbe	keep	common noun
+happy	drop	English
+Israeli	keep	nationality word
+Rover	drop	name
+Arthritis	keep	real noun
+Fotz	merge:Fotze	cut-off lemma
+VfL Wolfsburg	drop	sports club
+MC	drop	abbreviation
+Champignon	keep	common noun
+ST	drop	abbreviation
+Cruz	drop	name
+Wales	drop	place not on list
+südafrikanisch	keep	real adjective
+Hepatitis	keep	real noun
+MILF	drop	spam
+LA	drop	junk
+Quality	drop	English
+Sushi	keep	common noun
+Lead	drop	English
+Saar	drop	region/river not on list
+France	drop	English/foreign
+argentinisch	keep	real adjective
+Launch	drop	English
+Spezial	merge:spezial	wrong case
+Neurodermitis	keep	real noun
+such	merge:suchen	imperative form
+Danny	drop	first name
+# question Hamas: foreign organisation, not a German institution, but constant in news; kept
+# question NABU: nationally known NGO; dropped as minor organisation like AWO
+# question Dax: stock index, not an institution; kept as everyday news word

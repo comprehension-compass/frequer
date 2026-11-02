@@ -1,0 +1,301 @@
+BSI	drop	agency acronym, specialist
+SF	drop	club/abbreviation
+set	keep	established loan Set
+Brunner	drop	surname
+Demontag	merge:Demontage	clipped citation
+Dog	drop	English, Hot Dog fragment
+Russell	drop	surname
+Empire	drop	English name
+Is	drop	English word
+Shield	drop	English
+PA	drop	abbreviation/French pas
+Stereo	keep	ordinary word
+Weinstraße	drop	minor region name
+Wetzlar	drop	minor town
+Bianca	drop	first name
+Council	drop	English
+Lübecker	drop	town demonym name
+Sign	drop	English
+Jochen	drop	first name
+Meghan	drop	person
+Kfz-Versicherung	keep	established compound
+dominikanisch	keep	real adjective
+Drop	drop	English
+Giovanni	drop	first name
+Multiple	merge:multipel	multiple Sklerose, adjective
+Verdi	drop	person
+Azure	drop	brand
+Forschungszentrum	keep	common noun
+Publishing	drop	English
+Resources	drop	English
+Bautze	drop	clipped town name Bautzen
+Population	keep	German word
+Castle	drop	English
+Tibet	drop	place not on list
+Salbum	merge:Salbe	bad lemma of Salbe
+Westeuropa	drop	place not on list
+Cowboy	keep	established loan
+WICHTIG	merge:wichtig	capitalised adjective
+Gallery	drop	English
+Handlungsempfehlunge	merge:Handlungsempfehlung	clipped
+Online-Händler	keep	ordinary compound
+Zuhör	merge:zuhören	clipped verb
+home	drop	English
+Leader	drop	English
+UBS	drop	company
+Arne	drop	first name
+DPD	drop	company
+MBA	drop	specialist title
+Mesh	drop	English
+Perry	drop	name
+ProSieben	drop	commercial brand
+Gross	merge:groß	Swiss spelling of groß
+Nürburgring	drop	place/track
+Hautpfleg	merge:Hautpflege	clipped
+Planungs-Bahn	drop	junk compound
+Bing	drop	brand
+Gates	drop	person
+Wedding	drop	district/English
+Attack	merge:Attacke	clipped
+Oil	drop	English
+Raphael	drop	first name
+Bachmann	drop	surname
+Marseille	drop	foreign city not on list
+Simpson	drop	surname
+Virginia	drop	place not on list
+IEC	drop	technical acronym
+Dynamic	drop	English
+RT	drop	junk
+down	drop	English
+AD	drop	abbreviation/Latin
+Adams	drop	surname
+Laschet	drop	person
+Stargames	drop	brand
+Trust	drop	English
+Rocky	drop	name
+WEG	merge:weg	capitalised adverb
+Kramer	drop	surname
+Sunny	drop	name
+Davos	drop	place not on list
+Lotte	drop	name
+Ziegler	drop	surname
+Legal	merge:legal	capitalised adjective
+Rhein-Neckar	drop	region name
+zustehend	merge:zustehen	participle of zustehen
+Hauptmann	keep	common noun
+Impact	drop	English
+militant	keep	real adjective
+Alkoholismus	keep	real word
+Pulli	keep	common noun
+Cherry	drop	English/brand
+URLs	drop	technical
+DA	merge:da	capitalised adverb
+Kitzbühel	drop	town
+Knight	drop	English
+Vereinigte Staaten von Amerika	drop	place not on list, USA covers it
+Wi-Fi	keep	established loan
+Cruises	drop	brand
+HERRN	merge:Herr	case form of Herr
+Tchibo	drop	brand
+Barth	drop	surname/town
+Emily	drop	first name
+Snow	drop	English
+Tel Aviv	drop	foreign city not on list
+Böhm	drop	surname
+Way	drop	English
+meinesgleichen	keep	real word
+Kruse	drop	surname
+schwarz-weiß	keep	established hyphenated adjective
+Assets	drop	English
+Cisco	drop	company
+Jimmy	drop	first name
+Journey	drop	English
+Pedro	drop	first name
+Sch	drop	letters
+el	drop	Spanish article
+Feng	drop	name
+Kot	keep	common noun
+Online-Plattform	keep	ordinary compound
+Moser	drop	surname
+Heroes	drop	English
+Butler	keep	established loan
+Investieren	merge:investieren	capitalised verb
+WWF	keep	famous organisation
+VMware	drop	company
+back	drop	English, Bäcker mis-tag
+Continental	drop	company
+Glass	drop	English
+Südwest	keep	compass direction noun
+Devil	drop	English
+Inmitt	merge:inmitten	clipped
+Policy	drop	English
+Cappuccino	keep	common noun
+Extension	drop	English
+Reiki	keep	common noun
+Wehrmacht	keep	well-known institution
+Lilly	drop	first name
+Avenue	drop	English
+BC	drop	abbreviation
+Bobby	drop	first name
+Freiberg	drop	town
+Gary	drop	first name
+Lotus	keep	plant common noun
+Ten	drop	English
+Meran	drop	town
+Reviews	drop	English
+Audit	keep	German word
+Building	drop	English
+E-Learning	keep	established hyphenated word
+RE	drop	junk
+Steel	drop	English
+Cube	drop	brand
+Horst Seehofer	drop	person
+Addon	drop	software jargon
+Dart	keep	sport word
+Lauterbach	drop	person
+erfindungsgemäß	keep	real word
+Wirtschaftsminister	keep	common noun
+Werder Bremen	drop	sports club
+vnd	drop	archaic spelling
+AEG	drop	brand
+Brokkoli	keep	common noun
+Einzelbild	keep	common noun
+Expo	keep	ordinary word
+Globuli	keep	real word
+Hendrik	drop	first name
+Britta	drop	first name
+Qualitäts-Bahn	drop	junk compound
+Suchmaschinen-Marketing	drop	web compound
+Steinbach	drop	surname
+Türche	merge:Türchen	clipped
+Preview	drop	English
+Sankt Pölten	drop	town
+ESM	drop	specialist acronym
+Gruber	drop	surname
+Hillary	drop	first name
+HINWEIS	merge:Hinweis	capitalised noun
+Bird	drop	English
+Spielsache	keep	real noun
+Google Chrome	drop	brand
+Pia	drop	first name
+T-Mobile	drop	brand
+Www	drop	technical
+Android-Smartphone	drop	web compound
+Assange	drop	person
+Elias	drop	first name
+Jugoslawien	drop	place not on list
+Magdalena	drop	first name
+big	drop	English
+DSG	drop	technical acronym
+Germania	drop	name
+Mobility	drop	English
+MySQL	drop	product
+TA	drop	junk
+Thunderbird	drop	product
+True	drop	English
+Arizona	drop	place not on list
+Session-Cookie	drop	web compound
+world	drop	English
+Four	drop	English
+Einzelunterschrift	keep	real word
+Falk	drop	surname
+Reichstag	keep	well-known institution
+over	drop	English
+Arztpraxen	merge:Arztpraxis	plural form
+Com	drop	web
+Spandau	drop	district
+PDF-Format	drop	web compound
+Return	drop	English
+Themes	drop	English
+Annika	drop	first name
+Contact	drop	English
+DJK	drop	sports club
+E-Zigarette	keep	established hyphenated word
+Edith	drop	first name
+Wechseljahr	merge:Wechseljahre	plural-only noun
+Fußball-WM	keep	ordinary compound
+Hansen	drop	surname
+Herford	drop	town
+Luise	drop	first name
+Online-Streitbeilegung	drop	legal template text
+Rachel	drop	first name
+SICH	merge:sich	capitalised pronoun
+Tagesschau	keep	famous programme
+AFP	drop	agency acronym
+St. Pauli	drop	club/district
+FSK	keep	well-known rating body
+Helena	drop	first name
+Hip-Hop	keep	established hyphenated word
+Ireland	drop	English place
+Lenin	drop	person
+Score	keep	established loan
+Side	drop	English
+Welcome	drop	English
+Bezirksliga	keep	common noun
+Spahn	drop	person
+Fiction	drop	English
+MacBook	drop	brand
+FAQs	keep	everyday web term
+Prince	drop	English
+Cannes	drop	foreign city not on list
+Program	drop	English
+SEHR	merge:sehr	capitalised adverb
+Sciences	drop	English
+Wolfram	drop	first name in usage
+Know	drop	English
+Friedberg	drop	town
+SW	drop	abbreviation
+Leyen	drop	surname fragment
+Niederbayern	drop	region not on list
+WOW	merge:wow	interjection
+Betriebs-Bahn	drop	junk compound
+Seoul	drop	foreign city not on list
+Testosteron	keep	common noun
+Transitional	drop	English
+Wittenberg	drop	town
+Bowl	merge:bowlen	verb bowlen in examples
+Map	drop	English
+Detmold	drop	town
+Elder	drop	English
+Horizon	drop	English
+Kay	drop	first name
+Walk	drop	English
+baden-württembergisch	keep	real adjective
+AV	drop	abbreviation
+Casting	keep	established loan
+Dropbox	drop	brand
+SSV	drop	sports club
+Salvador	drop	name
+GeForce	drop	brand
+Grundkurs	keep	common noun
+Curriculum	keep	German word
+MdB	drop	abbreviation, junk examples
+Five	drop	English
+Werbeanzeig	merge:Werbeanzeige	clipped
+Berufs-Bahn	drop	junk compound
+Qi	keep	real word
+AIDA	drop	brand
+Break	drop	English
+Ivan	drop	first name
+Lima	drop	foreign city not on list
+Lago	drop	Italian/name
+Origin	drop	English
+Moses	drop	biblical figure name
+Fleece	keep	common noun
+Göpping	drop	clipped town name
+Jacques	drop	first name
+swingerclub	drop	spam
+Clark	drop	surname
+verschneien	merge:verschneit	adjective form
+Kosmetikum	keep	common noun
+Val	drop	name
+Bregenz	drop	town
+GV	drop	abbreviation
+floral	keep	real adjective
+soft	drop	English
+Duden	keep	famous institution
+Herzogin	keep	common noun
+Provence	drop	region not on list
+protected	drop	email obfuscation junk
+Ausbildungs-Bahn	drop	junk compound
+# question Online-Händler: kept hyphenated Online- compounds as ordinary nouns but dropped jargon ones (Android-Smartphone, Session-Cookie, PDF-Format); boundary unclear

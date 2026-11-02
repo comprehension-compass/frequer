@@ -1,0 +1,301 @@
+Strache	drop	person name
+Tantra	drop	spam context, not a learner word
+year	drop	English
+Bewegungs-Bahn	drop	hyphenated junk
+Gladbeck	drop	minor town
+QUALITÄT	merge:Qualität	uppercase form
+Schulranz	merge:Schulranzen	clipped
+build	drop	English
+Biberach	drop	minor town
+District	drop	English/place
+Eclipse	drop	product
+Enrico	drop	first name
+Hans-Jürgen	drop	first name
+Thinking	drop	English
+Unlimited	drop	English
+Garcia	drop	surname
+Oculus	drop	brand
+SÜD	merge:Süden	uppercase direction word
+Tracks	merge:Track	plural of established loan
+Viewing	drop	English fragment
+Blush	drop	English cosmetics
+Delmenhorst	drop	minor town
+LKA	keep	Landeskriminalamt, police body
+VOM	merge:von	contraction of von
+Absetz	merge:absetzen	clipped verb
+Ems	drop	minor river/abbrev
+Gaga	drop	Lady Gaga
+Handyhülle	keep	common noun
+Kor	drop	name/abbrev
+Residence	drop	English
+anfragend	merge:anfragen	participle
+About	drop	English
+Bean	drop	English
+GfK	drop	company
+Gusto	keep	real word
+Jul	drop	name fragment
+Lamborghini	drop	brand
+Tristan	drop	first name
+Command	drop	English
+Eichstätt	drop	minor town
+Habeck	drop	person
+TE	drop	fragment
+Youth	drop	English
+achtzehnhundertsechsundsechzig	drop	spelled year
+Jailbreak	drop	English tech
+Jong	drop	name fragment
+Kaufhof	drop	brand
+Managing	drop	English
+Norton	drop	surname
+girls	drop	English
+men	drop	English
+menschenverachten	merge:menschenverachtend	participle adjective
+neununddreißigste	drop	spelled number compound
+Globe	drop	English
+Ingeborg	drop	first name
+ALDI	drop	brand
+Lugano	drop	foreign city
+Palmer	drop	surname
+StarGames	drop	brand
+VICE	drop	brand/English
+Blog-Beitrag	drop	hyphenated web compound
+Chrysler	drop	brand
+Juncker	drop	person
+Soccer	drop	English
+Templat	merge:Template	clipped loan
+Tunesie	merge:Tunesien	clipped
+Zuverlässig	merge:zuverlässig	wrong case
+trophisch	drop	narrow specialist/medical spam
+verwinkeln	merge:verwinkelt	participle adjective
+Altenburg	drop	minor town
+Baskenland	drop	region not on list
+Dogs	drop	English
+Dorothee	drop	first name
+Emirates	drop	brand
+Lieferer	keep	real word
+Nietzsche	drop	person
+Nordeuropa	drop	region not on list
+Robert-Koch-Institut	keep	nationally famous institution
+Rudolph	drop	name
+serv	merge:Server	clipped
+Dad	drop	English
+Dating-App	drop	hyphenated web compound
+ESA	keep	space agency, famous institution
+Linus	drop	first name
+Rechtspopuliste	merge:Rechtspopulist	wrong ending
+Retriever	keep	common noun
+TSI	drop	car technical acronym
+eCommerce	drop	technical/odd spelling
+Aufeinandertreff	merge:aufeinandertreffen	clipped verb
+Autonomer	merge:autonom	inflected adjective
+Burgdorf	drop	minor town
+ECTS	drop	technical acronym
+ED	drop	name
+Hummer	keep	common noun
+Kafka	drop	person
+McNamara	drop	surname
+Seidel	keep	common noun (beer mug)
+Babelsberg	drop	district
+Bruck	drop	town
+Lou	drop	first name
+NN	drop	abbreviation
+Rodriguez	drop	surname
+player	drop	English
+Beatrix	drop	first name
+Euro-Zone	merge:Eurozone	standard spelling
+Forever	drop	English
+Holm	drop	name
+Response	drop	English
+Sojasauce	keep	common noun
+Spontan	merge:spontan	wrong case
+Tapa	merge:Tapas	loan, usual form Tapas
+Use	drop	English
+Wikileaks	drop	website
+must	merge:Muster	example shows Muster
+Affair	drop	English
+Cognac	keep	common noun
+FSJ	keep	well-known German term
+JSG	drop	sports club
+Levitra	drop	brand/spam
+Tatoeba	drop	website
+Tour de France	keep	nationally famous event
+WM-Titel	keep	established compound
+Westafrika	drop	region not on list
+achtzehnhundertsechsundsiebzig	drop	spelled year
+Alexanderplatz	drop	square
+Connector	drop	English
+Draghi	drop	person
+Forster	drop	surname
+Natascha	drop	first name
+Stripperin	drop	low value, spam-like
+Aurich	drop	minor town
+BAU	merge:Bau	uppercase form
+Churchill	drop	person
+Delivery	drop	English
+Evelyn	drop	first name
+Feb	drop	date abbreviation
+Guru	keep	common noun
+Utah	drop	US state not on list
+Zeiss	drop	company
+übereinand	merge:übereinander	clipped
+Are	drop	English
+Caspar	drop	first name
+Embedded	drop	English
+Johan	drop	first name
+Kabel-TV	keep	established compound
+Kira	drop	first name
+MPU	keep	well-known German term
+Uta	drop	first name
+Carla	drop	first name
+Juda	drop	biblical name
+Standardversand	keep	real compound
+Tonic	keep	common noun
+Würth	drop	company
+ATV	drop	broadcaster/club
+Buddy	drop	English/name
+Chocolate	drop	English
+Hunt	drop	surname
+Husqvarna	drop	brand
+Independent	drop	English
+Nicholas	drop	first name
+Niels	drop	first name
+Pet	drop	name fragment
+Wörthersee	drop	lake
+bet	drop	English
+AdSense	drop	brand
+Bitkom	drop	minor organisation
+Guest	drop	English
+Mono	keep	real word
+Polizeiangabe	keep	real noun, used in plural
+Producer	drop	English
+Rosberg	drop	person
+Shared	drop	English
+Ventures	drop	English
+dünnen	merge:dünn	inflected form
+full	drop	English
+köln	merge:Köln	wrong case
+Anno	keep	real word (anno)
+Communitie	merge:Community	clipped
+Felipe	drop	first name
+Nachholbedarf	keep	real noun
+Strategy	drop	English
+Velo	keep	Swiss word for bicycle
+WW	drop	abbreviation
+Common	drop	English
+Gauland	drop	person
+Gilbert	drop	first name
+Ork	keep	common noun
+Souls	drop	English/game
+Stripper	drop	low value, spam-like
+Zoe	drop	first name
+Gummersbach	drop	minor town
+Oral	merge:oral	wrong case
+Segeberg	drop	minor town
+Strato	drop	brand
+Zustandekomm	merge:Zustandekommen	clipped
+Baccarat	drop	casino spam
+Bescheinigunge	merge:Bescheinigung	clipped
+Del	drop	fragment
+ISSN	drop	technical acronym
+Regio	drop	brand/name
+weiterles	merge:weiterlesen	clipped
+Alemannia	drop	sports club
+Eyes	drop	English
+Gym	drop	English
+Original-Content	drop	hyphenated web compound
+Palermo	drop	foreign city
+UV-Strahl	keep	established compound, mostly plural
+Yannick	drop	first name
+imperial	keep	real adjective
+CV	drop	abbreviation
+Forward	drop	English
+Maison	drop	brand
+Margot	drop	first name
+NK	drop	abbreviation
+Neu-Isenburg	drop	minor town
+Steinberg	drop	surname
+TomTom	drop	brand
+Unified	drop	English
+achtzehnhundertsiebenundachtzig	drop	spelled year
+Bidet	keep	common noun
+Clever	merge:clever	wrong case
+Levi	drop	place/name
+Photovoltaik-Anlage	merge:Photovoltaikanlage	standard spelling
+Purple	drop	English
+QSC	drop	company
+Stay	drop	English
+Warfare	drop	English
+Diva	keep	common noun
+Hassan	drop	first name
+Kunsthaus	drop	institution name
+ungelaufen	drop	dealer boilerplate
+Coesfeld	drop	minor town
+FPS	drop	technical acronym
+Samui	drop	foreign island
+Schutt	keep	common noun
+Volume	drop	English
+AZR	drop	court file code
+Armani	drop	brand
+Live-Ticker	keep	established compound
+Nadal	drop	person
+Annie	drop	first name
+Aspire	drop	brand
+Australian	drop	English
+E-Gitarre	keep	established compound
+Seitz	drop	surname
+Snapdragon	drop	brand
+Wilhelmshave	drop	misspelt minor town
+alleinerziehen	merge:alleinerziehend	participle adjective
+partn	merge:Partner	clipped
+Chevrolet	drop	brand
+Co-Trainer	keep	established compound
+GF	drop	abbreviation
+Hook	drop	English
+Subaru	drop	brand
+niederösterreichisch	keep	real adjective
+Coil	drop	English
+Heilig	merge:heilig	wrong case
+Milano	drop	foreign city
+AIR	drop	English
+Caro	drop	first name
+Disneyland	drop	brand
+Duck	drop	name
+Harvey	drop	first name
+KLICK	merge:Klick	uppercase form
+Margaret	drop	first name
+RPG	drop	technical acronym
+Weißensee	drop	district
+bahnbrechen	merge:bahnbrechend	participle adjective
+erektil	keep	real adjective
+long	drop	English
+AU	merge:aus	uppercase of Aus
+Fiona	drop	first name
+Mad	drop	English
+Must	drop	English/typo
+Ulli	drop	first name
+Wagenknecht	drop	person
+Broschierte	merge:broschiert	wrong case
+Eug	drop	name fragment
+Jacket	drop	English
+Kitchen	drop	English
+Klose	drop	person
+Makeup	merge:Make-up	established spelling
+Bergheim	drop	minor town
+Birthday	drop	English
+Dietz	drop	surname/publisher
+Tomatensauce	keep	common noun
+topic	drop	English
+Cohen	drop	surname
+INFORMATIONEN	merge:Information	uppercase plural
+Il	drop	foreign article
+KSC	drop	sports club
+Online-Shopping	keep	established compound
+POS	drop	technical acronym
+Title	drop	English
+BHKW	drop	technical acronym
+Clear	drop	English
+ESG	drop	technical acronym
+Facebook-Gruppe	drop	hyphenated web compound
+Ibrahim	drop	first name
+Large	drop	English
+# question Tour de France: multiword event name, kept as nationally famous; confirm multiword lemmas are allowed

@@ -1,0 +1,157 @@
+of	merge:Ofen	examples are Ofen mis-lemmatised
+einundzwanzigste	keep	ordinal used in dates; ordinals decided normally
+fünfundzwanzigste	keep	ordinal used in dates
+zweiundzwanzigste	keep	ordinal used in dates
+vierundzwanzigste	keep	ordinal used in dates
+dreiundzwanzigste	keep	ordinal used in dates
+einunddreißigste	keep	ordinal needed for dates (31st)
+sechsundzwanzigste	keep	ordinal used in dates
+achtundzwanzigste	keep	ordinal used in dates
+siebenundzwanzigste	keep	ordinal used in dates
+neunundzwanzigste	keep	ordinal used in dates
+Linke	keep	real noun (die Linke) and party
+Power	keep	established colloquial loan
+Smart	merge:smart	adjective loan in wrong case
+Store	keep	real German noun (curtain) and loan
+Red	merge:reden	examples are reden mis-lemmatised
+Board	keep	established loan (Sideboard, Gremium)
+Mini	keep	common word (car, skirt)
+Cup	keep	established loan (competition, bra cup)
+Weber	keep	common noun weaver
+Telekom	keep	nationally famous institution like Deutsche Bahn
+RTL	keep	nationally famous broadcaster
+Sports	merge:Sport	genitive des Sports mis-lemmatised
+Focus	merge:Fokus	variant spelling of Fokus
+Challenge	keep	established colloquial loan
+not	merge:Note	examples are Note/Noten
+DB	keep	Deutsche Bahn acronym
+Golden	merge:golden	adjective golden mis-lemmatised
+Hauptstraße	keep	common noun main street
+Item	keep	established loan in games/surveys
+as	merge:Ass	German examples show Ass
+Spambot	drop	template web text only
+College	keep	established loan
+or	merge:Order	examples show Order
+Marina	keep	common noun yacht harbour
+Lord	keep	title used as common noun
+viagra	drop	brand / spam
+Viagra	drop	brand / spam
+Handling	keep	established loan
+Part	keep	real German noun (role)
+Kleinanzeigen	merge:Kleinanzeige	plural; singular lemma
+losen	keep	real verb (draw lots); not merged with lose
+LTE	keep	consumer-known acronym like WLAN
+Köhler	keep	common noun charcoal burner
+doubeln	keep	real verb
+Blackjack	keep	card game
+FAZ	drop	newspaper title/brand
+Olympia	keep	ordinary word for Olympic Games
+anfallend	keep	participial adjective
+Turbo	keep	real German noun
+Setting	keep	established loan
+ZUM	merge:zu	capitalised contraction zum
+AM	merge:an	capitalised contraction am
+Back	merge:backen	elided verb form back'
+Carbon	keep	established loan (carbon fibre)
+Cool	merge:cool	wrong case of cool
+Spring	merge:springen	imperative of springen
+Vita	keep	real word (CV)
+Press	merge:pressen	examples are pressen
+End	merge:Ende	elided Ende
+CIA	keep	world-famous agency referred to by name
+NSA	keep	world-famous agency referred to by name
+Exklusiv	merge:exklusiv	wrong case
+Flat	keep	colloquial Flatrate
+Anal	merge:anal	wrong case of real adjective
+Fußball-Bundesliga	keep	established hyphenated compound
+Potential	merge:Potenzial	variant spelling of same word
+Dildo	keep	real noun
+Vogt	keep	common noun historic title
+Flex	keep	common tool noun
+Greenpeace	keep	famous organisation referred to by name
+Tokyo	drop	place name not on reviewed list
+Evtl	merge:evtl	everyday abbreviation in wrong case
+UEFA	keep	famous football body referred to by name
+Bubble	keep	loan in German use
+Kork	keep	real noun Kork, distinct from Korken
+Hyperlinks	merge:Hyperlink	plural; singular lemma
+ten	merge:Test	examples are Test mis-lemmatised
+Email-Adresse	merge:E-Mail-Adresse	standard spelling
+AWO	drop	minor organisation
+E-Mailadresse	merge:E-Mail-Adresse	standard spelling
+NABU	drop	minor organisation
+happy	keep	loan in German use (Happy End, happy sein)
+Spezial	keep	noun das Spezial (special edition)
+Südostasien	drop	place name not on reviewed list
+Netto	merge:netto	wrong case of netto
+Bring	merge:bringen	imperative of bringen
+first	merge:First	German noun First (roof ridge)
+Turn	merge:turnen	examples are turnen
+Madame	keep	established loan form of address
+Online-Händler	keep	ordinary established compound
+Gross	merge:groß	Swiss spelling without ß
+Online-Plattform	keep	ordinary established compound
+WWF	keep	famous organisation referred to by name
+back	merge:Bäcker	examples are Bäcker
+erfindungsgemäß	keep	real word
+Score	keep	established loan
+FAQs	merge:FAQ	plural of everyday web term
+WOW	merge:wow	interjection in capitals
+Qi	keep	real loanword
+who	merge:WHO	examples are WHO
+Shot	keep	established loan
+Barrel	keep	unit used in German news
+Fiesta	keep	common noun loan
+Cape	keep	common noun das Cape
+BMBF	drop	ministry acronym only specialists use
+Online-Dating	keep	established compound
+Potenzmittel	keep	real word
+Chic	merge:chic	adjective in wrong case
+Bio-Baumwolle	keep	real compound
+business	merge:Business	wrong case of noun loan
+Mystery	keep	established genre loan
+Hesse	keep	demonym, ordinary noun
+Std	keep	daily abbreviation of Stunde
+Web-Seite	merge:Webseite	hyphenated variant
+part	merge:Part	noun Part in wrong case
+Fußball-Weltmeisterschaft	keep	established compound
+BIOS	drop	technical acronym
+Kanar	drop	cut-off place name (Kanaren) not on list
+Distributor	keep	established loan
+Boost	drop	English not established
+Rezepture	merge:Rezeptur	plural as lemma
+WWW	keep	everyday acronym
+has	merge:Hase	examples mainly Hasen
+Find	merge:finden	elided verb form find'
+Geld-zurück-Garantie	keep	established compound
+Hyaluron	keep	real noun
+Stempelset	keep	real compound
+fun	merge:Fund	examples are Funde
+BUNDESGERICHTSHOF	merge:Bundesgerichtshof	wrong case
+LED-Lampe	keep	established compound
+Looks	merge:Look	plural of loan Look
+Cabernet	keep	wine grape common noun
+Marien	drop	name form (Maria)
+Kartenleg	merge:Kartenlegen	clipped lemma
+Parties	merge:Party	English plural of Party
+Pick	merge:picken	examples are picken
+Fly	merge:Flyer	examples are Flyern
+Rally	merge:Rallye	spelling variant
+UP	merge:ups	examples are Ups
+Beijing	drop	place name not on reviewed list
+HM	merge:hm	interjection in capitals
+vergünstig	merge:vergünstigen	clipped verb/participle
+check	merge:checken	examples mainly checken
+Diner	keep	common noun loan
+ALG	keep	acronym used as ordinary word
+Freistaat Bayern	drop	multiword place name
+Artwork	keep	established loan
+support	merge:Support	noun loan in wrong case
+SÜD	merge:Süd	wrong case of Süd
+# question of: frequency far exceeds Ofen; most occurrences are likely English "of" — merging inflates Ofen (same concern for not, or, as, ten, has, back, fun, first, who, Turn, check)
+# question einundzwanzigste: rules keep ordinals but drop compound cardinals; unclear whether compound ordinals (incl. 31st) count as spelled-number compounds
+# question Telekom: unclear whether former state companies (Telekom) and private broadcasters (RTL) fall under nationally famous institutions
+# question CIA: unclear whether foreign/international organisations (CIA, NSA, Greenpeace, WWF, UEFA) count as famous institutions; NABU, AWO, BMBF dropped as minor
+# question Tokyo: foreign spelling of a list city (Tokio, Peking for Beijing) — drop per rule or merge into the listed German name?
+# question ZUM: should contractions zum/am be their own lemmas or merge into zu/an?
+# question Spambot: real compound but frequency is all template text
