@@ -110,6 +110,11 @@ merge into Ciudad de México and Estados Unidos. Learnable names outside the top
    lowercase ethnonyms are kept (*hutíes* → *hutí*); multi-word merge targets are units (*palo santo*, *alter ego*,
    *open source*, *post mortem*); *cous* (from *cous cous*) merges once into *cuscús*, counted once per phrase.
 
+Follow-ups (confirmed 2026-11-02): lexicalised superlatives (*el Altísimo*, *la Purísima*, *excelentísimo*,
+*generalísimo*) keep; English spellings of specialist drugs drop; clitic fragments whose usual reading is an object
+pronoun (*llamarnos*, *dándote*) go to the plain verb; Latin genus names used as ordinary Spanish nouns (*boletus*,
+*lilium*) keep, raw taxa drop.
+
 ## The rules the reviewers had
 
 # Review rules (the developer's; binding)
