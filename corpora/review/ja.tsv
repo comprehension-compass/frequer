@@ -9753,3 +9753,352 @@ NHK紅白歌合戦	drop	title of a specific TV program
 ソイツ	merge:そいつ	katakana stylisation of the pronoun そいつ
 ソイル	keep	legitimate loanword, aquarium substrate
 トッポ	drop	product/snack brand name
+ヌルい	keep	established net slang adjective meaning weak/soft, real word a learner would meet
+ビオ	keep	loanword "bio" (organic) used as noun/prefix in Japanese, no evidence of junk
+フィニッシャー	keep	common katakana loanword for "finisher" (sports/games), not a name
+ポケットコイルマットレス	keep	real compound noun (mattress type), not junk despite catalog-style examples
+ムニエル	keep	established culinary loanword (meunière), common sense dominant in examples
+世良	drop	only attested as a surname/person name, not an institution
+克己	drop	examples show only personal-name use; common "self-control" sense not shown
+再犯	keep	ordinary word (recidivism)
+厳然	keep	ordinary adverb/adjectival noun ("solemnly, undeniably")
+叛逆	keep	real word for rebellion/treason, used beyond the manga title
+嘲笑う	keep	ordinary verb "to mock/ridicule"
+多角形	keep	ordinary word (polygon)
+奏功	keep	ordinary word ("to succeed/work well")
+専攻科	keep	ordinary educational term (advanced course)
+少林	drop	bound element of names (少林寺/少林サッカー), not a standalone learnable word
+徴兵制	keep	ordinary word (conscription system)
+必用	merge:必要	all 351 uses are the misspelt variant of 必要 in ordinary sentences
+扁桃	keep	ordinary word (tonsil/almond)
+拘留	keep	ordinary legal term (detention)
+林原	drop	only attested as a surname/company/person name
+流し読み	keep	ordinary word (skimming while reading)
+清廉	keep	common sense ("integrity") well attested in examples
+滑空	keep	ordinary word (gliding)
+無比	keep	ordinary word ("incomparable")
+無観客	keep	ordinary compound word ("no spectators", e.g. 無観客試合)
+焼け石	keep	real noun, standard component of idiom but legitimate word
+着任	keep	ordinary word (taking up a post)
+知らん	merge:知る	colloquial negative inflection of 知る, not a separate dictionary lemma
+粗さ	keep	ordinary word (roughness)
+編さんする	merge:編纂する	mixed-kana spelling of 編纂する; examples mostly use the kanji form
+脱法	keep	ordinary word (circumventing the law, e.g. 脱法ドラッグ)
+自然的	keep	ordinary adjective ("natural")
+自由が丘駅	drop	named facility (train station), not a place name itself
+若女将	keep	ordinary word (young proprietress of an inn)
+薄汚れる	keep	ordinary verb ("to become grimy")
+設営する	keep	ordinary verb ("to set up/establish a venue")
+転化	keep	ordinary word (conversion/transformation)
+転回	keep	ordinary word (turn/rotation)
+達観	keep	ordinary word (transcendent view, resignation)
+錯綜する	keep	ordinary verb ("to be tangled/complicated")
+間借り	keep	real common noun (subletting/renting space)
+雛祭り	keep	real established word (Doll's Festival)
+震え声	keep	real word for a trembling voice, despite odd VERB tag
+風俗街	keep	ordinary word for red-light district, learners meet it in reading
+黒白	keep	real word for black-and-white
+とんがり	keep	real word for pointed shape/thing
+なけなし	keep	real word (なけなしの金 etc.)
+みぃ	drop	internet handle/nickname, not a word
+ウソップ	drop	fictional character name (One Piece)
+ギプス	keep	real medical loanword (cast)
+コノ	merge:この	katakana stylized spelling of この, shown functioning as the demonstrative in examples
+コロラド	pending-names	river/state name
+セロテープ	keep	genericized brand used as ordinary word for sticky tape
+ック	drop	fragment with no real usage evidence
+トムソン	drop	surname (person name), not an institution
+ネタばれ	keep	common spelling variant of real word ネタバレ (spoiler)
+パーシー	drop	personal name (Percy)
+ピーカン	keep	real word for clear sunny sky
+ブリオッシュ	keep	ordinary common noun for the pastry despite PROPN tag
+プレスト	drop	no usable evidence of real word usage
+ベガルタ	drop	named sports team
+マサキ	drop	personal given name
+ミツロウ	keep	real word for beeswax
+モレスキン	drop	specific notebook brand, not genericized
+ランドスケープ	keep	established loanword for landscape
+ヴェゼル	drop	car model/product name
+一也	drop	personal given name
+上市	keep	real business term for product market launch
+傷痕	keep	real word for scar
+切り傷	keep	real word for a cut/laceration
+前首相	keep	real compound word for former prime minister
+厳格化	keep	real word for tightening/making stricter
+叢書	keep	real word for a book series/collection
+奇岩	keep	real word for oddly-shaped rocks
+女囚	keep	common noun for female prisoner, despite PROPN tag
+子宮内	keep	real compound meaning inside the uterus
+寒風	keep	real word for cold wind
+審議官	keep	real government title
+少年誌	keep	real word for boys' manga magazine
+底抜け	keep	real word for boundless/unrestrained
+旭川駅	drop	named facility (train station), not a place name itself
+村木	drop	person name (propn_band, person)
+母数	keep	ordinary word meaning "denominator/base number"
+水添	keep	real word meaning "hydrogenated", used in technical/ingredient contexts
+流刑	keep	real word meaning "exile/penal transportation"
+清志	drop	person given name (propn_band, person)
+湯沸かし器	keep	real word, water heater/kettle
+理由書	keep	real word, statement of reasons (legal/admin term)
+男声	keep	real word, male voice (choir term)
+船木	drop	person surname / minor company name (propn_band, person)
+蒸し器	keep	real word, steamer (cooking tool)
+西瓜	keep	real word, watermelon
+跋扈する	keep	real verb, "to run rampant"
+軍事費	keep	real word, military expenditure
+過払金	keep	real word, overpaid amount (legal/financial term)
+野茂	drop	baseball player surname (propn_band, person)
+雹	keep	real standalone word, hail
+電気街	keep	real word, electronics district
+うまし	keep	established slang/classical adjective form meaning "delicious/nice", in everyday casual use
+がくん	keep	real onomatopoeic adverb for a sudden drop
+ちんすこう	keep	real word, Okinawan confection
+やめれる	merge:やめる	colloquial ra-nuki potential form of 止める, not a separate lemma
+イマ	keep	common word (katakana rendering, non-name dictionary entries) mistagged as name
+カニエ	drop	person name (Kanye West)
+カルチャーショック	keep	common loanword, culture shock
+システイン	keep	common scientific/health term (cysteine), mistagged as name
+ジヒドロテストステロン	keep	common medical/health term (DHT), mistagged as name
+スズ	keep	common noun (tin/bell), no name-flag issue
+スペシャルケア	keep	common compound loanword, skincare term
+ドボン	keep	real colloquial/game onomatopoeia word
+ノーメイク	keep	common compound loanword, "no makeup"
+バビル	drop	fictional character name (バビル二世), low diversity spread
+バラシ	keep	real colloquial/jargon word (fishing/theater term) in ordinary use
+プライ	keep	real loanword "ply" (e.g. material layers)
+ペー	drop	unclear proper-noun entry with no supporting examples; likely not a learnable common word
+ホウレン草	keep	common word (spinach), mistagged as name
+マムシ	keep	common word (viper), mistagged as name
+マーマレード	keep	common loanword, marmalade
+乱文	keep	real word, "disorganized writing" (humble/apologetic expression)
+人物たち	merge:人物	plural-suffixed form of 人物, not a separate lemma
+分社化	keep	real word (corporate spin-off), common business term
+前澤	drop	person name (surname), not a famous institution
+助産院	keep	real word, midwifery clinic
+十点三	drop	spelled decimal number, not a core number word
+印紙税	keep	real word, stamp duty tax term
+学び始める	keep	real compound verb "to start learning"
+宵越し	keep	real word, "overnight/leftover"
+寝静まる	keep	real verb, "to fall into deep sleep"
+影響下	keep	real word, "under the influence of"
+慣らし	keep	real word, "breaking in/adjustment"
+格好する	keep	real colloquial verb, "to dress up/act a certain way"
+極地	keep	real word, "polar region"
+水飲み	keep	common word mistagged as name, "water drinking (spot)"
+汚れ落とし	keep	real word, "stain removal"
+清明	keep	common adjectival/noun sense "clear and bright" shown in examples
+百々	drop	person name (surname)
+目が覚める	keep	real common idiom "to wake up"
+矢崎	drop	person name (surname)
+絡	drop	lone bound kanji, not a standalone word
+考古	merge:考古学	bound prefix (考古学/考古など as shorthand for the field)
+蛤	keep	real standalone word, "clam"
+見詰める	keep	real verb, "to gaze at"
+貧乏性	keep	real word, "stingy/frugal disposition"
+陸運局	keep	real word, government transport bureau (institution)
+食害	keep	real word, "pest/animal damage"
+飽き飽き	keep	real word, "fed up"
+こわ	drop	unclear colloquial fragment, no supporting examples
+しゃがみ	keep	real deverbal noun, "squatting"
+ほと	drop	unclear/obscure fragment, no supporting examples
+やっとこ	keep	real colloquial word, "finally" / tool sense
+アドマイヤ	drop	racehorse-naming prefix, not a real word
+ディアナ	drop	person/brand name (Diana)
+ナノテクノロジー	keep	common word mistagged as proper noun, "nanotechnology"
+パワステ	keep	established clipped loanword, "power steering"
+ビデオクリップ	keep	real loanword, "video clip"
+ピシー	drop	non-standard stretched onomatopoeia concentrated in few documents
+フィンペシアジェネクリ	drop	spam drug-brand term (diversity)
+ブルーレイディスク	keep	common word mistagged as proper noun, "Blu-ray Disc"
+プレース	keep	real loanword, "place" (e.g. in golf/sports usage)
+ボツリヌス	keep	real word, "botulinum"
+マス目	keep	real common noun "grid square"
+ミスティック	drop	only used inside titles/names (games, movies), no plain adjective/noun use shown
+ラッド	drop	no examples; likely a name, no evidence of common word use
+リテラル	keep	established technical loanword "literal"
+二位	keep	common word "second place", not just a surname use
+伽羅	keep	real word (agarwood/kyara)
+入水	keep	real word (入水自殺 etc.)
+全種	keep	common compound "all types/kinds"
+公館	keep	real word "official residence"
+即売	keep	real word "on-site sale"
+取りこぼし	keep	real word "oversight/dropped item"
+名古屋帯	keep	real word, type of obi
+営業停止	keep	real word "business suspension"
+地形図	keep	real word "topographic map"
+堀切	keep	common castle-architecture term (defensive moat cut) shown in example, not just a surname
+外交的	keep	common adjective "diplomatic", mistagged PROPN
+大恐慌	keep	real word "the Great Depression"
+寝技	keep	real word "grappling technique"
+尿管	keep	real word "ureter"
+幇助	keep	real word "aiding and abetting"
+平氏	keep	well-known historical clan name in everyday use, not a mere personal name
+急勾配	keep	real word "steep gradient"
+抑留	keep	real word "detention/internment"
+折り合う	keep	real verb "to come to terms"
+敬虔	keep	real adjective "pious/devout"
+数秘	merge:数秘術	clipped prefix of 数秘術 (数秘占術, 数秘アドバイザー)
+整髪料	keep	real word "hair styling product"
+景況感	keep	real word "business sentiment"
+書家	keep	real word "calligrapher"
+有責	keep	real legal/common word "at fault"
+木梨	drop	surname/person name (comedian), not an institution
+本調子	keep	real word "usual/normal condition", mistagged VERB
+朽木	keep	real dictionary noun "rotten wood" with its common reading くちき attested
+欠乏症	keep	real word "deficiency symptom"
+深入り	keep	real word "getting too involved"
+深煎り	keep	real word "deep roast"
+窓埋め	keep	real niche trading term "gap fill"
+脳幹	keep	real word "brainstem"
+自然薯	keep	real word "wild yam"
+船便	keep	real word "sea mail"
+覚せい	merge:覚醒剤	never a word alone; occurrences are 覚せい剤, whose dictionary spelling is 覚醒剤
+言明	keep	real word meaning "declaration/statement," used normally
+送出	keep	real noun meaning "sending out/transmission," used in broadcasting contexts
+随筆	keep	real word "essay," tagger mistagged POS but it's a common noun
+ししゃも	keep	common food word (smelt fish)
+しなり	keep	real noun form of しなる ("bend/flex"), used in ordinary contexts
+まほろ	drop	personal/author name and title of a novel series, not a common word
+ろくろ	keep	real word for potter's wheel
+アイミツ	keep	established business abbreviation for 相見積もり (comparative quotes)
+イチャモン	keep	real colloquial word ("complaint," as in イチャモンをつける)
+イーズ	drop	not a coherent Japanese word; examples are foreign name fragments (George Eads, Christie's)
+ガロン	keep	established loanword "gallon"
+キネシオ	merge:キネシオロジー	clipped form of キネシオロジー (kinesiology), shown in examples
+ストーリ	merge:ストーリー	broken/truncated spelling of ストーリー, missing long vowel mark
+チビチビ	keep	common adverb ("little by little/sipping"), tagger mistook it for a name
+チャド	pending-names	country name (Chad)
+テンペスト	drop	mainly used as a title of works, not an everyday common noun
+トトリ	drop	fictional video-game character name
+ナイ	drop	no clear standalone meaning in the sample; likely junk/broken form
+パチプロ	keep	established slang for a professional pachinko player
+ビズ	drop	clipping only seen as a suffix in multiple compounds (クールビズ, ウォームビズ), no single clear merge target
+ビヘイビアー	keep	established loanword "behavior/behaviorism," used in psychology/marketing contexts
+ピスト	keep	common slang for a fixed-gear "track" bicycle, despite dictionary listing only names
+メディオ	drop	no clear meaning; appears only as spam/exclamation text
+ユニバーシティ	drop	only used as part of proper nouns (Disney University, Monsters University), not a generic word
+ロリロリ	drop	spammy adult-site slang, not an everyday word a learner would meet
+二つ目	keep	common word "second one"
+人格権	keep	real legal term "personal/moral rights"
+倉多	drop	adult-video performer's name
+倭人	keep	real historical term "Wa people," used in history discussions
+健次郎	drop	personal given name
+元払い	keep	common shipping term "freight prepaid"
+切れ込み	keep	common word "notch/incision"
+初孫	keep	common word "first grandchild"
+別行動	keep	common word "acting separately"
+口外	keep	common word "disclosure" (口外する)
+国木田	drop	surname (of writer/character), not a common word
+園駅	drop	fragment of named train station names (e.g. 成城学園駅), a named facility
+大我	drop	counts are overwhelmingly the given name; philosophical sense marginal
+妖狐	keep	real folklore term for a fox spirit, used generally despite appearing in titles too
+客寄せ	keep	ordinary noun (crowd-puller)
+寝癖	keep	ordinary noun (bed-head)
+嵌まる	keep	ordinary verb (to fit/get hooked)
+巡査長	keep	real police rank title
+形骸化	keep	ordinary noun (becoming a mere formality)
+拡幅	keep	ordinary noun (road widening)
+文法的	keep	ordinary adjectival noun (grammatical)
+明生	drop	propn_band: person name only, no common sense
+時たま	keep	ordinary adverb/noun (occasionally)
+来島	pending-names	mixed surname/company/strait-name uses, no common-word sense found
+沸点	keep	ordinary noun (boiling point)
+照りつける	keep	ordinary verb (sun beating down)
+男ウケ	keep	ordinary noun (appeal to men)
+真贋	keep	ordinary noun (authenticity)
+秀人	drop	propn_band: person name only
+立腹	keep	ordinary noun (anger, often 御立腹)
+端材	keep	ordinary noun (scrap wood/material)
+米飯	keep	ordinary noun (cooked rice)
+紅一点	keep	ordinary idiom (only woman in a group)
+絵理	drop	propn_band: person name only
+繁体字	keep	ordinary noun (traditional Chinese characters)
+繰上げ	keep	ordinary noun (advancing/early repayment)
+翌年度	keep	ordinary noun (following fiscal year)
+落成	keep	ordinary noun (completion of construction)
+袋叩き	keep	ordinary idiom (group beating)
+補講	keep	ordinary noun (supplementary class)
+記入例	keep	ordinary noun (example entry)
+訳語	keep	ordinary noun (translated term)
+釣り針	keep	ordinary noun (fishhook)
+青く	merge:青い	inflected form of common adjective 青い, mistagged PROPN
+靴擦れ	keep	ordinary noun (shoe blister)
+靴紐	keep	ordinary noun (shoelace)
+高波	keep	ordinary noun (high wave)
+ずり落ちる	keep	ordinary verb (to slip down)
+ずれ込む	keep	ordinary verb (to get delayed)
+たしなむ	keep	ordinary verb (to enjoy as a hobby)
+なぞなぞ	keep	ordinary noun (riddle)
+ねじ伏せる	keep	ordinary verb (to subdue)
+ぱど	drop	propn_band: name of a minor free local-info magazine/brand
+へへへ	keep	common laughter interjection in ordinary writing
+むちうつ	merge:むち打ち	whiplash noun (むちうち症) mislemmatised as a verb; written form is むち打ち
+ゆうかりん	drop	spiky diversity, no real example; pattern of a personal/fan nickname (character/person)
+わしづかみ	keep	real word (to grab firmly), genuine usage across unrelated contexts
+アスター	keep	common katakana word for the aster flower, not flagged as a name
+アレッポ	pending-names	city name (Aleppo)
+エントロピー	keep	ordinary scientific term, PROPN tag is a mistag
+カ年	keep	real counter/suffix word (5カ年計画 etc.), widely used
+キツキツ	keep	real descriptive word meaning very tight/snug
+ケルセチン	keep	real chemical/nutrient name (quercetin), common in health writing
+ココナツ	keep	established katakana loanword for coconut
+サブロー	drop	person name (comedian/baseball player), not an institution
+タワシ	keep	real everyday word for scrub brush
+ドリフターズ	drop	name of an entertainment group/anime title, not an institution
+ナーシング	keep	common loanword "nursing" used in facility names and general text
+ニカラグア	pending-names	country name (Nicaragua)
+ニューエラ	drop	specific cap brand, not genericised as ordinary word
+ニンゲン	merge:人間	katakana stylisation of the common word 人間, examples all the ordinary "human" sense
+ヒラマサ	keep	real word, a fish species (yellowtail amberjack)
+ビアンキ	drop	bicycle brand/surname, minor company sense in examples
+ピクミン	drop	video game title/product name
+ファラオ	keep	real common loanword for pharaoh
+ファンタシースターオンライン	drop	video game title
+ブリジストン	merge:ブリヂストン	major household-name corporation, but misspelled lemma (correct spelling uses ヂ)
+リーゼント	keep	established loanword for the pompadour hairstyle
+リーダーズ	drop	brand name of a dictionary series ("Reader's" English-Japanese dictionary), product name
+レヴュー	merge:レビュー	nonstandard spelling of the common loanword "review", examples all in the review sense
+不可視	keep	real adjective/noun meaning invisible, common in general and technical text
+二胡	keep	real word, the erhu musical instrument
+他府県	keep	real word meaning "other prefectures"
+吟遊	merge:吟遊詩人	only occurs bound in 吟遊詩人 (troubadour); not used standalone
+国沢	drop	surname of a specific person (car journalist), not an institution
+土産品	keep	real word for souvenir goods
+塗りこむ	keep	real verb, to rub/work in (e.g. lotion)
+夏木	drop	used only as part of personal names (surname), not a common word
+多才	keep	real adjective meaning multi-talented
+席上	keep	real word meaning "at the meeting/on that occasion"
+度付き	keep	real everyday word (prescription lenses), common sense mistagged as PROPN
+息巻く	keep	real verb meaning to rage/boast
+推力	keep	real technical word meaning thrust
+油彩	keep	real word meaning oil painting
+淀む	keep	real verb "to stagnate"
+満ち足りる	keep	real verb "to be fully satisfied"
+滝汗	keep	established casual word for profuse sweating
+瀧	drop	only name usage (瀧廉太郎) shown; common "waterfall" sense not evidenced
+理香	drop	person's given name
+祝賀	keep	real noun "celebration"
+神尾	drop	person's surname
+紛らわせる	keep	real verb "to distract/divert"
+義人	keep	real word "righteous person", common sense shown in example
+育休中	keep	ordinary compound, "while on childcare leave"
+胆嚢	keep	real anatomical noun "gallbladder"
+船出	keep	real noun "setting sail/new start"
+薬屋	keep	real noun "pharmacy/drugstore"
+話し合える	merge:話し合う	potential form of 話し合う
+足型	keep	real noun "foot shape/mold"
+遊び相手	keep	real noun "playmate"
+鋲	keep	real standalone word "tack/stud"
+陽水	drop	only person-name usage (井上陽水) shown
+陽炎	keep	real noun "heat haze"
+飛びぬける	keep	real verb "to stand out"
+食べ過ぎる	keep	real verb "to overeat"
+麺つゆ	keep	real noun "noodle dipping sauce"
+ばーか	merge:馬鹿	vowel-stretched informal spelling of ばか, standard spelling 馬鹿
+ひ弱	keep	real adjective "frail, puny"
+わかな	drop	personal name
+アホ毛	keep	established word for stray/flyaway hairs
+イリノイ州	pending-names	place name (US state)
+カナリ	merge:かなり	katakana emphatic spelling of かなり
+キョトン	keep	real mimetic word for a puzzled look
