@@ -119,10 +119,11 @@ pronoun (*llamarnos*, *dándote*) go to the plain verb; Latin genus names used a
 
 Collected into `corpora/review/es.tsv`: rounds 1-11 (the 105.7M-token build, `snapshots/es.json`), rounds 12-13
 (shards 1-6 on the extended counts, 1,382,684,047 tokens), the second-set rulings and follow-ups, and round 14
-shards 7, 8, 10 (4,122 decisions). To resume:
+shards 7-10 (5,452 decisions). To resume:
 
-1. **Shard 9** (`full/es/review/shards/shard-9.md`, queue `shard-9/routed.tsv`: 858 flagged, 997 unflagged) had
-   pushed nothing when the pause came: run it (or collect `es-review-shard-9` if it committed later).
+1. **Shard 9** collected after the pause (es-review-shard-9 63a704b). Its new-class questions (regional variants such as
+   amoblado, unions and party organisations as national bodies, regular diminutives such as ruedecita, veran) are in
+   its REPORT.md for the developer.
 2. **Splits requested by the shards**, to write as `split:` lines from their forms: afijar, desparejar, ufanar,
    empachar, chaga (shard 7); hombr, trasuntar (shard 10). Shard 8's flagged clitic merges were decided before
    the clitic ruling: check them against ruling 3.
