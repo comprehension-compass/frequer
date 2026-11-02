@@ -106,6 +106,9 @@ class LanguageConfig(Strict):
     #: After the ``top_n`` cut, append every learnable name (Honeyeater's ``reference/learnable-names``) that
     #: ranked below it, in rank order: a listed name is learnable whatever its frequency.
     append_learnable_names: bool = False
+    #: The developer's cutoff ruling for ``top_n`` (date and where it is recorded), set when the cutoff is chosen
+    #: from the per-band report (docs/PLAYBOOK.md §7); ``frequer pipeline`` waits for it.
+    cutoff: str | None = None
     #: Lower-case lemma keys, summing on collapse (the Spanish snapshot's convention).
     fold_case: bool = False
     #: Lower-case surface forms before counting them (the German snapshot's convention).

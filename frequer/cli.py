@@ -1,4 +1,4 @@
-"""Command line: ``python -m frequer {count,build,pilot,sync-manifest,forms,select} <lang>``."""
+"""Command line: ``python -m frequer {pipeline,count,checkpoint,coordinate,ship,build,pilot,sync-manifest,forms,select} <lang>``."""
 
 from __future__ import annotations
 
@@ -63,6 +63,11 @@ def main(argv: list[str] | None = None) -> None:
     c.add_argument("--no-cooc", action="store_true", help="skip the co-occurrence pass (remote parts)")
     c.add_argument("--skip-file", type=Path,
                    help="counts file names finished elsewhere, one per line: cut past, never counted (remote parts)")
+    pp = sub.add_parser("pipeline", help="read-only: where the list build stands, stage by stage, and what to check")
+    pp.add_argument("lang")
+    pp.add_argument("--data-dir", type=Path, default=Path(os.environ.get("FREQUER_DATA", "data")))
+    pp.add_argument("--out-dir", type=Path, help="build output (default out/<lang>)")
+    pp.add_argument("--review-config", type=Path, help="the scripts/review JSON config (its work directory)")
     ck = sub.add_parser("checkpoint", help="take the convergence checkpoints that are due; print the decision")
     _common(ck)
     ck.add_argument("--out-dir", type=Path)
@@ -174,6 +179,14 @@ def main(argv: list[str] | None = None) -> None:
                                    parts=args.parts, local_pid=args.local_pid, checkpoint=checkpoint,
                                    interval=args.interval, log=lambda m: print(m, flush=True))
         print(json.dumps({"ended": why}))
+    elif args.cmd == "pipeline":
+        from frequer import pipeline
+        from frequer.junk import review_path
+
+        work = json.loads(args.review_config.read_text(encoding="utf-8"))["work"] if args.review_config else None
+        paths = pipeline.Paths(lang=args.lang, data=args.data_dir / args.lang, out=args.out_dir or Path("out") / args.lang,
+                               review=Path(work) if work else None, review_file=review_path(args.lang))
+        print(pipeline.render(manifest, paths))
     elif args.cmd == "checkpoint":
         dirs = RunDirs(args.data_dir / args.lang)
         state = run_checkpoints(manifest, dirs.counts, args.out_dir or Path("out") / args.lang,

@@ -9,6 +9,7 @@ language:
   readings: true
   host_tokens: skip  # an ending is part of its host word: count the word once (2026-10-24)
   top_n: 30000  # 2026-11-01 (developer): cutoff from the per-band report (full/ja/band-report.md)
+  cutoff: '2026-11-01 developer: 30k (full/ja/band-report.md)'
   forms_kept: 5
   append_learnable_names: true  # 2026-11-01 (developer): learnable names outside the cut follow it
   # Junk rules (2026-11-01 developer standard; frequer/junk.py). No accent merges and no capitalisation band:
