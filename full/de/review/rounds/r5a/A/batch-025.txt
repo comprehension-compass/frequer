@@ -1,0 +1,43 @@
+Rimini	drop	Italian city, not on the places list
+Schloss-Symbol	keep	real German compound
+Slide	drop	English word, here a game name
+Sticky	drop	English word, not established in German
+VT	drop	abbreviation
+Victory	drop	English word, only in names
+WLAN-Verbindung	keep	real compound
+relational	keep	real German adjective (relationale Datenbank)
+Amazing	drop	English word, brand name
+Collect	drop	English, only in "Click & Collect"
+Gaia	drop	name
+IAB	drop	organisation acronym
+Ist-Zustand	keep	real compound
+Jill	drop	first name
+Meschede	drop	minor town
+Miltenberg	drop	minor town
+OGS	drop	minor acronym
+SBS	drop	organisation acronym
+Thule	drop	mythic place name, not on the list
+Vivian	drop	first name
+WEITERLESEN	merge:weiterlesen	capitalised verb, template text
+Zi	drop	two-letter fragment
+Böttcher	drop	surname
+Concert	drop	English word, not established
+DECT	keep	cordless-phone standard known to ordinary users
+Eislaufen	merge:eislaufen	nominalised verb filed under a capitalised lemma
+Fear	drop	English word, not established
+Greiz	drop	minor town
+Infineon	drop	company
+Kane	drop	name
+Rupp	drop	surname
+Skull	drop	English word, not established
+Skywalker	drop	fictional name
+Sopran	keep	common noun
+Springfield	drop	foreign place name, not on the list
+call	drop	English word, not established
+schwarz-rot	keep	real German compound adjective
+sechsmonatig	keep	real adjective, lemma form is correct
+Abklingzeit	keep	real German compound
+AntifaschistInnen	merge:Antifaschist	gendered plural of Antifaschist
+# question Slide: "Slides" is used in business German, but the evidence here is only a game name, so I dropped it.
+# question DECT: it could count as a technical acronym, but it is a consumer term in Germany, so I kept it.
+# question Eislaufen: the lemma is mostly a nominalised infinitive (das Eislaufen), which could count as a noun in its own right; I merged it into the verb.

@@ -1,0 +1,42 @@
+BMZ	keep	federal ministry, nationally known institution
+Berta	drop	first name
+Elephant	drop	English spelling, mostly in a proper name
+Geodat	merge:Geodaten	cut-off citation of Geodaten
+HSK	drop	minor acronym
+Hennig	drop	surname
+Homburger	drop	place-derived name
+Imagination	keep	real German noun
+Katherine	drop	first name
+Klaus-Peter	drop	first name
+Klickrat	merge:Klickrate	cut-off lemma
+LOVE	drop	English word, name usage
+Mahagoni	keep	common noun mistagged as a name
+Marienberg	drop	minor town
+Niersbach	drop	surname
+Radiator	keep	established German word
+Rank	drop	English use, not an established German word
+Seiler	drop	surname in the examples
+Spiegelunge	merge:Spiegelung	cut-off lemma
+Standortdat	merge:Standortdaten	cut-off lemma
+Studies	drop	English word
+Thomson	drop	surname/brand
+Wessel	drop	surname
+Ahrensburg	drop	minor town
+Asics	drop	brand
+Brink	drop	surname/brand
+CDI	drop	car-engine brand label
+DHCP	drop	technical acronym
+David Cameron	drop	person
+Dörrautomat	keep	real compound noun
+Fever	drop	English word in a game title
+Heiligenhaus	drop	minor town
+Late	drop	English word
+Lovoo	drop	brand
+Mischa	drop	first name
+OpenStreetMap	drop	website/brand
+Pancakes	merge:Pancake	plural of an established loan
+Pendelleucht	merge:Pendelleuchte	cut-off lemma
+PowerShell	drop	product
+Reagan	drop	person
+
+# question BMZ: a federal ministry acronym, but also appears as an insurance product; kept as a nationally known institution, unclear whether ministries count

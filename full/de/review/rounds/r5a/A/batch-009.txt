@@ -1,0 +1,44 @@
+Duncan	drop	personal name
+Eagles	drop	sports club / name, English
+Ebersberg	drop	town, not on the place list
+Erdnuß	merge:Erdnuss	old spelling; the text mostly has the plural Erdnüsse
+Fahrstraße	keep	real German compound (railway and road term)
+Growth	drop	English word, not established in German
+Julien	drop	first name
+Juristin	keep	common noun (female lawyer)
+Ka	drop	name or fragment
+Kurth	drop	surname
+Nordstadt	keep	common noun for a city district, used with adjectives
+Schwartz	drop	surname
+Serge	drop	first name
+WEB	drop	minor organisation or technical acronym
+Wallace	drop	name
+Wildlife	drop	English word, part of organisation names
+case	drop	English word, not established in German
+nebenh	merge:nebenher	cut-off lemma, text has nebenher
+phpBB	drop	software brand
+Draft	drop	English sports term, not established
+Exclusive	drop	English adjective (German is exklusiv)
+Extensions	drop	English plural, not established as a lemma
+Giant	drop	brand name
+Kenneth	drop	first name
+Lauda	drop	surname
+NP	drop	two-letter abbreviation
+PUR	merge:pur	German adjective filed under a capitalised lemma
+Rakut	drop	cut-off brand name (Rakuten)
+Tölz	drop	small town (Bad Tölz)
+Ukraine-Krise	keep	real German compound
+Uncharted	drop	game title
+Verhandlungstermin	keep	real German noun
+VersandMarke	drop	template text from shop pages
+err	drop	junk, low diversity
+warikos	drop	junk, low diversity
+ATI	drop	company brand
+Baling	drop	cut-off town name (Balingen), not on the place list
+Captivate	drop	software product
+DVR	drop	minor organisation or technical acronym
+Disease	drop	English word, not established in German
+
+# question Nordstadt: district name in the examples but also a common noun; kept as common noun
+# question Extensions: hair extensions are used in German, but I judged it not established enough; dropped
+# question DVR: Deutscher Verkehrssicherheitsrat is a minor body; dropped, though it could count as nationally known

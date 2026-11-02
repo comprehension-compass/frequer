@@ -1,0 +1,42 @@
+Backnang	drop	town, not on the place list
+Coleman	drop	surname or brand
+Ex-Frau	keep	real hyphenated German compound
+Gerard	drop	personal name
+Hopper	drop	surname
+MMA	keep	sport acronym used as an ordinary word (MMA-Kampf)
+Online-Buchung	keep	real compound
+Poetry	drop	English word not established; only in "Poetry Slam"
+SMD	drop	technical acronym
+Serra	drop	place or personal name
+VBA	drop	technical acronym
+selbstreden	merge:selbstredend	cut-off form of selbstredend
+Bones	drop	TV series title
+Dario	drop	first name
+EW	drop	abbreviation or company acronym
+Fremdkapital	keep	common noun mistagged as a name
+Gill	drop	surname
+Integrated	drop	English word not established; company name text
+Lienz	drop	town
+Lindemann	drop	surname
+Merchant	drop	English word not established in German
+Quito	drop	foreign city not on the reviewed list
+Remarketing	keep	established marketing noun, common-noun use
+Ripple	drop	cryptocurrency brand
+Social-Media	keep	established loan compound
+Thin	drop	English word not established
+namenhaft	merge:namhaft	misspelt form of namhaft
+Überschreit	merge:überschreiten	cut-off verb filed as a noun
+Advents-Bahn	drop	splitter junk
+DKV	drop	company or organisation acronym
+Helmholtz-Zentrum	drop	minor organisation name
+Immobiliensuch	merge:Immobiliensuche	cut-off noun
+KINDER	merge:Kind	capitalised plural of Kind
+Kartenleger	keep	real word
+Object	drop	English word not established
+Strange	drop	English word or surname
+Support-Team	keep	established loan compound
+card	drop	English word not established
+entry	drop	English word not established
+had	drop	English auxiliary
+# question MMA: sport acronym; it is not an organisation name in common use, but it may be specialist; kept as an ordinary word
+# question namenhaft: the correct spelling is namhaft; the lemma is a common misspelling of it

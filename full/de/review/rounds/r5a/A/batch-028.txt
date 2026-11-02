@@ -1,0 +1,43 @@
+AVG	drop	Austrian law abbreviation / antivirus brand, a name
+Based	drop	English word, not established in German
+Casper	drop	personal name
+Chianti	keep	common noun (wine), mistagged as a name
+EFH	drop	abbreviation of Einfamilienhaus
+Engelbert	drop	first name
+Hämatom	keep	ordinary medical noun
+IT-Services	merge:IT-Service	hyphenated compound filed under its English plural
+Internet-Zugang	keep	real German compound
+Karlsbad	drop	town not on the place list
+Kenny	drop	personal name
+Kolb	drop	surname
+Mask	drop	English word, not established
+NOW	drop	English word / name
+OE	drop	two-letter fragment
+Olympic	drop	English word / brand name
+Turkish	drop	English word, not established
+Wandsbek	drop	district name
+XPS	drop	product name
+after	drop	English word, not established
+AVB	drop	insurance-terms abbreviation
+Appliance	drop	English IT jargon, not established
+BIZ	drop	abbreviation / website name
+Barrow	drop	street name in an address
+Cannstatt	drop	district name
+DirectX	drop	product/brand name
+Drums	drop	English word, not established
+Eddy	drop	personal name
+Frühschoppe	merge:Frühschoppen	clipped citation form of Frühschoppen
+Monti	drop	surname
+Müntefering	drop	politician's surname
+Sheet	drop	English word, not established
+Soros	drop	surname
+Speech	drop	English word, not established
+Therese	drop	first name
+Unterabsatz	keep	real German noun, legal-text vocabulary
+Wissenschafts-Bahn	drop	splitter junk from a truncated compound
+release	merge:Release	noun filed lower-case; established IT loan
+Anneliese	drop	first name
+Audition	drop	English word, not established in German
+
+# question IT-Services: the rules don't say whether an English plural in a hyphenated loan compound should be merged to the singular, so I merged it.
+# question release: it is unclear whether Release is established enough as a loan; I judged it established in German IT usage and merged it.

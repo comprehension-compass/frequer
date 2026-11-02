@@ -1,0 +1,42 @@
+Sinclair	drop	personal name
+Wilders	drop	personal name
+hard	drop	English word, not established in German
+key	drop	English word, not established in German
+Attendorn	drop	town
+BOSCH	drop	company name
+Bolero	keep	common noun (dance, jacket)
+Complex	drop	English product-name text
+Crowd	drop	English, not established in German
+Donaueschingen	drop	town
+Frankenberg	drop	town
+Gobbi	drop	surname
+Kontra	keep	real word (pro und kontra)
+Logs	merge:Log	plural of the IT loan Log
+Nordhesse	drop	minor region, not on the place list
+PGA	drop	sports organisation acronym
+Schwelm	drop	town
+Spam-Ordner	keep	real German compound
+Timmendorfer	drop	place name
+Toledo	drop	foreign city, not on the list
+UN-Generalsekretär	keep	real compound, UN institution
+security	drop	English word, not established in German
+speed	drop	English word, not established in German
+Bailey	drop	personal name
+Barmenia	drop	company name
+CSI	drop	TV series and brand name
+KAUFEN	merge:kaufen	verb filed under a capitalised lemma
+Must-have	keep	established loan, hyphenated compound
+Notre	drop	fragment of a French place or church name
+Online-Marktplatz	keep	real German compound
+Prater	drop	Vienna park, a place name not on the list
+SEC	drop	foreign agency acronym
+Selenskyj	drop	personal name
+SumUp	drop	brand name
+Sustainability	drop	English, not established in German
+Visit	drop	mostly the English word
+WSV	drop	sports club or authority acronym
+Wanda	drop	first name
+Web-Sit	merge:Website	cut-off citation of Website
+Abmeld	merge:abmelden	cut-off citation, written as abmelden
+# question Visit: 75 of the 403 occurrences are "visiten" (Visite, medical round); mostly English "visit", so dropped
+# question Logs: the English plural may not be the German Log; merged on the assumption that Log is established in German IT usage

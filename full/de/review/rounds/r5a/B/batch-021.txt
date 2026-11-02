@@ -1,0 +1,41 @@
+TN	drop	abbreviation/name-like, length 2
+TSC	drop	sports club abbreviation
+TUN	merge:tun	verb filed under capitalised lemma
+Anselm	drop	first name/surname
+Capitol	drop	name of a building/place
+Chiang	drop	surname/place name
+ExpertInn	merge:Expertin	cut-off lemma from ExpertInnen
+Haug	drop	surname
+KGV	drop	minor organisation abbreviation
+Line-Up	keep	established loan, hyphenated compound
+Manor	drop	English name element
+Margin	drop	English word not established in German
+Reynolds	drop	surname/company
+Roses	drop	band name element (Guns N' Roses)
+SOS-Kinderdorf	keep	nationally known organisation, real compound
+Seenland	drop	regional place name, not on the place list
+Spirulina	keep	common noun (alga), tagger mistake
+VIA	merge:via	preposition filed under capitalised lemma
+root	drop	English tech word
+Assisi	drop	minor town name
+Bilddat	merge:Bilddaten	cut-off lemma
+CLUB	merge:Club	capitalised variant of an established loan
+Cora	drop	first name
+DSA	drop	specialist/brand acronym
+Dahl	drop	surname
+Dyson	drop	brand
+FSG	drop	organisation acronym
+Fail	drop	English word not established in German
+Gewerbeimmobilien	merge:Gewerbeimmobilie	plural filed as lemma
+Hanno	drop	first name
+Herzklopfen	keep	common noun mistagged as a name
+Pal	drop	name/English word
+RZ	drop	abbreviation, length 2
+Uelze	drop	town name, cut-off
+Xinhua	drop	news agency, not a nationally famous German institution
+Zach	drop	first name
+friends	drop	English word
+nev	drop	English fragment
+Adi	drop	first name
+EMEA	drop	business acronym
+# question Seenland: regional name (Fränkisches Seenland) but also a real common compound (31.5% after adjective); dropped as a place name not on the list

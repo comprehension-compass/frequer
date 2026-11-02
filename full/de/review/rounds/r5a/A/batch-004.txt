@@ -1,0 +1,43 @@
+Preetz	drop	town, not on the place list
+RF	drop	abbreviation/name, two letters
+Sekundarstuf	merge:Sekundarstufe	cut-off lemma
+Sherlock	drop	fictional character name
+Trinidad	drop	place name not on the learnable list
+trading	drop	English word not established in German
+Cayenne	keep	common noun (the spice), also a car brand
+Chamäleon	keep	common noun the tagger took for a name
+Clouds	merge:Cloud	plural of an established loan
+IPS	drop	technical acronym
+IT-Dienstleistung	keep	real German compound
+Inch	drop	English unit word
+Internet-Auftritt	keep	real German compound
+Mao	drop	historical figure
+Melzer	drop	surname
+Pak	drop	name or abbreviation
+Single-Frau	keep	real German compound
+e-Bikes	merge:E-Bike	plural filed under a lower-case form
+their	drop	English word
+Accounting	drop	English word not established in German
+Asterix	drop	fictional character name
+Coworking	keep	established loan
+Eike	drop	first name
+Hurghada	drop	town, not on the place list
+Kistler	drop	company or surname
+Klug	merge:klug	adjective filed under a capital
+Papenburg	drop	town
+Rechnungs-Bahn	drop	splitter junk from a cut-off compound
+Tages-Anzeiger	drop	newspaper name, a brand
+Wirtschaftsprüfungsgesellschaft	keep	real long compound
+rot-weiß	keep	real hyphenated adjective
+Befestig	merge:befestigen	cut-off verb, written as befestigen
+Chen	drop	surname
+Drilling	keep	real German word (triplet)
+Favre	drop	surname
+Freitagmorge	merge:Freitagmorgen	cut-off lemma
+Haartransplantation	keep	real word
+Hager	drop	surname or company name
+Helferinne	merge:Helferin	cut-off lemma
+Honecker	drop	historical figure
+
+# question Cayenne: ambiguous between the spice (common noun) and the Porsche model; kept for the spice sense.
+# question Coworking: tagged PROPN but used as a common loan; kept as established.

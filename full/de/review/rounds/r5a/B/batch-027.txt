@@ -1,0 +1,42 @@
+Tilo	drop	first name
+Amboss	keep	common noun mistagged as a name
+BOS	drop	name-like acronym, not an everyday word
+Branch	drop	English word not established in German
+Brustwarz	merge:Brustwarze	cut-off lemma
+Charger	drop	English word, car and sports-team name
+EGMR	keep	well-known European court, referred to by name
+EU-Datenschutzgrundverordnung	keep	real German compound
+IDS	drop	minor organisation or technical acronym
+ITS	drop	English word or acronym, not a German word
+Milliardenhöhe	keep	real German noun
+OER	drop	technical acronym
+Sen	drop	name or fragment
+Soden	drop	minor place name
+Strasbourg	drop	foreign city not on the place list
+Thrones	drop	part of a title
+Tucholsky	drop	surname
+VDA	drop	minor industry organisation
+ZGB	drop	technical acronym for a Swiss law
+portabl	merge:portabel	cut-off adjective lemma
+AFC	drop	sports club
+Andernach	drop	town
+Audio-CD	keep	real German compound
+Baier	drop	surname
+Domingo	drop	name
+Fairy	drop	English word and brand
+Fanny	drop	first name
+Gravity	drop	film title
+Hitchcock	drop	surname
+January	drop	English month name
+Luka	drop	first name
+M-V	drop	abbreviation
+Merchandising	keep	established loan
+Nebelscheinwerfer	keep	real German compound
+Ostfildern	drop	town
+Pace	drop	English word not established in German
+Pressing	keep	established football loan
+Shabby	drop	English word, only in "Shabby Chic" style text
+Stillkissen	keep	real German noun
+Tasting	keep	established loan in wine and spirits
+
+# question EGMR: a court acronym; I treated it as a nationally known institution and kept it, but it could count as a specialist acronym.

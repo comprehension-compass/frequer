@@ -1,0 +1,41 @@
+Wasserski	keep	ordinary common noun mis-tagged as a name
+Youngtimer	keep	established German noun for a car
+BMS	drop	brand/company acronym
+Böhnhardt	drop	surname
+Chaussee	keep	common noun (type of road)
+Familienbeihilfe	keep	real Austrian compound noun
+Hartwig	drop	first name or surname
+Hipster	keep	established loan, common noun
+Liane	keep	common noun (liana), plural Lianen is frequent
+MailChimp	drop	brand
+Massachusetts	drop	place name not on the learnable list
+TUM	drop	minor organisation acronym
+Television	drop	English word not established in German
+ThinkPad	drop	product brand
+Untersuchungs-Bahn	drop	splitter junk
+Vehicle	drop	English word not established in German
+VertreterInn	merge:Vertreterin	the text only has the plural Vertreterinnen
+Weiters	merge:weiters	adverb filed under a capitalised lemma
+Yasmin	drop	first name
+anzuwendend	merge:anwenden	inflected participle form
+bipolar	keep	real adjective
+büch	merge:Buch	clipped lemma, text has Bücher
+here	drop	English word
+Alt-Taste	keep	real compound
+Atletico	drop	sports club
+Banana	drop	brand or place name
+Betreuungs-Bahn	drop	splitter junk
+Co-Autor	keep	real hyphenated compound
+Cristina	drop	first name
+Din	drop	name or fragment
+Eva-Maria	drop	first name
+Flamenco	keep	common noun
+Gefickt	merge:ficken	participle form of a real verb
+Gomera	drop	minor place name
+Holle	drop	name
+Jared	drop	first name
+Scharf	merge:scharf	adjective filed under a capitalised lemma
+Solaris	drop	product or brand name
+T-shirt	merge:T-Shirt	same word, correct spelling
+Tolkien	drop	surname of an author
+# question Gefickt: vulgar and concentrated in porn spam, so merging it to ficken may not suit a learner list; the rules say to merge participle forms

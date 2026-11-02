@@ -1,0 +1,42 @@
+EMRK	drop	treaty acronym only legal specialists use
+Gartenstuhl	keep	ordinary common noun, tagger mistook it for a name
+HBO	drop	company/brand name
+Köster	drop	surname
+MitarbeiterInnen	merge:Mitarbeiter	gendered plural form of a common noun
+Nazareth	drop	place name not on the learnable list
+Ramon	drop	first name
+Rhodan	drop	fictional character/surname
+Sammy	drop	first name
+Torbe	drop	cut-off form of the first name Torben
+Web-App	keep	real hyphenated compound, established loan
+yeah	drop	English interjection not established in German
+Baltic	drop	English name word
+Bergisch	merge:bergisch	adjective filed under a capitalised lemma
+Bhutan	drop	place name still in batch, so not on the learnable list
+CR	drop	two-letter abbreviation
+Einvernehm	merge:Einvernehmen	cut-off lemma, the real noun is Einvernehmen
+Forsthaus	keep	ordinary common noun
+Freital	drop	town name
+Juri	drop	first name
+Knights	drop	English name/brand word
+License	drop	English word not established in German
+Lights	drop	English word not established in German
+MVP	drop	sports acronym, not an ordinary German word
+Melle	drop	town/surname
+Menlo	drop	place name
+Precision	drop	English word not established in German
+Queensland	drop	place name still in batch, so not on the learnable list
+Selena	drop	first name
+T-Online	drop	company/brand name
+T-System	drop	company/brand name
+UFC	drop	sports organisation/brand
+US-Konzern	keep	real German compound
+Wrestling	keep	established loan, common noun
+Zhang	drop	surname
+basic	drop	English word not established in German
+nicht-kommerziell	keep	real hyphenated adjective compound
+AktivistInnen	merge:Aktivist	gendered plural form of a common noun
+Baar	drop	town name
+Battery	drop	English word not established in German
+# question EMRK: a famous treaty acronym, but not listed as nationally famous institution; dropped as a specialist acronym
+# question nicht-kommerziell: kept as hyphenated form, though the standard spelling is nichtkommerziell

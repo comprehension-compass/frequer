@@ -1,0 +1,43 @@
+GU	drop	two-letter name/fragment
+Hain	drop	surname
+Lucie	drop	first name
+Marty	drop	first name
+Mina	drop	first name
+Neudorf	drop	minor village name
+Payments	drop	English, brand use (Amazon Payments)
+Presley	drop	person name
+Prof	drop	abbreviation/title
+SPSS	drop	specialist software brand
+Spiritus	keep	common noun (Spiritus, alcohol/spirit)
+Themenübersicht	keep	real German compound noun
+VDH	drop	minor organisation acronym
+koronar	keep	real medical adjective, lemma form valid
+B-Jugend	keep	real German compound (youth team category)
+BMW Group	drop	company name
+BPA-frei	keep	real compound adjective
+Bally	drop	brand/company
+Bankkaufmann	keep	common noun mistagged as name
+Barroso	drop	person name
+Cadillac	drop	brand
+Castello	drop	place/name, not learnable
+Environmental	drop	English, not established
+FOX	drop	brand/company
+Gamble	drop	surname/English
+Imaging	drop	English, company name use
+Kaya	drop	first name/surname
+Kiewer	merge:Kiew	adjectival derivative of Kiew
+Lombardi	drop	surname
+Nanny	keep	established loan, common noun
+Norwegian	drop	English word, not German form
+PLM	drop	technical acronym
+RLP	drop	abbreviation of region
+Said	drop	name/English word
+Schweizerinn	merge:Schweizerin	misspelt citation of Schweizerin
+Schönebeck	drop	town name
+Stumpf	keep	real German word (stumpf/Stumpf), not a name here
+Subway	drop	brand
+Wohnungseigentümergemeinschaft	keep	real long German compound
+XR	drop	two-letter technical acronym
+
+# question Kiewer: Kiew is a place name that may be on the reviewed list; if not, drop would apply.
+# question Stumpf: capitalised, but the adjective stumpf and the noun Stumpf (stump) both exist; kept as the noun.

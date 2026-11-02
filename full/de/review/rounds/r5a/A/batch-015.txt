@@ -1,0 +1,44 @@
+AutorInn	merge:Autorin	gendered plural form of Autorin
+Blankenburg	drop	town name
+Clio	drop	car brand
+Falkensee	drop	small town
+Fitz	drop	surname
+Mumia	drop	personal name
+Mund-Nasen-Schutz	keep	real German compound
+Progress	drop	English word, not established
+USB-C	keep	established tech compound with USB
+herauskristallisi	merge:herauskristallisieren	cut-off verb lemma
+Aida	drop	brand/company
+Balm	drop	English product word
+Cloud-Dienst	keep	real compound, established loan element
+D-Mark	keep	real German currency compound
+DATA	drop	English word, not established
+Disko	keep	common noun
+EBA	drop	minor agency acronym
+Flame	drop	English word/name junk
+Juhu	keep	German interjection
+Kaffeetrinke	merge:Kaffeetrinken	cut-off nominalised noun
+Ludwig-Maximilians-Universität	keep	nationally known university
+MY	drop	English word/name
+Marten	drop	surname
+Memoir	merge:Memoiren	German plural-only noun
+Processing	drop	English word, not established
+Quarter	drop	English word, not established
+Rewards	drop	English word/brand programme
+Romance	drop	English genre word, not established
+SSL-Zertifikat	drop	technical SSL jargon
+Tampa	drop	foreign city
+Töt	merge:töten	cut-off verb lemma
+Verden	drop	small town
+Weekly	drop	English word/title
+Window	drop	English word, not established
+Wusterhause	drop	town name (Königs Wusterhausen)
+Zahlungs-Bahn	drop	splitter junk
+body	drop	English word, not established
+Alive	drop	English word, not established
+Alta	drop	name
+B-Klasse	keep	real German compound (league class)
+
+# question Ludwig-Maximilians-Universität: not named in the institution list; kept as a nationally famous university
+# question SSL-Zertifikat: the hyphen-compound rule and the SSL technical-acronym rule point in different directions; dropped as specialist jargon
+# question EBA: Eisenbahn-Bundesamt might count as a national body, but it is little known to learners; dropped

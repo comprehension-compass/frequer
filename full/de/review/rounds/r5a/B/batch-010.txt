@@ -1,0 +1,42 @@
+FensterDeutsche	drop	spam text, 3 documents only
+Middle	drop	English word, not established in German
+Para	drop	foreign (Spanish/Portuguese) or name, not German
+Produktratgeber	keep	real German compound
+Telefonate	merge:Telefonat	plural filed as lemma
+VZ	drop	abbreviation or brand, 2 letters
+Verpackungs-Bahn	drop	splitter junk
+Windows-Version	keep	real hyphenated compound
+Backhaus	keep	common noun
+Brooks	drop	surname
+Caribbean	drop	English name or brand
+Humanismus	keep	common noun
+IPO	keep	finance acronym used in general news
+Königssee	drop	minor place name
+Lu	drop	name
+Lucius	drop	first name
+Marita	drop	first name
+Milo	drop	first name
+Randy	drop	first name
+VWL	drop	abbreviation of Volkswirtschaftslehre
+Zionist	keep	German word
+help	drop	English, not established
+place	drop	English, not established
+why	drop	English, not established
+Bambi	drop	character or prize name
+Ego-Shooter	keep	established loan compound
+Ernest	drop	first name
+Frida	drop	first name
+Hella	drop	first name or brand
+Holy	drop	English word or name
+Mapping	drop	English, not established
+Schulstraße	drop	street name
+Sourcing	drop	English business jargon
+WTO	keep	nationally known international institution
+point	drop	English or French fragment
+Überdie#Masc	merge:überdies	broken lemma for the adverb überdies
+Abwassergebühr	keep	real German noun
+Anfahr	merge:anfahren	cut-off lemma, written as anfahren
+Bodyguard	keep	established loan
+Cord	drop	name or surname
+
+# question IPO: finance acronym; unclear whether it counts as an ordinary word or a specialist acronym

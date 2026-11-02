@@ -1,0 +1,42 @@
+Trittin	drop	person's name
+UL	drop	two-letter abbreviation
+Urt	drop	name fragment
+Wanderurlaub	keep	real German compound noun
+Brake	drop	town or name
+Brick	drop	English word, not established in German
+DSC	drop	brand or technical acronym
+ESF	drop	specialist acronym
+Einleg	merge:einlegen	cut-off form of einlegen
+Griesheim	drop	town
+HE	drop	acronym or English word, not a German word
+Heimtextilie	merge:Heimtextilien	plural-only noun filed under a cut-off singular
+Hopp	drop	name
+Karla	drop	first name
+Lennart	drop	first name
+Nolte	drop	surname or brand
+Query	drop	English IT term, not established
+RECHT	merge:Recht	all-caps citation of the common noun
+UCI	drop	minor sports organisation
+VersandPreisvorschlag	drop	web shop template text
+please	drop	English word, not established
+Carol	drop	name
+Clement	drop	surname
+EGBGB	drop	legal acronym only specialists use
+Gesichts-Bahn	drop	splitter junk
+Haarpfleg	merge:Haarpflege	cut-off lemma
+LED-Technik	keep	real German compound
+MfS	keep	nationally known institution (Stasi ministry)
+Neuendorf	drop	minor place name
+Parodontiti	merge:Parodontitis	cut-off lemma
+Pencil	drop	product name
+Sc	drop	abbreviation or club
+Schulferie	merge:Schulferien	plural-only noun filed under a cut-off singular
+article	drop	English word, not established
+ketogen	keep	real adjective
+westafrikanisch	keep	real adjective, dictionary form
+Add-Ons	merge:Add-on	plural filed as lemma
+Bastei	keep	common noun
+Darkness	drop	English word or name
+Deployment	drop	English IT jargon, not established
+# question RECHT: lemma is all-caps and written "recht" (441). It could be the adjective/adverb *recht* rather than the noun *Recht*; I merged to the noun.
+# question MfS: an acronym for a historical institution, not on the explicit institution list. I kept it as nationally known.

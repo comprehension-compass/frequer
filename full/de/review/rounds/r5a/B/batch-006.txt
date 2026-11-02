@@ -1,0 +1,43 @@
+EMRK	drop	treaty acronym only specialists use
+Gartenstuhl	keep	common noun mistagged as a name
+HBO	drop	company name
+Köster	drop	surname
+MitarbeiterInnen	merge:Mitarbeiterin	gendered plural of Mitarbeiterin
+Nazareth	drop	place name not on the learnable list
+Ramon	drop	first name
+Rhodan	drop	fictional character name
+Sammy	drop	first name
+Torbe	drop	cut-off of the first name Torben
+Web-App	keep	real compound
+yeah	drop	English interjection, not established in German
+Baltic	drop	English name
+Bergisch	drop	minor regional adjective and name
+Bhutan	drop	place name not on the learnable list
+CR	drop	two-letter abbreviation
+Einvernehm	merge:Einvernehmen	clipped citation
+Forsthaus	keep	common noun
+Freital	drop	town
+Juri	drop	first name
+Knights	drop	English name
+License	drop	English, not established
+Lights	drop	English, not established
+MVP	drop	sports acronym, specialist use
+Melle	drop	town or surname
+Menlo	drop	place name
+Precision	drop	English, not established
+Queensland	drop	place name not on the learnable list
+Selena	drop	first name
+T-Online	drop	company/brand
+T-System	drop	company/brand
+UFC	drop	sports organisation
+US-Konzern	keep	real German compound
+Wrestling	keep	established loan
+Zhang	drop	surname
+basic	drop	English, not established
+nicht-kommerziell	keep	real German adjective
+AktivistInnen	merge:Aktivistin	gendered plural of Aktivistin
+Baar	drop	town or surname
+Battery	drop	English, not established
+
+# question EMRK: a well-known legal treaty abbreviation, so it may count as a nationally known institution; dropped as a specialist acronym
+# question nicht-kommerziell: usually written nichtkommerziell; kept as a real hyphenated compound

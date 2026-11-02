@@ -1,0 +1,43 @@
+NMS	drop	acronym for a licence plate or school, not a general word
+Nrw	drop	abbreviation of a region name, wrongly cased; not a word
+Registration	keep	real German noun, used in Swiss and formal German
+Sansibar	drop	place name not on the reviewed list
+Staff	drop	English word not established in German
+bAV	drop	abbreviation known only to specialists
+Auschecke	merge:auschecken	verb filed under a capitalised, cut-off lemma
+Bernie	drop	first name
+Chill	merge:chillen	verb filed under a capitalised lemma
+Elli	drop	first name
+FIS	drop	minor sports organisation
+FREE	drop	English word not established in German
+FREI	merge:frei	adjective filed under a capitalised lemma
+Google-Dienst	keep	real compound a learner would meet
+Hildebrandt	drop	surname
+Kürbiskerne	merge:Kürbiskern	noun filed under its plural
+Machu	drop	fragment of a place name
+Merk	merge:merken	verb filed under a capitalised lemma
+Samos	drop	place name not on the reviewed list
+Tabea	drop	first name
+Unterstellunge	merge:Unterstellung	cut-off plural; singular is the lemma
+WIRKLICH	merge:wirklich	adverb filed under a capitalised lemma
+Westfalia	drop	brand or club name
+Zip	drop	English file-format term, not established in German
+adult	keep	real German adjective (adulte Tiere)
+alia	merge:alias	mostly the word alias, filed under a cut-off lemma
+always	drop	English word not established in German
+auserkiesen	keep	real, though rare, verb; lemma is the dictionary form
+erik	drop	first name
+Bundesliga-Saison	keep	real German compound
+Cha	drop	not a German word, name-like fragment
+Clock	drop	English word not established in German
+Lo	drop	not a German word, name-like fragment
+MSV Duisburg	drop	sports club
+Maintal	drop	place name not on the reviewed list
+Monatsrat	merge:Monatsrate	cut-off lemma of Monatsrate
+PB	drop	abbreviation, two letters
+Pansy	drop	English word or name, low diversity
+Picchu	drop	fragment of a place name
+Steuerungs-Bahn	drop	splitter junk from a clipped compound
+
+# question auserkiesen: the lemma is the dictionary form but only participle forms occur; kept as a rare real verb.
+# question Zip: tagger reads it as a name, but it may count as a loan for the file format; dropped as not established.

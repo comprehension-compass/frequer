@@ -1,0 +1,43 @@
+Tetra	drop	brand/product name
+Bandai	drop	company name
+CE-Kennzeichnung	keep	real German compound
+GPR	drop	technical acronym, few documents
+HT	drop	two-letter abbreviation
+Habitat	keep	German word, used in biology
+Heiligendamm	drop	town, not on the place list
+Hermin	drop	first name (Hermine)
+Kentucky	drop	foreign place name, not on the place list
+Kondenswasser	keep	ordinary common noun
+Massimo	drop	first name
+Monitore	merge:Monitor	noun filed under its plural
+Ridge	drop	surname or wrestler name
+Rotkäppche	merge:Rotkäppchen	clipped lemma
+Titus	drop	first name
+Wash	drop	English word, not established in German
+Westminster	drop	London district, not on the place list
+Workspace	drop	English tech term, not established
+fü	merge:für	cut-off spelling of für
+professional	drop	English form; German word is professionell
+BAD	merge:Bad	noun filed under capitalised form
+Cayennepfeffer	keep	common noun the tagger mistook for a name
+DIGITAL	merge:digital	adjective filed under capitalised form
+E-Book-Reader	keep	real compound
+E-Scooter	keep	real compound
+Empires	drop	game title
+Flush	drop	English poker term
+Frontier	drop	English word or brand
+Johansson	drop	surname
+Kfz-Steuer#Neut	merge:Kfz-Steuer	tagging artifact on a real compound
+LU	drop	abbreviation
+Path	drop	English word
+Selbstbewusstseinstraining	keep	real compound
+Siem	drop	surname or first name
+Vorhofflimmer	merge:Vorhofflimmern	cut-off lemma
+WLAN-Router	keep	real compound
+Wiesloch	drop	town, not on the place list
+massag	merge:Massage	cut-off lemma
+Überwachungs-Bahn	drop	splitter junk
+Banks	drop	surname
+
+# question Selbstbewusstseinstraining: concentrated in 26 documents with brand-like text (IntSel); kept because it is a real compound.
+# question Workspace: could count as an established tech loan; dropped as not yet established.

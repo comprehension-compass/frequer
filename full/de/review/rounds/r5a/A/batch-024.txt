@@ -1,0 +1,42 @@
+Ammann	drop	surname
+Claudius	drop	personal name
+Construction	drop	English word, not established in German
+Dienstleistungs-Bahn	drop	splitter junk, cut-off compound fragment
+Dübendorf	drop	minor town, not on the place list
+Emmending	drop	cut-off form of a minor town (Emmendingen), not on the place list
+HIV-Infektion	keep	real German compound
+Hopkin	drop	surname
+Janssen	drop	surname
+Luxe	drop	not a German word, name-like or brand text
+Mazedonie	merge:Mazedonien	cut-off lemma of Mazedonien, which is on the learnable places list
+Platzgrund	keep	real compound, mostly seen in plural or in "aus Platzgründen"
+QVC	drop	brand
+Raven	drop	name or brand
+Santos	drop	surname or place name
+Spiderman	drop	fictional character, brand
+Thanksgiving	keep	common noun for a well-known holiday
+Togo	drop	place name not on the reviewed list
+Treasure	drop	English word, in titles
+US-Markt	keep	real German compound
+Vertrags-Bahn	drop	splitter junk, cut-off compound fragment
+WOHNEN	merge:wohnen	verb filed under a capitalised lemma
+Zadar	drop	foreign city
+AbholstationKostenloser	drop	concatenation junk from shop text
+Acronis	drop	company or product
+Bachelor-Abschluss	keep	real German compound
+Bahia	drop	Brazilian state, not on the place list
+Beuth	drop	surname or publisher name
+Bio-Lebensmittel	keep	real German compound
+DIN-Norm	keep	real German compound
+IT-Security	drop	English compound, not established; German is IT-Sicherheit
+KGaA	drop	company legal-form acronym, specialist use
+Margret	drop	first name
+Midnight	drop	English word, in titles
+Painting	drop	English word, not established in German
+Partnership	drop	English word, not established in German
+Push-Benachrichtigungen	merge:Push-Benachrichtigung	plural filed as lemma
+RTX	drop	product acronym
+Rangnick	drop	surname
+Richard Wagner	drop	historical person
+# question Thanksgiving: a foreign-flagged holiday name; kept as a common noun, but it could be read as a name or an unestablished English word.
+# question KGaA: the rules keep GmbH as an ordinary acronym but do not say whether other legal-form acronyms count; dropped as specialist.

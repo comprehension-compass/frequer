@@ -1,0 +1,42 @@
+IPTV	drop	technical acronym only specialists use
+Langenscheidt	drop	publisher brand
+Load	drop	English word not established in German
+Online-Katalog	keep	real German compound
+Pilatus	drop	mountain/person name
+Riley	drop	surname
+Tagungs-Bahn	drop	splitter junk, cut-off hyphen fragment
+VV	drop	abbreviation/name, length 2
+kuch	merge:Kuchen	mostly "kuchen", a noun filed in lower case
+zwölfjährig	keep	real adjective, dictionary form
+FRAGEN	merge:Frage	plural noun filed under a capitalised lemma
+Harper	drop	surname
+Herzogenaurach	drop	town
+Insignia	drop	car model/brand
+Kaufbeur	drop	town name, cut-off lemma
+Nespresso	drop	brand
+PUMA	drop	brand
+Parc	drop	restaurant name
+Salman	drop	personal name
+TLS-Verschlüsselung	keep	real German compound
+Tapatalk	drop	app brand
+WORLD	drop	English word, name
+Word-Dokument	keep	real German compound
+Bitch	drop	English word not established in German
+Francois	drop	personal name
+Functional	drop	English word not established
+Gebhardt	drop	surname
+Hellsehe	merge:Hellsehen	cut-off lemma of the noun Hellsehen
+Jensen	drop	surname
+Moss	drop	surname
+NMM	drop	low-diversity acronym
+Reykjavik	drop	place name not on the reviewed list
+START	merge:Start	common noun in capitals
+Sachstand	keep	real German noun
+Sue	drop	personal name
+Synchronisier	merge:synchronisieren	cut-off verb
+Tavern	merge:Taverne	noun filed under a plural/English form
+Vince	drop	first name
+school	drop	English word
+Ale	drop	English word/name, not established
+
+# question Reykjavik: a well-known capital, but the rules say any place name still in the batch is not on the learnable list, so I dropped it.

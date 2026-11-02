@@ -1,0 +1,43 @@
+Satteldach	keep	common noun mistagged as PROPN
+Schavan	drop	surname of a person
+Service-Team	keep	established loan compound, real word
+dreiwöchig	keep	real adjective; inflected forms are the normal written shape
+kontaktanzeig	merge:Kontaktanzeige	cut-off lemma of Kontaktanzeige
+portable	drop	English adjective, not established in German
+wochenen	merge:Wochenende	broken lemma, all occurrences are Wochenende
+Arbeitsstätt	merge:Arbeitsstätte	cut-off lemma of Arbeitsstätte
+Bunny	drop	name/costume brand word, English, name-like
+Contemporary	drop	English word not established in German
+DGE	drop	minor organisation acronym
+Erkrath	drop	small town
+Isla	drop	first name or place, not on list
+Muttermal	keep	real German noun, low diversity only from topic
+Naumann	drop	surname
+October	drop	English month name, not German
+Vorverkaufsstell	merge:Vorverkaufsstelle	cut-off lemma of Vorverkaufsstelle
+Yücel	drop	surname of a person
+Apple-Gerät	keep	real German compound, learner-useful
+CSV-Datei	keep	real German compound with common file term
+Eau	drop	fragment of French perfume names
+Ex-Freundin	keep	real German compound
+Haan	drop	small town
+ICT	drop	technical acronym only specialists use
+Kästner	drop	surname of a person
+Moldawien	drop	country not on the reviewed list given; place name still in batch
+Nordhorn	drop	small town
+QS	drop	two-letter abbreviation/acronym, not a word
+Quedlinburg	drop	small town
+Rudergerät	keep	real German noun
+Salem	drop	place or name
+Scala	drop	name (opera house, software); not common word
+Teltow	drop	small town
+Thierry	drop	first name
+ÖSTERREICH	merge:Österreich	capitalised variant of the country name
+Casino-Spiel	keep	real German compound
+DMG	drop	transliteration standard acronym, specialist
+De-Mail	keep	real German compound/service term used by public
+Diehl	drop	surname
+Eli	drop	first name
+
+# question Moldawien: rules say remaining place names drop, but Moldawien is a country; I dropped it per the rule, though it may belong on the reviewed list.
+# question ÖSTERREICH: Österreich is presumably on the place list and would have been removed from the batch; I merged it into the proper-case lemma.

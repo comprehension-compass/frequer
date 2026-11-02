@@ -1,0 +1,42 @@
+CX	drop	technical/brand acronym
+Diebstahls	merge:Diebstahl	genitive form of a common noun
+Dmitri	drop	first name
+Doug	drop	first name
+Fußball-Europameisterschaft	keep	real German compound
+Geröll	keep	common noun mistaken for a name
+Hofburg	drop	Vienna palace, a place name not on the list
+KA	drop	unclear fragment or abbreviation
+Lindsay	drop	first name or surname
+Michail	drop	first name
+Oakley	drop	brand
+Tunis	drop	foreign city not on the learnable list
+Wittgenstein	drop	surname of a historical figure
+Wulf	drop	first name or surname
+dead	drop	English word not established in German
+future	drop	English word not established in German
+Attersee	drop	minor lake and place name
+Barbado	merge:Barbados	cut-off form of the country name
+Bentheim	drop	minor place name
+Biermann	drop	surname
+Brighton	drop	foreign city not on the learnable list
+Corona-Verordnung	keep	real German compound
+Fatih	drop	first name
+Fricke	drop	surname
+Hohenheim	drop	district name
+Kati	drop	first name
+LWL	drop	minor regional organisation acronym
+Malereie	merge:Malerei	cut-off plural of Malerei
+Reck	keep	common noun (gymnastics apparatus) with a name-like tag
+U-Haft	keep	real German compound
+Utopia	keep	common noun
+Woraus	merge:woraus	adverb filed under a capitalised lemma
+XXXL	drop	brand and size label
+Yukon	drop	minor river and territory name not on the list
+Ziernäht	merge:Ziernaht	cut-off plural of Ziernaht
+Assa	drop	name or fragment
+Beam	drop	English word and name, not established in German
+Cave	drop	English word and surname, not established in German
+Drittländer	merge:Drittland	plural filed as lemma
+Friedman	drop	surname
+# question Hofburg: well-known Vienna landmark; treated as a minor place name and dropped, but it could count as a nationally known institution
+# question Reck: kept as the gymnastics noun, but the tag and the missing examples suggest it may mostly be a surname

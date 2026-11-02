@@ -1,0 +1,41 @@
+Troy	drop	first name
+Ziri	drop	first name
+Ancelotti	drop	surname of a person
+Android-Handy	keep	real hyphenated compound
+Boards	drop	English word not established in German
+Casablanca	drop	foreign city, not on the place list
+Dating-Seite	keep	real hyphenated compound
+Deborah	drop	first name
+EWE	drop	company
+Emerging	drop	English word, not established
+Geberit	drop	company/brand
+Hamann	drop	surname
+Hürth	drop	town
+Mueller	drop	surname
+Mühlhausen	drop	town
+Success	drop	English word, not established
+UNTERNEHMEN	merge:Unternehmen	all-caps form of the common noun
+buy	drop	English word
+essence	drop	cosmetics brand
+mehrmonatig	keep	real adjective, only inflected forms occur
+Blockchain-Technologie	keep	real hyphenated compound
+DSV	drop	organisation acronym
+Eisenberg	drop	town/surname
+Gerhardt	drop	surname
+Geschäftsstell	merge:Geschäftsstelle	cut-off lemma
+IT-Spezialist	keep	real hyphenated compound
+Kinect	drop	product brand
+Piece	drop	English word/brand
+Rocrail	drop	software name
+Vanilla	drop	English word/brand
+benei	merge:beneiden	cut-off verb
+essbereich	merge:Essbereich	noun under lower-case lemma
+Aufsetz	merge:aufsetzen	cut-off lemma, forms are aufsetzen
+Brass	drop	name
+Facebook-Nutzer	keep	real hyphenated compound
+GPS-Gerät	keep	real hyphenated compound
+HTW	drop	minor organisation acronym
+Kissing	drop	part of town name Bad Kissingen
+Kundennutz	merge:Kundennutzen	cut-off lemma
+Leslie	drop	first name
+# question aufsetzen: the noun-tagged lemma Aufsetz could also merge to the nominalised Aufsetzen; I chose the verb.

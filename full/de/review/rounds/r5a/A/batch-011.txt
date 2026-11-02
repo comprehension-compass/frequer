@@ -1,0 +1,43 @@
+Diem	drop	personal name
+Falkenberg	drop	place name not on list
+Handschuhfach	keep	common noun mistagged as a name
+KundInnen	merge:Kunde	gendered plural of Kunde
+LSD	keep	ordinary acronym in German
+Laufband	keep	common noun
+Middleton	drop	surname
+Neuruppin	drop	town
+Polizeikraft	keep	Polizeikräfte is a real plural with its own meaning
+Reinickendorf	drop	Berlin district
+Sido	drop	person (rapper)
+Spar	drop	brand
+Tessa	drop	first name
+Cats	drop	English name or title
+DOC	drop	file format or name, not a learner word
+Didier	drop	first name
+E-Mail-Postfach	keep	real German compound
+Elst	drop	place or surname
+FDP-Fraktion	keep	real compound naming a national political body
+Joyce	drop	personal name
+Lan	drop	name or fragment
+Leibniz-Institut	keep	real compound, well-known institution type
+MSN	drop	brand
+PID	drop	technical acronym
+Superb	drop	car model, English adjective
+Worlds	drop	English word, not established
+prinen	drop	English "print", broken lemma
+AFD	keep	nationally famous party
+Chamber	drop	English word
+Create	drop	English word
+GdP	keep	nationally known police union
+Guido Westerwelle	drop	person
+Havelland	drop	minor region
+Lid	keep	real German word (Augenlid)
+Lobo	drop	person (Sascha Lobo)
+Mid	drop	English word
+Push-Nachricht	keep	real German compound
+Riker	drop	fictional character name
+Terre	drop	name or foreign word
+Vorbeug	merge:vorbeugen	cut-off verb
+# question KundInnen: could merge to Kunde or Kundin; chose Kunde as the generic form
+# question Polizeikraft: lemma is the singular but the text is almost always the plural Polizeikräfte; kept as a plural with its own meaning
+# question Lid: tagger and wordfreq suggest English, but the inflected forms (lides, liden) look like German Lid (eyelid)

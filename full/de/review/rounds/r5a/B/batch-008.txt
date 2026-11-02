@@ -1,0 +1,43 @@
+Trittin	drop	person's surname
+UL	drop	two-letter abbreviation
+Urt	drop	name fragment
+Wanderurlaub	keep	ordinary German compound noun
+Brake	drop	place name or English fragment
+Brick	drop	English word, not established in German
+DSC	drop	organisation or technical acronym
+ESF	drop	specialist acronym
+Einleg	merge:einlegen	cut-off form of the verb einlegen
+Griesheim	drop	town name
+HE	drop	acronym or English pronoun, not a learner word
+Heimtextilie	merge:Heimtextilien	singular citation of a plural-only noun
+Hopp	drop	reads as a surname (hopps)
+Karla	drop	first name
+Lennart	drop	first name
+Nolte	drop	surname or furniture brand
+Query	drop	English IT term, not established
+RECHT	merge:Recht	noun filed under an uppercase lemma
+UCI	drop	minor sports organisation
+VersandPreisvorschlag	drop	shop template text
+please	drop	English word
+Carol	drop	name
+Clement	drop	name
+EGBGB	drop	specialist legal acronym
+Gesichts-Bahn	drop	splitter junk from the fragment "Gesichts-"
+Haarpfleg	merge:Haarpflege	cut-off lemma
+LED-Technik	keep	real German compound
+MfS	keep	nationally famous institution (Ministerium für Staatssicherheit)
+Neuendorf	drop	place name
+Parodontiti	merge:Parodontitis	cut-off lemma
+Pencil	drop	brand or English word
+Sc	drop	abbreviation or club
+Schulferie	merge:Schulferien	plural-only noun filed under a cut-off singular
+article	drop	English word
+ketogen	keep	real adjective
+westafrikanisch	keep	real adjective, dictionary form
+Add-Ons	keep	established loan compound
+Bastei	keep	common noun (bastion)
+Darkness	drop	English word
+Deployment	drop	English IT jargon, not established
+
+# question RECHT: written lowercase "recht" with 14.5% noun-like use, so it could be the adverb/adjective *recht*; I merged to the noun Recht.
+# question Hopp: could be the interjection *hopp*, but the inflected forms hopps/hoppen point to a surname; I dropped it.

@@ -1,0 +1,43 @@
+Wasserski	keep	ordinary common noun (water skiing)
+Youngtimer	keep	established German common noun for a car
+BMS	drop	brand/company acronym
+Böhnhardt	drop	surname
+Chaussee	keep	real German common noun, though here mostly in street names
+Familienbeihilfe	keep	real compound noun (Austrian benefit)
+Hartwig	drop	first name or surname
+Hipster	keep	established loan, common noun
+Liane	keep	real word (liana), though examples are mostly the first name
+MailChimp	drop	brand
+Massachusetts	drop	place name not on the learnable list
+TUM	drop	minor organisation acronym
+Television	drop	English word, and also a company name
+ThinkPad	drop	product brand
+Untersuchungs-Bahn	drop	splitter junk from a clipped compound
+Vehicle	drop	English word not established in German
+VertreterInn	merge:Vertreterin	gendered plural written with a capital I, the base is Vertreterin
+Weiters	merge:weiters	adverb filed under a capitalised lemma
+Yasmin	drop	first name
+anzuwendend	merge:anwenden	inflected gerundive filed as a lemma
+bipolar	keep	real adjective (bipolare Störung)
+büch	merge:Buch	clipped lemma, the forms are mostly Bücher
+here	drop	English word
+Alt-Taste	keep	real German compound
+Atletico	drop	sports club name
+Banana	drop	English word or brand name
+Betreuungs-Bahn	drop	splitter junk from a clipped compound
+Co-Autor	keep	real German compound
+Cristina	drop	first name
+Din	drop	norm acronym or name, not an ordinary word
+Eva-Maria	drop	first name
+Flamenco	keep	common noun (dance/music style)
+Gefickt	merge:ficken	participle filed as a lemma
+Gomera	drop	place name not on the learnable list
+Holle	drop	name (Frau Holle) or place
+Jared	drop	first name
+Scharf	merge:scharf	adjective filed under a capitalised lemma
+Solaris	drop	product or brand name
+T-shirt	merge:T-Shirt	wrong-case spelling of an established loan
+Tolkien	drop	surname
+
+# question Liane: a real noun (liana) but the examples are mostly the first name; I kept it.
+# question Din: lowercase "din" may be the DIN norm or a name, with no usable examples; I dropped it.

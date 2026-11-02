@@ -1,0 +1,42 @@
+Mascarpone	keep	common food noun
+Nights	drop	English, not established in German
+Prüfungsfrag	merge:Prüfungsfrage	cut-off lemma, written as the plural Prüfungsfragen
+Silk	drop	English or brand name
+Tabellenzweit	merge:Tabellenzweiter	cut-off lemma, written Tabellenzweiten
+Wirsing	keep	common noun (savoy cabbage)
+Wisconsin	drop	US state, not on the place list
+Würstche	merge:Würstchen	cut-off lemma
+X-Men	drop	film or comic name
+XVI	drop	Roman numeral in a name
+ZWEI	merge:zwei	number word filed under a capitalised lemma
+BFV	drop	minor organisation acronym
+Baldrian	keep	common noun (valerian)
+Bauleiter	keep	common noun
+Blutzelle	keep	valid singular lemma
+Credits	drop	English, name-like
+EASY	drop	English or brand
+ENDLICH	merge:endlich	adverb filed under a capitalised lemma
+Grönemeyer	drop	person
+Hansjörg	drop	first name
+Leitzin	merge:Leitzins	cut-off lemma
+Mercury	drop	brand or person
+Nashville	drop	foreign city not on the list
+Shepherd	drop	English dog breed or name
+Spice	drop	English or band name
+TFT	drop	technical acronym
+Vader	drop	fictional character
+mind	drop	English-looking fragment or abbreviation, not a learnable lemma
+Blended	drop	English, not established
+CLS	drop	car model
+Camille	drop	first name
+Chai	keep	established loan for tea
+Germain	drop	name
+Halsband	keep	common noun
+Lampedusa	drop	small island, not on the place list
+MWST	drop	abbreviation
+Novartis	drop	company
+PCB	drop	technical acronym
+Planschbecke	merge:Planschbecken	cut-off lemma
+RTW	drop	abbreviation
+# question mind: lemma mixes mind/minden/mindes with no example sentences; dropped as junk, but it might be an abbreviation of mindestens
+# question Chai: tagged PROPN but a common word for spiced tea; kept as an established loan

@@ -1,0 +1,44 @@
+BUSINESS	keep	established loan (Businessplan, Business), tagger error
+Bildband	keep	ordinary German noun
+DO	drop	English word, not established
+Döring	drop	surname
+ESL	drop	esports league brand
+Glory	drop	English word/brand name
+Handbremse	keep	ordinary German noun
+Kammerjäger	keep	real German noun
+McQueen	drop	surname
+Mitarbeitervertretung	keep	real German noun
+Nutzungsdat	merge:Nutzungsdaten	cut-off citation of Nutzungsdaten
+Opener	drop	English word not established in German
+PET-Flasche	keep	real compound
+Schiffer	drop	reads as a surname in the examples
+Schuppenflecht	merge:Schuppenflechte	cut-off lemma
+Sherlock Holmes	drop	fictional figure
+Top-Thema	keep	real hyphenated compound
+Voucher	drop	English word not established
+patriarchal	keep	real German adjective
+BTW	drop	abbreviation (Bundestagswahl / by the way)
+Brüderle	drop	surname
+Eckdat	merge:Eckdaten	cut-off lemma
+Ex-Freund	keep	real hyphenated compound
+Hanser	drop	publisher/surname
+Lutherstadt	drop	town-name element (Lutherstadt Wittenberg), not on place list
+McCartney	drop	surname
+NET	drop	not a German word, name/acronym
+Newsfeed	keep	established loan
+Online-Version	keep	real hyphenated compound
+Seas	drop	English word/name
+U-Bahnstation	keep	real hyphenated compound
+Very	drop	English word not established
+ZTE	drop	company acronym
+Älterwerde	merge:Älterwerden	cut-off nominalised verb
+Catrice	drop	cosmetics brand
+Dorian	drop	first name
+Expertinn	merge:Expertin	cut-off lemma
+FES	drop	organisation/name acronym
+LKW-Fahrer	keep	real hyphenated compound
+LOL	drop	chat abbreviation
+# question Schiffer: also a rare common noun (boatman), but the evidence reads as a surname; dropped
+# question Eckdat: Eckdaten is effectively plural-only, so I merged to the plural form rather than a singular
+# question Nutzungsdat: same as Eckdat, Nutzungsdaten is used almost only in the plural
+# question LOL: slang acronym, treated as an abbreviation and dropped

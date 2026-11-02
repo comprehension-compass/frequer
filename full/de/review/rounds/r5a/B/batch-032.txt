@@ -1,0 +1,43 @@
+GU	drop	two-letter name/fragment
+Hain	drop	surname
+Lucie	drop	first name
+Marty	drop	first name
+Mina	drop	first name
+Neudorf	drop	minor town name
+Payments	drop	English, brand use (Amazon Payments)
+Presley	drop	surname of a person
+Prof	drop	abbreviation
+SPSS	drop	technical software acronym/brand
+Spiritus	keep	common German noun (alcohol/spirit)
+Themenübersicht	keep	real German compound noun
+VDH	drop	minor organisation acronym
+koronar	keep	real adjective, lemma form is a valid dictionary form
+B-Jugend	keep	real German compound, sports youth category
+BMW Group	drop	company name
+BPA-frei	keep	real compound adjective, common on product text
+Bally	drop	brand/company
+Bankkaufmann	keep	common noun mistagged as name
+Barroso	drop	surname
+Cadillac	drop	brand
+Castello	drop	place/name, not an established word
+Environmental	drop	English, not established
+FOX	drop	brand/company
+Gamble	drop	surname/English
+Imaging	drop	English, brand use
+Kaya	drop	first name/surname
+Kiewer	merge:Kiewer	see question
+Lombardi	drop	surname
+Nanny	keep	established loan, common noun
+Norwegian	drop	English word, not established
+PLM	drop	technical acronym
+RLP	drop	regional abbreviation
+Said	drop	English/name
+Schweizerinn	merge:Schweizerin	clipped citation of Schweizerin
+Schönebeck	drop	minor town
+Stumpf	keep	real German adjective/noun (stumpf, Stumpf)
+Subway	drop	brand name
+Wohnungseigentümergemeinschaft	keep	real compound, long but legitimate
+XR	drop	technical acronym, two letters
+
+# question Kiewer: place-derived adjective (Kiew is learnable); merge target is Kiew's adjective form, not clearly a lemma, so merged to Kiewer itself is a no-op; consider drop or merge:Kiew
+# question Stumpf: capitalised PROPN with mixed usage; kept as the noun Stumpf and adjective stumpf, may need a case merge to stumpf for the adjective forms

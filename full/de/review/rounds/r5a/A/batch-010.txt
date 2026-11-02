@@ -1,0 +1,42 @@
+FensterDeutsche	drop	spam/template text, 3 documents
+Middle	drop	English word, not established in German
+Para	drop	name/foreign fragment, not a German word
+Produktratgeber	keep	real German compound, common-noun use
+Telefonate	merge:Telefonat	plural filed as lemma
+VZ	drop	abbreviation/name, not a learner word
+Verpackungs-Bahn	drop	splitter junk, cut-off compound
+Windows-Version	keep	real German compound
+Backhaus	keep	common noun mistagged as name
+Brooks	drop	surname
+Caribbean	drop	English word, not established
+Humanismus	keep	common noun
+IPO	drop	technical/finance acronym used by specialists
+Königssee	drop	minor place name (lake)
+Lu	drop	name
+Lucius	drop	first name
+Marita	drop	first name
+Milo	drop	first name
+Randy	drop	first name
+VWL	keep	common German abbreviation word (Volkswirtschaftslehre) used as a word
+Zionist	keep	real German word
+help	drop	English word, not established
+place	drop	English word, not established
+why	drop	English word, not established
+Bambi	drop	name/award brand
+Ego-Shooter	keep	established German compound loan
+Ernest	drop	first name
+Frida	drop	first name
+Hella	drop	first name/brand
+Holy	drop	English word/name
+Mapping	drop	English technical term, not established
+Schulstraße	drop	street name
+Sourcing	drop	English business jargon, not established
+WTO	keep	nationally famous international organisation
+point	drop	English word, not established
+Überdie#Masc	merge:überdies	broken lemma for the adverb überdies
+Abwassergebühr	keep	real German noun
+Anfahr	merge:Anfahren	cut-off form of the noun Anfahren
+Bodyguard	keep	established loan
+Cord	drop	name/foreign fragment
+# question VWL: abbreviation by shape rules (would drop), but acronym used as an ordinary word in payroll/economics contexts; kept as an acronym word
+# question Anfahr: target could be the verb anfahren or the nominalised Anfahren; chose the noun as the examples use it capitalised

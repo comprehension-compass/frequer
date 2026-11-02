@@ -1,0 +1,43 @@
+NMS	drop	acronym for a licence plate or school, not a learner word
+Nrw	drop	abbreviation for Nordrhein-Westfalen, excluded for now
+Registration	keep	real German noun
+Sansibar	drop	place name not on the reviewed list
+Staff	drop	English word not established in German
+bAV	drop	specialist abbreviation
+Auschecke	merge:auschecken	nominalised verb filed under a cut-off, capitalised lemma
+Bernie	drop	first name
+Chill	merge:chillen	verb filed under a capitalised lemma
+Elli	drop	first name
+FIS	drop	sports organisation or acronym
+FREE	drop	English word, not established in German
+FREI	merge:frei	adjective filed under a capitalised lemma
+Google-Dienst	keep	real German compound
+Hildebrandt	drop	surname
+Kürbiskerne	merge:Kürbiskern	noun filed under its plural
+Machu	drop	fragment of a foreign place name
+Merk	merge:merken	verb forms filed under a capitalised lemma
+Samos	drop	place name not on the reviewed list
+Tabea	drop	first name
+Unterstellunge	merge:Unterstellung	cut-off lemma, plural filed under a clipped singular
+WIRKLICH	merge:wirklich	adverb filed under a capitalised lemma
+Westfalia	drop	company or club name
+Zip	drop	name or foreign word, not a learner word
+adult	keep	established German adjective (biology)
+alia	merge:alias	written form is mostly alias
+always	drop	English word, not established in German
+auserkiesen	keep	real verb, the dictionary form
+erik	drop	first name
+Bundesliga-Saison	keep	real German compound
+Cha	drop	not a German word, name or fragment
+Clock	drop	English word, not established in German
+Lo	drop	name or fragment
+MSV Duisburg	drop	sports club
+Maintal	drop	minor place or valley name
+Monatsrat	merge:Monatsrate	noun filed under a cut-off lemma
+PB	drop	abbreviation
+Pansy	drop	English name, low diversity
+Picchu	drop	fragment of a foreign place name
+Steuerungs-Bahn	drop	splitter junk
+
+# question Registration: it is a real German noun, mostly Swiss and technical use, while Registrierung is the usual word. I kept it.
+# question Kürbiskerne: the plural is the usual form, but I merged it to the singular as the rule says.

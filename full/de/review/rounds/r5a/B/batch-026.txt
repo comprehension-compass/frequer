@@ -1,0 +1,44 @@
+BMZ	drop	ministry acronym only specialists use; also an insurance code
+Berta	drop	first name
+Elephant	drop	English word or name, not German
+Geodat	merge:Geodaten	cut-off lemma of Geodaten
+HSK	drop	unknown acronym
+Hennig	drop	surname
+Homburger	drop	place-derived name
+Imagination	keep	real German noun
+Katherine	drop	first name
+Klaus-Peter	drop	first name
+Klickrat	merge:Klickrate	cut-off lemma of Klickrate
+LOVE	drop	English word
+Mahagoni	keep	common noun (mahogany)
+Marienberg	drop	minor town
+Niersbach	drop	surname
+Radiator	keep	real German noun
+Rank	drop	English-looking and rare; not useful to a learner
+Seiler	drop	surname in the examples
+Spiegelunge	merge:Spiegelung	cut-off lemma of Spiegelung
+Standortdat	merge:Standortdaten	cut-off lemma of Standortdaten
+Studies	drop	English word
+Thomson	drop	surname or brand
+Wessel	drop	surname
+Ahrensburg	drop	minor town
+Asics	drop	brand
+Brink	drop	surname or brand
+CDI	drop	car engine brand acronym
+DHCP	drop	technical acronym
+David Cameron	drop	person
+Dörrautomat	keep	real compound noun
+Fever	drop	English word, game title
+Heiligenhaus	drop	minor town
+Late	drop	English word
+Lovoo	drop	brand
+Mischa	drop	first name
+OpenStreetMap	drop	brand or website
+Pancakes	merge:Pancake	plural filed as lemma
+Pendelleucht	merge:Pendelleuchte	cut-off lemma of Pendelleuchte
+PowerShell	drop	product
+Reagan	drop	person
+
+# question BMZ: a federal ministry acronym could count as a nationally famous institution, but it is little known by name and the examples include a non-ministry use; I dropped it.
+# question Geodat: Geodaten is effectively plural-only, so I merged into the plural form rather than a singular.
+# question Pancakes: it is mostly used in the plural, so merging to the singular Pancake follows the plural rule but may not suit.

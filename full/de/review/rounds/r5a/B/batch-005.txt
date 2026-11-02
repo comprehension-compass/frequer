@@ -1,0 +1,43 @@
+Nahle	drop	surname (Nahles), a person
+Nude	keep	nude is used in German as a fashion colour
+PDC	drop	organisation or technical acronym
+Ph	drop	abbreviation or symbol
+Sachsenhaus	drop	place name (district or camp), not on the reviewed list
+Shaw	drop	surname
+Sheldon	drop	first name or surname
+Threat	drop	English word, not established in German
+US-Soldat	keep	real hyphenated compound
+V-Mann	keep	real German compound
+diplomieren	keep	real verb, used as participle adjective diplomiert
+picture	drop	English word, not established in German
+siebent	merge:siebte	variant of the ordinal siebte
+Dürkheim	drop	minor place name
+Gelnhaus	drop	town name
+Kie	merge:Kies	counted text is mostly kies
+Kinderbecke	merge:Kinderbecken	cut-off lemma
+Kremer	drop	surname
+Lexware	drop	software brand
+Montgomery	drop	surname
+Objekt-Nr	drop	abbreviation, listing template text
+Organization	drop	English word, not established in German
+Responsibility	drop	English word, not established in German
+Basiswisse	merge:Basiswissen	cut-off lemma
+Behrens	drop	surname
+Blair	drop	surname
+EU-Beitritt	keep	real compound
+Europa-Park	drop	brand or theme-park name
+Herdecke	drop	minor town
+IT-Recht	keep	real compound
+Lehrkräfte	merge:Lehrkraft	plural filed as lemma
+Leonberg	drop	minor town
+MacOS	drop	product or brand
+Pants	drop	English word, not established in German
+Scientific	drop	English word, not established in German
+US-Bürger	keep	real compound
+AntwortenLöschenAntwort	drop	blog template junk
+Booking	drop	brand and English word
+Campo	drop	place name fragment
+DWS	drop	company acronym
+
+# question Nude: kept as an established fashion colour loan; the tagger marked it PROPN with name-like usage, so this is borderline.
+# question diplomieren: the text is almost all participles (diplomierte); kept as the verb lemma, but diplomiert could also be argued.

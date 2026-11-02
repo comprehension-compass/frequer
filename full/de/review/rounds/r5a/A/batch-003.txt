@@ -1,0 +1,43 @@
+Erlangen-Nürnberg	drop	place name not on the reviewed list
+Guerilla	keep	common noun (Guerilla, Guerillas)
+HD-Qualität	keep	real hyphenated compound
+Hitachi	drop	brand/company
+IEEE	drop	technical organisation acronym
+Johann Sebastian Bach	drop	person
+MSc	drop	abbreviation
+Nasenspray	keep	common noun
+Offshore	keep	established loan (Offshore-Windpark)
+Radisson	drop	brand
+Sarajevo	drop	foreign city not on the list
+Soltau	drop	town
+Start-Ups	merge:Start-up	plural filed as lemma
+eDarling	drop	brand, low diversity
+eu	keep	mostly lowercased EU (426 of 454)
+AntifaschistInn	merge:Antifaschistin	plural of the feminine form
+Augusta	drop	name
+Benson	drop	surname
+Bruckner	drop	composer/surname
+COMPUTER	keep	common noun, established loan
+Franz-Josef	drop	first name
+GO-Antrag	drop	narrow specialist term, few documents
+Ham	drop	name/English word
+Hughes	drop	surname
+IAS	drop	technical acronym
+Indigo	keep	common noun (colour/dye)
+Karina	drop	first name
+Leading	drop	English word not established in German
+Naked	drop	English word not established in German
+Postdeutschland	drop	broken lemma, only "post-" in text
+Pünktch	merge:Pünktchen	cut-off lemma
+Silence	drop	English word/title
+Sweat	drop	English word, marginal in German
+much	drop	English word
+solutions	drop	English word, brand text
+ud	drop	junk fragment
+ATM	drop	technical acronym
+Britney	drop	first name
+HPV	keep	widely known medical acronym
+Marbella	drop	town
+
+# question eu: lowercased text merges EU with forms of the possessive euer (euen, eue, euem, eues); I kept it as EU because 426 of 454 occurrences are "eu".
+# question HPV: it could count as a technical acronym only specialists use, but laypeople know it from vaccination talk, so I kept it.

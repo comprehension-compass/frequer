@@ -1,0 +1,43 @@
+Strasser	drop	surname
+Corona-Regel	keep	real German compound
+GLP	drop	minor Swiss party acronym
+Maintenance	drop	English word not established in German
+Schwabing	drop	district name
+Triest	drop	foreign city not on list
+USP	drop	marketing acronym only specialists use
+Ardenn	merge:Ardennen	cut-off of Ardennen
+Civic	drop	car model, brand
+Colitis	keep	medical common noun (Colitis ulcerosa)
+GBP	drop	currency code, abbreviation
+Harms	drop	surname
+Hussein	drop	personal name
+Luxor	drop	foreign city
+Monats-Bahn	drop	splitter junk from a clipped "Monats-"
+PSV	drop	minor organisation, sports club
+STIHL	drop	brand
+Shenzhen	drop	foreign city
+Spaces	drop	English word not established in German
+Winnenden	drop	town
+Ausführer	keep	real noun (exporter)
+Bosnien-Herzegowina	drop	place name still in batch, so not on list
+Dreams	drop	English title/name
+Elba	drop	minor place name
+Frederick	drop	first name
+Ischgl	drop	village
+Mölln	drop	town
+Powell	drop	surname
+Singh	drop	surname
+Sophos	drop	company
+VLC	drop	product
+VR-Brille	keep	real German compound
+Warburg	drop	town/surname
+alternate	drop	English template text
+begrün	merge:begrünen	clipped verb, forms of begrünen
+ARM	keep	lowercase text is the adjective arm
+GroKo	keep	ordinary German political word
+Hautreizunge	merge:Hautreizung	broken lemma of Hautreizung
+Heppenheim	drop	town
+Jugendmedizin	keep	common noun mistagged as name
+# question GLP: Swiss party acronym; rules name CDU/SPD as keep but GLP is a minor foreign party, dropped
+# question Bosnien-Herzegowina: a country that should have been taken out already; dropped per the "any place name you still see" rule
+# question Ardenn: merged to Ardennen, but Ardennen is a region that may not be on the learnable places list

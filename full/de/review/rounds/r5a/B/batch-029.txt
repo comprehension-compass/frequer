@@ -1,0 +1,42 @@
+Automatic	drop	English word, not established in German; name-like use
+Blau-Weiß	merge:blau-weiß	adjective filed under a capitalised lemma
+Cyberpunk	drop	all examples are the game title, a product name
+Hauke	drop	first name
+Magna	drop	name, as in Magna Graecia
+PSI	drop	acronym of a minor organisation or place
+Witte	drop	surname
+Aristotele	drop	historical figure, a broken lemma for Aristoteles
+Avengers	drop	title or brand name
+BVA	drop	minor organisation acronym
+Backgammon	keep	common noun, a game
+Bob Dylan	drop	person
+Borneo	drop	place name not on the learnable list
+CLA	drop	technical or brand acronym
+CMD	drop	technical acronym
+Canadian	drop	English word, not established in German
+Cuisine	drop	English or French brand-like word
+DBV	drop	minor organisation acronym
+Filip	drop	first name
+Funktions-Bahn	drop	splitter junk from a cut-off hyphenated compound
+Hecking	drop	surname
+IDW	drop	minor organisation acronym
+Initial	keep	real German adjective and noun (Initiale)
+Murnau	drop	town
+Netzwerktechnik	keep	common German noun
+Peach	drop	game character name
+Recklinghaus	drop	cut-off lemma for a town, not on the list
+Ries	keep	real noun (ream of paper; Nördlinger Ries), though also a surname
+Simply	drop	English brand-like word
+Teak	keep	common noun, a type of wood
+Wei	drop	name
+Zeitgrund	keep	real noun; the plural is the usual form but the singular is valid
+spid	drop	cut-off lemma for English "spider"
+Altötting	drop	town
+Heidrun	drop	first name
+Mainstream-Medium	keep	real hyphenated compound, mostly used in the plural
+Massa	drop	surname
+Noel	drop	first name
+Oleg	drop	first name
+Phi	drop	Greek letter or name, too specialised
+# question Ries: 19.5% common-noun-like could be the paper measure or the Nördlinger Ries region, but it is also a surname; kept on that evidence
+# question Cyberpunk: the genre term is a common noun, but the examples are almost all the game title; dropped

@@ -1,0 +1,41 @@
+Nahle	drop	surname (Andrea Nahles)
+Nude	keep	fashion colour word used in German
+PDC	drop	organisation acronym
+Ph	drop	abbreviation
+Sachsenhaus	drop	cut-off place name (Sachsenhausen), not on place list
+Shaw	drop	surname
+Sheldon	drop	first name/surname
+Threat	drop	unestablished English
+US-Soldat	keep	real compound
+V-Mann	keep	real German compound
+diplomieren	merge:diplomiert	participle used as adjective
+picture	drop	unestablished English
+siebent	merge:siebte	variant ordinal form of siebte
+Dürkheim	drop	town name
+Gelnhaus	drop	cut-off town name
+Kie	merge:Kies	mostly the noun Kies
+Kinderbecke	merge:Kinderbecken	cut-off noun
+Kremer	drop	surname
+Lexware	drop	software brand
+Montgomery	drop	surname
+Objekt-Nr	drop	abbreviation, template text
+Organization	drop	unestablished English
+Responsibility	drop	unestablished English
+Basiswisse	merge:Basiswissen	cut-off noun
+Behrens	drop	surname
+Blair	drop	surname
+EU-Beitritt	keep	real compound
+Europa-Park	drop	brand/theme park name
+Herdecke	drop	town name
+IT-Recht	keep	real compound
+Lehrkräfte	merge:Lehrkraft	plural filed as lemma
+Leonberg	drop	town name
+MacOS	drop	product name
+Pants	drop	unestablished English
+Scientific	drop	unestablished English
+US-Bürger	keep	real compound
+AntwortenLöschenAntwort	drop	blog template junk
+Booking	drop	brand/unestablished English
+Campo	drop	place/name fragment
+DWS	drop	company name
+# question Nude: colour word in fashion, tagged PROPN; kept as an established loan but borderline

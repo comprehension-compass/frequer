@@ -1,0 +1,42 @@
+Preetz	drop	town, not on the place list
+RF	drop	two-letter acronym, name-like
+Sekundarstuf	merge:Sekundarstufe	cut-off lemma
+Sherlock	drop	fictional character name
+Trinidad	drop	place not on the reviewed list
+trading	drop	English word not established in German
+Cayenne	keep	common noun (cayenne pepper)
+Chamäleon	keep	ordinary German noun
+Clouds	merge:Cloud	plural of an established loan
+IPS	drop	technical or brand acronym
+IT-Dienstleistung	keep	real German compound
+Inch	drop	English unit, not established in German
+Internet-Auftritt	keep	real German compound
+Mao	drop	person name
+Melzer	drop	surname
+Pak	drop	name-like proper noun
+Single-Frau	keep	real German compound
+e-Bikes	merge:E-Bike	plural, wrong case
+their	drop	English function word
+Accounting	drop	English word not established in German
+Asterix	drop	comic character name
+Coworking	keep	established loan
+Eike	drop	first name
+Hurghada	drop	foreign town
+Kistler	drop	company or surname
+Klug	merge:klug	adjective filed under a capital
+Papenburg	drop	town
+Rechnungs-Bahn	drop	clipped compound fragment, splitter junk
+Tages-Anzeiger	drop	newspaper title, not a nationally famous institution
+Wirtschaftsprüfungsgesellschaft	keep	real long compound
+rot-weiß	keep	real hyphenated adjective
+Befestig	merge:befestigen	cut-off verb
+Chen	drop	surname
+Drilling	keep	real German noun (triplet)
+Favre	drop	surname
+Freitagmorge	merge:Freitagmorgen	cut-off lemma
+Haartransplantation	keep	real noun
+Hager	drop	surname or company
+Helferinne	merge:Helferin	cut-off lemma
+Honecker	drop	historical person
+# question Tages-Anzeiger: a Swiss newspaper may count as a nationally famous institution, but I treated it as a title and dropped it.
+# question Clouds: I merged it into Cloud as a plural, but the English-plural spelling may be debatable.

@@ -1,0 +1,42 @@
+IPTV	drop	technical acronym only specialists use
+Langenscheidt	drop	publisher brand name
+Load	drop	English word not established in German
+Online-Katalog	keep	real German compound
+Pilatus	drop	mountain or person name, not on the place list
+Riley	drop	surname
+Tagungs-Bahn	drop	cut-off fragment of Tagungs- (and/or), no obvious single target
+VV	drop	two-letter abbreviation or name
+kuch	merge:Kuchen	noun filed under a lower-case, clipped lemma (kuchen/kuche)
+zwölfjährig	keep	real adjective, and the lemma is the dictionary form
+FRAGEN	merge:fragen	verb filed under a capitalised lemma
+Harper	drop	surname
+Herzogenaurach	drop	town not on the place list
+Insignia	drop	car model name
+Kaufbeur	drop	cut-off form of the town Kaufbeuren, not on the place list
+Nespresso	drop	brand
+PUMA	drop	brand
+Parc	drop	name of a restaurant
+Salman	drop	first name
+TLS-Verschlüsselung	drop	technical TLS acronym only specialists use
+Tapatalk	drop	app brand
+WORLD	drop	English word that is not established, and a name
+Word-Dokument	keep	established German compound
+Bitch	drop	English word not established in German
+Francois	drop	first name
+Functional	drop	English word not established in German
+Gebhardt	drop	surname
+Hellsehe	merge:Hellsehen	clipped noun, Hellsehen is the right lemma
+Jensen	drop	surname
+Moss	drop	surname
+NMM	drop	organisation acronym with low diversity
+Reykjavik	drop	foreign capital not among the added places
+START	merge:Start	common noun filed under an upper-case lemma
+Sachstand	keep	ordinary German noun wrongly tagged as a name
+Sue	drop	first name
+Synchronisier	merge:synchronisieren	clipped verb
+Tavern	merge:Taverne	noun filed under a plural or foreign-looking form
+Vince	drop	first name
+school	drop	English word not established in German
+Ale	drop	English beer word and a name
+# question Tagungs-Bahn: could be read as a clipped Tagung-compound fragment, but there is no obvious single target, so dropped
+# question FRAGEN: could also be the plural of Frage, but the lower-case spelling points to the verb fragen

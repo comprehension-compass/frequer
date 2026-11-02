@@ -1,0 +1,1288 @@
+# lemma	decision	reason
+Strasser	drop	surname
+Corona-Regel	keep	real German compound
+Maintenance	drop	English, not established in German
+Schwabing	drop	city district
+Triest	drop	foreign city not on the list
+USP	drop	marketing jargon acronym
+Civic	drop	car model brand
+Colitis	keep	common medical noun
+GBP	drop	currency code, abbreviation
+Harms	drop	surname
+Hussein	drop	person name
+Luxor	drop	foreign city
+Monats-Bahn	drop	splitter junk from "Monats-"
+PSV	drop	minor organisation acronym
+STIHL	drop	brand
+Shenzhen	drop	foreign city
+Spaces	drop	English, not established
+Winnenden	drop	small town
+Ausführer	keep	real German noun (exporter)
+Bosnien-Herzegowina	drop	place name not on the learnable list
+Dreams	drop	English title/name
+Elba	drop	island place name not on the list
+Frederick	drop	first name
+Ischgl	drop	village
+Mölln	drop	town
+Powell	drop	surname
+Singh	drop	surname
+Sophos	drop	company
+VLC	drop	software brand
+VR-Brille	keep	real German compound
+Warburg	drop	town/surname
+alternate	drop	English spam template text
+begrün	merge:begrünen	clipped lemma of begrünen
+GroKo	keep	ordinary German political word
+Hautreizunge	merge:Hautreizung	misspelt lemma, plural in text
+Heppenheim	drop	town
+Jugendmedizin	keep	common noun
+Moll	keep	Moll is the music term (a-Moll), a common noun
+Moves	drop	English word not established in German
+Neckarsulm	drop	town, not on the place list
+Reisebüros	merge:Reisebüro	plural filed as lemma
+Screenshots	merge:Screenshot	plural of an established loan
+Seidl	drop	surname
+Albers	drop	surname
+Beautiful	drop	English word, not established
+Deutz	drop	district and company name
+Haydn	drop	historical figure
+Iowa	drop	foreign place name not on the list
+KNX	drop	technical acronym
+MANAGEMENT	merge:Management	capitalised form of an established loan
+Reitbeteiligung	keep	real German word
+SEITE	merge:Seite	all-caps form of a common noun
+SWISS	drop	airline brand
+Sozialangabe	merge:Sozialabgabe	the text has sozialabgaben, a clipped lemma
+Stephen King	drop	person
+ready	drop	English word, not established
+Brush	drop	English word and product name
+Category	drop	English word, not established
+Crossing	drop	English word and game title
+Cäsar	drop	historical figure
+DRV	drop	organisation acronym, mixed uses
+Güstrow	drop	town
+L-Carnitin	keep	real hyphenated compound
+Pigmentflecke	merge:Pigmentfleck	plural filed as lemma
+Päckch	merge:Päckchen	cut-off lemma
+ThyssenKrupp	drop	company
+connect	drop	English word, not established
+food	drop	English word, not established
+versteuernd	merge:versteuern	participle form filed as lemma
+AirPods	drop	brand and product
+FCI	drop	minor organisation acronym
+FCK	drop	club or slogan acronym
+Gerlach	drop	surname
+Jucke	merge:jucken	verb form filed under a noun lemma
+PCR	keep	PCR is widely used in German (PCR-Test)
+Sahra	drop	first name
+Satteldach	keep	common noun mistagged as PROPN
+Schavan	drop	surname of a person
+Service-Team	keep	established loan compound, real word
+dreiwöchig	keep	real adjective; inflected forms are the normal written shape
+kontaktanzeig	merge:Kontaktanzeige	cut-off lemma of Kontaktanzeige
+portable	drop	English adjective, not established in German
+wochenen	merge:Wochenende	broken lemma, all occurrences are Wochenende
+Arbeitsstätt	merge:Arbeitsstätte	cut-off lemma of Arbeitsstätte
+Bunny	drop	name/costume brand word, English, name-like
+Contemporary	drop	English word not established in German
+DGE	drop	minor organisation acronym
+Erkrath	drop	small town
+Isla	drop	first name or place, not on list
+Muttermal	keep	real German noun, low diversity only from topic
+Naumann	drop	surname
+October	drop	English month name, not German
+Vorverkaufsstell	merge:Vorverkaufsstelle	cut-off lemma of Vorverkaufsstelle
+Yücel	drop	surname of a person
+Apple-Gerät	keep	real German compound, learner-useful
+CSV-Datei	keep	real German compound with common file term
+Eau	drop	fragment of French perfume names
+Ex-Freundin	keep	real German compound
+Haan	drop	small town
+ICT	drop	technical acronym only specialists use
+Kästner	drop	surname of a person
+Nordhorn	drop	small town
+QS	drop	two-letter abbreviation/acronym, not a word
+Quedlinburg	drop	small town
+Rudergerät	keep	real German noun
+Salem	drop	place or name
+Scala	drop	name (opera house, software); not common word
+Teltow	drop	small town
+Thierry	drop	first name
+ÖSTERREICH	merge:Österreich	capitalised variant of the country name
+Casino-Spiel	keep	real German compound
+DMG	drop	transliteration standard acronym, specialist
+De-Mail	keep	real German compound/service term used by public
+Diehl	drop	surname
+Eli	drop	first name
+Erlangen-Nürnberg	drop	place name not on the reviewed list
+Guerilla	keep	common noun (Guerilla, Guerillas)
+HD-Qualität	keep	real hyphenated compound
+Hitachi	drop	brand/company
+IEEE	drop	technical organisation acronym
+Johann Sebastian Bach	drop	person
+MSc	drop	abbreviation
+Nasenspray	keep	common noun
+Offshore	keep	established loan (Offshore-Windpark)
+Radisson	drop	brand
+Sarajevo	drop	foreign city not on the list
+Soltau	drop	town
+Start-Ups	merge:Start-up	plural filed as lemma
+eDarling	drop	brand, low diversity
+eu	keep	mostly lowercased EU (426 of 454)
+AntifaschistInn	merge:Antifaschistin	plural of the feminine form
+Augusta	drop	name
+Benson	drop	surname
+Bruckner	drop	composer/surname
+COMPUTER	keep	common noun, established loan
+Franz-Josef	drop	first name
+GO-Antrag	drop	narrow specialist term, few documents
+Ham	drop	name/English word
+Hughes	drop	surname
+IAS	drop	technical acronym
+Indigo	keep	common noun (colour/dye)
+Karina	drop	first name
+Leading	drop	English word not established in German
+Naked	drop	English word not established in German
+Postdeutschland	drop	broken lemma, only "post-" in text
+Pünktch	merge:Pünktchen	cut-off lemma
+Silence	drop	English word/title
+Sweat	drop	English word, marginal in German
+much	drop	English word
+solutions	drop	English word, brand text
+ud	drop	junk fragment
+ATM	drop	technical acronym
+Britney	drop	first name
+HPV	keep	widely known medical acronym
+Marbella	drop	town
+Preetz	drop	town, not on the place list
+RF	drop	abbreviation/name, two letters
+Sekundarstuf	merge:Sekundarstufe	cut-off lemma
+Sherlock	drop	fictional character name
+Trinidad	drop	place name not on the learnable list
+trading	drop	English word not established in German
+Cayenne	keep	common noun (the spice), also a car brand
+Chamäleon	keep	common noun the tagger took for a name
+Clouds	merge:Cloud	plural of an established loan
+IPS	drop	technical acronym
+IT-Dienstleistung	keep	real German compound
+Inch	drop	English unit word
+Internet-Auftritt	keep	real German compound
+Mao	drop	historical figure
+Melzer	drop	surname
+Pak	drop	name or abbreviation
+Single-Frau	keep	real German compound
+e-Bikes	merge:E-Bike	plural filed under a lower-case form
+their	drop	English word
+Accounting	drop	English word not established in German
+Asterix	drop	fictional character name
+Coworking	keep	established loan
+Eike	drop	first name
+Hurghada	drop	town, not on the place list
+Kistler	drop	company or surname
+Klug	merge:klug	adjective filed under a capital
+Papenburg	drop	town
+Rechnungs-Bahn	drop	splitter junk from a cut-off compound
+Tages-Anzeiger	drop	newspaper name, a brand
+Wirtschaftsprüfungsgesellschaft	keep	real long compound
+rot-weiß	keep	real hyphenated adjective
+Befestig	merge:befestigen	cut-off verb, written as befestigen
+Chen	drop	surname
+Drilling	keep	real German word (triplet)
+Favre	drop	surname
+Freitagmorge	merge:Freitagmorgen	cut-off lemma
+Haartransplantation	keep	real word
+Hager	drop	surname or company name
+Helferinne	merge:Helferin	cut-off lemma
+Honecker	drop	historical figure
+Nahle	drop	surname (Andrea Nahles)
+Nude	keep	fashion colour word used in German
+PDC	drop	organisation acronym
+Ph	drop	abbreviation
+Sachsenhaus	drop	cut-off place name (Sachsenhausen), not on place list
+Shaw	drop	surname
+Sheldon	drop	first name/surname
+Threat	drop	unestablished English
+US-Soldat	keep	real compound
+V-Mann	keep	real German compound
+picture	drop	unestablished English
+siebent	merge:siebte	variant ordinal form of siebte
+Dürkheim	drop	town name
+Gelnhaus	drop	cut-off town name
+Kie	merge:Kies	mostly the noun Kies
+Kinderbecke	merge:Kinderbecken	cut-off noun
+Kremer	drop	surname
+Lexware	drop	software brand
+Montgomery	drop	surname
+Objekt-Nr	drop	abbreviation, template text
+Organization	drop	unestablished English
+Responsibility	drop	unestablished English
+Basiswisse	merge:Basiswissen	cut-off noun
+Behrens	drop	surname
+Blair	drop	surname
+EU-Beitritt	keep	real compound
+Europa-Park	drop	brand/theme park name
+Herdecke	drop	town name
+IT-Recht	keep	real compound
+Lehrkräfte	merge:Lehrkraft	plural filed as lemma
+Leonberg	drop	town name
+MacOS	drop	product name
+Pants	drop	unestablished English
+Scientific	drop	unestablished English
+US-Bürger	keep	real compound
+AntwortenLöschenAntwort	drop	blog template junk
+Booking	drop	brand/unestablished English
+Campo	drop	place/name fragment
+DWS	drop	company name
+EMRK	drop	treaty acronym only legal specialists use
+Gartenstuhl	keep	ordinary common noun, tagger mistook it for a name
+HBO	drop	company/brand name
+Köster	drop	surname
+Nazareth	drop	place name not on the learnable list
+Ramon	drop	first name
+Rhodan	drop	fictional character/surname
+Sammy	drop	first name
+Torbe	drop	cut-off form of the first name Torben
+Web-App	keep	real hyphenated compound, established loan
+yeah	drop	English interjection not established in German
+Baltic	drop	English name word
+Bhutan	drop	place name still in batch, so not on the learnable list
+CR	drop	two-letter abbreviation
+Einvernehm	merge:Einvernehmen	cut-off lemma, the real noun is Einvernehmen
+Forsthaus	keep	ordinary common noun
+Freital	drop	town name
+Juri	drop	first name
+Knights	drop	English name/brand word
+License	drop	English word not established in German
+Lights	drop	English word not established in German
+MVP	drop	sports acronym, not an ordinary German word
+Melle	drop	town/surname
+Menlo	drop	place name
+Precision	drop	English word not established in German
+Queensland	drop	place name still in batch, so not on the learnable list
+Selena	drop	first name
+T-Online	drop	company/brand name
+T-System	drop	company/brand name
+UFC	drop	sports organisation/brand
+US-Konzern	keep	real German compound
+Wrestling	keep	established loan, common noun
+Zhang	drop	surname
+basic	drop	English word not established in German
+nicht-kommerziell	keep	real hyphenated adjective compound
+Baar	drop	town name
+Battery	drop	English word not established in German
+CF	drop	two-letter abbreviation/name
+DDR-Zeit	keep	real German compound
+Download-Link	keep	established loan compound
+Dutt	keep	common noun (hair bun)
+Gazprom	drop	company name
+Germanwings	drop	company/brand name
+Git	drop	technical product name
+Goliath	drop	biblical figure's name
+Jin	drop	personal name
+Neuenburg	drop	minor place name
+Nickerche	merge:Nickerchen	cut-off lemma
+Sinai	drop	place name not on the learnable list
+Spotlight	drop	English, mostly a software/brand name
+Treatment	drop	English word not established in German
+Binance	drop	company name
+Bleaching	keep	established loan, common noun
+Mursi	drop	person's name
+OLED	keep	acronym used as an ordinary consumer word
+Peer Steinbrück	drop	person's name
+Pit	drop	English word or first name
+Plug-In	keep	established hyphenated loan
+Scheer	drop	surname
+Stoll	drop	surname
+VdK	keep	nationally known social organisation
+Verordnungsgeber	keep	real legal compound; diversity just under threshold
+family	drop	English, not established
+got	drop	English, not established
+small	drop	English, not established
+Überling	drop	cut-off form of the town Überlingen, a minor place name
+AUDI	drop	brand name
+Critical	drop	English word, not established
+Jahwe	drop	name of a religious figure
+Jansen	drop	surname
+Korbach	drop	minor town
+Packaging	drop	English, not established
+SOA	drop	technical acronym
+TF	drop	two-letter abbreviation
+Tanzpartnerin	keep	real German noun
+Transportbox	keep	real German compound
+Trennmittel	keep	real German noun
+Trittin	drop	person's name
+UL	drop	two-letter abbreviation
+Urt	drop	name fragment
+Wanderurlaub	keep	real German compound noun
+Brake	drop	town or name
+Brick	drop	English word, not established in German
+DSC	drop	brand or technical acronym
+ESF	drop	specialist acronym
+Einleg	merge:einlegen	cut-off form of einlegen
+Griesheim	drop	town
+HE	drop	acronym or English word, not a German word
+Heimtextilie	merge:Heimtextilien	plural-only noun filed under a cut-off singular
+Hopp	drop	name
+Karla	drop	first name
+Lennart	drop	first name
+Nolte	drop	surname or brand
+Query	drop	English IT term, not established
+RECHT	merge:Recht	all-caps citation of the common noun
+UCI	drop	minor sports organisation
+VersandPreisvorschlag	drop	web shop template text
+please	drop	English word, not established
+Carol	drop	name
+Clement	drop	surname
+EGBGB	drop	legal acronym only specialists use
+Gesichts-Bahn	drop	splitter junk
+Haarpfleg	merge:Haarpflege	cut-off lemma
+LED-Technik	keep	real German compound
+MfS	keep	nationally known institution (Stasi ministry)
+Neuendorf	drop	minor place name
+Parodontiti	merge:Parodontitis	cut-off lemma
+Pencil	drop	product name
+Sc	drop	abbreviation or club
+Schulferie	merge:Schulferien	plural-only noun filed under a cut-off singular
+article	drop	English word, not established
+ketogen	keep	real adjective
+westafrikanisch	keep	real adjective, dictionary form
+Bastei	keep	common noun
+Darkness	drop	English word or name
+Deployment	drop	English IT jargon, not established
+Duncan	drop	personal name
+Eagles	drop	sports club / name, English
+Ebersberg	drop	town, not on the place list
+Erdnuß	merge:Erdnuss	old spelling; the text mostly has the plural Erdnüsse
+Fahrstraße	keep	real German compound (railway and road term)
+Growth	drop	English word, not established in German
+Julien	drop	first name
+Juristin	keep	common noun (female lawyer)
+Ka	drop	name or fragment
+Kurth	drop	surname
+Schwartz	drop	surname
+Serge	drop	first name
+WEB	drop	minor organisation or technical acronym
+Wallace	drop	name
+Wildlife	drop	English word, part of organisation names
+case	drop	English word, not established in German
+nebenh	merge:nebenher	cut-off lemma, text has nebenher
+phpBB	drop	software brand
+Draft	drop	English sports term, not established
+Exclusive	drop	English adjective (German is exklusiv)
+Extensions	drop	English plural, not established as a lemma
+Giant	drop	brand name
+Kenneth	drop	first name
+Lauda	drop	surname
+NP	drop	two-letter abbreviation
+Rakut	drop	cut-off brand name (Rakuten)
+Tölz	drop	small town (Bad Tölz)
+Ukraine-Krise	keep	real German compound
+Uncharted	drop	game title
+Verhandlungstermin	keep	real German noun
+VersandMarke	drop	template text from shop pages
+err	drop	junk, low diversity
+warikos	drop	junk, low diversity
+ATI	drop	company brand
+Baling	drop	cut-off town name (Balingen), not on the place list
+Captivate	drop	software product
+DVR	drop	minor organisation or technical acronym
+Disease	drop	English word, not established in German
+FensterDeutsche	drop	spam/template text, 3 documents
+Middle	drop	English word, not established in German
+Para	drop	name/foreign fragment, not a German word
+Produktratgeber	keep	real German compound, common-noun use
+Telefonate	merge:Telefonat	plural filed as lemma
+VZ	drop	abbreviation/name, not a learner word
+Verpackungs-Bahn	drop	splitter junk, cut-off compound
+Windows-Version	keep	real German compound
+Backhaus	keep	common noun mistagged as name
+Brooks	drop	surname
+Caribbean	drop	English word, not established
+Humanismus	keep	common noun
+Königssee	drop	minor place name (lake)
+Lu	drop	name
+Lucius	drop	first name
+Marita	drop	first name
+Milo	drop	first name
+Randy	drop	first name
+Zionist	keep	real German word
+help	drop	English word, not established
+place	drop	English word, not established
+why	drop	English word, not established
+Bambi	drop	name/award brand
+Ego-Shooter	keep	established German compound loan
+Ernest	drop	first name
+Frida	drop	first name
+Hella	drop	first name/brand
+Holy	drop	English word/name
+Mapping	drop	English technical term, not established
+Schulstraße	drop	street name
+Sourcing	drop	English business jargon, not established
+WTO	keep	nationally famous international organisation
+point	drop	English word, not established
+Überdie#Masc	merge:überdies	broken lemma for the adverb überdies
+Abwassergebühr	keep	real German noun
+Bodyguard	keep	established loan
+Cord	drop	name/foreign fragment
+Diem	drop	personal name
+Falkenberg	drop	place name not on list
+Handschuhfach	keep	common noun mistagged as a name
+KundInnen	merge:Kunde	gendered plural of Kunde
+LSD	keep	ordinary acronym in German
+Laufband	keep	common noun
+Middleton	drop	surname
+Neuruppin	drop	town
+Polizeikraft	keep	Polizeikräfte is a real plural with its own meaning
+Reinickendorf	drop	Berlin district
+Sido	drop	person (rapper)
+Spar	drop	brand
+Tessa	drop	first name
+Cats	drop	English name or title
+DOC	drop	file format or name, not a learner word
+Didier	drop	first name
+E-Mail-Postfach	keep	real German compound
+Elst	drop	place or surname
+FDP-Fraktion	keep	real compound naming a national political body
+Joyce	drop	personal name
+Lan	drop	name or fragment
+Leibniz-Institut	keep	real compound, well-known institution type
+MSN	drop	brand
+PID	drop	technical acronym
+Superb	drop	car model, English adjective
+Worlds	drop	English word, not established
+prinen	drop	English "print", broken lemma
+AFD	keep	nationally famous party
+Chamber	drop	English word
+Create	drop	English word
+GdP	keep	nationally known police union
+Guido Westerwelle	drop	person
+Havelland	drop	minor region
+Lid	keep	real German word (Augenlid)
+Lobo	drop	person (Sascha Lobo)
+Mid	drop	English word
+Push-Nachricht	keep	real German compound
+Riker	drop	fictional character name
+Terre	drop	name or foreign word
+Vorbeug	merge:vorbeugen	cut-off verb
+ACC	drop	acronym of a minor organisation, name-like
+Alsfeld	drop	small town, not on the place list
+Appel	drop	surname
+EK	drop	two-letter abbreviation
+Ellis	drop	surname/first name
+Fleischmann	drop	surname
+Gesellschafts-Bahn	drop	splitter junk from "Gesellschafts- und ..."
+Graduate	drop	English word, not established in German
+Herta	drop	first name
+Josephine	drop	first name
+Metzinge	drop	cut-off form of the town Metzingen, not on the place list
+Mosbach	drop	small town
+Nierenversag	merge:Nierenversagen	cut-off lemma
+Norditalien	drop	place name not on the reviewed list
+Sagrada	drop	part of a landmark name
+Selina	drop	first name
+She	drop	English word, not German
+Transportier	merge:transportieren	cut-off verb
+US-Staat	keep	real hyphenated compound
+venezolanisch	keep	correct adjective lemma, only inflected forms occur in text
+DHBW	drop	regional university, minor organisation
+Jojo	keep	common noun (Jojo-Effekt, toy)
+Joop	drop	person and brand name
+Kreuzling	drop	cut-off form of the town Kreuzlingen, not on the place list
+Nivea	drop	brand
+Saddam Hussein	drop	person
+Sullivan	drop	surname
+Sword	drop	English word in a title, name-like
+Wittmann	drop	surname
+hannov	merge:Hannover	cut-off form of a major city
+lebensretten	merge:lebensrettend	adjective filed under a verb-like cut-off lemma
+BBS	drop	acronym of a minor organisation or brand
+Essentials	drop	English word, not established in German
+Ex-Präsident	keep	real German compound
+Fehlerbehebunge	merge:Fehlerbehebung	cut-off plural form
+Griffin	drop	surname
+Hartz-IV-Empfänger	keep	real German compound
+Hennef	drop	small town
+IPTV	drop	technical acronym only specialists use
+Langenscheidt	drop	publisher brand name
+Load	drop	English word not established in German
+Online-Katalog	keep	real German compound
+Pilatus	drop	mountain or person name, not on the place list
+Riley	drop	surname
+Tagungs-Bahn	drop	cut-off fragment of Tagungs- (and/or), no obvious single target
+VV	drop	two-letter abbreviation or name
+kuch	merge:Kuchen	noun filed under a lower-case, clipped lemma (kuchen/kuche)
+zwölfjährig	keep	real adjective, and the lemma is the dictionary form
+Harper	drop	surname
+Herzogenaurach	drop	town not on the place list
+Insignia	drop	car model name
+Kaufbeur	drop	cut-off form of the town Kaufbeuren, not on the place list
+Nespresso	drop	brand
+PUMA	drop	brand
+Parc	drop	name of a restaurant
+Salman	drop	first name
+Tapatalk	drop	app brand
+WORLD	drop	English word that is not established, and a name
+Word-Dokument	keep	established German compound
+Bitch	drop	English word not established in German
+Francois	drop	first name
+Functional	drop	English word not established in German
+Gebhardt	drop	surname
+Hellsehe	merge:Hellsehen	clipped noun, Hellsehen is the right lemma
+Jensen	drop	surname
+Moss	drop	surname
+NMM	drop	organisation acronym with low diversity
+Reykjavik	drop	foreign capital not among the added places
+START	merge:Start	common noun filed under an upper-case lemma
+Sachstand	keep	ordinary German noun wrongly tagged as a name
+Sue	drop	first name
+Synchronisier	merge:synchronisieren	clipped verb
+Tavern	merge:Taverne	noun filed under a plural or foreign-looking form
+Vince	drop	first name
+school	drop	English word not established in German
+Ale	drop	English beer word and a name
+Backnang	drop	town, not on the place list
+Coleman	drop	surname and brand
+Ex-Frau	keep	real German compound
+Gerard	drop	personal name
+Hopper	drop	surname
+MMA	keep	acronym in ordinary German use for the sport
+Online-Buchung	keep	real compound, established
+Poetry	drop	English word, not established alone
+SMD	drop	technical acronym
+Serra	drop	place or surname
+VBA	drop	technical acronym
+selbstreden	merge:selbstredend	clipped form of selbstredend
+Bones	drop	TV series title
+Dario	drop	first name
+EW	drop	unclear abbreviation
+Fremdkapital	keep	common noun
+Gill	drop	surname
+Integrated	drop	English, company-name text
+Lienz	drop	town
+Lindemann	drop	surname
+Merchant	drop	English word, not established
+Quito	drop	place name still in batch, not on the reviewed list
+Remarketing	keep	established marketing term
+Ripple	drop	cryptocurrency brand
+Social-Media	keep	established loan compound
+Thin	drop	English word
+namenhaft	merge:namhaft	misspelling of namhaft
+Überschreit	merge:überschreiten	cut-off verb
+Advents-Bahn	drop	splitter junk
+DKV	drop	organisation acronym
+Helmholtz-Zentrum	drop	minor institution name
+Immobiliensuch	merge:Immobiliensuche	cut-off noun
+KINDER	merge:Kind	plural of Kind, filed under capitalised form
+Kartenleger	keep	real German noun
+Object	drop	English word
+Strange	drop	English word and surname
+Support-Team	keep	established loan compound
+card	drop	English word
+entry	drop	English word
+had	drop	English word
+AutorInn	merge:Autorin	gendered plural form of Autorin
+Blankenburg	drop	town name
+Clio	drop	car brand
+Falkensee	drop	small town
+Fitz	drop	surname
+Mumia	drop	personal name
+Mund-Nasen-Schutz	keep	real German compound
+Progress	drop	English word, not established
+USB-C	keep	established tech compound with USB
+herauskristallisi	merge:herauskristallisieren	cut-off verb lemma
+Aida	drop	brand/company
+Balm	drop	English product word
+Cloud-Dienst	keep	real compound, established loan element
+D-Mark	keep	real German currency compound
+DATA	drop	English word, not established
+Disko	keep	common noun
+EBA	drop	minor agency acronym
+Flame	drop	English word/name junk
+Juhu	keep	German interjection
+Kaffeetrinke	merge:Kaffeetrinken	cut-off nominalised noun
+Ludwig-Maximilians-Universität	keep	nationally known university
+MY	drop	English word/name
+Marten	drop	surname
+Memoir	merge:Memoiren	German plural-only noun
+Processing	drop	English word, not established
+Quarter	drop	English word, not established
+Rewards	drop	English word/brand programme
+Romance	drop	English genre word, not established
+Tampa	drop	foreign city
+Töt	merge:töten	cut-off verb lemma
+Verden	drop	small town
+Weekly	drop	English word/title
+Window	drop	English word, not established
+Wusterhause	drop	town name (Königs Wusterhausen)
+Zahlungs-Bahn	drop	splitter junk
+body	drop	English word, not established
+Alive	drop	English word, not established
+Alta	drop	name
+B-Klasse	keep	real German compound (league class)
+BUSINESS	keep	established loan in German
+Bildband	keep	common noun the tagger mistook for a name
+DO	drop	English word or name, not German
+Döring	drop	surname
+ESL	drop	brand or organisation acronym
+Glory	drop	English word and brand name
+Handbremse	keep	common noun
+Kammerjäger	keep	real German noun
+McQueen	drop	surname
+Mitarbeitervertretung	keep	real German noun
+Nutzungsdat	merge:Nutzungsdaten	cut-off citation of Nutzungsdaten
+Opener	drop	English word not established in German
+PET-Flasche	keep	real German compound
+Schiffer	drop	used as a surname in the examples
+Schuppenflecht	merge:Schuppenflechte	cut-off citation
+Sherlock Holmes	drop	fictional character
+Top-Thema	keep	real hyphenated compound
+Voucher	drop	English word not established in German
+patriarchal	keep	real German adjective
+BTW	drop	abbreviation
+Brüderle	drop	surname
+Eckdat	merge:Eckdaten	cut-off citation of Eckdaten
+Ex-Freund	keep	real hyphenated compound
+Hanser	drop	publisher or surname
+Lutherstadt	drop	place name not on the reviewed list
+McCartney	drop	surname
+NET	drop	name or English word, no German use
+Newsfeed	keep	established loan, common noun
+Online-Version	keep	real hyphenated compound
+Seas	drop	English word or name
+U-Bahnstation	keep	real hyphenated compound
+Very	drop	English word not established in German
+ZTE	drop	company acronym
+Älterwerde	merge:Älterwerden	cut-off citation of the nominalised verb
+Catrice	drop	brand
+Dorian	drop	first name
+Expertinn	merge:Expertin	cut-off citation
+FES	drop	minor organisation acronym or place
+LKW-Fahrer	keep	real hyphenated compound
+Mascarpone	keep	common food noun
+Nights	drop	English, not established in German
+Prüfungsfrag	merge:Prüfungsfrage	cut-off lemma, written as the plural Prüfungsfragen
+Silk	drop	English or brand name
+Tabellenzweit	merge:Tabellenzweiter	cut-off lemma, written Tabellenzweiten
+Wirsing	keep	common noun (savoy cabbage)
+Wisconsin	drop	US state, not on the place list
+Würstche	merge:Würstchen	cut-off lemma
+X-Men	drop	film or comic name
+XVI	drop	Roman numeral in a name
+ZWEI	merge:zwei	number word filed under a capitalised lemma
+BFV	drop	minor organisation acronym
+Baldrian	keep	common noun (valerian)
+Bauleiter	keep	common noun
+Blutzelle	keep	valid singular lemma
+Credits	drop	English, name-like
+EASY	drop	English or brand
+ENDLICH	merge:endlich	adverb filed under a capitalised lemma
+Grönemeyer	drop	person
+Hansjörg	drop	first name
+Leitzin	merge:Leitzins	cut-off lemma
+Mercury	drop	brand or person
+Nashville	drop	foreign city not on the list
+Shepherd	drop	English dog breed or name
+Spice	drop	English or band name
+TFT	drop	technical acronym
+Vader	drop	fictional character
+mind	drop	English-looking fragment or abbreviation, not a learnable lemma
+Blended	drop	English, not established
+CLS	drop	car model
+Camille	drop	first name
+Chai	keep	established loan for tea
+Germain	drop	name
+Halsband	keep	common noun
+Lampedusa	drop	small island, not on the place list
+MWST	drop	abbreviation
+Novartis	drop	company
+PCB	drop	technical acronym
+Planschbecke	merge:Planschbecken	cut-off lemma
+RTW	drop	abbreviation
+Wasserski	keep	ordinary common noun (water skiing)
+Youngtimer	keep	established German common noun for a car
+BMS	drop	brand/company acronym
+Böhnhardt	drop	surname
+Chaussee	keep	real German common noun, though here mostly in street names
+Familienbeihilfe	keep	real compound noun (Austrian benefit)
+Hartwig	drop	first name or surname
+Hipster	keep	established loan, common noun
+Liane	keep	real word (liana), though examples are mostly the first name
+MailChimp	drop	brand
+Massachusetts	drop	place name not on the learnable list
+TUM	drop	minor organisation acronym
+Television	drop	English word, and also a company name
+ThinkPad	drop	product brand
+Untersuchungs-Bahn	drop	splitter junk from a clipped compound
+Vehicle	drop	English word not established in German
+VertreterInn	merge:Vertreterin	gendered plural written with a capital I, the base is Vertreterin
+Weiters	merge:weiters	adverb filed under a capitalised lemma
+Yasmin	drop	first name
+anzuwendend	merge:anwenden	inflected gerundive filed as a lemma
+bipolar	keep	real adjective (bipolare Störung)
+büch	merge:Buch	clipped lemma, the forms are mostly Bücher
+here	drop	English word
+Alt-Taste	keep	real German compound
+Atletico	drop	sports club name
+Banana	drop	English word or brand name
+Betreuungs-Bahn	drop	splitter junk from a clipped compound
+Co-Autor	keep	real German compound
+Cristina	drop	first name
+Din	drop	norm acronym or name, not an ordinary word
+Eva-Maria	drop	first name
+Flamenco	keep	common noun (dance/music style)
+Gefickt	merge:ficken	participle filed as a lemma
+Gomera	drop	place name not on the learnable list
+Holle	drop	name (Frau Holle) or place
+Jared	drop	first name
+Scharf	merge:scharf	adjective filed under a capitalised lemma
+Solaris	drop	product or brand name
+T-shirt	merge:T-Shirt	wrong-case spelling of an established loan
+Tolkien	drop	surname
+Troy	drop	first name/person
+Ziri	drop	first name
+Ancelotti	drop	surname of a person
+Android-Handy	keep	real German compound
+Boards	drop	English word, not established
+Casablanca	drop	place name not on the reviewed list
+Dating-Seite	keep	real German compound
+Deborah	drop	first name
+EWE	drop	company
+Emerging	drop	English word
+Geberit	drop	brand/company
+Hamann	drop	surname
+Hürth	drop	town
+Mueller	drop	surname
+Mühlhausen	drop	town/district
+Success	drop	English word
+UNTERNEHMEN	merge:Unternehmen	common noun written in capitals
+buy	drop	English word
+essence	drop	English word/brand
+mehrmonatig	keep	real adjective; only inflected forms occur, but the lemma is the dictionary form
+Blockchain-Technologie	keep	real German compound
+DSV	drop	organisation acronym
+Eisenberg	drop	town/surname
+Gerhardt	drop	surname
+Geschäftsstell	merge:Geschäftsstelle	cut-off lemma
+IT-Spezialist	keep	real German compound
+Kinect	drop	product brand
+Piece	drop	English word/name
+Rocrail	drop	software product
+Vanilla	drop	English word/brand
+benei	merge:beneiden	cut-off verb
+essbereich	merge:Essbereich	noun under a lower-case lemma
+Aufsetz	merge:aufsetzen	cut-off lemma, forms are from the verb
+Brass	drop	surname/name
+Facebook-Nutzer	keep	real German compound
+GPS-Gerät	keep	real German compound
+HTW	drop	institution acronym, minor
+Kissing	drop	fragment of the town name Bad Kissingen
+Kundennutz	merge:Kundennutzen	cut-off lemma
+Leslie	drop	first name
+NMS	drop	acronym for a licence plate or school, not a learner word
+Nrw	drop	abbreviation for Nordrhein-Westfalen, excluded for now
+Registration	keep	real German noun
+Sansibar	drop	place name not on the reviewed list
+Staff	drop	English word not established in German
+bAV	drop	specialist abbreviation
+Auschecke	merge:auschecken	nominalised verb filed under a cut-off, capitalised lemma
+Bernie	drop	first name
+Chill	merge:chillen	verb filed under a capitalised lemma
+Elli	drop	first name
+FIS	drop	sports organisation or acronym
+FREE	drop	English word, not established in German
+FREI	merge:frei	adjective filed under a capitalised lemma
+Google-Dienst	keep	real German compound
+Hildebrandt	drop	surname
+Kürbiskerne	merge:Kürbiskern	noun filed under its plural
+Machu	drop	fragment of a foreign place name
+Merk	merge:merken	verb forms filed under a capitalised lemma
+Samos	drop	place name not on the reviewed list
+Tabea	drop	first name
+Unterstellunge	merge:Unterstellung	cut-off lemma, plural filed under a clipped singular
+WIRKLICH	merge:wirklich	adverb filed under a capitalised lemma
+Westfalia	drop	company or club name
+Zip	drop	name or foreign word, not a learner word
+adult	keep	established German adjective (biology)
+alia	merge:alias	written form is mostly alias
+always	drop	English word, not established in German
+auserkiesen	keep	real verb, the dictionary form
+erik	drop	first name
+Bundesliga-Saison	keep	real German compound
+Cha	drop	not a German word, name or fragment
+Clock	drop	English word, not established in German
+Lo	drop	name or fragment
+MSV Duisburg	drop	sports club
+Maintal	drop	minor place or valley name
+Monatsrat	merge:Monatsrate	noun filed under a cut-off lemma
+PB	drop	abbreviation
+Pansy	drop	English name, low diversity
+Picchu	drop	fragment of a foreign place name
+Steuerungs-Bahn	drop	splitter junk
+TN	drop	abbreviation, length 2
+TSC	drop	sports club/name
+TUN	merge:tun	the verb "tun" filed under a capitalised lemma
+Anselm	drop	first name or surname
+Capitol	drop	building/place name
+Chiang	drop	name
+Haug	drop	surname
+KGV	drop	minor organisation or specialist abbreviation
+Line-Up	keep	established loan, real compound
+Manor	drop	name
+Margin	drop	English word not established in German
+Reynolds	drop	surname/brand
+Roses	drop	band name (Guns N' Roses)
+SOS-Kinderdorf	keep	nationally known institution
+Spirulina	keep	common noun (alga)
+VIA	merge:via	preposition filed under a capitalised lemma
+root	drop	English word not established in German
+Assisi	drop	town not on the place list
+Bilddat	merge:Bilddaten	cut-off lemma, the real word is Bilddaten
+CLUB	merge:Club	common noun filed under a capitalised lemma
+Cora	drop	first name
+DSA	drop	name/brand (game system)
+Dahl	drop	surname
+Dyson	drop	brand
+FSG	drop	minor organisation or acronym
+Fail	drop	English word not established in German
+Gewerbeimmobilien	merge:Gewerbeimmobilie	noun filed under its plural
+Hanno	drop	first name
+Herzklopfen	keep	real German noun
+Pal	drop	name or English word
+RZ	drop	abbreviation, length 2
+Uelze	drop	town (Uelzen) not on the place list
+Xinhua	drop	news agency, name
+Zach	drop	first name
+friends	drop	English word not established in German
+nev	drop	broken English fragment
+Adi	drop	first name
+EMEA	drop	business acronym, specialists only
+Fischbach	drop	village/surname
+George Clooney	drop	person
+Gesichtscrem	merge:Gesichtscreme	cut-off lemma
+Hausmann	keep	common noun (house-husband, plural Hausmänner)
+Homberg	drop	minor town
+Immigration	keep	German word, used in German
+Jonny	drop	first name
+KPCh	drop	foreign party acronym, few documents
+Knoll	drop	surname
+Konami	drop	company
+Mechthild	drop	first name
+Patrol	drop	English word, brand/name use
+Picard	drop	surname/character
+Platt	merge:platt	adjective filed under a capitalised lemma
+Satellite	drop	English form, not German
+Schöneberger	drop	surname/district
+oberbayerisch	keep	real adjective, lemma is the dictionary form
+take	drop	English word not established in German
+Algier	drop	foreign city not on place list
+Arminia Bielefeld	drop	sports club
+Cloud-Lösung	keep	real compound
+Diaz	drop	surname
+Feldkirche	drop	town (Feldkirchen)
+Melk	drop	mostly a town name
+Tebartz-van	drop	cut-off surname
+Well	drop	English word
+Alanya	drop	foreign town
+Alexandre	drop	first name
+Ballack	drop	person
+Bully	drop	name/brand use
+E-Herd	keep	real compound
+EU-Kommissar	keep	real compound
+GIMP	drop	software brand
+Lesbos	drop	place not on the reviewed list
+MFA	drop	unclear acronym/organisation
+PERRY	drop	name
+Rhein-Sieg-Kreis	drop	district name
+SIP	drop	technical acronym
+Seeds	drop	English word/name
+Sinclair	drop	person's surname
+Wilders	drop	person's surname
+hard	drop	English word not established in German
+key	drop	English word not established in German
+Attendorn	drop	town, not on the learnable places list
+BOSCH	drop	company brand
+Bolero	keep	common noun (dance, short jacket)
+Complex	drop	English product-name text
+Crowd	drop	English, not established in German
+Donaueschingen	drop	town, not on the learnable places list
+Frankenberg	drop	town, not on the learnable places list
+Gobbi	drop	surname
+Kontra	keep	ordinary word (Pro und Kontra)
+Nordhesse	drop	minor region name; not on the learnable places list
+PGA	drop	sports organisation or brand acronym
+Schwelm	drop	town, not on the learnable places list
+Spam-Ordner	keep	real German compound
+Timmendorfer	drop	place-name fragment (Timmendorfer Strand)
+Toledo	drop	foreign city, not on the learnable places list
+UN-Generalsekretär	keep	real compound, nationally relevant title
+security	drop	English word not established in German
+speed	drop	English word not established in German
+Bailey	drop	surname
+Barmenia	drop	company name
+CSI	drop	TV series brand
+KAUFEN	merge:kaufen	verb filed under a capitalised lemma
+Must-have	keep	established loan, hyphenated compound
+Notre	drop	fragment of the name Notre Dame
+Online-Marktplatz	keep	real German compound
+Prater	drop	Vienna park, a place name not on the list
+SEC	drop	foreign agency acronym
+Selenskyj	drop	person's name
+SumUp	drop	brand, low diversity
+Sustainability	drop	English word not established in German
+Visit	drop	mostly English; the German noun is Visite
+WSV	drop	sports or club acronym
+Wanda	drop	first name
+Web-Sit	merge:Website	cut-off citation of Web-Site/Website
+Abmeld	merge:abmelden	cut-off form of the verb abmelden
+Ammann	drop	surname
+Claudius	drop	personal name
+Construction	drop	English word, not established in German
+Dienstleistungs-Bahn	drop	splitter junk, cut-off compound fragment
+Dübendorf	drop	minor town, not on the place list
+Emmending	drop	cut-off form of a minor town (Emmendingen), not on the place list
+HIV-Infektion	keep	real German compound
+Hopkin	drop	surname
+Janssen	drop	surname
+Luxe	drop	not a German word, name-like or brand text
+Mazedonie	merge:Mazedonien	cut-off lemma of Mazedonien, which is on the learnable places list
+Platzgrund	keep	real compound, mostly seen in plural or in "aus Platzgründen"
+QVC	drop	brand
+Raven	drop	name or brand
+Santos	drop	surname or place name
+Spiderman	drop	fictional character, brand
+Thanksgiving	keep	common noun for a well-known holiday
+Togo	drop	place name not on the reviewed list
+Treasure	drop	English word, in titles
+US-Markt	keep	real German compound
+Vertrags-Bahn	drop	splitter junk, cut-off compound fragment
+WOHNEN	merge:wohnen	verb filed under a capitalised lemma
+Zadar	drop	foreign city
+AbholstationKostenloser	drop	concatenation junk from shop text
+Acronis	drop	company or product
+Bachelor-Abschluss	keep	real German compound
+Bahia	drop	Brazilian state, not on the place list
+Beuth	drop	surname or publisher name
+Bio-Lebensmittel	keep	real German compound
+DIN-Norm	keep	real German compound
+IT-Security	drop	English compound, not established; German is IT-Sicherheit
+Margret	drop	first name
+Midnight	drop	English word, in titles
+Painting	drop	English word, not established in German
+Partnership	drop	English word, not established in German
+Push-Benachrichtigungen	merge:Push-Benachrichtigung	plural filed as lemma
+RTX	drop	product acronym
+Rangnick	drop	surname
+Richard Wagner	drop	historical person
+Rimini	drop	Italian city, not on the places list
+Schloss-Symbol	keep	real German compound
+Slide	drop	English word, here a game name
+Sticky	drop	English word, not established in German
+VT	drop	abbreviation
+Victory	drop	English word, only in names
+WLAN-Verbindung	keep	real compound
+relational	keep	real German adjective (relationale Datenbank)
+Amazing	drop	English word, brand name
+Collect	drop	English, only in "Click & Collect"
+Gaia	drop	name
+IAB	drop	organisation acronym
+Ist-Zustand	keep	real compound
+Jill	drop	first name
+Meschede	drop	minor town
+Miltenberg	drop	minor town
+OGS	drop	minor acronym
+SBS	drop	organisation acronym
+Thule	drop	mythic place name, not on the list
+Vivian	drop	first name
+Zi	drop	two-letter fragment
+Böttcher	drop	surname
+Concert	drop	English word, not established
+Fear	drop	English word, not established
+Greiz	drop	minor town
+Infineon	drop	company
+Kane	drop	name
+Rupp	drop	surname
+Skull	drop	English word, not established
+Skywalker	drop	fictional name
+Sopran	keep	common noun
+Springfield	drop	foreign place name, not on the list
+call	drop	English word, not established
+schwarz-rot	keep	real German compound adjective
+sechsmonatig	keep	real adjective, lemma form is correct
+Abklingzeit	keep	real German compound
+AntifaschistInnen	merge:Antifaschist	gendered plural of Antifaschist
+Berta	drop	first name
+Elephant	drop	English spelling, mostly in a proper name
+Geodat	merge:Geodaten	cut-off citation of Geodaten
+HSK	drop	minor acronym
+Hennig	drop	surname
+Homburger	drop	place-derived name
+Imagination	keep	real German noun
+Katherine	drop	first name
+Klaus-Peter	drop	first name
+Klickrat	merge:Klickrate	cut-off lemma
+LOVE	drop	English word, name usage
+Mahagoni	keep	common noun mistagged as a name
+Marienberg	drop	minor town
+Niersbach	drop	surname
+Radiator	keep	established German word
+Rank	drop	English use, not an established German word
+Seiler	drop	surname in the examples
+Spiegelunge	merge:Spiegelung	cut-off lemma
+Standortdat	merge:Standortdaten	cut-off lemma
+Studies	drop	English word
+Thomson	drop	surname/brand
+Wessel	drop	surname
+Ahrensburg	drop	minor town
+Asics	drop	brand
+Brink	drop	surname/brand
+CDI	drop	car-engine brand label
+DHCP	drop	technical acronym
+David Cameron	drop	person
+Dörrautomat	keep	real compound noun
+Fever	drop	English word in a game title
+Heiligenhaus	drop	minor town
+Late	drop	English word
+Lovoo	drop	brand
+Mischa	drop	first name
+OpenStreetMap	drop	website/brand
+Pancakes	merge:Pancake	plural of an established loan
+Pendelleucht	merge:Pendelleuchte	cut-off lemma
+PowerShell	drop	product
+Reagan	drop	person
+Tilo	drop	first name
+Amboss	keep	common noun (anvil), tagger error
+BOS	drop	minor acronym/name
+Branch	drop	English word not established in German
+Brustwarz	merge:Brustwarze	cut-off citation of Brustwarze
+Charger	drop	English word or brand/team name
+EGMR	keep	nationally known court, referred to by its acronym
+EU-Datenschutzgrundverordnung	keep	real German compound
+IDS	drop	specialist institute acronym
+ITS	drop	English "its" or minor acronym
+Milliardenhöhe	keep	common noun
+OER	drop	specialist acronym, low diversity
+Sen	drop	name/fragment
+Soden	drop	minor place name
+Strasbourg	drop	foreign city not on the place list
+Thrones	drop	part of a title
+Tucholsky	drop	surname of a historical figure
+VDA	drop	trade association acronym
+ZGB	drop	specialist legal abbreviation
+portabl	merge:portabel	cut-off citation of portabel
+AFC	drop	sports club
+Andernach	drop	town
+Audio-CD	keep	real hyphenated compound
+Baier	drop	surname
+Domingo	drop	name
+Fairy	drop	English word or brand
+Fanny	drop	first name
+Gravity	drop	film title
+Hitchcock	drop	surname of a cultural figure
+January	drop	English word
+Luka	drop	first name
+M-V	drop	abbreviation for a federal state
+Merchandising	keep	established loan, common noun
+Nebelscheinwerfer	keep	common noun
+Ostfildern	drop	town
+Pace	drop	English word not established in German
+Pressing	keep	established football loan
+Shabby	drop	English word, not established
+Stillkissen	keep	real German noun
+Tasting	keep	established loan in wine and food contexts
+AVG	drop	Austrian law abbreviation / antivirus brand, a name
+Based	drop	English word, not established in German
+Casper	drop	personal name
+Chianti	keep	common noun (wine), mistagged as a name
+EFH	drop	abbreviation of Einfamilienhaus
+Engelbert	drop	first name
+Hämatom	keep	ordinary medical noun
+Internet-Zugang	keep	real German compound
+Karlsbad	drop	town not on the place list
+Kenny	drop	personal name
+Kolb	drop	surname
+Mask	drop	English word, not established
+NOW	drop	English word / name
+OE	drop	two-letter fragment
+Olympic	drop	English word / brand name
+Turkish	drop	English word, not established
+Wandsbek	drop	district name
+XPS	drop	product name
+after	drop	English word, not established
+AVB	drop	insurance-terms abbreviation
+Appliance	drop	English IT jargon, not established
+BIZ	drop	abbreviation / website name
+Barrow	drop	street name in an address
+Cannstatt	drop	district name
+DirectX	drop	product/brand name
+Drums	drop	English word, not established
+Eddy	drop	personal name
+Frühschoppe	merge:Frühschoppen	clipped citation form of Frühschoppen
+Monti	drop	surname
+Müntefering	drop	politician's surname
+Sheet	drop	English word, not established
+Soros	drop	surname
+Speech	drop	English word, not established
+Therese	drop	first name
+Unterabsatz	keep	real German noun, legal-text vocabulary
+Wissenschafts-Bahn	drop	splitter junk from a truncated compound
+Anneliese	drop	first name
+Audition	drop	English word, not established in German
+Automatic	drop	English word not established in German; product and name usage
+Cyberpunk	drop	mostly the game title, name-like
+Hauke	drop	first name
+Magna	drop	part of the name Magna Graecia
+PSI	drop	institute and bus-stop name, acronym
+Witte	drop	surname
+Aristotele	drop	historical figure's name (cut-off lemma)
+Avengers	drop	film and brand name
+BVA	drop	organisation acronym
+Backgammon	keep	common noun for a game
+Bob Dylan	drop	person
+Borneo	drop	place name not on the learnable list
+CLA	drop	technical acronym
+CMD	drop	technical acronym
+Canadian	drop	English word, name usage
+Cuisine	drop	English/French word in brand names
+DBV	drop	minor organisation acronym
+Filip	drop	first name
+Funktions-Bahn	drop	splitter junk from "Funktions-"
+Hecking	drop	surname
+IDW	drop	organisation acronym
+Initial	keep	German word (initial, Initiale)
+Murnau	drop	town
+Netzwerktechnik	keep	ordinary German compound noun
+Peach	drop	game character name
+Recklinghaus	drop	town name, cut-off lemma
+Simply	drop	English word, brand name
+Teak	keep	common noun for a wood
+Wei	drop	name
+Zeitgrund	keep	real noun, used in "aus Zeitgründen"
+spid	drop	broken lemma for English "spider"
+Altötting	drop	town
+Heidrun	drop	first name
+Mainstream-Medium	keep	real compound, established loan (Mainstream-Medien)
+Massa	drop	surname
+Noel	drop	first name
+Oleg	drop	first name
+Phi	drop	Greek letter, name-like usage, no examples
+Tetra	drop	brand name (aquarium products)
+Bandai	drop	company name
+CE-Kennzeichnung	keep	real German compound
+GPR	drop	technical acronym, few documents
+HT	drop	two-letter acronym/name
+Habitat	keep	established German noun
+Heiligendamm	drop	minor place name
+Hermin	drop	first name (Hermine)
+Kentucky	drop	place name not on the learnable list
+Kondenswasser	keep	ordinary common noun
+Massimo	drop	first name
+Monitore	merge:Monitor	plural filed as lemma
+Ridge	drop	name
+Rotkäppche	merge:Rotkäppchen	cut-off lemma
+Titus	drop	first name
+Wash	drop	English word, not established
+Westminster	drop	place name not on the learnable list
+Workspace	drop	English product/tech term, not established
+fü	merge:für	cut-off of für
+professional	drop	English word, not established (German: professionell)
+BAD	merge:Bad	capitalised filing of the noun Bad
+Cayennepfeffer	keep	ordinary common noun
+DIGITAL	merge:digital	adjective filed under capitals
+E-Book-Reader	keep	real hyphenated compound
+E-Scooter	keep	real hyphenated compound
+Empires	drop	game title, English
+Flush	drop	English poker term, not established
+Frontier	drop	English word/brand
+Johansson	drop	surname
+Kfz-Steuer#Neut	merge:Kfz-Steuer	lemma has a tagging artifact; real compound
+LU	drop	two-letter acronym/name
+Path	drop	English word, not established
+Selbstbewusstseinstraining	keep	real compound, ordinary noun
+Siem	drop	name
+Vorhofflimmer	merge:Vorhofflimmern	clipped lemma
+WLAN-Router	keep	real hyphenated compound
+Wiesloch	drop	town name
+massag	merge:Massage	clipped lemma
+Überwachungs-Bahn	drop	splitter junk
+Banks	drop	surname
+CX	drop	marketing acronym, specialist use
+Diebstahls	merge:Diebstahl	genitive form of Diebstahl
+Dmitri	drop	first name
+Doug	drop	first name
+Fußball-Europameisterschaft	keep	real German compound
+Geröll	keep	ordinary common noun
+KA	drop	abbreviation or name fragment
+Lindsay	drop	first name
+Michail	drop	first name
+Oakley	drop	brand
+Tunis	drop	foreign city not on the place list
+Wittgenstein	drop	surname of a historical figure
+Wulf	drop	first name
+dead	drop	English word not established in German
+future	drop	English word not established in German
+Attersee	drop	minor place name (lake and village)
+Barbado	merge:Barbados	clipped lemma, text has Barbados
+Bentheim	drop	minor place name
+Biermann	drop	surname
+Brighton	drop	foreign city not on the place list
+Corona-Verordnung	keep	real German compound
+Fatih	drop	first name
+Fricke	drop	surname
+Hohenheim	drop	district and university name
+Kati	drop	first name
+LWL	drop	minor regional organisation
+Malereie	merge:Malerei	clipped plural, text has Malereien
+Reck	keep	common noun (gymnastics apparatus)
+U-Haft	keep	real German compound
+Utopia	keep	common noun
+Woraus	merge:woraus	adverb filed under a capitalised lemma
+XXXL	drop	size and brand text
+Yukon	drop	minor river and territory name
+Ziernäht	merge:Ziernaht	clipped plural, text has Ziernähte
+Assa	drop	name
+Beam	drop	English word and name, not established
+Cave	drop	English word and name (Nick Cave), not established
+Drittländer	merge:Drittland	noun filed under its plural
+Friedman	drop	surname
+GU	drop	two-letter name/fragment
+Hain	drop	surname
+Lucie	drop	first name
+Marty	drop	first name
+Mina	drop	first name
+Neudorf	drop	minor village name
+Payments	drop	English, brand use (Amazon Payments)
+Presley	drop	person name
+Prof	drop	abbreviation/title
+SPSS	drop	specialist software brand
+Spiritus	keep	common noun (Spiritus, alcohol/spirit)
+Themenübersicht	keep	real German compound noun
+VDH	drop	minor organisation acronym
+koronar	keep	real medical adjective, lemma form valid
+B-Jugend	keep	real German compound (youth team category)
+BMW Group	drop	company name
+BPA-frei	keep	real compound adjective
+Bally	drop	brand/company
+Bankkaufmann	keep	common noun mistagged as name
+Barroso	drop	person name
+Cadillac	drop	brand
+Castello	drop	place/name, not learnable
+Environmental	drop	English, not established
+FOX	drop	brand/company
+Gamble	drop	surname/English
+Imaging	drop	English, company name use
+Kaya	drop	first name/surname
+Lombardi	drop	surname
+Nanny	keep	established loan, common noun
+Norwegian	drop	English word, not German form
+PLM	drop	technical acronym
+RLP	drop	abbreviation of region
+Said	drop	name/English word
+Schweizerinn	merge:Schweizerin	misspelt citation of Schweizerin
+Schönebeck	drop	town name
+Stumpf	keep	real German word (stumpf/Stumpf), not a name here
+Subway	drop	brand
+Wohnungseigentümergemeinschaft	keep	real long German compound
+XR	drop	two-letter technical acronym
+Audience	drop	English word not established in German; marketing jargon, name-like usage
+BFD	drop	Minor organisation acronym (Bundesfreiwilligendienst-type job text), not a word learners need
+Christophe	drop	First name, person name

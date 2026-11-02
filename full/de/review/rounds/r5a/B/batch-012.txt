@@ -1,0 +1,42 @@
+ACC	drop	organisation acronym, not a general word
+Alsfeld	drop	town, not on the place list
+Appel	drop	surname
+BNP	drop	mostly BNP Paribas (brand)
+EK	drop	abbreviation
+Ellis	drop	name
+Fleischmann	drop	surname
+Gesellschafts-Bahn	drop	cut-off splitter junk
+Graduate	drop	English word not established in German
+Herta	drop	first name
+Josephine	drop	first name
+Metzinge	drop	cut-off town name, a town not on the place list
+Mosbach	drop	town
+Nierenversag	merge:Nierenversagen	cut-off noun
+Norditalien	drop	place name still in batch, so not on the reviewed list
+Sagrada	drop	part of a landmark name
+Selina	drop	first name
+She	drop	English pronoun, not German
+Transportier	merge:transportieren	cut-off verb
+US-Staat	keep	real German compound
+venezolanisch	keep	ordinary adjective, already the dictionary form
+DHBW	drop	regional institution acronym
+DIW	drop	minor research institute
+Jojo	keep	common noun (the toy)
+Joop	drop	brand/person name
+Kreuzling	drop	cut-off town name, a town not on the place list
+Nivea	drop	brand
+Saddam Hussein	drop	person
+Sullivan	drop	surname
+Sword	drop	English word, part of a title
+Wittmann	drop	surname
+hannov	merge:Hannover	cut-off city name
+lebensretten	merge:lebensrettend	inflected adjective forms filed under a verb-like stem
+BBS	drop	acronym, brand or school name
+Essentials	drop	English word not established in German
+Ex-Präsident	keep	real hyphenated compound
+Fehlerbehebunge	merge:Fehlerbehebung	cut-off noun, plural is the same word
+Griffin	drop	surname
+Hartz-IV-Empfänger	keep	real German compound
+Hennef	drop	town
+# question BNP: it is both an ordinary abbreviation (Bruttonationalprodukt) and the bank BNP Paribas; dropped because the examples are mostly the bank
+# question lebensretten: the forms are all the adjective lebensrettend, which I chose as the target; check that lebensrettend is a wanted lemma

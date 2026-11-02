@@ -1,0 +1,43 @@
+TN	drop	abbreviation, length 2
+TSC	drop	sports club/name
+TUN	merge:tun	the verb "tun" filed under a capitalised lemma
+Anselm	drop	first name or surname
+Capitol	drop	building/place name
+Chiang	drop	name
+ExpertInn	merge:Experte	gendered plural "ExpertInnen", merged to the dictionary noun
+Haug	drop	surname
+KGV	drop	minor organisation or specialist abbreviation
+Line-Up	keep	established loan, real compound
+Manor	drop	name
+Margin	drop	English word not established in German
+Reynolds	drop	surname/brand
+Roses	drop	band name (Guns N' Roses)
+SOS-Kinderdorf	keep	nationally known institution
+Seenland	keep	common noun, 31.5% after an article or adjective
+Spirulina	keep	common noun (alga)
+VIA	merge:via	preposition filed under a capitalised lemma
+root	drop	English word not established in German
+Assisi	drop	town not on the place list
+Bilddat	merge:Bilddaten	cut-off lemma, the real word is Bilddaten
+CLUB	merge:Club	common noun filed under a capitalised lemma
+Cora	drop	first name
+DSA	drop	name/brand (game system)
+Dahl	drop	surname
+Dyson	drop	brand
+FSG	drop	minor organisation or acronym
+Fail	drop	English word not established in German
+Gewerbeimmobilien	merge:Gewerbeimmobilie	noun filed under its plural
+Hanno	drop	first name
+Herzklopfen	keep	real German noun
+Pal	drop	name or English word
+RZ	drop	abbreviation, length 2
+Uelze	drop	town (Uelzen) not on the place list
+Xinhua	drop	news agency, name
+Zach	drop	first name
+friends	drop	English word not established in German
+nev	drop	broken English fragment
+Adi	drop	first name
+EMEA	drop	business acronym, specialists only
+
+# question ExpertInn: the target could be Experte or Expertin; chose Experte as the generic masculine lemma.
+# question TUN: the lemma is all-caps and tagged PROPN, but every occurrence is written "tun", so I read it as the verb.

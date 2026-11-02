@@ -1,0 +1,43 @@
+Fischbach	drop	village/surname
+Fortan	keep	ordinary adverb mistagged as a name
+George Clooney	drop	person
+Gesichtscrem	merge:Gesichtscreme	cut-off lemma
+Hausmann	keep	common noun (house-husband, plural Hausmänner)
+Homberg	drop	minor town
+Immigration	keep	German word, used in German
+Jonny	drop	first name
+KPCh	drop	foreign party acronym, few documents
+Knoll	drop	surname
+Konami	drop	company
+Mechthild	drop	first name
+Patrol	drop	English word, brand/name use
+Picard	drop	surname/character
+Platt	merge:platt	adjective filed under a capitalised lemma
+Satellite	drop	English form, not German
+Schöneberger	drop	surname/district
+oberbayerisch	keep	real adjective, lemma is the dictionary form
+take	drop	English word not established in German
+Algier	drop	foreign city not on place list
+Arminia Bielefeld	drop	sports club
+Cloud-Lösung	keep	real compound
+Diaz	drop	surname
+Feldkirche	drop	town (Feldkirchen)
+Melk	drop	mostly a town name
+Tebartz-van	drop	cut-off surname
+Well	drop	English word
+Alanya	drop	foreign town
+Alexandre	drop	first name
+Ballack	drop	person
+Bully	drop	name/brand use
+E-Herd	keep	real compound
+EU-Kommissar	keep	real compound
+GIMP	drop	software brand
+Lesbos	drop	place not on the reviewed list
+MFA	drop	unclear acronym/organisation
+PERRY	drop	name
+Rhein-Sieg-Kreis	drop	district name
+SIP	drop	technical acronym
+Seeds	drop	English word/name
+
+# question Melk: mostly the town in Austria (356), but 50 occurrences are the verb melken; dropped as a place name
+# question Lesbos: well-known Greek island, but not on the developer-added list and no reviewed-list evidence; dropped per the rule

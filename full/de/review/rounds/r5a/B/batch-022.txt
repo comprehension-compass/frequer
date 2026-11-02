@@ -1,0 +1,44 @@
+Fischbach	drop	surname or village name
+Fortan	merge:fortan	adverb filed under a capitalised lemma
+George Clooney	drop	person
+Gesichtscrem	merge:Gesichtscreme	cut-off lemma
+Hausmann	keep	also a common noun (Hausmänner, "househusband")
+Homberg	drop	minor town
+Immigration	keep	German word used in German texts
+Jonny	drop	first name
+KPCh	drop	foreign party acronym, concentrated in few documents
+Knoll	drop	surname
+Konami	drop	company
+Mechthild	drop	first name
+Patrol	drop	English word not established in German
+Picard	drop	surname or fictional character
+Platt	merge:platt	adjective filed under a capitalised lemma
+Satellite	drop	English form, not German
+Schöneberger	drop	surname or district
+oberbayerisch	keep	real adjective, dictionary form
+take	drop	English word not established in German
+Algier	drop	foreign city not on the reviewed place list
+Arminia Bielefeld	drop	sports club
+Cloud-Lösung	keep	real hyphenated compound
+Diaz	drop	surname
+Feldkirche	drop	town Feldkirchen, not a learner word
+Melk	drop	mostly the town of Melk
+Tebartz-van	drop	cut-off surname
+Well	drop	English word, not established in German
+Alanya	drop	foreign town
+Alexandre	drop	first name or surname
+Ballack	drop	person
+Bully	drop	name or brand
+E-Herd	keep	real compound
+EU-Kommissar	keep	real compound
+GIMP	drop	software brand
+Lesbos	drop	place name not on the reviewed list
+MFA	drop	organisation acronym
+PERRY	drop	name, low diversity
+Rhein-Sieg-Kreis	drop	district name
+SIP	drop	technical acronym
+Seeds	drop	English word or name
+
+# question Melk: mostly the Austrian town, but "melken" (50 occurrences) is a real verb filed under it; dropped as a place name rather than merged.
+# question Hausmann: tagged as a name, but plural and genitive forms show common-noun use; kept.
+# question KPCh: acronym of the Chinese Communist Party; unclear whether foreign party acronyms count as nationally famous, dropped.

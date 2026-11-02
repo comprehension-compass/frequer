@@ -1,0 +1,44 @@
+Sinclair	drop	person's surname
+Wilders	drop	person's surname
+hard	drop	English word not established in German
+key	drop	English word not established in German
+Attendorn	drop	town, not on the learnable places list
+BOSCH	drop	company brand
+Bolero	keep	common noun (dance, short jacket)
+Complex	drop	English product-name text
+Crowd	drop	English, not established in German
+Donaueschingen	drop	town, not on the learnable places list
+Frankenberg	drop	town, not on the learnable places list
+Gobbi	drop	surname
+Kontra	keep	ordinary word (Pro und Kontra)
+Logs	drop	English plural, not established
+Nordhesse	drop	minor region name; not on the learnable places list
+PGA	drop	sports organisation or brand acronym
+Schwelm	drop	town, not on the learnable places list
+Spam-Ordner	keep	real German compound
+Timmendorfer	drop	place-name fragment (Timmendorfer Strand)
+Toledo	drop	foreign city, not on the learnable places list
+UN-Generalsekretär	keep	real compound, nationally relevant title
+security	drop	English word not established in German
+speed	drop	English word not established in German
+Bailey	drop	surname
+Barmenia	drop	company name
+CSI	drop	TV series brand
+KAUFEN	merge:kaufen	verb filed under a capitalised lemma
+Must-have	keep	established loan, hyphenated compound
+Notre	drop	fragment of the name Notre Dame
+Online-Marktplatz	keep	real German compound
+Prater	drop	Vienna park, a place name not on the list
+SEC	drop	foreign agency acronym
+Selenskyj	drop	person's name
+SumUp	drop	brand, low diversity
+Sustainability	drop	English word not established in German
+Visit	drop	mostly English; the German noun is Visite
+WSV	drop	sports or club acronym
+Wanda	drop	first name
+Web-Sit	merge:Website	cut-off citation of Web-Site/Website
+Abmeld	merge:abmelden	cut-off form of the verb abmelden
+
+# question Visit: written visit (327) is mostly English, but visiten (75) is the plural of the German Visite; I dropped it rather than merging.
+# question Nordhesse: lemma means a person from North Hesse, but nearly all uses are the region name Nordhessen; I dropped it as a minor region.
+# question Web-Sit: the rules list Website as an established loan, so I merged into it; the spelling variant Web-Site could also be the target.

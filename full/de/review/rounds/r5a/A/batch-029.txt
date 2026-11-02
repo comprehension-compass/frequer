@@ -1,0 +1,44 @@
+Automatic	drop	English word not established in German; product and name usage
+Blau-Weiß	keep	real German colour compound, used as a common expression
+Cyberpunk	drop	mostly the game title, name-like
+Hauke	drop	first name
+Magna	drop	part of the name Magna Graecia
+PSI	drop	institute and bus-stop name, acronym
+Witte	drop	surname
+Aristotele	drop	historical figure's name (cut-off lemma)
+Avengers	drop	film and brand name
+BVA	drop	organisation acronym
+Backgammon	keep	common noun for a game
+Bob Dylan	drop	person
+Borneo	drop	place name not on the learnable list
+CLA	drop	technical acronym
+CMD	drop	technical acronym
+Canadian	drop	English word, name usage
+Cuisine	drop	English/French word in brand names
+DBV	drop	minor organisation acronym
+Filip	drop	first name
+Funktions-Bahn	drop	splitter junk from "Funktions-"
+Hecking	drop	surname
+IDW	drop	organisation acronym
+Initial	keep	German word (initial, Initiale)
+Murnau	drop	town
+Netzwerktechnik	keep	ordinary German compound noun
+Peach	drop	game character name
+Recklinghaus	drop	town name, cut-off lemma
+Ries	drop	name
+Simply	drop	English word, brand name
+Teak	keep	common noun for a wood
+Wei	drop	name
+Zeitgrund	keep	real noun, used in "aus Zeitgründen"
+spid	drop	broken lemma for English "spider"
+Altötting	drop	town
+Heidrun	drop	first name
+Mainstream-Medium	keep	real compound, established loan (Mainstream-Medien)
+Massa	drop	surname
+Noel	drop	first name
+Oleg	drop	first name
+Phi	drop	Greek letter, name-like usage, no examples
+
+# question Cyberpunk: genre loan word, but the evidence is almost all the game title, so I dropped it.
+# question Phi: could count as a common noun (Greek letter), but there are no examples, so I dropped it.
+# question Zeitgrund: only the plural is attested, in the set phrase "aus Zeitgründen", so I kept it as the singular lemma.

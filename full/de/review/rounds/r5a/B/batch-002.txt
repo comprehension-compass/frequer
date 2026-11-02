@@ -1,0 +1,44 @@
+Satteldach	keep	common noun mistagged as name
+Schavan	drop	surname of a person
+Service-Team	keep	established loan compound
+dreiwöchig	keep	real adjective; lemma form is fine, inflected forms in text
+kontaktanzeig	merge:Kontaktanzeige	cut-off lemma of Kontaktanzeige
+portable	drop	English word, not established in German (German: portabel/tragbar)
+wochenen	merge:Wochenende	broken lemma, text shows Wochenende
+Arbeitsstätt	merge:Arbeitsstätte	cut-off lemma
+Bunny	drop	name/brand-like, costume text
+Contemporary	drop	English word not established
+DGE	drop	minor organisation acronym
+Erkrath	drop	small town
+Isla	drop	first name/place, not learnable
+Muttermal	keep	real noun, low diversity but genuine word
+Naumann	drop	surname
+October	drop	English month name, not German
+Vorverkaufsstell	merge:Vorverkaufsstelle	cut-off lemma
+Yücel	drop	surname of a person
+Apple-Gerät	keep	real compound a learner would meet
+CSV-Datei	keep	real German compound, common technical term
+Eau	drop	fragment of a perfume name
+Ex-Freundin	keep	real compound
+Haan	drop	small town
+ICT	drop	technical acronym
+Kästner	drop	surname of a person
+Moldawien	keep	country, but it should be on the place list; still a country name
+Nordhorn	drop	small town
+QS	drop	two-letter acronym, specialist
+Quedlinburg	drop	town not on the list
+Rudergerät	keep	real noun
+Salem	drop	place/name
+Scala	drop	opera house/name; spelling variant of Skala is not a merge
+Teltow	drop	small town
+Thierry	drop	first name
+ÖSTERREICH	merge:Österreich	capitalised variant of country name
+Casino-Spiel	keep	real compound
+DMG	drop	minor organisation acronym
+De-Mail	keep	established German service term, real compound
+Diehl	drop	surname
+Eli	drop	first name
+
+# question Moldawien: the rules say countries are already removed from the batch, yet it is here; kept as a country, but it may be missing from the reviewed place list.
+# question ÖSTERREICH: Österreich is a country that should have been taken out of the batch; merged into the normal spelling.
+# question Scala: could be the Milan opera house (name) or a miswritten Skala; dropped as a name.

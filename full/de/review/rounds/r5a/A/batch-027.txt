@@ -1,0 +1,42 @@
+Tilo	drop	first name
+Amboss	keep	common noun (anvil), tagger error
+BOS	drop	minor acronym/name
+Branch	drop	English word not established in German
+Brustwarz	merge:Brustwarze	cut-off citation of Brustwarze
+Charger	drop	English word or brand/team name
+EGMR	keep	nationally known court, referred to by its acronym
+EU-Datenschutzgrundverordnung	keep	real German compound
+IDS	drop	specialist institute acronym
+ITS	drop	English "its" or minor acronym
+Milliardenhöhe	keep	common noun
+OER	drop	specialist acronym, low diversity
+Sen	drop	name/fragment
+Soden	drop	minor place name
+Strasbourg	drop	foreign city not on the place list
+Thrones	drop	part of a title
+Tucholsky	drop	surname of a historical figure
+VDA	drop	trade association acronym
+ZGB	drop	specialist legal abbreviation
+portabl	merge:portabel	cut-off citation of portabel
+AFC	drop	sports club
+Andernach	drop	town
+Audio-CD	keep	real hyphenated compound
+Baier	drop	surname
+Domingo	drop	name
+Fairy	drop	English word or brand
+Fanny	drop	first name
+Gravity	drop	film title
+Hitchcock	drop	surname of a cultural figure
+January	drop	English word
+Luka	drop	first name
+M-V	drop	abbreviation for a federal state
+Merchandising	keep	established loan, common noun
+Nebelscheinwerfer	keep	common noun
+Ostfildern	drop	town
+Pace	drop	English word not established in German
+Pressing	keep	established football loan
+Shabby	drop	English word, not established
+Stillkissen	keep	real German noun
+Tasting	keep	established loan in wine and food contexts
+# question EGMR: counted as a nationally famous institution (like EU, UNO); a stricter reading would drop it as a specialist acronym.
+# question Tasting: kept as an established loan, but it is mainly used in wine and spirits contexts.

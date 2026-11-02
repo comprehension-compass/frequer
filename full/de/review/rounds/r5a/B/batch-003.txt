@@ -1,0 +1,44 @@
+Erlangen-Nürnberg	drop	town/university city, not on the reviewed place list
+Guerilla	keep	common noun (Guerilla, Guerillas)
+HD-Qualität	keep	real German compound, widely used
+Hitachi	drop	company/brand name
+IEEE	drop	minor organisation acronym
+Johann Sebastian Bach	drop	person
+MSc	drop	abbreviation of a degree title
+Nasenspray	keep	common noun
+Offshore	keep	established loan (Offshore-Windpark); tagger mistook it for a name
+Radisson	drop	hotel brand
+Sarajevo	drop	foreign city not on the list
+Soltau	drop	small town
+Start-Ups	merge:Start-up	plural filed as lemma
+eDarling	drop	brand/website, low diversity
+eu	keep	mostly the acronym EU; euer forms are a minority
+AntifaschistInn	merge:Antifaschistin	only the plural antifaschistinnen is written
+Augusta	drop	name
+Benson	drop	surname
+Bruckner	drop	composer/surname
+COMPUTER	keep	common noun Computer
+Franz-Josef	drop	first name
+GO-Antrag	drop	narrow procedural term, concentrated in few documents
+Ham	drop	name/fragment
+Hughes	drop	surname
+IAS	drop	specialist acronym
+Indigo	keep	common noun (colour/dye), though examples are mostly hotel names
+Karina	drop	first name
+Leading	drop	English word, not established in German
+Naked	drop	English word, not established in German
+Postdeutschland	drop	cut-off "post-" fragment, no obvious lemma
+Pünktch	merge:Pünktchen	cut-off lemma
+Silence	drop	English word/title
+Sweat	drop	English word not established on its own
+much	drop	English word (too much)
+solutions	drop	English word
+ud	drop	junk, length 2
+ATM	drop	abbreviation/acronym for specialists
+Britney	drop	first name
+HPV	keep	well-known medical acronym in general German use
+Marbella	drop	foreign town
+
+# question eu: lemma mixes the acronym EU (426) with euer inflections (euen, eue, euem, eues); I kept it as EU
+# question Offshore: it is an English loan used mostly in compounds; I judged it established enough to keep
+# question HPV: it could count as a technical acronym, but the public knows it from vaccination campaigns, so I kept it

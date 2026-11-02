@@ -1,0 +1,42 @@
+Tetra	drop	brand name (aquarium products)
+Bandai	drop	company name
+CE-Kennzeichnung	keep	real German compound
+GPR	drop	technical acronym, few documents
+HT	drop	two-letter acronym/name
+Habitat	keep	established German noun
+Heiligendamm	drop	minor place name
+Hermin	drop	first name (Hermine)
+Kentucky	drop	place name not on the learnable list
+Kondenswasser	keep	ordinary common noun
+Massimo	drop	first name
+Monitore	merge:Monitor	plural filed as lemma
+Ridge	drop	name
+Rotkäppche	merge:Rotkäppchen	cut-off lemma
+Titus	drop	first name
+Wash	drop	English word, not established
+Westminster	drop	place name not on the learnable list
+Workspace	drop	English product/tech term, not established
+fü	merge:für	cut-off of für
+professional	drop	English word, not established (German: professionell)
+BAD	merge:Bad	capitalised filing of the noun Bad
+Cayennepfeffer	keep	ordinary common noun
+DIGITAL	merge:digital	adjective filed under capitals
+E-Book-Reader	keep	real hyphenated compound
+E-Scooter	keep	real hyphenated compound
+Empires	drop	game title, English
+Flush	drop	English poker term, not established
+Frontier	drop	English word/brand
+Johansson	drop	surname
+Kfz-Steuer#Neut	merge:Kfz-Steuer	lemma has a tagging artifact; real compound
+LU	drop	two-letter acronym/name
+Path	drop	English word, not established
+Selbstbewusstseinstraining	keep	real compound, ordinary noun
+Siem	drop	name
+Vorhofflimmer	merge:Vorhofflimmern	clipped lemma
+WLAN-Router	keep	real hyphenated compound
+Wiesloch	drop	town name
+massag	merge:Massage	clipped lemma
+Überwachungs-Bahn	drop	splitter junk
+Banks	drop	surname
+# question Workspace: established tech loan or English term? Dropped as not established.
+# question Kfz-Steuer#Neut: merged to the clean hyphenated compound; the Kfz abbreviation rule applies only to the bare abbreviation.

@@ -1,0 +1,43 @@
+Rimini	drop	Italian city, not on the place list
+Schloss-Symbol	keep	real German compound (padlock symbol)
+Slide	drop	English word not established in German; examples are brand text
+Sticky	drop	English word, product text
+VT	drop	abbreviation, 2 letters
+Victory	drop	English word, used in names and titles
+WLAN-Verbindung	keep	real compound
+relational	keep	real German technical adjective (relationale Datenbank)
+Amazing	drop	English word, brand name
+Collect	drop	English word, only in "Click & Collect"
+Gaia	drop	personal name or myth figure
+IAB	drop	organisation acronym only specialists use
+Ist-Zustand	keep	real German compound
+Jill	drop	first name
+Meschede	drop	small town
+Miltenberg	drop	small town
+OGS	drop	minor acronym
+SBS	drop	minor organisation or product acronym
+Thule	drop	place or mythical name, not on the list
+Vivian	drop	first name
+WEITERLESEN	drop	template text ("read more")
+Zi	drop	2-letter fragment
+Böttcher	drop	surname
+Concert	drop	English word, used in titles
+DECT	drop	technical acronym only specialists use
+Eislaufen	keep	ordinary German noun mis-tagged as a name
+Fear	drop	English word, used in titles
+Greiz	drop	small town
+Infineon	drop	company
+Kane	drop	surname
+Rupp	drop	surname
+Skull	drop	English word, product text
+Skywalker	drop	fictional character name
+Sopran	keep	ordinary German noun
+Springfield	drop	foreign town
+call	drop	English word not established in German
+schwarz-rot	keep	real German hyphenated adjective
+sechsmonatig	keep	real adjective, and the lemma is the dictionary form
+Abklingzeit	keep	real German compound
+AntifaschistInnen	merge:Antifaschist	gendered plural form of a real noun
+
+# question sechsmonatig: the citation flag is triggered by inflected-only spelling, but the dictionary form is a real adjective; kept as is.
+# question AntifaschistInnen: the gendered plural form could also be filed under Antifaschistin; merged to Antifaschist.

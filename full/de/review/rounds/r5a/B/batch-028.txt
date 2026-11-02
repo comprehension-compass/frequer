@@ -1,0 +1,41 @@
+AVG	drop	Austrian law abbreviation or antivirus brand, a name
+Based	drop	English word not established in German
+Casper	drop	person name
+Chianti	keep	common noun for the wine, mistagged as a name
+Casper and others aside, EFH	drop	abbreviation for Einfamilienhaus
+Engelbert	drop	first name
+Hämatom	keep	real noun, plural forms filed under it
+IT-Services	drop	English plural "Services" not established in German
+Internet-Zugang	keep	real German compound
+Karlsbad	drop	town not on the place list
+Kenny	drop	first name
+Kolb	drop	surname
+Mask	drop	English word, not established
+NOW	drop	English word, not established
+OE	drop	two-letter fragment
+Olympic	drop	English word, brand or product name
+Turkish	drop	English word, not established
+Wandsbek	drop	district name
+XPS	drop	product name
+after	drop	English word, not established
+AVB	drop	abbreviation for Allgemeine Versicherungsbedingungen
+Appliance	drop	English technical term, not established
+BIZ	drop	abbreviation or website text
+Barrow	drop	street name
+Cannstatt	drop	district name
+DirectX	drop	software brand
+Drums	drop	English word, not established
+Eddy	drop	first name
+Frühschoppe	merge:Frühschoppen	clipped citation of a real noun
+Monti	drop	surname
+Müntefering	drop	person name
+Sheet	drop	English word, not established
+Soros	drop	person name
+Speech	drop	English word, not established
+Therese	drop	first name
+Unterabsatz	keep	real legal noun despite low diversity
+Wissenschafts-Bahn	drop	splitter junk from a cut-off compound
+release	drop	lower-case English word, not established
+Anneliese	drop	first name
+Audition	drop	English word, not established in German
+# question release: "Release" is used in German IT contexts, but this lemma is lower-case and tagged ADJ, so I dropped it rather than merging to Release.

@@ -1,0 +1,44 @@
+CF	drop	two-letter abbreviation or name, not a word
+DDR-Zeit	keep	real German compound
+Download-Link	keep	established loan compound
+Dutt	keep	common noun (hair bun)
+Gazprom	drop	company name
+Germanwings	drop	company name
+Git	drop	product name
+Goliath	drop	cultural figure
+Jin	drop	personal name
+Neuenburg	drop	minor place name
+Nickerche	merge:Nickerchen	cut-off lemma, the word is written Nickerchen
+Sinai	drop	place name not on the learnable list
+Spotlight	drop	English word, mostly software or product use
+Treatment	drop	English word not established in German
+Binance	drop	company name
+Bleaching	keep	common noun (tooth whitening), used in German
+Mursi	drop	personal name
+OLED	keep	display term used in everyday consumer German
+Peer Steinbrück	drop	personal name
+Pit	drop	English word or first name
+Plug-In	keep	established loan compound
+Scheer	drop	surname
+Stoll	drop	surname
+VdK	keep	nationally known social association
+Verordnungsgeber	keep	real legal compound, diversity just under threshold
+family	drop	English word not established in German
+got	drop	English word
+small	drop	English word
+Überling	drop	cut-off form of Überlingen, a minor town
+AUDI	drop	brand name
+Critical	drop	English word, used only in names
+Jahwe	drop	name of a deity, treated as a name
+Jansen	drop	surname
+Korbach	drop	minor town
+Packaging	drop	English word not established in German
+SOA	drop	technical acronym
+TF	drop	two-letter abbreviation
+Tanzpartnerin	keep	real German noun
+Transportbox	keep	real German compound
+Trennmittel	keep	real German noun
+# question OLED: consumer-known display term or specialist technical acronym? I kept it.
+# question Jahwe: religious name, not covered by the rules for people or institutions. I dropped it.
+# question Goliath: biblical figure used as a common metaphor, but the rules drop cultural figures. I dropped it.
+# question Spotlight: the phrase "im Spotlight" is used in German, but the sample is mostly software and product use. I dropped it.

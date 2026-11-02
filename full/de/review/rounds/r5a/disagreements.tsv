@@ -1,0 +1,37 @@
+# lemma	A	reason A	B	reason B
+GLP	keep	Swiss national party, like CDU/SPD	drop	minor Swiss party acronym
+Ardenn	drop	clipped form of a region name not on the list	merge:Ardennen	cut-off of Ardennen
+ARM	drop	tech brand/acronym	keep	lowercase text is the adjective arm
+Kali	keep	Kali (potash) is a real common noun, though the PROPN tag suggests many names	drop	name, mostly the goddess or Kali Linux, 0% common-noun use
+Moldawien	drop	country not on the reviewed list given; place name still in batch	keep	country, but it should be on the place list; still a country name
+diplomieren	merge:diplomiert	participle used as adjective	keep	real verb, used as participle adjective diplomiert
+MitarbeiterInnen	merge:Mitarbeiter	gendered plural form of a common noun	merge:Mitarbeiterin	gendered plural of Mitarbeiterin
+Bergisch	merge:bergisch	adjective filed under a capitalised lemma	drop	minor regional adjective and name
+AktivistInnen	merge:Aktivist	gendered plural form of a common noun	merge:Aktivistin	gendered plural of Aktivistin
+Add-Ons	merge:Add-on	plural filed as lemma	keep	established loan compound
+Nordstadt	keep	common noun for a city district, used with adjectives	drop	city district name
+PUR	merge:pur	German adjective filed under a capitalised lemma	keep	written as lowercase pur, the German adjective
+IPO	drop	technical/finance acronym used by specialists	keep	finance acronym used in general news
+VWL	keep	common German abbreviation word (Volkswirtschaftslehre) used as a word	drop	abbreviation of Volkswirtschaftslehre
+Anfahr	merge:Anfahren	cut-off form of the noun Anfahren	merge:anfahren	cut-off lemma, written as anfahren
+BNP	keep	Bruttonationalprodukt, used as an ordinary acronym	drop	mostly BNP Paribas (brand)
+DIW	keep	nationally cited economic research institute	drop	minor research institute
+FRAGEN	merge:fragen	verb filed under a capitalised lemma	merge:Frage	plural noun filed under a capitalised lemma
+TLS-Verschlüsselung	drop	technical TLS acronym only specialists use	keep	real German compound
+SSL-Zertifikat	drop	technical SSL jargon	keep	real compound, common on websites
+LOL	keep	slang acronym used as a word in German	drop	chat abbreviation
+ExpertInn	merge:Experte	gendered plural "ExpertInnen", merged to the dictionary noun	merge:Expertin	cut-off lemma from ExpertInnen
+Seenland	keep	common noun, 31.5% after an article or adjective	drop	regional place name, not on the place list
+Fortan	keep	ordinary adverb mistagged as a name	merge:fortan	adverb filed under a capitalised lemma
+Logs	drop	English plural, not established	merge:Log	plural of the IT loan Log
+KGaA	drop	company legal-form acronym, specialist use	keep	legal-form acronym like GmbH
+WEITERLESEN	merge:weiterlesen	capitalised verb, template text	drop	template text ("read more")
+DECT	keep	cordless-phone standard known to ordinary users	drop	technical acronym only specialists use
+Eislaufen	merge:eislaufen	nominalised verb filed under a capitalised lemma	keep	ordinary German noun mis-tagged as a name
+BMZ	keep	federal ministry, nationally known institution	drop	ministry acronym only specialists use; also an insurance code
+IT-Services	merge:IT-Service	hyphenated compound filed under its English plural	drop	English plural "Services" not established in German
+release	merge:Release	noun filed lower-case; established IT loan	drop	lower-case English word, not established
+Blau-Weiß	keep	real German colour compound, used as a common expression	merge:blau-weiß	adjective filed under a capitalised lemma
+Ries	drop	name	keep	real noun (ream of paper; Nördlinger Ries), though also a surname
+Hofburg	keep	common noun for a palace, well known in Austria	drop	Vienna palace, a place name not on the list
+Kiewer	merge:Kiew	adjectival derivative of Kiew	merge:Kiewer	see question

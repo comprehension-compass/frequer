@@ -1,0 +1,43 @@
+AutorInn	merge:Autorin	gendered form, counted text is autorinnen
+Blankenburg	drop	town or surname
+Clio	drop	car brand
+Falkensee	drop	minor town
+Fitz	drop	surname
+Mumia	drop	personal name
+Mund-Nasen-Schutz	keep	real German compound
+Progress	drop	English, not established
+USB-C	keep	USB acronym used as an ordinary word
+herauskristallisi	merge:herauskristallisieren	cut-off verb lemma
+Aida	drop	cruise line brand
+Balm	drop	English or brand
+Cloud-Dienst	keep	real compound
+D-Mark	keep	established German word
+DATA	drop	English, not established
+Disko	keep	common noun (discotheque)
+EBA	drop	minor organisation acronym
+Flame	drop	English, not established
+Juhu	keep	German interjection
+Kaffeetrinke	merge:Kaffeetrinken	cut-off noun lemma
+Ludwig-Maximilians-Universität	keep	famous institution referred to by name
+MY	drop	English word or fragment
+Marten	drop	surname
+Memoir	merge:Memoiren	counted text is almost all memoiren
+Processing	drop	English, not established
+Quarter	drop	English, not established
+Rewards	drop	English or brand
+Romance	drop	English genre label
+SSL-Zertifikat	keep	real compound, common on websites
+Tampa	drop	foreign city
+Töt	merge:töten	cut-off verb lemma
+Verden	drop	minor town
+Weekly	drop	English or magazine name
+Window	drop	English, not established
+Wusterhause	drop	minor town (Königs Wusterhausen)
+Zahlungs-Bahn	drop	splitter junk
+body	drop	English, not established
+Alive	drop	English, not established
+Alta	drop	place or name
+B-Klasse	keep	real compound (league class)
+# question Ludwig-Maximilians-Universität: a university name is not listed among the famous institutions; kept as nationally well known
+# question SSL-Zertifikat: SSL alone drops as a technical acronym, but the compound is common in everyday web text; kept
+# question Memoir: filed lemma is the singular, but the text is almost all memoiren; merged to the plural-only noun Memoiren

@@ -1,0 +1,42 @@
+ACC	drop	acronym of a minor organisation, name-like
+Alsfeld	drop	small town, not on the place list
+Appel	drop	surname
+BNP	keep	Bruttonationalprodukt, used as an ordinary acronym
+EK	drop	two-letter abbreviation
+Ellis	drop	surname/first name
+Fleischmann	drop	surname
+Gesellschafts-Bahn	drop	splitter junk from "Gesellschafts- und ..."
+Graduate	drop	English word, not established in German
+Herta	drop	first name
+Josephine	drop	first name
+Metzinge	drop	cut-off form of the town Metzingen, not on the place list
+Mosbach	drop	small town
+Nierenversag	merge:Nierenversagen	cut-off lemma
+Norditalien	drop	place name not on the reviewed list
+Sagrada	drop	part of a landmark name
+Selina	drop	first name
+She	drop	English word, not German
+Transportier	merge:transportieren	cut-off verb
+US-Staat	keep	real hyphenated compound
+venezolanisch	keep	correct adjective lemma, only inflected forms occur in text
+DHBW	drop	regional university, minor organisation
+DIW	keep	nationally cited economic research institute
+Jojo	keep	common noun (Jojo-Effekt, toy)
+Joop	drop	person and brand name
+Kreuzling	drop	cut-off form of the town Kreuzlingen, not on the place list
+Nivea	drop	brand
+Saddam Hussein	drop	person
+Sullivan	drop	surname
+Sword	drop	English word in a title, name-like
+Wittmann	drop	surname
+hannov	merge:Hannover	cut-off form of a major city
+lebensretten	merge:lebensrettend	adjective filed under a verb-like cut-off lemma
+BBS	drop	acronym of a minor organisation or brand
+Essentials	drop	English word, not established in German
+Ex-Präsident	keep	real German compound
+Fehlerbehebunge	merge:Fehlerbehebung	cut-off plural form
+Griffin	drop	surname
+Hartz-IV-Empfänger	keep	real German compound
+Hennef	drop	small town
+# question BNP: most examples are BNP Paribas (a company), but the common-word sense (Bruttonationalprodukt) occurs too; kept as an ordinary acronym
+# question DIW: counted it as nationally famous like KfW, but it is borderline versus a minor organisation

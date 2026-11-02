@@ -1,0 +1,42 @@
+BUSINESS	keep	established loan in German
+Bildband	keep	common noun the tagger mistook for a name
+DO	drop	English word or name, not German
+Döring	drop	surname
+ESL	drop	brand or organisation acronym
+Glory	drop	English word and brand name
+Handbremse	keep	common noun
+Kammerjäger	keep	real German noun
+McQueen	drop	surname
+Mitarbeitervertretung	keep	real German noun
+Nutzungsdat	merge:Nutzungsdaten	cut-off citation of Nutzungsdaten
+Opener	drop	English word not established in German
+PET-Flasche	keep	real German compound
+Schiffer	drop	used as a surname in the examples
+Schuppenflecht	merge:Schuppenflechte	cut-off citation
+Sherlock Holmes	drop	fictional character
+Top-Thema	keep	real hyphenated compound
+Voucher	drop	English word not established in German
+patriarchal	keep	real German adjective
+BTW	drop	abbreviation
+Brüderle	drop	surname
+Eckdat	merge:Eckdaten	cut-off citation of Eckdaten
+Ex-Freund	keep	real hyphenated compound
+Hanser	drop	publisher or surname
+Lutherstadt	drop	place name not on the reviewed list
+McCartney	drop	surname
+NET	drop	name or English word, no German use
+Newsfeed	keep	established loan, common noun
+Online-Version	keep	real hyphenated compound
+Seas	drop	English word or name
+U-Bahnstation	keep	real hyphenated compound
+Very	drop	English word not established in German
+ZTE	drop	company acronym
+Älterwerde	merge:Älterwerden	cut-off citation of the nominalised verb
+Catrice	drop	brand
+Dorian	drop	first name
+Expertinn	merge:Expertin	cut-off citation
+FES	drop	minor organisation acronym or place
+LKW-Fahrer	keep	real hyphenated compound
+LOL	keep	slang acronym used as a word in German
+# question LOL: internet slang acronym; kept as an ordinary word, but it could also count as informal chat-only text
+# question Eckdat: the real lemma is plural-only Eckdaten (singular Eckdatum is rare), so I merged into the plural

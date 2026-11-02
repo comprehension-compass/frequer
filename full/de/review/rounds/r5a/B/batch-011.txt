@@ -1,0 +1,43 @@
+Diem	drop	personal name
+Falkenberg	drop	town/surname, not on place list
+Handschuhfach	keep	common noun mis-tagged as a name
+KundInnen	merge:Kunde	gendered plural form of Kunde
+LSD	keep	acronym used as an ordinary word
+Laufband	keep	common noun
+Middleton	drop	surname/place
+Neuruppin	drop	town
+Polizeikraft	keep	Polizeikräfte is a real plural-only-type noun
+Reinickendorf	drop	Berlin district
+Sido	drop	rapper's name
+Spar	drop	brand
+Tessa	drop	first name
+Cats	drop	English name/title
+DOC	drop	not a German word, name/technical
+Didier	drop	first name
+E-Mail-Postfach	keep	real German compound
+Elst	drop	place/name
+FDP-Fraktion	keep	real compound, national institution
+Joyce	drop	personal name
+Lan	drop	name/technical acronym
+Leibniz-Institut	keep	real compound, known institution type
+MSN	drop	brand
+PID	drop	technical acronym
+Superb	drop	car model name
+Worlds	drop	English, not established
+prinen	drop	English "print" fragment
+AFD	keep	nationally known party
+Chamber	drop	English word
+Create	drop	English word
+GdP	keep	nationally known police union
+Guido Westerwelle	drop	person
+Havelland	drop	minor region/district
+Lid	keep	real German word (Lid, eyelid)
+Lobo	drop	surname
+Mid	drop	English word
+Push-Nachricht	keep	real compound
+Riker	drop	fictional character name
+Terre	drop	name/foreign word
+Vorbeug	merge:vorbeugen	cut-off verb
+# question KundInnen: gendered plural with internal capital I; merged to Kunde, but Kundin or keeping as its own lemma is also arguable
+# question AFD: written in capitals AFD; kept as the party acronym, spelling variant of AfD
+# question Polizeikraft: kept as the plural-only-type noun Polizeikräfte, but the singular lemma form is rarely written as a word

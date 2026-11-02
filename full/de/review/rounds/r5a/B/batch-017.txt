@@ -1,0 +1,43 @@
+Mascarpone	keep	common food noun
+Nights	drop	English, not established in German
+Prüfungsfrag	merge:Prüfungsfrage	cut-off lemma, from plural Prüfungsfragen
+Silk	drop	English name or brand
+Tabellenzweit	merge:Tabellenzweiter	cut-off lemma, from Tabellenzweiten
+Wirsing	keep	common noun (savoy cabbage) mistagged as a name
+Wisconsin	drop	US state, not on the place list
+Würstche	merge:Würstchen	cut-off lemma
+X-Men	drop	film/brand name
+XVI	drop	Roman numeral, part of a ruler's name
+ZWEI	merge:zwei	number word filed under a capitalised lemma
+BFV	drop	minor regional organisation acronym
+Baldrian	keep	common noun (valerian)
+Bauleiter	keep	common noun (site manager)
+Blutzelle	keep	valid singular noun lemma
+Credits	drop	English, not established in German
+EASY	drop	English brand-like word
+ENDLICH	merge:endlich	adverb filed under a capitalised lemma
+Grönemeyer	drop	person
+Hansjörg	drop	first name
+Leitzin	merge:Leitzins	cut-off lemma
+Mercury	drop	brand or person
+Nashville	drop	foreign city, not on the place list
+Shepherd	drop	English dog-breed name
+Spice	drop	English, band or brand name
+TFT	drop	technical acronym
+Vader	drop	fictional character
+mind	drop	English or abbreviation fragment, not a German lemma
+Blended	drop	English, not established in German
+CLS	drop	car model name
+Camille	drop	first name
+Chai	keep	established loan for the tea
+Germain	drop	name
+Halsband	keep	common noun (collar)
+Lampedusa	drop	small island, not on the place list
+MWST	drop	abbreviation
+Novartis	drop	company
+PCB	drop	technical acronym
+Planschbecke	merge:Planschbecken	cut-off lemma
+RTW	drop	specialist abbreviation
+
+# question Chai: loan word for the tea, but not clearly established enough in German; kept
+# question Tabellenzweit: the noun is inflected like an adjective (Tabellenzweiter); I chose the masculine form

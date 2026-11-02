@@ -1,0 +1,43 @@
+Backnang	drop	town, not on the place list
+Coleman	drop	surname and brand
+Ex-Frau	keep	real German compound
+Gerard	drop	personal name
+Hopper	drop	surname
+MMA	keep	acronym in ordinary German use for the sport
+Online-Buchung	keep	real compound, established
+Poetry	drop	English word, not established alone
+SMD	drop	technical acronym
+Serra	drop	place or surname
+VBA	drop	technical acronym
+selbstreden	merge:selbstredend	clipped form of selbstredend
+Bones	drop	TV series title
+Dario	drop	first name
+EW	drop	unclear abbreviation
+Fremdkapital	keep	common noun
+Gill	drop	surname
+Integrated	drop	English, company-name text
+Lienz	drop	town
+Lindemann	drop	surname
+Merchant	drop	English word, not established
+Quito	drop	place name still in batch, not on the reviewed list
+Remarketing	keep	established marketing term
+Ripple	drop	cryptocurrency brand
+Social-Media	keep	established loan compound
+Thin	drop	English word
+namenhaft	merge:namhaft	misspelling of namhaft
+Überschreit	merge:überschreiten	cut-off verb
+Advents-Bahn	drop	splitter junk
+DKV	drop	organisation acronym
+Helmholtz-Zentrum	drop	minor institution name
+Immobiliensuch	merge:Immobiliensuche	cut-off noun
+KINDER	merge:Kind	plural of Kind, filed under capitalised form
+Kartenleger	keep	real German noun
+Object	drop	English word
+Strange	drop	English word and surname
+Support-Team	keep	established loan compound
+card	drop	English word
+entry	drop	English word
+had	drop	English word
+# question Helmholtz-Zentrum: may count as a nationally famous institution (Helmholtz-Gemeinschaft), but it is a generic label for many individual centres, so I dropped it.
+# question MMA: could be read as a sports-organisation acronym, but it is used as an ordinary word for the sport, so I kept it.
+# question namenhaft: the intended lemma is namhaft, a different spelling of the same word, so I merged it.

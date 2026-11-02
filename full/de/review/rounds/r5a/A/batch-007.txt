@@ -1,0 +1,43 @@
+CF	drop	two-letter abbreviation/name
+DDR-Zeit	keep	real German compound
+Download-Link	keep	established loan compound
+Dutt	keep	common noun (hair bun)
+Gazprom	drop	company name
+Germanwings	drop	company/brand name
+Git	drop	technical product name
+Goliath	drop	biblical figure's name
+Jin	drop	personal name
+Neuenburg	drop	minor place name
+Nickerche	merge:Nickerchen	cut-off lemma
+Sinai	drop	place name not on the learnable list
+Spotlight	drop	English, mostly a software/brand name
+Treatment	drop	English word not established in German
+Binance	drop	company name
+Bleaching	keep	established loan, common noun
+Mursi	drop	person's name
+OLED	keep	acronym used as an ordinary consumer word
+Peer Steinbrück	drop	person's name
+Pit	drop	English word or first name
+Plug-In	keep	established hyphenated loan
+Scheer	drop	surname
+Stoll	drop	surname
+VdK	keep	nationally known social organisation
+Verordnungsgeber	keep	real legal compound; diversity just under threshold
+family	drop	English, not established
+got	drop	English, not established
+small	drop	English, not established
+Überling	drop	cut-off form of the town Überlingen, a minor place name
+AUDI	drop	brand name
+Critical	drop	English word, not established
+Jahwe	drop	name of a religious figure
+Jansen	drop	surname
+Korbach	drop	minor town
+Packaging	drop	English, not established
+SOA	drop	technical acronym
+TF	drop	two-letter abbreviation
+Tanzpartnerin	keep	real German noun
+Transportbox	keep	real German compound
+Trennmittel	keep	real German noun
+# question Überling: the lemma is a clipped form of Überlingen; I dropped it because the town is not on the learnable list, so the merge target would also be dropped.
+# question Jahwe: the rules do not say whether names of God count as "figures" (drop) or as ordinary religious vocabulary (keep); I dropped it.
+# question Goliath: also used as a common noun for a giant opponent ("David gegen Goliath"), but with 0 % name-like evidence I dropped it as a biblical name.
