@@ -1,0 +1,149 @@
+# question abajar: dialectal/dated verb, kept since it is a real entry; no examples to check
+# question adobar: the forms are mostly adobe (the material, plus the Adobe brand) and adobo, which are separate nouns; I kept the real verb lemma
+# question agregado: it is also a real noun (attaché) and adjective, but the examples are mostly the participle used in web artefacts such as "Agregado el…", so I merged it
+# question airfryer: it is a Philips brand name but is used generically; I kept it.
+# question airfryer: it is a Philips trademark, but it may also be a generic loan for freidora de aire; I dropped it because most examples are brand use.
+# question alar: alar is a real adjective, but about 85% of the forms are alado, so I merged it.
+# question alar: also a real adjective and verb (alar), but alado forms dominate; merged into alado
+# question amalecita: biblical gentilic; kept as a common noun, not a place or person name
+# question autofoco: unclear whether it is established enough versus autoenfoque; kept
+# question autofoto: a rare coinage next to the established selfie, so not clearly settled by the rules
+# question autoprueba: rare compound, kept as a legitimate word
+# question autoritativo: possible English calque of "authoritative", kept because it is in real use
+# question autoritativo: possibly an English calque, but it is attested in theological and technical Spanish, so I kept it.
+# question aventador: the real common word is a minority of the examples, which are mostly the Lamborghini; kept under the "common word stays" rule
+# question azular: the real verb exists, but the counts are all azulado (adjective); I kept it by the lemmatiser's convention
+# question bupropión: same drug-name issue, kept
+# question cabezuela: most examples are place names, but the botanical common word exists
+# question cappella: "a cappella" is an established loan, but the lemma here is mostly name occurrences, so I dropped it
+# question cappella: only the second half of "a cappella"; the first half "a" has no merge target, so dropped
+# question caramba: the carámbanos forms belong to carámbano, a different word, but caramba itself is clearly fine, so I kept it
+# question cebollines: the form is common as a plural in Latin American recipes, so merge into cebollín versus keeping it as its own lemma is arguable
+# question checkbox: UI loan commonly used in tech Spanish, but specialist; decided drop.
+# question choker: fashion loan is common in Spanish shop text, but one example is the technical logging sense; kept as an established loan
+# question clubber: borderline loan; kept as established enough in Spanish nightlife usage.
+# question completísimo: the rules do not say whether a superlative counts as an inflected form; I merged it into completo.
+# question conificado: a real word, but only specialists (cycling parts) use it; kept because the rules don't exclude niche vocabulary.
+# question corintio: most occurrences are the biblical book "Corintios", but corintio is also a real common word, so I kept it.
+# question corintio: most occurrences are the biblical book title "Corintios", but the word is also a real adjective, so I kept it
+# question cultivación: rare calque of cultivo not in dictionaries; merged into cultivo rather than dropped
+# question cámping: the academy writes cámping but camping may be the more common form on the list; merged to camping on the assumption it is listed
+# question desacertar: desacierto (noun, 70) is a separate real word, but the adjective forms are the majority
+# question desper: forms are mostly "despido" (me despido, despedirse), so merged to despedirse, but the noun despido is also possible
+# question desper: mostly "despido" (despedir/despedirse), so the right lemma is not obvious; dropped.
+# question dinamitar: most forms are the noun dinamita, but dinamitar is a real verb with its own uses, so I kept it.
+# question disformidad: Spanish word that is rare outside the Warhammer "Warp" sense, so I kept it as a real word
+# question disformidad: real but rare Spanish word, whose occurrences are mostly the Warhammer "Warp" term
+# question doña: a title of address, which the rules drop, but also a common dictionary word; I kept it, though most examples are inside names (Hotel Doña Carlota).
+# question dumper: the examples mix a software name, the construction vehicle, and a battery product; I kept it because the vehicle sense is an established loan.
+# question encartar: mixed lemma with the Encarta brand (about a third of occurrences); kept as the real verb/noun encarte
+# question experimentado: it could be merged to experimentar, but I kept it as a dictionary adjective meaning "experienced"
+# question experimentado: it is a participle but also a real adjective ("experienced"); I kept it rather than merging into experimentar.
+# question extramuros: most examples are place or district names, but it is also a real adverb
+# question filum: could be argued as a technical loan, but Spanish uses "filo" for the biological sense
+# question fintar: the lemma is a verb, but nearly all occurrences are the noun finta, so I merged it into finta.
+# question flashear: could be seen as a technical anglicism, but it is also general slang, so I kept it
+# question forestar: the forms are mostly foresta/Foresta (noun or name); I kept forestar because forestada and forestadas come from the verb.
+# question galaadita: biblical gentilic may count as a common noun rather than a name
+# question galaadita: biblical gentilic; I treated it as a common noun rather than a proper name
+# question garriga: Catalan/Spanish common word for scrubland, but the evidence is mostly the surname and place names; dropped
+# question gerir: DLE status unclear; dropped as Portuguese-like
+# question gerir: no examples were available, and it may be a rare real verb rather than a Portuguese import
+# question gurdo: Haitian currency "gurda" could be a real word, but the lemma form gurdo looks broken; dropped.
+# question hidroclorotiazida: a common generic drug name, so a learner may meet it; I treated it as specialist vocabulary and dropped it.
+# question hidroclorotiazida: a generic drug name that is not an acronym, which the rules do not cover; I kept it as a real common noun.
+# question homogenización: variant of homogeneización, kept as an accepted form rather than merged
+# question humbucker: a specialist loan, so I kept it because the examples show it used in Spanish sentences
+# question importantísimos: lemma could be importante rather than importantísimo; chose to keep the superlative, consistent with sacratísimo
+# question inscripta: the lemma could be the participle inscripto or the verb inscribir; I chose the verb
+# question intarsia: Italian origin, but used as a knitting term; kept
+# question intarsia: knitting term that may count as an established loan; dropped as specialist
+# question jumpsuit: could count as an established fashion loan, but Spanish has mono
+# question jumpsuit: used in Spanish fashion writing, so it may count as an established loan, but mono exists and examples are mostly product text
+# question lasallista: derived from the name of an institution (La Salle); keep vs drop is not settled by the rules
+# question levonorgestrel: generic drug names are not covered by the rules; kept as real Spanish nouns, not brands
+# question lidocaine: examples are English text, so I dropped it rather than merging into lidocaína.
+# question lidocaine: examples are largely English-language spam text, so drop is also defensible
+# question manifold: Spanish diving and engineering texts use it as a loan, but many examples are software or product names, so I dropped it
+# question mazut: Russian-origin loan with mostly trade-site use; I kept it as an established term for fuel oil.
+# question mediar: the verb mediar is real, but the counted forms are almost all the plural-only "mediados"; I merged it into mediados, but keeping mediar is also defensible.
+# question medo: ethnonym of an ancient people; kept as a common noun because the Spanish word medo is real
+# question medo: ethnonym of an ancient people; kept as a dictionary word rather than a proper noun
+# question mensurar: the counts mix the verb and the noun mensura; I kept the verb lemma as is.
+# question menudear: the verb is real, but nearly all forms are the noun menudeo
+# question mesar: forms meso and mese suggest a mixed lemma, but mesar is a real verb with its own forms
+# question mesar: the verb is real, but most forms are meso/mese (prefix or name), so I dropped it
+# question meteo: a clipping of meteorología that is common on weather sites, but the examples are missing and it is tagged PROPN. I dropped it as a brand or site name; merge:meteorología would be the alternative if that lemma is listed.
+# question meteo: clipping of meteorología, but it may be established enough as its own word; merged under the abbreviation rule
+# question mixes: could also be the ethnonym mixe or "mixtos"; merged into mix from the music-mix example
+# question mixes: examples mix the ethnonym with the English "mixes" (music mixes), so the lemma is unclear
+# question monomodo: a technical term, but a real Spanish word, so kept
+# question monomodo: specialist fibre-optic term, kept as a real compound; could be seen as too technical
+# question mugir: the verb is real and the Mugen brand dominates the counts; I dropped it per the minority-reading rule.
+# question mulching: it is used in Spanish garden-machinery text but is probably too specialised for a learner list
+# question mulching: possibly established in gardening-equipment Spanish; dropped as a specialist English term
+# question multipar: multiparte is not clearly standard Spanish and the medical term is multípara, but most occurrences are multiparte
+# question multipar: unsure whether multiparte is a standard Spanish word; the medical term is multípara
+# question mískito: merged into miskito, assuming that is the standard spelling of the listed ethnonym
+# question overclock: it is a loan used by PC users, but it is specialist; unclear whether it is established enough to keep.
+# question pablista: niche political term, kept as a real derived word
+# question panko: borderline whether a Japanese culinary loan is established enough for a learner list
+# question panko: it is a Japanese loan used mainly in recipes, and whether it is established enough for a learner list is unclear
+# question pavonar: pavonar is a real verb but forms split between the place name Pavones and the adjective pavonado, so dropped as a minority real-word reading
+# question pegador: examples look like web spam, but the word is real Spanish, so I kept it
+# question pegador: real Spanish word, but most examples are spam translations ("precios pegadores"); kept as a real word
+# question pembrolizumab: a generic drug name, not an acronym or brand; the rules don't say whether rare generic drug names are kept, so I dropped it as specialist vocabulary.
+# question pomeranio: forms mix the dog breed with the place Pomerania; kept because the breed is a common word.
+# question pomeranio: the dog breed is a real word, but most examples are the place name; decided drop.
+# question postratamiento: technical compound, kept as a real prefixed word; could be seen as too specialist
+# question putter: English golf term, kept as an established sports loan; borderline
+# question putter: a golf term that only specialists may use, but it is established in Spanish golf vocabulary, so I kept it.
+# question quererse: "te quiero" is mostly plain querer with an object clitic, not the reflexive; I kept the pronominal lemma by convention
+# question sandboard: it is unclear whether niche sport loans like sandboard and skatepark count as established enough; I kept both.
+# question sandboarding: established enough as a loan is borderline
+# question seleccionado: participle filed as lemma, but it can also be a plain adjective; I treated it as a participle to merge, unlike experimentado
+# question shells: computing sense "shell" is a loan, but some examples are pistachio shells; I merged into shell on the computing majority.
+# question shells: the computing sense (shell) is an established technical loan, but most examples are mixed with product names, so I dropped it.
+# question shunt: established in Spanish medicine and electronics, but only specialists use it, so keep versus drop is a judgement call
+# question shunt: established in medical and electrical Spanish, but could be read as a specialist foreign term
+# question sinsajo: sinsajo is also a real word for a bird, but nearly all examples are the book title
+# question sitar: the instrument is a real loan but the "site" forms dominate; I dropped it per the minority-reading rule.
+# question stewards: Wikimedia role in the examples; the aviation loan steward might merit a merge
+# question tacrolimus: same as levonorgestrel
+# question timestamp: English IT term, kept as an established loan, but it is borderline.
+# question timestamp: possibly an established IT loan, but dropped as specialist
+# question tolar: examples mix the currency and the place Tolar Grande; kept as the currency.
+# question tolar: the occurrences mix the currency with the place Tolar Grande, so kept as a currency
+# question transtorno: academy-accepted variant of trastorno; kept rather than merged, but the list may prefer the commoner spelling
+# question transtorno: accepted academy variant of trastorno, so kept rather than merged
+# question trasparencia: accepted academy variant of transparencia, so kept rather than merged
+# question trasparencia: same issue, accepted variant of transparencia
+# question tuno: forms are mostly tuna/Las Tunas (a place); kept as the real word, though merge:tuna is possible
+# question tuno: most examples are Las Tunas (a place); merged into the common word tuna
+# question tupi: no clear rule for ethnonyms; merged into tupí as a common word rather than dropped as a name.
+# question ucranio: most forms are lowercase ucrania, a misspelling of the place name; I kept ucranio as the real demonym.
+# question ucranio: most forms are lowercase ucrania, probably the place name; I kept the demonym.
+# question ummah: I am not sure the academy dictionary lists "umma", so the merge target may be wrong
+# question ummah: Spanish may write it "umma"; dropped as not established
+# question vemurafenib: generic drug names are not covered by the rules; kept as a common noun, but it is very specialist
+# question vemurafenib: the rules have no clear line on generic drug names; I dropped it as too specialist but kept bupropión as better known.
+# question vertir: could be a cut-off fragment of convertir/divertir/advertir, or rare verter; no obvious merge, so dropped
+# question vertir: no example sentences; may be verter or a cut-off convertir, so dropped
+# question viejita: a diminutive with its own entry; I kept it rather than merging into viejo.
+# question vítae: "currículum vítae" is a split loan, but currículum also occurs alone; I assumed its own lemma is handled separately and only dropped vítae.
+# question vítae: the first half "currículum" is not in this batch, so I can't check that it is merged to "currículum vítae"; I dropped vítae under the split-loan rule.
+# question zafar: some occurrences are the surname or place Zafar
+# question zoster: occurs only in "herpes zóster"; could be treated as a split loan or kept as is, I merged it to the accented form
+# question ñoño: most forms are nona (a different word), which the lemmatiser conflated with ñoño; I kept ñoño as a real word.
+# question ñoño: the forms are mostly nona, a different word; I kept ñoño because it is a real word.
+# question airfryer: is a brand name that is becoming generic (Airfryer) kept as a loan or dropped as a brand?
+# question capar, avocar: real Spanish lemmas whose counts are inflated by English homographs (Cape, avocado). Keep them at the inflated rank, or recount?
+# question comuníquense: should pronominal forms merge into the bare infinitive (comunicar) or a separate -se lemma (comunicarse)? I used the bare infinitive.
+# question desvivir, asóciese, imaginaos: should pronominal-only verbs be lemmatised with -se (desvivirse), or always as the base infinitive?
+# question doña: the rules do not cover titles of address (don, doña); should they always be kept?
+# question importantísimos, famosísimo: should -ísimo superlatives stay as their own lemmas or merge into the base adjective (importante, famoso)?
+# question mediar, pontificar, almidonar, trovar, maño: a single decision cannot split a lemma that mixes two real words (mediar/mediados, almidonar/almidón, maño/maña); can these be split, and which should hold the frequency?
+# question pomeranio: the breed noun pomerania shares its form with the place name Pomerania. Should the merged lemma stay on the list, or go to pending-names?
+# question sitar, mugir: these are kept as real words, but their counts are mostly junk forms ("site", "Mugen"); should their frequency be recomputed?
+# question trasparencia: should academy-accepted minor variants merge into the main spelling, or stay as separate lemmas?
+# question trigésimo, decimoctavo, vigesimoctavo: should an ordinal that exists as a word be kept when all its counted tokens are digits?

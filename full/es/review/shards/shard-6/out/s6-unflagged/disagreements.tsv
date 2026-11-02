@@ -1,0 +1,43 @@
+# lemma	A	reason A	B	reason B
+doña	keep	common-word title of address, though many examples are names	drop	title of address, not a regular word
+proclama	keep	real noun and verb form	merge:proclamar	noun or 3rd-person form filed as a lemma; the verb is proclamar
+malentender	keep	real verb; malentendido belongs to it	merge:malentendido	the forms are overwhelmingly the noun malentendido
+cultivación	drop	rare calque of cultivo, not a misspelling	merge:cultivo	rare calque, normal word is cultivo
+dinamitar	keep	real verb	merge:dinamita	forms are mostly the noun dinamita
+tuno	merge:tuna	forms are tuna/Tunas; lemma filed under wrong masculine form	keep	real word (tuna/tuno, student musician); Las Tunas is a place but the common word stays
+picolinato	keep	real noun, common in supplement texts	drop	specialist chemical name
+mugir	drop	mostly the brand Mugen; the verb is a minority	keep	real verb, though the "Mugen" brand dominates
+galaadita	keep	gentilic common noun	drop	biblical gentilic, place-derived name
+hidroclorotiazida	drop	drug name that only specialists use	keep	generic drug name, a real common noun
+airfryer	keep	generic loan now in use	drop	Philips product name, mostly brand use
+jabonero	keep	real word, mostly the feminine jabonera (soap dish)	merge:jabonera	forms are mostly jabonera (soap dish)
+dumper	merge:dúmper	English spelling of an adapted word	keep	loan in construction use, though the examples are mixed
+inserir	merge:insertar	Portuguese verb form	drop	Portuguese verb
+mesar	drop	majority forms are meso/mese, not the verb mesar	keep	real verb (mesar los cabellos)
+meteo	drop	clipping, mostly a brand or site name	merge:meteorología	clipping of a listed word
+aventador	drop	car model name	keep	real Spanish word (winnower, fan), even though most examples are the car
+desper	merge:despedirse	fragment; forms are mostly "me despido"	drop	cut-off fragment, no obvious merge
+timestamp	drop	English IT term, not established	keep	established IT loan
+wireframe	drop	specialist English design term	keep	established design loan
+choker	drop	English word, not established	keep	fashion loan used in Spanish shop text
+desvivir	merge:desvivirse	only used as a pronominal verb	keep	pronominal verb desvivirse
+importantísimos	merge:importante	superlative plural filed as lemma	merge:importantísimo	plural as lemma
+gurdo	merge:gurda	the Haitian currency, written "gurda" in most examples	drop	Haitian currency "Gurda", not a Spanish lemma
+famosísimo	merge:famoso	superlative form filed as lemma	keep	superlative, not a broken lemma
+boolean	merge:booleano	English spelling of the adapted word	drop	English token in code context
+pomeranio	drop	mostly the place name Pomerania	keep	dog breed is a real common word
+resellable	keep	used Spanish packaging term	drop	English-derived calque, not established
+laborear	keep	real verb with laboreo noun forms	merge:laboreo	noun laboreo is the real lemma
+lidocaine	drop	examples are English text, not the Spanish adapted form	merge:lidocaína	English spelling of the Spanish word
+travestir	merge:travestí	forms are mostly travestí	merge:travesti	forms are mostly the noun travesti
+incluydo	merge:incluir	misspelling of incluido	merge:incluido	misspelling
+shells	drop	English plural, mixed computing and food reading	merge:shell	computing loan plural
+asóciese	merge:asociar	verb with clitic	merge:asociarse	imperative filed as lemma
+imaginaos	merge:imaginar	imperative with clitic	merge:imaginarse	imperative with clitic
+humbucker	keep	guitar-pickup loan used as is in Spanish	drop	specialist guitar term
+ummah	merge:umma	Spanish spelling of the Arabic loan	drop	transliterated Arabic, not established
+mixes	merge:mixe	plural/ethnonym filed as lemma	merge:mix	plural of the loan mix
+lasallista	keep	real adjective for La Salle schools and their community	drop	adjective from a name (La Salle), niche
+intarsia	keep	established knitting term	drop	Italian knitting term, not established
+vemurafenib	keep	generic drug name, not a brand	drop	specialist drug name
+comuníquense	merge:comunicar	imperative with clitic	merge:comunicarse	imperative with clitic
