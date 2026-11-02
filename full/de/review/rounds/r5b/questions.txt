@@ -150,3 +150,9 @@
 # question rigid: merged into the dictionary form rigide despite the foreign flag, since it is a real German adjective.
 # question timelin: Timeline is an established loan in social-media German but may still count as English.
 # question untergehend: participle with its own adjective use in the phrase "untergehende Sonne"; kept as dictionary-form adjective though the verb untergehen is the alternative
+# question DAK: are nationwide health insurers (AOK, TK, DAK, Barmer) nationally famous institutions like Telekom, or companies to drop?
+# question Destatis: is the Statistical Office learnable under its brand name "Destatis", or only as Statistisches Bundesamt?
+# question Mop: one lemma mixes Mops (dog) with Mop/Mopp (cleaning); should the "mop" forms be split off and merged to Mopp?
+# question PETA: is PETA a nationally famous institution (keep) or a minor organisation (drop)? It is not in the developer's list of rulings; decided keep by analogy with Greenpeace and NABU.
+# question Zimbabwe, Brasil: when a foreign or variant spelling of a learnable country (Simbabwe, Brasilien) appears in the batch, should it drop under the places rule (as decided here) or merge into the country's German spelling on the places list?
+# question pending-names: the answer format allows this decision, but the rules do not define it; when should it be used instead of drop?

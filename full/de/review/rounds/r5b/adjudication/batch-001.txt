@@ -1,0 +1,13 @@
+TOUR	merge:Tour	common noun Tour filed under an all-caps lemma; merge into the correctly written noun
+rigid	merge:rigide	German adjective; rigide is the dominant written form (rigid only 8 of 339)
+Brasil	drop	place name not on the reviewed list; examples are company names (NürnbergMesse Brasil)
+Kollektivprokura	drop	specialist commercial-register term; low diversity, register-entry template text
+PETA	keep	organisation widely referred to by name in Germany, comparable to Greenpeace and NABU
+Zimbabwe	drop	place name still in the batch, so not on the reviewed places list; places rule applies, not merge
+Unionsmarke	drop	specialist EU trademark-law term; low diversity, legal template text
+Hint	merge:hinten	most occurrences are hinten (210 of 334); the English hint(s) share is a minority under a real German target
+Boulder	keep	established climbing loan (Boulder, bouldern, Boulderhalle); in German dictionaries
+VAE	drop	place acronym (Vereinigte Arabische Emirate) not on the reviewed list; only USA and EU are exempted
+Fitting	keep	established German plumbing term (Fitting, Fittings for pipe connectors), also used for bike fitting
+# question Zimbabwe, Brasil: when a foreign or variant spelling of a learnable country (Simbabwe, Brasilien) appears in the batch, should it drop under the places rule (as decided here) or merge into the country's German spelling on the places list?
+# question PETA: is PETA a nationally famous institution (keep) or a minor organisation (drop)? It is not in the developer's list of rulings; decided keep by analogy with Greenpeace and NABU.

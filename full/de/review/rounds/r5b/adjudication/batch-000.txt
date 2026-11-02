@@ -1,0 +1,34 @@
+Mamma	drop	film title "Mamma Mia" and the medical term for breast; colloquial "mother" is Mama
+Amman	drop	place name still in the batch means it is not on the learnable list
+MIDI	drop	technical acronym used mainly by specialists
+Basel-Landschaft	drop	place name (canton) not on the learnable list
+Wdr	merge:WDR	nationally famous broadcaster filed under the wrong case
+Destatis	keep	Federal Statistical Office, widely cited by name in news (like KfW)
+Butt	keep	real German word (flatfish); real German words that look English stay
+Mop	merge:Mops	most forms are "mops" (the dog breed); stray "mop" is English or a misspelt Mopp
+DAK	keep	nationwide health insurer, a nationally known body referred to by name
+Mae	merge:Maß	broken encoding of Maße; the plural merges to the singular Maß
+cash	keep	established colloquial loan (cash zahlen, cashen)
+Andalusie	drop	clipped place name; still in the batch, so not on the learnable list
+strip	drop	mostly English; not an established German word in this use
+PreisEUR	drop	shop template junk (Preis+EUR run together)
+Variant	drop	English text; the German word is Variante, which has its own lemma
+Spid#Neut	drop	mostly English "spider", car-model names and a ride name; not an established loan
+POLO	merge:Polo	real noun (sport, shirt) filed in capitals
+Fromm	drop	occurrences are the surname (Erich Fromm etc.); the adjective fromm has its own lemma
+untergehend	merge:untergehen	participle without its own dictionary entry
+Logfiles	merge:Logfile	noun filed under its plural
+BfR	drop	specialist federal institute, not nationally famous
+Bolschewiki	merge:Bolschewik	noun filed under its plural
+MAL	merge:mal	adverb or particle filed under a capitalised lemma
+SHOP	merge:Shop	established loan filed under an all-caps lemma
+SPAM	merge:Spam	established loan filed under an all-caps lemma
+Flander	drop	place name; still in the batch, so not on the learnable list (merging would add it)
+review	merge:Review	established loan noun filed in lower case
+Alleinreisendim	merge:alleinreisend	"Alleinreisend im" run together; the fragment merges to the adjective
+Wunderlich	drop	every example is the surname or brand; the adjective wunderlich has its own lemma
+Order	keep	real German noun (die Order); English "orders" and the verb ordern are mixed in
+# question DAK: are nationwide health insurers (AOK, TK, DAK, Barmer) nationally famous institutions like Telekom, or companies to drop?
+# question Destatis: is the Statistical Office learnable under its brand name "Destatis", or only as Statistisches Bundesamt?
+# question pending-names: the answer format allows this decision, but the rules do not define it; when should it be used instead of drop?
+# question Mop: one lemma mixes Mops (dog) with Mop/Mopp (cleaning); should the "mop" forms be split off and merged to Mopp?
