@@ -28,7 +28,7 @@ from frequer.counts import iter_counts
 from frequer.hygiene import make_classifier
 from frequer.merge import merge_counts
 from frequer.ranking import SCORES, build_rows
-from frequer.runtime import Runtime
+from frequer.runtime import Runtime, git_head
 
 #: wordfreq's code for each language is the manifest's own code.
 CANDIDATE_FACTOR = 4
@@ -43,6 +43,9 @@ class BuildOptions:
     lemma_dir: Path | None = None
     wheel: Path | None = None
     live_snapshot: Path | None = None
+    #: The Honeyeater checkout the app's reference data and checks come from (learnable names, the number check);
+    #: default: the pinned runtime checkout.
+    reference_root: Path | None = None
     write_snapshot: bool = True
 
 
@@ -65,7 +68,8 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
     # Merges, rank, then the exclusion list, the proper-noun rule and the junk rules (frequer/filters.py).
     t0 = time.perf_counter()
     weights = {s.name: s.weight for s in manifest.sources}
-    flt = filters.apply(manifest, result.merged, weights, opts.score, runtime.root)
+    reference = opts.reference_root or runtime.root
+    flt = filters.apply(manifest, result.merged, weights, opts.score, reference)
     rows = build_rows(result.merged, weights)
     ranked, exclusions, dropped, propn_dropped = flt.ranked, flt.exclusions, flt.excluded, flt.propn_dropped
     timings["rank"] = time.perf_counter() - t0
@@ -86,7 +90,14 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
     if flt.flags is not None:
         head["junk"] = junk_report.header_entry(manifest, flt, top_n, REPO_ROOT)
     citation = runtime.backend.lemma_citation if cfg.readings else None
-    entries = snapshot.build_entries(ranked[:top_n], result.merged, manifest, citation)
+    chosen = ranked[:top_n]
+    if cfg.append_learnable_names and flt.learnable is not None:
+        listed = flt.learnable
+        chosen += [r for r in ranked[top_n:] if propn.learnable(r.lemma, listed)]
+    entries = snapshot.build_entries(chosen, result.merged, manifest, citation)
+    ref_commit, ref_dirty = git_head(reference)
+    head["reference_checkout"] = {"commit": ref_commit, "dirty": ref_dirty, "number_check": flt.number_check or None,
+                                  "learnable_names_appended": len(chosen) - min(top_n, len(ranked))}
     out_dir.mkdir(parents=True, exist_ok=True)
     if opts.write_snapshot:
         snapshot.write_snapshot(out_dir / f"{cfg.code}.json", head, entries)

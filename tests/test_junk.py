@@ -73,3 +73,11 @@ def test_number_rule_drops_what_the_app_check_ignores() -> None:
     review = junk.Review(None, "", {"千九百九十八": ("keep", "")})  # type: ignore[arg-type]
     actions = {r.lemma: r.action for r in junk.route([c.lemma for c in cands], flags, review, 10)}
     assert actions == {"二十": "keep", "百": "keep", "千九百九十八": "review-keep", "一つ": "keep"}
+
+
+def test_final_names_list_resolves_pending_places() -> None:
+    flags = junk.Flags(propn_place={"東京": "place", "桃園": "place"})
+    review = junk.Review(None, "", {"小倉": ("pending-names", "")})  # type: ignore[arg-type]
+    listed = {"東京", "小倉"}.__contains__
+    actions = {r.lemma: r.action for r in junk.route(["東京", "桃園", "小倉"], flags, review, 10, learnable=listed)}
+    assert actions == {"東京": "review-keep", "桃園": "place-drop", "小倉": "review-keep"}

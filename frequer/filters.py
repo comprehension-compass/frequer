@@ -42,11 +42,17 @@ class Filtered:
     merges: list[junk.Merge] = field(default_factory=list)
     flags: junk.Flags | None = None
     routed: list[junk.Routed] = field(default_factory=list)
+    #: The app function the number rule asked (``frequer/numbers.py``).
+    number_check: str = ""
 
 
 def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], score: str = "frequency",
           root: Path | None = None) -> Filtered:
-    """Merge, rank and filter ``merged`` (merges change ``merged`` in place, so the snapshot reflects them)."""
+    """Merge, rank and filter ``merged`` (merges change ``merged`` in place, so the snapshot reflects them).
+
+    ``root`` is the Honeyeater checkout the app's reference data and checks come from (learnable names, the
+    number check); by default the pinned runtime checkout.
+    """
     cfg = manifest.language
     jc = cfg.junk
     out = Filtered([])
@@ -103,12 +109,24 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
 
         candidates = [junk.Candidate(r.lemma, r.stats.freq, snapshot.majority(r.stats.pos, "X"), r.stats.forms,
                                      r.stats.df, unit=bool(snapshot.unit_kind(r.stats.kinds))) for r in ranked]
+        number_verdicts: dict[str, bool] = {}
+        if jc.number_rule:
+            number_verdicts, out.number_check = numbers.app_number_verdicts(
+                (junk.base_of(c.lemma) for c in candidates), cfg.code, root or honeyeater_root())
         out.flags = junk.compute_flags(
             candidates, jc, total_docs=merged.docs, zipf=compare.zipf_lookup(), lang=cfg.code,
             kept=out.exclusions.kept if out.exclusions else frozenset(),
             propn_share=share if needs_case else None, propn_dict=entries if dictionary else None,
-            number_check=numbers.app_number_check(cfg.code) if jc.number_rule else None)
-        out.routed = junk.route([r.lemma for r in ranked], out.flags, out.review, jc.review_top, jc.review_multi_flag)
+            number_check=number_verdicts.get if jc.number_rule else None)
+        listed = out.learnable
+
+        def is_listed(lemma: str) -> bool:
+            return listed is not None and propn.learnable(lemma, listed)
+
+        if jc.names_final and listed is None:
+            raise SystemExit("names_final: the learnable-names list is missing from the reference checkout")
+        out.routed = junk.route([r.lemma for r in ranked], out.flags, out.review, jc.review_top, jc.review_multi_flag,
+                                learnable=is_listed if jc.names_final else None)
         keep = {r.lemma for r in out.routed if r.action in ("keep", "review-keep", "pending", "pending-names")}
         ranked = [r for r in ranked if r.lemma in keep]
     out.ranked = ranked

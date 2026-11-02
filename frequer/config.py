@@ -74,6 +74,9 @@ class JunkConfig(Strict):
     #: ``lexicon.lemma_defaults``) calls a number it ignores is dropped (千九百九十八): the list keeps the core
     #: number words, base words and counter or date forms, as the app does.
     number_rule: bool = False
+    #: The learnable-names list is final: ``pending-names`` (reviewed or from dictionary place evidence) resolves
+    #: to a keep for a listed name and a drop (``place-drop``) for any other place.
+    names_final: bool = False
     #: Single-flag lemmas within this many kept ranks go to review.
     review_top: int = 20_000
     #: Within ``review_top``, send 2+-flag lemmas to review too instead of dropping them: the citation and shape
@@ -89,6 +92,9 @@ class LanguageConfig(Strict):
     lemma_package: str
     #: A lemma key must match this (the loader's ``lemma_pattern``) to be counted.
     lemma_pattern: str
+    #: After the ``top_n`` cut, append every learnable name (Honeyeater's ``reference/learnable-names``) that
+    #: ranked below it, in rank order: a listed name is learnable whatever its frequency.
+    append_learnable_names: bool = False
     #: Lower-case lemma keys, summing on collapse (the Spanish snapshot's convention).
     fold_case: bool = False
     #: Lower-case surface forms before counting them (the German snapshot's convention).
