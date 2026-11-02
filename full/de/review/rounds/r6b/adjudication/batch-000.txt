@@ -1,0 +1,35 @@
+social	drop	English look-alike from English phrases (social start-up, social media), not a misspelling of sozial
+Kärcher	drop	brand name; most examples are the product brand
+Trad	merge:Trade	cut-off fragment; forms are Trades used as a German noun in finance texts
+traumatisiert	keep	established adjectival participle (sie sind traumatisiert), like verheiratet
+zwängen	keep	valid verb infinitive (gezwängt, zwängt, zwängte); the plural Zwänge is mixed in
+anno	keep	established Latin loan (anno dazumal), in German dictionaries
+mchte	merge:mögen	broken encoding of möchte; the dictionary form under the lemmatiser's convention is mögen
+zunutze	keep	standalone word with its own dictionary entry (sich etwas zunutze machen), not broken
+Walt	drop	mostly the name Walt; walten forms are minor
+zunichte	keep	standalone word with its own dictionary entry (zunichte machen), not broken
+Fünfter	merge:fünfte	ordinal adjective filed under a capitalised lemma; forms are all fünfte
+regierend	merge:regieren	plain present participle used attributively; no separate adjective entry
+Mint	merge:mint	colour adjective (Leggings Mint) filed under a capitalised lemma
+Baht	keep	currency noun, like Euro or Yen; established in German dictionaries
+beauftragt	merge:Beauftragte	inflected forms of the adjectival noun (dictionary headword Beauftragte)
+geölt	keep	adjective with its own dictionary entry (wie ein geölter Blitz)
+bestickt	merge:besticken	participle without its own adjective entry
+Älteste	keep	nominalised adjective that is a noun in its own right (der/die Älteste, die Ältesten)
+deko	merge:Deko	noun filed under a lower-case lemma
+Predigt	keep	correct singular lemma; only plural tokens happened to be counted
+schlampen	keep	valid verb (geschlampt, schlampt); noun Schlampe forms are mixed in
+versch	merge:verschieden	standard abbreviation versch. of verschieden; fragments are merged
+content	merge:Content	established loan noun (Content) filed in lower case
+weils	merge:weil	colloquial contraction weil's written without its apostrophe
+Eiffelturm	keep	famous landmark with a German name, treated like a famous institution
+Sildenafil	drop	specialist drug name, mostly spam
+siehts	merge:aussehen	contraction of sieht's; every example is "siehts … aus"
+unterlagen	merge:Unterlage	almost certainly the noun Unterlagen (documents), filed lower-case and plural
+Referrer	drop	unadapted specialist English web term
+Haha	merge:haha	interjection filed under a capitalised lemma
+# question Kärcher: should genericised brand nouns (die kleinen Kärcher, kärchern) be kept, or always dropped as brand names?
+# question mchte: should möchte forms merge to mögen, or does the list carry möchten as its own lemma?
+# question weils, siehts: should clitic contractions (weil's, sieht's) merge to the host word, or be dropped as colloquial?
+# question Eiffelturm: do famous landmarks count as place names (drop unless on the reviewed list) or as famous institutions (keep)?
+# question social: should English adjectives used only inside English phrases (social media) be dropped, or merged into the German cognate?

@@ -1,0 +1,34 @@
+Fidel	drop	examples are all the name (Fidel Castro, Fidel Rädle); the adjective fidel shows only in the minor fidelen forms
+trauernd	merge:trauern	present participle with no adjective entry of its own; the noun use would be the lemma Trauernde, not trauernd
+Cruiser	keep	established loan for a bike or motorbike type, with German plural Cruisern
+Schlumpf	keep	common noun (der Schlumpf, die Schlümpfe), used generically and not just as a character name
+Gezeit	keep	valid dictionary singular of Gezeiten (meist Plural); the lemma is not clearly broken
+Vogue	drop	magazine brand name, not an institution
+Zweit	merge:zweite	ordinal stem (zu zweit) filed under a capitalised noun lemma
+APIs	drop	plural of a specialist acronym
+Ki	merge:KI	common acronym (Künstliche Intelligenz) filed in the wrong case
+Ultrabook	keep	generic product-type noun with German plural Ultrabooks
+Appenzeller	drop	examples are surnames or a demonym from a place not on the list
+Tun	keep	nominalised infinitive that works as a noun (das Tun, des Tuns), like Essen
+Ernste	merge:Ernst	forms are mostly the genitive in "allen Ernstes", so the base is the noun Ernst
+logo	keep	colloquial adverb/interjection (logo = logisch), a real word distinct from the noun Logo
+Colt	keep	common noun der Colt (revolver), in the dictionary
+Monsieur	keep	established loan, in the dictionary
+Royals	keep	plural-only usage in German with its own meaning (the royal family)
+ausm	merge:aus	colloquial contraction of "aus dem"
+rde	merge:werden	broken encoding of würde, a conjugated form of werden
+wre	merge:sein	broken encoding of wäre, a conjugated form of sein
+Lateinische	keep	nominalised language noun (aus dem Lateinischen), like das Gute
+wett	merge:wettmachen	cut-off separable prefix of wettmachen
+Vierte	merge:vierte	inflected ordinal filed under a capitalised lemma
+Unbewusst	merge:unbewusst	capitalised adjective lemma; the noun would be Unbewusste, not Unbewusst
+Lesen	keep	nominalised infinitive that works as a noun (des Lesens), like Essen
+Azor	drop	cut-off form of the place name Azoren, which is not on the list
+Blond	keep	the noun das Blond (hair colour), as in the example; the lemma is correctly written
+Döbel	drop	forms are mostly the place name Döbeln; no example shows the fish
+fing	merge:fangen	conjugated past form of fangen filed as a lemma; the "finger" forms are misassigned
+Magnum	keep	established loan (bottle size, cartridge), in the dictionary, not only a brand
+# question Zweit, Vierte: ordinal lemma convention unclear (zweite/vierte vs zweit/viert); I used the -te form, so please confirm which the lemmatiser uses
+# question Unbewusst, trauernd: when the forms are mostly a nominalised adjective or participle (des Unbewussten, Trauernde) but the lemma lacks the -e, should they merge to the adjective or verb, or move to a noun lemma (Unbewusste, Trauernde)?
+# question ausm: colloquial contractions like ausm and aufm are not covered by the rules; I merged into the preposition, but drop is the alternative
+# question Fidel: when a name homographs a real adjective (fidel) and the name dominates the examples, should the lemma be dropped or merged into the adjective?

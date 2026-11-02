@@ -398,3 +398,19 @@
 # question äußere: "äußer-" has no standalone dictionary form, so it is unclear whether to keep it or merge it into a base; kept.
 # question äußere: the base äußer- is not a standalone adjective, so I kept äußere as the headword instead of merging into äußer
 # question überein: it is a fragment of verbs such as übereinstimmen, with no obvious single target, so I dropped it rather than merging.
+# question Eiffelturm: do famous landmarks count as place names (drop unless on the reviewed list) or as famous institutions (keep)?
+# question Fidel: when a name homographs a real adjective (fidel) and the name dominates the examples, should the lemma be dropped or merged into the adjective?
+# question Kata: where is the line between established loans and specialist loans (martial arts, hobby terms)?
+# question Kärcher: should genericised brand nouns (die kleinen Kärcher, kärchern) be kept, or always dropped as brand names?
+# question Lehe: if Lehen is not itself a listed lemma, should this merge create it, or should the lemma drop as an unlisted place name?
+# question Neger: the rules don't cover offensive or slur terms that are real words; should they be dropped or kept with a label?
+# question Unbewusst, trauernd: when the forms are mostly a nominalised adjective or participle (des Unbewussten, Trauernde) but the lemma lacks the -e, should they merge to the adjective or verb, or move to a noun lemma (Unbewusste, Trauernde)?
+# question Zweit, Vierte: ordinal lemma convention unclear (zweite/vierte vs zweit/viert); I used the -te form, so please confirm which the lemmatiser uses
+# question ausm: colloquial contractions like ausm and aufm are not covered by the rules; I merged into the preposition, but drop is the alternative
+# question erkrankt: nominalised participles (der Erkrankte) are tagged NOUN but filed under the participle; should they get their own noun lemma or merge into the verb?
+# question infinit: should a real lemma be kept when nearly all its tokens are an English proper name (Halo Infinite), or should its frequency be corrected or the lemma dropped?
+# question mchte: should möchte forms merge to mögen, or does the list carry möchten as its own lemma?
+# question social: should English adjectives used only inside English phrases (social media) be dropped, or merged into the German cognate?
+# question weils, siehts: should clitic contractions (weil's, sieht's) merge to the host word, or be dropped as colloquial?
+# question werte: the only form is werte, with no examples, and it fits the noun plural Werte, the adjective wert (werte Kunden) and the verb werten; should the target come from a sample check rather than the tag?
+# question zutun, Achso: fused spellings (zutun = zu tun or Zutun; achso = ach so) have mixed or multi-word readings; is merging into the main word (tun, ach) the intended handling?

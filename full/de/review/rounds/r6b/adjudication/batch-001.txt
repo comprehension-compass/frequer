@@ -1,0 +1,35 @@
+werte	merge:werten	only form werte, VERB-tagged with no examples; the noun plural Werte would sit under Wert, and the address werte is the rarer reading
+Schreibe	merge:Schreiben	written as schreiben, example is the noun das Schreiben; the lemma Schreibe is broken
+Zuviel	keep	examples are the noun ein Zuviel; written forms are case-folded, so lower case proves nothing
+scheiss	merge:Scheiß	examples are the noun (so einen scheiss, nen scheiss); ss is a misspelling of ß
+Auslese	merge:auslesen	every form is auslesen, used as the verb or nominalised infinitive, not the noun Auslese
+Inka	keep	common noun for the people (der Inka, plural Inkas)
+erkrankt	merge:erkranken	participle forms with no adjective entry of their own; erkrankte is also the past tense
+geschmolzen	merge:schmelzen	participle used attributively, with no adjective entry of its own
+erster	merge:erstere	every form is erstere(r/s/m/n) (the former), not the ordinal erster
+Kirsch	drop	mostly a surname; Kirsch as short for Kirschwasser is rare, and kirsche (25) is noise
+blu	drop	blue/blu/blues are English (blue, Blu-ray), not German blau
+Ether	keep	accepted chemistry spelling, not a misspelling of Äther
+AStA	keep	well-known German institution (student union), in general dictionaries
+android	drop	brand name, mostly the operating system; Androide forms are negligible
+Achso	merge:ach	fused spelling of ach so, under a wrongly capitalised lemma
+account	merge:Account	established loan filed in lower case and tagged VERB
+kan	merge:können	kan/kanste are dropped-letter spellings of kann/kannste
+lt	merge:laut	lt is mainly the abbreviation lt. (laut); lten/ltere are noise
+Walliser	drop	demonym from Wallis, a place name not on the list
+zutun	merge:tun	two of three examples are zu tun written together; only one is the noun Zutun
+Kata	drop	specialist martial-arts term, not an established general loan
+willigen	merge:willig	mostly willige/willigen (ADJ-tagged, from willig); the willigt/willigte forms come from einwilligen
+Soli	keep	established word of its own (der Soli, the solidarity surcharge) as well as the plural of Solo
+Amor	drop	mythological name
+war	drop	ware/warden/wares mix Ware, wäre without the umlaut and English words; no obvious target
+post	drop	ADJ-tagged lower-case tokens are mostly English post and the prefix; the noun Post is filed separately
+karten	merge:Karte	mostly the lower-case plural Karten mis-tagged as VERB; the verb karten is rare
+Champagne	drop	examples are a champagne house name and English; otherwise the French region, not on the list
+Energiespar	merge:Energiesparen	cut-off fragment; examples are the noun das Energiesparen
+Neger	drop	offensive slur, not suitable as a study item for learners
+# question werte: the only form is werte, with no examples, and it fits the noun plural Werte, the adjective wert (werte Kunden) and the verb werten; should the target come from a sample check rather than the tag?
+# question zutun, Achso: fused spellings (zutun = zu tun or Zutun; achso = ach so) have mixed or multi-word readings; is merging into the main word (tun, ach) the intended handling?
+# question Neger: the rules don't cover offensive or slur terms that are real words; should they be dropped or kept with a label?
+# question erkrankt: nominalised participles (der Erkrankte) are tagged NOUN but filed under the participle; should they get their own noun lemma or merge into the verb?
+# question Kata: where is the line between established loans and specialist loans (martial arts, hobby terms)?
