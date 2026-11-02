@@ -38,6 +38,24 @@ A non-Spanish token whose real-word reading is a minority of the examples drops.
 **Shape**: drop web artefacts, codes, doubled words and fragments cut mid-word unless a merge is obvious.
 Specialist acronyms drop; ordinals only ever written as digits drop.
 
+**Developer rulings (2026-11-02, second set)**:
+- Superlatives: a regular -ísimo `merge:` its base adjective (buenísimo → bueno; rapidísima → rápido). Irregular or
+  learned superlatives keep their own entry (óptimo, pésimo, máximo, mínimo, paupérrimo).
+- A lemma holding two real words (opacar = opacar + opaco; cascar = cascar + cáscara): decide for the lemma's own
+  reading and add `# question <lemma>: split by form: <forms> -> <other lemma>`; the coordinator writes the split.
+- Clitic fragments with -nos/-te: merge into the pronominal verb where it is a common verb in its own right
+  (reconciliarno → reconciliarse, distraerno → distraerse), otherwise into the plain verb.
+- Institutions: regional and international bodies keep (OEA, CEDEAO); national bodies of Spanish-speaking countries
+  that are household names there keep (ETECSA); single hospitals and city transit systems drop (Clínic,
+  TransMilenio); conseller and síndic keep, govern drops.
+- Drugs and organisms: common generic drugs and ingredients keep (paracetamol, ibuprofeno), specialist ones drop;
+  adapted organism names keep (clamidia, micoplasma), raw Latin taxa drop.
+- A brand used as a common noun is kept under its adapted spelling (kleenex → `merge:clínex`); variant spellings
+  merge into the standard one (iodo → yodo, checkin → check-in, go-go → gogó).
+- A real common word stays when its real reading is about a third or more of the examples; below that, drop.
+- Feminine gentilics merge into the masculine (kazaja → kazajo); lowercase ethnonyms keep (hutíes → hutí);
+  a multi-word merge target is fine (it becomes a unit: palo santo, alter ego, open source, post mortem).
+
 When the rules don't settle a case, still decide, and add a line `# question <lemma>: <what is unclear>`.
 
 **Split loans**: a two-token loan whose halves only occur together is one entry: the first half
