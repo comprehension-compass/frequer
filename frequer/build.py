@@ -97,23 +97,34 @@ def build_language(manifest: Manifest, counts_dir: Path, out_dir: Path, opts: Bu
     if flt.flags is not None:
         head["junk"] = junk_report.header_entry(manifest, flt, top_n, REPO_ROOT)
     citation = runtime.backend.lemma_citation if cfg.readings else None
-    # Learnable names (Honeyeater reference/learnable-names) not in the top_n follow it, in frequency order.
+    # Learnable names (Honeyeater reference/learnable-names) not in the top_n follow it, in frequency order;
+    # a one-word name never counted follows with a bare entry (frequency 0), unless the release files its
+    # spelling under another lemma; a multi-word name never counted waits for a release that emits it as a unit.
     appended = []
+    uncounted: propn.Uncounted | None = None
     if flt.learnable is not None and cfg.append_learnable_names:
         top = {r.lemma for r in ranked[:top_n]}
         appended = [r for r in rank_rows(rows, opts.score)
                     if r.lemma not in top and propn.learnable(r.lemma, flt.learnable)]
-        counted = {r.lemma.split("#")[0].casefold() for r in rows}
+        uncounted = propn.uncounted_names(flt.learnable, result.merged.lemmas, cfg.fold_case)
         head["learnable_names"] = {
-            "file": str(flt.learnable.path), "honeyeater": filters.reference_commit(runtime.root), "sha256": flt.learnable.sha256, "names": len(flt.learnable.names),
+            "file": str(flt.learnable.path), "honeyeater": filters.reference_commit(runtime.root),
+            "sha256": flt.learnable.sha256, "names": len(flt.learnable.names),
             "in_top_n": sum(1 for lem in top if propn.learnable(lem, flt.learnable)),
             "appended_after_top_n": len(appended),
-            "not_counted": sorted(n for n in flt.learnable.names if n not in counted)}
+            "appended_uncounted": len(uncounted.bare),
+            "filed_under_another_lemma": dict(sorted(uncounted.filed_under.items())),
+            "multiword_not_counted": len(uncounted.multiword)}
     entries = snapshot.build_entries(ranked[:top_n] + appended, result.merged, manifest, citation)
+    if uncounted is not None:
+        entries.update({name: {"frequency": 0, "pos": "PROPN", "forms": {}} for name in uncounted.bare
+                        if name not in entries})
     out_dir.mkdir(parents=True, exist_ok=True)
     if opts.write_snapshot:
         snapshot.write_snapshot(out_dir / f"{cfg.code}.json", head, entries)
         snapshot.write_sidecar(out_dir / f"{cfg.code}.dispersion.json.gz", head, ranked, result.merged, top_n)
+        if uncounted is not None:
+            propn.write_multiword(out_dir / f"{cfg.code}.learnable-multiword-names.tsv", uncounted)
     timings["snapshot"] = time.perf_counter() - t0
 
     cooc: combos.CoocResult | None = None

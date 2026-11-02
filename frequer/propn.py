@@ -36,6 +36,7 @@ from pathlib import Path
 from typing import Any
 
 from frequer.config import MANIFEST_DIR
+from frequer.counts import LemmaStats
 
 PROPN = "PROPN"
 
@@ -175,3 +176,44 @@ def render(names: LearnableNames, tally: CaseTally, threshold: float, dropped: S
         "Learnable names kept (first 40): " + ", ".join(f"`{lemma}` ({r})" for r, lemma in kept[:40]), "",
         "Dropped (first 40): " + ", ".join(fmt(d) for d in inside[:40]), "",
     ]
+
+
+@dataclass
+class Uncounted:
+    """Learnable names no counted lemma carries (``build`` appends ``bare``; ``multiword`` waits for a release)."""
+
+    bare: list[str]  # one-word names with no occurrences, as the list writes them (lower-cased when folded)
+    filed_under: dict[str, str]  # one-word name -> the lemma whose forms hold its spelling
+    multiword: list[str]
+
+
+def uncounted_names(names: LearnableNames, lemmas: Mapping[str, LemmaStats], fold: bool = True) -> Uncounted:
+    keys = {k.split("#")[0].casefold() for k in lemmas}
+    holder: dict[str, str] = {}
+    for lemma, st in lemmas.items():  # the commonest lemma holding each spelling
+        for form in st.forms:
+            f = form.casefold()
+            if f not in holder or lemmas[holder[f]].freq < st.freq:
+                holder[f] = lemma
+    raw = json.loads(names.path.read_bytes())["names"]
+    out = Uncounted([], {}, [])
+    for name in dict.fromkeys(str(n) for n in raw):
+        key = name.casefold()
+        if key in keys:
+            continue
+        if " " in name.strip():
+            if name.casefold() not in {m.casefold() for m in out.multiword}:
+                out.multiword.append(name)
+        elif key in holder:
+            out.filed_under[key] = holder[key]
+        elif key not in out.bare and name not in out.bare:
+            out.bare.append(key if fold else name)
+    return out
+
+
+def write_multiword(path: Path, unc: Uncounted) -> None:
+    with path.open("w", encoding="utf-8") as fp:
+        fp.write("# name\ttokens\tnote\n")
+        for name in sorted(unc.multiword, key=str.casefold):
+            fp.write(f"{name}\t{len(name.split())}\tlearnable multi-word name; release 1.5.0 emits no unit for it, "
+                     "so its parts are counted as separate words; to become a unit headword in lemma release 1.6\n")

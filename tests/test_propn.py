@@ -28,3 +28,18 @@ def test_case_test_drops_names_and_keeps_common_nouns(tmp_path: Path) -> None:
     assert [(d.rank, d.lemma) for d in dropped] == [(4, "tom")]
     assert names_kept == [(2, "españa")]
     assert case_kept[0].lemma == "kayak" and case_kept[0].share is not None and abs(case_kept[0].share - 0.25) < 1e-9
+
+
+def test_uncounted_names_split_three_ways(tmp_path: Path) -> None:
+    # Developer ruling 2026-11-02: one-word names with no occurrences get bare entries; a spelling the
+    # release files under another lemma is reported, not appended; multi-word names wait for a unit.
+    from collections import Counter
+
+    from frequer.counts import LemmaStats
+    f = tmp_path / "es.json"
+    f.write_text(json.dumps({"names": ["España", "Amárico", "Avar", "Abu Dabi"]}), encoding="utf-8")
+    names = propn.LearnableNames(f, "", frozenset(n.casefold() for n in json.loads(f.read_text())["names"]))
+    lemmas = {"españa": LemmaStats(freq=9, forms=Counter({"España": 9})),
+              "ávaro": LemmaStats(freq=3, forms=Counter({"avar": 3}))}
+    unc = propn.uncounted_names(names, lemmas)
+    assert unc.bare == ["amárico"] and unc.filed_under == {"avar": "ávaro"} and unc.multiword == ["Abu Dabi"]
