@@ -35,7 +35,7 @@ AIDS	keep	agreed: ordinary word
 AIR	drop	agreed: English
 AKB	drop	agreed: specialist insurance acronym
 AKP	drop	agreed: foreign party
-AKW	keep	agreed: everyday abbreviation
+AKW	drop	developer ruling 2026-11-02: abbreviations excluded for now (to be lemmatised to their full words)
 AL	drop	agreed: name fragment
 ALBA	drop	agreed: name/club
 ALDI	drop	agreed: brand
@@ -355,7 +355,7 @@ Area	drop	agreed: English word
 Argentinien	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Ariane	drop	agreed: first name
 Arizona	drop	agreed: US state not on list
-Arktis	drop	agreed: place name not on list
+Arktis	keep	developer ruling 2026-11-02: learnable place (to be added to reference/learnable-names/de.json)
 Armani	drop	agreed: brand
 Armbänder	merge:Armband	agreed: plural as lemma
 Armenien	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
@@ -402,7 +402,7 @@ At	drop	agreed: English/domain
 Atari	drop	agreed: brand
 Athen	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Atlantic	drop	agreed: English name
-Atlantik	keep	agreed: ocean, learnable (see question)
+Atlantik	keep	developer ruling 2026-11-02: learnable place (to be added to reference/learnable-names/de.json)
 Atlantis	drop	agreed: name
 Atlas	keep	agreed: common noun
 Atome	merge:Atom	agreed: plural
@@ -539,7 +539,7 @@ BVB	drop	agreed: sports club
 BVG	drop	agreed: minor organisation
 BVV	drop	agreed: minor organisation acronym
 BW	drop	agreed: abbreviation junk
-BWL	keep	agreed: common abbreviation
+BWL	drop	developer ruling 2026-11-02: abbreviations excluded for now (to be lemmatised to their full words)
 BY	drop	agreed: English/junk
 BZ	drop	agreed: newspaper name
 Baba	drop	agreed: name
@@ -979,7 +979,7 @@ CHIP	merge:Chip	agreed: case variant
 CI	drop	agreed: acronym
 CIA	keep	adjudicated: world-famous agency referred to by name
 CIO	drop	agreed: specialist acronym
-CM	keep	agreed: unit abbreviation read daily
+CM	drop	developer ruling 2026-11-02: abbreviations excluded for now (to be lemmatised to their full words)
 CMS	drop	agreed: technical acronym
 CNC	drop	agreed: technical acronym
 CNN	drop	agreed: broadcaster
@@ -1394,7 +1394,7 @@ DASS	merge:dass	agreed: conjunction, wrong case
 DATEN	merge:Daten	agreed: case variant
 DATEV	drop	agreed: company
 DAX	keep	agreed: famous index in German news
-DB	keep	adjudicated: Deutsche Bahn acronym
+DB	keep	developer ruling 2026-11-02: nationally famous institution
 DBY	drop	agreed: junk
 DC	drop	agreed: name/acronym
 DDR	keep	agreed: ordinary acronym
@@ -1631,7 +1631,7 @@ Douglas	drop	agreed: first name
 Down	drop	agreed: English
 Downhill	drop	agreed: English
 Downtown	drop	agreed: foreign place word
-Dr	keep	agreed: daily abbreviation
+Dr	drop	developer ruling 2026-11-02: abbreviations excluded for now (to be lemmatised to their full words)
 Draco	drop	agreed: fiction name
 Drag	drop	agreed: English
 Draghi	drop	agreed: person
@@ -1664,7 +1664,7 @@ Drupal	drop	agreed: product
 Dry	drop	agreed: English
 Dual	drop	agreed: English fragment
 Dubai	drop	agreed: place not on list
-Dublin	drop	agreed: place name not on list (see question)
+Dublin	keep	developer ruling 2026-11-02: learnable place (to be added to reference/learnable-names/de.json)
 Ducati	drop	agreed: brand
 Duck	drop	agreed: name
 Duden	keep	agreed: nationally known reference work
@@ -1724,7 +1724,7 @@ EG	keep	agreed: European Community acronym
 EHC	drop	agreed: sports club
 EINER	merge:ein	agreed: case/form of ein
 EINFACH	merge:einfach	agreed: case
-EKD	keep	agreed: nationally famous institution
+EKD	keep	developer ruling 2026-11-02: nationally famous institution
 EKG	keep	agreed: medical acronym in daily use
 EMA	drop	agreed: acronym
 EMC	drop	agreed: company
@@ -2437,7 +2437,7 @@ Gray	drop	agreed: surname
 Graz	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Great	drop	agreed: English
 Green	drop	agreed: English
-Greenpeace	keep	adjudicated: famous organisation referred to by name
+Greenpeace	keep	developer ruling 2026-11-02: nationally famous institution
 Greg	drop	agreed: first name
 Gregor	drop	agreed: first name
 Greifswald	drop	agreed: town
@@ -2553,7 +2553,7 @@ Halloween	keep	agreed: common noun
 Halsarzt	drop	agreed: no evidence, junk
 Halterunge	merge:Halterung	agreed: wrong lemma
 Hama	drop	agreed: brand
-Hamas	keep	agreed: organisation in constant German news
+Hamas	keep	developer ruling 2026-11-02: nationally famous institution
 Hamburg	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Hameln	drop	agreed: town
 Hamilton	drop	agreed: surname
@@ -2620,7 +2620,7 @@ Have	drop	agreed: English
 Hawaii	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Hawk	drop	agreed: English/name
 Hay	drop	agreed: English
-Hbf	keep	agreed: abbreviation read daily
+Hbf	drop	developer ruling 2026-11-02: abbreviations excluded for now (to be lemmatised to their full words)
 Hd	drop	agreed: abbreviation
 Head	drop	agreed: English
 Health	drop	agreed: English
@@ -3212,8 +3212,8 @@ Kevin	drop	agreed: first name
 Key	drop	agreed: English
 Keyframes	drop	agreed: technical English
 Keys	drop	agreed: English
-KfW	keep	agreed: well-known national bank
-Kfz	keep	agreed: everyday abbreviation
+KfW	keep	developer ruling 2026-11-02: nationally famous institution
+Kfz	drop	developer ruling 2026-11-02: abbreviations excluded for now (to be lemmatised to their full words)
 Kfz-Versicherung	keep	agreed: established hyphenated word
 Khan	drop	agreed: title/name
 Khedira	drop	agreed: person
@@ -3292,7 +3292,7 @@ Kopenhagen	keep	learnable-names list (Honeyeater reference/learnable-names/de.js
 Kopp	drop	agreed: surname/publisher
 Kor	drop	agreed: name/abbrev
 Koran	keep	agreed: common noun
-Korea	drop	agreed: place name not on list
+Korea	keep	developer ruling 2026-11-02: learnable place (to be added to reference/learnable-names/de.json)
 Korfu	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Koriand	merge:Koriander	agreed: clipped
 Kork	keep	adjudicated: real noun Kork, distinct from Korken
@@ -3667,7 +3667,7 @@ MEDIA	drop	agreed: English
 MEGA	merge:mega	adjudicated: all-caps citation of the colloquial intensifier mega
 MENSCHEN	merge:Mensch	agreed: plural, wrong case
 MF	drop	agreed: abbreviation
-MG	keep	agreed: unit abbreviation mg
+MG	drop	developer ruling 2026-11-02: abbreviations excluded for now (to be lemmatised to their full words)
 MILF	drop	agreed: spam
 MINI	drop	agreed: brand
 MINT	keep	agreed: acronym used as ordinary word in education
@@ -3678,7 +3678,7 @@ MMS	keep	agreed: ordinary acronym like SMS
 MPH	drop	agreed: English unit abbreviation
 MPU	keep	agreed: well-known German term
 MR	drop	agreed: abbreviation
-MRT	keep	agreed: common medical abbreviation
+MRT	drop	developer ruling 2026-11-02: abbreviations excluded for now (to be lemmatised to their full words)
 MS-Office	drop	agreed: brand
 MSC	drop	agreed: abbreviation
 MSCI	drop	agreed: finance acronym
@@ -3850,7 +3850,7 @@ May	drop	agreed: surname/English
 Maya	keep	agreed: ethnonym
 Mayer	drop	agreed: surname
 Mayr	drop	agreed: surname
-Mazedonien	drop	agreed: place name not on list
+Mazedonien	keep	developer ruling 2026-11-02: learnable place (to be added to reference/learnable-names/de.json)
 McAfee	drop	agreed: brand
 McDonald	drop	agreed: brand
 McDonalds	drop	agreed: brand
@@ -3926,7 +3926,7 @@ Mexico	drop	coordinator correction: the surface forms are the English word or a 
 Mexiko	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Mexiko-Stadt	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Meyer	drop	agreed: surname
-MfG	keep	agreed: daily email abbreviation
+MfG	drop	developer ruling 2026-11-02: abbreviations excluded for now (to be lemmatised to their full words)
 Mi	drop	agreed: abbreviation/Esperanto
 Miami	drop	agreed: place name not on list
 Micha	drop	agreed: first name
@@ -4086,7 +4086,7 @@ Münster	keep	learnable-names list (Honeyeater reference/learnable-names/de.json
 Münsterland	drop	agreed: region not on list
 Müritz	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 N	drop	agreed: single letter
-NABU	drop	adjudicated: minor organisation
+NABU	keep	developer ruling 2026-11-02: nationally famous institution
 NACH	merge:nach	agreed: uppercase preposition
 NAS	drop	agreed: technical acronym
 NASA	keep	agreed: famous institution
@@ -4506,7 +4506,7 @@ PKV	keep	agreed: common insurance acronym
 PKW-Stellplatz	drop	agreed: hyphenated web compound
 PL	drop	agreed: abbreviation
 PLUS	merge:plus	agreed: uppercase plus
-PLZ	keep	agreed: everyday abbreviation
+PLZ	drop	developer ruling 2026-11-02: abbreviations excluded for now (to be lemmatised to their full words)
 PNG	drop	agreed: technical acronym
 POS	drop	agreed: technical acronym
 POWER	drop	agreed: English
@@ -4514,7 +4514,7 @@ PPS	drop	agreed: abbreviation
 PR-Agentur	drop	agreed: hyphenated compound
 PREMIUM	merge:Premium	agreed: case
 PRO	merge:pro	agreed: preposition pro
-PS	keep	agreed: everyday abbreviation
+PS	drop	developer ruling 2026-11-02: abbreviations excluded for now (to be lemmatised to their full words)
 PSA	drop	agreed: company
 PSD	drop	agreed: acronym
 PSG	drop	agreed: club/acronym
@@ -4584,7 +4584,7 @@ PayPal-Konto	drop	agreed: brand compound
 Payment	drop	agreed: English
 Paypal	drop	agreed: brand
 Paysafecard	drop	agreed: brand
-Pazifik	keep	agreed: ocean
+Pazifik	keep	developer ruling 2026-11-02: learnable place (to be added to reference/learnable-names/de.json)
 Peace	drop	agreed: English
 Peak	drop	agreed: English
 Pearl	drop	agreed: name
@@ -5184,7 +5184,7 @@ Sachsen-Anhalt	keep	learnable-names list (Honeyeater reference/learnable-names/d
 Safe	keep	agreed: German noun
 Safety	drop	agreed: English
 Saga	keep	agreed: common noun
-Sahara	drop	agreed: place name not on list
+Sahara	keep	developer ruling 2026-11-02: learnable place (to be added to reference/learnable-names/de.json)
 Sailer	drop	agreed: surname
 Saint	drop	agreed: English fragment
 Saints	drop	agreed: English
@@ -5355,7 +5355,7 @@ Seminarhotel	keep	agreed: real noun
 Senftenberg	drop	agreed: minor town
 Senior	keep	agreed: real word
 Sense	keep	agreed: real German word
-Seoul	drop	agreed: foreign city not on list
+Seoul	keep	developer ruling 2026-11-02: learnable place (to be added to reference/learnable-names/de.json)
 Separatist	keep	agreed: German noun
 Sepp	drop	agreed: first name
 Sequel	drop	agreed: English
@@ -5402,7 +5402,7 @@ Short	merge:Shorts	agreed: plural-only noun Shorts
 Shorts	keep	agreed: common noun
 Shot	keep	adjudicated: established loan
 Shui	drop	agreed: fragment
-Sibirien	drop	agreed: place not on list
+Sibirien	keep	developer ruling 2026-11-02: learnable place (to be added to reference/learnable-names/de.json)
 Sicherheitsglas	keep	agreed: common noun
 Sicherheitsgrund	keep	agreed: real compound
 Side	drop	agreed: English
@@ -5451,7 +5451,7 @@ Six	drop	agreed: English/brand
 Size	drop	agreed: English
 Sizilien	keep	learnable-names list (Honeyeater reference/learnable-names/de.json @ 1bf77f0)
 Sizzling	drop	agreed: game brand
-Skandinavien	drop	agreed: region not on list
+Skandinavien	keep	developer ruling 2026-11-02: learnable place (to be added to reference/learnable-names/de.json)
 Skill	drop	agreed: English
 Skills	drop	agreed: English not established enough
 Skin	drop	agreed: English
@@ -5599,7 +5599,7 @@ States	drop	agreed: English
 Statista	drop	agreed: company/website
 Stausee	keep	agreed: common noun
 Stay	drop	agreed: English
-Std	keep	adjudicated: daily abbreviation of Stunde
+Std	drop	developer ruling 2026-11-02: abbreviations excluded for now (to be lemmatised to their full words)
 Steam	drop	agreed: brand
 Steel	drop	agreed: English/surname
 Stefan	drop	agreed: first name
@@ -5764,7 +5764,7 @@ TE	drop	agreed: fragment
 TEAM	merge:Team	agreed: case variant
 TEIL	merge:Teil	agreed: case variant
 TG	drop	agreed: junk abbreviation
-THC	keep	agreed: common abbreviation
+THC	drop	developer ruling 2026-11-02: abbreviations excluded for now (to be lemmatised to their full words)
 THE	drop	agreed: English
 THW	keep	agreed: famous national body
 TI	drop	agreed: abbreviation
@@ -5848,7 +5848,7 @@ Telefax	keep	agreed: real word
 Telefon-Daten	drop	agreed: hyphenated junk
 Telefonsex	keep	agreed: real compound
 Telegram	drop	agreed: brand
-Telekom	keep	adjudicated: nationally famous institution like Deutsche Bahn
+Telekom	keep	developer ruling 2026-11-02: nationally famous institution
 Tell	drop	agreed: name
 Tempelhof	drop	agreed: district
 Templat	merge:Template	agreed: clipped loan
@@ -6052,7 +6052,7 @@ U-Boot	keep	agreed: established hyphenated word
 UB	drop	agreed: acronym
 UBS	drop	agreed: company
 UE	drop	agreed: abbreviation
-UEFA	keep	adjudicated: famous football body referred to by name
+UEFA	keep	developer ruling 2026-11-02: nationally famous institution
 UFO	keep	agreed: ordinary word
 UG	drop	agreed: company form
 UHD	drop	agreed: technical acronym
@@ -6076,7 +6076,7 @@ UPDATE	merge:Update	agreed: wrong case
 UPS	merge:ups	agreed: interjection
 URL	drop	agreed: technical acronym
 URLs	drop	agreed: technical
-US	keep	agreed: USA abbreviation as in US-Präsident
+US	drop	developer ruling 2026-11-02: abbreviations excluded for now (to be lemmatised to their full words)
 US-Amerikaner	keep	agreed: nationality word
 US-Behörde	keep	agreed: common compound
 US-Bundesstaat	keep	agreed: standard compound
@@ -6098,13 +6098,13 @@ USD	drop	agreed: currency code
 USK	drop	agreed: minor organisation
 USS	drop	agreed: ship prefix
 USV	drop	agreed: technical acronym
-UV	keep	agreed: everyday abbreviation
+UV	drop	developer ruling 2026-11-02: abbreviations excluded for now (to be lemmatised to their full words)
 UV-Licht	keep	agreed: established compound
 UV-Schutz	keep	agreed: everyday compound
 UV-Strahl	keep	agreed: established compound, mostly plural
 UV-Strahlung	keep	agreed: established compound
 UV-beständig	drop	agreed: hyphenated web compound
-UVP	keep	agreed: consumer price abbreviation
+UVP	drop	developer ruling 2026-11-02: abbreviations excluded for now (to be lemmatised to their full words)
 UWG	drop	agreed: legal acronym
 UX	drop	agreed: technical acronym
 Uber	drop	agreed: brand
@@ -6328,7 +6328,7 @@ WARUM	merge:warum	agreed: case variant
 WAZ	drop	agreed: newspaper brand
 WB	drop	agreed: abbreviation
 WD	drop	agreed: brand
-WDR	drop	agreed: regional broadcaster
+WDR	keep	developer ruling 2026-11-02: nationally famous institution
 WE	drop	agreed: English
 WEG	merge:weg	agreed: examples are weg
 WELT	merge:Welt	agreed: wrong-case Welt
@@ -6423,7 +6423,7 @@ Weisse	merge:weiß	agreed: ß spelling
 Weisswein	merge:Weißwein	agreed: ß spelling
 Weißensee	drop	agreed: district
 Weißgold	keep	agreed: common noun
-Weißrussland	drop	agreed: place name not on list
+Weißrussland	keep	developer ruling 2026-11-02: learnable place (to be added to reference/learnable-names/de.json)
 Weißwasser	drop	agreed: town
 Wel	merge:Wels	agreed: clipped fish
 Welcome	drop	agreed: English
@@ -6445,7 +6445,7 @@ Werner	drop	agreed: first name
 Wernigerode	drop	agreed: town
 West	keep	agreed: compass noun
 Westafrika	drop	agreed: region not on list
-Westdeutschland	drop	agreed: place not on list
+Westdeutschland	keep	developer ruling 2026-11-02: learnable place (to be added to reference/learnable-names/de.json)
 Westend	drop	agreed: district
 Western	keep	agreed: established loan
 Westeuropa	drop	agreed: place name not on list
@@ -6560,7 +6560,7 @@ XS	drop	agreed: size abbreviation
 XT	drop	agreed: product code
 XV	drop	agreed: regnal numeral
 XX	drop	agreed: placeholder
-XXL	keep	agreed: ordinary size abbreviation
+XXL	drop	developer ruling 2026-11-02: abbreviations excluded for now (to be lemmatised to their full words)
 XXX	drop	agreed: placeholder
 XY	drop	agreed: placeholder
 Xaver	drop	agreed: first name
@@ -6597,7 +6597,7 @@ Youtube-Kanal	drop	adjudicated: brand web compound
 Youtube-Video	drop	agreed: brand hyphen compound
 Yves	drop	agreed: first name
 Yvonne	drop	agreed: first name
-ZB	keep	agreed: zB abbreviation read daily
+ZB	drop	developer ruling 2026-11-02: abbreviations excluded for now (to be lemmatised to their full words)
 ZDF	keep	agreed: national broadcaster
 ZEIT	merge:Zeit	agreed: uppercase variant
 ZF	drop	agreed: company
@@ -6684,7 +6684,7 @@ achtundneunzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is
 achtundsechzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 achtundsiebzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 achtundvierzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
-achtundzwanzigste	keep	adjudicated: ordinal used in dates
+achtundzwanzigste	keep	developer ruling 2026-11-02: ordinal 21-29, inside the curated ordinals 1-30
 achtundzwanzigtausend	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 achtzehnhundert	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 achtzehnhundertacht	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
@@ -6866,7 +6866,7 @@ bundesdeutsch	keep	agreed: real adjective
 business	merge:Business	adjudicated: wrong case of noun loan
 but	drop	agreed: English word
 by	drop	agreed: English
-ca	keep	agreed: daily abbreviation
+ca	drop	developer ruling 2026-11-02: abbreviations excluded for now (to be lemmatised to their full words)
 can	drop	agreed: English word
 car	drop	agreed: English
 catch	drop	agreed: English
@@ -7019,7 +7019,7 @@ dreiundsechzigste	drop	agreed: spelled number compound
 dreiundsiebzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 dreiundvierzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 dreiundvierzigste	drop	agreed: spelled number compound
-dreiundzwanzigste	keep	adjudicated: ordinal used in dates
+dreiundzwanzigste	keep	developer ruling 2026-11-02: ordinal 21-29, inside the curated ordinals 1-30
 dreiundzwanzigtausend	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 dreizehnhundert	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 dreizehnhundertfünfzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
@@ -7050,7 +7050,7 @@ einladung	merge:Einladung	agreed: wrong case
 einschliesslich	merge:einschließlich	agreed: ß spelling
 einundachtzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 einunddreißig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
-einunddreißigste	keep	adjudicated: ordinal needed for dates (31st)
+einunddreißigste	drop	developer ruling 2026-11-02: ordinal above 30 (number ruling: ordinals 1-30 only)
 einunddreißigtausend	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 einundfünfzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 einundfünfzigste	drop	agreed: compound ordinal number
@@ -7059,7 +7059,7 @@ einundsechzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is 
 einundsiebzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 einundvierzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 einundvierzigste	drop	agreed: compound number
-einundzwanzigste	keep	adjudicated: ordinal used in dates; ordinals decided normally
+einundzwanzigste	keep	developer ruling 2026-11-02: ordinal 21-29, inside the curated ordinals 1-30
 einundzwanzigtausend	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 einwöchig	keep	agreed: real adjective
 el	drop	agreed: Spanish article in names
@@ -7172,7 +7172,7 @@ fünfundsiebzigtausend	drop	number rule: lexicon.number_words.number_is_learnabl
 fünfundvierzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 fünfundvierzigste	drop	agreed: spelled number
 fünfundvierzigtausend	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
-fünfundzwanzigste	keep	adjudicated: ordinal used in dates
+fünfundzwanzigste	keep	developer ruling 2026-11-02: ordinal 21-29, inside the curated ordinals 1-30
 fünfundzwanzigtausend	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 fünfzehnhundert	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 fünfzehnhundertfünfzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
@@ -7485,7 +7485,7 @@ neunundsechzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is
 neunundsiebzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 neunundvierzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 neunundvierzigste	drop	agreed: compound spelled number
-neunundzwanzigste	keep	adjudicated: ordinal used in dates
+neunundzwanzigste	keep	developer ruling 2026-11-02: ordinal 21-29, inside the curated ordinals 1-30
 neunzehnhundert	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 neunzehnhundertacht	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 neunzehnhundertachtundachtzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
@@ -7720,7 +7720,7 @@ sechsundsechzig	drop	number rule: lexicon.number_words.number_is_learnable(de) i
 sechsundsiebzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 sechsundvierzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 sechsundvierzigste	drop	agreed: spelled number
-sechsundzwanzigste	keep	adjudicated: ordinal used in dates
+sechsundzwanzigste	keep	developer ruling 2026-11-02: ordinal 21-29, inside the curated ordinals 1-30
 sechsundzwanzigtausend	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 sechzehnhundert	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 sechzehnhundertachtundvierzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
@@ -7773,7 +7773,7 @@ siebenundsechzig	drop	number rule: lexicon.number_words.number_is_learnable(de) 
 siebenundsechzigste	drop	agreed: compound ordinal number
 siebenundsiebzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 siebenundvierzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
-siebenundzwanzigste	keep	adjudicated: ordinal used in dates
+siebenundzwanzigste	keep	developer ruling 2026-11-02: ordinal 21-29, inside the curated ordinals 1-30
 siebenundzwanzigtausend	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 siebenundzwanzigtausendeins	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 siebzehnhundert	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
@@ -7854,7 +7854,7 @@ tausendzehn	drop	number rule: lexicon.number_words.number_is_learnable(de) is Fa
 tausendzwanzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 tausendzweihundert	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 tausendzweihundertfünfzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
-taz	drop	agreed: newspaper brand
+taz	keep	developer ruling 2026-11-02: nationally famous institution
 teilweis	merge:teilweise	agreed: cut-off adverb
 ten	drop	coordinator correction: the surface forms are the English word or a name (top form 'ten'); the reviewers' examples over-sampled a rare German form
 territorial	keep	agreed: real adjective
@@ -7990,7 +7990,7 @@ vierundsechzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is
 vierundsiebzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 vierundvierzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 vierundvierzigste	drop	agreed: number compound
-vierundzwanzigste	keep	adjudicated: ordinal used in dates
+vierundzwanzigste	keep	developer ruling 2026-11-02: ordinal 21-29, inside the curated ordinals 1-30
 vierundzwanzigtausend	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 vierzehnhundert	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 vierzehnhundertfünfzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
@@ -8023,7 +8023,7 @@ weiterles	merge:weiterlesen	agreed: clipped
 weiterlesen	keep	agreed: real verb
 weitermach	merge:weitermachen	agreed: cut-off lemma
 well	drop	coordinator correction: the surface forms are the English word or a name (top form 'well'); the reviewers' examples over-sampled a rare German form
-weltbest	drop	agreed: superlative fragment, no obvious lemma
+weltbest	keep	developer ruling 2026-11-02: superlative-only stems kept
 weltgroß	drop	agreed: odd lemma
 weltgrößt	keep	agreed: real superlative adjective
 westdeutsch	keep	agreed: real adjective
@@ -8045,7 +8045,7 @@ year	drop	agreed: English
 you	drop	agreed: English word
 your	drop	agreed: English word
 youtube	drop	agreed: brand
-zB	keep	agreed: daily abbreviation
+zB	drop	developer ruling 2026-11-02: abbreviations excluded for now (to be lemmatised to their full words)
 zapatistisch	keep	adjudicated: real adjective
 zehnjährig	keep	agreed: real adjective
 zehntausend	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
@@ -8221,7 +8221,7 @@ zweiundsiebzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is
 zweiundvierzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 zweiundvierzigste	drop	agreed: number compound
 zweiundvierzigtausend	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
-zweiundzwanzigste	keep	adjudicated: ordinal used in dates
+zweiundzwanzigste	keep	developer ruling 2026-11-02: ordinal 21-29, inside the curated ordinals 1-30
 zweiundzwanzigtausend	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 zwölfhundert	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
 zwölfhundertachtzig	drop	number rule: lexicon.number_words.number_is_learnable(de) is False (Honeyeater c48b853)
