@@ -1,0 +1,44 @@
+MESZ	drop	specialist time-zone acronym
+Samurai	keep	established Japanese loan
+Trad	merge:Trade	cut-off fragment; most forms are "trades"
+Wohnform	keep	ordinary noun
+erleuchtet	merge:erleuchten	participle filed as lemma
+gruppe	merge:Gruppe	lower-case noun
+Viewer	keep	established loan in computing (Duden lists it)
+gewagt	keep	participle with its own adjective entry
+überein	drop	particle fragment of separable verbs, no obvious target lemma
+Flick	drop	surname
+Pflichtangabe	keep	ordinary noun; the garbled variant is negligible
+StVO	drop	abbreviation
+aufgelöst	keep	participle with its own adjective entry (upset, dissolved)
+fitt	merge:fit	misspelt form of fit
+FW	drop	abbreviation
+Freizeiteinrichtung	keep	ordinary noun; the garbled variant is negligible
+Graphik	keep	accepted variant spelling, not broken
+Halo	drop	game or brand name
+Salesforce	drop	company name
+sportiv	keep	real adjective in the dictionary
+traumatisiert	keep	participle with its own adjective entry
+Babylon	drop	place name
+Kl	drop	abbreviation
+eingebracht	merge:einbringen	participle without its own entry
+Kreativ	merge:kreativ	capitalised adjective
+bräuchten	merge:brauchen	conjugated form
+dargeboten	merge:darbieten	participle without its own entry
+holz	merge:Holz	lower-case noun
+Fachärztin	keep	feminine form with its own entry
+Kickstarter	drop	brand name
+MdL	drop	abbreviation
+gescannt	merge:scannen	participle filed as lemma
+vo	drop	fragment or abbreviation
+Abbuchung	keep	ordinary noun; the garbled variant is negligible
+zwängen	keep	valid verb infinitive; the noun-plural forms are mixed in
+JVA	drop	abbreviation
+Warnemünde	drop	place name not on the list
+moment	merge:Moment	lower-case noun
+Justus	drop	personal name
+Vierse	drop	truncated place name; Viersen is not on the list
+# question Trad: could be Trade or Trader; I chose Trade because "trades" is the majority form.
+# question zwängen: this lemma mixes the verb zwängen with the plural Zwänge of Zwang (the larger share); the rules don't say how to split it, so I kept it as the valid verb.
+# question traumatisiert: the lemma is tagged VERB, but Duden lists it as an adjective, so I kept it.
+# question Graphik: it is a valid variant of Grafik, so I treated it as not broken and kept it.

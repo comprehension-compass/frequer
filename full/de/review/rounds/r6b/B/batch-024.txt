@@ -1,0 +1,45 @@
+äußere	keep	adjective declension base with no separate standalone dictionary form
+Rogg	merge:Roggen	cut-off form of Roggen
+tiefe	merge:tief	inflected adjective
+Mnner	merge:Mann	broken encoding, plural of Mann
+beispielweise	merge:beispielsweise	misspelling
+cum	drop	Latin word
+Ettling	drop	place name not on the list
+ausgerüstet	merge:ausrüsten	participle form
+hie	drop	archaic or dialect fragment
+training	merge:Training	lower-case noun
+willigen	merge:einwilligen	inflected fragment of einwilligen
+obs	drop	abbreviation or fragment
+radio	merge:Radio	lower-case noun
+Gend	merge:Gender	cut-off form
+Mana	drop	not an established loan
+ler	drop	garbled fragment
+Crema	keep	established loan in coffee context
+Mon	drop	fragment
+Reparier	merge:reparieren	imperative stem
+Stärkere	merge:stark	capitalised inflected comparative adjective
+ag	drop	abbreviation or fragment
+Retrospektiv	merge:Retrospektive	inflected form
+lesben	merge:Lesbe	lower-case plural noun
+vorgesetzt	merge:Vorgesetzter	lower-case nominalised participle
+Aussenbereich	merge:Außenbereich	variant spelling
+Avenger	drop	name
+IB	drop	abbreviation
+Macintosh	drop	brand name
+flächendecken	merge:flächendeckend	cut-off form
+umgebung	merge:Umgebung	lower-case noun
+vorlagen	merge:Vorlage	plural of Vorlage
+Michi	drop	first name
+getränkt	merge:tränken	participle form
+Burgund	drop	place name not on the list
+weile	merge:Weile	lower-case noun
+Woody	drop	name
+event	merge:Event	lower-case noun
+grüß	merge:grüßen	imperative form
+kleidung	merge:Kleidung	lower-case noun
+Doha	drop	place name not on the list
+
+# question äußere: "äußer-" has no standalone dictionary form, so it is unclear whether to keep it or merge it into a base; kept.
+# question willigen: the forms (willige, willigt, willigte) could be the verb willigen (in etwas willigen) or einwilligen; merged into einwilligen per the screener.
+# question vorlagen: it could be the plural of Vorlage or the past tense of vorliegen; merged into Vorlage as the more likely reading.
+# question Stärkere: it is a nominalised comparative (der Stärkere) but the counted forms are mostly adjectival; merged into stark.

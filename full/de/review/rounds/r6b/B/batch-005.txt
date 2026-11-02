@@ -1,0 +1,44 @@
+Komisch	merge:komisch	capitalised adjective
+Tauber	drop	river/surname in the examples, not on the place list
+anläßlich	merge:anlässlich	old spelling
+tiefst	merge:tief	inflected superlative
+Ratsmitglied	keep	singular lemma, fine
+Saarbrücker	drop	demonym derived from a place name
+Schlegel	keep	real noun (mallet), also a surname
+Voldemort	drop	fictional character name
+Constantin	drop	personal name
+Gaumenfreude	keep	singular lemma, plural-dominant use is fine
+Granger	drop	surname/character name
+Hausbesuche	merge:Hausbesuch	plural filed as lemma
+Heranwachsende	keep	nominalised participle, noun in its own right
+Musste	merge:müssen	conjugated verb form
+Nee	merge:nee	interjection filed under a capital
+Ping	keep	established tech loan
+Ibiza	drop	place name
+Maestro	keep	established loan
+recherchiert	merge:recherchieren	participle form
+Eddie	drop	personal name
+Frontend	keep	established loan
+Sehenswert	merge:sehenswert	capitalised adjective
+Wissenschaftliche	merge:wissenschaftlich	inflected adjective, capitalised
+ii	drop	numeral/code
+Anhöhe	keep	valid noun
+Med	drop	abbreviation fragment
+Mint	drop	English word/acronym, not a settled German lemma
+Sanierungsmaßnahme	keep	valid noun, variant spelling is minor
+kämpfe	merge:kämpfen	conjugated verb form
+open	drop	English word
+Fortschreibung	keep	valid noun
+mitversichert	merge:mitversichern	participle form
+rat	merge:Rat	lower-case noun
+seiten	merge:Seite	plural/garbled form of Seite
+Insoweit	merge:insoweit	capitalised adverb
+Böhmen	drop	place name
+Eingreifen	keep	nominalised verb, noun in its own right
+Emanuel	drop	personal name
+Fränkische	merge:fränkisch	capitalised inflected adjective
+unumstritten	keep	adjective with its own entry
+# question Tauber: the lower-case forms could also be the adjective taub (deaf), but the examples are all the river or surname, so I dropped it.
+# question Mint: German uses "mint" as a colour adjective, but the evidence shows English or brand usage, so I dropped it.
+# question Saarbrücker: a demonym adjective derived from a place name, which the rules don't cover explicitly; I treated it like the place name.
+# question Eingreifen: the forms are mostly lower-case "eingreifen", but the examples show nominalised use; I kept it as a noun like Essen.

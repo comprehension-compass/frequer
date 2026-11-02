@@ -1,0 +1,44 @@
+wett	merge:wetten	Fragment of wettmachen; forms are mostly the verb wetten
+Übeltäter	keep	Valid noun
+Freilauf	keep	Valid noun; the freilaufen forms are minor
+Protestierende	keep	Nominalised participle, a noun in its own right (like Studierende)
+Sowjet	keep	Common noun for a Soviet person
+Trotzki	drop	Person name
+kun	merge:Kunde	Cut-off fragment of Kunde
+mitführen	keep	Valid verb lemma; the NOUN tag is only a tagging error
+rumliegen	keep	Colloquial separable verb, valid
+Che	drop	Name or fragment
+Meißner	drop	Place-derived name (Meißen)
+Murmel	keep	Valid noun (marble)
+aufgefasst	merge:auffassen	Participle filed as lemma
+bildend	merge:bilden	Participle filed as lemma
+installation	merge:Installation	Lower-case noun
+Bolide	keep	Valid noun
+Chemiekonzern	keep	Valid compound noun
+Finanztest	drop	Publication name
+Gei	merge:Geier	Cut-off fragment
+Hostname	keep	Established loan
+Versandkostenfreie	merge:versandkostenfrei	Inflected adjective filed under a capital
+Vierte	merge:viert	Inflected ordinal filed under a capital
+Wattenscheid	drop	Place name not on list
+Wink	keep	Valid noun
+dafuer	merge:dafür	Misspelling
+durchdring	merge:durchdringen	Truncated verb form
+gespalten	keep	Participle with its own adjective entry
+überwacht	merge:überwachen	Inflected participle
+Flor	keep	Valid noun
+Roswitha	drop	Person name
+Sp	drop	Unresolvable fragment
+Trackback	keep	Established web loan
+Unterstütze	merge:unterstützen	Verb filed under a capital
+abgespeckt	merge:abspecken	Inflected participle
+beigelegt	merge:beilegen	Inflected participle
+ebenda	keep	Valid adverb; the ADJ tag is only a tagging error
+erschlossen	merge:erschließen	Inflected participle
+träg	merge:träge	Truncated adjective
+zack	keep	Valid interjection
+Arbeiterwohlfahrt	keep	Famous institution
+# question wett: "wett" could be the adjective in "wett sein", but the forms point to the verb wetten, so I merged it there
+# question gespalten: unsure whether this participle has its own adjective entry; I kept it
+# question Vierte: only "vierten" is attested, so the dictionary form (viert vs. vierter) is unclear; I merged to viert
+# question Sp: no obvious target word for this fragment; I dropped it instead of merging

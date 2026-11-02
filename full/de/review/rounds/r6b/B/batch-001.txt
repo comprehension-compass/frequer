@@ -1,0 +1,45 @@
+MESZ	drop	specialist time-zone acronym
+Samurai	keep	established Japanese loan
+Trad	merge:Trade	cut-off fragment; most forms are "Trades"
+Wohnform	keep	ordinary noun; singular lemma is fine
+erleuchtet	merge:erleuchten	participle filed as lemma
+gruppe	merge:Gruppe	lower-case noun
+Viewer	keep	listed loan (software term) with several inflected forms
+gewagt	keep	participle with its own adjective entry
+überein	drop	particle fragment of separable verbs, no single target
+Flick	drop	surname
+Pflichtangabe	keep	valid noun; the garbled variant is minor
+StVO	drop	abbreviation
+aufgelöst	keep	adjective with its own entry (e.g. "aufgelöst sein")
+fitt	merge:fit	misspelt base of fit/fitter
+FW	drop	abbreviation
+Freizeiteinrichtung	keep	valid noun
+Graphik	keep	accepted variant spelling, not broken
+Halo	drop	game/brand name
+Salesforce	drop	company name
+sportiv	keep	valid adjective
+traumatisiert	merge:traumatisieren	participle filed as lemma
+Babylon	drop	place name not on the list
+Kl	drop	abbreviation
+eingebracht	merge:einbringen	participle filed as lemma
+Kreativ	merge:kreativ	adjective under a capitalised lemma
+bräuchten	merge:brauchen	conjugated form
+dargeboten	merge:darbieten	participle filed as lemma
+holz	merge:Holz	lower-case noun
+Fachärztin	keep	feminine noun with its own entry
+Kickstarter	drop	brand/website name
+MdL	drop	abbreviation
+gescannt	merge:scannen	participle filed as lemma
+vo	drop	fragment/abbreviation
+Abbuchung	keep	valid noun
+zwängen	merge:Zwang	mostly the plural Zwänge, filed in lower case
+JVA	drop	abbreviation
+Warnemünde	drop	place name not on the list
+moment	merge:Moment	lower-case noun
+Justus	drop	personal name
+Vierse	drop	truncated place name (Viersen), not on the list
+# question Trad: Trader and Trade are separate nouns, but the lemma is a truncated fragment and most forms are "Trades", so I merged into Trade.
+# question überein: it is a fragment of verbs such as übereinstimmen, with no obvious single target, so I dropped it rather than merging.
+# question Graphik: I kept it as an accepted variant, although it duplicates Grafik if that is also on the list.
+# question zwängen: the forms mix the plural Zwänge with forms of the real verb zwängen (gezwängt, zwängt, zwängte); I chose Zwang by majority, but the verb may need its own lemma.
+# question Viewer: I kept it as a listed loan, but the screener judged it not established.

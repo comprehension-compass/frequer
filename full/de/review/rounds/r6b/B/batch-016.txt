@@ -1,0 +1,45 @@
+Angelo	drop	personal name
+Platon	drop	personal name
+Si	drop	foreign (Romance) word
+Appartment	merge:Apartment	misspelling
+stoff	merge:Stoff	lower-case noun
+Heilbronner	drop	derived from a place name not on the list
+Leg	drop	English word
+Mira	drop	personal name
+Kantonspolizei	keep	German common-noun compound
+Rapunzel	drop	fairy-tale character name
+Sog	keep	ordinary noun
+Telefonisch	merge:telefonisch	capitalised adjective
+einflussreichsten	merge:einflussreich	inflected superlative
+hän	merge:Hand	fragment of Hände
+scheiss	merge:Scheiß	misspelling; the examples are mostly noun uses
+spielzeug	merge:Spielzeug	lower-case noun
+spülmaschinenfest	keep	valid adjective, only the tag is wrong
+Golfe	merge:golfen	verb filed as a noun
+Judoka	keep	established loan
+geilst	merge:geil	inflected superlative
+rausholen	keep	valid separable verb
+sooooo	merge:so	elongated spelling
+Auslese	merge:auslesen	nominalised verb filed under a capitalised lemma
+Haase	drop	surname
+Längst	merge:längst	capitalised adverb
+Millionenhöhe	keep	valid compound noun
+Reflektion	merge:Reflexion	misspelling
+hochgeladen	merge:hochladen	participle form
+veröffentlich	merge:veröffentlichen	cut-off form
+zuwenig	merge:wenig	misspelling of "zu wenig"
+Inka	keep	common noun for the people (der Inka)
+Passauer	drop	derived from a place name not on the list
+Ram	drop	English word/acronym
+Severus	drop	personal name
+begriff	merge:begreifen	conjugated form
+Bondage	drop	English word
+datei	merge:Datei	lower-case noun
+gearbeitet	merge:arbeiten	participle form
+umfasst	merge:umfassen	participle/finite form
+Abhängig	merge:abhängig	capitalised adjective
+# question scheiss: the examples are mostly noun uses (der Scheiß) but it is tagged ADJ; I chose merge:Scheiß, though merge:scheiß (adjective) is also possible
+# question zuwenig: "zu wenig" is not a single lemma; I merged into wenig
+# question Appartment: Apartment and Appartement are both valid targets; I chose Apartment
+# question Inka: could also be the female given name; the no-example evidence does not settle it
+# question Rapunzel: also a plant name and a brand, but I treated it as a fairy-tale character name

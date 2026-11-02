@@ -1,0 +1,47 @@
+Rheingau	drop	region name, not on the reviewed place list
+episode	merge:Episode	noun filed in lower case
+monaten	merge:Monat	inflected plural form filed as lemma
+stillschweigen	merge:stillschweigend	the lemma is a cut-off form; the dictionary adjective is stillschweigend
+Airbnb	drop	brand name
+Traumata	merge:Trauma	plural filed as lemma
+Walliser	drop	demonym from a place name not on the list
+drogenberauscht	drop	garbled spam text
+eingeschlagen	merge:einschlagen	inflected participle forms, no separate adjective entry
+filter	merge:Filter	noun filed in lower case
+trocknergeeignet	drop	ad-hoc product-description compound
+verbindung	merge:Verbindung	noun filed in lower case
+Dürr	drop	surname, per the examples
+Verfgung	merge:Verfügung	dropped letter
+betriebsbereit	keep	ordinary adjective
+Eschweiler	drop	place name not on the list
+KSchG	drop	specialist abbreviation
+Kompressionsstrümpfe	merge:Kompressionsstrumpf	plural filed as lemma
+Langarm	keep	valid clothing noun and adjective use
+Rollos	merge:Rollo	plural filed as lemma
+Untere	merge:unter	inflected adjective under a capitalised lemma
+Zermatt	drop	place name not on the list
+Zusammensein	keep	established nominalised infinitive with its own dictionary entry
+souveräne	merge:souverän	inflected adjective form
+story	merge:Story	English spelling of an adapted noun, filed in lower case
+zutun	merge:tun	merged spelling of "zu tun"
+Prüf	merge:prüfen	cut-off fragment, and the verb is filed under a capital
+erlitten	merge:erleiden	participle of erleiden, not an adjective in its own right
+sau	merge:Sau	noun filed in lower case
+Fehmarn	drop	place name not on the list
+Kombiniere	merge:kombinieren	verb form filed under a capital
+Powerpoint	drop	product name
+Seefeld	drop	place name not on the list
+Diakonische	merge:diakonisch	inflected adjective under a capitalised lemma
+Installer	drop	English word, not an established loan
+Jacuzzi	keep	established loan with a dictionary entry as a generic noun
+Kata	drop	specialist Japanese term, not an established loan
+Landingpage	keep	established marketing loan with a dictionary entry
+Verschenken	merge:verschenken	verb under a capitalised lemma
+Ägäis	drop	place name not on the list
+
+# question Walliser: a demonym from a place name; the rules cover only the place name itself, so I dropped it.
+# question Dürr: tagged NOUN, with surname examples. The lower-case adjective dürr may be mixed in, so merge:dürr is possible; I dropped it.
+# question Untere: the adjective's dictionary form is unclear (unter vs. unterer); I used unter.
+# question zutun: the target is unclear (tun vs. the phrase "zu tun"); I used tun.
+# question Airbnb: a famous brand, but the rules only say famous institutions are kept; I treated it as a brand name and dropped it.
+# question Jacuzzi: also a brand name, but kept because it works as a generic noun; this is not consistent with Airbnb and Powerpoint.

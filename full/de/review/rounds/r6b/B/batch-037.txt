@@ -1,0 +1,44 @@
+Bundesgesetzblatt	keep	Official German publication, a noun in its own right
+Kitzbüheler	drop	Adjective derived from a place name
+Ostwestfalen	drop	Place or region name not on the reviewed list
+Pedelec	keep	Established loan word
+Ueli	drop	Personal name
+lautsprecher	merge:Lautsprecher	Lower-case noun
+lobenswert	keep	Valid adjective; the VERB tag is a tagging error
+wasserfällen	merge:Wasserfall	Inflected plural filed as a lemma
+watt	merge:Watt	Lower-case noun
+Handheld	keep	Established loan word
+Kompresse	keep	Valid noun
+Premierministerin	keep	Own feminine entry
+büro	merge:Büro	Lower-case noun
+lied	merge:Lied	Lower-case noun
+loch	merge:Loch	Lower-case noun
+reCAPTCHA	drop	Product name
+studierend	merge:Studierende	Nominalised participle filed in lower case
+vormontiert	merge:vormontieren	Participle with no own entry
+Busreisen	merge:Busreise	Plural filed as a lemma
+Handjob	drop	Vulgar spam-type anglicism
+Meiningen	drop	Place name not on the list
+Pornhub	drop	Website name
+Rendezvous	keep	Established loan word
+Royals	keep	Plural with its own meaning
+Spex	drop	Magazine or brand name
+Verbring	merge:verbringen	Cut-off verb fragment
+Vertikal	merge:vertikal	Adjective filed under a capitalised lemma
+Walser	drop	Surname or ethnonym treated as a name
+gelscht	merge:löschen	Broken encoding of gelöscht, a participle of löschen
+immense	merge:immens	Inflected adjective form
+position	merge:Position	Lower-case noun
+reaktiviert	merge:reaktivieren	Participle with no own entry
+schmusen	keep	Valid verb; the ADJ tag is a tagging error
+zweigeteilt	keep	Participial adjective, no sensible verb to merge into
+Überlebenschance	keep	Correct singular lemma
+Harold	drop	Personal name
+Nordhessen	drop	Region name not on the list
+Typus	keep	Valid noun with a distinct meaning from Typ
+Veränder	merge:verändern	Cut-off verb fragment
+hehe	drop	Chat interjection
+# question studierend: a nominalised participle (Studierende, noun) or the verb studieren? I chose Studierende because the forms are mostly nouns.
+# question Walser: the people (a common noun) or a surname? Both appear in the examples; I chose drop as a name.
+# question zweigeteilt: I assumed it has its own adjective entry. If not, no obvious dictionary verb exists to merge it into.
+# question watt: the written forms (watt, watte, watter) could also belong to Watte. I chose Watt.

@@ -1,0 +1,42 @@
+ham	drop	dialect/garbled form (ihm/haben wir), not a standard lemma
+lösung	merge:Lösung	lower-case noun
+unvergessen	keep	adjective with its own dictionary entry
+Gurk	merge:Gurke	cut-off lemma, mostly written gurke
+Zwischenablage	keep	ordinary noun
+getönt	keep	adjective with its own entry (getönte Scheiben)
+zuknallen	keep	real verb; the ADV tag is a tagging error
+Olivier	drop	personal name
+beschädigt	keep	adjective with its own entry
+geölt	merge:ölen	participle without a clear separate adjective entry
+versaut	keep	adjective with its own entry
+PDA	drop	specialist acronym
+erschöpfen	keep	valid verb lemma, tag mismatch only
+kontakte	merge:Kontakt	lower-case plural filed as lemma
+Jauch	drop	personal name
+Spätzle	keep	established food noun
+Warr	drop	fragment of the name Warren
+cam	drop	English word/abbreviation, wrong tag, not an established adapted loan
+gedreht	merge:drehen	participle, no separate adjective entry
+Entladen	merge:entladen	verb form under a capitalised lemma, written lower-case
+Ire	keep	ordinary nationality noun
+Kristin	drop	personal name
+Salzkammergut	drop	place name not on the reviewed list
+franz	drop	lower-case name
+Klitoris	keep	ordinary anatomical noun
+befristet	keep	adjective with its own entry
+kryptowährungen	merge:Kryptowährung	lower-case plural
+schiessen	merge:schießen	ss spelling for ß
+Sexvideo	keep	ordinary compound noun
+neuste	merge:neu	inflected superlative form
+sond	merge:sonder	cut-off fragment
+tablette	merge:Tablette	lower-case noun
+umschließt	merge:umschließen	conjugated form
+Lahn	drop	place name (river) not on the list
+Olympus	drop	brand name, not a famous institution
+Riß	merge:Riss	old spelling
+bestickt	merge:besticken	participle without a clear separate adjective entry
+bissel	merge:bisschen	dialect/colloquial variant
+glas	merge:Glas	lower-case noun
+hinzugekommen	merge:hinzukommen	participle filed as lemma
+# question getönt: participle that may or may not count as an adjective with its own entry; kept because it is common in product text.
+# question sond: the cut-off fragment of sonder has no clear real-word target; merged to sonder.

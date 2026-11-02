@@ -1,0 +1,46 @@
+edgar	drop	personal name
+whit	drop	English word (white), not an adapted loan
+gefunden	merge:finden	participle forms filed as lemma
+Häsch	merge:Häschen	cut-off fragment; most forms are Häschen
+Vorraussetzung	merge:Voraussetzung	misspelling
+dot	drop	English word
+mark	merge:Marke	lower-case noun, garbled forms mostly marke/marker
+maus	merge:Maus	lower-case noun
+muessen	merge:müssen	transliterated spelling
+Archiviert	merge:archivieren	capitalised participle
+Balear	drop	place-related name, not on list
+Forbes	keep	famous magazine/institution
+Gladbacher	drop	derived from a place name
+Maastricht	drop	place name not on list
+ausgetragen	merge:austragen	participle filed as lemma
+freigegeben	merge:freigeben	participle filed as lemma
+lif	drop	English/garbled form of life, not an adapted word
+versierte	merge:versiert	inflected adjective
+zusteigen	keep	genuine verb lemma, though most forms are the noun Zustieg
+überraschenderweise	keep	valid adverb, only the tag is wrong
+Herstell	merge:herstellen	cut-off fragment
+Waldviertel	drop	place name not on list
+Wirecard	drop	company name
+seperat	merge:separat	misspelling
+Erasmus	keep	well-known EU programme
+Farbiger	merge:farbig	capitalised inflected adjective
+KP	drop	abbreviation
+Louvre	keep	famous institution
+Zentralasien	drop	place name not on list
+behandlung	merge:Behandlung	lower-case noun
+wechsel	merge:wechseln	broken verb form, tagged VERB
+Märklin	drop	brand name
+Rohde	drop	surname
+dutzende	merge:Dutzend	inflected form
+handel	merge:Handel	lower-case noun
+nutz	merge:nutzen	truncated verb form
+wohlgefühlt	merge:sich wohlfühlen	participle of a pronominal verb
+zahl	merge:Zahl	lower-case noun
+zeug	merge:Zeug	lower-case noun
+ö	merge:öde	cut-off fragment of öde
+# question mark: forms split between Mark (currency) and Marke (brand); I chose Marke because marke is the second most frequent form and "marker" fits it better.
+# question zusteigen: the lemma is a real verb but the majority of forms (zustieg) are the noun Zustieg; I kept it as a verb, though merge:Zustieg is arguable.
+# question wechsel: could be the noun Wechsel or the imperative of wechseln; I followed the VERB tag and the form wechselden.
+# question wohlgefühlt: unclear whether the list's lemma is "wohlfühlen" or "sich wohlfühlen"; I followed the sich-verb convention.
+# question Erasmus: a programme name that is also a personal name; I treated it as a famous institution.
+# question Forbes: a magazine/company name; I treated it as a famous institution, unlike Wirecard and Märklin.

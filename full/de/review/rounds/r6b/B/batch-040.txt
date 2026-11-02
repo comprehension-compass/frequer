@@ -1,0 +1,45 @@
+Friedrichsdorf	drop	place name not on the reviewed list
+Gruppenreisen	merge:Gruppenreise	plural filed as lemma
+Hulk	drop	character name
+Melder	keep	ordinary agent noun (Melder)
+Sozial	merge:sozial	adjective filed under a capitalised lemma
+Unbewusst	keep	nominalised noun (das Unbewusste), as in "des Unbewussten"
+erstellt	merge:erstellen	participle filed as lemma
+reglementiert	merge:reglementieren	participle filed as lemma
+Erzeuge	merge:erzeugen	verb form filed under a capitalised lemma
+Forza	drop	foreign word / game title
+Franck	drop	person name
+LPG	drop	specialist acronym
+Lesen	merge:lesen	nominalised infinitive, no meaning of its own
+Rosi	drop	person name
+Til	drop	name or fragment
+bewussten	merge:bewusst	inflected adjective
+freude	merge:Freude	noun filed under a lower-case lemma
+twitter	merge:twittern	brand name or verb form, not a lemma
+umringt	merge:umringen	participle filed as lemma
+überlegt	merge:überlegen	participle filed as lemma
+Azor	merge:Azoren	cut-off fragment
+Deloitte	drop	company name
+Dreißigjährige	merge:dreißigjährig	inflected adjective filed under a capitalised lemma
+Schwarzkopf	drop	brand or surname
+Shopware	drop	product name
+Toxine	merge:Toxin	plural filed as lemma
+Tusch	keep	real noun (der Tusch), separate from Tusche
+jap	merge:ja	colloquial misspelling of ja
+vereisen	keep	verb dictionary form
+Barsch	keep	ordinary noun
+Eldorado	keep	established common noun
+Freske	merge:Fresko	plural filed as lemma
+Hut	keep	ordinary noun
+Pickup	keep	established loan
+Sauge	merge:saugen	verb form under a capitalised lemma
+bezwungen	merge:bezwingen	participle filed as lemma
+flasch	merge:Flasche	garbled form of Flasche
+geschlagen	merge:schlagen	participle filed as lemma
+hälfte	merge:Hälfte	noun filed under a lower-case lemma
+imo	drop	chat abbreviation, not German
+# question Unbewusst: the lemma is not the noun form Unbewusste, and the examples are all nominalised; I kept it, but merge:unbewusst is also defensible.
+# question Azor: Azoren is a place name not on the list, so the target will probably be dropped; I merged the fragment as the rules say.
+# question Tusch: forms are mixed with Tusche (ink); I kept Tusch as its own word, but the Tusche forms may need separating.
+# question Freske: Fresko is the usual singular, though Freske is also attested; I merged to Fresko.
+# question Hut: forms are mixed with hüten (verb); I kept Hut, but the hüten forms may belong to a separate lemma.

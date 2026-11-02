@@ -1,0 +1,45 @@
+Pete	drop	person name
+Citysam	drop	brand name
+Ostersonntag	keep	valid holiday compound noun
+Rundum	merge:rundum	adverb filed as capitalised noun
+schn	merge:schön	broken encoding
+Husum	drop	place name not on list
+irgendw	merge:irgendwer	cut-off fragment; forms are irgendwer/-wen/-wem
+zutage	keep	valid adverb with its own dictionary entry
+Bademäntel	merge:Bademantel	plural filed as lemma
+Breslau	drop	place name not on list
+Galileo	drop	person or brand name
+gedanken	merge:Gedanke	lower-case noun form tagged as verb
+gehörend	merge:gehören	present participle, not an adjective in its own right
+Gmail	drop	brand name
+Pur	merge:pur	adjective filed under a capital
+Velbert	drop	place name not on list
+drück	merge:drücken	imperative or fragment of the verb
+gutschein	merge:Gutschein	lower-case noun
+lsst	merge:lassen	broken encoding of lässt
+mMn	drop	chat abbreviation of a phrase, not a listed word
+SATA	drop	technical acronym
+adaptiert	merge:adaptieren	participle filed as lemma
+funktion	merge:Funktion	lower-case noun
+pussy	drop	English word, not an adapted loan
+öffnend	merge:öffnen	present participle
+Marburger	drop	place-derived name, not on the list
+Fünfter	merge:fünft	ordinal adjective filed under a capital
+regierend	merge:regieren	present participle
+umgangen	merge:umgehen	participle filed as lemma
+umschlossen	merge:umschließen	participle filed as lemma
+Parship	drop	brand name
+exclusiv	merge:exklusiv	misspelling
+schul	merge:Schule	cut-off fragment; forms are mostly Schule
+Lünen	drop	place name not on list
+erwartend	merge:erwarten	present participle
+bj	drop	abbreviation or code
+stielen	merge:Stiel	plural or inflected form filed as lemma
+NW	drop	abbreviation
+Kretschmer	drop	surname
+Polar	merge:polar	adjective filed under a capital
+
+# question schul: forms are mixed (Schule, Schulden, Schulen, schuler), so the lemma is a fragment; I merged to Schule as the dominant form, but Schulden is a separate plural-only noun.
+# question zutage: a fragment of zutage treten/fördern, but a valid adverb in its own right, so I kept it.
+# question gedanken: the capitalised plural Gedanken may count as a plural with its own meaning, but I merged it to Gedanke per the lower-case noun rule.
+# question Gmail: a brand name that is also a common product noun; I dropped it as an "other name".

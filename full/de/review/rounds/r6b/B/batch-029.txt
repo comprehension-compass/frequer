@@ -1,0 +1,46 @@
+Oberlausitz	drop	place name not on the reviewed list
+Sheriff	keep	established English loan
+groen	merge:groß	dropped ß
+informationen	merge:Information	plural noun filed as a verb
+pulen	merge:Pult	nearly all forms are the noun Pult
+Fleur	drop	French name/brand, not learnable
+Frankenthal	drop	place name not on the list
+Jährige	merge:jährig	cut-off fragment of x-jährige
+Styl	merge:Style	cut-off form of Style
+Tumblr	drop	brand/website name
+Vorweg	merge:vorweg	adverb filed under a capital
+schlaf	merge:Schlaf	lower-case noun
+werbung	merge:Werbung	lower-case noun
+Angie	drop	personal name
+Wiederhole	merge:wiederholen	verb filed under a capital
+knnte	merge:können	dropped letter, form of können
+wurscht	keep	colloquial adjective in wurscht sein
+Denkanstöße	merge:Denkanstoß	plural filed as lemma
+Ele	drop	unrecognisable fragment
+ermäßigungen	merge:Ermäßigung	lower-case plural
+getan	merge:tun	participle form of tun
+istMehr	drop	garbled text
+million	merge:Million	lower-case noun and plural forms
+retour	keep	established loan word (Duden)
+Fallstricke	merge:Fallstrick	plural filed as lemma
+Fuer	merge:für	spelling variant of für
+Kommunale	merge:kommunal	inflected adjective under a capital
+Marketer	keep	established loan with its own noun forms
+Routing	keep	established IT loan
+Shar	merge:Share	cut-off fragment of Share
+gesehn	merge:sehen	misspelt participle
+Header	keep	established loan
+Tenside	merge:Tensid	plural filed as lemma
+anvisiert	merge:anvisieren	participle without its own entry
+karten	merge:Karte	mostly plural noun, lower-cased
+sofa	merge:Sofa	lower-case noun
+umwickelt	merge:umwickeln	participle form
+Alpenverein	keep	famous institution
+WO	merge:wo	upper-case form of wo
+imho	drop	abbreviation
+# question pulen: pulen is also a real (northern colloquial) verb, but the counted forms are mostly Pult, so I merged into Pult.
+# question Jährige: no standalone adjective jährig exists outside compounds; merged into jährig as the nearest base.
+# question karten: karten could be the rare verb karten, but the lower-case form is most likely the plural of Karte; no examples were available.
+# question Shar: Share may itself be a borderline lemma, but the rules say to merge fragments rather than drop them.
+# question retour: the examples are spam text; I kept it only because retour is in standard dictionaries (Swiss/Austrian usage).
+# question Tumblr: a well-known platform, but not an institution in the sense of the rules, so I dropped it as a brand name.

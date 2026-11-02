@@ -1,0 +1,44 @@
+gekürzt	merge:kürzen	participle form with no adjective entry of its own
+geschwächt	merge:schwächen	participle form with no adjective entry of its own
+Achso	keep	established interjection
+Aff	merge:Affe	truncated form
+TR	drop	abbreviation/code
+Ti	drop	chemical symbol
+account	keep	established loan in German
+kan	merge:können	misspelling of kann
+schutz	merge:Schutz	lower-case noun
+Berechtigte	keep	nominalised adjective, like das Gute
+Dorst	drop	place name
+Eckert	drop	surname
+Ernährungsweise	keep	regular noun
+Rottweil	drop	place name
+Sonnenlieg	merge:Sonnenliege	cut-off fragment
+Tischdeko	keep	established colloquial noun
+eidg	merge:eidgenössisch	abbreviation of a listed word
+Henriette	drop	personal name
+Raymond	drop	personal name
+Schwache	keep	nominalised adjective
+Täufer	keep	real noun
+Volle	merge:voll	adjective capitalised
+Vorzugsweise	merge:vorzugsweise	adverb capitalised
+Wahre	merge:wahr	adjective capitalised
+sda	drop	news-agency acronym
+unterlegen	keep	adjective with its own entry
+chang	drop	English word, not an adapted loan
+entwicklung	merge:Entwicklung	lower-case noun
+expertinnen	merge:Expertin	plural filed as lemma
+kund	merge:Kunde	cut-off fragment
+Kilobyte	keep	established loan
+Kreissparkasse	keep	common noun
+Lopez	drop	surname
+Minis	merge:Mini	plural filed as lemma
+angeboten	merge:anbieten	participle form
+wahl	merge:Wahl	lower-case noun
+Flugreisen	merge:Flugreise	plural filed as lemma
+Gegnerin	keep	own feminine entry
+Klett	drop	publisher/brand name
+Kompetent	merge:kompetent	adjective capitalised
+# question gekürzt: the rules do not say whether gekürzt has its own adjective entry; I treated it as a participle and merged it.
+# question geschwächt: same issue as gekürzt; I merged it into schwächen.
+# question Achso: it is a spelled-out interjection, which the rules do not cover; I kept it as an established colloquial filler.
+# question Klett: a publisher is not clearly a famous institution; I dropped it as a brand name.

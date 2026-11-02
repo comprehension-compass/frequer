@@ -1,0 +1,50 @@
+herausnehmbaren	merge:herausnehmbar	inflected adjective form
+Hector	drop	personal name
+Problematisch	merge:problematisch	adjective filed under a capital
+Rüsch	merge:Rüsche	cut-off fragment of Rüsche
+WoltLab	drop	company/product name
+Yandex	drop	company/brand name
+einlässt	merge:einlassen	conjugated verb form
+lag	merge:Lager	garbled; Lager is the largest written form (354)
+vlt	merge:vielleicht	chat abbreviation of vielleicht
+Dinslaken	drop	place name not on list
+GMT	drop	specialist acronym
+Vielseitig	merge:vielseitig	adjective filed under a capital
+ausm	drop	colloquial contraction, non-standard
+bekanntschaften	merge:Bekanntschaft	lower-case plural noun
+nocheinmal	merge:noch einmal	misspelling
+rde	merge:werden	broken encoding of würde, a form of werden
+reihe	merge:Reihe	lower-case noun
+wre	merge:sein	broken encoding of wäre, a form of sein
+Evernote	drop	product name
+Herold	keep	common noun (herald)
+Kepler	drop	personal name
+Lex	drop	Latin word/name
+Moabit	drop	place name not on list
+Uster	drop	place name not on list
+Vechta	drop	place name not on list
+apach	merge:Apache	cut-off fragment of Apache
+wi	drop	garbled fragment (wi/wien/wier), no clear target
+Amri	drop	personal name
+Chemtrails	merge:Chemtrail	plural filed as lemma
+Lateinische	merge:Latein	inflected nominalised adjective naming the language
+Stecher	keep	common noun
+darüberhinaus	merge:darüber hinaus	misspelling
+dreien	merge:drei	inflected numeral form
+muster	merge:Muster	lower-case noun
+nö	keep	established colloquial interjection
+Dat	drop	garbled fragment, mixed forms
+Gabor	drop	personal/brand name
+Müde	merge:müde	adjective filed under a capital
+PAYBACK	drop	brand name
+viereinhalb	keep	valid number word
+# question lag: lemma is garbled across Lager (354), Lage (142), lagem and lages; I merged to the majority form, but Lage is also plausible.
+# question rde: broken encoding of würde, which is a conjugated form; I merged to the dictionary form werden rather than to würde.
+# question wre: broken encoding of wäre, which is a conjugated form; I merged to the dictionary form sein rather than to wäre.
+# question nocheinmal: the target "noch einmal" is two words, and I don't know whether it exists as a lemma (nochmal may be the listed form).
+# question Lateinische: the example is the nominalised language name (das Lateinische); I chose Latein over lateinisch.
+# question wi: written as wi/wien/wier/wiem, so possibly Wien (a place name, which would drop) or wir; no obvious merge target, so I dropped it.
+# question Dat: written as dates/dat/daten, so it could be Date or Daten; ambiguous, so I dropped it.
+# question Herold: examples mix the common noun (herald) with a surname; I kept it as the common noun.
+# question Chemtrails: it may be a legitimate plural-only term; I merged it to the singular.
+# question ausm: a colloquial contraction rather than a broken lemma; I dropped it instead of merging to aus.

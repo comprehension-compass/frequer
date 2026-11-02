@@ -1,0 +1,44 @@
+griech	merge:griechisch	cut-off fragment, mostly the adjective
+Ötztal	drop	place name not on list
+Israelit	keep	ethnonym with its own entry
+MDStV	drop	specialist acronym
+Pegnitz	drop	place name (river/town) not on list
+Quentin	drop	personal name
+Streamer	keep	established loan
+aufwach	merge:aufwachen	cut-off fragment
+doc	drop	English/colloquial abbreviation, wrong POS
+dreiviertel	keep	valid spelled-out fraction word
+freigeschalten	merge:freischalten	participle filed as lemma
+logo	keep	colloquial interjection, valid word
+masse	merge:Masse	lower-case noun
+Danksagung	keep	ordinary noun
+Oneplus	drop	brand name
+Verschleißteile	merge:Verschleißteil	plural filed as lemma
+Wenger	drop	surname
+fürn	merge:für	colloquial contraction of für den/ein
+Einzelnachweise	merge:Einzelnachweis	plural filed as lemma
+Krupp	drop	company/family name
+baust	merge:bauen	conjugated form
+bock	merge:Bock	lower-case noun
+lvl	merge:Level	abbreviation of listed word
+pol	merge:Pol	cut-off/ambiguous form, mostly the noun
+stilecht	keep	real adjective, POS tag wrong
+titel	merge:Titel	lower-case noun
+Colt	keep	common noun (der Colt)
+Dracula	drop	character name
+Grob	merge:grob	capitalised adjective
+Kylie	drop	personal name
+Monsieur	keep	established loan word
+Olymp	drop	place name not on list
+Primavera	drop	name/foreign word
+Tot	merge:tot	capitalised adjective
+Zuschneide	merge:zuschneiden	verb filed as capitalised noun
+drfen	merge:dürfen	dropped letter
+sek	merge:Sekunde	abbreviation of listed word
+verströmt	merge:verströmen	participle without own entry
+ä	drop	single letter
+Ausmass	merge:Ausmaß	misspelling
+# question griech: could be Grieche or griechisch; chose the adjective because "griech" is the stem of griechisch
+# question pol: unclear whether this is Pol or Pole (people); chose Pol since "pol" is the most frequent form
+# question Olymp: also a common noun (figurative "Olymp"), but treated as a place name per the rules
+# question fürn: contraction of für den/ein; unclear whether merge into für or drop

@@ -1,0 +1,43 @@
+Prüfe	merge:prüfen	capitalised imperative filed as a noun
+abgelehnt	merge:ablehnen	inflected participle forms; no separate adjective entry
+Petersen	drop	surname
+Tübinger	drop	place-derived name; Tübingen is not on the list
+aktualisiert	merge:aktualisieren	inflected participle forms
+gelangt	merge:gelangen	inflected verb forms
+revidiert	merge:revidieren	participle and conjugated forms
+Eyecatcher	keep	established loan
+Perl	drop	surname or programming-language name
+Playboy	keep	established loan
+Qigong	keep	established foreign word
+bindend	keep	adjective with its own dictionary entry
+gepresst	merge:pressen	inflected participle forms
+tasch	merge:Tasche	cut-off fragment of Tasche
+Additiv	keep	valid noun lemma
+heren	drop	garbled non-word, no obvious target
+whatsapp	drop	brand name
+Pharao	keep	ordinary noun
+eingeschaltet	merge:einschalten	inflected participle forms
+getreten	merge:treten	inflected participle forms
+Beitragzitat	drop	forum template artifact
+Drüse	keep	valid noun; the "drusen" forms are only spelling variants
+carte	drop	fragment of the foreign phrase "à la carte"
+AktG	drop	specialist abbreviation
+Ash	drop	name or English word
+Dolce	drop	Italian word or brand name
+Grübel	merge:grübeln	broken lemma; verb forms filed as a noun
+Lumen	keep	valid noun (physics unit)
+Proxy	keep	established IT loan
+Zapfe	merge:Zapfen	fragment; the example shows the noun Zapfen
+Biet	merge:bieten	cut-off fragment of bieten
+LK	drop	abbreviation
+aufgeräumt	keep	adjective with its own dictionary entry
+hineingehen	keep	valid separable verb lemma
+Jesaja	drop	biblical name
+blowjob	merge:Blowjob	lower-case noun
+deluxe	keep	established loan
+gewicht	merge:Gewicht	lower-case noun
+schlampen	merge:Schlampe	noun forms dominate; the lemma is garbled
+stehn	merge:stehen	colloquial misspelling
+# question Zapfe: the written form is only "zapfen", which could be the verb or the noun Zapfen; I chose the noun on the basis of the example.
+# question gewicht: this could be the verb gewichten, but the noun Gewicht is far more likely, so I merged it there.
+# question schlampen: forms are a mix of noun (Schlampe) and verb (schlampen, geschlampt); I chose the noun because it has the most forms.

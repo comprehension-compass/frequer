@@ -1,0 +1,45 @@
+Entrepreneurship	keep	established English loan used in German business and education texts
+finger	merge:Finger	lower-case noun
+treff	merge:Treff	lower-case noun; the Treffer and Treffs forms belong with it
+Champagne	merge:Champagner	French spelling of the drink; German lemma is Champagner
+Pedelecs	merge:Pedelec	plural filed as lemma
+gerufen	merge:rufen	participle without its own adjective entry
+vorbeizuschauen	merge:vorbeischauen	zu-infinitive form
+wasserdichte	merge:wasserdicht	inflected adjective
+automaten	merge:Automat	lower-case plural noun
+Energiespar	merge:energiesparen	cut-off fragment
+Hunsrück	drop	place name not on the list
+Kühlungsborn	drop	place name not on the list
+Malmö	drop	place name not on the list
+PARTNER	merge:Partner	upper-case form of Partner
+Slytherin	drop	fictional proper name
+eigendlich	merge:eigentlich	misspelling
+fps	drop	specialist abbreviation
+schule	merge:Schule	lower-case noun
+Neustädter	drop	demonym built on place names
+kl	drop	abbreviation or garbled fragment
+Lahr	drop	place name not on the list
+Reissverschluss	merge:Reißverschluss	misspelling (ss for ß)
+Riester	drop	proper name
+pack	merge:packen	imperative form
+persnlich	merge:persönlich	broken encoding
+rauh	merge:rau	old spelling
+zukunftsorientierte	merge:zukunftsorientiert	inflected adjective
+Radel	merge:radeln	verb form or nominalised verb filed as a noun
+bauch	merge:Bauch	lower-case noun
+bey	merge:bei	archaic spelling (beyden is beiden)
+bloggt	merge:bloggen	conjugated verb form
+Freeride	keep	established sport loan (Freeride, freeriden)
+Ronja	drop	character and person name
+Torrent	keep	established loan in the file-sharing sense
+bedienend	merge:bedienen	participle in "zu bedienend", no entry of its own
+häßlich	merge:hässlich	old spelling
+mei	drop	dialect interjection or garbled form of mein
+Marg	merge:Marge	cut-off form; Margen is the plural of Marge
+Neger	drop	offensive term, not suitable for learners
+filme	merge:Film	lower-case plural noun
+# question Champagne: it is also a region name, but the examples show the drink, so I merged it into Champagner.
+# question Energiespar: the examples use the nominalised Energiesparen, so merge:Energiesparen could also fit; I chose the verb.
+# question Riester: it could count as a lexicalised term for the pension (Riester-Rente), but I treated it as a person name.
+# question Neger: the rules have no explicit ruling on offensive terms; I dropped it.
+# question mei: the evidence is thin; it could be dialect for mein or a fragment of meine.

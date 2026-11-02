@@ -1,0 +1,43 @@
+Biege	merge:biegen	only form seen is biegen
+Kuschel	merge:kuscheln	cut-off fragment of kuscheln
+Pippi	drop	character name
+Sunmaker	drop	brand name
+bewertung	merge:Bewertung	lower-case noun
+moeglich	merge:möglich	transliterated misspelling
+Reseller	keep	established IT loan in German
+meter	merge:Meter	lower-case noun
+Predator	drop	brand/film name
+Ruffy	drop	character name
+Warhammer	drop	product name
+zurck	merge:zurück	broken encoding
+Komfortabel	merge:komfortabel	capitalised adjective
+Roosevelt	drop	person name
+Ultrabook	keep	generic product-type noun
+situation	merge:Situation	lower-case noun
+Boch	drop	surname
+Brook	drop	surname
+Kopfschüttel	merge:Kopfschütteln	cut-off fragment of the noun
+gestossen	merge:stoßen	participle in non-standard spelling
+wein	merge:Wein	lower-case noun
+Brauner	merge:braun	inflected form (braune) of the adjective
+Generali	drop	company name
+Gretel	drop	character name
+gemobbt	merge:mobben	participle, not a dictionary adjective
+lizenzfreie	merge:lizenzfrei	inflected adjective
+Ausgehe	merge:ausgehen	verb filed as capitalised stem
+Eurosport	drop	TV channel brand
+Kratze	merge:kratzen	verb filed as capitalised stem
+Patrik	drop	first name
+city	drop	English word, not an established loan
+eingeräumt	merge:einräumen	inflected participle
+serie	merge:Serie	lower-case noun
+tglich	merge:täglich	broken encoding
+unvorbereitet	keep	adjective with its own entry
+zumute	keep	dictionary adverb (zumute sein)
+Geheime	merge:geheim	inflected capitalised adjective
+Gruppensex	keep	ordinary noun
+Johanniter	keep	well-known order/organisation and common noun for its members
+Kinderkrankheit	keep	valid noun, singular form
+# question Reseller: unclear whether this counts as an established loan; kept as common German IT term
+# question Johanniter: could be treated as an organisation name (drop); kept as a famous institution
+# question zumute: listed as an adverb in dictionaries but only occurs as part of "zumute sein"; kept

@@ -1,0 +1,48 @@
+Schlumpf	drop	character name, not a learnable common noun
+Südküste	keep	regular compound noun
+erwerbslos	keep	correct lower-case adjective, only the POS tag is off
+setz	merge:setzen	imperative stem
+Fahr	merge:fahren	cut-off stem, forms are mostly the imperative
+Kinderschutz	keep	established common noun, screener's drop not supported
+Ad	drop	abbreviation or English fragment
+Britische	merge:britisch	capitalised inflected adjective
+Elektrische	merge:elektrisch	capitalised inflected adjective
+Töten	merge:töten	nominalised infinitive, no noun meaning of its own
+dmg	drop	code or abbreviation
+grins	merge:grinsen	stem of grinsen
+nichtmehr	merge:nicht mehr	misspelling
+Gegenüber	keep	real noun (das Gegenüber)
+beginn	merge:Beginn	lower-case noun, as in "zu beginn"
+spießen	merge:Spieß	noun filed under a plural or verb form
+zerstreut	keep	adjective with its own dictionary entry
+Helio	drop	name (Helios)
+Idyll	keep	regular noun
+SieMehr	drop	garbled template text
+Tequila	keep	established loan
+Vito	drop	given name
+computer	merge:Computer	lower-case noun
+Friese	keep	demonym noun, like Deutscher
+Gezeit	merge:Gezeiten	plural-only noun filed under a singular
+Staatlich	merge:staatlich	capitalised adjective
+Vogue	drop	brand or magazine name
+Zweit	merge:zweite	cut-off fragment of the ordinal
+coronabedingt	keep	adjective
+Fachanwältin	keep	own feminine entry
+Ge	drop	fragment with no obvious target
+Tschechoslowakei	drop	place name not on the list
+Wegner	drop	surname
+Glitter	keep	established loan
+akku	merge:Akku	lower-case noun
+sound	merge:Sound	lower-case noun
+APIs	drop	plural of a specialist acronym
+Ki	merge:KI	abbreviation written wrongly
+Kleben	merge:kleben	nominalised verb
+angefallen	merge:anfallen	participle with no entry of its own
+
+# question Fahr: could be a fragment of Fahrt or fahren; the imperative form fahr suggests fahren
+# question Töten: nominalised infinitive (as in "Lizenz zum Töten"); the rules do not say whether it counts as a noun like Essen
+# question Kleben: same issue as Töten, a nominalised infinitive with no separate noun meaning
+# question Zweit: fragment of zweit-; I chose zweite as the closest word, but the target is unclear
+# question Ge: fragment with no obvious target, so I dropped it although fragments are normally merged
+# question Ki: merged to KI, but if KI counts as a specialist acronym it should be dropped
+# question Schlumpf: character name, but Schlümpfe is a widely known common word; I dropped it as a name

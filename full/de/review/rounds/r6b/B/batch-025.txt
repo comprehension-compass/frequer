@@ -1,0 +1,44 @@
+Gewächse	merge:Gewächs	plural filed as lemma
+Häkel	merge:häkeln	truncated verb form
+Schenke	merge:schenken	capitalised verb form, text shows only schenken
+Zuständig	merge:zuständig	capitalised adjective
+geglaubt	merge:glauben	participle forms filed as lemma
+Meerbusch	drop	place name not on list
+Müsste	merge:müssen	conjugated verb form
+Tallinn	drop	place name not on list
+eingespeist	merge:einspeisen	participle
+versand	merge:Versand	lower-case noun
+Aussteig	merge:aussteigen	truncated verb form
+herausgefordert	merge:herausfordern	participle
+selbstfahren	merge:selbstfahrend	cut-off adjective
+Ref	drop	unclear clipping, not a clear abbreviation of a listed word
+anwendung	merge:Anwendung	lower-case noun
+lieferung	merge:Lieferung	lower-case noun
+ring	merge:Ring	lower-case noun
+tagesaktuellen	merge:tagesaktuell	inflected adjective
+Trennen	merge:trennen	capitalised verb form
+co	drop	fragment/abbreviation
+nummer	merge:Nummer	lower-case noun
+Maggie	drop	first name
+Profitier	merge:profitieren	truncated verb form
+Zumba	keep	established loan, common noun for a fitness class
+gehend	merge:gehen	participle fragment
+schluss	merge:Schluss	lower-case noun
+uraufgeführt	merge:uraufführen	participle
+Augenlider	merge:Augenlid	plural filed as lemma
+Dormagen	drop	place name not on list
+Frederik	drop	personal name
+Soli	merge:Solo	plural of Solo
+dazugehört	merge:dazugehören	conjugated form
+dos	drop	garbled/English, not a lemma
+Isabell	drop	personal name
+Liebherr	drop	company name
+Microfaser	merge:Mikrofaser	English spelling of adapted word
+Raid	drop	brand/English word
+vergrössern	merge:vergrößern	Swiss spelling
+Halberstadt	drop	place name not on list
+Valle	drop	place/surname, Spanish word
+
+# question Soli: could be the clipped tax term (der Soli) rather than the plural of Solo; merged to Solo as the plural reading fits the lower-case forms.
+# question dos: forms dose/dosen suggest Dose, but the lemma itself is English "dos"; dropped rather than merged.
+# question Ref: unclear whether it clips Referenz, Referee or Referent; dropped as no clear listed target.

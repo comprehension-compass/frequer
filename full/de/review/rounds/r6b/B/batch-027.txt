@@ -1,0 +1,44 @@
+krempeln	keep	real verb; the infinitive is a valid lemma
+Abstell	merge:abstellen	cut-off fragment of abstellen
+Arlberg	drop	place name not on the list
+Bonuscode	keep	ordinary compound noun, singular lemma
+Bronchie	keep	correct singular lemma
+Mum	drop	English word, not an established loan
+Scheuer	drop	surname (Manfred, Norbert, Andreas Scheuer)
+Starnberger	drop	place-derived adjective
+gestreamt	merge:streamen	participle filed as an adverb
+infos	merge:Info	lower-case plural of an abbreviation
+leder	merge:Leder	lower-case noun
+rechnung	merge:Rechnung	lower-case noun
+vermochte	merge:vermögen	conjugated form
+verwaisen	keep	valid verb infinitive, though most uses are the adjective
+Amor	drop	mythological name
+FU	drop	abbreviation
+Läuferinne	merge:Läuferin	cut-off plural form
+Uckermark	drop	place name not on the list
+Untergruppe	keep	correct singular lemma
+YouTuber	keep	established loan
+beiseit	merge:beiseite	truncated form
+selbstgebaut	keep	adjective participle with its own entry
+Bildrecht	keep	correct singular lemma
+Erstligist	keep	correct singular lemma
+Manu	drop	personal name
+Reto	drop	personal name
+Shaker	keep	established loan
+ahmen	drop	forms are the name Ahmet or the fragment of nachahmen, not a lemma
+hammer	merge:Hammer	lower-case noun
+Gemeinsamen	merge:gemeinsam	adjective filed under a capitalised lemma
+Göttliche	merge:göttlich	examples are adjective use
+Steche	merge:stechen	conjugated form of stechen
+Th	drop	abbreviation
+herüber	keep	adverb, valid word
+nachverfolgen	keep	real separable verb
+Elektrosmog	keep	established compound noun
+Muße	keep	correctly written noun
+Sibylle	drop	personal name
+ft	drop	abbreviation
+strand	merge:Strand	lower-case noun
+
+# question infos: merge target could be Info or Information; chose Info as the singular of the form filed.
+# question verwaisen: nearly all uses are the adjective verwaist, but the verb lemma is valid, so kept.
+# question strand: forms are mixed (stranden is a verb); the majority form strand is most likely the noun Strand, so merged there.

@@ -1,0 +1,45 @@
+Schlumpf	keep	Smurf is a common noun, and Schlümpfe is its plural
+Südküste	keep	regular compound noun
+erwerbslos	keep	correct adjective lemma, only the tag is wrong
+setz	merge:setzen	imperative stem
+Fahr	merge:fahren	cut-off stem
+Kinderschutz	keep	regular noun
+Ad	drop	abbreviation or English fragment
+Britische	merge:britisch	capitalised adjective
+Elektrische	merge:elektrisch	capitalised adjective
+Töten	merge:töten	mostly written lower-case, so it is the verb
+dmg	drop	code or abbreviation
+grins	merge:grinsen	stem or imperative form
+nichtmehr	merge:nicht mehr	misspelling
+Gegenüber	keep	genuine noun (das Gegenüber)
+beginn	merge:Beginn	lower-case noun
+spießen	merge:Spieß	plural filed as lemma
+zerstreut	keep	adjective with its own entry
+Helio	drop	name (Helios)
+Idyll	keep	regular noun
+SieMehr	drop	garbled template text
+Tequila	keep	established loan
+Vito	drop	given name
+computer	merge:Computer	lower-case noun
+Friese	keep	common noun for a person from Friesland, not a place name
+Gezeit	keep	the plural Gezeiten is the established form
+Staatlich	merge:staatlich	capitalised adjective
+Vogue	keep	famous magazine, treated as a famous institution
+Zweit	merge:zweit	cut-off ordinal
+coronabedingt	keep	valid adjective
+Fachanwältin	keep	feminine noun with its own entry
+Ge	drop	fragment with no clear target
+Tschechoslowakei	drop	place name not on the list
+Wegner	drop	surname
+Glitter	keep	established loan
+akku	merge:Akku	lower-case noun
+sound	merge:Sound	lower-case noun, established loan
+APIs	merge:API	plural of an acronym
+Ki	drop	abbreviation of a phrase (KI), not of a single listed word
+Kleben	merge:kleben	mostly written lower-case, so it is the verb
+angefallen	merge:anfallen	participle with no entry of its own
+# question Fahr: could equally be a fragment of Fahrt; I chose the verb fahren.
+# question nichtmehr: the target "nicht mehr" is two words, so it may not work as a lemma.
+# question Vogue: a famous magazine, but possibly just a brand name, which would be drop.
+# question Gezeit: the lemma is singular but the text is nearly all plural Gezeiten; merge:Gezeiten might be the better lemma.
+# question APIs: merging into API assumes API itself is kept; as a specialist acronym it could be dropped.

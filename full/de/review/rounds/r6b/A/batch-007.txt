@@ -1,0 +1,45 @@
+famili	merge:Familie	cut-off form of Familie
+Schweriner	drop	place-name derivative, not on reviewed list
+orgasmus	merge:Orgasmus	lower-case noun
+Phönix	keep	real noun (the bird)
+Sommerreifen	keep	valid noun; singular and plural are identical
+Zertifizierte	merge:zertifiziert	capitalised adjective form
+Ausziehe	merge:ausziehen	cut-off or nominalised verb form
+Blu	drop	unclear fragment, no usable evidence
+Lana	drop	personal name
+Unix	drop	product name
+fan	merge:Fan	lower-case noun
+schlitzen	keep	valid verb lemma (Schlitze is the noun plural)
+Caritasverband	keep	famous institution
+Mandy	drop	personal name
+Rodel	keep	valid noun (sled), also appears with rodeln
+Zeller	drop	surname or place-derived name
+feien	merge:gefeit	garbled lemma of gefeit
+vorausschauen	keep	valid verb lemma
+Ansehen	keep	real noun (prestige)
+Booklet	keep	established loan
+Hautproblem	keep	fine compound noun
+Lerngruppe	keep	fine compound noun
+Ruß	keep	valid noun, spelling variants only
+Sono	drop	brand fragment (Sonos)
+ipad	drop	brand name
+mchten	merge:möchten	broken encoding
+mitMehr	drop	template garbage
+sin	drop	garbled or foreign
+Beende	merge:beenden	capitalised verb form
+inkl	merge:inklusive	abbreviation of a listed word
+verheiraten	keep	valid verb lemma
+Gerda	drop	personal name
+Loge	keep	valid noun
+Minsk	drop	place name not on list
+verfügung	merge:Verfügung	lower-case noun
+wrde	merge:würde	broken encoding
+Evakuierung	keep	fine noun
+Infizierte	keep	adjectival noun in its own right (like Angestellte)
+Weihnacht	merge:Weihnachten	truncated form
+btw	drop	English abbreviation
+# question Blu: fragment with no examples; could be Blues or a brand (Blu-ray), so I dropped it as unidentifiable
+# question Unix: product name for a widely known OS; rules cover only institutions and other names, so I treated it as a name and dropped it
+# question schlitzen: lemma is a valid verb but the counted forms are mostly the noun Schlitze; I kept it, though a Schlitz entry may be needed
+# question Infizierte: kept as a nominalised adjective in its own right; if the rules treat it as an inflected form, it should merge to infiziert
+# question inkl: assumed inklusive is on the list

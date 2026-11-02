@@ -1,0 +1,43 @@
+wett	merge:wettmachen	cut-off fragment of the separable verb wettmachen
+Übeltäter	keep	ordinary noun
+Freilauf	keep	real noun; "freilaufen" is only a minor variant
+Protestierende	keep	nominalised participle with its own noun use, like Lehrende
+Sowjet	keep	established historical noun
+Trotzki	drop	person name
+kun	merge:Kunde	cut-off fragment of Kunde
+mitführen	keep	valid verb lemma; the NOUN tag is only nominalised use
+rumliegen	keep	colloquial but real verb
+Che	drop	name or fragment
+Meißner	drop	place-derived name
+Murmel	keep	real noun (marble, murmur)
+aufgefasst	merge:auffassen	participle filed as lemma
+bildend	merge:bilden	participle filed as lemma, used mostly in the phrase "bildende Kunst"
+installation	merge:Installation	lower-case noun
+Bolide	keep	real noun
+Chemiekonzern	keep	real compound noun
+Finanztest	drop	publication name, not a famous institution
+Gei	merge:Geier	cut-off fragment of Geier
+Hostname	keep	established loan
+Versandkostenfreie	merge:versandkostenfrei	inflected adjective filed under a capitalised lemma
+Vierte	merge:vierte	inflected ordinal filed under a capitalised lemma
+Wattenscheid	drop	place name not on the list
+Wink	keep	real noun
+dafuer	merge:dafür	broken spelling
+durchdring	merge:durchdringen	truncated verb form
+gespalten	keep	participle adjective with its own dictionary entry
+überwacht	merge:überwachen	participle filed as lemma
+Flor	keep	real noun
+Roswitha	drop	person name
+Sp	drop	meaningless fragment with no obvious target
+Trackback	keep	established loan
+Unterstütze	merge:unterstützen	verb filed under a capitalised lemma
+abgespeckt	merge:abspecken	participle filed as lemma
+beigelegt	merge:beilegen	participle filed as lemma
+ebenda	keep	real adverb; only the tag is wrong
+erschlossen	merge:erschließen	participle filed as lemma
+träg	merge:träge	truncated adjective
+zack	keep	established interjection
+Arbeiterwohlfahrt	keep	famous institution
+# question wett: the forms (wett, wetten) could also point to wetten; I chose wettmachen based on the screener note
+# question Sp: no obvious target, so I dropped it rather than merged it
+# question Finanztest: it is a well-known publication, but I treated it as a product name rather than a famous institution

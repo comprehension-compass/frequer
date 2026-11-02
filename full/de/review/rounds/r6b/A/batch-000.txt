@@ -1,0 +1,46 @@
+Sprachreisen	merge:Sprachreise	plural filed as lemma
+ballen	keep	real verb; "ballet" forms are English noise in the counts
+bb	drop	abbreviation/code
+bio	keep	indeclinable adjective/prefix in ordinary German use
+steifen	merge:steif	inflected adjective
+Fracking	keep	established loan
+motor	merge:Motor	lower-case noun
+unversehrt	keep	adjective with its own entry
+Diashow	keep	established loan compound
+Lehne	merge:lehnen	counted forms are the verb lehnen
+Roche	drop	company name
+cod	merge:Code	forms are code/codes, cut-off fragment
+Barry	drop	personal name
+Brillant	keep	genuine noun (gemstone), examples are noun uses
+sm	drop	abbreviation/code
+fliessen	merge:fließen	ss spelling of ß
+verzichte	merge:verzichten	conjugated form
+Kurfürst	keep	proper singular noun lemma
+Pitt	drop	personal name
+Polier	merge:polieren	counted forms are the verb polieren
+par	drop	foreign fragment
+poker	merge:Poker	lower-case noun
+Mitreisende	keep	nominalised participle with own noun status
+TikTok	keep	widely used platform name, treated as an established loan
+Vogtland	drop	place name
+einrahmen	keep	real verb
+social	merge:sozial	English spelling of adapted word
+ätzen	keep	real verb
+Amazona	drop	garbled form of Amazonas, a place name
+Enthalte	merge:enthalten	capitalised conjugated verb form
+Erfassen	merge:erfassen	verb filed under capitalised lemma
+Roadster	keep	established loan
+typ	merge:Typ	lower-case noun
+Zügel	keep	noun, plural-like but a normal lemma
+Kärcher	keep	genericised brand noun ("die kleinen Kärcher")
+Ostseeküste	drop	geographic place name not on list
+Wendland	drop	place name
+bedrücken	keep	real verb
+einvernehmen	merge:Einvernehmen	lower-case noun
+Kirchner	drop	surname
+
+# question Roche: company name; the rules cover "famous institutions" and "other names" but not companies, so I dropped it
+# question TikTok: brand name; I treated it as an established loan and kept it, but the rules don't say how to handle brands
+# question Kärcher: brand name that is also used generically; I kept it, but the rules don't settle brand-turned-common-noun cases
+# question Ostseeküste: a compound common noun that functions as a regional name; I dropped it as a place name, but the rules don't say whether it counts
+# question bio: could be treated as an abbreviation of Biologie/biologisch and merged; I kept it as an indeclinable adjective

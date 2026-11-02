@@ -1,0 +1,44 @@
+duch	merge:durch	dropped letter, misspelling of durch
+nenn	merge:nennen	truncated stem of nennen
+stillgelegt	merge:stilllegen	participle without its own entry
+vll	merge:vielleicht	abbreviation of vielleicht
+überdeckt	merge:überdecken	conjugated or participle form filed as lemma
+Fon	drop	brand or fragment, not a learnable lemma
+Pie	keep	established food loan, with plural Pies
+anleitung	merge:Anleitung	noun filed under a lower-case lemma
+funzt	merge:funzen	conjugated colloquial verb form
+green	drop	English word
+Dräger	drop	company or surname
+Oblivion	drop	English work title
+abgestellt	merge:abstellen	participle filed as lemma
+aufgetreten	merge:auftreten	participle filed as lemma
+fenster	merge:Fenster	noun filed under a lower-case lemma
+gesteckt	merge:stecken	participle filed as lemma
+tür	merge:Tür	noun filed under a lower-case lemma
+ändernd	merge:ändern	present participle filed as lemma
+AStA	drop	specialist acronym
+Homer	drop	personal name
+IR	drop	abbreviation
+Waldorf	drop	name or brand
+einzigen	merge:einzig	inflected adjective filed as lemma
+Hinsehe	merge:hinsehen	cut-off form of hinsehen
+Systemische	merge:systemisch	adjective filed under a capitalised lemma
+android	drop	brand name, mostly the operating system
+scho	merge:schon	dropped letter, dialect spelling of schon
+Abschreckung	keep	correct noun, only a casing note from the screener
+Azur	keep	real German noun, sky blue
+Capri	drop	place name not on the list
+Ch	drop	abbreviation or code
+Innsbrucker	drop	demonym derived from a place name
+Spaßfaktor	keep	valid compound noun, with a spelling variant
+knnt	merge:können	broken encoding of können
+wat	drop	dialect form mixed with English water
+öfteren	merge:öfter	inflected form of öfter
+Entdecke	merge:entdecken	verb filed under a capitalised lemma
+Erwerbstätige	keep	nominalised adjective, a noun in its own right
+Uno	drop	brand or card game name
+fa	drop	fragment or abbreviation
+# question AStA: abbreviation of a specific institution type (student union), but not obviously a famous institution; dropped as a specialist acronym
+# question android: could be merged to Androide as an adapted loan, but the counted text is mostly the Android brand; dropped
+# question Pie: English loan with weak establishment in German; kept as an established food loan
+# question Fon: could be a variant of Phon (unit of loudness), but the counted forms look like brand or fragment use; dropped

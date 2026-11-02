@@ -1,0 +1,43 @@
+FT	drop	specialist abbreviation (feet)
+Fetz	merge:Fetzen	cut-off fragment of Fetzen; the counted text is mostly "fetzen"
+Hobbies	merge:Hobby	English plural of an adapted loan
+Offenbacher	drop	demonym derived from a place name
+TVöD	drop	specialist acronym
+apps	merge:App	English plural, lower-case
+essentiellen	merge:essentiell	inflected adjective
+meld	merge:melden	imperative fragment of melden
+Alexej	drop	given name
+Alicante	drop	place name not on the list
+Dehner	drop	company or surname
+Faso	drop	fragment of the place name Burkina Faso
+Pittsburgh	drop	place name not on the list
+Rosenheimer	drop	demonym derived from a place name
+destilliert	merge:destillieren	participle filed as lemma
+imMehr	drop	garbled text; the intended word is not obvious
+kindern	merge:Kind	inflected plural noun, lower-case
+lehne	merge:lehnen	conjugated verb form
+lichtdurchflutete	merge:lichtdurchflutet	inflected adjective
+Bullshit	keep	established loan
+fing	merge:fangen	conjugated verb form
+grausame	merge:grausam	inflected adjective
+möbel	merge:Möbel	lower-case noun
+nachgebessert	merge:nachbessern	participle filed as lemma
+übermässig	merge:übermäßig	Swiss spelling variant
+Anhebe	merge:anheben	verb filed as a capitalised noun
+Industrieller	merge:industriell	inflected adjective, capitalised
+Magnum	drop	brand name
+Remo	drop	given name
+aktion	merge:Aktion	lower-case noun
+angeguckt	merge:angucken	participle filed as lemma
+familiengeführte	merge:familiengeführt	inflected participle with no verb infinitive
+gelinkten	merge:linken	inflected participle
+gestorben	merge:sterben	participle filed as lemma
+Jenaer	drop	demonym derived from a place name
+Metastasen	merge:Metastase	plural filed as lemma
+Vikings	drop	English team or title name
+babe	drop	English word, not an established loan
+designieren	keep	infinitive is the dictionary form
+erreicht	merge:erreichen	inflected participle forms
+# question fing: the counted forms are mostly "finger" (319) and only 161 "fing"; I merged to fangen, but the lemma may be mixed with Finger.
+# question familiengeführte: no infinitive exists to merge to, so I chose the base adjective familiengeführt; it could instead be kept as an adjective with its own entry.
+# question Magnum: the examples are brand uses (ice cream, engine), so I dropped it, but Magnum is also a general word for a large bottle.

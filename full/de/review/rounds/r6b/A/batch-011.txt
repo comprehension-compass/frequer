@@ -1,0 +1,44 @@
+Fuji	drop	mountain and brand name, not on the place list
+Schwab	drop	surname
+Phantasien	merge:Phantasie	plural filed as lemma
+geschicht	merge:Geschichte	garbled form, mostly written as Geschichte
+gewiß	merge:gewiss	old spelling
+verlobt	merge:Verlobte	used as a noun (Verlobte/Verlobter), filed lower-case
+vors	keep	standard contraction, like ins and fürs
+Lik	merge:Like	fragment, mostly written as likes
+Per	drop	garbled, no real word
+Pico	drop	name or non-German word
+beworben	merge:bewerben	participle with no entry of its own
+option	merge:Option	lower-case noun
+unsern	merge:unser	colloquial inflected form
+versch	drop	fragment with no obvious target
+Heb	merge:heben	imperative or fragment, mostly written as heben
+Mila	drop	given name
+content	merge:Content	lower-case noun, loan
+zustzlich	merge:zusätzlich	broken encoding
+kreuz	merge:Kreuz	lower-case noun
+Mick	drop	given name
+exponieren	merge:exponiert	forms are the adjective exponiert
+gleichmässig	merge:gleichmäßig	Swiss spelling
+verregnen	merge:verregnet	forms are the adjective verregnet
+HABEN	merge:haben	upper-case form
+geschildert	merge:schildern	participle with no entry of its own
+Pandora	drop	name or brand
+läd	merge:laden	garbled verb form
+weils	drop	colloquial contraction of weil es, not a standard lemma
+Füttern	merge:füttern	capitalised verb form
+Woods	drop	English surname
+Charakteristisch	merge:charakteristisch	adjective filed under a capital letter
+Eiffelturm	keep	famous landmark and common noun
+Energetische	merge:energetisch	capitalised inflected adjective
+ind	drop	fragment
+optionen	merge:Option	plural filed as lemma
+sohn	merge:Sohn	lower-case noun
+unserm	merge:unser	colloquial inflected form
+ver	drop	prefix fragment
+Rhodo	drop	place name (Rhodos), not on the list
+ig	drop	suffix fragment
+# question vors: the rules do not say whether contractions such as vors are their own lemma or merge into the base word (vor); I kept it as a standard contraction.
+# question Eiffelturm: it is a landmark, so possibly a place name that should be dropped; I kept it as a common learnable noun with an article.
+# question verlobt: the forms are noun uses, but verlobt is also an adjective with its own entry; I merged to Verlobte because the evidence is nominal.
+# question content: the rules do not say whether it is an established loan (keep) or a lower-case noun filed wrongly; I merged to Content.

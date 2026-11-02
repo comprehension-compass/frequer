@@ -1,0 +1,46 @@
+Entrepreneurship	keep	established English loan used in German
+finger	merge:Finger	lower-case noun
+treff	merge:Treff	lower-case noun form
+Champagne	merge:Champagner	French spelling of the German drink word
+Pedelecs	merge:Pedelec	plural filed as lemma
+gerufen	merge:rufen	inflected participle, not its own adjective entry
+vorbeizuschauen	merge:vorbeischauen	zu-infinitive form
+wasserdichte	merge:wasserdicht	inflected adjective
+automaten	merge:Automat	lower-case plural noun
+Energiespar	merge:Energiesparen	cut-off fragment; examples are the nominalised form
+Hunsrück	drop	place name
+Kühlungsborn	drop	place name
+Malmö	drop	place name
+PARTNER	merge:Partner	upper-case form
+Slytherin	drop	fictional name
+eigendlich	merge:eigentlich	misspelling
+fps	drop	specialist abbreviation
+schule	merge:Schule	lower-case noun
+Neustädter	drop	demonym from a place name
+kl	drop	abbreviation or garbled
+Lahr	drop	place name
+Reissverschluss	merge:Reißverschluss	misspelling
+Riester	drop	name
+pack	merge:packen	imperative form
+persnlich	merge:persönlich	broken encoding
+rauh	merge:rau	old spelling
+zukunftsorientierte	merge:zukunftsorientiert	inflected adjective
+Radel	merge:radeln	verb form filed as a noun
+bauch	merge:Bauch	lower-case noun
+bey	merge:bei	archaic spelling
+bloggt	merge:bloggen	conjugated verb
+Freeride	keep	established loan and sport term
+Ronja	drop	character or person name
+Torrent	keep	established loan
+bedienend	merge:bedienen	participle without its own entry
+häßlich	merge:hässlich	old spelling
+mei	drop	dialect interjection or garbled form
+Marg	merge:Marge	plural form (Margen) filed as a fragment
+Neger	keep	real German word, offensive
+filme	merge:Film	lower-case plural form
+
+# question Riester: it is a surname, but it is also the common lexical item in "Riester-Rente"; I dropped it as a name.
+# question Radel: examples show the nominalised "das Radeln", which could instead be merge:Radeln; I chose the verb.
+# question Neger: it is a real dictionary word but offensive; the rules don't say whether such words belong in the learnable set, so I kept it.
+# question mei: forms like meien and meier suggest fragments of mein or the surname Meier, while mei is a Bavarian interjection; I dropped it.
+# question Champagne: it could also be treated as a region name (drop), but the examples use it as the drink.

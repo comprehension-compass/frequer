@@ -1,0 +1,44 @@
+krempeln	keep	valid verb lemma; the listed forms are all inflections of it
+Abstell	merge:abstellen	cut-off fragment of abstellen
+Arlberg	drop	place name not on the list
+Bonuscode	keep	ordinary compound noun
+Bronchie	keep	valid singular lemma
+Mum	drop	English word, not an established loan
+Scheuer	drop	surname
+Starnberger	drop	place-derived adjective, place name
+gestreamt	merge:streamen	participle filed as ADV
+infos	merge:Info	abbreviation/plural of Info, filed in lower case
+leder	merge:Leder	lower-case noun
+rechnung	merge:Rechnung	lower-case noun
+vermochte	merge:vermögen	conjugated form
+verwaisen	keep	valid verb lemma
+Amor	keep	common noun in German (the god of love)
+FU	drop	abbreviation not on the list
+Läuferinne	merge:Läuferin	cut-off plural
+Uckermark	drop	place name not on the list
+Untergruppe	keep	valid singular lemma
+YouTuber	keep	established loan
+beiseit	merge:beiseite	cut-off fragment
+selbstgebaut	keep	adjective with no verb lemma to merge into
+Bildrecht	keep	valid singular lemma
+Erstligist	keep	valid singular lemma
+Manu	drop	name
+Reto	drop	name
+Shaker	keep	established loan
+ahmen	drop	forms are the name Ahmet, not a verb
+hammer	merge:Hammer	lower-case noun
+Gemeinsamen	merge:gemeinsam	capitalised adjective
+Göttliche	merge:göttlich	capitalised adjective; the examples are attributive
+Steche	merge:stechen	broken fragment of stechen
+Th	drop	abbreviation
+herüber	keep	adverb, valid lemma
+nachverfolgen	keep	valid verb
+Elektrosmog	keep	established compound noun
+Muße	keep	valid noun
+Sibylle	drop	person name
+ft	drop	abbreviation
+strand	merge:Strand	lower-case noun; the forms mostly read as Strand
+
+# question selbstgebaut: no verb "selbstbauen" exists to merge into, so I kept the participle adjective; it could be argued either way.
+# question Amor: kept as a common noun, but it could count as a mythological name (drop).
+# question strand: could be a form of the verb stranden rather than the noun Strand; I chose Strand because the lower-case forms are mostly the noun.

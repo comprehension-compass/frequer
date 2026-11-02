@@ -1,0 +1,44 @@
+vater	merge:Vater	lower-case noun
+Bub	keep	regional but real noun
+Dips	merge:Dip	plural of an established loan
+Kopierer	keep	ordinary noun
+Oberhalb	merge:oberhalb	capitalised preposition
+Rotary	keep	famous institution
+cc	drop	abbreviation
+gebissen	merge:beißen	participle with no entry of its own
+wetter	merge:Wetter	lower-case noun
+Koi	keep	established loan
+Scherer	drop	surname
+zusammengetan	merge:zusammentun	participle
+Alster	drop	place name
+Fernost	drop	place name
+Ivo	drop	personal name
+Netzwerkes	merge:Netzwerk	inflected genitive
+Quer	merge:quer	capitalised adverb
+Revival	keep	established loan
+Südtirols	drop	place name
+sicht	merge:Sicht	lower-case noun
+stumpfen	merge:stumpf	inflected adjective
+Spielende	keep	noun in its own right (end of a game)
+Elbphilharmonie	keep	famous institution
+Kapitalerträge	merge:Kapitalertrag	plural
+Umschalte	merge:umschalten	capitalised verb
+Unity	drop	brand name
+edition	merge:Edition	lower-case noun
+Babie	merge:Baby	broken plural
+warscheinlich	merge:wahrscheinlich	misspelling
+wellen	merge:Welle	mostly noun forms
+Geiler	merge:geil	capitalised adjective
+Kelheim	drop	place name
+Lawrow	drop	personal name
+Oberpfälzer	drop	demonym tied to a place name
+Swatch	drop	brand name
+auswahl	merge:Auswahl	lower-case noun
+Aufwärme	merge:aufwärmen	capitalised verb
+Kovac	drop	surname
+Mien	merge:Miene	cut-off form
+augen	merge:Auge	lower-case noun
+# question Rotary: it is an organisation name, and it is unclear whether it is famous enough to count as a famous institution.
+# question wellen: the forms (welle, gewellt, wellen) mix the noun Welle, the adjective gewellt and a rare verb wellen, so the target is unclear.
+# question Oberpfälzer: it is a demonym adjective from a place name, and the place-name rule does not cover it.
+# question Spielende: it covers two nouns (end of a game, and players), so I kept it as a noun in its own right.

@@ -1,0 +1,45 @@
+user	merge:User	English loan filed lower-case, noun
+Artefakte	merge:Artefakt	plural filed as lemma
+Liquids	merge:Liquid	English plural of adapted noun
+Zeitlang	keep	valid noun in the fixed phrase "eine Zeitlang"
+gesendet	merge:senden	participle form, inflected
+Emsland	drop	place name not on list
+Echte	merge:echt	capitalised inflected adjective
+Algarve	drop	place name not on list
+Bethlehem	drop	place name not on list
+Pinot	drop	grape name, fragment of a proper name
+lud	merge:laden	conjugated form
+besprochen	merge:besprechen	participle form
+Geschöpfe	merge:Geschöpf	plural filed as lemma
+Gothaer	drop	company/place-derived name
+NetEnt	drop	company name
+Olympiastadion	keep	established common noun for a famous facility
+Paarim	merge:Paar	"Paar im" run together, broken text
+BK	drop	specialist abbreviation
+Denise	drop	personal name
+Genial	merge:genial	adjective filed under capital
+Robust	merge:robust	adjective filed under capital
+Vinci	drop	name
+orangen	merge:orange	inflected adjective form
+farmen	keep	established loan verb (gaming and agriculture)
+Mel	drop	name/unit, unclear
+Univers	merge:Universum	broken form of Universum
+gebracht	merge:bringen	participle form
+herausgenommen	merge:herausnehmen	participle form
+solls	merge:sollen	contraction of "soll es"
+sperma	merge:Sperma	noun filed lower-case
+ebook	merge:E-Book	English spelling of adapted word
+Konfiguriere	merge:konfigurieren	verb filed under capital
+Tierversuche	merge:Tierversuch	plural filed as lemma
+Zusammengefasst	merge:zusammenfassen	capitalised participle
+anno	keep	established Latin loan in German idioms
+verstellbaren	merge:verstellbar	inflected adjective form
+Okt	merge:Oktober	abbreviation of a listed word
+Par	drop	golf term, unclear
+ausbalanciert	merge:ausbalancieren	participle form
+Ruck	keep	genuine German noun
+# question Zeitlang: only occurs inside "eine Zeitlang"; kept as a noun, but could be seen as a fragment of a phrase
+# question Pinot: cut off from "Pinot Noir"; dropped as a name, though merging into a wine-term lemma might be intended
+# question Par: unclear whether this is the German golf noun Par (keep) or foreign/garbled; dropped
+# question anno: Latin word, kept because of fixed German use ("anno dazumal"); could count as a foreign word to drop
+# question Univers: forms are "universe/universen"; the English "Universe" may be a title, merged to Universum anyway

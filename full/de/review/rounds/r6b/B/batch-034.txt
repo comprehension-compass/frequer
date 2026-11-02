@@ -1,0 +1,45 @@
+Biege	merge:biegen	written as biegen, so the lemma is a stem artefact
+Kuschel	merge:kuscheln	cut-off fragment of kuscheln
+Pippi	drop	character name
+Sunmaker	drop	brand/company name
+bewertung	merge:Bewertung	lower-case noun
+moeglich	merge:möglich	transliterated spelling of möglich
+Reseller	keep	established business/IT loan in German
+meter	merge:Meter	lower-case noun
+Predator	drop	film/brand name
+Ruffy	drop	character name
+Warhammer	drop	product/brand name
+zurck	merge:zurück	broken encoding
+Komfortabel	merge:komfortabel	capitalised adjective
+Roosevelt	drop	person name
+Ultrabook	drop	product/brand term, not an established loan
+situation	merge:Situation	lower-case noun
+Boch	drop	surname
+Brook	drop	surname
+Kopfschüttel	merge:Kopfschütteln	cut-off fragment of the noun Kopfschütteln
+gestossen	merge:stoßen	participle in ss spelling
+wein	merge:Wein	lower-case noun
+Brauner	merge:braun	written as braune, an inflected adjective form
+Generali	drop	company name
+Gretel	drop	character name
+gemobbt	merge:mobben	participle of mobben
+lizenzfreie	merge:lizenzfrei	inflected adjective
+Ausgehe	merge:ausgehen	form of ausgehen
+Eurosport	drop	TV channel/brand name
+Kratze	merge:kratzen	written as kratzen, so the lemma is a stem artefact
+Patrik	drop	first name
+city	drop	English word, not an established loan
+eingeräumt	merge:einräumen	inflected participle
+serie	merge:Serie	lower-case noun
+tglich	merge:täglich	broken encoding
+unvorbereitet	keep	adjective with its own dictionary entry
+zumute	keep	adverb in the fixed phrase zumute sein, listed in dictionaries
+Geheime	merge:geheim	written as geheimen, an inflected adjective
+Gruppensex	keep	ordinary noun, not junk
+Johanniter	keep	established order/organisation, also a common noun for its members
+Kinderkrankheit	keep	valid noun; singular and plural both occur
+
+# question Reseller: is it an established loan or a business-jargon English word? Decided keep.
+# question Ultrabook: generic product term or brand name? Decided drop.
+# question Johanniter: famous institution (keep) or organisation name (drop)? Decided keep.
+# question city: is it a loan or just English text? Decided drop.

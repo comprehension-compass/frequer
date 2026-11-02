@@ -1,0 +1,45 @@
+edgar	drop	personal name
+whit	drop	English word "white", not an adapted loan
+gefunden	merge:finden	participle form filed as lemma
+Häsch	merge:Häschen	cut-off fragment of Häschen
+Vorraussetzung	merge:Voraussetzung	misspelling
+dot	drop	English word
+mark	merge:Marke	garbled form, mostly marke/marker
+maus	merge:Maus	lower-case noun
+muessen	merge:müssen	transliterated spelling
+Archiviert	merge:archivieren	capitalised participle
+Balear	drop	place name not on the reviewed list
+Forbes	keep	famous magazine, treated as an institution
+Gladbacher	drop	derived from a place name
+Maastricht	drop	place name
+ausgetragen	merge:austragen	participle form filed as lemma
+freigegeben	merge:freigeben	participle form filed as lemma
+lif	drop	English "life" fragment
+versierte	merge:versiert	inflected adjective
+zusteigen	keep	valid verb lemma
+überraschenderweise	keep	valid adverb, only the POS tag is wrong
+Herstell	merge:herstellen	cut-off fragment
+Waldviertel	drop	place name
+Wirecard	drop	company name
+seperat	merge:separat	misspelling
+Erasmus	keep	well-known EU programme, treated as an institution
+Farbiger	merge:farbig	capitalised inflected adjective
+KP	drop	abbreviation
+Louvre	keep	famous museum
+Zentralasien	drop	place name
+behandlung	merge:Behandlung	lower-case noun
+wechsel	merge:wechseln	verb form filed as lemma
+Märklin	drop	brand name
+Rohde	drop	surname
+dutzende	merge:Dutzend	inflected form
+handel	merge:Handel	lower-case noun
+nutz	merge:nutzen	truncated verb form
+wohlgefühlt	merge:sich wohlfühlen	participle form filed as lemma
+zahl	merge:Zahl	lower-case noun
+zeug	merge:Zeug	lower-case noun
+ö	merge:öde	cut-off fragment of öde
+# question mark: forms could be Marke (brand) or Mark (currency, marrow); I chose Marke because marke/marker dominate.
+# question wechsel: could be the noun Wechsel or the verb wechseln; I followed the VERB tag and the form wechselden.
+# question zusteigen: most forms (zustieg, zustiege) belong to the noun Zustieg, but the lemma itself is a valid verb, so I kept it.
+# question Forbes: a magazine/company, not clearly a "famous institution"; I kept it as widely known.
+# question Erasmus: the programme name is kept as an institution, but the surname use (Ed Erasmus) is also present.

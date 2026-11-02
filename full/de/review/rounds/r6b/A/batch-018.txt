@@ -1,0 +1,43 @@
+Yuan	keep	established currency loan
+vergleichend	keep	lemma already base form; adjective with own entry
+GewO	drop	specialist abbreviation
+Inclusive	drop	English word, only in "All Inclusive"
+beug	merge:beugen	stem form of verb
+eco	drop	foreign/brand fragment
+geschmolzen	keep	adjective with own entry, base form
+Fragenkatalog	keep	valid compound noun
+gerne	keep	own dictionary adverb
+machts	merge:machen	contracted verb form
+stil	merge:Stil	lower-case noun
+Baltikum	drop	place name not on list
+Buffett	drop	person name
+Fairtrade	drop	label/brand name
+Göbel	drop	surname
+Untote	keep	nominalised adjective, noun in own right
+Wok	keep	established loan
+id	drop	code, not a word
+telefon	merge:Telefon	lower-case noun
+Pfarre	keep	valid (Austrian) noun
+Random	drop	English word
+Wolter	drop	surname
+erster	merge:erstere	inflected form; all forms are erstere(r)
+geparkt	merge:parken	participle without own entry
+stoned	drop	English slang
+versicherung	merge:Versicherung	lower-case noun
+vertrieben	merge:vertreiben	participle form
+zerbrochen	merge:zerbrechen	participle form
+Herrschende	keep	nominalised adjective
+Fortnite	drop	brand name
+Hegel	drop	person name
+Traurig	merge:traurig	capitalised adjective
+reinigend	merge:reinigen	participle without own entry
+Delle	keep	valid singular lemma (counted as dellen)
+Indie	keep	established loan
+Zurücksetze	merge:zurücksetzen	capitalised verb
+innenliegend	keep	adjective, base form
+Arbeitgeberin	keep	own feminine entry
+Behinderte	keep	nominalised adjective
+Gastro	merge:Gastronomie	abbreviation of listed word
+# question erster: lemma is really the "der erstere" pronoun-like adjective; merged to erstere, but could be keep as its own entry
+# question Buffett: examples mix the surname with the misspelling of Buffet; dropped as a name
+# question Inclusive: "All Inclusive" is a common German loan phrase, but the single word is not a lemma; dropped

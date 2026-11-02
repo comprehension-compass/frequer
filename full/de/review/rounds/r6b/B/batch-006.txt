@@ -1,0 +1,48 @@
+wirkung	merge:Wirkung	lower-case noun filed as ADJ
+Powerbank	keep	established loan noun
+Roadtrip	keep	established loan noun
+Sat	drop	abbreviation / TV channel
+Violett	keep	colour name is a noun in its own right (das Violett)
+wa	drop	dialect fragment
+Wimmer	drop	surname
+Zocker	keep	colloquial but real noun
+Böhme	drop	surname / demonym from a place name
+ick	drop	Berlin dialect form, not a lemma
+Übernacht	merge:übernachten	cut-off form of the verb
+Umgangsformen	keep	plural-only noun
+hund	merge:Hund	lower-case noun
+Francesco	drop	personal name
+Rolex	drop	brand name, not a famous institution
+stylen	keep	established loan verb
+unverhofft	keep	real adjective, only the tag is wrong
+Angenehm	merge:angenehm	adjective under a capital
+Beule	keep	correct singular lemma
+Bzw	merge:beziehungsweise	abbreviation of a listed word
+bisserl	keep	Austrian/Bavarian but a real word
+date	drop	English word, not an adapted loan
+Odin	drop	mythological name
+Ostschweiz	drop	place name
+Pag	drop	English "pages" / island name
+arzt	merge:Arzt	lower-case noun
+bitcoin	merge:Bitcoin	lower-case noun
+liste	merge:Liste	lower-case noun
+programm	merge:Programm	lower-case noun
+Baht	drop	foreign currency name
+Rheintal	drop	place name
+amy	drop	personal name
+schlappen	merge:Schlappe	inflected form, mostly noun Schlappe
+Dschungelcamp	keep	common noun in dictionaries despite TV origin
+Hilde	drop	personal name
+KollegIn	merge:Kollegin	gendered spelling of Kollegin
+Oberhaus	drop	mostly confused with place name Oberhausen
+Schulferien	keep	plural-only noun
+beauftragt	merge:Beauftragte	forms are the adjectival noun Beauftragter
+usb	drop	specialist acronym
+
+# question ick: dialect form of ich; the rules don't cover dialect pronouns, dropped rather than merged into ich.
+# question Rolex: brand name, not clearly a famous institution; dropped as other name.
+# question Dschungelcamp: TV show name vs. generic noun; kept as a common noun.
+# question Oberhaus: a real noun (upper house), but most counts are the place Oberhausen; dropped.
+# question beauftragt: could be kept as adjective or merged into the noun Beauftragte; chose the noun from the examples.
+# question bisserl: dialect word, not a broken lemma; kept rather than merged into bisschen.
+# question date: no examples; assumed English text, dropped rather than merged into daten.

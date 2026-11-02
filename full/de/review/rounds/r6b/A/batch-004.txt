@@ -1,0 +1,44 @@
+Pete	drop	person name
+Citysam	drop	brand name
+Ostersonntag	keep	established holiday noun
+Rundum	merge:rundum	adverb filed under a capitalised lemma
+schn	merge:schön	broken encoding
+Husum	drop	place name not on the list
+irgendw	merge:irgendwer	cut-off fragment
+zutage	keep	real adverb, used in zutage treten/fördern
+Bademäntel	merge:Bademantel	plural filed as lemma
+Breslau	drop	place name not on the list
+Galileo	drop	name
+gedanken	merge:Gedanke	lower-case noun, plural form
+gehörend	merge:gehören	present participle with no entry of its own
+Gmail	drop	brand name
+Pur	merge:pur	adjective filed under a capitalised lemma
+Velbert	drop	place name not on the list
+drück	merge:drücken	imperative or cut-off verb form
+gutschein	merge:Gutschein	lower-case noun
+lsst	merge:lassen	broken encoding of lässt
+mMn	drop	abbreviation of a phrase, not of a single listed word
+SATA	drop	technical acronym
+adaptiert	merge:adaptieren	participle filed as lemma
+funktion	merge:Funktion	lower-case noun
+pussy	drop	English word, not an adapted loan
+öffnend	merge:öffnen	present participle with no entry of its own
+Marburger	drop	place-derived name adjective
+Fünfter	merge:fünfte	ordinal adjective filed under a capitalised lemma
+regierend	keep	adjective with its own dictionary entry
+umgangen	merge:umgehen	participle filed as lemma
+umschlossen	merge:umschließen	participle filed as lemma
+Parship	drop	brand name
+exclusiv	merge:exklusiv	misspelling
+schul	merge:Schule	cut-off fragment
+Lünen	drop	place name not on the list
+erwartend	merge:erwarten	present participle with no entry of its own
+bj	drop	abbreviation or code
+stielen	merge:Stiel	plural or inflected form filed as lemma
+NW	drop	abbreviation
+Kretschmer	drop	surname
+Polar	merge:polar	adjective filed under a capitalised lemma
+# question schul: forms are mixed (schule, schulden, schul, schuler), so Schule vs Schuld is unclear; chose Schule as the most frequent
+# question Fünfter: the base form of an ordinal (fünfte vs fünft) is unclear; chose fünfte as the attested form
+# question regierend: this participle may count as an adjective with its own entry (kept), but the rules do not settle it
+# question gedanken: Gedanken could be treated as a plural-only noun with its own meaning; chose merge:Gedanke

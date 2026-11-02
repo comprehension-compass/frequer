@@ -1,0 +1,46 @@
+regel	merge:Regel	lower-case noun
+verwunschen	keep	adjective with its own dictionary entry
+Breit	merge:breit	adjective filed under a capital
+Glenn	drop	personal name
+Lernprozeß	merge:Lernprozess	old spelling
+Talkshow	keep	established loan
+Traditionelle	merge:traditionell	inflected adjective form
+angeregt	keep	participle adjective with its own entry
+gegn	merge:Gegner	cut-off fragment
+gekonnt	keep	participle adjective with its own entry
+hosten	keep	established loan verb
+kalibriert	merge:kalibrieren	participle filed as lemma
+samsung	drop	brand name
+zunchst	merge:zunächst	broken encoding
+Gryffindor	drop	fictional name
+Langenhagen	drop	place name not on list
+Nahost	drop	place name not on list
+Nordwest	keep	ordinary noun
+Selbständige	keep	noun in its own right (person)
+Symantec	drop	company name
+Valerie	drop	personal name
+ds	drop	abbreviation/garbled
+getarnt	merge:tarnen	participle filed as lemma
+punkt	merge:Punkt	lower-case noun
+Apothekerin	keep	own feminine entry
+Bedürftige	keep	noun in its own right (person)
+Kommende	merge:kommend	inflected participle/adjective form
+Rennsteig	drop	place name
+Scheiss	merge:Scheiß	misspelling
+Schladming	drop	place name
+Schwechat	drop	place name
+Tr	drop	unidentifiable fragment
+gebastelt	merge:basteln	participle filed as lemma
+gemahl	merge:mahlen	cut-off participle
+ren	drop	unidentifiable fragment
+Achtziger	keep	noun with its own meaning (the eighties)
+Blond	merge:blond	adjective filed under a capital
+Döbel	drop	forms are mostly the place name Döbeln
+Kitzing	drop	cut-off place name, not on list
+Offroad	keep	established loan
+
+# question Tr: forms tr/tren have no clear source word (could be Träne, Träger, etc.), so no merge target is obvious; dropped
+# question ren: forms ren/rene/rend/rende look like a fragment of many verbs, so no merge target is obvious; dropped
+# question Döbel: the fish noun is a valid word, but the examples and the majority of forms point to the place name Döbeln; dropped
+# question Kommende: no examples, so unclear whether it is the nominalised noun (die Kommenden) or the adjective kommend; merged to kommend
+# question getarnt: a participle adjective that may have its own entry; merged to tarnen as the lemma isn't clearly lexicalised

@@ -1,0 +1,47 @@
+herausnehmbaren	merge:herausnehmbar	inflected adjective form
+Hector	drop	personal name
+Problematisch	merge:problematisch	adjective under a capitalised lemma
+Rüsch	merge:Rüsche	cut-off fragment of Rüsche
+WoltLab	drop	company/product name
+Yandex	drop	company name
+einlässt	merge:einlassen	conjugated verb form
+lag	merge:Lager	garbled lemma; most forms are lager
+vlt	merge:vielleicht	chat abbreviation of vielleicht
+Dinslaken	drop	place name not on the list
+GMT	drop	specialist acronym
+Vielseitig	merge:vielseitig	adjective under a capitalised lemma
+ausm	merge:aus	colloquial contraction of aus dem
+bekanntschaften	merge:Bekanntschaft	plural noun filed in lower case
+nocheinmal	merge:noch einmal	misspelling, should be two words
+rde	merge:würde	broken encoding
+reihe	merge:Reihe	noun filed in lower case
+wre	merge:wäre	broken encoding
+Evernote	drop	product name
+Herold	keep	common noun (herald); the name use is incidental
+Kepler	drop	personal name
+Lex	drop	Latin word or name
+Moabit	drop	place name not on the list
+Uster	drop	place name not on the list
+Vechta	drop	place name not on the list
+apach	merge:Apache	cut-off form of Apache
+wi	drop	garbled fragment mixing wi, Wien and wier
+Amri	drop	personal name
+Chemtrails	merge:Chemtrail	noun filed under its plural
+Lateinische	keep	substantivised adjective, like das Gute
+Stecher	keep	common noun, not just a name
+darüberhinaus	merge:darüber hinaus	misspelling, should be two words
+dreien	merge:drei	inflected numeral form
+muster	merge:Muster	noun filed in lower case
+nö	keep	interjection, a legitimate word
+Dat	drop	dialect or garbled fragment, no clear target
+Gabor	drop	personal or brand name
+Müde	merge:müde	adjective under a capitalised lemma
+PAYBACK	drop	brand name
+viereinhalb	keep	genuine number word
+# question lag: the forms are mixed (Lager 354, Lage 142), so I chose the majority form Lager; Lage could also be argued.
+# question nocheinmal: the target "noch einmal" is two words and may not be a valid single lemma; drop could be the alternative.
+# question darüberhinaus: same issue, the target "darüber hinaus" is two words.
+# question ausm: the rules don't say whether a colloquial contraction should be merged into the preposition or dropped; I merged it into aus.
+# question Lateinische: the lemma is an inflected substantivised adjective (das Lateinische); I kept it, but merging into Latein or lateinisch is possible.
+# question PAYBACK: it is a famous German brand, and the rules cover institutions but not brands; I dropped it.
+# question wi: the forms are mixed (wi, Wien, wier), so there is no single target; I dropped it.

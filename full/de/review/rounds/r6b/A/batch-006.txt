@@ -1,0 +1,44 @@
+wirkung	merge:Wirkung	lower-case noun filed as ADJ
+Powerbank	keep	established loan compound
+Roadtrip	keep	established loan
+Sat	drop	TV channel abbreviation
+Violett	keep	colour noun (das Violett)
+wa	drop	dialect fragment
+Wimmer	drop	surname
+Zocker	keep	colloquial but real noun
+Böhme	drop	surname, mostly a name here
+ick	drop	Berlin dialect form, not a lemma
+Übernacht	merge:übernachten	cut-off form of the verb
+Umgangsformen	keep	plural-only noun
+hund	merge:Hund	lower-case noun
+Francesco	drop	personal name
+Rolex	drop	brand name
+stylen	keep	established loan verb
+unverhofft	keep	adjective with its own entry
+Angenehm	merge:angenehm	capitalised adjective
+Beule	keep	valid singular noun
+Bzw	merge:beziehungsweise	abbreviation of listed word
+bisserl	keep	Austrian/Bavarian but listed in dictionaries
+date	drop	English word, not German
+Odin	drop	mythological name
+Ostschweiz	drop	place name
+Pag	drop	English "pages" or island name
+arzt	merge:Arzt	lower-case noun
+bitcoin	merge:Bitcoin	lower-case noun
+liste	merge:Liste	lower-case noun
+programm	merge:Programm	lower-case noun
+Baht	keep	currency noun, like Euro or Dollar
+Rheintal	drop	place name not on list
+amy	drop	personal name
+schlappen	merge:Schlappe	inflected form filed as lemma
+Dschungelcamp	keep	common compound noun, well known
+Hilde	drop	personal name
+KollegIn	merge:Kollegin	gendered/plural form of the Kollegin entry
+Oberhaus	drop	lemmatiser confusion with the place name Oberhausen
+Schulferien	keep	plural-only noun
+beauftragt	merge:Beauftragter	inflected adjectival noun
+usb	drop	specialist acronym
+# question Violett: colour noun (keep) or adjective violett (merge)? Counted text mostly lower-case, so the noun reading is uncertain.
+# question ick: dialect form of ich; the rules do not say whether to merge or drop. I chose drop.
+# question Baht: foreign currency name; unclear whether it counts as an established loan. I chose keep.
+# question Dschungelcamp: TV show name or common noun? I chose keep.

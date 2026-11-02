@@ -1,0 +1,45 @@
+Touring	drop	brand/company name (Carrozzeria Touring, Deutsche Touring), not a learnable word
+vorteil	merge:Vorteil	lower-case noun
+zukunft	merge:Zukunft	lower-case noun
+Anlageklasse	keep	valid compound noun
+Haha	keep	common German interjection
+Leibniz	drop	person name
+andrücken	keep	valid verb
+il	drop	non-German fragment
+werte	merge:werten	conjugated form filed as a lemma
+vonnöten	keep	real predicative adverb with its own entry
+Altertum	keep	valid noun
+Cach	merge:Cache	cut-off form of Cache
+Tau	keep	valid noun with its own entry (rope, dew)
+fisch	merge:Fisch	lower-case noun
+name	merge:Name	lower-case noun
+trendy	keep	established loan
+unsr	merge:unser	contracted form of unser
+ü	drop	garbled fragment
+Corps	drop	French word, not an established loan
+Eucharistie	keep	valid noun
+Gamescom	drop	trade fair name
+Mesmer	drop	person name
+Schreibe	merge:Schreiben	written as schreiben, nominalised infinitive or noun Schreiben
+Zwanziger	keep	noun with its own meaning (person in their twenties, banknote)
+Apr	merge:April	abbreviation of a listed word
+Kalt	merge:kalt	capitalised adjective
+Schwanger	merge:schwanger	capitalised adjective
+Starbuck	drop	brand or name
+Zuviel	keep	nominalised noun (ein Zuviel)
+webcam	merge:Webcam	lower-case noun
+Charakteristika	merge:Charakteristikum	plural filed as lemma
+Erneuerbare	merge:erneuerbar	inflected adjective form
+Lippstadt	drop	place name not on the list
+Marriott	drop	brand name
+Möse	keep	valid German noun, no rule excludes it
+Verl	drop	place name or cut-off fragment
+guck	merge:gucken	imperative form
+fake	keep	established loan, usable as an adjective
+freizuschalten	merge:freischalten	zu-infinitive form
+spachteln	keep	valid verb lemma, though the tag and many forms point to the noun Spachtel
+# question Haha: interjections are not covered by the rules; kept as a common word
+# question werte: could be the plural noun Werte (filed as VERB, so merged to werten)
+# question Schreibe: lemma could be the noun Schreibe (writing style); written forms are only schreiben, so merged to the noun Schreiben
+# question Zwanziger: mostly a surname or decade/banknote noun; kept as an independent noun
+# question spachteln: counts mix noun (Spachtel, 404) and verb forms; kept as the verb, and the noun Spachtel may need a separate entry

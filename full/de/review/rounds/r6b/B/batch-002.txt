@@ -1,0 +1,45 @@
+user	merge:User	lower-case noun, established loan
+Artefakte	merge:Artefakt	plural filed as lemma
+Liquids	merge:Liquid	English plural of an adopted noun
+Zeitlang	keep	fixed adverbial noun in "eine Zeitlang", not clearly broken
+gesendet	merge:senden	participle without its own entry
+Emsland	drop	place name not on list
+Echte	merge:echt	capitalised inflected adjective
+Algarve	drop	place name not on list
+Bethlehem	drop	place name not on list
+Pinot	drop	cut-off wine name, foreign
+lud	merge:laden	conjugated verb form
+besprochen	merge:besprechen	participle, not a real adjective
+Geschöpfe	merge:Geschöpf	plural filed as lemma
+Gothaer	drop	company or place-derived name
+NetEnt	drop	company name
+Olympiastadion	keep	famous facility and common noun
+Paarim	merge:Paar	garbled "Paar im"
+BK	drop	specialist abbreviation
+Denise	drop	personal name
+Genial	merge:genial	capitalised adjective
+Robust	merge:robust	capitalised adjective
+Vinci	drop	name
+orangen	merge:orange	inflected adjective form
+farmen	keep	established gaming verb
+Mel	drop	name or unit, unclear
+Univers	merge:Universum	English or cut-off spelling of an adapted word
+gebracht	merge:bringen	participle, not a real adjective
+herausgenommen	merge:herausnehmen	participle filed as verb
+solls	merge:sollen	contraction of "soll es"
+sperma	merge:Sperma	lower-case noun
+ebook	merge:E-Book	English spelling of an adapted word
+Konfiguriere	merge:konfigurieren	verb form filed under a capitalised lemma
+Tierversuche	merge:Tierversuch	plural filed as lemma
+Zusammengefasst	merge:zusammenfassen	capitalised participle
+anno	drop	Latin word
+verstellbaren	merge:verstellbar	inflected adjective
+Okt	merge:Oktober	abbreviation of a listed word
+Par	drop	foreign golf term
+ausbalanciert	merge:ausbalancieren	participle filed as verb
+Ruck	keep	real noun (der Ruck); lower-case variants are inflections
+# question Zeitlang: only occurs in "eine Zeitlang", which could be treated as a fragment of "eine Zeit lang"; kept as an adverbial noun.
+# question Pinot: cut off from "Pinot Noir", but no multiword lemma exists to merge into; dropped as a foreign wine name.
+# question lud: could be laden or einladen (many contexts are "lud ... ein"); merged into laden.
+# question Liquids: the vape sense of "Liquid" may not be a listed lemma; merged assuming it is.
+# question Univers: forms are mostly the English "Universe", so merging into Universum is a guess.

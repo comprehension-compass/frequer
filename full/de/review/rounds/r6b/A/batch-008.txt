@@ -1,0 +1,44 @@
+ham	drop	dialect contraction (haben/ihm/habt ihr), not clearly one word
+lösung	merge:Lösung	lower-case noun
+unvergessen	keep	adjective with its own dictionary entry
+Gurk	merge:Gurke	truncated lemma, mostly written gurke
+Zwischenablage	keep	ordinary noun
+getönt	keep	adjective with its own dictionary entry
+zuknallen	keep	valid verb lemma, only the POS tag is wrong
+Olivier	drop	personal name
+beschädigt	keep	adjective with its own dictionary entry
+geölt	keep	adjective with its own dictionary entry
+versaut	keep	colloquial adjective with its own dictionary entry
+PDA	drop	specialist acronym
+erschöpfen	keep	valid verb lemma, only the POS tag is wrong
+kontakte	merge:Kontakt	lower-case plural noun
+Jauch	drop	personal name
+Spätzle	keep	standard food word
+Warr	drop	fragment of the name Warren
+cam	drop	English word or abbreviation, not an established loan
+gedreht	merge:drehen	plain participle, not an adjective in its own right
+Entladen	merge:entladen	verb filed under a capitalised lemma
+Ire	keep	valid nationality noun
+Kristin	drop	personal name
+Salzkammergut	drop	place name not on the list
+franz	drop	lower-case name
+Klitoris	keep	ordinary anatomical noun
+befristet	keep	adjective with its own dictionary entry
+kryptowährungen	merge:Kryptowährung	lower-case plural noun
+schiessen	merge:schießen	ss spelling variant of ß
+Sexvideo	keep	ordinary compound noun
+neuste	merge:neu	inflected superlative (neueste)
+sond	merge:sonder	cut-off fragment, mostly written sonder
+tablette	merge:Tablette	lower-case noun
+umschließt	merge:umschließen	conjugated verb form
+Lahn	drop	place name (river) not on the list
+Olympus	drop	brand and proper name
+Riß	merge:Riss	old spelling
+bestickt	keep	adjective with its own dictionary entry
+bissel	merge:bisschen	dialect variant of bisschen
+glas	merge:Glas	lower-case noun
+hinzugekommen	merge:hinzukommen	participle filed as lemma
+# question ham: could be read as dialect haben/ihm (merge:haben) but the forms hamer/hams are too ambiguous, so dropped
+# question sond: sonder is itself a marginal word, so the target lemma may not exist on the list
+# question Olympus: brand name, not a famous institution, so treated as an other name; a loan-word reading would keep it
+# question cam: could be read as an abbreviation of Kamera/Webcam, but the text shows English use

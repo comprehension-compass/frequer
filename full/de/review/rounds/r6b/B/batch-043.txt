@@ -1,0 +1,45 @@
+FT	drop	abbreviation, not a listed word
+Fetz	merge:Fetzen	cut-off fragment of Fetzen (mostly written "fetzen")
+Hobbies	merge:Hobby	English plural of an adapted word
+Offenbacher	drop	demonym from a place name not on the list
+TVöD	drop	specialist acronym
+apps	merge:App	lower-case English plural of App
+essentiellen	merge:essentiell	inflected adjective
+meld	merge:melden	cut-off fragment
+Alexej	drop	given name
+Alicante	drop	place name not on the list
+Dehner	drop	company or family name
+Faso	drop	fragment of the place name Burkina Faso
+Pittsburgh	drop	place name not on the list
+Rosenheimer	drop	demonym from a place name not on the list
+destilliert	merge:destillieren	participle filed as lemma
+imMehr	drop	garbled text, real word not obvious
+kindern	merge:Kind	inflected plural of a lower-case noun
+lehne	merge:lehnen	conjugated verb form
+lichtdurchflutete	merge:lichtdurchflutet	inflected adjective
+Bullshit	keep	established loan
+fing	merge:Finger	mostly written "finger", so this is a cut-off form of the noun
+grausame	merge:grausam	inflected adjective
+möbel	merge:Möbel	lower-case noun
+nachgebessert	merge:nachbessern	participle filed as lemma
+übermässig	merge:übermäßig	Swiss spelling variant
+Anhebe	merge:anheben	verb filed under a capitalised lemma, written "anheben"
+Industrieller	merge:industriell	inflected adjective filed capitalised
+Magnum	keep	established loan (bottle size, firearm, ice cream), not only a brand
+Remo	drop	given name
+aktion	merge:Aktion	lower-case noun
+angeguckt	merge:angucken	participle filed as lemma
+familiengeführte	merge:familiengeführt	inflected adjective
+gelinkten	merge:linken	participle filed as lemma
+gestorben	merge:sterben	participle filed as lemma
+Jenaer	drop	demonym from a place name not on the list
+Metastasen	merge:Metastase	plural filed as lemma
+Vikings	drop	English name, not German
+babe	drop	English word
+designieren	keep	valid verb infinitive, correct dictionary form
+erreicht	merge:erreichen	inflected participle forms filed as lemma
+# question fing: the written forms are mostly "finger" (319) against "fing" (161), the past tense of fangen. I merged to Finger, but the lemma could also point to fangen.
+# question destilliert: it may count as an adjective with its own dictionary entry, which would be a keep. I merged to the verb destillieren.
+# question designieren: usage is almost entirely the adjective designiert, which is also a dictionary entry. I kept the verb lemma, but merge:designiert is arguable.
+# question imMehr: it could be "immer mehr" or "im Mehr", so no merge target is obvious. I dropped it.
+# question Magnum: the examples are mostly brand uses (engine, ice cream), but the word is also an established loan. I kept it.

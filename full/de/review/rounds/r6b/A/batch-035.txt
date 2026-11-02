@@ -1,0 +1,45 @@
+Mende	drop	surname/place name
+Propolis	keep	real noun, rare but learnable
+Stimmberechtigte	keep	nominalised adjective that works as a noun (der Stimmberechtigte)
+Außerhalb	merge:außerhalb	preposition/adverb filed under a capital
+Kung	merge:Kung-Fu	cut-off fragment of Kung-Fu
+NAMEN	merge:Name	upper-case plural of Name
+management	merge:Management	English spelling of an adapted noun, filed in lower case
+unaufgeregt	keep	proper adjective, only the POS tag is wrong
+Übersetze	merge:übersetzen	verb filed under a broken capitalised lemma
+Appenzeller	keep	cheese/demonym is a common noun, though many examples are surnames
+Chalets	merge:Chalet	plural filed as lemma
+Patron	keep	ordinary noun
+Qatar	drop	place name
+Schwing	merge:schwingen	verb stem filed as a capitalised noun
+Tarot	keep	established loan
+crem	merge:Creme	truncated form of Creme
+erfassten	merge:erfassen	conjugated form filed as lemma
+hardcore	keep	established loan in use
+Ä	drop	single letter
+Castor	keep	common noun for a nuclear transport container
+Faro	drop	place name
+Jogge	merge:joggen	verb form filed as a capitalised noun
+Sing	merge:singen	verb form filed as a capitalised noun
+Tun	keep	nominalised infinitive that works as a noun (das Tun), like Essen
+Zittau	drop	place name
+halbstündig	keep	valid adjective; the "halb-" fragment is a minor part of the counts
+wasser	merge:Wasser	noun filed in lower case
+Blattläuse	merge:Blattlaus	plural filed as lemma
+Donbass	drop	place name
+Ernste	merge:ernst	inflected adjective filed under a capital
+Hautoberfläche	keep	valid compound noun
+Hieb	keep	valid noun, with Hiebe as its plural
+Jeanne	drop	personal name
+MByte	drop	specialist unit abbreviation
+Poppe	merge:poppen	verb form filed as a capitalised noun
+Whiteboard	keep	established loan
+stech	merge:stechen	truncated verb stem
+Auslösen	merge:auslösen	verb infinitive filed under a capital
+Fremdgehe	merge:fremdgehen	verb form filed as a capitalised noun
+Reddit	drop	website/brand name
+
+# question Kung: the fragment of Kung-Fu, but I'm not sure Kung-Fu is on the list as a lemma; if it isn't, drop instead
+# question Appenzeller: the examples are mostly surnames, but the demonym/cheese reading is a common noun, so I kept it
+# question Ernste: the examples mix the noun Ernst (allen Ernstes) with the nominalised adjective (nichts Ernstes); I merged to the adjective
+# question Tun: I treated this as a nominalised noun like Essen and kept it, but the forms (tuns, tunes, tunen) are odd

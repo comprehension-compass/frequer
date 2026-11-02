@@ -1,0 +1,43 @@
+Bundesgesetzblatt	keep	established publication name
+Kitzbüheler	drop	derived from a place name, not on the reviewed list
+Ostwestfalen	drop	region name, not on the reviewed list
+Pedelec	keep	established German term
+Ueli	drop	personal name
+lautsprecher	merge:Lautsprecher	noun filed in lower case
+lobenswert	keep	valid adjective, only the POS tag is wrong
+wasserfällen	merge:Wasserfall	plural filed as lemma
+watt	merge:Watt	lower-case noun, the unit or mudflat
+Handheld	keep	established loan
+Kompresse	keep	valid noun
+Premierministerin	keep	own feminine entry
+büro	merge:Büro	noun filed in lower case
+lied	merge:Lied	noun filed in lower case
+loch	merge:Loch	noun filed in lower case
+reCAPTCHA	drop	product name
+studierend	merge:Studierende	nominalised participle filed in lower case
+vormontiert	merge:vormontieren	participle with no adjective entry of its own
+Busreisen	merge:Busreise	plural filed as lemma
+Handjob	drop	vulgar English word, spam-type
+Meiningen	drop	place name
+Pornhub	drop	website name
+Rendezvous	keep	established French loan
+Royals	drop	English plural, not an established loan
+Spex	drop	magazine and company name
+Verbring	merge:verbringen	cut-off fragment
+Vertikal	merge:vertikal	adjective filed in capitals
+Walser	drop	surname or ethnonym
+gelscht	merge:löschen	broken encoding of gelöscht, a participle
+immense	merge:immens	inflected form
+position	merge:Position	noun filed in lower case
+reaktiviert	merge:reaktivieren	participle
+schmusen	keep	valid verb, only the POS tag is wrong
+zweigeteilt	keep	adjective in its own right
+Überlebenschance	keep	valid noun
+Harold	drop	personal name
+Nordhessen	drop	region name, not on the reviewed list
+Typus	keep	own dictionary entry, distinct from Typ
+Veränder	merge:verändern	cut-off fragment
+hehe	drop	interjection, not learnable vocabulary
+# question watt: written forms include watte (cotton wool), which is a different noun; I merged to Watt based on the dominant form.
+# question zweigeteilt: unsure whether the participle has its own adjective entry; I kept it, but merge:zweiteilen is the alternative.
+# question studierend: I chose merge:Studierende (nominalised noun) over merge:studieren, given the examples.

@@ -1,0 +1,43 @@
+Tyler	drop	personal name
+Anonym	merge:anonym	adjective filed under a capitalised lemma
+RStV	drop	specialist acronym
+Reinbek	drop	place name not on the list
+Wifi	keep	established loan, not a spelling error
+freistehen	keep	a real verb lemma, though the text mostly shows the adjective freistehend
+kredit	merge:Kredit	lower-case noun
+Appenzell	drop	place name
+Tomb	drop	English word
+gekommen	merge:kommen	participle form, not a dictionary adjective
+Doom	drop	English game name
+Spike	keep	established loan (Spikes)
+Cafe	merge:Café	misspelt plural form
+Isabelle	drop	personal name
+Jost	drop	personal name
+Limburger	drop	demonym derived from a place name
+Pauline	drop	personal name
+Radikale	keep	nominalised adjective, a noun in its own right
+bwin	drop	brand name
+Veröffentlich	merge:veröffentlichen	cut-off fragment
+est	drop	garbled fragment with no obvious target
+gesandt	merge:Gesandter	noun filed under a lower-case participle lemma
+neuestem	merge:neu	inflected form filed as a lemma
+stet	keep	adjective with its own dictionary entry
+udn	merge:und	typo
+Geistliche	keep	nominalised adjective, a noun in its own right
+Lanzarote	drop	place name
+Schwule	keep	nominalised adjective, a noun in its own right
+Marin	drop	name, or a garbled form of Marine
+Roadmap	keep	established loan
+Schnarche	merge:schnarchen	cut-off form of the verb
+Surf	drop	English word, not an established German noun
+Tropen	keep	plural-only noun
+Verwaltungskosten	keep	plural-only noun like Kosten
+Überleg	merge:überlegen	cut-off verb form
+Dez	merge:Dezember	abbreviation of a listed word
+Fanpage	keep	established loan
+Finanzmittel	keep	plural-only noun
+Personenkraftwagen	keep	full word with its own entry, not a fragment
+Stundenkilometer	keep	ordinary compound noun
+# question freistehen: the lemma is the verb, but nearly all occurrences are the adjective freistehend; merge:freistehend is possible if the adjective is preferred.
+# question Limburger: it could be the cheese name (a noun), but the examples are all the demonym, so I dropped it.
+# question Surf: it could be a cut-off form of surfen, but there are no examples, so I treated it as an English word.

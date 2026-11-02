@@ -1,0 +1,44 @@
+gekürzt	merge:kürzen	participle, filed under inflected forms
+geschwächt	merge:schwächen	participle, filed under inflected forms
+Achso	merge:achso	interjection under capitalised lemma
+Aff	merge:Affe	cut-off form
+TR	drop	abbreviation/code
+Ti	drop	chemical symbol
+account	merge:Account	established loan, wrong case and POS
+kan	drop	dialect/garbled form
+schutz	merge:Schutz	lower-case noun
+Berechtigte	keep	nominalised adjective with its own noun use
+Dorst	drop	place name
+Eckert	drop	surname
+Ernährungsweise	keep	ordinary noun
+Rottweil	drop	place name not on list
+Sonnenlieg	merge:Sonnenliege	cut-off fragment
+Tischdeko	keep	established colloquial compound
+eidg	merge:eidgenössisch	abbreviation of listed word
+Henriette	drop	personal name
+Raymond	drop	personal name
+Schwache	keep	nominalised adjective (die Schwachen)
+Täufer	keep	real noun (Johannes der Täufer, Anabaptists)
+Volle	merge:voll	adjective capitalised after "auf vollen Magen"
+Vorzugsweise	merge:vorzugsweise	adverb under capitalised lemma
+Wahre	merge:wahr	inflected adjective filed as noun
+sda	drop	news-agency acronym
+unterlegen	keep	adjective with own dictionary entry
+chang	drop	English word, not German
+entwicklung	merge:Entwicklung	lower-case noun
+expertinnen	merge:Expertin	lower-case plural of feminine entry
+kund	merge:Kunde	cut-off fragment
+Kilobyte	keep	established loan; kb is its abbreviation
+Kreissparkasse	keep	ordinary common noun
+Lopez	drop	surname
+Minis	merge:Mini	plural filed as lemma
+angeboten	merge:anbieten	participle form filed as lemma
+wahl	merge:Wahl	lower-case noun
+Flugreisen	merge:Flugreise	plural filed as lemma
+Gegnerin	keep	feminine entry; misspelling gegnerinen is negligible
+Klett	drop	publisher/brand name
+Kompetent	merge:kompetent	adjective under capitalised lemma
+# question gekürzt: participle-adjective with its own dictionary entry (like bekannt) or merge to kürzen? I chose merge.
+# question geschwächt: same issue; I chose merge to schwächen.
+# question Achso: interjection with no lowercase lemma rule; I chose merge:achso.
+# question Täufer: surname Täufer appears in some examples, but the common noun dominates; I chose keep.

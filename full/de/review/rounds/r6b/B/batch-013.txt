@@ -1,0 +1,45 @@
+siehts	merge:sehen	contraction of "sieht's"
+unaufgefordert	keep	adjective/adverb with its own entry
+Friedrichstraße	drop	street name, not a learnable place
+Liebende	keep	nominalised participle that works as a noun (der/die Liebende)
+ausgegeben	merge:ausgeben	inflected participle forms filed as a lemma
+Dermatitis	keep	German-usable medical noun
+Eur	merge:Euro	abbreviation of a listed word
+Herrlich	merge:herrlich	adjective filed under a capitalised lemma
+Kleinod	keep	ordinary German noun
+Verborgene	keep	nominalised adjective (das Verborgene), a noun in its own right
+Eisenstadt	drop	place name not on the list
+Kasern	merge:Kaserne	cut-off or plural form of Kaserne
+Nirgendwo	merge:nirgendwo	adverb filed under a capitalised lemma
+Warschauer	drop	adjective derived from a place name
+abpfeifen	keep	valid verb lemma; Abpfiff is a separate noun
+modell	merge:Modell	noun filed under a lower-case lemma
+talentierte	merge:talentiert	inflected adjective
+übergreifen	keep	valid verb lemma
+Checkpoint	keep	established loan
+Vespa	drop	brand name
+vonstatten	keep	adverb (vonstatten gehen)
+Amelie	drop	given name
+Mittelhessen	drop	region name not on the list
+Sally	drop	given name
+Wanderführer	keep	ordinary compound noun
+besuch	merge:Besuch	noun filed under a lower-case lemma
+bevollmächtigt	merge:Bevollmächtigte	nominalised participle noun filed under a lower-case lemma
+designen	keep	established loan verb
+eingeleitet	merge:einleiten	participle form filed as a lemma
+Farce	keep	established word in German
+Raimund	drop	given name
+Reparaturkosten	keep	plural-only noun, like Kosten
+geblockt	merge:blocken	participle filed as a verb lemma
+geäußert	merge:äußern	participle filed as an adjective lemma
+massgeblich	merge:maßgeblich	ss spelling of maßgeblich
+unterlagen	merge:unterliegen	conjugated verb form
+Normandie	drop	place name not on the list
+Permanent	merge:permanent	adjective filed under a capitalised lemma
+Referrer	keep	web loan in common German use
+Tessiner	drop	demonym derived from a place name
+
+# question Warschauer: derived adjective rather than a plain place name; treated as a name-derived form and dropped.
+# question bevollmächtigt: the correct lemma could be Bevollmächtigter (masculine) or Bevollmächtigte (feminine); chose Bevollmächtigte, since the feminine forms are the most frequent in the examples.
+# question unterlagen: it could be the plural noun Unterlagen (documents), but it is lower-case and tagged VERB, so I treated it as a form of unterliegen.
+# question Referrer: it is an English word, but it is in established German web use; kept as a loan.

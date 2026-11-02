@@ -1,0 +1,44 @@
+siehts	merge:aussehen	contracted "sieht es"; all examples are "aussehen"
+unaufgefordert	keep	adjective/adverb with its own entry
+Friedrichstraße	drop	street name
+Liebende	keep	nominalised participle that is a noun in its own right
+ausgegeben	merge:ausgeben	inflected participle filed as lemma
+Dermatitis	keep	ordinary medical noun, not an acronym
+Eur	merge:Euro	abbreviation of a listed word
+Herrlich	merge:herrlich	adjective filed under a capitalised lemma
+Kleinod	keep	genuine German noun
+Verborgene	keep	nominalised "im Verborgenen", a noun in its own right
+Eisenstadt	drop	place name
+Kasern	merge:Kaserne	cut-off or plural fragment of Kaserne
+Nirgendwo	merge:nirgendwo	adverb filed under a capitalised lemma
+Warschauer	drop	adjective derived from a place name
+abpfeifen	keep	valid verb lemma, even though it is mixed with Abpfiff
+modell	merge:Modell	noun filed under a lower-case lemma
+talentierte	merge:talentiert	inflected adjective
+übergreifen	keep	valid verb; übergreifend is a related form
+Checkpoint	keep	established loan
+Vespa	drop	brand name
+vonstatten	keep	adverb (vonstatten gehen)
+Amelie	drop	given name
+Mittelhessen	drop	region name not on the list
+Sally	drop	given name
+Wanderführer	keep	regular noun
+besuch	merge:Besuch	noun filed under a lower-case lemma
+bevollmächtigt	merge:Bevollmächtigte	forms are the nominalised noun, filed under a lower-case lemma
+designen	keep	established loan verb
+eingeleitet	merge:einleiten	inflected participle filed as lemma
+Farce	keep	German noun of French origin
+Raimund	drop	given name
+Reparaturkosten	keep	plural-only noun like Kosten
+geblockt	merge:blocken	participle filed as a verb lemma
+geäußert	merge:äußern	participle filed as an adjective lemma
+massgeblich	merge:maßgeblich	ss spelling of ß
+unterlagen	merge:unterliegen	conjugated verb form
+Normandie	drop	place name
+Permanent	merge:permanent	adjective filed under a capitalised lemma
+Referrer	drop	unadapted English web term
+Tessiner	drop	demonym from a place name
+
+# question siehts: contraction could belong to sehen, but all examples are "aussehen"; I chose aussehen.
+# question abpfeifen: the lemma mixes verb forms with the noun Abpfiff (581 of 679 tokens); I kept it as a valid verb, but Abpfiff may need its own entry.
+# question unterlagen: lower-case form could be a plural of the noun Unterlagen rather than a verb form of unterliegen; no examples were given, so I followed the VERB tag.

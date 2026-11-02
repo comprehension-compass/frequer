@@ -1,0 +1,44 @@
+fahrbereit	keep	adjective with its own entry; the VERB tag is wrong but the lemma is fine
+kunststoff	merge:Kunststoff	lower-case noun
+politik	merge:Politik	lower-case noun
+sms	keep	established abbreviation for a common word
+zeitgerecht	keep	valid adjective
+Ev	drop	ambiguous abbreviation (ev.)
+Grosshandel	merge:Großhandel	ss spelling variant of ß
+Mathilde	drop	personal name
+Piemont	drop	place name not on the list
+Reig	merge:Reigen	cut-off form of Reigen
+SLS	drop	specialist acronym
+Schüssler	drop	surname
+Streife	keep	normal noun
+code	merge:Code	lower-case noun filed under a lower-case lemma
+gangbang	drop	vulgar English word, not an established loan
+nebenwirkungen	merge:Nebenwirkung	plural filed as lemma
+sympatisch	merge:sympathisch	misspelling
+validiert	merge:validieren	participle form
+xx	drop	code or garbage
+Cranberry	keep	established loan
+Einsetzung	keep	normal noun
+Isis	drop	proper name
+Orga	merge:Organisation	clipping of a listed word
+abgerieben	merge:abreiben	participle form
+Constanze	drop	personal name
+Ebner	drop	surname
+Verrückte	keep	nominalised adjective, like das Gute
+feat	drop	English abbreviation
+flauen	merge:Flaute	forms are mostly the noun Flaute
+sportwetten	merge:Sportwette	plural filed as lemma
+Delphi	drop	place name
+Tarantino	drop	person name
+Zentralschweiz	drop	place name not on the list
+gewissenhafte	merge:gewissenhaft	inflected adjective form
+hg	drop	abbreviation
+micro	drop	English word
+sodaß	merge:sodass	old spelling
+Drift	keep	established loan
+Gulde	merge:Gulden	cut-off form
+Kitzler	keep	valid noun
+
+# question Ev: forms are "ev"/"even", so it may be an abbreviation of evangelisch or eventuell; no safe merge, so dropped
+# question sms: kept as an established abbreviation, but a lower-case form may need merging to an upper-case SMS entry if one exists
+# question Orga: a colloquial clipping with its own dictionary entry in some sources, so keep may also be defensible

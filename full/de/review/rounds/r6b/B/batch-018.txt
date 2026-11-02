@@ -1,0 +1,43 @@
+Yuan	keep	established loan, currency name
+vergleichend	keep	adjective with its own dictionary entry
+GewO	drop	specialist legal abbreviation
+Inclusive	drop	English word
+beug	merge:beugen	imperative stem
+eco	drop	foreign brand-like fragment
+geschmolzen	merge:schmelzen	participle without its own adjective entry
+Fragenkatalog	keep	ordinary compound noun
+gerne	keep	own adverb entry
+machts	merge:machen	contracted colloquial form
+stil	merge:Stil	lower-case noun
+Baltikum	drop	place name not on list
+Buffett	drop	person name
+Fairtrade	drop	brand/label name
+Göbel	drop	surname
+Untote	keep	nominalised adjective, noun in its own right
+Wok	keep	established loan
+id	drop	code/abbreviation
+telefon	merge:Telefon	lower-case noun
+Pfarre	keep	real word, Austrian variant
+Random	drop	English word
+Wolter	drop	surname
+erster	keep	"erstere" is its own word (the former)
+geparkt	merge:parken	participle without its own adjective entry
+stoned	drop	English word
+versicherung	merge:Versicherung	lower-case noun
+vertrieben	merge:vertreiben	participle form
+zerbrochen	merge:zerbrechen	participle without its own adjective entry
+Herrschende	keep	nominalised adjective, noun in its own right
+Fortnite	drop	brand/product name
+Hegel	drop	person name
+Traurig	merge:traurig	capitalised adjective
+reinigend	merge:reinigen	participle without its own adjective entry
+Delle	keep	valid singular noun
+Indie	keep	established loan
+Zurücksetze	merge:zurücksetzen	broken verb lemma
+innenliegend	keep	adjective, no suitable verb to merge into
+Arbeitgeberin	keep	own feminine entry
+Behinderte	keep	nominalised adjective, noun in its own right
+Gastro	merge:Gastronomie	abbreviation of a listed word
+# question GewO: drop assumes Gewerbeordnung is not on the list; if it is, this should be merge:Gewerbeordnung
+# question erster: the forms are all "erstere" (the former), and the lemma "erster" does not match them cleanly, so I kept it
+# question innenliegend: it is a participle-like adjective with no obvious verb, so I kept it

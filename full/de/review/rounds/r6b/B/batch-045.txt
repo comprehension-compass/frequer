@@ -1,0 +1,41 @@
+Lehe	merge:Lehen	cut-off fragment of Lehen (fief), 431 of 473 tokens are "lehen"
+Primera	drop	Spanish league name, foreign
+Sixpack	keep	established loan
+Spate	merge:Spaten	cut-off fragment of Spaten
+Spyware	keep	established loan
+Südwestfalen	drop	place name not on the list
+Zipper	keep	established loan
+gelschte	merge:löschen	broken encoding of gelöschte, a participle, so merged to the infinitive
+infinit	drop	almost all tokens are the English name "Halo Infinite"
+tricks	merge:Trick	plural of an English-origin noun filed as lemma
+Anhören	merge:anhören	nominalised verb filed under a capitalised lemma
+Matterhorn	drop	place name (mountain)
+Richt	merge:richten	cut-off or inflected verb form
+Schicksalsschläge	merge:Schicksalsschlag	plural filed as lemma
+Amp	drop	English abbreviation or clipping
+OneDrive	drop	brand name
+Wartburg	drop	place name (castle)
+anklingen	keep	valid verb lemma, only the tag is wrong
+herausragender	merge:herausragend	inflected adjective
+hmmm	drop	elongated interjection spelling
+Baltimore	drop	place name
+Barrierefreie	merge:barrierefrei	capitalised inflected adjective
+Frontex	keep	well-known EU agency, a famous institution
+Irre	keep	noun in its own right (der Irre)
+Jojobaöl	keep	valid compound noun
+Katalane	keep	nationality noun with its own entry
+Konservativer	merge:Konservative	inflected form of the substantivised adjective
+Lupin	merge:Lupine	foreign or misspelt form of Lupine
+Stecklinge	merge:Steckling	plural filed as lemma
+Verschluß	merge:Verschluss	old spelling
+Dehne	merge:dehnen	cut-off verb form
+Lebenslust	keep	valid noun
+Mercure	drop	hotel brand
+Märkische	merge:märkisch	capitalised inflected adjective
+Performer	keep	established loan
+Pr	drop	abbreviation
+Psycho	keep	established colloquial noun
+Verbesserungspotenzial	keep	standard spelling, the variant is only an orthographic spelling
+# question infinit: German adjective (infinite verb forms) exists, but nearly all tokens are the English "Infinite" in product names, so I dropped it
+# question Frontex: counted as a famous institution (keep), but the rules don't say whether agency names qualify
+# question hmmm: could instead merge to "hm" if that interjection is on the list

@@ -1,0 +1,45 @@
+profil	merge:Profil	lower-case noun
+öden	merge:öde	inflected form of öde
+Bose	drop	brand name
+Drohn	merge:Drohne	truncated lemma
+Nö	merge:nö	interjection filed under a capitalised lemma
+Rebound	keep	established loan (sport, medicine)
+Tegel	drop	place name not on the reviewed list
+aufgeladen	merge:aufladen	inflected participle filed as lemma
+beleuchtet	merge:beleuchten	inflected participle filed as lemma
+wohlgemerkt	keep	established adverb, only the tag is wrong
+Hänsel	drop	fairy-tale character name
+Paracetamol	keep	common generic drug name
+Schraubendreher	keep	ordinary noun
+Waldorfschule	keep	ordinary compound noun
+trügen	keep	correct infinitive lemma of an irregular verb
+Massenhost	drop	garbled, not a real word
+Oettinger	drop	name or brand
+Perth	drop	place name not on the reviewed list
+stein	merge:Stein	lower-case noun
+wiedermal	merge:wieder	misspelling of "wieder mal"
+Gangbang	keep	loan listed in the dictionary
+Gelehrte	keep	correct lemma of an adjectival noun
+Jünger	keep	correct singular noun (disciple)
+Mitunter	merge:mitunter	adverb filed under a capitalised lemma
+Tück	merge:Tücke	truncated lemma
+aa	drop	code or abbreviation
+beziehung	merge:Beziehung	lower-case noun
+Badische	merge:badisch	adjective filed under a capitalised lemma
+Faber	drop	surname
+Grossteil	merge:Großteil	non-standard spelling
+Phillip	drop	person name
+Sigmund	drop	person name
+nebenher	keep	valid adverb, only the tag is wrong
+Albaner	keep	demonym noun with its own feminine entry
+Frauenfeld	drop	place name not on the reviewed list
+Hatting	drop	place name fragment, not on the reviewed list
+Parteivorsitzende	keep	correct lemma of an adjectival noun
+Sildenafil	drop	specialist drug name
+Stipendiat	keep	ordinary noun
+Transe	keep	colloquial noun listed in the dictionary
+# question aufgeladen: "emotional aufgeladen" is common and may count as an adjective with its own entry; I merged it into aufladen.
+# question wiedermal: the correct form "wieder mal" is two words, so I merged it into the single lemma wieder.
+# question Sildenafil: I dropped it as specialist, but Paracetamol is kept as a household generic. Please confirm where the line falls.
+# question Gangbang: vulgar, but it is a dictionary-listed loan, so I kept it. Please confirm whether vulgar loans belong in the learner list.
+# question Nö: it could be kept as its own interjection lemma; I merged it into the lower-case nö.

@@ -1,0 +1,44 @@
+griech	merge:griechisch	truncated fragment, mostly the abbreviated adjective
+Ötztal	drop	place name not on the list
+Israelit	keep	valid noun lemma
+MDStV	drop	specialist acronym
+Pegnitz	drop	place name not on the list
+Quentin	drop	personal name
+Streamer	keep	established loan
+aufwach	merge:aufwachen	truncated lemma
+doc	drop	abbreviation or English fragment, wrong POS
+dreiviertel	keep	real word (dreiviertel Stunde)
+freigeschalten	merge:freischalten	participle form of freischalten
+logo	merge:Logo	lower-case noun with plural logos
+masse	merge:Masse	lower-case noun
+Danksagung	keep	ordinary noun
+Oneplus	drop	brand name
+Verschleißteile	merge:Verschleißteil	plural filed as lemma
+Wenger	drop	surname
+fürn	merge:für	colloquial contraction of für den/ein
+Einzelnachweise	merge:Einzelnachweis	plural filed as lemma
+Krupp	drop	family or company name
+baust	merge:bauen	conjugated form
+bock	merge:Bock	lower-case noun
+lvl	merge:Level	abbreviation of level
+pol	merge:Pol	truncated form, lower-case noun
+stilecht	keep	valid adjective, only the POS tag is wrong
+titel	merge:Titel	lower-case noun
+Colt	drop	brand or name
+Dracula	drop	character name
+Grob	merge:grob	capitalised adjective
+Kylie	drop	personal name
+Monsieur	drop	foreign word, not an established loan
+Olymp	drop	place or mythological name
+Primavera	drop	foreign word or name
+Tot	merge:tot	capitalised adjective
+Zuschneide	merge:zuschneiden	verb filed under a capitalised lemma
+drfen	merge:dürfen	broken encoding
+sek	merge:Sekunde	abbreviation of a listed word
+verströmt	merge:verströmen	participle with no adjective entry of its own
+ä	drop	single letter
+Ausmass	merge:Ausmaß	misspelling of Ausmaß
+# question griech: the fragment could be Grieche (noun) or griechisch (adjective); I chose griechisch because the bare form is mostly the abbreviated adjective.
+# question logo: the interjection "logo" (colloquial) is possible, but the plural logos points to the noun Logo.
+# question pol: it could also be Pol, Polen or the verb polen; I chose Pol as the most direct reading of the lemma.
+# question fürn: the rules don't cover contractions; I merged it into für, but drop is also defensible.

@@ -1,0 +1,44 @@
+Oberlausitz	drop	place name not on reviewed list
+Sheriff	keep	established English loan
+groen	merge:groß	broken encoding
+informationen	merge:Information	plural noun filed as verb
+pulen	merge:Pult	forms are almost all Pult (noun), not the verb
+Fleur	drop	French name/word, not learnable
+Frankenthal	drop	place name not on list
+Jährige	merge:jährig	cut-off fragment of jährig
+Styl	merge:Style	cut-off/garbled form of Style
+Tumblr	drop	website/brand name
+Vorweg	merge:vorweg	capitalised adverb
+schlaf	merge:Schlaf	lower-case noun
+werbung	merge:Werbung	lower-case noun
+Angie	drop	personal name
+Wiederhole	merge:wiederholen	capitalised verb form
+knnte	merge:können	broken encoding of könnte, inflected form of können
+wurscht	keep	colloquial adjective with a dictionary entry (wurscht sein)
+Denkanstöße	merge:Denkanstoß	plural filed as lemma
+Ele	drop	meaningless fragment, no target
+ermäßigungen	merge:Ermäßigung	lower-case plural
+getan	merge:tun	participle form of tun
+istMehr	drop	garbled text
+million	merge:Million	lower-case noun
+retour	keep	established word in Swiss/Austrian German
+Fallstricke	merge:Fallstrick	plural filed as lemma
+Fuer	merge:für	misspelling of für
+Kommunale	merge:kommunal	capitalised inflected adjective
+Marketer	keep	established loan, person noun
+Routing	keep	established loan, technical but common
+Shar	merge:Share	cut-off fragment of Share
+gesehn	merge:sehen	misspelt participle
+Header	keep	established loan
+Tenside	merge:Tensid	plural filed as lemma
+anvisiert	merge:anvisieren	participle of anvisieren
+karten	keep	real verb (karten), tagged VERB
+sofa	merge:Sofa	lower-case noun
+umwickelt	merge:umwickeln	participle filed as lemma
+Alpenverein	keep	famous institution
+WO	merge:wo	upper-case form of wo
+imho	drop	specialist abbreviation
+# question pulen: lemma is a real verb (pulen) but nearly all counts are Pult; merged into Pult.
+# question karten: could be lower-cased plural of Karte; tagged VERB with kartet present, so kept as a verb.
+# question Shar: assumed Share is or will be on the list as the target.
+# question retour: examples are spam text, but the word itself is in dictionaries; kept.

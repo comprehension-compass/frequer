@@ -1,0 +1,47 @@
+Touring	drop	brand/coachbuilder name (Carrozzeria Touring, Deutsche Touring GmbH)
+vorteil	merge:Vorteil	lower-case noun
+zukunft	merge:Zukunft	lower-case noun
+Anlageklasse	keep	valid compound noun
+Haha	merge:haha	interjection filed under a capital
+Leibniz	drop	person name
+andrücken	keep	valid separable verb
+il	drop	non-German fragment
+werte	merge:werten	conjugated form, tagged VERB
+vonnöten	keep	valid predicative adverb
+Altertum	keep	valid noun
+Cach	merge:Cache	cut-off form of Cache
+Tau	keep	valid noun
+fisch	merge:Fisch	lower-case noun
+name	merge:Name	lower-case noun
+trendy	keep	established loan adjective
+unsr	merge:unser	contracted form
+ü	drop	broken fragment
+Corps	drop	French word, not an established loan here
+Eucharistie	keep	valid noun
+Gamescom	drop	event name
+Mesmer	drop	person name
+Schreibe	merge:schreiben	inflected verb form filed as noun
+Zwanziger	keep	valid noun (in den Zwanzigern, Mitte Zwanziger)
+Apr	merge:April	abbreviation of a listed word
+Kalt	merge:kalt	capitalised adjective
+Schwanger	merge:schwanger	capitalised adjective
+Starbuck	drop	brand name
+Zuviel	keep	nominalised "ein Zuviel", a noun in its own right
+webcam	merge:Webcam	lower-case noun
+Charakteristika	merge:Charakteristikum	plural filed as lemma
+Erneuerbare	merge:erneuerbar	inflected adjective, mostly "erneuerbare Energien"
+Lippstadt	drop	place name
+Marriott	drop	brand name
+Möse	keep	valid German noun, no rule excludes vulgar words
+Verl	drop	place name
+guck	merge:gucken	imperative/colloquial form
+fake	keep	established loan
+freizuschalten	merge:freischalten	zu-infinitive form
+spachteln	keep	valid verb; noun forms are mixed in
+# question Haha: interjection filed under a capital; I merged to lower-case haha, but it may not be a list lemma and could be a drop.
+# question werte: lower-case only, so it could be the noun Werte (Wert) or the verb werten; I followed the VERB tag.
+# question Schreibe: could be the noun Schreiben (letter) rather than the verb; I merged to the verb.
+# question Zwanziger: could also be the surname of the DFB president; I kept it as the common noun.
+# question Zuviel: surface forms are mostly lower-case adverbial "zuviel"; I kept it because the examples show a nominalised noun.
+# question spachteln: noun-tagged, with the noun Spachtel as the largest surface form; I kept it as the verb lemma.
+# question Gamescom: trade fair, not clearly a famous institution; I dropped it.

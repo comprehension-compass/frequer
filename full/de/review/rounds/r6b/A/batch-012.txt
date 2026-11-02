@@ -1,0 +1,45 @@
+profil	merge:Profil	lower-case noun filed under an ADJ tag
+öden	merge:öde	inflected form of öde
+Bose	drop	brand/company name
+Drohn	merge:Drohne	cut-off lemma
+Nö	merge:nö	interjection filed under a capital
+Rebound	keep	established sports and medical loan
+Tegel	drop	place name not on the reviewed list
+aufgeladen	merge:aufladen	participle, no clear entry of its own
+beleuchtet	merge:beleuchten	participle form
+wohlgemerkt	keep	established adverb
+Hänsel	drop	character name
+Paracetamol	keep	common generic drug name
+Schraubendreher	keep	ordinary noun
+Waldorfschule	keep	common noun for a school type
+trügen	keep	correct lemma with irregular forms
+Massenhost	drop	spam/technical junk
+Oettinger	drop	person/brand name
+Perth	drop	place name
+stein	merge:Stein	lower-case noun
+wiedermal	merge:wieder	misspelling of "wieder mal"
+Gangbang	keep	loan with a dictionary entry
+Gelehrte	keep	standard lemma of an adjectival noun
+Jünger	keep	correct noun lemma (disciple)
+Mitunter	merge:mitunter	adverb filed under a capital
+Tück	merge:Tücke	cut-off lemma
+aa	drop	code/garbled
+beziehung	merge:Beziehung	lower-case noun
+Badische	merge:badisch	inflected adjective filed under a capital
+Faber	drop	surname
+Grossteil	merge:Großteil	non-standard spelling
+Phillip	drop	person name
+Sigmund	drop	person name
+nebenher	keep	adverb
+Albaner	keep	demonym with its own feminine entry (Albanerin)
+Frauenfeld	drop	place name
+Hatting	drop	place name fragment
+Parteivorsitzende	keep	standard adjectival-noun lemma
+Sildenafil	keep	generic drug name, like Paracetamol
+Stipendiat	keep	ordinary noun, the lemma is the singular
+Transe	keep	colloquial noun with its own dictionary entry
+# question wiedermal: the correct form "wieder mal" is two words, so no single target lemma exists; merged to wieder
+# question aufgeladen: borderline participle adjective (aufgeladene Motoren); merged to aufladen
+# question Gangbang: vulgar and spam-heavy contexts, kept only because the rules keep established loans
+# question Sildenafil: pharma term, kept for consistency with Paracetamol, but could count as a specialist term
+# question Nö: lower-case interjection nö has no clear target form in the rules; merged to nö

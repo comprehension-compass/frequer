@@ -1,0 +1,44 @@
+Mende	drop	surname/place name, not a learnable lemma
+Propolis	keep	real rare noun
+Stimmberechtigte	keep	nominalised adjective that works as a noun (der/die Stimmberechtigte)
+Außerhalb	merge:außerhalb	preposition/adverb filed under a capitalised lemma
+Kung	merge:Kung-Fu	cut-off fragment of Kung-Fu
+NAMEN	merge:Name	upper-case plural of Name
+management	merge:Management	English-spelled lower-case noun, adapted loan
+unaufgeregt	keep	adjective, only the tag is wrong
+Übersetze	merge:übersetzen	verb form filed as a capitalised lemma
+Appenzeller	drop	mostly surname/demonym in the examples
+Chalets	merge:Chalet	plural filed as lemma
+Patron	keep	ordinary noun
+Qatar	drop	place name not on the list
+Schwing	merge:schwingen	verb stem or nominalised verb under a capitalised lemma
+Tarot	keep	established loan
+crem	merge:Creme	truncated form of Creme
+erfassten	merge:erfassen	inflected verb form
+hardcore	keep	established loan
+Ä	drop	single letter
+Castor	keep	common noun for the nuclear transport container (Castoren)
+Faro	drop	place name
+Jogge	merge:joggen	verb filed under a capitalised lemma
+Sing	merge:singen	verb form filed under a capitalised lemma
+Tun	merge:tun	nominalised infinitive, no meaning of its own
+Zittau	drop	place name
+halbstündig	keep	real adjective; the "halb-" fragment is only part of the counted forms
+wasser	merge:Wasser	noun filed under a lower-case lemma
+Blattläuse	merge:Blattlaus	plural filed as lemma
+Donbass	drop	place name
+Ernste	merge:Ernst	forms are mostly Ernstes/Ernsten (allen Ernstes), so the noun Ernst is the base
+Hautoberfläche	keep	valid compound noun
+Hieb	keep	valid noun (Hiebe is its plural)
+Jeanne	drop	personal name
+MByte	drop	unit abbreviation
+Poppe	merge:poppen	verb filed under a capitalised lemma
+Whiteboard	keep	established loan
+stech	merge:stechen	truncated verb stem
+Auslösen	merge:auslösen	verb filed under a capitalised lemma
+Fremdgehe	merge:fremdgehen	verb filed under a capitalised lemma
+Reddit	drop	brand/website name
+# question Kung: the fragment's base (Kung-Fu) is not confirmed to be on the list; I merged it as a fragment.
+# question Ernste: it is unclear whether this is the noun Ernst (allen Ernstes) or the nominalised adjective (nichts Ernstes); I chose merge:Ernst.
+# question Tun: the rules do not say whether a nominalised infinitive counts as a noun in its own right like Essen; I chose merge:tun, and Auslösen is handled the same way.
+# question Castor: it is a brand/name but also a common noun for the container; I kept it.

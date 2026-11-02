@@ -1,0 +1,42 @@
+Lehe	drop	place name, not on the reviewed list
+Primera	drop	Spanish league name, not a learnable word
+Sixpack	keep	established loan
+Spate	merge:Spaten	cut-off of Spaten
+Spyware	keep	established loan
+Südwestfalen	drop	place name not on the list
+Zipper	keep	established loan in German use
+gelschte	merge:löschen	broken encoding of gelöschte, a participle form
+infinit	keep	real adjective with its own entry
+tricks	merge:Trick	English plural of Trick
+Anhören	merge:anhören	capitalised verb form
+Matterhorn	drop	place name
+Richt	merge:richten	conjugated form cut off
+Schicksalsschläge	merge:Schicksalsschlag	plural filed as lemma
+Amp	drop	abbreviation or HTML fragment, not a learnable word
+OneDrive	drop	brand name
+Wartburg	drop	place name (castle)
+anklingen	keep	valid verb, only the POS tag is wrong
+herausragender	merge:herausragend	inflected adjective
+hmmm	drop	elongated interjection spelling
+Baltimore	drop	place name
+Barrierefreie	merge:barrierefrei	capitalised inflected adjective
+Frontex	keep	well-known EU institution
+Irre	keep	der/die Irre, a noun in its own right
+Jojobaöl	keep	valid compound noun
+Katalane	keep	valid nationality noun with its own entry
+Konservativer	merge:Konservative	inflected form of the noun Konservative
+Lupin	merge:Lupine	foreign or variant form of Lupine
+Stecklinge	merge:Steckling	plural filed as lemma
+Verschluß	merge:Verschluss	old spelling
+Dehne	merge:dehnen	cut-off of dehnen
+Lebenslust	keep	valid noun
+Mercure	drop	hotel brand name
+Märkische	merge:märkisch	capitalised inflected adjective
+Performer	keep	established loan
+Pr	drop	abbreviation fragment
+Psycho	keep	established colloquial noun
+Verbesserungspotenzial	keep	valid noun, variant spelling Potential is covered by the same lemma
+# question Irre: written forms are lower-case adjective forms (irren, irrer, irres), but the examples are the noun der/die Irre; kept as a noun.
+# question Konservativer: the lemma is an inflected form, but the example is the noun (die Konservativen); merged to the noun Konservative, though konservativ may be intended.
+# question Frontex: an EU agency; kept as a famous institution, but "famous" is borderline.
+# question infinit: counted forms are mostly the English "Halo Infinite", not German; kept because infinit is a real German adjective.

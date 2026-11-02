@@ -1,0 +1,45 @@
+edit	drop	English word, not an adapted German verb
+mchte	merge:möchten	broken encoding of möchte
+Organisieren	merge:organisieren	capitalised verb form
+ernannt	merge:ernennen	participle with no adjective entry
+Ausszeichnungssprache	merge:Auszeichnungssprache	misspelling
+Weiche	keep	real noun (rail switch)
+Fritzbox	drop	brand/product name
+Hein	drop	person name
+Huffington	drop	name fragment, not the institution as a whole
+druck	merge:Druck	noun filed as lower-case adjective
+Dominic	drop	person name
+Lexus	drop	brand name
+Rüde	keep	real noun (male dog)
+rock	merge:Rock	noun filed lower-case
+zunutze	merge:sich zunutze machen	fragment of a pronominal verb phrase
+Dominique	drop	person name
+Sperre	keep	valid noun lemma
+dellen	merge:Delle	noun filed lower-case/plural
+schaun	merge:schauen	colloquial spelling of schauen
+Qualifying	keep	established motorsport loan
+erfasste	merge:erfassen	inflected participle form
+weiber	merge:Weib	noun filed lower-case/plural
+AAA	drop	code/abbreviation
+Steig	merge:steigen	verb forms filed as noun
+Walt	merge:walten	verb forms filed as capitalised noun
+li	drop	garbled fragment, no obvious target
+zunichte	merge:zunichte machen	fragment of verb phrase
+Lüdenscheid	drop	place name not on the list
+begrüsst	merge:begrüßen	Swiss spelling of an inflected form
+mia	drop	name/garbled, no German word
+äusser	merge:äußere	misspelt stem of the inflected adjective forms
+HA	drop	abbreviation
+Hacke	keep	valid noun lemma
+Pietro	drop	person name
+Zeppelin	keep	established common noun
+boden	merge:Boden	noun filed lower-case
+Einschreibe	merge:Einschreiben	truncated form
+Glücklicherweise	merge:glücklicherweise	adverb filed capitalised
+nummeriert	merge:nummerieren	participle with no own adjective entry
+weihnachten	merge:Weihnachten	noun filed lower-case
+# question Fritzbox: brand name, but also a generic everyday word for a router; I dropped it as a brand.
+# question zunutze: no single-word target exists; I merged it into the phrase "sich zunutze machen", which may not be a lemma.
+# question zunichte: same case as zunutze, merged into "zunichte machen".
+# question äusser: the adjective äußer- is attributive-only; I chose "äußere" as the dictionary form.
+# question li: forms like lis/lien/lider cannot be traced to one word, so I dropped it rather than guess a merge.

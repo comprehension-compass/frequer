@@ -1,0 +1,46 @@
+Reif	merge:reif	adjective (written "reif") filed under a capitalised lemma
+dirty	drop	English word, not an adapted loan
+gewinn	merge:Gewinn	lower-case noun
+herren	merge:Herr	plural filed as lemma
+Hochzeitslocation	keep	established loan compound
+Jüdin	keep	own feminine entry
+Alt	merge:alt	adjective filed under a capitalised lemma
+Kaschmir	keep	fabric noun, a common word
+Rift	drop	English word
+Vodka	keep	established loan
+casinos	merge:Casino	plural filed as lemma
+garnichts	merge:nichts	merged misspelling of "gar nichts"
+unkomplizierte	merge:unkompliziert	inflected adjective form
+show	merge:Show	lower-case noun, adapted English word
+Aargauer	drop	name derived from a place not on the list
+Hobbit	keep	common noun in dictionaries
+verschoben	merge:verschieben	participle form without its own adjective entry
+vielmals	keep	real adverb
+Ansage	keep	correct singular lemma
+Eventlocation	keep	established loan compound
+Mika	drop	personal name
+Spielerisch	merge:spielerisch	adjective filed under a capitalised lemma
+ausdauern	merge:ausdauernd	wrong form, the adjective is the real word
+hinzugezogen	merge:hinzuziehen	participle form
+mama	merge:Mama	lower-case noun
+Alufelge	keep	correct singular lemma
+Asana	keep	yoga term, established in German
+Frauenrecht	keep	valid compound noun
+Hauptgewinn	keep	valid compound noun
+Hoheit	keep	valid noun
+Mississippi	drop	place name not on the list
+Quinn	drop	personal name
+Suhrkamp	keep	famous publishing institution
+Ungläubige	keep	noun in its own right (like das Gute)
+lt	drop	fragment with no obvious target
+mbh	merge:GmbH	fragment of the abbreviation GmbH
+möglichkeiten	merge:Möglichkeit	lower-case plural noun
+webbasierte	merge:webbasiert	inflected adjective form
+Bolt	drop	English word or brand name
+Paderborner	drop	name derived from a place not on the list
+# question Reif: the noun Reif (frost, ring) exists, but all counted forms are the adjective reif, so I merged.
+# question garnichts: the target could be "gar nichts" (not a single lemma) or "nichts"; I chose nichts.
+# question Kaschmir: the examples mix the region and the fabric; I kept it as the fabric noun.
+# question Suhrkamp: a publisher is neither a place nor a person, so I treated it as a famous institution.
+# question lt: the original word (ält-, gelt-, ...) is not recoverable, so I dropped it rather than merged it.
+# question Hobbit: a fictional race, but a standard dictionary noun, so I did not treat it as a name.

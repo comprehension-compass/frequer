@@ -1,0 +1,44 @@
+famili	merge:Familie	cut-off form of Familie
+orgasmus	merge:Orgasmus	lower-case noun
+Schweriner	drop	place-name derivative, not on the list
+Phönix	keep	mythical creature, a noun in its own right
+Sommerreifen	keep	singular and plural share this form, so the lemma is fine
+Zertifizierte	merge:zertifiziert	capitalised adjective form
+Ausziehe	merge:ausziehen	verb filed as a noun
+Blu	drop	fragment with no obvious target
+Lana	drop	personal name
+Unix	drop	product name
+fan	merge:Fan	lower-case noun
+schlitzen	keep	valid verb lemma
+Caritasverband	keep	famous institution
+Mandy	drop	personal name
+Rodel	keep	real noun (sled)
+Zeller	drop	surname or place-derived name
+feien	merge:gefeit	garbled lemma of gefeit
+vorausschauen	keep	valid verb lemma
+Ansehen	keep	noun in its own right (prestige)
+Booklet	keep	established loan
+Hautproblem	keep	fine
+Lerngruppe	keep	fine
+Ruß	keep	fine
+Sono	drop	brand fragment (Sonos)
+ipad	drop	brand name
+mchten	merge:möchten	broken encoding
+mitMehr	drop	template garbage
+sin	drop	garbled or foreign
+Beende	merge:beenden	verb filed as a noun
+inkl	merge:inklusive	abbreviation of a listed word
+verheiraten	keep	valid verb lemma
+Gerda	drop	personal name
+Loge	keep	real noun
+Minsk	drop	place name not on the list
+verfügung	merge:Verfügung	lower-case noun
+wrde	merge:würde	broken encoding
+Evakuierung	keep	fine
+Infizierte	keep	adjectival noun, a noun in its own right
+Weihnacht	merge:Weihnachten	truncated form
+btw	drop	English abbreviation, not a German word
+# question Blu: the forms (blu, blues, bluen) have no clear target, so I dropped it rather than guess a merge.
+# question Unix: the rules don't say whether technical product names like Unix count as established loans or as names. I treated it as a name and dropped it.
+# question Infizierte: the lemma is filed capitalised from "infizierten". I kept it as an adjectival noun, but merge:infiziert is also defensible.
+# question schlitzen: the forms are mostly the noun plural "Schlitze". I kept the verb lemma, but merge:Schlitz is possible.

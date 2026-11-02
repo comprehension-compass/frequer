@@ -1,0 +1,43 @@
+schoen	merge:schön	transliterated spelling of schön
+ungefragt	keep	adverb/adjective with its own dictionary entry
+Impotenz	keep	ordinary noun, learnable
+Zöger	merge:zögern	cut-off fragment of zögern
+einsatz	merge:Einsatz	lower-case noun
+Birk	merge:Birke	truncated Birke
+Mc	drop	name prefix fragment, no target
+Nachfahr	merge:Nachfahre	truncated Nachfahre
+darber	merge:darüber	broken encoding
+gestanden	keep	adjective "gestanden" (experienced) has its own entry
+niedergelassen	keep	adjective with its own entry (niedergelassener Arzt)
+sG	drop	abbreviation/code
+ähm	keep	established interjection
+Currywurst	keep	ordinary food noun
+Qualcomm	drop	company name
+Vorpommern	drop	place name not on list
+Wohn	drop	fragment of Wohn- compounds, no clear single target
+dildo	merge:Dildo	lower-case noun
+gechipt	merge:chippen	participle, not an adjective with its own entry
+vermindert	merge:vermindern	inflected participle form
+Bernau	drop	place name not on list
+iPads	merge:iPad	plural of established loan
+Älteste	merge:alt	inflected superlative filed as noun
+Österreichischer	merge:österreichisch	inflected adjective, capitalised
+Schwarzwälder	keep	invariant derived adjective/noun (Schwarzwälder Torte), not a place name
+aufgelegt	keep	adjective with own entry (gut aufgelegt)
+deko	merge:Deko	lower-case noun
+Gebrüder	keep	plural with its own meaning (title in names)
+Tauer	drop	Tauern is a place name (Hohe Tauern)
+Treu	merge:treu	capitalised adjective
+ausgeübt	merge:ausüben	participle, not an adjective in its own right
+infiziert	merge:infizieren	participle form
+magazin	merge:Magazin	lower-case noun
+verstrickt	merge:verstricken	conjugated/participle form
+Kelt	merge:Kelte	truncated Kelte
+Pflegende	keep	nominalised participle used as a noun in its own right
+Predigt	merge:Predigt	only the plural form was counted
+solang	merge:solange	conjunction fragment
+GE	drop	code/abbreviation
+gewaschen	merge:waschen	participle form
+# question Wohn: fragment of Wohn- compounds; could map to wohnen or none, dropped as no clear target
+# question Pflegende: nominalised participle (like Studierende); kept as a noun in its own right, but could be merged to pflegen
+# question Älteste: only the form "ältesten" was counted; merged to alt, but it may be a noun in its own right (der Älteste)

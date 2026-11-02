@@ -1,0 +1,48 @@
+Sprachreisen	merge:Sprachreise	plural filed as lemma
+ballen	keep	valid verb; the "ballet" forms are noise
+bb	drop	abbreviation/code
+bio	keep	established clipped word, used as an indeclinable adjective
+steifen	merge:steif	inflected adjective form
+Fracking	keep	established loan
+motor	merge:Motor	lower-case noun misfiled as ADJ
+unversehrt	keep	valid adjective
+Diashow	keep	established loan compound
+Lehne	merge:lehnen	forms are mostly verb forms of lehnen
+Roche	drop	company name
+cod	merge:Code	fragment of Code
+Barry	drop	personal name
+Brillant	keep	real noun (the gem)
+sm	drop	abbreviation/code
+fliessen	merge:fließen	ß→ss spelling variant
+verzichte	merge:verzichten	conjugated form
+Kurfürst	keep	valid noun
+Pitt	drop	personal name
+Polier	merge:polieren	forms are verb forms of polieren
+par	drop	foreign fragment
+poker	merge:Poker	lower-case noun
+Mitreisende	keep	nominalised participle with its own entry, like Reisende
+TikTok	keep	widely established brand term
+Vogtland	drop	place name
+einrahmen	keep	valid verb
+social	merge:sozial	English spelling of adapted word
+ätzen	keep	valid verb
+Amazona	drop	place name (Amazonas)
+Enthalte	merge:enthalten	capitalised verb form
+Erfassen	merge:erfassen	capitalised verb form
+Roadster	keep	established loan
+typ	merge:Typ	lower-case noun
+Zügel	keep	valid noun
+Kärcher	drop	brand name
+Ostseeküste	drop	specific geographic place name
+Wendland	drop	place name
+bedrücken	keep	valid verb
+einvernehmen	merge:Einvernehmen	lower-case noun
+Kirchner	drop	surname
+
+# question bio: could be seen as a lower-case noun (merge:Bio), but it is also an indeclinable adjective, so I kept it.
+# question Lehne: Lehne (backrest) is a real noun, but the counted forms are lehne/lehnen, so I merged into lehnen.
+# question Polier: Polier (foreman) is a real noun, but the forms are almost all polieren, so I merged into polieren.
+# question Roche: unclear whether a famous company counts as a "famous institution"; I dropped it.
+# question TikTok: unclear whether a brand counts as an established loan or as another name; I kept it.
+# question Kärcher: the brand name is also used generically for pressure washers, but I dropped it as a brand.
+# question Ostseeküste: a common-noun compound that names a specific coast; I treated it as a place name and dropped it.

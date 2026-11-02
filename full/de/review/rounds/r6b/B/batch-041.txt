@@ -1,0 +1,45 @@
+regel	merge:Regel	lower-case noun
+verwunschen	keep	adjective with its own entry
+Breit	merge:breit	adjective under a capital
+Glenn	drop	personal name
+Lernprozeß	merge:Lernprozess	old spelling; mostly plural forms
+Talkshow	keep	established loan
+Traditionelle	merge:traditionell	adjective under a capital
+angeregt	keep	adjective with its own entry
+gegn	merge:Gegner	cut-off fragment
+gekonnt	keep	adjective with its own entry
+hosten	keep	established loan verb
+kalibriert	merge:kalibrieren	participle filed as lemma
+samsung	drop	brand name
+zunchst	merge:zunächst	broken encoding
+Gryffindor	drop	fictional name
+Langenhagen	drop	place name not on list
+Nahost	drop	region name not on list
+Nordwest	keep	direction noun
+Selbständige	keep	noun in its own right
+Symantec	drop	company name
+Valerie	drop	personal name
+ds	drop	abbreviation/garbled
+getarnt	merge:tarnen	participle, no separate entry
+punkt	merge:Punkt	lower-case noun
+Apothekerin	keep	own feminine entry, correctly capitalised
+Bedürftige	keep	noun in its own right
+Kommende	merge:kommend	forms are the participial adjective
+Rennsteig	drop	place name
+Scheiss	merge:Scheiß	misspelling
+Schladming	drop	place name
+Schwechat	drop	place name
+Tr	drop	fragment, no obvious target
+gebastelt	merge:basteln	participle filed as lemma
+gemahl	merge:mahlen	cut-off participle
+ren	drop	fragment, no obvious target
+Achtziger	keep	noun with its own meaning
+Blond	keep	noun for hair colour in examples
+Döbel	keep	fish noun is a real word
+Kitzing	drop	cut-off place name
+Offroad	keep	established loan
+# question Nahost: region name rather than a place name; dropped under the "any place name you still see" rule.
+# question Tr: forms tr/tren could be Träne, Trend and others; no obvious target, so dropped.
+# question ren: forms ren/rene/rend/render are unclear; no obvious target, so dropped.
+# question Blond: the counted text is lower-cased, so adjective vs. noun use can't be told; kept on the basis of the noun example.
+# question Döbel: most forms are the place name Döbeln, but Döbel the fish is a valid noun, so kept.

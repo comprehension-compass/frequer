@@ -1,0 +1,43 @@
+Komisch	merge:komisch	capitalised adjective
+Tauber	drop	river and surname, a proper noun
+anläßlich	merge:anlässlich	old spelling
+tiefst	merge:tief	inflected superlative
+Ratsmitglied	keep	correct singular lemma
+Saarbrücker	drop	derived from the place name Saarbrücken
+Schlegel	keep	real noun (mallet)
+Voldemort	drop	fictional character name
+Constantin	drop	personal name
+Gaumenfreude	keep	lemma is already the singular
+Granger	drop	surname
+Hausbesuche	merge:Hausbesuch	plural filed as lemma
+Heranwachsende	keep	nominalised participle, a noun in its own right
+Musste	merge:müssen	conjugated verb form
+Nee	merge:nee	particle filed under a capitalised lemma
+Ping	keep	established tech loan
+Ibiza	drop	place name
+Maestro	keep	established loan
+recherchiert	merge:recherchieren	participle without its own adjective entry
+Eddie	drop	personal name
+Frontend	keep	established loan
+Sehenswert	merge:sehenswert	capitalised adjective
+Wissenschaftliche	merge:wissenschaftlich	capitalised inflected adjective
+ii	drop	numeral/code, not a word
+Anhöhe	keep	valid noun
+Med	drop	abbreviation
+Mint	merge:mint	colour adjective filed under a capitalised lemma
+Sanierungsmaßnahme	keep	valid noun; ss variant is just a spelling variant
+kämpfe	merge:kämpfen	conjugated verb form
+open	drop	English word
+Fortschreibung	keep	valid noun
+mitversichert	merge:mitversichern	participle, no separate adjective entry
+rat	merge:Rat	noun filed under a lower-case lemma
+seiten	merge:Seite	inflected noun form
+Insoweit	merge:insoweit	capitalised adverb
+Böhmen	drop	place name
+Eingreifen	keep	nominalised infinitive, a noun in its own right
+Emanuel	drop	personal name
+Fränkische	merge:fränkisch	capitalised inflected adjective
+unumstritten	keep	adjective with its own entry
+# question Tauber: the form is lower-case "tauber" 739 times, which could be the adjective taub, but all examples are the river Tauber, so I dropped it as a proper noun.
+# question Saarbrücker: a demonym or place-name adjective, not a place name itself, so the rules do not clearly cover it; I dropped it as place-name derived.
+# question Mint: colour adjective or English loan, and the lemma is not clearly established; I merged it into mint.

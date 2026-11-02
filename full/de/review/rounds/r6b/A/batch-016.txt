@@ -1,0 +1,45 @@
+Angelo	drop	person name
+Platon	drop	person name
+Si	drop	Romance-language word, not German
+Appartment	merge:Apartment	misspelling of the standard spelling
+stoff	merge:Stoff	lower-case noun
+Heilbronner	drop	place-derived form of Heilbronn, which is not on the reviewed list
+Leg	drop	English word
+Mira	drop	person name
+Kantonspolizei	keep	institution-type common noun, established in German
+Rapunzel	drop	fairy-tale character and brand name
+Sog	keep	valid noun
+Telefonisch	merge:telefonisch	adverb filed under a capitalised lemma
+einflussreichsten	merge:einflussreich	inflected superlative
+hän	merge:Hand	cut-off fragment of Hände, the plural of Hand
+scheiss	merge:Scheiße	misspelling, and the examples are mostly noun uses
+spielzeug	merge:Spielzeug	lower-case noun
+spülmaschinenfest	keep	valid adjective, only the POS tag is wrong
+Golfe	merge:golfen	inflected or nominalised verb filed as noun
+Judoka	keep	established loan
+geilst	merge:geil	superlative stem
+rausholen	keep	valid colloquial separable verb
+sooooo	merge:so	elongated spelling
+Auslese	keep	valid noun in its own right
+Haase	drop	surname
+Längst	merge:längst	adverb filed under a capitalised lemma
+Millionenhöhe	keep	valid compound noun
+Reflektion	merge:Reflexion	misspelling
+hochgeladen	merge:hochladen	participle with no entry of its own
+veröffentlich	merge:veröffentlichen	cut-off fragment
+zuwenig	merge:wenig	misspelling of "zu wenig"
+Inka	drop	ethnonym and proper name
+Passauer	drop	place-derived form of Passau, which is not on the reviewed list
+Ram	drop	English word and acronym RAM
+Severus	drop	person name
+begriff	merge:begreifen	conjugated form
+Bondage	drop	English word
+datei	merge:Datei	lower-case noun
+gearbeitet	merge:arbeiten	participle with no entry of its own
+umfasst	merge:umfassen	conjugated form
+Abhängig	merge:abhängig	adjective filed under a capitalised lemma
+# question Appartment: the target could be Appartement or Apartment, and I chose Apartment
+# question scheiss: the lemma could be the adjective or prefix scheiß or the noun Scheiße, and I chose the noun from the examples
+# question zuwenig: the correct form is the two-word "zu wenig", so I merged into wenig
+# question Auslese: the forms are mostly the nominalised verb Auslesen, but Auslese is a real noun, so I kept it
+# question Heilbronner: the rules do not say whether place-derived adjectives or inhabitant forms count as place names, and I dropped it, as I did Passauer

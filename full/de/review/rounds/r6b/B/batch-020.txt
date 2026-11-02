@@ -1,0 +1,43 @@
+duch	merge:durch	dropped letter, misspelling of durch
+nenn	merge:nennen	truncated stem of nennen
+stillgelegt	merge:stilllegen	participle filed as lemma, no separate adjective entry
+vll	merge:vielleicht	abbreviation of vielleicht
+überdeckt	merge:überdecken	inflected participle form
+Fon	drop	brand/fragment, not a learnable lemma
+Pie	keep	established English loan for a baked dish
+anleitung	merge:Anleitung	noun filed in lower case
+funzt	merge:funzen	conjugated colloquial verb form
+green	drop	English word
+Dräger	drop	company name
+Oblivion	drop	English work title
+abgestellt	merge:abstellen	participle filed as lemma
+aufgetreten	merge:auftreten	participle filed as lemma
+fenster	merge:Fenster	noun filed in lower case
+gesteckt	merge:stecken	participle filed as lemma
+tür	merge:Tür	noun filed in lower case
+ändernd	merge:ändern	present participle filed as lemma
+AStA	keep	well-known German university institution (student government)
+Homer	drop	personal name
+IR	drop	abbreviation
+Waldorf	drop	name/brand
+einzigen	merge:einzig	inflected adjective filed as lemma
+Hinsehe	merge:hinsehen	cut-off form of hinsehen
+Systemische	merge:systemisch	adjective filed under a capitalised lemma
+android	merge:Android	noun filed in lower case
+scho	merge:schon	dropped letter, dialect spelling of schon
+Abschreckung	keep	correctly written noun lemma
+Azur	keep	real German noun (the colour azure)
+Capri	drop	place name not on the list
+Ch	drop	abbreviation/code
+Innsbrucker	drop	demonym derived from a place name
+Spaßfaktor	keep	valid compound noun, spelling variants only
+knnt	merge:können	broken encoding of können
+wat	drop	dialect form, mixed with English "water"
+öfteren	merge:öfter	inflected form of öfter
+Entdecke	merge:entdecken	verb form filed under a capitalised lemma
+Erwerbstätige	keep	nominalised adjective, a noun in its own right
+Uno	drop	brand/card game name
+fa	drop	garbled fragment/abbreviation
+# question AStA: abbreviation of a specific institution, but a generic university body rather than a single famous institution; kept as learnable.
+# question android: mostly the OS brand (608 of 623 tokens) with a few Androide forms; merged to Android, but drop is arguable if brands count as other names.
+# question Pie: English loan, unclear whether it counts as an established loan or an English spelling; kept.

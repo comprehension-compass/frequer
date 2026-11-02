@@ -1,0 +1,47 @@
+Höxter	drop	place name not on list
+Malaga	drop	place name not on list
+Partnerorganisation	keep	regular noun; stray variant form is only noise
+gesagt	merge:sagen	participle filed as a lemma
+kreis	merge:Kreis	lower-case noun
+sonn	merge:Sonne	cut-off fragment of Sonne
+Gucci	drop	brand name
+Ludger	drop	personal name
+ansich	merge:an sich	misspelling (written together)
+comdirect	drop	company name
+umhin	keep	real adverb (nicht umhin können)
+Färbe	merge:färben	verb filed under a capitalised lemma
+Kassier	keep	real noun (Swiss/Austrian usage)
+Kent	drop	place or person name
+Piwik	drop	product name
+Seidenstraße	drop	route/place name not on list
+inclusiv	merge:inklusive	misspelling of inklusive
+war	drop	garbled forms with no clear target
+Ausse	merge:außen	garbled form of aussen
+Bahr	drop	surname
+Smoker	keep	established loan (BBQ smoker)
+Trierer	drop	place-derived name
+heise	drop	website/brand name
+kino	merge:Kino	lower-case noun
+mitarbeiter	merge:Mitarbeiter	lower-case noun
+rausgesucht	merge:raussuchen	participle filed as a lemma
+Releas	merge:Release	cut-off form of Release
+Vorbereiten	merge:vorbereiten	verb filed under a capitalised lemma
+ter	drop	meaningless fragment
+ungesättigte	merge:ungesättigt	inflected adjective
+vorraus	merge:voraus	misspelling
+Reed	drop	English name
+ausgestreckt	merge:ausstrecken	participle filed as a lemma
+geförderte	merge:fördern	inflected participle
+po	drop	fragment
+post	merge:Post	lower-case noun; poster/gepost are noise
+tier	merge:Tier	lower-case noun
+vollgepackt	merge:vollpacken	participle filed as a lemma
+Baudenkmäler	merge:Baudenkmal	plural filed as a lemma
+Micky	drop	character name
+
+# question war: forms ware/warden/warem/wares/warer could be Ware, wahr or wäre with a lost umlaut; there are no examples, so no target is clear and I dropped it
+# question ansich: the target "an sich" is two words, so it may not fit as a single lemma
+# question post: the forms mix German Post, the loan Poster and the participle gepost; I chose Post
+# question Seidenstraße: a route name rather than a place proper; I treated it as a place name and dropped it
+# question gesagt: "das Gesagte" is a nominalised participle; I merged it to sagen, but it could be argued as its own entry
+# question vollgepackt: it may count as an adjective with its own entry (like ausgezeichnet), which would make it keep

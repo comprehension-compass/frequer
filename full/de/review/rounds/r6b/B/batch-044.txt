@@ -1,0 +1,45 @@
+fahrbereit	keep	adjective with its own entry; the VERB tag is wrong but the lemma is fine
+kunststoff	merge:Kunststoff	lower-case noun
+politik	merge:Politik	lower-case noun
+sms	keep	established abbreviation and loan, not a specialist acronym
+zeitgerecht	keep	adjective, valid lemma
+Ev	drop	ambiguous abbreviation or fragment
+Grosshandel	merge:Großhandel	ß spelled as ss
+Mathilde	drop	personal name
+Piemont	drop	place name not on the list
+Reig	merge:Reigen	cut-off fragment
+SLS	drop	specialist acronym
+Schüssler	drop	surname
+Streife	keep	ordinary noun
+code	merge:Code	lower-case noun
+gangbang	drop	English vulgar term, not an established loan
+nebenwirkungen	merge:Nebenwirkung	plural filed as lemma
+sympatisch	merge:sympathisch	misspelling
+validiert	merge:validieren	participle filed as lemma
+xx	drop	code or garbage
+Cranberry	keep	established loan
+Einsetzung	keep	valid noun
+Isis	drop	name
+Orga	merge:Organisation	clipping of a listed word
+abgerieben	merge:abreiben	participle form filed as lemma
+Constanze	drop	personal name
+Ebner	drop	surname
+Verrückte	keep	adjectival noun in its own right
+feat	drop	English abbreviation
+flauen	merge:Flaute	mostly forms of the noun Flaute
+sportwetten	merge:Sportwette	plural filed as lemma
+Delphi	drop	place name
+Tarantino	drop	person name
+Zentralschweiz	drop	place name not on the list
+gewissenhafte	merge:gewissenhaft	inflected adjective
+hg	drop	abbreviation
+micro	drop	English word or prefix
+sodaß	merge:sodass	old spelling
+Drift	keep	established loan
+Gulde	merge:Gulden	cut-off form
+Kitzler	keep	valid German noun
+# question sms: lower-case lemma of an established abbreviation; the case rule might call for merge:SMS, but I don't know whether SMS exists as a lemma
+# question Ev: could be ev. (evangelisch) or e.V.; I dropped it as unclear
+# question flauen: the forms are mostly the noun Flaute, but flaute can also be the verb (abflauen); I chose the noun
+# question Drift: the forms mix the noun with driften (verb); I kept it as the noun loan
+# question gangbang: could count as an established loan, but I dropped it as a non-German vulgar term

@@ -1,0 +1,43 @@
+Hanse	keep	historical league, a common noun (die Hanse)
+Kirsch	keep	dictionary noun (Kirsch, short for Kirschwasser), not only a surname
+Kolleg	keep	real noun (Kolleg = lecture course), not a cut-off form
+Liner	keep	established loan (ship, eyeliner)
+Sixt	drop	company name, not a famous institution
+Spielmodi	merge:Spielmodus	plural filed as lemma
+blu	merge:blau	English or garbled spelling of blue
+dezente	merge:dezent	inflected adjective
+Crossover	keep	established loan
+Sylvester	drop	examples are the person's name (Stallone)
+besaufen	keep	real verb (sich besaufen), a valid lemma
+groe	merge:groß	broken encoding of große
+zugegen	keep	real predicative adjective or adverb, tag is just wrong
+Eiserne	merge:eisern	capitalised inflected adjective
+Hue	drop	brand or name
+Westerwelle	drop	person name
+Wright	drop	surname
+Zutun	keep	established nominalised noun (das Zutun)
+dreh	merge:drehen	imperative stem
+gepflastert	merge:pflastern	participle filed as lemma
+kommentar	merge:Kommentar	lower-case noun
+login	merge:Login	lower-case noun
+subventioniert	merge:subventionieren	participle filed as lemma
+Hert	drop	fragment of the place name Herten, which is not on the list
+soetwas	merge:so etwas	misspelling
+ZUKUNFT	merge:Zukunft	all-caps form
+erzähl	merge:erzählen	imperative stem
+passten	merge:passen	conjugated form
+twitterte	merge:twittern	conjugated form
+Artur	drop	personal name
+Chiemgau	drop	place name not on the list
+Ether	merge:Äther	variant spelling
+Haselnuß	merge:Haselnuss	old spelling, mostly plural forms
+Lg	drop	chat abbreviation for a phrase (liebe Grüße), not a single word
+Optionale	merge:optional	capitalised inflected adjective
+beschenkt	merge:Beschenkte	lower-case nominalised participle
+Deaktivier	merge:deaktivieren	cut-off fragment
+Quilt	keep	established loan
+Ston	drop	fragment of the band name Rolling Stones
+Tagblatt	keep	ordinary noun (newspaper title element)
+# question Ether: Ether is also the chemical and crypto term, so it may deserve its own entry rather than a merge into Äther.
+# question beschenkt: the target could be Beschenkte or beschenken; I chose Beschenkte because the examples are nominal.
+# question Sylvester: possible variant of Silvester (New Year's Eve), but all examples are the personal name, so I dropped it.

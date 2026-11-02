@@ -1,0 +1,45 @@
+arbeitend	merge:arbeiten	inflected present participle filed as lemma
+gegossen	merge:gießen	participle filed as lemma
+gespendet	merge:spenden	participle filed as lemma
+tochter	merge:Tochter	lower-case noun
+treiber	merge:Treiber	lower-case noun
+Benutzerdefinierte	merge:benutzerdefiniert	inflected adjective under capitalised lemma
+Bregenzerwald	drop	place name not on list
+Erlanger	drop	place-derived name form
+Hierin	merge:hierin	adverb under capitalised lemma
+Krefelder	drop	place-derived name form
+Mitbürgerin	keep	own feminine entry
+Originalgröße	keep	valid noun; trailing-period variant is only a variant
+abgewandelt	merge:abwandeln	participle filed as lemma
+ausgesetzt	merge:aussetzen	participle filed as lemma
+dusch	merge:Dusche	cut-off or lower-case form of the noun
+geartet	keep	participle adjective with its own dictionary entry
+ordnung	merge:Ordnung	lower-case noun
+Galaxis	keep	valid noun in its own right
+Gmunden	drop	place name not on list
+Maggiore	drop	place name not on list
+Strandnähe	keep	valid noun; strandnahe is a variant
+Winsen	drop	place name not on list
+eintretend	merge:eintreten	present participle filed as lemma
+heikle	merge:heikel	inflected adjective
+tod	merge:Tod	lower-case noun
+turteln	keep	real verb; the counts come from the English brand "Turtle"
+waer	merge:sein	broken encoding of wäre
+Exakt	merge:exakt	adjective under capitalised lemma
+Frick	drop	surname or place name
+Percy	drop	given name
+Wär	merge:sein	contraction of wäre
+automatenspiele	merge:Automatenspiel	lower-case plural noun
+beschämen	keep	real verb, even though most forms are beschämend
+erteilt	merge:erteilen	participle filed as lemma
+gesundheitsfördern	merge:gesundheitsfördernd	cut-off fragment
+ot	drop	meaningless fragment
+rlich	drop	broken fragment, real word not recoverable
+un	drop	meaningless fragment
+vermummen	keep	real (reflexive) verb
+Brent	drop	name or oil benchmark
+
+# question turteln: the frequency is almost entirely the English "Turtle" in brand names, but the lemma itself is a real German verb, so I kept it.
+# question waer: wäre is itself a form of sein, so I merged to sein rather than to wäre.
+# question rlich: the missing letters are not recoverable (ä, ö or ü plus other letters), so I dropped it rather than merged it.
+# question beschämen: most uses are beschämend (an adjective with its own entry), so it could be merged there. I kept it because the verb is valid.

@@ -1,0 +1,44 @@
+Tyler	drop	other personal name
+Anonym	merge:anonym	adjective filed under a capitalised lemma
+RStV	drop	specialist acronym
+Reinbek	drop	place name not on the list
+Wifi	keep	established loan
+freistehen	keep	real verb; the forms freisteht/freigestanden are verbal
+kredit	merge:Kredit	lower-case noun
+Appenzell	drop	place name not on the list
+Tomb	drop	English word
+gekommen	merge:kommen	participle/inflected form filed as lemma
+Doom	drop	English game name
+Spike	keep	established loan (Spikes, spiken)
+Cafe	merge:Café	misspelt plural form
+Isabelle	drop	personal name
+Jost	drop	personal name
+Limburger	drop	adjective derived from a place name
+Pauline	drop	personal name
+Radikale	keep	noun in its own right (freie Radikale)
+bwin	drop	brand name
+Veröffentlich	merge:veröffentlichen	cut-off verb form under a capitalised lemma
+est	drop	garbled fragment with no obvious target
+gesandt	merge:Gesandter	noun filed under a lower-case participle form
+neuestem	merge:neu	inflected adjective form
+stet	keep	adjective with its own dictionary entry (stete, steter)
+udn	merge:und	typo
+Geistliche	keep	noun in its own right
+Lanzarote	drop	place name not on the list
+Schwule	keep	noun in its own right
+Marin	drop	name or unclear fragment
+Roadmap	keep	established loan
+Schnarche	merge:schnarchen	cut-off form of schnarchen
+Surf	drop	English word
+Tropen	keep	plural-only noun
+Verwaltungskosten	keep	plural-only noun
+Überleg	merge:überlegen	cut-off verb form
+Dez	merge:Dezember	abbreviation of a listed word
+Fanpage	keep	established loan
+Finanzmittel	keep	plural-only noun
+Personenkraftwagen	keep	full word, not an abbreviation
+Stundenkilometer	keep	real compound noun
+# question freistehen: the counted text is mostly the adjective freistehend; it is kept as the verb, but merge:freistehend may be intended
+# question Spike: mixed use as a character name, the loan Spikes (shoes) and the verb spiken; kept as an established loan
+# question Limburger: the cheese name is a dictionary noun, but the usage here is mostly the place-derived adjective; dropped
+# question stet: kept as a dictionary adjective, but it could also be read as a form of stetig

@@ -1,0 +1,46 @@
+edit	drop	English word, not German
+mchte	merge:möchte	Broken encoding of möchte
+Organisieren	merge:organisieren	Capitalised verb, written lower-case
+ernannt	merge:ernennen	Participle or past form filed as lemma
+Ausszeichnungssprache	merge:Auszeichnungssprache	Misspelling
+Weiche	keep	Real noun (railway switch)
+Fritzbox	drop	Brand or product name
+Hein	drop	Person name
+Huffington	drop	Name
+druck	merge:Druck	Noun filed as lower-case adjective
+Dominic	drop	Person name
+Lexus	drop	Brand name
+Rüde	keep	Real noun (male dog)
+rock	merge:Rock	Noun filed as lower-case adjective
+zunutze	keep	Needed in the idiom sich zunutze machen, not a broken fragment
+Dominique	drop	Person name
+Sperre	keep	Correct noun lemma
+dellen	merge:Delle	Lower-case noun; plural and variant forms
+schaun	merge:schauen	Colloquial spelling of schauen
+Qualifying	keep	Established loan in motorsport German
+erfasste	merge:erfassen	Inflected participle form
+weiber	merge:Weib	Lower-case noun, plural form
+AAA	drop	Code or abbreviation
+Steig	merge:steigen	Verb forms filed as noun
+Walt	drop	Mostly the name Walt
+li	drop	Garbled fragment with no clear target
+zunichte	keep	Needed in the idiom zunichte machen
+Lüdenscheid	drop	Place name not on the list
+begrüsst	merge:begrüßen	Swiss spelling of an inflected form
+mia	drop	Name or garbled form
+äusser	merge:äußere	Swiss-spelled adjective stem; inflected forms
+HA	drop	Abbreviation
+Hacke	keep	Real noun lemma
+Pietro	drop	Person name
+Zeppelin	keep	Established common noun (airship)
+boden	merge:Boden	Noun filed as lower-case adjective
+Einschreibe	merge:Einschreiben	Cut-off fragment
+Glücklicherweise	merge:glücklicherweise	Adverb filed capitalised
+nummeriert	merge:nummerieren	Participle filed as lemma
+weihnachten	merge:Weihnachten	Noun filed lower-case as verb
+# question mchte: the real word is möchte, but it is itself a form of mögen, so the target could be möchten or mögen
+# question zunutze: only occurs inside the idiom sich zunutze machen and has no merge target, so I kept it rather than drop or merge a fragment
+# question zunichte: same case as zunutze; I kept it because the idiom zunichte machen is learnable
+# question li: garbled forms (li, lis, lien, lider) with no clear target, so dropped rather than merged
+# question äusser: the correct lemma is probably äußere (or äußer-), and the ss spelling is Swiss; unclear which dictionary form the list uses
+# question Walt: written forms are mostly the name Walt, but walten (41) is a verb, so merge:walten was possible

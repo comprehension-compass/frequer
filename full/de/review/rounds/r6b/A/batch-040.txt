@@ -1,0 +1,44 @@
+Friedrichsdorf	drop	place name not on the reviewed list
+Gruppenreisen	merge:Gruppenreise	plural filed as lemma
+Hulk	drop	character name
+Melder	keep	real noun (alarm or detector, person who reports)
+Sozial	merge:sozial	adjective filed under a capitalised lemma
+Unbewusst	keep	nominalised "das Unbewusste" is a noun in its own right
+erstellt	merge:erstellen	participle filed as lemma
+reglementiert	merge:reglementieren	participle filed as lemma
+Erzeuge	merge:erzeugen	verb form filed under a capitalised lemma
+Forza	drop	foreign word and game/magazine name
+Franck	drop	person name
+LPG	drop	specialist acronym
+Lesen	keep	nominalised infinitive, a noun in its own right
+Rosi	drop	person name
+Til	drop	name or fragment
+bewussten	merge:bewusst	inflected adjective
+freude	merge:Freude	lower-case noun
+twitter	merge:twittern	brand name used as a verb; inflected forms filed as lemma
+umringt	merge:umringen	participle filed as lemma
+überlegt	merge:überlegen	participle filed as lemma
+Azor	drop	cut-off fragment of Azoren, a place name not on the list
+Deloitte	drop	company name
+Dreißigjährige	merge:dreißigjährig	inflected adjective filed under a capitalised lemma
+Schwarzkopf	drop	brand or surname
+Shopware	drop	product name
+Toxine	merge:Toxin	plural filed as lemma
+Tusch	keep	real noun (fanfare), distinct from Tusche
+jap	merge:ja	colloquial spelling of ja
+vereisen	keep	dictionary-form verb
+Barsch	keep	real noun
+Eldorado	keep	common noun
+Freske	merge:Fresko	plural fresken filed under a variant singular
+Hut	keep	real noun
+Pickup	keep	established loan
+Sauge	merge:saugen	verb form filed under a capitalised lemma
+bezwungen	merge:bezwingen	participle filed as lemma
+flasch	merge:Flasche	garbled form of Flasche
+geschlagen	merge:schlagen	participle filed as lemma
+hälfte	merge:Hälfte	lower-case noun
+imo	drop	chat abbreviation
+# question Unbewusst: the lemma is spelled as an adjective, but all examples show the nominalised noun, so I kept it; the correct spelling would be Unbewusste.
+# question Azor: it is a fragment of Azoren (merge normally applies to fragments), but Azoren is a place name not on the list, so I dropped it.
+# question Freske: Freske is a rare variant of Fresko, and the forms are mostly the plural fresken, so I merged it into Fresko.
+# question twitter: the brand name and the verb twittern are mixed, so I merged it into the verb.

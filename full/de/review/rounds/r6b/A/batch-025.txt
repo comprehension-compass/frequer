@@ -1,0 +1,45 @@
+Gewächse	merge:Gewächs	plural form filed as lemma
+Häkel	merge:häkeln	verb filed under a capitalised lemma
+Schenke	merge:schenken	verb filed under a capitalised lemma; all tokens are the verb
+Zuständig	merge:zuständig	adjective filed under a capitalised lemma
+geglaubt	merge:glauben	participle with no adjective entry of its own
+Meerbusch	drop	place name not on the list
+Müsste	merge:müssen	conjugated verb form
+Tallinn	drop	place name not on the list
+eingespeist	merge:einspeisen	participle
+versand	merge:Versand	noun filed under a lower-case lemma
+Aussteig	merge:aussteigen	truncated verb form
+herausgefordert	merge:herausfordern	participle
+selbstfahren	merge:selbstfahrend	cut-off fragment of selbstfahrend
+Ref	drop	clipping with unclear source word (Referenz/Referee)
+anwendung	merge:Anwendung	noun filed under a lower-case lemma
+lieferung	merge:Lieferung	noun filed under a lower-case lemma
+ring	merge:Ring	noun filed under a lower-case lemma
+tagesaktuellen	merge:tagesaktuell	inflected adjective form
+Trennen	merge:trennen	verb filed under a capitalised lemma
+co	drop	fragment/abbreviation
+nummer	merge:Nummer	noun filed under a lower-case lemma
+Maggie	drop	first name
+Profitier	merge:profitieren	truncated verb form
+Zumba	keep	established loan/trademark word for a fitness class
+gehend	merge:gehen	participle fragment, no lemma of its own
+schluss	merge:Schluss	noun filed under a lower-case lemma
+uraufgeführt	merge:uraufführen	participle
+Augenlider	merge:Augenlid	plural of Augenlid
+Dormagen	drop	place name not on the list
+Frederik	drop	personal name
+Soli	keep	established colloquial word (Solidaritätszuschlag) and plural of Solo
+dazugehört	merge:dazugehören	conjugated verb form
+dos	drop	garbled English "do's", not a German lemma
+Isabell	drop	personal name
+Liebherr	drop	company name, not a famous institution
+Microfaser	merge:Mikrofaser	English-style spelling of an adapted word
+Raid	drop	brand/English word
+vergrössern	merge:vergrößern	Swiss spelling
+Halberstadt	drop	place name not on the list
+Valle	drop	place/surname, Spanish word
+
+# question Ref: unclear whether it clips Referenz, Referee or Referent, so no single merge target; dropped.
+# question Soli: kept as the colloquial word for Solidaritätszuschlag, though it could instead be merged as the plural of Solo.
+# question Zumba: kept as a loan, though it is a trademark.
+# question gehend: the tokens are probably from compounds such as weitgehend; merged to gehen, but may be better dropped.

@@ -1,0 +1,43 @@
+äußere	keep	attributive-only adjective; dictionaries list äußere as the headword
+Rogg	merge:Roggen	cut-off form; 562 of 599 tokens are already roggen
+tiefe	merge:tief	inflected adjective form
+Mnner	merge:Mann	broken encoding of Männer, plural of Mann
+beispielweise	merge:beispielsweise	misspelling
+cum	drop	Latin word, not learnable German
+Ettling	drop	place name not on the reviewed list
+ausgerüstet	merge:ausrüsten	inflected participle forms, no separate adjective entry
+hie	drop	archaic/dialect fragment
+training	merge:Training	English spelling, lower-case noun
+willigen	drop	garbled fragment; source verb is not clear
+obs	drop	abbreviation or fragment
+radio	merge:Radio	lower-case noun
+Gend	merge:Gender	cut-off form
+Mana	drop	Polynesian or gaming term, not an established loan
+ler	drop	garbled fragment
+Crema	keep	established coffee loan in German use
+Mon	drop	garbled fragment
+Reparier	merge:reparieren	imperative stem filed under a capitalised lemma
+Stärkere	merge:stark	capitalised inflected comparative
+ag	drop	abbreviation or fragment
+Retrospektiv	merge:Retrospektive	inflected form of the noun
+lesben	merge:Lesbe	lower-case plural noun
+vorgesetzt	merge:Vorgesetzter	lower-case nominalised participle
+Aussenbereich	merge:Außenbereich	variant spelling (ss for ß)
+Avenger	drop	name (Marvel characters)
+IB	drop	abbreviation
+Macintosh	drop	brand name
+flächendecken	merge:flächendeckend	cut-off lemma
+umgebung	merge:Umgebung	lower-case noun
+vorlagen	merge:Vorlage	lower-case form, most likely the plural of Vorlage
+Michi	drop	first name
+getränkt	merge:tränken	participle with no adjective entry of its own
+Burgund	drop	place name not on the reviewed list
+weile	merge:Weile	lower-case noun
+Woody	drop	name
+event	merge:Event	lower-case noun
+grüß	merge:grüßen	imperative form
+kleidung	merge:Kleidung	lower-case noun
+Doha	drop	place name not on the reviewed list
+# question äußere: the base äußer- is not a standalone adjective, so I kept äußere as the headword instead of merging into äußer
+# question willigen: forms like willige/willigt/willigte could come from einwilligen, bewilligen or others, so I dropped it as an unclear fragment
+# question vorlagen: could be the plural of Vorlage or the past of vorliegen; I chose Vorlage because the tokens are lower-case and the form is ambiguous

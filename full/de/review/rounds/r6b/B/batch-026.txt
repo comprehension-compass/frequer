@@ -1,0 +1,44 @@
+vater	merge:Vater	lower-case noun
+Bub	keep	established regional noun
+Dips	merge:Dip	English plural of Dip
+Kopierer	keep	ordinary noun (device)
+Oberhalb	merge:oberhalb	capitalised preposition
+Rotary	keep	famous organisation
+cc	drop	specialist abbreviation
+gebissen	merge:beißen	participle with no adjective entry
+wetter	merge:Wetter	lower-case noun
+Koi	keep	established loan word
+Scherer	drop	surname in the examples
+zusammengetan	merge:zusammentun	participle
+Alster	drop	place name (river)
+Fernost	drop	region/place name
+Ivo	drop	personal name
+Netzwerkes	merge:Netzwerk	inflected genitive
+Quer	merge:quer	capitalised adverb
+Revival	keep	established English loan
+Südtirols	drop	place name
+sicht	merge:Sicht	lower-case noun
+stumpfen	merge:stumpf	inflected adjective
+Spielende	keep	noun in its own right (end of game)
+Elbphilharmonie	keep	famous institution
+Kapitalerträge	merge:Kapitalertrag	plural filed as lemma
+Umschalte	merge:umschalten	nominalised infinitive, verb lemma cut off
+Unity	drop	brand/English name
+edition	merge:Edition	lower-case noun
+Babie	merge:Baby	misspelt plural
+warscheinlich	merge:wahrscheinlich	misspelling
+wellen	merge:Welle	mixed forms, mostly noun and adjective
+Geiler	merge:geil	capitalised inflected adjective
+Kelheim	drop	place name
+Lawrow	drop	person name
+Oberpfälzer	drop	demonym from a region not on the list
+Swatch	drop	brand name
+auswahl	merge:Auswahl	lower-case noun
+Aufwärme	merge:aufwärmen	broken lemma, text shows aufwärmen
+Kovac	drop	surname
+Mien	merge:Miene	dropped letter
+augen	merge:Auge	lower-case noun plural
+# question Rotary: famous institution (keep) or ordinary organisation name (drop)?
+# question wellen: the verb wellen is real but rare, and the forms are mostly noun Welle and adjective gewellt; merged to Welle.
+# question Oberpfälzer: demonym adjective from a region name; no rule covers it, dropped as place-derived.
+# question Spielende: could be read as a nominalised participle (players) or the noun Spielende (end of game); kept.

@@ -1,0 +1,45 @@
+Hanse	keep	historical league, a common noun in its own right
+Kirsch	drop	mostly surname or ambiguous name form
+Kolleg	keep	real noun (Kolleg, lecture course or school type), not just a cut-off Kollege
+Liner	keep	established loan
+Sixt	drop	company name, not a famous institution
+Spielmodi	merge:Spielmodus	plural filed as lemma
+blu	merge:blau	truncated English spelling of blue
+dezente	merge:dezent	inflected adjective
+Crossover	keep	established loan
+Sylvester	drop	personal name (Stallone)
+besaufen	keep	pronominal verb (sich besaufen) is a valid lemma
+groe	merge:groß	broken encoding
+zugegen	keep	real predicative adjective/adverb, tag is wrong but the word is fine
+Eiserne	merge:eisern	capitalised inflected adjective
+Hue	drop	brand or name
+Westerwelle	drop	person name
+Wright	drop	surname
+Zutun	keep	established noun (ohne mein Zutun)
+dreh	merge:drehen	imperative stem
+gepflastert	merge:pflastern	participle filed as lemma
+kommentar	merge:Kommentar	lower-case noun
+login	merge:Login	lower-case noun
+subventioniert	merge:subventionieren	participle filed as lemma
+Hert	drop	fragment, forms are mostly the place name Herten
+soetwas	merge:so etwas	misspelling
+ZUKUNFT	merge:Zukunft	all-caps form
+erzähl	merge:erzählen	imperative stem
+passten	merge:passen	conjugated form
+twitterte	merge:twittern	conjugated form
+Artur	drop	personal name
+Chiemgau	drop	place name not on the list
+Ether	keep	chemistry term (modern spelling of Äther)
+Haselnuß	merge:Haselnuss	old spelling, mostly plural forms
+Lg	drop	abbreviation (liebe Grüße), not a listed word
+Optionale	merge:optional	capitalised inflected adjective
+beschenkt	merge:Beschenkte	nominalised participle noun filed in lower case
+Deaktivier	merge:deaktivieren	cut-off fragment
+Quilt	keep	established loan
+Ston	drop	fragment of the English band name Stones
+Tagblatt	keep	ordinary common noun
+# question Kirsch: forms include kirsche and kirschs; it could be the spirit (Kirsch) or a surname, and I dropped it as a surname.
+# question Sixt: a famous company, but the rules say other names drop; I treated it as not a famous institution.
+# question besaufen: most tokens are besoffen (an adjective with its own entry); I kept the lemma besaufen and did not merge.
+# question Hanse: proper-noun use dominates (Hanse Merkur), but the historical league is a common noun, so I kept it.
+# question beschenkt: could instead be merged to beschenken; I chose the nominalised noun Beschenkte.

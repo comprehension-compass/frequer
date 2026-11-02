@@ -1,0 +1,45 @@
+Prüfe	merge:prüfen	capitalised imperative filed as a noun
+abgelehnt	merge:ablehnen	inflected participle with no entry of its own
+Petersen	drop	surname
+Tübinger	drop	place-derived name, Tübingen is not on the list
+aktualisiert	merge:aktualisieren	inflected participle
+gelangt	merge:gelangen	inflected verb form
+revidiert	merge:revidieren	inflected participle
+Eyecatcher	keep	established loan
+Perl	drop	programming language or surname, not a learnable word
+Playboy	keep	established loan with a Duden entry
+Qigong	keep	established foreign word
+bindend	keep	adjective with its own entry
+gepresst	merge:pressen	inflected participle
+tasch	merge:Tasche	cut-off fragment
+Additiv	keep	valid noun
+heren	drop	garbled, no obvious target
+whatsapp	drop	brand name
+Pharao	keep	ordinary noun
+eingeschaltet	merge:einschalten	inflected participle
+getreten	merge:treten	inflected participle
+Beitragzitat	drop	forum template artifact
+Drüse	keep	valid noun; the "drusen" forms are only spelling variants
+carte	drop	fragment of the French "à la carte"
+AktG	drop	specialist abbreviation
+Ash	drop	name or English word
+Dolce	drop	Italian word or brand
+Grübel	merge:grübeln	fragment of the verb
+Lumen	keep	valid noun and unit
+Proxy	keep	established IT loan
+Zapfe	merge:Zapfen	cut-off noun fragment
+Biet	merge:bieten	cut-off fragment
+LK	drop	abbreviation
+aufgeräumt	keep	adjective with its own entry
+hineingehen	keep	valid separable verb lemma
+Jesaja	drop	biblical name
+blowjob	merge:Blowjob	lower-case noun
+deluxe	keep	established loan
+gewicht	merge:Gewicht	lower-case noun
+schlampen	keep	valid verb with its own entry
+stehn	merge:stehen	misspelt colloquial form
+# question Tübinger: the form is a place-derived adjective or noun, so I dropped it as a place name; a reviewer could instead merge it away or keep it as an adjective.
+# question whatsapp: the rules do not say whether a common brand-turned-verb is an "established loan"; I dropped it as a brand name.
+# question gewicht: the screener tags it as a verb form of gewichten, but the forms gewicht, gewichte and gewichtes read more like the noun Gewicht, so I merged it there.
+# question schlampen: the lemma is tagged ADJ but the forms mix the noun Schlampe with the verb schlampen; I kept it as the verb.
+# question Playboy: it could count as a brand name, but I kept it as an established loan noun.

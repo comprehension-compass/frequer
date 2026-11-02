@@ -1,0 +1,45 @@
+schoen	merge:schön	transliterated spelling of schön
+ungefragt	keep	adverb/adjective with its own dictionary entry
+Impotenz	keep	ordinary noun
+Zöger	merge:zögern	cut-off form of zögern
+einsatz	merge:Einsatz	lower-case noun
+Birk	merge:Birke	truncated form of Birke
+Mc	drop	name prefix with no target lemma
+Nachfahr	merge:Nachfahre	truncated form of Nachfahre
+darber	merge:darüber	broken encoding
+gestanden	keep	adjective "gestanden" has its own entry
+niedergelassen	keep	adjective with its own entry (niedergelassener Arzt)
+sG	drop	abbreviation
+ähm	keep	established interjection
+Currywurst	keep	common dish noun
+Qualcomm	drop	company name
+Vorpommern	drop	place name not on list
+Wohn	drop	fragment of Wohn- compounds with no single target
+dildo	merge:Dildo	lower-case noun
+gechipt	merge:chippen	participle
+vermindert	merge:vermindern	participle, no clear separate entry
+Bernau	drop	place name not on list
+iPads	merge:iPad	plural of a product name
+Älteste	keep	nominalised adjective, noun in its own right
+Österreichischer	merge:österreichisch	inflected adjective, capitalised
+Schwarzwälder	keep	noun/adjective form in its own right (Schwarzwälder Torte), not a place name
+aufgelegt	keep	adjective with its own entry (gut aufgelegt)
+deko	merge:Dekoration	clipping of a listed word
+Gebrüder	keep	plural with its own meaning (company names)
+Tauer	drop	Tauern is a place name (mountain range) not on list
+Treu	merge:treu	adjective under capitalised lemma
+ausgeübt	merge:ausüben	participle
+infiziert	merge:infizieren	participle
+magazin	merge:Magazin	lower-case noun
+verstrickt	merge:verstricken	participle
+Kelt	merge:Kelte	truncated form of Kelte
+Pflegende	keep	nominalised participle, noun in its own right
+Predigt	keep	valid singular lemma
+solang	merge:solange	conjunction fragment
+GE	drop	code/abbreviation
+gewaschen	merge:waschen	participle
+
+# question Wohn: fragment of Wohn- compounds with no single dictionary form; dropped rather than merged, though the rules say fragments are merged
+# question Tauer: if Tauern should count as a learnable noun (mountain range) rather than a place name, it would be keep
+# question Pflegende: kept as a nominalised participle noun; Älteste is treated the same way, but the rules do not say whether such forms should merge to pflegen or alt
+# question vermindert: unclear whether the adjective has its own entry; merged to vermindern

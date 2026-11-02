@@ -1,0 +1,45 @@
+Fuji	drop	place name/brand, not on the reviewed list
+Schwab	drop	surname
+Phantasien	merge:Phantasie	plural filed as lemma
+geschicht	merge:Geschichte	garbled form, nearly all counts are geschichte
+gewiß	merge:gewiss	old spelling
+verlobt	merge:Verlobte	all examples are the noun, filed in lower case
+vors	keep	standard contraction of vor das
+Lik	merge:Like	cut-off fragment, counts are mostly likes
+Per	drop	garbled, no clear target
+Pico	drop	name or non-German word
+beworben	merge:bewerben	participle without an adjective entry of its own
+option	merge:Option	lower-case noun
+unsern	merge:unser	colloquial inflected form
+versch	merge:verschieden	abbreviation or fragment of verschieden
+Heb	merge:heben	counts are mostly heben
+Mila	drop	given name
+content	drop	English word, not an established loan
+zustzlich	merge:zusätzlich	broken encoding
+kreuz	merge:Kreuz	lower-case noun
+Mick	drop	given name
+exponieren	merge:exponiert	inflected adjective forms filed as a verb
+gleichmässig	merge:gleichmäßig	Swiss spelling
+verregnen	merge:verregnet	forms are the adjective verregnet
+HABEN	merge:haben	capitalised form
+geschildert	merge:schildern	participle with no adjective entry of its own
+Pandora	drop	name or brand
+läd	merge:laden	garbled or conjugated form
+weils	merge:weil	contraction written without its apostrophe (weil's)
+Füttern	merge:füttern	verb filed under a capitalised lemma
+Woods	drop	surname
+Charakteristisch	merge:charakteristisch	adjective under a capitalised lemma
+Eiffelturm	drop	landmark name, not on the reviewed list
+Energetische	merge:energetisch	capitalised inflected adjective
+ind	drop	fragment with no clear target
+optionen	merge:Option	plural of Option
+sohn	merge:Sohn	lower-case noun
+unserm	merge:unser	colloquial inflected form
+ver	drop	prefix fragment
+Rhodo	drop	place name (Rhodos)
+ig	drop	suffix fragment
+
+# question verlobt: the forms are the noun Verlobte/Verlobter, but the adjective verlobt also has its own entry, so keep is possible
+# question vors: contractions are not explicitly covered by the rules, so I kept it as a standard form
+# question Eiffelturm: it is a landmark with a plural (Eiffeltürme) rather than a plain place name, so the place-name rule may not apply
+# question versch: the target verschieden is a guess from the abbreviation, and the 4 counts of verschr are unexplained
