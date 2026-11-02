@@ -1,0 +1,483 @@
+# question AG: Aktiengesellschaft may not be on the list, so I dropped it as an abbreviation instead of merging
+# question AG: abbreviation of Aktiengesellschaft; kept as an established everyday abbreviation, but it could count as a specialist acronym
+# question AGBs: AGB is plural-only and may not be on the list as its own lemma; I chose merge:AGB.
+# question Aal: counts are dominated by the city Aalen, but the lemma Aal is a valid noun; I kept it.
+# question Affiliate: borderline between marketing jargon and an established loan. I dropped it.
+# question Anm: I assumed Anmerkung is on the list; if it is not, the abbreviation should be dropped.
+# question Arcade: The examples are mostly English names, but the plural arcaden suggests the architectural sense, so I merged it into Arkade.
+# question Arcade: forms may partly be the adapted word Arkade (plural arcaden), but most uses are English.
+# question Au: Interjection "au" is a real word but the data shows no examples; dropped.
+# question Automotiv: the drop is a judgement call. Automotive is used in German job ads as an English loan, but it is mostly a sector label, not an established word.
+# question Außergewöhnliche: nominalised "etwas Außergewöhnliches" could count as a noun in its own right; merged because the counted forms are mostly lower-case inflected adjectives
+# question BH: Lkw and BH are abbreviations but ordinary spoken words; kept rather than merged or dropped, though the screener compared Lkw to excluded Kfz
+# question BH: abbreviation of Büstenhalter, unclear whether that word is on the list (dropped)
+# question BMI: very common in everyday German, but I treated it as a specialist acronym and dropped it.
+# question BMI: widely known, so I kept it, but it could count as a specialist acronym and be dropped
+# question BVerfG: abbreviation of a famous institution (Bundesverfassungsgericht); keep as a famous institution or merge/drop as an abbreviation?
+# question Bamberger: it is a demonym and the adjective of a place name, and the rules don't cover demonyms; dropped
+# question Band: the attested form "bandes" fits der Band, das Band and die Band, so the gender is unclear; kept as a valid noun lemma.
+# question Band: the bare lemma Band has several genders and senses, and only "bandes" was counted; I kept it.
+# question Basics: it is a plural loan with no common singular; I kept it as an established loan.
+# question Bemühe: written forms are noun forms (Bemühen, Bemühens), so I merged to the noun Bemühen rather than the verb bemühen.
+# question Besondere: the dictionary adjective headword is "besonder" or "besondere", and I'm not sure which one is on the list.
+# question Besondere: the dictionary form is unclear (besonder vs besonders), so I chose besonder
+# question Bj: Baujahr may be on the list, in which case this should be merge:Baujahr
+# question Blogg: surface forms are mostly the verb/nominalised bloggen, but the noun Blog also occurs; chose bloggen as the dominant form
+# question Blowjob: the rules don't say whether vulgar loans stay in a learner list
+# question Bonner: same as Mainzer, a place-derived adjective, dropped.
+# question Bordeaux: also a wine and a dog breed (Bordeauxdogge), but the examples are mostly the place name, so dropped
+# question Borke: lemma is a valid noun but the counts come from the town Borken, so I kept it on the strength of the word itself
+# question Brandenburger: place-derived adjective/inhabitant noun is not a place name itself; dropped as a name derived from an unlisted place.
+# question Braunschweiger: demonym adjectives from place names (Braunschweiger, Allgäuer, Osnabrücker) are not covered explicitly; I treated them like place names and dropped them.
+# question Braunschweiger: the rules cover place names, not adjectives derived from them (also Allgäuer, Osnabrücker); I treated them as place-derived and dropped them.
+# question Brüsseler: A place-derived adjective could merge into the place name, but Brüssel is not on the list, so I dropped it. Vorarlberger is handled the same way.
+# question Brüsseler: place-derived adjective; should it merge into Brüssel instead of dropping if Brüssel is on the reviewed list?
+# question Buddha: a religious figure's name, but also a common noun (a Buddha statue); kept on that basis, though "other names drop" could apply
+# question CA: the example is California (CA), but the forms are mostly "ca." = circa, and I assumed circa is on the list.
+# question CA: the example is the US state abbreviation (CA 94043), but the forms are ca; I merged it to circa on the "abbreviation of a listed word" rule.
+# question CL: units cl and ml (and wk, HG) are unclear in the abbreviation rule; dropped as abbreviations not clearly tied to a listed word.
+# question Char: "char/chars" looks like English or programming usage, but a rare German "Char" (fish) is possible; I dropped it.
+# question Char: unclear whether Char (fish) or fragment of English "chars"; dropped
+# question Charts: could be merged into Chart, but it is effectively plural-only in use. I kept it.
+# question Charts: the singular Chart is rare, so I kept the plural; merge:Chart is the alternative
+# question Cop: slang loan; borderline between established loan and English word, so I kept it
+# question Cop: the English slang word is borderline as an established loan; I chose keep.
+# question Dino: may be a clipped form of Dinosaurier (merge) or a name; kept as an established colloquial word
+# question Disc: could be a variant of Disk or an English loan, and no example sentence was available
+# question Disc: no examples are available; I could not tell whether it is an established loan (Blu-ray Disc), so I dropped it.
+# question Diversity: English word widely used in German corporate texts; unclear whether it counts as an established loan.
+# question Diversity: Unclear whether it is an established loan or an English spelling. I kept it because corporate German uses it as it is.
+# question Drum: could be the colloquial "drum" (darum) or the English "drum(s)"; neither is clearly learnable, so dropped
+# question Drum: it might count as an established loan in music contexts, but the examples were not available; I dropped it.
+# question Dunkle: forms dunkeln/dunklen come from "im Dunkeln" (noun Dunkel), though an adjective dunkel is also possible.
+# question EC: could be a specialist acronym or the common EC-Karte; dropped as an abbreviation
+# question EM: merged into Europameisterschaft on the assumption that it is on the list; if not, EM may be better kept as a common abbreviation.
+# question EM: unclear whether Europameisterschaft is on the list; merged on the assumption that it is
+# question Edeka: Rules say famous institutions keep, but not whether major companies count. I kept Edeka and Swisscom as such.
+# question Edeka: company/brand names are not explicitly covered; kept as a famous institution, while Swisscom was dropped, so this may be inconsistent.
+# question Emde: it is a fragment of Emden, but Emden is a place name not on the list, so merging would only point to a dropped lemma; I dropped it.
+# question EnBW: companies are not covered by the "famous institutions" rule; dropped EnBW, Medion and Playtech as other names.
+# question EnBW: major regional energy company; unclear whether it counts as a famous institution; dropped.
+# question Ergo: the screener flagged it as a company name, but the forms fit the Latin loan adverb; I chose keep.
+# question Eurojackpot: a specific lottery name, so it could count as a product name; I kept it as a common noun.
+# question FH: could merge into Fachhochschule if that is listed; dropped as an abbreviation
+# question FH: it is unclear whether Fachhochschule is on the list, and whether FH counts as an established abbreviation to keep.
+# question FR: the examples were not available, so merging into für rests on the form "fr" with the umlaut lost, as in whrend.
+# question Fallout: mostly the game title in examples, but the noun is also in German use; kept
+# question Fed: it is a short form of a famous institution, but the rules also drop abbreviations; I kept it.
+# question Finn: could also be read as a first name (drop); I kept it as the nationality noun.
+# question Finn: could be the nationality (merge:Finne) or a given name; the written forms (finn, finns) suggest the name, so I dropped it.
+# question Flip: Duden lists Flip (a drink, a jump), but the examples are product or name uses; dropped.
+# question Flip: Flip may be a borrowed word, but the evidence is a product label; I dropped it.
+# question Folgende: unclear whether "folgend" exists as a lemma, or whether the participial adjective should fold into the verb folgen
+# question Folk: the screeners doubted it, but Folk is in Duden as a loan; kept.
+# question Franken: the examples show the currency, so I kept it; the region sense would be a place name and a drop
+# question Freu: the lemma for freuen could be "sich freuen" (pronominal) rather than "freuen"; merged to the plain verb
+# question Freu: the lemmatiser keeps pronominal verbs as "sich freuen", but the form is a bare imperative; I merged to "sich freuen" rather than "freuen".
+# question Friede: dictionary form is also Frieden, but Friede is a legitimate lemma; the surface form frieder is mostly the first name Frieder
+# question Friede: it is the variant of Frieden, but the rules say not to merge words that are merely listed together; the forms also include the name Frieder.
+# question Fu: the written forms fu/fuen suggest a lost ß (Fuß/Füßen), but it could also be a fragment; I merged it to Fuß.
+# question Füsse: counted forms are mostly "füssen", which may be the town Füssen; merged to Fuß as the plural/Swiss spelling.
+# question Geschäftsleute: could be a plural of Geschäftsmann/-frau (merge) or a plural-only noun like Leute (keep); I kept it.
+# question Glut: written forms are mostly Gluten (the protein, a noun in its own right), but the lemma Glut is also a real word; I kept it.
+# question Gr: could be a cut-off of "groß" or "Größe", or an abbreviation; no clear target, so dropped
+# question Grazer: a demonym or adjective derived from a place name; the rules cover only place names, so I treated it as a drop
+# question Grazer: could count as a demonym noun like Niederländer, but I dropped it since Graz is not on the list
+# question Grundkenntnis: it occurs almost only in the plural; I kept it as a plural-only noun, but the singular form is in the lemma.
+# question Gute: the nominalised use ("Alles Gute") might justify keeping it as a noun, but most written forms are lower-case adjectives
+# question Hamburger: it could also be the food noun, but all the examples are the demonym
+# question Heidelberger: rules do not say whether demonyms (Heidelberger, Aachener, Bochumer, Mannheimer) count as place names; I dropped all four.
+# question Heidelberger: the rules cover place names but not demonyms; I dropped all the -er demonyms (Heidelberger, Aachener, Bochumer, Mannheimer) as place-derived proper forms.
+# question Helles: the lemma is really "heller" in the text, and the examples are the surname Heller; unclear whether to merge to hell, so I dropped it.
+# question Helles: the written form is "heller", used as a surname (Heller) here; the beer noun "Helles" is not attested, so dropped.
+# question Hl: could be Hektoliter or heilig, so I dropped it rather than guess a merge target
+# question Hl: heilig versus Hektoliter is unclear, so I chose drop
+# question Hoster: borderline loan; dropped as not established.
+# question Huawei: well-known brand; treated as an "other name" and dropped
+# question Huawei: well-known company; unclear whether famous companies count as famous institutions (dropped)
+# question Hunderttausende: spelled-out number compounds have no explicit rule, so I kept it as a nominalised plural
+# question Hyundai: it is a brand, and the rules do not say whether a brand counts as a famous institution; I dropped it, as I did Lenovo.
+# question Hz: the rules cover abbreviations of listed words, but it is also a specialist unit. Merged to Hertz.
+# question Höchste: merged to hoch, but höchst could also count as its own entry.
+# question IM: it is unclear whether im is itself a lemma or should be merged into in; I merged to im.
+# question IP: it is widely used (IP-Adresse), so it may count as an established loan; I dropped it as a specialist acronym.
+# question Jakobsweg: it could count as a route name, but it is a common noun with plural forms; kept
+# question Jakobsweg: it is a well-known pilgrimage route and a common compound, so it may count as a learnable word rather than a place name
+# question Joche: Merging into Joch would be wrong given the Jochen name evidence; dropped.
+# question Jupiter: "other names drop" may cover planet names, but I treated it as a dictionary word and kept it
+# question Jupiter: a planet and god name, not a place or a person; I treated it as an "other name" and dropped it
+# question Juso: Short form of Jungsozialist and a party-youth-wing term; unclear whether it counts as an abbreviation or an organisation name. I kept it as an established common noun.
+# question Jüngere: kept Mächtige as a noun but merged Jüngere into jung, because it is a comparative; the rules do not say how to treat nominalised adjectives
+# question Jüngste: it is an inflected superlative, but as a nominalised person noun (die Jüngste) I treated it as a noun in its own right; merge:jung is the alternative.
+# question Jüngste: the examples are nominalised (die Jüngsten), which could be a noun in its own right; I treated it as an inflected superlative of jung.
+# question KW: could be Kalenderwoche or Kilowatt, no clear single listed word; dropped as an abbreviation.
+# question KW: could be Kalenderwoche or Kilowatt; dropped as an abbreviation either way.
+# question KZ: abbreviation of a word that may not be on the list; kept as a well-known German term
+# question KZ: whether an abbreviation like KZ counts as an established word or a mere abbreviation of Konzentrationslager is not clear; I kept it.
+# question Karlsruher: place-name adjectives are not covered explicitly; dropped on the assumption that the place-name rule extends to them.
+# question Karlsruher: the rules do not say whether an adjective derived from a place name counts as a place name. I dropped it.
+# question Kasseler: it is also a noun for the pork dish and for residents, but the data shows mostly the place adjective; I dropped it as place-derived.
+# question Kat: it could be Katalysator or Katze, and the forms kates and kats fit either; I chose Katalysator.
+# question Kat: unclear whether Kat stands as its own clipped-form entry; merged into Katalysator, though Katze is possible.
+# question Kehl: the forms mix the city Kehl with the noun Kehle (602 uses). I dropped it as a place name, but Kehle should be checked against the list.
+# question Kehl: the lemma is also the place name Kehl, but most forms are kehl/kehle (throat), so I merged it into Kehle instead of dropping it as a place name.
+# question Kg: assumes Kilogramm is on the list; if it is not, this should be drop
+# question Kg: unsure whether Kilogramm is on the list, otherwise this is a specialist abbreviation and should drop
+# question Kleinste: nominalised "die Kleinsten" (small children) could count as a noun in its own right; I treated it as an inflected superlative of klein.
+# question Knowhow: unclear whether it should merge into the standard spelling Know-how if that is listed.
+# question Kollage: the screeners said misspelling of Collage, but the forms are kollagen (collagen), so I merged into Kollagen.
+# question Kreml: it could count as a famous institution (keep), but I treated it as a place name not on the list
+# question Kreml: the place-name rule says drop, but it is also a common noun for the Russian government (like a famous institution).
+# question Krypto: it is a clipped prefix of Kryptowährung and similar words, so no single obvious target; I dropped it.
+# question Krypto: it is a clipped prefix with no clear single full word; I chose Kryptowährung, but drop is also defensible.
+# question Kärntner: demonym/adjective from a place name; treated as place-derived and dropped.
+# question Kärntner: this is a derived adjective or demonym, not a place name itself, and the rules don't cover it; I dropped it as place-derived.
+# question LEDs: the rules do not say whether the singular LED is itself a keepable abbreviation or a specialist acronym
+# question LKW: kept as an established abbreviation, but the rules do not say whether it should merge into Lastkraftwagen
+# question Lab: it could be an abbreviation of Labor, but the counted forms look English (lab, labs), so I dropped it.
+# question Lade: could be the noun Lade (drawer) rather than a form of laden; the tag is VERB, so merged into laden.
+# question Lady: this may count as an established loan (Duden lists it); I judged it mostly English usage
+# question Lebende: could stay as a nominalised-adjective noun (der Lebende) instead of merging into lebend.
+# question Lebensmittelvorrat: most counts are the truncated "lebensmittel-"; kept the lemma as a valid noun.
+# question Letzt: the headword is arguably letzte, not letzt. Merged to letzt.
+# question Letzt: unclear whether the target is letzt or letzte; chose merge:letzt
+# question Lkw: unclear whether Lastkraftwagen is listed or Lkw counts as an established abbreviation (dropped, as with Kfz)
+# question Loslasse: the examples are nominalised (das Loslassen), so merge:Loslassen is arguable; I chose the verb.
+# question Längere: only "seit längerem" is attested, so it may be a fixed phrase rather than an inflected adjective
+# question MM: could be Millimeter, a media abbreviation or other, with no examples
+# question Macbook: product name, not clearly an established loan; dropped
+# question Mainzer: Demonyms can be nouns in their own right, but the rules route place-derived forms to the place-name list, so I dropped it.
+# question Mainzer: demonym from a place name; dropped as a place-derived form since Mainz is not on the list, but it may belong on the place-name list instead.
+# question Malteser: organisation name vs. demonym for a person from Malta; kept either way
+# question Marvel: famous company, but a brand rather than an institution; dropped as an "other name"
+# question Marvel: famous company, but the rules say other names drop, so I dropped it.
+# question Mega: could be dropped as a prefix instead; merged to mega as a colloquial adjective, which may not be on the list.
+# question Mega: the word is a prefix/slang fragment; I merged it into lower-case mega on the assumption that this entry exists.
+# question Metro: no examples to confirm whether it is the transit loan or the company name; I kept it.
+# question Miele: brand and company names (Miele, Karstadt, Monsanto, PayPal, Pioneer, Arduino) are not clearly "famous institutions" or "other names"; I treated them as other names and dropped them.
+# question Miele: the rules don't say whether widely known brands (Miele, Karstadt, Pioneer, PayPal) count as "famous institutions" to keep; I dropped them as other names.
+# question MitarbeiterIn: merged to Mitarbeiterin rather than Mitarbeiter, because the counted forms are almost all feminine; this assumes Mitarbeiterin is its own lemma
+# question Mod: unclear whether it is the English mod, an abbreviation, or Modus (modes). Dropped.
+# question Mod: unclear whether this is the English game "mod", Modus, or Mode; dropped as having no clear lemma
+# question Mose: the lemma is a biblical name and also a book title (3. Mose); I treated it as a name and dropped it.
+# question Mächtige: the rules don't say whether nominalised adjectives that appear only in inflected form should be kept as nouns or merged into the adjective; same for Jüngere
+# question Münchener: Demonym adjectives from place names (Münchener, Basler) are not covered explicitly; I dropped them under the place-name rule.
+# question Münchener: demonym derived from a place name; the rules cover place names but not derived adjectives, so I dropped it (same for Basler).
+# question Münchner: a demonym derived from München, which is not itself a place name; I kept it, but the place-name rules might be meant to cover it
+# question Münchner: a demonym rather than a place name itself; the rules don't say whether such derived forms count as place names, so I dropped it.
+# question NGOs: unclear whether NGO counts as a specialist acronym (drop) or an established abbreviation; I chose merge:NGO.
+# question Ne: I assumed colloquial "ne" is an acceptable lowercase lemma; if not, drop it.
+# question Ne: could be eine or "nicht wahr"; merged to eine as the most frequent colloquial reading
+# question OG: Is Obergeschoss a listed lemma? If so, this should be merge:Obergeschoss.
+# question OG: unclear whether Obergeschoss is on the list; merged on the assumption that it is.
+# question OP: it is a common standalone word (im OP), and I assumed Operation is the listed lemma.
+# question OP: same doubt; I kept it as lexicalised, but merge:Operation is possible.
+# question Ober: Ober (waiter) is a real noun, but the forms shown (oberen, ober) are adjectival; I merged to ober, and the dictionary adjective form is unclear.
+# question Oscar: examples are mostly the first name (Oscar Wilde); kept as the award word
+# question PKW: Personenkraftwagen is not necessarily on the list; I kept PKW as an established word, like Kfz
+# question PKW: could be merge:Personenkraftwagen if that is on the list; I kept it as an everyday word like Kfz.
+# question PR: general-use abbreviation or specialist acronym? I kept it, but it could be merged to Public Relations or dropped.
+# question PR: it could be a loan abbreviation for Public Relations, and I treated it as a non-listed abbreviation.
+# question Pc: assumed the lemma PC exists in the list
+# question Pc: established loan abbreviation, but the lemma is odd-cased; unclear whether it should be merged into an uppercase PC entry
+# question Pfizer: a company name known to learners, but not an institution, so I dropped it
+# question Pfizer: unclear whether a famous company or publisher counts as a "famous institution" (keep) or as an "other name" (drop); same for Rowohlt
+# question Postbank: company name; kept as a famous institution, but it may count as a brand.
+# question Prager: the rules cover place names and derived demonyms only loosely; I dropped it as derived from a place name not on the list, while Norweger is kept as a demonym noun.
+# question Prim: the screeners suggest Primzahl or prime, but the forms are mostly English "prime"; I dropped it because no German target is clear.
+# question Prim: the target is unclear; prim (excellent) is an adjective, but prime may be the English word or part of Primzahl.
+# question Python: mostly the programming language, but also the animal noun; I kept it as an established loan.
+# question Quest: dropped as gaming jargon, but it may count as an established loan.
+# question Quo: no standalone "Status quo" lemma is known to exist; merge target assumed
+# question Quo: unclear whether "Status quo" exists as a multiword lemma or whether the fragment should be dropped.
+# question Raiffeisen: a person's name and a famous bank; I treated it as a name and dropped it.
+# question Raiffeisenbank: generic noun for a bank type, or a company name to drop? Kept as the generic noun.
+# question Ravensburger: brand (Ravensburger Spiele) or demonym; treated as a place-derived name
+# question Ravensburger: brand known to learners (puzzles/games), but the data mostly shows the place-derived adjective; dropped as a name
+# question Regensburger: a demonym is a noun with its own entry, like Lehrer, but it is derived from a place name that is not on the list. I dropped it.
+# question Reset: borderline English loan; kept because it is in common German use
+# question Rewe: it is unclear whether a company counts as a "famous institution"; I treated this major retailer as one
+# question Rewe: it is unclear whether a company counts as a "famous institution"; kept
+# question Roma: The written form is lower-case, which could be the city Rome or the noun Roma. I kept it as the ethnonym.
+# question Rostocker: it is a demonym, and the rules have no explicit ruling for demonyms; I treated it like a place name (same for Ulmer).
+# question Rostocker: the rules do not say whether demonyms count as a nouns-with-own-entry case (like Lehrerin) or as place-name derivatives; I treated them as the latter and dropped them (same for Ulmer).
+# question Sankt: it is a word in its own right, but it is used almost only in place names (St.)
+# question Saturn: a planet is not a place name or a person, so I kept it. Venus follows the same ruling; if the rules treat planets as names, both should be dropped.
+# question Saturn: this could be read as a proper noun (planet or retail brand); I kept it as a common planet name, and Venus likewise.
+# question Schild: the forms mix in schildern; the Schild noun was kept, but the verb forms may need a separate lemma.
+# question Schrei: lemma also absorbs Schreier (a separate noun); kept as Schrei.
+# question Schwarze: it could be a noun in its own right (Schwarzer/Schwarze, a person), but the forms are only schwarzen, so I merged it.
+# question Sek: could also stand for another word (e.g. Sekundarstufe); merged to Sekunde as the most likely.
+# question Sek: could be Sekunde or Sekundarstufe, so no single merge target; dropped as an unclear abbreviation.
+# question Shell: computing term vs company name; I dropped it as foreign or brand, but it may count as an established loan.
+# question St: unclear whether this abbreviation of Sankt/Stück should be merged or dropped. I dropped it.
+# question Staatsoper: it is written generically, but the examples mostly refer to the Wiener Staatsoper; I kept it as a common noun.
+# question Staatsoper: sentences mostly refer to specific houses (Wiener Staatsoper), but the lemma is a common noun, so kept
+# question Stack: borderline IT jargon; kept as an established loan
+# question Stack: it is common IT jargon in German but not clearly an established loan; I dropped it.
+# question Stag: forms are mainly "stage", which may be a brand name (Stage Entertainment) or the English word; I dropped it.
+# question Stag: the forms are mostly "stage", used in names like Stage Entertainment; I treated it as English and dropped it rather than merging.
+# question Strick: forms are mixed between the noun Strick and the verb stricken; I kept it because it is a real noun with the most forms.
+# question Strick: mixed with forms of the verb stricken (558 uses). I kept it as the noun.
+# question Stütze: only the plural-looking form stützen is attested, and it could be either the noun's plural or the verb. I merged it to the verb stützen, but the rule on forms listed only as plural does not clearly cover it.
+# question Stütze: the counted forms (stützen) look like the verb, so merging into stützen may lose the noun Stütze, which may need its own entry.
+# question Swisscom: Same company-versus-institution question as Edeka.
+# question Tagesspiegel: newspaper, kept as a famous institution, but it is less clearly famous than Commerzbank or Schufa
+# question Toke: Token may not be on the list as a lemma; merged anyway as the obvious target
+# question UdSSR: the rules do not say whether a historical state counts as a place name or a learnable word; I treated it as a place name and dropped it.
+# question Versage: Versagen (noun) and Versager (person) are both possible targets; I chose Versagen because it makes up almost all the counts.
+# question Versage: it could be cut off from the noun Versagen or from Versager; the examples are overwhelmingly Versagen, so I merged there.
+# question Vierter: the dictionary form of the ordinal is unclear (vierte vs viert), so I used merge:vierte
+# question Vierter: unclear whether the ordinal's dictionary form is vierte or viert; merged to vierte.
+# question WG: Merged to Wohngemeinschaft as an abbreviation; if WG counts as an established word in its own right, it should be keep.
+# question WG: could be merged into Wohngemeinschaft if that is listed; kept because WG is the spoken form
+# question WM: if Weltmeisterschaft is not on the list, WM is probably better kept as an established abbreviation
+# question Wacker: the examples are the company name, but the lemma is also the real adjective wacker; merged to the adjective.
+# question Weimarer: "Weimarer Republik" is a fixed historical term, but the word is a place-derived adjective, so I dropped it.
+# question Weiter: weiters is an Austrian adverb with its own entry, so merge:weiters could also be right; I merged into weiter.
+# question Wiesbadener: demonym and place adjective, dropped under the place-name rule; unclear whether demonyms count as place names.
+# question Würzburger: same as Wiesbadener.
+# question abgeleitet: unclear whether it has its own adjective entry; I treated it as having one.
+# question admin: unclear whether Administrator or Admin is the listed lemma; I merged to Administrator.
+# question anfang: the forms (anfang, anfange, anfanger) could belong to the noun Anfang or to anfangen; I chose the verb.
+# question angehörig: it is a nominalised adjective (Angehöriger/Angehörige), and the rules do not say which form is the lemma; I used merge:Angehörige.
+# question anpfeifen: anpfeifen is a real verb, but the forms are mostly the noun Anpfiff.
+# question anpfeifen: the verb anpfeifen is valid, but most forms are the noun Anpfiff, so I merged to Anpfiff.
+# question aufeinanderfolgen: almost all forms are the participle adjective aufeinanderfolgend, but the infinitive is a real verb, so kept
+# question aufm: a colloquial contraction of auf dem. The rules do not cover it, and merging into auf would be wrong, so I dropped it.
+# question auseinanderzusetzen: the verb is normally pronominal (sich auseinandersetzen), but I don't know whether that lemma exists in the list, so I merged to the plain form.
+# question auseinanderzusetzen: unclear whether the target lemma is "auseinandersetzen" or the pronominal "sich auseinandersetzen".
+# question ausgebildet: may count as an adjective with its own entry like "ausgezeichnet" (would be keep); chose merge
+# question ausgenommen: also works as a preposition or conjunction ("except"), which could justify keeping it; merged as a participle
+# question ausreden: the forms mix the noun Ausrede with the verb ausreden. I merged to the noun because it is the majority.
+# question ausreden: the verb ausreden is also valid; I merged to the noun Ausrede because it makes up most of the forms.
+# question auswachsen: counted forms mix the verb with the noun Auswuchs and the adjective ausgewachsen; kept as the verb
+# question bad: could be the English adjective or the German noun Bad (Bad Homburg etc.); merged to Bad as the likelier reading
+# question bad: lower-case "bad" with no examples could be the noun Bad or the English adjective; I chose Bad.
+# question behindern: forms are mostly the adjective behinderte, but the verb is a real dictionary form, so kept
+# question behindern: the counted forms are mostly the adjective behindert(e), but the lemma itself is a valid verb, so I kept it.
+# question bekanntwerden: forms such as "wurde bekannt" are verb uses; merged into the nominalised noun Bekanntwerden.
+# question ben: The forms best/ben/benen/bte/benden look like cut-off pieces of several words (e.g. üben, beben), so no single merge target is obvious.
+# question ben: forms best/ben/benen/bte may come from üben or another verb, but no source word is obvious; I dropped it.
+# question berichte: could also be the plural of Bericht, but it is tagged VERB and appears only in lower case, so merged into berichten
+# question bi: forms (bi, bier, bien, biem, bider) do not point to one lemma; dropped as an unidentifiable fragment
+# question bi: it is 1,074 of 1,255 tokens and the source word is unclear (bier/bien/biem look like fragments of different words, and "bi" could be a standalone word), so I dropped it rather than guess a merge.
+# question box: forms box and boxer may be Boxer (person or dog) rather than Box; merged to Box as the lower-case noun
+# question box: the forms box and boxer could belong to the noun Box (or Boxer) or to the verb boxen; I chose Box.
+# question cd: unclear whether CD is already on the list; merged assuming it is.
+# question chat: the forms chat/chats/chaten could belong to Chat or chatten; I chose the noun Chat.
+# question dh: abbreviation of "das heißt", but it's unclear whether "d.h." is a listed lemma to merge into; I dropped it.
+# question dichter: could be the lower-case noun Dichter; tagged ADJ, so merged into dicht
+# question dr: Dr could also be read as a title rather than an abbreviation of a listed word; I merged it to Doktor.
+# question dritt: the ordinal's dictionary lemma could be dritte or dritter; I chose dritte.
+# question durchfahren: The counted forms are mostly durchführen, so I kept durchfahren as a real verb, but the counts may belong to a different lemma.
+# question durchfahren: written forms are mixed with durchführen; I kept it as a verb.
+# question düsen: noun plural Düse and verb düsen are mixed under one lemma; kept as a valid verb.
+# question düsen: the forms are mostly the noun Düse (926 of 1,420), so the lemma may really belong to Düse; I kept it as the valid verb lemma.
+# question ebay: brand names are dropped here, but eBay is also used as a common word in German. Dropped.
+# question ebay: unclear whether brands count as "famous institutions" (keep) or "other names" (drop); Adidas, Panasonic and ebay dropped, Raiffeisenbank kept as a common bank-type noun
+# question ect: not sure "etc" is already on the list; if it isn't, drop instead.
+# question ect: the rules do not say whether etc is on the list; I assumed it is, since ect is an obvious typo of it.
+# question eig: the forms eige and eiger suggest eigen as well as eigentlich; I merged to eigentlich.
+# question eig: the forms eige, eiger and eigem could point to eigen rather than eigentlich; merged to eigentlich as the abbreviation.
+# question escort: it may be spam-driven, and Escort may not exist as a lemma; drop is the alternative.
+# question etc: I kept it as an established abbreviation; it is unclear whether "et cetera" counts as a listed word
+# question etc: no German full-word lemma to merge into, so I kept it as an established abbreviation; drop is possible if abbreviations without a listed target should go.
+# question facebook: Assumed Facebook is a famous company, so it should be kept once capitalised.
+# question facebook: brand name, dropped; if it counts as an established loan, it would merge:Facebook
+# question fach: it is a fragment of the -fach suffix (einfache, mehrfache), so there is no obvious target; merge:Fach is a guess
+# question fach: the forms (fache, facher) are the -fach suffix (zweifache and similar), so there is no clear lemma to merge into; dropped as a fragment
+# question fahr: the forms are ambiguous between the stem of fahren and Fahrer. I chose fahren.
+# question fahrt: the written forms fahrt and fahrten fit the noun Fahrt, but fahrt is also a verb form (merge:fahren); I chose the noun.
+# question fehl: The counted forms are about half Fehler, so the lemma is mixed; I kept fehl as a real particle.
+# question fehl: it may be a prefix rather than a standalone lemma and is mixed with Fehler; I kept it.
+# question fetten: the form fette is mostly the adjective fett; kept because fetten is a real verb
+# question fächern: the usage is almost entirely the adjective gefächert, but fächern is a real verb, so I kept it.
+# question fönen: almost all tokens are the noun Fön (1,498 of 1,565), so the lemma may really be Fön. I kept the valid verb lemma.
+# question fönen: the lemma is the verb, but 1,498 of 1,565 occurrences are the noun Fön; should the entry be Fön instead?
+# question gam: written mostly as games/game, so I merged it into Game; Gamer could also be a separate entry.
+# question gedacht: forms mix denken and gedenken (gedachten sie der...), so the target is unclear
+# question gedacht: the forms mix participle of denken and past tense of gedenken; I chose gedenken because gedachte/gedachten dominate.
+# question geimpft: Geimpfte is also a noun in its own right (der/die Geimpfte); chose the verb impfen as the dictionary form
+# question geimpft: it is tagged NOUN (Geimpfte) but used as an adjective; I merged it into impfen, though geimpft could count as an adjective with its own entry.
+# question gelehrt: the adjective gelehrt has its own entry, but the examples are the noun Gelehrter; merged to the noun.
+# question gen: forms gen/gest/gene/gend look like fragments of different words, so I could not choose a merge target and dropped it.
+# question gen: the forms gen/gest/gend/gende look like a mix of fragments and no target is obvious; I dropped it, but Gen would be a possible merge target.
+# question ggf: merged on the assumption that gegebenenfalls is on the list; if it is not, this should be dropped.
+# question gr: Merge target groß assumed from grer/gres/gren; could also be Größe.
+# question gravieren: gravieren (to engrave) is also a real verb, but the forms are overwhelmingly gravierende.
+# question größ: the forms are mostly the noun Größe, but some are the adjective groß.
+# question größ: the forms are mostly the noun Größe, but the stem could also belong to groß; I chose Größe.
+# question haftungsbeschränkt: it has no verb to merge to and is a real adjective, but nearly all uses are the UG/GmbH template; I kept it, but it could be treated as boilerplate and dropped.
+# question hallen: the forms are mostly the verb hallen (hall, hallt, hallte), but the lemma is also the plural of Halle; I kept it.
+# question herzlichst: it might count as an adverb with its own entry (also used as a letter closing), in which case it would be keep.
+# question herzlichst: superlative of herzlich, but used as a fixed adverb/closing; kept
+# question hetzen: the noun Hetze is mixed into this lemma; it may need splitting into hetzen and Hetze
+# question hihi: laughter interjection; kept as established, but could be seen as non-learnable
+# question hihi: no rule covers interjections; kept as an established word
+# question höhe: the tag is ADJ and the form hohe/höheste is possible, but höhe is most likely the lower-case noun Höhe, so I merged it there.
+# question inne: innehaben and innehalten both fit; I chose innehaben.
+# question inneren: lemma does not match its written forms (innert, a Swiss preposition); merged to innert
+# question inneren: the lemma doesn't match its forms (innert, a Swiss preposition); there is no obvious merge target, so I dropped it.
+# question isch: cut-off suffix fragment (e.g. -isch) with no identifiable target word, so I dropped it rather than merging
+# question isch: no obvious target word for the fragment, so dropped rather than merged.
+# question jedesmal: Duden accepts it as a single word, so I kept it instead of merging into the two-word jedes Mal.
+# question jo: it could be a regional particle meaning "yes" and so a keep; I dropped it as non-standard.
+# question jungs: Jungs is a colloquial plural that might count as a plural with its own meaning; merged to Junge by default.
+# question jährig: a suffix fragment with no obvious target lemma (the -jährig compounds), so I dropped it; the rule says fragments are merged
+# question jährig: the rules say fragments are merged, but there is no single target lemma for -jährig, so I dropped it.
+# question k: dropped as a stray letter, since there is no clear target (the forms kes/ke/ken suggest garbled text).
+# question k: fragment with no clear target (forms ke, ken, kes look like fragments of several words); dropped
+# question kommend: I kept it as an adjective with its own entry, but a dictionary may list it only as a participle of kommen.
+# question kommend: adjective sense (upcoming) vs. participle of kommen; kept as adjective. The same applies to aufsteigend.
+# question kontrolliert: it may have its own adjective entry (like gemäßigt), but I treated it as a participle and merged it into kontrollieren.
+# question kontrolliert: unclear whether it has its own adjective entry like bekannt; treated as a plain participle
+# question krieg: Krieg is the main sense, but Krieger (422) is a separate noun; the lemmatiser merged them.
+# question krieg: forms include Krieger, a separate noun, but the lemma is lower-case Krieg
+# question lauter: comparative of laut vs. the separate "nothing but" word; kept.
+# question letzt: only the stem of letzter/letzte/letztes; merged to letzte, but the rules don't say which citation form to use.
+# question letzt: the lemma is an inflection stem (letzter/letzten/letztes), but no explicit target lemma is given. I kept it, since the lemmatiser's convention may treat it as the adjective lemma, and the word is essential.
+# question letzter: all forms are letztere/letzteres/letzterer ("the latter"), which may be a separate entry from letzte; merged into letzte as the dictionary form of the inflected adjective.
+# question letzter: the forms are letztere(s/r/n/m) (the latter), which has its own dictionary entry; I kept it, but it could be merged into letzte
+# question licht: kept as the adjective, but the lower-case form could also be a noun Licht or the verb lichten; no examples to confirm.
+# question licht: the adjective licht exists, but the verb lichten also feeds this lemma; kept as the adjective.
+# question lik: the forms are mostly "likes", and it is unclear whether Like is a listed lemma; I merged to Like.
+# question max: unclear whether it is the abbreviation "max." for maximal or the name Max. I merged to maximal.
+# question mer: the examples are missing; it may be a dialect word for "mehr" or "wir", so I dropped it.
+# question mini: It could be a prefix fragment (Mini-) rather than a free adjective.
+# question mittel: could be the adjective mittel (mittler, mittle) instead of the noun Mittel; merged to Mittel as the main reading
+# question mod: the forms mix mod, mode and modder, so there is no single clear target, and I dropped it.
+# question mod: the forms mix mode (Mode) with the gaming word "mod". I dropped it, but it could merge into Mode.
+# question namen: tagged VERB, but the form is the plural of Name; merged to Name on that reading
+# question ne: colloquial "ne" (eine / nicht wahr) has no clear rule; dropped as non-standard
+# question nem: the rules do not cover colloquial contractions; dropped rather than merged into ein or einem
+# question ner: could target "eine" or "ein"; chose "eine" since it is its own lemma and "ne/ner" is feminine-form colloquial
+# question ner: the target could be eine or ein, since ner stands for both einer and ne
+# question neunundzwanzig: the forms are almost all digits (29); I kept the number lemma, but the digit-only rule could apply
+# question nichtmal: "nicht mal" is two words, so merging into mal is only an approximation; the alternative is to drop it
+# question nichtmal: the correct form is two words and there is no single-word lemma to merge into. I used "nicht mal".
+# question nunmal: the correct form "nun mal" is two words and may not exist as a lemma; merge:nun mal may need adjusting.
+# question nunmal: the target is a two-word form "nun mal", which is not a single lemma.
+# question ober: the screener gives obere/oberer as the dictionary form; I chose obere
+# question pag: fragment of "page", which is mostly the English word, so no German lemma to merge into
+# question pag: written mostly as page/pages (English or Hotelpage), so there is no obvious German target for a merge
+# question personal: Personal and Personaler are both nouns, and an adjective personal also exists; I picked Personaler because every example uses it.
+# question personal: the examples are all the noun Personaler (HR staff), which has its own dictionary entry; I merged to Personal, but Personaler may deserve its own lemma.
+# question pflegen: the examples are mostly the noun Pflege, but the verb lemma is valid, so I kept it instead of merging into Pflege
+# question plan: an adjective plan (flat) exists, but the forms plane/plans/plan look like the noun Plan or the verb planen; I merged into Plan.
+# question plan: forms plane/planer could also be the adjective plan (flat) or the verb planen; I chose the noun Plan as the dominant reading.
+# question pm: could stand for p.m. or Pressemitteilung; dropped as ambiguous.
+# question punkto: "in punkto" is a multi-word phrase and has no single-word lemma, so I merged it into Punkt.
+# question red: could be the English word "red" rather than a cut-off reden; merged under the fragment rule
+# question regen: forms are mostly rege (adjective) but regen also exists as a verb and as a plural; merged into reg
+# question resp: I assumed respektive is on the list; if it is not, the abbreviation should be dropped.
+# question riesen: indeclinable intensifier; kept as its own colloquial entry, not merged to Riese.
+# question rückblicken: no dictionary verb exists; I chose merge:rückblickend, but merge:zurückblicken is the alternative.
+# question rückblicken: no verb of this shape; merged to the adjective/adverb rückblickend
+# question sachen: Sachen can be a plural with its own meaning ("stuff"); I merged it into Sache because it is filed in lower case.
+# question sachen: merged to Sachen (plural with own meaning, "stuff") rather than Sache
+# question sch: cut-off fragment (likely from -sch adjectives such as deutsch/typisch) with no identifiable target, so dropped rather than merged
+# question sch: forms schen/sche/scher look like a cut-off suffix of unknown words, so no merge target can be named
+# question scheiß: it is mostly an intensifying prefix and not a clear form of the verb scheißen; drop is also possible.
+# question scheiß: it is mostly an intensifying prefix, not a conjugated verb, so merge:scheißen is a loose fit.
+# question schnellen: forms are mostly Schnelltest (a compound), merged into schnell as the closest base
+# question schonmal: "schon mal" is two words, so merge:schon is only an approximation
+# question schonmal: the target is really the two-word phrase "schon mal", so I merged it into schon.
+# question schweizer: indeclinable adjective vs. demonym noun Schweizer; kept as is, but merge:Schweizer might be intended
+# question schweizer: lower-case "schweizer Markt" is an indeclinable adjective, so it could also be kept as its own adjective entry; I merged it into Schweizer.
+# question selb: the dictionary form could also be derselbe; I chose selbe
+# question sexkontakte: spam-like, so merging may add a junk noun if Sexkontakt is not on the list
+# question shop: unclear whether Shop is already on the list; merged to Shop
+# question sic: Latin insertion, could count as a foreign word rather than an established loan.
+# question silber: It could instead be merged into the noun Silber. I kept it as a colour adjective.
+# question silber: colour adjective vs. noun Silber; kept as an adjective.
+# question skifahren: the lemmatiser may prefer "Ski fahren" as two words, and the rules do not cover that
+# question skifahren: verb lemma versus noun Skifahren; chose keep rather than merging into Skifahren
+# question spiel: forms are mostly spieler but also spieles/spieln, so the target could be spielen
+# question spitzen: The forms mix the verb spitzen and the adjective spitz, so the lemma may need splitting.
+# question spitzen: mixed verb and adjective forms are filed together; kept as the verb spitzen, and spitze is merged to spitz.
+# question start: the forms are ambiguous between the noun Start and the verb form of starten. I merged it to Start because starts and startes are noun genitives.
+# question statten: forms stattet/stattete could belong to ausstatten or abstatten; merged to ausstatten
+# question statten: the forms (stattet, stattete) fit ausstatten and abstatten, and the one example is "von statten gehen"; I chose ausstatten.
+# question swing: forms are mostly "swinger", which may be spam; I merged to Swing as the lower-case lemma.
+# question swing: forms are mostly the spam word "swinger", so merge:Swinger or drop are possible; I chose merge:Swing.
+# question tags: adverb "tags" could instead merge into Tag; kept because Duden lists it as an adverb.
+# question tags: no example; could be the adverb "tags" (as in tagsüber/tags darauf) or English "tags"; merged to Tag.
+# question teen: could be an established loan (Teen); no usage examples to confirm, so dropped.
+# question tim: forms are mostly "time" and "timer", which could merge into Timer, but the lemma "tim" itself is a name or fragment; I dropped it.
+# question u: forms uder/uen/uste suggest it may not be only "und"; merged on the assumption it is u. = und
+# question u: the counted forms are u, uder, uen, uste and so on, so it is unclear whether this is "u." for und or just noise; I chose merge:und.
+# question uber: could be the brand Uber, but the lower-case spelling suggests über with the umlaut stripped; merged.
+# question usw: abbreviation of a multi-word phrase, so there is no single lemma to merge into; dropped
+# question usw: kept as a general abbreviation, but there is no spelled-out lemma to merge it into.
+# question verdächtigen: forms are mostly the adjective verdächtig and the participle verdächtigt; I kept the verb because it is a real lemma.
+# question verdächtigen: forms are split between the adjective verdächtig and the verb verdächtigen; I kept it because the verb is a valid lemma.
+# question vereinigt: nearly all uses are in the proper name Vereinigtes Königreich; I merged to vereinigen rather than dropping it as a name.
+# question vereinigt: nearly all uses are the proper name Vereinigtes Königreich; merged into vereinigen, but the name may not be learnable at all.
+# question vergleich: could be the noun Vergleich or the verb vergleichen (the form vergleiche is ambiguous); I chose the noun
+# question viert: merged to vierte, but the ordinal's dictionary form (vierte vs. vierter) is not settled by the rules
+# question viert: the ordinal could be filed as vierte or viert-, so I chose vierte
+# question vierte: the dictionary form of an inflected ordinal is unclear (vierter vs. viert-); merged to the -er form, same for fünfte and sechste
+# question vierte: the dictionary form of the ordinal is not settled (viert- or vierter); I followed the screener's "vierter", and the same applies to fünfte and sechste
+# question viertel: lower-case fraction/time word; the rules on lower-case nouns could point to merge:Viertel, but the usage here is adverbial/numeral, so I kept it.
+# question vorgegeben: it could be an adjective with its own entry; I treated it as a participle.
+# question vornherein: no single-word lemma exists for the phrase "von vornherein"; merged to the phrase, which may not be a valid lemma.
+# question vornherein: the rules say to merge fragments, but "von vornherein" is a multi-word target and may not be a valid lemma; if not, drop.
+# question wei: the garbled forms most likely come from weiß, but this is not certain.
+# question wei: the written forms (wei, weider, weiden, weie, weier) could come from weit, weiß or weiter, so there is no obvious merge target; I dropped it.
+# question weiden: the written forms mix noun (Weide) and verb (weiden) forms; the examples are all the noun, so merged to Weide.
+# question weinen: the screener's note says the 'Weine' examples are the noun plural of Wein, but the written forms are mostly verb forms
+# question weis: forms also include weise/weisen (weise adj, weisen verb), so merge:wissen fits only part of the evidence.
+# question weis: weiß is both an adjective and a form of wissen, so the target is ambiguous. I chose wissen.
+# question wildern: the counted forms are mostly the adjective wilder, so the verb is kept and the adjective count is not reassigned.
+# question wildern: the forms mix the adjective wilder (908) with the verb wildern (poach). I merged it to wild because of the majority, though the verb forms would be a separate lemma.
+# question willen: tagged VERB, but it is really the preposition in "um ... willen". I kept it.
+# question willen: the lemma mixes um … willen with gewillt (adjective) and wille; kept as a function word, but the mixed evidence is unclear.
+# question wuerde: the lemmatiser may file würde under werden, so the correct target might be merge:werden
+# question wund: forms include wunderer/wundere, which belong to wunder, not wund; kept.
+# question wärs: a contraction is not covered explicitly by the rules; I merged to sein as a conjugated form.
+# question zb: unclear whether an abbreviation of "zum Beispiel" counts as an abbreviation of a listed word; dropped
+# question zuviel: no single lemma for "zu viel"; merged into viel as the closest listed word
+# question zuviel: there is no single dictionary lemma for "zu viel"; I chose merge:viel.
+# question zweitgrößte: the dictionary form zweitgrößt is not a headword; merging is a best guess.
+# question Ähnliche: lemma is written only as "ähnliches" (nominalised); chose keep as a noun in its own right, otherwise merge:ähnlich
+# question Ähnliche: the lemma is the inflected nominalised form (ähnliches), so merge:ähnlich is possible, but "und Ähnliches" is a fixed noun use
+# question Äußere: only lower-case "äußere" is attested and no example exists, so it may be the adjective (merge:äußer) rather than the noun
+# question Äußere: the rules don't say whether the dictionary lemma is "äußere" or "äußer", and I chose "äußere"; it could also be the noun "das Äußere", but every form is lowercase.
+# question überragen: most tokens are the adjective überragend, but the infinitive is a real verb lemma, so I kept it; the rules do not say whether überragend should get its own entry
+# question überragen: the screener wants überragend, but überragen is a valid verb lemma, so I kept it
+# question AG/FH: merge assumes Aktiengesellschaft and Fachhochschule are on the list; if they are not, should the abbreviation be kept instead?
+# question Glut, schnellen, ausreden, gravieren, anpfeifen, sachverständig, Ober: these were kept as real words, but most of their counts belong to another word (Gluten, Schnelltest, Ausrede, gravierend, Anpfiff, Sachverständiger, ober). Should those counts be re-lemmatised or split?
+# question Hz, Sek, OG: the rule merges abbreviations of listed words, but I cannot see whether Hertz, Sekunde or Obergeschoss are listed. Should unambiguous unit symbols (Hz→Hertz) merge when the target is listed?
+# question Jakobsweg, Pfälzer: do named routes count as place names, and do demonyms and place-derived adjectives (Pfälzer, Berliner) count as names?
+# question Jupiter: are planet and other celestial names (Jupiter, Mars, Saturn) "other names" to drop, or learnable common words?
+# question Maxi, Krypto: should established clippings be kept as their own lemma, or merged into the full word? Is Kryptowährung on the list?
+# question Münchner: should demonym adjectives of listed cities be kept like Hamburger, or always go to place-name review?
+# question Ne: colloquial ne mixes 'ne (eine) with the tag particle ne/nee; I merged it into eine. Should the particle get a lemma of its own?
+# question PR, OP, BH, Lkw: lexicalised abbreviations were kept here, but Kfz was apparently excluded. Should Kfz/Pkw be kept as well for consistency?
+# question Pariser: are demonym adjectives and nouns from listed places (Pariser, Berliner, Wiener) to be kept as words?
+# question Swisscom, Wacker: do large companies count as "famous institutions"? Is regional fame (Swisscom in Switzerland) enough?
+# question WG: the rules call for merging "an abbreviation of a listed word", but WG is the everyday word itself. Do everyday abbreviations like WG, Kita and LKW stay keep?
+# question aufeinanderfolgen, komplizieren, verheeren: most forms are the participle adjectives (aufeinanderfolgend, kompliziert, verheerend); should those forms be moved to the adjective lemma, or stay under the valid verb?
+# question aufm, ists, kannste: please confirm that colloquial contractions merge to their base word (auf, sein, können), as with gabs/wars.
+# question cd: no examples, and lower-case cd may also be the shell command or candela; merge assumes CD is on the list (if it isn't, should this be drop or keep under CD?)
+# question einem/eines: confirm that inflected article forms (einem, eines, also einer, einen) follow the ein/eine own-lemma convention rather than merging into ein
+# question fach, Fu, ie: fragments are to be merged, but these have no single obvious target; is drop correct, or should they be held?
+# question flirt: the lemma reads as the noun Flirt, but most counted forms are the verb flirten. Should the counts be split between the two?
+# question flöten, motorisieren, verträumen, wildern, erbleichen, kranken, gelehrt, Stütze, Kollage: each lemma is kept or merged on its own merits, but most of its counts belong to another word (Flöte, motorisiert, verträumt, wild, erblich, krank, Gelehrter, Kollagen). Should those counts be reassigned, and should verträumt, Gelehrter and Kollagen be added if they are missing?
+# question forsch, Drei, angehörig, Kehl: each lemma is decided on its own reading, but most counted forms belong to another word (forschen, Dreier, Angehörige(r), Kehle). Should those counts be reassigned, or those words added, if they are not already listed?
+# question gedacht: the counts mix the adjective gedacht with gedenken preterite forms (gedachte, gedachten). Should the gedenken share be reassigned?
+# question gr: the bare form "gr" (1,919) has no examples and could partly be the abbreviation of Gramm. Is merge:groß acceptable on the evidence of grer/gres/gren?
+# question inneren: innert is a Swiss-only preposition; is it on the list, or learnable at all?
+# question letzt: is the list's lemma for the adjective letzte or letzter? Please confirm the merge target.
+# question ner, gabs: I settled contractions as merge to the host word (ner→eine, nem→ein, gabs/wars/ists→verb, kannste→können, ichs→ich, aufm→auf); please confirm that earlier drops of nem/ists/ichs/kannste/aufm should be redone as merges.
+# question nichtmal: the misspelling stands for two words (nicht mal / nicht einmal). Is merging into one part (mal) right, or should a two-word target be allowed?
+# question personal: the Personaler counts (800) were merged into Personal (staff). Should Personaler be its own lemma instead?
+# question regen: the rege adjective forms are mixed with the regen verb forms under one lemma; should the rege forms be split off into their own adjective lemma?
+# question scheiß: is the noun Scheiß on the list as distinct from Scheiße, or should both merge into Scheiße?
+# question verspäten, zuvorkommen, weiden: these lemmas mix a real verb with forms of another word (the participle adjective verspätet/zuvorkommend, or the noun Weide). Should such lemmas be split rather than kept or merged whole?
+# question versuch, bad, FR: there are no usable examples, so lower-case noun vs imperative, English word or abbreviation was judged from the forms and tags only. Please confirm.
+# question vierte/fünfte/sechste: confirm the -e form (vierte) as the single ordinal target, so Vierter, viert and dritt merge into it
+# question wg: wg is ambiguous between WG (Wohngemeinschaft) and wg. (wegen), and the sample has only one example. Should WG be its own lemma as an everyday word?
+# question zigeunern: the rules don't cover offensive or slur-derived words that are genuinely used; should they be dropped as a class?
+# question zuvorkommen: most occurrences (zuvorkommend/-e/-en) are the separate adjective zuvorkommend; should those forms be split off into their own zuvorkommend lemma (added if not already listed), since keep/merge cannot express a split?
