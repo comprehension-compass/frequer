@@ -159,6 +159,9 @@ rules flag with evidence; **2+ flags drop, 1 flag goes to review** within `revie
 | accent merges | unaccented spelling into the accented lemma at 5x | strip accents, **ñ kept** | umlaut maps ü→u, ü→ue, ß→ss; **ß kept** as a letter; a dominant plain spelling (*bewusst*) never merges | off |
 | number rule | Honeyeater's `number_is_learnable` says False: dropped | on | on | on |
 
+Case evidence (`propn_band` with `propn_evidence: case`) reads a case tally, `corpora/case/<lang>.tsv.gz`; es's
+was made by `corpora/case/tally_es.py`, and a new language with capitalisation needs its own tally first.
+
 **Diversity is a flag only, never a reordering**: the ranking stays raw frequency. The thresholds were
 calibrated per language on samples (HPLT documents are long, so real words clump more than in es's
 pseudo-documents).
@@ -226,7 +229,9 @@ Honeyeater by its own two-reviewer protocol from CLDR and GeoNames (countries, c
 cities, US states with a target-language name, famous first-level divisions; same-spelled foreign places
 ignored; bare forms added). Then set `names_final: true` and `append_learnable_names: true`, route and build with
 `--reference-root` at a checkout holding the final list: a pending place in the list is kept, any other place is
-dropped (`place-drop`), and listed names that rank below the cut are appended after it. Learnable status is a
+dropped (`place-drop`), and listed names that rank below the cut are appended after it. Only names the corpus
+counted can be appended (an uncounted name has no frequency or forms to list); read the names that never occur
+against the list, and raise any a learner clearly needs with the developer. Learnable status is a
 union, so a listed name that is also a common word is kept. An interim list built before the names are final
 uses `build --leave-out-pending-names`.
 
@@ -245,7 +250,8 @@ manage.py load_lemmas <lang> --path out/<lang>/<lang>.json --dry-run           #
 **Look at:** 0 skipped (skips came from merge targets that were missing, capitalised or multi-word, all fixed in
 `junk.apply_merges`); entries = `top_n` plus the appended names; the header's hashes of the review file,
 exclusion list and names list; the number check's source. Then commit the snapshot, report and review files on
-the language's build branch, and hand over to Honeyeater's runbook (pin, load, rebuild the defaults, pre-generate).
+the language's build branch, and hand over to Honeyeater's runbook (pin, load, rebuild the defaults, pre-generate). `load_lemmas` does not
+restamp the defaults itself: the runbook's `rebuild_lemma_defaults` chain is not optional.
 **Combined deploy:** a change to the app's default-ignore rules ships in the same deploy as the new lists (PR #766
 removes the proper-noun default rule, so it must not reach production ahead of the cleaned snapshots).
 
