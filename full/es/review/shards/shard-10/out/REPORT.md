@@ -1,7 +1,7 @@
 # es review shard 10: report (round 14, cascade)
 
 Base `04d1ada`; rules taken from `full-es` 0095cdd (the developer's second set of rulings) before any review.py
-stage ran, so every review and adjudication used the updated rules. Screeners and reviewers sonnet, adjudicator opus.
+stage ran, so every review and adjudication used the updated rules.
 Every review.py line passed `--rules` and `--decisions keep,drop,merge`.
 
 ## Counts
