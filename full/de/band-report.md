@@ -315,3 +315,12 @@ Largest umlaut/ß merges:
 # question (adjudicator) Frauenkirche: rules cover place names and famous institutions but not nationally famous landmarks/buildings; treated as a place name (drop)
 # question (adjudicator) Software-Entwickler: should a valid hyphenated spelling of a compound merge into the solid form (Softwareentwickler) when both lemmas exist?
 ```
+
+## Learnable names (developer ruling 2026-11-02)
+
+Honeyeater `reference/learnable-names/de.json` @ 1bf77f0, 749 names: 358 already in the cleaned top 30k; 680 single-token
+names in all. Not in the 30k: 168 counted below the cut (appended with their counts), 112 never counted (appended as
+bare forms), 42 counted under another lemma (listed with that lemma; mostly case or plural: *Armenisch* under
+*armenisch*, *Karpaten* under *Karpate*; a few owners are junk lemmas, *Anden* under *And*, *Ewe* under *EWE*):
+`learnable-names-append.tsv`. 69 multiword names (match only as a unit; input for release 1.6):
+`learnable-multiword-names.tsv`.
