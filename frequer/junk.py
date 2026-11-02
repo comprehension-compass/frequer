@@ -361,12 +361,12 @@ def acronym_share(forms: Mapping[str, int]) -> float:
 class Routed:
     lemma: str
     rank: int
-    action: str  # keep, drop, review-keep, review-drop, pending, pending-names, propn-drop, number-drop
+    action: str  # keep, drop, review-keep, review-drop, pending, pending-names, propn-drop, place-drop, number-drop
     flags: tuple[tuple[str, str], ...]
 
 
 def route(ranked: Sequence[str], flags: Flags, review: Review | None, review_top: int,
-          review_multi_flag: bool = False) -> list[Routed]:
+          review_multi_flag: bool = False, learnable: Callable[[str], bool] | None = None) -> list[Routed]:
     """The action for every ranked lemma (``ranked`` in rank order, after the exclusion list)."""
     decisions = review.decisions if review else {}
     # The lemma a reviewer merged something into was chosen by the review: it counts as reviewed.
@@ -379,7 +379,8 @@ def route(ranked: Sequence[str], flags: Flags, review: Review | None, review_top
         if decision == "drop":
             action = "review-drop"
         elif decision == "pending-names" or (lemma in flags.propn_place and not decision):
-            action = "pending-names"  # a place name: decided by the learnable-names list, kept until then
+            # A place name: decided by the learnable-names list, kept until the list is final (``learnable``).
+            action = "pending-names" if learnable is None else ("review-keep" if learnable(lemma) else "place-drop")
         elif decision == "keep":
             action = "review-keep"  # an explicit reviewed decision outranks the automatic proper-noun drop
         elif lemma in flags.propn_drop:

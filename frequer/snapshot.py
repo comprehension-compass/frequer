@@ -77,7 +77,7 @@ def build_entries(
 ) -> dict[str, dict[str, Any]]:
     cfg = manifest.language
     entries: dict[str, dict[str, Any]] = {}
-    for row in ranked[: cfg.top_n]:
+    for row in ranked:  # the caller has cut the ranking (and may append learnable names)
         stats = row.stats
         forms = top_forms(stats.forms, cfg.forms_kept)
         pos = majority(stats.pos, "X")

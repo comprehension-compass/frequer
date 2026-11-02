@@ -36,11 +36,14 @@ def _build_args(p: argparse.ArgumentParser) -> None:
     p.add_argument("--top-n", type=int)
     p.add_argument("--candidates", type=int, help="lemmas kept in full detail (default 4 x top-n)")
     p.add_argument("--no-snapshot", action="store_true")
+    p.add_argument("--reference-root", type=Path,
+                   help="Honeyeater checkout for reference data and checks (default: the pinned runtime checkout)")
 
 
 def _opts(args: argparse.Namespace, scope: str) -> BuildOptions:
     return BuildOptions(score=args.score, top_n=args.top_n, candidates=args.candidates, scope=scope,
-                        lemma_dir=args.lemma_dir, wheel=args.wheel, write_snapshot=not args.no_snapshot)
+                        lemma_dir=args.lemma_dir, wheel=args.wheel, write_snapshot=not args.no_snapshot,
+                        reference_root=args.reference_root)
 
 
 def main(argv: list[str] | None = None) -> None:
