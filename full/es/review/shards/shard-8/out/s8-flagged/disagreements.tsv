@@ -1,0 +1,20 @@
+# lemma	A	reason A	B	reason B
+crue	keep	Conferencia de Rectores, a known Spanish public body	drop	association acronym, partly a band name
+armagnac	keep	real common word (the brandy), though many uses are the region	drop	mostly place/brand name
+depa	keep	real colloquial word (Mexican, departamento)	merge:departamento	colloquial abbreviation of departamento
+reseda	drop	mostly place name (Reseda, CA); common word a minority	keep	real Spanish plant word, though most occurrences are the place name
+oxymetholone	drop	English drug name, specialist	merge:oximetolona	English spelling of the Spanish drug name
+bragado	drop	place name	keep	real Spanish adjective, so the rule keeps it as the common word despite the place name
+junquera	drop	place name (La Junquera)	keep	real Spanish word (rush plant), so the rule keeps it as the common word despite the place name
+manipule	merge:manipular	imperative form filed as lemma	drop	imperative of manipular, not a lemma; capitalised sentence-initial form
+binador	keep	real agricultural word (binadora), lemma form is wrong but no obvious Spanish lemma issue	merge:binadora	lemma is broken verb form; the word is the noun binadora
+auto-descarga	merge:autodescarga	hyphenated spelling of adapted word	drop	hyphenated compound, specialist battery term
+montecillo	keep	real Spanish word (small hill), even though many occurrences are the place name	drop	place name (Estado de México) and wine brand
+slim-fit	keep	fashion loan used in Spanish product text	merge:slim fit	hyphenated spelling of a loan that Spanish writes as two words
+zinfandel	keep	grape/wine name used as common noun	drop	foreign grape name
+ex-compañero	merge:excompañero	hyphenated spelling of the adapted word	drop	Hyphenated compound of two listed words.
+latanoprost	drop	specialist drug name	keep	drug name, common Spanish medical noun
+mcerl	drop	specialist acronym	keep	Spanish acronym for the Common European Framework, used by learners
+cielito	drop	mostly song/hotel name	keep	real Spanish diminutive of cielo, even if often a song title
+batmóvil	keep	common noun for Batman's car, capitalised use is name-like but a learner-relevant word; established	drop	fictional vehicle name, proper noun
+ex-jugador	merge:exjugador	hyphenated spelling of exjugador	drop	hyphenated compound of two listed words

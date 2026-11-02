@@ -1,0 +1,95 @@
+# question abat: Abat Oliba CEU is a university but only a fragment of its name appears, so dropped
+# question acción penal: legal collocation that is real Spanish but multiword; dropped because lemmas are single words
+# question aprenda: it is a real verb form (aprender) written in capitals in web headings; dropped as an artefact rather than merged to aprender
+# question aprenda: real Spanish verb form (aprender) but tagged PROPN from all-caps web headings; dropped as a mis-filed form rather than merged
+# question aproximarno: lemma is a cut-off of aproximarnos; merged into aproximar (aproximarse might be the intended pronominal lemma)
+# question armagnac: mostly place/name uses, but armagnac (brandy, academy form armañac) is a real word; dropped because the lowercase reading is a minority
+# question armagnac: the brandy is a real word, but most examples are the region or a noble house; kept as the common word.
+# question armorial: real but rare Spanish word, used here as a website section label; kept
+# question asignándol: lemma should be asignar, but rules say merge to the obvious Spanish lemma; clitic gerund filed wrongly
+# question back-up: assumed backup is the listed form; unclear whether it is on the list
+# question barraco: could be read as a rare common word, but the examples are mostly the place El Barraco, so dropped.
+# question batmóvil: fictional vehicle name; kept as common noun since 14 lowercase uses and Spanish-adapted spelling
+# question binador: binadora is a noun (a hoeing machine) and 'binadora' as lemma may be intended; merged to it as the obvious form
+# question binador: lemma binador is a verb-tagged form of the noun binadora (agricultural cultivator); kept, but could be merge:binadora or drop as too specialist
+# question bragado: mostly the Argentine town, but bragado is a real adjective, so I kept it under the common-word rule
+# question broccoli: merged to brócoli as the accented adapted spelling; could be kept if the list prefers the English form
+# question carmenere: grape variety kept as a common noun; unclear whether wine varieties count as products or names
+# question cedi: a currency name, kept as a common noun although it is mostly seen in exchange-rate text
+# question cefaclor: a drug name that may be too specialist for a learner list, but it is a generic noun written in Spanish, so I kept it
+# question cnbv: a Mexican financial regulator is not as universally famous as UNAM or Hacienda, so I treated it as a public body people refer to by name.
+# question cnbv: a Mexican regulator is a public body, but it is unclear whether it is famous enough for the institution rule; kept.
+# question co-autora: lemma is feminine; I merged to coautora (the academy-preferred spelling), assuming the masculine/feminine pair is otherwise coautor/coautora.
+# question comté: could be a cheese name a learner meets, but mostly place/hotel contexts; dropped
+# question consecuenciales: merge target "consecuencial" is a rare adjective; it is only attested in all-caps legal boilerplate, so drop could also fit.
+# question crue: Spanish rectors' conference is a public-ish body, but examples include Mötley Crüe, so dropped
+# question crue: examples mix the Spanish rectors' conference with Mötley Crüe, kept because the all-caps CRUE majority is the Spanish body
+# question d-pad: gaming loan may be established; dropped as niche jargon.
+# question dala: real Spanish reading (da + la) is possible, but most uses are the name Dalas, so dropped.
+# question dashcam: loan is common in product text but not clearly listed among established loans; kept as a learner-relevant loan
+# question dashcam: loan is fairly established for a learner but not as common as chat/blog; kept
+# question depa: it is a clipped form of departamento, which the rules would merge, but it is an established colloquial word, so I kept it.
+# question dgii: Dominican tax authority is a national public body, but not obviously famous across the Spanish-speaking world; dropped
+# question ex-compañero: the rules don't say whether ex- plus a noun is a hyphenated compound of two listed words (drop) or a spelling variant of excompañero (merge); I chose merge.
+# question ex-jugador: merged to exjugador; the academy writes ex jugador as two words, so the target spelling is uncertain.
+# question frame-rate: hyphenated English loan could be kept as "frame rate"; dropped under hyphenated-compound rule
+# question grd: Spanish medical term (grupos relacionados con el diagnóstico) in some examples, but many are a company name, so I dropped it as a specialist acronym.
+# question grindcore: genre loan; kept though used mainly by fans.
+# question grizzlie: "grizzly" is a Spanish loan for the animal, but the team name dominates the examples (82% capitalised), so I dropped it
+# question icbf: Colombian public body, but not as famous as the listed examples; I kept it as a national public body.
+# question icbf: it is a national public body, but I'm not sure it is famous enough to count as nationally famous outside Colombia; I chose keep.
+# question indh: Chile's national human rights institute is a public body, but not nationally famous enough per the examples; dropped
+# question jejejeje: laughter interjection could be kept or merged into jejeje; dropped as a reduplicated variant
+# question junquera: mostly La Junquera (a place), but junquera is a real noun, so I kept it under the common-word rule
+# question kajal: a cosmetics loan, but nearly half the occurrences are capitalised and some are a personal name
+# question kajal: loan for eyeliner, kept as an established cosmetic term, but the evidence is thin
+# question latanoprost: a specialist drug name; kept as a common medical noun though only specialists may use it.
+# question live-action: loan is hyphenated and Spanish may also write "live action"; kept as an established loan, but the merge-vs-keep call is unclear
+# question manzanero: examples are mostly the surname Manzanero, kept as a real common word
+# question maruja: mostly a name in the examples, but marujas is a real colloquial Spanish noun; kept as the common word
+# question mcerl: educational acronym well known to Spanish learners but not a listed ordinary-word acronym.
+# question mcerl: well known to language learners but still a specialist acronym; dropped.
+# question michi: Latin American slang for "cat" exists, but 85% capitalised and no examples; dropped
+# question minugua: UN verification mission in Guatemala, arguably a famous international body but defunct and little known; dropped
+# question morbi-mortalidad: "morbi" is not a listed word, so I merged it into morbimortalidad instead of dropping it as a hyphenated compound.
+# question mugs: mixed Spanish "los mugs" and English product-list uses; merged to mug as an established loan, but drop is defensible.
+# question negativos: kept as the plural of the adjective/noun negativo, but the lemmatiser may intend negativo as the lemma; the examples are only product-title usage
+# question negativos: tagged PROPN, but the evidence is title-cased product text, so treated as the common word.
+# question neocon: "neocons" in Spanish prose is a real loan (RAE neocón), but the NeoCon event is the larger share, so I dropped it
+# question nicotine: examples are mostly English text; merged to nicotina by the English-spelling rule, though drop is arguable.
+# question oedt: OEDT is the Spanish acronym of the EU drugs observatory (EMCDDA); dropped as a specialist body, though it could count as an international body.
+# question ofreciéndono: the lemma is a cut-off form of ofreciéndonos; merged to the verb ofrecer
+# question olanzapine: a drug name seen only in English-language text; merged to the Spanish olanzapina by the English-spelling rule, though drop is arguable.
+# question olanzapine: examples are English-language text; merged into the Spanish drug name olanzapina rather than dropped.
+# question poinsettia: Spanish usually says flor de Pascua; dropped as English
+# question post-doctoral: merged to posdoctoral, though postdoctoral is also accepted by the RAE
+# question pre-pagada: merge target prepagada vs prepago; chose prepagada as the written adjective form, but the lemma might be prepagado
+# question pre-selección: merged to preselección, assuming that is the spelling in the list
+# question quereteo: a biblical gentilic (Cherethites), only written in the plural; I treated it as a name and dropped it, not as a common word to merge to quereteo.
+# question quereteo: biblical gentilic (Kerethites) used as a common noun in the plural; dropped as a proper name, though it could be kept as a people-name noun.
+# question remaster: loan established enough in Spanish is borderline; kept as gaming/music loan
+# question remaster: loan is marginal; most occurrences are titles of games/product releases, kept as established media loan
+# question reseda: most occurrences are the California place name, but the rules keep a real common word that doubles as a place name, so I kept it
+# question sanctorum: Latin term in "Sancta Sanctorum" and "Santa Sanctorum"-type phrases; dropped as a fragment, not a standalone Spanish word
+# question secam: TV standard acronym, could count as an ordinary technical word like PAL; dropped as specialist.
+# question senan: Panama's aeronaval service is a public body, but it is not clearly famous across the Spanish-speaking world, so dropped.
+# question sepd: Supervisor Europeo de Protección de Datos is an EU body, but not widely famous; dropped as a specialist acronym.
+# question sepd: an EU body, but not a famous international body in the rules' sense; dropped.
+# question siii: could be the elongated interjection "sííí" (yes), but examples mostly Samsung Galaxy SIII; dropped
+# question slang: English word used as a gloss for "jerga"; could count as an established loan
+# question slang: English-learning contexts dominate; unclear whether it counts as an established loan
+# question slim-fit: "slim fit" is common in Spanish clothing text but may not count as established enough to keep, so I merged it into the two-word form.
+# question slim-fit: hyphenated English fashion loan; kept as an established loan, but "slim fit" may not be on the list as a compound
+# question softbox: established photography loan, but mostly product names, so dropped
+# question speakeasy: borderline loan; kept since used with Spanish article and plural in examples
+# question speakeasy: borderline whether established beyond tourism/bar contexts, kept as loan
+# question tai-chi: Spanish writes both tai chi and taichí; chose tai chi as the common form
+# question tai-chi: the target form (tai chi vs taichí) is unclear; chose the two-word form.
+# question tapatío: demonym of Guadalajara (place-derived) kept as a common adjective
+# question udlap: private Mexican university; unclear whether it is nationally famous enough to count as a famous institution, dropped as minor
+# question udlap: well-known Mexican university, but private and regional, so dropped as not nationally famous
+# question vtv: national broadcaster in Venezuela; kept as a famous broadcaster, though less widely known than RTVE.
+# question websocket: technical loan, dropped as specialist vocabulary
+# question wto: English acronym for the OMC; dropped rather than merged since the Spanish form is not obviously the same token.
+# question zinfandel: a grape name used in Spanish wine writing, but could count as an established loan
+# question zinfandel: grape name, borderline as an established loan; kept
