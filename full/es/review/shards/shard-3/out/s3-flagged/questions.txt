@@ -125,9 +125,9 @@
 # question yeshiva: established loan or foreign term? Kept.
 # question yeshiva: established loan, or a foreign proper noun (mostly "Yeshiva University")?
 # question zirconia: the real-word reading (zirconia cúbica) may be a minority of the examples, many of which are English product listings.
-# question bode, pepito, rema, champa, medica, chute: when a name-dominated lemma hides a real common word as a minority, what share (if any) should lead to keep or merge rather than drop or pending-names?
-# question haciéndono: does the list file pronominal uses (hacerse, etc.) under their own lemma, or under the base verb?
-# question jesus: should ¡Jesús! (the interjection, also said after a sneeze) be a list lemma in its own right, separate from the person name?
-# question jobo, casimir, ruma, ilion: when a lemma is mostly a name but also a real common noun, should it keep even if the common word is regional or dated (jobo, ruma, casimir) or technical (ilion)? Or only if the common reading is frequent enough for a learner?
-# question reconciliarno, distraerno: should clitic "-nos" forms merge to the plain infinitive (reconciliar, distraer) or to a separate pronominal lemma (reconciliarse, distraerse)? The rules state no convention for pronominal verbs.
-# question sisben: are acronyms of government programmes and systems (SISBEN) treated like organisation acronyms (drop) or like everyday-term acronyms (keep)?
+# question ala-pívot: the hyphenated-compound drop rule removes an established term written hyphenated by convention; should such terms be an exception?
+# question bode, champa: real words that are rare or regional (archaic, Central American only); does the common-word rule keep them even when a learner would rarely meet them?
+# question contra-notificación, pre-evento: should a hyphenated prefix (contra-, pre-) count as an adapted word to merge into the joined spelling, or as a "hyphenated compound of two listed words" to drop when the prefix is also a listed word (contra)? And should rare prefixed technical terms merge at all?
+# question hadith: the "form people write" rule (forint) and the "English spelling merges" rule (click → clic) conflict when the English spelling (hadith) is about as common in Spanish text as the adapted form (hadiz). Which rule wins?
+# question jesus: should major religious figures (Jesús, Dios's peers) or the interjection ¡Jesús! be a list lemma, overriding the drop rule for people's names?
+# question pending-names: the answer format offers this decision, but the rules don't define it, so I didn't use it

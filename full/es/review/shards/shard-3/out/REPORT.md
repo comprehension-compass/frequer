@@ -3,6 +3,13 @@
 Branch `es-review-shard-3` from `c4aacac`. First pass only: nothing is applied to `corpora/review/es.tsv` and
 `collect.py` was not run.
 
+**Adjudication rerun (coordinator's request).** The first adjudication ran without `--rules`, so it used uplift's
+old rules. Both rounds were adjudicated again with the same gate queries under the final rules
+(`--rules review/rules/es-flagged-final.md` and `es-unflagged-final.md`, as in full-es `f117a3a`). Before the rerun I
+moved the old `adjudication/` aside and restored `questions.txt` to the reviewers' stage-1 set. All numbers below come
+from the rerun. Compared with the old-rules run, 19 flagged decisions and 18 unflagged decisions changed, and no lemma
+is `pending-names` any more.
+
 ## Counts
 
 | step | result |
@@ -12,13 +19,13 @@ Branch `es-review-shard-3` from `c4aacac`. First pass only: nothing is applied t
 | flagged reviewers | 933 agreed (83 keep, 776 drop, 74 merge), 30 disagreements, 7 accent-only merges, 0 failed calls |
 | flagged gate | 16 queries |
 | flagged adjudication | 917 agreed + 46 adjudicated (30 disagreements + 16 queries), 0 undecided |
-| **flagged final** | **keep 89, drop 790, merge 81, pending-names 3** |
+| **flagged final** | **keep 93, drop 786, merge 84** |
 | unflagged screening | 4,955 screened (the 4,956th was left out as a learnable-name release entry), 20 batches, 0 failed; 895 suspects (685 marked by both screeners) |
 | suspect examples | 825 / 895 (92.2 %) |
 | suspect reviewers | 837 agreed (420 keep, 228 drop, 189 merge), 58 disagreements, 13 accent-only merges, 0 failed calls |
 | suspect gate | 19 queries |
 | suspect adjudication | 818 agreed + 77 adjudicated (58 disagreements + 19 queries), 0 undecided |
-| **unflagged final** | **keep 438, drop 237, merge 219, pending-names 1** (the other 4,060 screened lemmas stay `keep`) |
+| **unflagged final** | **keep 447, drop 236, merge 212** (the other 4,060 screened lemmas stay `keep`) |
 
 Both example shares are above 85 %.
 
@@ -30,53 +37,51 @@ second real word: merges whose source is also a separate word, and drops of real
 common-word rule might keep. The full reasons are in each round's `queries.tsv`.
 
 **Flagged** (16 queries):
-- Merges: moje → mojar, meleno → melena, siller → sillería, distraerno → distraer, haciéndono → hacer and
-  escríbano → escribir were all upheld. jesus → Jesús was changed to **drop**, because every example is the person.
-- Drops checked against the common-word rule: medica became **merge:médico**; ruma, jobo, ilion and casimir became
-  **keep**; champa became **pending-names**; rema, pepito and bode stayed **drop** (the common reading is a small
-  minority).
+- Merges upheld: moje → mojar, meleno → melena, siller → sillería, distraerno → distraer, haciéndono → hacer and
+  escríbano → escribir.
+- jesus → Jesús was changed to **drop** (every example is the person).
+- Drops checked against the common-word rule: ruma, jobo, ilion, champa, casimir, pepito and bode became **keep**;
+  medica and rema stayed **drop**.
 
 **Unflagged** (19 queries):
-- guarda, decorado and colocado became **keep** (each is a noun or adjective in its own right). logos, refino, critico,
-  desdecir, marrar, mochar and translucir kept their merges.
-- samario, rho and cienciología became **keep**; castillejo became **pending-names**; sueno became **merge:sueño**.
-  rolar, luxar, medicinar and gob stayed **drop**.
+- guarda, decorado, colocado and logos became **keep** (each is a separate noun or adjective).
+- refino, critico, desdecir, marrar, mochar and translucir kept their merges.
+- samario, castillejo, rolar and cienciología became **keep**; gob became **merge:gobierno**; sueno became
+  **merge:sueño**; luxar, medicinar and rho stayed or became **drop**.
 
 ## Points for the coordinator
 
-- **medica → merge:médico.** The lemmatiser's convention gives feminine nouns their own entry (médica), so the
-  target may need to be `médica`. I left the adjudicator's decision as written.
-- **Common-word rule against minority readings.** The flagged adjudicator kept jobo, casimir, ruma and ilion but
-  dropped pepito, bode and rema on share. It asked about this itself (see below).
-- **Pronominal clitic forms.** reconciliarno and distraerno merge to the plain verb, while alejándono, juntarno,
-  alegrémono and considerarno merge to the pronominal verb. The adjudicator asked about this too.
-- **Too many questions.** The unflagged adjudicator wrote 10 grouped questions, above the README's 5–6.
+- **Pronominal clitic forms are still mixed.** reconciliarno, uniéndote and uníos now merge to the pronominal verb,
+  but distraerno and haciéndono merge to the plain verb (both agreed by the reviewers and upheld on query).
+- **`pending-names`.** The flagged adjudicator notes that the answer format offers `pending-names` but the final rules
+  don't define it, so it never used it.
+- **Too many questions.** The unflagged adjudicator again wrote 10 grouped questions, above the README's 5–6.
 - **The out/ directory is gitignored.** A generic `out/` rule in `.gitignore` covers this directory, so the files
   were added with `git add -f`.
 
-## Adjudicator questions (grouped)
+## Adjudicator questions (grouped, final-rules run)
 
 **s3-flagged**
-# question bode, pepito, rema, champa, medica, chute: when a name-dominated lemma hides a real common word as a minority, what share (if any) should lead to keep or merge rather than drop or pending-names?
-# question haciéndono: does the list file pronominal uses (hacerse, etc.) under their own lemma, or under the base verb?
-# question jesus: should ¡Jesús! (the interjection, also said after a sneeze) be a list lemma in its own right, separate from the person name?
-# question jobo, casimir, ruma, ilion: when a lemma is mostly a name but also a real common noun, should it keep even if the common word is regional or dated (jobo, ruma, casimir) or technical (ilion)? Or only if the common reading is frequent enough for a learner?
-# question reconciliarno, distraerno: should clitic "-nos" forms merge to the plain infinitive (reconciliar, distraer) or to a separate pronominal lemma (reconciliarse, distraerse)? The rules state no convention for pronominal verbs.
-# question sisben: are acronyms of government programmes and systems (SISBEN) treated like organisation acronyms (drop) or like everyday-term acronyms (keep)?
+# question jesus: should major religious figures (Jesús, Dios's peers) or the interjection ¡Jesús! be a list lemma, overriding the drop rule for people's names?
+# question bode, champa: real words that are rare or regional (archaic, Central American only); does the common-word rule keep them even when a learner would rarely meet them?
+# question ala-pívot: the hyphenated-compound drop rule removes an established term written hyphenated by convention; should such terms be an exception?
+# question pending-names: the answer format offers this decision, but the rules don't define it, so I didn't use it
+# question contra-notificación, pre-evento: should a hyphenated prefix (contra-, pre-) count as an adapted word to merge into the joined spelling, or as a "hyphenated compound of two listed words" to drop when the prefix is also a listed word (contra)? And should rare prefixed technical terms merge at all?
+# question hadith: the "form people write" rule (forint) and the "English spelling merges" rule (click → clic) conflict when the English spelling (hadith) is about as common in Spanish text as the adapted form (hadiz). Which rule wins?
 
 **s3-unflagged**
-# question aforar: the noun Aforo (38) is misfiled under the verb; should those counts be split off to a lemma aforo?
-# question desdecir, aposentar, alambrar: when one lemma pools a real verb with a more frequent related noun, merging loses the verb. Should such lemmas be split instead?
-# question eslálom, best-seller: should loans use the RAE-adapted spelling (eslalon, bestséller) or the form people actually write (slalom, best-seller)?
-# question extremi: should split Latin loans like "in extremis" become a multi-word lemma, or always drop?
-# question metoprolol, haloperidol: should generic drug names always be dropped as specialist terms, or kept when common (ibuprofeno, paracetamol)?
-# question olimpíada, trascurrir, trasgresión: should accepted variant spellings merge into the main form (as done here), or stay as separate keeps when people mostly write the variant?
-# question parquing: should nonstandard spellings of loans merge into the form learners meet (parking) or into the RAE/Fundéu adaptation (parquin)?
-# question preciosísima, bajísimo: should -ísimo superlatives always merge into the base adjective, or stay as their own lemmas when common (bajísimo, buenísimo)?
-# question quilo, videir, bitcoines: for valid variant spellings (quilo/kilo, video/vídeo, bitcoin/bitcóin), which form should the list use as the lemma?
-# question rho: should the Greek letter be filed as rho or as ro (RAE spelling)?
+# question olimpíada, trascurrir, trasgresión: when an accepted variant is a separate lemma beside the standard form (olimpiada, transcurrir, transgresión), should both stay, or should the minority variant merge?
+# question guarda, decorado, colocado, hinchada: when kept for the noun or adjective reading, should the occurrences that are really the verb (guárdala, the decorado/hinchada participles) be moved to the verb lemma?
+# question oseltamivir: should generic drug names be dropped as specialist, or kept when common (ibuprofeno, paracetamol)? Where is the line?
+# question rho: for Greek letters, should the English-style spelling (rho) merge into the Spanish form (ro) when the letter reading dominates?
+# question metoprolol, haloperidol: should generic drug names count as specialist and drop, or as ordinary common nouns that are kept?
+# question bajísimo, preciosísima: should -ísimo superlatives stay as their own lemmas or merge into the base adjective?
+# question parquing: is a regional (Catalan-influenced) adapted spelling kept as written, or merged into parking or parquin?
+# question ametrallador: 112 of 161 occurrences are ametralladora, a separate common noun; should it get its own entry rather than stay hidden under ametrallador?
+# question videir: is the list's lemma video or vídeo? Both are standard, and the rules don't say which form wins when regions differ.
+# question gob: with no examples, some GOB/gob occurrences may be gob.mx/gob.es domain artefacts rather than the abbreviation.
 
-## Every `# question` line (reviewers and adjudicator, as pooled in `questions.txt`)
+## Every `# question` line (reviewers, then the adjudicator, as pooled in `questions.txt`)
 
 ### s3-flagged
 
@@ -208,12 +213,12 @@ common-word rule might keep. The full reasons are in each round's `queries.tsv`.
 # question yeshiva: established loan or foreign term? Kept.
 # question yeshiva: established loan, or a foreign proper noun (mostly "Yeshiva University")?
 # question zirconia: the real-word reading (zirconia cúbica) may be a minority of the examples, many of which are English product listings.
-# question bode, pepito, rema, champa, medica, chute: when a name-dominated lemma hides a real common word as a minority, what share (if any) should lead to keep or merge rather than drop or pending-names?
-# question haciéndono: does the list file pronominal uses (hacerse, etc.) under their own lemma, or under the base verb?
-# question jesus: should ¡Jesús! (the interjection, also said after a sneeze) be a list lemma in its own right, separate from the person name?
-# question jobo, casimir, ruma, ilion: when a lemma is mostly a name but also a real common noun, should it keep even if the common word is regional or dated (jobo, ruma, casimir) or technical (ilion)? Or only if the common reading is frequent enough for a learner?
-# question reconciliarno, distraerno: should clitic "-nos" forms merge to the plain infinitive (reconciliar, distraer) or to a separate pronominal lemma (reconciliarse, distraerse)? The rules state no convention for pronominal verbs.
-# question sisben: are acronyms of government programmes and systems (SISBEN) treated like organisation acronyms (drop) or like everyday-term acronyms (keep)?
+# question ala-pívot: the hyphenated-compound drop rule removes an established term written hyphenated by convention; should such terms be an exception?
+# question bode, champa: real words that are rare or regional (archaic, Central American only); does the common-word rule keep them even when a learner would rarely meet them?
+# question contra-notificación, pre-evento: should a hyphenated prefix (contra-, pre-) count as an adapted word to merge into the joined spelling, or as a "hyphenated compound of two listed words" to drop when the prefix is also a listed word (contra)? And should rare prefixed technical terms merge at all?
+# question hadith: the "form people write" rule (forint) and the "English spelling merges" rule (click → clic) conflict when the English spelling (hadith) is about as common in Spanish text as the adapted form (hadiz). Which rule wins?
+# question jesus: should major religious figures (Jesús, Dios's peers) or the interjection ¡Jesús! be a list lemma, overriding the drop rule for people's names?
+# question pending-names: the answer format offers this decision, but the rules don't define it, so I didn't use it
 ```
 
 ### s3-unflagged
@@ -377,14 +382,14 @@ common-word rule might keep. The full reasons are in each round's `queries.tsv`.
 # question xantana: the feminine form of an adjective whose masculine "xantano" is rare. I kept it because the word appears almost only in "goma xantana".
 # question zamak: could count as an ordinary technical noun for the alloy rather than a brand
 # question zozobrar: the forms are mixed noun and verb, and I kept the verb lemma.
-# question aforar: the noun Aforo (38) is misfiled under the verb; should those counts be split off to a lemma aforo?
-# question desdecir, aposentar, alambrar: when one lemma pools a real verb with a more frequent related noun, merging loses the verb. Should such lemmas be split instead?
-# question eslálom, best-seller: should loans use the RAE-adapted spelling (eslalon, bestséller) or the form people actually write (slalom, best-seller)?
-# question extremi: should split Latin loans like "in extremis" become a multi-word lemma, or always drop?
-# question metoprolol, haloperidol: should generic drug names always be dropped as specialist terms, or kept when common (ibuprofeno, paracetamol)?
-# question olimpíada, trascurrir, trasgresión: should accepted variant spellings merge into the main form (as done here), or stay as separate keeps when people mostly write the variant?
-# question parquing: should nonstandard spellings of loans merge into the form learners meet (parking) or into the RAE/Fundéu adaptation (parquin)?
-# question preciosísima, bajísimo: should -ísimo superlatives always merge into the base adjective, or stay as their own lemmas when common (bajísimo, buenísimo)?
-# question quilo, videir, bitcoines: for valid variant spellings (quilo/kilo, video/vídeo, bitcoin/bitcóin), which form should the list use as the lemma?
-# question rho: should the Greek letter be filed as rho or as ro (RAE spelling)?
+# question ametrallador: 112 of 161 occurrences are ametralladora, a separate common noun; should it get its own entry rather than stay hidden under ametrallador?
+# question bajísimo, preciosísima: should -ísimo superlatives stay as their own lemmas or merge into the base adjective?
+# question gob: with no examples, some GOB/gob occurrences may be gob.mx/gob.es domain artefacts rather than the abbreviation.
+# question guarda, decorado, colocado, hinchada: when kept for the noun or adjective reading, should the occurrences that are really the verb (guárdala, the decorado/hinchada participles) be moved to the verb lemma?
+# question metoprolol, haloperidol: should generic drug names count as specialist and drop, or as ordinary common nouns that are kept?
+# question olimpíada, trascurrir, trasgresión: when an accepted variant is a separate lemma beside the standard form (olimpiada, transcurrir, transgresión), should both stay, or should the minority variant merge?
+# question oseltamivir: should generic drug names be dropped as specialist, or kept when common (ibuprofeno, paracetamol)? Where is the line?
+# question parquing: is a regional (Catalan-influenced) adapted spelling kept as written, or merged into parking or parquin?
+# question rho: for Greek letters, should the English-style spelling (rho) merge into the Spanish form (ro) when the letter reading dominates?
+# question videir: is the list's lemma video or vídeo? Both are standard, and the rules don't say which form wins when regions differ.
 ```

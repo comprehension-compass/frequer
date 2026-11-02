@@ -156,13 +156,13 @@
 # question xantana: the feminine form of an adjective whose masculine "xantano" is rare. I kept it because the word appears almost only in "goma xantana".
 # question zamak: could count as an ordinary technical noun for the alloy rather than a brand
 # question zozobrar: the forms are mixed noun and verb, and I kept the verb lemma.
-# question aforar: the noun Aforo (38) is misfiled under the verb; should those counts be split off to a lemma aforo?
-# question desdecir, aposentar, alambrar: when one lemma pools a real verb with a more frequent related noun, merging loses the verb. Should such lemmas be split instead?
-# question eslálom, best-seller: should loans use the RAE-adapted spelling (eslalon, bestséller) or the form people actually write (slalom, best-seller)?
-# question extremi: should split Latin loans like "in extremis" become a multi-word lemma, or always drop?
-# question metoprolol, haloperidol: should generic drug names always be dropped as specialist terms, or kept when common (ibuprofeno, paracetamol)?
-# question olimpíada, trascurrir, trasgresión: should accepted variant spellings merge into the main form (as done here), or stay as separate keeps when people mostly write the variant?
-# question parquing: should nonstandard spellings of loans merge into the form learners meet (parking) or into the RAE/Fundéu adaptation (parquin)?
-# question preciosísima, bajísimo: should -ísimo superlatives always merge into the base adjective, or stay as their own lemmas when common (bajísimo, buenísimo)?
-# question quilo, videir, bitcoines: for valid variant spellings (quilo/kilo, video/vídeo, bitcoin/bitcóin), which form should the list use as the lemma?
-# question rho: should the Greek letter be filed as rho or as ro (RAE spelling)?
+# question ametrallador: 112 of 161 occurrences are ametralladora, a separate common noun; should it get its own entry rather than stay hidden under ametrallador?
+# question bajísimo, preciosísima: should -ísimo superlatives stay as their own lemmas or merge into the base adjective?
+# question gob: with no examples, some GOB/gob occurrences may be gob.mx/gob.es domain artefacts rather than the abbreviation.
+# question guarda, decorado, colocado, hinchada: when kept for the noun or adjective reading, should the occurrences that are really the verb (guárdala, the decorado/hinchada participles) be moved to the verb lemma?
+# question metoprolol, haloperidol: should generic drug names count as specialist and drop, or as ordinary common nouns that are kept?
+# question olimpíada, trascurrir, trasgresión: when an accepted variant is a separate lemma beside the standard form (olimpiada, transcurrir, transgresión), should both stay, or should the minority variant merge?
+# question oseltamivir: should generic drug names be dropped as specialist, or kept when common (ibuprofeno, paracetamol)? Where is the line?
+# question parquing: is a regional (Catalan-influenced) adapted spelling kept as written, or merged into parking or parquin?
+# question rho: for Greek letters, should the English-style spelling (rho) merge into the Spanish form (ro) when the letter reading dominates?
+# question videir: is the list's lemma video or vídeo? Both are standard, and the rules don't say which form wins when regions differ.
