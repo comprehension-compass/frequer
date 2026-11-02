@@ -1,0 +1,80 @@
+# question aequo: "ex aequo" is a Latin phrase used in Spanish; its first half "ex" is not in this batch, so I dropped aequo as the second half. Whether the coordinator wants a "ex aequo" entry is unclear.
+# question aequo: only the second half of the Latin phrase "ex aequo"; the first half "ex" has no entry to merge into, so dropped.
+# question alentejano: this is a regional demonym, but the examples are mostly part of names (Suroeste Alentejano). I dropped it as place-derived.
+# question autodenominan: autodenominarse is the usual pronominal form; I merged there since all examples are reflexive.
+# question autodenominan: autodenominarse is the usual pronominal verb, chosen over autodenominar
+# question backtesting: borderline established loan; kept as widely used in Spanish trading texts
+# question backtesting: finance usage in Spanish may be established; I dropped it as a specialist English term.
+# question bitumen: it is a Latin-looking form but is in the academy dictionary alongside betún, so I kept it rather than merging.
+# question buprenorphine: English spelling of buprenorfina, but a specialist drug, so dropped rather than merged
+# question buprenorphine: specialist drug, so it might drop; merged because the adapted form buprenorfina is well known
+# question cabriolar: split by form: cabriolé, Cabriolé, cabriole -> cabriolé
+# question carnita: carnitas is a dish name used almost only in the plural; I merged it into carnitas, but keeping it as plural-only would also be defensible.
+# question carnita: kept as the dish carnitas (mostly plural); the coordinator may prefer the lemma carnitas.
+# question cester: all examples show cestería, so merged to cestería (noun) rather than cestero/cesta
+# question clorpirifo: a pesticide is neither a drug nor an organism, so the drug rule doesn't clearly apply; merged as a well-known substance.
+# question colacionar: examples missing; forms are mostly colaciones (noun colación) so a split may be needed: split by form: colaciones -> colación
+# question colacionar: the counted forms are mostly colaciones (noun), so the lemma may need a split by form: colaciones -> colación.
+# question concho: Lowercase concho/conchos is about 30% of examples, just under the one-third threshold, so dropped.
+# question concho: the real word (dregs, remainder) is probably under a third of the examples, with most being Pasta de Conchos; dropped on that estimate.
+# question císter: kept as a common-word reading of the order, not as a place
+# question definiéndose: could go to definirse instead, but the examples show a passive "se", so definir was chosen
+# question desvitalizar: most forms are the participle adjective desvitalizado; I kept the verb lemma as given.
+# question devolverse: the examples show devolverme (plain verb with clitic), so I merged to devolver rather than keeping the pronominal.
+# question dirigiéndome: merged into dirigirse since the examples are mostly the pronominal use
+# question embuchar: split by form: embuchado, embuchada, embuchados, Embuchado -> embuchado
+# question embuchar: split by form: embuchado, embuchados, embuchada, Embuchado -> embuchado
+# question etoposide: specialist chemotherapy drug, dropped; would merge into etopósido if the developer sees it as a common drug.
+# question excimer: it appears only in láser excimer, which is specialist medical vocabulary; I dropped it.
+# question ezine: the loan is established in some web Spanish but much less than blog or email; I dropped it.
+# question fajo: split by form: fajita -> fajita
+# question geteo: biblical gentilic (from Gat); kept as a lowercase ethnonym, but it may be too rare for a learner list
+# question glucosilada: the lemma could be glucosilado (adjective) or glucosilar (verb); I chose the adjective, since the examples are all "hemoglobina glucosilada".
+# question incio: could also be the place Incio (Lugo); the example is a misspelling of inicio, so merged
+# question incio: could be the Galician municipality Incio (capitalised uses), but the example is a misspelling of inicio; merged
+# question indiciar: split by form: indicio -> indicio
+# question infantado: a real historical noun (territory of an infante), but the examples are almost all the palace name, so dropped
+# question kafir: foreign Arabic term used in Spanish texts about Islam; dropped as not established, could be argued either way
+# question kafir: no obvious Spanish lemma (cafre has a different meaning); dropped as not established.
+# question lipofilling: established clinic term in Spanish or too specialist? Dropped as specialist.
+# question mandingo: lowercase ethnonym/devil sense (mandinga) exists but the examples are spam, so I dropped it
+# question marginalizadas: marginalizado is nonstandard next to marginado; merged to marginalizado as the written form
+# question marés: Catalan/Mallorcan term for a building stone; kept as a regional Spanish word
+# question mercar: forms merca and mercad may belong partly to the noun merca; kept as the verb
+# question mountainbike: I merged it into the two-word form "mountain bike"; if the list keeps the one-word spelling, this should be keep.
+# question mountainbike: Is the unit "mountain bike" or does Spanish prefer "bicicleta de montaña"/"mountain bike"? Merged into the two-word loan.
+# question multicentro: one example in three is the common word (multicentro = multi-site); borderline against the one-third threshold
+# question multiprotocolo: real Spanish compound adjective but used only in networking/IT; dropped as specialist
+# question pantie: panties is used in Mexican Spanish and the academy has "panti"; merged on that basis, drop if the developer thinks it is not established
+# question pantie: panties may count as an English loan rather than a spelling of panti; merged to panti
+# question partiéndose: examples include "partiéndose de las normas", which is odd usage; merged to partirse since the form is a gerund with clitic
+# question partiéndose: partirse (de risa) is a pronominal verb, but the examples show plain partir; merged to partir
+# question pedelec: borrowed term for an e-bike; could count as an established loan in the cycling trade, dropped as specialist
+# question permítanos: the clitic nos is an indirect object, not reflexive, so permitir fits the meaning, though the -nos rule points to the pronominal permitirse
+# question pobrecita: could merge into pobre instead of pobrecito; I chose pobrecito as the diminutive.
+# question populi: appears only in the Latin phrase vox populi; dropped as Latin, but the phrase could be a multi-word entry
+# question populi: split loan, but the first half "vox" is not in this batch; if "vox" is not on the list, the coordinator may want to add vox populi directly.
+# question preprints: the target preprint is unconfirmed as a listed lemma; if it is not established, drop.
+# question preprints: unsure "preprint" is already a lemma; merged as the plural of an English loan used in Spanish science
+# question prevaler: most forms are prevalerse, so it could merge into prevalerse; I kept it because prevaler is itself a real verb.
+# question rastas: tagged ADJ and counted only as a plural; keep as a plural-only noun, though rasta may be the better lemma.
+# question regato: split by form: regata -> regata (regata is the boat race, the majority of forms)
+# question regato: split by form: regata, regatas -> regata
+# question resi: could be a clipping of residencia or residente; no examples found, chose residencia
+# question resi: no examples available; clipping of residencia (could also be residente or a colloquial entry of its own)
+# question retractilado: tagged VERB but the examples are adjectival/noun (film retractilado); kept as its own lemma, could alternatively merge into a verb retractilar
+# question roladora: no examples; read as the noun roladora (rolling machine), but could be a feminine of rolador or a form of rolar
+# question roladora: no examples; tagged VERB, but I read it as the Mexican noun for a rolling machine, so I kept it.
+# question ruedecita: Diminutives are not covered by the merge conventions, so kept as a lexicalised diminutive.
+# question signifi: truncated fragment that could be significar or significado, so no obvious merge; dropped
+# question snorkelling: the target spelling, snorkel or the academy's esnórquel, is unclear; I used the form people write.
+# question tero: Tero is also a Río de la Plata bird name, but the examples show the Deros/Teros fantasy-name reading dominates; dropped.
+# question tomboy: mixed use as a place/shop name; kept because the fashion-style reading is the majority and established
+# question tranquilizarse: lemma form is tranquilizarte; I kept it as the pronominal verb, but the coordinator may need to rename it to tranquilizarse.
+# question traquear: forms are mostly traquea (tráquea); merged there, the rare traqueo/traquear forms are a different word
+# question ultrapasar: it looks like a Portuguese calque (ultrapassar), with Spanish equivalents superar and rebasar; dropped rather than merged.
+# question valgus: I dropped it as the second half of the Latin term "hallux valgus". The rules do not say whether "hallux valgus" should be a compound entry.
+# question veran: no examples were available, so the decision rests on the screeners' notes only.
+# question veran: no examples; could be verán misspelt without accent, but capitalised Veran suggests name, so dropped
+# question vistir: no examples shown; forms are almost all "vista", so merged to vista rather than vestir
+# question wikitexto: a specialist web term, but it is a Spanish compound and is used consistently, so kept.

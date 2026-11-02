@@ -1,0 +1,24 @@
+# lemma	A	reason A	B	reason B
+infographic	drop	English, not established in Spanish	merge:infografía	English spelling of adapted word
+wikitexto	keep	Spanish compound for a wiki term, used consistently	drop	web/wiki coinage
+rastas	merge:rasta	plural form filed as lemma	keep	rastas (dreadlocks) is a real noun, plural-only in use
+huzí	keep	lowercase ethnonym	merge:hutí	variant spelling of the standard ethnonym hutí
+tomboy	drop	English word, not established	keep	established in Spanish fashion usage (estilo tomboy)
+multiprotocolo	drop	networking jargon, specialist term	keep	real Spanish compound adjective, used in tech but not a specialist acronym
+partiéndose	merge:partir	gerund with clitic; examples are mostly plain partir	merge:partirse	gerund with clitic, filed under common pronominal verb
+snorkelling	merge:esnórquel	English spelling of adapted word	merge:snorkel	English spelling of the loan
+tráder	keep	established loan with correct Spanish accent	merge:trader	loan with nonstandard accent, plural filed as lemma
+signifi	drop	cut-off fragment, merge target ambiguous	merge:significar	cut-off fragment of significar
+buprenorphine	drop	specialist drug, English spelling	merge:buprenorfina	English spelling of the adapted drug name
+peginterfer	drop	specialist drug name, truncated	merge:peginterferón	cut-off drug name
+prevaler	keep	real verb; most forms are prevalerse	merge:prevalerse	Forms are mainly prevalerse
+serializado	keep	established adjective, serialized	merge:serializar	participle filed as lemma
+backtesting	drop	specialist English finance term	keep	established finance loan
+trihalometano	keep	adapted chemical term in drinking-water contexts	drop	specialist chemical term
+mapeadas	merge:mapeado	feminine plural of the participle adjective	merge:mapear	participle form filed as lemma
+carnita	keep	Mexican food term, used as carnitas	merge:carnitas	the dish is nearly always plural
+santar	merge:santo	broken lemma; occurrences are the feminine santa	drop	not a word, from santa
+nortriptyline	merge:nortriptilina	English spelling of the adapted drug name	drop	English spelling of a specialist drug
+tobramycin	merge:tobramicina	English spelling of the adapted drug name	drop	English specialist drug name
+gluconate	merge:gluconato	English spelling of the adapted word	drop	English word
+ruedecita	keep	lexicalised diminutive; the VERB tag is wrong	merge:rueda	diminutive of rueda
