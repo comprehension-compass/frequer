@@ -1,0 +1,12 @@
+# question ajustamiento: rare and often a calque of "adjustment", where ajuste would be normal; kept because it is a valid DLE word and not clearly broken
+# question bouclé: the DLE adaptation buclé is assumed; if buclé is not on the list, keep bouclé as an established textile term
+# question bouclé: used in Spanish fashion copy but not established in dictionaries; chose drop.
+# question bugambilia: Both bugambilia and buganvilia are accepted; I kept bugambilia as the form people write, so merging into buganvilia would also be defensible.
+# question compuester: Text form is compuesto, which is also a real adjective/noun; I merged to the verb componer because the lemma is tagged VERB.
+# question elementaria: unsure whether this school-level noun (calque of "elementary") should merge into elemental or drop; chose merge.
+# question emplastar: split by form: emplasto, emplaste, Emplasto, Emplaste -> emplasto
+# question itinere: Latin phrase "in itinere" is established in Spanish labour law, but "in" is not a listed lemma, so I applied the split-loan rule and dropped it. The coordinator may prefer to keep it as the compound "in itinere".
+# question memória: Looks like Portuguese text, so I dropped it, but a merge to memoria is arguable if some uses are accent typos in Spanish.
+# question shoyu: not in the academy dictionary, but common in Spanish cooking text; chose keep.
+# question temporáneo: could be a cut-off form of contemporáneo/extemporáneo or the rare real word "temporáneo"; no examples to check, dropped
+# question temporáneo: the lemma could be a real rare adjective or a cut-off fragment of contemporáneo/extemporáneo; no examples were available, so I dropped it.
