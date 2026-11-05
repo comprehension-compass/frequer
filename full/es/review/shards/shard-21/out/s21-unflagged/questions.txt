@@ -1,0 +1,27 @@
+# question adaptante: could be merged to adaptar/adaptador; no clear target, dropped
+# question adaptante: not sure it is a dictionary word (adaptativo may be intended); kept as a real adjective since the examples read as genuine Spanish.
+# question canana: real Spanish noun, but the counts are dominated by "Montana Canana" and the unrelated cananita; the real reading looks under a third, so I dropped it.
+# question canana: split by form: cananita -> cananeo
+# question coligar: lemma holds forms coligado/coligada as participles; kept as the verb
+# question dentofacial: specialist but a real word; the rules don't cover specialist non-acronym terms, so I kept it.
+# question despresurización: the lemma and the suggested target are identical, so no real merge is possible; should be keep.
+# question díada: the lemma díada is itself a valid academy spelling (díada/diada both exist), so merging into diada is debatable; the rules say variant spellings merge into the standard one.
+# question escolano: the common word (escolano, choirboy) is a small share of examples; dropped as mostly surname
+# question evolucionarias: the base adjective evolucionario is rare, merged on the assumption it is obvious
+# question fotocroma: rare specialist term; kept as a real word, drop if specialist terms are unwanted
+# question isciii: Instituto de Salud Carlos III is a national public body, but I judged it not a household name; dropped.
+# question jacarandá: both jacarandá and jacaranda are listed; kept as its own entry, so the coordinator should check whether jacaranda is a separate lemma
+# question malditamente: not in dictionaries but a productive, attested adverb; kept.
+# question miniar: split by form: minio -> minio
+# question parlamentar: forms Parlamente/parlamentares suggest a mix of the verb, the adjective and a Portuguese or name fragment; the examples show only one case, so the share of the verb reading is unclear.
+# question parlamentar: lemma mixes the verb parlamentar, the adjective parlamentar, and Parlamente (Portuguese or misparsed); kept for the Spanish verb/adjective reading
+# question pintacarita: lemma is a plural-based form (pintacaras is usual); kept as a real word, unsure of the standard singular spelling
+# question pintacarita: pintacaras is a real term but the lemma is mostly the plural and partly a proper name; dropped.
+# question postesar: lemma is the verb but the forms are mostly the participle postesado; kept as a technical term, a split or merge into postesado is possible
+# question postesar: postesado is a real civil engineering term (post-tensioned concrete), so it may merit keep if the rules treat it as established.
+# question qualia: philosophical term that is plural-looking Latin used as singular; kept as an established loan
+# question rengo: no examples; the Argentine/Chilean adjective reading versus the Rengo name (the Chilean town, the Japanese union) is unclear, so kept
+# question sphagnum: the adapted form esfagno exists; dropped as a raw Latin taxon, but merge:esfagno is defensible
+# question trasportó: trasportar is an accepted variant of transportar; merged because the form is a conjugation filed as lemma
+# question trasportó: trasportar is an accepted variant, but I merged into transportar as the standard lemma.
+# question verdear: split by form: verdeo -> verdeo

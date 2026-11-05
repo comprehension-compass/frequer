@@ -1,0 +1,14 @@
+# lemma	A	reason A	B	reason B
+proptech	keep	established business term	drop	English industry jargon
+pintacarita	keep	real Spanish word for face painter (pintacaras), common in plural use	drop	dubious compound, mostly a name
+veinteañera	keep	has its own feminine entry like hermana	merge:veinteañero	feminine form of adjective/noun
+adaptante	drop	rare, tagged wrongly, not a learner word	keep	real adjective, only the POS tag is off
+apeguen	merge:apegar	conjugated subjunctive form filed as lemma	merge:apegarse	conjugated form of common pronominal verb
+fotocroma	keep	real Spanish word for a photochrom print, though rare	drop	translation artefact of "photochrom" print, not an established Spanish word
+polonés	keep	valid Spanish adjective, listed in the dictionary	merge:polaco	variant of the standard gentilic
+actualícese	merge:actualizarse	imperative with clitic of the common pronominal verb	merge:actualizar	imperative with clitic
+despresurización	keep	real noun; the flag points at itself, so the lemma is fine	merge:despresurización	variant of listed word; lemma duplicates itself, likely accent/case split
+díada	keep	real Spanish noun (dyad); the accent form is the dictionary one, and the ADJ tag is just a tagging error	merge:diada	accent variant, díada is the standard Spanish spelling though; follow dictionary form
+manos	drop	plural of mano filed as a lemma, junk variants and dash artefacts; mano is already listed	merge:mano	plural filed as lemma, junk variants
+modafinil	keep	common generic drug name	drop	specialist drug
+postesar	keep	real technical verb from postesado (post-tensioned), used in construction	drop	specialist technical term from participle, rare
