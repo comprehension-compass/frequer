@@ -1,0 +1,26 @@
+ernstzunehmend	merge target 'ernst nehmen' is multiword; is it a release unit? otherwise keep ernstzunehmend (an adjective in its own right) or merge to a single-word lemma
+herausgebildet	merge target 'sich herausbilden' is multiword with a reflexive; the lemma would be herausbilden
+Vorallem	merge target 'vor allem' is multiword; confirm it is the release unit, else drop as a misspelling
+unzerkaut	unzerkaut is an adjective in its own right (not a form of zerkauen); keep or drop, do not merge into the opposite
+hörgeschädigt	adjective merged into the noun Hörgeschädigte: two different words; keep the adjective?
+Anlaß	old spelling of the noun Anlass, not the verb anlassen; check
+warn	merge into sein looks wrong (waren? warnen?); decide from the examples
+Oliv	oliv is a colour adjective; is it Olive (the fruit) or the colour?
+Bios	could be BIOS (computer) or plural of Bio; check examples
+Höchsten	höchstens, or the superlative of hoch (am höchsten, der Höchste)? check examples
+jack	Jacke, or English/name Jack? check examples
+schaft	Schaft (shaft), or the suffix -schaft cut off by the lemmatiser? check
+mutte	Mutter, or a fragment (Mutti)? check
+ros	rosa, or a fragment (Rosé, Ross)? check
+tren	Trend, or a fragment (trennen)? check
+Allerg	Allergen, or Allergie / Allergiker? pick from the examples
+liebsen	lieb, or Liebste / am liebsten? check
+unger	ungern, or a name/fragment (Unger is a surname)? check
+Allround	merge into Allrounder, or the prefix Allround- (no own lemma)? check
+Pfeifer	surname or the common noun (a piper/whistler)? check examples
+Nirvana	the band (drop) or the concept (keep)? check examples
+Augustiner	brewery name (drop) or the monastic order (keep)? check examples
+Bolle	brand/name (drop) or the dialect word (onion)? check examples
+Kapitol	landmark/building name: the place rule drops places not on the learnable list (Theresienwiese was dropped); keep only if it is a common noun here
+Petersdom	landmark name: the place rule drops places not on the learnable list; keep or drop? say if this needs a developer ruling
+Freiheitsstatue	landmark name: the place rule drops places not on the learnable list; keep or drop? say if this needs a developer ruling
