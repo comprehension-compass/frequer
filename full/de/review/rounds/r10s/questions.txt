@@ -1,0 +1,18 @@
+# question Apex: the counts are mostly company names, but I decided by the word's own reading (rule 13).
+# question Geschriebene: "das Geschriebene" could count as a lexicalised nominalisation like Angestellte, but the counts are lower-case inflected adjective forms, so I merged it into schreiben.
+# question Geschriebene: could count as a lexicalised nominalisation (das Geschriebene), but the counts are attributive inflected forms, so I merged it into schreiben.
+# question Leggin: the counts are almost all "leggins", so merging to Leggings assumes that is the intended headword.
+# question Madrider: I assumed Madrid is on the learnable place list; drop if it is not.
+# question Madrider: Madrid and Washington are not named among the learnable places, so I dropped both demonyms; confirm if they are on the reviewed list.
+# question Stealth: it could count as an established loan (Stealth-Technologie), but the counts are mostly product names, so I dropped it.
+# question Stealth: it may count as an established loan, but the counts are brand and product names, so I dropped it.
+# question Washingtoner: I assumed Washington is on the learnable place list; drop if it is not.
+# question gung: no obvious host word for this fragment, so I dropped it instead of merging.
+# question kit: kiten (61 counts) suggests a kitesurfing verb, but I merged it into the noun Kit.
+# question rhodiniert: technical participle; merged to rhodinieren on the participle rule, though it could also be dropped as specialist vocabulary.
+# question vitro: "in vitro" is a fixed Latin phrase; dropped as a foreign fragment, but could be argued as a learnable phrase.
+# question vitro: fragment of "in vitro" with no single-word target lemma to merge into; dropped.
+# question zurich: Zürich may be on the learnable list, which would make this a variant spelling to merge; I dropped it because the rules say any place name still shown is not on the list.
+# question zurich: this assumes Zürich is on the learnable place list. If it is not, the decision should be drop.
+# question Madrider, Washingtoner, zurich: please confirm that Madrid, Washington and Zürich are on the learnable place list; the rule 1 keeps and the rule 2 merge depend on it
+# question kit: the forms kiten/kites point to the German verb kiten (to kitesurf); should a kiten lemma exist, or should these forms stay merged under Kit

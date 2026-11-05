@@ -1,0 +1,19 @@
+# question Abbrucharbeit: written almost always as a plural; kept as the singular lemma.
+# question CERN: counted as a research institute (drop), but it is also nationally well known
+# question CERN: kept as a world-famous institution, but it is not on the named list of national institutions.
+# question Clogs: kept as a plural-only everyday form rather than merging into Clog
+# question Entrepreneur: English/French loan, rare in German; dropped as not established enough
+# question Entrepreneur: borderline loan; decided drop as not established
+# question Havana: the German spelling is Havanna; here the lemma is mostly a club name, so dropped
+# question Hoover: could be a genericised brand, but the examples show the surname
+# question Kleinasien: a major historical region that people might expect on the learnable places list, but the rules say any place name still in the batch is dropped
+# question Kleinasien: a major historical region, but the rule says any place still in the batch is off the list; dropped, so confirm if it should be added to the learnable places
+# question Menstruationsbeschwerde: the citation flag says only the plural is written, but the lemma is already the singular dictionary form; I used merge to itself, which should probably be treated as keep.
+# question Menstruationsbeschwerde: the lemma is already the singular; I used merge to itself, which is meaningless, so it should be read as keep.
+# question Schleswig-Holsteinische: unclear whether the state's adjective counts as a listed place adjective; merged to the base adjective form.
+# question Webfonts: unclear whether the specialist term Webfont is learnable; merged on the plural rule.
+# question Wehwehchen: the flagged lemma is spelled Wehwehche, but the list entry given is "Wehwehchen" in the heading as shown; I decided on the real word Wehwehchen, so merge:Wehwehchen may be the intended action.
+# question mess: counts are mostly Messer and Messe; decided by the lemma's own English reading
+# question mess: lemma mixes English "mess" with counts of Messer/Messe/messen; decided by its own reading (English) and dropped
+# question CERN: does ruling 3's "research institutes drop" cover internationally famous bodies like CERN, or are these learnable like UNO/NATO?
+# question Wester: the counts are mostly "western" (genre loan vs English text or names like Western Union); should the lemmatiser split these before Western is judged?
