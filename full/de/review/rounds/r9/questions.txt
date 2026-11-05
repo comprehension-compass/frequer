@@ -1,0 +1,67 @@
+# question ABGB: Austrian civil code, not an institution or ordinary acronym; dropped as a specialist acronym.
+# question AHS: Austrian school abbreviation used as word per ruling 12, but counts only tagged as name
+# question AHS: could be treated as an abbreviation (excluded) rather than a word; I kept it because it is used as a word in Austria.
+# question Antillen: a region with common-noun-like usage (44%); I dropped it as not on the reviewed list, but it could count as a major region.
+# question Arab: it could be merged into Araber if the English "Arabs" counts are really German, but the examples are missing, so I dropped it
+# question Arab: tagged as a name and English-looking, but could be merged into Araber.
+# question Bielefelder: Bielefeld is a major city, but the rules do not say whether it is on the learnable places list, so its demonym is unresolved.
+# question Bielefelder: Bielefeld may be on the learnable-places list, in which case the demonym would be keep
+# question Boho: borderline fashion loan; dropped as not established
+# question Boho: borderline loan, kept as fashion vocabulary
+# question Boule: the tagger says PROPN, but the examples are ambiguous between the game and a brand name
+# question Chilli: the rules do not say whether accepted variant spellings (Chilli vs Chili) merge; merged to the standard form.
+# question Coding: borderline loan; dropped as less established than Computer or Software
+# question Commitment: borderline English loan; kept because the examples show German business use
+# question Commitment: borderline established loan (de zipf 2.6), kept as business loanword
+# question DOS: the old operating system, kept out as a technical acronym or product name; it is not a clear case.
+# question Demokratische Republik Kongo: a country, but not on the learnable list in the batch; dropped as a place name still present
+# question Duplex: borderline technical term, kept as a common noun
+# question Formulardat: the singular Formulardatum is rare, so I merged to the plural Formulardaten instead of a singular
+# question Garni: only the hotel-term reading is kept; no examples were available
+# question Grün-Weiß: the examples are club names, but the form is also the ordinary colour adjective
+# question Guantanamo: not on the learnable place list, which says to drop remaining places, but it is a very widely known name in German; I kept it, though the strict rule would be drop.
+# question HAK: Austrian school type; I treated it as an abbreviation used as a word (ruling 12), though it could also be read as a minor organisation name.
+# question Hauer: mostly a surname in the counts, but the common noun (wine grower, tusk) exists; kept by its own reading under ruling 13.
+# question Hauer: the lemma is tagged PROPN, but the common noun (Eckzahn, Winzer, Bergmann) exists; the counts are probably mostly surnames (ruling 13)
+# question Kommunikationsdat: the singular Kommunikationsdatum is rare and Kommunikationsdaten is effectively plural-only, so I merged to the plural.
+# question Kommunikationsdat: the singular Kommunikationsdatum is rare and only the plural is used; merged to it, but dropping would also be defensible.
+# question Konjunkturdat: Konjunkturdaten is plural-only in practice, so I merged into it rather than into the singular Konjunkturdatum.
+# question Konjunkturdat: merged to Konjunkturdaten (plural-only in use) rather than singular Konjunkturdatum, which is rare
+# question Kraftfahrt-Bundesamt: treated as a nationally famous institution; a ministry-like authority could instead be read as dropped under ruling 3.
+# question LRS: abbreviation used as a word vs. specialist acronym, kept under ruling 12
+# question MPG: it may mean Max-Planck-Gesellschaft (famous institution, keep) or Medizinproduktegesetz (technical); the examples mix both, so I dropped it
+# question MPG: mostly Medizinproduktegesetz here, but it could also be Max-Planck-Gesellschaft, a famous institution; dropped as the examples are technical or mixed
+# question NEOS: a nationally relevant Austrian party but not named in the rulings; kept as a parliamentary party.
+# question OpenSource: written as one word; kept as an established loan (Open Source), but the lemmatiser may prefer a spaced or hyphenated form.
+# question PLAYMOBIL: could count as a genericised brand like LEGO; I treated it as an ordinary brand and dropped it.
+# question PLAYMOBIL: ruling 5 genericised brand is borderline; kept as toy-noun
+# question Rabat: capital of Morocco, a well-known city, but it is still in the batch so it is not on the learnable list; dropped.
+# question Rabat: could also be a misspelling of Rabatt, but the Rabat counts look like the city (rabate, rabats), so I dropped it as a place name.
+# question Schwarz-wissen: the target could be capitalised Schwarz-Weiß or lower-case schwarz-weiß (adjective); I chose the noun form
+# question Skispring: Skispringen is both a productive infinitive (rule 9: merge to the verb skispringen) and a lexicalised sport noun; I merged to the noun Skispringen.
+# question Skispring: could also be kept as the lexicalised noun Skispringen (the sport); I treated it as a productive infinitive and merged it to the verb.
+# question SmartHome: the single-word spelling is a brand-like variant of "Smart Home"; kept as an established loan.
+# question SmartHome: written as one word; it is the loan "Smart Home" and could count as a brand
+# question Toscana: Toskana is assumed to be on the learnable list; if it is not, this lemma should be dropped as a place name.
+# question Toscana: assumed Toskana is on the reviewed region list; if it is not, this should be drop.
+# question Venetie: it is a clipped form of Venetien, a region not on the reviewed list, so merging would only point at another name that is dropped
+# question Venezia: could be a variant of Venedig, but it only appears in Italian titles, so I dropped it.
+# question Vest: forms veste/vesten suggest Veste (fortress) or the Vest region; dropped as a name, but a common noun may be hidden in the counts
+# question Zentralamerika: a major region, but it is not on the developer's list and the rules say to drop any place name still in the batch; it may belong on the list
+# question Zuschauerinn: merged to the feminine singular Zuschauerin; the Binnen-I ruling might point to Zuschauer instead.
+# question allergrößt: kept as its own adjective, but it could be argued to merge into groß
+# question ingam: the target "ingame" is a gaming anglicism whose status is borderline, so I merged it instead of dropping
+# question jenig: the dictionary lemma could be derjenige or jenige; I chose jenige as the closest target, but derjenige may be preferred.
+# question jenig: the forms jenigen/jenige come from derjenige/diejenige, and I assumed derjenige is the lemma
+# question malign: the dictionary form is malign (Duden also gives maligne), but the flag says the bare spelling is never written; kept as the dictionary lemma
+# question pubertierend: participle of pubertieren; kept as an adjective with its own use, though it could be merged into the verb
+# question safe: German also has the noun Safe (Tresor), but this lemma is tagged ADV and comes from English text, so I dropped it
+# question spring: the counts are mixed with Springer, I decided by the lemma's own reading as springen
+# question western: could be mostly brand uses (Western Union); kept for the film genre
+# question western: the 3.2% propn rate suggests a name (Western Union etc.), but the genre noun is established German, so keep.
+# question BaWü: should colloquial short forms of listed places be dropped as abbreviations or merged into the place (Baden-Württemberg)?
+# question LOS: there are no examples; are the counts los, the noun Los, or fragments of "Los Angeles"?
+# question NEOS: does ruling 3 cover every Austrian/Swiss party in parliament (NEOS), given that GLP was dropped as minor?
+# question PLAYMOBIL: is Playmobil a genericised brand like LEGO under ruling 5?
+# question Toscana, Sardini, Zentralamerika: are Toskana, Sardinien and supranational regions such as Zentralamerika on the learnable list? If Toskana or Sardinien is not, change that merge to drop.
+# question allergrößt: should aller- superlatives (allergrößte, allerbeste) merge into the base adjective or keep their own entry?

@@ -1,0 +1,56 @@
+# question Agrar: combining form (Agrar-) with no single obvious host word, so dropped rather than merged.
+# question Agrar: prefix-only fragment with no obvious single host word, so dropped rather than merged
+# question Alk: Could be read as a clipping of Alkohol (merge), but "alken" suggests the bird (Alk), so I kept it.
+# question Collegium: mostly in proper names; kept as a Duden-listed loan
+# question Folkwang: it could count as a famous institution (university and museum in Essen), but I judged it too local to keep.
+# question Getötete: I treated it as lexicalised like Angestellte, but it could also count as a productive nominalisation of getötet.
+# question Getötete: this could be merged into töten as a participle, but I treated it as a lexicalised noun like Verletzte.
+# question Grammy: award name, treated as famous institution, kept
+# question Grammy: award name; not clearly a famous institution or a genericised brand, kept as a widely used loan
+# question Kappa: the examples are all the brand (drop under ruling 5), but the lemma's own reading is the Greek letter; I kept it.
+# question Nhe: could be Nähe or nahe/nehme; chose Nähe as the most likely
+# question Nhe: possibly a broken Nähe/nahe, but not obvious enough to merge
+# question Optimizer: could be treated as an established loan or merged into Optimierer; dropped as a software/product term.
+# question POIs: merging to POI would leave a specialist acronym on the list, so I dropped it
+# question Pamper: counts are mostly "Pampers" (genericised brand), but the lemma Pamper itself is an English fragment; dropped.
+# question Pamper: lemma is a truncated singular of the brand Pampers (254 of 267 counts); I treated it as a genericised brand and kept it, but the spelling Pamper may be wrong
+# question Patter: Pattern is an IT loan that may not be on the list; merged to Pattern
+# question Reimen: the counts mix the plural noun with the nominalised verb reimen. I chose the noun Reim.
+# question Salvia: Most uses are Latin botanical names, but the word is also an established garden-plant name in German, so I kept it.
+# question Spik: counts are mostly "Spikes" (sports shoes) and also a character name; merged into Spike.
+# question Strassstein: Strass is correctly spelled with ss, so I treated it as not a Swiss variant and kept it.
+# question Strassstein: the Swiss ss rule does not apply to Strass, which has a real ss, so I kept it; it is written mostly in plural forms but the lemma is singular.
+# question Synchro: could be Synchronisation, Synchronsprecher or Synchronschwimmen; I chose Synchronisation.
+# question Synchro: could be a clip of Synchronisation or Synchronsprecher/synchron, so the merge target is uncertain
+# question Ungeimpft: could be a lexicalised nominalisation like Angestellte (keep), but the lemma is capitalised adjective forms, so merged
+# question Ungeimpft: could count as a lexicalised nominalisation like Angestellte, but merged as an adjective under a capitalised lemma
+# question ausgemacht: all written forms are inflected attributive uses, so I kept it as an adjective with its own entry rather than merging to ausmachen.
+# question bl: fragment with no obvious target word, dropped
+# question dis: could be dialect/garbled dies(e) or the English "dis"; merged to dies as the most likely reading
+# question dis: dialect/garbled demonstrative (dise, disen); merged into dieser as best guess.
+# question drittgrößte: The ordinal -te rule does not clearly cover compound superlatives, so I kept it.
+# question drittgrößte: it is an inflected superlative, but I treated it as the -te ordinal-type lemma per ruling 6; the alternative is merge:groß.
+# question han: counts are mostly "hand", but rule 13 says to decide by the lemma's own reading
+# question inter: forms (interes, interen) suggest a cut-off of interessant/interessiert; the target is not certain.
+# question inter: forms interen/intere/interes/interem are cut-off fragments, most likely of interessant, but could also be international or another stem
+# question iphon: I dropped it as a brand; if iPhone counts as a genericised brand, the right decision would be merge:iPhone.
+# question iphon: iPhone could count as a genericised brand, but I treated it as an ordinary brand and dropped it.
+# question klei: the cut-off fragment could come from kleiden, Kleid or Kleie; I merged into kleiden because it has most of the counts.
+# question klei: the written forms are a mix of kleiden, Kleid and Kleie, so the target is ambiguous. I chose Kleie.
+# question lan: could be the abbreviation LAN, but counts are mostly land, so treated as a fragment of Land
+# question lan: counts are mostly "land"; LAN as an abbreviation might count as a word, but the lemma is lower-case
+# question lichtgeschützt: kept as an adjective in its own right; no dictionary verb to merge into
+# question lichtgeschützt: participial adjective without its own dictionary entry; kept because there is no real verb to merge into
+# question nachfahren: counts are mostly Nachfahre (noun), but the lemma reads as the verb nachfahren, so kept per ruling 13
+# question nachfahren: counts are mostly Nachfahre, but the lemma itself reads as the verb nachfahren
+# question sog: no examples; could be Sog (noun), a form of saugen or the abbreviation sog.; chose sogenannt
+# question sog: noun Sog versus past tense of saugen is unclear from the counts
+# question transen: it could be read as the plural of Transe, but the examples are slang or offensive, so I dropped it.
+# question transen: the plural of Transe would normally merge, but the usage is slang or spam and may be offensive, so I dropped it.
+# question verbrauch: forms mix noun, verb and agent noun (verbraucher); merged to the noun
+# question wasserlassen: could count as a lexicalised nominalisation (keep as Wasserlassen) instead of a merge to the verb; I treated it as a case fix only
+# question wasserlassen: could count as a lexicalised nominalisation (keep as Wasserlassen) or as a productive one (merge into a verb); I chose the noun Wasserlassen.
+# question Collegium: should Latin spellings found only in names be dropped, or merged into the German spelling (Kollegium)?
+# question Salvia: should Latin genus names that gardeners use as common words (Salvia, Clematis, Hosta) count as established loans or as foreign words?
+# question pending-names: this decision appears in the answer format but the rules don't define it; when does it apply?
+# question sog, klei: when there are no examples and several readings are plausible (sog. vs Sog vs saugen; dialect klei vs Klei), is a best guess acceptable or should these be dropped?

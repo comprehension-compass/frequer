@@ -1,0 +1,242 @@
+# lemma	decision	reason	how	rank
+Stegner	drop	person name	agreed	48057
+Steigerwald	drop	place name (region) not on the list	agreed	48058
+Strassstein	keep	"Strass" is correctly written with ss in German, so this is not a Swiss variant	agreed	48059
+Ta	drop	non-word fragment	agreed	48064
+Tagsüber	merge:tagsüber	adverb filed under a capitalised lemma	agreed	48065
+Trink	merge:trinken	imperative or stem fragment	agreed	48070
+Zwickauer	drop	demonym of a place not on the list	agreed	48078
+aufbau	merge:Aufbau	noun filed under a lower-case lemma	agreed	48082
+drittgrößte	keep	ordinal in the -te form (ruling 6)	agreed	48085
+freenet	drop	company brand	agreed	48088
+gepostet	merge:posten	inflected participle of a loan verb	agreed	48089
+geschaltet	merge:schalten	inflected participle	agreed	48090
+gl	drop	fragment	agreed	48091
+iphon	drop	brand, truncated	agreed	48093
+microSD	drop	product or brand	agreed	48097
+nowitzki	drop	person name	agreed	48099
+tr	drop	fragment	agreed	48104
+Übergewichtig	merge:übergewichtig	adjective filed under a capitalised lemma	agreed	48112
+Überraschenderweise	merge:überraschenderweise	adverb filed under a capitalised lemma	agreed	48113
+Abbott	drop	name	agreed	48116
+Adriaküste	drop	place name not on the list	agreed	48117
+Altenstadt	drop	place name	agreed	48120
+Auße	merge:außen	truncated form of außen	agreed	48122
+Barclays	drop	company name	agreed	48123
+Gil	drop	person name	agreed	48149
+Hinweg	keep	ordinary noun, spurious form is only 1 token	agreed	48155
+Pocher	drop	person name	agreed	48176
+Salvia	drop	Latin genus name; examples are Salvia divinorum and botanical species, not an adapted German word (German word is Salbei)	adjudicated	48184
+Schuber	keep	ordinary noun (slipcase) in the examples	agreed	48185
+Temp	drop	no examples; temp/temps reads as English or French, not a clear abbreviation of Temperatur	adjudicated	48195
+Typischerweise	merge:typischerweise	adverb filed under a capitalised lemma	agreed	48196
+ash	drop	English word or name	agreed	48208
+ausgemacht	keep	adjective with its own dictionary entry (ausgemachter Unsinn)	agreed	48209
+deins	keep	pronoun form is its own lemma	agreed	48211
+frieden	merge:Frieden	noun filed under a lower-case lemma	agreed	48213
+maßen	merge:messen	conjugated verb form	agreed	48215
+natalie	drop	person name	agreed	48219
+tracken	keep	established adapted loan verb	agreed	48225
+zurückgegeben	merge:zurückgeben	inflected participle	agreed	48234
+Alk	keep	colloquial abbreviation used as a word	agreed	48240
+Bowie	drop	person name	agreed	48251
+Drinn	merge:drinnen	all written forms are drinnen; adverb filed as a capitalised noun	adjudicated	48256
+Headquarter	keep	established business loan	agreed	48268
+Hoff	drop	name	agreed	48269
+Holsteiner	drop	demonym of Holstein, which is not on the list	agreed	48270
+Klau	keep	own reading is the noun der Klau (Datenklau, Ideenklau); counts are mostly klauen (rule 13, list for lemmatiser)	adjudicated	48275
+Nepenthe	drop	specialist Latin plant genus	agreed	48289
+Nhe	merge:Nähe	dropped ä; obvious target	adjudicated	48290
+Ragaz	drop	place name	agreed	48297
+Rüsselsheimer	drop	demonym of an unlisted place	agreed	48303
+Wangenknochen	keep	ordinary noun, same form in singular and plural	agreed	48318
+drapiert	merge:drapieren	participle form	agreed	48332
+eingeschweißt	merge:einschweißen	participle form	agreed	48333
+fallweise	keep	genuine adverb, only the POS tag is wrong	agreed	48334
+frühlingshaften	merge:frühlingshaft	inflected adjective	agreed	48336
+fussball	merge:Fußball	lower-case noun with Swiss ss spelling	agreed	48337
+fänd	merge:finden	conjugated form	agreed	48338
+gelauncht	merge:launchen	participle form	agreed	48339
+han	drop	own reading is no standard word (dialect haben or the name Han); hand counts can't be split (rule 13)	adjudicated	48342
+lan	drop	own reading is a fragment or the specialist acronym LAN; land counts can't be split (rule 13)	adjudicated	48346
+lichtgeschützt	keep	compound adjective with no dictionary verb to merge into	agreed	48347
+sog	merge:sogenannt	ADP tag and lower case point to the abbreviation sog. before a noun	adjudicated	48351
+untern	merge:unter	colloquial contraction	agreed	48353
+verbrauch	merge:Verbrauch	lower-case noun	agreed	48354
+zurückgeschnitten	merge:zurückschneiden	participle form	agreed	48357
+Übrig	merge:übrig	adjective filed under a capitalised lemma	agreed	48358
+Beaufort	drop	name	agreed	48370
+Bestenfall	merge:bestenfalls	fragment of the fixed adverb	agreed	48373
+Collegium	drop	examples are all name text (Collegium Musicum, Orientale, Borromäum); German spelling is Kollegium	adjudicated	48380
+Cubase	drop	brand, not genericised	agreed	48383
+Dehnungsstreifen	keep	genuine noun, singular form identical to the plural	agreed	48387
+Fleming	drop	person name	agreed	48401
+Flurförderzeuge	merge:Flurförderzeug	plural filed as lemma	agreed	48402
+Freya	drop	name	agreed	48405
+HAW	drop	specialist institutional acronym	agreed	48410
+Hilfsmaßnahme	keep	valid lemma, ss variant is minor	agreed	48416
+Infratest	drop	company name	agreed	48418
+Milliardäre	merge:Milliardär	plural filed as lemma	agreed	48431
+Oberhavel	drop	place name	agreed	48437
+Patter	merge:Pattern	English spelling, cut-off	agreed	48442
+Pfungstadt	drop	place name not on the list	agreed	48443
+Sedcards	merge:Sedcard	plural filed as lemma	agreed	48453
+Vichy	drop	place name (also a brand)	agreed	48474
+aufgehübscht	merge:aufhübschen	participle filed as lemma	agreed	48481
+feedback	merge:Feedback	noun filed in lower case	agreed	48485
+gewidmet	merge:widmen	participle form of widmen	agreed	48488
+inter	drop	no examples; prefix fragment or club name Inter, so no obvious target	adjudicated	48491
+kissen	merge:Kissen	noun filed as a lower-case verb	agreed	48494
+koloriert	merge:kolorieren	participle filed as lemma	agreed	48495
+monk	drop	English word or name	agreed	48496
+nippel	merge:Nippel	noun filed in lower case	agreed	48499
+sapiens	drop	Latin, occurs only in "Homo sapiens"	agreed	48503
+singles	merge:Single	English plural	agreed	48504
+unterhalte	merge:unterhalten	conjugated form	agreed	48508
+verhassten	merge:verhasst	inflected form of adjective verhasst	agreed	48510
+verstehn	merge:verstehen	colloquial contraction	agreed	48511
+Agrar	drop	combining prefix, no single obvious host word	agreed	48523
+Aktiva	keep	accounting term, plural with its own meaning	agreed	48524
+Amon	drop	name	agreed	48526
+Emmen	drop	place name not on the list	agreed	48546
+FamFG	drop	specialist law acronym	agreed	48552
+Gefolgsleute	merge:Gefolgsmann	plural filed as lemma	agreed	48560
+Mistelbach	drop	place name not on the list	agreed	48584
+Moby	drop	name or brand	agreed	48586
+Optimizer	drop	English word that is not an established loan, only in product names	agreed	48592
+Pamper	merge:Pampers	cut-off of the genericised brand Pampers (nappy), used as a common noun in the examples (rule 5)	adjudicated	48594
+Schuhbeck	drop	person name	agreed	48604
+Schwangerschaftsabbrüche	merge:Schwangerschaftsabbruch	plural filed as lemma	agreed	48605
+Silberne	merge:silbern	capitalised adjective form	agreed	48607
+Skalieren	merge:skalieren	capitalised verb form	agreed	48608
+Spik	merge:Spike	English fragment of spikes	agreed	48610
+Südinsel	drop	place name not on the list	agreed	48614
+Vegetarische	merge:vegetarisch	capitalised adjective form	agreed	48619
+Worum	merge:worum	capitalised grammatical word	agreed	48625
+Zweigstellen	merge:Zweigstelle	plural filed as lemma	agreed	48629
+aufgefunden	merge:auffinden	participle form	agreed	48630
+aufgeteilt	merge:aufteilen	participle form	agreed	48631
+dis	merge:dieser	garbled demonstrative; written forms dises/disen/dise/diser are inflections of dieser	adjudicated	48639
+ehefrau	merge:Ehefrau	noun filed in lower case	agreed	48640
+entgültig	merge:endgültig	misspelling	agreed	48643
+gestreut	merge:streuen	participle with no adjective entry of its own	agreed	48645
+klei	drop	no examples; own reading unclear (dialect klein, Klei or Kleie), so no obvious target	adjudicated	48647
+ko	keep	abbreviation used as a word (K.o.)	agreed	48648
+kontroverse	merge:kontrovers	all examples are the inflected adjective (kontroverse Diskussion/Rede)	adjudicated	48649
+läd	merge:laden	garbled verb form of laden	agreed	48650
+oxidativem	merge:oxidativ	inflected adjective	agreed	48653
+que	drop	foreign word	agreed	48654
+süsse	merge:süß	Swiss ss spelling and inflected form	agreed	48660
+Bain	drop	name	agreed	48673
+Cro	drop	name or fragment	agreed	48687
+Dynamiken	merge:Dynamik	plural	agreed	48701
+Gadgets	merge:Gadget	plural of an established loan	agreed	48710
+Gynäkolog	merge:Gynäkologe	cut-off form	agreed	48715
+Heimlich	merge:heimlich	adjective filed under a capitalised lemma	agreed	48719
+Kendall	drop	name	agreed	48732
+Mahmoud	drop	name	agreed	48742
+Marantz	drop	brand	agreed	48743
+Mari	drop	name	agreed	48744
+Mayrhofen	drop	place name not on the list	agreed	48746
+Montblanc	drop	brand or place name not on the list	agreed	48751
+Rs	drop	abbreviation, not an established word	agreed	48765
+Rötel	merge:Röteln	examples are the disease (Masern, Mumps und Röteln)	adjudicated	48766
+Selbige	merge:selbig	capitalised inflected form	agreed	48769
+Tutzing	drop	place name not on the list	agreed	48775
+Zahnarztpraxen	merge:Zahnarztpraxis	plural	agreed	48789
+agressiv	merge:aggressiv	misspelling	agreed	48793
+gepusht	merge:pushen	participle	agreed	48800
+gestiftet	merge:stiften	participle with no adjective entry of its own	agreed	48802
+lancierte	merge:lancieren	conjugated form	agreed	48807
+massgebend	merge:maßgebend	Swiss ss spelling	agreed	48809
+pve	drop	gaming abbreviation	agreed	48811
+transen	drop	slang or offensive term, mostly in spam context	agreed	48814
+zugesetzt	merge:zusetzen	participle, not an adjective in its own right	agreed	48817
+Antippe	merge:antippen	verb filed under a capitalised lemma	agreed	48822
+Folkwang	drop	local institution name, not a famous one	agreed	48845
+Getötete	keep	lexicalised nominalised participle, like Angestellte	agreed	48849
+Gütersloher	drop	demonym of a place not on the list	agreed	48850
+Hochs	merge:Hoch	plural	agreed	48852
+Hoffenheimer	drop	team name or demonym of a place not on the list	agreed	48853
+Reimen	merge:Reim	examples are the noun dative plural (mit liebevollen Reimen, Bilden von Reimen)	adjudicated	48886
+Ripper	drop	English/character name, not German	agreed	48889
+Servier	merge:servieren	imperative/infinitive form filed as noun	agreed	48895
+Trient	drop	place name not on list	agreed	48905
+Vorstösse	merge:Vorstoß	Swiss ss plural	agreed	48912
+Wasserhähne	merge:Wasserhahn	plural form	agreed	48914
+Weizsäcker	drop	person name	agreed	48916
+aufgespannt	merge:aufspannen	participle form	agreed	48926
+ausland	merge:Ausland	lower-case noun	agreed	48928
+bl	drop	garbled fragment, no obvious target	agreed	48932
+blackjack	merge:Blackjack	lower-case noun	agreed	48933
+iSd	drop	abbreviation, not a word	agreed	48941
+relativiert	merge:relativieren	conjugated form	agreed	48951
+räume	merge:räumen	only lower-case written forms and VERB tag; the noun Räume would be capitalised	adjudicated	48953
+schlüssel	merge:Schlüssel	lower-case noun	agreed	48955
+Abrolle	merge:abrollen	productive nominalised infinitive	agreed	48968
+Avignon	drop	place name not on list	agreed	48977
+Boehringer	drop	company/person name	agreed	48982
+Elliot	drop	person name	agreed	48994
+Enn	drop	place name (Enns)	agreed	48995
+Grammy	keep	famous award, used in German	agreed	49004
+Lokale	merge:lokal	written only as lokalen; the example is the adjective (Lokalen Zeitung)	adjudicated	49024
+Mering	drop	place name	agreed	49032
+Rechtsradikale	keep	lexicalised nominalised adjective like Angestellte	agreed	49052
+Retweets	merge:Retweet	plural	agreed	49055
+Rufus	drop	person name	agreed	49056
+Ungeimpft	merge:ungeimpft	capitalised adjective	agreed	49072
+Vermiete	merge:vermieten	nominalised infinitive	agreed	49076
+bez	drop	abbreviation	agreed	49090
+burg	merge:Burg	lower-case noun	agreed	49091
+erzieher	merge:Erzieher	lower-case noun	agreed	49094
+gaming	merge:Gaming	lower-case established loan	agreed	49098
+gegebenfalls	merge:gegebenenfalls	misspelling	agreed	49099
+mak	drop	garbled fragment	agreed	49104
+merk	merge:merken	imperative form	agreed	49105
+nachfahren	keep	verb reading of the lemma itself	agreed	49107
+studiVZ	drop	brand/website name	agreed	49114
+wiedereröffnet	merge:wiedereröffnen	participle form	agreed	49122
+Aiwanger	drop	person name	agreed	49124
+Demenzkranke	keep	lexicalised nominalised adjective	agreed	49149
+Fingerabdrücken	merge:Fingerabdruck	plural/dative form	agreed	49161
+GenossInnen	merge:Genosse	Binnen-I form, base headword	agreed	49167
+Heuschrecken	merge:Heuschrecke	plural filed as lemma	agreed	49173
+Kappa	keep	Greek letter is a common noun; the brand counts are not split out (ruling 13)	agreed	49183
+Landsberger	drop	place adjective for a place not on the list	agreed	49191
+Masterclass	keep	established loan	agreed	49200
+Maßgebend	merge:maßgebend	adjective filed under a capitalised lemma	agreed	49201
+Medici	drop	family name	agreed	49202
+Oel	merge:Öl	old spelling of Öl	agreed	49208
+Schwenning	drop	place name not on the list	agreed	49222
+berall	merge:überall	broken encoding	agreed	49251
+enthaltend	merge:enthalten	present participle of enthalten, no entry of its own	agreed	49255
+ersatz	merge:Ersatz	noun filed under a lower-case lemma	agreed	49256
+fliessend	merge:fließend	Swiss ss spelling	agreed	49257
+heuschnupfen	merge:Heuschnupfen	noun filed under a lower-case lemma	agreed	49261
+minimum	merge:Minimum	noun filed under a lower-case lemma	agreed	49264
+nachbearbeitet	merge:nachbearbeiten	participle filed as lemma	agreed	49265
+silikon	merge:Silikon	noun filed under a lower-case lemma	agreed	49267
+wohlschmecken	merge:wohlschmeckend	forms are mostly the participial adjective	agreed	49270
+AfA	drop	specialist acronym	agreed	49274
+Beiersdorf	drop	company name	agreed	49278
+JR	drop	abbreviation or name, not a word	agreed	49313
+Kulturdenkmäler	merge:Kulturdenkmal	plural filed as lemma	agreed	49319
+Küsnacht	drop	place name not on the list	agreed	49321
+Liebig	drop	personal name	agreed	49324
+Lüchow	drop	place name not on the list	agreed	49326
+Motorsports	merge:Motorsport	genitive form filed as lemma	agreed	49333
+POIs	drop	specialist acronym in plural	agreed	49342
+Provisionsfrei	merge:provisionsfrei	adjective filed under a capitalised lemma	agreed	49347
+Rapp	drop	surname	agreed	49350
+Synchro	merge:Synchronisation	clipped colloquial form	agreed	49363
+Verschiedene	merge:verschieden	inflected adjective form	agreed	49372
+Verschlucke	merge:verschlucken	nominalised -en infinitive of a productive verb	agreed	49373
+Wiede	drop	name or place fragment	agreed	49380
+Winterspiele	keep	plural with its own meaning (Olympic Games)	agreed	49382
+eingepasst	merge:einpassen	participle filed as lemma	agreed	49392
+verlaufend	merge:verlaufen	participle filed as lemma	agreed	49410
+wasserlassen	merge:Wasserlassen	noun filed under a lower-case lemma	agreed	49412
+Clint	drop	personal name	agreed	49430
+Eltville	drop	place name not on the list	agreed	49438
+Gürtelschlaufen	merge:Gürtelschlaufe	plural filed as lemma	agreed	49448
+Herzkranzgefäße	merge:Herzkranzgefäß	plural form filed as lemma; singular is Herzkranzgefäß, no separate plural-only meaning	agreed	49451
