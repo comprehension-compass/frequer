@@ -75,6 +75,24 @@ Resumed 2026-11-05: round 9 (543 pending flagged; 241 suspects of `screen40k-c`)
 entered unflagged keeps at the end of the window (39,300 / 39,700 / 39,900 / 39,950 to 40,000). Agreed merges
 and keeps were read before adjudication (queries in `review/rounds/r9*/queries.tsv`, `r10/queries.tsv`); four
 place-list corrections after adjudication (Bielefelder, Demokratische Republik Kongo kept; Istanbuler,
-Theresienwiese dropped). No pending lemma left inside the 40k: kept rank 40,000 = raw rank 50,191 (f 255).
+Theresienwiese dropped; Theresienwiese later restored, see §6). No pending lemma left inside the 40k: kept rank 40,000 = raw rank 50,191 (f 255).
 `report.py` and `band_samples.py --gloss --per-band 25 --cut 40000` copied to `band-report.md` and
 `band-samples.md`. No snapshot until the developer confirms the 40k cutoff.
+
+## 6. Cutoff, leftover pass and the 40k snapshot (2026-11-05)
+
+1. Developer rulings: cutoff 40,000 kept lemmas (`corpora/de.yaml` `top_n: 40000`, `cutoff`); a targeted pass
+   over kept 30k-40k for inflected-form and brand leftovers before the build; settled kinds of question decided
+   by the orchestrator on the rulings' pattern, recorded, and only unusual ones raised.
+2. Round 14: `screen.py --from 30000 --to 40000 --prompt prompts/de/screener-forms-brands.md` (two screeners,
+   816 suspects), then the usual protocol with 26 orchestrator queries (`review/rounds/r14/`): 455 merges (mostly
+   participles, verb forms, lower-case nouns, broken encoding), 222 drops, 110 keeps. Theresienwiese restored to
+   keep under ruling 4 (famous landmarks with German names), as Kapitol, Petersdom, Freiheitsstatue.
+3. Rounds 15-19: what each round's drops pulled into the 40k (186, 47, 22, 8, 0), each with both screens (the
+   general one and the forms/brands one) over the newly entered end of the window. Orchestrator calls:
+   gefütterte -> gefüttert (adjective kept in r14); einstig, heurig, aufwühlen keep (citation flags raised only by
+   merges into them); Cafe keep and ros drop (accented targets Café, rosé fail the app's German lemma pattern).
+   Kept rank 40,000 = raw rank 50,639 (f 249). Two lemmas entered at the very edge after the last screen and were
+   not screened (cover, hamm).
+4. Build: `frequer build de --data-dir <data> --score frequency --reference-root <honeyeater 9bbae4b>` with the
+   1.5.1 wheel: 40,000 + appended learnable names; `load_lemmas de --dry-run` from the pinned runtime c07c701.
