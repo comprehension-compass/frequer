@@ -65,3 +65,17 @@ def test_half_merge_counts_a_doubled_phrase_once() -> None:
     st = LemmaStats(freq=10, df=4, forms=Counter({"cous": 10}))
     junk.halve(st)
     assert st.freq == 5 and st.forms == Counter({"cous": 5}) and st.df == 2
+
+
+def test_split_with_dash_drops_the_rest() -> None:
+    # hoster: the hostería forms go to hostería; the English hosting term drops.
+    from pathlib import Path
+
+    from frequer.counts import Merged
+    review = junk.Review(Path("r.tsv"), "", {"hoster": ("split:-|hostería=hostería", "")})
+    merged = Merged(parts=1)
+    merged.lemmas["hoster"] = LemmaStats(freq=50, forms=Counter({"hostería": 30, "hosters": 20}))
+    junk.apply_splits(merged, review.splits())
+    assert review.merges() == {} and merged.lemmas["hostería"].freq == 30
+    routed = {r.lemma: r.action for r in junk.route(["hoster", "hostería"], junk.Flags(), review, 10)}
+    assert routed["hoster"] == "review-drop"

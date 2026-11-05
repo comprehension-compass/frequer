@@ -81,13 +81,14 @@ class Review:
     path: Path
     sha256: str
     #: lemma -> (decision, reason); decision is keep, drop, pending-names, merge:<lemma> or
-    #: split:<lemma>|<other>=<form>,<form>... (the listed forms go to <other>, the rest merge into <lemma>)
+    #: split:<lemma>|<other>=<form>,<form>... (the listed forms go to <other>, the rest merge into <lemma>;
+    #: ``split:-|...`` drops the rest)
     decisions: dict[str, tuple[str, str]]
 
     def merges(self) -> dict[str, str]:
         out = {k: d.split(":", 1)[1].removesuffix("|half") for k, (d, _r) in self.decisions.items()
                if d.startswith("merge:")}
-        out.update({k: default for k, (default, _moves) in self.splits().items()})
+        out.update({k: default for k, (default, _moves) in self.splits().items() if default != "-"})
         return out
 
     def halves(self) -> set[str]:
@@ -380,6 +381,8 @@ def route(ranked: Sequence[str], flags: Flags, review: Review | None, review_top
     for rank, lemma in enumerate(ranked, start=1):
         fl = tuple(flags.flags.get(lemma, ()))
         decision = decisions.get(lemma, ("", ""))[0]
+        if decision.startswith("split:-|"):  # the other word's forms were carved out; the rest drops
+            decision = "drop"
         if lemma in flags.propn_drop and decision != "keep":  # a reviewed keep (a famous institution) wins
             action = "propn-drop"
         elif decision == "drop":
