@@ -1,0 +1,23 @@
+# lemma	A	reason A	B	reason B
+fíat	keep	established term (fiat money, Latin fiat)	merge:fiat	accented misspelling of fiat
+phenytoin	merge:fenitoína	English spelling of the Spanish drug name	drop	English spelling of a specialist drug
+pravastatin	merge:pravastatina	English spelling of the Spanish drug name	drop	English spelling of a specialist drug
+coubicación	keep	real Spanish word (colocation), tech but a legitimate noun	drop	rare data-centre jargon
+exprimera	drop	ex- prefix fused; fragment of "ex primera"	merge:primero	ex- glued to primera; the base word is primera
+fingolimod	keep	common generic drug name	drop	specialist drug
+grancanaria	drop	place name (gentilic of Gran Canaria)	merge:grancanario	gentilic adjective in feminine form
+antitripsina	keep	real biochemical noun, mis-tagged	drop	specialist biochemical term
+atletica	merge:atlética	missing accent	merge:atlético	missing accent
+azelaico	keep	adjective in ácido azelaico, adapted chemical term	drop	specialist chemical term
+trajinero	keep	real word (trajinera, the Xochimilco boat)	merge:trajinera	almost all forms are trajinera (the boat)
+coreografiada	merge:coreografiar	feminine participle filed as lemma	merge:coreografiado	feminine participle filed as lemma
+putita	keep	real diminutive of puta	merge:puta	diminutive filed as its own lemma
+telemercader	drop	unattested compound	keep	real word for a telemarketer
+colonialism	merge:colonialismo	English spelling	drop	English, mostly an organisation name
+ateneu	merge:ateneo	Catalan form of ateneo	drop	Catalan form, mostly the name "Ateneu les Bases"
+coloproctología	drop	very narrow medical specialty term	keep	real Spanish medical specialty term
+despojador	drop	rare, no clear learner use	keep	real Spanish agent noun
+distalmente	drop	anatomical specialist adverb	keep	real Spanish adverb
+maximizador	drop	rare, examples mostly product or brand uses	keep	real Spanish agent noun/adjective
+megaciclo	drop	obsolete technical unit	keep	real Spanish word, older unit of frequency
+multinomial	drop	statistical technical term	keep	real Spanish adjective

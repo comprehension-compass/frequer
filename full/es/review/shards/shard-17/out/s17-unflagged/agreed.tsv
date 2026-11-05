@@ -1,0 +1,247 @@
+# lemma	decision	reason
+enaikoon	drop	brand name
+expoferia	drop	event/brand artefact, mostly "EXPOFeria" glued to trade-fair names
+lampwork	drop	English craft term, not established in Spanish
+logins	merge:login	English plural filed as lemma
+nhow	drop	hotel brand
+ordes	drop	place name
+paninis	merge:panini	plural filed as lemma
+plantagenet	drop	dynasty name
+protectivo	merge:protector	non-standard form of protector
+secobarbital	drop	specialist drug
+tulear	drop	place name
+usuário	merge:usuario	Portuguese spelling of usuario, used in Spanish context
+acamar	drop	"acama" is mostly a hotel brand, so the real verb is a minority
+adelgazarse	keep	pronominal verb, kept by convention
+amfar	drop	organisation name
+asegúrela	merge:asegurar	verb with clitic
+autocomplaciente	keep	real adjective, POS tag wrong only
+bruselense	keep	gentilic, common word
+cilostazol	drop	specialist drug
+conero	drop	place name
+croisic	drop	place name
+directar	merge:directo	feminine form "directa" mis-lemmatised
+explosivamente	keep	real adverb
+fortalecerlas	merge:fortalecer	verb with clitic
+gualaceo	drop	place name
+honeypot	drop	English technical term
+kiter	drop	English term not established
+losartan	merge:losartán	common generic drug, missing accent
+mysqli	drop	code artefact
+orondo	keep	real adjective
+perredista	keep	common word in Mexican Spanish for a PRD member
+previéndose	merge:prever	verb with clitic
+pupusas	merge:pupusa	plural filed as lemma
+quizlet	drop	brand
+remasterizadas	merge:remasterizado	inflected feminine plural
+resetea	merge:resetear	conjugated form
+schule	drop	German word
+signet	drop	foreign word/product name
+smurfs	drop	English name, Spanish is pitufos
+staking	drop	English crypto term
+taveras	drop	surname
+temperatures	drop	English word, not established
+totó	drop	dog's name in The Wizard of Oz
+unsplash	drop	website/brand
+affitto	drop	Italian word
+antirracistas	merge:antirracista	plural filed as lemma
+arrepintiéndose	merge:arrepentirse	gerund with clitic, misspelt stem form of the pronominal verb
+barreta	drop	examples are mostly mistranslated "barriers" and foreign text; real reading is a minority
+bioactiva	merge:bioactivo	feminine form
+ceritinib	drop	specialist drug
+ciprofloxacino	keep	common generic antibiotic
+colleción	merge:colección	misspelling
+cubanacán	drop	hotel chain brand
+deadshot	drop	fictional character name
+despu	merge:después	cut-off fragment
+discrimen	keep	real, rare Spanish word
+erquy	drop	place name
+fcoe	drop	technical acronym
+idan	drop	personal name
+kickoff	keep	"kick-off" is used in Spanish business and sport
+levántela	merge:levantar	imperative with clitic
+moiré	merge:muaré	adapted spelling
+neimoidiano	drop	fictional species
+panitumumab	drop	specialist drug
+proprietad	merge:propiedad	misspelling
+quimioembolización	drop	specialist term
+rasterizada	merge:rasterizar	participle filed as lemma
+reconciliaos	merge:reconciliarse	imperative with clitic
+retratarse	keep	pronominal verb
+scarlino	drop	place name
+storlien	drop	place name
+tepatitlán	drop	place name
+vcpu	drop	technical abbreviation
+benefi	drop	cut-off fragment, no single obvious target
+capot	merge:capó	variant spelling of the standard word
+chokeberry	drop	English word
+cocacola	drop	brand name
+combis	merge:combi	plural of combi (Peruvian minibus), lemma should be singular
+efw	drop	file extension/abbreviation
+empoderen	merge:empoderar	conjugated subjunctive form
+estaras	merge:estar	unaccented conjugated form of estar
+férreamente	keep	real adverb, mis-tagged
+hodgkiniano	drop	rare derived eponym used only in "linfoma no hodgkiniano"
+incial	merge:inicial	misspelling
+intraclase	drop	specialist statistical term, mis-tagged
+iqnet	drop	organisation/certification network name
+metacognitivas	merge:metacognitivo	feminine plural filed as lemma
+netstat	drop	command name
+obcecar	keep	real verb, forms are participles of obcecarse/obcecado
+patrícia	drop	personal name
+perfiladoras	merge:perfiladora	plural form filed as lemma
+solinst	drop	company name
+subsp	drop	botanical abbreviation
+tagliatelle	keep	established Italian pasta loan
+tego	drop	name/brand, real reading negligible
+tog	drop	abbreviation/name, not Spanish
+ugh	drop	English interjection not established in Spanish
+xerta	drop	place name
+aféitate	merge:afeitarse	imperative with clitic of common pronominal verb
+arbre	drop	Catalan/French word
+autobusesestación	drop	web artefact
+comor	drop	fragment of Comores, place name
+cuent	drop	cut-off fragment
+dejano	merge:dejar	clitic fragment (déjanos), plain verb
+desmopressin	merge:desmopresina	English spelling of adapted drug name
+edufácil	drop	brand name
+ellesse	drop	brand name
+entamoeba	drop	raw Latin genus name
+exceptional	drop	English word
+exoma	keep	real Spanish genetics noun
+garcilla	keep	real word, a heron
+heatpipe	drop	English technical term, not established
+hotcakes	keep	established Mexican Spanish loan
+infatuar	keep	real verb, the forms are just conjugations
+instanciar	keep	established computing verb
+lavoro	drop	Italian word
+mezclarlo	merge:mezclar	clitic form filed as lemma
+middot	drop	HTML artefact
+paladiado	keep	real adjective (palladium-plated)
+poyo	keep	real common noun (stone bench), about 40% of the examples
+puntocom	keep	established word for dot-com
+quv	drop	specialist or brand acronym
+rentalia	drop	brand
+rotoscopia	keep	real noun, only the POS tag is off
+salún	drop	name
+sombrerito	keep	regular diminutive, not covered by any merge rule
+strappy	drop	English word, not established
+vuvuzela	keep	established loan
+xat	drop	Catalan word
+academía	merge:academia	missing-accent misspelling
+airtificial	drop	brand or misspelling
+ascen	drop	cut-off fragment
+autoaspirante	keep	real technical adjective
+avvocato	drop	Italian word
+bisabolol	drop	specialist cosmetic ingredient
+bolsillito	keep	regular diminutive, not covered by any merge rule
+chequen	merge:chequear	conjugated form
+chunks	drop	English word, not established
+cocínela	merge:cocinar	clitic form of cocinar
+colonografía	keep	real medical noun, not an acronym
+complotar	keep	real verb
+cosmetóloga	keep	noun with its own feminine entry
+desplazándolo	merge:desplazar	gerund with clitic
+dge	drop	organisation acronym
+dourada	drop	Portuguese word
+ejércitos	merge:ejército	plural with web artefact
+enlentece	merge:enlentecer	conjugated form
+estagnación	merge:estancamiento	variant or misspelling of estancamiento
+ferroeléctrico	keep	real technical adjective
+glicósido	keep	valid variant of glucósido, real word
+guarapo	keep	real Latin American word (cane juice)
+ifcaro	drop	not a word, name
+magnificente	keep	real, if archaic, Spanish adjective
+mediolanum	drop	Latin place name and brand
+moxifloxacin	drop	English spelling of a specialist antibiotic
+multidestino	keep	used adjective in travel contexts
+neurorradiología	keep	real medical discipline
+nuestas	merge:nuestro	misspelling of nuestras
+pandava	drop	proper name from the Mahabharata
+polyuréthane	drop	French word
+precocido	keep	real adjective (precooked)
+principle	drop	English word
+proteción	merge:protección	misspelling
+resíduo	merge:residuo	misspelling
+rindiéndose	merge:rendirse	gerund with clitic of a pronominal verb
+saborizados	merge:saborizar	plural participle filed as lemma
+sensora	merge:sensor	feminine adjective form
+struct	drop	code keyword
+sucrosa	merge:sacarosa	variant of sacarosa
+tirolinas	merge:tirolina	plural filed as lemma
+torón	keep	real engineering term (cable strand)
+virginiano	drop	most examples are taxonomic epithets; gentilic of a place
+algúna	merge:alguno	misspelling with accent
+amortajar	keep	real verb
+antimeningocócica	merge:antimeningocócico	feminine form filed as lemma
+aréola	merge:areola	accent variant
+atropine	merge:atropina	English spelling of a common drug
+avium	drop	Latin taxon
+bicéfalo	keep	real adjective
+bisemanal	keep	real adjective
+cerealista	keep	real adjective
+cotorrear	keep	real verb
+decimosegunda	merge:decimosegundo	feminine ordinal form
+demostrablemente	keep	real adverb
+desmotivados	merge:desmotivado	plural participle filed as lemma
+ecolocalización	merge:ecolocación	variant spelling of ecolocación
+elrow	drop	brand/party name
+enseñándote	merge:enseñar	gerund with clitic
+escanciador	keep	real word (cupbearer, sidra pourer)
+específi	merge:específico	cut-off fragment of específico
+eup	drop	specialist abbreviation
+excandidato	keep	real word, ex- compound used as a noun
+fluoróforo	keep	real scientific noun, not an acronym
+friccional	keep	real adjective
+ifconfig	drop	command name
+importuno	keep	real adjective (importuno/a)
+instruciones	merge:instrucción	misspelt plural of instrucción
+llamear	keep	real verb
+microcámara	keep	real compound noun
+musealización	keep	real word (musealizar, museística)
+nanofiltración	keep	real technical noun
+ojillo	keep	lexicalised diminutive of ojo with its own sense
+periimplantitis	keep	medical noun, like herpes
+remalladora	keep	real machine noun
+revisá	merge:revisar	voseo form of revisar
+rinascente	drop	Italian brand name
+sagredo	drop	surname
+selyúcidas	merge:selyúcida	plural filed as lemma, ethnonym
+supóngase	merge:suponer	verb with clitic
+termoselladas	merge:termosellado	inflected participle
+totems	merge:tótem	anglicised plural, spelling without accent
+tusexperiencias	drop	web artefact/forum name
+uvdesk	drop	product name
+acartonar	keep	real verb; acartonado is a common adjective
+amplísimos	merge:amplio	regular -ísimo superlative
+antibiograma	keep	real medical noun
+aplástica	merge:aplástico	feminine filed as lemma
+arquitectonica	merge:arquitectónico	missing accent
+beatbox	keep	established loan
+botoncito	keep	lexicalised diminutive
+bulímico	keep	real adjective/noun
+calderín	keep	real word (small boiler or tank), though some uses are a surname
+charretera	keep	real word (epaulette)
+clivaje	keep	used in political science, an established term
+contraintuitivo	keep	real prefixed adjective in ordinary use
+corrubedo	drop	place name
+currys	merge:curry	plural of curry in most examples; the Currys brand is the minority
+danganronpa	drop	game title
+desarrolo	merge:desarrollo	misspelling
+dinitrate	drop	English drug name
+dobutamina	drop	specialist drug
+ecoflow	drop	brand name
+espeto	keep	real regional word (Málaga sardine skewers), appears only as plural espetos
+estigmatizante	keep	real adjective
+existencialmente	keep	real adverb
+frontispicio	keep	real Spanish noun
+gastronomica	merge:gastronómico	missing accent
+happenings	merge:happening	English plural of an established loan
+interlocking	drop	English word
+libvirt	drop	software name
+mantenerlo	merge:mantener	infinitive with clitic filed as a lemma
+morontia	drop	invented fantasy term
+orgy	drop	English word
+parael	drop	merged "para el" web artefact
+poney	merge:poni	French-style spelling
+primidona	drop	specialist anticonvulsant drug
