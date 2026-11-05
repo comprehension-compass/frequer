@@ -1,0 +1,59 @@
+# question adaptor: only 4 of 86 plural/Spanish forms and examples are English product names; merged to adaptador on spelling rule, though the examples show "Power Adaptor" as English.
+# question agnus: assumed that "dei" is filed as a separate lemma and merges into the same phrase.
+# question agnus: the half-merge assumes "dei" is also in the batch, and "agnus dei" is liturgical Latin that may be better dropped
+# question animao: -os imperative clitic isn't covered by the -nos/-te ruling; treated the same way, merged into animarse.
+# question animao: animaos is the imperative with -os, which the clitic rulings (-nos/-te) do not cover; merged into animarse.
+# question aquilino: examples show given-name use, adjective reading may be under a third
+# question asoc: possibly an abbreviation of asociación (merge:asociación), but no examples were available and ASOC is also an organisation acronym
+# question awá: capitalised in 64% of running text, so the ethnonym reading is mixed; kept as an ethnonym.
+# question burguer: brand use (Burger King) is about two of three examples; merged to hamburguesa since the real reading is near a third.
+# question bussines: mostly company or event names ("Bussines TICC") and junk, so I dropped it rather than merging it into business.
+# question cefixime: it is unclear whether cefixima is a common enough generic drug to keep; merged into it on the spelling rule.
+# question cenidh: Nicaraguan human rights centre is a national body but perhaps not a household name like ETECSA; kept as a national public-interest body.
+# question censurado: all examples are the "[CENSURADO]" redaction marker; kept as a real adjective, but could be merge:censurar
+# question dedicarl: lemma is cut-off from dedicarles; merged to dedicar as the clitic form is a plain verb
+# question eco-eficiencia: merge target ecoeficiencia assumed to be the standard unhyphenated spelling
+# question eco-eficiente: ecoeficiente may not be on the list as an entry; the alternative is drop as a hyphenated compound
+# question enusa: state-owned nuclear fuel company; treated as a minor company rather than a household-name national body
+# question enusa: state-owned uranium company; might count as a national body, but treated as an ordinary company
+# question euro-mediterránea: merged to euromediterráneo as the obvious unhyphenated Spanish form; drop if that form is not wanted.
+# question euro-mediterránea: the rules don't say whether the euro- prefix is written joined; euromediterráneo is assumed.
+# question goyim: Hebrew/Yiddish plural of goy, used in Spanish quotations and also as a biblical place name; dropped as not established, but could merge to goy if the developer wants it
+# question goyim: mixed capitalisation (47%) and mostly Biblical/discourse use; kept as a loanword-like ethnonym, could be dropped as foreign
+# question hcch: international body (Hague Conference on Private International Law) but not a household name; dropped as specialist
+# question hcch: international body but obscure to learners; dropped
+# question impro: could be a clipping of improvisación, but most occurrences are names/brands, so dropped
+# question impro: lowercase impro may abbreviate improvisación, but most occurrences are IMPRO as a name, and no examples were available to check.
+# question inem: also used for a Colombian school (INEM), but the Spanish employment institute is the main reading
+# question inem: examples include a school name (INEM Medellín) and "curso INEM"; kept as the Spanish employment institute, the main reading
+# question jarretera: the Order of the Garter reading is a proper-noun use; kept because the common word (garter, garter shark) is real.
+# question jute: some examples are a place or business name (Teatro Jute), but the material reading looks like a third or more, so merged into yute
+# question jute: yute is the Spanish word but the examples mix the material with a theatre name; merged on the material reading
+# question krona: some occurrences are a DC character, but the currency reading looks like at least a third, so I kept it
+# question laminada: could instead be seen as a participle form of laminar; merged into laminado as the adjective
+# question minae: Costa Rica's environment ministry is a national body, but it is unclear whether it counts as a household name; kept as a ministry.
+# question minae: national ministry of Costa Rica; kept as household name there, but a borderline case.
+# question mini-álbum: assumed the target is the closed spelling miniálbum; drop instead if that is not listed
+# question mini-álbum: merging assumes miniálbum is the standard one-word spelling; if it is not on the list, drop instead
+# question multi-efecto: merged into multiefecto on the assumption it is the standard spelling; the target lemma may not exist on the list
+# question multi-efecto: no clear standard Spanish spelling (multiefecto?) to merge into, so dropped
+# question omicron: Greek letter (ómicron) vs. variant/brand name; examples mostly brand, but kept as the Greek letter/Covid variant word, spelled without accent here
+# question omicron: the Greek letter/variant would be ómicron, but the examples are all brand or star names; dropped.
+# question part-time: hyphenated English loan; kept as an established loan, though Spanish also says "a tiempo parcial"
+# question plexi: plexi is a clipped form of plexiglás; if plexiglás is not itself on the list, keep plexi instead.
+# question plexi: shortened form of plexiglás, which may not be a listed lemma; if it isn't, keep plexi as its own entry
+# question poms: "Pom Poms" may be a split loan or a cheerleading item; merged to pompón as the adapted Spanish spelling.
+# question poms: the "Pom Poms" reading would merge to pompón, but the halves are split and POMS also has a scale reading, so I dropped it
+# question protegiéndono: protegerse is also common, but the example is non-reflexive, so merged into the plain verb.
+# question racquetball: English spelling of a sport; Spanish may write raquetbol, kept as an established loan like squash
+# question racquetball: tagged VERB by the lemmatiser, but a noun for the sport; kept as an established loan
+# question shunga: genre reading is under half of examples (about a third), dropped as non-established foreign word
+# question sutta: Pali/Sanskrit loan in Buddhist texts; capitalised in 54% as part of titles, kept as an established term but borderline
+# question tengu: Japanese creature with a plural in Spanish text; dropped as not established, could be kept like lowercase ethnonyms
+# question tengu: lowercase uses (34 of 87) refer to the Japanese creature; dropped as not established in Spanish, but could be kept if the developer considers it an adapted organism-like cultural term
+# question terrazzo: Spanish also writes terrazo (RAE); kept as the form people write, coordinator may prefer merge:terrazo.
+# question terrazzo: terrazo is the Spanish spelling; the Italian form may be common enough in the trade to keep as a loan.
+# question upct: regional technical university; not clearly a household name, so dropped
+# question upct: single regional university (Cartagena); treated as not nationally famous
+# question vaisnavas: religious adherents term, merged to singular vaisnava; could instead be dropped as specialist
+# question viceversa: assumed viceversa is the standard form over the two-word vice versa

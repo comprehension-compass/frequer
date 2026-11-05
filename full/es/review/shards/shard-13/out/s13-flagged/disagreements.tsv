@@ -1,0 +1,18 @@
+# lemma	A	reason A	B	reason B
+goyim	keep	lowercase ethnonym-like established word (plural of goy), used in Spanish	drop	Hebrew plural not established in Spanish; about half the examples are a biblical place name
+sutta	keep	established Buddhist term, lowercase plural suttas used	drop	Pali term, not established in Spanish (Spanish uses sutra)
+omicron	keep	Greek letter and variant name, known in Spanish (ómicron)	drop	examples are all brand or star names
+anti-colisión	drop	hyphenated compound of prefix and word, web artefact	merge:anticolisión	hyphenated spelling
+aquilino	keep	real Spanish adjective (aquiline), plus given name	drop	mostly a personal name
+awá	drop	ethnic name/proper noun	keep	ethnonym, often lowercase
+mustangs	drop	mostly brand/team names, plural form	merge:mustang	plural filed as lemma
+terrazzo	merge:terrazo	Italian spelling of adapted Spanish word	keep	established construction loan, written this way
+censurado	keep	real Spanish word, used here as a redaction marker	merge:censurar	Participle filed as a lemma, used as a redaction placeholder
+determina	merge:determinar	conjugated form filed as lemma	drop	Company name, not the verb reading
+interamericana	merge:interamericano	feminine form of the adjective filed as lemma	drop	Name or title in capitals, not a common-word reading
+multi-efecto	drop	hyphenated compound with no clear standard spelling	merge:multiefecto	Hyphenated variant of the standard spelling
+cenidh	drop	ordinary organisation, not a household name	keep	Nicaraguan human rights centre, national body known by name
+burguer	drop	mostly the Burger King brand	merge:hamburguesa	misspelling of burger/hamburguesa
+noveau	drop	misspelling of French "nouveau", not Spanish	merge:art nouveau	misspelling of nouveau in Art Nouveau
+poms	drop	"Pom Poms" is English, and POMS is a psychology scale; the Spanish word is pompón	merge:pompón	"Pom Poms" is the English spelling of the adapted pompón
+krona	keep	currency name, like forint	drop	foreign currency name or personal name
