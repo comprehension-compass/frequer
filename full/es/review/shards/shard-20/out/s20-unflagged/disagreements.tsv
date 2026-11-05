@@ -1,0 +1,10 @@
+# lemma	A	reason A	B	reason B
+trimethoprim	drop	English text, unadapted drug spelling	merge:trimetoprima	English spelling of the generic antibiotic
+adulamita	drop	biblical gentilic of a place name, not useful to a learner	keep	lowercase biblical ethnonym
+biga	keep	real word for a beam	merge:viga	examples show the beam sense, written with b
+electrolyte	drop	English product and text token	merge:electrólito	English spelling of an adapted word
+esclerocio	drop	specialist botanical term	keep	adapted botanical term in the dictionary
+onigiri	drop	Japanese word not established in Spanish; the examples include a game title	keep	established loan for the Japanese food, mostly used as a food term
+freerider	drop	niche English term, examples are mostly a product name	keep	established sports loan
+guíese	merge:guiarse	imperative with clitic, pronominal verb	merge:guiar	imperative with clitic
+mockups	drop	English plural, mostly a product name	merge:mockup	English plural, loan used in design
