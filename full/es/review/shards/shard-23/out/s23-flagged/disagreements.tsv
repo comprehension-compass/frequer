@@ -1,0 +1,9 @@
+# lemma	A	reason A	B	reason B
+espironolacton	merge:espironolactona	cut-off lemma, common generic drug	drop	specialist drug
+madremadre	merge:madre	doubled-word artefact of madre	drop	doubled word
+portazgo	keep	real Spanish word (toll); place-name use is a minority but common noun also frequent	drop	real word (toll) is only about 26% of examples; the rest are a place or business name
+sedano	keep	real Spanish word (celery), also surname	drop	mostly a surname
+solidos	merge:sólido	missing accent, plural of sólido	drop	mostly a capitalised name; the reading as sólidos is a minority
+ex-agente	merge:exagente	hyphenated prefix form; Spanish writes ex- joined	merge:ex agente	hyphenated spelling of "ex agente", which Spanish writes with a space
+nocilla	keep	brand used as a common noun in Spain	drop	brand name
+diakonia	merge:diaconía	Foreign spelling of the adapted Spanish word.	drop	Foreign (Greek) term, not established in Spanish

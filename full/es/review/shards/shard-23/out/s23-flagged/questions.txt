@@ -1,0 +1,19 @@
+# question auto-percepción: merge target autopercepción assumed to be the standard spelling
+# question cereso: acronym used as a common noun in Mexico, but many examples are a specific prison number; kept as the generic word
+# question cereso: mostly capitalised acronym (CERESO) for Mexican prisons; kept as acronym used as common noun, could be argued as institution names
+# question cetera: "et" half is not in this batch; if "et" appears separately it should drop as the second half of the split
+# question cetera: merged into etcétera, but it could also be treated as half of a split loan.
+# question chorotega: the examples are mostly capitalised and refer to the people or a king, so the ethnonym ruling is applied loosely.
+# question cruzr: no examples; Cruz is capitalised throughout, so it may be mostly the name (Santa Cruz) and drop could be right if the common-word reading is under a third
+# question cruzr: the text is always Cruz, which is likely a surname or place name and not the verb cruzar; merged into cruz, but drop may be better.
+# question diakonia: Could be a theological loan, but I merged it into the adapted diaconía.
+# question ex-agente: merge target exagente assumed (RAE joins ex- to the word); confirm it is the intended lemma
+# question ex-agente: the target "ex agente" assumes the usual separate-word spelling of ex; confirm
+# question güira: only about 39% lowercase, the rest mostly place names; kept as the instrument
+# question güira: the examples are place names; I kept it for the instrument or tree sense, which may be under a third of the occurrences
+# question nocilla: brand used generically in Spain; kept, but the adapted spelling (nocilla) may be preferred over the capitalised brand
+# question pijao: capitalised in 86% and tied to a named people (Nasa/Guambianos context); rules say lowercase ethnonyms keep, but mostly capitalised here so dropped.
+# question pijao: ethnonym is capitalised in 86% of text and treated as a proper name; rules keep lowercase ethnonyms (hutíes) but this is mostly capitalised, so dropped.
+# question portazgo: place-name use (Portazgo district, Posada) may be sizeable; kept as common word since 27% non-capitalised plus capitalised toll uses unclear
+# question solidos: could be unaccented sólidos, but capitalised name use dominates, so dropped
+# question vagos: Real plural of vago is possible, but the examples show the town name and all-caps spam, so I dropped it.
