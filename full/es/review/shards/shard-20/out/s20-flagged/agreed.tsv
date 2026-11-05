@@ -1,0 +1,256 @@
+# lemma	decision	reason
+ccsa	drop	organisation acronym
+changle	drop	place name (Chinese city)
+cocina-sala	drop	hyphenated compound of two listed words
+crispy	drop	English word, brand/menu use, not established
+dcmd	drop	file extension code
+deluge	drop	software name/English word
+dsm-iv-tr	drop	specialist acronym
+echándol	merge:echar	conjugated form with clitic filed as broken lemma
+establecerno	merge:establecerse	clitic fragment, common pronominal verb
+fonca	keep	Mexican national arts fund, well-known public body
+generaladmite	drop	web artefact from hotel listings
+graba	merge:grabar	conjugated form of grabar
+gsw	drop	specialist acronym
+hhvm	drop	technical acronym
+hijahija	drop	doubled word artefact
+hspps	drop	specialist acronym
+icing	drop	English word, not established in Spanish
+in-out	drop	hyphenated English compound, not established
+insula	drop	Latin/anatomical term and name, not a learner word
+iscc	drop	organisation acronym
+jawbreaker	drop	brand/English word
+jss	drop	organisation acronym
+kgn	drop	product code
+located	drop	English word, web artefact
+macchine	drop	Italian word, company name
+maimona	drop	place name (Los Santos de Maimona)
+mapr	drop	company/product name
+mqm	drop	party/loyalty-programme acronym
+mín-máx	drop	hyphenated abbreviation compound
+nanette	drop	personal name
+ncx	drop	technical acronym
+nhd	drop	technical acronym
+oxygene	drop	album/software name
+penino	drop	place name (Peninos mountains)
+pulseaudio	drop	software name
+qap	drop	technical acronym
+ro#royal	drop	fragment/code, length 2
+rtpi	drop	file-extension/technical acronym
+schola	drop	Latin/proper name, not established Spanish
+sherwin	drop	personal name
+tapatía	merge:tapatío	feminine gentilic merges into masculine
+thieve	drop	English brand name (Thieves oil)
+txz	drop	file-extension code
+usabl	merge:usable	cut-off form of usables
+xyzv	drop	file-extension code
+agaur	drop	minor regional agency
+ahca	drop	US agency/bill acronym
+aty	drop	unknown name/code
+avior	drop	brand/name
+bgs	drop	unknown acronym
+ccri	drop	US college acronym
+celuka	drop	industrial product name
+colop	drop	brand
+comprimidos	merge:comprimido	plural filed as lemma
+drinkware	drop	English commercial term
+egeda	drop	minor rights-management body
+engaños	merge:engaño	plural filed as lemma
+euv	drop	specialist acronym
+fidac	drop	specialist fund acronym
+hef	drop	file-extension code
+hibachi	drop	Japanese word not established in Spanish
+huanca	drop	proper name/ethnonym, not a common word
+iatacode	drop	template placeholder
+irata	drop	organisation acronym
+jca	drop	local agency acronym
+krono	drop	brand
+leek	drop	place/name
+limitará	merge:limitar	conjugated form filed as lemma
+locale	drop	English/technical term
+marcoola	drop	place name
+meccanica	drop	Italian company name
+mihalis	drop	personal name
+motorbike	drop	English word, not established
+nxg	drop	product/brand name
+okko	drop	brand
+oxidación-reducción	drop	hyphenated compound of two listed words
+pegboard	drop	English product word, not established in Spanish
+picanya	drop	place name (town)
+post-ciclo	drop	hyphenated compound with no standard Spanish form
+qtz	drop	file-extension code
+qvd	drop	file-extension code
+rpms	merge:rpm	plural of rpm (revoluciones por minuto) filed as a lemma
+sabal	drop	raw Latin genus name or brand/place name
+salts	drop	English word or name
+scoan	drop	organisation acronym (a church)
+sodom	drop	band name
+sterne	drop	person's surname
+sur-suroeste	drop	hyphenated compound of two listed words
+taskbar	drop	English software term, not established in Spanish
+thephonesshop	drop	website/brand name
+transient	drop	English word or name
+uaa	drop	regional university acronym, also a technical code
+usdchf	drop	currency-pair ticker
+valo	drop	name or brand
+vocational	drop	English word in institution names
+wahis	drop	specialist acronym
+wikidex	drop	website name
+x-lite	drop	software product name
+zafu	drop	foreign word, not established in Spanish
+aaaaa	drop	junk or grade code
+aiw	drop	file-extension code
+anti-terrorista	merge:antiterrorista	hyphenated variant of the standard spelling
+audiobooks	merge:audiolibro	English plural of an adapted word
+bigo	drop	app or brand name
+ceam	drop	organisation acronym
+costs	drop	English word
+csem	drop	organisation acronym
+ekaterinburgo	drop	place name
+exhortándol	merge:exhortar	cut-off clitic gerund of exhortar
+ffl	drop	file-format acronym, specialist
+fkb	drop	airport code
+fluxbox	drop	software name
+glt	drop	unexplained acronym
+gure	drop	Basque word/name, not Spanish
+hatchery	drop	English word, not established in Spanish
+hemoterapia	keep	real Spanish medical word
+hkm	drop	firm or file-format code
+hok	drop	product name
+igtp	drop	research institute acronym
+insulated	drop	English word in product names
+jmx	drop	technical acronym
+lafleur	drop	surname
+lcms	drop	church body acronym
+lwc	drop	minor organisation acronym
+misericordiosísimo	merge:misericordioso	regular -ísimo superlative
+mouche	drop	French word or surname
+ndx	drop	brand acronym
+niss	drop	Sudanese agency acronym, not a Spanish-world body
+nqf	drop	technical acronym
+olm	drop	acronym or animal name, not Spanish
+panache	drop	French word, mostly product names
+prnx	drop	code
+radiodespertador	keep	real Spanish common noun
+rudder	drop	English word or surname
+separarno	merge:separarse	clitic fragment of a common pronominal verb
+sinastría	keep	real Spanish astrology term
+snu	drop	airport code
+sonnen	drop	brand or German word
+starlabs	drop	brand
+tagging	drop	English word, mostly in brand names
+todo-en	drop	hyphenated fragment of "all-in"
+transmitiro	merge:transmitir	clitic fragment (transmitiros), plain verb
+vcx	drop	file-format code
+vuca	drop	specialist acronym
+wither	drop	game boss name, English
+wtt	drop	organisation acronym
+xw	drop	two-letter code
+addicted	drop	English song title, not established in Spanish
+ahmsa	drop	company acronym
+anj	drop	unclear acronym, no examples
+apap	drop	specialist abbreviation
+auto-desarrollo	merge:autodesarrollo	hyphenated spelling variant
+boxed	drop	English game title
+canovell	drop	place name (Canovelles), cut-off form
+chx	drop	specialist acronym, file extension
+cnce	drop	organisation acronym
+cowl	drop	English word, brand or name uses
+dimethylpentylamine	drop	specialist chemical, English spelling
+e-procurement	drop	English business jargon not established
+evolveo	drop	brand
+farmstay	drop	English term and business name
+fijarno	merge:fijarse	clitic fragment of fijarnos, common pronominal verb
+front-office	drop	hyphenated English business jargon
+glba	drop	US regulation acronym
+grout	drop	English word and product name
+hesco	drop	brand
+hopp	drop	programme acronym
+ilbm	drop	file-format acronym
+jpe	drop	file extension or code
+l-isoleucina	merge:isoleucina	common ingredient, hyphenated variant
+lavadora-secador	drop	hyphenated compound of two listed words
+lloc	drop	Catalan word and place or business name
+mismo-balanza	drop	web artefact
+molto	drop	Italian word and brand
+mvt	drop	code or acronym
+neet	drop	specialist acronym, Spanish uses "nini"
+nutritive	drop	brand name
+ofrézcal	merge:ofrecer	conjugated form with clitic (ofrézcales) filed as lemma
+pandey	drop	surname
+permítel	merge:permitir	conjugated form with clitic (permíteles) filed as lemma
+pompom	merge:pompón	variant spelling of the adapted word
+pozzi	drop	surname
+progresso	drop	brand
+pxf	drop	file-format acronym
+redneck	drop	English word not established in Spanish
+saq	drop	acronym, no evidence of a Spanish word
+sizing	drop	English, not established in Spanish
+sounder	drop	English product/technical term
+sweatshirt	drop	English product word; Spanish uses sudadera
+t-box	drop	product name, hyphenated
+tgp	drop	specialist acronym
+tunze	drop	brand
+uvp	drop	product code
+visité	merge:visitar	conjugated verb form (preterite) filed as a lemma
+vzw	drop	brand acronym
+xotels	drop	company
+zuhair	drop	person's name
+aicpa	drop	US professional body, not a Spanish-world institution
+artbo	drop	event (art fair)
+authorized	drop	English
+bati	drop	name or unclear fragment
+bombarda	keep	real Spanish word (artillery piece)
+calming	drop	English
+cenesex	keep	Cuban national sexology centre, a household name there
+chipper	drop	English
+co-investigador	merge:coinvestigador	hyphenated spelling of a standard word
+copreset	drop	code
+ctcss	drop	specialist acronym
+dest	drop	fragment or abbreviation
+dodgeball	drop	English sport/product name
+duh	drop	English interjection, not established
+edw	drop	specialist acronym
+epay	drop	brand
+europa-américa	drop	hyphenated compound of listed words
+exemestane	drop	specialist drug
+fge	drop	unclear acronym with no examples
+gcode	drop	technical term
+go-to	drop	English, hyphenated; card brand in the examples
+heckler	drop	company name (Heckler & Koch)
+ie-ee	drop	specialist acronym, hyphenated
+inri	keep	established word (para más inri)
+jtdc	drop	file-type code
+kimo	drop	brand or name
+licochalcona	drop	specialist compound
+loudspeaker	drop	English brand/product word, not established in Spanish
+madre-hija	drop	hyphenated compound of two listed words
+meap	drop	acronym, no Spanish use
+moas	drop	name or acronym
+mtorr	drop	MTorres company name
+mushi	drop	manga term, from Den Den Mushi
+ndlr	drop	French abbreviation of "note de la rédaction"
+no-ser	drop	hyphenated compound of two listed words
+olo	drop	name or fragment
+paleoceno	keep	real Spanish geological epoch, capitalised by convention
+pdac	drop	organisation acronym
+pjsc	drop	Russian company-form acronym
+post-colonial	merge:poscolonial	hyphenated variant of the standard spelling
+prometiéndol	merge:prometer	cut-off gerund with clitic (prometiéndoles)
+quam	drop	Latin word or event acronym
+rcia	drop	acronym
+rebuy	drop	English poker term, Spanish uses recompra
+rosetas	merge:roseta	plural filed as lemma; mostly capitalised product text
+saint-martin-de-belleville	drop	place name
+sdmo	drop	company brand
+simwood	drop	clothing brand
+soxhlet	drop	specialist apparatus eponym
+subbuteo	drop	brand name
+súper-héroe	merge:superhéroe	hyphenated variant of the standard spelling
+tights	drop	English word, not established
+tweedy	drop	person's surname
+uqam	drop	Canadian university, not Spanish-speaking world
+valiza	drop	Valizas, a place name
+vll	drop	code or file extension
+wago	drop	company brand
+zet	drop	name or acronym
