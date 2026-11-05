@@ -1,0 +1,346 @@
+# lemma	decision	reason
+amengual	drop	surname
+atoms	drop	English word, file extension
+autocaravanista	keep	real Spanish word for a motorhome user
+charges	drop	English word
+concox	drop	brand
+crossrail	drop	London rail project
+dcss	drop	school district acronym
+dermal	keep	real Spanish adjective, as in "relleno dermal"
+dmack	drop	brand
+dplt	drop	file extension code
+ebr	drop	code
+efemérid	merge:efeméride	cut-off form of efemérides
+emissions	drop	English word
+engaña	merge:engañar	conjugated form filed as lemma
+flip-flops	merge:flip-flop	plural filed as lemma
+frt	drop	code
+gel-crema	drop	hyphenated compound of two listed words
+ghazal	drop	mostly surname and place name
+gmac	drop	organisation acronym
+holme	drop	surname
+hvo	drop	code
+jobandtalent	drop	company
+khs	drop	company
+malicious	drop	English word
+megger	drop	brand
+muf	drop	code
+mézclate	merge:mezclarse	imperative with clitic of pronominal verb
+nedcon	drop	company
+niaid	drop	US institute, not a Spanish-world or international body
+ohada	keep	regional international body
+opg	drop	minor acronym
+oza	drop	surname or place
+palmas	drop	examples are Las Palmas, so the real-word reading is a minority
+pentalobe	drop	brand-specific screw name
+pppd	drop	technical daemon name
+pxc	drop	product code
+reembolsos	merge:reembolso	plural filed as lemma
+round-robin	drop	technical hyphenated term not established in Spanish
+sangat	drop	foreign term
+spla	drop	Sudanese army acronym
+sundeck	drop	brand/product name
+tdn	drop	unknown acronym
+tshirt	drop	English spelling in English-style text, not established
+userid	drop	technical term
+vwrcatalyst	drop	company brand
+xbel	drop	file-format acronym
+yuanyu	drop	company name
+aisc	drop	specialist acronym
+anyoption	drop	brand
+babushka	drop	foreign word not established in Spanish
+bdh	drop	company acronym
+biwpa	drop	unknown acronym
+boto	drop	Portuguese word/name, not Spanish
+butoh	keep	Japanese dance term used in Spanish
+cbk	drop	acronym/file extension
+cifo	drop	minor organisation
+classification	drop	English word
+colaía	drop	biblical personal name
+combobox	drop	technical English term
+corio	drop	brand
+cpcp	drop	specialist acronym
+eland	drop	company name
+glpi	drop	software name
+guilds	drop	English word
+hotlink	drop	English technical term
+ialysso	drop	place name
+iffhs	drop	specialist sports-statistics body
+irsn	drop	French institute, not household name
+kapd	drop	historical German party acronym
+lookastic	drop	website/brand
+maliaño	drop	place name
+mollerussa	drop	place name
+msword	drop	product name/file extension
+nuove	drop	Italian, part of place name
+overground	drop	city transit system
+paks	drop	place name
+porco	drop	Portuguese word or surname
+primergy	drop	product brand
+prototyping	drop	English word
+respondiéndol	merge:responder	cut-off clitic form of respondiéndoles
+rula	drop	name, not a Spanish word
+sesar	drop	air-traffic programme acronym
+sumac	drop	mostly names; the spice reading is under a third
+taijiquan	keep	established martial-art term in Spanish
+tarp	drop	English or acronym, not Spanish
+tivar	drop	brand name
+uconn	drop	university abbreviation, not a national body
+vacanza	drop	Italian word, used in business names
+vidaxl	drop	brand
+vtm	drop	specialist or file-type acronym
+whigs	merge:whig	plural of the historical party term
+wiq	drop	file extension
+xact	drop	brand or code
+zrx	drop	crypto ticker or motorcycle model
+alize	drop	name or brand
+amsorm	drop	file extension
+apli	drop	brand or fragment
+bamoer	drop	brand
+blandón	drop	surname
+calzone	keep	established Italian dish name
+cayon	drop	auction house name
+chowder	drop	English word, not established in Spanish
+colormix	drop	brand
+compr	merge:comprar	cut-off form plus voseo comprás
+cut-out	drop	English fashion term, hyphenated
+doble-doble	drop	doubled hyphenated compound
+drm-x	drop	product code
+edicions	drop	Catalan publisher word
+escanerfrecuencias	drop	website name
+expenditur	drop	English text
+ffv	drop	specialist acronym
+fph	drop	organisation acronym
+fuj	drop	file extension
+hrf	drop	file extension
+igiv	drop	specialist medical acronym
+inderen	drop	company name
+isotec	drop	company name
+kdevelop	drop	software product
+l-boxx	drop	brand product
+levantémono	merge:levantarse	clitic fragment of levantémonos; levantarse is a common pronominal verb
+loaiza	drop	surname
+lxf	drop	magazine/code token, not Spanish
+manzanal	keep	real word: apple orchard
+merc	drop	abbreviation/name, not a learner word
+mjv	drop	airport code
+morito	keep	real word (diminutive of moro; also the ibis), lowercase uses about a third or more
+mvi	drop	file extension/acronym
+njp	drop	file extension
+ofda	drop	US agency acronym
+ontx	drop	file extension
+permissions	drop	English word, not established
+playtime	drop	English word/brand
+pvz	drop	file extension/game acronym
+rarenx	drop	file extension
+reactivamedidor	drop	product-name artefact
+saka	drop	name, no clear Spanish word
+silat	drop	foreign martial-art name, not established
+slavik	drop	name
+stuffed	drop	English word
+surfaces	drop	English word/brand
+ult	drop	code/abbreviation
+uyst	drop	time zone code
+whitelaw	drop	surname/hotel name
+zhaoyao	drop	brand
+accident	drop	English word
+agris	drop	database acronym
+antifa	keep	used as an ordinary word in Spanish
+apoel	drop	football club
+ascer	drop	trade association, not a household name
+beier	drop	brand/surname
+boletas	merge:boleta	plural filed as lemma
+cirad	drop	French research institute
+có	drop	fragment/foreign token
+dirigiro	merge:dirigirse	clitic fragment of dirigiros; dirigirse is a common pronominal verb
+drr	drop	acronym/fragment
+fbk	drop	file extension
+filia	keep	real word (filia, affinity), lowercase uses are most of the examples
+fxb	drop	organisation acronym
+gciai	drop	specialist acronym
+hcu	drop	file-extension acronym, not a Spanish word
+imaginary	drop	English word, not established in Spanish
+jgp	drop	specialist acronym (a skating event)
+kilovatio-hora	drop	hyphenated compound of two listed words
+leoncito	keep	real diminutive of león, also the monos leoncitos (tamarins); mostly lowercase
+lox	drop	foreign or technical acronym
+maci	drop	mostly a name or acronym; the real word macis is under a third of examples
+mbti	drop	specialist test acronym
+mell	drop	file-extension acronym
+mikve	keep	Hebrew loan used as a common noun with Spanish plural mikves
+parke	drop	surname or name
+ppn	drop	specialist acronym
+rjc	drop	organisation acronym
+rzx	drop	code or file extension
+sending	drop	English word
+silvie	drop	personal name
+spst	drop	technical switch acronym
+teclist	merge:teclista	the lemma is cut off; the text is always teclista
+tmx	drop	brand or technical acronym
+tsuki	drop	Japanese word or name
+ulc	drop	company or standards acronym
+usga	drop	US golf body, not a Spanish-world institution
+vortal	drop	mostly the company name VORTAL
+wigs	drop	English word or brand
+ywl	drop	file-extension acronym
+actio	drop	Latin word or name
+apas	drop	organisation acronym
+azz	drop	file-extension acronym
+bealead	drop	brand
+besser	drop	surname or company name
+bipr	drop	acronym
+brigmton	drop	brand
+camarat	drop	boat-model name
+ceim	drop	organisation acronym (a regional business body)
+chilwee	drop	brand
+compounding	drop	English industrial term
+cpw	drop	acronym
+ctic	drop	organisation acronym
+doble-pared	drop	hyphenated compound of two listed words
+eex	drop	energy exchange acronym, a company
+eufrasia	keep	real plant word (eyebright); lowercase use is about 29% of examples, close to a third
+galax	drop	name or brand
+grz	drop	airport code
+hame	drop	name
+hlw	drop	code
+idu	drop	obscure acronym
+issf	drop	ordinary organisation acronym
+jaune	drop	French word, not established in Spanish
+keke	drop	personal name
+krajina	drop	place name
+ltf	drop	specialist acronym
+mediation	drop	English word, company name
+mgh	drop	specialist acronym
+multi-media	merge:multimedia	hyphenated variant of the standard spelling
+naturalis	drop	name or brand
+nld	drop	country or airport code
+ongs	merge:ONG	plural filed as lemma
+pc-spes	drop	product name
+post-its	merge:post-it	plural filed as lemma
+pre-exposición	merge:preexposición	hyphenated variant
+puva	drop	specialist medical acronym
+rascón	keep	real bird name; lowercase and plural uses are about 42%
+sabato	drop	surname or Italian word
+seeking	drop	English word or site name
+shim	drop	name or English word
+snn	drop	airport code
+sorprendiéndono	merge:sorprender	clitic fragment (-nos), used transitively in the examples
+tegi	drop	specialist acronym
+thema	drop	brand name
+uos	drop	brand acronym
+vindex	drop	name
+wacky	drop	English word
+wips	drop	specialist technical acronym
+út	drop	foreign fragment
+afx	drop	brand acronym
+ah-ips	drop	technical acronym, hyphenated
+alpma	drop	company name
+auri	drop	name
+bandage	drop	English word or brand
+blame	drop	English word or name
+bpnueb	drop	file-extension code
+cheviot	drop	breed/fabric name, mostly proper noun (Cheviot hills)
+cocks	drop	English word, not established
+confesarl	merge:confesar	cut-off clitic form "confesarles" filed as broken lemma
+dadiagrams	drop	brand/website
+dgrn	drop	specialist acronym (Dirección General de los Registros y del Notariado)
+diário	drop	Portuguese spelling, not Spanish
+encapsulations	drop	English brand name
+farfar	drop	river name (place)
+fitted	drop	English word, not established
+gelb	drop	German word / surname
+hakka	keep	lowercase ethnonym/language, real reading common
+ifn	drop	technical acronym
+inx	drop	file-extension code / brand
+itria	drop	place name (valley)
+joci	drop	organisation acronym (youth movement), not a famous institution
+lagunita	drop	place name; diminutive of laguna, mostly place
+limpiémono	merge:limpiarse	clitic fragment of "limpiémonos", pronominal verb common
+lzo	drop	code/acronym
+mini-serie	merge:miniserie	hyphenated spelling of adapted word
+newbie	drop	English slang, not established in Spanish
+nuga	drop	brand/place name
+ordizia	drop	place name
+pasajeros-kilómetro	drop	hyphenated compound of listed words
+pre-kínder	merge:prekínder	hyphenated variant of standard spelling
+ptg	drop	file-extension/technical acronym
+ready-to-wear	drop	English phrase, not established
+ruso-turca	drop	hyphenated compound of listed words
+sbas	drop	specialist acronym
+semi-auto	merge:semiautomático	abbreviation of listed word
+shadowless	drop	English word
+sihh	drop	event/trade fair acronym
+sprt	drop	brand/code
+superfoods	drop	English word, brand use
+telemecanique	drop	brand/company
+todo-natural	drop	hyphenated compound of listed words
+tunneling	drop	English word
+ubox	drop	file-extension/product name
+utsa	drop	US university, not Spanish-world famous institution
+viff	drop	acronym of an organisation, not a Spanish word
+volpato	drop	company name
+wpa-psk	drop	technical acronym only specialists use
+yatch	drop	mostly a hotel name; the misspelling of yate is a minority reading
+aceves	drop	surname
+aire-combustible	drop	hyphenated compound of two listed words
+anb	drop	acronym or company name
+anti-mosquito	drop	hyphenated compound, no obvious single-word target
+assignment	drop	English word, not established in Spanish
+barocco	drop	Italian name, mostly a hostel name
+boecillo	drop	place name
+cancellation	drop	English word
+cez	drop	company acronym
+chloramphenicol	drop	English spelling of a specialist drug
+comforts	drop	English word
+dedicarno	merge:dedicarse	clitic fragment of dedicarnos; dedicarse is a common pronominal verb
+dermopure	drop	brand name
+doli	drop	name of a game character
+e-cigs	drop	English abbreviation, hyphenated
+eftps	drop	US tax-payment system acronym
+existence	drop	English word
+flim	drop	not a Spanish word; the examples are a name or English
+freesia	merge:fresia	English spelling of the adapted word fresia
+gemba	drop	business jargon or acronym
+gozón	drop	place name
+hebrews	drop	English book title
+hoti	drop	company name
+implants	drop	English word or company name
+itma	drop	trade-fair acronym
+jeon	drop	surname
+kiai	drop	mostly a surname (Maina Kiai); not established in Spanish
+l-dopa	merge:levodopa	hyphenated English-style spelling of levodopa
+libertés	drop	French name of a French institution
+longjing	drop	place name
+lá	drop	not a Spanish word; a fragment or Portuguese
+malassezia	drop	raw Latin genus name
+meth	drop	English slang
+mkey	drop	file-format code
+najar	drop	surname
+nhf	drop	file-extension code
+olvidándono	merge:olvidarse	"olvidándonos" is the clitic form of the common pronominal verb olvidarse
+partenariados	merge:partenariado	plural filed as lemma; partenariado is a real word
+peeping	drop	English token in a venue name
+purchena	drop	place name
+recomendarl	merge:recomendar	cut-off fragment of recomendarles (recomendar + clitic les), a real common verb
+rhod	drop	surname (Rhodes)
+semar	keep	Mexican Secretaría de Marina, a national body people refer to by its acronym
+shoujo	drop	anime term not established in Spanish
+spac	drop	acronym/brand
+stcc	drop	organisation acronym
+swlt	drop	file extension code
+toolspor	drop	web artefact
+tyrolit	drop	brand
+uhy	drop	company/network name
+vittore	drop	personal name
+wandering	drop	English token in a title
+xag	drop	currency code
+aber	drop	foreign or name token
+aecoc	drop	ordinary trade association
+ahv	drop	Swiss pension acronym
+aloud	drop	English token in a band name
+aroha	drop	Maori name
+asustado	keep	real adjective, tagged PROPN only because it is sentence-initial
+bahai	merge:bahaí	Spanish writes bahaí
+biorock	drop	brand
+bost	drop	name/foreign token
+buns	drop	English word, not established in Spanish
