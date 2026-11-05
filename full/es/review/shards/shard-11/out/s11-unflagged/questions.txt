@@ -1,0 +1,55 @@
+# question alisal: both place name and common word (alder grove); kept as common word.
+# question arquita: biblical gentilic (arquitas) is most of the evidence; a diminutive of arca is possible, but I could not confirm it.
+# question arquita: biblical gentilic that may be better handled as an ethnonym entry; kept as lowercase ethnonym
+# question bazucar: bazuca (weapon) and bazuco (drug) are different words; I merged into bazuca as the majority form, and bazuco may need its own entry.
+# question bazucar: split by form: bazuco -> bazuco
+# question bebito: diminutives are not covered by the merge rules, so I kept it as a common word.
+# question cigarillo: cigarillo is also a real word for a small cigar, but the examples use it as a variant of cigarrillo, so I merged it
+# question corion: accent form córion is also attested; kept as the written form corion
+# question directorado: rare and not clearly in the academy dictionary, kept as a real word; the developer may want it checked
+# question dirigío: the source forms are dirigíos, which could be dirigir or dirigirse; chose the pronominal verb because the examples use "dirigíos al/a".
+# question druid: capitalised Druid looks like a game class or name; merged to druida following the English-spelling rule.
+# question emplomar: forms are all participles/emplomado noun; kept as verb lemma.
+# question emplomar: lemma holds the verb and the noun emplomado (leading); kept as the lemma's own reading.
+# question enmarcación: could merge:enmarque (standard word) but the web-sense "framing" is not clearly the same word; dropped
+# question esomeprazole: merged to esomeprazol as a common generic drug; drop instead if the developer treats it as specialist.
+# question fashionistas: unsure fashionista is established enough as a loan; merged on the assumption that it is
+# question grañón: place names Grañón/Grañones vs. the common word grañón (cooked wheat); roughly half each, kept as the common word
+# question hacédmelo: merged into hacer, but the clitic form hacédmelo saber could also be read as imperative of hacer only; chosen hacer as plain verb.
+# question hacédmelo: vosotros imperative + clitic; merged to plain verb since hacerse-style pronominal reading does not apply.
+# question huequito: diminutive kept as its own entry; the rules do not say whether diminutives merge into the base word (hueco)
+# question influente: influyente is the standard Spanish form; confirm whether influente should instead merge:influyente
+# question ketorolac: specialist-leaning drug; merged to the Spanish spelling as a common generic NSAID
+# question laodicense: gentilic of a place name (Laodicea), not a place itself; kept as a lowercase ethnonym, mostly biblical use.
+# question mahonés: forms are mostly mahonesa (the sauce, a separate common word); split by form: mahonesa, mahonesas -> mahonesa
+# question mandarino: capitalised Mandarino (about 30%) may be a surname or the language name; kept as the lowercase common word.
+# question mandarino: the examples are mostly the tree, but could also be a plural filed from mandarina; kept
+# question ministre: the examples are Spanish subjunctive of ministrar, but the screener read it as Catalan or French; I merged it on the Spanish reading.
+# question mousepad: it is an established loan, but the examples are mostly product listings, and Spanish also has alfombrilla de ratón.
+# question nitrofurantoin: it may count as a specialist drug; I merged it on the basis that it is a common generic antibiotic.
+# question pantoprazol: common generic drug or specialist? I kept it as widely prescribed, like omeprazol.
+# question perdónenme: merged to perdonar, the plain verb.
+# question perlante: could be an adjective for water-beading fabric, but it looks like French or Italian, and the evidence is one example.
+# question portacable: could instead be a brand or fragment of portacables; kept as a technical compound
+# question portacable: plural portacables is the usual dictionary form; kept as a real compound.
+# question pragmáticamente: adverb tagged ADJ; kept as its own entry, though one could merge it into pragmático.
+# question processo: examples are Spanish text with Portuguese or Italian spelling; dropped rather than merged to proceso.
+# question purpurear: forms are mostly Echinacea purpurea (Latin taxon) rather than the adjective purpúreo; merge to purpúreo may be wrong, drop could be better
+# question santifícalo: forms santifícalos/santifícalo are imperatives with clitic; santificar chosen as plain verb
+# question seguiriya: the screener suggests merging into siguiriya, but seguiriya is the form written here and is the academy's main form, so I kept it.
+# question setlist: borderline loan; kept as established in music contexts
+# question setlist: kept as an established music loan, but the one example is English-like; the rules don't clearly settle it.
+# question silesio: the lemma mixes the place Silesia with the gentilic silesio; the place reading is the majority, so I dropped it
+# question snackbar: borderline loan; examples are mostly Dutch/camping contexts, so dropped
+# question suavecito: many examples are the song or band name Suavecito; kept because the real diminutive reading looks like about a third of the examples
+# question swatche: unsure swatch is established enough as a loan; merged on the assumption that it is
+# question syllabus: could be merge:sílabo if the team wants an adapted spelling; dropped as not established in Spanish
+# question syllabus: the Latin loan is used in academic Spanish, though Latin American usage prefers "sílabo"; I kept it.
+# question tene: could be a name or a fragment as well as voseo tené; merged into tener as the most likely reading
+# question tirio: could be argued as a place-related gentilic of Tiro, kept as lowercase ethnonym
+# question transformante: kept as adjective though tagged ADV; participle-like adjective use is the real reading.
+# question transformante: only ~1 example, but form is a real adjective; kept.
+# question trimar: lemma holds trimarán (noun) and a minor verb trimar; decided by majority form
+# question trolleys: merged into "trolley" (luggage sense, used in Spain); if the coordinator prefers an adapted spelling, adjust.
+# question trolleys: merged into trolley (suitcase sense) on the assumption that trolley is itself a listed loan
+# question urbanita: the base form may itself be unlisted; merge assumes urbanita is the target lemma.
