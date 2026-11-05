@@ -1,194 +1,264 @@
-# de band samples: which words sit at each level
+# de: word samples per band, for the cutoff
 
-From the cleaned list as it would load (exclusion list, 1,311 merges, three review rounds plus the developer's rulings of
-2026-11-02: the 12 places and 10 institutions kept, ordinals above 30 and abbreviations dropped; round 4 re-judged 165 hyphenated compounds and re-checked 317
-keeps). Not a snapshot. Corpus: **451,548,754 tokens** (HPLT v2 deu_Latn 445.4M, Tatoeba 6.1M). Glosses are a reviewer's; a bracket ([name], [English], [not a word: ...]) marks a
-lemma it judged not a real word. Names such as Sophos or VLC near 30k are flagged lemmas the review window had not
-reached yet (19 inside the 30k); they would go through review before a build.
+Positions are places in the cleaned list (kept lemmas only). The developer chooses the cutoff from these words and the comparison across languages; this file decides nothing. Glosses are written by a model as a reading aid.
+
+From the cleaned list as it would load after review rounds 1-13 (every flagged lemma inside the 40k reviewed; unflagged keeps screened across the whole window, and again at the end after each re-route), both sets of developer rulings of 2026-11-02, and einem/eines/einer/einen kept as their own lemmas. Not a snapshot. Corpus: **451,548,754 tokens** (HPLT v2 deu_Latn 445.4M, Tatoeba 6.1M). Kept rank 40,000 = raw rank 50,191 (f 255).
 
 ## Frequency per million tokens at kept ranks
 
-| kept rank | de lemma there | de f | de per million | es per million | ja per million |
-|---:|---|---:|---:|---:|---:|
-| 5,000 | befindlich | 6,035 | 13.37 | 12.48 | - |
-| 10,000 | Jugendamt | 2,215 | 4.91 | 3.14 | - |
-| 20,000 | Wegbegleiter | 821 | 1.82 | 0.58 | - |
-| 25,000 | Zählung | 598 | 1.32 | 0.31 | 1.53 |
-| 30,000 | Spaces | 462 | 1.02 | 0.19 | 1.10 |
+| kept rank | lemma there | raw rank | f | per million |
+|---:|---|---:|---:|---:|
+| 1,000 | schwierig | 1,023 | 43,156 | 95.57 |
+| 5,000 | mangeln | 5,322 | 6,035 | 13.37 |
+| 10,000 | Drehzahl | 11,042 | 2,157 | 4.78 |
+| 15,000 | strapazieren | 17,034 | 1,157 | 2.56 |
+| 20,000 | Kommunikationstechnik | 23,320 | 744 | 1.65 |
+| 25,000 | Barbar | 29,710 | 525 | 1.16 |
+| 30,000 | eingraviert | 36,428 | 395 | 0.87 |
+| 35,000 | Reisevorbereitung | 43,255 | 313 | 0.69 |
+| 40,000 | heimatlos | 50,191 | 255 | 0.56 |
 
-es: frozen 105.7M-token counts (full-es band report: f 332 / 62 / 33 / 20 at 10k / 20k / 25k / 30k). ja: 689.7M tokens (full-ja band report, f at kept positions ~25,000 and ~30,000; 5k-20k not given there). At 30k German sits at ~1.0 per million, close to Japanese (~1.1) and five times Spanish (~0.19): de and ja were counted from four to six times more text, so their 30k words are about as frequent in running text as es's ~8k.
+## Band 0-10,000: 25 random words
 
-## 25 random kept lemmas, 0-10k
+| position | word | POS | frequency | gloss (model-written) |
+|---:|---|---|---:|---|
+| 246 | meist | ADV | 166,428 | mostly, most often |
+| 687 | November | NOUN | 62,362 | November |
+| 1,035 | Kultur | NOUN | 41,666 | culture |
+| 1,486 | Künstler | NOUN | 29,032 | artist |
+| 1,543 | Marketing | NOUN | 27,533 | marketing |
+| 2,324 | glatt | ADJ | 17,083 | smooth; slippery |
+| 2,581 | Störung | NOUN | 15,015 | disturbance; malfunction |
+| 3,026 | zielen | ADJ | 12,235 | to aim |
+| 3,051 | Niederlage | NOUN | 12,099 | defeat |
+| 3,112 | Schulung | NOUN | 11,775 | training session |
+| 4,971 | Unabhängigkeit | NOUN | 6,071 | independence |
+| 6,491 | Muskulatur | NOUN | 4,146 | musculature |
+| 7,317 | entgegenkommen | VERB | 3,477 | to accommodate; to approach |
+| 7,403 | Simulation | NOUN | 3,410 | simulation |
+| 7,412 | Spot | NOUN | 3,403 | commercial spot |
+| 7,422 | Reiseveranstalter | NOUN | 3,395 | tour operator |
+| 7,630 | Visum | NOUN | 3,245 | visa |
+| 7,795 | Tageslicht | NOUN | 3,128 | daylight |
+| 8,321 | fossil | ADJ | 2,831 | fossil, fossilized |
+| 8,388 | XXL | PROPN | 2,801 | extra extra large |
+| 8,657 | bekräftigen | VERB | 2,665 | to reaffirm, confirm |
+| 8,826 | Festland | NOUN | 2,593 | mainland |
+| 9,172 | Rahmenprogramm | NOUN | 2,449 | supporting program |
+| 9,624 | Arbeitsumfeld | NOUN | 2,280 | work environment |
+| 9,756 | Polizeibeamte | NOUN | 2,235 | police officer |
 
-| kept rank | lemma | POS | f | per million | gloss |
-|---:|---|---|---:|---:|---|
-| 733 | obwohl | SCONJ | 57,021 | 126.28 | although |
-| 905 | Freude | NOUN | 46,949 | 103.97 | joy |
-| 1,087 | mobil | ADJ | 39,111 | 86.62 | mobile |
-| 1,415 | Prozess | NOUN | 30,332 | 67.17 | process; trial |
-| 1,993 | schwach | ADJ | 20,369 | 45.11 | weak |
-| 2,612 | teils | ADV | 14,715 | 32.59 | partly |
-| 3,051 | Parlament | NOUN | 12,027 | 26.63 | parliament |
-| 3,159 | Fett | NOUN | 11,466 | 25.39 | fat |
-| 3,265 | Umzug | NOUN | 11,002 | 24.37 | move (relocation) |
-| 3,326 | allzu | ADV | 10,764 | 23.84 | all too |
-| 5,308 | kraftvoll | ADJ | 5,552 | 12.30 | powerful, vigorous |
-| 6,180 | Bodensee | PROPN | 4,481 | 9.92 | Lake Constance |
-| 6,640 | Gift | NOUN | 4,048 | 8.96 | poison |
-| 6,676 | lächerlich | ADJ | 4,022 | 8.91 | ridiculous |
-| 6,794 | unerlässlich | ADJ | 3,920 | 8.68 | essential, indispensable |
-| 7,250 | Aminosäure | NOUN | 3,567 | 7.90 | amino acid |
-| 7,650 | Süßigkeit | NOUN | 3,287 | 7.28 | sweet, candy |
-| 8,210 | Sauberkeit | NOUN | 2,953 | 6.54 | cleanliness |
-| 8,453 | Wechselwirkung | NOUN | 2,827 | 6.26 | interaction |
-| 8,951 | Festland | NOUN | 2,593 | 5.74 | mainland |
-| 9,163 | interagieren | VERB | 2,509 | 5.56 | to interact |
-| 9,258 | Einspruch | NOUN | 2,472 | 5.47 | objection |
-| 9,282 | ergattern | VERB | 2,463 | 5.45 | to snag, to get hold of |
-| 9,707 | frühstücken | VERB | 2,308 | 5.11 | to have breakfast |
-| 9,805 | Befürchtung | NOUN | 2,274 | 5.04 | fear, apprehension |
+## Band 10,000-20,000: 25 random words
 
-## 25 random kept lemmas, 10-20k
+| position | word | POS | frequency | gloss (model-written) |
+|---:|---|---|---:|---|
+| 10,076 | Nordosten | NOUN | 2,134 | northeast |
+| 10,493 | Krawatte | NOUN | 2,015 | necktie |
+| 10,585 | angefordert | ADJ | 1,990 | requested |
+| 10,976 | konsultieren | VERB | 1,879 | to consult |
+| 11,364 | Wafer | NOUN | 1,788 | wafer |
+| 11,393 | service | AUX | 1,779 | (English) service |
+| 13,117 | Spielgerät | NOUN | 1,431 | play equipment |
+| 13,201 | Tournee | NOUN | 1,416 | tour |
+| 13,763 | Dämpfer | NOUN | 1,326 | damper; setback |
+| 13,829 | anbelangen | VERB | 1,316 | to concern |
+| 13,964 | Fossil | NOUN | 1,297 | fossil |
+| 14,162 | Blender | NOUN | 1,265 | show-off; Blender software |
+| 14,558 | öde | ADJ | 1,212 | dull, barren |
+| 14,820 | Fahrtkosten | NOUN | 1,178 | travel costs |
+| 15,166 | überbringen | VERB | 1,137 | to deliver, convey |
+| 15,346 | zusammenfahren | VERB | 1,118 | to flinch; to collide |
+| 16,665 | hierarchisch | ADJ | 984 | hierarchical |
+| 17,218 | Seenotrettung | NOUN | 939 | sea rescue |
+| 17,493 | Durchblutungsstörung | NOUN | 917 | circulatory disorder |
+| 17,602 | Rewe | NOUN | 907 | German supermarket chain |
+| 18,189 | Forschungsschwerpunkt | NOUN | 864 | research focus |
+| 18,506 | staubig | ADJ | 840 | dusty |
+| 19,032 | Lektorat | NOUN | 804 | editing department |
+| 19,683 | Ernährungsumstellung | NOUN | 762 | dietary change |
+| 19,825 | Examen | NOUN | 753 | final exam |
 
-| kept rank | lemma | POS | f | per million | gloss |
-|---:|---|---|---:|---:|---|
-| 10,063 | mies | ADJ | 2,198 | 4.87 | lousy, rotten |
-| 10,328 | app | ADJ | 2,125 | 4.71 | app [English] |
-| 11,144 | Varize | NOUN | 1,907 | 4.22 | varicose vein |
-| 11,208 | Sozialhilfe | NOUN | 1,889 | 4.18 | social welfare |
-| 11,623 | Versicherungsnehmer | NOUN | 1,799 | 3.98 | policyholder |
-| 11,692 | Basics | NOUN | 1,781 | 3.94 | basics [English] |
-| 11,957 | dieMehr | NOUN | 1,723 | 3.82 | the more [not a word: article fused with Mehr] |
-| 12,038 | e-mail | NOUN | 1,704 | 3.77 | email [English] |
-| 13,661 | Swimmingpool | NOUN | 1,423 | 3.15 | swimming pool |
-| 14,693 | Dow | NOUN | 1,275 | 2.82 | Dow (Jones index) [name] |
-| 14,815 | Minijob | NOUN | 1,260 | 2.79 | mini job (low-paid part-time job) |
-| 15,888 | Widerstandsfähigkeit | NOUN | 1,139 | 2.52 | resilience |
-| 17,041 | Zustellbett | NOUN | 1,032 | 2.29 | extra bed, folding guest bed |
-| 17,149 | Reihenhaus | NOUN | 1,023 | 2.27 | terraced house |
-| 17,473 | angefertigt | ADJ | 996 | 2.21 | made, manufactured |
-| 18,231 | vertagen | VERB | 939 | 2.08 | to adjourn, to postpone |
-| 18,548 | Nut | NOUN | 917 | 2.03 | groove, slot |
-| 18,624 | symptomatisch | ADJ | 911 | 2.02 | symptomatic |
-| 18,728 | Baugebiet | NOUN | 902 | 2.00 | development area |
-| 18,889 | verdampfen | VERB | 893 | 1.98 | to evaporate |
-| 18,929 | Bewerbungsprozess | NOUN | 890 | 1.97 | job application process |
-| 19,232 | Vergaser | NOUN | 871 | 1.93 | carburettor |
-| 19,295 | WWW | PROPN | 867 | 1.92 | WWW [English] |
-| 19,771 | ausspucken | VERB | 836 | 1.85 | to spit out |
-| 19,837 | VA | NOUN | 832 | 1.84 | VA [name] |
+## Band 20,000-25,000: 25 random words
 
-## 25 random kept lemmas, 20-25k
+| position | word | POS | frequency | gloss (model-written) |
+|---:|---|---|---:|---|
+| 20,005 | jemandem die Daumen drücken | X | 744 | to keep fingers crossed |
+| 20,139 | Strafverfolgungsbehörde | NOUN | 736 | law enforcement authority |
+| 20,244 | Mitgliederbereich | NOUN | 730 | members' area |
+| 20,429 | umfänglich | ADJ | 720 | extensive, comprehensive |
+| 20,548 | unverschlüsselt | ADJ | 713 | unencrypted |
+| 20,576 | Selbstbild | NOUN | 711 | self-image |
+| 20,599 | rentieren | VERB | 710 | to pay off |
+| 20,884 | Abgabenordnung | NOUN | 695 | German fiscal code |
+| 20,885 | Blockbuster | NOUN | 695 | blockbuster |
+| 21,627 | Höhenlage | NOUN | 656 | altitude |
+| 21,719 | Gemeinnützigkeit | NOUN | 652 | non-profit status |
+| 21,750 | Insektenschutz | NOUN | 651 | insect protection |
+| 22,211 | Themenseite | NOUN | 630 | topic page |
+| 22,368 | Freikarte | NOUN | 624 | free ticket |
+| 22,384 | Weißgold | PROPN | 624 | white gold |
+| 22,760 | Crack | NOUN | 607 | crack cocaine; ace |
+| 23,076 | Weichenstellung | NOUN | 594 | setting the course |
+| 23,167 | Einsatzfahrzeug | NOUN | 590 | emergency vehicle |
+| 23,256 | Wiedereinführung | NOUN | 587 | reintroduction |
+| 23,281 | Persönlichkeitsstörung | NOUN | 586 | personality disorder |
+| 23,439 | Benutzergruppe | NOUN | 579 | user group |
+| 23,851 | Tischtennisplatte | NOUN | 564 | table tennis table |
+| 24,202 | Innenwand | NOUN | 551 | interior wall |
+| 24,614 | Kinderschutz | NOUN | 537 | child protection |
+| 24,639 | Geschenkartikel | NOUN | 536 | gift item |
 
-| kept rank | lemma | POS | f | per million | gloss |
-|---:|---|---|---:|---:|---|
-| 20,030 | Corona-Zeit | NOUN | 819 | 1.81 | Covid era |
-| 20,189 | Mechatroniker | NOUN | 811 | 1.80 | mechatronics technician |
-| 20,716 | Brotzeit | NOUN | 780 | 1.73 | Bavarian snack break |
-| 20,766 | Bergtour | NOUN | 777 | 1.72 | mountain hike |
-| 20,978 | Stundenlohn | NOUN | 767 | 1.70 | hourly wage |
-| 21,125 | Rattan | PROPN | 759 | 1.68 | rattan |
-| 21,297 | Samt | NOUN | 751 | 1.66 | velvet |
-| 21,334 | Antlitz | NOUN | 749 | 1.66 | countenance, face |
-| 21,881 | Reiseroute | NOUN | 723 | 1.60 | itinerary |
-| 22,171 | GE | NOUN | 709 | 1.57 | GE [name] |
-| 22,195 | Hohn | NOUN | 708 | 1.57 | scorn, mockery |
-| 22,224 | Verlobung | NOUN | 707 | 1.57 | engagement |
-| 22,235 | Ausnahmeregelung | NOUN | 706 | 1.56 | exemption rule |
-| 22,463 | gebieten | VERB | 697 | 1.54 | to command, to dictate |
-| 22,640 | übermächtig | ADJ | 689 | 1.53 | overpowering |
-| 22,809 | Liebende | NOUN | 681 | 1.51 | lovers |
-| 22,853 | verschlüsselt | ADJ | 680 | 1.51 | encrypted |
-| 23,317 | Verfehlung | NOUN | 659 | 1.46 | misdeed, offence |
-| 23,432 | Cello | PROPN | 654 | 1.45 | cello |
-| 23,563 | silberfarben | ADJ | 650 | 1.44 | silver-coloured |
-| 23,620 | Steppe | NOUN | 647 | 1.43 | steppe |
-| 23,922 | Musikunterricht | NOUN | 635 | 1.41 | music lessons |
-| 24,032 | Umgebungstemperatur | NOUN | 631 | 1.40 | ambient temperature |
-| 24,325 | Datentyp | NOUN | 622 | 1.38 | data type |
-| 24,662 | Menschheitsgeschichte | NOUN | 609 | 1.35 | human history |
+## Band 25,000-30,000: 25 random words
 
-## 25 random kept lemmas, 25-30k
+| position | word | POS | frequency | gloss (model-written) |
+|---:|---|---|---:|---|
+| 25,090 | Sendezeit | NOUN | 523 | broadcast time |
+| 25,125 | auftun | VERB | 522 | to open up; to find |
+| 25,491 | unbestreitbar | ADJ | 511 | undeniable |
+| 25,714 | Veröffentlichungsdatum | NOUN | 504 | publication date |
+| 25,828 | Herold | NOUN | 500 | herald |
+| 25,955 | Wassersäule | NOUN | 497 | water column |
+| 25,967 | zu Schaden kommen | X | 497 | to get hurt |
+| 26,073 | Gemeinschaftspraxis | NOUN | 493 | group medical practice |
+| 26,103 | Erniedrigung | NOUN | 492 | humiliation |
+| 26,456 | Sägewerk | NOUN | 482 | sawmill |
+| 26,544 | verkabeln | VERB | 480 | to wire up |
+| 26,563 | Haarwachstum | NOUN | 479 | hair growth |
+| 27,019 | MINT | PROPN | 467 | STEM fields |
+| 27,550 | nach jemandem fahnden | X | 453 | to search for someone |
+| 27,725 | Veranstaltungshinweis | NOUN | 448 | event notice |
+| 28,144 | verkürzt | ADJ | 438 | shortened, abridged |
+| 28,235 | Autorennen | NOUN | 435 | car race |
+| 28,360 | Push-Nachricht | NOUN | 432 | push notification |
+| 28,435 | Kuvert | NOUN | 430 | envelope |
+| 28,447 | auf etwas bestehen | X | 430 | to insist on something |
+| 28,666 | Netzwerkkabel | NOUN | 425 | network cable |
+| 28,809 | Salzstock | NOUN | 422 | salt dome |
+| 28,989 | mongolisch | ADJ | 418 | Mongolian |
+| 29,169 | Erstausstattung | NOUN | 413 | initial equipment |
+| 29,582 | Stehplatz | NOUN | 404 | standing room |
 
-| kept rank | lemma | POS | f | per million | gloss |
-|---:|---|---|---:|---:|---|
-| 25,379 | Auffassungsgabe | NOUN | 584 | 1.29 | grasp, quickness of understanding |
-| 25,517 | vater | ADJ | 580 | 1.28 | father [not a word: lowercase Vater] |
-| 25,753 | Berufskraftfahrer | NOUN | 571 | 1.26 | professional driver |
-| 25,849 | hammer | ADJ | 569 | 1.26 | hammer [not a word: lowercase Hammer] |
-| 26,069 | Gesundheitsproblem | NOUN | 562 | 1.24 | health problem |
-| 26,140 | Lymphdrainage | NOUN | 560 | 1.24 | lymphatic drainage |
-| 26,210 | Präsidentschaftskandidat | NOUN | 558 | 1.24 | presidential candidate |
-| 26,314 | drängend | ADJ | 555 | 1.23 | pressing, urgent |
-| 26,336 | Innentür | NOUN | 554 | 1.23 | interior door |
-| 26,446 | Lippenstifte | NOUN | 550 | 1.22 | lipsticks |
-| 26,493 | geweiht | ADJ | 549 | 1.22 | consecrated |
-| 26,522 | pack | VERB | 548 | 1.21 | pack [not a word: imperative stem or English] |
-| 26,833 | Puzzles | NOUN | 539 | 1.19 | puzzles |
-| 27,102 | Glitter | NOUN | 531 | 1.18 | glitter |
-| 27,149 | Lieblingsrezept | NOUN | 530 | 1.17 | favourite recipe |
-| 27,721 | Grundsteinlegung | NOUN | 515 | 1.14 | laying of the foundation stone |
-| 27,742 | mondän | ADJ | 515 | 1.14 | chic, sophisticated |
-| 28,048 | Monsieur | NOUN | 507 | 1.12 | Monsieur, Mr (French) |
-| 28,127 | Geschenkpapier | NOUN | 505 | 1.12 | wrapping paper |
-| 28,618 | Gruppenreisen | NOUN | 493 | 1.09 | group trips |
-| 28,756 | Ohrhörer | NOUN | 490 | 1.09 | earphones |
-| 29,075 | rlich | ADJ | 483 | 1.07 | -rlich [not a word: broken fragment] |
-| 29,079 | zukunftsträchtig | ADJ | 483 | 1.07 | promising for the future |
-| 29,117 | hauswirtschaftlich | ADJ | 482 | 1.07 | home economics (adj.) |
-| 29,983 | Harms | PROPN | 462 | 1.02 | Harms [name] |
+## Band 30,000-35,000: 25 random words
 
-## Kept ranks 29,971-30,000 (consecutive)
+| position | word | POS | frequency | gloss (model-written) |
+|---:|---|---|---:|---|
+| 30,004 | natürlicherweise | ADV | 395 | naturally, by nature |
+| 30,079 | Stengel | NOUN | 393 | stalk |
+| 30,161 | Schulwesen | NOUN | 391 | school system |
+| 30,345 | spuken | VERB | 387 | to haunt |
+| 30,602 | Notwehr | NOUN | 381 | self-defense |
+| 30,609 | Stacheldraht | PROPN | 381 | barbed wire |
+| 30,739 | Samstagvormittag | NOUN | 378 | Saturday morning |
+| 30,822 | Herbstwetter | NOUN | 376 | autumn weather |
+| 31,199 | fallen lassen | VERB | 370 | to drop; to abandon |
+| 31,535 | Produktionsablauf | NOUN | 363 | production process |
+| 31,727 | Krebsrisiko | NOUN | 359 | cancer risk |
+| 31,744 | Tierarzneimittel | NOUN | 359 | veterinary medicine |
+| 31,747 | US-Medium | NOUN | 359 | US media outlet |
+| 32,116 | rausfinden | VERB | 353 | to find out |
+| 32,211 | Nachbargrundstück | NOUN | 351 | neighboring property |
+| 32,428 | lückenhaft | ADJ | 348 | patchy, incomplete |
+| 32,492 | Ernährungsform | NOUN | 346 | type of diet |
+| 32,695 | Mitarbeiterzahl | NOUN | 343 | number of employees |
+| 33,164 | beuteln | VERB | 336 | to shake; to batter |
+| 33,230 | zielgruppenspezifisch | ADJ | 335 | target-group-specific |
+| 33,618 | Marktmacht | NOUN | 329 | market power |
+| 34,727 | Puppentheater | NOUN | 316 | puppet theater |
+| 34,856 | schimmeln | VERB | 315 | to go moldy |
+| 34,932 | einschweißen | VERB | 314 | to shrink-wrap; to seal |
+| 35,000 | Reisevorbereitung | NOUN | 313 | travel preparation |
 
-| kept rank | lemma | POS | f | per million | gloss |
-|---:|---|---|---:|---:|---|
-| 29,971 | Betätige | NOUN | 462 | 1.02 | operate [not a word: truncated imperative or form of betätigen] |
-| 29,972 | Blöd | NOUN | 462 | 1.02 | stupid [not a word: capitalised blöd] |
-| 29,973 | Bombenangriff | NOUN | 462 | 1.02 | bombing raid |
-| 29,974 | Brotaufstrich | NOUN | 462 | 1.02 | spread (for bread) |
-| 29,975 | Buchverlag | NOUN | 462 | 1.02 | book publisher |
-| 29,976 | Civic | PROPN | 462 | 1.02 | Civic [name] |
-| 29,977 | Colitis | PROPN | 462 | 1.02 | colitis |
-| 29,978 | Erlernte | NOUN | 462 | 1.02 | what has been learned |
-| 29,979 | Fachwerk | NOUN | 462 | 1.02 | half-timbering |
-| 29,980 | Frontkamera | NOUN | 462 | 1.02 | front camera |
-| 29,981 | Fürbitte | NOUN | 462 | 1.02 | intercession, intercessory prayer |
-| 29,982 | GBP | PROPN | 462 | 1.02 | GBP, pound sterling |
-| 29,983 | Harms | PROPN | 462 | 1.02 | Harms [name] |
-| 29,984 | Hausverbot | NOUN | 462 | 1.02 | ban from premises |
-| 29,985 | Hussein | PROPN | 462 | 1.02 | Hussein [name] |
-| 29,986 | Landesbetrieb | NOUN | 462 | 1.02 | state-owned enterprise |
-| 29,987 | Lizenzgeber | NOUN | 462 | 1.02 | licensor |
-| 29,988 | Locarno | NOUN | 462 | 1.02 | Locarno [name] |
-| 29,989 | Luxor | PROPN | 462 | 1.02 | Luxor [name] |
-| 29,990 | Lösegeld | NOUN | 462 | 1.02 | ransom |
-| 29,991 | Megabyte | NOUN | 462 | 1.02 | megabyte |
-| 29,992 | Monats-Bahn | NOUN | 462 | 1.02 | monthly rail pass |
-| 29,993 | PSV | PROPN | 462 | 1.02 | PSV [name] |
-| 29,994 | Paketversand | NOUN | 462 | 1.02 | parcel shipping |
-| 29,995 | Pistenkilometer | NOUN | 462 | 1.02 | kilometres of ski slope |
-| 29,996 | Polarisierung | NOUN | 462 | 1.02 | polarization |
-| 29,997 | Presseartikel | NOUN | 462 | 1.02 | press article |
-| 29,998 | STIHL | PROPN | 462 | 1.02 | STIHL [name] |
-| 29,999 | Shenzhen | PROPN | 462 | 1.02 | Shenzhen [name] |
-| 30,000 | Spaces | PROPN | 462 | 1.02 | Spaces [English] |
+## Band 35,000-40,000: 25 random words
 
-## 15 random kept lemmas, 30-35k (what a deeper cut would add)
+| position | word | POS | frequency | gloss (model-written) |
+|---:|---|---|---:|---|
+| 35,128 | Avast | NOUN | 311 | Avast antivirus software |
+| 36,043 | überbetrieblich | ADJ | 302 | inter-company, cross-company |
+| 36,112 | Vorgängerin | NOUN | 301 | female predecessor |
+| 36,263 | Liquidator | NOUN | 299 | liquidator |
+| 36,299 | Webdienst | NOUN | 299 | web service |
+| 36,498 | verwelken | VERB | 297 | to wilt |
+| 36,555 | Vorrundenspiel | NOUN | 296 | preliminary round match |
+| 36,611 | Nachtschwärmer | NOUN | 295 | night owl; hawkmoth |
+| 36,710 | türkischstämmig | ADJ | 294 | of Turkish descent |
+| 36,871 | Handball-Bundesliga | NOUN | 291 | German top handball league |
+| 36,991 | Wachtel | NOUN | 290 | quail |
+| 37,044 | Protokolldaten | NOUN | 289 | log data |
+| 37,547 | tunken | VERB | 283 | to dip, dunk |
+| 38,021 | Ahnentafel | NOUN | 276 | pedigree chart |
+| 38,045 | Heizungsluft | NOUN | 276 | heating air |
+| 38,163 | unausgewogen | ADJ | 275 | unbalanced |
+| 38,181 | Expertengruppe | NOUN | 274 | expert group |
+| 38,713 | Bauüberwachung | NOUN | 268 | construction supervision |
+| 38,953 | Weltgebetstag | NOUN | 266 | World Day of Prayer |
+| 38,963 | hinter etwas zurückbleiben | X | 266 | to fall short of something |
+| 39,538 | Aceton | PROPN | 259 | acetone |
+| 39,707 | konspirativ | ADJ | 258 | conspiratorial, clandestine |
+| 39,774 | Stiftungsvermögen | NOUN | 257 | foundation assets |
+| 39,811 | Überfüllung | NOUN | 257 | overcrowding |
+| 39,926 | Doppelbelastung | NOUN | 255 | double burden |
 
-| kept rank | lemma | POS | f | per million | gloss |
-|---:|---|---|---:|---:|---|
-| 30,305 | Landessportbund | NOUN | 456 | 1.01 | state sports federation |
-| 32,337 | Migrationspolitik | NOUN | 422 | 0.93 | migration policy |
-| 32,414 | Schiffer | PROPN | 421 | 0.93 | boatman, skipper |
-| 32,861 | Vorredner | NOUN | 414 | 0.92 | previous speaker |
-| 33,399 | knöchern | ADJ | 406 | 0.90 | bony |
-| 33,546 | Bestückung | NOUN | 403 | 0.89 | equipping, stocking |
-| 33,551 | Darstellerin | NOUN | 403 | 0.89 | actress, performer |
-| 33,591 | gesundheit | ADJ | 403 | 0.89 | bless you (health) [not a word: lowercase Gesundheit] |
-| 33,765 | Nennleistung | NOUN | 400 | 0.89 | rated power |
-| 33,853 | abdunkeln | VERB | 399 | 0.88 | to darken, to dim |
-| 33,969 | Löscharbeit | NOUN | 397 | 0.88 | firefighting work |
-| 34,144 | Zahntechniker | NOUN | 395 | 0.87 | dental technician |
-| 34,336 | Tischlampe | NOUN | 392 | 0.87 | table lamp |
-| 34,452 | Noel | PROPN | 390 | 0.86 | Noel [name] |
-| 34,510 | Luftpumpe | NOUN | 389 | 0.86 | air pump |
+## Just above the cut (40,000): the last 60 words
+
+| position | word | POS | frequency | gloss (model-written) |
+|---:|---|---|---:|---|
+| 39,941 | Konzeptentwicklung | NOUN | 255 | concept development |
+| 39,942 | Koordinationsstelle | NOUN | 255 | coordination office |
+| 39,943 | Landesbischof | NOUN | 255 | state bishop |
+| 39,944 | Locher | PROPN | 255 | hole punch; surname |
+| 39,945 | Loser | NOUN | 255 | loser |
+| 39,946 | Meeresbewohner | NOUN | 255 | sea creature |
+| 39,947 | Militarismus | NOUN | 255 | militarism |
+| 39,948 | Mitarbeiterbefragung | NOUN | 255 | employee survey |
+| 39,949 | Mitarbeiterschulung | NOUN | 255 | employee training |
+| 39,950 | Naturschutzverband | NOUN | 255 | nature conservation association |
+| 39,951 | Onlinepräsenz | NOUN | 255 | online presence |
+| 39,952 | Organza | PROPN | 255 | organza fabric |
+| 39,953 | Parallelgesellschaft | NOUN | 255 | parallel society |
+| 39,954 | Pilgerreise | NOUN | 255 | pilgrimage |
+| 39,955 | Quaste | NOUN | 255 | tassel |
+| 39,956 | Reiseexperte | NOUN | 255 | travel expert |
+| 39,957 | Rezeptbuch | NOUN | 255 | recipe book |
+| 39,958 | Rhododendron | PROPN | 255 | rhododendron |
+| 39,959 | Seminarbeginn | NOUN | 255 | seminar start |
+| 39,960 | Serverraum | NOUN | 255 | server room |
+| 39,961 | Servicepaket | NOUN | 255 | service package |
+| 39,962 | Sicherheitsüberprüfung | NOUN | 255 | security check |
+| 39,963 | Sollzinssatz | NOUN | 255 | nominal interest rate |
+| 39,964 | Sommerresidenz | NOUN | 255 | summer residence |
+| 39,965 | Sozialausschuss | NOUN | 255 | social affairs committee |
+| 39,966 | Spekulatius | PROPN | 255 | spiced Christmas biscuits |
+| 39,967 | Spezialfall | NOUN | 255 | special case |
+| 39,968 | Sprachenlernen | NOUN | 255 | language learning |
+| 39,969 | Stickmaschine | NOUN | 255 | embroidery machine |
+| 39,970 | Straßenschild#Neut | NOUN | 255 | street sign |
+| 39,971 | Suchtgefahr | NOUN | 255 | risk of addiction |
+| 39,972 | Textlink | NOUN | 255 | text link |
+| 39,973 | Türklinke | NOUN | 255 | door handle |
+| 39,974 | Verpackungskosten | NOUN | 255 | packaging costs |
+| 39,975 | Verrenkung | NOUN | 255 | contortion; dislocation |
+| 39,976 | Vielschichtigkeit | NOUN | 255 | complexity; multilayeredness |
+| 39,977 | Vorabversion | NOUN | 255 | preview version |
+| 39,978 | Vorplanung | NOUN | 255 | preliminary planning |
+| 39,979 | Wahlausschuss | NOUN | 255 | electoral committee |
+| 39,980 | Wasserlinie | NOUN | 255 | waterline |
+| 39,981 | Weboberfläche | NOUN | 255 | web interface |
+| 39,982 | Weihnachtsplätzchen | NOUN | 255 | Christmas cookies |
+| 39,983 | Werbebranche | NOUN | 255 | advertising industry |
+| 39,984 | Wolkendecke | NOUN | 255 | cloud cover |
+| 39,985 | Zeichensetzung | NOUN | 255 | punctuation |
+| 39,986 | Zielbereich | NOUN | 255 | target area |
+| 39,987 | Zierleiste | NOUN | 255 | decorative trim |
+| 39,988 | auf Raten | X | 255 | in installments |
+| 39,989 | branchenweit | ADJ | 255 | industry-wide |
+| 39,990 | charttechnisch | ADJ | 255 | in chart-technical terms |
+| 39,991 | dabeihaben | VERB | 255 | to have with you |
+| 39,992 | einlenken | VERB | 255 | to yield, come around |
+| 39,993 | erregend | ADJ | 255 | exciting, arousing |
+| 39,994 | etwas folgen lassen | X | 255 | to follow up with something |
+| 39,995 | fassten | VERB | 255 | grasped, seized (past tense) |
+| 39,996 | flächenbündig | ADJ | 255 | flush, level with surface |
+| 39,997 | gerben | VERB | 255 | to tan (leather) |
+| 39,998 | gleichkommt | VERB | 255 | amounts to, equals |
+| 39,999 | gramm | ADJ | 255 | (misspelling) grim; gram |
+| 40,000 | heimatlos | ADJ | 255 | homeless, stateless |

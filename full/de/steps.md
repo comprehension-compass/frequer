@@ -70,9 +70,11 @@ r8s (581 screener suspects), r8r (765 re-decisions under the second set of rulin
 rulings of 2026-11-02 are in `scripts/review/prompts/de/rules-*.md` and `full/de/junk-review.md`; names list and
 number rule from Honeyeater #766 at 9bbae4b. After re-routing, kept rank 40,000 = raw rank 49,470 (f 261).
 
-**On resume:** round 9 = the 543 pending flagged lemmas in the window plus the suspects of the third screen
-(`screen40k-c`, kept positions 38,609-40,000, already screened). Run `examples.py` from the pinned Honeyeater
-backend directory (it needs `config` on the path), then `review.py` (r9 flagged rules, r9s unflagged rules), gate,
-`--adjudicate`, `collect.py`; route again; then `report.py` and `band_samples.py --gloss --cut 40000` with bands
-0-10k/10-20k/20-25k/25-30k/30-35k/35-40k, copied to `full/de/band-report.md` and `band-samples.md`. No snapshot
-until the developer confirms the 40k cutoff.
+Resumed 2026-11-05: round 9 (543 pending flagged; 241 suspects of `screen40k-c`), then re-route and rounds
+10-13 on the lemmas each round's drops pulled into the 40k (184, 53, 36, 3), each with a screen of the newly
+entered unflagged keeps at the end of the window (39,300 / 39,700 / 39,900 / 39,950 to 40,000). Agreed merges
+and keeps were read before adjudication (queries in `review/rounds/r9*/queries.tsv`, `r10/queries.tsv`); four
+place-list corrections after adjudication (Bielefelder, Demokratische Republik Kongo kept; Istanbuler,
+Theresienwiese dropped). No pending lemma left inside the 40k: kept rank 40,000 = raw rank 50,191 (f 255).
+`report.py` and `band_samples.py --gloss --per-band 25 --cut 40000` copied to `band-report.md` and
+`band-samples.md`. No snapshot until the developer confirms the 40k cutoff.

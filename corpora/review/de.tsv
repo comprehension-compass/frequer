@@ -20723,3 +20723,13 @@ Ignorier	merge:ignorieren	truncated stem, mostly counted as ignorieren
 Praktikern	merge:Praktiker	dative plural filed as lemma
 Rima	drop	foreign word or name
 Rouladen	merge:Roulade	plural filed as lemma, not plural-only
+# round 13 (pulled in by round 12)
+Spekulatius	keep	common noun (Weihnachtsgebäck) mistagged as a name
+Sprachenlerne	merge:Sprachenlernen	cut-off form of the noun "das Sprachenlernen", a lexicalised nominalisation
+VKA	drop	acronym of a minor employers' association, only in legal text
+# round 13s (screen of 39,950-40,000)
+Tönnies	drop	surname/company name, not a learnable word
+Wiederherstellen	merge:wiederherstellen	nominalised productive -en infinitive, merge into the verb
+aufgeboten	merge:aufbieten	participle of aufbieten, not an adjective with its own entry
+beispielhafte	merge:beispielhaft	inflected adjective form
+embedded	drop	English word, not German

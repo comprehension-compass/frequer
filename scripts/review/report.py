@@ -75,7 +75,7 @@ for rank, lemma, action, freq, pos, _forms, flags, kept in rows:
     if b is None:
         break
     per[b][action] += 1
-    for f in {x.split(":")[0].strip() for x in flags.split("; ") if x}:
+    for f in set(re.findall(r"(?:^|; )([a-z_]+): ", flags)):  # flag texts may contain "; " themselves
         rule_hits[b][f] += 1
     if action in DROPS:
         drops.append((int(rank), lemma, action, flags, why.get(lemma, ("", ""))[1]))
