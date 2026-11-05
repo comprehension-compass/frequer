@@ -1,0 +1,24 @@
+# question actividade: dropped as Galician/Portuguese; could alternatively merge:actividad if the text is judged a misspelling
+# question atraidos: merged to the verb atraer, as with victimizado, but atraído could stand as an adjective lemma.
+# question brusela: "bruselas" is also the common noun for Brussels sprouts (col de Bruselas); dropped as the place-name reading since the lemma "brusela" is a broken singular. Could instead be a merge to "col de Bruselas".
+# question brusela: lemma is only from "col de Bruselas"; dropped as a place name, but a multi-word merge target (col de Bruselas) could be argued
+# question busines: "business" is a possible established loan, but most examples are product or company names, so I dropped it
+# question cañoner: cañonera is a noun (gunboat) with its own feminine entry; merged to cañonera rather than cañonero
+# question dentellar: Dentelle/Dentelles (25 of 84) are French; I merged for the Spanish dentellada reading, but the coordinator may want the French forms excluded.
+# question eclair: éclair the pastry is a real Spanish word, but the examples are all proper names; I judged the pastry reading under a third.
+# question eclair: éclair the pastry is an established loan, but the examples are all names
+# question honorem: second half of "ad honorem"; no first-half "ad" entry was shown to carry the merge, so dropped per split-loan rule
+# question lansoprazole: lansoprazol is a fairly common generic but less of a household name than omeprazol; merged rather than dropped as specialist.
+# question ligur: counts split between lowercase and capitalised; kept as ethnonym/adjective
+# question pescaito: could be merged into pescadito as a variant spelling; kept as an established dialectal form
+# question propo: could be a clipping of propósito or propuesta; no examples, dropped
+# question sencillito: the rules don't say whether a regular diminutive merges into its base; kept because the lemma isn't broken (alternative merge:sencillo).
+# question snowboarders: merge target snowboarder assumes the loan is established; the alternative is drop.
+# question spreader: container-crane term seen only in industrial text; dropped as not established.
+# question spreader: could be an established technical loan in port/crane context; dropped as specialist
+# question stricto: examples not shown; assumed it occurs as "stricto sensu"
+# question stricto: no examples shown; assumed to occur as "stricto sensu", so the first half merges into that compound.
+# question transvasar: split by form: transvase, transvases -> transvase
+# question tremolar: forms are mostly "tremolo" as a music or guitar term, and the target trémolo is my guess at the accented noun; confirm it is on the list
+# question tremolar: lemma mixes the rare verb tremolar with the noun trémolo; decided for the noun reading, split by form: tremola, tremolando, tremolar -> tremolar
+# question vermeil: specialist jewellery term; kept as established French loan, but a case for drop.

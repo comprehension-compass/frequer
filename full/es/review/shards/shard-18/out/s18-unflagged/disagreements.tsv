@@ -1,0 +1,7 @@
+# lemma	A	reason A	B	reason B
+multivitamin	merge:multivitamina	English spelling of an adapted word	drop	English word
+actividade	drop	Galician/Portuguese form, not Spanish	merge:actividad	Galician/Portuguese spelling
+enoxaparina	drop	Specialist hospital anticoagulant, not a household generic	keep	common generic anticoagulant
+multitasking	drop	English term; Spanish uses multitarea	keep	established English loan
+ashaninka	keep	Ethnonym, kept per ruling	merge:asháninka	missing accent, Spanish spelling of ethnonym
+grampones	keep	Valid variant of crampones, used in the Southern Cone	merge:grampón	plural filed as lemma
