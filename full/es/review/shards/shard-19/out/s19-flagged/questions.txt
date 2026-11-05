@@ -1,0 +1,33 @@
+# question anti-fatiga: could merge into antifatiga if that is on the list; dropped as a hyphenated compound
+# question ayni: Andean reciprocity concept, possibly worth keeping, but no examples were shown and it is mostly capitalised, so dropped
+# question carbonio: could be a deliberate Italian/product word, merged to carbono as the obvious Spanish lemma
+# question cazadero: lowercase reading is about 31% of occurrences, borderline for the one-third rule, so kept
+# question cazadero: lowercase use (~32%) is borderline against the "about a third" threshold; the capitalised use is mostly a place in California
+# question celos: tagged PROPN with mostly all-caps evidence, so dropped; the real plural-only noun "celos" probably sits under another lemma.
+# question co-creativa: cocreativo may not be on the list; if it isn't, drop is the alternative
+# question co-creativa: cocreativo may not itself be on the list; merge target assumed
+# question cryptocurrencie: English plural, not merged into criptomoneda since the text appears to be English.
+# question doner: a loan from Turkish; kept as established food vocabulary, though some writers spell it döner or just kebab
+# question doner: borderline loan; kept as an established food word (döner/kebab)
+# question faba: Asturian/Spanish word for haba, but occurrences are mostly the protected bean name; dropped
+# question faba: Faba is a real Spanish word (fabada, fabas) but most examples are the Asturian bean denomination; dropped as a name
+# question feaga: Spanish national agricultural fund; dropped as not a household name, but the institution rule could arguably keep it.
+# question feaga: national EU agricultural fund, borderline institution; dropped as specialist.
+# question intermezzo: examples show a bar name and a drug brand, so the music reading may be under a third
+# question kohen: Jewish priestly title; treated as a foreign term, not an established loan
+# question lilis: possibly a plural of lili (flower), but most occurrences look like a name; dropped
+# question métis: capitalised in 69% of examples; kept as an ethnonym, but it could be treated as a proper noun
+# question métis: ethnonym of a Canadian people, kept under the lowercase-ethnonym ruling, though it is capitalised in 69% of the text
+# question nance: the fruit nance is a real Spanish word, but the examples show only the place name
+# question negocia: could be a conjugated form of negociar, but the counted forms are all capitalised brand-style, so dropped
+# question no-oficial: could merge to "oficial" with a negation, but dropped as hyphenated compound of listed words
+# question pre-embarque: merge target preembarque is assumed to be the standard spelling
+# question repón: could be the imperative of reponer, but it is always capitalised and has no examples, so dropped as a name
+# question repón: tagged PROPN with no examples, so the imperative of reponer cannot be confirmed
+# question satay: borderline for how established it is in Spanish; kept because it appears on Spanish menus
+# question unece: international body, but not clearly a household name in Spanish; dropped
+# question unece: international body, but only in its English acronym (Spanish is CEPE) and not a household name, so dropped
+# question unidroit: specialist intergovernmental body; kept as an international body, but it is not a household name
+# question valenciana: the examples are company names in all-caps, so the common-word reading may be under a third; merged as the gentilic anyway.
+# question vendr: forms are vendrán/vendrás/vendrá and also Vendres (Catalan Friday); decided for the venir reading
+# question vendr: mixed with Catalan "vendres" (Friday); decided for the Spanish venir reading.
