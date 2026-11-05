@@ -1,0 +1,12 @@
+# lemma	A	reason A	B	reason B
+espaciadora	keep	real Spanish word, as in "barra espaciadora"	merge:espaciador	feminine form of espaciador, used almost only in "barra espaciadora"
+omep	keep	international education body	drop	specialist NGO acronym
+forma-de-vida	drop	hyphenated compound of listed words	merge:forma de vida	Hyphenated spelling of a multi-word phrase
+anti-cáncer	drop	hyphenated compound of listed words	merge:anticáncer	hyphenated variant of the adapted form
+hebreos	drop	occurrences are the Bible book title	merge:hebreo	plural filed as lemma
+orgone	merge:orgón	English spelling of adapted word	drop	English spelling of a specialist term
+hippocampus	merge:hipocampo	Latin/English spelling of the adapted Spanish word	drop	raw Latin/site name, not adapted spelling
+tinga	drop	name/foreign food term, mostly proper noun	keep	Mexican dish word (tinga de pollo), a real Spanish common noun
+curp	drop	Mexican ID code; specialist/administrative acronym	keep	Mexican national ID code, household acronym
+facho	keep	real Spanish colloquial word (fascist); but examples mostly place/name	drop	real Spanish reading is a small minority; mostly Monte Facho and surname
+no-nacido	merge:no nacido	hyphenated variant of the two-word unit	drop	hyphenated compound of two listed words
