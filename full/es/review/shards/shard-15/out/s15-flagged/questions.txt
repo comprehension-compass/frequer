@@ -1,0 +1,39 @@
+# question afro-americanas: target lemma written as masculine singular "afroamericano" per the gentilic-to-masculine ruling; the list may spell it "afroamericano" or "afro-americano", please confirm.
+# question afro-americanas: target spelled afroamericano (masculine, no hyphen) per feminine-gentilic and hyphen-variant rulings; confirm this is the standard form on the list.
+# question almirez: real word (mortar), but only about a quarter of the examples use it that way, so I dropped it under the one-third rule
+# question anti-rayado: antirrayado is the regular prefix spelling, but antirayaduras is also common; merged to antirrayado.
+# question anti-rayado: the standard Spanish form is unclear (antirrayado vs antirrayaduras); merged to antirrayado
+# question areal: real Spanish word, but only about a fifth of examples are the common word (areal/areales), so dropped under the one-third rule
+# question areal: real word (areal, areales) is about a quarter of occurrences; the rest are place names, so I dropped it under the one-third rule
+# question cfgs: Spanish vocational-training acronym (ciclo formativo de grado superior) used in public life, so it could count as a public term; I dropped it as an education acronym.
+# question colona: kept as the feminine of colono, but 66% of occurrences are capitalised and may be a place or name
+# question colona: lowercase real-word reading is about 34%, borderline for the one-third rule; kept
+# question conred: kept as a national body that is a household name in Guatemala, following the ETECSA ruling; other readings of the token are not attested.
+# question conred: national disaster agency of Guatemala, kept under the national-bodies ruling; confirm it counts as a household name.
+# question cubesat: established in space news but specialist; dropped as technical term
+# question cubesat: specialist-leaning term; kept because it is common in Spanish space news
+# question enlazado: kept as an adjective; it could be merged into enlazar if the lemmatiser treats participles that way
+# question exedra: a real architectural term, but most occurrences are the Exedra hotel name, so dropped under the one-third rule
+# question fanclub: established loan, though Spanish more often writes "club de fans"
+# question feoga: obsolete EU fund; kept as an international body, but it could be treated as a specialist acronym
+# question fraiche: "crème fraîche" has been treated as a split loan, with fraiche as the second half; the first-half lemma (creme) was not shown, so its merge is left to the coordinator.
+# question fraiche: could be a loan "crème fraîche" kept as a unit; there is no first half "creme" or "crème" in this batch to merge, so I dropped it.
+# question geo-cerca: merge target geocerca assumed as the standard spelling; unsure if the list uses geovalla or geocerca.
+# question home-page: target homepage assumed; could instead be página de inicio if homepage is not on the list
+# question imv: the Ingreso Mínimo Vital benefit is well known in Spain, but it is a programme rather than an institution; no examples to check
+# question low-code: English tech term, may be established enough to keep; dropped as hyphenated and not yet a common Spanish loan
+# question low-code: kept as established tech loan; borderline since it is hyphenated and fairly specialist.
+# question mibel: Iberian electricity market, widely cited in Spanish energy news; I treated it as a market, not a national body, and dropped it.
+# question orop: regional fisheries bodies could count as regional bodies (keep), but the acronym is specialist, so dropped.
+# question pehuén: many examples are place or brand names ("Bosque Pehuén"), so the real-word share is unclear; I kept it as the tree name.
+# question polycarbonate: examples are mostly English product titles, but merged as an English spelling of an adapted word
+# question post-electoral: target postelectoral assumed (RAE prefers unhyphenated post- forms).
+# question semi-estructuradas: target semiestructurado assumed; hyphen-less standard form.
+# question sicofaa: international body but only known to specialists; kept under the regional/international bodies ruling
+# question socio-espacial: merged to the solid spelling, though the rule says hyphenated compounds of two listed words drop; socio- is a prefix, not a listed word
+# question storyline: English loan used in media/gaming; judged not established enough, borderline
+# question taina: capitalised 65% of the time and may be a personal name; merged as the lowercase gentilic reading (taíno) is the only learner-relevant one
+# question taina: no examples; merged to taíno on the assumption that most occurrences are the ethnonym, but it may be mostly a given name
+# question traviesa: the examples show "campo a traviesa" (cross-country) and the lemmatiser may have filed feminine travieso here; if so, merge:travieso.
+# question ucip: a common Spanish hospital acronym (unidad de cuidados intensivos pediátricos), but I treated it as specialist and dropped it
+# question ucip: hospital acronym that is common among parents and patients but could count as specialist; kept
