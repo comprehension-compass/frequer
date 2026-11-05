@@ -1,0 +1,24 @@
+# question AED: defibrillator acronym may be known to the public, dropped as technical
+# question Award: borderline established loan; merged to Award rather than dropped
+# question EFSA: EU agency known in food news; treated as a specialist institution and dropped
+# question EFSA: EU agency often named in German news, but not clearly among the nationally famous institutions
+# question Ficktreffe: obvious clipped lemma, but the word is vulgar spam-like; merged per citation rule, could be dropped instead.
+# question Ficktreffe: spam-like vulgar content, merged per the citation rule although it could be dropped
+# question Heini: also a colloquial common noun ("ein blöder Heini"), but the evidence reads as a name, so dropped
+# question Kyu: a judo and karate grade term, but the examples are mostly game text; dropped
+# question Kyu: judo/karate grade is a real word but niche, and the counts also come from a Zelda tribe name; dropped.
+# question Martin-Luther-Universität: a named university (Halle-Wittenberg); rules cover nationally famous institutions but not universities, so dropped as a minor organisation.
+# question Martin-Luther-Universität: a named university is not covered by the institution rulings; dropped as a minor organisation.
+# question STRG: keyboard key name, kept under the abbreviations-used-as-words ruling
+# question Seeland: could be read as a common noun (8.6% adjective use), but it is a region name not on the list
+# question Single-Mann: lemma is singular but counts are mostly the plural; kept as is.
+# question Tatra: place name (mountain range) versus truck brand; dropped as not on the learnable place list
+# question Versaill: city is famous but not on the learnable place list, so dropped under the "any place name still seen" rule
+# question Versaill: the Treaty of Versailles is well known, but the place name is not on the learnable list, so dropped rather than merged
+# question Weinland: counts are mostly the place name Zürcher Weinland and a surname, but the lemma is also a common noun; kept by its own reading (ruling 13)
+# question Weinland: mostly used in the regional name Zürcher Weinland, but it is also a common noun; kept.
+# question dahinterstehend: participle used only in inflected attributive form; merged to the verb, but it could be kept as an adjective with its own entry.
+# question dahinterstehend: the participle adjective could be kept as its own entry; merged into the verb because the citation form never occurs.
+# question hung: its counts are mostly Hunger (rule 13), but the lemma's own reading is English, so dropped; the lemmatiser should file those under Hunger
+# question Ficktreffe: does ruling 11 (slurs/offensive) also cover vulgar sexual compounds from adult spam that are not slurs, or is a separate adult-spam drop rule intended?
+# question Live-Casino: should transparent compounds found almost only in gambling or spam text (Live-Casino, Online-Casino, Casino-Bonus) drop as spam even when they are well-formed German?
