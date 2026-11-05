@@ -1,0 +1,36 @@
+# question antipasti: Italian food term used on Spanish menus; dropped as not established, but could be a keep as a loan
+# question antipasti: an Italian plural that may merge into antipasto if the coordinator prefers
+# question bielástico: real but rare technical-commercial adjective; kept as a Spanish word
+# question cheka: historical Soviet institution, not a place; dropped as a foreign name, though Spanish also writes it "checa".
+# question cochinita: the lemma may also be a plain diminutive of cochina, but nearly all examples are the dish cochinita pibil; the coordinator should check that the target "cochinita pibil" exists and that "pibil" is dropped.
+# question correfoc: Catalan tradition widely named in Spanish texts in Catalonia; dropped as non-established, but could be a keep if the developer treats it as a cultural loan
+# question curvador: same case as trillador; the examples are mostly curvadora (machine)
+# question depositación: a real coating-technology term, or a mistaken form of deposición?
+# question deslizadero: split by form: deslizadera, deslizaderas -> deslizadera
+# question focu: unclear whether the target is "focus group" (a loan) or foco; the examples show "focus groups", so I chose the compound
+# question frezar: the lemma mixes freza/frezar (real, spawning) with misspelt fresado and unrelated frece/frecen; kept for the real reading
+# question horonita: lowercase demonym of Beth-horon, which could count as an ethnonym; dropped as a minor biblical gentilic
+# question iboga: kept out as a specialist plant/drug, but it could count as an adapted organism name.
+# question improviso: forms are mostly verb improvisa (improvisar) with only 4 occurrences of noun improviso; split by form: improvisa, Improvisa, improvisas -> improvisar
+# question improviso: split by form: improvisa, improvisas -> improvisar (49+11 of 77 are verb forms; noun improviso only ~4 examples, below a third, so arguably drop or merge:improvisar)
+# question midiéndose: medirse (try on) may be the better target than plain medir
+# question midiéndose: the first example is medirse (try on) and the second is passive; filed under plain medir
+# question níque: could be a cut-off níquel or a misspelling, with no examples to check; merged into níquel as the obvious candidate
+# question placeholder: English IT term that may be established enough in Spanish tech writing; dropped as not clearly established
+# question pleuritis: could instead be considered a specialist medical term; kept as common enough in Spanish
+# question sertraline: a well-known generic antidepressant, treated as a common drug and merged to the Spanish spelling sertralina
+# question solícitamente: Kept as a valid adverb, but it may fall under the rule for adverbs in -mente that merge to the adjective
+# question substantivar: the forms are mostly "substantivo" (old spelling), so I merged to sustantivo rather than the verb sustantivar.
+# question taconear: split by form: taconeo -> taconeo
+# question tarjetita: plain diminutive; kept as its own lemma, but could merge into tarjeta if diminutives are to be folded
+# question tarjetita: the rules do not say whether regular diminutives merge into the base noun or keep their own entry. I decided by analogy with the -ísimo ruling, and lexicalised diminutives (e.g. ventanilla) would be a separate matter.
+# question tipsters: borderline loan; dropped as too niche, but could be merge:tipster if the list carries that entry
+# question tipsters: tipster is an English betting term with doubtful establishment in Spanish; merged to singular tipster, but the coordinator may prefer drop.
+# question todomisericordioso: Spanish compound used only as a divine epithet in Islamic texts; dropped as odd
+# question trillador: lemma is the masculine form but the examples are mostly the feminine trilladora (machine); consider merge:trilladora
+# question vapo: no examples; could be slang for vaporizador, dropped as unclear
+# question cochinita: in Mexico "cochinita" alone also names the dish (tacos de cochinita); confirm that the split-loan merge still applies when the first half also occurs alone
+# question deslizadero: split by form: deslizadera, deslizaderas, Deslizadera -> deslizadera (technical slider, mostly the slider in garment and machinery examples)
+# question frezar: split by form: freza -> freza (spawning noun, about 43% of the examples); frezado is a misspelling of fresado
+# question tarjetita: should regular diminutives (-ito/-ita) merge into their base like regular -ísimo superlatives, or keep their own entry?
+# question trillador: split by form: trilladora, Trilladora, trilladoras, Trilladoras -> trilladora (machine noun with its own dictionary entry)

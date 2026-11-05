@@ -1,0 +1,15 @@
+# lemma	A	reason A	B	reason B
+infos	merge:info	Clipped plural of info	drop	Mostly a company name, so the real-word reading is a minority
+trillador	keep	Real noun/adjective; the examples are mostly trilladora, the machine	merge:trilladora	Machine noun, mostly written as trilladora
+antipasti	keep	Established Italian loan on Spanish menus	drop	Italian word, not established in Spanish
+curvador	keep	Real noun/adjective for the machine	merge:curvadora	Machine noun, mostly written as curvadora
+frezar	drop	mixed unrelated forms (freza, fresado, frece)	keep	real verb (desovar), though some examples are noise
+métro	drop	French word, mostly a brand or system name	merge:metro	French spelling
+pantis	merge:panti	plural filed as lemma	keep	real Spanish word for tights
+salidad	drop	not a word	merge:salida	misspelling
+tarjetita	keep	regular diminutive with its own lemma, not broken	merge:tarjeta	regular diminutive of tarjeta, filed as its own lemma, as with the -ísimo superlative ruling
+focu	drop	English "focus group" reading dominates	merge:focus group	cut-off fragment of focus; examples are all "focus groups"
+brandie	merge:brandy	English plural of an established loan	merge:brandi	English plural of an adapted word
+iboga	drop	specialist plant/drug name	keep	common name of a plant, adapted
+tipsters	drop	niche English betting term, not established in Spanish	merge:tipster	English plural filed as lemma
+deslizadero	merge:deslizadera	forms are mostly deslizadera, a real noun (slider); lemma mismatched	keep	real noun; forms mostly deslizadera, but variant of same word
