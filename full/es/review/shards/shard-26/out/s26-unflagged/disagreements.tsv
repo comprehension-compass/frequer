@@ -1,0 +1,9 @@
+# lemma	A	reason A	B	reason B
+rebufar	merge:rebufo	forms are the noun rebufo, lemma wrong	keep	real verb rebufar; rebufo is also a real word
+reventazón	drop	river/hydro project name; common word reading minor	keep	real Spanish word (reventazón); name use is of the river but common noun also valid
+chlorpromazine	drop	English form of a specialist drug	merge:clorpromazina	English spelling of a common generic drug
+dominatrices	merge:dominatrix	plural filed as lemma	merge:dominatriz	plural filed as lemma
+folklor	merge:folclor	variant spelling	merge:folclore	variant spelling
+limpiao	merge:limpiarse	"limpiaos" is the vosotros imperative with clitic -os	merge:limpiar	imperative limpiad+os
+orgón	keep	real Spanish noun, Reich's concept	drop	Reich's concept, specialist term
+autoabastecer	keep	real verb; the pronominal use is the usual one	merge:autoabastecerse	forms are overwhelmingly the pronominal verb
