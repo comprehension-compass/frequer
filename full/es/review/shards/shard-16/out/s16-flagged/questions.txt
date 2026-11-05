@@ -1,0 +1,48 @@
+# question allopurinol: alopurinol is a common generic drug, so merged into the Spanish spelling
+# question allopurinol: merged to alopurinol as a common generic drug; drop instead if the developer treats it as specialist
+# question animándono: rule says -nos clitic fragments merge into pronominal verb if common in own right; animarse is common, so merge:animarse may be preferable
+# question animándono: the rule points to the pronominal animarse where common, but the example reads as plain animar, so merged there
+# question asiático-americano: the rules say hyphenated compounds of two listed words drop, but this is a gentilic that people write as one unit; I merged it into the unspaced "asiático americano", so please confirm that is the intended target or whether it should be dropped.
+# question csce: historical name of the OSCE; kept as an international body, but the coordinator may prefer merging it into OSCE if that is listed.
+# question escoto: lemma mixes surname Escoto with plural escotos (escote); split by form: escotos -> escote
+# question ex-jefe: merged to exjefe as the Spanish spelling; if hyphenated ex- compounds count as "two listed words", it would drop instead
+# question gamut: capitalised 48% and tagged PROPN; kept as established colour/music term, but may be mostly technical use
+# question gamut: could count as an established loan in colour and music contexts; dropped as technical
+# question gremlin: lowercase use is about 31% of examples, borderline for the one-third rule; dropped because the sample shows mainly product and game names
+# question higiénico-sanitarias: target higiénico-sanitario is a hyphenated compound which the rules would otherwise drop; merge chosen as the plural is a broken lemma
+# question inspirándono: the example uses plain "inspirar" (inspiring us), though inspirarse is also a common verb; I chose the plain verb.
+# question instragram: misspelling of the brand Instagram; dropped because the brand itself would drop.
+# question irgc: Iranian national body, not Spanish-speaking, but frequent in Spanish news; dropped as a foreign institution.
+# question jarilla: lowercase use is about 31%, borderline; kept as a real plant word although some capitalised uses are names
+# question longboards: unsure longboard is established enough in Spanish; merged into the singular rather than dropped
+# question macá: real Spanish bird name but examples show the biblical place; dropped as a minority reading
+# question macá: real bird-name reading (macá, a grebe) seems a minority versus the biblical place Macá; dropped on that basis
+# question mandeno: could also be a Mandé ethnonym (mandeno/mandenos) but examples show the imperative
+# question mncars: Museo Reina Sofía is a famous national museum, but it is a place-like single institution; dropped as not a body people name like RENFE
+# question mncars: a single national museum (Reina Sofía) could count as a famous institution; dropped by analogy with single hospitals
+# question multi-pantalla: could merge to "multipantalla" if that form is on the list; I dropped it as a hyphenated compound.
+# question nereido: nereida is the base, mythological plural; confirm the merge target should be nereida rather than a separate nereido entry
+# question pro-capitalista: merged to procapitalista as an obvious spelling fix, though the rule on hyphenated compounds could also drop it
+# question rajput: capitalised in 73% of uses, but the ethnonym rule says lowercase ethnonyms keep; kept on that basis
+# question rajput: no examples seen; kept as ethnonym, could be a proper-noun caste name
+# question restaurativa: the examples show only an institute name, but "restaurativa" (as in justicia restaurativa) is a real adjective; merged to restaurativo would be an alternative if more common-word examples exist
+# question safar: the verb safarse (safarse, safaron, safarme) is real, but under a third of examples, so dropped
+# question santoku: no brand-only evidence beyond one example; kept as established loan for the knife type
+# question satana: merge target Satanás is a proper name, but the list may treat it as a common word, so check the capitalisation
+# question semi-privada: target "semiprivado" assumed as the standard unhyphenated spelling; confirm it is on the list
+# question senad: Paraguay's anti-drug secretariat, but half the examples are a personal name; dropped.
+# question senad: could be Paraguay's national anti-drug body, but the examples are mostly the first name; dropped
+# question serrapeptase: could be dropped as a specialist drug, but kept as a merge into the adapted spelling
+# question serrapeptase: could be kept as a generic supplement ingredient (serrapeptasa), but judged specialist.
+# question sharpie: brand used as a common noun, no adapted spelling known; merge to itself is meaningless, should be keep or drop
+# question sinac: national body of Costa Rica; unclear whether it is a household name beyond Costa Rica, kept as a national conservation body.
+# question spei: Mexico's payment system run by Banxico; kept as a national body that is a household name, but it could be read as a product
+# question tvg: Televisión de Galicia is a regional broadcaster, but most examples are a file extension or betting site, so dropped.
+# question tvg: the examples mix a file extension, a betting company and Televisión de Galicia (a regional broadcaster that would keep); dropped because the broadcaster reading looks like a minority
+# question unag: kept as a national body of Nicaragua; unclear whether it is a household name.
+# question upb: could be Universidad Pontificia Bolivariana, a known university but regional, dropped
+# question vud: Spanish "vehículo utilitario deportivo" (SUV) is used in rental sites, but it is a niche acronym; I treated it as a technical acronym and dropped it.
+# question vud: Spanish for SUV but mostly a rental-category label; dropped as a specialist acronym
+# question web-site: merge target could instead be "sitio web" if "website" is not on the list
+# question ío: Spanish name of Jupiter's moon, a real Spanish form; dropped as a proper noun that is not a place a learner needs, but it could be kept
+# question ío: Spanish spelling of Jupiter's moon Io; dropped as a place-like proper name, but it may merit a keep as astronomy vocabulary.
