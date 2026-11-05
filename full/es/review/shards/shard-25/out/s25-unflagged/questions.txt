@@ -10,3 +10,6 @@
 # question shoyu: not in the academy dictionary, but common in Spanish cooking text; chose keep.
 # question temporáneo: could be a cut-off form of contemporáneo/extemporáneo or the rare real word "temporáneo"; no examples to check, dropped
 # question temporáneo: the lemma could be a real rare adjective or a cut-off fragment of contemporáneo/extemporáneo; no examples were available, so I dropped it.
+# question compuester: merge target could be componer (participle) or the lexicalised noun/adjective compuesto; with no examples I chose componer from the VERB tag
+# question emplastar: split by form: emplasto, Emplasto, emplaste, Emplaste -> emplasto (emplaste is either the subjunctive of emplastar or the noun variant)
+# question itinere: the split-loan rule assumes the first half occurs only in the compound; here the first half "in" is generic, so should the distinctive second half carry the merge, as done here?
