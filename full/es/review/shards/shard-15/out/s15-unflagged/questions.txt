@@ -1,0 +1,35 @@
+# question aceña: many occurrences are place names (La Aceña de la Borrega), but the lowercase word is about a third of the examples, so it stays as the common word.
+# question aceña: the examples are mostly place names, but the lowercase common word is about 39% of occurrences, so I kept it.
+# question braquioplastia: a real adapted Spanish word, but a specialist procedure term; I dropped it as too technical.
+# question camagüeyano: demonym derived from a place name; kept as a common word, rules don't mention demonyms of places explicitly.
+# question cantalupo: examples mix the melon sense and the place name Cantalupo; the melon reading seems at least a third, so kept.
+# question cantalupo: the place name Cantalupo is a large share of the examples; kept because the melon reading is likely about a third or more
+# question chozo: capitalised Metroid-race uses are close to a third of the examples; kept because the lowercase real-word reading and sentence-initial uses are substantial.
+# question dashi: increasingly used in Spanish cooking texts; dropped as not yet established.
+# question desarrolado: lemma could be desarrollar (verb) rather than the adjective desarrollado; I merged to desarrollado.
+# question descasar: real verb descasar is a minority of the forms, while descaso is Portuguese and descasamos often means "descansamos"; dropped as mixed
+# question descubriéndose: could also go to the pronominal descubrirse; I chose the plain verb because the examples are mostly passive or reflexive uses.
+# question descubriéndose: merged into the pronominal descubrirse; plain descubrir is a possible alternative.
+# question djing: it is a loan with only moderate establishment in Spanish. I kept it, but it could instead merge into the DJ entry.
+# question djing: kept as an established loan, but it is borderline; it could alternatively merge into DJ.
+# question estrogenic: examples are untranslated English text, so merging into estrogénico is a judgement call
+# question habar: split by form: habar (rare real noun, field of broad beans) -> habar; merged here to haber because the examples are misspelt haber
+# question interiorizada: lemma is a participle adjective; target interiorizado assumed to be the listed adjective form, though interiorizar is also arguable.
+# question lipopolisacárido: very specialist biochemical term; kept because it is a normal word, not junk, but the rules don't say whether such technical terms belong on a learner's list
+# question machnovistas: merged into machnovista on the assumption that it is a real political term; drop it if it is judged too specialist.
+# question manter: examples may be typos for mantener rather than true Portuguese; I dropped it as foreign.
+# question metajuego: borderline loan-calque; kept as a common gaming term, but it could be judged too niche.
+# question motoquero: a real regional word (Argentina/Uruguay), but all the examples are the site name "Motoqueros"; dropped on the one-third rule from the visible examples only
+# question motoquero: real regional word (Argentina) but the examples are all the name "Motoqueros"; dropped as the real reading looks under a third.
+# question muniqués: gentilic, kept as a lowercase demonym. The feminine and plural forms are folded into it; confirm the lemma is not treated as a place name.
+# question nicrom: generic alloy name (nichrome) rather than a brand; dropped as specialist.
+# question nitrofurantoína: a common antibiotic, but narrower than ibuprofeno or paracetamol; I dropped it as specialist, whereas the better-known mebendazol was kept.
+# question plegadizo: forms are mostly feminine plural (plegadizas); kept as the masculine lemma.
+# question registar: forms are both bare infinitive and clitic forms (registarse, registarte); merged into registrarse by the pronominal-verb convention, but plain registrar is also arguable.
+# question revenir: revenir is not a dictionary headword; revenirse is the DLE verb, but the forms are almost all the participle revenido as an adjective, so a split or an adjective entry may be preferable.
+# question salariar: split by form: salaries -> drop (English); salariado forms are the Spanish word, merged into salariado
+# question temazepam: prescription sleep drug; unclear whether it counts as a common generic drug, decided drop
+# question transpondor: RAE standard is transpondedor, but the list may prefer transponder; merged to transpondedor
+# question transpondor: transpondedor vs the loan transponder as target; I chose the academy form transpondedor.
+# question upselling: could count as an established business loan like marketing; dropped as specialist.
+# question venlafaxine: the rules say specialist drugs drop and English spellings of adapted words merge; I merged it into venlafaxina, but the coordinator may prefer to drop it if venlafaxina counts as specialist.

@@ -1,0 +1,220 @@
+# lemma	decision	reason
+dansavanh	drop	casino name
+desarrolado	merge:desarrollado	misspelling
+diaguita	keep	ethnonym, lowercase use
+ecmascript	drop	technical standard name
+farellón	drop	place name (Farellones)
+ofrecerlo	merge:ofrecer	clitic form of ofrecer
+pañalera	keep	regional common noun
+tabicar	keep	real verb
+tinea	drop	Latin medical term
+transpondor	merge:transpondedor	variant spelling
+vívosmart	drop	brand
+cazor	drop	place name (Cazorla)
+curadebt	drop	company name
+descasar	drop	mostly Portuguese "descaso" and typos for "descansar"; the real verb is a minority
+dueno	merge:dueño	missing ñ
+encontraro	merge:encontrar	clitic fragment
+exhibidores	merge:exhibidor	plural as lemma
+ezetimibe	drop	specialist drug
+gluones	merge:gluón	plural as lemma
+hagámoslo	merge:hacer	imperative with clitic
+hutts	drop	fictional species name
+junit	drop	software name
+manter	drop	Portuguese
+pasajess	merge:pasaje	misspelt plural
+pensativamente	keep	real adverb
+pimozida	drop	specialist drug
+preclasificado	keep	real word (seeded player)
+punata	drop	place name
+quicklook	drop	software/brand
+recriar	merge:recría	"recría" (livestock rearing) is the main form
+repetitivamente	keep	real adverb
+rezón	drop	mostly the biblical name; the common word is under a third of examples
+simrón	drop	biblical name
+tarte	drop	brand/French
+tuza	keep	regional common noun
+violante	drop	personal name
+yla	drop	fragment of "y la"
+abertzale	keep	established Basque loan
+aluche	drop	place name
+apredizaje	merge:aprendizaje	misspelling
+atacarse	keep	pronominal verb
+beneficiándose	merge:beneficiarse	gerund with clitic, common pronominal verb
+causalmente	keep	real adverb, POS tag wrong
+cibdol	drop	brand name
+detoxificante	keep	real adjective, POS tag wrong
+disposable	drop	English word
+dutasterida	drop	specialist drug
+extráigalo	merge:extraer	imperative with clitic
+fijovirtual	drop	brand/web artefact
+hidraúlica	merge:hidráulico	misspelling, feminine form of the adjective
+insértalo	merge:insertar	imperative with clitic
+larg	drop	cut-off fragment
+limítese	merge:limitarse	imperative of common pronominal verb
+muniqués	keep	gentilic adjective, not a place name
+personalícelo	merge:personalizar	imperative with clitic
+proofpoint	drop	company name
+rabiosamente	keep	real adverb, POS tag wrong
+reposiciona	merge:reposicionar	conjugated form
+santificarlo	merge:santificar	infinitive with clitic
+shoppes	drop	English word, mostly in names
+speranza	drop	Italian word/name
+sundial	drop	English word/brand name
+venlafaxine	merge:venlafaxina	English spelling of adapted drug name
+búsque	merge:buscar	imperative with clitic
+carbunclo	keep	valid Spanish variant of carbunco/carbúnculo
+colónica	merge:colónico	feminine form
+deckadrolone	drop	brand/junk
+djing	keep	established loan
+empetel	drop	company name
+ests	drop	fragment/abbreviation
+evocativa	merge:evocativo	feminine form
+fortunes	drop	English word, mostly in names
+halibut	drop	English word, not established in Spanish
+hipolipemiante	keep	real adjective, POS tag wrong
+impetuosamente	keep	real adverb
+machnovistas	merge:machnovista	plural filed as lemma
+mogu	drop	game-race name
+mírala	merge:mirar	imperative with clitic
+nurturing	drop	English word, only in "lead nurturing"
+orecemos	merge:ofrecer	misspelt "ofrecemos"
+pantal	drop	cut-off fragment, target ambiguous
+pelileo	drop	place name
+posenfriador	drop	specialist industrial term
+protégete	merge:protegerse	imperative with clitic; protegerse is a common verb
+recalcula	merge:recalcular	conjugated form
+regocíjese	merge:regocijarse	imperative of pronominal verb
+spondylus	drop	Latin genus name
+sumisamente	keep	regular adverb in -mente
+tarawih	drop	transliterated Arabic term, not established
+temazepam	drop	prescription benzodiazepine, specialist drug
+valganciclovir	drop	specialist drug
+videoclips	merge:videoclip	plural filed as lemma
+zafarse	keep	real pronominal verb
+apedrearlo	merge:apedrear	verb with clitic
+bootleg	drop	English word, mostly names and titles
+cantalupo	keep	real Spanish word for a melon
+clavecín	keep	harpsichord
+debossed	drop	English word
+duino	drop	place or name
+empújelo	merge:empujar	imperative with clitic
+enguera	drop	place name
+ingenieur	drop	German word, mostly watch model name
+interiorizada	merge:interiorizado	feminine participle filed as lemma
+licks	drop	English word
+mercaderia	merge:mercadería	missing accent
+moraleda	drop	surname and place name
+narcoterrorismo	keep	real Spanish noun
+okleer	drop	web artefact
+padding	drop	English word
+parededificio	drop	code artefact
+plegadizo	keep	real adjective
+remezclada	merge:remezclar	participle form
+sarao	keep	real Spanish noun
+solium	drop	Latin taxon
+supercardioide	drop	specialist microphone term
+teneís	merge:tener	conjugated form (tenéis, misspelt) filed as lemma
+trileptal	drop	brand-name drug
+tubuladura	keep	real technical Spanish noun
+versta	keep	Russian unit, listed in the Spanish dictionary
+vinpocetina	drop	specialist drug
+zamac	drop	alloy/brand name
+aguafuer	merge:aguafuerte	cut-off fragment; text has aguafuerte
+alejándome	merge:alejarse	verb with clitic; common pronominal verb
+antitípico	keep	real theological adjective
+apir	drop	forms (api, apires) don't match any word
+arao	keep	seabird name (araos mostly lowercase plural)
+asulto	drop	spam/product-list token, not a word
+autolimitada	merge:autolimitado	feminine form filed as lemma
+camagüeyano	keep	common demonym adjective/noun
+chiripa	keep	real Spanish word (de chiripa)
+cimero	keep	real adjective (cimero/cimera)
+colesistectomía	merge:colecistectomía	misspelling
+communes	drop	not Spanish
+copisteria	merge:copistería	missing accent
+demonstraciones	merge:demostración	misspelt plural
+eltrombopag	drop	specialist drug
+enfoscar	keep	real construction verb; forms are its participle
+euromarina	drop	company name
+fríelo	merge:freír	verb with clitic
+girondino	keep	common historical noun
+habérselo	merge:haber	infinitive with clitics
+iupana	drop	not a Spanish word
+jovencísima	merge:joven	regular -ísimo superlative
+lipopolisacárido	keep	ordinary biochemical noun, not junk
+malwares	merge:malware	English plural of established loan
+motoquero	drop	examples are all the name "Motoqueros", real reading under a third
+mujere	drop	not a word
+nicrom	drop	alloy/product name
+oxcarbazepina	drop	specialist drug
+pelago	drop	hotel name (Pelagos)
+postgres	drop	software name
+preimprimir	keep	real verb in the dictionary; forms mostly participle
+proinflamatorias	merge:proinflamatorio	feminine plural form filed as lemma
+razonador	keep	real Spanish noun/adjective, rare but valid
+restaurantera	merge:restaurantero	feminine form filed as lemma
+revenir	merge:revenirse	revenido is the participle of revenirse; the lemma is broken
+scriptorium	keep	established term in Spanish, which writes it this way
+sociabilizar	keep	real verb
+tanteo	keep	real noun
+valvulería	keep	real technical noun for valves
+vitoriano	keep	common gentilic, not a place name
+acolchadora	keep	real noun for a quilting machine
+ancares	drop	place name
+anticípese	merge:anticiparse	imperative with clitic of a common pronominal verb
+asicsonsale	drop	web artefact/brand
+barbo	keep	real word for the fish
+chozo	keep	real word (hut); the Metroid-race reading is a minority
+comanditario	keep	real adjective/noun (sociedad comanditaria)
+deseándole	merge:desear	gerund with clitic
+disentis	drop	place name
+duramadre	keep	real anatomical term in the dictionary
+enjoyar	keep	real verb, participle forms
+esparciéndose	merge:esparcirse	gerund with clitic
+establecimientohotel	drop	web artefact
+exemestano	drop	specialist drug
+fibro	drop	fragment
+golosinar	merge:golosina	plural noun filed as a verb
+jefazo	keep	real augmentative in use
+lactuca	drop	raw Latin taxon
+loveseat	drop	English word not established in Spanish
+marella	drop	name/brand
+nogada	keep	real word (walnut sauce, chiles en nogada)
+personalísima	merge:personal	regular -ísimo superlative
+porporcionando	merge:proporcionar	misspelling
+rasuradoras	merge:rasuradora	plural filed as lemma
+recordativo	keep	real adjective/noun, rare
+repens	drop	Latin species epithet
+sacramentar	keep	real verb with participle forms
+slices	drop	English word
+sustiva	drop	drug brand name
+timina	keep	standard biochemistry word, adapted spelling
+upselling	drop	English business jargon, not established
+vascón	keep	real ethnonym/historical people
+abuhardilladas	merge:abuhardillado	feminine plural of the adjective abuhardillado
+aceña	keep	real word (water mill); lowercase uses are about 39% of examples, over the one-third threshold
+cardal	drop	mostly the place name Cardales; the real word is only 2 of 77 occurrences
+chainflex	drop	brand name
+cloudfoam	drop	brand name
+cortinado	keep	real word for curtains (Rioplatense)
+cómos	merge:cómo	nominalised plural of cómo ("los porqués y cómos")
+dedicándome	merge:dedicarse	gerund with clitic of the pronominal verb dedicarse
+deve	drop	Portuguese/Catalan form, not Spanish
+discounts	drop	English word
+dosaje	keep	real Spanish noun (dosing, Latin American usage)
+fenelzina	drop	specialist drug
+gregis	drop	Latin
+guiezi	drop	biblical personal name
+infusionado	merge:infusionar	participle filed as a lemma
+invernaje	keep	real noun (winter storage, boating)
+liberándola	merge:liberar	gerund with clitic
+lubrificación	merge:lubricación	misspelling of lubricación
+malinterpretación	keep	real noun
+mebendazol	keep	common generic antiparasitic drug
+metajuego	keep	established gaming term, regular Spanish compound
+moliceiro	drop	Portuguese boat name, not established in Spanish
+mywellness	drop	brand name
+papú	keep	lowercase ethnonym
+perso	drop	cut-off fragment
+prehipertensión	keep	real medical term in general use

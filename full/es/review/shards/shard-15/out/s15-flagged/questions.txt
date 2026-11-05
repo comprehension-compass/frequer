@@ -37,3 +37,5 @@
 # question traviesa: the examples show "campo a traviesa" (cross-country) and the lemmatiser may have filed feminine travieso here; if so, merge:travieso.
 # question ucip: a common Spanish hospital acronym (unidad de cuidados intensivos pediátricos), but I treated it as specialist and dropped it
 # question ucip: hospital acronym that is common among parents and patients but could count as specialist; kept
+# question fanclub: keep the solid form, or merge into a two-word unit (fan club or club de fans)?
+# question sicofaa, feoga: the 2026-11-02 ruling says "regional and international bodies keep", but the base rule requires fame. I dropped obscure ones (SICOFAA, FEOGA, like ORECE). Should every regional or EU body keep regardless of fame?

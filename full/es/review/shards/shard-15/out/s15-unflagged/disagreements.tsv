@@ -1,0 +1,11 @@
+# lemma	A	reason A	B	reason B
+estrogenic	drop	English word	merge:estrogénico	English spelling of the adapted adjective
+salariar	merge:salariado	broken lemma; real word is salariado	drop	mixed forms (salariado/salaries), not a real lemma
+backends	merge:backend	English plural of an established tech loan	drop	English technical plural, specialist
+habar	merge:haber	examples are misspelt haber forms	drop	broken forms of haber, not a real lemma
+registar	merge:registrar	misspelling	merge:registrarse	misspelling, mostly with clitic, common pronominal verb
+dashi	keep	Japanese cooking term used in Spanish recipes	drop	Japanese word not established in Spanish
+prática	merge:práctica	Portuguese-looking misspelling of práctica	drop	Portuguese
+braquioplastia	drop	specialist surgical term, not for a learner's list	keep	adapted medical term for arm lift surgery
+descubriéndose	merge:descubrir	gerund with clitic, mostly passive or reflexive uses of descubrir	merge:descubrirse	gerund with clitic, reflexive reading
+nitrofurantoína	drop	specialist antibiotic	keep	common generic antibiotic
