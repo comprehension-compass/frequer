@@ -1,0 +1,763 @@
+# rank	lemma	action	freq	pos	forms	flags	kept_position
+99819	correfoc	keep	84	NOUN	{"correfoc": 40, "Correfoc": 32, "correfocs": 8, "CORREFOC": 4}		37600
+99833	cuartar	keep	84	NOUN	{"Cuarte": 59, "cuarte": 13, "cuartada": 6, "cuartes": 3, "cuartar": 2}		37605
+99848	deconstruido	keep	84	VERB	{"deconstruido": 59, "deconstruidos": 23, "Deconstruido": 2}		37609
+99855	desestacionalizados	keep	84	ADJ	{"desestacionalizados": 84}		37613
+99862	dijéronle	keep	84	PROPN	{"Dijéronle": 83, "dijéronle": 1}		37617
+99880	effaclar	keep	84	NOUN	{"Effaclar": 73, "EFFACLAR": 11}		37621
+99886	embrun	keep	84	NOUN	{"Embrun": 74, "EMBRUN": 10}		37625
+99895	escuchadle	keep	84	VERB	{"escuchadle": 75, "Escuchadle": 9}		37629
+99899	esque	keep	84	NOUN	{"esque": 72, "Esque": 9, "esQue": 2, "esque-": 1}		37633
+99905	eversión	keep	84	NOUN	{"eversión": 77, "Eversión": 6, "eversiones": 1}		37637
+99920	flavonol	keep	84	NOUN	{"flavonoles": 66, "flavonol": 18}		37641
+99935	galerio	keep	84	NOUN	{"Galerio": 84}		37645
+99982	infos	keep	84	NOUN	{"Infos": 55, "infos": 22, "INFOS": 7}		37650
+99999	jhana	keep	84	NOUN	{"jhana": 73, "jhanas": 6, "Jhana": 5}		37655
+100040	lexicografía	keep	84	NOUN	{"lexicografía": 63, "Lexicografía": 21}		37660
+100048	logcat	keep	84	VERB	{"logcat": 55, "Logcat": 22, "LogCat": 5, "logcats": 2}		37665
+100084	metilcobalamina	keep	84	NOUN	{"metilcobalamina": 79, "Metilcobalamina": 5}		37669
+100108	moviéndote	keep	84	ADJ	{"moviéndote": 68, "Moviéndote": 13, "MOVIÉNDOTE": 3}		37675
+100115	muyahidin	keep	84	NOUN	{"muyahidines": 72, "Muyahidin": 7, "muyahidin": 5}		37679
+100134	ochentero	keep	84	ADJ	{"ochentero": 59, "ochenteros": 25}		37683
+100142	opacificación	keep	84	NOUN	{"opacificación": 79, "opacificaciones": 4, "Opacificación": 1}		37687
+100158	palustre	keep	84	NOUN	{"palustre": 38, "palustres": 24, "Palustre": 18, "Palustres": 4}		37691
+100166	pentazocine	keep	84	NOUN	{"pentazocine": 67, "Pentazocine": 17}		37695
+100174	pixwords	keep	84	NOUN	{"Pixwords": 64, "PixWords": 20}		37699
+100190	preclaro	keep	84	ADJ	{"preclaro": 34, "preclaros": 18, "preclara": 16, "preclaras": 13, "Preclaro": 2}		37703
+100196	programabilidad	keep	84	NOUN	{"programabilidad": 76, "Programabilidad": 8}		37707
+100208	recambiable	keep	84	ADJ	{"recambiables": 44, "recambiable": 40}		37711
+100216	rejugabilidad	keep	84	NOUN	{"rejugabilidad": 76, "Rejugabilidad": 8}		37716
+100244	schwannoma	keep	84	NOUN	{"schwannomas": 43, "schwannoma": 21, "Schwannoma": 13, "Schwannomas": 6, "SCHWANNOMA": 1}		37720
+100251	seropositividad	keep	84	NOUN	{"seropositividad": 80, "Seropositividad": 4}		37724
+100273	solícitamente	keep	84	ADV	{"solícitamente": 80, "Solícitamente": 4}		37728
+100295	teracopy	keep	84	VERB	{"TeraCopy": 83, "Teracopy": 1}		37732
+100305	tintóreo	keep	84	ADJ	{"tintóreas": 42, "tintóreo": 21, "tintórea": 12, "tintóreos": 9}		37736
+100317	trillador	keep	84	NOUN	{"trilladora": 65, "trillador": 8, "Trilladora": 8, "trilladores": 2, "Trilladores": 1}		37740
+100333	urushiol	keep	84	NOUN	{"urushiol": 81, "Urushiol": 3}		37744
+100378	zuhero	keep	84	NOUN	{"Zuheros": 83, "Zuhero": 1}		37748
+100386	adaptivo	keep	83	ADJ	{"adaptivo": 51, "adaptivos": 19, "Adaptivo": 13}		37752
+100393	aerotermo	keep	83	VERB	{"aerotermos": 31, "aerotermo": 27, "Aerotermo": 22, "Aerotermos": 3}		37756
+100411	americio	keep	83	NOUN	{"americio": 80, "Americio": 3}		37760
+100417	antipasti	keep	83	VERB	{"antipasti": 73, "Antipasti": 10}		37764
+100426	arquitrabe	keep	83	NOUN	{"arquitrabe": 53, "arquitrabes": 28, "ARQUITRABE": 2}		37768
+100435	atreviéndose	keep	83	VERB	{"atreviéndose": 77, "Atreviéndose": 5, "ATREVIÉNDOSE": 1}		37772
+100460	benzo	keep	83	NOUN	{"Benzo": 63, "benzos": 13, "benzo": 5, "BENZO": 2}		37776
+100476	bostoniano	keep	83	NOUN	{"bostonianos": 35, "bostoniano": 29, "Bostoniano": 11, "bostoniana": 5, "Bostonianos": 2}		37780
+100502	caraterística	keep	83	NOUN	{"caraterísticas": 56, "Caraterísticas": 14, "caraterística": 13}		37785
+100522	cheeto	keep	83	NOUN	{"Cheetos": 67, "cheetos": 12, "Cheeto": 4}		37789
+100539	compará	keep	83	VERB	{"Compará": 83}		37795
+100544	constatable	keep	83	ADJ	{"constatable": 66, "constatables": 17}		37799
+100548	cortatubo	keep	83	NOUN	{"cortatubos": 58, "Cortatubos": 20, "cortatubo": 5}		37803
+100563	curvador	keep	83	ADJ	{"curvadora": 59, "curvadores": 16, "curvador": 5, "Curvador": 3}		37807
+100575	desescarche	keep	83	NOUN	{"desescarche": 65, "Desescarche": 11, "desescarches": 6, "DESESCARCHE": 1}		37811
+100581	dieldrín	keep	83	NOUN	{"dieldrín": 81, "Dieldrín": 2}		37815
+100606	ekimu	keep	83	ADJ	{"Ekimu": 83}		37820
+100614	enlentecimiento	keep	83	NOUN	{"enlentecimiento": 76, "Enlentecimiento": 4, "enlentecimientos": 3}		37824
+100621	esquela	keep	83	NOUN	{"esquelas": 40, "esquela": 29, "Esquelas": 8, "Esquela": 3, "esquelita": 3}		37828
+100630	exotérico	keep	83	ADJ	{"exotérico": 30, "exotérica": 29, "exotéricos": 12, "exotéricas": 12}		37832
+100637	fauve	keep	83	NOUN	{"fauves": 28, "Fauve": 24, "fauve": 23, "Fauves": 7, "FAUVE": 1}		37836
+100672	glutaraldehído	keep	83	NOUN	{"glutaraldehído": 71, "Glutaraldehído": 9, "GLUTARALDEHÍDO": 3}		37840
+100687	hambrear	keep	83	VERB	{"hambrear": 24, "hambreamos": 15, "hambrean": 7, "hambreado": 7, "hambreados": 6}		37845
+100698	homecams	keep	83	VERB	{"HomeCams": 83}		37849
+100711	ijnet	keep	83	VERB	{"IJNet": 83}		37854
+100723	interpretable	keep	83	ADJ	{"interpretable": 42, "interpretables": 36, "Interpretable": 4, "Interpretables": 1}		37858
+100749	kansa	keep	83	NOUN	{"kansas": 69, "Kansa": 14}		37863
+100780	lle	keep	83	PROPN	{"lle": 46, "LLE": 33, "lLe": 3, "Lle": 1}		37867
+100802	mapeada	keep	83	ADJ	{"mapeada": 82, "Mapeada": 1}		37871
+100816	mentalización	keep	83	NOUN	{"mentalización": 71, "Mentalización": 11, "MENTALIZACIÓN": 1}		37875
+100823	midiéndose	keep	83	VERB	{"midiéndose": 78, "Midiéndose": 5}		37879
+100837	mutabilidad	keep	83	NOUN	{"mutabilidad": 79, "Mutabilidad": 2, "mutabilidades": 1, "MUTABILIDAD": 1}		37883
+100845	naxalita	keep	83	NOUN	{"naxalitas": 55, "naxalita": 23, "Naxalita": 3, "Naxalitas": 2}		37887
+100862	níque	keep	83	ADJ	{"níque": 83}		37891
+100872	operacionalizar	keep	83	VERB	{"operacionalizar": 63, "Operacionalizar": 13, "operacionalizaron": 4, "operacionalizarlo": 2, "operacionalizarse": 1}		37895
+100886	pasaplato	keep	83	NOUN	{"pasaplatos": 81, "pasaplato": 1, "Pasaplatos": 1}		37899
+100894	pentaclorofenol	keep	83	NOUN	{"pentaclorofenol": 83}		37903
+100907	pluralizar	keep	83	VERB	{"pluralizado": 43, "pluralizar": 12, "pluralizan": 6, "Pluralizado": 5, "pluraliza": 5}		37907
+100916	presidencialismo	keep	83	NOUN	{"presidencialismo": 79, "Presidencialismo": 3, "presidencialismos": 1}		37911
+100922	protocolización	keep	83	NOUN	{"protocolización": 74, "Protocolización": 6, "protocolizaciones": 3}		37915
+100930	punzocortante	keep	83	ADJ	{"punzocortantes": 68, "punzocortante": 14, "Punzocortantes": 1}		37919
+100937	quinceanera	keep	83	NOUN	{"Quinceanera": 36, "quinceanera": 28, "quinceaneras": 11, "QUINCEANERA": 8}		37923
+100949	redimible	keep	83	ADJ	{"redimibles": 45, "redimible": 34, "Redimible": 2, "Redimibles": 2}		37928
+100954	reproceso	keep	83	NOUN	{"reproceso": 50, "reprocesos": 27, "Reprocesos": 3, "Reproceso": 2, "reprocesa": 1}		37932
+100965	rociamiento	keep	83	NOUN	{"rociamiento": 77, "rociamientos": 6}		37937
+100991	sertraline	keep	83	NOUN	{"sertraline": 53, "Sertraline": 30}		37941
+101003	siq	keep	83	NOUN	{"Siq": 63, "SIQ": 15, "siq": 4, "SiQ": 1}		37945
+101017	spices	keep	83	NOUN	{"Spices": 75, "SPICES": 5, "spices": 3}		37949
+101023	subraza	keep	83	NOUN	{"subraza": 40, "Subraza": 24, "subrazas": 18, "Subrazas": 1}		37953
+101040	taschenbuch	keep	83	NOUN	{"Taschenbuch": 83}		37957
+101047	tematizada	keep	83	VERB	{"tematizada": 69, "tematizadas": 14}		37961
+101064	tornáronse	keep	83	VERB	{"tornáronse": 81, "Tornáronse": 2}		37965
+101070	trasandino	keep	83	ADJ	{"Trasandino": 36, "trasandino": 23, "trasandina": 11, "trasandinas": 6, "Trasandina": 3}		37969
+101086	unitatis	keep	83	ADJ	{"Unitatis": 74, "unitatis": 8, "UNITATIS": 1}		37973
+101107	vividor	keep	83	NOUN	{"vividor": 41, "vividores": 25, "Vividor": 6, "VIVIDOR": 5, "vividora": 3}		37978
+101143	zoofilia	keep	83	NOUN	{"zoofilia": 59, "Zoofilia": 24}		37983
+101157	admitámoslo	keep	82	VERB	{"Admitámoslo": 44, "admitámoslo": 38}		37987
+101178	aló	keep	82	INTJ	{"Aló": 80, "aló": 2}		37992
+101186	antilavado	keep	82	ADJ	{"antilavado": 41, "Antilavado": 40, "ANTILAVADO": 1}		37996
+101195	ariano	keep	82	NOUN	{"Ariano": 40, "Arianos": 15, "arianos": 11, "ARIANO": 9, "ariano": 7}		38000
+101211	aúnque	keep	82	VERB	{"aúnque": 41, "Aúnque": 41}		38004
+101238	bigotudo	keep	82	ADJ	{"bigotudo": 51, "bigotudos": 12, "bigotuda": 9, "Bigotudo": 7, "bigotudas": 2}		38008
+101259	bumerang	keep	82	NOUN	{"bumerang": 48, "Bumerang": 32, "bumerangs": 1, "BUMERANG": 1}		38016
+101276	causse	keep	82	NOUN	{"Causse": 76, "causse": 4, "CAUSSE": 2}		38020
+101291	ciberactivista	keep	82	NOUN	{"ciberactivistas": 51, "ciberactivista": 30, "Ciberactivista": 1}		38024
+101298	clickar	keep	82	VERB	{"clickar": 65, "Clickar": 13, "CLICKAR": 2, "clickarlo": 1, "clickarla": 1}		38028
+101306	compensable	keep	82	ADJ	{"compensable": 43, "compensables": 35, "Compensables": 2, "Compensable": 2}		38032
+101322	cremado	keep	82	VERB	{"cremado": 78, "cremados": 4}		38038
+101334	cítar	keep	82	NOUN	{"cítara": 81, "cítar": 1}		38043
+101351	despejadonoche	keep	82	NOUN	{"despejadoNoche": 82}		38047
+101355	digipack	keep	82	NOUN	{"digipack": 64, "Digipack": 17, "DIGIPACK": 1}		38051
+101361	distribuible	keep	82	ADJ	{"distribuibles": 48, "distribuible": 32, "Distribuible": 2}		38055
+101372	dvpo	keep	82	NOUN	{"DVPO": 75, "DVPOs": 7}		38059
+101387	encrespadura	keep	82	NOUN	{"encrespadura": 74, "Encrespadura": 4, "encrespaduras": 4}		38063
+101394	ergotamina	keep	82	NOUN	{"ergotamina": 74, "Ergotamina": 8}		38067
+101409	favorecimiento	keep	82	NOUN	{"favorecimiento": 69, "Favorecimiento": 10, "favorecimientos": 3}		38071
+101424	frezar	keep	82	NOUN	{"freza": 35, "frezado": 12, "frezar": 11, "frece": 7, "frecen": 3}		38075
+101448	grandísimos	keep	82	VERB	{"grandísimos": 82}		38080
+101463	gyaru	keep	82	NOUN	{"gyaru": 62, "Gyaru": 18, "GYARU": 2}		38084
+101484	hiperimpulsor	keep	82	NOUN	{"hiperimpulsor": 75, "hiperimpulsores": 6, "Hiperimpulsor": 1}		38088
+101491	horonita	keep	82	ADJ	{"horonita": 62, "Horonita": 20}		38092
+101507	incisal	keep	82	NOUN	{"incisal": 57, "incisales": 21, "Incisal": 4}		38096
+101513	intensivista	keep	82	NOUN	{"intensivistas": 31, "intensivista": 27, "Intensivista": 23, "Intensivistas": 1}		38100
+101517	intimidador	keep	82	NOUN	{"intimidador": 49, "intimidadores": 26, "intimidadora": 4, "Intimidador": 3}		38104
+101536	justiciable	keep	82	ADJ	{"justiciables": 51, "justiciable": 31}		38108
+101570	ldquo	keep	82	NOUN	{"ldquo": 82}		38113
+101577	linfadenopatía	keep	82	NOUN	{"linfadenopatía": 61, "linfadenopatías": 17, "Linfadenopatía": 4}		38117
+101604	masoterapia	keep	82	NOUN	{"masoterapia": 64, "Masoterapia": 17, "MASOTERAPIA": 1}		38121
+101622	microtia	keep	82	NOUN	{"microtia": 66, "Microtia": 15, "microtias": 1}		38125
+101640	métro	keep	82	NOUN	{"Métro": 54, "métro": 28}		38129
+101662	olmesartán	keep	82	NOUN	{"olmesartán": 69, "OLMESARTÁN": 10, "Olmesartán": 3}		38134
+101693	phenelzine	keep	82	NOUN	{"phenelzine": 75, "Phenelzine": 7}		38138
+101702	placeholder	keep	82	NOUN	{"placeholder": 35, "Placeholder": 22, "placeholders": 20, "PLACEHOLDER": 4, "PlaceHolder": 1}		38143
+101707	pochado	keep	82	ADJ	{"pochado": 42, "pochados": 38, "Pochados": 1, "Pochado": 1}		38147
+101712	prehospitalario	keep	82	ADJ	{"prehospitalario": 51, "prehospitalarios": 27, "Prehospitalario": 4}		38151
+101717	propiónico	keep	82	ADJ	{"propiónico": 59, "propiónica": 19, "propiónicas": 2, "propiónicos": 1, "Propiónico": 1}		38155
+101725	pósito	keep	82	NOUN	{"Pósito": 57, "pósito": 15, "pósitos": 5, "Pósitos": 4, "PÓSITO": 1}		38159
+101738	ranchón	keep	82	NOUN	{"ranchón": 47, "Ranchón": 35}		38163
+101745	recolonización	keep	82	NOUN	{"recolonización": 79, "Recolonización": 2, "RECOLONIZACIÓN": 1}		38167
+101751	reensamblaje	keep	82	NOUN	{"reensamblaje": 78, "Reensamblaje": 4}		38171
+101759	restaurantero	keep	82	NOUN	{"restaurantero": 40, "restauranteros": 37, "Restaurantero": 3, "Restauranteros": 2}		38175
+101773	romancero	keep	82	NOUN	{"Romancero": 56, "romancero": 21, "Romanceros": 2, "romanceros": 2, "ROMANCERO": 1}		38179
+101796	satanizar	keep	82	VERB	{"satanizar": 72, "satanizaron": 3, "satanizarán": 2, "satanizarlo": 1, "satanizarles": 1}		38184
+101823	sizegain	keep	82	ADV	{"SizeGain": 51, "Sizegain": 28, "SIZEGAIN": 3}		38189
+101835	stdout	keep	82	VERB	{"stdout": 72, "STDOUT": 9, "StdOut": 1}		38193
+101849	tadino	keep	82	ADJ	{"Tadino": 82}		38197
+101865	tiroglobulina	keep	82	NOUN	{"tiroglobulina": 77, "Tiroglobulina": 5}		38202
+101888	ultratumba	keep	82	VERB	{"ultratumba": 61, "Ultratumba": 21}		38206
+101902	vapo	keep	82	ADJ	{"vapo": 61, "Vapo": 11, "Vapos": 6, "VAPO": 4}		38211
+101915	visigótico	keep	82	ADJ	{"visigótica": 43, "visigótico": 22, "visigóticas": 7, "Visigótico": 4, "visigóticos": 4}		38215
+101955	acercándome	keep	81	VERB	{"acercándome": 70, "Acercándome": 11}		38221
+101960	acumulativamente	keep	81	ADV	{"acumulativamente": 74, "Acumulativamente": 7}		38225
+101971	ajustabilidad	keep	81	NOUN	{"ajustabilidad": 73, "Ajustabilidad": 8}		38231
+102006	arrostrar	keep	81	VERB	{"arrostrar": 44, "arrostrado": 8, "arrostrando": 4, "arrostran": 3, "arrostra": 3}		38235
+102020	añádala	keep	81	NOUN	{"añádala": 38, "añádalas": 28, "Añádala": 11, "Añádalas": 4}		38239
+102060	cancelable	keep	81	ADJ	{"cancelable": 73, "Cancelable": 7, "CANCELABLE": 1}		38243
+102068	cardiotorácico	keep	81	ADJ	{"cardiotorácico": 55, "cardiotorácicos": 25, "Cardiotorácicos": 1}		38247
+102076	casetón	keep	81	NOUN	{"casetones": 60, "casetón": 18, "Casetones": 3}		38252
+102096	clapeta	keep	81	NOUN	{"clapeta": 67, "clapetas": 13, "Clapeta": 1}		38256
+102104	colónico	keep	81	ADJ	{"colónico": 50, "colónicos": 29, "Colónico": 2}		38260
+102111	convivial	keep	81	ADJ	{"convivial": 66, "conviviales": 12, "Convivial": 3}		38265
+102120	crominancia	keep	81	NOUN	{"crominancia": 77, "Crominancia": 3, "crominancias": 1}		38269
+102132	desarolla	keep	81	VERB	{"desarolla": 77, "Desarolla": 4}		38273
+102137	dialnet	keep	81	NOUN	{"Dialnet": 76, "DIALNET": 5}		38277
+102148	doxorubicin	keep	81	NOUN	{"doxorubicin": 63, "Doxorubicin": 17, "DOXORUBICIN": 1}		38282
+102166	empiema	keep	81	NOUN	{"empiema": 70, "Empiema": 6, "empiemas": 5}		38286
+102171	entreacto	keep	81	NOUN	{"entreacto": 42, "entreactos": 22, "Entreactos": 15, "Entreacto": 2}		38290
+102180	escúrrelo	keep	81	VERB	{"escúrrelo": 41, "escúrrelos": 21, "Escúrrelos": 10, "Escúrrelo": 9}		38294
+102184	estándarmedidor	keep	81	ADJ	{"EstándarMedidor": 81}		38298
+102191	exfiscal	keep	81	NOUN	{"exfiscal": 72, "exfiscales": 6, "Exfiscales": 2, "exFiscal": 1}		38302
+102210	fille	keep	81	NOUN	{"fille": 39, "Fille": 37, "FILLE": 3, "Filles": 2}		38306
+102232	frontman	keep	81	ADJ	{"frontman": 73, "Frontman": 8}		38310
+102253	gradualismo	keep	81	NOUN	{"gradualismo": 79, "Gradualismo": 2}		38315
+102264	handjob	keep	81	NOUN	{"handjob": 57, "Handjob": 23, "HANDJOB": 1}		38319
+102279	hiriéndole	keep	81	VERB	{"hiriéndole": 81}		38323
+102297	impresentable	keep	81	ADJ	{"impresentable": 53, "impresentables": 24, "Impresentable": 4}		38327
+102303	interconsulta	keep	81	NOUN	{"interconsulta": 44, "interconsultas": 30, "InterConsulta": 4, "Interconsulta": 2, "Interconsultas": 1}		38331
+102309	ipconfig	keep	81	NOUN	{"ipconfig": 58, "IPCONFIG": 11, "IPConfig": 7, "Ipconfig": 4, "IpConfig": 1}		38335
+102365	limosnero	keep	81	NOUN	{"limosnero": 44, "limosneros": 21, "Limosnero": 8, "limosnera": 5, "Limosneros": 3}		38339
+102389	mandrino	keep	81	NOUN	{"mandrino": 44, "mandrinos": 20, "MANDRINO": 9, "Mandrino": 6, "Mandrinos": 2}		38343
+102418	milestones	keep	81	NOUN	{"Milestones": 67, "milestones": 13, "MILESTONES": 1}		38348
+102437	motoneurona	keep	81	NOUN	{"motoneuronas": 44, "motoneurona": 36, "Motoneuronas": 1}		38355
+102452	nanocompuesto	keep	81	NOUN	{"nanocompuestos": 56, "nanocompuesto": 19, "Nanocompuestos": 5, "Nanocompuesto": 1}		38359
+102469	núbil	keep	81	ADJ	{"núbil": 71, "núbiles": 10}		38363
+102482	orofaríngea	keep	81	ADJ	{"orofaríngea": 72, "orofaríngeas": 7, "Orofaríngea": 2}		38368
+102489	pantis	keep	81	NOUN	{"pantis": 64, "Pantis": 17}		38372
+102499	penitenciaría	keep	81	NOUN	{"penitenciarías": 66, "Penitenciarías": 7, "Penitenciaría": 5, "PENITENCIARÍA": 3}		38376
+102510	pnjs	keep	81	NOUN	{"PNJs": 77, "PnJs": 3, "pnjs": 1}		38380
+102517	pregúntate	keep	81	X	{"Pregúntate": 72, "pregúntate": 7, "PREGÚNTATE": 1, "pregúntate--": 1}		38384
+102523	proveyéndole	keep	81	NOUN	{"proveyéndole": 78, "Proveyéndole": 3}		38388
+102534	recombinar	keep	81	VERB	{"recombinar": 43, "recombinarse": 27, "recombinaron": 3, "recombinaran": 2, "Recombinar": 2}		38392
+102539	remineralizante	keep	81	ADJ	{"remineralizante": 51, "remineralizantes": 26, "Remineralizante": 4}		38396
+102564	salidad	keep	81	NOUN	{"Salidad": 72, "salidad": 9}		38400
+102589	simpelveld	keep	81	NOUN	{"Simpelveld": 79, "SIMPELVELD": 2}		38404
+102614	strict	keep	81	ADJ	{"Strict": 50, "strict": 26, "STRICT": 5}		38408
+102629	taconear	keep	81	NOUN	{"taconeo": 45, "taconear": 15, "taconeando": 5, "taconean": 5, "taconea": 4}		38412
+102636	tarjetita	keep	81	NOUN	{"tarjetitas": 65, "Tarjetitas": 11, "Tarjetita": 3, "tarjetita": 2}		38416
+102650	todomisericordioso	keep	81	NOUN	{"Todomisericordioso": 77, "todomisericordioso": 4}		38420
+102655	transformándolo	keep	81	VERB	{"transformándolo": 53, "transformándolos": 25, "Transformándolo": 3}		38424
+102661	triunfalista	keep	81	ADJ	{"triunfalista": 54, "triunfalistas": 26, "Triunfalista": 1}		38428
+102678	vaqueta	keep	81	NOUN	{"vaqueta": 75, "Vaqueta": 3, "vaquetas": 3}		38432
+102686	videograbador	keep	81	NOUN	{"videograbador": 37, "videograbadores": 36, "Videograbador": 8}		38436
+102720	abrazador	keep	80	ADJ	{"abrazador": 36, "abrazadora": 20, "abrazadores": 15, "abrazadoras": 6, "Abrazador": 2}		38441
+102729	aeropónico	keep	80	ADJ	{"aeropónico": 40, "aeropónicos": 37, "Aeropónico": 2, "AEROPÓNICO": 1}		38446
+102740	altstadthotel	keep	80	NOUN	{"Altstadthotel": 80}		38450
+102746	ampliadora	keep	80	NOUN	{"ampliadora": 61, "Ampliadora": 11, "ampliadoras": 6, "Ampliadoras": 2}		38454
+102754	antirruido	keep	80	ADJ	{"antirruido": 71, "antirruidos": 8, "Antirruido": 1}		38458
+102761	appearance	pending	80	PROPN	{"Appearance": 63, "appearance": 9, "Appearances": 6, "APPEARANCE": 2}	propn_band: capitalised in 83% of running text	38462
+102771	asíque	keep	80	VERB	{"asíque": 58, "Asíque": 22}		38466
+102776	autoadministración	keep	80	NOUN	{"autoadministración": 71, "Autoadministración": 9}		38470
+102782	aviturismo	keep	80	NOUN	{"aviturismo": 44, "Aviturismo": 33, "AVITURISMO": 3}		38474
+102788	backer	pending	80	PROPN	{"Backer": 60, "backers": 9, "backer": 9, "BACKER": 2}	propn_band: capitalised in 77% of running text	38478
+102798	barotrauma	keep	80	NOUN	{"barotrauma": 65, "Barotrauma": 14, "BAROTRAUMA": 1}		38482
+102825	bouncy	pending	80	PROPN	{"Bouncy": 70, "bouncy": 10}	propn_band: capitalised in 62% of running text	38486
+102840	cambalache	pending	80	PROPN	{"Cambalache": 66, "cambalache": 8, "CAMBALACHE": 4, "cambalaches": 2}	propn_band: capitalised in 71% of running text	38490
+102845	capacitándolo	keep	80	VERB	{"capacitándolos": 80}		38494
+102855	cenagoso	keep	80	ADJ	{"cenagoso": 40, "cenagosos": 16, "cenagosa": 13, "cenagosas": 11}		38498
+102862	chamizo	pending	80	PROPN	{"Chamizo": 51, "chamizo": 25, "chamizos": 3, "Chamizos": 1}	propn_band: capitalised in 65% of running text	38502
+102868	chullpa	keep	80	NOUN	{"chullpas": 50, "Chullpas": 20, "chullpa": 6, "Chullpa": 4}		38506
+102876	climaterio	keep	80	NOUN	{"climaterio": 66, "Climaterio": 14}		38510
+102882	coeducación	keep	80	NOUN	{"coeducación": 71, "Coeducación": 8, "COEDUCACIÓN": 1}		38514
+102890	comodato	keep	80	NOUN	{"comodato": 72, "Comodato": 7, "comodatos": 1}		38519
+102896	contrabalancear	keep	80	VERB	{"contrabalancear": 21, "contrabalanceada": 14, "contrabalanceado": 11, "contrabalanceo": 8, "contrabalanceados": 7}		38524
+102901	costofabricado	keep	80	NOUN	{"costoFabricado": 80}		38528
+102907	cuarentón	keep	80	NOUN	{"cuarentón": 41, "cuarentones": 18, "cuarentona": 11, "cuarentonas": 10}		38532
+102915	daifuku	pending	80	PROPN	{"Daifuku": 68, "daifuku": 10, "DAIFUKU": 2}	propn_band: capitalised in 84% of running text	38536
+102923	decisionismo	keep	80	NOUN	{"decisionismo": 62, "Decisionismo": 18}		38540
+102931	deshumidificar	keep	80	VERB	{"deshumidificar": 72, "Deshumidificar": 4, "deshumidificará": 1, "deshumidificarán": 1, "deshumidificarlo": 1}		38544
+102937	dispensing	pending	80	PROPN	{"Dispensing": 66, "dispensing": 14}	propn_band: capitalised in 77% of running text	38548
+102945	dosa	pending	80	PROPN	{"Dosa": 44, "dosa": 17, "dosas": 11, "DOSA": 5, "DoSA": 1}	propn_band: capitalised in 39% of running text	38552
+102951	déjal	pending	80	ADJ	{"déjales": 77, "déjalas": 3}	citation: spelling written 0 times as a word, against 80 occurrences	38556
+102956	edematoso	keep	80	ADJ	{"edematosa": 28, "edematoso": 22, "edematosas": 17, "edematosos": 12, "Edematoso": 1}		38560
+102962	elkartea	keep	80	ADJ	{"Elkartea": 66, "ELKARTEA": 9, "elkartea": 5}		38564
+102969	enap	pending	80	PROPN	{"ENAP": 56, "Enap": 23, "enap": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38568
+102974	enoturístico	keep	80	ADJ	{"enoturístico": 41, "enoturísticos": 27, "Enoturístico": 12}		38572
+102979	espritu	pending	80	PROPN	{"Espritu": 56, "espritu": 22, "espritus": 2}	propn_band: capitalised in 67% of running text	38576
+102985	exante	pending	80	PROPN	{"EXANTE": 66, "Exante": 10, "exante": 4}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38580
+102989	exhortaro	pending	80	NOUN	{"exhortaros": 80}	citation: spelling written 0 times as a word, against 80 occurrences	38584
+102999	fenomenalmente	keep	80	ADV	{"fenomenalmente": 75, "Fenomenalmente": 5}		38588
+103006	focu	keep	80	NOUN	{"focus": 79, "Focu": 1}		38592
+103018	gallinaza	keep	80	NOUN	{"gallinaza": 67, "Gallinaza": 8, "gallinazas": 3, "GALLINAZA": 2}		38596
+103026	gerenciados	keep	80	ADJ	{"gerenciados": 68, "Gerenciados": 12}		38600
+103031	gigatonelada	keep	80	NOUN	{"gigatoneladas": 74, "gigatonelada": 5, "Gigatoneladas": 1}		38604
+103037	gmi	pending	80	PROPN	{"GMI": 79, "gmi": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38608
+103044	gremlin	pending	80	PROPN	{"Gremlin": 46, "gremlin": 25, "GREMLIN": 9}	propn_band: capitalised in 61% of running text	38612
+103053	hacerla	keep	80	DET	{"hacerlas": 79, "hacerLa": 1}		38616
+103072	hostilizar	keep	80	VERB	{"hostilizar": 23, "Hostilizaréis": 12, "hostilizaban": 6, "hostilizado": 5, "hostilizan": 5}		38620
+103078	huarpe	pending	80	PROPN	{"Huarpes": 28, "huarpes": 24, "Huarpe": 17, "huarpe": 10, "HUARPE": 1}	propn_band: capitalised in 57% of running text	38624
+103087	ihf	pending	80	PROPN	{"IHF": 79, "Ihf": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38628
+103095	inrix	pending	80	PROPN	{"INRIX": 77, "Inrix": 3}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38632
+103101	isna	pending	80	PROPN	{"ISNA": 71, "Isna": 9}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38636
+103109	jarilla	pending	80	PROPN	{"Jarilla": 54, "jarilla": 16, "jarillas": 9, "JARILLA": 1}	propn_band: capitalised in 50% of running text	38640
+103122	khn	pending	80	PROPN	{"KHN": 78, "khn": 1, "Khn": 1}	shape: ends in 'hn' (cut mid-word?); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38644
+103132	ksk	pending	80	PROPN	{"KSK": 77, "Ksk": 2, "ksk": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38648
+103139	laboratoires	keep	80	NOUN	{"Laboratoires": 66, "LABORATOIRES": 14}		38652
+103153	limpiapipa	pending	80	NOUN	{"limpiapipas": 80}	citation: spelling written 0 times as a word, against 80 occurrences	38656
+103160	longboards	pending	80	PROPN	{"Longboards": 44, "longboards": 35, "LONGBOARDS": 1}	propn_band: capitalised in 24% of running text	38660
+103173	man-in-the-middle	pending	80	PROPN	{"man-in-the-middle": 59, "Man-In-The-Middle": 11, "Man-in-the-Middle": 7, "Man-in-the-middle": 3}	shape: hyphenated; propn_band: capitalised in 26% of running text	38664
+103190	meclizine	pending	80	PROPN	{"Meclizine": 55, "meclizine": 25}	propn_band: capitalised in 52% of running text	38668
+103195	mercadito	pending	80	PROPN	{"Mercadito": 47, "mercaditos": 28, "mercadito": 5}	propn_band: capitalised in 59% of running text	38672
+103202	microgrid	pending	80	PROPN	{"Microgrid": 40, "microgrid": 23, "MicroGrid": 16, "MICROGRID": 1}	propn_band: capitalised in 71% of running text	38676
+103207	minicuna	keep	80	NOUN	{"minicuna": 56, "Minicuna": 21, "minicunas": 2, "MiniCuna": 1}		38680
+103213	mondongo	keep	80	NOUN	{"mondongo": 45, "Mondongo": 34, "mondongos": 1}		38684
+103222	mpw	pending	80	PROPN	{"MPW": 80}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38688
+103226	multi-núcleo	pending	80	NOUN	{"multi-núcleo": 70, "multi-núcleos": 7, "Multi-núcleo": 2, "Multi-Núcleo": 1}	shape: hyphenated	38692
+103234	nawa	pending	80	PROPN	{"Nawa": 51, "NAWA": 18, "nawa": 11}	propn_band: capitalised in 76% of running text	38696
+103238	nereido	pending	80	NOUN	{"Nereidas": 44, "nereidas": 25, "nereida": 9, "Nereida": 1, "nereidos": 1}	citation: spelling written 0 times as a word, against 80 occurrences	38700
+103243	nfr	pending	80	PROPN	{"NFR": 80}	shape: ends in 'fr' (cut mid-word?); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38704
+103255	numerosísima	keep	80	NOUN	{"numerosísimas": 69, "numerosísima": 9, "Numerosísimas": 1, "Numerosísima": 1}		38708
+103263	olegario	keep	80	NOUN	{"Olegario": 80}		38712
+103270	otf	pending	80	PROPN	{"OTF": 72, "otf": 5, "OTf": 2, "Otf": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38716
+103275	palabrita	keep	80	NOUN	{"palabritas": 34, "palabrita": 28, "Palabritas": 12, "Palabrita": 5, "PALABRITA": 1}		38720
+103281	paseíto	keep	80	NOUN	{"paseíto": 73, "Paseíto": 4, "paseítos": 3}		38724
+103286	pemetrexed	keep	80	NOUN	{"pemetrexed": 73, "Pemetrexed": 7}		38728
+103291	permítal	pending	80	AUX	{"permítales": 60, "Permítales": 20}	citation: spelling written 0 times as a word, against 80 occurrences	38732
+103300	pleuresía	keep	80	NOUN	{"pleuresía": 71, "Pleuresía": 7, "PLEURESÍA": 1, "pleuresías": 1}		38736
+103305	polvazo	keep	80	NOUN	{"polvazo": 50, "Polvazo": 26, "polvazos": 3, "Polvazos": 1}		38740
+103311	praziquantel	keep	80	NOUN	{"praziquantel": 70, "Praziquantel": 10}		38744
+103317	profecional	keep	80	ADJ	{"profecionales": 38, "profecional": 31, "Profecionales": 9, "PROFECIONAL": 2}		38748
+103321	prímula	keep	80	NOUN	{"prímula": 37, "prímulas": 28, "Prímula": 15}		38752
+103327	q-dir	pending	80	VERB	{"q-dir": 37, "Q-Dir": 33, "Q-dir": 10}	shape: hyphenated	38756
+103337	re-entrada	pending	80	NOUN	{"re-entrada": 72, "Re-entrada": 3, "re-entradas": 3, "RE-ENTRADA": 1, "Re-Entrada": 1}	shape: hyphenated	38760
+103343	reinicialización	keep	80	NOUN	{"reinicialización": 60, "Reinicialización": 11, "reinicializaciones": 9}		38764
+103347	rendirl	pending	80	ADJ	{"rendirles": 80}	citation: spelling written 0 times as a word, against 80 occurrences; shape: ends in 'rl' (cut mid-word?)	38768
+103357	rims	keep	80	PROPN	{"rims": 36, "RIMS": 27, "Rims": 17}		38772
+103368	saciaos	keep	80	VERB	{"saciaos": 80}		38776
+103377	satana	pending	80	PROPN	{"Satanas": 43, "satanas": 17, "Satana": 15, "satana": 4, "SATANA": 1}	propn_band: capitalised in 69% of running text	38780
+103395	skov	pending	80	PROPN	{"SKOV": 61, "Skov": 19}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38784
+103403	solkes	keep	80	NOUN	{"Solkes": 80}		38788
+103408	sorcerer	pending	80	PROPN	{"Sorcerer": 69, "sorcerer": 4, "SORCERER": 4, "sorcerers": 3}	propn_band: capitalised in 75% of running text	38792
+103421	stot	pending	80	PROPN	{"STOT": 78, "Stot": 2}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38796
+103426	submission	pending	80	PROPN	{"Submission": 46, "submission": 31, "SUBMISSION": 3}	propn_band: capitalised in 51% of running text	38800
+103433	superelásticas	keep	80	PROPN	{"Superelásticas": 76, "superelásticas": 4}		38804
+103448	terapeútico	keep	80	ADJ	{"terapeútico": 41, "terapeúticos": 36, "Terapeútico": 3}		38808
+103461	topito	keep	80	NOUN	{"topitos": 71, "Topito": 7, "topito": 2}		38812
+103466	trompicón	keep	80	NOUN	{"trompicones": 78, "trompicón": 1, "Trompicón": 1}		38816
+103472	typeform	pending	80	PROPN	{"Typeform": 50, "typeform": 27, "TypeForm": 3}	propn_band: capitalised in 66% of running text	38820
+103477	uld	pending	80	PROPN	{"ULD": 63, "Uld": 12, "uLD": 3, "uld": 2}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38824
+103490	vbox	pending	80	PROPN	{"VBOX": 55, "vbox": 9, "VBox": 7, "vBox": 5, "Vbox": 4}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38828
+103498	viaf	pending	80	PROPN	{"VIAF": 80}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38832
+103511	vud	pending	80	PROPN	{"VUD": 79, "Vud": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38836
+103527	wonton	keep	80	NOUN	{"wonton": 46, "Wonton": 22, "wontons": 12}		38840
+103533	xpt	pending	80	PROPN	{"XPT": 78, "xpt": 2}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38844
+103545	zew	pending	80	PROPN	{"ZEW": 78, "Zew": 2}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38848
+103553	abiertasr	pending	79	VERB	{"Abiertas": 79}	citation: spelling written 0 times as a word, against 79 occurrences; shape: ends in 'sr' (cut mid-word?)	38852
+103562	aicon	pending	79	PROPN	{"AICON": 44, "Aicon": 32, "AIcon": 2, "aIcon": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38856
+103569	alimoche	keep	79	NOUN	{"alimoche": 48, "alimoches": 22, "Alimoche": 8, "Alimoches": 1}		38860
+103574	andora	keep	79	NOUN	{"Andora": 74, "ANDORA": 5}		38864
+103579	anticucho	keep	79	NOUN	{"anticuchos": 44, "anticucho": 19, "Anticuchos": 12, "Anticucho": 4}		38868
+103583	antoniano	keep	79	ADJ	{"Antoniana": 48, "Antoniano": 17, "Antonianos": 5, "antonianos": 4, "antoniana": 3}		38872
+103590	aplausos	pending	79	PROPN	{"APLAUSOS": 73, "Aplausos": 5, "aplausos-": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38876
+103597	archaeology	pending	79	PROPN	{"Archaeology": 72, "archaeology": 7}	propn_band: capitalised in 86% of running text	38880
+103604	arteh	pending	79	PROPN	{"ARTEH": 79}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38884
+103610	aubie-st-antoine	pending	79	NOUN	{"Aubie-St-Antoine": 79}	shape: hyphenated	38888
+103614	autolimpiable	keep	79	ADJ	{"autolimpiable": 64, "autolimpiables": 6, "Autolimpiable": 5, "AUTOLIMPIABLE": 2, "Autolimpiables": 2}		38892
+103627	basilical	keep	79	ADJ	{"basilical": 68, "basilicales": 8, "Basilical": 3}		38897
+103642	bipv	pending	79	PROPN	{"BIPV": 69, "Bipv": 8, "BiPv": 1, "BiPV": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38901
+103647	blg	pending	79	PROPN	{"BLG": 79}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38905
+103659	brandie	keep	79	NOUN	{"brandies": 74, "Brandie": 5}		38909
+103665	buono	pending	79	PROPN	{"Buono": 67, "buono": 11, "BUONO": 1}	propn_band: capitalised in 71% of running text	38913
+103672	carmel-by-the-sea	pending	79	NOUN	{"Carmel-by-the-Sea": 72, "Carmel-by-the-sea": 4, "Carmel-By-The-Sea": 2, "CARMEL-BY-THE-SEA": 1}	shape: hyphenated	38917
+103680	cfw	pending	79	PROPN	{"CFW": 77, "CfW": 1, "cfw": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38921
+103689	chumbera	keep	79	NOUN	{"chumberas": 42, "chumbera": 20, "Chumbera": 16, "CHUMBERA": 1}		38925
+103694	cineclub	keep	79	NOUN	{"cineclub": 29, "Cineclub": 28, "cineclubs": 10, "cineclubes": 8, "CineClub": 3}		38929
+103701	cochinita	keep	79	VERB	{"cochinita": 53, "Cochinita": 26}		38933
+103707	collages	keep	79	PROPN	{"Collages": 47, "collages": 32}		38937
+103713	communion	pending	79	PROPN	{"Communion": 52, "communion": 24, "COMMUNION": 2, "ComMUnion": 1}	propn_band: capitalised in 66% of running text	38941
+103718	consultabl	pending	79	ADJ	{"consultables": 78, "Consultables": 1}	citation: spelling written 0 times as a word, against 79 occurrences; shape: ends in 'bl' (cut mid-word?)	38945
+103724	corasuite	pending	79	ADJ	{"Corasuites": 79}	citation: spelling written 0 times as a word, against 79 occurrences	38949
+103728	corsetería	keep	79	NOUN	{"corsetería": 65, "Corsetería": 8, "corseterías": 6}		38953
+103734	culla	pending	79	PROPN	{"Culla": 73, "culla": 3, "CULLA": 3}	propn_band: capitalised in 83% of running text	38957
+103744	dcw	pending	79	PROPN	{"DCW": 72, "Dcw": 6, "dCW": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38961
+103751	depositación	keep	79	NOUN	{"depositación": 74, "Depositación": 5}		38965
+103755	desmielinización	keep	79	NOUN	{"desmielinización": 76, "Desmielinización": 3}		38969
+103762	dfont	pending	79	PROPN	{"DFONT": 76, "dfont": 2, "dFont": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38973
+103769	dmb	pending	79	PROPN	{"DMB": 78, "DMb": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38977
+103776	drycell	pending	79	ADJ	{"dryCELL": 66, "DryCell": 5, "Drycell": 3, "dryCell": 3, "DryCELL": 2}	shape: ends in 'll' (cut mid-word?)	38981
+103784	edifarm	pending	79	PROPN	{"EDIFARM": 65, "Edifarm": 14}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	38985
+103793	emoticons	pending	79	PROPN	{"Emoticons": 58, "emoticons": 21}	propn_band: capitalised in 58% of running text	38989
+103798	enfurruñar	keep	79	ADJ	{"enfurruñado": 29, "enfurruñada": 10, "enfurruñó": 8, "enfurruñarse": 7, "enfurruñados": 7}		38993
+103804	epistaxi	pending	79	NOUN	{"epistaxis": 79}	citation: spelling written 0 times as a word, against 79 occurrences	38997
+103809	especiada	keep	79	NOUN	{"especiadas": 63, "especiada": 10, "Especiada": 4, "ESPECIADA": 2}		39001
+103814	ex-jefe	pending	79	NOUN	{"ex-jefe": 57, "ex-Jefe": 15, "ex-jefes": 5, "Ex-Jefe": 2}	shape: hyphenated	39005
+103819	felpilla	keep	79	NOUN	{"felpilla": 75, "Felpilla": 3, "felpillas": 1}		39009
+103827	fom	pending	79	PROPN	{"FOM": 67, "fom": 6, "Fom": 6}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39013
+103832	fzd	pending	79	PROPN	{"FZD": 79}	shape: ends in 'zd' (cut mid-word?); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39017
+103844	gladio	keep	79	NOUN	{"Gladio": 74, "gladio": 3, "GLADIO": 2}		39021
+103849	gns	pending	79	PROPN	{"GNS": 75, "GNs": 2, "Gns": 1, "gNS": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39025
+103865	hauts	keep	79	VERB	{"Hauts": 75, "HAUTS": 4}		39030
+103872	higi	keep	79	NOUN	{"higi": 57, "Higi": 20, "HIGI": 2}		39034
+103877	hipóxico	keep	79	ADJ	{"hipóxico": 48, "hipóxicos": 31}		39038
+103886	huaylas	keep	79	NOUN	{"Huaylas": 78, "HUAYLAS": 1}		39042
+103893	iboga	keep	79	NOUN	{"iboga": 45, "Iboga": 33, "IBoga": 1}		39046
+103898	iihi	pending	79	PROPN	{"IIHI": 78, "iihi": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39050
+103904	indivíduo	keep	79	NOUN	{"indivíduos": 53, "indivíduo": 26}		39054
+103909	ingame	keep	79	VERB	{"ingame": 67, "InGame": 4, "Ingame": 3, "Ingames": 2, "INGAME": 1}		39058
+103913	intravesical	keep	79	ADJ	{"intravesical": 79}		39062
+103918	izda	keep	79	ADJ	{"izda": 61, "Izda": 13, "IZDA": 5}		39066
+103931	jsv	pending	79	PROPN	{"JSV": 78, "Jsv": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39070
+103947	krogan	keep	79	VERB	{"krogan": 65, "Krogan": 13, "krogan-": 1}		39074
+103962	lazuli	keep	79	NOUN	{"Lazuli": 61, "lazuli": 17, "LAZULI": 1}		39078
+103973	llamémosle	keep	79	NOUN	{"llamémosle": 60, "Llamémosle": 19}		39082
+103979	m-ii	pending	79	ADV	{"M-II": 79}	shape: hyphenated	39086
+103993	mbda	pending	79	PROPN	{"MBDA": 78, "mbda": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39090
+104012	mitomicina	keep	79	NOUN	{"mitomicina": 58, "Mitomicina": 20, "MITOMICINA": 1}		39094
+104020	monoterpeno	keep	79	NOUN	{"monoterpenos": 60, "monoterpeno": 16, "Monoterpenos": 2, "Monoterpeno": 1}		39098
+104029	movi	pending	79	PROPN	{"MOVI": 30, "movi": 26, "Movi": 20, "MoVI": 2, "MoVi": 1}	propn_band: capitalised in 42% of running text	39102
+104036	multiconector	keep	79	NOUN	{"multiconector": 56, "multiconectores": 18, "Multiconector": 4, "multiconectora": 1}		39106
+104041	mvf	pending	79	PROPN	{"MVF": 79}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39110
+104048	naive	keep	79	VERB	{"naive": 51, "Naive": 27, "naives": 1}		39114
+104067	nsn	pending	79	PROPN	{"NSN": 77, "Nsn": 2}	shape: ends in 'sn' (cut mid-word?); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39119
+104074	ohb	pending	79	PROPN	{"OHB": 78, "Ohb": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39123
+104085	oña	keep	79	VERB	{"Oña": 77, "OÑA": 2}		39127
+104093	pamidronato	keep	79	NOUN	{"pamidronato": 75, "Pamidronato": 4}		39131
+104097	pantaloneta	keep	79	NOUN	{"pantalonetas": 37, "pantaloneta": 36, "Pantalonetas": 3, "Pantaloneta": 3}		39135
+104102	peps	pending	79	PROPN	{"PEPS": 42, "PEPs": 18, "Peps": 10, "pEPS": 3, "peps": 3}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39139
+104107	pilaris	keep	79	ADJ	{"pilaris": 53, "Pilaris": 25, "PILARIS": 1}		39143
+104113	plastisol	keep	79	NOUN	{"plastisol": 60, "Plastisol": 11, "plastisoles": 5, "PLASTISOL": 3}		39147
+104120	postulantado	keep	79	NOUN	{"postulantado": 53, "Postulantado": 20, "postulantados": 4, "Postulantados": 1, "POSTULANTADO": 1}		39151
+104125	preprogramada	keep	79	ADJ	{"preprogramada": 76, "Preprogramada": 2, "PREPROGRAMADA": 1}		39155
+104130	princ	pending	79	PROPN	{"Princ": 37, "princ": 32, "Princes": 9, "PRINC": 1}	propn_band: capitalised in 57% of running text	39159
+104138	prot-on	pending	79	NOUN	{"Prot-On": 77, "Prot-on": 2}	shape: hyphenated	39163
+104142	purblepairssave-ms	pending	79	NOUN	{"PURBLEPAIRSSAVE-MS": 79}	shape: hyphenated	39167
+104151	racechip	keep	79	NOUN	{"RaceChip": 79}		39171
+104160	regolito	keep	79	NOUN	{"regolito": 58, "regolitos": 16, "Regolito": 5}		39176
+104165	repartidlo	keep	79	NOUN	{"repartidlo": 77, "repartidlos": 1, "Repartidlo": 1}		39180
+104169	restaurativa	pending	79	PROPN	{"Restaurativa": 75, "RESTAURATIVA": 4}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39184
+104174	revísalo	keep	79	VERB	{"revísalo": 73, "revísalos": 4, "REVÍSALO": 1, "Revísalos": 1}		39188
+104185	s-pen	pending	79	NOUN	{"S-Pen": 73, "S-pen": 4, "S-PEN": 2}	shape: hyphenated	39192
+104189	salillas	keep	79	NOUN	{"Salillas": 79}		39196
+104204	semi-privada	pending	79	ADJ	{"semi-privada": 72, "semi-privadas": 5, "Semi-privada": 1, "Semi-Privada": 1}	shape: hyphenated	39200
+104216	sinac	pending	79	PROPN	{"SINAC": 66, "Sinac": 13}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39204
+104222	solemnizar	keep	79	VERB	{"solemnizar": 23, "solemnizado": 13, "solemnizó": 7, "Solemniza": 6, "solemnizarlo": 4}		39208
+104233	straightener	pending	79	PROPN	{"Straightener": 67, "straightener": 6, "STRAIGHTENER": 6}	propn_band: capitalised in 85% of running text	39212
+104237	substantivar	keep	79	ADJ	{"substantivo": 74, "substantive": 3, "Substantivo": 1, "substantivar": 1}		39216
+104242	sur-sureste	pending	79	NOUN	{"sur-sureste": 70, "Sur-Sureste": 8, "Sur-sureste": 1}	shape: hyphenated	39220
+104248	taaaan	keep	79	NOUN	{"taaaan": 75, "Taaaan": 3, "TAAAAN": 1}		39224
+104258	taquillazo	keep	79	NOUN	{"taquillazos": 42, "taquillazo": 27, "Taquillazo": 10}		39228
+104268	telekinesis	keep	79	NOUN	{"telekinesis": 41, "Telekinesis": 38}		39232
+104281	tipsters	keep	79	NOUN	{"tipsters": 50, "Tipsters": 28, "TIPSTERS": 1}		39236
+104285	tltro	pending	79	PROPN	{"TLTRO": 79}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39240
+104292	trabajosamente	keep	79	ADV	{"trabajosamente": 75, "Trabajosamente": 4}		39244
+104300	ttpt	pending	79	PROPN	{"TTPT": 79}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39248
+104308	umb	pending	79	PROPN	{"UMB": 65, "Umb": 10, "umb": 4}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39252
+104322	verdurita	keep	79	NOUN	{"verduritas": 76, "Verduritas": 3}		39256
+104331	villarico	pending	79	PROPN	{"Villaricos": 72, "villaricos": 5, "Villarico": 1, "villarico": 1}	propn_band: capitalised in 83% of running text	39260
+104340	vlogger	keep	79	NOUN	{"vloggers": 36, "vlogger": 36, "Vlogger": 7}		39264
+104345	véa	keep	79	PRON	{"Véa": 58, "véa": 21}		39268
+104357	whp	pending	79	PROPN	{"WHP": 77, "Whp": 1, "whp": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39272
+104363	woks	keep	79	NOUN	{"woks": 57, "Woks": 18, "WOKS": 4}		39276
+104370	xliff	pending	79	PROPN	{"XLIFF": 77, "xliff": 2}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39280
+104385	acon	keep	78	ADP	{"acon": 38, "ACON": 15, "aCon": 10, "Acon": 10, "ACon": 4}		39284
+104395	ainia	pending	78	PROPN	{"AINIA": 56, "Ainia": 16, "ainia": 6}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39288
+104403	albión	keep	78	NOUN	{"Albión": 77, "ALBIÓN": 1}		39292
+104409	altomedieval	keep	78	ADJ	{"altomedieval": 52, "altomedievales": 25, "Altomedieval": 1}		39296
+104417	ancce	pending	78	PROPN	{"ANCCE": 75, "Ancce": 3}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39300
+104421	antihechizo	pending	78	ADJ	{"antihechizos": 78}	citation: spelling written 0 times as a word, against 78 occurrences	39304
+104425	apelotonar	keep	78	VERB	{"apelotonados": 15, "apelotonadas": 12, "apelotonan": 11, "apelotonada": 10, "apelotonado": 7}		39308
+104433	arequipe	keep	78	NOUN	{"arequipe": 54, "Arequipe": 21, "arequipes": 3}		39312
+104439	asker	pending	78	PROPN	{"Asker": 72, "asker": 6}	propn_band: capitalised in 85% of running text	39316
+104446	automasaje	keep	78	NOUN	{"automasaje": 63, "Automasaje": 10, "automasajes": 5}		39320
+104467	bhakta	keep	78	NOUN	{"bhakta": 38, "Bhakta": 27, "bhaktas": 11, "BHAKTA": 2}		39324
+104473	biolíquido	keep	78	NOUN	{"biolíquidos": 70, "biolíquido": 8}		39328
+104479	blocar	keep	78	NOUN	{"bloco": 23, "Bloco": 18, "blocar": 9, "Blocar": 9, "bloca": 6}		39332
+104495	busybox	pending	78	PROPN	{"BusyBox": 40, "busybox": 23, "Busybox": 10, "BUSYBOX": 5}	propn_band: capitalised in 50% of running text	39336
+104503	calacatta	pending	78	PROPN	{"Calacatta": 61, "calacatta": 17}	propn_band: capitalised in 71% of running text	39340
+104512	cardiomiocito	keep	78	NOUN	{"cardiomiocitos": 75, "cardiomiocito": 3}		39344
+104518	cbvct	pending	78	PROPN	{"CBVCT": 78}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39348
+104527	cheka	keep	78	NOUN	{"Cheka": 69, "CHEKA": 8, "cheka": 1}		39352
+104535	científico-tecnológicas	pending	78	ADJ	{"científico-tecnológicas": 76, "Científico-Tecnológicas": 2}	shape: hyphenated	39356
+104545	cofinanciador	keep	78	NOUN	{"Cofinanciadores": 37, "cofinanciadores": 23, "cofinanciador": 15, "Cofinanciador": 3}		39360
+104550	comedla	keep	78	VERB	{"comedla": 72, "Comedla": 5, "comedlas": 1}		39364
+104556	constr	pending	78	NOUN	{"constr": 64, "Constr": 14}	shape: ends in 'tr' (cut mid-word?)	39368
+104570	cristalizador	keep	78	NOUN	{"cristalizador": 34, "cristalizadores": 29, "Cristalizador": 8, "Cristalizadores": 5, "cristalizadoras": 1}		39372
+104577	cuchi	pending	78	PROPN	{"Cuchi": 60, "cuchi": 16, "CUCHI": 2}	propn_band: capitalised in 53% of running text	39376
+104584	decatlón	keep	78	NOUN	{"decatlón": 44, "Decatlón": 34}		39380
+104590	dementia	pending	78	PROPN	{"Dementia": 70, "dementia": 7, "DEMENTIA": 1}	propn_band: capitalised in 88% of running text	39384
+104594	desmoralizante	keep	78	ADV	{"desmoralizante": 64, "desmoralizantes": 14}		39388
+104600	disipativo	keep	78	ADJ	{"disipativos": 26, "disipativas": 23, "disipativo": 17, "disipativa": 11, "Disipativo": 1}		39392
+104607	domex	keep	78	NOUN	{"Domex": 72, "DOMEX": 3, "DomEX": 2, "DomEx": 1}		39396
+104613	ebf	pending	78	PROPN	{"EBF": 78}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39400
+104621	electroporación	keep	78	NOUN	{"electroporación": 71, "Electroporación": 7}		39404
+104628	enseñándoos	keep	78	VERB	{"enseñándoos": 77, "Enseñándoos": 1}		39408
+104632	epai	pending	78	PROPN	{"EPAI": 78}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39412
+104642	escam	pending	78	PROPN	{"ESCAM": 75, "escam": 1, "eScam": 1, "Escam": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39416
+104646	especio	keep	78	NOUN	{"especio": 65, "especios": 11, "Especio": 2}		39420
+104651	estarcir	keep	78	NOUN	{"estarcido": 47, "estarcidos": 17, "Estarcido": 4, "estarcidas": 3, "estarcir": 2}		39424
+104655	evy	keep	78	NOUN	{"Evy": 42, "EVY": 29, "eVy": 6, "EVy": 1}		39428
+104659	exmujer	keep	78	NOUN	{"exmujer": 71, "exmujeres": 5, "Exmujer": 1, "Exmujeres": 1}		39432
+104665	feed-back	pending	78	NOUN	{"feed-back": 68, "Feed-back": 5, "feed-backs": 3, "Feed-Back": 1, "FEED-BACK": 1}	shape: hyphenated	39436
+104671	fidc	pending	78	PROPN	{"FIDC": 78}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39440
+104677	fluconazole	keep	78	PROPN	{"fluconazole": 43, "Fluconazole": 35}		39444
+104682	franco-español	pending	78	ADJ	{"franco-española": 51, "franco-español": 19, "franco-españoles": 5, "Franco-españoles": 2, "Franco-Español": 1}	shape: hyphenated	39448
+104699	gestionarla	keep	78	ADJ	{"gestionarlas": 78}		39452
+104709	gorod	pending	78	PROPN	{"Gorod": 64, "gorod": 11, "GOROD": 3}	propn_band: capitalised in 82% of running text	39456
+104715	graveolens	keep	78	VERB	{"graveolens": 64, "Graveolens": 14}		39460
+104729	hierbajo	keep	78	NOUN	{"hierbajos": 72, "hierbajo": 5, "Hierbajo": 1}		39464
+104735	hombros	keep	78	NOUN	{"hombros-": 78}		39468
+104746	ibl	pending	78	PROPN	{"IBL": 75, "Ibl": 2, "ibl": 1}	shape: ends in 'bl' (cut mid-word?); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39472
+104752	ilt	pending	78	PROPN	{"ILT": 77, "Ilt": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39476
+104761	instragram	pending	78	PROPN	{"Instragram": 70, "instragram": 8}	propn_band: capitalised in 85% of running text	39481
+104766	ipaas	keep	78	ADJ	{"iPaaS": 72, "iPaas": 3, "IPaaS": 2, "IpaaS": 1}		39485
+104782	judoka	keep	78	ADJ	{"judokas": 39, "judoka": 32, "Judoka": 5, "JUDOKA": 2}		39489
+104786	kalisz	pending	78	PROPN	{"Kalisz": 77, "KALISZ": 1}	shape: ends in 'sz' (cut mid-word?); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39493
+104800	krupa	pending	78	PROPN	{"Krupa": 67, "krupa": 8, "KRUPA": 3}	propn_band: capitalised in 89% of running text	39497
+104806	laici	keep	78	ADJ	{"laici": 47, "Laici": 31}		39501
+104821	livecam	pending	78	PROPN	{"LiveCam": 40, "Livecam": 27, "livecam": 10, "livecams": 1}	propn_band: capitalised in 68% of running text	39505
+104834	ltro	keep	78	NOUN	{"ltro": 34, "LTRO": 32, "ltros": 12}		39509
+104844	madridismo	keep	78	NOUN	{"madridismo": 74, "Madridismo": 4}		39513
+104861	martiana	keep	78	ADJ	{"Martiana": 41, "martiana": 32, "martianas": 4, "MARTIANA": 1}		39517
+104874	medicinalmente	keep	78	ADV	{"medicinalmente": 65, "Medicinalmente": 13}		39521
+104880	metafase	keep	78	NOUN	{"metafase": 45, "Metafase": 18, "metafases": 15}		39525
+104891	milivoltio	keep	78	NOUN	{"milivoltios": 69, "milivoltio": 9}		39530
+104898	modularización	keep	78	NOUN	{"modularización": 70, "Modularización": 8}		39534
+104909	mundializado	keep	78	ADJ	{"mundializada": 34, "mundializado": 31, "mundializados": 7, "mundializadas": 6}		39538
+104914	mútuo	keep	78	ADJ	{"mútuo": 73, "mútuos": 4, "Mútuo": 1}		39542
+104920	nikla	pending	78	NOUN	{"Niklas": 77, "niklas": 1}	citation: spelling written 0 times as a word, against 78 occurrences	39546
+104926	novohispano	keep	78	ADJ	{"novohispano": 41, "novohispanos": 29, "Novohispano": 6, "Novohispanos": 2}		39550
+104934	ojalillo	keep	78	NOUN	{"ojalillos": 69, "ojalillo": 8, "Ojalillo": 1}		39554
+104945	parata	keep	78	NOUN	{"Parata": 61, "paratas": 8, "parata": 4, "Paratas": 4, "PARATA": 1}		39558
+104951	peracético	keep	78	ADJ	{"peracético": 72, "Peracético": 5, "peracéticos": 1}		39562
+104959	phm	pending	78	PROPN	{"PHM": 59, "Phm": 18, "phm": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39566
+104965	planchita	keep	78	NOUN	{"planchita": 66, "planchitas": 8, "Planchita": 3, "Planchitas": 1}		39570
+104972	pro-capitalista	pending	78	PROPN	{"pro-capitalista": 67, "pro-capitalistas": 11}	shape: hyphenated	39574
+104976	purchasing	pending	78	PROPN	{"Purchasing": 62, "purchasing": 13, "PURCHASING": 3}	propn_band: capitalised in 75% of running text	39578
+104983	qfe	pending	78	PROPN	{"QFE": 76, "qfe": 2}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39582
+104989	rbth	pending	78	PROPN	{"RBTH": 78}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39586
+104995	regrabar	keep	78	VERB	{"regrabar": 66, "regrabaron": 4, "regrabarse": 3, "regrabarlo": 3, "regrabaría": 1}		39590
+104999	reprint	pending	78	PROPN	{"Reprint": 73, "reprint": 4, "REPRINT": 1}	propn_band: capitalised in 86% of running text	39594
+105003	retroviral	keep	78	ADJ	{"retrovirales": 46, "retroviral": 29, "Retrovirales": 2, "Retroviral": 1}		39598
+105008	rfr	pending	78	PROPN	{"RFR": 77, "Rfr": 1}	shape: ends in 'fr' (cut mid-word?); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39602
+105018	rotocultor	keep	78	NOUN	{"Rotocultores": 35, "rotocultor": 27, "Rotocultor": 15, "rotocultores": 1}		39606
+105026	safar	pending	78	PROPN	{"Safar": 63, "safar": 5, "safarse": 3, "safaron": 2, "safarme": 2}	propn_band: capitalised in 79% of running text	39610
+105039	seabhs	pending	78	PROPN	{"SEABHS": 78}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39614
+105048	senad	pending	78	PROPN	{"SENAD": 57, "Senad": 20, "senad": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39618
+105059	skl	pending	78	PROPN	{"SKL": 76, "Skl": 1, "skl": 1}	shape: ends in 'kl' (cut mid-word?); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39622
+105067	smokin	pending	78	PROPN	{"Smokin": 47, "smokin": 31}	propn_band: capitalised in 60% of running text	39626
+105074	spei	pending	78	PROPN	{"SPEI": 72, "Spei": 6}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39630
+105079	sqfs	pending	78	PROPN	{"SQFS": 78}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39634
+105091	subsecretaría	keep	78	NOUN	{"Subsecretaría": 37, "subsecretaría": 23, "subsecretarías": 11, "Subsecretarías": 4, "SUBSECRETARÍA": 3}		39638
+105107	tck	pending	78	PROPN	{"TCK": 78}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39642
+105122	todoporsche	pending	78	PROPN	{"TODOPORSCHE": 78}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39646
+105134	tripolar	keep	78	ADJ	{"tripolar": 47, "tripolares": 17, "Tripolar": 11, "TRIPOLAR": 2, "TriPolar": 1}		39650
+105140	turcochipriota	keep	78	NOUN	{"turcochipriotas": 41, "turcochipriota": 37}		39654
+105146	ultrarápido	keep	78	ADJ	{"ultrarápido": 35, "ultrarápida": 22, "ultrarápidas": 13, "ultrarápidos": 5, "ULTRARÁPIDO": 3}		39658
+105153	urgiéndola	keep	78	NOUN	{"urgiéndolas": 75, "urgiéndola": 3}		39662
+105162	vasilis	pending	78	PROPN	{"Vasilis": 71, "VASILIS": 5, "vasilis": 2}	propn_band: capitalised in 84% of running text	39666
+105171	vims	pending	78	PROPN	{"VIMS": 72, "vIMS": 4, "ViMs": 2}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39670
+105180	wakizashi	keep	78	NOUN	{"wakizashi": 71, "Wakizashi": 6, "WAKIZASHI": 1}		39674
+105198	x-pro	pending	78	NUM	{"X-Pro": 75, "X-pro": 1, "X-PRO": 1, "x-pro": 1}	shape: hyphenated	39678
+105218	abvd	pending	77	PROPN	{"ABVD": 77}	shape: ends in 'vd' (cut mid-word?); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39682
+105224	adamantino	keep	77	ADJ	{"Adamantinas": 55, "Adamantino": 9, "adamantina": 7, "adamantino": 5, "adamantinos": 1}		39686
+105235	ajiaco	keep	77	NOUN	{"ajiaco": 55, "Ajiaco": 21, "AJIACO": 1}		39690
+105249	alucobond	pending	77	PROPN	{"ALUCOBOND": 49, "Alucobond": 16, "alucobond": 12}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39694
+105253	anti-arañazo	pending	77	NOUN	{"anti-arañazos": 67, "Anti-arañazos": 8, "anti-arañazo": 2}	shape: hyphenated	39698
+105258	antropógenas	keep	77	ADJ	{"antropógenas": 76, "ANTROPÓGENAS": 1}		39702
+105263	aqmi	pending	77	PROPN	{"AQMI": 76, "Aqmi": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39706
+105276	atenerno	pending	77	NOUN	{"atenernos": 72, "Atenernos": 5}	citation: spelling written 0 times as a word, against 77 occurrences	39710
+105281	avisoshabitaciones	pending	77	PROPN	{"AvisosHabitaciones": 77}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39714
+105294	bearcat	pending	77	PROPN	{"BEARCAT": 44, "Bearcat": 32, "Bearcats": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39718
+105303	bennecke	pending	77	PROPN	{"BENNECKE": 42, "Bennecke": 35}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39722
+105310	bielástico	keep	77	ADJ	{"bielástico": 71, "Bielástico": 4, "bielásticos": 2}		39726
+105321	bnef	pending	77	PROPN	{"BNEF": 77}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39730
+105326	bosutinib	keep	77	NOUN	{"bosutinib": 59, "Bosutinib": 18}		39734
+105337	brushing	keep	77	NOUN	{"brushing": 63, "Brushing": 14}		39738
+105348	cabril	pending	77	PROPN	{"Cabrils": 43, "Cabril": 22, "cabrils": 7, "cabril": 5}	propn_band: capitalised in 78% of running text	39742
+105363	carven	keep	77	NOUN	{"Carven": 63, "CARVEN": 14}		39746
+105368	celidonia	keep	77	NOUN	{"celidonia": 65, "Celidonia": 9, "CELIDONIA": 2, "celidonias": 1}		39750
+105374	chamrousse	keep	77	NOUN	{"Chamrousse": 74, "CHAMROUSSE": 3}		39754
+105384	ciclística	keep	77	ADJ	{"ciclística": 69, "Ciclística": 6, "ciclísticas": 1, "CICLÍSTICA": 1}		39758
+105393	cityscape	pending	77	PROPN	{"Cityscape": 44, "cityscape": 14, "CityScape": 8, "Cityscapes": 6, "CITYSCAPE": 4}	propn_band: capitalised in 63% of running text	39762
+105399	co-branding	pending	77	NOUN	{"co-branding": 66, "CO-BRANDING": 4, "Co-Branding": 4, "Co-branding": 3}	shape: hyphenated	39766
+105405	contractivo	keep	77	ADJ	{"contractiva": 28, "contractivo": 23, "contractivas": 14, "contractivos": 12}		39770
+105412	correspondente	keep	77	ADJ	{"correspondentes": 70, "correspondente": 7}		39774
+105416	coster	pending	77	PROPN	{"Coster": 42, "costers": 18, "coster": 14, "Costeres": 2, "COSTER": 1}	propn_band: capitalised in 53% of running text	39778
+105423	csce	pending	77	PROPN	{"CSCE": 77}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39782
+105427	cubreboca	keep	77	NOUN	{"cubrebocas": 68, "Cubreboca": 6, "cubreboca": 3}		39786
+105435	dams	pending	77	PROPN	{"DAMS": 37, "Dams": 35, "dams": 4, "DAMs": 1}	propn_band: capitalised in 76% of running text	39790
+105441	dejándote	keep	77	ADJ	{"dejándote": 75, "Dejándote": 1, "dejándotes": 1}		39794
+105449	deslizadero	keep	77	NOUN	{"deslizadera": 25, "deslizaderas": 21, "deslizaderos": 14, "deslizadero": 10, "Deslizadera": 3}		39798
+105455	dicks	pending	77	PROPN	{"Dicks": 45, "dicks": 30, "DICKS": 1, "dicks--": 1}	propn_band: capitalised in 59% of running text	39802
+105459	dispensacionalismo	keep	77	NOUN	{"dispensacionalismo": 46, "Dispensacionalismo": 30, "DISPENSACIONALISMO": 1}		39806
+105463	djembe	keep	77	NOUN	{"djembe": 39, "Djembe": 35, "djembes": 3}		39810
+105469	dpng	pending	77	PROPN	{"DPNG": 77}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39814
+105475	easylink	keep	77	NOUN	{"EasyLink": 62, "Easylink": 15}		39818
+105479	eduación	keep	77	NOUN	{"eduación": 58, "Eduación": 19}		39822
+105489	enfocador	keep	77	NOUN	{"enfocador": 62, "enfocadores": 8, "Enfocador": 3, "Enfocadores": 2, "enfocadora": 2}		39826
+105495	escoto	pending	77	PROPN	{"Escoto": 58, "escotos": 14, "Escotos": 4, "ESCOTO": 1}	propn_band: capitalised in 76% of running text	39830
+105501	estereográfico	keep	77	ADJ	{"estereográfica": 50, "estereográficas": 15, "Estereográfica": 7, "estereográfico": 3, "estereográficos": 2}		39834
+105506	examinarla	keep	77	PRON	{"examinarlas": 77}		39838
+105512	facialized	pending	77	PROPN	{"Facialized": 50, "facialized": 27}	propn_band: capitalised in 55% of running text	39842
+105521	feng-shui	pending	77	NOUN	{"feng-shui": 35, "Feng-Shui": 25, "Feng-shui": 16, "FENG-SHUI": 1}	shape: hyphenated	39846
+105525	fizik	pending	77	PROPN	{"Fizik": 70, "fizik": 6, "FIZIK": 1}	propn_band: capitalised in 90% of running text	39850
+105537	fqc	pending	77	PROPN	{"FQC": 77}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39854
+105544	gastroduodenal	keep	77	ADJ	{"gastroduodenal": 47, "gastroduodenales": 30}		39858
+105549	gerenta	keep	77	VERB	{"gerenta": 54, "Gerenta": 23}		39862
+105561	grown	pending	77	PROPN	{"Grown": 69, "grown": 6, "GROWN": 2}	shape: ends in 'wn' (cut mid-word?); propn_band: capitalised in 90% of running text	39866
+105565	guimar	pending	77	PROPN	{"Guimar": 38, "GUIMAR": 28, "guimar": 11}	propn_band: capitalised in 78% of running text	39870
+105579	higiénico-sanitarias	pending	77	ADJ	{"higiénico-sanitarias": 76, "HIGIÉNICO-SANITARIAS": 1}	shape: hyphenated	39874
+105597	i-tech	pending	77	ADJ	{"i-Tech": 45, "I-Tech": 29, "I-TECH": 1, "I-tech": 1, "i-TECH": 1}	shape: hyphenated	39878
+105605	improviso	keep	77	NOUN	{"improvisa": 49, "Improvisa": 12, "improvisas": 11, "Improviso": 3, "IMPROVISO": 1}		39882
+105615	inspirándono	pending	77	VERB	{"inspirándonos": 74, "Inspirándonos": 3}	citation: spelling written 0 times as a word, against 77 occurrences	39886
+105619	iraf	pending	77	PROPN	{"IRAF": 77}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39890
+105639	kaqchikel	pending	77	PROPN	{"Kaqchikel": 38, "kaqchikel": 23, "kaqchikeles": 15, "KAQCHIKEL": 1}	propn_band: capitalised in 50% of running text	39894
+105653	krn	pending	77	PROPN	{"KRN": 58, "Krn": 18, "krN": 1}	shape: ends in 'rn' (cut mid-word?); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39898
+105662	layc	pending	77	PROPN	{"LAYC": 77}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39902
+105670	libración	keep	77	NOUN	{"libración": 67, "Libración": 8, "libraciones": 2}		39906
+105679	loisirs	pending	77	PROPN	{"Loisirs": 66, "loisirs": 8, "LOISIRS": 3}	propn_band: capitalised in 80% of running text	39910
+105689	lugarcito	keep	77	NOUN	{"lugarcito": 71, "lugarcitos": 5, "Lugarcito": 1}		39914
+105706	mandeno	pending	77	NOUN	{"mandenos": 67, "Mandenos": 10}	citation: spelling written 0 times as a word, against 77 occurrences	39918
+105712	masked	pending	77	PROPN	{"Masked": 65, "masked": 11, "MAsked": 1}	propn_band: capitalised in 83% of running text	39922
+105720	mediaordenar	keep	77	VERB	{"mediaOrdenar": 77}		39926
+105728	metrológicas	keep	77	ADJ	{"metrológicas": 75, "Metrológicas": 2}		39930
+105738	molyneux	keep	77	NOUN	{"Molyneux": 77}		39934
+105744	morganita	keep	77	NOUN	{"morganita": 44, "Morganita": 28, "MORGANITA": 2, "morganitas": 2, "Morganitas": 1}		39938
+105751	multi-pantalla	pending	77	NOUN	{"multi-pantalla": 57, "multi-pantallas": 11, "Multi-pantalla": 6, "Multi-Pantalla": 3}	shape: hyphenated	39942
+105757	nación-estado	pending	77	NOUN	{"nación-estado": 58, "nación-Estado": 9, "nación-estados": 5, "Nación-Estado": 3, "Nación-estado": 2}	shape: hyphenated	39946
+105764	nerc	pending	77	PROPN	{"NERC": 77}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39950
+105770	nlhe	pending	77	PROPN	{"NLHE": 77}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39954
+105778	ntap	pending	77	PROPN	{"NTAP": 77}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39958
+105787	ogrina	pending	77	NOUN	{"ogrinas": 62, "Ogrinas": 15}	citation: spelling written 0 times as a word, against 77 occurrences	39962
+105796	onl	pending	77	PROPN	{"ONL": 70, "onl": 5, "Onl": 2}	shape: ends in 'nl' (cut mid-word?); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39966
+105807	paraboloide	keep	77	NOUN	{"paraboloide": 49, "paraboloides": 26, "Paraboloides": 1, "Paraboloide": 1}		39970
+105813	pdj	pending	77	PROPN	{"PDJ": 76, "Pdj": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	39974
+105820	piezómetro	keep	77	NOUN	{"piezómetros": 53, "piezómetro": 22, "Piezómetro": 2}		39978
+105827	pleuritis	keep	77	NOUN	{"pleuritis": 72, "Pleuritis": 5}		39982
+105832	político-institucional	pending	77	ADJ	{"político-institucional": 49, "político-institucionales": 25, "Político-Institucional": 2, "Político-institucional": 1}	shape: hyphenated	39986
+105838	post-soviético	pending	77	ADJ	{"post-soviético": 50, "post-soviéticos": 24, "post-Soviéticos": 1, "post-Soviético": 1, "Post-Soviético": 1}	shape: hyphenated	39990
+105842	pre-industrial	pending	77	ADJ	{"pre-industrial": 48, "pre-industriales": 28, "pre-Industriales": 1}	shape: hyphenated	39994
+105846	prerregistro	keep	77	NOUN	{"prerregistro": 66, "prerregistros": 7, "Prerregistro": 3, "Prerregistros": 1}		39998
+105863	redeem	pending	77	PROPN	{"Redeem": 62, "redeem": 9, "REDEEM": 6}	propn_band: capitalised in 86% of running text	40006
+105890	rost	pending	77	PROPN	{"Rost": 58, "ROST": 10, "rost": 9}	propn_band: capitalised in 87% of running text	40025
+105908	samaya	pending	77	PROPN	{"Samaya": 56, "samaya": 18, "samayas": 3}	propn_band: capitalised in 73% of running text	40034
+105922	sharpie	pending	77	PROPN	{"Sharpie": 52, "sharpie": 19, "Sharpies": 5, "sharpies": 1}	propn_band: capitalised in 74% of running text	40042
+105932	skt	pending	77	PROPN	{"SKT": 54, "Skt": 23}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40050
+105958	swd	pending	77	PROPN	{"SWD": 72, "swd": 4, "Swd": 1}	shape: ends in 'wd' (cut mid-word?); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40058
+105978	tlb	pending	77	PROPN	{"TLB": 71, "Tlb": 5, "tlb": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40067
+105989	travail	pending	77	PROPN	{"Travail": 35, "travail": 35, "TRAVAIL": 7}	propn_band: capitalised in 50% of running text	40073
+106001	u-report	pending	77	VERB	{"U-Report": 75, "U-report": 2}	shape: hyphenated	40081
+106009	upb	pending	77	PROPN	{"UPB": 74, "Upb": 3}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40087
+106020	vali	pending	77	PROPN	{"Vali": 57, "VALI": 15, "vali": 5}	propn_band: capitalised in 89% of running text	40096
+106043	vpr	pending	77	PROPN	{"VPR": 74, "vpr": 3}	shape: ends in 'pr' (cut mid-word?); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40102
+106058	xiu	pending	77	PROPN	{"Xiu": 59, "XIU": 13, "xiu": 5}	propn_band: capitalised in 89% of running text	40107
+106074	zzz	pending	77	PROPN	{"ZZZ": 53, "Zzz": 13, "zzz": 11}	shape: ends in 'zz' (cut mid-word?); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40112
+106096	allopurinol	pending	76	PROPN	{"Allopurinol": 39, "allopurinol": 35, "ALLOPURINOL": 2}	propn_band: capitalised in 53% of running text	40123
+106132	aspi	pending	76	PROPN	{"ASPI": 62, "Aspi": 6, "aspis": 5, "aspi": 2, "aspi-": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40139
+106155	bamp	pending	76	PROPN	{"BAMP": 76}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40151
+106166	belts	pending	76	PROPN	{"Belts": 52, "belts": 14, "BELTS": 10}	propn_band: capitalised in 29% of running text	40157
+106179	bigxvideo	pending	76	NOUN	{"bigXvideos": 76}	citation: spelling written 0 times as a word, against 76 occurrences	40162
+106188	boogaloo	pending	76	PROPN	{"Boogaloo": 42, "boogaloo": 32, "BOOGALOO": 2}	propn_band: capitalised in 57% of running text	40167
+106210	caaspp	pending	76	PROPN	{"CAASPP": 76}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40173
+106224	castelao	pending	76	PROPN	{"Castelao": 66, "CASTELAO": 6, "castelao": 4}	propn_band: capitalised in 82% of running text	40180
+106233	cfk	pending	76	PROPN	{"CFK": 71, "CfK": 4, "cfk": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40185
+106253	comarruga	pending	76	PROPN	{"Comarruga": 58, "comarruga": 17, "COMARRUGA": 1}	propn_band: capitalised in 69% of running text	40194
+106268	copolad	pending	76	PROPN	{"COPOLAD": 75, "Copolad": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40205
+106278	crema-gel	pending	76	NOUN	{"crema-gel": 51, "Crema-Gel": 22, "Crema-gel": 3}	shape: hyphenated	40210
+106287	daemo	pending	76	PROPN	{"DAEMO": 69, "Daemo": 7}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40217
+106312	dpph	pending	76	PROPN	{"DPPH": 76}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40234
+106337	enw	pending	76	PROPN	{"ENW": 75, "EnW": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40247
+106362	famu	pending	76	PROPN	{"FAMU": 73, "Famu": 3}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40262
+106401	goi	pending	76	PROPN	{"Goi": 42, "GOI": 31, "goi": 3}	propn_band: capitalised in 82% of running text	40276
+106414	guardarguardando	pending	76	PROPN	{"GuardarGuardando": 76}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40282
+106431	hast	pending	76	PROPN	{"Hast": 26, "hast": 25, "HAST": 25}	propn_band: capitalised in 44% of running text	40290
+106458	huasteco	pending	76	PROPN	{"Huasteco": 38, "huastecos": 16, "huasteco": 15, "Huastecos": 7}	propn_band: capitalised in 51% of running text	40300
+106477	instances	pending	76	PROPN	{"Instances": 63, "instances": 13}	propn_band: capitalised in 83% of running text	40311
+106487	iuclid	pending	76	PROPN	{"IUCLID": 76}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40319
+106500	juventude	pending	76	PROPN	{"Juventude": 71, "juventude": 4, "JUVENTUDE": 1}	propn_band: capitalised in 89% of running text	40326
+106514	kismet	pending	76	PROPN	{"Kismet": 72, "kismet": 3, "KISMET": 1}	propn_band: capitalised in 88% of running text	40331
+106539	liheap	pending	76	PROPN	{"LIHEAP": 76}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40338
+106556	macá	pending	76	PROPN	{"Macá": 63, "macá": 12, "MACÁ": 1}	propn_band: capitalised in 84% of running text	40348
+106584	melograno	pending	76	PROPN	{"Melograno": 66, "melograno": 6, "MELOGRANO": 4}	propn_band: capitalised in 89% of running text	40354
+106602	mncars	pending	76	PROPN	{"MNCARS": 74, "mncars": 2}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40364
+106624	mze	pending	76	PROPN	{"MZE": 76}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40373
+106636	nidrr	pending	76	PROPN	{"NIDRR": 76}	shape: ends in 'rr' (cut mid-word?); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40378
+106640	nnu	pending	76	PROPN	{"NNU": 75, "Nnu": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40382
+106675	paese	pending	76	PROPN	{"Paese": 64, "paese": 11, "PAESE": 1}	propn_band: capitalised in 74% of running text	40401
+106698	pkc	pending	76	PROPN	{"PKC": 72, "PKCs": 2, "pKC": 1, "Pkc": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40413
+106708	ppap	pending	76	PROPN	{"PPAP": 67, "Ppap": 5, "ppap": 4}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40419
+106712	pre-seleccionados	pending	76	PROPN	{"pre-seleccionados": 73, "PRE-SELECCIONADOS": 3}	shape: hyphenated	40423
+106724	qfx	pending	76	PROPN	{"QFX": 76}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40432
+106758	rlg	pending	76	PROPN	{"RLG": 76}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40447
+106776	sbrt	pending	76	PROPN	{"SBRT": 76}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40454
+106789	serrapeptase	pending	76	PROPN	{"Serrapeptase": 57, "serrapeptase": 18, "SERRAPEPTASE": 1}	propn_band: capitalised in 76% of running text	40461
+106798	simracing	pending	76	PROPN	{"SimRacing": 38, "Simracing": 27, "simracing": 8, "SIMRACING": 3}	propn_band: capitalised in 89% of running text	40465
+106813	soirée	pending	76	PROPN	{"Soirée": 37, "soirée": 25, "SOIRÉE": 7, "soirées": 5, "Soirées": 2}	propn_band: capitalised in 57% of running text	40474
+106826	stitching	pending	76	PROPN	{"Stitching": 61, "stitching": 13, "stitchings": 1, "STITCHING": 1}	propn_band: capitalised in 59% of running text	40482
+106851	tempor	pending	76	PROPN	{"TEMPOR": 51, "tempora": 19, "Tempor": 3, "tempor": 3}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40496
+106866	toku	pending	76	PROPN	{"Toku": 67, "toku": 6, "TOKU": 3}	propn_band: capitalised in 87% of running text	40501
+106893	usac	pending	76	PROPN	{"USAC": 76}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40511
+106918	vpj	pending	76	PROPN	{"VPJ": 76}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40521
+106925	web-site	pending	76	NOUN	{"web-site": 36, "Web-Site": 23, "Web-site": 7, "Web-sites": 3, "web-sites": 3}	shape: hyphenated	40525
+106934	wupj	pending	76	PROPN	{"WUPJ": 76}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40529
+106957	acedo	pending	75	PROPN	{"Acedo": 60, "aceda": 8, "Aceda": 3, "acedas": 2, "ACEDO": 1}	propn_band: capitalised in 68% of running text	40542
+106976	agosto-septiembre	pending	75	NOUN	{"agosto-septiembre": 57, "Agosto-Septiembre": 15, "Agosto-septiembre": 3}	shape: hyphenated	40553
+106991	alginet	pending	75	PROPN	{"Alginet": 66, "alginet": 8, "ALGINET": 1}	propn_band: capitalised in 76% of running text	40559
+107009	armel	pending	75	PROPN	{"Armel": 59, "armel": 15, "ARMEL": 1}	propn_band: capitalised in 69% of running text	40569
+107025	b-max	pending	75	PROPN	{"B-MAX": 47, "B-Max": 28}	shape: hyphenated; propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40577
+107058	biodit	pending	75	PROPN	{"BIODIT": 69, "Biodit": 5, "BioDit": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40584
+107067	bootie	pending	75	PROPN	{"Bootie": 32, "booties": 24, "bootie": 9, "BOOTIE": 8, "Booties": 2}	propn_band: capitalised in 20% of running text	40590
+107089	camrec	pending	75	PROPN	{"CAMREC": 75}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40596
+107104	cept	pending	75	PROPN	{"CEPT": 73, "Cept": 2}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40605
+107124	clim	pending	75	PROPN	{"Clim": 32, "clim": 29, "CLIM": 12, "CLim": 2}	propn_band: capitalised in 54% of running text	40615
+107132	coketa	pending	75	PROPN	{"COKETA": 74, "Coketa": 1}	diversity: in 39 documents, 0.52 of the 75 occurrences' random spread (threshold 0.6); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40621
+107157	crossdresser	pending	75	PROPN	{"Crossdresser": 50, "crossdresser": 19, "crossdressers": 6}	propn_band: capitalised in 67% of running text	40636
+107171	defaults	pending	75	PROPN	{"Defaults": 37, "defaults": 37, "DEFAULTS": 1}	propn_band: capitalised in 50% of running text	40643
+107188	dhub	pending	75	PROPN	{"DHUB": 72, "DHuB": 1, "dHUB": 1, "Dhub": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40660
+107215	editor-web	pending	75	NOUN	{"editor-web": 75}	shape: hyphenated	40672
+107235	erotics	pending	75	PROPN	{"EROTICS": 61, "EroTICs": 13, "Erotics": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40681
+107266	ferrier	pending	75	PROPN	{"Ferrier": 69, "ferrieres": 6}	propn_band: capitalised in 85% of running text	40699
+107286	full-size	pending	75	PROPN	{"FULL-SIZE": 28, "Full-Size": 27, "full-size": 19, "Full-size": 1}	shape: hyphenated; propn_band: capitalised in 60% of running text	40709
+107311	guen	pending	75	PROPN	{"Guen": 71, "guen": 4}	propn_band: capitalised in 88% of running text	40723
+107329	hmy	pending	75	PROPN	{"HMY": 74, "Hmy": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40730
+107354	interreligiosa	pending	75	PROPN	{"Interreligiosa": 44, "interreligiosas": 26, "INTERRELIGIOSA": 5}	propn_band: capitalised in 63% of running text	40744
+107363	irgc	pending	75	PROPN	{"IRGC": 75}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40753
+107370	ivwr	pending	75	PROPN	{"IVWR": 75}	shape: ends in 'wr' (cut mid-word?); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40759
+107389	kema	pending	75	PROPN	{"KEMA": 54, "Kema": 21}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40765
+107413	lege	pending	75	PROPN	{"lege": 50, "Lege": 14, "LEGE": 11}	propn_band: capitalised in 22% of running text	40771
+107433	locken	pending	75	PROPN	{"LOCKEN": 59, "Locken": 15, "locken": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40781
+107459	matrioska	pending	75	PROPN	{"Matrioska": 53, "matrioska": 18, "MATRIOSKA": 4}	propn_band: capitalised in 60% of running text	40790
+107486	molecule	pending	75	PROPN	{"Molecule": 64, "molecule": 10, "MOLECULE": 1}	propn_band: capitalised in 86% of running text	40802
+107512	nij	pending	75	PROPN	{"NIJ": 67, "Nij": 8}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40813
+107524	odx	pending	75	PROPN	{"ODX": 73, "odx": 2}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40821
+107546	owc	pending	75	PROPN	{"OWC": 75}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40829
+107564	phon	pending	75	PROPN	{"Phon": 54, "phon": 17, "Phones": 3, "PHON": 1}	propn_band: capitalised in 77% of running text	40836
+107584	predimed	pending	75	PROPN	{"PREDIMED": 65, "Predimed": 10}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40845
+107597	pzf	pending	75	PROPN	{"PZF": 75}	diversity: in 37 documents, 0.49 of the 75 occurrences' random spread (threshold 0.6); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40856
+107637	rko	pending	75	PROPN	{"RKO": 74, "Rko": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40873
+107655	sapica	pending	75	PROPN	{"SAPICA": 73, "Sapica": 2}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40881
+107661	scissors	pending	75	PROPN	{"Scissors": 67, "scissors": 5, "SCISSORS": 3}	propn_band: capitalised in 88% of running text	40886
+107669	sevr	pending	75	NOUN	{"Sevres": 69, "sevres": 5, "SEVR": 1}	shape: ends in 'vr' (cut mid-word?)	40891
+107675	shook	pending	75	PROPN	{"Shook": 73, "shook": 2}	propn_band: capitalised in 88% of running text	40895
+107691	sorbida	pending	75	PROPN	{"Sorbida": 74, "SORBIDA": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40903
+107708	sub-región	pending	75	NOUN	{"sub-región": 64, "Sub-región": 10, "Sub-Región": 1}	shape: hyphenated	40909
+107728	tecnic	pending	75	PROPN	{"TECNIC": 43, "Tecnic": 32}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40919
+107743	ticinese	pending	75	PROPN	{"Ticinese": 73, "ticinese": 2}	propn_band: capitalised in 82% of running text	40929
+107759	tri-citie	pending	75	VERB	{"Tri-Cities": 75}	citation: spelling written 0 times as a word, against 75 occurrences; shape: hyphenated	40937
+107766	tvg	pending	75	PROPN	{"TVG": 72, "Tvg": 3}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40941
+107773	unag	pending	75	PROPN	{"UNAG": 75}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40946
+107786	vbz	pending	75	PROPN	{"VBZ": 75}	diversity: in 41 documents, 0.55 of the 75 occurrences' random spread (threshold 0.6); shape: ends in 'bz' (cut mid-word?); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40954
+107796	vinf	pending	75	PROPN	{"VINF": 74, "Vinf": 1}	diversity: in 32 documents, 0.43 of the 75 occurrences' random spread (threshold 0.6); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40960
+107808	weathering	pending	75	PROPN	{"Weathering": 61, "weathering": 11, "WEATHERING": 3}	propn_band: capitalised in 85% of running text	40965
+107821	xfp	pending	75	PROPN	{"XFP": 74, "xfp": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40971
+107844	ío	pending	75	NOUN	{"Ío": 72, "ío": 3}	shape: length 2	40978
+107862	afnor	pending	74	PROPN	{"AFNOR": 69, "Afnor": 5}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	40991
+107879	alencon	pending	74	PROPN	{"Alencon": 65, "alencon": 6, "ALENCON": 3}	propn_band: capitalised in 87% of running text	40999
+107898	anti-héroe	pending	74	NOUN	{"anti-héroe": 62, "anti-héroes": 9, "Anti-héroes": 3}	shape: hyphenated	41009
+107908	aog	pending	74	PROPN	{"AOG": 72, "Aog": 1, "aOg": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41018
+107931	auxiliary	pending	74	PROPN	{"Auxiliary": 53, "auxiliary": 13, "AUXILIARY": 8}	propn_band: capitalised in 71% of running text	41028
+107968	beverages	pending	74	PROPN	{"Beverages": 61, "BEVERAGES": 9, "beverages": 4}	propn_band: capitalised in 86% of running text	41038
+107984	caae	pending	74	PROPN	{"CAAE": 72, "caae": 2}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41045
+108008	ccdf	pending	74	PROPN	{"CCDF": 74}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41056
+108019	chakana	pending	74	PROPN	{"Chakana": 66, "chakana": 7, "CHAKANA": 1}	propn_band: capitalised in 85% of running text	41062
+108041	cntl	pending	74	PROPN	{"CNTL": 74}	shape: ends in 'tl' (cut mid-word?); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41070
+108061	crocheted	pending	74	PROPN	{"Crocheted": 66, "crocheted": 8}	propn_band: capitalised in 89% of running text	41082
+108080	delica	pending	74	PROPN	{"Delica": 49, "DELICA": 12, "delicate": 6, "delica": 5, "delicas": 2}	propn_band: capitalised in 65% of running text	41094
+108100	disposal	pending	74	PROPN	{"Disposal": 61, "disposal": 10, "DISPOSAL": 3}	propn_band: capitalised in 86% of running text	41109
+108114	dsgm	pending	74	PROPN	{"DSGM": 74}	diversity: in 40 documents, 0.54 of the 74 occurrences' random spread (threshold 0.6); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41115
+108124	ecx	pending	74	PROPN	{"ECX": 70, "ecx": 2, "ECx": 1, "Ecx": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41122
+108140	espanhol	pending	74	PROPN	{"Espanhol": 62, "espanhol": 10, "ESPANHOL": 1, "espanholes": 1}	propn_band: capitalised in 74% of running text	41135
+108152	explícita	pending	74	PROPN	{"EXPLÍCITA": 74}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41145
+108170	fnb	pending	74	PROPN	{"FNB": 72, "FnB": 2}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41153
+108187	gamut	pending	74	PROPN	{"gamut": 34, "Gamut": 32, "GAMUT": 8}	propn_band: capitalised in 48% of running text	41161
+108200	gkfx	pending	74	PROPN	{"GKFX": 74}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41167
+108227	hasco	pending	74	PROPN	{"HASCO": 54, "Hasco": 19, "hasco": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41175
+108247	hns	pending	74	PROPN	{"HNS": 71, "hns": 3}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41185
+108269	iiu	pending	74	PROPN	{"IIU": 72, "Iiu": 1, "IIu": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41194
+108289	isags	pending	74	PROPN	{"ISAGS": 73, "Isags": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41206
+108294	izod	pending	74	PROPN	{"Izod": 44, "IZOD": 23, "izod": 7}	propn_band: capitalised in 78% of running text	41210
+108309	joined	pending	74	PROPN	{"joined": 28, "Joined": 27, "JOINED": 19}	propn_band: capitalised in 22% of running text	41215
+108332	kitchens	pending	74	PROPN	{"Kitchens": 69, "kitchens": 3, "KITCHENS": 2}	propn_band: capitalised in 72% of running text	41220
+108351	lgl	pending	74	PROPN	{"LGL": 73, "Lgl": 1}	shape: ends in 'gl' (cut mid-word?); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41226
+108362	lns	pending	74	PROPN	{"LNS": 73, "LNs": 1}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41233
+108377	lunigiana	pending	74	PROPN	{"Lunigiana": 70, "lunigiana": 3, "LUNIGIANA": 1}	propn_band: capitalised in 82% of running text	41239
+108393	mainstreaming	pending	74	PROPN	{"mainstreaming": 40, "Mainstreaming": 34}	propn_band: capitalised in 22% of running text	41245
+108413	mdmp	pending	74	PROPN	{"MDMP": 70, "mdmp": 4}	diversity: in 41 documents, 0.55 of the 74 occurrences' random spread (threshold 0.6); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41251
+108427	mini-torneo	pending	74	NOUN	{"mini-torneos": 63, "mini-torneo": 11}	shape: hyphenated	41259
+108444	motus	pending	74	PROPN	{"Motus": 58, "motus": 9, "MOTUS": 7}	propn_band: capitalised in 87% of running text	41267
+108459	ne-yo	pending	74	NOUN	{"Ne-Yo": 71, "Ne-yo": 3}	shape: hyphenated	41273
+108466	no-personal	pending	74	ADJ	{"no-personal": 57, "No-Personal": 11, "No-personal": 4, "no-personales": 2}	shape: hyphenated	41279
+108499	pampero-oficial	pending	74	NOUN	{"Pampero-Oficial": 74}	diversity: in 44 documents, 0.59 of the 74 occurrences' random spread (threshold 0.6); shape: hyphenated	41291
+108512	patrimoine	pending	74	PROPN	{"Patrimoine": 60, "patrimoine": 9, "PATRIMOINE": 5}	propn_band: capitalised in 87% of running text	41298
+108547	powerstation	pending	74	PROPN	{"powerstation": 40, "POWERSTATION": 23, "PowerStation": 7, "Powerstation": 4}	propn_band: capitalised in 22% of running text	41319
+108571	rajput	pending	74	PROPN	{"Rajput": 55, "rajput": 16, "Rajputs": 2, "rajputs": 1}	propn_band: capitalised in 73% of running text	41327
+108581	regrababl	pending	74	ADJ	{"regrabables": 73, "Regrabables": 1}	citation: spelling written 0 times as a word, against 74 occurrences; shape: ends in 'bl' (cut mid-word?)	41334
+108613	santoku	pending	74	PROPN	{"Santoku": 62, "santoku": 9, "SANTOKU": 3}	propn_band: capitalised in 81% of running text	41344
+108634	sermorelin	pending	74	PROPN	{"Sermorelin": 61, "sermorelin": 13}	propn_band: capitalised in 82% of running text	41353
+108645	sistemi	pending	74	PROPN	{"Sistemi": 56, "SISTEMI": 11, "sistemi": 7}	propn_band: capitalised in 85% of running text	41358
+108658	sportfishing	pending	74	PROPN	{"Sportfishing": 70, "SPORTFISHING": 2, "sportfishing": 2}	propn_band: capitalised in 86% of running text	41365
+108668	sub-regional	pending	74	ADJ	{"sub-regional": 54, "Sub-regional": 9, "Sub-Regional": 7, "sub-regionales": 3, "Sub-regionales": 1}	shape: hyphenated	41371
+108688	thee	pending	74	PROPN	{"Thee": 48, "thee": 23, "THEE": 3}	propn_band: capitalised in 68% of running text	41383
+108708	tramway	pending	74	PROPN	{"Tramway": 63, "tramway": 8, "TRAMWAY": 2, "tramways": 1}	propn_band: capitalised in 78% of running text	41392
+108726	ue-alc	pending	74	X	{"UE-ALC": 74}	shape: hyphenated	41402
+108741	vcb	pending	74	PROPN	{"VCB": 70, "Vcb": 4}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41408
+108763	vt-d	pending	74	NOUN	{"VT-d": 74}	shape: hyphenated	41415
+108781	wishbone	pending	74	PROPN	{"Wishbone": 61, "wishbone": 10, "WishBone": 2, "WISHBONE": 1}	propn_band: capitalised in 80% of running text	41421
+108789	xbn	pending	74	PROPN	{"XBN": 74}	shape: ends in 'bn' (cut mid-word?); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41425
+108804	ztr	pending	74	PROPN	{"ZTR": 70, "Ztr": 3, "ztr": 1}	shape: ends in 'tr' (cut mid-word?); propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41429
+108821	actop	pending	73	PROPN	{"ACTOP": 47, "Actop": 26}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41440
+108837	agpa	pending	73	PROPN	{"AGPA": 73}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41451
+108844	aidesep	pending	73	PROPN	{"AIDESEP": 56, "Aidesep": 17}	propn_band: proper noun with no case evidence (all-capitals or sentence-initial)	41458
+108862	animándono	pending	73	NOUN	{"animándonos": 73}	citation: spelling written 0 times as a word, against 73 occurrences	41465
+108876	asiático-americano	pending	73	ADJ	{"asiático-americanos": 61, "asiático-americano": 9, "Asiático-americano": 1, "Asiático-americanos": 1, "Asiático-Americano": 1}	shape: hyphenated	41474
+108885	auditabl	pending	73	NOUN	{"auditables": 73}	citation: spelling written 0 times as a word, against 73 occurrences; shape: ends in 'bl' (cut mid-word?)	41479
+108910	bez	pending	73	PROPN	{"Bez": 37, "BEZ": 28, "bez": 8}	propn_band: capitalised in 61% of running text	41487
+108919	blooms	pending	73	PROPN	{"Blooms": 57, "blooms": 13, "BLOOMS": 3}	propn_band: capitalised in 80% of running text	41492
+108932	brise	pending	73	PROPN	{"Brise": 33, "brise": 22, "BRISE": 11, "brises": 7}	propn_band: capitalised in 53% of running text	41498
