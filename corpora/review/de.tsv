@@ -20580,3 +20580,146 @@ Kriftel	drop	place name not on the list
 Leggin	merge:Leggings	singular back-formation of Leggings
 Preisvergleiche	merge:Preisvergleich	plural filed as lemma
 Schrittlänge	keep	ordinary compound noun, correctly capitalised
+# round 11 (pulled in by round 10)
+Sicherheits-Update	keep	real German hyphenated compound
+Sinatra	drop	person's surname
+Urtikaria	keep	real medical noun (Nesselsucht), wrongly tagged as a name
+Verhinder	merge:verhindern	cut-off lemma, written as verhindern
+Visits	drop	English web-statistics term, not established in German
+Yankee	keep	ordinary German word; the Yankee Candle uses are only the tagger's reading
+fire	drop	English word, not established in German
+hallesch	drop	demonym adjective of Halle, which is not on the learnable list
+walk	drop	English word, not established in German
+AUD	drop	currency code, not a learner word
+Acoustic	drop	English word, not established in German
+Android-Betriebssystem	keep	real German compound
+Associates	drop	English name or word, not established in German
+BAYERN	merge:Bayern	capitalised variant of a major region
+Blockflöt	merge:Blockflöte	cut-off lemma
+Bloody	drop	English word, not established in German
+CFR	drop	technical acronym
+Dorothy	drop	first name
+Evangelisch-Lutherisch	keep	real German compound adjective
+Festool	drop	brand
+GRIN	drop	name or acronym, no evidence of a word
+Hemingway	drop	person's surname
+KPI	drop	technical acronym used by specialists
+Mahjongg	keep	established game name, used as a common noun
+Metropolis	drop	all examples are names (Fritz Lang's film, a cinema, a magazine title); the common noun a learner needs is Metropole, a separate entry
+Monteurzimmer	keep	real German compound
+Mossad	keep	nationally famous institution
+Musikgeschäft	keep	common noun wrongly tagged as a name
+NAD	drop	acronym, no evidence of a word
+Nuclear	drop	English word, not established in German
+Pabst	drop	mostly a surname
+Pb	drop	chemical symbol
+Pence	drop	English currency unit or surname
+Penelope	drop	first name
+Pound	drop	English word or name, not established in German
+Radkersburg	drop	small town, not on the learnable list
+Raids	drop	English gaming term, not established in German
+Razzien	merge:Razzia	plural filed as lemma
+Roß	drop	mostly a surname
+Samir	drop	first name
+Tipi	keep	common noun (tent), tagger mistook it for a name
+VVK	drop	abbreviation of Vorverkauf, to be lemmatised to the full word
+Vietnamese	keep	demonym, ordinary German word (der Vietnamese)
+Vor-Ort-Termin	keep	real German compound
+Westfalica	drop	minor place name (Porta Westfalica)
+Würsel	drop	minor town (Würselen), not on the learnable list
+horren	merge:horrend	"horrende" is an inflected form of horrend
+nano	drop	prefix/brand, not a learnable word
+nature	drop	English word not established in German
+Allenfall	merge:allenfalls	clipped lemma, the real adverb is allenfalls
+Azteke	keep	real noun, dictionary form of Azteken
+BFH-Urteil	keep	real German compound (court ruling)
+Beifuß	keep	common noun (the herb mugwort), not a name
+# round 11s (screen of 39,700-40,000)
+bye	drop	English interjection, not an established loan
+Umberto	drop	personal name
+afp	drop	news agency acronym
+alkohol	merge:Alkohol	lower-case noun
+drinn	merge:drinnen	misspelt/colloquial form
+ess	merge:essen	imperative/stem form
+führ	merge:führen	imperative/stem form
+innehatte	merge:innehaben	conjugated form
+kaltgepresst	keep	adjective in its own right
+katz	merge:Katze	truncated lower-case noun
+papa	merge:Papa	lower-case noun
+patient	merge:Patient	lower-case noun
+rauszuholen	merge:rausholen	zu-infinitive
+toom	drop	brand name
+trainer	merge:Trainer	lower-case noun
+wirksamste	merge:wirksam	inflected superlative
+zielorientierte	merge:zielorientiert	inflected adjective
+zusammenarbeit	merge:Zusammenarbeit	lower-case noun
+Alnatura	drop	brand name
+Arber	drop	place name (mountain), not on list
+Aufstehe	merge:aufstehen	nominalised infinitive, productive
+Drolshagen	drop	place name not on list
+Grossbank	merge:Großbank	Swiss ss spelling
+Istanbuler	drop	demonym of Istanbul, which is not on the learnable places list (Istanbul itself dropped)
+Jülicher	drop	minor place demonym or surname
+Kaiserliche	merge:kaiserlich	inflected adjective
+Klumpe	merge:Klumpen	cut-off form
+Peek	drop	brand/name
+Piotr	drop	personal name
+Themenbereiche	merge:Themenbereich	plural/inflected form
+Theresienwiese	drop	place name (a Munich site) not on the learnable places list
+Unendlich	merge:unendlich	capitalised adjective
+Volumina	merge:Volumen	plural form
+Zehnder	drop	surname
+ausserhalb	merge:außerhalb	Swiss ss spelling
+leistungsgerechte	merge:leistungsgerecht	inflected adjective
+medizin	merge:Medizin	lower-case noun
+prinzip	merge:Prinzip	lower-case noun
+referenziert	merge:referenzieren	participle/inflected form
+remis	merge:Remis	lower-case noun
+ueberhaupt	merge:überhaupt	transliterated ü spelling of überhaupt
+Abby	drop	personal name
+Abfüll	merge:abfüllen	cut-off verb stem; counts are almost all the infinitive/nominalisation of abfüllen
+Balzer	drop	surname
+# round 12 (pulled in by round 11)
+Britain	drop	English name, foreign
+Brucker	drop	surname
+Bruyne	drop	surname
+Clarissa	drop	first name
+Coutur	merge:Couture	cut-off spelling of Couture
+DMX	drop	technical acronym
+Denny	drop	first name
+Detective	drop	English word, not established
+Ear	drop	English word
+Elijah	drop	first name
+Fantastic	drop	English word, not established
+Fatigue	drop	English medical term, not established
+Grind	drop	English word
+Göring	drop	surname
+HERE	drop	English word or brand
+HRK	drop	currency code, not a word
+Hapag-Lloyd	drop	company name
+Hashimoto	drop	surname
+Idlib	drop	foreign town, not on the place list
+Kapitänin	keep	real German noun, wrongly tagged as a name
+Kuhlmann	drop	surname
+LTD	drop	company-form abbreviation
+Liisa	drop	first name
+Limbach	drop	town or surname
+Locher	keep	common noun (hole punch)
+Lück	drop	surname
+Micaela	drop	first name
+Nami	drop	name
+Options	drop	English word
+Organza	keep	common noun (fabric)
+Pipe	drop	English word
+Refugee	drop	English word, not established
+Rhododendron	keep	common noun
+Roomba	drop	brand, not genericised
+SAB	drop	minor organisation acronym
+Scuderia	drop	racing team name
+# round 12s (screen of 39,900-40,000)
+Capo	drop	counts are Italian place names (Capo Vaticano, Capo Zafferano); by its own reading (rule 13) "Capo" (mafia boss, guitar capo) is marginal jargon, not an established loan a learner meets
+Everton	drop	football club name, not on any list
+Ignorier	merge:ignorieren	truncated stem, mostly counted as ignorieren
+Praktikern	merge:Praktiker	dative plural filed as lemma
+Rima	drop	foreign word or name
+Rouladen	merge:Roulade	plural filed as lemma, not plural-only

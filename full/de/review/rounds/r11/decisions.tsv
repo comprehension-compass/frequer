@@ -1,0 +1,54 @@
+# lemma	decision	reason	how	rank
+Sicherheits-Update	keep	real German hyphenated compound	agreed	49872
+Sinatra	drop	person's surname	agreed	49874
+Urtikaria	keep	real medical noun (Nesselsucht), wrongly tagged as a name	agreed	49890
+Verhinder	merge:verhindern	cut-off lemma, written as verhindern	agreed	49891
+Visits	drop	English web-statistics term, not established in German	agreed	49892
+Yankee	keep	ordinary German word; the Yankee Candle uses are only the tagger's reading	agreed	49893
+fire	drop	English word, not established in German	agreed	49911
+hallesch	drop	demonym adjective of Halle, which is not on the learnable list	agreed	49917
+walk	drop	English word, not established in German	agreed	49931
+AUD	drop	currency code, not a learner word	agreed	49939
+Acoustic	drop	English word, not established in German	agreed	49941
+Android-Betriebssystem	keep	real German compound	agreed	49944
+Associates	drop	English name or word, not established in German	agreed	49947
+BAYERN	merge:Bayern	capitalised variant of a major region	agreed	49950
+Blockflöt	merge:Blockflöte	cut-off lemma	agreed	49955
+Bloody	drop	English word, not established in German	agreed	49956
+CFR	drop	technical acronym	agreed	49957
+Dorothy	drop	first name	agreed	49960
+Evangelisch-Lutherisch	keep	real German compound adjective	agreed	49968
+Festool	drop	brand	agreed	49972
+GRIN	drop	name or acronym, no evidence of a word	agreed	49974
+Hemingway	drop	person's surname	agreed	49982
+KPI	drop	technical acronym used by specialists	agreed	49987
+Mahjongg	keep	established game name, used as a common noun	agreed	49999
+Metropolis	drop	all examples are names (Fritz Lang's film, a cinema, a magazine title); the common noun a learner needs is Metropole, a separate entry	adjudicated	50001
+Monteurzimmer	keep	real German compound	agreed	50003
+Mossad	keep	nationally famous institution	agreed	50004
+Musikgeschäft	keep	common noun wrongly tagged as a name	agreed	50006
+NAD	drop	acronym, no evidence of a word	agreed	50007
+Nuclear	drop	English word, not established in German	agreed	50010
+Pabst	drop	mostly a surname	agreed	50012
+Pb	drop	chemical symbol	agreed	50014
+Pence	drop	English currency unit or surname	agreed	50016
+Penelope	drop	first name	agreed	50017
+Pound	drop	English word or name, not established in German	agreed	50021
+Radkersburg	drop	small town, not on the learnable list	agreed	50023
+Raids	drop	English gaming term, not established in German	agreed	50025
+Razzien	merge:Razzia	plural filed as lemma	agreed	50027
+Roß	drop	mostly a surname	agreed	50029
+Samir	drop	first name	agreed	50030
+Tipi	keep	common noun (tent), tagger mistook it for a name	agreed	50044
+VVK	drop	abbreviation of Vorverkauf, to be lemmatised to the full word	agreed	50048
+Vietnamese	keep	demonym, ordinary German word (der Vietnamese)	agreed	50051
+Vor-Ort-Termin	keep	real German compound	agreed	50053
+Westfalica	drop	minor place name (Porta Westfalica)	agreed	50055
+Würsel	drop	minor town (Würselen), not on the learnable list	agreed	50057
+horren	merge:horrend	"horrende" is an inflected form of horrend	agreed	50073
+nano	drop	prefix/brand, not a learnable word	agreed	50077
+nature	drop	English word not established in German	agreed	50078
+Allenfall	merge:allenfalls	clipped lemma, the real adverb is allenfalls	agreed	50094
+Azteke	keep	real noun, dictionary form of Azteken	agreed	50101
+BFH-Urteil	keep	real German compound (court ruling)	agreed	50102
+Beifuß	keep	common noun (the herb mugwort), not a name	agreed	50107
