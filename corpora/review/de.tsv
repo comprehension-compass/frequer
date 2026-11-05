@@ -21929,3 +21929,19 @@ Pris	merge:Prise	Truncated or inflected form of Prise
 Redmi	drop	Brand name
 Reichsmark	keep	Established German noun for a historical currency
 Setlist	keep	Established loan
+# round 18 (pulled in by round 17)
+Sitzbänk	merge:Sitzbank	clipped lemma; forms are plural of Sitzbank
+Tec	drop	name/brand fragment
+Timberlake	drop	person's surname
+Uniklinikum	keep	common noun mistagged as name (university hospital)
+Weser-Ems	drop	minor region/place name, not on learnable list
+Winning	drop	surname/place, not English word in German use
+Yello	drop	brand/company
+Yogapraxis	keep	common noun, real German compound
+# round 18s (both screens, 39,970-40,000)
+Steuerfachangestellte	keep	Substantivierte Adjektivform wie Angestellte, lexikalisiert als Berufsbezeichnung
+Südliche	merge:südlich	Großgeschriebenes Adjektiv, flektierte Form südlichen im Text
+Telgte	drop	Ortsname, nicht auf der Liste
+Traden	merge:traden	Produktiver -en-Infinitiv eines Verbs, Regel 9
+Venlo	drop	Ortsname, nicht auf der Liste
+angerufen	merge:anrufen	Flektiertes Partizip (angerufene), kein eigener Adjektiveintrag
