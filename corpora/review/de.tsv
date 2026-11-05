@@ -21945,3 +21945,11 @@ Telgte	drop	Ortsname, nicht auf der Liste
 Traden	merge:traden	Produktiver -en-Infinitiv eines Verbs, Regel 9
 Venlo	drop	Ortsname, nicht auf der Liste
 angerufen	merge:anrufen	Flektiertes Partizip (angerufene), kein eigener Adjektiveintrag
+# round 19s (both screens, 39,980-40,000)
+blondin	merge:Blondine	lower-case misfiled form; real noun is Blondine
+durchgefickt	drop	vulgar/offensive word, filtered as a class
+fehlgeleitet	keep	participial adjective with its own dictionary entry
+gereichen	keep	real verb lemma (zu etwas gereichen); POS tag is wrong but the lemma is valid
+gewalt	merge:Gewalt	noun filed under lower-case lemma
+gleichbleiben	keep	verb is a valid lemma; forms are mostly gleichbleibend but the lemma's own reading is the verb
+gleichlautend	keep	established participial adjective with its own entry

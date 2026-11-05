@@ -1,0 +1,8 @@
+# lemma	decision	reason	how	rank
+blondin	merge:Blondine	lower-case misfiled form; real noun is Blondine	agreed	50626
+durchgefickt	drop	vulgar/offensive word, filtered as a class	agreed	50630
+fehlgeleitet	keep	participial adjective with its own dictionary entry	agreed	50632
+gereichen	keep	real verb lemma (zu etwas gereichen); POS tag is wrong but the lemma is valid	agreed	50634
+gewalt	merge:Gewalt	noun filed under lower-case lemma	agreed	50635
+gleichbleiben	keep	verb is a valid lemma; forms are mostly gleichbleibend but the lemma's own reading is the verb	agreed	50637
+gleichlautend	keep	established participial adjective with its own entry	agreed	50638
