@@ -1,0 +1,7 @@
+# lemma	A	reason A	B	reason B
+martiro	drop	part of Armenian name Martiros Saryan	merge:Martiros	name Martiros Saryan, not a word
+screener	keep	established loan in film industry	drop	English loan, specialist film-industry term
+traverso	drop	mostly a surname, or foreign "traversa"	keep	"flauta traversa" is a real Spanish adjective, about 47% of the examples
+alfa-bloqueador	merge:alfabloqueador	hyphenated spelling of the standard one-word form	drop	hyphenated specialist term
+re-establecer	merge:restablecer	hyphenated variant of restablecer	merge:reestablecer	hyphenated spelling of reestablecer
+titano	keep	real Spanish word (titanium/titan), though many examples are the place Monte Titano	drop	mostly the Monte Titano place name; the metal sense is a mistaken form of titanio

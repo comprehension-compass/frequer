@@ -1,0 +1,25 @@
+# question alfa-bloqueador: unclear whether alfabloqueador or alfabloqueante is the standard Spanish form
+# question auto-sanación: I merged it into autosanación on the assumption that this is the standard spelling, but I'm not sure it is already a listed lemma.
+# question auto-sanación: autosanación is not clearly an established word; merge assumes the solid spelling is the list form
+# question autocares: plural of autocar filed as a lemma, but the examples are company names, so dropped rather than merged
+# question comedor-salón: hyphenated compound dropped per rule; could alternatively be considered a real-estate unit.
+# question fruncido: tagged PROPN with little evidence, kept as the ordinary participle/adjective
+# question hinayana: Buddhist doctrinal term found in Spanish dictionaries; dropped as too specialist, but a keep would also be defensible.
+# question hinayana: Buddhist term used in Spanish texts but specialist and mostly capitalised; dropped as specialist
+# question hualapai: lowercase ethnonyms keep, but 85% of uses are capitalised names (and Hualapai Ranch), so I dropped it.
+# question hualapai: rules keep lowercase ethnonyms, but this is a non-Spanish tribe name mostly capitalised and also a place; dropped
+# question israelo-palestino: hyphenated compound of israelo + palestino; kept as an established single adjective, but could be dropped under the hyphenated-compound rule.
+# question israelo-palestino: hyphenated compound of two gentilics; rule says hyphenated compounds of two listed words drop, but this is a single established adjective, so kept.
+# question martiro: lemma is a name fragment (Martiros Saryan), not the real word mártir; there is no obvious merge target, so the merge target given is unclear and drop may be better.
+# question meseni: Mecanismo Especial de Seguimiento para Nicaragua is an IACHR body; I dropped it as too minor, but the international-bodies rule could cover it.
+# question meseni: could be kept as an international body (CIDH mechanism), but it is a temporary mission, so dropped
+# question no-dualidad: could instead merge into a single-word form (nodualidad), but I dropped it as a hyphenated compound.
+# question pre-grabadas: no rule on whether pregrabado is the form written without a hyphen; merged assuming standard spelling pregrabado
+# question serreta: Spanish serreta (a toothed tool or horse noseband) is a real word, but the examples are mostly place names, so I dropped it. Check if a corpus sample shows a larger real-word share.
+# question serreta: serreta is a real Spanish word (noseband, small saw, a type of key) but most examples are place names; dropped because the real reading looks under a third.
+# question sugo: Italian loan with uncertain establishment in Spanish; kept as a sauce word
+# question sugo: capitalised in 80% of the examples and the only example reads like a menu item, so the common-word reading may be under a third; kept as the Argentine/Uruguayan word for pasta sauce.
+# question terminados: merged into terminado, but the capitalised heading uses may be a separate noun sense.
+# question titano: mix of Monte Titano (place), titanio variant (aleación de titano) and mythological titan; kept as the common word, real reading may be below a third
+# question twas: international academy of sciences, but not a household name like Unesco; dropped as an ordinary organisation.
+# question txotx: Basque loan; kept because it is widely used in Spain for the cider season and ritual, though it is regional.
