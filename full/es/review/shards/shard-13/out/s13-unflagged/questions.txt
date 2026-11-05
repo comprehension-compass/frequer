@@ -1,0 +1,39 @@
+# question amurar: forms (amura, amurado, amuro) are mixed; dropped as nautical jargon, but amura could be kept as a noun
+# question amurar: split by form: amura, amuradas -> amura
+# question bikiní: bikini and biquini are both accepted spellings; merged into bikini on the assumption that is the list's form.
+# question choctaw: mostly capitalised in the sample, so it may be a name rather than a lowercase ethnonym; kept as an ethnonym
+# question ciano: the colour cian is a DLE word, but the lemma is mostly the surname Ciano, so dropped
+# question clarithromycin: the text is English, but claritromicina is a common generic antibiotic, so I merged it. Drop instead if only Spanish-form drug names should be counted.
+# question clarithromycin: the text is untranslated English drug leaflets, so it could be dropped as a specialist drug; I treated it as a common generic antibiotic whose English spelling merges into claritromicina.
+# question coatita: biblical clan name used as a lowercase ethnonym; kept as ethnonym, could be treated as a proper noun
+# question creepers: Minecraft "creepers" is used in Spanish gaming text and the shoe style is also common; I judged it not established enough and dropped it.
+# question cubicar: forms are mostly cubico/cubicas, probably cúbico without the accent, but the verb cubicar (8 cubicar, 4 cubicaron) is also real; I chose the majority reading
+# question cubicar: no examples were shown; I assumed cubico/cubicas are mostly misspelt cúbico/cúbicas, but "cubicar" (to measure volume) is a real verb, so a split by form may be needed: split by form: cubicar, cubicaron, Cubique -> cubicar.
+# question elementar: forms (elementares, elementes, Elementaría) look Portuguese or garbled; merge:elemental was considered but is not clear
+# question elementar: forms (elementares, elementes, Elementaría) mix elemental plural and noise; dropped, but elementares could merge into elemental
+# question escán: no examples; assumed a clipped form of escáner, though it could be a different word
+# question escán: no examples; merged to escáner on the assumption it is a clipped form of the scan loan
+# question fakes: is "fake" itself on the list as a loan? Merged on the assumption it is.
+# question fakes: possible merge into fake if "fake" is an established loan; dropped for now
+# question fluídica: RAE lists fluídico, but fluido/fluídico may be preferred; merged into fluídico as the lemma form
+# question fluídica: the accent on fluídico is uncertain, I merged it to fluídico as the spelling in the counted text.
+# question foodies: is "foodie" established enough in Spanish? Merged on the assumption it is.
+# question fuéle: rules cover clitics -nos/-te only; I merged to the plain verb ser for the archaic fue + le
+# question gamonal: real Spanish word (cacique) is present in lowercase and plural forms but is under a third of examples; dropped as mainly a place name.
+# question hoster: split by form: hostería -> hostería
+# question háganse: could also merge into plain hacer; I chose hacerse since "hacerse escuchar" is a pronominal use
+# question incompresible: examples mix the real physics word with misspellings of incomprensible; kept as the real word.
+# question incompresible: the real physics reading is about a third of the examples; the other two are typos for incomprensible
+# question kasba: casba is the RAE form, but the list may prefer the form people write (kasba); merged to the academy form
+# question marcaria: could also be marcaría (conditional of marcar) without the accent, but the examples all show the adjective, so merged into marcario
+# question marcaria: possibly the rare adjective marcario (imagen marcaria), but some hits may be the verb form marcaría. Dropped as too rare and mixed.
+# question mariscar: split by form: mariscada, mariscadas, Mariscadas -> mariscada
+# question microempresaria: rules keep nouns with their own feminine entry, but this is only a regular -a form of microempresario, so I merged it
+# question montadora: it may be a Portuguese-influenced feminine ("automaker") that could instead merge into montador
+# question pecanas: the lemma could be pecano or pecana; I chose pecana, as in "nuez pecana".
+# question pegilado: adapted medical adjective, could count as a common generic drug term; dropped as specialist
+# question playitas: the common-noun reading (small beaches) is unclear and below a third of the examples, so dropped
+# question quántum: the form is mixed with the company name Quanta System and the plural "quanta"; unclear whether the target should be quantum or cuanto
+# question rodiada: target could be rodiar (verb) vs rodiado (adjective); chose the adjective since it is used as one
+# question semillita: diminutives are not covered by the rules; kept as separate entries (same for viajecito)
+# question tethering: the rules don't settle whether it is an established loan; dropped
