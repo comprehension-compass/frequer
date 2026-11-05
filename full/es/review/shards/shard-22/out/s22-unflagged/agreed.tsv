@@ -1,0 +1,164 @@
+# lemma	decision	reason
+redbet	drop	brand name
+reichsführer	drop	German title, not established in Spanish
+relacionadoscon	drop	fused-words web artefact
+sintiéndolo	merge:sentir	gerund with clitic, filed as a lemma
+tetri	drop	Tetris brand and truncated fragment
+triquiñuela	keep	real Spanish noun
+volteándolo	merge:voltear	gerund with clitic
+adelgazador	keep	real Spanish adjective
+aweber	drop	brand name
+bachear	keep	real Spanish verb, bacheo family
+circontrol	drop	company name
+condenándolo	merge:condenar	gerund with clitic
+dasein	drop	German philosophical term
+despina	drop	personal name
+doughnut	drop	English word, Spanish uses dona; mostly brand/name uses
+elejir	merge:elegir	misspelling
+fallback	drop	English technical term, not established
+gstreamer	drop	software name
+hamadoun	drop	personal name
+ifoam	drop	specialist organisation acronym
+ingréselo	merge:ingresar	imperative with clitic
+medioambienteohsas	drop	fused web artefact
+novorossiysk	drop	place name
+oina	drop	acronym, no evidence
+ontivero	drop	surname
+paratransit	drop	English word, not established
+ripollés	drop	comarca name
+solidariedad	merge:solidaridad	misspelling
+tedizolid	drop	specialist drug
+trajinera	keep	real Spanish noun (Xochimilco boat)
+wáter	keep	established loan, written form
+étnia	merge:etnia	misspelling with extra accent
+adit	drop	abbreviation/English fragment
+aseg	drop	abbreviation
+bonum	drop	Latin word
+canaves	drop	place name (Marco de Canaveses)
+ceñudo	keep	real Spanish adjective
+colpa	drop	Italian word; Spanish sense is only a regional term
+crep	merge:crepe	variant of crêpe
+descontinúe	merge:descontinuar	conjugated verb form
+décor	drop	French word, not established in Spanish; examples are mostly a brand name
+enoxaparin	merge:enoxaparina	English spelling of the Spanish drug name
+esphritu	merge:espíritu	mojibake of "espíritu"
+framerate	keep	gaming and tech loan in common use
+garantizándote	merge:garantizar	gerund with clitic
+gratisdesayuno	drop	web artefact from merged words
+hablá	merge:hablar	voseo imperative form
+jázar	merge:jázaro	feminine form filed as lemma
+lioso	keep	real adjective
+mustio	keep	real adjective
+nuraga	keep	Spanish form of the Sardinian monument
+oldsmar	drop	place name
+parteaguas	keep	real Mexican noun
+playful	drop	English word
+retrodispersión	keep	real Spanish noun, if technical
+revolviéndolo	merge:revolver	gerund with clitic
+saboyano	keep	real Spanish adjective
+sométanse	merge:someterse	imperative with clitic, common pronominal verb
+subcláusula	keep	real Spanish word
+tataki	keep	established dish name on Spanish menus
+utilizen	merge:utilizar	subjunctive form
+vilariño	drop	surname or place name
+zenui	drop	product name
+acercándo	merge:acercar	clitic gerund fragment, mostly acercándolos
+alimonar	merge:alimonado	participle-derived adjective filed under a bad lemma
+arminiano	keep	common noun for an adherent of a doctrine
+balme	drop	place or name
+búzio	drop	place name (Búzios)
+carniceria	merge:carnicería	missing accent
+cienta	drop	cut-off fragment of the -cientas numerals
+colesevelam	drop	specialist drug
+courrier	drop	French word
+decklink	drop	product name
+desarollador	merge:desarrollador	misspelling
+diran	merge:decir	misspelt future form
+décimocuarto	merge:decimocuarto	misspelling
+envíamos	merge:enviar	misaccented present form
+exclude	drop	English word, mostly code and coupon text
+financiamento	merge:financiamiento	Portuguese-style spelling of financiamiento
+galinha	drop	Portuguese word, occurs in the place name Porto de Galinhas
+grecotel	drop	hotel brand
+hehehe	drop	laughter interjection, not a lemma
+histolytica	drop	Latin species epithet
+idiomax	drop	product name
+ingres	drop	name (painter or software)
+lettre	drop	French word, not established in Spanish
+lonche	keep	established Mexican loan (lunch)
+mkdir	drop	code command
+ortopeda	keep	real Spanish word for an orthopaedic specialist
+patil	drop	surname
+possibilidad	merge:posibilidad	misspelling
+quintar	drop	the examples are mostly the place name Quinte, so the real verb reading is a minority
+reconcíliate	merge:reconciliarse	imperative with clitic of the pronominal verb
+roundtable	drop	English word in an organisation name
+sdcard	drop	code or product term
+springback	drop	English technical term
+tantísimos	merge:tanto	regular -ísimo form
+texting	drop	English word not established in Spanish
+tuberosum	drop	Latin species epithet
+últimasordenar	drop	web artefact of merged words
+acídico	merge:ácido	variant of ácido
+aplicaci	merge:aplicación	cut-off fragment
+capacítese	merge:capacitarse	imperative with clitic of the pronominal verb
+cereus	drop	Latin genus name
+comboio	drop	Portuguese word
+crazyxlaura	drop	username
+crossfade	drop	English software term, not established
+despojarlo	merge:despojar	clitic verb form (written despojarlos)
+douz	drop	place name
+duroplast	drop	German material or brand term
+emparejarlo	merge:emparejar	clitic verb form
+enróllalo	merge:enrollar	imperative with clitic
+hispanomusulmán	keep	real Spanish compound adjective
+igame	drop	brand name
+imponiéndole	merge:imponer	gerund with clitic
+interaccionando	merge:interaccionar	gerund form
+kudzu	keep	established plant name loan
+molona	merge:molón	feminine form of molón
+nestoriano	keep	real Spanish adjective (religious/historical term)
+paparazzis	merge:paparazzi	plural filed as lemma
+playout	drop	English broadcast-technical term, not established in Spanish
+propietário	merge:propietario	Portuguese spelling of propietario
+puert	drop	truncated fragment
+revenderlo	merge:revender	clitic form of revender
+sarilumab	drop	specialist drug
+senivpetro	drop	garbled web artefact
+simpatiquísimo	merge:simpático	regular -ísimo superlative
+splatter	keep	established loan for the film genre
+tranylcypromine	drop	specialist English drug name
+afrobeat	keep	music genre used in Spanish
+arrastrador	keep	real Spanish word (agent noun of arrastrar)
+calef	merge:calefacción	abbreviation of calefacción
+cedral	drop	nearly all occurrences are the place name Cedral
+chalán	keep	real word (horse dealer; chalana also a barge)
+chivito	keep	real word (kid goat; Uruguayan dish)
+ciclasa	drop	enzyme-name fragment, specialist
+corpore	drop	Latin fragment
+damajuana	keep	standard Spanish word
+dirije	merge:dirigir	misspelt conjugation
+economicos	merge:económico	missing accent, plural
+eldec	drop	company name
+encapsulante	keep	real word, though technical
+ensu	drop	two words joined, fragment
+estanflación	keep	established economic term
+fursuit	drop	niche English loan
+histopatológicas	merge:histopatológico	feminine plural filed as lemma
+humindex	drop	technical/brand name
+interpretador	keep	real Spanish word (interpretador, -ra)
+macla	keep	real mineral term (twinned crystal)
+mapea	merge:mapear	conjugated form
+mezquital	drop	almost all occurrences are the place name
+minoración	keep	real Spanish noun (fiscal/legal usage)
+mushaba	drop	foreign name, not Spanish
+nitinol	drop	alloy trade name
+ocación	merge:ocasión	misspelling
+onesie	drop	English brand-like word
+padano	drop	Italian cheese/place name (Grana Padano)
+pausanias	drop	person name
+póngalas	merge:poner	imperative poner with clitic -las
+remedial	keep	real adjective in Latin American Spanish (examen remedial)
+sacabocado	keep	real noun (sacabocados, a punch tool)
+sesiona	merge:sesionar	conjugated form of sesionar
+sobrero	drop	mostly surname, with sombrero typos; the bullfighting sense is marginal

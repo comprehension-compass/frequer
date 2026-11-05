@@ -1,0 +1,6 @@
+# lemma	A	reason A	B	reason B
+modulante	keep	real adjective, wrongly tagged ADV	merge:modular	participle form of modular
+encuetra	merge:encontrar	misspelling of encuentra	merge:encontrarse	misspelling of encuentra, here "se encuentra"
+perindopril	drop	specialist ACE-inhibitor drug, not a common generic	keep	common generic antihypertensive drug, like paracetamol/ibuprofeno
+querosén	keep	regional written variant of queroseno, the form people write here	merge:queroseno	variant spelling of queroseno
+semiolímpica	merge:semiolímpico	feminine form filed as lemma	keep	real derived adjective (piscina semiolímpica)
