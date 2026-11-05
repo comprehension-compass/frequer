@@ -934,7 +934,7 @@ mex	drop	code [both reviewers; flag: propn_band]
 parte	keep	common noun [both reviewers; flag: propn_band]
 shadow	drop	English word [both reviewers; flag: foreign]
 tr	drop	abbreviation [both reviewers; flag: propn_band]
-carita	keep	lexicalised diminutive [both reviewers; flag: propn_band]
+carita	merge:cara	regular diminutive of cara (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: lexicalised diminutive [both reviewers; flag: propn_band]
 crc	drop	technical acronym [both reviewers; flag: propn_band]
 dolce	drop	brand [both reviewers; flag: propn_band]
 msc	drop	company [both reviewers; flag: propn_band]
@@ -4759,7 +4759,7 @@ chau	keep	DLE common greeting (Río de la Plata); name contamination does not re
 cnbc	drop	brand [both reviewers; flag: propn_band]
 cognitivo-conductual	keep	established clinical term [both reviewers; flag: shape]
 cord	drop	English [both reviewers; flag: foreign]
-costillita	keep	real diminutive noun; diminutives keep their own lemma [adjudicated; flag: citation]
+costillita	merge:costilla	regular diminutive of costilla (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive noun; diminutives keep their own lemma [adjudicated; flag: citation]
 cov	drop	specialist acronym [both reviewers; flag: propn_band]
 cpvc	drop	technical [both reviewers; flag: propn_band]
 craps	drop	English game [both reviewers; flag: propn_band]
@@ -7050,7 +7050,7 @@ pricing	drop	English business term [both reviewers; flag: foreign]
 pumpkin	drop	English word [both reviewers; flag: foreign]
 qrs	drop	specialist medical term [both reviewers; flag: propn_band]
 quintanaurria	drop	brand [both reviewers; flag: diversity]
-ratoncito	keep	real word (little mouse) [both reviewers; flag: diversity]
+ratoncito	merge:ratón	regular diminutive of ratón (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real word (little mouse) [both reviewers; flag: diversity]
 rbh	drop	brand [both reviewers; flag: propn_band]
 re-enfocar	merge:reenfocar	hyphenated spelling of reenfocar [both reviewers; flag: shape]
 rnb	drop	genre acronym [both reviewers; flag: propn_band]
@@ -10896,7 +10896,7 @@ als	drop	acronym
 bet-el	drop	place not in the learnable-names list, Honeyeater #766 1bf77f0; was pending-names: biblical place
 bossa	drop	fragment
 calcar	keep	real verb
-caminito	keep	diminutive word
+caminito	merge:camino	regular diminutive of camino (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: diminutive word
 comunitat	drop	Catalan
 endpoints	drop	specialist English
 estomagar	merge:estómago	forms are estómago
@@ -11159,7 +11159,7 @@ cofundadora	keep	own feminine entry
 colaborativa	merge:colaborativo	feminine form
 edelweiss	drop	German
 entendiéndose	merge:entender	passive/impersonal se (entendiéndose que)
-gatita	keep	feminine diminutive
+gatita	merge:gato	regular diminutive of gato (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: feminine diminutive
 hachar	merge:hacha	forms and most examples are hacha(s)
 hacks	drop	English
 hipoalergénica	merge:hipoalergénico	feminine form
@@ -11291,7 +11291,7 @@ ont	drop	code
 power-ups	drop	gaming English
 seva	drop	fragment
 softball	merge:sóftbol	English spelling of the adapted word
-solito	keep	diminutive in common use, masculine lemma
+solito	merge:solo	regular diminutive of solo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: diminutive in common use, masculine lemma
 stacy	drop	name
 sueloy	drop	web artefact
 sálvate	merge:salvarse	imperative with clitic
@@ -11687,7 +11687,7 @@ caballer	merge:caballería	fragment
 chios	drop	place not in the learnable-names list, Honeyeater #766 1bf77f0; was pending-names: island
 codearse	keep	pronominal verb
 dad	merge:dar	imperative
-despacito	keep	real diminutive adverb, common
+despacito	merge:despacio	regular diminutive of despacio (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive adverb, common
 dianética	drop	brand
 dkv	drop	company
 ekimae	drop	brand
@@ -13989,7 +13989,7 @@ cumipaz	drop	not a learner word (name, acronym, code, brand, foreign or fragment
 curvy	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
 cuz	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
 cyp	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
-dadito	keep	diminutive
+dadito	merge:dado	regular diminutive of dado (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: diminutive
 dancehall	keep	music genre loan
 dann	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
 deathmatch	drop	not a learner word (name, acronym, code, brand, foreign or fragment)
@@ -15591,7 +15591,7 @@ cochecito	keep	lexicalised diminutive (stroller) [s1-unflagged]
 jubilarse	keep	pronominal verb [s1-unflagged]
 sacrificarse	keep	pronominal verb [s1-unflagged]
 start-up	merge:startup	hyphenated English spelling of a loan Spanish writes solid as startup [s1-unflagged]
-calentito	keep	real adjective [s1-unflagged]
+calentito	merge:caliente	regular diminutive of caliente (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real adjective [s1-unflagged]
 matricularse	keep	pronominal verb [s1-unflagged]
 acollador	drop	occurrences are machine-translated product spam (lanyards), not real usage a learner meets [s1-unflagged]
 prenderse	keep	pronominal verb [s1-unflagged]
@@ -15601,12 +15601,12 @@ desajustar	keep	real verb with its own forms (desajustar, desajusta, desajustado
 amarar	merge:amar	forms (amaremos, amaréis, amaran) are conjugations of amar; the rare amarar reading does not appear [s1-unflagged]
 alita	keep	real diminutive (alitas de pollo) [s1-unflagged]
 briefing	keep	established loan [s1-unflagged]
-cerdito	keep	real diminutive noun [s1-unflagged]
-patito	keep	real diminutive noun [s1-unflagged]
+cerdito	merge:cerdo	regular diminutive of cerdo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive noun [s1-unflagged]
+patito	merge:pato	regular diminutive of pato (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive noun [s1-unflagged]
 localizarse	keep	pronominal verb [s1-unflagged]
 estadual	keep	Latin American Spanish adjective [s1-unflagged]
 palear	keep	real verb [s1-unflagged]
-cerquita	keep	real diminutive adverb [s1-unflagged]
+cerquita	merge:cerca	regular diminutive of cerca (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive adverb [s1-unflagged]
 simultanear	keep	common real verb (simultanear estudios y trabajo); the misaccented adjective forms don't make the lemma junk [s1-unflagged]
 sobreescribir	merge:sobrescribir	non-standard spelling [s1-unflagged]
 masificar	keep	real verb [s1-unflagged]
@@ -15633,7 +15633,7 @@ rollito	keep	lexicalised diminutive (rollito de primavera) [s1-unflagged]
 russound	drop	brand name [s1-unflagged]
 fregón	merge:fregona	forms are almost all fregona; Mexican fregón barely appears (4 tokens) [s1-unflagged]
 reverente	keep	real adjective [s1-unflagged]
-cuadrito	keep	common diminutive (de cuadritos, en cuadritos) [s1-unflagged]
+cuadrito	merge:cuadro	regular diminutive of cuadro (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: common diminutive (de cuadritos, en cuadritos) [s1-unflagged]
 decímetro	keep	real unit word; the dm forms are its abbreviation [s1-unflagged]
 rever	keep	real Spanish verb (to see again, to review) with rever and revea attested; the English "reverse" tokens don't make the Spanish lemma junk [s1-unflagged]
 congojar	merge:congoja	noun filed under a verb form [s1-unflagged]
@@ -15643,7 +15643,7 @@ despechar	split:despechar|despecho=despecho,Despecho	two real words in one lemma
 catolica	merge:católico	missing accent [s1-unflagged]
 trozar	merge:troza	forms are mostly the noun trozas; the verb is marginal here [s1-unflagged]
 decrementar	keep	real verb in use (decrementar, decrementa, decrementado), the opposite of incrementar [s1-unflagged]
-playita	keep	common diminutive of playa [s1-unflagged]
+playita	merge:playa	regular diminutive of playa (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: common diminutive of playa [s1-unflagged]
 antidesgaste	drop	ad hoc technical compound from product specs [s1-unflagged]
 pearce	drop	surname [s1-unflagged]
 impétigo	keep	real medical noun; accent variants are fine [s1-unflagged]
@@ -15712,7 +15712,7 @@ ahorcarse	keep	pronominal verb [s1-unflagged]
 intradía	keep	established finance term [s1-unflagged]
 propuestar	merge:propuesta	noun "propuesta" filed as a verb [s1-unflagged]
 trémolo	keep	real noun (music, guitars) [s1-unflagged]
-coñito	keep	real word, though vulgar [s1-unflagged]
+coñito	merge:coño	regular diminutive of coño (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real word, though vulgar [s1-unflagged]
 discipular	keep	real verb [s1-unflagged]
 hitleriano	keep	real adjective and noun [s1-unflagged]
 inextricablemente	keep	real adverb [s1-unflagged]
@@ -15877,7 +15877,7 @@ tubárico	keep	real medical adjective [s1-unflagged]
 conturbar	keep	real verb [s1-unflagged]
 omelettes	merge:omelette	plural filed as lemma [s1-unflagged]
 radiata	drop	Latin species epithet [s1-unflagged]
-lacito	keep	real diminutive with its own use [s1-unflagged]
+lacito	merge:lazo	regular diminutive of lazo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive with its own use [s1-unflagged]
 úselo	merge:usar	imperative with clitic [s1-unflagged]
 ebora	drop	hotel and place name [s1-unflagged]
 potabilizadora	keep	real noun (water treatment plant) [s1-unflagged]
@@ -15888,7 +15888,7 @@ ilp	drop	organisation acronym [s1-unflagged]
 menino	drop	Portuguese word [s1-unflagged]
 policarpo	drop	personal name [s1-unflagged]
 sopor	keep	real word [s1-unflagged]
-huesecillo	keep	real word [s1-unflagged]
+huesecillo	merge:hueso	regular diminutive of hueso (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real word [s1-unflagged]
 miofascial	keep	real medical adjective [s1-unflagged]
 refrésquese	merge:refrescarse	imperative with clitic [s1-unflagged]
 sijs	merge:sij	plural filed as lemma [s1-unflagged]
@@ -15989,7 +15989,7 @@ ultranza	keep	real Spanish word (DLE), bound to "a ultranza" like antemano in "d
 mocoa	drop	place name [s1-unflagged]
 pectus	drop	Latin specialist term [s1-unflagged]
 saz	drop	mostly a name or acronym (Saz, SAZ); the real-word reading is a minority [s1-unflagged]
-florecita	keep	diminutive with its own entry [s1-unflagged]
+florecita	merge:flor	regular diminutive of flor (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: diminutive with its own entry [s1-unflagged]
 produto	drop	Portuguese [s1-unflagged]
 savanna	drop	English/name, not the Spanish word [s1-unflagged]
 tfsi	drop	engine code [s1-unflagged]
@@ -16012,16 +16012,16 @@ transsexual	merge:transexual	misspelt variant [s1-unflagged]
 customizados	merge:customizar	participle filed as lemma [s1-unflagged]
 enlistan	merge:enlistar	conjugated form [s1-unflagged]
 optional	drop	English [s1-unflagged]
-corderito	keep	diminutive with its own entry [s1-unflagged]
+corderito	merge:cordero	regular diminutive of cordero (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: diminutive with its own entry [s1-unflagged]
 dividiéndolo	merge:dividir	gerund with clitic [s1-unflagged]
 lekeitio	drop	place name [s1-unflagged]
 morphine	drop	English text, not Spanish morfina [s1-unflagged]
-pobrecito	keep	lexicalised word [s1-unflagged]
+pobrecito	merge:pobre	regular diminutive of pobre (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: lexicalised word [s1-unflagged]
 schoenstattiano	drop	derived from a proper name of a movement [s1-unflagged]
 sparring	keep	established loan [s1-unflagged]
-viejecito	keep	common diminutive, own entry [s1-unflagged]
+viejecito	merge:viejo	regular diminutive of viejo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: common diminutive, own entry [s1-unflagged]
 contenio	merge:contenido	misspelling [s1-unflagged]
-espejito	keep	common diminutive, own entry [s1-unflagged]
+espejito	merge:espejo	regular diminutive of espejo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: common diminutive, own entry [s1-unflagged]
 grosgrain	drop	foreign, not established [s1-unflagged]
 imiquimod	drop	drug name, specialist [s1-unflagged]
 mathia	drop	personal name [s1-unflagged]
@@ -16040,14 +16040,14 @@ ninet	drop	product name [s1-unflagged]
 veracruzana	merge:veracruzano	feminine adjective form [s1-unflagged]
 guar	drop	foreign or doubtful, no examples [s1-unflagged]
 ofrec	merge:ofrecer	cut-off fragment [s1-unflagged]
-ramito	keep	common diminutive, own entry [s1-unflagged]
+ramito	merge:ramo	regular diminutive of ramo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: common diminutive, own entry [s1-unflagged]
 antiimperialistas	merge:antiimperialista	plural filed as lemma [s1-unflagged]
 elimínelo	merge:eliminar	imperative with clitic [s1-unflagged]
 haciéndonoslo	merge:hacer	gerund with clitics [s1-unflagged]
 olográfica	merge:holográfico	examples are all "holographic" missing its h; not ológrafo (testament sense) [s1-unflagged]
 patacona	drop	place name [s1-unflagged]
 tempertura	merge:temperatura	misspelling [s1-unflagged]
-ventanita	keep	common diminutive, own entry [s1-unflagged]
+ventanita	merge:ventana	regular diminutive of ventana (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: common diminutive, own entry [s1-unflagged]
 acompañandolo	merge:acompañar	gerund with clitic, missing accent [s1-unflagged]
 coffeeshops	merge:coffeeshop	plural of an established loan [s1-unflagged]
 panoramio	drop	website or brand [s1-unflagged]
@@ -16194,7 +16194,7 @@ enjuágala	merge:enjuagar	imperative with clitic [s1-unflagged]
 midspan	drop	English technical term [s1-unflagged]
 proméxico	drop	minor organisation name [s1-unflagged]
 akáshico	drop	esoteric jargon, only seen in "registros akáshicos" [s1-unflagged]
-doradito	keep	real diminutive adjective used in cooking [s1-unflagged]
+doradito	merge:dorado	regular diminutive of dorado (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive adjective used in cooking [s1-unflagged]
 haggis	drop	foreign dish name, not established in Spanish [s1-unflagged]
 interes	merge:interés	missing accent [s1-unflagged]
 midstream	drop	English industry jargon [s1-unflagged]
@@ -17279,7 +17279,7 @@ ratito	keep	common diminutive [s2-unflagged]
 inscripto	merge:inscrito	variant spelling [s2-unflagged]
 sicológico	merge:psicológico	variant spelling [s2-unflagged]
 culotte	merge:culote	French spelling of a word Spanish adapted as culote [s2-unflagged]
-pajarito	keep	common diminutive [s2-unflagged]
+pajarito	merge:pájaro	regular diminutive of pájaro (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: common diminutive [s2-unflagged]
 tenofovir	drop	drug name known to specialists [s2-unflagged]
 espirar	keep	real verb [s2-unflagged]
 machar	drop	forms are the second half of "papel maché" (papel is listed); Machar/machado are names; no verb share [s2-unflagged]
@@ -17394,7 +17394,7 @@ besazo	keep	real augmentative noun [s2-unflagged]
 entronizar	keep	real verb [s2-unflagged]
 monada	keep	real noun [s2-unflagged]
 trocha	keep	real Latin American word [s2-unflagged]
-farolito	keep	real diminutive of farol, even though many occurrences are a business name [s2-unflagged]
+farolito	merge:farol	regular diminutive of farol (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive of farol, even though many occurrences are a business name [s2-unflagged]
 esperable	keep	real adjective; the "--" form is a one-off artefact [s2-unflagged]
 limeño	keep	common demonym adjective, not a place name [s2-unflagged]
 sidecar	keep	established loan [s2-unflagged]
@@ -17462,7 +17462,7 @@ mathias	drop	personal name [s2-unflagged]
 benjaminita	keep	real Spanish gentilic [s2-unflagged]
 styl	drop	English fragment [s2-unflagged]
 spudger	drop	English tool name [s2-unflagged]
-pocito	keep	ordinary diminutive of pozo; a common word stays even though most hits are the place Pocitos [s2-unflagged]
+pocito	merge:pozo	regular diminutive of pozo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: ordinary diminutive of pozo; a common word stays even though most hits are the place Pocitos [s2-unflagged]
 interlinear	merge:interlineado	mostly interlineado [s2-unflagged]
 refregar	keep	real verb [s2-unflagged]
 escitalopram	drop	specialist drug name [s2-unflagged]
@@ -17544,7 +17544,7 @@ dermopurifyer	drop	brand name [s2-unflagged]
 omnitrix	drop	fictional device name [s2-unflagged]
 basmati	keep	established loan for a rice variety [s2-unflagged]
 aeromodelismo	keep	real Spanish noun [s2-unflagged]
-cacito	keep	real diminutive used for measuring scoops [s2-unflagged]
+cacito	merge:cazo	regular diminutive of cazo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive used for measuring scoops [s2-unflagged]
 enguantar	keep	real Spanish verb, forms are participles [s2-unflagged]
 complexo	drop	mostly Portuguese proper name (Complexo do Alemão) [s2-unflagged]
 fatimí	keep	real Spanish adjective/noun (Fatimid) [s2-unflagged]
@@ -17563,7 +17563,7 @@ tut	drop	name/fragment, not Spanish [s2-unflagged]
 bórax	keep	real Spanish noun [s2-unflagged]
 compadrar	merge:compadre	wrong lemma; forms are compadre [s2-unflagged]
 despampanante	keep	real Spanish adjective, mis-tagged ADV [s2-unflagged]
-patita	keep	real diminutive noun, plural only in text [s2-unflagged]
+patita	merge:pata	regular diminutive of pata (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive noun, plural only in text [s2-unflagged]
 reflectiva	merge:reflectivo	feminine adjective form filed as lemma [s2-unflagged]
 mandado	keep	real noun (errand, order) [s2-unflagged]
 optimas	merge:óptimo	missing accent, plural form [s2-unflagged]
@@ -17594,7 +17594,7 @@ francetv	drop	brand name [s2-unflagged]
 solita	merge:solito	feminine of the diminutive solito filed as lemma [s2-unflagged]
 hahaha	merge:jaja	English spelling of a laugh that Spanish writes jaja [s2-unflagged]
 sines	drop	place name [s2-unflagged]
-vallecito	keep	real diminutive noun [s2-unflagged]
+vallecito	merge:valle	regular diminutive of valle (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive noun [s2-unflagged]
 comprehensivo	keep	listed in the RAE [s2-unflagged]
 lúrex	keep	listed in the RAE [s2-unflagged]
 mortis	drop	Latin fragment [s2-unflagged]
@@ -17632,7 +17632,7 @@ oberta	drop	Catalan word [s2-unflagged]
 quirinale	drop	Italian place name [s2-unflagged]
 entretelar	merge:entretela	lemma wrong, forms are entretela [s2-unflagged]
 interminablemente	keep	real adverb [s2-unflagged]
-mantita	keep	real diminutive of manta [s2-unflagged]
+mantita	merge:manta	regular diminutive of manta (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive of manta [s2-unflagged]
 pelet	merge:pélet	missing accent on the academy form [s2-unflagged]
 romanov	drop	surname [s2-unflagged]
 swiftnet	drop	brand/product name [s2-unflagged]
@@ -18315,7 +18315,7 @@ loria	drop	person's surname [s3-flagged]
 subscriber	drop	English word, not established in Spanish [s3-flagged]
 bovis	drop	species name and product name, specialist [s3-flagged]
 evangelion	drop	anime title [s3-flagged]
-papito	keep	real Spanish diminutive of papá [s3-flagged]
+papito	merge:papá	regular diminutive of papá (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real Spanish diminutive of papá [s3-flagged]
 pre-escucha	merge:preescucha	hyphenated spelling of the adapted word [s3-flagged]
 tear	drop	English word in titles [s3-flagged]
 inspain	drop	website name [s3-flagged]
@@ -19020,7 +19020,7 @@ sobresaltar	keep	real verb; sobresalto shares the entry [s3-unflagged]
 desintegrarse	keep	pronominal verb, kept by convention [s3-unflagged]
 trasmisión	merge:transmisión	variant spelling, list uses transmisión [s3-unflagged]
 alambrar	merge:alambrada	forms are the nouns alambrada/alambrado, and alambrada is the larger [s3-unflagged]
-gotita	keep	lexicalised diminutive [s3-unflagged]
+gotita	merge:gota	regular diminutive of gota (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: lexicalised diminutive [s3-unflagged]
 extruido	keep	real technical adjective [s3-unflagged]
 medlineplus	drop	website/brand name [s3-unflagged]
 subpágina	keep	transparent but real word in common use [s3-unflagged]
@@ -19306,7 +19306,7 @@ castillejo	keep	real common noun; it stays even though many occurrences are plac
 matificante	keep	Real cosmetic adjective. [s3-unflagged]
 asustadizo	keep	Real adjective. [s3-unflagged]
 descompilación	keep	Real noun (decompilation). [s3-unflagged]
-estrellita	keep	Common diminutive noun. [s3-unflagged]
+estrellita	merge:estrella	regular diminutive of estrella (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: Common diminutive noun. [s3-unflagged]
 amphenol	drop	brand/company name [s3-unflagged]
 devela	merge:develar	conjugated form filed as lemma [s3-unflagged]
 flasheo	drop	niche phone-repair jargon [s3-unflagged]
@@ -19535,7 +19535,7 @@ ribavirin	drop	specialist drug/ingredient or raw Latin taxon (ruling 2026-11-02 
 darunavir	drop	specialist drug name [s3-unflagged]
 teletransporta	merge:teletransportar	conjugated form [s3-unflagged]
 webhook	drop	developer jargon, not needed by a learner [s3-unflagged]
-mamita	keep	real word with its own entry [s3-unflagged]
+mamita	merge:mamá	regular diminutive of mamá (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real word with its own entry [s3-unflagged]
 twink	drop	English slang [s3-unflagged]
 wrapper	drop	English technical word [s3-unflagged]
 desmedrar	merge:desmedro	the noun desmedro is the form attested [s3-unflagged]
@@ -19583,7 +19583,7 @@ deslícese	merge:deslizarse	imperative with clitic [s3-unflagged]
 freaks	merge:friki	English plural; Spanish adapted form is friki [s3-unflagged]
 leucocitario	keep	real medical adjective [s3-unflagged]
 peritación	keep	real Spanish noun [s3-unflagged]
-rapidito	keep	common diminutive in use [s3-unflagged]
+rapidito	merge:rápido	regular diminutive of rápido (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: common diminutive in use [s3-unflagged]
 áspid	keep	real Spanish noun [s3-unflagged]
 anonymizeip	drop	code artefact [s3-unflagged]
 ché	merge:che	accent variant of the interjection [s3-unflagged]
@@ -19707,7 +19707,7 @@ sabactani	drop	Aramaic phrase fragment [s3-unflagged]
 tepuy	keep	established indigenous loan [s3-unflagged]
 ekomi	drop	brand name [s3-unflagged]
 firent	drop	brand name [s3-unflagged]
-palmita	keep	Real diminutive of palma; place-name uses don't override the common word [s3-unflagged]
+palmita	merge:palma	regular diminutive of palma (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: Real diminutive of palma; place-name uses don't override the common word [s3-unflagged]
 promethazine	drop	English drug name [s3-unflagged]
 quítelo	merge:quitar	Imperative with clitic filed as a lemma [s3-unflagged]
 suevo	keep	Real word for a historical people, with its own masculine/feminine forms [s3-unflagged]
@@ -20818,7 +20818,7 @@ decibelio	keep	real word; dB is its abbreviation [s4-unflagged]
 elevadora	merge:elevador	feminine plural of elevador filed as lemma [s4-unflagged]
 dictado	keep	established noun [s4-unflagged]
 recordarse	merge:recordar	forms are passive or non-reflexive recordar [s4-unflagged]
-bolsita	keep	common diminutive [s4-unflagged]
+bolsita	merge:bolsa	regular diminutive of bolsa (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: common diminutive [s4-unflagged]
 cubito	keep	common word (cubito de hielo) [s4-unflagged]
 jalear	merge:jalea	jalea dominates and the verb doesn't occur; jaleo forms are hidden under it [s4-unflagged]
 felicidades	keep	interjection [s4-unflagged]
@@ -20883,7 +20883,7 @@ mahatma	drop	title attached to a person's name [s4-unflagged]
 habeis	merge:haber	missing accent and a conjugated form; the lemma is haber [s4-unflagged]
 accademia	drop	Italian spelling; institution and place name [s4-unflagged]
 creatura	merge:criatura	variant spelling of criatura [s4-unflagged]
-niñito	keep	ordinary diminutive [s4-unflagged]
+niñito	merge:niño	regular diminutive of niño (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: ordinary diminutive [s4-unflagged]
 pulimentar	merge:pulimento	forms are mostly the noun pulimento; verb uses are marginal [s4-unflagged]
 montesino	keep	real Spanish adjective, though mostly the surname or place Montesinos [s4-unflagged]
 ahijar	merge:ahijado	forms are the noun ahijado [s4-unflagged]
@@ -20898,13 +20898,13 @@ lipoico	drop	chemical term used only in "ácido lipoico" [s4-unflagged]
 vicenciano	keep	real adjective for the followers of St Vincent de Paul [s4-unflagged]
 lavarropa	merge:lavarropas	standard form is lavarropas [s4-unflagged]
 eclíptico	merge:eclíptica	forms are the noun eclíptica [s4-unflagged]
-piedrecita	keep	ordinary diminutive [s4-unflagged]
+piedrecita	merge:piedra	regular diminutive of piedra (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: ordinary diminutive [s4-unflagged]
 hoydomingo	drop	web artefact [s4-unflagged]
 proporcionándote	merge:proporcionar	gerund with attached clitic [s4-unflagged]
 kiosko	merge:quiosco	variant spelling [s4-unflagged]
 consejer	merge:consejería	cut-off fragment [s4-unflagged]
 sunitas	merge:sunita	plural filed as a lemma; people write sunita [s4-unflagged]
-ojito	keep	ordinary diminutive [s4-unflagged]
+ojito	merge:ojo	regular diminutive of ojo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: ordinary diminutive [s4-unflagged]
 tun	drop	fragment or non-word [s4-unflagged]
 pedicure	merge:pedicura	Spanish form is pedicura [s4-unflagged]
 vardenafil	drop	drug name [s4-unflagged]
@@ -21029,7 +21029,7 @@ pozzallo	drop	place name [s4-unflagged]
 descalabrar	keep	real verb, with descalabro and its forms [s4-unflagged]
 heated	drop	English, not established [s4-unflagged]
 mostrarlo	merge:mostrar	infinitive with clitic [s4-unflagged]
-salita	keep	lexicalised diminutive of sala, a noun in the examples [s4-unflagged]
+salita	merge:sala	regular diminutive of sala (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: lexicalised diminutive of sala, a noun in the examples [s4-unflagged]
 móbil	merge:móvil	Catalan or non-standard spelling [s4-unflagged]
 skating	drop	English, not established [s4-unflagged]
 ametlla	drop	Catalan, place name element [s4-unflagged]
@@ -21045,8 +21045,8 @@ rápita	drop	place name fragment (Sa Rápita, La Rápita) [s4-unflagged]
 combisystem	drop	brand/product name [s4-unflagged]
 devolviéndole	merge:devolver	gerund with clitic filed as lemma [s4-unflagged]
 fastest	drop	English word [s4-unflagged]
-paquetito	keep	real diminutive [s4-unflagged]
-soldadito	keep	real diminutive [s4-unflagged]
+paquetito	merge:paquete	regular diminutive of paquete (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive [s4-unflagged]
+soldadito	merge:soldado	regular diminutive of soldado (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive [s4-unflagged]
 trimado	keep	real nautical term (trimado of a boat) [s4-unflagged]
 estadistica	merge:estadística	missing accent [s4-unflagged]
 matadlo	merge:matar	imperative with clitic [s4-unflagged]
@@ -21092,7 +21092,7 @@ díficil	merge:difícil	missing accent / misspelling [s4-unflagged]
 ugento	drop	place name [s4-unflagged]
 devolo	drop	company name [s4-unflagged]
 jitter	drop	specialist English term [s4-unflagged]
-cebollita	keep	real diminutive [s4-unflagged]
+cebollita	merge:cebolla	regular diminutive of cebolla (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive [s4-unflagged]
 descatalogados	merge:descatalogado	plural filed as lemma [s4-unflagged]
 experencia	merge:experiencia	misspelling [s4-unflagged]
 nanotube	merge:nanotubo	English spelling [s4-unflagged]
@@ -21129,7 +21129,7 @@ cran	drop	English/name fragment (Cranes) [s4-unflagged]
 partie	drop	English plural "parties" [s4-unflagged]
 hananía	drop	personal name [s4-unflagged]
 eao	drop	specialist abbreviation [s4-unflagged]
-papita	keep	established diminutive, "chips" in Latin America [s4-unflagged]
+papita	merge:papa	regular diminutive of papa (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: established diminutive, "chips" in Latin America [s4-unflagged]
 regocíjense	merge:regocijarse	imperative with clitic [s4-unflagged]
 showman	keep	established loan [s4-unflagged]
 acompañándolo	merge:acompañar	gerund with clitic [s4-unflagged]
@@ -21182,7 +21182,7 @@ aimar	merge:aimara	the aimara forms are the majority; "Aimar" is a name [s4-unfl
 glabro	keep	real botanical adjective [s4-unflagged]
 listín	keep	real word ("listín telefónico") [s4-unflagged]
 microsdxc	drop	product code [s4-unflagged]
-semanita	keep	real diminutive noun [s4-unflagged]
+semanita	merge:semana	regular diminutive of semana (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive noun [s4-unflagged]
 dimitrio	drop	personal name [s4-unflagged]
 pipí	keep	real informal noun [s4-unflagged]
 realize	merge:realizar	the examples show a misspelling of "realice" [s4-unflagged]
@@ -21200,12 +21200,12 @@ neuropsicológicas	merge:neuropsicológico	feminine plural filed as lemma [s4-un
 projeto	drop	Portuguese word [s4-unflagged]
 ahórrese	merge:ahorrar	imperative with clitic [s4-unflagged]
 coquí	keep	real Puerto Rican animal word [s4-unflagged]
-pastorcito	keep	real diminutive noun, also the Fátima children [s4-unflagged]
+pastorcito	merge:pastor	regular diminutive of pastor (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive noun, also the Fátima children [s4-unflagged]
 remecer	keep	real Latin American verb [s4-unflagged]
 consorci	drop	Catalan [s4-unflagged]
 ebv	drop	specialist acronym [s4-unflagged]
 nitroglycerin	merge:nitroglicerina	English spelling [s4-unflagged]
-pelito	keep	real diminutive [s4-unflagged]
+pelito	merge:pelo	regular diminutive of pelo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive [s4-unflagged]
 qual	drop	Italian/Portuguese token, not Spanish [s4-unflagged]
 smileys	merge:smiley	English plural filed as lemma [s4-unflagged]
 celeb	drop	English clipping, not established [s4-unflagged]
@@ -21223,7 +21223,7 @@ mendocina	merge:mendocino	feminine form of a demonym adjective filed as a lemma 
 prebendar	merge:prebenda	wrong lemma, noun forms [s4-unflagged]
 roadbook	keep	rally loan used in Spanish [s4-unflagged]
 coproducida	merge:coproducir	feminine participle [s4-unflagged]
-torito	keep	real diminutive [s4-unflagged]
+torito	merge:toro	regular diminutive of toro (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive [s4-unflagged]
 chicopee	drop	place name [s4-unflagged]
 computerizada	merge:computerizado	feminine participle filed as a lemma; computerizar is an accepted Spanish spelling [s4-unflagged]
 cubillo	drop	surname and place name [s4-unflagged]
@@ -21292,8 +21292,8 @@ dallar	drop	names and fragments, no real word [s4-unflagged]
 hyperlink	drop	English word, not an adapted loan [s4-unflagged]
 kayac	merge:kayak	variant spelling of kayak [s4-unflagged]
 sustituyéndolo	merge:sustituir	gerund with clitic [s4-unflagged]
-veranito	keep	real diminutive [s4-unflagged]
-bolsito	keep	real diminutive [s4-unflagged]
+veranito	merge:verano	regular diminutive of verano (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive [s4-unflagged]
+bolsito	merge:bolso	regular diminutive of bolso (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive [s4-unflagged]
 calatravo	drop	name (Calatrava) [s4-unflagged]
 cómprala	merge:comprar	imperative with clitic [s4-unflagged]
 desestacionalizada	merge:desestacionalizado	feminine participle filed as lemma [s4-unflagged]
@@ -21440,7 +21440,7 @@ tiny	drop	English word [s5-flagged]
 linked	drop	English fragment (LinkedIn) [s5-flagged]
 lovely	drop	English word [s5-flagged]
 postscript	drop	specialist technical term, product name [s5-flagged]
-abuelita	keep	real word with its own entry [s5-flagged]
+abuelita	merge:abuelo	regular diminutive of abuelo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real word with its own entry [s5-flagged]
 diluvio	keep	real common word [s5-flagged]
 superstar	drop	mostly the Adidas brand [s5-flagged]
 woo	drop	foreign token, names [s5-flagged]
@@ -21558,7 +21558,7 @@ económico-financiero	drop	hyphenated compound of two listed words [s5-flagged]
 antillano	keep	real Spanish adjective (gentilicio) [s5-flagged]
 construya	merge:construir	conjugated verb form filed as lemma [s5-flagged]
 fortis	drop	company name [s5-flagged]
-manzanita	keep	real Spanish word (small apple, shrub) [s5-flagged]
+manzanita	merge:manzana	regular diminutive of manzana (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real Spanish word (small apple, shrub) [s5-flagged]
 compiler	drop	English technical term [s5-flagged]
 insa	drop	French institute name, ordinary organisation [s5-flagged]
 rne	keep	Radio Nacional de España, national broadcaster [s5-flagged]
@@ -22435,7 +22435,7 @@ pegarse	keep	pronominal verb [s5-unflagged]
 molestarse	keep	pronominal verb [s5-unflagged]
 balizar	merge:baliza	forms are overwhelmingly the noun baliza/balizas; balizados is a minority [s5-unflagged]
 curarse	keep	pronominal verb [s5-unflagged]
-sillita	keep	common diminutive noun (sillitas altas) [s5-unflagged]
+sillita	merge:silla	regular diminutive of silla (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: common diminutive noun (sillitas altas) [s5-unflagged]
 emboscar	keep	real verb [s5-unflagged]
 cambiarse	keep	pronominal verb [s5-unflagged]
 curry	keep	established loan [s5-unflagged]
@@ -22443,7 +22443,7 @@ enlatar	keep	real verb with participial adjectives [s5-unflagged]
 zanjar	keep	real verb [s5-unflagged]
 capitolio	keep	real common noun [s5-unflagged]
 deteriorarse	keep	pronominal verb [s5-unflagged]
-perrito	keep	common diminutive noun [s5-unflagged]
+perrito	merge:perro	regular diminutive of perro (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: common diminutive noun [s5-unflagged]
 graffiti	keep	established loan [s5-unflagged]
 foliar	keep	real adjective and verb [s5-unflagged]
 parachoque	merge:parachoques	singular variant of the standard lemma parachoques [s5-unflagged]
@@ -23060,7 +23060,7 @@ chua	drop	name, not Spanish [s5-unflagged]
 conectándolo	merge:conectar	gerund with clitic [s5-unflagged]
 cuerpazo	keep	real augmentative noun [s5-unflagged]
 descompensar	keep	real verb [s5-unflagged]
-escuelita	keep	lexicalised diminutive [s5-unflagged]
+escuelita	merge:escuela	regular diminutive of escuela (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: lexicalised diminutive [s5-unflagged]
 júrame	merge:jurar	imperative with clitic [s5-unflagged]
 precáncer	keep	real medical word [s5-unflagged]
 hallux	drop	specialist Latin anatomical term [s5-unflagged]
@@ -23144,7 +23144,7 @@ farmaceutico	merge:farmacéutico	missing accent [s5-unflagged]
 santificadora	merge:santificador	feminine form filed as lemma [s5-unflagged]
 sunní	keep	real word; plural sunníes is fine [s5-unflagged]
 baneado	merge:banear	participle filed as lemma [s5-unflagged]
-cajilla	keep	real word for a pack (of cigarettes) [s5-unflagged]
+cajilla	merge:caja	regular diminutive of caja (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real word for a pack (of cigarettes) [s5-unflagged]
 copatrocinado	merge:copatrocinar	participle filed as lemma [s5-unflagged]
 extrajudicialmente	keep	real adverb; noun tag is a misparse [s5-unflagged]
 meningococo	keep	real medical noun [s5-unflagged]
@@ -23159,7 +23159,7 @@ motiv	drop	name or fragment [s5-unflagged]
 premi	drop	Catalan word [s5-unflagged]
 pulposo	keep	real adjective [s5-unflagged]
 redireccionando	merge:redireccionar	gerund filed as lemma [s5-unflagged]
-sobrecito	keep	real diminutive noun [s5-unflagged]
+sobrecito	merge:sobre	regular diminutive of sobre (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive noun [s5-unflagged]
 sésil	keep	real botanical adjective [s5-unflagged]
 vermú	keep	accepted Spanish spelling of the loan [s5-unflagged]
 dagoberto	drop	personal name [s5-unflagged]
@@ -23169,7 +23169,7 @@ maniatar	keep	real verb [s5-unflagged]
 netsh	drop	command, code [s5-unflagged]
 recordá	merge:recordar	voseo form of a verb [s5-unflagged]
 speedcross	drop	brand or product name [s5-unflagged]
-amiguita	keep	lexicalised diminutive [s5-unflagged]
+amiguita	merge:amigo	regular diminutive of amigo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: lexicalised diminutive [s5-unflagged]
 astronave	keep	real noun [s5-unflagged]
 buscadme	merge:buscar	imperative with clitic filed as lemma [s5-unflagged]
 deslícelo	merge:deslizar	imperative with clitic [s5-unflagged]
@@ -23307,7 +23307,7 @@ magnetic	drop	English, mostly product names [s6-flagged]
 beam	drop	English, mostly brands and product text [s6-flagged]
 pio	merge:pío	missing accent; real word (ni pío, pío "pious"), and the common-word rule keeps it despite the name (minority rule is for non-Spanish tokens) [s6-flagged]
 coll	drop	place name or surname, cut-off fragment [s6-flagged]
-cerrito	keep	real diminutive of cerro, even though many uses are place names [s6-flagged]
+cerrito	merge:cerro	regular diminutive of cerro (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive of cerro, even though many uses are place names [s6-flagged]
 fenix	merge:fénix	missing accent [s6-flagged]
 basándonos	merge:basarse	gerund with a clitic filed as a lemma [s6-flagged]
 citrus	drop	Latin genus or place name [s6-flagged]
@@ -23494,7 +23494,7 @@ bidegorri	drop	mostly a shop name in the examples [s6-flagged]
 pediatric	drop	English word [s6-flagged]
 superiore	drop	Italian word [s6-flagged]
 vir	drop	Latin/fragment, not Spanish [s6-flagged]
-avecilla	keep	real Spanish diminutive of ave [s6-flagged]
+avecilla	merge:ave	regular diminutive of ave (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real Spanish diminutive of ave [s6-flagged]
 roerich	drop	person's name [s6-flagged]
 utilitie	drop	English plural, not established in Spanish [s6-flagged]
 blooming	drop	English word [s6-flagged]
@@ -24555,7 +24555,7 @@ bloguear	keep	established verb [s6-unflagged]
 quereis	merge:querer	conjugated form missing its accent [s6-unflagged]
 maleficiar	merge:maleficio	forms are the noun maleficio [s6-unflagged]
 mikado	drop	mostly hotel and software names, real-word reading is a minority [s6-unflagged]
-cocinita	keep	real diminutive noun [s6-unflagged]
+cocinita	merge:cocina	regular diminutive of cocina (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive noun [s6-unflagged]
 supervillano	keep	real word, widely used [s6-unflagged]
 completísimo	merge:completo	regular -ísimo superlative merges into base adjective (ruling 2026-11-02 #1) (developer ruling 2026-11-02, second set, 1); was keep: masculine superlative, its own entry (precedent, round 9) [was merge:completo] [s6-unflagged]
 posteo	keep	real noun and verb form in Rioplatense use [s6-unflagged]
@@ -24588,7 +24588,7 @@ inacabable	keep	real adjective [s6-unflagged]
 sobreprecio	keep	real noun [s6-unflagged]
 contrucción	merge:construcción	misspelling of construcción [s6-unflagged]
 levonorgestrel	drop	specialist drug/ingredient or raw Latin taxon (ruling 2026-11-02 #5) (developer ruling 2026-11-02, second set, 5); was keep: generic drug name, ordinary medical noun [s6-unflagged]
-terracita	keep	real diminutive with its own entry [s6-unflagged]
+terracita	merge:terraza	regular diminutive of terraza (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive with its own entry [s6-unflagged]
 apostatar	keep	real verb, forms are conjugations [s6-unflagged]
 cohibir	keep	real verb, participles belong to it [s6-unflagged]
 nomás	keep	regional adverb, established variant [s6-unflagged]
@@ -24810,7 +24810,7 @@ cunar	merge:cuna	majority cunas; cunado/cuno are noise [s6-unflagged]
 oura	drop	place name (beach) [s6-unflagged]
 trasparencia	keep	academy-accepted variant that is actually written; not a misspelling [s6-unflagged]
 xacobeo	drop	name of the Holy Year event and its branding; the Spanish adjective is jacobeo [s6-unflagged]
-copita	keep	lexicalised diminutive [s6-unflagged]
+copita	merge:copa	regular diminutive of copa (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: lexicalised diminutive [s6-unflagged]
 enmallar	keep	real verb (enmalle, enmallado); PRON tag is an error [s6-unflagged]
 máscontraer	drop	web artefact, merged words [s6-unflagged]
 pocho	keep	real Spanish word (pocho/pocha) [s6-unflagged]
@@ -24844,7 +24844,7 @@ alienante	keep	real adjective, ADV tag is wrong [s6-unflagged]
 cancerar	merge:cáncer	"canceres" is a plural of cáncer [s6-unflagged]
 diviertete	merge:divertirse	missing accent with clitic [s6-unflagged]
 supersport	drop	brand or product name [s6-unflagged]
-viejita	keep	established diminutive with its own dictionary entry [s6-unflagged]
+viejita	merge:viejo	regular diminutive of viejo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: established diminutive with its own dictionary entry [s6-unflagged]
 parser	drop	English technical term not established in Spanish [s6-unflagged]
 travestir	keep	real verb; travestido/travestirse forms outnumber the noun travestí [s6-unflagged]
 vampira	keep	feminine with its own entry [s6-unflagged]
@@ -24908,9 +24908,9 @@ habitaci	merge:habitación	cut-off fragment [s6-unflagged]
 scubastore	drop	brand name [s6-unflagged]
 applus	drop	company name [s6-unflagged]
 bombacho	keep	real clothing word [s6-unflagged]
-chiquitito	keep	real diminutive adjective [s6-unflagged]
+chiquitito	merge:chiquito	regular diminutive of chiquito (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive adjective [s6-unflagged]
 derogatorio	keep	real word [s6-unflagged]
-hijita	keep	real diminutive with its own use [s6-unflagged]
+hijita	merge:hijo	regular diminutive of hijo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive with its own use [s6-unflagged]
 openbox	drop	software name [s6-unflagged]
 pegador	keep	real word (one who hits) [s6-unflagged]
 terracería	keep	real regional word (Mexico, unpaved road) [s6-unflagged]
@@ -24930,7 +24930,7 @@ recherche	drop	French word and place name [s6-unflagged]
 testosterone	merge:testosterona	foreign spelling [s6-unflagged]
 arianese	drop	Italian name text [s6-unflagged]
 entendiéndolo	merge:entender	gerund with clitic [s6-unflagged]
-lucecita	keep	real diminutive [s6-unflagged]
+lucecita	merge:luz	regular diminutive of luz (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive [s6-unflagged]
 mineralidad	keep	real wine term [s6-unflagged]
 repiquetear	keep	real verb [s6-unflagged]
 sobrescriben	merge:sobrescribir	conjugated form [s6-unflagged]
@@ -24943,10 +24943,10 @@ humbucker	drop	specialist guitar-pickup term [s6-unflagged]
 ummah	merge:umma	Spanish spelling of the Arabic loan is umma [s6-unflagged]
 berkshires	drop	place name [s6-unflagged]
 infrarojo	merge:infrarrojo	misspelling [s6-unflagged]
-placita	keep	real diminutive of plaza [s6-unflagged]
+placita	merge:plaza	regular diminutive of plaza (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive of plaza [s6-unflagged]
 quirico	drop	personal name [s6-unflagged]
 cappella	drop	mostly names; "a cappella" is a separate phrase [s6-unflagged]
-cuartito	keep	real diminutive [s6-unflagged]
+cuartito	merge:cuarto	regular diminutive of cuarto (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive [s6-unflagged]
 desduplicación	keep	real IT term, regular formation [s6-unflagged]
 eduardiano	keep	real period adjective [s6-unflagged]
 reconvenir	keep	real verb, forms are regular [s6-unflagged]
@@ -25086,7 +25086,7 @@ competitivamente	keep	regular adverb, treated as its own lemma [s6-unflagged]
 evreux	drop	place name [s6-unflagged]
 lbf	drop	specialist unit abbreviation [s6-unflagged]
 reemplácela	merge:reemplazar	imperative with clitic [s6-unflagged]
-tapita	keep	real diminutive, in common use [s6-unflagged]
+tapita	merge:tapa	regular diminutive of tapa (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive, in common use [s6-unflagged]
 vivenda	merge:vivienda	misspelling, Portuguese form [s6-unflagged]
 antesalista	keep	real baseball term (third baseman) [s6-unflagged]
 construídas	merge:construir	misspelt participle [s6-unflagged]
@@ -25340,7 +25340,7 @@ basc	drop	organisation acronym [s10-flagged]
 congregarno	merge:congregarse	clitic fragment of a common pronominal verb [s10-flagged]
 ddk	drop	company or code [s10-flagged]
 election	drop	English word [s10-flagged]
-gorrita	keep	real Spanish diminutive of gorra [s10-flagged]
+gorrita	merge:gorra	regular diminutive of gorra (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real Spanish diminutive of gorra [s10-flagged]
 hobbits	merge:hobbit	plural filed as lemma [s10-flagged]
 huatao	drop	company name [s10-flagged]
 jbpm	drop	specialist software acronym [s10-flagged]
@@ -26157,7 +26157,7 @@ yunga	drop	region place name, mostly Yungas [s10-unflagged]
 animistas	merge:animista	plural filed as lemma [s10-unflagged]
 apricot	drop	English word and brand [s10-unflagged]
 banyeres	drop	place name [s10-unflagged]
-bollito	keep	real word, a small bun [s10-unflagged]
+bollito	merge:bollo	regular diminutive of bollo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real word, a small bun [s10-unflagged]
 cerave	drop	brand [s10-unflagged]
 coamo	drop	place name [s10-unflagged]
 dropit	drop	software name [s10-unflagged]
@@ -26279,7 +26279,7 @@ implicita	merge:implícito	missing accent [s10-unflagged]
 llavaneres	drop	place name [s10-unflagged]
 machetazo	keep	real word, most examples are the common noun [s10-unflagged]
 multifacéticas	merge:multifacético	feminine plural form [s10-unflagged]
-pañito	keep	lexicalised diminutive [s10-unflagged]
+pañito	merge:paño	regular diminutive of paño (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: lexicalised diminutive [s10-unflagged]
 placenteramente	keep	regular adverb [s10-unflagged]
 predirigido	drop	calque of "self-addressed", not a real participle [s10-unflagged]
 radioterapeuta	keep	real noun [s10-unflagged]
@@ -26525,7 +26525,7 @@ toscamente	keep	regular adverb of tosco [s10-unflagged]
 vinifera	drop	raw Latin taxon [s10-unflagged]
 arpu	drop	specialist business acronym [s10-unflagged]
 averígualo	merge:averiguar	misspelt imperative with clitic [s10-unflagged]
-calientita	keep	lexicalised diminutive of caliente, common in Mexican Spanish [s10-unflagged]
+calientita	merge:caliente	regular diminutive of caliente (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: lexicalised diminutive of caliente, common in Mexican Spanish [s10-unflagged]
 carvacrol	drop	specialist chemical [s10-unflagged]
 cortecito	drop	place name (El Cortecito beach) [s10-unflagged]
 detracción	keep	real word [s10-unflagged]
@@ -26576,7 +26576,7 @@ hobe	drop	Part of the place name Hobe Sound [s10-unflagged]
 hydroxide	drop	English chemical term [s10-unflagged]
 muladhara	drop	Sanskrit chakra term, not established in Spanish [s10-unflagged]
 omnisapiente	keep	Real, regularly formed Spanish adjective and noun [s10-unflagged]
-parejita	keep	Common diminutive noun in its own right [s10-unflagged]
+parejita	merge:pareja	regular diminutive of pareja (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: Common diminutive noun in its own right [s10-unflagged]
 poltrón	merge:poltrona	Forms are almost all poltrona (armchair) [s10-unflagged]
 prensil	keep	Real adjective [s10-unflagged]
 rifabutina	drop	Specialist antibiotic [s10-unflagged]
@@ -27565,7 +27565,7 @@ equi	drop	fragment [s7-unflagged]
 lamprear	merge:lamprea	noun filed as a verb [s7-unflagged]
 neues	drop	German [s7-unflagged]
 pings	merge:ping	English plural of an established loan [s7-unflagged]
-problemilla	keep	regular diminutive, a real word [s7-unflagged]
+problemilla	merge:problema	regular diminutive of problema (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: regular diminutive, a real word [s7-unflagged]
 salvataje	keep	real regional noun [s7-unflagged]
 wombat	keep	animal name used in Spanish [s7-unflagged]
 acces	drop	French/Catalan/English fragment [s7-unflagged]
@@ -27640,7 +27640,7 @@ subbética	drop	region name [s7-unflagged]
 tablada	drop	mostly a toponym [s7-unflagged]
 tipis	merge:tipi	plural filed as lemma [s7-unflagged]
 acimut	keep	academy spelling, real word [s7-unflagged]
-bebita	keep	common affectionate noun [s7-unflagged]
+bebita	merge:bebé	regular diminutive of bebé (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: common affectionate noun [s7-unflagged]
 chorlito	keep	real bird name, also used in idiom [s7-unflagged]
 distribuída	merge:distribuir	misaccented participle, tagged VERB, filed as lemma [s7-unflagged]
 entronar	keep	real verb; its own forms (entronado/a, entronó, entronar, plus likely most unshown forms) are about a third or more [s7-unflagged]
@@ -27701,7 +27701,7 @@ vocear	keep	real verb [s7-unflagged]
 webserie	keep	established loan compound [s7-unflagged]
 accidentarse	keep	pronominal verb [s7-unflagged]
 arterítica	merge:arterítico	feminine form filed as lemma [s7-unflagged]
-campanita	keep	real diminutive noun, mostly lowercase uses [s7-unflagged]
+campanita	merge:campana	regular diminutive of campana (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive noun, mostly lowercase uses [s7-unflagged]
 condicionesdel	drop	merged words artefact [s7-unflagged]
 corgi	keep	dog breed, established loan [s7-unflagged]
 deepthroat	drop	English porn term, not established in Spanish [s7-unflagged]
@@ -27735,10 +27735,10 @@ ordenándole	merge:ordenar	gerund with clitic [s7-unflagged]
 pavlo	drop	personal name [s7-unflagged]
 pornerbros	drop	website name [s7-unflagged]
 tankinis	merge:tankini	plural form filed as lemma [s7-unflagged]
-truquito	keep	common diminutive with its own use [s7-unflagged]
+truquito	merge:truco	regular diminutive of truco (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: common diminutive with its own use [s7-unflagged]
 alcántar	merge:alcántara	cut-off lemma; lowercase alcántara is the upholstery material used as a common noun [s7-unflagged]
 codiciones	merge:condición	misspelling of condiciones [s7-unflagged]
-cortita	keep	common diminutive adjective; VERB tag is wrong [s7-unflagged]
+cortita	merge:corto	regular diminutive of corto (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: common diminutive adjective; VERB tag is wrong [s7-unflagged]
 dextroamphetamine	drop	English drug name, specialist [s7-unflagged]
 epsealon	drop	brand name [s7-unflagged]
 establemente	keep	regular derived adverb [s7-unflagged]
@@ -27788,7 +27788,7 @@ jugones	merge:jugón	plural filed as lemma [s7-unflagged]
 musculoesquelética	merge:musculoesquelético	feminine form [s7-unflagged]
 nebulizada	merge:nebulizar	inflected participle [s7-unflagged]
 pozoblanco	drop	place name [s7-unflagged]
-purito	keep	puritos (small cigars) is a real word, about a third of occurrences [s7-unflagged]
+purito	merge:puro	regular diminutive of puro (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: puritos (small cigars) is a real word, about a third of occurrences [s7-unflagged]
 sativum	drop	Latin taxon epithet [s7-unflagged]
 vulgare	drop	Latin taxon epithet [s7-unflagged]
 aparatozanussi	drop	web artefact/brand [s7-unflagged]
@@ -27885,7 +27885,7 @@ netofatita	drop	biblical gentilic of a place, not useful to a learner [s7-unflag
 ogame	drop	game name [s7-unflagged]
 pooling	drop	English word, not established in Spanish [s7-unflagged]
 retirarno	merge:retirarse	clitic fragment, common pronominal verb [s7-unflagged]
-risita	keep	real diminutive of risa [s7-unflagged]
+risita	merge:risa	regular diminutive of risa (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive of risa [s7-unflagged]
 seasonal	drop	English word [s7-unflagged]
 trabe	drop	mostly a brand name and the misspelling "a trabes de"; the beam reading is a small minority [s7-unflagged]
 agor	drop	fragment, mostly the aGora store brand [s7-unflagged]
@@ -28921,7 +28921,7 @@ tisbita	drop	biblical gentilic tied to a place name [s8-unflagged]
 amendments	drop	English word [s8-unflagged]
 areferencia	drop	web artefact from sorting menus [s8-unflagged]
 bistrós	merge:bistró	plural form filed as lemma [s8-unflagged]
-camita	keep	real word, diminutive of cama [s8-unflagged]
+camita	merge:cama	regular diminutive of cama (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real word, diminutive of cama [s8-unflagged]
 empodere	merge:empoderar	subjunctive or imperative form [s8-unflagged]
 incahuasi	drop	place name [s8-unflagged]
 jumex	drop	brand and museum name [s8-unflagged]
@@ -31230,7 +31230,7 @@ concretiza	merge:concretizar	conjugated form [s11-unflagged]
 correciones	merge:corrección	misspelt plural [s11-unflagged]
 cumunidad	merge:comunidad	misspelling [s11-unflagged]
 easo	drop	name/acronym [s11-unflagged]
-huequito	keep	common diminutive with its own use [s11-unflagged]
+huequito	merge:hueco	regular diminutive of hueco (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: common diminutive with its own use [s11-unflagged]
 imitativo	keep	real adjective [s11-unflagged]
 lense	merge:lente	English-style form of lente [s11-unflagged]
 mandarino	keep	real word for the tree [s11-unflagged]
@@ -31281,7 +31281,7 @@ twitteó	merge:tuitear	conjugated form, adapted spelling [s11-unflagged]
 ustekinumab	drop	specialist drug [s11-unflagged]
 zapallito	keep	lexicalised diminutive for a distinct vegetable [s11-unflagged]
 asante	drop	name or Swahili, mostly capitalised [s11-unflagged]
-bebito	keep	common diminutive, no rule to merge [s11-unflagged]
+bebito	merge:bebé	regular diminutive of bebé (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: common diminutive, no rule to merge [s11-unflagged]
 classima	drop	brand/product name [s11-unflagged]
 comma	drop	English/Latin word, not Spanish [s11-unflagged]
 dirigío	merge:dirigirse	imperative "dirigíos" with clitic, filed as a broken lemma [s11-unflagged]
@@ -31332,7 +31332,7 @@ acelerante	keep	real noun/adjective (concrete accelerator) [s11-unflagged]
 alisal	keep	common word (alder grove) despite place use [s11-unflagged]
 asambleario	keep	real adjective [s11-unflagged]
 bacanal	keep	real noun, plural form is normal [s11-unflagged]
-candelita	keep	real diminutive of candela, common in the examples [s11-unflagged]
+candelita	merge:candela	regular diminutive of candela (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive of candela, common in the examples [s11-unflagged]
 carácteristica	merge:característica	misspelt, missing accent placement [s11-unflagged]
 chipa	keep	established Paraguayan/Argentine food word [s11-unflagged]
 cortese	drop	surname of a rider, Italian word [s11-unflagged]
@@ -31488,7 +31488,7 @@ santifícalo	merge:santificar	verb with clitic [s11-unflagged]
 sensa	drop	brand or fragment [s11-unflagged]
 soild	drop	English typo, web artefact [s11-unflagged]
 splendido	drop	Italian, hostel and casino name [s11-unflagged]
-suavecito	keep	established diminutive adjective [s11-unflagged]
+suavecito	merge:suave	regular diminutive of suave (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: established diminutive adjective [s11-unflagged]
 tené	merge:tener	voseo form of tener [s11-unflagged]
 tirafondo	keep	real railway term [s11-unflagged]
 trimar	merge:trimarán	noun trimarán filed under a cut-off lemma [s11-unflagged]
@@ -31550,7 +31550,7 @@ reprograma	merge:reprogramar	conjugated verb form filed as a lemma [s11-unflagge
 sportwerks	drop	brand name [s11-unflagged]
 terminale	drop	Italian word, not Spanish [s11-unflagged]
 anticipatoria	merge:anticipatorio	feminine form of the adjective [s11-unflagged]
-arquita	keep	lowercase ethnonym (los arquitas) and also a diminutive of arca; real either way [s11-unflagged]
+arquita	merge:arca	regular diminutive of arca (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: lowercase ethnonym (los arquitas) and also a diminutive of arca; real either way [s11-unflagged]
 athenee	drop	hotel name [s11-unflagged]
 bazucar	split:bazuca|bazuco=bazuco,bazucos	two words by form (developer ruling 2026-11-02, second set, 2; requested by shard 11); was merge:bazuca: broken lemma; bazuca is the main form (69 of 84) [s11-unflagged]
 calamp	drop	company name [s11-unflagged]
@@ -31817,7 +31817,7 @@ alpr	drop	specialist acronym [s12-flagged]
 babesia	drop	raw Latin genus name, mostly capitalised; specialist [s12-flagged]
 batwing	drop	English product term [s12-flagged]
 bleeding	drop	English word or name [s12-flagged]
-brujita	keep	real Spanish diminutive with its own use [s12-flagged]
+brujita	merge:bruja	regular diminutive of bruja (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real Spanish diminutive with its own use [s12-flagged]
 cif-oit	drop	hyphenated organisation acronym [s12-flagged]
 cppb	drop	specialist organisation acronym [s12-flagged]
 dhc	drop	acronym or code [s12-flagged]
@@ -32247,7 +32247,7 @@ insisto	merge:insistir	conjugated form of insistir [s12-unflagged]
 másir	drop	web artefact from "Leer más / Ir al glosario" [s12-unflagged]
 porciúncula	drop	examples all refer to the chapel, a place name [s12-unflagged]
 rafale	drop	aircraft/product name [s12-unflagged]
-ropita	keep	real Spanish diminutive of ropa [s12-unflagged]
+ropita	merge:ropa	regular diminutive of ropa (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real Spanish diminutive of ropa [s12-unflagged]
 souplesse	drop	brand name in the examples [s12-unflagged]
 substracción	merge:sustracción	variant spelling [s12-unflagged]
 transmi	drop	TransMilenio clipping, city transit [s12-unflagged]
@@ -32374,7 +32374,7 @@ escuchándola	merge:escuchar	gerund with clitic [s12-unflagged]
 ghats	drop	foreign place term, not established in Spanish [s12-unflagged]
 hellporno	drop	website name [s12-unflagged]
 lable	drop	not a Spanish word [s12-unflagged]
-mensajito	keep	valid diminutive of a common noun [s12-unflagged]
+mensajito	merge:mensaje	regular diminutive of mensaje (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: valid diminutive of a common noun [s12-unflagged]
 miniweb	drop	web artefact, a site section label [s12-unflagged]
 múltiplex	keep	real Spanish loan (multiplex cinema) [s12-unflagged]
 negócio	drop	Portuguese word in Portuguese text [s12-unflagged]
@@ -33071,9 +33071,9 @@ recuérde	merge:recordar	misaccented imperative with clitics [s13-unflagged]
 rodiada	merge:rodiado	feminine participle filed as lemma [s13-unflagged]
 schlesser	drop	surname [s13-unflagged]
 seductoramente	keep	regular -mente adverb, real word [s13-unflagged]
-sorbito	keep	real diminutive of sorbo, common [s13-unflagged]
+sorbito	merge:sorbo	regular diminutive of sorbo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive of sorbo, common [s13-unflagged]
 tartus	drop	place name [s13-unflagged]
-trabajito	keep	real diminutive, common [s13-unflagged]
+trabajito	merge:trabajo	regular diminutive of trabajo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive, common [s13-unflagged]
 unívocamente	keep	real adverb [s13-unflagged]
 áncash	drop	region name [s13-unflagged]
 arequipeña	merge:arequipeño	feminine gentilic into masculine [s13-unflagged]
@@ -33191,10 +33191,10 @@ pizarrones	merge:pizarrón	plural filed as lemma [s13-unflagged]
 preguntadle	merge:preguntar	imperative with clitic [s13-unflagged]
 readmore	drop	web artefact [s13-unflagged]
 renderizados	merge:renderizado	plural participle filed as lemma [s13-unflagged]
-semillita	keep	diminutive with its own entry, not a broken lemma [s13-unflagged]
+semillita	merge:semilla	regular diminutive of semilla (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: diminutive with its own entry, not a broken lemma [s13-unflagged]
 transiente	drop	dubious technical loan; examples are mixed German-style [s13-unflagged]
 trompe	drop	fragment or French; not a learner lemma [s13-unflagged]
-viajecito	keep	diminutive with its own entry [s13-unflagged]
+viajecito	merge:viaje	regular diminutive of viaje (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: diminutive with its own entry [s13-unflagged]
 zpiv	drop	cryptocurrency code [s13-unflagged]
 acbsp	drop	specialist or organisation acronym [s13-unflagged]
 alcanze	merge:alcance	misspelling [s13-unflagged]
@@ -33849,7 +33849,7 @@ portacarga	merge:portacargas	porta- compound is invariable portacargas (96 of 98
 prequirúrgica	merge:prequirúrgico	feminine form of the adjective [s14-unflagged]
 quiteño	keep	masculine demonym, real common word [s14-unflagged]
 redimensionado	keep	used as a noun (deverbal), not a participle in the examples [s14-unflagged]
-rubiecita	keep	diminutive with its own feminine form; real word [s14-unflagged]
+rubiecita	merge:rubio	regular diminutive of rubio (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: diminutive with its own feminine form; real word [s14-unflagged]
 siempreverde	keep	real compound adjective [s14-unflagged]
 subcelular	keep	real adjective, both forms [s14-unflagged]
 tómalo	merge:tomar	imperative+clitic, plain verb [s14-unflagged]
@@ -33870,7 +33870,7 @@ infórmense	merge:informarse	imperative+clitic, pronominal verb [s14-unflagged]
 labelo	keep	botanical term (orchid lip) in the examples [s14-unflagged]
 maldive	drop	place name (Maldives) [s14-unflagged]
 meremot	drop	name/not a word [s14-unflagged]
-monstruito	keep	real diminutive noun, lexicalised [s14-unflagged]
+monstruito	merge:monstruo	regular diminutive of monstruo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive noun, lexicalised [s14-unflagged]
 nébula	keep	real Spanish word for nebulosa; astronomy examples [s14-unflagged]
 proverbs	drop	English Bible book title [s14-unflagged]
 rapanui	keep	lowercase ethnonym, mostly lowercase in the counted text [s14-unflagged]
@@ -34193,7 +34193,7 @@ atezolizumab	drop	specialist drug [s14-unflagged]
 autotest	keep	auto- + test, a real term [s14-unflagged]
 brasería	keep	Real Spanish word for a grill restaurant, with natural plural use. [s14-unflagged]
 caipiriña	keep	Adapted Spanish spelling of the cocktail name, and it is the most common form in the counted text. [s14-unflagged]
-copito	keep	The common-noun forms (copitos, copito) are about half of the occurrences, so the real reading clears the one-third threshold; "Copito" is partly a name. [s14-unflagged]
+copito	merge:copo	regular diminutive of copo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: The common-noun forms (copitos, copito) are about half of the occurrences, so the real reading clears the one-third threshold; "Copito" is partly a name. [s14-unflagged]
 # round 16 (2026-11-05): the cascade after round 15, shards 15-18
 alternaria	drop	raw Latin fungus genus [s15-flagged]
 ammi	drop	plant genus or statistical model name [s15-flagged]
@@ -34818,7 +34818,7 @@ limpiapipa	merge:limpiapipas	the word is written limpiapipas [s16-flagged]
 longboards	merge:longboard	plural filed as lemma [s16-flagged]
 man-in-the-middle	drop	technical English phrase, hyphenated [s16-flagged]
 meclizine	drop	specialist drug, English spelling [s16-flagged]
-mercadito	keep	real Spanish diminutive noun [s16-flagged]
+mercadito	merge:mercado	regular diminutive of mercado (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real Spanish diminutive noun [s16-flagged]
 microgrid	drop	English technical term [s16-flagged]
 mpw	drop	file-type code [s16-flagged]
 multi-núcleo	merge:multinúcleo	hyphenated variant of the adapted spelling [s16-flagged]
@@ -35258,7 +35258,7 @@ salidad	merge:salida	Systematic misspelling of salida in headers and titles [s16
 simpelveld	drop	place name [s16-unflagged]
 strict	drop	English word [s16-unflagged]
 taconear	keep	lemma's own reading is the verb [s16-unflagged]
-tarjetita	keep	Regular diminutive with its own unbroken lemma; no ruling covers diminutives [s16-unflagged]
+tarjetita	merge:tarjeta	regular diminutive of tarjeta (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: Regular diminutive with its own unbroken lemma; no ruling covers diminutives [s16-unflagged]
 todomisericordioso	drop	odd epithet, religious translation only [s16-unflagged]
 transformándolo	merge:transformar	gerund with clitic [s16-unflagged]
 altstadthotel	drop	hotel name [s16-unflagged]
@@ -35273,7 +35273,7 @@ hostilizar	keep	real verb [s16-unflagged]
 laboratoires	drop	French word [s16-unflagged]
 numerosísima	merge:numeroso	regular -ísimo superlative [s16-unflagged]
 olegario	drop	personal name [s16-unflagged]
-palabrita	keep	lexicalised diminutive, own lemma [s16-unflagged]
+palabrita	merge:palabra	regular diminutive of palabra (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: lexicalised diminutive, own lemma [s16-unflagged]
 paseíto	keep	diminutive with its own lemma [s16-unflagged]
 pemetrexed	drop	specialist drug [s16-unflagged]
 profecional	merge:profesional	misspelling [s16-unflagged]
@@ -35320,7 +35320,7 @@ substantivar	merge:sustantivo	forms are substantivo, an old spelling of sustanti
 taaaan	merge:tan	Elongated spelling with an obvious target, as with jajaj → jaja [s16-unflagged]
 telekinesis	merge:telequinesis	variant spelling [s16-unflagged]
 tipsters	drop	Niche English betting term, not established for a learner [s16-unflagged]
-verdurita	keep	real diminutive noun [s16-unflagged]
+verdurita	merge:verdura	regular diminutive of verdura (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive noun [s16-unflagged]
 vlogger	keep	established loan like blog [s16-unflagged]
 véa	merge:ver	misaccented form of vea (ver) [s16-unflagged]
 woks	merge:wok	plural filed as lemma [s16-unflagged]
@@ -35872,7 +35872,7 @@ quv	drop	specialist or brand acronym [s17-unflagged]
 rentalia	drop	brand [s17-unflagged]
 rotoscopia	keep	real noun, only the POS tag is off [s17-unflagged]
 salún	drop	name [s17-unflagged]
-sombrerito	keep	regular diminutive, not covered by any merge rule [s17-unflagged]
+sombrerito	merge:sombrero	regular diminutive of sombrero (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: regular diminutive, not covered by any merge rule [s17-unflagged]
 strappy	drop	English word, not established [s17-unflagged]
 trajinero	split:trajinero|trajinera=trajinera,trajineras,Trajineras,Trajinera	two words by form (ruling 2, shard 17); was keep: real word in its own reading (carrier); the trajinera forms belong to a separate noun [s17-unflagged]
 vuvuzela	keep	established loan [s17-unflagged]
@@ -35883,7 +35883,7 @@ ascen	drop	cut-off fragment [s17-unflagged]
 autoaspirante	keep	real technical adjective [s17-unflagged]
 avvocato	drop	Italian word [s17-unflagged]
 bisabolol	drop	specialist cosmetic ingredient [s17-unflagged]
-bolsillito	keep	regular diminutive, not covered by any merge rule [s17-unflagged]
+bolsillito	merge:bolsillo	regular diminutive of bolsillo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: regular diminutive, not covered by any merge rule [s17-unflagged]
 chequen	merge:chequear	conjugated form [s17-unflagged]
 chunks	drop	English word, not established [s17-unflagged]
 cocínela	merge:cocinar	clitic form of cocinar [s17-unflagged]
@@ -35912,7 +35912,7 @@ polyuréthane	drop	French word [s17-unflagged]
 precocido	keep	real adjective (precooked) [s17-unflagged]
 principle	drop	English word [s17-unflagged]
 proteción	merge:protección	misspelling [s17-unflagged]
-putita	keep	lexicalised vulgar diminutive; the lemmatiser's entry is not broken [s17-unflagged]
+putita	merge:puta	regular diminutive of puta (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: lexicalised vulgar diminutive; the lemmatiser's entry is not broken [s17-unflagged]
 resíduo	merge:residuo	misspelling [s17-unflagged]
 rindiéndose	merge:rendirse	gerund with clitic of a pronominal verb [s17-unflagged]
 saborizados	merge:saborizar	plural participle filed as lemma [s17-unflagged]
@@ -35953,7 +35953,7 @@ llamear	keep	real verb [s17-unflagged]
 microcámara	keep	real compound noun [s17-unflagged]
 musealización	keep	real word (musealizar, museística) [s17-unflagged]
 nanofiltración	keep	real technical noun [s17-unflagged]
-ojillo	keep	lexicalised diminutive of ojo with its own sense [s17-unflagged]
+ojillo	merge:ojo	regular diminutive of ojo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: lexicalised diminutive of ojo with its own sense [s17-unflagged]
 periimplantitis	keep	medical noun, like herpes [s17-unflagged]
 remalladora	keep	real machine noun [s17-unflagged]
 revisá	merge:revisar	voseo form of revisar [s17-unflagged]
@@ -35972,7 +35972,7 @@ aplástica	merge:aplástico	feminine filed as lemma [s17-unflagged]
 arquitectonica	merge:arquitectónico	missing accent [s17-unflagged]
 ateneu	drop	Catalan form, mostly in the name "Ateneu les Bases" [s17-unflagged]
 beatbox	keep	established loan [s17-unflagged]
-botoncito	keep	lexicalised diminutive [s17-unflagged]
+botoncito	merge:botón	regular diminutive of botón (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: lexicalised diminutive [s17-unflagged]
 bulímico	keep	real adjective/noun [s17-unflagged]
 calderín	keep	real word (small boiler or tank), though some uses are a surname [s17-unflagged]
 charretera	keep	real word (epaulette) [s17-unflagged]
@@ -36169,7 +36169,7 @@ hcu	drop	file-extension acronym, not a Spanish word [s18-flagged]
 imaginary	drop	English word, not established in Spanish [s18-flagged]
 jgp	drop	specialist acronym (a skating event) [s18-flagged]
 kilovatio-hora	drop	hyphenated compound of two listed words [s18-flagged]
-leoncito	keep	real diminutive of león, also the monos leoncitos (tamarins); mostly lowercase [s18-flagged]
+leoncito	merge:león	regular diminutive of león (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive of león, also the monos leoncitos (tamarins); mostly lowercase [s18-flagged]
 lox	drop	foreign or technical acronym [s18-flagged]
 maci	drop	mostly a name or acronym; the real word macis is under a third of examples [s18-flagged]
 mbti	drop	specialist test acronym [s18-flagged]
@@ -36364,7 +36364,7 @@ parnamirim	drop	place name [s18-unflagged]
 premiership	drop	English league name [s18-unflagged]
 qie	drop	not a word [s18-unflagged]
 reshimo	drop	Hebrew term [s18-unflagged]
-sencillito	keep	real diminutive adjective [s18-unflagged]
+sencillito	merge:sencillo	regular diminutive of sencillo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: real diminutive adjective [s18-unflagged]
 suéltela	merge:soltar	imperative with clitic [s18-unflagged]
 tizo	merge:tiza	form of tiza [s18-unflagged]
 acojedora	merge:acogedor	misspelling [s18-unflagged]
@@ -36486,7 +36486,7 @@ millones	merge:millón	Plural with hyphen artefact filed as lemma [s18-unflagged
 multitasking	keep	Loan used as an ordinary noun in Spanish ("el multitasking") alongside multitarea [s18-unflagged]
 myphone	drop	Brand [s18-unflagged]
 nevero	keep	Real Spanish word for a snowfield [s18-unflagged]
-pescaito	keep	Common colloquial Spanish form, as people write it (pescaíto) [s18-unflagged]
+pescaito	merge:pescado	regular diminutive of pescado (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling); was keep: Common colloquial Spanish form, as people write it (pescaíto) [s18-unflagged]
 raltegravir	drop	Specialist drug [s18-unflagged]
 remezclado	merge:remezclar	Participle filed as lemma [s18-unflagged]
 retwittear	merge:retuitear	Non-adapted spelling of the Spanish verb [s18-unflagged]
@@ -36557,3 +36557,176 @@ pistónes	merge:pistón	misspelt plural of pistón (accent wrongly kept) [s18-un
 polperro	drop	place name (Cornish village) [s18-unflagged]
 preclínicas	merge:preclínico	feminine plural form filed as lemma [s18-unflagged]
 primula	merge:prímula	missing accent; adapted plant name [s18-unflagged]
+# coordinator call 2026-11-05: regular diminutives
+gatito	merge:gato	regular diminutive of gato (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+casita	merge:casa	regular diminutive of casa (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+bolita	merge:bola	regular diminutive of bola (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+pequeñito	merge:pequeño	regular diminutive of pequeño (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+conejito	merge:conejo	regular diminutive of conejo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+pedacito	merge:pedazo	regular diminutive of pedazo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+trocito	merge:trozo	regular diminutive of trozo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+pueblecito	merge:pueblo	regular diminutive of pueblo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+hijito	merge:hijo	regular diminutive of hijo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+jovencito	merge:joven	regular diminutive of joven (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+palito	merge:palo	regular diminutive of palo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+fresquito	merge:fresco	regular diminutive of fresco (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+cosita	merge:cosa	regular diminutive of cosa (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+golpecito	merge:golpe	regular diminutive of golpe (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+ramita	merge:rama	regular diminutive of rama (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+chorrito	merge:chorro	regular diminutive of chorro (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+cajita	merge:caja	regular diminutive of caja (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+manita	merge:mano	regular diminutive of mano (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+pueblito	merge:pueblo	regular diminutive of pueblo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+braguita	merge:braga	regular diminutive of braga (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+pastelito	merge:pastel	regular diminutive of pastel (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+bajito	merge:bajo	regular diminutive of bajo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+regalito	merge:regalo	regular diminutive of regalo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+angelito	merge:ángel	regular diminutive of ángel (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+palmadita	merge:palmada	regular diminutive of palmada (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+puntito	merge:punto	regular diminutive of punto (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+besito	merge:beso	regular diminutive of beso (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+arbolito	merge:árbol	regular diminutive of árbol (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+galletita	merge:galleta	regular diminutive of galleta (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+plaquita	merge:placa	regular diminutive of placa (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+bocadito	merge:bocado	regular diminutive of bocado (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+amiguito	merge:amigo	regular diminutive of amigo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+perlita	merge:perla	regular diminutive of perla (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+añito	merge:año	regular diminutive of año (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+pasito	merge:paso	regular diminutive of paso (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+saquito	merge:saco	regular diminutive of saco (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+cosilla	merge:cosa	regular diminutive of cosa (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+gordito	merge:gordo	regular diminutive of gordo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+vasito	merge:vaso	regular diminutive of vaso (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+pajarillo	merge:pájaro	regular diminutive of pájaro (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+rinconcito	merge:rincón	regular diminutive of rincón (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+hermanita	merge:hermano	regular diminutive of hermano (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+pollito	merge:pollo	regular diminutive of pollo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+hombrecito	merge:hombre	regular diminutive of hombre (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+toquecito	merge:toque	regular diminutive of toque (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+gorrito	merge:gorro	regular diminutive of gorro (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+cachorrito	merge:cachorro	regular diminutive of cachorro (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+barquito	merge:barco	regular diminutive of barco (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+culito	merge:culo	regular diminutive of culo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+cabecita	merge:cabeza	regular diminutive of cabeza (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+vestidito	merge:vestido	regular diminutive of vestido (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+hotelito	merge:hotel	regular diminutive of hotel (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+agujerito	merge:agujero	regular diminutive of agujero (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+papelito	merge:papel	regular diminutive of papel (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+clarito	merge:claro	regular diminutive of claro (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+cuadradito	merge:cuadrado	regular diminutive of cuadrado (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+leoncillo	merge:león	regular diminutive of león (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+cafecito	merge:café	regular diminutive of café (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+modelito	merge:modelo	regular diminutive of modelo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+animalito	merge:animal	regular diminutive of animal (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+fotito	merge:foto	regular diminutive of foto (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+bodeguita	merge:bodega	regular diminutive of bodega (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+callecita	merge:calle	regular diminutive of calle (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+putilla	merge:puta	regular diminutive of puta (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+muchachito	merge:muchacho	regular diminutive of muchacho (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+grupito	merge:grupo	regular diminutive of grupo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+bosquecillo	merge:bosque	regular diminutive of bosque (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+calorcito	merge:calor	regular diminutive of calor (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+pececillo	merge:pez	regular diminutive of pez (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+empujoncito	merge:empujón	regular diminutive of empujón (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+piedrita	merge:piedra	regular diminutive of piedra (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+pastelillo	merge:pastel	regular diminutive of pastel (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+cadenilla	merge:cadena	regular diminutive of cadena (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+ruedecilla	merge:rueda	regular diminutive of rueda (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+hojita	merge:hoja	regular diminutive of hoja (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+botellita	merge:botella	regular diminutive of botella (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+cortito	merge:corto	regular diminutive of corto (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+islita	merge:isla	regular diminutive of isla (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+botita	merge:bota	regular diminutive of bota (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+perrillo	merge:perro	regular diminutive of perro (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+colita	merge:cola	regular diminutive of cola (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+diablillo	merge:diablo	regular diminutive of diablo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+taquito	merge:taco	regular diminutive of taco (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+hermanito	merge:hermano	regular diminutive of hermano (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+conejita	merge:conejo	regular diminutive of conejo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+corazoncito	merge:corazón	regular diminutive of corazón (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+tubito	merge:tubo	regular diminutive of tubo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+cañita	merge:caña	regular diminutive of caña (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+personita	merge:persona	regular diminutive of persona (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+viejito	merge:viejo	regular diminutive of viejo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+barriguita	merge:barriga	regular diminutive of barriga (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+detallito	merge:detalle	regular diminutive of detalle (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+zapatito	merge:zapato	regular diminutive of zapato (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+calientito	merge:caliente	regular diminutive of caliente (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+velita	merge:vela	regular diminutive of vela (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+muñequita	merge:muñeca	regular diminutive of muñeca (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+cervecita	merge:cerveza	regular diminutive of cerveza (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+ruedita	merge:rueda	regular diminutive of rueda (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+banderita	merge:bandera	regular diminutive of bandera (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+polvillo	merge:polvo	regular diminutive of polvo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+librito	merge:libro	regular diminutive of libro (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+dedito	merge:dedo	regular diminutive of dedo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+boquita	merge:boca	regular diminutive of boca (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+trenecito	merge:tren	regular diminutive of tren (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+duendecillo	merge:duende	regular diminutive of duende (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+maquinita	merge:máquina	regular diminutive of máquina (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+pececito	merge:pez	regular diminutive of pez (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+princesita	merge:princesa	regular diminutive of princesa (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+probadita	merge:probada	regular diminutive of probada (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+florecilla	merge:flor	regular diminutive of flor (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+cerrillo	merge:cerro	regular diminutive of cerro (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+blandito	merge:blando	regular diminutive of blando (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+rayito	merge:rayo	regular diminutive of rayo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+ranita	merge:rana	regular diminutive of rana (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+pescadito	merge:pescado	regular diminutive of pescado (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+mejorcito	merge:mejor	regular diminutive of mejor (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+mujercita	merge:mujer	regular diminutive of mujer (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+tiendecita	merge:tienda	regular diminutive of tienda (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+cachito	merge:cacho	regular diminutive of cacho (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+juguetito	merge:juguete	regular diminutive of juguete (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+cestillo	merge:cesto	regular diminutive of cesto (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+plantita	merge:planta	regular diminutive of planta (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+abuelito	merge:abuelo	regular diminutive of abuelo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+lamparita	merge:lámpara	regular diminutive of lámpara (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+solecito	merge:sol	regular diminutive of sol (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+tiendita	merge:tienda	regular diminutive of tienda (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+muñequito	merge:muñeco	regular diminutive of muñeco (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+ricito	merge:rizo	regular diminutive of rizo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+saltito	merge:salto	regular diminutive of salto (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+joyita	merge:joya	regular diminutive of joya (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+tortuguita	merge:tortuga	regular diminutive of tortuga (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+platito	merge:plato	regular diminutive of plato (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+cuerpecito	merge:cuerpo	regular diminutive of cuerpo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+vocecita	merge:voz	regular diminutive of voz (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+escapadita	merge:escapada	regular diminutive of escapada (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+frasquito	merge:frasco	regular diminutive of frasco (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+niñita	merge:niño	regular diminutive of niño (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+botecito	merge:bote	regular diminutive of bote (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+saloncito	merge:salón	regular diminutive of salón (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+huevito	merge:huevo	regular diminutive of huevo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+tiempito	merge:tiempo	regular diminutive of tiempo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+zorrita	merge:zorra	regular diminutive of zorra (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+gusanito	merge:gusano	regular diminutive of gusano (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+orejita	merge:oreja	regular diminutive of oreja (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+ovejita	merge:oveja	regular diminutive of oveja (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+huevecillo	merge:huevo	regular diminutive of huevo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+banquito	merge:banco	regular diminutive of banco (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+normalito	merge:normal	regular diminutive of normal (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+bichito	merge:bicho	regular diminutive of bicho (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+manchita	merge:mancha	regular diminutive of mancha (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+montoncito	merge:montón	regular diminutive of montón (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+manito	merge:mano	regular diminutive of mano (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+piedrecilla	merge:piedra	regular diminutive of piedra (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+barquita	merge:barca	regular diminutive of barca (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+amorcito	merge:amor	regular diminutive of amor (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+cochecillo	merge:coche	regular diminutive of coche (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+cadenita	merge:cadena	regular diminutive of cadena (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+raicilla	merge:raíz	regular diminutive of raíz (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+cartelito	merge:cartel	regular diminutive of cartel (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+esponjita	merge:esponja	regular diminutive of esponja (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+madrecita	merge:madre	regular diminutive of madre (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+bolilla	merge:bola	regular diminutive of bola (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+diablito	merge:diablo	regular diminutive of diablo (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+monedita	merge:moneda	regular diminutive of moneda (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+planchita	merge:plancha	regular diminutive of plancha (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+bizcochito	merge:bizcocho	regular diminutive of bizcocho (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+lugarcito	merge:lugar	regular diminutive of lugar (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+chochito	merge:chocho	regular diminutive of chocho (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+pelotita	merge:pelota	regular diminutive of pelota (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+arito	merge:aro	regular diminutive of aro (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+hombrecillo	merge:hombre	regular diminutive of hombre (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)
+abrigadito	merge:abrigado	regular diminutive of abrigado (coordinator call 2026-11-05: regular diminutives merge into the base, by analogy with the superlative ruling)

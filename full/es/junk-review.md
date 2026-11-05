@@ -115,6 +115,15 @@ Follow-ups (confirmed 2026-11-02): lexicalised superlatives (*el Altísimo*, *la
 pronoun (*llamarnos*, *dándote*) go to the plain verb; Latin genus names used as ordinary Spanish nouns (*boletus*,
 *lilium*) keep, raw taxa drop.
 
+**Coordinator calls (2026-11-05, standing developer direction to decide already-ruled kinds by their pattern):**
+- *Regular diminutives* merge into their base word, by analogy with the superlative ruling (*sorbito* → *sorbo*,
+  *casita* → *casa*, *abuelita* → *abuelo*); lexicalised diminutives with their own meaning keep their entry
+  (*bocadillo*, *cucharadita*, *toallita*, *carrito*, *pajita*, *mercadillo*, *ahorita*, *osito* (teddy bear),
+  *alita* (chicken wing), *dibujito* (cartoon)). An adjudicator went through the 954 diminutive-shaped lemmas in
+  the window; 285 merged.
+- *split:-|<other>=<forms>* carves another word's forms out of a lemma whose own reading drops (*hoster* →
+  *hostería*; *amurar* → *amura*).
+
 ## Paused (2026-11-02, developer request): resume point
 
 Collected into `corpora/review/es.tsv`: rounds 1-11 (the 105.7M-token build, `snapshots/es.json`), rounds 12-13
