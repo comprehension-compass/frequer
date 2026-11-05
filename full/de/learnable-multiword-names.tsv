@@ -1,71 +1,52 @@
-# Multiword learnable names (Honeyeater reference/learnable-names/de.json @ 25ec0b1): match only if the release emits them as a unit; input for lemma release 1.6.
-# name, frequency as a unit (0: not emitted), status.
-Addis Abeba	0	not emitted as a unit
-Adriatisches Meer	0	not emitted as a unit
-Antigua und Barbuda	0	not emitted as a unit
-Appenzell Ausserrhoden	0	not emitted as a unit
-Appenzell Innerrhoden	0	not emitted as a unit
-Arktischer Ozean	0	not emitted as a unit
-Atlantischer Ozean	0	not emitted as a unit
-Balearische Inseln	0	not emitted as a unit
-Bayerischer Wald	0	not emitted as a unit
-Bosnien und Herzegowina	0	not emitted as a unit
-Brunei Darussalam	0	not emitted as a unit
-Burkina Faso	0	not emitted as a unit
-Cabo Verde	0	not emitted as a unit
-Comer See	0	not emitted as a unit
-Costa Rica	1449	counted as a unit
-Côte d’Ivoire	0	not emitted as a unit
-Den Haag	728	counted as a unit
-Dominikanische Republik	0	not emitted as a unit
-El Salvador	0	not emitted as a unit
-Europäische Union	11622	counted as a unit
-Frankfurt am Main	6775	counted as a unit
-Galiläisches Meer	0	not emitted as a unit
-Gelber Fluss	0	not emitted as a unit
-Genfer See	0	not emitted as a unit
-Golf von Mexiko	335	counted as a unit
-Hohe Tatra	0	not emitted as a unit
-Hohe Tauern	0	not emitted as a unit
-Horn von Afrika	170	counted as a unit
-Iberische Halbinsel	0	not emitted as a unit
-Indischer Ozean	0	not emitted as a unit
-Ionische Inseln	0	not emitted as a unit
-Kanarische Inseln	764	counted as a unit
-Kap Verde	50	counted as a unit
-Karibisches Meer	0	not emitted as a unit
-Kaspisches Meer	0	not emitted as a unit
-Kastilien und León	0	not emitted as a unit
-Kastilien-La Mancha	0	not emitted as a unit
-Lago Maggiore	0	not emitted as a unit
-Neusiedler See	0	not emitted as a unit
-New York	15149	counted as a unit
-Ostfriesische Inseln	0	not emitted as a unit
-Palma de Mallorca	0	not emitted as a unit
-Pazifischer Ozean	0	not emitted as a unit
-Persischer Golf	0	not emitted as a unit
-Puerto Rico	545	counted as a unit
-Republik Moldau	0	not emitted as a unit
-Rotes Meer	550	counted as a unit
-San Marino	357	counted as a unit
-Sankt Gallen	3572	counted as a unit
-Sankt Petersburg	0	not emitted as a unit
-Schwarzes Meer	217	counted as a unit
-See Genezareth	0	not emitted as a unit
-Sierra Leone	0	not emitted as a unit
-Sri Lanka	1548	counted as a unit
-Starnberger See	0	not emitted as a unit
-Straße von Gibraltar	0	not emitted as a unit
-São Tomé und Príncipe	0	not emitted as a unit
-Südchinesisches Meer	0	not emitted as a unit
-Südlicher Ozean	0	not emitted as a unit
-Thüringer Wald	0	not emitted as a unit
-Totes Meer	0	not emitted as a unit
-Trinidad und Tobago	0	not emitted as a unit
-Tschechische Republik	0	not emitted as a unit
-Vereinigte Arabische Emirate	828	counted as a unit
-Vereinigte Staaten	6324	counted as a unit
-Vereinigtes Königreich	1680	counted as a unit
-Vereinte Nationen	4317	counted as a unit
-Zentralafrikanische Republik	0	not emitted as a unit
-Ägäisches Meer	0	not emitted as a unit
+# learnable multiword names the release does not emit as a unit (not appended)
+Addis Abeba
+Adriatisches Meer
+Antigua und Barbuda
+Appenzell Ausserrhoden
+Appenzell Innerrhoden
+Arktischer Ozean
+Atlantischer Ozean
+Balearische Inseln
+Bayerischer Wald
+Bosnien und Herzegowina
+Brunei Darussalam
+Burkina Faso
+Cabo Verde
+Comer See
+Côte d’Ivoire
+Dominikanische Republik
+El Salvador
+Galiläisches Meer
+Gelber Fluss
+Genfer See
+Hohe Tatra
+Hohe Tauern
+Iberische Halbinsel
+Indischer Ozean
+Ionische Inseln
+Kap Verde
+Karibisches Meer
+Kaspisches Meer
+Kastilien und León
+Kastilien-La Mancha
+Lago Maggiore
+Neusiedler See
+Ostfriesische Inseln
+Palma de Mallorca
+Pazifischer Ozean
+Persischer Golf
+Republik Moldau
+Sankt Petersburg
+See Genezareth
+Sierra Leone
+Starnberger See
+Straße von Gibraltar
+São Tomé und Príncipe
+Südchinesisches Meer
+Südlicher Ozean
+Thüringer Wald
+Totes Meer
+Trinidad und Tobago
+Tschechische Republik
+Zentralafrikanische Republik
+Ägäisches Meer
