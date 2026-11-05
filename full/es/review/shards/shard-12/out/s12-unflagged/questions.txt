@@ -1,0 +1,48 @@
+# question apersonar: apersona/apersonas (23 of 92) look like typos of "a persona", but the real forms (apersonó, apersonaron, apersonarse) are the clear majority, so kept.
+# question apersonar: some counted forms such as "apersonas" and "un apersona" are typos for "a persona", so the real verb forms are the majority but not all of the counts.
+# question asgardiana: fictional gentilic; merged to asgardiano but drop is possible if the fictional term is judged not learner-relevant
+# question bisacodyl: may be a specialist drug (drop) rather than common generic
+# question bolear: split by form: boleo, Boleo -> boleo
+# question bugfix: established enough as a loan? Kept because Spanish dev text uses it as-is.
+# question bugfix: kept as an established software loan, but it is borderline (tagged PROPN, tech jargon)
+# question camar: forms are mixed (camaron, Camares, Camará); camaron may be a misspelling of camarón but the capitalised ones are probably the singer's surname, so I dropped it
+# question electroshock: RAE prefers electrochoque, but the English-style spelling is what people write; kept rather than merged
+# question electroshock: Spanish also writes electrochoque; kept as the form people write, so confirm whether to merge:electrochoque
+# question escalación: Latin American calque of escalada/escalamiento, unclear whether to merge
+# question escalación: calque of English escalation, keep rests on real use in sports (alineación) which is not shown in the examples
+# question fluídico: the academy may prefer fluídico/fluidico variants; kept as written
+# question fungoide: a real DLE adjective but appears almost only in a medical term; kept as a real word
+# question fungoide: real adjective, but only in the specialist term "micosis fungoide"; I dropped it as too narrow.
+# question herid: "Herid" (50) may be a heading or name rather than the imperative; merged to herir on the strength of heridles/heridlos.
+# question hongkonés: demonym derived from a place name; rules don't mention demonyms of places, so kept as an ordinary word
+# question horita: diminutive filed as its own lemma; kept, but merge:hora is possible if diminutives should fold into the base
+# question horita: diminutive of hora, mostly plural horitas; kept, could be merged into hora if diminutives should merge
+# question hyperlinks: Spanish has hipervínculo and hiperenlace, so no single obvious merge target; dropped as English
+# question hyperlinks: could also be dropped as an untranslated English token; merged into hipervínculo as the obvious Spanish word
+# question jajaj: laughter variant; merged into jaja assuming jaja is kept as an interjection
+# question jajaj: merge:jaja assumes jaja is on the list as a lemma; otherwise drop
+# question kadete: all examples are the Russian Kadets party, so I dropped it rather than merging into cadete.
+# question kadete: real word meaning Russian Kadet party member, which cadete does not cover, so merge was not used; drop is a judgement on its low learner value
+# question leit: split by form: leit -> leitmotiv; no examples shown, assumed to come from "leit motiv" split
+# question mandaloriana: Star Wars name-derived; merged to mandaloriano, but the masculine may itself be a drop.
+# question mensajito: a regular diminutive. Kept as an everyday word, though merge:mensaje is arguable.
+# question moldeadora: keep as own entry since máquina moldeadora is a noun use, but adjective use is only part of examples; coordinator may prefer merge:moldeador
+# question papayo: split by form: papaya, papayas -> papaya
+# question persignar: all forms are mostly pronominal (se persigna), so merge:persignarse could also be argued; kept the plain verb as the lemma
+# question persignar: persignarse may be the better lemma, since most forms are reflexive. Kept persignar as a real verb in its own right.
+# question pibil: occurs mostly in "cochinita/puerco pibil"; kept as a single word, could instead be merged into "cochinita pibil"
+# question porcini: Italian mushroom name used in Spanish gastronomy; dropped as not established, could be keep
+# question povera: only occurs in "arte povera", but "arte" is not a split-loan half in the usual sense; dropped rather than merged into "arte povera"
+# question preterrenal: kept as a real word, though its usage is almost all LDS religious text
+# question proficiente: examples look like an anglicism (proficient); kept because the RAE lists it
+# question quetiapine: may be a specialist drug (drop) rather than common generic
+# question raspadito: kept as a lottery-specific term; merging into raspado is the alternative if the sense is thought too narrow.
+# question sarong: examples are trade-catalogue spam; kept as an established loan.
+# question stablecoins: assumed stablecoin is established enough in Spanish crypto text to be a loan worth keeping
+# question sulfametoxazol: common antibiotic ingredient (as in cotrimoxazol), but judged specialist; unclear whether it counts as a common generic drug
+# question tampo: tampo is a rare real Spanish word, but the examples are all hobby usage (model-car decals), so I dropped it
+# question truenosnoche: web artefact fused from "truenos" + "Noche"; dropped rather than merged to trueno
+# question hyperlinks, hiperlinks: should English or hybrid spellings merge into a Spanish calque (hipervínculo) when there is no adapted spelling?
+# question mandaloriana, asgardiana: should gentilics of fictional places drop like names, or merge into a masculine form (mandaloriano, asgardiano)?
+# question papayo: split by form: papaya, papayas -> papaya
+# question quetiapine, bisacodyl, epinephrine: where is the line between common and specialist drugs? (Prescription-only but widely used, like quetiapina, versus OTC ingredients, like bisacodilo.)
