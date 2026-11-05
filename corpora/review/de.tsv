@@ -21802,3 +21802,130 @@ durchzuführen	merge:durchführen	inflected gerundive form
 firmen	keep	gefirmt/firme/firmend confirm the verb firmen; under ruling 13 the lemma's own reading decides, even if many counts are Firmen
 flankierend	merge:flankieren	present participle
 katzen	merge:Katze	lower-case plural of noun
+# round 16 (pulled in by round 15)
+value	drop	English word, not established in German
+vorhänge	merge:Vorhang	plural of Vorhang, filed in lower case
+Bierhoff	drop	surname
+Blogging	drop	English gerund, not established in German (Blog is the loan)
+Burj	drop	part of a building name
+Cinematic	drop	English name element
+DNS-Server	keep	real hyphenated compound
+Devot	merge:devot	adjective filed under a capital
+Diuretika	merge:Diuretikum	plural of Diuretikum
+Euro-Raum	keep	real hyphenated compound
+Expire	drop	band name
+Flames	drop	team or band name
+Fußsohl	merge:Fußsohle	cut-off lemma
+GN	drop	two-letter abbreviation
+Gräfelfing	drop	small town
+Kundenwünsch	merge:Kundenwunsch	cut-off plural
+Legionelle	keep	real noun, already the singular
+Mahatma	drop	title or name element
+Main-Taunus-Kreis	drop	district name
+Margrit	drop	first name
+Millau	drop	French town and guide name
+Mittelrheintal	drop	regional place name not on the learnable list
+NOT	drop	English word
+Nic	drop	first name
+Orga-Team	keep	real hyphenated compound
+Prison	drop	English word
+SUCHEN	merge:suchen	verb filed under capitals
+Sanaa	drop	foreign city not on the list
+Schinkel	drop	surname
+Sector	drop	English word
+Standardvertragsklausel	keep	real compound noun, singular form
+Tengelmann	drop	company name
+Troja	drop	place name not on the list
+Waldeck-Frankenberg	drop	district name
+error	drop	English word
+südhessisch	keep	real adjective, dictionary form
+Abgasskandal	keep	common noun
+Agua	drop	Spanish word in a place name
+Angelica	drop	first name
+Arnold Schwarzenegger	drop	person's name
+Blossom	drop	English name/brand, not established German
+Börner	drop	surname; the "Wasserbottiche" sense is rare dialect, name-like usage
+Corona-Warn-App	keep	nationally known official app, real German compound
+Dina	drop	first name
+EU-Mitglied	keep	real German compound, plural forms of same noun
+Grit	drop	first name
+Herunterfahre	merge:herunterfahren	broken lemma; written form is the verb/nominalisation (productive -en infinitive)
+# round 16s (both screens, 39,850-40,000)
+Heraklion	drop	place name not on the learnable list
+Hitlergruß	keep	ordinary German compound noun
+Hotfix	keep	established tech loan
+Jugendrotkreuz	keep	youth branch of the Red Cross, a widely known institution in DE/AT/CH; transparent compound (Jugend + Rotkreuz)
+Ledger	drop	brand name
+Löbau	drop	small-town place name
+Meckern	merge:meckern	productive nominalised infinitive
+Moeglichkeit	merge:Möglichkeit	transliterated umlaut
+Nachtstunde	keep	singular is already a valid lemma
+Nameserver	keep	established tech loan
+Reit	drop	verb-stem or place-name fragment
+Schönbuch	drop	place name (forest)
+Stillende	keep	lexicalised nominalised participle, like Angestellte
+anspruch	merge:Anspruch	lower-case noun
+aufragend	merge:aufragen	participle with no entry of its own
+ausgelaufen	merge:auslaufen	inflected participle
+ce	drop	fragment
+einzuhauchen	merge:einhauchen	zu-infinitive form
+gefütterte	merge:gefüttert	inflected form of the adjective gefüttert (lined), kept as its own lemma in round 14
+gestrafft	merge:straffen	participle
+gestuft	merge:stufen	participle
+ing	drop	fragment
+inkludiert	merge:inkludieren	participle
+regal	merge:Regal	lower-case noun
+revitalisiert	merge:revitalisieren	participle
+salz	merge:Salz	lower-case noun
+spielend	merge:spielen	present participle
+supi	keep	colloquial adjective, a word in its own right
+umjubelt	merge:umjubeln	participle
+unbefugtem	merge:unbefugt	inflected adjective form
+verbüßen	keep	ordinary verb
+vi	drop	fragment
+wes	drop	archaic fragment, counts mostly other words
+wiederaufgebaut	merge:wiederaufbauen	participle
+ziehn	merge:ziehen	colloquial spelling
+zwickt	merge:zwicken	conjugated form
+Adware	keep	established tech loan
+Bonaparte	drop	person's surname
+Boß	merge:Boss	old spelling, plural form
+Burner	drop	English loan or brand
+Falafel	keep	established loan noun; falafeln is just plural, singular lemma is fine
+Gefallene	keep	lexicalised nominalisation (the fallen), like Angestellte
+Hehe	keep	interjection, valid word despite capitalised/VERB tag
+# round 17 (pulled in by round 16)
+Hinrich	drop	first name
+Hybris	keep	common noun (hubris); the tagger confused it with the SAP product
+Hülkenberg	drop	surname of a racing driver
+KUKA	drop	company name
+Kajaks	merge:Kajak	plural filed as lemma
+Karnevaliste	merge:Karnevalist	clipped citation; the text has Karnevalisten
+Käßmann	drop	surname
+Leutheusser-Schnarrenberger	drop	surname of a politician
+Lifting	keep	established loan, common noun
+Naturholz	keep	ordinary German compound noun
+Nekro	drop	name or fragment, no clear German word
+Niemann	drop	surname
+Nixdorf	drop	surname and company name
+OGH	keep	Austrian Supreme Court, a nationally known institution
+Online-Glücksspiel	keep	real German compound a learner would want
+Oster	drop	surname
+Paradiso	drop	name of a cinema or brand
+Perg	drop	small Austrian town
+Ratzinger	drop	surname of a person
+SKS	drop	minor acronym (canal or rifle)
+SPI	drop	minor acronym, not a word
+SSI	drop	minor acronym, not a word
+# round 17s (both screens, 39,950-40,000)
+Knicks	drop	Team name (New York Knicks), not a learnable word
+Kommunistisch	merge:kommunistisch	Adjective filed under a capitalised lemma
+Königlich	merge:königlich	Adjective filed under a capitalised lemma
+Lkr	merge:Landkreis	abbreviation of a listed word (Landkreis); not a spoken word like Lkw, so merge rather than keep or drop
+OZ	drop	Abbreviation and newspaper name
+Objekte	merge:Objekt	Inflected form (genitive "Objektes") filed as a lemma
+Organisatorin	keep	Feminine noun with its own entry
+Pris	merge:Prise	Truncated or inflected form of Prise
+Redmi	drop	Brand name
+Reichsmark	keep	Established German noun for a historical currency
+Setlist	keep	Established loan

@@ -1,0 +1,23 @@
+# lemma	decision	reason	how	rank
+Hinrich	drop	first name	agreed	50551
+Hybris	keep	common noun (hubris); the tagger confused it with the SAP product	agreed	50555
+Hülkenberg	drop	surname of a racing driver	agreed	50556
+KUKA	drop	company name	agreed	50561
+Kajaks	merge:Kajak	plural filed as lemma	agreed	50562
+Karnevaliste	merge:Karnevalist	clipped citation; the text has Karnevalisten	agreed	50563
+Käßmann	drop	surname	agreed	50568
+Leutheusser-Schnarrenberger	drop	surname of a politician	agreed	50574
+Lifting	keep	established loan, common noun	agreed	50575
+Naturholz	keep	ordinary German compound noun	agreed	50579
+Nekro	drop	name or fragment, no clear German word	agreed	50580
+Niemann	drop	surname	agreed	50581
+Nixdorf	drop	surname and company name	agreed	50582
+OGH	keep	Austrian Supreme Court, a nationally known institution	agreed	50584
+Online-Glücksspiel	keep	real German compound a learner would want	agreed	50587
+Oster	drop	surname	agreed	50591
+Paradiso	drop	name of a cinema or brand	agreed	50594
+Perg	drop	small Austrian town	agreed	50595
+Ratzinger	drop	surname of a person	agreed	50600
+SKS	drop	minor acronym (canal or rifle)	agreed	50604
+SPI	drop	minor acronym, not a word	agreed	50605
+SSI	drop	minor acronym, not a word	agreed	50606

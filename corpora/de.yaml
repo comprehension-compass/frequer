@@ -7,7 +7,8 @@ language:
   fold_case: false
   lowercase_forms: true
   readings: false
-  top_n: 50000  # cutoff pending (2026-11-02): the developer picks it from the per-band report
+  top_n: 40000
+  cutoff: "40k kept lemmas: developer ruling 2026-11-05, from the per-band report and band samples"
   forms_kept: 5
   append_learnable_names: true  # 2026-11-01 (developer): learnable names outside the cut follow it
   # Junk-filter heuristics (frequer/junk.py; README §Junk filter), 2026-11-01. Differences from es and why:
@@ -32,7 +33,7 @@ language:
     # 2026-11-01 standard (docs/DECISIONS.md): the app's own number check decides spelled numbers, and the
     # reviewed learnable-names list decides every pending place once it is final (PLAYBOOK §Place names).
     number_rule: true
-    names_final: true  # Honeyeater reference/learnable-names/de.json @ 25ec0b1 (761 names, incl. the 12 added 2026-11-02)
+    names_final: true  # Honeyeater reference/learnable-names/de.json @ 9bbae4b (#766 head, 765 names)
 hygiene: {min_chars: 20, max_chars: 600, min_alpha_ratio: 0.6, gap_filter: true, langid_min_prob: 0.5}
 parts: 100
 checks:
