@@ -56,6 +56,9 @@ Specialist acronyms drop; ordinals only ever written as digits drop.
 - A real common word stays when its real reading is about a third or more of the examples; below that, drop.
 - Feminine gentilics merge into the masculine (kazaja → kazajo); lowercase ethnonyms keep (hutíes → hutí);
   a multi-word merge target is fine (it becomes a unit: palo santo, alter ego, open source, post mortem).
+- Diminutives (coordinator call 2026-11-05, by the superlative pattern): a regular diminutive `merge:` its base word
+  (sorbito → sorbo, casita → casa, abuelita → abuelo); a lexicalised one with its own meaning keeps (bocadillo,
+  cucharadita, toallita, pajita, osito "teddy bear").
 
 When the rules don't settle a case, still decide, and add a line `# question <lemma>: <what is unclear>`.
 
