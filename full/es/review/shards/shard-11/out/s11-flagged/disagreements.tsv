@@ -1,0 +1,22 @@
+# lemma	A	reason A	B	reason B
+lookbooks	drop	English loan not established, mostly brand/shop context	merge:lookbook	plural filed as lemma
+u-boat	drop	German loan, hyphenated, not established for a learner	keep	established term for the WWII submarine
+fnmt	drop	Spanish mint brand/acronym, specialist; not a household public body for learners	keep	Spanish national mint and stamp body, a household name
+in-company	keep	established business term for on-site training; hyphenated variant of in company	drop	hyphenated English term, not established in Spanish
+motels	merge:motel	plural filed as lemma	drop	English plural in a business name
+avo	keep	real Spanish fraction suffix noun (-avo)	drop	mostly capitalised name or brand
+shhh	keep	interjection for hushing, real usage	merge:chsss	interjection variant; see question
+ex-post	merge:ex post	established Latin phrase, hyphen variant of the two-word form	keep	established Latin phrase in Spanish (evaluación ex post); hyphenated variant of ex post
+nsfw	keep	internet acronym used as an ordinary word	drop	English internet acronym not established in Spanish
+psyche	merge:psique	English or Greek spelling of the adapted word	drop	foreign word/title, not Spanish (psique)
+beta-sitosterol	drop	specialist compound	keep	common supplement ingredient, hyphenated variant of sitosterol
+contra-ángulo	merge:contraángulo	hyphenated variant of the standard spelling	keep	real dental term, established word
+tawhid	keep	established Islamic term in Spanish texts	drop	specialist foreign term
+anti-gay	merge:antigay	hyphenated spelling, Spanish writes antigay	drop	hyphenated compound with English-looking form
+scalextric	drop	brand	keep	brand used as a common noun in Spain
+hihat	keep	established musical loan (drum-kit part)	drop	specialist drum term, not established in Spanish
+marmar	drop	artefact of doubled words, not a real lemma	merge:mar	doubled-word artefact of "mar"
+no-creyente	drop	hyphenated compound of listed words	merge:no creyente	hyphenated variant of the two-word unit
+razia	keep	real Spanish noun (razia), lowercase uses about 37%	drop	mostly a personal name; real word is under a third of examples
+bribri	drop	Indigenous people/language proper noun, not a common word	keep	lowercase ethnonym and language, not a place
+shibari	keep	Japanese rope art, used in Spanish as a loan	drop	Japanese term, specialist and not established in Spanish
