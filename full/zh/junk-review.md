@@ -1,0 +1,25 @@
+# zh list cleaning: rulings and calls
+
+The cross-language rulings in `docs/DECISIONS.md` apply. zh-specific rulings and the calls made under the
+coordinator's standing delegation (routine calls follow the established rulings; unusual ones go to the
+coordinator, session_01LCaNDxgx4QeyJKvxvbEYHU). Each call says what it rests on.
+
+## Corpus
+
+| date | call | rests on |
+|---|---|---|
+| 2026-11-06 | Sources: HPLT v2 `zho_Hans` cleaned (CC0) and Tatoeba `cmn` (CC BY 2.0 FR), Tatoeba first. zh Wikinews (CC BY 2.5) left out: ~15k articles add little to ~500M tokens, its dump is wikitext needing a parser, and its text mixes scripts under the wiki's variant converter. | licence rule; size target |
+| 2026-11-06 | **Simplified only, never folded**: a line OpenCC `t2s` changes is dropped; a document whose lines are >= 20 % Traditional is dropped whole (its other lines are Traditional text with no distinguishing character). Tatoeba pseudo-documents mix contributors, so there only the line test applies. Checked on Tatoeba: every sampled one-character `t2s` change was a Traditional sentence (們, 個, 嗎, 這 ...). | Honeyeater doc 06 §Simplified only (ruling 2026-11-02); the task's "Traditional-script documents excluded (not folded)" |
+| 2026-11-06 | py3langid's `wuu` (Wu) counts as zh: on 1,500 HPLT documents it was 2,621 of 4,740 langid drops, nearly all Mandarin headings, lists and prose. `yue` (Cantonese) stays out. | sample read by eye |
+
+## What is on the list
+
+| date | call | rests on |
+|---|---|---|
+| 2026-11-06 | **Names are learnable things** (R12): places (countries, provinces and SARs, well-known cities, major rivers, mountains, landmarks), holidays and festivals, dynasties and eras, everyday platforms and products (微信, 淘宝), famous institutions and organisations, named diseases, ethnic groups, planets: `keep`. People (real, historical, fictional), minor companies and brands, spam and gambling sites, titles of works, games, clubs, minor places: `drop`. | lemmatiser rulings v3.42 R12 (developer); DECISIONS place, institution and brand rulings; the task's "learnable names (holidays, products, platforms, places, orgs per R12)" |
+| 2026-11-06 | **Places decided in review, not `pending-names`**: Honeyeater has no `reference/learnable-names/zh.json`, so the reviewers apply the learnable-place criteria (DECISIONS 2026-11-01) directly. If a zh names list is built later, `names_final` re-decides them. | no zh names list exists; the place criteria are the same |
+| 2026-11-06 | **PROPN evidence is the release's own tag** (`propn_evidence: tag`): no case, no proper-noun dictionary, so every PROPN-majority lemma in the window is reviewed; nothing drops on the tag alone. | DECISIONS: "a tagger's PROPN alone is not a drop" |
+| 2026-11-06 | **Keyed lemmas are words of their own** (行#xíng, 花#spend, 到#comp, 起#mw): never merged into each other or their bare form. | lemmatiser guide v3.42-3.49 (keys are the lemma's identity; doc 06) |
+| 2026-11-06 | **成语 and other fixed expressions are units to keep**; a glued phrase that is not a fixed expression drops. Separable verbs and other compounds are the release's units and stay. | the task; lemmatiser R3 |
+| 2026-11-06 | **Chinese abbreviations (缩略语) are words** (高铁, 环保, 北大, 新冠): kept, not expanded. The "abbreviations excluded for now" ruling was about Latin-alphabet abbreviations (zB, cm); Latin script cannot be a zh lemma at all (the lemma pattern is Han only). | DECISIONS abbreviations ruling read for its purpose |
+| 2026-11-06 | **Numbers**: the app's `number_is_learnable(text, "zh")` decides the 漢数字 it knows (up to 三十 and a lone 百/千/万 kept; 一百, 五十, 一千 dropped); for the rest the rules keep the core words (零 〇 一-十 两 百 千 万 亿 半 几) and ordinals 第一-第三十, and drop any other spelled number (digit-by-digit years and codes such as 二〇二五, 三点五, 两百). | DECISIONS number ruling (curated generative set); the zh speller (`nlp.backends.chinese_numbers`) |
