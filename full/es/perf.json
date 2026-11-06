@@ -3,8 +3,8 @@
  "scope": "full",
  "tokens": 1382684047,
  "documents": 1750930,
- "lemma_types_ranked": 39399,
- "snapshot_entries": 30108,
+ "lemma_types_ranked": 54796,
+ "snapshot_entries": 40063,
  "stages": [
   {
    "stage": "fetch_decode",
@@ -80,14 +80,14 @@
   }
  ],
  "build_seconds": {
-  "merge": 796.35,
-  "rank": 29.75,
-  "snapshot": 2.83,
-  "cooc": 314.16,
-  "report": 37.79
+  "merge": 791.34,
+  "rank": 38.62,
+  "snapshot": 3.63,
+  "cooc": 326.47,
+  "report": 39.07
  },
  "worker_peak_rss_mb": 2325,
- "build_process_peak_rss_mb": 1678,
+ "build_process_peak_rss_mb": 1859,
  "host_tokens": 0,
  "occurrence_kinds": {
   "word": 1311043807,
@@ -109,16 +109,16 @@
    "p2": 3667
   },
   "shipped_rows": 400000,
-  "table_bytes": 8688343,
+  "table_bytes": 8688341,
   "queue_rows": 2000
  },
  "checks": {
-  "form_ratio": 1834,
-  "plural": 47,
-  "consistency": 225,
+  "form_ratio": 1850,
+  "plural": 56,
+  "consistency": 226,
   "short": 56,
   "case": 1
  },
- "excluded_from_top_n": 839,
+ "excluded_from_top_n": 1028,
  "proper_nouns_dropped_from_top_n": 0
 }

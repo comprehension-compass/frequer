@@ -1,6 +1,6 @@
 # Review report: es (full)
 
-- Ranking score: `frequency`; 39,399 candidate lemmas ranked.
+- Ranking score: `frequency`; 54,796 candidate lemmas ranked.
 - Tokens counted: 1,382,684,047 in 1,750,930 documents, 482 shards, 100 dispersion parts.
 - Lemma release: `honeyeater_lemma_es` 1.5.0 (sha256 `ccbd50dc900e43a8`); fallback `spacy-list`, units on; honeyeater `c07c70158590`.
 
@@ -47,7 +47,7 @@ Counted occurrences by kind: compound 9,110,518 (0.66%), compound1 9,871,938 (0.
 | `fácilmente` | 152,007 | 145,085 | 1087 |
 | `rápidamente` | 151,479 | 144,394 | 1073 |
 | `solamente` | 147,648 | 140,383 | 1119 |
-| `sentirse` | 146,606 | 138,473 | 1100 |
+| `sentirse` | 146,606 | 138,473 | 1101 |
 | `Nueva York` | 139,207 | 126,576 | 1157 |
 | `aproximadamente` | 133,823 | 125,438 | 1186 |
 | `ponerse` | 128,939 | 123,648 | 1267 |
@@ -78,9 +78,9 @@ Counted occurrences by kind: compound 9,110,518 (0.66%), compound1 9,871,938 (0.
 | `acabar de + infinitivo` | 69,556 | 61,391 | 2093 |
 | `desde hace + tiempo` | 56,893 | 55,739 | 2422 |
 | `tan … que` | 49,193 | 48,259 | 2669 |
-| `qué + adjetivo/sustantivo` | 39,161 | 37,868 | 3104 |
+| `qué + adjetivo/sustantivo` | 39,161 | 37,868 | 3105 |
 | `hace + tiempo + que` | 36,403 | 35,879 | 3239 |
-| `hacer que + subjuntivo` | 15,290 | 15,200 | 5363 |
+| `hacer que + subjuntivo` | 15,290 | 15,200 | 5364 |
 | `menos … que` | 8,782 | 8,648 | 7191 |
 
 ### Top phrase units
@@ -185,7 +185,7 @@ Counted occurrences by kind: compound 9,110,518 (0.66%), compound1 9,871,938 (0.
 
 ## Rank shifts against the live snapshot (`reference/lemmas/es.json`)
 
-Live list 20,000 lemmas, this build 39,399; 12,814 shared. Spearman rank correlation on the shared lemmas 0.946; median rank ratio 1.13x.
+Live list 20,000 lemmas, this build 54,796; 12,843 shared. Spearman rank correlation on the shared lemmas 0.945; median rank ratio 1.14x.
 Overlap of this build's top-k with the live top-k: top 1,000 88.0%, top 5,000 83.4%, top 20,000 63.6%.
 
 ### Biggest risers (rank improves)
@@ -194,7 +194,7 @@ Overlap of this build's top-k with the live top-k: top 1,000 88.0%, top 5,000 83
 |---|---|---|---|
 | `acondicionar` | 18455 | 916 | -17,539 |
 | `diecinueve` | 18282 | 1331 | -16,951 |
-| `dividirse` | 19076 | 3670 | -15,406 |
+| `dividirse` | 19076 | 3671 | -15,405 |
 | `descanso` | 17625 | 2563 | -15,062 |
 | `torno` | 17613 | 2630 | -14,983 |
 | `respaldo` | 18269 | 3368 | -14,901 |
@@ -205,28 +205,28 @@ Overlap of this build's top-k with the live top-k: top 1,000 88.0%, top 5,000 83
 | `diecisiete` | 14631 | 1159 | -13,472 |
 | `entregarse` | 17153 | 3941 | -13,212 |
 | `conforme` | 15056 | 1910 | -13,146 |
-| `quinientos` | 14749 | 1793 | -12,956 |
+| `quinientos` | 14749 | 1794 | -12,955 |
 | `cuatrocientos` | 15401 | 2481 | -12,920 |
 
 ### Biggest fallers (rank worsens)
 
 | lemma | live rank | new rank | change |
 |---|---|---|---|
-| `papa` | 2314 | 30152 | +27,838 |
-| `matear` | 4446 | 30607 | +26,161 |
-| `considerarse` | 4306 | 30289 | +25,983 |
-| `cola` | 3106 | 28638 | +25,532 |
-| `capar` | 4795 | 28961 | +24,166 |
-| `ucranio` | 3401 | 26015 | +22,614 |
-| `hondura` | 3735 | 25336 | +21,601 |
-| `radio` | 1086 | 21217 | +20,131 |
-| `orlar` | 2655 | 22691 | +20,036 |
-| `habano` | 3196 | 21503 | +18,307 |
-| `malasio` | 4644 | 22595 | +17,951 |
-| `alfombrar` | 3354 | 20081 | +16,727 |
-| `vario` | 265 | 13022 | +12,757 |
-| `colegiar` | 2901 | 15167 | +12,266 |
-| `florido` | 2181 | 14125 | +11,944 |
+| `freemeteo` | 3092 | 53801 | +50,709 |
+| `golfo` | 4927 | 45898 | +40,971 |
+| `papa` | 2314 | 30181 | +27,867 |
+| `matear` | 4446 | 30642 | +26,196 |
+| `considerarse` | 4306 | 30321 | +26,015 |
+| `cola` | 3106 | 28660 | +25,554 |
+| `capar` | 4795 | 28983 | +24,188 |
+| `ucranio` | 3401 | 26037 | +22,636 |
+| `hondura` | 3735 | 25354 | +21,619 |
+| `radio` | 1086 | 21228 | +20,142 |
+| `orlar` | 2655 | 22706 | +20,051 |
+| `habano` | 3196 | 21513 | +18,317 |
+| `malasio` | 4644 | 22608 | +17,964 |
+| `alfombrar` | 3354 | 20085 | +16,731 |
+| `vario` | 265 | 13025 | +12,760 |
 
 ### Newly in the top 5,000
 
@@ -254,9 +254,9 @@ Overlap of this build's top-k with the live top-k: top 1,000 88.0%, top 5,000 83
 |---|---|---|---|
 | `del` | 11 | - | - |
 | `al` | 22 | - | - |
-| `parte` | 59 | 11818 | +11,759 |
+| `parte` | 59 | 11820 | +11,761 |
 | `e` | 94 | - | - |
-| `vario` | 265 | 13022 | +12,757 |
+| `vario` | 265 | 13025 | +12,760 |
 | `tripadvisor` | 384 | - | - |
 | `relacionado` | 386 | - | - |
 | `vacación` | 390 | - | - |
@@ -270,7 +270,7 @@ Overlap of this build's top-k with the live top-k: top 1,000 88.0%, top 5,000 83
 
 ## Ported frequer checks
 
-### Form-ratio outliers (1,834)
+### Form-ratio outliers (1,850)
 
 A surface form far more frequent than the lemma's median form.
 
@@ -282,7 +282,7 @@ A surface form far more frequent than the lemma's median form.
 | 6 | `a` | 31,604,184 | median form 156.5; `a` 24,513,234 (156634x), `al` 5,697,407 (36405x), `A` 955,033 (6102x), `Al` 418,159 (2672x) |
 | 7 | `que` | 27,419,001 | median form 4.5; `que` 27,296,595 (6065910x), `Que` 97,692 (21709x), `QUE` 24,128 (5362x) |
 | 8 | `los` | 23,165,439 | median form 7; `los` 20,562,353 (2937479x), `Los` 2,562,793 (366113x), `LOS` 40,256 (5751x) |
-| 9 | `ser` | 19,258,036 | median form 33; `es` 8,318,364 (252072x), `son` 2,164,277 (65584x), `ser` 1,793,432 (54346x), `fue` 1,100,329 (33343x) |
+| 9 | `ser` | 19,258,222 | median form 27.5; `es` 8,318,364 (302486x), `son` 2,164,277 (78701x), `ser` 1,793,432 (65216x), `fue` 1,100,329 (40012x) |
 | 10 | `para` | 17,698,473 | median form 4; `para` 16,235,802 (4058950x), `Para` 1,411,267 (352817x), `PARA` 33,712 (8428x), `PA` 12,182 (3046x) |
 | 11 | `con` | 15,046,745 | median form 10.5; `con` 14,419,245 (1373261x), `Con` 600,237 (57165x), `CON` 23,978 (2284x) |
 | 12 | `un` | 14,225,152 | median form 8821; `un` 13,619,808 (1544x) |
@@ -293,18 +293,18 @@ A surface form far more frequent than the lemma's median form.
 | 18 | `poder` | 8,291,300 | median form 35; `puede` 2,700,125 (77146x), `pueden` 1,311,661 (37476x), `puedes` 565,980 (16171x), `poder` 427,619 (12218x) |
 | 19 | `no` | 8,242,668 | median form 7; `no` 6,918,354 (988336x), `No` 1,281,983 (183140x), `NO` 42,171 (6024x) |
 | 21 | `este` | 7,596,971 | median form 21; `este` 2,398,823 (114230x), `esta` 1,883,816 (89706x), `Este` 876,028 (41716x), `estos` 705,840 (33611x) |
-| 22 | `haber` | 7,449,487 | median form 23; `ha` 2,164,211 (94096x), `han` 1,008,412 (43844x), `hay` 948,329 (41232x), `haya` 489,958 (21303x) |
+| 22 | `haber` | 7,449,656 | median form 23; `ha` 2,164,211 (94096x), `han` 1,008,412 (43844x), `hay` 948,329 (41232x), `haya` 489,958 (21303x) |
 | 23 | `o` | 7,288,134 | median form 167; `o` 6,926,598 (41477x), `u` 239,447 (1434x) |
-| 24 | `más` | 7,231,797 | median form 3.5; `más` 6,638,283 (1896652x), `Más` 366,485 (104710x), `mas` 173,430 (49551x), `Mas` 35,774 (10221x) |
-| 25 | `estar` | 6,809,737 | median form 27; `está` 2,405,043 (89076x), `están` 1,088,962 (40332x), `estar` 517,157 (19154x), `Estás` 380,849 (14106x) |
+| 24 | `más` | 7,231,854 | median form 3.5; `más` 6,638,283 (1896652x), `Más` 366,485 (104710x), `mas` 173,430 (49551x), `Mas` 35,774 (10221x) |
+| 25 | `estar` | 6,809,840 | median form 26; `está` 2,405,043 (92502x), `están` 1,088,962 (41883x), `estar` 517,157 (19891x), `Estás` 380,849 (14648x) |
 | 26 | `todo` | 5,603,104 | median form 2; `todos` 1,710,597 (855298x), `todo` 1,650,272 (825136x), `todas` 920,693 (460346x), `toda` 496,167 (248084x) |
 | 28 | `como` | 5,370,435 | median form 6.5; `como` 5,005,199 (770031x), `Como` 358,518 (55157x) |
-| 29 | `tener` | 5,257,697 | median form 11; `tiene` 1,478,517 (134411x), `tienen` 637,715 (57974x), `tener` 629,715 (57247x), `tienes` 251,985 (22908x) |
+| 29 | `tener` | 5,257,806 | median form 11; `tiene` 1,478,517 (134411x), `tienen` 637,715 (57974x), `tener` 629,715 (57247x), `tienes` 251,985 (22908x) |
 | 31 | `lo` | 4,479,155 | median form 4; `lo` 4,186,282 (1046570x), `Lo` 285,651 (71413x), `LO` 7,174 (1794x) |
 
-_1,809 more not shown._
+_1,825 more not shown._
 
-### Singular/plural mismatch (47)
+### Singular/plural mismatch (56)
 
 Lemma looks like a plural whose stripped form maps to another listed lemma.
 
@@ -312,33 +312,33 @@ Lemma looks like a plural whose stripped form maps to another listed lemma.
 |---|---|---|---|
 | 8 | `los` | 23,165,439 | `lo` lemmatises to `lo` (rank 31) |
 | 13 | `las` | 14,058,132 | `la` lemmatises to `la` (rank 2) |
+| 104 | `después` | 1,022,337 | `despué` lemmatises to `despué` (rank 44,499) |
 | 137 | `nos` | 832,284 | `no` lemmatises to `no` (rank 19) |
 | 147 | `antes` | 814,843 | `ante` lemmatises to `ante` (rank 726) |
-| 160 | `dios` | 788,975 | `dio` lemmatises to `dar` (rank 69) |
+| 151 | `través` | 808,186 | `travé` lemmatises to `travé` (rank 54,315) |
+| 160 | `dios` | 789,043 | `dio` lemmatises to `dar` (rank 69) |
+| 169 | `además` | 752,802 | `ademá` lemmatises to `ademá` (rank 50,811) |
 | 213 | `unos` | 633,283 | `uno` lemmatises to `uno` (rank 52) |
 | 215 | `ellos` | 631,490 | `ello` lemmatises to `ello` (rank 688) |
-| 252 | `varios` | 558,067 | `vario` lemmatises to `vario` (rank 13,022) |
+| 220 | `nosotros` | 623,548 | `nosotro` lemmatises to `nosotro` (rank 42,307) |
+| 252 | `varios` | 558,067 | `vario` lemmatises to `vario` (rank 13,025) |
 | 265 | `les` | 525,566 | `le` lemmatises to `le` (rank 61) |
 | 271 | `mes` | 515,755 | `me` lemmatises to `me` (rank 122) |
 | 370 | `gracias` | 412,938 | `gracia` lemmatises to `gracia` (rank 2,836) |
-| 802 | `ambos` | 207,613 | `ambo` lemmatises to `ambo` (rank 33,815) |
+| 802 | `ambos` | 207,613 | `ambo` lemmatises to `ambo` (rank 33,909) |
 | 1032 | `ellas` | 158,128 | `ella` lemmatises to `ella` (rank 339) |
 | 1153 | `parís` | 140,166 | `parí` lemmatises to `parir` (rank 11,673) |
-| 1826 | `alrededores` | 82,062 | `alrededor` lemmatises to `alrededor` (rank 622) |
+| 1827 | `alrededores` | 82,062 | `alrededor` lemmatises to `alrededor` (rank 622) |
 | 2022 | `martes` | 73,118 | `marte` lemmatises to `mar` (rank 522) |
-| 2171 | `quizás` | 66,318 | `quizá` lemmatises to `quizá` (rank 3,156) |
-| 2313 | `apenas` | 60,483 | `apena` lemmatises to `apenar` (rank 18,110) |
-| 2562 | `microondas` | 52,485 | `microonda` lemmatises to `microonda` (rank 17,548) |
-| 2853 | `rines` | 44,425 | `rin` lemmatises to `rin` (rank 11,519) |
-| 3322 | `gafas` | 34,712 | `gafa` lemmatises to `gafa` (rank 19,228) |
-| 3703 | `lavavajillas` | 28,862 | `lavavajilla` lemmatises to `lavavajilla` (rank 28,047) |
-| 3757 | `mediados` | 28,368 | `mediado` lemmatises to `mediar` (rank 9,768) |
-| 4290 | `honduras` | 22,682 | `hondura` lemmatises to `hondura` (rank 25,336) |
-| 4302 | `marruecos` | 22,607 | `marrueco` lemmatises to `marroquí` (rank 7,312) |
+| 2172 | `quizás` | 66,318 | `quizá` lemmatises to `quizá` (rank 3,156) |
+| 2313 | `apenas` | 60,483 | `apena` lemmatises to `apenar` (rank 18,115) |
+| 2562 | `microondas` | 52,485 | `microonda` lemmatises to `microonda` (rank 17,551) |
+| 2853 | `rines` | 44,425 | `rin` lemmatises to `rin` (rank 11,523) |
+| 3246 | `cumpleaños` | 36,269 | `cumpleaño` lemmatises to `cumpleaño` (rank 44,485) |
 
-_22 more not shown._
+_31 more not shown._
 
-### Lemma consistency (225)
+### Lemma consistency (226)
 
 Lemma that, met alone, lemmatises to another listed lemma (single words, so a hint, not a verdict).
 
@@ -355,7 +355,7 @@ Lemma that, met alone, lemmatises to another listed lemma (single words, so a hi
 | 617 | `fuera` | 258,117 | alone, `fuera` lemmatises to `ser` (rank 9) |
 | 664 | `ayuda` | 243,896 | alone, `ayuda` lemmatises to `ayudar` (rank 93) |
 | 724 | `compra` | 226,999 | alone, `compra` lemmatises to `comprar` (rank 247) |
-| 732 | `visita` | 225,853 | alone, `visita` lemmatises to `visitar` (rank 376) |
+| 732 | `visita` | 225,853 | alone, `visita` lemmatises to `visitar` (rank 375) |
 | 800 | `corto` | 209,037 | alone, `corto` lemmatises to `cortar` (rank 1,454) |
 | 815 | `causa` | 202,256 | alone, `causa` lemmatises to `causar` (rank 684) |
 | 824 | `carga` | 200,790 | alone, `carga` lemmatises to `cargar` (rank 1,362) |
@@ -370,7 +370,7 @@ Lemma that, met alone, lemmatises to another listed lemma (single words, so a hi
 | 1174 | `aumento` | 137,030 | alone, `aumento` lemmatises to `aumentar` (rank 408) |
 | 1234 | `muestra` | 128,229 | alone, `muestra` lemmatises to `mostrar` (rank 188) |
 
-_200 more not shown._
+_201 more not shown._
 
 ### Short lemmas (56)
 
@@ -394,7 +394,7 @@ Check these are real words.
 | 35 | `si` | 3,516,540 | `Si` -> `si`, `si` -> `si`, `SI` -> `si`, `SiS` -> `si`, `sis` -> `si` |
 | 61 | `le` | 1,748,957 | `le` -> `le`, `Le` -> `le`, `LE` -> `le`, `-Le` -> `le`, `lE` -> `le` |
 | 78 | `mi` | 1,357,714 | `mi` -> `mi`, `mis` -> `mi`, `Mis` -> `mi`, `Mi` -> `mi`, `MI` -> `mi` |
-| 88 | `ir` | 1,249,151 | `fuese` -> `ir`, `iba` -> `ir`, `ir` -> `ir`, `vaya` -> `ir`, `va` -> `ir` |
+| 88 | `ir` | 1,249,253 | `fuese` -> `ir`, `iba` -> `ir`, `ir` -> `ir`, `vaya` -> `ir`, `va` -> `ir` |
 | 91 | `ya` | 1,194,630 | `ya` -> `ya`, `Ya` -> `ya`, `YA` -> `ya`, `-ya` -> `?` |
 | 103 | `te` | 1,024,233 | `te` -> `se`, `Te` -> `te`, `TE` -> `te`, `tes` -> `te`, `tE` -> `te` |
 | 122 | `me` | 890,601 | `me` -> `me`, `Me` -> `me`, `ME` -> `me`, `mE` -> `me` |
@@ -430,7 +430,7 @@ wordfreq only: `alguien`, `nadie`, `mal`, `dr`, `ahí`, `argentino`, `cero`, `ma
 | 805 | `metro#metre` | 206,997 | wordfreq zipf en 3.6 vs es 1.6 |
 | 887 | `once` | 190,278 | wordfreq zipf en 5.5 vs es 4.4 |
 | 1480 | `led` | 104,153 | wordfreq zipf en 5.1 vs es 3.7 |
-| 1842 | `resort` | 81,147 | wordfreq zipf en 4.4 vs es 3.3 |
+| 1843 | `resort` | 81,147 | wordfreq zipf en 4.4 vs es 3.3 |
 | 2085 | `show` | 70,098 | wordfreq zipf en 5.7 vs es 4.6 |
 | 2602 | `top` | 51,386 | wordfreq zipf en 5.6 vs es 4.4 |
 | 2729 | `look` | 47,698 | wordfreq zipf en 5.8 vs es 3.9 |
@@ -440,29 +440,29 @@ wordfreq only: `alguien`, `nadie`, `mal`, `dr`, `ahí`, `argentino`, `cero`, `ma
 | 3521 | `ticket` | 31,541 | wordfreq zipf en 4.6 vs es 3.5 |
 | 3599 | `as` | 30,390 | wordfreq zipf en 6.8 vs es 4.7 |
 | 3726 | `feed` | 28,688 | wordfreq zipf en 4.7 vs es 3.3 |
-| 3991 | `test` | 25,589 | wordfreq zipf en 5.2 vs es 4.2 |
-| 4209 | `bit` | 23,485 | wordfreq zipf en 5.4 vs es 3.2 |
+| 3992 | `test` | 25,589 | wordfreq zipf en 5.2 vs es 4.2 |
+| 4210 | `bit` | 23,485 | wordfreq zipf en 5.4 vs es 3.2 |
 | 4682 | `real#royal` | 19,508 | wordfreq zipf en 4.8 vs es 3.7 |
 | 4815 | `film` | 18,477 | wordfreq zipf en 5.2 vs es 4.1 |
 | 4858 | `metro#railway` | 18,227 | wordfreq zipf en 4.0 vs es 2.6 |
-| 5034 | `stand` | 17,168 | wordfreq zipf en 5.1 vs es 3.8 |
-| 5463 | `box` | 14,651 | wordfreq zipf en 5.0 vs es 3.8 |
-| 5519 | `country` | 14,352 | wordfreq zipf en 5.5 vs es 3.8 |
-| 5530 | `trading` | 14,263 | wordfreq zipf en 4.6 vs es 3.2 |
-| 5703 | `script` | 13,541 | wordfreq zipf en 4.4 vs es 3.3 |
-| 5814 | `check-in` | 13,045 | wordfreq zipf en 5.3 vs es 3.7 |
+| 5035 | `stand` | 17,168 | wordfreq zipf en 5.1 vs es 3.8 |
+| 5464 | `box` | 14,651 | wordfreq zipf en 5.0 vs es 3.8 |
+| 5520 | `country` | 14,352 | wordfreq zipf en 5.5 vs es 3.8 |
+| 5531 | `trading` | 14,263 | wordfreq zipf en 4.6 vs es 3.2 |
+| 5705 | `script` | 13,541 | wordfreq zipf en 4.4 vs es 3.3 |
+| 5815 | `check-in` | 13,045 | wordfreq zipf en 5.3 vs es 3.7 |
 
 ## Proper-noun candidates
 
 | rank | lemma | freq | signal |
 |---|---|---|---|
-| 160 | `dios` | 788,975 | PROPN 0%, capitalised forms 94% |
+| 160 | `dios` | 789,043 | PROPN 0%, capitalised forms 94% |
 | 362 | `estados unidos` | 416,601 | PROPN 1%, capitalised forms 100% |
 | 441 | `españa` | 361,243 | PROPN 100%, capitalised forms 100% |
-| 486 | `san` | 327,029 | PROPN 2%, capitalised forms 96% |
+| 485 | `san` | 327,029 | PROPN 2%, capitalised forms 96% |
 | 566 | `china` | 282,034 | PROPN 100%, capitalised forms 100% |
 | 693 | `méxico` | 236,286 | PROPN 100%, capitalised forms 100% |
-| 698 | `tv` | 234,979 | PROPN 6%, capitalised forms 97% |
+| 699 | `tv` | 234,979 | PROPN 6%, capitalised forms 97% |
 | 708 | `europa` | 231,507 | PROPN 99%, capitalised forms 100% |
 | 844 | `barcelona` | 197,214 | PROPN 100%, capitalised forms 100% |
 | 854 | `madrid` | 195,159 | PROPN 99%, capitalised forms 99% |
@@ -503,54 +503,54 @@ How each score reorders the default's top 5,000. Dispersion is over hash buckets
 | `esencialmente` | 4841 | 4695 | -146 | 20,309 | 20,162 | 0.992 | 0.030 |
 | `en otras palabras` | 4917 | 4772 | -145 | 19,818 | 19,686 | 0.994 | 0.024 |
 | `proponerse` | 4856 | 4711 | -145 | 20,211 | 20,063 | 0.994 | 0.026 |
-| `tom` | 2649 | 4659 | +2,010 | 51,687 | 20,384 | 0.985 | 0.056 |
+| `tom` | 2649 | 4660 | +2,011 | 51,687 | 20,384 | 0.985 | 0.056 |
 | `love` | 3142 | 5056 | +1,914 | 40,001 | 17,899 | 0.991 | 0.037 |
-| `ascendente` | 4358 | 6106 | +1,748 | 23,968 | 13,151 | 0.989 | 0.045 |
-| `remate` | 4265 | 5626 | +1,361 | 24,804 | 15,084 | 0.990 | 0.039 |
+| `ascendente` | 4360 | 6106 | +1,746 | 23,968 | 13,151 | 0.989 | 0.045 |
+| `remate` | 4265 | 5627 | +1,362 | 24,804 | 15,084 | 0.990 | 0.039 |
 | `tiquete` | 2263 | 3439 | +1,176 | 63,988 | 32,780 | 0.995 | 0.021 |
 
 ### `juilland_u`
 
 | lemma | default rank | this rank | move | freq | docs | Juilland D | DP norm |
 |---|---|---|---|---|---|---|---|
-| `gradualmente` | 4822 | 4813 | -9 | 20,402 | 20,200 | 0.994 | 0.024 |
+| `gradualmente` | 4823 | 4815 | -8 | 20,402 | 20,200 | 0.994 | 0.024 |
 | `notable` | 3883 | 3875 | -8 | 28,683 | 28,367 | 0.995 | 0.021 |
-| `retratar` | 4368 | 4361 | -7 | 23,923 | 22,978 | 0.994 | 0.025 |
 | `suscribirse` | 4260 | 4253 | -7 | 24,845 | 24,603 | 0.994 | 0.022 |
-| `ética` | 4366 | 4360 | -6 | 23,925 | 22,718 | 0.994 | 0.024 |
+| `divertirse` | 4974 | 4968 | -6 | 19,410 | 19,230 | 0.993 | 0.027 |
+| `neto` | 3943 | 3937 | -6 | 28,079 | 26,352 | 0.995 | 0.021 |
 | `mary` | 4935 | 4957 | +22 | 19,701 | 13,754 | 0.982 | 0.067 |
 | `tom` | 2649 | 2669 | +20 | 51,687 | 20,384 | 0.985 | 0.056 |
-| `ascendente` | 4358 | 4372 | +14 | 23,968 | 13,151 | 0.989 | 0.045 |
 | `itunes` | 4747 | 4759 | +12 | 20,811 | 18,165 | 0.990 | 0.040 |
-| `phoenix` | 4795 | 4803 | +8 | 20,500 | 17,968 | 0.991 | 0.036 |
+| `ascendente` | 4360 | 4372 | +12 | 23,968 | 13,151 | 0.989 | 0.045 |
+| `phoenix` | 4795 | 4804 | +9 | 20,500 | 17,968 | 0.991 | 0.036 |
 
 ### `juilland_u_corrected`
 
 | lemma | default rank | this rank | move | freq | docs | Juilland D | DP norm |
 |---|---|---|---|---|---|---|---|
-| `retratar` | 4368 | 4361 | -7 | 23,923 | 22,978 | 0.994 | 0.025 |
-| `ética` | 4366 | 4360 | -6 | 23,925 | 22,718 | 0.994 | 0.024 |
-| `retroceso` | 4063 | 4058 | -5 | 26,531 | 26,156 | 0.994 | 0.024 |
-| `cumplirse` | 4731 | 4727 | -4 | 20,959 | 20,674 | 0.993 | 0.028 |
-| `creyente` | 4061 | 4057 | -4 | 26,544 | 25,045 | 0.994 | 0.025 |
+| `retratar` | 4368 | 4363 | -5 | 23,923 | 22,978 | 0.994 | 0.025 |
+| `ética` | 4367 | 4362 | -5 | 23,925 | 22,718 | 0.994 | 0.024 |
+| `singapur` | 4181 | 4176 | -5 | 25,578 | 22,641 | 0.994 | 0.025 |
+| `michael` | 3970 | 3965 | -5 | 27,688 | 26,454 | 0.994 | 0.025 |
+| `retroceso` | 4065 | 4060 | -5 | 26,531 | 26,156 | 0.994 | 0.024 |
 | `tom` | 2649 | 2669 | +20 | 51,687 | 20,384 | 0.985 | 0.056 |
 | `mary` | 4935 | 4954 | +19 | 19,701 | 13,754 | 0.982 | 0.067 |
-| `ascendente` | 4358 | 4372 | +14 | 23,968 | 13,151 | 0.989 | 0.045 |
 | `itunes` | 4747 | 4759 | +12 | 20,811 | 18,165 | 0.990 | 0.040 |
-| `ahora que` | 4666 | 4674 | +8 | 21,372 | 21,169 | 0.991 | 0.035 |
+| `ascendente` | 4360 | 4372 | +12 | 23,968 | 13,151 | 0.989 | 0.045 |
+| `phoenix` | 4795 | 4803 | +8 | 20,500 | 17,968 | 0.991 | 0.036 |
 
 ### `dp_adjusted`
 
 | lemma | default rank | this rank | move | freq | docs | Juilland D | DP norm |
 |---|---|---|---|---|---|---|---|
-| `gradualmente` | 4822 | 4796 | -26 | 20,402 | 20,200 | 0.994 | 0.024 |
+| `gradualmente` | 4823 | 4796 | -27 | 20,402 | 20,200 | 0.994 | 0.024 |
 | `eco` | 4838 | 4816 | -22 | 20,321 | 19,600 | 0.994 | 0.024 |
 | `en otras palabras` | 4917 | 4897 | -20 | 19,818 | 19,686 | 0.994 | 0.024 |
-| `gozar de algo` | 3885 | 3866 | -19 | 28,667 | 28,361 | 0.995 | 0.020 |
 | `hallazgo` | 4786 | 4767 | -19 | 20,558 | 20,244 | 0.994 | 0.024 |
+| `casual` | 4839 | 4821 | -18 | 20,318 | 19,640 | 0.994 | 0.025 |
 | `mary` | 4935 | 5043 | +108 | 19,701 | 13,754 | 0.982 | 0.067 |
 | `tom` | 2649 | 2717 | +68 | 51,687 | 20,384 | 0.985 | 0.056 |
-| `ascendente` | 4358 | 4409 | +51 | 23,968 | 13,151 | 0.989 | 0.045 |
+| `ascendente` | 4360 | 4409 | +49 | 23,968 | 13,151 | 0.989 | 0.045 |
 | `itunes` | 4747 | 4786 | +39 | 20,811 | 18,165 | 0.990 | 0.040 |
 | `phoenix` | 4795 | 4829 | +34 | 20,500 | 17,968 | 0.991 | 0.036 |
 
@@ -559,19 +559,19 @@ How each score reorders the default's top 5,000. Dispersion is over hash buckets
 | lemma | default rank | this rank | move | freq | docs | Juilland D | DP norm |
 |---|---|---|---|---|---|---|---|
 | `la mayor parte de` | 4552 | 4472 | -80 | 22,391 | 22,216 | 0.993 | 0.030 |
+| `profundizar` | 4928 | 4851 | -77 | 19,766 | 19,609 | 0.993 | 0.029 |
+| `familiarizarse` | 4983 | 4907 | -76 | 19,362 | 19,274 | 0.992 | 0.032 |
 | `orbitz` | 4949 | 4873 | -76 | 19,570 | 19,454 | 0.992 | 0.031 |
-| `profundizar` | 4927 | 4851 | -76 | 19,766 | 19,609 | 0.993 | 0.029 |
 | `en otras palabras` | 4917 | 4842 | -75 | 19,818 | 19,686 | 0.994 | 0.024 |
-| `familiarizarse` | 4981 | 4907 | -74 | 19,362 | 19,274 | 0.992 | 0.032 |
 | `tom` | 2649 | 3528 | +879 | 51,687 | 20,384 | 0.985 | 0.056 |
-| `love` | 3142 | 3982 | +840 | 40,001 | 17,899 | 0.991 | 0.037 |
-| `ascendente` | 4358 | 5166 | +808 | 23,968 | 13,151 | 0.989 | 0.045 |
+| `love` | 3142 | 3983 | +841 | 40,001 | 17,899 | 0.991 | 0.037 |
+| `ascendente` | 4360 | 5166 | +806 | 23,968 | 13,151 | 0.989 | 0.045 |
 | `remate` | 4265 | 4901 | +636 | 24,804 | 15,084 | 0.990 | 0.039 |
 | `tiquete` | 2263 | 2819 | +556 | 63,988 | 32,780 | 0.995 | 0.021 |
 
 ## Excluded lemmas
 
-`es.tsv` (sha256 `d65cd2427cf419f2`) lists 1,404 exclusions; 839 lemmas were dropped from the top 30,000 before cutting it (exclude-abbreviation 39, exclude-boilerplate 36, exclude-english 685, exclude-foreign 16, exclude-fragment 10, exclude-letter 25, exclude-numeral 28). Lower ranks moved up.
+`es.tsv` (sha256 `d65cd2427cf419f2`) lists 1,404 exclusions; 1,028 lemmas were dropped from the top 40,000 before cutting it (exclude-abbreviation 47, exclude-boilerplate 56, exclude-english 841, exclude-foreign 16, exclude-fragment 13, exclude-letter 25, exclude-numeral 30). Lower ranks moved up.
 
 | rank before | lemma | class | reason |
 |---|---|---|---|
@@ -595,7 +595,7 @@ How each score reorders the default's top 5,000. Dispersion is over hash buckets
 | 1915 | `m` | exclude-letter | developer 2026-11-01: single letters excluded |
 | 1938 | `new` | exclude-english | English template text |
 | 2089 | `home` | exclude-english | English template text |
-| 2213 | `t` | exclude-letter | developer 2026-11-01: single letters excluded |
+| 2214 | `t` | exclude-letter | developer 2026-11-01: single letters excluded |
 | 2308 | `g` | exclude-letter | developer 2026-11-01: single letters excluded |
 | 2378 | `to` | exclude-english | English preposition |
 | 2469 | `house` | exclude-english | English template text |
@@ -603,7 +603,7 @@ How each score reorders the default's top 5,000. Dispersion is over hash buckets
 | 2592 | `v` | exclude-letter | developer 2026-11-01: single letters excluded |
 | 2679 | `by` | exclude-english | English preposition |
 | 2691 | `k` | exclude-letter | developer 2026-11-01: single letters excluded |
-| 2758 | `e` | exclude-letter | developer 2026-11-01: single letters excluded |
+| 2759 | `e` | exclude-letter | developer 2026-11-01: single letters excluded |
 | 2788 | `black` | exclude-english | English colour word |
 | 2794 | `n` | exclude-letter | developer 2026-11-01: single letters excluded |
 | 2855 | `grand` | exclude-english | English in brand names |
@@ -611,15 +611,15 @@ How each score reorders the default's top 5,000. Dispersion is over hash buckets
 | 2928 | `airport` | exclude-english | English for aeropuerto |
 | 2933 | `f` | exclude-letter | developer 2026-11-01: single letters excluded |
 | 3000 | `island` | exclude-english | English place word |
-| 3024 | `on` | exclude-english | English preposition |
+| 3025 | `on` | exclude-english | English preposition |
 | 3056 | `iii` | exclude-numeral | developer 2026-11-01: roman numerals excluded |
-| 3069 | `international` | exclude-english | English for internacional |
+| 3070 | `international` | exclude-english | English for internacional |
 | 3087 | `best` | exclude-english | English word |
 | 3109 | `for` | exclude-english | English preposition |
 | 3130 | `west` | exclude-english | English place word |
 | 3131 | `air` | exclude-english | English in brand names |
 | 3142 | `love` | exclude-english | English word |
-| 3172 | `ltd` | exclude-boilerplate | company-name template suffix |
+| 3173 | `ltd` | exclude-boilerplate | company-name template suffix |
 | 3208 | `lg` | exclude-foreign | developer 2026-11-01: brand acronym excluded |
 | 3248 | `di` | exclude-foreign | developer 2026-11-01: foreign name particle excluded |
 | 3249 | `world` | exclude-english | English word |
@@ -629,19 +629,19 @@ How each score reorders the default's top 5,000. Dispersion is over hash buckets
 | 3492 | `do` | exclude-foreign | developer 2026-11-01: foreign name particle excluded |
 | 3507 | `white` | exclude-english | English colour word |
 | 3547 | `car` | exclude-english | English word |
-| 3574 | `one` | exclude-english | English word |
+| 3575 | `one` | exclude-english | English word |
 | 3580 | `us` | exclude-english | English pronoun/domain |
 | 3613 | `am` | exclude-english | English time suffix |
 | 3622 | `file` | exclude-english | English for archivo |
 | 3661 | `mainland` | exclude-english | English listing text |
-| 3705 | `business` | exclude-english | English word |
+| 3707 | `business` | exclude-english | English word |
 
-_779 more in the exclusion file._
+_968 more in the exclusion file._
 
 
 ## Junk-filter heuristics
 
-Rules on: diversity, citation, foreign, shape, propn_band; accent merges at ratio 5.0. Window: the 63,005 ranked lemmas (after the exclusion list) that fill the top 30,000. Actions: keep 22,676, propn-drop 21,426, review-drop 11,579, review-keep 7,324.
+Rules on: diversity, citation, foreign, shape, propn_band; accent merges at ratio 5.0. Window: the 114,944 ranked lemmas (after the exclusion list) that fill the top 40,000. Actions: keep 29,724, propn-drop 48,825, review-drop 26,119, review-keep 10,276.
 
 ### Hits and overlap (window)
 
@@ -649,21 +649,21 @@ Diagonal: lemmas the rule flags; off-diagonal: lemmas both rules flag.
 
 | | diversity | citation | foreign | shape | propn_band |
 |---|---:|---:|---:|---:|---:|
-| diversity | 192 | 1 | 4 | 12 | 41 |
-| citation | 1 | 145 | 1 | 13 | 0 |
-| foreign | 4 | 1 | 4,937 | 184 | 2,431 |
-| shape | 12 | 13 | 184 | 2,200 | 949 |
-| propn_band | 41 | 0 | 2,431 | 949 | 10,183 |
+| diversity | 458 | 3 | 4 | 42 | 125 |
+| citation | 3 | 391 | 1 | 45 | 0 |
+| foreign | 4 | 1 | 8,275 | 478 | 4,171 |
+| shape | 42 | 45 | 478 | 5,142 | 1,830 |
+| propn_band | 125 | 0 | 4,171 | 1,830 | 20,967 |
 
-Proper nouns dropped alone (capitalised in >= 90% of running text): 21,426.
+Proper nouns dropped alone (capitalised in >= 90% of running text): 48,825.
 
 ### Low diversity
 
-Documents reached / documents expected at random, below 0.6 (frequency >= 20): 192 in the window. For comparison, each log2-frequency band's 2nd percentile: 64-127: 0.76, 128-255: 0.78, 256-511: 0.78, 512-1023: 0.78, 1024-2047: 0.78, 2048-4095: 0.8, 4096-8191: 0.82, 8192-16383: 0.83, 16384-32767: 0.84, 32768-65535: 0.85, 65536-131071: 0.86, 131072-262143: 0.87, 262144-524287: 0.87.
+Documents reached / documents expected at random, below 0.6 (frequency >= 20): 458 in the window. For comparison, each log2-frequency band's 2nd percentile: 32-63: 0.76, 64-127: 0.76, 128-255: 0.78, 256-511: 0.78, 512-1023: 0.78, 1024-2047: 0.78, 2048-4095: 0.8, 4096-8191: 0.82, 8192-16383: 0.83, 16384-32767: 0.84, 32768-65535: 0.85, 65536-131071: 0.86, 131072-262143: 0.87, 262144-524287: 0.87.
 
-Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (5642), `pseudo` (5686), `de aquí en adelante` (5846), `netcomponents` (6392), `bora` (8980), `microarea` (9671), `moncler` (10601), `wishtrips` (11674), `alugom` (14727), `fpnm` (16201), `luge` (16724), `vbulletin` (16725), `caja de música` (17710), `invoice` (18159), `langa` (19884), `pcbs` (21790), `idnet` (21993), `fossil` (22101), `allover` (22364), `nopb` (22502), `stardoll` (22697), `megaexit` (22710), `subiza` (22736), `dimatra` (23307), `prorock-perforación` (23708), `walla` (24052), `tradingview` (24424), `gotesa` (24768), `tudanca` (24890), `cinvestav` (24986), `naf` (25055), `al-tec` (26884), `linked` (27742), `whaly` (27932), `kendu` (28016), `jovees` (28670), `mectrol` (30382)
+Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4280), `pseudónimo` (5642), `pseudo` (5687), `de aquí en adelante` (5846), `netcomponents` (6393), `bora` (8980), `microarea` (9672), `moncler` (10601), `wishtrips` (11675), `alugom` (14732), `fpnm` (16205), `luge` (16726), `vbulletin` (16727), `caja de música` (17714), `invoice` (18162), `langa` (19889), `pcbs` (21798), `idnet` (22000), `fossil` (22108), `allover` (22370), `nopb` (22508), `stardoll` (22701), `megaexit` (22713), `subiza` (22738), `dimatra` (23309), `prorock-perforación` (23711), `walla` (24055), `tradingview` (24427), `gotesa` (24772), `tudanca` (24896), `cinvestav` (24993), `naf` (25060), `al-tec` (26892), `linked` (27755), `whaly` (27944), `kendu` (28028), `jovees` (28678), `mectrol` (30391)
 
-### Accent merges (8,316)
+### Accent merges (9,404)
 
 | from | into | frequency moved | evidence |
 |---|---|---:|---|
@@ -701,6 +701,8 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `miniar` | `minio` | 27 | review: split (Minio, minio) |
 | `canana` | `cananeo` | 33 | review: split (cananita) |
 | `recebar` | `recebo` | 34 | review: split (Recebo, recebo) |
+| `emplastar` | `emplasto` | 64 | review: split (Emplaste, Emplasto, emplaste, emplasto) |
+| `albardar` | `albarda` | 61 | review: split (Albarda, albarda, albardas) |
 | `manager` | `mánager` | 25,019 | review: merge |
 | `junior` | `júnior` | 12,397 | review: merge |
 | `inscríbete` | `inscribir` | 9,648 | review: merge |
@@ -1272,7 +1274,9 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `acabé` | `acabar` | 169 | review: merge |
 | `animo` | `animar` | 223 | review: merge |
 | `apocal` | `apocalipsis` | 429 | review: merge |
+| `asumí` | `asumir` | 62 | review: merge |
 | `audio-visual` | `audiovisual` | 267 | review: merge |
+| `berebere` | `bereber` | 65 | review: merge |
 | `co-director` | `codirector` | 293 | review: merge |
 | `cosmetica` | `cosmética` | 129 | review: merge |
 | `explicaro` | `explicar` | 217 | review: merge |
@@ -2190,6 +2194,7 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `computarizados` | `computarizado` | 372 | review: merge |
 | `correción` | `corrección` | 477 | review: merge |
 | `cristiana` | `cristiano` | 479 | review: merge |
+| `decile` | `decir` | 68 | review: merge |
 | `dejándola` | `dejar` | 445 | review: merge |
 | `escollar` | `escollo` | 374 | review: merge |
 | `mantenla` | `mantener` | 360 | review: merge |
@@ -2409,6 +2414,7 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `dinamica` | `dinámica` | 311 | review: merge |
 | `felíz` | `feliz` | 282 | review: merge |
 | `finísima` | `fino` | 279 | review: merge |
+| `hablás` | `hablar` | 53 | review: merge |
 | `hemodinámica` | `hemodinámico` | 336 | review: merge |
 | `imaginer` | `imaginería` | 273 | review: merge |
 | `infanter` | `infantería` | 348 | review: merge |
@@ -6715,7 +6721,15 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `transgender` | `transgénero` | 71 | review: merge |
 | `clutche` | `clutch` | 70 | review: merge |
 | `couscous` | `cuscús` | 70 | review: merge |
+| `ingenería` | `ingeniería` | 70 | review: merge |
+| `serl` | `ser` | 70 | review: merge |
 | `suministrándol` | `suministrar` | 70 | review: merge |
+| `doble-clic` | `doble clic` | 69 | review: merge |
+| `ex-marido` | `exmarido` | 69 | review: merge |
+| `multicin#Fem` | `multicine` | 69 | review: merge |
+| `sabrán` | `saber` | 69 | review: merge |
+| `valenciana` | `valenciano` | 69 | review: merge |
+| `vendr` | `venir` | 69 | review: merge |
 | `reimaginado` | `reimaginar` | 77 | review: merge |
 | `vacaciónes` | `vacaciones` | 77 | review: merge |
 | `blisters` | `blíster` | 76 | review: merge |
@@ -6813,6 +6827,12 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `permítel` | `permitir` | 70 | review: merge |
 | `pompom` | `pompón` | 70 | review: merge |
 | `visité` | `visitar` | 70 | review: merge |
+| `amorita` | `amorreo` | 69 | review: merge |
+| `co-investigador` | `coinvestigador` | 69 | review: merge |
+| `post-colonial` | `poscolonial` | 69 | review: merge |
+| `prometiéndol` | `prometer` | 69 | review: merge |
+| `rosetas` | `roseta` | 69 | review: merge |
+| `súper-héroe` | `superhéroe` | 69 | review: merge |
 | `amaderados` | `amaderado` | 76 | review: merge |
 | `ampollosa` | `ampolloso` | 76 | review: merge |
 | `audicionó` | `audicionar` | 76 | review: merge |
@@ -6883,8 +6903,16 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `sobre-descarga` | `sobredescarga` | 71 | review: merge |
 | `terminados` | `terminado` | 71 | review: merge |
 | `ex-militar` | `exmilitar` | 70 | review: merge |
+| `indexabl` | `indexable` | 70 | review: merge |
 | `neo-nazis` | `neonazi` | 70 | review: merge |
 | `sub-licencia` | `sublicencia` | 70 | review: merge |
+| `acompañándol` | `acompañar` | 69 | review: merge |
+| `auto-sanación` | `autosanación` | 69 | review: merge |
+| `electro-óptico` | `electroóptico` | 69 | review: merge |
+| `liposuction` | `liposucción` | 69 | review: merge |
+| `pre-grabadas` | `pregrabado` | 69 | review: merge |
+| `re-establecer` | `restablecer` | 69 | review: merge |
+| `reflectantes` | `reflectante` | 69 | review: merge |
 | `recupérate` | `recuperarse` | 77 | review: merge |
 | `reintroducida` | `reintroducir` | 77 | review: merge |
 | `salmonera` | `salmonero` | 77 | review: merge |
@@ -6959,11 +6987,19 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `replantearno` | `replantearse` | 71 | review: merge |
 | `sub-categorías` | `subcategoría` | 71 | review: merge |
 | `transformándono` | `transformarse` | 71 | review: merge |
+| `anti-bacteriano` | `antibacteriano` | 70 | review: merge |
 | `campuse` | `campus` | 70 | review: merge |
 | `formé` | `formar` | 70 | review: merge |
 | `post-procesado` | `postprocesado` | 70 | review: merge |
 | `pre-programadas` | `preprogramado` | 70 | review: merge |
 | `re-escribir` | `reescribir` | 70 | review: merge |
+| `acompáñe` | `acompañar` | 69 | review: merge |
+| `carnecarne` | `carne` | 69 | review: merge |
+| `comprarl` | `comprar` | 69 | review: merge |
+| `moviéndono` | `moverse` | 69 | review: merge |
+| `nacional-socialismo` | `nacionalsocialismo` | 69 | review: merge |
+| `re-lanzamiento` | `relanzamiento` | 69 | review: merge |
+| `remitirl` | `remitir` | 69 | review: merge |
 | `sintiéndolo` | `sentir` | 77 | review: merge |
 | `volteándolo` | `voltear` | 77 | review: merge |
 | `condenándolo` | `condenar` | 76 | review: merge |
@@ -7016,6 +7052,28 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `querosén` | `queroseno` | 72 | review: merge |
 | `semiolímpica` | `semiolímpico` | 72 | review: merge |
 | `sesiona` | `sesionar` | 72 | review: merge |
+| `cetera` | `etcétera` | 68 | review: merge |
+| `disfrutabl` | `disfrutable` | 68 | review: merge |
+| `inculcarl` | `inculcar` | 68 | review: merge |
+| `nochenoche` | `noche` | 68 | review: merge |
+| `olvidémono` | `olvidarse` | 68 | review: merge |
+| `solidos` | `sólido` | 68 | review: merge |
+| `trabalengua` | `trabalenguas` | 68 | review: merge |
+| `amargur` | `amargura` | 67 | review: merge |
+| `anti-social` | `antisocial` | 67 | review: merge |
+| `auto-percepción` | `autopercepción` | 67 | review: merge |
+| `co-construcción` | `coconstrucción` | 67 | review: merge |
+| `escafoid` | `escafoides` | 67 | review: merge |
+| `ex-agente` | `exagente` | 67 | review: merge |
+| `hooligans` | `hooligan` | 67 | review: merge |
+| `háblales` | `hablar` | 67 | review: merge |
+| `multi-táctil` | `multitáctil` | 67 | review: merge |
+| `re-evaluar` | `reevaluar` | 67 | review: merge |
+| `semi-cubierto` | `semicubierto` | 67 | review: merge |
+| `contra-reembolso` | `contrarreembolso` | 66 | review: merge |
+| `diakonia` | `diaconía` | 66 | review: merge |
+| `lloró` | `llorar` | 66 | review: merge |
+| `pagándol` | `pagar` | 66 | review: merge |
 | `sumérgelo` | `sumergir` | 72 | review: merge |
 | `alergía` | `alergia` | 71 | review: merge |
 | `bonuse` | `bonus` | 71 | review: merge |
@@ -7031,11 +7089,46 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `videogame` | `videojuego` | 71 | review: merge |
 | `asisitir` | `asistir` | 70 | review: merge |
 | `autoexcluir` | `autoexcluirse` | 70 | review: merge |
+| `besándola` | `besar` | 70 | review: merge |
 | `desprendiéndose` | `desprenderse` | 70 | review: merge |
 | `envíen` | `enviar` | 70 | review: merge |
 | `fexiblemente` | `flexiblemente` | 70 | review: merge |
 | `insume` | `insumir` | 70 | review: merge |
 | `methylphenidate` | `metilfenidato` | 70 | review: merge |
+| `morira` | `morir` | 70 | review: merge |
+| `progesterone` | `progesterona` | 70 | review: merge |
+| `tabajo` | `trabajo` | 70 | review: merge |
+| `aerospacial` | `aeroespacial` | 69 | review: merge |
+| `arrójate` | `arrojarse` | 69 | review: merge |
+| `bús` | `bus` | 69 | review: merge |
+| `enseñaza` | `enseñanza` | 69 | review: merge |
+| `estrese` | `estresarse` | 69 | review: merge |
+| `fuxia` | `fucsia` | 69 | review: merge |
+| `jijiji` | `jiji` | 69 | review: merge |
+| `llamadle` | `llamar` | 69 | review: merge |
+| `methadone` | `metadona` | 69 | review: merge |
+| `remise` | `remís` | 69 | review: merge |
+| `rodhio` | `rodio` | 69 | review: merge |
+| `acercándola` | `acercar` | 68 | review: merge |
+| `apartemento` | `apartamento` | 68 | review: merge |
+| `apdo` | `apartado` | 68 | review: merge |
+| `bien-estar` | `bienestar` | 68 | review: merge |
+| `co-protagonista` | `coprotagonista` | 68 | review: merge |
+| `contándono` | `contar` | 68 | review: merge |
+| `despojémono` | `despojarse` | 68 | review: merge |
+| `nuestr` | `nuestro` | 68 | review: merge |
+| `sangresangre` | `sangre` | 68 | review: merge |
+| `arcoiri` | `arcoíris` | 67 | review: merge |
+| `buganvilia` | `buganvilla` | 67 | review: merge |
+| `concentrémono` | `concentrarse` | 67 | review: merge |
+| `embalajes` | `embalaje` | 67 | review: merge |
+| `norte-este` | `noreste` | 67 | review: merge |
+| `valiéndono` | `valerse` | 67 | review: merge |
+| `acuarelabl` | `acuarelable` | 66 | review: merge |
+| `anti-austeridad` | `antiausteridad` | 66 | review: merge |
+| `esperándol` | `esperar` | 66 | review: merge |
+| `involucrándo` | `involucrarse` | 66 | review: merge |
+| `mantra-s` | `mantra` | 66 | review: merge |
 | `usás` | `usar` | 72 | review: merge |
 | `attometro` | `attómetro` | 71 | review: merge |
 | `coescribió` | `coescribir` | 71 | review: merge |
@@ -7064,6 +7157,7 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `aprovado` | `aprobar` | 70 | review: merge |
 | `ateroscleróticas` | `aterosclerótico` | 70 | review: merge |
 | `autoimpuesta` | `autoimpuesto` | 70 | review: merge |
+| `chlorhexidine` | `clorhexidina` | 70 | review: merge |
 | `ciñéndose` | `ceñirse` | 70 | review: merge |
 | `cuotidiano` | `cotidiano` | 70 | review: merge |
 | `dadles` | `dar` | 70 | review: merge |
@@ -7073,7 +7167,47 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `forzándola` | `forzar` | 70 | review: merge |
 | `hornéala` | `hornear` | 70 | review: merge |
 | `promocionarlo` | `promocionar` | 70 | review: merge |
+| `reabastecido` | `reabastecer` | 70 | review: merge |
 | `sobreexplotadas` | `sobreexplotado` | 70 | review: merge |
+| `agítala` | `agitar` | 69 | review: merge |
+| `apágalo` | `apagar` | 69 | review: merge |
+| `cdta` | `cucharadita` | 69 | review: merge |
+| `concédale` | `conceder` | 69 | review: merge |
+| `dirigiéndola` | `dirigir` | 69 | review: merge |
+| `entregándola` | `entregar` | 69 | review: merge |
+| `huéspued` | `huésped` | 69 | review: merge |
+| `larguísimos` | `largo` | 69 | review: merge |
+| `mójate` | `mojarse` | 69 | review: merge |
+| `plantéese` | `plantearse` | 69 | review: merge |
+| `posherpética` | `posherpético` | 69 | review: merge |
+| `pricipal` | `principal` | 69 | review: merge |
+| `átate` | `atarse` | 69 | review: merge |
+| `aver` | `a ver` | 68 | review: merge |
+| `apliquen` | `aplicar` | 68 | review: merge |
+| `auto-consciente` | `autoconsciente` | 68 | review: merge |
+| `corta-césped` | `cortacésped` | 68 | review: merge |
+| `infundirl` | `infundir` | 68 | review: merge |
+| `ministrarl` | `ministrar` | 68 | review: merge |
+| `practica` | `práctica` | 68 | review: merge |
+| `sub-tropical` | `subtropical` | 68 | review: merge |
+| `vulnerabilidades` | `vulnerabilidad` | 68 | review: merge |
+| `ammonite` | `amonita` | 67 | review: merge |
+| `bar-b-que` | `barbacoa` | 67 | review: merge |
+| `diece` | `diez` | 67 | review: merge |
+| `dícel` | `decir` | 67 | review: merge |
+| `ergonómica` | `ergonómico` | 67 | review: merge |
+| `estilistas` | `estilista` | 67 | review: merge |
+| `jóven` | `joven` | 67 | review: merge |
+| `remontándono` | `remontarse` | 67 | review: merge |
+| `ultimo` | `último` | 67 | review: merge |
+| `venderno` | `vender` | 67 | review: merge |
+| `vozvoz` | `voz` | 67 | review: merge |
+| `deleitándono` | `deleitarse` | 66 | review: merge |
+| `estándard` | `estándar` | 66 | review: merge |
+| `hotdog` | `hot dog` | 66 | review: merge |
+| `neo-colonial` | `neocolonial` | 66 | review: merge |
+| `prestándol` | `prestar` | 66 | review: merge |
+| `tomaro` | `tomarse` | 66 | review: merge |
 | `sustitúyase` | `sustituir` | 72 | review: merge |
 | `compuester` | `componer` | 71 | review: merge |
 | `dialogo` | `diálogo` | 71 | review: merge |
@@ -7089,6 +7223,44 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `chaqueña` | `chaqueño` | 70 | review: merge |
 | `dedíquese` | `dedicarse` | 70 | review: merge |
 | `enrrollado` | `enrollado` | 70 | review: merge |
+| `nuetro` | `nuestro` | 70 | review: merge |
+| `usuarixs` | `usuario` | 70 | review: merge |
+| `convenciéndolo` | `convencer` | 69 | review: merge |
+| `curricula` | `currículum` | 69 | review: merge |
+| `disfrázate` | `disfrazarse` | 69 | review: merge |
+| `fribra` | `fibra` | 69 | review: merge |
+| `harmónico` | `armónico` | 69 | review: merge |
+| `incorporándola` | `incorporar` | 69 | review: merge |
+| `movidito` | `movido` | 69 | review: merge |
+| `phising` | `phishing` | 69 | review: merge |
+| `pozones` | `pozón` | 69 | review: merge |
+| `vampíricas` | `vampírico` | 69 | review: merge |
+| `arrepiéntase` | `arrepentirse` | 68 | review: merge |
+| `balnerario` | `balneario` | 68 | review: merge |
+| `anafilaxi` | `anafilaxis` | 68 | review: merge |
+| `anti-fraude` | `antifraude` | 68 | review: merge |
+| `contactarno` | `contactar` | 68 | review: merge |
+| `cortaúña` | `cortaúñas` | 68 | review: merge |
+| `diosesdiose` | `dios` | 68 | review: merge |
+| `mañanamañana` | `mañana` | 68 | review: merge |
+| `membresías` | `membresía` | 68 | review: merge |
+| `pro-bono` | `pro bono` | 68 | review: merge |
+| `alejándol` | `alejar` | 67 | review: merge |
+| `anti-incendio` | `antiincendios` | 67 | review: merge |
+| `bendecidos` | `bendecido` | 67 | review: merge |
+| `bodysuit` | `body` | 67 | review: merge |
+| `co-conspirador` | `coconspirador` | 67 | review: merge |
+| `mandándono` | `mandar` | 67 | review: merge |
+| `platanito` | `plátano` | 67 | review: merge |
+| `resuélvase` | `resolver` | 67 | review: merge |
+| `yurt` | `yurta` | 67 | review: merge |
+| `conociéndono` | `conocerse` | 66 | review: merge |
+| `dabigatr` | `dabigatrán` | 66 | review: merge |
+| `divulgada` | `divulgar` | 66 | review: merge |
+| `eco-sostenible` | `ecosostenible` | 66 | review: merge |
+| `expandiéndono` | `expandirse` | 66 | review: merge |
+| `gels` | `gel` | 66 | review: merge |
+| `oh-oh` | `oh` | 66 | review: merge |
 | `torreña` | `torreño` | 72 | review: merge |
 | `autodirigida` | `autodirigido` | 71 | review: merge |
 | `campesinxs` | `campesino` | 71 | review: merge |
@@ -7116,7 +7288,298 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `impase` | `impasse` | 70 | review: merge |
 | `koreano` | `coreano` | 70 | review: merge |
 | `naútica` | `náutica` | 70 | review: merge |
+| `platforma` | `plataforma` | 70 | review: merge |
+| `psicoterapéuticas` | `psicoterapéutico` | 70 | review: merge |
+| `reintroducidos` | `reintroducir` | 70 | review: merge |
+| `vistante` | `visitante` | 70 | review: merge |
 | `zakaah` | `zakat` | 70 | review: merge |
+| `bloggero` | `bloguero` | 69 | review: merge |
+| `caloroso` | `caluroso` | 69 | review: merge |
+| `crowfunding` | `crowdfunding` | 69 | review: merge |
+| `enfrentémoslo` | `enfrentar` | 69 | review: merge |
+| `gólems` | `gólem` | 69 | review: merge |
+| `limpiao` | `limpiarse` | 69 | review: merge |
+| `mantené` | `mantener` | 69 | review: merge |
+| `microbial` | `microbiano` | 69 | review: merge |
+| `refrigérala` | `refrigerar` | 69 | review: merge |
+| `semidesnuda` | `semidesnudo` | 69 | review: merge |
+| `alentejana` | `alentejano` | 68 | review: merge |
+| `atacameña` | `atacameño` | 68 | review: merge |
+| `borreguito` | `borrego` | 68 | review: merge |
+| `bátelo` | `batir` | 68 | review: merge |
+| `búscar` | `buscar` | 68 | review: merge |
+| `calefactadas` | `calefactado` | 68 | review: merge |
+| `comenzé` | `comenzar` | 68 | review: merge |
+| `cuboid` | `cuboide` | 68 | review: merge |
+| `dejándolo` | `dejar` | 68 | review: merge |
+| `desamorar` | `desamor` | 68 | review: merge |
+| `dimenhydrinate` | `dimenhidrinato` | 68 | review: merge |
+| `disfutar` | `disfrutar` | 68 | review: merge |
+| `disponiéndose` | `disponerse` | 68 | review: merge |
+| `dándo` | `dar` | 68 | review: merge |
+| `dánoslo` | `dar` | 68 | review: merge |
+| `encintadoras` | `encintadora` | 68 | review: merge |
+| `entenderlos` | `entender` | 68 | review: merge |
+| `eurocéntrica` | `eurocéntrico` | 68 | review: merge |
+| `fresquísimo` | `fresco` | 68 | review: merge |
+| `guarnicioner` | `guarnicionería` | 68 | review: merge |
+| `heparin` | `heparina` | 68 | review: merge |
+| `hoteleria` | `hotelería` | 68 | review: merge |
+| `inmunoquímica` | `inmunoquímico` | 68 | review: merge |
+| `linguística` | `lingüística` | 68 | review: merge |
+| `linguístico` | `lingüístico` | 68 | review: merge |
+| `mandarlas` | `mandar` | 68 | review: merge |
+| `morenito` | `moreno` | 68 | review: merge |
+| `mostradme` | `mostrar` | 68 | review: merge |
+| `netural` | `neutral` | 68 | review: merge |
+| `nisiquiera` | `ni siquiera` | 68 | review: merge |
+| `nmero` | `número` | 68 | review: merge |
+| `permítase` | `permitir` | 68 | review: merge |
+| `personalícela` | `personalizar` | 68 | review: merge |
+| `procedimento` | `procedimiento` | 68 | review: merge |
+| `pulgs` | `pulgada` | 68 | review: merge |
+| `quier` | `querer` | 68 | review: merge |
+| `relacionándolo` | `relacionar` | 68 | review: merge |
+| `representate` | `representante` | 68 | review: merge |
+| `sometiéndolo` | `someter` | 68 | review: merge |
+| `sostenla` | `sostener` | 68 | review: merge |
+| `símplemente` | `simplemente` | 68 | review: merge |
+| `transfiérelo` | `transferir` | 68 | review: merge |
+| `afrontémoslo` | `afrontar` | 67 | review: merge |
+| `apreciados` | `apreciado` | 67 | review: merge |
+| `arrastrándome` | `arrastrar` | 67 | review: merge |
+| `arrástre` | `arrastrar` | 67 | review: merge |
+| `audioguías` | `audioguía` | 67 | review: merge |
+| `bromea` | `bromear` | 67 | review: merge |
+| `canalera` | `canalero` | 67 | review: merge |
+| `carenciadas` | `carenciado` | 67 | review: merge |
+| `cerdita` | `cerdo` | 67 | review: merge |
+| `cibernautas` | `cibernauta` | 67 | review: merge |
+| `contrasena` | `contraseña` | 67 | review: merge |
+| `copatrocinada` | `copatrocinar` | 67 | review: merge |
+| `cuchiller` | `cuchillería` | 67 | review: merge |
+| `desátenlo` | `desatar` | 67 | review: merge |
+| `dólares` | `dólar` | 67 | review: merge |
+| `enfocándome` | `enfocarse` | 67 | review: merge |
+| `enjuagarla` | `enjuagar` | 67 | review: merge |
+| `enróllala` | `enrollar` | 67 | review: merge |
+| `enstala` | `instalar` | 67 | review: merge |
+| `estuprar` | `estupro` | 67 | review: merge |
+| `exhortándoos` | `exhortar` | 67 | review: merge |
+| `extruidas` | `extruir` | 67 | review: merge |
+| `fandoms` | `fandom` | 67 | review: merge |
+| `fríela` | `freír` | 67 | review: merge |
+| `frótelo` | `frotar` | 67 | review: merge |
+| `gravísimas` | `grave` | 67 | review: merge |
+| `hipertónica` | `hipertónico` | 67 | review: merge |
+| `insértese` | `insertar` | 67 | review: merge |
+| `interesantísimas` | `interesante` | 67 | review: merge |
+| `inuits` | `inuit` | 67 | review: merge |
+| `lubrificar` | `lubricar` | 67 | review: merge |
+| `límpio` | `limpio` | 67 | review: merge |
+| `manano` | `mañana` | 67 | review: merge |
+| `matérica` | `matérico` | 67 | review: merge |
+| `meterte` | `meterse` | 67 | review: merge |
+| `micológica` | `micológico` | 67 | review: merge |
+| `microesferas` | `microesfera` | 67 | review: merge |
+| `monísimo` | `mono` | 67 | review: merge |
+| `mézclela` | `mezclar` | 67 | review: merge |
+| `parabenes` | `parabeno` | 67 | review: merge |
+| `permeando` | `permear` | 67 | review: merge |
+| `persiguiéndo` | `perseguir` | 67 | review: merge |
+| `pronostico` | `pronóstico` | 67 | review: merge |
+| `péinate` | `peinarse` | 67 | review: merge |
+| `redireccionada` | `redireccionar` | 67 | review: merge |
+| `relizar` | `realizar` | 67 | review: merge |
+| `sazónalo` | `sazonar` | 67 | review: merge |
+| `solicitándola` | `solicitar` | 67 | review: merge |
+| `sometedla` | `someter` | 67 | review: merge |
+| `subatendidas` | `subatendido` | 67 | review: merge |
+| `submuniciones` | `submunición` | 67 | review: merge |
+| `suspensiónes` | `suspensión` | 67 | review: merge |
+| `sustitúyalo` | `sustituir` | 67 | review: merge |
+| `sílica` | `sílice` | 67 | review: merge |
+| `sóis` | `ser` | 67 | review: merge |
+| `tempranito` | `temprano` | 67 | review: merge |
+| `trasládese` | `trasladarse` | 67 | review: merge |
+| `trinidade` | `trinidad` | 67 | review: merge |
+| `vacúnese` | `vacunarse` | 67 | review: merge |
+| `rencontrar` | `reencontrarse` | 67 | review: merge |
+| `vestidores` | `vestidor` | 66 | review: merge |
+| `beatísima` | `beato` | 65 | review: merge |
+| `cantaloupe` | `cantalupo` | 65 | review: merge |
+| `corazóncorazón` | `corazón` | 65 | review: merge |
+| `deslizarno` | `deslizarse` | 65 | review: merge |
+| `destacadas` | `destacado` | 65 | review: merge |
+| `digoxin` | `digoxina` | 65 | review: merge |
+| `dormirno` | `dormirse` | 65 | review: merge |
+| `e-bicis` | `e-bici` | 65 | review: merge |
+| `eco-sistema` | `ecosistema` | 65 | review: merge |
+| `consérvela` | `conservar` | 66 | review: merge |
+| `contario` | `contrario` | 66 | review: merge |
+| `covertura` | `cobertura` | 66 | review: merge |
+| `cámera` | `cámara` | 66 | review: merge |
+| `debio` | `deber` | 66 | review: merge |
+| `desabrir` | `desabrido` | 66 | review: merge |
+| `descarge` | `descargar` | 66 | review: merge |
+| `desinformada` | `desinformado` | 66 | review: merge |
+| `desosar` | `deshuesar` | 66 | review: merge |
+| `detentor` | `detentador` | 66 | review: merge |
+| `discrminación` | `discriminación` | 66 | review: merge |
+| `dopaminérgicas` | `dopaminérgico` | 66 | review: merge |
+| `echá` | `echar` | 66 | review: merge |
+| `engalletadoras` | `engalletadora` | 66 | review: merge |
+| `envíanoslo` | `enviar` | 66 | review: merge |
+| `esforcémonos` | `esforzarse` | 66 | review: merge |
+| `estírese` | `estirarse` | 66 | review: merge |
+| `exhibiéndose` | `exhibirse` | 66 | review: merge |
+| `extirparlo` | `extirpar` | 66 | review: merge |
+| `fluídez` | `fluidez` | 66 | review: merge |
+| `guardándolo` | `guardar` | 66 | review: merge |
+| `habiéndoles` | `haber` | 66 | review: merge |
+| `incorporándolo` | `incorporar` | 66 | review: merge |
+| `insituto` | `instituto` | 66 | review: merge |
+| `insértala` | `insertar` | 66 | review: merge |
+| `intrahepática` | `intrahepático` | 66 | review: merge |
+| `intégrelo` | `integrar` | 66 | review: merge |
+| `jajajaj` | `jajaja` | 66 | review: merge |
+| `juguetera` | `juguetero` | 66 | review: merge |
+| `juntarlo` | `juntar` | 66 | review: merge |
+| `kilito` | `kilo` | 66 | review: merge |
+| `logeado` | `loguear` | 66 | review: merge |
+| `lorquina` | `lorquino` | 66 | review: merge |
+| `lujazo` | `lujo` | 66 | review: merge |
+| `matifica` | `matificar` | 66 | review: merge |
+| `mayorcito` | `mayor` | 66 | review: merge |
+| `modifíquelo` | `modificar` | 66 | review: merge |
+| `motivándolo` | `motivar` | 66 | review: merge |
+| `mtro` | `maestro` | 66 | review: merge |
+| `mudas` | `mudar` | 66 | review: merge |
+| `neutrónica` | `neutrónico` | 66 | review: merge |
+| `paracaidas` | `paracaídas` | 66 | review: merge |
+| `peruviano` | `peruano` | 66 | review: merge |
+| `playazo` | `playa` | 66 | review: merge |
+| `potenciométrica` | `potenciométrico` | 66 | review: merge |
+| `protectiva` | `protector` | 66 | review: merge |
+| `purifícate` | `purificarse` | 66 | review: merge |
+| `regálale` | `regalar` | 66 | review: merge |
+| `reinterpretados` | `reinterpretar` | 66 | review: merge |
+| `reponsable` | `responsable` | 66 | review: merge |
+| `ruidito` | `ruido` | 66 | review: merge |
+| `sacadla` | `sacar` | 66 | review: merge |
+| `silenciarlo` | `silenciar` | 66 | review: merge |
+| `similiar` | `similar` | 66 | review: merge |
+| `sueters` | `suéter` | 66 | review: merge |
+| `suminístrele` | `suministrar` | 66 | review: merge |
+| `tecnificada` | `tecnificado` | 66 | review: merge |
+| `testerone` | `testosterona` | 66 | review: merge |
+| `tintorerias` | `tintorería` | 66 | review: merge |
+| `transfondo` | `trasfondo` | 66 | review: merge |
+| `trasportados` | `transportar` | 66 | review: merge |
+| `tóquelo` | `tocar` | 66 | review: merge |
+| `valroaciones` | `valoración` | 66 | review: merge |
+| `vedlo` | `ver` | 66 | review: merge |
+| `voltéala` | `voltear` | 66 | review: merge |
+| `átalo` | `atar` | 66 | review: merge |
+| `aceptándola` | `aceptar` | 65 | review: merge |
+| `acoje` | `acoger` | 65 | review: merge |
+| `adaptándo` | `adaptarse` | 65 | review: merge |
+| `aferrándome` | `aferrarse` | 65 | review: merge |
+| `alumino` | `aluminio` | 65 | review: merge |
+| `analizarlo` | `analizar` | 65 | review: merge |
+| `anonimizaremos` | `anonimizar` | 65 | review: merge |
+| `anterógrada` | `anterógrado` | 65 | review: merge |
+| `apartadme` | `apartar` | 65 | review: merge |
+| `arbitro` | `árbitro` | 65 | review: merge |
+| `arréglate` | `arreglarse` | 65 | review: merge |
+| `beisbolera` | `beisbolero` | 65 | review: merge |
+| `blanquito` | `blanco` | 65 | review: merge |
+| `brunchs` | `brunch` | 65 | review: merge |
+| `caponar` | `capón` | 65 | review: merge |
+| `chavistas` | `chavista` | 65 | review: merge |
+| `clicka` | `clicar` | 65 | review: merge |
+| `convirtiéndolo` | `convertir` | 65 | review: merge |
+| `cosplayers` | `cosplayer` | 65 | review: merge |
+| `desenchúfela` | `desenchufar` | 65 | review: merge |
+| `deslizándose` | `deslizarse` | 65 | review: merge |
+| `dulcísima` | `dulce` | 65 | review: merge |
+| `dásela` | `dar` | 65 | review: merge |
+| `dúchese` | `ducharse` | 65 | review: merge |
+| `edificaos` | `edificar` | 65 | review: merge |
+| `eritematosa` | `eritematoso` | 65 | review: merge |
+| `exhuberante` | `exuberante` | 65 | review: merge |
+| `experienca` | `experiencia` | 65 | review: merge |
+| `floto` | `flota` | 65 | review: merge |
+| `fruter` | `frutería` | 65 | review: merge |
+| `ghrelin` | `grelina` | 65 | review: merge |
+| `gruir` | `gruyer` | 65 | review: merge |
+| `gástalo` | `gastar` | 65 | review: merge |
+| `l-cisteína` | `cisteína` | 65 | review: merge |
+| `l-lisina` | `lisina` | 65 | review: merge |
+| `l-valina` | `valina` | 65 | review: merge |
+| `multi-hilo` | `multihilo` | 65 | review: merge |
+| `obligarno` | `obligar` | 65 | review: merge |
+| `revestío` | `revestirse` | 65 | review: merge |
+| `rogad` | `rogar` | 65 | review: merge |
+| `rosuvastatin` | `rosuvastatina` | 65 | review: merge |
+| `secuelas` | `secuela` | 65 | review: merge |
+| `semi-abierto` | `semiabierto` | 65 | review: merge |
+| `sheol` | `seol` | 65 | review: merge |
+| `videográfica` | `videográfico` | 67 | review: merge |
+| `yoghurt` | `yogur` | 67 | review: merge |
+| `zakah` | `zakat` | 67 | review: merge |
+| `abrumante` | `abrumador` | 66 | review: merge |
+| `aceptémoslo` | `aceptar` | 66 | review: merge |
+| `agrupándolo` | `agrupar` | 66 | review: merge |
+| `ahorrándote` | `ahorrar` | 66 | review: merge |
+| `amabilísimo` | `amable` | 66 | review: merge |
+| `amnéstico` | `amnésico` | 66 | review: merge |
+| `aprovecharlas` | `aprovechar` | 66 | review: merge |
+| `atribuído` | `atribuir` | 66 | review: merge |
+| `cafetaleras` | `cafetalero` | 66 | review: merge |
+| `calificándola` | `calificar` | 66 | review: merge |
+| `canjearlo` | `canjear` | 66 | review: merge |
+| `informándome` | `informar` | 65 | review: merge |
+| `instruído` | `instruir` | 65 | review: merge |
+| `jaur` | `jauría` | 65 | review: merge |
+| `jueguito` | `juego` | 65 | review: merge |
+| `juzgadle` | `juzgar` | 65 | review: merge |
+| `lobbys` | `lobby` | 65 | review: merge |
+| `maculosa` | `maculoso` | 65 | review: merge |
+| `menthol` | `mentol` | 65 | review: merge |
+| `metastatizado` | `metastatizar` | 65 | review: merge |
+| `miniaturizada` | `miniaturizado` | 65 | review: merge |
+| `misma` | `mismo` | 65 | review: merge |
+| `mismxs` | `mismo` | 65 | review: merge |
+| `monísimos` | `mono` | 65 | review: merge |
+| `movilizadora` | `movilizador` | 65 | review: merge |
+| `muéstrenme` | `mostrar` | 65 | review: merge |
+| `orwelliana` | `orwelliano` | 65 | review: merge |
+| `osteoporótica` | `osteoporótico` | 65 | review: merge |
+| `pagadle` | `pagar` | 65 | review: merge |
+| `pendenciar` | `pendencia` | 65 | review: merge |
+| `pisicina` | `piscina` | 65 | review: merge |
+| `pitbulls` | `pitbull` | 65 | review: merge |
+| `postherpética` | `postherpético` | 65 | review: merge |
+| `protejer` | `proteger` | 65 | review: merge |
+| `quejándote` | `quejarse` | 65 | review: merge |
+| `quemólo` | `quemar` | 65 | review: merge |
+| `rayita` | `raya` | 65 | review: merge |
+| `recibidle` | `recibir` | 65 | review: merge |
+| `renderice` | `renderizar` | 65 | review: merge |
+| `rindiéndole` | `rendir` | 65 | review: merge |
+| `rockeando` | `rockear` | 65 | review: merge |
+| `rostizados` | `rostizado` | 65 | review: merge |
+| `rosto` | `rostro` | 65 | review: merge |
+| `saborizadas` | `saborizado` | 65 | review: merge |
+| `sencillísima` | `sencillo` | 65 | review: merge |
+| `sidrera` | `sidrero` | 65 | review: merge |
+| `someteos` | `someterse` | 65 | review: merge |
+| `sopresa` | `sorpresa` | 65 | review: merge |
+| `spaming` | `spam` | 65 | review: merge |
+| `succionada` | `succionar` | 65 | review: merge |
+| `sujétela` | `sujetar` | 65 | review: merge |
+| `superviviencia` | `supervivencia` | 65 | review: merge |
 | `halar` | `halo` | 4,306 | review: merge |
 | `hombr` | `hombría` | 45 | review: merge |
 | `ufanar` | `ufanarse` | 90 | review: merge |
@@ -7214,8 +7677,6 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `gonzalez` | `gonzález` | 1,893 | accented spelling 27,160 vs 1,893 |
 | `perez` | `pérez` | 1,782 | accented spelling 22,176 vs 1,782 |
 | `jehova` | `jehová` | 1,781 | accented spelling 232,854 vs 1,781 |
-| `economico` | `económico` | 1,779 | accented spelling 443,918 vs 1,779 |
-| `banus` | `banús` | 1,764 | accented spelling 12,374 vs 1,764 |
 | `relacion` | `relación` | 1,720 | accented spelling 851,322 vs 1,720 |
 | `basico` | `básico` | 1,719 | accented spelling 250,148 vs 1,719 |
 | `credito` | `crédito` | 1,719 | accented spelling 203,179 vs 1,719 |
@@ -7258,7 +7719,6 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `opinion` | `opinión` | 1,307 | accented spelling 552,212 vs 1,307 |
 | `educacion` | `educación` | 1,300 | accented spelling 467,490 vs 1,300 |
 | `haiti` | `haití` | 1,286 | accented spelling 27,229 vs 1,286 |
-| `facil` | `fácil` | 1,282 | accented spelling 761,344 vs 1,282 |
 | `sabado` | `sábado` | 1,274 | accented spelling 198,505 vs 1,274 |
 | `judio` | `judío` | 1,269 | accented spelling 100,920 vs 1,269 |
 | `calefaccion` | `calefacción` | 1,260 | accented spelling 198,477 vs 1,260 |
@@ -7315,7 +7775,6 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `dimension` | `dimensión` | 1,018 | accented spelling 119,476 vs 1,018 |
 | `queria` | `querer` | 1,017 | accented spelling 60,453 vs 1,017 |
 | `latex` | `látex` | 1,008 | accented spelling 13,638 vs 1,008 |
-| `organizacion` | `organización` | 1,003 | accented spelling 579,739 vs 1,003 |
 | `hector` | `héctor` | 998 | accented spelling 6,300 vs 998 |
 | `electron` | `electrón` | 991 | accented spelling 8,716 vs 991 |
 | `veronica` | `verónica` | 990 | accented spelling 6,049 vs 990 |
@@ -7384,7 +7843,6 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `cafe` | `café` | 742 | accented spelling 269,909 vs 742 |
 | `rustico` | `rústico` | 742 | accented spelling 23,452 vs 742 |
 | `antiguedad` | `antigüedad` | 742 | accented spelling 40,923 vs 742 |
-| `investigacion` | `investigación` | 739 | accented spelling 652,889 vs 739 |
 | `inversion` | `inversión` | 737 | accented spelling 281,233 vs 737 |
 | `pakistan` | `pakistán` | 725 | accented spelling 31,523 vs 725 |
 | `creacion` | `creación` | 723 | accented spelling 348,298 vs 723 |
@@ -7485,7 +7943,6 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `gijon` | `gijón` | 521 | accented spelling 9,004 vs 521 |
 | `diametro` | `diámetro` | 521 | accented spelling 101,638 vs 521 |
 | `sintoma` | `síntoma` | 518 | accented spelling 148,854 vs 518 |
-| `peluqueria` | `peluquería` | 517 | accented spelling 16,155 vs 517 |
 | `tora` | `torá` | 515 | accented spelling 11,284 vs 515 |
 | `belgica` | `bélgica` | 514 | accented spelling 50,330 vs 514 |
 | `centrica` | `céntrico` | 514 | accented spelling 18,177 vs 514 |
@@ -7969,7 +8426,6 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `libano` | `líbano` | 199 | accented spelling 25,138 vs 199 |
 | `automaticas` | `automático` | 199 | accented spelling 12,652 vs 199 |
 | `homilia` | `homilía` | 199 | accented spelling 5,862 vs 199 |
-| `santamaria` | `santamaría` | 198 | accented spelling 2,153 vs 198 |
 | `aji` | `ají` | 198 | accented spelling 2,741 vs 198 |
 | `decada` | `década` | 198 | accented spelling 166,119 vs 198 |
 | `escribio` | `escribir` | 198 | accented spelling 44,630 vs 198 |
@@ -7995,7 +8451,6 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `autonoma` | `autónomo` | 192 | accented spelling 18,560 vs 192 |
 | `copan` | `copán` | 192 | accented spelling 1,432 vs 192 |
 | `integracion` | `integración` | 192 | accented spelling 145,474 vs 192 |
-| `paginas` | `página` | 192 | accented spelling 162,511 vs 192 |
 | `centimetro` | `centímetro` | 191 | accented spelling 127,107 vs 191 |
 | `liquidos` | `líquido` | 191 | accented spelling 29,797 vs 191 |
 | `arnes` | `arnés` | 191 | accented spelling 12,567 vs 191 |
@@ -8188,7 +8643,6 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `centroamerica` | `centroamérica` | 147 | accented spelling 17,260 vs 147 |
 | `portugues` | `portugués` | 147 | accented spelling 43,944 vs 147 |
 | `sequia` | `sequía` | 147 | accented spelling 20,171 vs 147 |
-| `epica` | `épico` | 147 | accented spelling 4,181 vs 147 |
 | `moreton` | `moretón` | 147 | accented spelling 2,662 vs 147 |
 | `depresion` | `depresión` | 147 | accented spelling 67,724 vs 147 |
 | `academico` | `académico` | 146 | accented spelling 97,916 vs 146 |
@@ -8685,10 +9139,8 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `citrico` | `cítrico` | 88 | accented spelling 11,312 vs 88 |
 | `mispa` | `mispá` | 88 | accented spelling 712 vs 88 |
 | `panico` | `pánico` | 88 | accented spelling 19,971 vs 88 |
-| `lloro` | `llorar` | 88 | accented spelling 2,295 vs 88 |
 | `erroneo` | `erróneo` | 88 | accented spelling 18,164 vs 88 |
 | `mazarron` | `mazarrón` | 88 | accented spelling 2,628 vs 88 |
-| `subi` | `subir` | 88 | accented spelling 1,508 vs 88 |
 | `lengueta` | `lengüeta` | 88 | accented spelling 6,213 vs 88 |
 | `halcon` | `halcón` | 88 | accented spelling 5,871 vs 88 |
 | `axarquia` | `axarquía` | 88 | accented spelling 1,013 vs 88 |
@@ -8746,7 +9198,6 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `ionica` | `iónico` | 84 | accented spelling 736 vs 84 |
 | `serafin` | `serafín` | 84 | accented spelling 1,714 vs 84 |
 | `griferia` | `grifería` | 84 | accented spelling 6,393 vs 84 |
-| `armeria` | `armería` | 84 | accented spelling 1,228 vs 84 |
 | `consegui` | `conseguir` | 84 | accented spelling 3,694 vs 84 |
 | `catedra` | `cátedra` | 84 | accented spelling 9,006 vs 84 |
 | `afin` | `afín` | 84 | accented spelling 1,998 vs 84 |
@@ -8983,6 +9434,643 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 | `convertira` | `convertir` | 70 | accented spelling 10,522 vs 70 |
 | `mandibula` | `mandíbula` | 70 | accented spelling 14,182 vs 70 |
 | `patologia` | `patología` | 70 | accented spelling 20,898 vs 70 |
+| `sarin` | `sarín` | 70 | accented spelling 574 vs 70 |
+| `crecio` | `crecer` | 70 | accented spelling 14,422 vs 70 |
+| `esteril` | `estéril` | 70 | accented spelling 11,485 vs 70 |
+| `subtitulos` | `subtítulo` | 69 | accented spelling 9,249 vs 69 |
+| `organica` | `orgánico` | 69 | accented spelling 23,141 vs 69 |
+| `suni` | `suní` | 69 | accented spelling 898 vs 69 |
+| `arbol` | `árbol` | 69 | accented spelling 189,711 vs 69 |
+| `hialuronico` | `hialurónico` | 69 | accented spelling 8,108 vs 69 |
+| `maximo` | `máximo` | 69 | accented spelling 515,774 vs 69 |
+| `psicologo` | `psicólogo` | 69 | accented spelling 12,092 vs 69 |
+| `filtracion` | `filtración` | 69 | accented spelling 24,776 vs 69 |
+| `miquelon` | `miquelón` | 69 | accented spelling 1,134 vs 69 |
+| `afirmacion` | `afirmación` | 69 | accented spelling 32,581 vs 69 |
+| `disminucion` | `disminución` | 69 | accented spelling 64,301 vs 69 |
+| `seguiran` | `seguir` | 69 | accented spelling 11,384 vs 69 |
+| `iniciacion` | `iniciación` | 69 | accented spelling 16,689 vs 69 |
+| `teofilo` | `teófilo` | 69 | accented spelling 962 vs 69 |
+| `intimos` | `íntimo` | 68 | accented spelling 3,284 vs 68 |
+| `remocion` | `remoción` | 68 | accented spelling 10,021 vs 68 |
+| `sabras` | `saber` | 68 | accented spelling 23,826 vs 68 |
+| `canonica` | `canónico` | 68 | accented spelling 1,139 vs 68 |
+| `popocatepetl` | `popocatépetl` | 68 | accented spelling 348 vs 68 |
+| `montgri` | `montgrí` | 68 | accented spelling 874 vs 68 |
+| `fotografa` | `fotógrafa` | 68 | accented spelling 4,920 vs 68 |
+| `padme` | `padmé` | 68 | accented spelling 626 vs 68 |
+| `crimenes` | `crimen` | 68 | accented spelling 21,281 vs 68 |
+| `utiles` | `útil` | 68 | accented spelling 61,734 vs 68 |
+| `pakistani` | `pakistaní` | 68 | accented spelling 2,225 vs 68 |
+| `garzon` | `garzón` | 68 | accented spelling 1,535 vs 68 |
+| `yañez` | `yáñez` | 68 | accented spelling 392 vs 68 |
+| `audioguia` | `audioguía` | 68 | accented spelling 3,100 vs 68 |
+| `iliada` | `ilíada` | 68 | accented spelling 494 vs 68 |
+| `conocio` | `conocer` | 68 | accented spelling 10,729 vs 68 |
+| `ecija` | `écija` | 68 | accented spelling 748 vs 68 |
+| `nepali` | `nepalí` | 68 | accented spelling 1,462 vs 68 |
+| `dagon` | `dagón` | 68 | accented spelling 916 vs 68 |
+| `heroe` | `héroe` | 68 | accented spelling 54,196 vs 68 |
+| `curacion` | `curación` | 68 | accented spelling 33,648 vs 68 |
+| `servira` | `servir` | 68 | accented spelling 10,033 vs 68 |
+| `redencion` | `redención` | 67 | accented spelling 16,000 vs 67 |
+| `contruccion` | `construcción` | 67 | accented spelling 468 vs 67 |
+| `olia` | `oler` | 67 | accented spelling 976 vs 67 |
+| `anomalia` | `anomalía` | 67 | accented spelling 14,371 vs 67 |
+| `rogue#royal` | `rogar` | 67 | accented spelling 352 vs 67 |
+| `refierase` | `referirse` | 67 | accented spelling 3,224 vs 67 |
+| `rectangulo` | `rectángulo` | 67 | accented spelling 13,849 vs 67 |
+| `sofreir` | `sofreír` | 67 | accented spelling 2,024 vs 67 |
+| `escalon` | `escalón` | 67 | accented spelling 4,314 vs 67 |
+| `efectue` | `efectuar` | 67 | accented spelling 2,686 vs 67 |
+| `diafana` | `diáfano` | 67 | accented spelling 957 vs 67 |
+| `coreografia` | `coreografía` | 67 | accented spelling 4,524 vs 67 |
+| `videografo` | `videógrafo` | 67 | accented spelling 521 vs 67 |
+| `permanecera` | `permanecer` | 67 | accented spelling 9,494 vs 67 |
+| `mitica` | `mítico` | 67 | accented spelling 3,259 vs 67 |
+| `dormi` | `dormir` | 67 | accented spelling 874 vs 67 |
+| `calibracion` | `calibración` | 67 | accented spelling 23,537 vs 67 |
+| `brocoli` | `brócoli` | 67 | accented spelling 6,486 vs 67 |
+| `sabiamos` | `saber` | 67 | accented spelling 5,209 vs 67 |
+| `pensabamos` | `pensar` | 67 | accented spelling 1,456 vs 67 |
+| `pequeñin` | `pequeñín` | 67 | accented spelling 387 vs 67 |
+| `pulmon` | `pulmón` | 67 | accented spelling 42,709 vs 67 |
+| `contactenos` | `contactar` | 67 | accented spelling 17,614 vs 67 |
+| `sabia` | `saber` | 66 | accented spelling 44,359 vs 66 |
+| `penso` | `pensar` | 66 | accented spelling 11,665 vs 66 |
+| `extasis` | `éxtasis` | 66 | accented spelling 6,662 vs 66 |
+| `subscribase` | `suscribir` | 66 | accented spelling 372 vs 66 |
+| `clasicas` | `clásico` | 66 | accented spelling 10,751 vs 66 |
+| `petalo` | `pétalo` | 66 | accented spelling 5,586 vs 66 |
+| `amsterdam-schiphol` | `ámsterdam-schiphol` | 66 | accented spelling 582 vs 66 |
+| `pornografia` | `pornografía` | 66 | accented spelling 13,778 vs 66 |
+| `minima` | `mínimo` | 66 | accented spelling 52,575 vs 66 |
+| `cronografo` | `cronógrafo` | 66 | accented spelling 12,441 vs 66 |
+| `emision` | `emisión` | 66 | accented spelling 112,868 vs 66 |
+| `arevalo` | `arévalo` | 66 | accented spelling 1,040 vs 66 |
+| `implantologia` | `implantología` | 66 | accented spelling 1,685 vs 66 |
+| `bariatrica` | `bariátrico` | 66 | accented spelling 2,016 vs 66 |
+| `descubrio` | `descubrir` | 66 | accented spelling 17,598 vs 66 |
+| `exitos` | `éxito` | 66 | accented spelling 13,648 vs 66 |
+| `incredulo` | `incrédulo` | 65 | accented spelling 4,697 vs 65 |
+| `gascon` | `gascón` | 65 | accented spelling 506 vs 65 |
+| `problematica` | `problemática` | 65 | accented spelling 18,753 vs 65 |
+| `arrojo` | `arrojar` | 65 | accented spelling 3,676 vs 65 |
+| `diplomatico` | `diplomático` | 65 | accented spelling 23,542 vs 65 |
+| `percepcion` | `percepción` | 65 | accented spelling 61,074 vs 65 |
+| `denominacion` | `denominación` | 65 | accented spelling 29,813 vs 65 |
+| `depilacion` | `depilación` | 65 | accented spelling 8,472 vs 65 |
+| `patina` | `pátina` | 65 | accented spelling 2,405 vs 65 |
+| `unto` | `untar` | 65 | accented spelling 358 vs 65 |
+| `romulo` | `rómulo` | 65 | accented spelling 982 vs 65 |
+| `triatlon` | `triatlón` | 65 | accented spelling 6,782 vs 65 |
+| `dedan` | `dedán` | 65 | accented spelling 344 vs 65 |
+| `minimos` | `mínimo` | 65 | accented spelling 15,668 vs 65 |
+| `deportacion` | `deportación` | 65 | accented spelling 14,517 vs 65 |
+| `masturbacion` | `masturbación` | 65 | accented spelling 5,916 vs 65 |
+| `unicamente` | `únicamente` | 65 | accented spelling 161,030 vs 65 |
+| `administracion` | `administración` | 65 | accented spelling 326,961 vs 65 |
+| `inmunologico` | `inmunológico` | 64 | accented spelling 23,266 vs 64 |
+| `fundicion` | `fundición` | 64 | accented spelling 25,992 vs 64 |
+| `estupido` | `estúpido` | 64 | accented spelling 8,811 vs 64 |
+| `emulsion` | `emulsión` | 64 | accented spelling 4,313 vs 64 |
+| `siriaco` | `siríaco` | 64 | accented spelling 365 vs 64 |
+| `vagon` | `vagón` | 64 | accented spelling 6,629 vs 64 |
+| `desinfeccion` | `desinfección` | 64 | accented spelling 12,197 vs 64 |
+| `complexion` | `complexión` | 64 | accented spelling 1,319 vs 64 |
+| `bovedas` | `bóveda` | 64 | accented spelling 2,525 vs 64 |
+| `padron` | `padrón` | 64 | accented spelling 3,521 vs 64 |
+| `obtencion` | `obtención` | 64 | accented spelling 46,856 vs 64 |
+| `horreo` | `hórreo` | 64 | accented spelling 426 vs 64 |
+| `taliban` | `talibán` | 64 | accented spelling 4,813 vs 64 |
+| `rabida` | `rábida` | 64 | accented spelling 429 vs 64 |
+| `fundacio` | `fundació` | 64 | accented spelling 4,360 vs 64 |
+| `alcaldia` | `alcaldía` | 64 | accented spelling 7,674 vs 64 |
+| `matematico` | `matemático` | 64 | accented spelling 15,379 vs 64 |
+| `dramatico` | `dramático` | 64 | accented spelling 18,505 vs 64 |
+| `sintonia` | `sintonía` | 64 | accented spelling 9,471 vs 64 |
+| `manati` | `manatí` | 63 | accented spelling 1,146 vs 63 |
+| `buzon` | `buzón` | 63 | accented spelling 22,926 vs 63 |
+| `autentica` | `auténtico` | 63 | accented spelling 20,557 vs 63 |
+| `lanus` | `lanús` | 63 | accented spelling 412 vs 63 |
+| `estiercol` | `estiércol` | 63 | accented spelling 6,616 vs 63 |
+| `intrusion` | `intrusión` | 63 | accented spelling 5,606 vs 63 |
+| `agrupacion` | `agrupación` | 63 | accented spelling 18,950 vs 63 |
+| `alergeno` | `alérgeno` | 63 | accented spelling 5,936 vs 63 |
+| `adiccion` | `adicción` | 63 | accented spelling 21,488 vs 63 |
+| `vocacion` | `vocación` | 63 | accented spelling 32,131 vs 63 |
+| `empatia` | `empatía` | 63 | accented spelling 11,597 vs 63 |
+| `efectuan` | `efectuar` | 63 | accented spelling 2,193 vs 63 |
+| `benares` | `benarés` | 63 | accented spelling 664 vs 63 |
+| `echeverria` | `echeverría` | 63 | accented spelling 858 vs 63 |
+| `corcega` | `córcega` | 63 | accented spelling 4,994 vs 63 |
+| `sahagun` | `sahagún` | 63 | accented spelling 692 vs 63 |
+| `preinstalacion` | `preinstalación` | 63 | accented spelling 1,714 vs 63 |
+| `filmacion` | `filmación` | 63 | accented spelling 6,509 vs 63 |
+| `analogico` | `analógico` | 63 | accented spelling 22,561 vs 63 |
+| `cigueña` | `cigüeña` | 63 | accented spelling 2,024 vs 63 |
+| `detencion` | `detención` | 63 | accented spelling 46,981 vs 63 |
+| `sentiras` | `sentir` | 63 | accented spelling 3,599 vs 63 |
+| `sesamo` | `sésamo` | 63 | accented spelling 5,531 vs 63 |
+| `sufrio` | `sufrir` | 63 | accented spelling 13,873 vs 63 |
+| `jugueton` | `juguetón` | 63 | accented spelling 4,232 vs 63 |
+| `confesion` | `confesión` | 63 | accented spelling 13,463 vs 63 |
+| `quiropractico` | `quiropráctico` | 62 | accented spelling 6,197 vs 62 |
+| `maracuya` | `maracuyá` | 62 | accented spelling 1,072 vs 62 |
+| `agradeceria` | `agradecer` | 62 | accented spelling 690 vs 62 |
+| `cesped` | `césped` | 62 | accented spelling 33,566 vs 62 |
+| `almodovar` | `almodóvar` | 62 | accented spelling 1,492 vs 62 |
+| `almaden` | `almadén` | 62 | accented spelling 334 vs 62 |
+| `antartida` | `antártida` | 62 | accented spelling 7,887 vs 62 |
+| `alaro` | `alaró` | 62 | accented spelling 748 vs 62 |
+| `practicamente` | `prácticamente` | 62 | accented spelling 93,131 vs 62 |
+| `recibire` | `recibir` | 62 | accented spelling 1,676 vs 62 |
+| `pedagogia` | `pedagogía` | 62 | accented spelling 8,661 vs 62 |
+| `erroneamente` | `erróneamente` | 62 | accented spelling 7,326 vs 62 |
+| `perforacion` | `perforación` | 62 | accented spelling 44,660 vs 62 |
+| `pabellon` | `pabellón` | 62 | accented spelling 28,307 vs 62 |
+| `chacon` | `chacón` | 62 | accented spelling 1,349 vs 62 |
+| `acequion` | `acequión` | 62 | accented spelling 338 vs 62 |
+| `comun` | `común` | 62 | accented spelling 458,787 vs 62 |
+| `tendrian` | `tener` | 62 | accented spelling 8,407 vs 62 |
+| `bernabe` | `bernabé` | 61 | accented spelling 5,352 vs 61 |
+| `rebelo` | `rebelar` | 61 | accented spelling 949 vs 61 |
+| `barragan` | `barragán` | 61 | accented spelling 795 vs 61 |
+| `bufalo` | `búfalo` | 61 | accented spelling 7,991 vs 61 |
+| `epidemiologia` | `epidemiología` | 61 | accented spelling 4,781 vs 61 |
+| `e-liquido` | `e-líquido` | 61 | accented spelling 1,184 vs 61 |
+| `lactea` | `lácteo` | 61 | accented spelling 1,521 vs 61 |
+| `tematicas` | `temática` | 61 | accented spelling 10,919 vs 61 |
+| `caton` | `catón` | 61 | accented spelling 305 vs 61 |
+| `agusti` | `agustí` | 61 | accented spelling 600 vs 61 |
+| `estanterias` | `estantería` | 61 | accented spelling 6,714 vs 61 |
+| `digestion` | `digestión` | 61 | accented spelling 16,313 vs 61 |
+| `pare` | `parar` | 61 | accented spelling 351 vs 61 |
+| `automovilistico` | `automovilístico` | 61 | accented spelling 11,554 vs 61 |
+| `creiste` | `creer` | 61 | accented spelling 373 vs 61 |
+| `inclinacion` | `inclinación` | 61 | accented spelling 26,099 vs 61 |
+| `fotografos` | `fotógrafo` | 61 | accented spelling 12,804 vs 61 |
+| `descubriras` | `descubrir` | 61 | accented spelling 5,373 vs 61 |
+| `ayatola` | `ayatolá` | 61 | accented spelling 877 vs 61 |
+| `evangelistico` | `evangelístico` | 61 | accented spelling 364 vs 61 |
+| `glandula` | `glándula` | 61 | accented spelling 26,577 vs 61 |
+| `caliz` | `cáliz` | 61 | accented spelling 6,911 vs 61 |
+| `geografico` | `geográfico` | 60 | accented spelling 42,952 vs 60 |
+| `permitia` | `permitir` | 60 | accented spelling 6,789 vs 60 |
+| `anonimos` | `anónimo` | 60 | accented spelling 9,919 vs 60 |
+| `tazon` | `tazón` | 60 | accented spelling 22,987 vs 60 |
+| `matricula` | `matrícula` | 60 | accented spelling 24,045 vs 60 |
+| `posicion` | `posición` | 60 | accented spelling 392,738 vs 60 |
+| `median` | `medir` | 60 | accented spelling 337 vs 60 |
+| `explique` | `explicar` | 60 | accented spelling 1,431 vs 60 |
+| `topografia` | `topografía` | 60 | accented spelling 9,133 vs 60 |
+| `guibea` | `guibeá` | 60 | accented spelling 1,072 vs 60 |
+| `semisotano` | `semisótano` | 60 | accented spelling 1,010 vs 60 |
+| `transeunte` | `transeúnte` | 60 | accented spelling 2,470 vs 60 |
+| `academica` | `académico` | 60 | accented spelling 16,580 vs 60 |
+| `diabetico` | `diabético` | 60 | accented spelling 10,042 vs 60 |
+| `quedaria` | `quedar` | 60 | accented spelling 2,988 vs 60 |
+| `marabu` | `marabú` | 60 | accented spelling 302 vs 60 |
+| `aminoacido` | `aminoácido` | 60 | accented spelling 16,056 vs 60 |
+| `autonomo` | `autónomo` | 60 | accented spelling 47,626 vs 60 |
+| `laminas` | `lámina` | 60 | accented spelling 10,750 vs 60 |
+| `bateo` | `batear` | 60 | accented spelling 661 vs 60 |
+| `migracion` | `migración` | 60 | accented spelling 63,167 vs 60 |
+| `negociacion` | `negociación` | 60 | accented spelling 77,892 vs 60 |
+| `optimizacion` | `optimización` | 60 | accented spelling 55,766 vs 60 |
+| `ahi` | `ahí` | 60 | accented spelling 179,322 vs 60 |
+| `guilloche` | `guilloché` | 60 | accented spelling 321 vs 60 |
+| `reunan` | `reunir` | 60 | accented spelling 1,264 vs 60 |
+| `alcacer` | `alcácer` | 60 | accented spelling 362 vs 60 |
+| `sustitucion` | `sustitución` | 59 | accented spelling 34,574 vs 59 |
+| `protegera` | `proteger` | 59 | accented spelling 3,002 vs 59 |
+| `valio` | `valer` | 59 | accented spelling 2,493 vs 59 |
+| `cardiologia` | `cardiología` | 59 | accented spelling 6,760 vs 59 |
+| `antologia` | `antología` | 59 | accented spelling 3,132 vs 59 |
+| `albaicin` | `albaicín` | 59 | accented spelling 1,676 vs 59 |
+| `psicologica` | `psicológico` | 59 | accented spelling 7,676 vs 59 |
+| `aclaro` | `aclarar` | 59 | accented spelling 2,329 vs 59 |
+| `olavarria` | `olavarría` | 59 | accented spelling 344 vs 59 |
+| `tecnologicas` | `tecnológico` | 59 | accented spelling 16,903 vs 59 |
+| `teleferico` | `teleférico` | 59 | accented spelling 9,257 vs 59 |
+| `isotopo` | `isótopo` | 59 | accented spelling 1,917 vs 59 |
+| `efren` | `efrén` | 59 | accented spelling 420 vs 59 |
+| `perdera` | `perder` | 59 | accented spelling 5,008 vs 59 |
+| `magicas` | `mágico` | 59 | accented spelling 5,473 vs 59 |
+| `manutencion` | `manutención` | 59 | accented spelling 14,322 vs 59 |
+| `mande` | `mandar` | 59 | accented spelling 1,659 vs 59 |
+| `comparti` | `compartir` | 59 | accented spelling 1,121 vs 59 |
+| `atraves` | `a través` | 59 | accented spelling 1,608 vs 59 |
+| `orin` | `orín` | 59 | accented spelling 606 vs 59 |
+| `aromatico` | `aromático` | 59 | accented spelling 11,877 vs 59 |
+| `discriminacion` | `discriminación` | 58 | accented spelling 61,744 vs 58 |
+| `piaui` | `piauí` | 58 | accented spelling 476 vs 58 |
+| `vendre` | `venir` | 58 | accented spelling 1,169 vs 58 |
+| `valia` | `valía` | 58 | accented spelling 5,395 vs 58 |
+| `bengali` | `bengalí` | 58 | accented spelling 1,383 vs 58 |
+| `recomendaria` | `recomendar` | 58 | accented spelling 11,361 vs 58 |
+| `astronomia` | `astronomía` | 58 | accented spelling 11,243 vs 58 |
+| `radon` | `radón` | 58 | accented spelling 2,608 vs 58 |
+| `atomo` | `átomo` | 58 | accented spelling 13,590 vs 58 |
+| `margenes` | `margen` | 58 | accented spelling 9,381 vs 58 |
+| `variacion` | `variación` | 58 | accented spelling 59,972 vs 58 |
+| `cuido` | `cuidar` | 58 | accented spelling 793 vs 58 |
+| `tramites` | `trámite` | 58 | accented spelling 8,344 vs 58 |
+| `lirico` | `lírico` | 58 | accented spelling 3,050 vs 58 |
+| `macoris` | `macorís` | 58 | accented spelling 558 vs 58 |
+| `conseguira` | `conseguir` | 58 | accented spelling 4,492 vs 58 |
+| `oiste` | `oír` | 58 | accented spelling 712 vs 58 |
+| `paseis` | `pasar` | 58 | accented spelling 782 vs 58 |
+| `paysandu` | `paysandú` | 58 | accented spelling 668 vs 58 |
+| `habias` | `haber` | 57 | accented spelling 4,221 vs 57 |
+| `parecian` | `parecer` | 57 | accented spelling 7,708 vs 57 |
+| `inalambrico` | `inalámbrico` | 57 | accented spelling 111,255 vs 57 |
+| `maldicion` | `maldición` | 57 | accented spelling 17,551 vs 57 |
+| `cartama` | `cártama` | 57 | accented spelling 330 vs 57 |
+| `pediatria` | `pediatría` | 57 | accented spelling 6,653 vs 57 |
+| `cardon` | `cardón` | 57 | accented spelling 531 vs 57 |
+| `primogenito` | `primogénito` | 57 | accented spelling 12,596 vs 57 |
+| `chicharo` | `chícharo` | 57 | accented spelling 566 vs 57 |
+| `accio` | `acció` | 57 | accented spelling 376 vs 57 |
+| `geograficas` | `geográfico` | 57 | accented spelling 10,393 vs 57 |
+| `prohiban` | `prohibir` | 57 | accented spelling 479 vs 57 |
+| `mas` | `más` | 57 | accented spelling 14,251,356 vs 57 |
+| `juridicas` | `jurídico` | 57 | accented spelling 9,636 vs 57 |
+| `pedira` | `pedir` | 57 | accented spelling 10,474 vs 57 |
+| `arguineguin` | `arguineguín` | 57 | accented spelling 316 vs 57 |
+| `betera` | `bétera` | 57 | accented spelling 418 vs 57 |
+| `vastago` | `vástago` | 56 | accented spelling 7,746 vs 56 |
+| `chavin` | `chavín` | 56 | accented spelling 508 vs 56 |
+| `petropolis` | `petrópolis` | 56 | accented spelling 606 vs 56 |
+| `aprenderas` | `aprender` | 56 | accented spelling 6,273 vs 56 |
+| `ultimas` | `último` | 56 | accented spelling 114,638 vs 56 |
+| `induccion` | `inducción` | 56 | accented spelling 20,618 vs 56 |
+| `vinicola` | `vinícola` | 56 | accented spelling 5,563 vs 56 |
+| `querais` | `querer` | 56 | accented spelling 1,698 vs 56 |
+| `tuberias` | `tubería` | 56 | accented spelling 21,265 vs 56 |
+| `demografica` | `demográfico` | 56 | accented spelling 7,332 vs 56 |
+| `marroquineria` | `marroquinería` | 56 | accented spelling 1,745 vs 56 |
+| `adhesion` | `adhesión` | 56 | accented spelling 31,036 vs 56 |
+| `wurth` | `würth` | 56 | accented spelling 322 vs 56 |
+| `mbappe` | `mbappé` | 56 | accented spelling 418 vs 56 |
+| `codice` | `códice` | 56 | accented spelling 2,327 vs 56 |
+| `estadistico` | `estadístico` | 56 | accented spelling 30,266 vs 56 |
+| `canape` | `canapé` | 56 | accented spelling 1,088 vs 56 |
+| `chamberi` | `chamberí` | 56 | accented spelling 1,266 vs 56 |
+| `pompon` | `pompón` | 56 | accented spelling 1,672 vs 56 |
+| `mencione` | `mencionar` | 55 | accented spelling 2,203 vs 55 |
+| `reconciliacion` | `reconciliación` | 55 | accented spelling 22,523 vs 55 |
+| `pres` | `prés` | 55 | accented spelling 390 vs 55 |
+| `reservo` | `reservar` | 55 | accented spelling 762 vs 55 |
+| `istan` | `istán` | 55 | accented spelling 520 vs 55 |
+| `buble` | `bublé` | 55 | accented spelling 346 vs 55 |
+| `tutankamon` | `tutankamón` | 55 | accented spelling 686 vs 55 |
+| `dejeis` | `dejar` | 55 | accented spelling 1,398 vs 55 |
+| `ximenez` | `ximénez` | 55 | accented spelling 518 vs 55 |
+| `prevision` | `previsión` | 55 | accented spelling 133,467 vs 55 |
+| `echo` | `echar` | 55 | accented spelling 5,568 vs 55 |
+| `molecula` | `molécula` | 55 | accented spelling 19,084 vs 55 |
+| `auditoria` | `auditoría` | 55 | accented spelling 57,020 vs 55 |
+| `glutation` | `glutatión` | 55 | accented spelling 2,318 vs 55 |
+| `esnorquel` | `esnórquel` | 55 | accented spelling 2,689 vs 55 |
+| `dinamicas` | `dinámico` | 55 | accented spelling 12,960 vs 55 |
+| `succion` | `succión` | 55 | accented spelling 16,401 vs 55 |
+| `pluton` | `plutón` | 55 | accented spelling 4,229 vs 55 |
+| `receto` | `recetar` | 55 | accented spelling 515 vs 55 |
+| `conteste` | `contestar` | 55 | accented spelling 664 vs 55 |
+| `cadaver` | `cadáver` | 55 | accented spelling 18,009 vs 55 |
+| `bajio` | `bajío` | 54 | accented spelling 895 vs 54 |
+| `microdermabrasion` | `microdermabrasión` | 54 | accented spelling 370 vs 54 |
+| `estarian` | `estar` | 54 | accented spelling 7,121 vs 54 |
+| `faberge` | `fabergé` | 54 | accented spelling 322 vs 54 |
+| `vater` | `váter` | 54 | accented spelling 576 vs 54 |
+| `gramatica` | `gramática` | 54 | accented spelling 14,808 vs 54 |
+| `titulos` | `título` | 54 | accented spelling 39,664 vs 54 |
+| `peñin` | `peñín` | 54 | accented spelling 412 vs 54 |
+| `biotecnologia` | `biotecnología` | 54 | accented spelling 14,205 vs 54 |
+| `reuna` | `reunir` | 54 | accented spelling 2,197 vs 54 |
+| `naaman` | `naamán` | 54 | accented spelling 2,156 vs 54 |
+| `poligrafo` | `polígrafo` | 54 | accented spelling 715 vs 54 |
+| `electronicamente` | `electrónicamente` | 54 | accented spelling 11,880 vs 54 |
+| `logre` | `lograr` | 54 | accented spelling 1,781 vs 54 |
+| `geltru` | `geltrú` | 54 | accented spelling 926 vs 54 |
+| `degustacion` | `degustación` | 54 | accented spelling 17,389 vs 54 |
+| `escogi` | `escoger` | 54 | accented spelling 2,026 vs 54 |
+| `aromaticas` | `aromático` | 54 | accented spelling 3,093 vs 54 |
+| `galpon` | `galpón` | 54 | accented spelling 939 vs 54 |
+| `rococo` | `rococó` | 54 | accented spelling 1,144 vs 54 |
+| `votacion` | `votación` | 54 | accented spelling 40,120 vs 54 |
+| `extraidas` | `extraer` | 54 | accented spelling 1,884 vs 54 |
+| `insercion` | `inserción` | 54 | accented spelling 32,754 vs 54 |
+| `mediacion` | `mediación` | 54 | accented spelling 21,628 vs 54 |
+| `querias` | `querer` | 54 | accented spelling 3,026 vs 54 |
+| `semaforo` | `semáforo` | 54 | accented spelling 8,875 vs 54 |
+| `cardan` | `cardán` | 54 | accented spelling 1,660 vs 54 |
+| `permitano` | `permitir` | 54 | accented spelling 1,066 vs 54 |
+| `patagonica` | `patagónico` | 53 | accented spelling 618 vs 53 |
+| `relajese` | `relajarse` | 53 | accented spelling 10,159 vs 53 |
+| `tomare` | `tomar` | 53 | accented spelling 1,787 vs 53 |
+| `humedos` | `húmedo` | 53 | accented spelling 5,588 vs 53 |
+| `sujecion` | `sujeción` | 53 | accented spelling 36,731 vs 53 |
+| `geometrico` | `geométrico` | 53 | accented spelling 15,443 vs 53 |
+| `mitzva` | `mitzvá` | 53 | accented spelling 943 vs 53 |
+| `exoticas` | `exótico` | 53 | accented spelling 5,030 vs 53 |
+| `converti` | `convertir` | 53 | accented spelling 1,384 vs 53 |
+| `expulsion` | `expulsión` | 53 | accented spelling 14,437 vs 53 |
+| `discografia` | `discografía` | 53 | accented spelling 4,803 vs 53 |
+| `irazu` | `irazú` | 53 | accented spelling 352 vs 53 |
+| `autodromo` | `autódromo` | 53 | accented spelling 845 vs 53 |
+| `zuñiga` | `zúñiga` | 53 | accented spelling 864 vs 53 |
+| `rossello` | `rosselló` | 53 | accented spelling 1,622 vs 53 |
+| `personalizalo` | `personalizar` | 53 | accented spelling 425 vs 53 |
+| `antartica` | `antártico` | 53 | accented spelling 1,339 vs 53 |
+| `torico` | `tórico` | 53 | accented spelling 1,325 vs 53 |
+| `patagonico` | `patagónico` | 53 | accented spelling 2,605 vs 53 |
+| `contratacion` | `contratación` | 53 | accented spelling 50,571 vs 53 |
+| `civilizacion` | `civilización` | 53 | accented spelling 36,987 vs 53 |
+| `irian` | `ir` | 53 | accented spelling 891 vs 53 |
+| `bezier` | `bézier` | 53 | accented spelling 278 vs 53 |
+| `creanme` | `creer` | 53 | accented spelling 1,446 vs 53 |
+| `mojon` | `mojón` | 53 | accented spelling 534 vs 53 |
+| `mandragora` | `mandrágora` | 53 | accented spelling 547 vs 53 |
+| `ultimos` | `último` | 52 | accented spelling 258,181 vs 52 |
+| `confiteria` | `confitería` | 52 | accented spelling 3,880 vs 52 |
+| `rele` | `relé` | 52 | accented spelling 8,877 vs 52 |
+| `traccion` | `tracción` | 52 | accented spelling 55,202 vs 52 |
+| `menorquin` | `menorquín` | 52 | accented spelling 1,040 vs 52 |
+| `obus` | `obús` | 52 | accented spelling 714 vs 52 |
+| `associacio` | `associació` | 52 | accented spelling 662 vs 52 |
+| `peloton` | `pelotón` | 52 | accented spelling 4,283 vs 52 |
+| `cateter` | `catéter` | 52 | accented spelling 12,341 vs 52 |
+| `momentaneamente` | `momentáneamente` | 52 | accented spelling 3,248 vs 52 |
+| `torax` | `tórax` | 52 | accented spelling 8,220 vs 52 |
+| `utilizo` | `utilizar` | 52 | accented spelling 19,487 vs 52 |
+| `planifica` | `planificar` | 52 | accented spelling 3,468 vs 52 |
+| `rompio` | `romper` | 52 | accented spelling 5,077 vs 52 |
+| `dependera` | `depender` | 52 | accented spelling 12,305 vs 52 |
+| `aspiracion` | `aspiración` | 52 | accented spelling 27,165 vs 52 |
+| `aprendera` | `aprender` | 52 | accented spelling 8,232 vs 52 |
+| `discusion` | `discusión` | 52 | accented spelling 99,647 vs 52 |
+| `curico` | `curicó` | 52 | accented spelling 500 vs 52 |
+| `latigo` | `látigo` | 52 | accented spelling 3,305 vs 52 |
+| `finalizacion` | `finalización` | 52 | accented spelling 27,891 vs 52 |
+| `perdidas` | `pérdida` | 52 | accented spelling 37,123 vs 52 |
+| `congestion` | `congestión` | 51 | accented spelling 10,683 vs 51 |
+| `trilogia` | `trilogía` | 51 | accented spelling 6,743 vs 51 |
+| `encendera` | `encender` | 51 | accented spelling 642 vs 51 |
+| `crepusculo` | `crepúsculo` | 51 | accented spelling 9,861 vs 51 |
+| `repatriacion` | `repatriación` | 51 | accented spelling 3,833 vs 51 |
+| `lavapies` | `lavapiés` | 51 | accented spelling 832 vs 51 |
+| `ason` | `asón` | 51 | accented spelling 294 vs 51 |
+| `repeticion` | `repetición` | 51 | accented spelling 24,859 vs 51 |
+| `radiografia` | `radiografía` | 51 | accented spelling 15,258 vs 51 |
+| `metropoli` | `metrópoli` | 51 | accented spelling 3,540 vs 51 |
+| `comio` | `comer` | 51 | accented spelling 3,500 vs 51 |
+| `boson` | `bosón` | 51 | accented spelling 1,290 vs 51 |
+| `ofrecia` | `ofrecer` | 51 | accented spelling 4,692 vs 51 |
+| `audicion` | `audición` | 51 | accented spelling 25,926 vs 51 |
+| `varon` | `varón` | 51 | accented spelling 46,566 vs 51 |
+| `poquer` | `póquer` | 51 | accented spelling 34,431 vs 51 |
+| `trencadis` | `trencadís` | 51 | accented spelling 466 vs 51 |
+| `transportin#Fem` | `transportín` | 51 | accented spelling 588 vs 51 |
+| `visitame` | `visitar` | 51 | accented spelling 302 vs 51 |
+| `tendon` | `tendón` | 51 | accented spelling 9,481 vs 51 |
+| `cromatico` | `cromático` | 51 | accented spelling 10,025 vs 51 |
+| `mashiaj` | `mashíaj` | 51 | accented spelling 474 vs 51 |
+| `apendice` | `apéndice` | 51 | accented spelling 15,113 vs 51 |
+| `abominacion` | `abominación` | 51 | accented spelling 8,520 vs 51 |
+| `iconica` | `icónico` | 51 | accented spelling 3,366 vs 51 |
+| `becquer` | `bécquer` | 51 | accented spelling 348 vs 51 |
+| `anatomica` | `anatómico` | 51 | accented spelling 1,702 vs 51 |
+| `alcoholico` | `alcohólico` | 51 | accented spelling 17,222 vs 51 |
+| `monitorizacion` | `monitorización` | 51 | accented spelling 25,803 vs 51 |
+| `neumaticos` | `neumático` | 51 | accented spelling 41,310 vs 51 |
+| `maniqui` | `maniquí` | 50 | accented spelling 4,843 vs 50 |
+| `leido` | `leer` | 50 | accented spelling 25,832 vs 50 |
+| `revoco` | `revocar` | 50 | accented spelling 656 vs 50 |
+| `tantrico` | `tántrico` | 50 | accented spelling 1,467 vs 50 |
+| `placido` | `plácido` | 50 | accented spelling 2,270 vs 50 |
+| `presion` | `presión` | 50 | accented spelling 318,929 vs 50 |
+| `aprendio` | `aprender` | 50 | accented spelling 6,787 vs 50 |
+| `interactua` | `interactuar` | 50 | accented spelling 4,766 vs 50 |
+| `sonico` | `sónico` | 50 | accented spelling 2,006 vs 50 |
+| `diaz-balart` | `díaz-balart` | 50 | accented spelling 284 vs 50 |
+| `teorico` | `teórico` | 50 | accented spelling 35,118 vs 50 |
+| `abrasion` | `abrasión` | 50 | accented spelling 13,000 vs 50 |
+| `hidrogeno` | `hidrógeno` | 50 | accented spelling 23,657 vs 50 |
+| `trevelez` | `trevélez` | 50 | accented spelling 256 vs 50 |
+| `taull` | `taüll` | 50 | accented spelling 322 vs 50 |
+| `agonia` | `agonía` | 50 | accented spelling 5,338 vs 50 |
+| `donbas` | `donbás` | 50 | accented spelling 272 vs 50 |
+| `quiros` | `quirós` | 50 | accented spelling 662 vs 50 |
+| `triclosan` | `triclosán` | 50 | accented spelling 446 vs 50 |
+| `sacatepequez` | `sacatepéquez` | 50 | accented spelling 644 vs 50 |
+| `gamez` | `gámez` | 50 | accented spelling 374 vs 50 |
+| `dwor` | `dwór` | 50 | accented spelling 254 vs 50 |
+| `pade` | `pádel` | 50 | accented spelling 1,553 vs 50 |
+| `estencil` | `esténcil` | 50 | accented spelling 258 vs 50 |
+| `arida` | `árido` | 50 | accented spelling 796 vs 50 |
+| `perdais` | `perder` | 50 | accented spelling 529 vs 50 |
+| `atrevia` | `atreverse` | 50 | accented spelling 747 vs 50 |
+| `resalto` | `resaltar` | 50 | accented spelling 2,673 vs 50 |
+| `edredon` | `edredón` | 50 | accented spelling 8,973 vs 50 |
+| `ultrasonico` | `ultrasónico` | 50 | accented spelling 13,337 vs 50 |
+| `sereis` | `ser` | 49 | accented spelling 6,207 vs 49 |
+| `martov` | `mártov` | 49 | accented spelling 332 vs 49 |
+| `origenes` | `origen` | 49 | accented spelling 20,770 vs 49 |
+| `jucar` | `júcar` | 49 | accented spelling 1,336 vs 49 |
+| `identica` | `idéntico` | 49 | accented spelling 3,544 vs 49 |
+| `consistia` | `consistir` | 49 | accented spelling 4,836 vs 49 |
+| `antigeno` | `antígeno` | 49 | accented spelling 6,312 vs 49 |
+| `señalizacion` | `señalización` | 49 | accented spelling 22,595 vs 49 |
+| `pavon` | `pavón` | 49 | accented spelling 882 vs 49 |
+| `diogenes` | `diógenes` | 49 | accented spelling 398 vs 49 |
+| `datil` | `dátil` | 49 | accented spelling 1,509 vs 49 |
+| `impio` | `impío` | 49 | accented spelling 11,815 vs 49 |
+| `cilindrico` | `cilíndrico` | 49 | accented spelling 7,977 vs 49 |
+| `estariamos` | `estar` | 49 | accented spelling 2,701 vs 49 |
+| `riofrio` | `riofrío` | 49 | accented spelling 356 vs 49 |
+| `dramaticamente` | `dramáticamente` | 49 | accented spelling 7,616 vs 49 |
+| `trituracion` | `trituración` | 49 | accented spelling 5,617 vs 49 |
+| `pelaez` | `peláez` | 49 | accented spelling 438 vs 49 |
+| `jardi` | `jardí` | 49 | accented spelling 494 vs 49 |
+| `granulo` | `gránulo` | 49 | accented spelling 3,809 vs 49 |
+| `disfuncion` | `disfunción` | 49 | accented spelling 21,352 vs 49 |
+| `climaticas` | `climático` | 49 | accented spelling 13,880 vs 49 |
+| `macula` | `mácula` | 49 | accented spelling 2,437 vs 49 |
+| `vayais` | `ir` | 49 | accented spelling 1,126 vs 49 |
+| `drasticamente` | `drásticamente` | 49 | accented spelling 16,924 vs 49 |
+| `saron` | `sarón` | 49 | accented spelling 558 vs 49 |
+| `cartilago` | `cartílago` | 49 | accented spelling 8,238 vs 49 |
+| `fotografie` | `fotografiar` | 49 | accented spelling 283 vs 49 |
+| `receptaculo` | `receptáculo` | 49 | accented spelling 3,193 vs 49 |
+| `tonico` | `tónico` | 49 | accented spelling 5,941 vs 49 |
+| `amnon` | `amnón` | 49 | accented spelling 2,112 vs 49 |
+| `traida` | `traer` | 49 | accented spelling 1,236 vs 49 |
+| `construcion` | `construcción` | 49 | accented spelling 554 vs 49 |
+| `inflamacion` | `inflamación` | 49 | accented spelling 56,480 vs 49 |
+| `arqueologia` | `arqueología` | 49 | accented spelling 10,712 vs 49 |
+| `armagedon` | `armagedón` | 48 | accented spelling 1,764 vs 48 |
+| `bellisimo` | `bello` | 48 | accented spelling 2,170 vs 48 |
+| `acumulacion` | `acumulación` | 48 | accented spelling 39,336 vs 48 |
+| `afirmo` | `afirmar` | 48 | accented spelling 28,627 vs 48 |
+| `rebajo` | `rebajar` | 48 | accented spelling 278 vs 48 |
+| `salonica` | `salónica` | 48 | accented spelling 6,200 vs 48 |
+| `contactandono` | `contactar` | 48 | accented spelling 1,279 vs 48 |
+| `amplian` | `ampliar` | 48 | accented spelling 2,485 vs 48 |
+| `interferon` | `interferón` | 48 | accented spelling 1,874 vs 48 |
+| `humedas` | `húmedo` | 48 | accented spelling 5,200 vs 48 |
+| `vendra` | `venir` | 48 | accented spelling 14,737 vs 48 |
+| `liberate` | `liberar` | 48 | accented spelling 262 vs 48 |
+| `necropolis` | `necrópolis` | 48 | accented spelling 2,496 vs 48 |
+| `regua` | `régua` | 48 | accented spelling 300 vs 48 |
+| `islamico` | `islámico` | 48 | accented spelling 21,282 vs 48 |
+| `creci` | `crecer` | 48 | accented spelling 2,480 vs 48 |
+| `vaqueria` | `vaquería` | 48 | accented spelling 288 vs 48 |
+| `echevarria` | `echevarría` | 48 | accented spelling 606 vs 48 |
+| `desesperacion` | `desesperación` | 48 | accented spelling 13,096 vs 48 |
+| `codecs` | `códec` | 48 | accented spelling 2,042 vs 48 |
+| `triptofano` | `triptófano` | 48 | accented spelling 1,626 vs 48 |
+| `especificacion` | `especificación` | 48 | accented spelling 128,030 vs 48 |
+| `cañeria` | `cañería` | 48 | accented spelling 1,923 vs 48 |
+| `calidamente` | `cálidamente` | 48 | accented spelling 872 vs 48 |
+| `ridiculo` | `ridículo` | 48 | accented spelling 8,646 vs 48 |
+| `expiracion` | `expiración` | 48 | accented spelling 7,379 vs 48 |
+| `evalue` | `evaluar` | 48 | accented spelling 3,172 vs 48 |
+| `anabolico` | `anabólico` | 48 | accented spelling 28,181 vs 48 |
+| `coalicion` | `coalición` | 48 | accented spelling 31,818 vs 48 |
+| `canones` | `canon` | 48 | accented spelling 1,709 vs 48 |
+| `emaus` | `emaús` | 48 | accented spelling 3,010 vs 48 |
+| `ninfomana` | `ninfómana` | 48 | accented spelling 487 vs 48 |
+| `servian` | `servir` | 48 | accented spelling 2,686 vs 48 |
+| `guardela` | `guardar` | 48 | accented spelling 28,141 vs 48 |
+| `tendriamos` | `tener` | 47 | accented spelling 3,197 vs 47 |
+| `fogon` | `fogón` | 47 | accented spelling 5,252 vs 47 |
+| `prohibicion` | `prohibición` | 47 | accented spelling 35,465 vs 47 |
+| `subira` | `subir` | 47 | accented spelling 2,148 vs 47 |
+| `lanjaron` | `lanjarón` | 47 | accented spelling 1,298 vs 47 |
+| `hirio` | `herir` | 47 | accented spelling 4,874 vs 47 |
+| `unicos` | `único` | 47 | accented spelling 36,352 vs 47 |
+| `billon` | `billón` | 47 | accented spelling 16,869 vs 47 |
+| `inmovil` | `inmóvil` | 47 | accented spelling 6,330 vs 47 |
+| `taoista` | `taoísta` | 47 | accented spelling 816 vs 47 |
+| `fiscalia` | `fiscalía` | 47 | accented spelling 15,226 vs 47 |
+| `narracion` | `narración` | 47 | accented spelling 14,080 vs 47 |
+| `imitacion` | `imitación` | 47 | accented spelling 19,831 vs 47 |
+| `manases` | `manasés` | 47 | accented spelling 10,852 vs 47 |
+| `espero` | `esperar` | 47 | accented spelling 2,446 vs 47 |
+| `maimonides` | `maimónides` | 47 | accented spelling 418 vs 47 |
+| `gedeon` | `gedeón` | 47 | accented spelling 5,154 vs 47 |
+| `quimicos` | `químico` | 47 | accented spelling 47,008 vs 47 |
+| `decadas` | `década` | 47 | accented spelling 46,691 vs 47 |
+| `lucida` | `lúcido` | 47 | accented spelling 421 vs 47 |
+| `nanometro` | `nanómetro` | 47 | accented spelling 8,480 vs 47 |
+| `nordicas` | `nórdico` | 47 | accented spelling 527 vs 47 |
+| `ecografia` | `ecografía` | 47 | accented spelling 10,479 vs 47 |
+| `paradisiaca` | `paradisíaco` | 47 | accented spelling 870 vs 47 |
+| `santafe` | `santafé` | 47 | accented spelling 292 vs 47 |
+| `multifuncion` | `multifunción` | 47 | accented spelling 22,468 vs 47 |
+| `avalos` | `ávalos` | 47 | accented spelling 262 vs 47 |
+| `karoly` | `károly` | 47 | accented spelling 278 vs 47 |
+| `fosil` | `fósil` | 47 | accented spelling 14,664 vs 47 |
+| `tentaculo` | `tentáculo` | 47 | accented spelling 1,634 vs 47 |
+| `arrayan` | `arrayán` | 47 | accented spelling 508 vs 47 |
+| `parchis` | `parchís` | 47 | accented spelling 424 vs 47 |
+| `democrata` | `demócrata` | 47 | accented spelling 24,894 vs 47 |
+| `guixols` | `guíxols` | 47 | accented spelling 516 vs 47 |
+| `ergonomico` | `ergonómico` | 47 | accented spelling 19,548 vs 47 |
+| `femina` | `fémina` | 47 | accented spelling 540 vs 47 |
+| `existian` | `existir` | 47 | accented spelling 5,623 vs 47 |
+| `iglu` | `iglú` | 47 | accented spelling 973 vs 47 |
+| `sabreis` | `saber` | 46 | accented spelling 2,154 vs 46 |
+| `obsesion` | `obsesión` | 46 | accented spelling 9,734 vs 46 |
+| `ponton` | `pontón` | 46 | accented spelling 1,967 vs 46 |
+| `vacacion` | `vacaciones` | 46 | accented spelling 1,962 vs 46 |
+| `proxima#cousin` | `próximo` | 46 | accented spelling 71,925 vs 46 |
+| `demografico` | `demográfico` | 46 | accented spelling 19,394 vs 46 |
+| `diplomaticas` | `diplomático` | 46 | accented spelling 5,211 vs 46 |
+| `algun` | `alguno` | 46 | accented spelling 187,681 vs 46 |
+| `loiza` | `loíza` | 46 | accented spelling 252 vs 46 |
+| `interrupcion` | `interrupción` | 46 | accented spelling 47,476 vs 46 |
+| `usti` | `ústí` | 46 | accented spelling 322 vs 46 |
+| `demolicion` | `demolición` | 46 | accented spelling 7,931 vs 46 |
+| `asia-pacifico` | `asia-pacífico` | 46 | accented spelling 4,902 vs 46 |
+| `solidamente` | `sólidamente` | 46 | accented spelling 1,914 vs 46 |
+| `indole` | `índole` | 46 | accented spelling 15,929 vs 46 |
+| `ajimelec` | `ajimélec` | 46 | accented spelling 322 vs 46 |
+| `ahogo` | `ahogarse` | 46 | accented spelling 528 vs 46 |
+| `transgenero` | `transgénero` | 46 | accented spelling 7,241 vs 46 |
+| `bantu` | `bantú` | 46 | accented spelling 299 vs 46 |
+| `mames` | `mamés` | 46 | accented spelling 576 vs 46 |
+| `felicitacion` | `felicitación` | 46 | accented spelling 13,604 vs 46 |
+| `habrian` | `haber` | 46 | accented spelling 11,587 vs 46 |
+| `pulpi` | `pulpí` | 46 | accented spelling 252 vs 46 |
+| `technologia` | `tecnología` | 46 | accented spelling 470 vs 46 |
+| `escorpion` | `escorpión` | 46 | accented spelling 4,863 vs 46 |
+| `cadaques` | `cadaqués` | 46 | accented spelling 1,802 vs 46 |
+| `tonala` | `tonalá` | 46 | accented spelling 394 vs 46 |
+| `laud` | `laúd` | 46 | accented spelling 1,067 vs 46 |
+| `antioco` | `antíoco` | 46 | accented spelling 1,096 vs 46 |
+| `simil` | `símil` | 46 | accented spelling 1,061 vs 46 |
+| `idem` | `ídem` | 46 | accented spelling 371 vs 46 |
+| `alineacion` | `alineación` | 46 | accented spelling 23,440 vs 46 |
+| `pelin` | `pelín` | 46 | accented spelling 572 vs 46 |
+| `consiguio` | `conseguir` | 46 | accented spelling 15,018 vs 46 |
+| `hidratacion` | `hidratación` | 46 | accented spelling 19,648 vs 46 |
+| `dejaria` | `dejar` | 45 | accented spelling 3,047 vs 45 |
+| `marroqui` | `marroquí` | 45 | accented spelling 14,271 vs 45 |
+| `periodica` | `periódico` | 45 | accented spelling 7,325 vs 45 |
+| `divulgacion` | `divulgación` | 45 | accented spelling 57,662 vs 45 |
+| `hicieramos` | `hacer` | 45 | accented spelling 797 vs 45 |
+| `dono` | `donar` | 45 | accented spelling 1,753 vs 45 |
+| `iconico` | `icónico` | 45 | accented spelling 17,017 vs 45 |
+| `globalizacion` | `globalización` | 45 | accented spelling 23,514 vs 45 |
+| `floracion` | `floración` | 45 | accented spelling 17,594 vs 45 |
+| `desaparecio` | `desaparecer` | 45 | accented spelling 6,246 vs 45 |
+| `superacion` | `superación` | 45 | accented spelling 10,154 vs 45 |
+| `chinchon` | `chinchón` | 45 | accented spelling 670 vs 45 |
+| `narvaez` | `narváez` | 45 | accented spelling 610 vs 45 |
+| `nitida` | `nítido` | 45 | accented spelling 3,865 vs 45 |
+| `solto` | `soltar` | 45 | accented spelling 1,711 vs 45 |
+| `comento` | `comentar` | 45 | accented spelling 17,334 vs 45 |
+| `pasaria` | `pasar` | 45 | accented spelling 4,785 vs 45 |
+| `admiracion` | `admiración` | 45 | accented spelling 10,637 vs 45 |
+| `gaucin` | `gaucín` | 45 | accented spelling 432 vs 45 |
+| `conviccion` | `convicción` | 45 | accented spelling 23,016 vs 45 |
+| `jundiai` | `jundiaí` | 45 | accented spelling 354 vs 45 |
+| `aereos` | `aéreo` | 45 | accented spelling 15,872 vs 45 |
+| `maletin` | `maletín` | 45 | accented spelling 6,084 vs 45 |
+| `alquezar` | `alquézar` | 45 | accented spelling 404 vs 45 |
+| `acidos` | `ácido` | 45 | accented spelling 14,769 vs 45 |
+| `malargue` | `malargüe` | 45 | accented spelling 304 vs 45 |
+| `numeracion` | `numeración` | 45 | accented spelling 5,495 vs 45 |
+| `melodias` | `melodía` | 45 | accented spelling 4,548 vs 45 |
+| `traore` | `traoré` | 45 | accented spelling 322 vs 45 |
+| `lios` | `lío` | 45 | accented spelling 548 vs 45 |
+| `conocian` | `conocer` | 45 | accented spelling 4,219 vs 45 |
+| `designo` | `designar` | 45 | accented spelling 1,910 vs 45 |
+| `santillan` | `santillán` | 45 | accented spelling 396 vs 45 |
+| `yemeni` | `yemení` | 45 | accented spelling 2,102 vs 45 |
+| `inmersion` | `inmersión` | 45 | accented spelling 32,293 vs 45 |
+| `morazan` | `morazán` | 45 | accented spelling 766 vs 45 |
+| `aureo` | `áureo` | 45 | accented spelling 745 vs 45 |
+| `asignacion` | `asignación` | 45 | accented spelling 45,681 vs 45 |
+| `perello` | `perelló` | 45 | accented spelling 454 vs 45 |
+| `tonteria` | `tontería` | 45 | accented spelling 4,796 vs 45 |
+| `rosello` | `roselló` | 45 | accented spelling 288 vs 45 |
+| `madian` | `madián` | 45 | accented spelling 3,836 vs 45 |
+| `angiogenesis` | `angiogénesis` | 44 | accented spelling 834 vs 44 |
+| `ortopedico` | `ortopédico` | 44 | accented spelling 5,717 vs 44 |
+| `trifasico` | `trifásico` | 44 | accented spelling 4,620 vs 44 |
+| `caldereria` | `calderería` | 44 | accented spelling 563 vs 44 |
+| `mayoria` | `mayoría` | 44 | accented spelling 705,481 vs 44 |
+| `pielago` | `piélago` | 44 | accented spelling 252 vs 44 |
+| `elian` | `elián` | 44 | accented spelling 744 vs 44 |
+| `fraccion` | `fracción` | 44 | accented spelling 23,930 vs 44 |
+| `renteria` | `rentería` | 44 | accented spelling 468 vs 44 |
+| `tajin` | `tajín` | 44 | accented spelling 336 vs 44 |
+| `hipertension` | `hipertensión` | 44 | accented spelling 24,306 vs 44 |
+| `rodano` | `ródano` | 44 | accented spelling 1,940 vs 44 |
 
 ### Dropped by 2+ flags: random sample of 0 of 0 in the window
 
@@ -8992,4 +10080,4 @@ Examples: `tiquete` (2242), `tom` (2623), `ascendente` (4278), `pseudónimo` (56
 ### Single flag, not yet reviewed: 0 (kept until reviewed)
 
 
-Reviewed decisions applied in the window: 18,903 (keep 7,324, drop 11,579); review merges: 6,454.
+Reviewed decisions applied in the window: 36,395 (keep 10,276, drop 26,119); review merges: 6,917.

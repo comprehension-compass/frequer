@@ -1,13 +1,13 @@
-> **Current snapshot (2026-11-06): rebuilt on the extended counts, 1,382,684,047 tokens** (ten stride-28 passes of
-> ParaCrawl r9 plus Tatoeba; the split-half stop fired at 1.32B). `snapshots/es.json` is the planned 30k (30,000
-> reviewed lemmas + 108 learnable names after the cut); `snapshots/es-40k.json` is the same list cut at 40k, for the
-> developer's cut decision (`band-samples.md`). Review: rounds 1-20 (`junk-review.md`): every flagged lemma in the 40k
-> window reviewed and every unflagged keep in 0-40k screened, except 60 keeps in ranks 39,935-40,000 pulled in by the
-> last drops. Rulings: two developer sets plus follow-ups and recorded coordinator calls. Learnable names: Honeyeater
-> #766 `9bbae4b`. Number rule: 15 dropped (30k). Frequency at rank 1k / 5k / 10k / 20k / 30k / 40k: 164,515 / 17,323 /
-> 4,331 / 718 / 187 / 66. `load_lemmas --dry-run`: 30k: 30,108 ranked, 0 skipped, 1,535 unit headwords, 57
-> homograph keys; 40k: 40,063 ranked, 0 skipped, 1,706 unit headwords, 89 homograph keys. The sections below describe
-> earlier builds.
+> **Current snapshot (2026-11-06): the 40k list (developer ruling), on the extended counts, 1,382,684,047 tokens**
+> (ten stride-28 passes of ParaCrawl r9 plus Tatoeba; the split-half stop fired at 1.32B). `snapshots/es.json`:
+> 40,000 reviewed lemmas + 63 learnable names after the cut (17 counted, 46 never counted with bare entries; 6 filed
+> under another lemma are reported in the header; 183 multi-word names wait for lemma release 1.6,
+> `learnable-multiword-names.tsv`). Review: rounds 1-22 (`junk-review.md`): every flagged lemma in the 40k window
+> reviewed and every unflagged keep in 0-40k screened, with the boundary screened to 40.5k. Rulings: two developer
+> sets, follow-ups, the 40k cut, and recorded coordinator calls. Learnable names and the number rule (23 dropped):
+> Honeyeater #766 `9bbae4b`. Frequency at rank 1k / 5k / 10k / 20k / 30k / 40k: 164,582 / 17,323 / 4,332 / 718 /
+> 187 / 66. `load_lemmas es --dry-run`: 40,063 ranked, 0 skipped, 1,707 unit headwords, 89 homograph keys
+> [sha256 9e4bcb72a6a2]. Band samples: `band-samples.md`. The sections below describe earlier builds.
 
 # Spanish full build, 2026-11-01: lemma release 1.5.0
 
