@@ -115,6 +115,12 @@ Follow-ups (confirmed 2026-11-02): lexicalised superlatives (*el Altísimo*, *la
 pronoun (*llamarnos*, *dándote*) go to the plain verb; Latin genus names used as ordinary Spanish nouns (*boletus*,
 *lilium*) keep, raw taxa drop.
 
+## Developer ruling (2026-11-06): the cut is 40k
+
+The es list is cut at 40,000 reviewed lemmas (plus the appended learnable names), from the band samples in
+`band-samples.md`. Before the build, the unscreened entries at the 40k boundary go through a final screen, iterated
+until the tail is screened or only a handful remain.
+
 **Coordinator calls (2026-11-05, standing developer direction to decide already-ruled kinds by their pattern):**
 - *Regular diminutives* merge into their base word, by analogy with the superlative ruling (*sorbito* → *sorbo*,
   *casita* → *casa*, *abuelita* → *abuelo*); lexicalised diminutives with their own meaning keep their entry

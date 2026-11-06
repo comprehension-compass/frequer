@@ -7,7 +7,7 @@ language:
   fold_case: true
   lowercase_forms: false
   readings: false
-  top_n: 30000  # 2026-11-01 (developer): list and review to 30k; the app default-ignores past 25k
+  top_n: 40000  # 2026-11-06 (developer): the es list is cut at 40k (reviewed to 40k on the extended counts)
   forms_kept: 5
   append_learnable_names: true  # 2026-11-01 (developer): learnable names outside the 30k follow it
   number_rule: true  # 2026-11-02: Honeyeater number_is_learnable decides number lemmas (drop on False)
@@ -20,7 +20,7 @@ language:
     fragment_finals: lnrdz
     propn_drop: 0.9
     propn_keep: 0.2
-    review_top: 40000
+    review_top: 40500
     review_multi_flag: true  # cut-off real words (citation + shape) are merged, not dropped (2026-11-01)
 hygiene: {min_chars: 20, max_chars: 600, min_alpha_ratio: 0.6, gap_filter: true, langid_min_prob: 0.5}
 parts: 100
