@@ -79,11 +79,13 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
     ranked, out.excluded = exclude.apply(ranked, lambda r: r.lemma, out.exclusions)
 
     dictionary = "propn_band" in jc.rules and jc.propn_evidence == "dictionary"
-    needs_case = cfg.propn_rule == "capitalised_mid_sentence" or ("propn_band" in jc.rules and not dictionary)
+    tag_only = "propn_band" in jc.rules and jc.propn_evidence == "tag"
+    needs_case = cfg.propn_rule == "capitalised_mid_sentence" or (
+        "propn_band" in jc.rules and not dictionary and not tag_only)
     if needs_case:
         out.learnable = propn.load_names(root or honeyeater_root(), cfg.code)
         out.tally = propn.load_case(cfg.code)
-    elif jc.names_final and not dictionary:  # propn_usage (de): the final list decides the places it lists
+    elif jc.names_final and not dictionary and not tag_only:  # propn_usage (de): the final list decides the places it lists
         out.learnable = propn.load_names(root or honeyeater_root(), cfg.code)
     if cfg.propn_rule == "capitalised_mid_sentence" and out.learnable and out.tally:
         ranked, out.propn_dropped, out.names_kept, out.case_kept = propn.apply(
@@ -100,6 +102,9 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
             if junk.acronym_share(c.forms) >= 0.5:
                 return None, False  # an all-capitals acronym: no case evidence either way
             return propn.mid_capitalised_share(c.forms, tally), False
+
+        def no_evidence(c: junk.Candidate) -> tuple[float | None, bool]:
+            return None, False  # propn_evidence: tag: the release's PROPN verdict alone, so always reviewed
 
         names: frozenset[str] = frozenset()
         if dictionary:
@@ -135,7 +140,7 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
         out.flags = junk.compute_flags(
             candidates, jc, total_docs=merged.docs, zipf=compare.zipf_lookup(), lang=cfg.code,
             kept=out.exclusions.kept if out.exclusions else frozenset(),
-            propn_share=share if needs_case else None, propn_dict=entries if dictionary else None,
+            propn_share=share if needs_case else (no_evidence if tag_only else None), propn_dict=entries if dictionary else None,
             number_check=number_verdicts.get if jc.number_rule else None,
             propn_usage=usage if usage_of is not None else None)
         listed = out.learnable

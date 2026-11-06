@@ -1,0 +1,152 @@
+{
+ "language": "zh",
+ "scope": "pilot",
+ "tokens": 2895738,
+ "documents": 5646,
+ "lemma_types_ranked": 105219,
+ "snapshot_entries": 50000,
+ "stages": [
+  {
+   "stage": "fetch_decode",
+   "what": "download, decompress, parse (main process)",
+   "core_seconds": 6.64,
+   "tokens_per_second": 436380
+  },
+  {
+   "stage": "hygiene",
+   "what": "length/alpha/GAP/dedup filters (main process)",
+   "core_seconds": 11.57,
+   "tokens_per_second": 250382
+  },
+  {
+   "stage": "langid",
+   "what": "py3langid (main process)",
+   "core_seconds": 7.92,
+   "tokens_per_second": 365544
+  },
+  {
+   "stage": "read_shard",
+   "what": "read the cleaned shard file (worker)",
+   "core_seconds": 0.27,
+   "tokens_per_second": 10611636
+  },
+  {
+   "stage": "segment",
+   "what": "backend sentence segmentation (worker; German: the full parse)",
+   "core_seconds": 0.9,
+   "tokens_per_second": 3205872
+  },
+  {
+   "stage": "sentence_stage",
+   "what": "analyse_sentence minus the release: tokenize, candidates, numbers, unit merge (worker)",
+   "core_seconds": 781.23,
+   "tokens_per_second": 3707
+  },
+  {
+   "stage": "lemma_step",
+   "what": "the release's lemma + UPOS (model on every sentence) (worker)",
+   "core_seconds": 143.5,
+   "tokens_per_second": 20179
+  },
+  {
+   "stage": "units",
+   "what": "the release's unit step: list candidates, spancat, parts list, splitter (worker)",
+   "core_seconds": 94.76,
+   "tokens_per_second": 30560
+  },
+  {
+   "stage": "count",
+   "what": "tally lemmas, forms, POS, readings, units (worker)",
+   "core_seconds": 9.3,
+   "tokens_per_second": 311369
+  },
+  {
+   "stage": "cooc",
+   "what": "co-occurrence n-grams, pairs, marginals (worker)",
+   "core_seconds": 16.29,
+   "tokens_per_second": 177717
+  },
+  {
+   "stage": "cooc_write",
+   "what": "write the sorted co-occurrence file (worker)",
+   "core_seconds": 9.5,
+   "tokens_per_second": 304873
+  },
+  {
+   "stage": "worker_total",
+   "what": "everything a worker does per shard",
+   "core_seconds": 1064.41,
+   "tokens_per_second": 2721
+  }
+ ],
+ "build_seconds": {
+  "merge": 3.9,
+  "rank": 8.38,
+  "snapshot": 3.28,
+  "cooc": 6.87,
+  "report": 81.0
+ },
+ "worker_peak_rss_mb": 808,
+ "build_process_peak_rss_mb": 898,
+ "host_tokens": 0,
+ "occurrence_kinds": {
+  "word": 2848993,
+  "compound1": 18372,
+  "phrase": 13696,
+  "construction": 13326,
+  "compound": 1351
+ },
+ "uncounted_occurrences": 47947,
+ "sentences": 178271,
+ "units_found": 1670,
+ "cooc": {
+  "merged_rows_at_min_count": 158644,
+  "scored": 93336,
+  "by_kind": {
+   "n2": 64853,
+   "n3": 22385,
+   "n4": 6098
+  },
+  "shipped_rows": 53276,
+  "table_bytes": 903173,
+  "queue_rows": 2000
+ },
+ "checks": {
+  "form_ratio": 0,
+  "plural": 0,
+  "consistency": 1,
+  "short": 1454,
+  "case": 0
+ },
+ "excluded_from_top_n": 0,
+ "proper_nouns_dropped_from_top_n": 0,
+ "count_wall_seconds": 504.0,
+ "workers": 3,
+ "main_process_peak_rss_mb": 166,
+ "urls": {
+  "tatoeba-cmn.00": {
+   "url": "https://downloads.tatoeba.org/exports/per_language/cmn/cmn_sentences.tsv.bz2",
+   "stride_offset": 0,
+   "raw_chars": 1000411,
+   "compressed_bytes_read": 1259760,
+   "closed_by": "cap",
+   "sha256": "d603c1b9c67fb7a5a68c56fe6df5c935025ca1f36a1f9a912c33ed6dbed91743"
+  },
+  "hplt-v2-zh.00": {
+   "url": "https://data.hplt-project.org/two/cleaned/zho_Hans/10.jsonl.zst",
+   "stride_offset": 0,
+   "raw_chars": 3009896,
+   "compressed_bytes_read": 4194304,
+   "closed_by": "cap",
+   "sha256": null
+  },
+  "hplt-v2-zh.01": {
+   "url": "https://data.hplt-project.org/two/cleaned/zho_Hans/11.jsonl.zst",
+   "stride_offset": 0,
+   "raw_chars": 3000149,
+   "compressed_bytes_read": 4194304,
+   "closed_by": "cap",
+   "sha256": null
+  }
+ }
+}

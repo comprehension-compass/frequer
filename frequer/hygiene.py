@@ -25,7 +25,10 @@ _NON_WORD = re.compile(r"[\W_]+")
 Classifier = Callable[[str], tuple[str, float]]
 
 #: Reasons a line is dropped, in the order they are tested.
-REASONS = ("length", "alpha", "gap", "exact_dup", "near_dup", "langid")
+REASONS = ("length", "alpha", "gap", "exact_dup", "near_dup", "traditional", "langid", "traditional_doc")
+#: Hygiene fields added after the es/de/ja counts: left out of a shard's config hash while at their default,
+#: so those counts keep their identity.
+LATE_DEFAULTS: dict[str, object] = {"simplified_only": False, "traditional_doc_share": 0.2, "langid_aliases": []}
 
 
 def clean_line(line: str) -> str:
@@ -79,6 +82,11 @@ class LineFilter:
         self._near: set[int] = set()
         self.dropped: Counter[str] = Counter()
         self.kept = 0
+        self._t2s: Callable[[str], str] | None = None
+        if cfg.simplified_only:
+            import opencc  # opencc-python-reimplemented, a Honeyeater backend dependency
+
+            self._t2s = opencc.OpenCC("t2s").convert
 
     def accept(self, raw: str) -> str | None:
         line = clean_line(raw)
@@ -99,12 +107,19 @@ class LineFilter:
             if near in self._near:
                 return self._drop("near_dup", line)
             self._near.add(near)
+        if self._t2s is not None and self._t2s(line) != line:
+            return self._drop("traditional", line)
         if cfg.langid_min_prob > 0:  # 0 trusts the source's own language label (Tatoeba)
             lang, prob = self._classify(line)
-            if lang != self.lang or prob < cfg.langid_min_prob:
+            if (lang != self.lang and lang not in cfg.langid_aliases) or prob < cfg.langid_min_prob:
                 return self._drop("langid", line)
         self.kept += 1
         return line
+
+    def drop_kept(self, n: int, reason: str) -> None:
+        """Take back ``n`` accepted lines (a document dropped whole after its lines were tested)."""
+        self.kept -= n
+        self.dropped[reason] += n
 
     def _drop(self, reason: str, line: str) -> str | None:
         self.dropped[reason] += 1

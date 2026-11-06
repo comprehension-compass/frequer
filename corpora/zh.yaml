@@ -1,0 +1,163 @@
+# Mandarin Chinese (Simplified) corpus manifest. Corpus text is never committed.
+language:
+  code: zh
+  tokenizer: jieba-zh
+  lemma_package: honeyeater_lemma_zh
+  # Honeyeater lexicon.language_seed._HANS_ZH_PATTERN (the loader's zh lemma_pattern): Han only, so
+  # Latin-script tokens are never counted as words.
+  lemma_pattern: "^[\U00002E80-\U00002EF3\U00002F00-\U00002FD5\U00003005-\U00003007\U00003400-\U00004DBF\U00004E00-\U00009FFF\U0000F900-\U0000FAFF\U00020000-\U000323AF]+$"
+  fold_case: false
+  lowercase_forms: false
+  readings: false
+  top_n: 50000  # the 40k cut is the developer's (ruling pending; full/zh/band-samples.md)
+  forms_kept: 5
+  # Junk rules: ja's set for a script with neither case nor accents. No proper-noun dictionary: every
+  # PROPN-majority lemma (the release's own name verdict) is reviewed (propn_evidence: tag), and names that are
+  # learnable things stay (lemmatiser rulings v3.42 R12).
+  junk:
+    rules: [diversity, citation, shape, propn_band]
+    diversity_max_clumping: 0.2  # ja's HPLT calibration; re-checked on the zh sample before review
+    propn_evidence: tag
+    short_max_length: 1  # a lone character with a low wordfreq zipf is suspect (bound morphemes, cut names)
+    short_zipf_min: 3.5
+    max_length: 8
+    review_top: 40500
+    review_multi_flag: true
+    number_rule: true  # the app's number check (lexicon.number_words) decides 漢数字 it knows
+    names_final: false  # Honeyeater has no reference/learnable-names/zh.json: reviewers decide names
+# py3langid calls much ordinary Mandarin web text Wu (wuu): on a 1,500-document sample of HPLT file 10, 2,621 of
+# 4,740 langid drops were wuu, nearly all Mandarin; yue (Cantonese) stays out.
+hygiene: {min_chars: 4, max_chars: 400, min_alpha_ratio: 0.5, gap_filter: true, langid_min_prob: 0.5,
+          langid_aliases: [wuu], simplified_only: true, traditional_doc_share: 0.2}
+parts: 100
+checks:
+  review_top_n: 10000
+  form_ratio_threshold: 1000.0
+  plural_suffixes: []
+  short_lemma_max_len: 1
+sources:
+  - name: hplt-v2-zh
+    kind: hplt
+    licence: CC0-1.0
+    licence_url: https://creativecommons.org/publicdomain/zero/1.0/
+    notes: >-
+      HPLT v2.0 cleaned shards, zho_Hans (CC0 dedication over CommonCrawl / Internet Archive web text), as
+      for es and de. Each file is ~7 GB compressed, streamed and never stored; a run reads the first
+      max_chars_per_url characters of each of the 79 URLs in https://data.hplt-project.org/two/cleaned/zho_Hans_map.txt
+      (documents arrive grouped by crawl file, so many shallow reads beat few deep ones). Simplified only:
+      a line OpenCC t2s changes is dropped, and a document whose lines are 20 % or more Traditional is
+      dropped whole (hygiene simplified_only; Honeyeater doc 06 §Simplified only).
+    segment_lang: zho_Hans
+    urls:
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/10.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/11.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/12.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/13.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/14.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/15.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/16.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/17.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/18.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/19.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/20.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/21.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/22.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/23.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/24.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/25.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/26.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/27.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/28.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/29.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/30.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/31.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/32.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/33.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/34.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/35.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/36.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/37.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/38.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/39.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/40.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/41.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/42.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/43.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/44.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/45.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/46.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/47.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/48.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/49.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/50.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/51.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/52.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/53.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/54.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/55.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/56.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/57.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/58.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/59.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/60.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/61.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/62.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/63.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/64.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/65.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/66.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/67.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/68.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/69.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/70.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/71.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/72.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/73.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/74.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/75.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/76.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/77.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/78.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/79.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/1.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/2.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/3.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/4.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/5.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/6.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/7.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/8.jsonl.zst
+      - https://data.hplt-project.org/two/cleaned/zho_Hans/9.jsonl.zst
+    # The 2026-11-06 pilot: ~4.7 raw characters per counted token (raw counts the lines hygiene drops) and
+    # ~2,700 tokens a second per worker. 79 URLs x 32M raw characters ~ 2.5B characters ~ 540M tokens, counted in
+    # parts across machines (count --part i/N); the split-half rule may stop it earlier.
+    shard_chars: 16000000
+    max_chars_per_url: 32000000
+  - name: tatoeba-cmn
+    first: true  # counted before the web: every checkpoint holds it whole
+    kind: tsv
+    licence: CC-BY-2.0-FR
+    licence_url: https://tatoeba.org/en/terms_of_use
+    notes: >-
+      Tatoeba cmn export (CC BY 2.0 FR; a subset is CC0). Attribution to Tatoeba contributors is the only
+      obligation. It mixes Simplified and Traditional sentences; the Simplified filter keeps the Simplified
+      ones. Re-generated weekly, so the sha256 is recorded per run, not pinned.
+    urls:
+      - https://downloads.tatoeba.org/exports/per_language/cmn/cmn_sentences.tsv.bz2
+    column: 2
+    pseudo_doc_lines: 50
+    shard_chars: 2000000
+    hygiene: {min_chars: 2, max_chars: 150, min_alpha_ratio: 0.5, gap_filter: true, langid_min_prob: 0.0,
+              simplified_only: true, traditional_doc_share: 1.0}
+forms:
+  script: hans
+  tokenizer: backend
+  sources:
+    hplt-v2-zh: {share: 0.9, raw_chars_per_token: 1.6}
+    tatoeba-cmn: {share: 0.1, raw_chars_per_token: 1.6}
+pilot:
+  shard_chars: 1500000
+  urls: {hplt-v2-zh: 2}
+  max_chars_per_url:
+    hplt-v2-zh: 3000000
+    tatoeba-cmn: 1000000

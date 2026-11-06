@@ -35,6 +35,16 @@ class Hygiene(Strict):
     #: Minimum py3langid probability for the target language; 0 skips the filter
     #: (a source that is already human-labelled by language).
     langid_min_prob: float = 0.5
+    #: Other py3langid labels that count as the target language (zh: ``wuu``, which py3langid gives much
+    #: ordinary Mandarin web text, headings and lists especially).
+    langid_aliases: list[str] = Field(default_factory=list)
+    #: Simplified Chinese only (zh; Honeyeater doc 06 §Simplified only): a line OpenCC ``t2s`` changes is
+    #: Traditional and dropped, never folded.
+    simplified_only: bool = False
+    #: With ``simplified_only``: a document whose Traditional lines are at least this share of its lines that
+    #: reached the test is a Traditional document and is dropped whole (its remaining lines hold no
+    #: distinguishing character, not Simplified text).
+    traditional_doc_share: float = 0.2
 
 
 class JunkConfig(Strict):
@@ -72,7 +82,9 @@ class JunkConfig(Strict):
     propn_keep: float = 0.2
     #: Where ``propn_band`` takes its evidence: ``case`` (capitalisation in running text, the case tally) or
     #: ``dictionary`` (the language's dictionary's proper-noun subtags, for a script without case).
-    propn_evidence: Literal["case", "dictionary"] = "case"
+    #: ``tag`` (zh: no case, no proper-noun dictionary): every PROPN-majority lemma, the release's own name
+    #: verdict, is flagged for review.
+    propn_evidence: Literal["case", "dictionary", "tag"] = "case"
     #: The dictionary ``propn_evidence: dictionary`` reads (``frequer/propn_dict.py``).
     propn_dictionary: Literal["sudachi"] | None = None
     #: The number rule (drops, does not flag): a lemma the app's own number check (``frequer/numbers.py``,

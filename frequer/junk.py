@@ -441,7 +441,9 @@ def compute_flags(
             if learnable:
                 continue
             if share is None:
-                out.add(c.lemma, "propn_band", "proper noun with no case evidence (all-capitals or sentence-initial)")
+                out.add(c.lemma, "propn_band", "tagged PROPN by the release (no case or dictionary evidence)"
+                        if cfg.propn_evidence == "tag" else
+                        "proper noun with no case evidence (all-capitals or sentence-initial)")
             elif share >= cfg.propn_drop:
                 out.propn_drop[c.lemma] = f"capitalised in {share:.0%} of running text"
             elif share > cfg.propn_keep:

@@ -208,7 +208,7 @@ class Runtime:
             honeyeater_commit=commit,
             honeyeater_dirty=dirty,
             overrides_path=f"reference/lemma-overrides/{language.code}.json",
-            overrides_sha256=sha256_file(override_file),
+            overrides_sha256=sha256_file(override_file) if override_file.exists() else "absent",  # zh has none
             theta=float(meta["theta"]),
         )
 

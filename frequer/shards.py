@@ -19,7 +19,7 @@ from dataclasses import asdict, dataclass, field
 from pathlib import Path
 
 from frequer.config import Hygiene, SourceConfig
-from frequer.hygiene import Classifier, LineFilter
+from frequer.hygiene import LATE_DEFAULTS, Classifier, LineFilter
 from frequer.sources import RawDoc, decompress, iter_docs, open_raw
 
 FORMAT = 1
@@ -80,10 +80,18 @@ def part_of(doc_id: str, parts: int) -> int:
     return int.from_bytes(hashlib.blake2b(doc_id.encode(), digest_size=8).digest(), "big") % parts
 
 
+def _hygiene_identity(hygiene: Hygiene) -> dict[str, object]:
+    dump = hygiene.model_dump()
+    for key, default in LATE_DEFAULTS.items():
+        if dump.get(key) == default:
+            del dump[key]
+    return dump
+
+
 def config_hash(source: SourceConfig, hygiene: Hygiene, parts: int, lang: str, variant: str = "") -> str:
     """Identity of everything that decides a shard's content; counts from another config never mix."""
     items: list[object] = [FORMAT, lang, source.name, source.shard_chars, source.pseudo_doc_lines,
-                           source.column, source.segment_lang, hygiene.model_dump(), parts]
+                           source.column, source.segment_lang, _hygiene_identity(hygiene), parts]
     if variant:
         items.append(variant)
     if source.skip_chars:
@@ -171,12 +179,18 @@ class _UrlCutter:
         # The inventory counts a line once per document; counting dedups the whole shard instead.
         lines = doc.lines if self.mode.dedup else list(dict.fromkeys(doc.lines))
         kept: list[str] = []
+        traditional = 0
         for line in lines:
             cleaned = self.line_filter.accept(line)
             if cleaned is not None:
                 kept.append(cleaned)
-            elif self.mode.keep_dir and (drop := self.line_filter.last_drop) and drop[0] == "langid":
+            elif (drop := self.line_filter.last_drop) and drop[0] == "traditional":
+                traditional += 1
+            elif self.mode.keep_dir and drop and drop[0] == "langid":
                 self.rejects.append((self.doc_no, part, drop[1]))
+        if traditional and kept and traditional >= self.hygiene.traditional_doc_share * (traditional + len(kept)):
+            self.line_filter.drop_kept(len(kept), "traditional_doc")  # a Traditional document: dropped whole
+            kept = []
         if kept:
             self.rows.extend((self.doc_no, part, c) for c in kept)
             self.doc_no += 1
