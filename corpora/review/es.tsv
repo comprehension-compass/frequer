@@ -39936,3 +39936,21 @@ frótelo	merge:frotar	imperative with clitic [r19]
 genu	drop	Latin [r19]
 goldenes	drop	German [r19]
 gravísimas	merge:grave	regular superlative [r19]
+# round 19: the last 17 flagged lemmas pending in the 40k window (coordinator calls)
+retinal	keep	real Spanish word (coordinator call under the foreign-word rule)
+colorectal	keep	real Spanish word (coordinator call under the foreign-word rule)
+vernacular	keep	real Spanish word (coordinator call under the foreign-word rule)
+prognosis	keep	real Spanish word (coordinator call under the foreign-word rule); medical register
+procedural	keep	real Spanish word (coordinator call under the foreign-word rule); current in legal Spanish
+pivotal	drop	English word, not established in Spanish (coordinator call under the foreign-word rule); mostly the company name
+sabiñánigo	drop	place not on the learnable-names list
+books#Masc	drop	English word, not established in Spanish (coordinator call under the foreign-word rule)
+green#Fem	drop	English word, not established in Spanish (coordinator call under the foreign-word rule)
+custodial	drop	English word, not established in Spanish (coordinator call under the foreign-word rule)
+societal	drop	English word, not established in Spanish (coordinator call under the foreign-word rule)
+smart#Masc	drop	English word, not established in Spanish (coordinator call under the foreign-word rule)
+common#Fem	drop	English word, not established in Spanish (coordinator call under the foreign-word rule)
+masturbate	drop	English word, not established in Spanish (coordinator call under the foreign-word rule)
+psalms	drop	English word, not established in Spanish (coordinator call under the foreign-word rule)
+relation	drop	English word, not established in Spanish (coordinator call under the foreign-word rule)
+spinal	drop	English word, not established in Spanish (coordinator call under the foreign-word rule); Spanish writes espinal
