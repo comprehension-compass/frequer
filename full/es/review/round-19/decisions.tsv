@@ -1,0 +1,11 @@
+bombardino	keep	real Spanish word (euphonium, the band instrument); lowercase common-noun use is well over a third of the forms
+cuboid	merge:cuboide	English spelling; the Spanish forms (cuboides, about half the tokens) are the plural of cuboide (cuboid shape), as in the example
+dimenhydrinate	merge:dimenhidrinato	English spelling of a common over-the-counter generic (motion-sickness drug); variant spellings merge into the Spanish form
+encintadoras	merge:encintadora	plural filed as lemma; encintadora (taping machine) is a real noun, same treatment as paletizadora
+osinergmin	keep	Peru's national energy regulator, a household name there (fuel and electricity prices); fits the ETECSA ruling
+paletizadora	keep	real feminine machine noun (palletiser) with its own entry; no rule drops specialist common nouns
+acharolar	keep	real verb (RAE); participle forms under the infinitive is the lemmatiser's convention, not a broken lemma
+albardar	split:albardar|albarda=albarda,Albarda,albardas	two real words: the noun albarda (pack saddle, most tokens) and the verb albardar (albardado)
+canalera	merge:canalero	feminine adjective filed as lemma; canalero (relating to the canal) is the masculine lemma
+cerdita	merge:cerdo	regular diminutive; the ruling merges into the masculine base (abuelita -> abuelo)
+extruidas	merge:extruir	inflected participle filed as lemma; participles go under the verb (as with acharolar)
