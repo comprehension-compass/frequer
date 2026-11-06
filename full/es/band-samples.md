@@ -1,6 +1,6 @@
 # es: samples by band (rebuild on the extended counts, reviewed to 40k)
 
-From the 40k build of 2026-11-06: 1,382,684,047 tokens (ParaCrawl r9 Spanish side, ten stride-28 passes, plus Tatoeba), every flagged lemma in the 40k window reviewed and every unflagged keep in 0-40k screened (rounds 12-19). Ranks are kept ranks; learnable names appended after the cut are not counted. Glosses are short English glosses of the commonest sense. Random samples use seed 20261106.
+From the final 40k build (2026-11-06): 1,382,684,047 tokens (ParaCrawl r9 Spanish side over ten stride-28 passes, plus Tatoeba). Every flagged lemma in the 40k window is reviewed and every unflagged keep in 0-40k screened (rounds 12-20), except 60 keeps in the last 65 ranks (39,935-40,000) that the final drops pulled in: each clean-up moves the tail, so a residue there is the cut's boundary effect. The 30k window has none. Ranks are kept ranks; learnable names appended after the cut are not counted. Glosses are short English glosses of the commonest sense. Random samples use seed 20261106.
 
 ## Frequency per million tokens
 
@@ -53,36 +53,36 @@ From the 40k build of 2026-11-06: 1,382,684,047 tokens (ParaCrawl r9 Spanish sid
 
 | rank | lemma | gloss | frequency | POS |
 |---:|---|---|---:|---|
-| 39,971 | submuniciones | submunitions | 67 | NOUN |
-| 39,972 | suborbital | suborbital | 67 | ADJ |
-| 39,973 | sujeto a algo | subject to something | 67 | X |
-| 39,974 | sulfurizado | sulfurized | 67 | ADJ |
-| 39,975 | sunotel | Sunotel | 67 | NOUN |
-| 39,976 | suspensiónes | suspensions | 67 | NOUN |
-| 39,977 | sustitúyalo | replace it | 67 | ADJ |
-| 39,978 | sílica | silica | 67 | NOUN |
-| 39,979 | sóis | you (pl.) are | 67 | VERB |
-| 39,980 | teleconsulta | telemedicine consultation | 67 | NOUN |
-| 39,981 | telecéntrico | telecentric | 67 | ADJ |
-| 39,982 | teledermatología | teledermatology | 67 | NOUN |
-| 39,983 | tempranito | quite early | 67 | ADJ |
-| 39,984 | terbinafine | terbinafine | 67 | NOUN |
-| 39,985 | terrasa | terrace | 67 | NOUN |
-| 39,986 | testarudez | stubbornness | 67 | NOUN |
-| 39,987 | tomográfico | tomographic | 67 | ADJ |
-| 39,988 | transnacionalización | transnationalization | 67 | NOUN |
-| 39,989 | trasládese | move; transfer yourself | 67 | VERB |
-| 39,990 | travesero | transverse; cross- | 67 | ADJ |
-| 39,991 | trigrama | trigram | 67 | NOUN |
-| 39,992 | trinidade | Trinity | 67 | NOUN |
-| 39,993 | trombocito | platelet | 67 | NOUN |
-| 39,994 | trombólisis | thrombolysis | 67 | NOUN |
-| 39,995 | tunal | prickly pear grove | 67 | NOUN |
-| 39,996 | txakolí | txakoli wine | 67 | NOUN |
-| 39,997 | téc | tech | 67 | NOUN |
-| 39,998 | umbráculo | shade house | 67 | NOUN |
-| 39,999 | ursulina | Ursuline | 67 | NOUN |
-| 40,000 | vacúnese | get vaccinated | 67 | VERB |
+| 39,971 | autótrofo | autotrophic | 66 | NOUN |
+| 39,972 | benignamente | benignly | 66 | ADV |
+| 39,973 | bhikkhu | Buddhist monk | 66 | NOUN |
+| 39,974 | blinatumomab | cancer drug name | 66 | NOUN |
+| 39,975 | bodichita | bodhichitta | 66 | ADJ |
+| 39,976 | boleadora | bolas (throwing weapon) | 66 | NOUN |
+| 39,977 | boquear | to gasp | 66 | VERB |
+| 39,978 | bravata | bluster, boast | 66 | NOUN |
+| 39,979 | buap | BUAP (Puebla university) | 66 | PROPN |
+| 39,980 | buenamente | easily, willingly | 66 | ADV |
+| 39,981 | bufido | snort | 66 | NOUN |
+| 39,982 | cafetaleras | coffee-growing (fem. pl.) | 66 | ADJ |
+| 39,983 | calificándola | qualifying her/it | 66 | NOUN |
+| 39,984 | canjearlo | to exchange it | 66 | NOUN |
+| 39,985 | caprio | surname Caprio | 66 | ADJ |
+| 39,986 | castañetear | to chatter (teeth) | 66 | VERB |
+| 39,987 | castigable | punishable | 66 | ADJ |
+| 39,988 | centollo | spider crab | 66 | NOUN |
+| 39,989 | chelista | cellist | 66 | NOUN |
+| 39,990 | chipe | warbler (bird) | 66 | NOUN |
+| 39,991 | chorotega | Chorotega (people) | 66 | PROPN |
+| 39,992 | ciud#Fem | tagging artifact (ciudad) | 66 | NOUN |
+| 39,993 | cnetlee | non-word, CNET reads | 66 | ADJ |
+| 39,994 | coccidioidomicosis | coccidioidomycosis | 66 | NOUN |
+| 39,995 | comella | surname Comella | 66 | NOUN |
+| 39,996 | computerworld | Computerworld (magazine) | 66 | NOUN |
+| 39,997 | comu | truncation of comunidad | 66 | NOUN |
+| 39,998 | condimentación | seasoning | 66 | NOUN |
+| 39,999 | consérvela | keep it (formal) | 66 | VERB |
+| 40,000 | contario | misspelling of contrario | 66 | NOUN |
 
 ## 15 random kept lemmas, 0k-10k
 
@@ -110,7 +110,7 @@ From the 40k build of 2026-11-06: 1,382,684,047 tokens (ParaCrawl r9 Spanish sid
 |---:|---|---|---:|---|
 | 10,042 | estresar | to stress | 4,293 | ADJ |
 | 10,089 | monarca | monarch | 4,236 | NOUN |
-| 11,272 | semanalmente | weekly | 3,314 | ADV |
+| 11,272 | caleta | cove, inlet | 3,314 | PROPN |
 | 12,186 | derrumbar | to knock down | 2,744 | VERB |
 | 13,295 | bicho | bug; critter | 2,218 | NOUN |
 | 13,801 | dibujante | draftsman; cartoonist | 2,008 | NOUN |
@@ -121,7 +121,7 @@ From the 40k build of 2026-11-06: 1,382,684,047 tokens (ParaCrawl r9 Spanish sid
 | 18,235 | descolonización | decolonization | 953 | NOUN |
 | 18,294 | veranear | to spend the summer | 943 | NOUN |
 | 18,455 | sátira | satire | 921 | NOUN |
-| 19,402 | ónix | onyx | 791 | NOUN |
+| 19,402 | sanedrín | Sanhedrin | 791 | NOUN |
 | 19,480 | infravalorar | to undervalue | 781 | VERB |
 
 ## 15 random kept lemmas, 20k-25k
@@ -134,15 +134,15 @@ From the 40k build of 2026-11-06: 1,382,684,047 tokens (ParaCrawl r9 Spanish sid
 | 21,301 | rugiente | roaring | 594 | ADV |
 | 21,434 | palio | canopy; pallium | 582 | NOUN |
 | 21,714 | mapeado | mapping | 557 | NOUN |
-| 22,308 | vívidamente | vividly | 512 | NOUN |
-| 22,981 | superconductor | superconductor | 466 | NOUN |
+| 22,308 | sonajero | baby rattle | 512 | NOUN |
+| 22,981 | rabínico | rabbinic | 466 | ADJ |
 | 23,213 | bordón | staff; bass string | 450 | NOUN |
 | 23,393 | papilar | papillary | 440 | VERB |
 | 23,420 | magullar | to bruise | 438 | ADJ |
 | 23,531 | espaldera | trellis; espalier | 431 | ADJ |
 | 23,566 | numerología | numerology | 429 | NOUN |
-| 24,467 | bombeo | pumping | 377 | PROPN |
-| 24,641 | derrotero | course; path | 368 | NOUN |
+| 24,467 | argumentativo | argumentative | 377 | ADJ |
+| 24,641 | comadreja | weasel | 368 | NOUN |
 
 ## 15 random kept lemmas, 25k-30k
 
@@ -152,11 +152,11 @@ From the 40k build of 2026-11-06: 1,382,684,047 tokens (ParaCrawl r9 Spanish sid
 | 25,451 | irreflexivo | thoughtless | 331 | ADJ |
 | 25,473 | máxime | especially | 330 | VERB |
 | 25,894 | luminiscencia | luminescence | 312 | NOUN |
-| 26,149 | telepáticamente | telepathically | 302 | ADV |
-| 26,590 | precesión | precession | 284 | NOUN |
-| 26,734 | meloso | syrupy; sweet | 279 | ADJ |
-| 26,898 | procónsul | proconsul | 273 | NOUN |
-| 27,597 | paellero | paella pan | 250 | NOUN |
+| 26,149 | sobreprecio | markup, surcharge | 302 | NOUN |
+| 26,590 | pesador | weigher | 284 | NOUN |
+| 26,734 | lapidar | to stone | 279 | VERB |
+| 26,898 | postrimería | final stage, last days | 273 | NOUN |
+| 27,597 | omnisciencia | omniscience | 250 | NOUN |
 | 27,954 | explicable | explainable | 239 | ADJ |
 | 28,504 | secatoallas | towel dryer | 224 | DET |
 | 28,695 | aleccionador | instructive | 218 | ADJ |
@@ -177,49 +177,49 @@ From the 40k build of 2026-11-06: 1,382,684,047 tokens (ParaCrawl r9 Spanish sid
 | 31,677 | concedente | grantor | 154 | NOUN |
 | 31,715 | tutorización | mentoring | 154 | NOUN |
 | 31,885 | pluviometría | rainfall measurement | 151 | NOUN |
-| 32,294 | calcitonina | calcitonin | 144 | NOUN |
-| 32,366 | interoperatividad | interoperability | 143 | NOUN |
-| 32,548 | panko | panko | 140 | NOUN |
-| 32,822 | videoclub | video store | 136 | NOUN |
-| 32,825 | acuarista | aquarist | 135 | NOUN |
-| 32,931 | metalistería | metalwork | 134 | NOUN |
-| 33,072 | huipil | huipil | 132 | NOUN |
-| 33,283 | endospermo | endosperm | 129 | NOUN |
-| 33,732 | autoformación | self-training | 123 | NOUN |
-| 33,886 | sobreprotector | overprotective | 122 | ADJ |
-| 33,915 | dopaminérgico | dopaminergic | 121 | ADJ |
-| 34,153 | microcomputadora | microcomputer | 118 | NOUN |
-| 34,379 | orejuela | small ear; lobe | 115 | NOUN |
-| 34,711 | izquierdismo | leftism | 111 | NOUN |
-| 34,899 | unilateralismo | unilateralism | 109 | NOUN |
-| 34,911 | anticolonial | anticolonial | 108 | ADJ |
+| 32,294 | brocal | wellhead, well curb | 144 | NOUN |
+| 32,366 | inflexibilidad | inflexibility | 143 | NOUN |
+| 32,548 | panelado | paneling | 140 | NOUN |
+| 32,822 | velociraptor | velociraptor | 136 | PROPN |
+| 32,825 | abadejo | pollock, cod | 135 | NOUN |
+| 32,931 | mazut | heavy fuel oil | 134 | ADJ |
+| 33,072 | fítico | phytic | 132 | ADJ |
+| 33,283 | embridar | to bridle | 129 | ADJ |
+| 33,732 | arteterapia | art therapy | 123 | NOUN |
+| 33,886 | sinovitis | synovitis | 122 | NOUN |
+| 33,915 | delaminación | delamination | 121 | NOUN |
+| 34,153 | maizena | cornstarch (brand) | 118 | NOUN |
+| 34,379 | onomatopeya | onomatopoeia | 115 | NOUN |
+| 34,711 | insonorizante | soundproofing | 111 | ADJ |
+| 34,899 | tenístico | tennis (adj.) | 109 | ADJ |
+| 34,911 | andrólogo | andrologist | 108 | NOUN |
 
 ## 25 random kept lemmas, 35k-40k
 
 | rank | lemma | gloss | frequency | POS |
 |---:|---|---|---:|---|
-| 35,201 | espinillo | spiny acacia | 105 | NOUN |
-| 35,233 | ozonizar | to ozonate | 105 | ADJ |
-| 35,616 | quincenalmente | fortnightly | 101 | ADV |
-| 35,793 | miometrio | myometrium | 99 | NOUN |
-| 35,840 | concisamente | concisely | 98 | ADV |
-| 36,568 | tsonga | Tsonga | 92 | PROPN |
-| 36,954 | geoestadística | geostatistics | 88 | ADJ |
-| 37,108 | musicalización | musical scoring | 87 | NOUN |
-| 37,363 | trapecista | trapeze artist | 85 | NOUN |
-| 37,365 | túrquico | Turkic | 85 | ADJ |
+| 35,201 | espesador | thickener | 105 | NOUN |
+| 35,233 | operacionalmente | operationally | 105 | ADV |
+| 35,616 | puentear | to bypass | 101 | VERB |
+| 35,793 | minoridad | minority (age) | 99 | NOUN |
+| 35,840 | circunflejo | circumflex | 98 | ADJ |
+| 36,568 | troje | granary, barn | 92 | PROPN |
+| 36,954 | farmacogenética | pharmacogenetics | 88 | NOUN |
+| 37,108 | museal | museum (adj.) | 87 | ADJ |
+| 37,363 | tranviario | tram (adj.) | 85 | ADJ |
+| 37,365 | trombonista | trombonist | 85 | NOUN |
 | 37,921 | barotrauma | barotrauma | 80 | NOUN |
 | 37,945 | comodato | loan for use | 80 | NOUN |
 | 37,958 | deshumidificar | to dehumidify | 80 | VERB |
 | 38,018 | puntocom | dot-com | 80 | NOUN |
 | 38,046 | anticucho | anticucho skewer | 79 | NOUN |
 | 38,174 | acolchadora | quilting machine | 78 | PROPN |
-| 38,328 | clivaje | cleavage | 77 | NOUN |
-| 38,645 | intralogístico | intralogistic | 75 | ADJ |
-| 38,690 | rondeño | of Ronda | 75 | ADJ |
-| 38,867 | bandurria | bandurria | 73 | NOUN |
-| 38,898 | dermatoscopia | dermoscopy | 73 | NOUN |
-| 39,118 | semiterminado | semi-finished | 72 | ADJ |
-| 39,281 | abocardar | to flare; counterbore | 70 | ADJ |
-| 39,322 | enladrillar | to brick; pave | 70 | NOUN |
-| 39,424 | acromion | acromion | 69 | NOUN |
+| 38,328 | cloasma | melasma | 77 | ADJ |
+| 38,645 | intrusismo | unlicensed practice | 75 | NOUN |
+| 38,690 | saboyano | Savoyard | 75 | ADJ |
+| 38,867 | baricentro | barycenter | 73 | NOUN |
+| 38,898 | desarchivar | to unarchive | 73 | VERB |
+| 39,118 | sensorialmente | sensorially | 72 | NOUN |
+| 39,281 | aducto | adduct | 70 | NOUN |
+| 39,322 | enmasillar | to putty | 70 | VERB |
+| 39,424 | acuclillar | to crouch down | 69 | VERB |

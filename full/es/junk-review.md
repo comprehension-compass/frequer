@@ -124,7 +124,7 @@ pronoun (*llamarnos*, *dándote*) go to the plain verb; Latin genus names used a
 - *split:-|<other>=<forms>* carves another word's forms out of a lemma whose own reading drops (*hoster* →
   *hostería*; *amurar* → *amura*).
 
-## Paused (2026-11-02, developer request): resume point
+## Paused (2026-11-02, developer request): resume point (resumed 2026-11-05; done: see README)
 
 Collected into `corpora/review/es.tsv`: rounds 1-11 (the 105.7M-token build, `snapshots/es.json`), rounds 12-13
 (shards 1-6 on the extended counts, 1,382,684,047 tokens), the second-set rulings and follow-ups, and round 14

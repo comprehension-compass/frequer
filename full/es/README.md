@@ -1,13 +1,13 @@
-> **Current snapshot (2026-11-02): 30,000 reviewed lemmas plus 108 learnable names after the cut.** Built from the
-> frozen 105,726,244-token counts (40 shards) through the exclusion list, merges, the junk rules, eleven review rounds
-> (flagged rounds 1-7, 10, 11; unflagged rounds 8-9; `junk-review.md`), the institutions ruling, the number rule and
-> the learnable-names list of Honeyeater #766 `25ec0b1` (1,017 names): 709 in the top 30k, 41 appended after it in
-> frequency order, 67 never counted appended with bare entries (frequency 0); 7 whose spelling the release files under
-> another lemma are reported in the header, not appended; 183 multi-word names wait for lemma release 1.6
-> (`learnable-multiword-names.tsv`). Number rule (`number_is_learnable`, #766 `25ec0b1`): 16 dropped. Frequency at
-> rank 1k / 5k / 10k / 20k / 25k / 30k: 12,615 / 1,330 / 333 / 56 / 28 / 16. `load_lemmas --dry-run`: 30,108 ranked,
-> 0 skipped, 1,554 unit headwords, 57 homograph keys. Interim list: `snapshots/es-top10k.json`. Procedure:
-> `review/README.md`; steps: `steps.md`. The sections below describe the first build and its later revisions.
+> **Current snapshot (2026-11-06): rebuilt on the extended counts, 1,382,684,047 tokens** (ten stride-28 passes of
+> ParaCrawl r9 plus Tatoeba; the split-half stop fired at 1.32B). `snapshots/es.json` is the planned 30k (30,000
+> reviewed lemmas + 108 learnable names after the cut); `snapshots/es-40k.json` is the same list cut at 40k, for the
+> developer's cut decision (`band-samples.md`). Review: rounds 1-20 (`junk-review.md`): every flagged lemma in the 40k
+> window reviewed and every unflagged keep in 0-40k screened, except 60 keeps in ranks 39,935-40,000 pulled in by the
+> last drops. Rulings: two developer sets plus follow-ups and recorded coordinator calls. Learnable names: Honeyeater
+> #766 `9bbae4b`. Number rule: 15 dropped (30k). Frequency at rank 1k / 5k / 10k / 20k / 30k / 40k: 164,515 / 17,323 /
+> 4,331 / 718 / 187 / 66. `load_lemmas --dry-run`: 30k: 30,108 ranked, 0 skipped, 1,535 unit headwords, 57
+> homograph keys; 40k: 40,063 ranked, 0 skipped, 1,706 unit headwords, 89 homograph keys. The sections below describe
+> earlier builds.
 
 # Spanish full build, 2026-11-01: lemma release 1.5.0
 
