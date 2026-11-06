@@ -11526,7 +11526,7 @@ Tomb	drop	English word
 gekommen	merge:kommen	participle/inflected form filed as lemma
 Doom	drop	English game name
 Spike	keep	established loan (Spikes, spiken)
-Cafe	keep	accepted spelling of Café; the accented target fails the app's German lemma pattern (load_lemmas skip), so the plain spelling carries the word (orchestrator 2026-11-05)
+Cafe	merge:Café	unaccented spelling of Café (developer 2026-11-06: Honeyeater's de lemma pattern widened to accented Latin letters)
 Isabelle	drop	personal name
 Jost	drop	personal name
 Limburger	drop	adjective derived from a place name
@@ -21012,7 +21012,7 @@ auszieh	merge:ausziehen	verb stem
 deutschlandweite	merge:deutschlandweit	inflected adjective
 hochgezogen	merge:hochziehen	participle form
 rabatt	merge:Rabatt	lower-case noun
-ros	drop	forms rose/roses are the colour rosé without its accent, which the app's German lemma pattern cannot store; rosa does not inflect to rose, so no target (orchestrator 2026-11-05, was merge:rosé)
+ros	merge:rosé	forms rose/roses are the colour rosé without its accent (developer 2026-11-06: accented lemmas admitted)
 titelt	merge:titeln	conjugated form
 Annabelle	drop	personal name
 Asiatisch	merge:asiatisch	capitalised adjective
@@ -21957,3 +21957,6 @@ gleichlautend	keep	established participial adjective with its own entry
 einstig	keep	real adjective (former); its citation flag comes from merged forms (einstige, einstigen)
 heurig	keep	real adjective (this year's; Austrian Heuriger); citation flag from merged inflected forms
 aufwühlen	keep	real verb (stir up); citation flag from merged participle forms
+# round 20 (edge residues cover, hamm)
+cover	merge:Cover	the established loan das Cover is filed under a lower-case lemma, so it merges into the capitalised noun per the 2026-11-02 case ruling
+hamm	merge:haben	colloquial contraction of "haben" (hamm/hammer = haben wir), rule 8
