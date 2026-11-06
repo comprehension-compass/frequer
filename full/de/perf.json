@@ -3,7 +3,7 @@
  "scope": "full",
  "tokens": 451548754,
  "documents": 1427010,
- "lemma_types_ranked": 136986,
+ "lemma_types_ranked": 136985,
  "snapshot_entries": 40274,
  "stages": [
   {
@@ -80,14 +80,14 @@
   }
  ],
  "build_seconds": {
-  "merge": 586.61,
-  "rank": 36.1,
-  "snapshot": 10.17,
-  "cooc": 192.53,
-  "report": 155.15
+  "merge": 669.48,
+  "rank": 45.0,
+  "snapshot": 11.55,
+  "cooc": 243.09,
+  "report": 139.89
  },
  "worker_peak_rss_mb": 2864,
- "build_process_peak_rss_mb": 2429,
+ "build_process_peak_rss_mb": 2438,
  "host_tokens": 0,
  "occurrence_kinds": {
   "construction": 5350583,
@@ -110,7 +110,7 @@
    "p3": 5753
   },
   "shipped_rows": 400000,
-  "table_bytes": 8685483,
+  "table_bytes": 8685491,
   "queue_rows": 2000
  },
  "checks": {
@@ -118,7 +118,7 @@
   "plural": 1101,
   "consistency": 331,
   "short": 53,
-  "case": 1817
+  "case": 1816
  },
  "excluded_from_top_n": 1164,
  "proper_nouns_dropped_from_top_n": 0

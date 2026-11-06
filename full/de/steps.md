@@ -96,3 +96,10 @@ Theresienwiese dropped; Theresienwiese later restored, see §6). No pending lemm
    not screened (cover, hamm).
 4. Build: `frequer build de --data-dir <data> --score frequency --reference-root <honeyeater 9bbae4b>` with the
    1.5.1 wheel: 40,000 + appended learnable names; `load_lemmas de --dry-run` from the pinned runtime c07c701.
+5. Developer 2026-11-06: Café and rosé are standard spellings, so Honeyeater's de lemma pattern is widened to
+   `^[A-Za-zÀ-ÖØ-öø-ÿĀ-ž]+(?:-[A-Za-zÀ-ÖØ-öø-ÿĀ-ž]+)*$` in the combined deploy. Cafe -> Café and ros -> rosé
+   restored; round 20 screened the edge residues (cover -> Cover, hamm -> haben). Dry run against the widened
+   pattern (local Language row patched, then re-seeded): 40,274 new, 0 skipped. Known gap: the counts were made
+   with the old pattern (`frequer/runtime.py` `key`), so a single-word lemma with another accented letter was
+   never counted; Café and rosé are on the list only through the merges of their plain spellings. Filling it
+   needs a recount with the widened pattern in `corpora/de.yaml`.

@@ -1,6 +1,6 @@
 # Review report: de (full)
 
-- Ranking score: `frequency`; 136,986 candidate lemmas ranked.
+- Ranking score: `frequency`; 136,985 candidate lemmas ranked.
 - Tokens counted: 451,548,754 in 1,427,010 documents, 274 shards, 100 dispersion parts.
 - Lemma release: `honeyeater_lemma_de` 1.5.1 (sha256 `c90dad72ceb2ef3c`); fallback `spacy-list`, units on; honeyeater `c07c70158590`.
 
@@ -197,7 +197,7 @@ Counted occurrences by kind: compound 3,017,173 (0.67%), compound1 45,314,413 (1
 
 ## Rank shifts against the live snapshot (`reference/lemmas/de.json`)
 
-Live list 20,000 lemmas, this build 136,986; 14,973 shared. Spearman rank correlation on the shared lemmas 0.888; median rank ratio 1.16x.
+Live list 20,000 lemmas, this build 136,985; 14,972 shared. Spearman rank correlation on the shared lemmas 0.888; median rank ratio 1.16x.
 Overlap of this build's top-k with the live top-k: top 1,000 84.9%, top 5,000 82.3%, top 20,000 70.4%.
 
 ### Biggest risers (rank improves)
@@ -224,21 +224,21 @@ Overlap of this build's top-k with the live top-k: top 1,000 84.9%, top 5,000 82
 
 | lemma | live rank | new rank | change |
 |---|---|---|---|
-| `Dein` | 2480 | 133376 | +130,896 |
-| `bekommsen` | 3177 | 132858 | +129,681 |
-| `stell` | 4950 | 131431 | +126,481 |
-| `drauf` | 2127 | 119314 | +117,187 |
-| `Mm` | 496 | 117510 | +117,014 |
-| `kölner` | 4257 | 120754 | +116,497 |
-| `Et` | 4249 | 113377 | +109,128 |
-| `Willkommen` | 4272 | 112871 | +108,599 |
-| `Pro` | 3505 | 104853 | +101,348 |
-| `Thi` | 4700 | 102092 | +97,392 |
-| `km` | 1107 | 97650 | +96,543 |
-| `Wandern` | 3810 | 96706 | +92,896 |
-| `Lachen` | 4154 | 95499 | +91,345 |
-| `min` | 2028 | 89666 | +87,638 |
-| `Bien` | 4928 | 77574 | +72,646 |
+| `Dein` | 2480 | 133375 | +130,895 |
+| `bekommsen` | 3177 | 132857 | +129,680 |
+| `stell` | 4950 | 131430 | +126,480 |
+| `drauf` | 2127 | 119313 | +117,186 |
+| `Mm` | 496 | 117509 | +117,013 |
+| `kölner` | 4257 | 120753 | +116,496 |
+| `Et` | 4249 | 113376 | +109,127 |
+| `Willkommen` | 4272 | 112870 | +108,598 |
+| `Pro` | 3505 | 104852 | +101,347 |
+| `Thi` | 4700 | 102091 | +97,391 |
+| `km` | 1107 | 97649 | +96,542 |
+| `Wandern` | 3810 | 96705 | +92,895 |
+| `Lachen` | 4154 | 95498 | +91,344 |
+| `min` | 2028 | 89665 | +87,637 |
+| `Bien` | 4928 | 77573 | +72,645 |
 
 ### Newly in the top 5,000
 
@@ -278,7 +278,7 @@ Overlap of this build's top-k with the live top-k: top 1,000 84.9%, top 5,000 82
 | `weniger` | 192 | - | - |
 | `The` | 224 | - | - |
 | `nächster` | 229 | - | - |
-| `zweiter` | 277 | 71565 | +71,288 |
+| `zweiter` | 277 | 71564 | +71,287 |
 
 ## Ported frequer checks
 
@@ -300,7 +300,7 @@ A surface form far more frequent than the lemma's median form.
 | 10 | `mit` | 4,771,436 | median form 25; `mit` 4,771,381 (190855x) |
 | 11 | `für` | 4,418,203 | median form 5.5; `für` 4,360,512 (792820x), `fürs` 22,972 (4177x), `fr` 19,446 (3536x), `fuer` 8,544 (1553x) |
 | 12 | `den` | 4,349,492 | median form 6; `den` 4,349,224 (724871x) |
-| 13 | `haben` | 3,755,317 | median form 678.5; `hat` 1,307,320 (1927x), `haben` 1,105,309 (1629x) |
+| 13 | `haben` | 3,755,566 | median form 443; `hat` 1,307,320 (2951x), `haben` 1,105,309 (2495x), `habe` 515,482 (1164x) |
 | 14 | `auf` | 3,476,345 | median form 13.5; `auf` 3,453,072 (255783x), `aufs` 22,043 (1633x) |
 | 16 | `ein` | 3,089,155 | median form 27.5; `ein` 3,086,546 (112238x) |
 | 17 | `es` | 3,054,222 | median form 9; `es` 3,001,025 (333447x), `’s` 53,176 (5908x) |
@@ -328,22 +328,22 @@ Lemma looks like a plural whose stripped form maps to another listed lemma.
 | 38 | `aus` | 1,463,102 | `au` lemmatises to `au` (rank 8,455) |
 | 40 | `einen` | 1,374,479 | `ein` lemmatises to `ein` (rank 16) |
 | 40 | `einen` | 1,374,479 | `eine` lemmatises to `eine` (rank 19) |
-| 43 | `über` | 1,239,750 | `üb` lemmatises to `üb` (rank 63,996) |
+| 43 | `über` | 1,239,750 | `üb` lemmatises to `üb` (rank 63,995) |
 | 44 | `einer` | 1,233,225 | `ein` lemmatises to `ein` (rank 16) |
 | 45 | `unser` | 1,216,257 | `uns` lemmatises to `sich` (rank 30) |
 | 47 | `aber` | 1,138,660 | `ab` lemmatises to `ab` (rank 128) |
 | 51 | `wenn` | 1,112,384 | `wen` lemmatises to `wer` (rank 150) |
-| 61 | `kein` | 869,627 | `kei` lemmatises to `kei` (rank 71,513) |
+| 61 | `kein` | 869,627 | `kei` lemmatises to `kei` (rank 71,512) |
 | 76 | `uns` | 651,286 | `un` lemmatises to `und` (rank 1) |
 | 78 | `weiter` | 625,188 | `weit` lemmatises to `weit` (rank 424) |
-| 82 | `unter` | 606,904 | `unt` lemmatises to `unt` (rank 56,888) |
-| 85 | `immer` | 585,963 | `imm` lemmatises to `imm` (rank 59,058) |
+| 82 | `unter` | 606,904 | `unt` lemmatises to `unt` (rank 56,887) |
+| 85 | `immer` | 585,963 | `imm` lemmatises to `imm` (rank 59,057) |
 | 86 | `erste` | 585,530 | `erst` lemmatises to `erst` (rank 220) |
 | 100 | `eins` | 432,896 | `ein` lemmatises to `ein` (rank 16) |
 | 101 | `welcher` | 425,280 | `welch` lemmatises to `welch` (rank 7,894) |
 | 102 | `eines` | 419,967 | `eine` lemmatises to `eine` (rank 19) |
-| 106 | `ohne` | 401,387 | `ohn` lemmatises to `ohn` (rank 49,210) |
-| 115 | `gegen` | 369,076 | `geg` lemmatises to `geg` (rank 65,503) |
+| 106 | `ohne` | 401,387 | `ohn` lemmatises to `ohn` (rank 49,209) |
+| 115 | `gegen` | 369,076 | `geg` lemmatises to `geg` (rank 65,502) |
 | 117 | `etwas` | 358,840 | `etwa` lemmatises to `etwa` (rank 277) |
 | 122 | `Ihnen` | 337,024 | `Ihn` lemmatises to `ihn` (rank 221) |
 | 129 | `denn` | 316,886 | `den` lemmatises to `den` (rank 12) |
@@ -375,7 +375,7 @@ Lemma that, met alone, lemmatises to another listed lemma (single words, so a hi
 | 702 | `meinen` | 60,902 | alone, `meinen` lemmatises to `mein` (rank 66) |
 | 737 | `Info` | 57,540 | alone, `Info` lemmatises to `info` (rank 10,865) |
 | 770 | `Dank` | 54,981 | alone, `Dank` lemmatises to `dank` (rank 665) |
-| 849 | `Bank#bank` | 50,348 | alone, `Bank#bank` lemmatises to `bank#bank` (rank 97,590) |
+| 849 | `Bank#bank` | 50,348 | alone, `Bank#bank` lemmatises to `bank#bank` (rank 97,589) |
 | 861 | `Mutter#mother` | 49,848 | alone, `Mutter#mother` lemmatises to `mutter#mother` (rank 19,602) |
 | 933 | `Essen` | 46,419 | alone, `Essen` lemmatises to `essen` (rank 755) |
 | 986 | `Kauf` | 43,984 | alone, `Kauf` lemmatises to `kaufen` (rank 268) |
@@ -418,7 +418,7 @@ Check these are real words.
 
 _28 more not shown._
 
-### Case merges (1,817)
+### Case merges (1,816)
 
 Non-lowercase lemmas, with the lowercase twin where one is listed.
 
@@ -440,17 +440,17 @@ Non-lowercase lemmas, with the lowercase twin where one is listed.
 | 204 | `Haus` | 203,284 | lowercase `haus` is rank 12,159 (1,607): merge candidate |
 | 214 | `Stadt` | 192,230 | lowercase `stadt` is rank 13,660 (1,346): merge candidate |
 | 219 | `Welt` | 189,468 | lowercase `welt` is rank 9,900 (2,194): merge candidate |
-| 232 | `Datum` | 177,471 | lowercase `datum` is rank 44,064 (225): merge candidate |
+| 232 | `Datum` | 177,471 | lowercase `datum` is rank 44,063 (225): merge candidate |
 | 234 | `Art` | 176,758 | lowercase `art` is rank 9,234 (2,428): merge candidate |
 | 235 | `Problem` | 175,085 | lowercase `problem` is rank 7,432 (3,392): merge candidate |
-| 247 | `Mann` | 166,612 | lowercase `mann` is rank 44,849 (221): merge candidate |
+| 247 | `Mann` | 166,612 | lowercase `mann` is rank 44,848 (221): merge candidate |
 | 250 | `Weg` | 162,684 | lowercase `weg` is rank 1,079 (39,853): merge candidate |
 | 276 | `Berlin` | 141,025 | lowercase `berlin` is rank 8,011 (3,010): merge candidate |
 | 300 | `Inhalt` | 133,296 | lowercase `inhalt` is rank 25,108 (524): merge candidate |
-| 325 | `Familie` | 121,749 | lowercase `familie` is rank 39,704 (252): merge candidate |
+| 325 | `Familie` | 121,749 | lowercase `familie` is rank 39,705 (252): merge candidate |
 | 326 | `Team` | 121,451 | lowercase `team` is rank 12,325 (1,572): merge candidate |
 
-_1,792 more not shown._
+_1,791 more not shown._
 
 ### wordfreq comparison
 
@@ -536,8 +536,8 @@ How each score reorders the default's top 5,000. Dispersion is over hash buckets
 
 | lemma | default rank | this rank | move | freq | docs | Juilland D | DP norm |
 |---|---|---|---|---|---|---|---|
-| `alles andere als` | 5990 | 4942 | -1,048 | 5,219 | 4,975 | 0.987 | 0.047 |
-| `eigens` | 5930 | 4884 | -1,046 | 5,289 | 5,056 | 0.984 | 0.061 |
+| `alles andere als` | 5990 | 4943 | -1,047 | 5,219 | 4,975 | 0.987 | 0.047 |
+| `eigens` | 5930 | 4885 | -1,045 | 5,289 | 5,056 | 0.984 | 0.061 |
 | `dabei sein, etwas zu tun` | 5461 | 4468 | -993 | 5,884 | 5,710 | 0.987 | 0.052 |
 | `verhelfen` | 5844 | 4852 | -992 | 5,385 | 5,106 | 0.984 | 0.062 |
 | `fündig` | 5656 | 4672 | -984 | 5,630 | 5,382 | 0.986 | 0.053 |
@@ -545,7 +545,7 @@ How each score reorders the default's top 5,000. Dispersion is over hash buckets
 | `Beklagte` | 3352 | 11054 | +7,702 | 11,353 | 1,650 | 0.948 | 0.196 |
 | `Kläger` | 3729 | 9208 | +5,479 | 9,858 | 2,116 | 0.951 | 0.191 |
 | `Ra` | 3797 | 8426 | +4,629 | 9,630 | 2,416 | 0.970 | 0.120 |
-| `Ähnlichkeitsmerkmal` | 4593 | 9162 | +4,569 | 7,462 | 2,131 | 0.976 | 0.094 |
+| `Ähnlichkeitsmerkmal` | 4594 | 9162 | +4,568 | 7,462 | 2,131 | 0.976 | 0.094 |
 
 ### `juilland_u`
 
@@ -554,7 +554,7 @@ How each score reorders the default's top 5,000. Dispersion is over hash buckets
 | `Charme` | 4546 | 4506 | -40 | 7,582 | 6,833 | 0.990 | 0.042 |
 | `mit Hilfe von` | 4745 | 4708 | -37 | 7,147 | 6,534 | 0.988 | 0.047 |
 | `anstrengend` | 4403 | 4366 | -37 | 7,898 | 7,078 | 0.988 | 0.049 |
-| `besser` | 4775 | 4739 | -36 | 7,107 | 6,697 | 0.987 | 0.052 |
+| `konfrontieren` | 5021 | 4985 | -36 | 6,639 | 6,215 | 0.987 | 0.053 |
 | `seither` | 4989 | 4953 | -36 | 6,685 | 6,291 | 0.986 | 0.056 |
 | `Date` | 4480 | 4887 | +407 | 7,727 | 3,971 | 0.871 | 0.171 |
 | `Mallorca` | 4450 | 4798 | +348 | 7,786 | 3,063 | 0.886 | 0.174 |
@@ -566,8 +566,8 @@ How each score reorders the default's top 5,000. Dispersion is over hash buckets
 
 | lemma | default rank | this rank | move | freq | docs | Juilland D | DP norm |
 |---|---|---|---|---|---|---|---|
-| `besser` | 4775 | 4737 | -38 | 7,107 | 6,697 | 0.987 | 0.052 |
 | `Charme` | 4546 | 4508 | -38 | 7,582 | 6,833 | 0.990 | 0.042 |
+| `besser` | 4775 | 4737 | -38 | 7,107 | 6,697 | 0.987 | 0.052 |
 | `mit Hilfe von` | 4745 | 4708 | -37 | 7,147 | 6,534 | 0.988 | 0.047 |
 | `seither` | 4989 | 4952 | -37 | 6,685 | 6,291 | 0.986 | 0.056 |
 | `anstrengend` | 4403 | 4366 | -37 | 7,898 | 7,078 | 0.988 | 0.049 |
@@ -584,10 +584,10 @@ How each score reorders the default's top 5,000. Dispersion is over hash buckets
 | `auseinander` | 5056 | 4931 | -125 | 6,567 | 6,057 | 0.987 | 0.050 |
 | `gönnen` | 5067 | 4943 | -124 | 6,553 | 6,055 | 0.987 | 0.050 |
 | `besorgt` | 5066 | 4945 | -121 | 6,554 | 5,927 | 0.987 | 0.051 |
-| `auswirken` | 5103 | 4986 | -117 | 6,483 | 5,987 | 0.988 | 0.049 |
 | `Charme` | 4546 | 4429 | -117 | 7,582 | 6,833 | 0.990 | 0.042 |
+| `auswirken` | 5103 | 4986 | -117 | 6,483 | 5,987 | 0.988 | 0.049 |
 | `Krampfader` | 3299 | 4012 | +713 | 11,570 | 773 | 0.929 | 0.279 |
-| `Mitgliedstaat` | 4649 | 5247 | +598 | 7,340 | 2,881 | 0.928 | 0.223 |
+| `Mitgliedstaat` | 4650 | 5247 | +597 | 7,340 | 2,881 | 0.928 | 0.223 |
 | `Frisur` | 4708 | 5276 | +568 | 7,221 | 2,607 | 0.944 | 0.216 |
 | `Harry` | 2963 | 3495 | +532 | 13,300 | 3,481 | 0.867 | 0.241 |
 | `Kläger` | 3729 | 4137 | +408 | 9,858 | 2,116 | 0.951 | 0.191 |
@@ -599,12 +599,12 @@ How each score reorders the default's top 5,000. Dispersion is over hash buckets
 | `dabei sein, etwas zu tun` | 5461 | 4937 | -524 | 5,884 | 5,710 | 0.987 | 0.052 |
 | `auseinandersetzen` | 5444 | 4941 | -503 | 5,905 | 5,682 | 0.985 | 0.059 |
 | `sich erfreuen` | 5358 | 4860 | -498 | 6,046 | 5,782 | 0.986 | 0.056 |
-| `widerspiegeln` | 5211 | 4716 | -495 | 6,298 | 6,013 | 0.986 | 0.056 |
-| `sich beschäftigen` | 5204 | 4720 | -484 | 6,310 | 5,967 | 0.985 | 0.058 |
+| `widerspiegeln` | 5211 | 4717 | -494 | 6,298 | 6,013 | 0.986 | 0.056 |
+| `sich beschäftigen` | 5204 | 4721 | -483 | 6,310 | 5,967 | 0.985 | 0.058 |
 | `Krampfader` | 3299 | 7997 | +4,698 | 11,570 | 773 | 0.929 | 0.279 |
 | `Beklagte` | 3352 | 6104 | +2,752 | 11,353 | 1,650 | 0.948 | 0.196 |
 | `Kläger` | 3729 | 5893 | +2,164 | 9,858 | 2,116 | 0.951 | 0.191 |
-| `Ähnlichkeitsmerkmal` | 4593 | 6493 | +1,900 | 7,462 | 2,131 | 0.976 | 0.094 |
+| `Ähnlichkeitsmerkmal` | 4594 | 6493 | +1,899 | 7,462 | 2,131 | 0.976 | 0.094 |
 | `Ra` | 3797 | 5665 | +1,868 | 9,630 | 2,416 | 0.970 | 0.120 |
 
 ## Excluded lemmas
@@ -679,7 +679,7 @@ _1,104 more in the exclusion file._
 
 ## Junk-filter heuristics
 
-Rules on: diversity, citation, foreign, shape, propn_usage; accent merges at ratio 5.0. Window: the 50,634 ranked lemmas (after the exclusion list) that fill the top 40,000. Actions: keep 31,335, review-drop 10,634, review-keep 8,665.
+Rules on: diversity, citation, foreign, shape, propn_usage; accent merges at ratio 5.0. Window: the 50,633 ranked lemmas (after the exclusion list) that fill the top 40,000. Actions: keep 31,335, review-drop 10,633, review-keep 8,665.
 
 ### Hits and overlap (window)
 
@@ -688,7 +688,7 @@ Diagonal: lemmas the rule flags; off-diagonal: lemmas both rules flag.
 | | diversity | citation | foreign | shape | propn_band | propn_usage |
 |---|---:|---:|---:|---:|---:|---:|
 | diversity | 448 | 14 | 4 | 16 | 0 | 161 |
-| citation | 14 | 584 | 2 | 124 | 0 | 0 |
+| citation | 14 | 586 | 2 | 124 | 0 | 0 |
 | foreign | 4 | 2 | 969 | 22 | 0 | 500 |
 | shape | 16 | 124 | 22 | 1,188 | 0 | 225 |
 | propn_band | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -700,9 +700,9 @@ Proper nouns dropped alone (capitalised in >= 90% of running text): 0.
 
 Documents reached / documents expected at random, below 0.3 (frequency >= 20): 448 in the window. For comparison, each log2-frequency band's 2nd percentile: 32-63: 0.21, 64-127: 0.25, 128-255: 0.33, 256-511: 0.36, 512-1023: 0.38, 1024-2047: 0.41, 2048-4095: 0.42, 4096-8191: 0.45, 8192-16383: 0.39, 16384-32767: 0.42, 32768-65535: 0.44, 65536-131071: 0.34.
 
-Examples: `du` (59), `Tom` (329), `weiterlesen` (523), `Absatz` (566), `Casino` (630), `Cookie` (657), `personenbezogen` (812), `Quelltext` (1793), `Adobe` (1949), `DSGVO` (1952), `Arzneimittel` (2474), `mg` (2638), `AntwortenLöschen` (2756), `Harry` (2952), `Krampfader` (3284), `Beklagte` (3337), `lit` (3478), `Bitcoin` (3655), `Kläger` (3711), `Ra` (3779), `SAP` (3887), `Ähnlichkeitsmerkmal` (4561), `Besteller` (5009), `Klägerin` (5036), `Hermine` (5174), `Merkliste` (5215), `CEST` (5222), `TG` (5592), `CBD` (5932), `Verschlagwortet` (6025), `Ron` (6102), `gerebloggt` (6941), `CET` (7178), `speichernJob` (7858), `Schuppenflechte` (8032), `Auftragnehmer` (8111), `Lightroom` (8237), `Draco` (8402), `FRITZ` (8447), `DS-GVO` (8539)
+Examples: `du` (59), `Tom` (329), `weiterlesen` (523), `Absatz` (566), `Casino` (630), `Cookie` (657), `personenbezogen` (812), `Quelltext` (1793), `Adobe` (1949), `DSGVO` (1952), `Arzneimittel` (2474), `mg` (2638), `AntwortenLöschen` (2756), `Harry` (2952), `Krampfader` (3284), `Beklagte` (3337), `lit` (3478), `Bitcoin` (3655), `Kläger` (3711), `Ra` (3779), `SAP` (3887), `Ähnlichkeitsmerkmal` (4562), `Besteller` (5009), `Klägerin` (5036), `Hermine` (5174), `Merkliste` (5215), `CEST` (5222), `TG` (5592), `CBD` (5932), `Verschlagwortet` (6025), `Ron` (6102), `gerebloggt` (6941), `CET` (7178), `speichernJob` (7858), `Schuppenflechte` (8032), `Auftragnehmer` (8111), `Lightroom` (8237), `Draco` (8402), `FRITZ` (8447), `DS-GVO` (8539)
 
-### Accent merges (5,935)
+### Accent merges (5,939)
 
 | from | into | frequency moved | evidence |
 |---|---|---:|---|
@@ -2161,6 +2161,7 @@ Examples: `du` (59), `Tom` (329), `weiterlesen` (523), `Absatz` (566), `Casino` 
 | `Anonym` | `anonym` | 674 | review: merge |
 | `kredit` | `Kredit` | 674 | review: merge |
 | `gekommen` | `kommen` | 673 | review: merge |
+| `Cafe` | `Café` | 671 | review: merge |
 | `Veröffentlich` | `veröffentlichen` | 670 | review: merge |
 | `gesandt` | `Gesandter` | 670 | review: merge |
 | `neuestem` | `neu` | 670 | review: merge |
@@ -5896,6 +5897,7 @@ Examples: `du` (59), `Tom` (329), `weiterlesen` (523), `Absatz` (566), `Casino` 
 | `deutschlandweite` | `deutschlandweit` | 319 | review: merge |
 | `hochgezogen` | `hochziehen` | 319 | review: merge |
 | `rabatt` | `Rabatt` | 319 | review: merge |
+| `ros` | `rosé` | 319 | review: merge |
 | `titelt` | `titeln` | 319 | review: merge |
 | `Asiatisch` | `asiatisch` | 318 | review: merge |
 | `Grnde` | `Grund` | 318 | review: merge |
@@ -6303,6 +6305,8 @@ Examples: `du` (59), `Tom` (329), `weiterlesen` (523), `Absatz` (566), `Casino` 
 | `angerufen` | `anrufen` | 249 | review: merge |
 | `blondin` | `Blondine` | 249 | review: merge |
 | `gewalt` | `Gewalt` | 249 | review: merge |
+| `cover` | `Cover` | 249 | review: merge |
+| `hamm` | `haben` | 249 | review: merge |
 | `Gunter` | `Günter` | 691 | accented spelling 9,395 vs 691 |
 | `Gartner` | `Gärtner` | 643 | accented spelling 6,048 vs 643 |
 | `Lucke` | `Lücke` | 520 | accented spelling 12,605 vs 520 |
@@ -6650,7 +6654,7 @@ Examples: `du` (59), `Tom` (329), `weiterlesen` (523), `Absatz` (566), `Casino` 
 ### Single flag, not yet reviewed: 0 (kept until reviewed)
 
 
-Reviewed decisions applied in the window: 19,299 (keep 8,665, drop 10,634); review merges: 5,597.
+Reviewed decisions applied in the window: 19,298 (keep 8,665, drop 10,633); review merges: 5,601.
 
 ## Convergence
 
@@ -6716,7 +6720,7 @@ Each checkpoint's full-data top N against the final list's top N (**vs final**: 
 | 107,046,033 | 4.5% | 8.0% | 0.56 | 6.2% | 13.1% | 0.48 | 9.2% | 20.0% | 0.46 | 14.3% | 29.1% | 0.49 |
 | 139,877,087 | 4.1% | 8.0% | 0.51 | 5.3% | 13.0% | 0.41 | 8.0% | 20.3% | 0.39 | 12.6% | 29.3% | 0.43 |
 | 176,047,733 | 3.8% | 7.8% | 0.49 | 5.0% | 12.9% | 0.39 | 7.3% | 20.0% | 0.36 | 11.4% | 29.3% | 0.39 |
-| 217,170,036 | 3.3% | 7.7% | 0.43 | 4.5% | 12.9% | 0.35 | 6.5% | 20.0% | 0.33 | 10.1% | 29.2% | 0.35 |
+| 217,170,036 | 3.3% | 7.7% | 0.43 | 4.5% | 12.9% | 0.35 | 6.5% | 20.0% | 0.33 | 10.1% | 29.3% | 0.35 |
 | 262,241,563 | 3.0% | 7.7% | 0.39 | 3.8% | 12.9% | 0.30 | 5.7% | 20.0% | 0.29 | 9.0% | 29.3% | 0.31 |
 | 350,250,058 | 2.6% | 7.8% | 0.34 | 3.3% | 12.9% | 0.26 | 5.1% | 20.0% | 0.25 | 7.9% | 29.6% | 0.27 |
 | 385,935,865 | 2.5% | 7.8% | 0.32 | 3.1% | 13.0% | 0.24 | 4.8% | 20.0% | 0.24 | 7.4% | 29.6% | 0.25 |
