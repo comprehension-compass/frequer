@@ -39954,3 +39954,5 @@ masturbate	drop	English word, not established in Spanish (coordinator call under
 psalms	drop	English word, not established in Spanish (coordinator call under the foreign-word rule)
 relation	drop	English word, not established in Spanish (coordinator call under the foreign-word rule)
 spinal	drop	English word, not established in Spanish (coordinator call under the foreign-word rule); Spanish writes espinal
+# 40k build: loader skip
+voilà	drop	French, not established in Spanish; fails the es lemma pattern (coordinator call)
