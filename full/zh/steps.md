@@ -73,3 +73,19 @@ words). None raised a new class needing the developer.
 `scripts/review/report.py` (bands to 45k) → `band-report.md`; `band_samples.py --gloss --per-band 25 --cut 40000
 --deeper 45000` → `band-samples.md`, with the frequency per million at kept ranks and the same positions in the
 loaded es/de/ja snapshots added. No snapshot until the coordinator confirms the 40k cutoff.
+
+## 8. Cutoff, names export and the 40k snapshot (2026-11-07)
+
+1. Developer (via the coordinator): cutoff 40,000 (`corpora/zh.yaml` `top_n: 40000`, `cutoff`).
+2. `full/zh/learnable-names.tsv`: every kept PROPN-majority or name-reviewed lemma in the 40k, categorised by one
+   Sonnet pass (country, region, city, district, geographic, landmark, holiday, era, platform, product, company,
+   institution, media, disease, ethnic, astronomy, work, group, person; 3,882 ordinary words left out), for
+   Honeyeater's `reference/learnable-names/zh.json`. Reading it found five round-1 person keeps made before call 4;
+   call 25 (deities keep, people drop) and their re-decision.
+3. Build at frequer `37710e0`, runtime Honeyeater 8bc1817 (the counts), `--reference-root` Honeyeater main
+   `7cbedf1` (the number check): `snapshots/zh.json`, 40,000 entries, sha256
+   `7c0748aebab25bcf2ac345071baddf959959d20320e2634286082ac973004c31`; report in `build-40k/`.
+4. `manage.py load_lemmas zh --dry-run` from a migrated local database at Honeyeater `7cbedf1`:
+   `zh (dry run): 40000 ranked entries — 0 existing rows re-ranked, 40000 new, 0 demoted, 0 skipped; 147 unit
+   headwords, 222 homograph keys [sha256 7c0748aebab2]`. No learnable names are appended (Honeyeater has no zh names
+   list yet).
