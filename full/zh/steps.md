@@ -34,3 +34,42 @@ What was done, in order, so the run can be repeated. Commits are on `full-zh` (f
 
 6 parts (`count --part i/6`): this session part 0 (Tatoeba, co-occurrence, `frequer coordinate zh --parts 6`),
 five child sessions parts 1-5 running `scripts/remote-part.sh zh i/6 4`, shipping to `zh-shards-p<i>`.
+
+Two container restarts here and several in the part sessions; each part resumed itself (`remote-part.sh` is
+resumable), and this session restarted part 0 and the coordinator. The 50k split-half plateaued near 6-8 % from
+~400M tokens (the HPLT crawl-grouping floor ja met), then fell: **converged at 770,163,267 tokens** (3/3 full-mix
+checkpoints; split-half 20k 4.7 %, 50k 5.9 %; `convergence.md`). Parts in flight were stopped; every shipped shard
+was received (p1 16, p2 22, p3 26 + DONE, p4 21, p5 20, part 0 the rest).
+
+## 5. Build
+
+`frequer build zh` over all 120 shards: **818,629,336 tokens** in 1,049,585 documents (HPLT 818.3M, Tatoeba 0.35M);
+192,409 candidate lemmas. Hygiene dropped 211,507 Traditional lines and 221,290 lines of Traditional documents
+(`report.md`). Kept rank 40,000 = raw rank 44,739 (f 726, 0.89 per million).
+
+## 6. Review (rounds 1-10; rulings and calls in `junk-review.md`)
+
+Run in this session with the review runner (`claude -p` reviewers: two Sonnet reviewers, an Opus adjudicator), the
+gate read by the coordinator between the stages each round. Started on the 462M-token checkpoint counts while the
+parts finished (decisions are per lemma, so they carry over), then on the final counts:
+
+1. Round 1: 5,835 flagged lemmas in the 40.5k window (96.5 % agreement; 213 adjudicated incl. 10 queries).
+2. Screen: two screeners over the 34,440 unflagged keeps; the first screen over-listed compositional compounds,
+   the screener was corrected (the release's word cut stands) and rerun: 7,530 suspects, reviewed as round 2 with
+   the unflagged rules (2,046 adjudicated, 1,366 of them queried agreed drops decided before the calls).
+3. Round 1r: 828 round-1 lemmas re-decided under calls 1-10 (112 changed).
+4. Final counts: round 3 (887 flagged pending), round 4 (1,071 suspects among 3,116 keeps new to the window),
+   round 5 (186 re-decided under calls 16-19), round 6/6x (cascade; degree adverb + adjective, call 22), rounds
+   7-10 (the cascade to a clean window).
+5. `corpora/review/zh.tsv`: every decision with its reason; nothing pending in the 40.5k window.
+
+The reviewers' `# question` lines were settled as calls 1-24 under the standing delegation, on the established
+rulings' pattern (cities and districts, suffixed place forms, brands and SOEs, people and canonical works,
+offices, the release's word cut against its mis-cuts, number words, web-fiction vocabulary, newspapers, gambling
+words). None raised a new class needing the developer.
+
+## 7. Cutoff material
+
+`scripts/review/report.py` (bands to 45k) → `band-report.md`; `band_samples.py --gloss --per-band 25 --cut 40000
+--deeper 45000` → `band-samples.md`, with the frequency per million at kept ranks and the same positions in the
+loaded es/de/ja snapshots added. No snapshot until the coordinator confirms the 40k cutoff.
