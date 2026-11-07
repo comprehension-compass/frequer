@@ -138,3 +138,11 @@ top 10k; 6,881 top-10k entries moved, 15 by 50 ranks or more (the gaining lemmas
 compounds (`compound1`) whose headword the unit splitter (`nlp/unit_splitter.py` `split`) builds as the modifier plus
 the head part's *lemma*: 书面 → 书 + 面, 面's commonest lemma `面#noodle` → `书面#noodle`. The word stage itself
 gives 书面. A fix there changes the runtime again (a recount).
+
+**To recount again** (after the splitter fix; coordinator 2026-11-07: same build, registry check must pass): set
+`HE_COMMIT` for zh in `scripts/remote-part.sh` to the fixed Honeyeater commit; count the same 120 shards with
+`SKIP_NAME=zh2` (the 39 shards outside them, on `zh-shards-setup`) and a fresh `SHIP_PREFIX` (e.g. `zh3-shards-`),
+8 parts (`count --part i/8`; part 0 also counts Tatoeba and, run locally, the co-occurrence pass); receive with
+`frequer.transport.receive(..., prefix=...)` and check the counts directory holds exactly the 120 names; build with
+`--reference-root` at Honeyeater main; dry-run; check that every `#` key in the snapshot is a `(lemma, key)` pair of
+`lexicon.homographs.registered_keys("zh")`.
