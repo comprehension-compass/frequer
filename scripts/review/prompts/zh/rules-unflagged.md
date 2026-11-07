@@ -17,11 +17,14 @@ spelling of a listed Simplified word, a garbled form).
 
 The rest exactly as in the flagged rules:
 
-**Fixed expressions stay**: a 成语 or other established four-character (or longer) fixed expression is one word to
-learn: `keep` (一帆风顺, 不可思议, 与此同时, 总而言之). A string that is not a fixed expression (two ordinary words
-the segmenter glued, a slogan, a product line, a site's template phrase) is `drop`. Established abbreviations
-(缩略语) that are ordinary vocabulary stay (高铁, 环保, 空调, 北大, 央视, 新冠); they are words, not abbreviations to
-expand.
+**Words are the release's cut.** A multi-character word the segmenter made is a word of the list even when its
+meaning is the sum of its parts (户外广告, 风险管理, 水利水电, 不忍心, 动不动): the reader shows it as one word, so
+dropping it would leave it ignored. `keep` it unless it is junk on other grounds (a name that drops, template or
+spam text, a code). Only a **mis-cut** drops: a string that crosses a word boundary, holding a piece of one word
+and part of the next (书目的 = 书目 + 的, 交组织); `merge:` the real word when one plainly carries the counts,
+otherwise `drop`. A 成语 or other established fixed expression is one word to learn: `keep` (一帆风顺, 不可思议,
+与此同时, 总而言之). Established abbreviations (缩略语) that are ordinary vocabulary stay (高铁, 环保, 空调, 北大,
+央视, 新冠); they are words, not abbreviations to expand.
 
 **Names are learnable things** (lemmatiser ruling R12, the developer's: "these are technically names but as they
 are things you would want to learn all stay learnable"). `keep`:
@@ -55,10 +58,17 @@ higher ones drop. Number + measure word or unit glued together (三个, 五年) 
 characters, or a Traditional-script spelling of a word the list holds in Simplified (`merge:` the Simplified
 lemma when it is obvious, else `drop`).
 
+**A character or word that is also a surname or given name** keeps when it is also an ordinary word, however
+many of the examples are names: 王 (king), 林 (forest), 张 (measure word), 黄 (yellow), 周 (week), 高, 方, 马, 金,
+石, 白, 明, 华. Drop only what is a name and nothing else in modern use (刘, 陈, 赵, 吴; given-name characters such as
+瑜, 娟). **A real word keeps even when its examples are spam**: judge the word, not the documents (时时 "constantly"
+keeps though 时时彩 lottery spam supplies examples).
+
 **Adult and sex-industry words**: keep the ones a learner meets in ordinary reading; drop spam and jargon only
 web spam makes frequent. Slurs drop.
 
-**Single characters**: a real standalone word stays; a piece of a longer word the lemmatiser cut off is `merge:`
-into that word when the examples make it clear, otherwise `drop` (a lone bound morpheme drops).
+**Single characters**: a real standalone word stays (also one used on its own in literary or formal prose, or as a
+measure word); a piece of a name or longer word the lemmatiser cut off is `merge:` into that word when the examples
+make it clear, otherwise `drop`.
 
 When the rules don't settle a case, still decide, and add a line `# question <lemma>: <what is unclear>`.

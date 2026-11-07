@@ -11,11 +11,12 @@ the SUSPECTS only:
   villages, streets, small foreign places);
 - spelled-out numbers beyond the core number words (一百, 五十, 两百, 一千, 二〇二五, 三点五), and number + measure
   word glued together (三个, 五年);
-- a piece of a longer word cut off by the lemmatiser, a lone bound morpheme, a glued phrase that is not a fixed
-  expression, a slogan or template phrase;
+- a mis-cut: a string crossing a word boundary (书目的 = 书目 + 的, 交组织); a single character modern Chinese never
+  uses as a word on its own (only as a piece of a name or word: 逍, 瑜); a slogan or site template phrase;
 - Traditional-script or variant spellings, garbled characters, codes, spam, SEO or template text;
 - spam-only adult jargon, slurs.
-Do NOT list ordinary words, particles, measure words, localisers, literary function words, 成语 and other fixed
+Do NOT list compound words just because their meaning is the sum of their parts (户外广告, 风险管理, 水利水电,
+不忍心, 动不动, 此事, 众人: the lemmatiser's word cut stands, and they are words of the list). Do NOT list ordinary words, particles, measure words, localisers, literary function words, 成语 and other fixed
 expressions, established abbreviations (高铁, 环保, 北大), internet words in wide use (点赞, 网红), core number words
 (零 一…十 两 百 千 万 亿 半 几, 十一…三十), or learnable names: countries, provinces, well-known cities, major rivers,
 mountains and landmarks, holidays and festivals (春节, 端午节), dynasties, everyday platforms and products (微信,
