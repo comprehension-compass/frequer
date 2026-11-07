@@ -355,7 +355,7 @@
 英格兰	keep	well-known country/region
 赫然	keep	real adverb (suddenly, conspicuously)
 奥运会	keep	real word (Olympic Games)
-万达	drop	minor company/brand name
+万达	keep	household-name company (was drop: minor company/brand name)
 疗效	keep	real word (curative effect)
 曼城	drop	sports club
 咽	keep	real word (to swallow; throat)
@@ -455,7 +455,7 @@
 开来	keep	real directional complement-like word (激荡开来)
 帅气	keep	ordinary adjective, handsome
 凌云	drop	name in examples; literary sense rare
-双色球	drop	lottery product name, spam-driven
+双色球	keep	national welfare-lottery game a reader meets by name in everyday news (was drop: lottery product name, spam-driven)
 司马	drop	compound surname; the official-title sense is historical, not modern use
 涵	drop	given-name character, rare alone
 机甲	keep	real word, mecha
@@ -502,7 +502,7 @@
 卡通	keep	ordinary word, cartoon
 婷	drop	given-name character only
 金砖	keep	BRICS, well-known group; also gold brick
-福特	drop	Ford/surname, mostly names; brand and people mix
+福特	keep	household-name marque (was drop: Ford/surname, mostly names; brand and people mix)
 洛杉矶	keep	well-known city abroad
 佣兵	keep	ordinary word, mercenary
 准确性	keep	ordinary word, accuracy
@@ -766,7 +766,7 @@
 党风廉政	keep	established fixed expression/term
 麟	drop	piece of a name (开麟), not a standalone word
 抖音	keep	everyday platform
-朝阳区	drop	minor place, a district
+朝阳区	keep	nationally famous Beijing district, suffixed form stands (was drop: minor place, a district)
 涨停	keep	ordinary finance word (limit-up)
 邓小平	drop	person name
 安东尼	drop	person name
@@ -878,7 +878,7 @@
 选择题	keep	real word
 餐具	keep	real word
 性功能	keep	ordinary word learner meets in reading
-毕	drop	surname/piece of 毕业, no examples; rarely standalone modern word
+毕	keep	standalone formal/literary verb "finish" (礼毕, 言毕, 说毕); also a surname (was drop: surname/piece of 毕业, no examples; rarely standalone modern word)
 中国证监会	keep	state body
 灵活性	keep	real word
 共产党	keep	party
@@ -941,7 +941,7 @@
 马达	keep	ordinary word "motor"
 唐天	drop	personal name, fiction examples
 瞳	keep	real word "pupil of the eye"
-凯尔特人	keep	ethnic group (also sports club, but ethnic sense is the word)
+凯尔特人	drop	sports club (was keep: ethnic group (also sports club, but ethnic sense is the word))
 尼克	drop	given name
 叶潇	drop	fictional character name
 铃声	keep	ordinary word "ringtone"
@@ -1059,7 +1059,7 @@
 彤	drop	given-name character only
 法轮功	keep	named movement a reader meets in the news; real name despite template examples
 招聘会	keep	ordinary word "job fair"
-海淀区	drop	minor place (district)
+海淀区	keep	suffixed form; 海淀 is a nationally famous district (was drop: minor place (district))
 阿富汗	keep	country
 稀释	keep	ordinary word "dilute"
 四海	keep	ordinary word "the whole world"
@@ -1115,7 +1115,7 @@
 今夜	keep	real word "tonight"
 叶尘	drop	fictional character name
 约翰逊	drop	personal name
-白山	drop	minor place/name; low diversity
+白山	keep	prefecture-level city (Baishan, Jilin); also 长白山 context (was drop: minor place/name; low diversity)
 难免会	keep	segmenter word, 难免 + 会 construction used as unit
 南宁市	keep	capital city of Guangxi
 掩	keep	real verb "to cover"
@@ -1158,7 +1158,7 @@
 效率高	keep	segmenter's word, real phrase
 下水道	keep	real word, sewer
 厨	keep	real character, kitchen/cook, bound but real
-海淀	drop	district of Beijing; districts drop
+海淀	keep	nationally famous district (was drop: district of Beijing; districts drop)
 冷却塔	keep	real word, cooling tower
 捂	keep	real verb, cover
 苏州市	keep	well-known city
@@ -1178,7 +1178,7 @@
 夹杂着	keep	real word (mixed with), segmenter word
 西服	keep	real word (suit)
 丢人	keep	real word (to lose face)
-江门	drop	minor city/prefecture-level city, not a well-known city
+江门	keep	prefecture-level city (was drop: minor city/prefecture-level city, not a well-known city)
 科技股份	drop	mis-cut from company names (科技股份有限公司)
 丈	keep	real measure word/noun (unit of length; husband's prefix)
 世界级	keep	real word (world-class)
@@ -1189,7 +1189,7 @@
 染色体	keep	real word (chromosome)
 海内外	keep	real word (at home and abroad)
 海滨	keep	real word (seaside)
-松下	drop	Panasonic is a brand but 松下 also "under the pine"; counts are the company/names, minor product brand
+松下	keep	household-name company (Panasonic) (was drop: Panasonic is a brand but 松下 also "under the pine"; counts are the company/names, minor product brand)
 鲁迅	drop	person name
 胡萝卜	keep	real word (carrot)
 凰	keep	literary standalone noun (female phoenix, 凤求凰); no examples to support a merge
@@ -1202,7 +1202,7 @@
 程序员	keep	real word (programmer)
 搁	keep	real standalone verb (to put, place)
 亚历山大	drop	person name
-司空	drop	surname/title and place names, no everyday modern sense
+司空	keep	historical office title (rule 5) (was drop: surname/title and place names, no everyday modern sense)
 迪士尼	keep	household-name company/brand a reader meets
 萧战	drop	fictional character name
 殇	keep	real literary word (grief, die young), standalone
@@ -1227,7 +1227,7 @@
 断路器	keep	ordinary technical word
 长春市	keep	well-known Chinese city
 丢脸	keep	real separable verb
-江东	drop	minor place or person name
+江东	keep	major historical region a reader meets (三国, 无颜见江东父老) (was drop: minor place or person name)
 叶泽涛	drop	fictional character name
 营业额	keep	ordinary word
 博会	merge:进博会	cut-off form; examples are 进博会
@@ -1361,7 +1361,7 @@
 洗手间	keep	real everyday word (restroom)
 纤维素	keep	real word (cellulose)
 喉	keep	real word (throat)
-疾风	drop	mostly title of anime/fiction work (火影忍者疾风传); name use dominates
+疾风	keep	ordinary word meaning gale (was drop: mostly title of anime/fiction work (火影忍者疾风传); name use dominates)
 碳纤维	keep	real word (carbon fibre)
 南美	keep	continent/region name
 龙辰	drop	fictional character name, novel spam
@@ -1563,7 +1563,7 @@
 张柏芝	drop	person name
 三角形	keep	ordinary word "triangle"
 接线图	keep	ordinary word, segmenter's cut
-显露出	keep	segmenter's word, verb with complement
+显露出	merge:显露	transparent verb + 出 complement (call 6) (was keep: segmenter's word, verb with complement)
 暂且	keep	ordinary adverb "for now"
 铅弹	keep	real word "lead pellet"; judge the word, not the documents
 北欧	keep	Northern Europe, a major region
@@ -1615,7 +1615,7 @@
 珠江	keep	major river
 本职工作	keep	ordinary word
 浅谈	keep	ordinary word used in titles
-西游记	drop	title of work
+西游记	keep	canonical work (was drop: title of work)
 长效机制	keep	ordinary formal word
 袍	keep	real word (robe)
 媛	drop	given-name character, only names in examples
@@ -1626,7 +1626,7 @@
 纽卡斯尔	drop	small foreign place/club
 轻轻松松	keep	ordinary word
 循序渐进	keep	成语
-骑士团	drop	fiction/game name use; piece of fictional org names
+骑士团	keep	ordinary word (knightly order), fiction examples (was drop: fiction/game name use; piece of fictional org names)
 经济区	keep	ordinary word
 利用率	keep	ordinary word
 政协委员	keep	ordinary word
@@ -1729,7 +1729,7 @@
 加热器	keep	ordinary word, heater
 八路军	keep	well-known historical army/institution
 安安	drop	given name
-义乌市	drop	minor place, county-level city
+义乌市	keep	nationally famous county-level city, suffixed form (was drop: minor place, county-level city)
 凯恩	drop	personal name
 叶秋	drop	fictional/personal name
 陆离	drop	name in examples; 光怪陆离 fragment, no standalone use
@@ -1792,7 +1792,7 @@
 凌霄	drop	fiction character name; 凌霄花 rare
 变送器	keep	real technical word "transmitter"
 巴巴	keep	real word, reduplication/colloquial (e.g. 巴巴的)
-蓬莱	keep	well-known city and legendary place
+蓬莱	drop	county-level city, not nationally famous (was keep: well-known city and legendary place)
 势必会	keep	segmenter's word, ordinary phrase
 苏亚雷斯	drop	person name
 中国银行	keep	famous institution, state bank
@@ -1847,7 +1847,7 @@
 营业厅	keep	real word, business hall
 标准间	keep	real word, standard room
 拓跋	drop	surname/fiction character name
-南昌市	drop	city with 市 suffix; minor-form, spam examples; provincial capital though... name form not the release's city lemma
+南昌市	keep	provincial capital, suffixed form (was drop: city with 市 suffix; minor-form, spam examples; provincial capital though... name form not the release's city lemma)
 威廉姆斯	drop	person name
 钢丝绳	keep	real word, wire rope
 阿弥陀佛	keep	common Buddhist expression
@@ -1981,7 +1981,7 @@
 奇遇	keep	ordinary word, chance encounter
 悔	keep	real standalone word, regret
 敛	keep	real word, gather/restrain
-江阴	drop	minor city/county-level place
+江阴	keep	nationally known county-level city, comparable to 义乌/昆山 (was drop: minor city/county-level place)
 陈汐	drop	fictional character name
 浑	keep	real word (muddy, whole)
 营养物质	keep	ordinary word, nutrients
@@ -2043,7 +2043,7 @@
 巫崖	drop	fictional character name
 素素	drop	character name, low diversity
 杰森	drop	foreign given name
-林肯	drop	person name (Lincoln) plus a car brand the examples call marginal; names dominate
+林肯	keep	well-known car marque a reader meets by name (was drop: person name (Lincoln) plus a car brand the examples call marginal; names dominate)
 抗日战争	keep	established historical era/event name, learnable
 镌刻	keep	real verb "to engrave", used in formal prose
 武峰	drop	fan-fiction place name, low diversity
@@ -2055,7 +2055,7 @@
 苏落	drop	fictional character name
 萧凡	drop	fictional character name
 专案组	keep	real word "special task force"
-克利夫兰	drop	counts are the Cavaliers club and a president; not a city a reader meets
+克利夫兰	keep	well-known foreign city (was drop: counts are the Cavaliers club and a president; not a city a reader meets)
 晖	drop	given-name piece, only names in examples
 菲菲	drop	given name
 汶川	keep	well-known place, 2008 earthquake; learnable
@@ -2172,7 +2172,7 @@
 罚单	keep	ordinary word fine ticket
 陆景	drop	fictional/person name
 黄褐斑	keep	medical term, ordinary word
-红楼梦	drop	title of work
+红楼梦	keep	canonical work, call 4 (was drop: title of work)
 嫡	keep	real word, legitimate wife/child, in 嫡女
 少女时代	drop	band name, title of group
 泪流满面	keep	成语
@@ -2188,7 +2188,7 @@
 诛仙	drop	title of novel/game
 罗汉	keep	common word arhat, Buddhist term
 一段距离	keep	ordinary phrase cut as one word
-神木	drop	minor county-level place
+神木	keep	county-level city in Shaanxi, but nationally known (coal); borderline, ruled county-level drops unless famous (was drop: minor county-level place)
 各界人士	keep	ordinary word
 耳环	keep	ordinary word
 刘先生	keep	common form of address Mr. Liu, segmenter's word
@@ -2235,7 +2235,7 @@
 褚	drop	surname only
 娱乐网	drop	website/spam name
 棺	keep	real word (coffin), standalone in 棺材 compounds and literary use
-中州	drop	counts are company names; the historical region name is rare
+中州	keep	historical name for Henan/central China, ordinary word (was drop: counts are company names; the historical region name is rare)
 哑	keep	real adjective (mute, hoarse)
 广西壮族自治区	keep	autonomous region
 帕萨特	drop	car model brand
@@ -2247,7 +2247,7 @@
 开关电源	keep	real compound word (switching power supply), segmenter's word
 尼日利亚	keep	country
 穗	keep	standalone word (ear of grain; short name for Guangzhou), real word
-青鸟	drop	北大青鸟 brand/company, minor brand name
+青鸟	keep	ordinary word (bluebird, 青鸟 mythic messenger) (was drop: 北大青鸟 brand/company, minor brand name)
 咚	keep	onomatopoeia in ordinary use
 沫	keep	real word (foam, spittle)
 塞维利亚	keep	well-known foreign city (Seville)
@@ -2291,7 +2291,7 @@
 瓦斯	keep	ordinary word (gas, firedamp)
 成套设备	keep	segmenter word, ordinary vocabulary
 西汉姆	drop	sports club
-中环	drop	minor district/company name
+中环	keep	nationally famous Hong Kong district; also ring-road sense (was drop: minor district/company name)
 伟德	drop	gambling site name
 梯	keep	real standalone word (ladder)
 海带	keep	ordinary word (kelp)
@@ -2299,7 +2299,7 @@
 佳品	keep	ordinary word
 编辑部	keep	ordinary word
 便民	keep	ordinary word
-翎	drop	rare piece/name character, no examples
+翎	keep	real standalone word (feather plume) in literary use (was drop: rare piece/name character, no examples)
 预告片	keep	ordinary word (trailer)
 焉	keep	literary function word
 华贵	keep	ordinary adjective
@@ -2310,7 +2310,7 @@
 求实	keep	ordinary word
 马尔代夫	keep	country
 盲	keep	real word (blind)
-长治	drop	minor prefecture-level city, not well known
+长治	keep	prefecture-level city (was drop: minor prefecture-level city, not well known)
 科学合理	keep	segmenter word, ordinary vocabulary
 痘	keep	real word (pimple)
 了不得	keep	ordinary expression
@@ -2320,7 +2320,7 @@
 招标人	keep	ordinary word
 内伤	keep	ordinary word
 昨	keep	real word in compounds and formal prose (yesterday)
-淮	drop	river-name piece, rarely standalone, no examples
+淮	keep	river name Huai, standalone word (was drop: river-name piece, rarely standalone, no examples)
 公孙瓒	drop	historical person name
 哈萨克斯坦	keep	country
 番禺	drop	district name
@@ -2345,7 +2345,7 @@
 藏族	keep	ethnic group
 酿	keep	real standalone verb "brew"
 兴隆	keep	ordinary word "prosperous", also place name
-李宁	keep	household-name brand/company
+李宁	drop	person name (brand borderline) (was keep: household-name brand/company)
 猎鹰	keep	ordinary word "falcon"
 旬	keep	real word, ten-day period
 束手无策	keep	成语
@@ -2358,7 +2358,7 @@
 徐子陵	drop	fictional character name
 罗恩	drop	personal name
 弗	keep	literary function word "not"
-张家港	drop	county-level city: a minor place under the rules
+张家港	keep	nationally known county-level city (was drop: county-level city: a minor place under the rules)
 拉丝	keep	real word, wire drawing
 整形医院	keep	segmenter's word, ordinary term
 震耳欲聋	keep	成语
@@ -2614,7 +2614,7 @@
 默默无闻	keep	成语
 亚当斯	drop	foreign person name
 京华	drop	minor name/newspaper piece; no common sense in examples
-制品厂	keep	a compound the segmenter made ("products factory"); not a mis-cut
+制品厂	drop	generic factory suffix, mis-cut piece of company names (was keep: a compound the segmenter made ("products factory"); not a mis-cut)
 马背	keep	ordinary word, horseback
 人民银行	keep	famous state institution
 楚欢	drop	fiction character name
@@ -2754,9 +2754,9 @@
 输出功率	keep	segmenter word, real technical term
 颐	drop	piece of fund names, rare standalone
 国际法	keep	real word "international law"
-夏普	keep	household-name company (Sharp); also in 夏普比率 (Sharpe ratio)
+夏普	drop	lesser brand; also name and 夏普比率 sense is niche (was keep: household-name company (Sharp); also in 夏普比率 (Sharpe ratio))
 孙中山	drop	person name
-江门市	drop	minor city/prefecture-level place
+江门市	keep	prefecture-level city, suffixed form stands (was drop: minor city/prefecture-level place)
 王辰	drop	person name
 兢兢业业	keep	成语
 日立	keep	household-name company
@@ -2796,14 +2796,14 @@
 吐蕃	keep	era or dynasty name (Tibetan Empire)
 密不可分	keep	established fixed expression
 黄大仙	drop	deity and temple name; examples are lottery spam
-华侨城	drop	minor company and place name, real estate developer
+华侨城	keep	well-known state-owned group/company (was drop: minor company and place name, real estate developer)
 古筝	keep	ordinary word (guzheng, instrument)
 国有资本	keep	ordinary economic term
 愧	keep	real literary word (ashamed), used in 惭愧 and 不愧
 金石	keep	ordinary word (metal and stone, inscriptions), also a name but common sense shows
 名目的	merge:名目	mis-cut 名目+的 per citation; the counts are 名目
 植物园	keep	ordinary word (botanical garden)
-河源	drop	minor prefecture-level city in Guangdong, mostly place name; also a rare word
+河源	keep	prefecture-level city (was drop: minor prefecture-level city in Guangdong, mostly place name; also a rare word)
 王健林	drop	person name
 厢式	keep	real word "box-type", modifier in ordinary use
 毁灭性	keep	real word "destructive"
@@ -2812,7 +2812,7 @@
 按摩器	keep	massager, ordinary noun despite spam examples
 缚	keep	literary word "to bind"
 钟离	drop	game character / name
-马赛	keep	Marseille, well-known city abroad (also 马赛 sense in examples is club, still city name)
+马赛	drop	foreign city/club; Marseille examples are club; small foreign place per sports use (was keep: Marseille, well-known city abroad (also 马赛 sense in examples is club, still city name))
 成交价	keep	real word "transaction price"
 职场	keep	real word "workplace"
 金融中心	keep	real word "financial centre"
@@ -2921,7 +2921,7 @@
 拉肚子	keep	ordinary verb phrase
 天纵	drop	piece of name; only in 天纵奇才, fragment
 茬	keep	real standalone word (stubble, 找茬)
-吉安	drop	given name mostly; minor place
+吉安	keep	prefecture-level city (was drop: given name mostly; minor place)
 罗斯福	drop	person name
 咔	keep	onomatopoeia in ordinary use
 室内装饰	keep	word made by segmenter, ordinary vocabulary
@@ -2943,7 +2943,7 @@
 欧洲央行	keep	famous institution
 加工业	keep	segmenter word
 婵	drop	given-name character only
-石峰	drop	name/place, low diversity
+石峰	keep	ordinary word "rock peak", shown in the examples (was drop: name/place, low diversity)
 耳熟能详	keep	成语
 顺时针	keep	real word
 凌杰	drop	person name
@@ -3067,8 +3067,8 @@
 诵读	keep	ordinary word "recite aloud"
 三国演义	keep	famous classic novel, household name (title of work but a cultural landmark)
 市政工程	keep	ordinary word "municipal engineering"
-斯柯达	drop	minor foreign car brand
-瑞丽	keep	well-known border city in Yunnan
+斯柯达	keep	car marque met by name in recall and news reports, not a model (was drop: minor foreign car brand)
+瑞丽	drop	county-level city, magazine and airline names (was keep: well-known border city in Yunnan)
 雷宇	drop	person name
 面食	keep	ordinary word "wheat-flour foods"
 音乐剧	keep	ordinary word "musical"
@@ -3107,8 +3107,8 @@
 职业化	keep	ordinary word
 何物	keep	literary word, "what thing"
 中信银行	keep	household-name company
-杜邦	drop	foreign company brand, minor in learner terms
-营口	drop	minor city
+杜邦	keep	household-name company (was drop: foreign company brand, minor in learner terms)
+营口	keep	prefecture-level city (was drop: minor city)
 金鱼	keep	ordinary word
 卢卡斯	drop	person name
 恶性循环	keep	established expression
@@ -3139,7 +3139,7 @@
 啧	keep	interjection/onomatopoeia
 巨无霸	keep	real word "giant", ordinary use
 涯	keep	literary standalone word ("limit, bound", as in 生也有涯)
-顺德区	drop	district, minor place
+顺德区	keep	Shunde is nationally famous (cuisine, home of Midea) (was drop: district, minor place)
 刑决	drop	low diversity, not a real standard word, fiction text
 莎拉	drop	personal name
 质优价廉	keep	established fixed expression
@@ -3210,7 +3210,7 @@
 合理化	keep	real word: rationalise
 遨游	keep	real verb: roam, travel freely
 魏索	drop	name, low diversity, no examples
-中超联赛	drop	sports league title; sports-club-type name, not everyday word
+中超联赛	keep	major sports league (was drop: sports league title; sports-club-type name, not everyday word)
 余亩	drop	mis-cut: 余 + 亩 ("over N mu"), crosses word boundary
 大口	keep	real word: big mouthful, large opening
 海珠区	drop	minor place: district
@@ -3235,12 +3235,12 @@
 坨	keep	real measure word/noun: lump
 幡	keep	real word: banner, streamer
 白熊	keep	real word: polar bear
-雅典娜	keep	well-known mythological figure/goddess, ordinary name reader meets; learnable
+雅典娜	drop	mythic figure (was keep: well-known mythological figure/goddess, ordinary name reader meets; learnable)
 黄芪	keep	real word: astragalus herb
 木盒	keep	real word: wooden box
 本地化	keep	real word: localisation
 和田玉	keep	well-known product: Hotan jade
-娴	drop	literary character mostly in names, no examples; not standalone
+娴	keep	dictionary standalone literary use (娴于辞令), rule 10 (was drop: literary character mostly in names, no examples; not standalone)
 荆门	keep	well-known city in Hubei
 忐忑不安	keep	established 成语
 萨拉	drop	transliterated name, piece of foreign names
@@ -3306,7 +3306,7 @@
 汇入	keep	real word "remit into"
 西伯利亚	keep	well-known region
 陈逸	drop	fictional character name
-徐州市	drop	city-level name written with 市; Xuzhou is a mid-size city but this is the municipal form
+徐州市	keep	prefecture-level city (was drop: city-level name written with 市; Xuzhou is a mid-size city but this is the municipal form)
 苟	drop	surname/given name, only in name or garbled contexts; rare as word
 中小板	keep	established finance term (SME board)
 仄	keep	real literary word (oblique tone, 平仄); the garbled substitutions for 平 don't change the word
@@ -3363,9 +3363,9 @@
 千家万户	keep	established 成语
 唇瓣	keep	real word, lips
 底片	keep	real word, negative film
-折射出	keep	segmenter's word, verb with complement
+折射出	merge:折射	transparent verb + 出 complement (call 6) (was keep: segmenter's word, verb with complement)
 李鸿章	drop	historical person
-英菲尼迪	drop	minor car brand
+英菲尼迪	keep	car marque a reader meets by name in news (was drop: minor car brand)
 魔祖	drop	fan-fiction character title, concentrated
 燃灯	drop	Buddhist name/fiction, low diversity
 资料库	keep	real word "database"
@@ -3474,16 +3474,16 @@
 彩光	keep	ordinary word "coloured light"
 新浪网	keep	everyday platform (Sina)
 煤化工	keep	ordinary industry word, established abbreviation
-玛莎拉蒂	drop	car brand, minor brand/product
+玛莎拉蒂	keep	well-known car marque (was drop: car brand, minor brand/product)
 通俗易懂	keep	established fixed expression
 鳞	keep	real standalone word (scale)
-南山区	drop	district, minor place
+南山区	keep	Shenzhen tech district (Tencent HQ), nationally known like 海淀 (was drop: district, minor place)
 李玉	drop	personal name
 疗	drop	bound morpheme of 治疗/疗效; not a standalone word
 谢家	drop	surname + 家: a family, fictional household or village-name piece
 芬妮	drop	given name
 周期长	keep	word-like phrase from release's cut, ordinary usage in examples
-斯巴鲁	drop	car brand, minor brand/product
+斯巴鲁	keep	car marque a reader meets in news (was drop: car brand, minor brand/product)
 未知数	keep	ordinary noun "unknown quantity"
 标准版	keep	ordinary word "standard edition"
 祛	drop	bound morpheme, piece of 祛白/祛除 words
@@ -3570,7 +3570,7 @@
 梵	keep	standalone word (Brahman/Sanskrit) in formal prose
 白羊座	keep	constellation name
 短短的	keep	word cut by segmenter, ordinary adjective
-衡阳市	drop	minor city
+衡阳市	keep	prefecture-level city, suffixed form (was drop: minor city)
 初中生	keep	ordinary word, middle-school student
 培养目标	keep	ordinary compound word
 大锤	keep	ordinary word, sledgehammer
@@ -3588,7 +3588,7 @@
 势力范围	keep	ordinary word, sphere of influence
 卡罗	drop	piece of names
 减压阀	keep	real word, pressure-reducing valve
-娄底	drop	minor prefecture-level city
+娄底	keep	prefecture-level city (was drop: minor prefecture-level city)
 陶淘	drop	name, three documents
 鱼鳞病	keep	real disease name
 栗子	keep	real word, chestnut
@@ -3641,9 +3641,9 @@
 义诊	keep	real word "free medical consultation"
 周明	drop	person name
 感应器	keep	real word "sensor"
-碑林	keep	real word and famous Xi'an museum/district landmark
+碑林	drop	district (Xi'an), not nationally famous as district; the Forest of Steles is a minor landmark (was keep: real word and famous Xi'an museum/district landmark)
 诗经	keep	famous classic, Book of Songs
-金华市	drop	minor prefecture-level city; county-level places drop, and the bare 金华 is the form to learn
+金华市	keep	prefecture-level city, suffixed form (was drop: minor prefecture-level city; county-level places drop, and the bare 金华 is the form to learn)
 锰	keep	real word: manganese element
 储物袋	keep	ordinary compound word (storage bag), segmenter's cut
 基因组	keep	real word: genome
@@ -3763,7 +3763,7 @@
 桓	drop	name character only in examples, no ordinary modern use
 阿隆索	drop	personal name
 古往今来	keep	成语
-捷安特	drop	bicycle brand; low-diversity spam, job-ad and team-name examples
+捷安特	keep	household-name bicycle brand (Giant) (was drop: bicycle brand; low-diversity spam, job-ad and team-name examples)
 立法会	keep	Hong Kong Legislative Council, state body/institution
 运动型	keep	ordinary word "sporty/sport-type"
 突击队	keep	ordinary word "shock troops/commando"
@@ -3783,18 +3783,18 @@
 关东军	keep	well-known historical military body (Kwantung Army)
 农业机械	keep	ordinary compound word
 张掖	keep	well-known city in Gansu
-新城区	keep	ordinary word "new urban district", shown in 新城区建设
+新城区	drop	district name/generic, not nationally famous (was keep: ordinary word "new urban district", shown in 新城区建设)
 萧玉	drop	personal name
 阴雨	keep	ordinary word (rainy weather)
 佛经	keep	ordinary word (Buddhist sutra)
 史记	keep	famous classical work, ordinary vocabulary for learners
 蚊	keep	real standalone word (mosquito), used in wordplay
-余姚	drop	county-level city: a minor place under the rules
+余姚	keep	well-known county-level city, nationally famous (was drop: county-level city: a minor place under the rules)
 开罗	keep	capital of Egypt
 长兴	drop	minor county/town, also a name
 七七八八	keep	established colloquial expression
 楚凡	drop	fictional character name
-江陵	keep	historic city met by every reader in Li Bai's 早发白帝城 (千里江陵一日还)
+江陵	drop	county-level place; examples are a poem and local names (was keep: historic city met by every reader in Li Bai's 早发白帝城 (千里江陵一日还))
 苏俄	keep	ordinary historical term (Soviet Russia)
 兵工厂	keep	ordinary word (arsenal)
 吱	keep	onomatopoeia in ordinary use
@@ -3802,7 +3802,7 @@
 科技含量	keep	ordinary word, segmenter's cut
 载明	keep	ordinary formal/legal verb (to state in writing)
 中心化	keep	ordinary word (centralisation)
-卡地亚	drop	luxury product brand; examples are watch-shop spam
+卡地亚	keep	household-name luxury marque (was drop: luxury product brand; examples are watch-shop spam)
 堕	keep	real word (to fall/sink) in 堕落, 堕胎, literary use
 天蝎座	keep	constellation name, learnable
 拣	keep	real standalone verb (to pick/sort)
@@ -3848,8 +3848,8 @@
 物流园区	keep	segmenter's word, logistics park
 痛感	keep	real word, sense of pain
 非正式	keep	real word, informal
-黄浦	drop	district of Shanghai, minor place
-东营市	drop	prefecture-level city, minor place
+黄浦	keep	nationally famous Shanghai central district (was drop: district of Shanghai, minor place)
+东营市	keep	prefecture-level city (was drop: prefecture-level city, minor place)
 叶萧	drop	fiction character name, low diversity
 聂凡	drop	person name, low diversity
 企业主	keep	real word, business owner
@@ -3873,9 +3873,9 @@
 金泽滔	drop	person name
 匡	drop	surname/given-name, rare standalone use
 上佳	keep	real word, excellent
-欧莱雅	drop	cosmetics brand discussed as a product, not an institution; examples are product and actor-name spam
+欧莱雅	keep	household-name brand (was drop: cosmetics brand discussed as a product, not an institution; examples are product and actor-name spam)
 白俄罗斯	keep	country
-蹦出	keep	real word, verb-complement compound
+蹦出	merge:蹦	transparent verb + 出 complement (call 6) (was keep: real word, verb-complement compound)
 喏	keep	interjection in ordinary use
 李女士	drop	surname plus title, generic name
 浦发银行	keep	major bank, household-name company
@@ -3911,7 +3911,7 @@
 三皇	keep	established historical term (Three Sovereigns)
 承载力	keep	real word
 投资银行	keep	real word
-海东	drop	minor place/person name
+海东	keep	prefecture-level city in Qinghai (was drop: minor place/person name)
 蒲公英	keep	real word (dandelion)
 丰腴	keep	real word (plump), ordinary literary vocabulary
 景言	drop	fan-fiction character name
@@ -4021,7 +4021,7 @@
 吕恒	drop	fictional character name
 栗	keep	real word "chestnut", also surname
 校门口	keep	ordinary word "school gate"
-诈金花	drop	gambling game/spam
+诈金花	keep	generic card game name, call 9 (was drop: gambling game/spam)
 东西方	keep	ordinary word "East and West"
 先行者	keep	ordinary word "pioneer"
 刘嘉玲	drop	person name
@@ -4064,7 +4064,7 @@
 闻听	keep	real literary verb (to hear)
 天津大学	keep	nationally famous university
 嫁衣	keep	real word (wedding dress)
-廊坊市	drop	minor city, prefecture-level but minor place
+廊坊市	keep	prefecture-level city (was drop: minor city, prefecture-level but minor place)
 恶灵	keep	real word (evil spirit)
 耻	keep	real standalone word in literary use (shame)
 走进	keep	real verb (walk into), tagged PROPN wrongly
@@ -4113,7 +4113,7 @@
 凌尘	drop	fictional character name, low diversity
 夹子	keep	ordinary word (clip)
 屄	keep	adult word met in ordinary reading, real standalone character
-广安	drop	minor city/prefecture-level place
+广安	keep	prefecture-level city (was drop: minor city/prefecture-level place)
 晸佑	drop	given name, low diversity
 瑞克	drop	personal name
 蚀	keep	real word (eclipse, erode) in 日蚀, 腐蚀
@@ -4247,12 +4247,12 @@
 阿瑞斯	drop	fictional character name, spam-heavy examples
 团组织	keep	real word (youth league organisation), segmenter's word
 宣传册	keep	ordinary word, brochure
-聊斋	drop	title of a work
+聊斋	keep	canonical work, cultural landmark (was drop: title of a work)
 风翔	drop	character name, low diversity
 中国社会	drop	mis-cut from 中国社会科学院
 天理	keep	ordinary word (justice, heavenly principle)
 学位证	keep	ordinary word, degree certificate
-梵天	keep	Brahma, a deity name with common use; rare in text but a real word
+梵天	drop	mythic figure (Brahma) counts as a person under call 4 (was keep: Brahma, a deity name with common use; rare in text but a real word)
 荀	drop	surname/name piece only
 藕	keep	real standalone word, lotus root
 蚕	keep	real standalone word, silkworm
@@ -4282,7 +4282,7 @@
 李斯	drop	person name
 白茫茫	keep	ordinary descriptive word
 南美洲	keep	continent
-罗技	drop	minor brand
+罗技	keep	Logitech, a brand readers meet by name (was drop: minor brand)
 蝉	keep	real standalone word, cicada
 亢进	keep	real medical term (hyperfunction), common word
 亲民	keep	ordinary word, close to the people
@@ -4292,7 +4292,7 @@
 王大人	drop	title plus surname, fictional character in examples
 白花花	keep	ordinary reduplicated adjective
 调查取证	keep	real word, segmenter's cut
-邯郸市	drop	minor city district-level place; prefecture city but not well known enough
+邯郸市	keep	prefecture-level city, suffixed form (was drop: minor city district-level place; prefecture city but not well known enough)
 信义	keep	ordinary word (good faith), though examples are place names
 古罗马	keep	ancient Rome, era/place name learners meet
 李佳玉	drop	fictional character name
@@ -4335,18 +4335,18 @@
 随风	keep	ordinary word "with the wind"
 乐于助人	keep	established expression
 尊主	drop	fiction address term/character title, spam-like
-延庆	drop	district, minor place
+延庆	keep	Beijing district, nationally known as a 2022 Winter Olympics zone and home of Badaling (was drop: district, minor place)
 纠	keep	used alone in formal and news prose (纠"四风", 有错必纠)
 长此以往	keep	established fixed expression
 阜	drop	bound character, mostly in place names, no examples
 嘞	keep	real sentence-final particle
 塞浦路斯	keep	country
 招股书	keep	ordinary word (prospectus)
-撼	drop	bound character, piece of 震撼/撼动, no examples
+撼	keep	call 10: standalone literary verb "shake" (撼山易) (was drop: bound character, piece of 震撼/撼动, no examples)
 福伯	drop	fictional character name
 觅食	keep	ordinary verb "forage"
 马利亚	drop	cut piece of name 迪马利亚; Mary name
-劣	drop	bound character, piece of 恶劣/劣质, no examples
+劣	keep	call 10: standalone adjective "inferior", used in formal prose (was drop: bound character, piece of 恶劣/劣质, no examples)
 美滋滋	keep	ordinary colloquial expression
 华天	drop	minor company/hotel name
 唐诚	drop	fictional character name
@@ -4355,15 +4355,15 @@
 桶装水	keep	ordinary word
 不相干	keep	ordinary word
 五角大楼	keep	famous landmark/institution
-南平	drop	minor city (prefecture-level), not well-known
+南平	keep	prefecture-level city (was drop: minor city (prefecture-level), not well-known)
 唐伯虎	drop	historical person name
 甜甜的	keep	ordinary word, adjective reduplication
 苏俊	drop	person name
-金门	drop	minor place; examples mostly 金门路/钣金门
+金门	keep	well-known island (was drop: minor place; examples mostly 金门路/钣金门)
 商务局	keep	ordinary institution word
 擅	keep	literary/formal verb, standalone use (擅长)
 结缔组织	keep	ordinary anatomical term
-骇	drop	bound character, piece of 惊骇/骇人, no examples
+骇	keep	call 10: standalone literary verb "startle" (众皆骇) (was drop: bound character, piece of 惊骇/骇人, no examples)
 一汽大众	keep	famous company talked about as an institution
 少数几	keep	real phrase, "a few"; segmenter's word
 巅峰状态	keep	ordinary word "peak form"
@@ -4388,7 +4388,7 @@
 氙气	keep	ordinary noun "xenon gas"
 洛晟	drop	fictional character name
 滴溜溜	keep	ordinary onomatopoeic/descriptive word
-维纳斯	keep	Venus, well-known name of goddess and artwork
+维纳斯	drop	mythic figure and artwork name (was keep: Venus, well-known name of goddess and artwork)
 踱	keep	real verb "to pace"
 连载中	keep	ordinary phrase "being serialised", segmenter's word
 卸料	keep	real verb-object term "to unload material"
@@ -4528,7 +4528,7 @@
 亚特兰蒂斯	drop	fictional place name from fan fiction
 清影	drop	mostly character name, low diversity
 龙虎山	keep	well-known mountain landmark
-上海市浦东新区	drop	district, minor place
+上海市浦东新区	keep	state-level new area (was drop: district, minor place)
 丹尼斯	drop	given name
 何明	drop	person name
 北京青年报	keep	well-known newspaper institution
@@ -4590,7 +4590,7 @@
 虚无缥缈	keep	established 成语
 阿克苏	keep	prefecture-level city/region in Xinjiang that readers meet; the paint-brand use is secondary
 光	keep	real word (light, bare, only), tagged PROPN wrongly
-江汉	drop	minor place (district/plain region), name use
+江汉	keep	major region (江汉平原), used in weather reports (was drop: minor place (district/plain region), name use)
 江洋	drop	fictional character name, concentrated in few documents
 沐阳	drop	given name only
 贾跃亭	drop	person name
@@ -4603,7 +4603,7 @@
 泰康人寿	drop	minor company
 簇	keep	real standalone word, cluster/measure word
 绍兴县	drop	minor place (county)
-菲尼克斯	keep	Phoenix, a major US city with a Chinese name
+菲尼克斯	drop	small foreign place/team name (was keep: Phoenix, a major US city with a Chinese name)
 黏	keep	real standalone verb (sticky), variant of 粘
 异曲同工	keep	成语
 林冲	drop	fictional/personal name
@@ -4622,7 +4622,7 @@
 加藤	drop	person name
 吴奇隆	drop	person name
 机械工程	keep	ordinary field/word
-泰州市	drop	minor city (prefecture-level, not well-known)
+泰州市	keep	prefecture-level city with suffix; cut stands (was drop: minor city (prefecture-level, not well-known))
 穆罕默德	drop	person name
 行走势图	drop	mis-cut lottery spam (五行走势图)
 西关	drop	minor place
@@ -4643,7 +4643,7 @@
 大学城	keep	ordinary word
 妖媚	keep	real adjective
 英华	drop	mostly personal name, rare common sense
-荒古	drop	fantasy-fiction term, spam/fiction-driven
+荒古	keep	ordinary fiction/genre word "primeval antiquity" (was drop: fantasy-fiction term, spam/fiction-driven)
 趁此机会	keep	fixed expression, ordinary phrase
 越国	keep	ancient state of Yue (卧薪尝胆), a historical era/state name readers meet
 伊恩	drop	foreign given name
@@ -4731,7 +4731,7 @@
 四家	drop	number + measure word glued (四 + 家), not a word in its own right
 弊	keep	real standalone word (disadvantage), as in 有利有弊
 强身健体	keep	established 成语-like expression
-徽	drop	piece of 安徽/徽州 etc., not a standalone modern word; no examples
+徽	keep	standalone word (emblem, 徽 Anhui abbreviation), dictionary standalone use (was drop: piece of 安徽/徽州 etc., not a standalone modern word; no examples)
 樾	drop	given-name character, fictional name in examples
 罗马帝国	keep	era/empire name, learnable
 重复性	keep	real word (repeatability), segmenter's cut
@@ -4742,12 +4742,12 @@
 神不知鬼不觉	keep	established fixed expression
 郑重其事	keep	established 成语
 上官云	drop	personal name
-中联重科	keep	household-name company talked about as institution
+中联重科	drop	listed machinery firm, not a household name (was keep: household-name company talked about as institution)
 德育工作	keep	segmenter's word, ordinary vocabulary
 肽	keep	real standalone word (peptide)
 莫里斯	drop	foreign personal name
 霎	keep	real character in 霎时, literary use; low confidence
-冶	drop	bound piece of 冶金/冶炼/陶冶; no standalone use and no examples
+冶	keep	standalone literary verb (smelt) (was drop: bound piece of 冶金/冶炼/陶冶; no standalone use and no examples)
 卡位	keep	real word (position/block)
 嗜	keep	productive literary verb (嗜酒, 嗜赌) and technical prefix (嗜碱性)
 宝马车	keep	real word (BMW car), segmenter's word
@@ -4757,7 +4757,7 @@
 服务性	keep	real word, segmenter's cut
 浅浅的	keep	segmenter's word, ordinary descriptive phrase
 箍	keep	real word (hoop, to bind)
-膳	drop	bound piece of 膳食/用膳/药膳; no standalone use and no examples
+膳	keep	standalone noun (meal), dictionary word (was drop: bound piece of 膳食/用膳/药膳; no standalone use and no examples)
 宽敞明亮	keep	established four-character expression
 操刀	keep	real word (to take the knife; to do/lead)
 漓	drop	piece of 漓江/淋漓 and a given-name character
@@ -4809,7 +4809,7 @@
 凌枫	drop	fictional character name, low diversity
 妇幼	keep	ordinary abbreviation (妇女儿童), common vocabulary
 张国荣	drop	person name
-横店	drop	minor place/town (film studio town)
+横店	keep	nationally famous film-studio town (call 1 exception) (was drop: minor place/town (film studio town))
 海洋生物	keep	ordinary word, segmenter's cut
 亚欧	keep	established abbreviation for Asia-Europe, ordinary vocabulary
 光棍节	keep	named festival/shopping holiday, calendar name
@@ -4887,7 +4887,7 @@
 叶锋	drop	person name
 大肠杆菌	keep	real word, E. coli
 射杀	keep	real verb, shoot dead
-希尔顿	drop	hotel brand, minor name per rules
+希尔顿	keep	household-name hotel brand (was drop: hotel brand, minor name per rules)
 撂	keep	real standalone verb
 本网将	drop	mis-cut: 本网 + 将, site boilerplate
 欲求	keep	real word, desire
@@ -4932,7 +4932,7 @@
 满族	keep	ethnic group
 潮水般	keep	real word "like a tide", segmenter's cut
 罗密欧	drop	fictional character name
-龙岩市	drop	minor city, prefecture-level not well known
+龙岩市	keep	prefecture-level city with suffix, kept (was drop: minor city, prefecture-level not well known)
 一意孤行	keep	成语
 犀	keep	real standalone word (rhino), literary/compound morpheme
 由内而外	keep	established fixed expression
@@ -4941,7 +4941,7 @@
 启闭机	keep	real technical word; word of the release's cut
 吴虎臣	drop	fictional character name
 弯管机	keep	real word "pipe bender"
-挑选出	keep	segmenter's word, verb plus complement
+挑选出	merge:挑选	call 6: transparent verb + 出 complement (was keep: segmenter's word, verb plus complement)
 立体化	keep	real word "three-dimensional/multi-level"
 一川	drop	literary phrase fragment, mostly name 余一川
 中年妇女	keep	ordinary word
@@ -4999,7 +4999,7 @@
 林雨婷	drop	person name
 短篇小说	keep	ordinary word
 谴	merge:天谴	cut-off piece of 天谴 in the example
-连云港市	drop	minor city/district-level name, "市" form; city is prefecture-level but written with 市 suffix as a cut name
+连云港市	keep	prefecture-level city with suffix, kept (was drop: minor city/district-level name, "市" form; city is prefecture-level but written with 市 suffix as a cut name)
 青铜器	keep	ordinary word
 余款	keep	ordinary word
 傍	keep	real verb (傍上, 傍大款)
@@ -5019,7 +5019,7 @@
 钼	keep	real standalone word (molybdenum)
 便利化	keep	real word
 布鲁塞尔	keep	well-known foreign capital
-昭通	drop	minor prefecture-level city
+昭通	keep	prefecture-level city (was drop: minor prefecture-level city)
 王老吉	keep	household-name beverage brand
 罗铭	drop	fictional character name
 贝尼特斯	drop	person name
@@ -5066,7 +5066,7 @@
 上下游	keep	ordinary word "upstream and downstream"
 卢卡	drop	given name piece of foreign name
 姆巴	drop	piece of cut name (姆巴佩)
-宜昌市	drop	minor city by rule ("small places"), mid-level prefecture city; not a well-known city
+宜昌市	keep	prefecture-level city with suffix, kept (was drop: minor city by rule ("small places"), mid-level prefecture city; not a well-known city)
 川普	keep	not keep as person name: see below
 挡箭牌	keep	real word "shield, pretext"
 洛克菲勒	drop	person name
@@ -5090,7 +5090,7 @@
 小作坊	keep	real word, segmenter's cut
 布鲁克林	keep	well-known city district abroad with Chinese name
 景佳人	drop	fiction character name
-格力空调	keep	segmenter's word; household-name brand + product
+格力空调	drop	product line of a company, not a household company name itself (was keep: segmenter's word; household-name brand + product)
 乌龙茶	keep	real word (oolong tea)
 朝晖	drop	examples are all names (people, a factory); "morning sunlight" is rare and literary
 李青	drop	person name
@@ -5145,7 +5145,7 @@
 玄星	drop	fiction/low diversity name
 籽	keep	real standalone word (seed)
 讲话中	merge:讲话	mis-cut 讲话 + localiser 中
-黄浦区	drop	district, minor place
+黄浦区	keep	nationally famous central Shanghai district (the Bund) (was drop: district, minor place)
 华服	keep	real word (gorgeous clothing)
 哭丧着脸	keep	established expression
 天网	keep	real word (heaven's net, 天网恢恢, surveillance)
@@ -5208,7 +5208,7 @@
 富勒姆	drop	foreign football club
 弛	drop	piece of 张弛/松弛, examples are names
 挂失	keep	real verb, report lost
-易方达	keep	household-name fund company
+易方达	drop	fund company, not household-name institution (was keep: household-name fund company)
 私家侦探	keep	real word, segmenter's cut
 布里	drop	piece of foreign name
 恨铁不成钢	keep	成语
@@ -5328,7 +5328,7 @@
 李亚鹏	drop	person name
 李杰	drop	person name
 梅雨	keep	ordinary word, plum rain season
-玛卡	drop	maca product spam; low diversity, shop text
+玛卡	keep	maca, ordinary common noun (was drop: maca product spam; low diversity, shop text)
 璟	drop	given-name character only, no examples
 神枪	drop	examples are erotic fiction slang that spam makes frequent
 迅雷不及掩耳之势	keep	established 成语 expression
@@ -5360,7 +5360,7 @@
 色情网站	keep	ordinary word, segmenter word
 苗条身材	keep	segmenter word, ordinary phrase
 陈乔恩	drop	person name
-幻化成	keep	segmenter word, verb plus complement
+幻化成	merge:幻化	call 6 by analogy: transparent verb + 成 complement (was keep: segmenter word, verb plus complement)
 木村	drop	surname/person name
 评卷	keep	ordinary word grading exam papers
 三文鱼	keep	ordinary word salmon
@@ -5478,7 +5478,7 @@
 金融公司	keep	ordinary word
 东方网	drop	minor website
 易龙商务网	drop	spam/minor website
-本草纲目	drop	title of work
+本草纲目	keep	canonical work (was drop: title of work)
 礁	keep	real word, reef
 粤东	keep	major region
 需求预测	keep	ordinary word
@@ -5578,7 +5578,7 @@
 评论家	keep	ordinary word "critic"
 贲	drop	mostly name/piece of other words (贲红, 孙贲, 贲张); rare alone
 圣地亚哥	keep	well-known city abroad with Chinese name
-基丹	drop	piece of 筑基丹, a fiction term from web novels
+基丹	merge:筑基丹	piece of 筑基丹, which all the examples show (was drop: piece of 筑基丹, a fiction term from web novels)
 太皇太后	keep	real title word, ordinary in historical prose
 杨浦区	drop	district, minor place
 林鸿	drop	name piece (林鸿飞 character)
@@ -5659,7 +5659,7 @@
 蹄	keep	real standalone word: hoof
 东阿	drop	minor place/county
 坞	keep	real standalone word: dock (船坞)
-宝鸡市	drop	minor city, not well-known enough
+宝鸡市	keep	prefecture-level city (was drop: minor city, not well-known enough)
 履	keep	real word in literary use: shoe/tread, 履行
 布局合理	keep	segmenter's word, ordinary phrase
 床上用品	keep	ordinary word: bedding
@@ -5670,7 +5670,7 @@
 南锡	drop	small foreign city, also fictional place
 周润发	drop	person's name
 宏图	keep	real word: grand plan
-阿玛尼	drop	brand name, not everyday platform
+阿玛尼	keep	major fashion marque (was drop: brand name, not everyday platform)
 华商报	drop	newspaper, minor
 埃文	drop	foreign given name
 强强联合	keep	established four-character expression
@@ -5710,7 +5710,7 @@
 大港	drop	minor place and company name
 底料	keep	real word, hotpot base
 无愧于	keep	real word/expression
-松原	drop	minor city/district name, not well-known
+松原	keep	prefecture-level city in Jilin (was drop: minor city/district name, not well-known)
 松岛枫	drop	person name, spam
 松柏	keep	real word, pine and cypress
 沃尔特	drop	person given name
@@ -5720,7 +5720,7 @@
 仑	drop	piece of other words (昆仑, 乱伦), spam examples
 党委委员	keep	segmenter's word, ordinary vocabulary
 再创新高	keep	established fixed expression
-冕	drop	no examples; rare alone, likely a piece of 卫冕, 加冕 or the name 王冕
+冕	keep	call 10: standalone literary noun "ceremonial crown" (was drop: no examples; rare alone, likely a piece of 卫冕, 加冕 or the name 王冕)
 卢浮宫	keep	famous landmark
 古力	drop	name, given name and brand
 铜矿	keep	real word, copper mine
@@ -5744,12 +5744,12 @@
 五百米	drop	number + unit glued
 大当家	keep	real word (boss/chief of bandits)
 梅斯	drop	name/brand fragment
-江阴市	drop	minor county-level city
+江阴市	keep	county-level city nationally famous (like 义乌, 昆山) (was drop: minor county-level city)
 稳扎稳打	keep	成语
 索伦	drop	name
 还珠格格	drop	title of work
 中继	keep	real word (relay)
-张家港市	drop	minor county-level city
+张家港市	keep	nationally known county-level city, suffixed form stands (was drop: minor county-level city)
 武媚娘	drop	person name
 秦枫	drop	fictional character name
 美的	keep	ordinary word 美的 (beautiful) and household-name company
