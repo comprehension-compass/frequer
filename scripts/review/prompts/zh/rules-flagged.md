@@ -112,4 +112,9 @@ apply the name rules above.
 14. **A person's name that became an everyday common term** keeps (雷锋 in 学雷锋); otherwise people drop.
 15. **A lemma whose counts include another word** (故 also holding 固): decide by the lemma's own reading; the counts cannot be split here (listed for the lemmatiser).
 
+16. **Newspapers, broadcasters and agencies**: nationally famous ones keep as institutions (人民日报, 新京报, 新华社, 央视); regional papers drop.
+17. **Named national products in everyday use** keep (复兴号, 和谐号 trains); call 3's household-name test applies to foreign and Taiwanese brands alike (联想, 华硕 keep; minor marques drop).
+18. **Negator + verb** the segmenter fused (未办理, 未完成, 不减) is a mis-cut the guide splits: `merge:` the verb; dictionary words keep (未必, 不必, 没有, 不得不).
+19. **Gambling words**: ordinary vocabulary keeps (博彩, 赌场, 彩票); tools, site and game names that only spam makes frequent drop (投注器, 时时彩).
+
 When the rules don't settle a case, still decide, and add a line `# question <lemma>: <what is unclear>`.
