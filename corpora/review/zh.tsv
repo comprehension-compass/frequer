@@ -15701,3 +15701,108 @@ baidu.com	drop	Latin script/domain
 较晚	merge:晚	Degree adverb 较 + adjective, a mis-cut (rule 22).
 较佳	merge:佳	Degree adverb 较 + adjective, a mis-cut (rule 22).
 最惨	merge:惨	Degree adverb 最 + adjective, a mis-cut (rule 22).
+# round 7 (cascade)
+阜阳市	keep	prefecture-level city, suffixed form stands
+陈伟	drop	person name
+顾轻舟	drop	fictional character
+兴义	keep	county-level city but well known as seat of Qianxinan prefecture; borderline
+坐便器	keep	ordinary common noun (toilet)
+弗洛伦蒂	drop	cut person name (弗洛伦蒂诺)
+静脉注射	keep	ordinary medical word
+一代宗师	keep	established expression
+兰若	drop	fragment of place name 兰若寺/character name
+王立军	drop	person name
+真本事	keep	ordinary word
+科特斯	drop	person name
+经典作品	keep	ordinary word
+群众监督	keep	ordinary word cut by segmenter
+郴州市	keep	prefecture-level city
+银保监局	keep	ordinary institutional abbreviation word
+产成品	keep	accounting common noun
+养生堂	drop	minor company/brand
+尘土飞扬	keep	fixed expression
+李师傅	drop	surname + title, a name
+联合国安理会	keep	major international body
+长丰	drop	county, minor place
+黄鳝	keep	common noun (eel)
+凿	keep	real standalone verb
+培训教材	keep	ordinary word
+巴格达	keep	well-known foreign capital
+死灰复燃	keep	成语
+湖南大学	keep	nationally famous university
+窒	drop	only occurs inside words (窒息), examples spam
+# round 7s (cascade: suspects among 113 new keeps)
+鹰潭	keep	prefecture-level city (call 1)
+麦迪	drop	person name (McGrady nickname)
+一岗双责	keep	established political fixed expression
+分机	keep	ordinary noun, extension phone
+前腰	keep	ordinary football position term, also waist-front sense
+发贴	merge:发帖	variant spelling of 发帖
+在思想上	drop	mis-cut preposition + noun + localiser
+埋单	keep	ordinary Cantonese-origin word for paying the bill
+大化	drop	mis-cut piece of county name, minor place
+永平	drop	county, minor place and given name
+海门	drop	district of Nantong (county-level, formerly a county-level city), not nationally famous; call 1
+炉膛	keep	ordinary noun, furnace chamber
+趁现在	drop	mis-cut free phrase
+逐月	keep	real adverb "month by month"
+飞奔而去	drop	free phrase, not a word
+上上下	drop	mis-cut of 上上下下
+五折	keep	discount word in own right, not plain number+measure
+发挥作用	keep	segmenter's word, verb-object unit
+江口	drop	minor place
+真不错	merge:不错	degree adverb + adjective fused
+示范园	keep	ordinary compound noun
+蛮子	drop	derogatory term for southerners, slur
+诺诺	keep	real word "obsequiously assenting" (诺诺连声, 唯唯诺诺); used as one in "诺诺的说道"
+起拍价	keep	ordinary auction term
+连话都	drop	mis-cut crossing word boundary
+通过培训	drop	mis-cut free phrase
+降血压	keep	segmenter's word, ordinary medical term
+骰宝	keep	generic gambling game (sic bo), a common noun like 百家乐; call 9
+五百零二	drop	spelled number beyond core
+啃着	merge:啃	verb + aspect particle 着
+奥体中心	drop	named facility
+提炼出	merge:提炼	transparent verb + 出 complement
+海安	drop	county-level city under Nantong, not prefecture-level or nationally famous; call 1
+清源	drop	minor place/name piece
+珠光	keep	ordinary word "pearlescent"
+穆迪	keep	household-name rating agency, also name Moody's
+空门	keep	ordinary word (Buddhism; empty goal)
+三滤	keep	established auto-maintenance term for three filters
+中冶	keep	major state-owned group (MCC)
+度角	drop	mis-cut 度 + 角
+斜斜	merge:斜	reduplicated form of 斜 (斜斜的), not a lexical word in its own right
+杭城	keep	established nickname for 杭州, an ordinary word in news; Hangzhou is a well-known city
+研究课题	keep	segmenter's word; meaning is the sum of its parts but the release's cut stands
+稍差	merge:差	degree adverb + adjective fused (R13), guide splits it
+# round 8 (cascade)
+金光灿灿	keep	real descriptive 成语-like expression "glittering gold"; ordinary word despite PROPN tag
+金昱范	drop	person's name, concentrated in few documents
+金蛇	drop	fiction term/name (skill, flower, soul names) with no everyday sense; rare common sense
+音源	keep	real common noun "audio source", used in ordinary tech sense
+应试教育	keep	established fixed term "exam-oriented education", not a name
+# round 8s (cascade: suspects among 28 new keeps)
+聚财	keep	ordinary auspicious verb phrase word, "accumulate wealth", segmenter's cut
+阿三	drop	slur-like term for Indians, and a name
+默多克	drop	person name
+办完	merge:办	transparent verb + resultative 完 ("finish handling"), not a dictionary word; call 6's split applies by analogy
+勾兑	keep	real word (blend liquor); duplicate form is just a count variant
+发夹	keep	ordinary noun hairpin, tagging error only
+对〜来讲	keep	construction with slots, unit headword
+巧用	keep	real verb "use skillfully", release's cut
+徐海	drop	person name
+# round 9 (cascade)
+毅然决然	keep	real 成语/fixed expression meaning resolutely; PROPN tag is wrong
+淫妻	drop	spam-driven jargon from porn-site/group text, not ordinary reading vocabulary
+# round 9s (cascade)
+新利	drop	gambling site/brand name (新利体育), not a learnable word
+星耀	drop	brand plan, misspelled astrology 星曜 and fiction; not an established word in everyday use
+格列	drop	mis-cut piece of a name (格列兹曼), no whole word to merge
+浪琴	drop	Longines watch: a consumer luxury brand met in shopping, not a household-name company in the news (call 3)
+# round 10 (cascade)
+溧阳	drop	county-level city under Changzhou, not nationally famous (call 1); examples are logistics spam plus one history mention
+竹叶青	keep	common noun: bamboo pit viper and a well-known green tea / liquor type; the tea sense shows in the examples, the character use is minor
+# round 10s (cascade)
+火火	drop	Cut-off half of AABB words (红红|火火, 风风|火火); the counts are shared between two different words, so neither plainly carries them, and 火火 is not a word on its own.
+省局	keep	Release's own word cut, an ordinary administrative abbreviation (省 + 局) used in news; not a name.
