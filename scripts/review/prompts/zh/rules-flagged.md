@@ -94,4 +94,16 @@ release's standard form even though texts write it otherwise (冰激凌 for 冰�
 **Proper nouns** (flag `propn_band`: the release tagged the word PROPN; there is no dictionary or case evidence):
 apply the name rules above.
 
+**Calls of 2026-11-07 (binding; made under the established rulings):**
+1. **Chinese cities**: every prefecture-level city and autonomous prefecture of China keeps (黄石, 惠州, 随州, 平顶山, 阿克苏): the target language's own country, a bounded set a news reader meets. County-level places and below drop unless nationally famous (义乌, 昆山 keep). Districts drop unless nationally famous (海淀, 浦东, 朝阳 as the Beijing district); state-level new areas keep (滨海新区, 浦东新区, 雄安新区). Abroad: well-known cities only.
+2. **Suffixed forms** (东莞市, 唐山市, 广东省, 海淀区): the release's one-word cut stands: `keep` when the place keeps, `drop` when it drops.
+3. **Companies and brands**: household-name companies and marques a reader meets by name in the news keep (华为, 阿里, 腾讯, 百度, 小米, 京东, 比亚迪, 丰田, 奔驰, 宝马, 宜家, and the major state-owned groups 中石油, 中石化, 中粮, 中铁, 国家电网); car models, product lines, lesser brands and companies drop (凯美瑞, 斯柯达 models; small firms). Major sports leagues keep (中超, 英超, NBA in Chinese 美职篮); clubs drop.
+4. **People drop, mythic and literary figures included** (盘古, 孙悟空, 孔子, 毛泽东): the people ruling stands. **Canonical works** a schoolchild learns by name keep as cultural landmarks (三国演义, 红楼梦, 西游记, 水浒传, 论语, 诗经); other titles drop.
+5. **Historical titles and offices** are ordinary words (司马 as an office, 太尉, 丞相): `keep` (a surname-only use still drops: see the surname rule).
+6. **Fused verb + complement words** the segmenter made (涌现出, 走出来) keep: the release's cut stands beside its #comp lemmas.
+7. **Variant characters** (异体字: 飚 for 飙): `merge:` the standard Simplified form, as for a Traditional spelling.
+8. **Quarter and period words** (一季度, 二季度, 上半年) are words: keep. Number + measure word (三次, 四位) stays a drop.
+9. **Genre words** in wide use (修仙, 穿越, 玄幻) keep even when the examples are fiction; generic game names that are common nouns (百家乐 baccarat, 麻将) keep; titles of games drop.
+10. **A single character with no examples**: keep when modern Chinese uses it as a word on its own (dictionary standalone use, literary included); drop when it only occurs inside words or names.
+
 When the rules don't settle a case, still decide, and add a line `# question <lemma>: <what is unclear>`.
