@@ -170,6 +170,15 @@ class Runtime:
         self.backend: Any = registry.create(language.tokenizer)
         release_dir = find_release_dir(language.lemma_package, lemma_dir)
         release = load_release(release_dir)
+        if getattr(release.lookup, "word_rules", None) is not None and hasattr(release.lookup, "registered"):
+            # The registry guard (Honeyeater #820, nlp.lemma_releases._lemmatiser): the release learns the
+            # language's homograph registry when it is loaded for a language; do the same here.
+            import dataclasses
+
+            from lexicon.homographs import registered_keys
+
+            release = dataclasses.replace(
+                release, lookup=dataclasses.replace(release.lookup, registered=registered_keys(language.code)))
         self.root = Path(os.environ.get("HONEYEATER_ROOT", Path(nlp.__file__).resolve().parents[2]))
         pinned = pin_for(language.code)
         chosen = fallback or (pinned.fallback if pinned else "backend")

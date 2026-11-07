@@ -15,7 +15,7 @@ case "$LANG_CODE" in   # the lemma release each language counts with (its wheel 
       SYNC_GROUP=() ;;
   zh) WHEEL=honeyeater_lemma_zh-1.6.4-py3-none-any.whl
       WHEEL_SHA=27abd5c0320580550aad309c25eab062f1f53dd15f6132650a454b7858d75f91
-      HE_COMMIT=8bc18170ed9879c892d86445e8f11de9522975af   # Honeyeater main pinning zh 1.6.4 (jieba-zh + segmenter)
+      HE_COMMIT=259e4dd56192d4170818eba59d59bf5311900110   # Honeyeater #820 head: zh 1.6.4 with the registry guard (was 8bc1817)
       SYNC_GROUP=() ;;
   de) WHEEL=honeyeater_lemma_de-1.5.1-py3-none-any.whl
       WHEEL_SHA=f14d4d64be671ac155c5dc6f9c67d98e851ee9e507e27c2705ad0338c27f7822
@@ -50,7 +50,7 @@ if [ "$LANG_CODE" = de ] && ! "$PY" -c "import de_core_news_sm" 2>/dev/null; the
 fi
 # shards the coordinator counted before the run was distributed (deterministic names): cut past, never counted
 SKIP=()
-if git -C "$FQ" show "origin/${LANG_CODE}-shards-setup:skip/$LANG_CODE.txt" > "$WORK/skip.txt" 2>/dev/null; then
+if git -C "$FQ" show "origin/${LANG_CODE}-shards-setup:skip/${SKIP_NAME:-$LANG_CODE}.txt" > "$WORK/skip.txt" 2>/dev/null; then
   SKIP=(--skip-file "$WORK/skip.txt")
 fi
 [ -d "$WORK/deps/zstandard" ] || uv pip install -q --python "$PY" --target "$WORK/deps" zstandard
@@ -62,4 +62,5 @@ setsid "$PY" -m frequer count "$LANG_CODE" --data-dir "$WORK/data" --workers "$W
   --lemma-dir "$WORK/site/honeyeater_lemma_$LANG_CODE" --wheel "$WORK/$WHEEL" >> "$WORK/count.log" 2>> "$WORK/count.err" &
 COUNT_PID=$!
 echo "count pid $COUNT_PID; log $WORK/count.log"
-"$PY" -m frequer ship "$LANG_CODE" --data-dir "$WORK/data" --repo "$WORK/shiprepo" --part "$PART" --count-pid "$COUNT_PID"
+"$PY" -m frequer ship "$LANG_CODE" --data-dir "$WORK/data" --repo "$WORK/shiprepo" --part "$PART" --count-pid "$COUNT_PID" \
+  --prefix "${SHIP_PREFIX:-${LANG_CODE}-shards-}"
