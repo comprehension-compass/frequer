@@ -94,4 +94,10 @@ make it clear, otherwise `drop`.
 18. **Negator + verb** the segmenter fused (未办理, 未完成, 不减) is a mis-cut the guide splits: `merge:` the verb; dictionary words keep (未必, 不必, 没有, 不得不).
 19. **Gambling words**: ordinary vocabulary keeps (博彩, 赌场, 彩票); tools, site and game names that only spam makes frequent drop (投注器, 时时彩).
 
+20. **Development zones**: national-level zones keep only when nationally famous (中关村, 苏州工业园区); others drop, as districts.
+21. **Surname + 家** (苏家, 李家) is a name: `drop`.
+22. **Degree adverb + adjective** the segmenter fused (较厚, 很好, 太大, 更多 where it is degree + adjective) is a mis-cut the guide splits (R13): `merge:` the adjective; dictionary words keep (最近, 最后, 更加, 太太). Other adverb + verb words are the release's cut and keep (先回, 紧追).
+23. **Real-word pieces of a split fixed term** (红头 from 红头文件) keep as the words they are.
+24. **A mis-cut that holds a whole word** (资金链|断裂 → 链断裂): `merge:` that whole word when it carries the meaning, else `drop`.
+
 When the rules don't settle a case, still decide, and add a line `# question <lemma>: <what is unclear>`.
