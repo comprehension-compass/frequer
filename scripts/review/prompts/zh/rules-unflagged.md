@@ -100,4 +100,6 @@ make it clear, otherwise `drop`.
 23. **Real-word pieces of a split fixed term** (红头 from 红头文件) keep as the words they are.
 24. **A mis-cut that holds a whole word** (资金链|断裂 → 链断裂): `merge:` that whole word when it carries the meaning, else `drop`.
 
+25. **Deities and objects of worship** are religious vocabulary and keep (上帝, 真主, 佛祖, 如来, 观音, 耶稣, 玉帝, 关公 as the god, 女娲, 财神爷); people, historical or legendary (炎帝, 黄帝, 尧), drop.
+
 When the rules don't settle a case, still decide, and add a line `# question <lemma>: <what is unclear>`.

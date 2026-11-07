@@ -15806,3 +15806,9 @@ baidu.com	drop	Latin script/domain
 # round 10s (cascade)
 火火	drop	Cut-off half of AABB words (红红|火火, 风风|火火); the counts are shared between two different words, so neither plainly carries them, and 火火 is not a word on its own.
 省局	keep	Release's own word cut, an ordinary administrative abbreviation (省 + 局) used in news; not a name.
+# coordinator calls (2026-11-07, call 25: people drop, deities and objects of worship keep as religious vocabulary): five round-1 keeps made before call 4 re-decided
+习近平	drop	coordinator: a person (call 4; redecided, was keep)
+川普	drop	coordinator: a person (call 4; redecided, was keep)
+莎士比亚	drop	coordinator: a person (call 4; redecided, was keep)
+所罗门	drop	coordinator: a person; the islands are 所罗门群岛 (call 4; redecided, was keep)
+炎帝	drop	coordinator: a legendary person, as 黄帝, 尧, 舜, 禹 (call 4; redecided, was keep)
