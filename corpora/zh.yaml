@@ -12,6 +12,7 @@ language:
   top_n: 40000  # 2026-11-07 (developer, via the coordinator): cutoff from full/zh/band-samples.md
   cutoff: '2026-11-07 developer: 40k (full/zh/band-samples.md, full/zh/band-report.md)'
   forms_kept: 5
+  append_learnable_names: true  # every listed name gets an entry (ruling 2026-11-02): Honeyeater reference/learnable-names/zh.json (#813)
   # Junk rules: ja's set for a script with neither case nor accents. No proper-noun dictionary: every
   # PROPN-majority lemma (the release's own name verdict) is reviewed (propn_evidence: tag), and names that are
   # learnable things stay (lemmatiser rulings v3.42 R12).

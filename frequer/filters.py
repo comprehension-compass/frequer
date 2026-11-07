@@ -87,6 +87,8 @@ def apply(manifest: Manifest, merged: Merged, weights: Mapping[str, float], scor
         out.tally = propn.load_case(cfg.code)
     elif jc.names_final and not dictionary and not tag_only:  # propn_usage (de): the final list decides the places it lists
         out.learnable = propn.load_names(root or honeyeater_root(), cfg.code)
+    elif tag_only and cfg.append_learnable_names:  # zh: names are decided in review; the list only appends after the cut
+        out.learnable = propn.load_names(root or honeyeater_root(), cfg.code)
     if cfg.propn_rule == "capitalised_mid_sentence" and out.learnable and out.tally:
         ranked, out.propn_dropped, out.names_kept, out.case_kept = propn.apply(
             ranked, lambda r: r.lemma, lambda r: snapshot.majority(r.stats.pos, "X"), lambda r: r.stats.forms,
