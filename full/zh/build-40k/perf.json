@@ -3,8 +3,8 @@
  "scope": "full",
  "tokens": 818629336,
  "documents": 1049585,
- "lemma_types_ranked": 151294,
- "snapshot_entries": 40000,
+ "lemma_types_ranked": 148761,
+ "snapshot_entries": 40069,
  "stages": [
   {
    "stage": "fetch_decode",
@@ -80,14 +80,14 @@
   }
  ],
  "build_seconds": {
-  "merge": 394.61,
-  "rank": 17.17,
-  "snapshot": 2.25,
-  "cooc": 242.02,
-  "report": 85.44
+  "merge": 374.93,
+  "rank": 17.27,
+  "snapshot": 4.57,
+  "cooc": 246.78,
+  "report": 84.15
  },
  "worker_peak_rss_mb": 2555,
- "build_process_peak_rss_mb": 1802,
+ "build_process_peak_rss_mb": 1899,
  "host_tokens": 0,
  "occurrence_kinds": {
   "word": 806207149,
@@ -108,7 +108,7 @@
    "n4": 578597
   },
   "shipped_rows": 400000,
-  "table_bytes": 8659926,
+  "table_bytes": 8659930,
   "queue_rows": 2000
  },
  "checks": {

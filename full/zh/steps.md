@@ -101,3 +101,16 @@ loaded es/de/ja snapshots added. No snapshot until the coordinator confirms the 
    (`reference/learnable-names/zh.json`, built from `learnable-names.tsv` plus CLDR language names) merges, rebuild
    with `append_learnable_names: true` and `--reference-root` at that commit, so every listed name not already on
    the list gets an entry (ruling 2026-11-02), dry-run, and send the new sha256.
+
+## 10. Learnable names appended (2026-11-07)
+
+Honeyeater #813 (merged `466ccb5`; main `9da747a`) added `reference/learnable-names/zh.json` (the places of
+`learnable-names.tsv` plus the CLDR language names) and `reference/number-words/zh.json`. frequer `4d8fa19` turns on
+`append_learnable_names` for zh and loads the names list in `propn_evidence: tag` mode (it did not before, so the
+append would have added nothing). Rebuilt at frequer `4d8fa19` with `--reference-root` Honeyeater main `9da747a`:
+the top 40,000 is unchanged under the new zh number rule; 69 names appended (18 counted below the cut, 51 uncounted
+at frequency 0, mostly language names); 108 multiword names the release does not emit as a unit are not appended
+and are listed in `learnable-multiword-names.tsv` (unit-training input). `snapshots/zh.json`: 40,069 entries,
+sha256 `ba8d5325a1ed20c6cb8bc3206e9725dcbe0c02257f67ecebd44e0fc6266fe4ed`. `load_lemmas zh --dry-run` at `9da747a`:
+`zh (dry run): 40069 ranked entries — 0 existing rows re-ranked, 40069 new, 0 demoted, 0 skipped; 147 unit
+headwords, 222 homograph keys [sha256 ba8d5325a1ed]`.
