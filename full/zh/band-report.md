@@ -4,13 +4,13 @@ Bands are positions in the cleaned list (the kept count), so a band holds what a
 
 | band | entries | keep | review-keep | review-drop | number-drop | drop | merged | kept share | real among reviewed |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 0-10k | 10,395 | 8,153 | 1,847 | 299 | 96 | 0 | 1 | 96.2% | 86.1% of 2,147 |
+| 0-10k | 10,396 | 8,154 | 1,846 | 300 | 96 | 0 | 1 | 96.2% | 86.0% of 2,147 |
 | 10-20k | 10,915 | 7,299 | 2,701 | 850 | 65 | 0 | 3 | 91.6% | 76.1% of 3,554 |
-| 20-25k | 5,610 | 3,506 | 1,494 | 569 | 41 | 0 | 1 | 89.1% | 72.4% of 2,064 |
-| 25-30k | 5,734 | 3,430 | 1,570 | 697 | 37 | 0 | 3 | 87.2% | 69.3% of 2,270 |
-| 30-35k | 5,971 | 3,350 | 1,650 | 921 | 50 | 0 | 13 | 83.7% | 64.4% of 2,584 |
-| 35-40k | 6,115 | 3,334 | 1,666 | 1,065 | 50 | 0 | 61 | 81.8% | 61.9% of 2,792 |
-| 40-45k | 5,235 | 4,816 | 184 | 172 | 34 | 29 | 22 | 95.5% | 54.5% of 378 |
+| 20-25k | 5,612 | 3,506 | 1,494 | 571 | 41 | 0 | 1 | 89.1% | 72.4% of 2,066 |
+| 25-30k | 5,735 | 3,433 | 1,567 | 698 | 37 | 0 | 3 | 87.2% | 69.2% of 2,268 |
+| 30-35k | 5,973 | 3,350 | 1,650 | 923 | 50 | 0 | 13 | 83.7% | 64.3% of 2,586 |
+| 35-40k | 6,116 | 3,335 | 1,665 | 1,066 | 50 | 0 | 61 | 81.8% | 61.8% of 2,792 |
+| 40-45k | 5,233 | 4,815 | 185 | 170 | 34 | 29 | 22 | 95.5% | 54.9% of 377 |
 
 ## Rule hits per band
 
@@ -18,311 +18,311 @@ Bands are positions in the cleaned list (the kept count), so a band holds what a
 |---|---:|---:|---:|---:|
 | 0-10k | 1 | 134 | 559 | 81 |
 | 10-20k | 4 | 152 | 1,122 | 240 |
-| 20-25k | 4 | 79 | 747 | 158 |
-| 25-30k | 5 | 107 | 840 | 134 |
-| 30-35k | 9 | 131 | 957 | 166 |
-| 35-40k | 7 | 127 | 1,017 | 143 |
-| 40-45k | 2 | 122 | 939 | 120 |
+| 20-25k | 4 | 79 | 748 | 158 |
+| 25-30k | 5 | 107 | 839 | 134 |
+| 30-35k | 9 | 132 | 959 | 166 |
+| 35-40k | 7 | 128 | 1,015 | 143 |
+| 40-45k | 2 | 120 | 942 | 120 |
 
 ## 30 keeps around 10,000
 
 | list position | lemma | action | POS | frequency |
 |---:|---|---|---|---:|
-| 9,857 | 谋 | review-keep | VERB | 6,278 |
-| 9,865 | 失调 | keep | VERB | 6,268 |
-| 9,868 | 工夫 | keep | NOUN | 6,265 |
-| 9,871 | 既有 | keep | VERB | 6,265 |
-| 9,880 | 瞒 | keep | VERB | 6,262 |
-| 9,882 | 乘车 | keep | NOUN | 6,260 |
-| 9,896 | 东盟 | review-keep | PROPN | 6,250 |
-| 9,898 | 突击 | keep | NOUN | 6,250 |
-| 9,922 | 患病 | keep | NOUN | 6,227 |
-| 9,930 | 灯具 | keep | NOUN | 6,217 |
-| 9,944 | 无毒 | keep | ADJ | 6,204 |
-| 9,945 | 备注 | keep | VERB | 6,203 |
-| 9,947 | 唤 | review-keep | VERB | 6,201 |
-| 9,950 | 多谢 | keep | ADJ | 6,200 |
-| 9,973 | 现阶段 | keep | NOUN | 6,180 |
-| 10,005 | 庆典 | keep | VERB | 6,152 |
-| 10,017 | 胶囊 | keep | NOUN | 6,141 |
-| 10,052 | 开战 | keep | VERB | 6,117 |
-| 10,075 | 流血 | keep | VERB | 6,099 |
-| 10,078 | 包包 | keep | NOUN | 6,097 |
-| 10,081 | 验 | review-keep | NOUN | 6,095 |
-| 10,087 | 使出 | keep | VERB | 6,089 |
-| 10,088 | 瘦身 | keep | NOUN | 6,087 |
-| 10,093 | 进食 | keep | VERB | 6,082 |
-| 10,110 | 树枝 | keep | NOUN | 6,066 |
-| 10,112 | 财神 | review-keep | VERB | 6,064 |
-| 10,120 | 中共中央 | review-keep | PROPN | 6,059 |
-| 10,125 | 限定 | keep | VERB | 6,057 |
-| 10,136 | 幻影 | keep | NOUN | 6,043 |
-| 10,150 | 架势 | keep | NOUN | 6,030 |
+| 9,857 | 中医药 | keep | NOUN | 6,277 |
+| 9,865 | 熬 | keep | VERB | 6,268 |
+| 9,868 | 开花 | keep | VERB | 6,265 |
+| 9,871 | 滑雪 | keep | VERB | 6,265 |
+| 9,880 | 要害 | keep | NOUN | 6,261 |
+| 9,882 | 难不成 | review-keep | PROPN | 6,260 |
+| 9,896 | 典范 | keep | NOUN | 6,250 |
+| 9,898 | 展厅 | keep | NOUN | 6,249 |
+| 9,922 | 语法 | keep | NOUN | 6,225 |
+| 9,930 | 迁移 | review-keep | PROPN | 6,216 |
+| 9,944 | 备注 | keep | VERB | 6,203 |
+| 9,945 | 派对 | keep | NOUN | 6,202 |
+| 9,947 | 字母 | keep | VERB | 6,201 |
+| 9,950 | 端口 | keep | NOUN | 6,200 |
+| 9,973 | 章程 | keep | NOUN | 6,179 |
+| 10,005 | 花纹 | keep | NOUN | 6,151 |
+| 10,017 | 岭 | review-keep | VERB | 6,140 |
+| 10,052 | 光盘 | keep | NOUN | 6,116 |
+| 10,075 | 起飞 | keep | VERB | 6,099 |
+| 10,078 | 战车 | review-keep | NOUN | 6,097 |
+| 10,081 | 半空中 | review-keep | PROPN | 6,093 |
+| 10,087 | 瘦身 | keep | NOUN | 6,087 |
+| 10,088 | 尖锐湿疣 | review-keep | NOUN | 6,086 |
+| 10,093 | 店主 | keep | NOUN | 6,081 |
+| 10,110 | 惊动 | keep | VERB | 6,065 |
+| 10,112 | 咳 | review-keep | VERB | 6,061 |
+| 10,120 | 愚蠢 | keep | ADJ | 6,059 |
+| 10,125 | 黑龙江省 | review-keep | PROPN | 6,057 |
+| 10,136 | 晶石 | review-keep | NOUN | 6,043 |
+| 10,150 | 阁下 | review-keep | VERB | 6,029 |
 
 ## 30 keeps around 20,000
 
 | list position | lemma | action | POS | frequency |
 |---:|---|---|---|---:|
-| 19,850 | 折#fold | keep | VERB | 2,252 |
-| 19,852 | 眉眼 | review-keep | VERB | 2,252 |
-| 19,858 | 浪花 | keep | NOUN | 2,251 |
-| 19,865 | 讨价还价 | keep | VERB | 2,250 |
-| 19,876 | 偷窥 | keep | NOUN | 2,247 |
-| 19,884 | 黑漆漆 | review-keep | NOUN | 2,246 |
-| 19,885 | 即可 | keep | ADV | 2,245 |
-| 19,892 | 高台 | keep | NOUN | 2,245 |
-| 19,893 | 严查 | keep | VERB | 2,244 |
-| 19,905 | 作坊 | keep | NOUN | 2,242 |
-| 19,957 | 枯萎 | keep | VERB | 2,233 |
-| 19,959 | 科学合理 | review-keep | PROPN | 2,233 |
-| 19,967 | 资质证书 | keep | NOUN | 2,232 |
-| 19,969 | 控件 | keep | NOUN | 2,231 |
-| 19,980 | 经验值 | review-keep | NOUN | 2,230 |
-| 19,992 | 起居 | keep | NOUN | 2,229 |
-| 19,997 | 谓 | review-keep | VERB | 2,227 |
-| 19,998 | 铁门 | keep | NOUN | 2,227 |
-| 20,000 | 立功 | keep | VERB | 2,226 |
-| 20,011 | 斯文 | review-keep | PROPN | 2,224 |
-| 20,047 | 口才 | keep | NOUN | 2,218 |
-| 20,055 | 忧愁 | keep | NOUN | 2,217 |
-| 20,058 | 经济型 | keep | NOUN | 2,217 |
-| 20,084 | 小宝宝 | keep | NOUN | 2,213 |
-| 20,090 | 充盈 | keep | NOUN | 2,212 |
-| 20,105 | 宝器 | review-keep | ADJ | 2,210 |
-| 20,112 | 早产 | keep | NOUN | 2,209 |
-| 20,115 | 轰轰烈烈 | keep | VERB | 2,209 |
-| 20,132 | 左臂 | keep | NOUN | 2,206 |
-| 20,138 | 连体 | keep | NOUN | 2,206 |
+| 19,850 | 湿透 | keep | VERB | 2,252 |
+| 19,852 | 光谱 | keep | NOUN | 2,251 |
+| 19,858 | 红糖 | keep | NOUN | 2,251 |
+| 19,865 | 飘落 | keep | VERB | 2,250 |
+| 19,876 | 厂区 | review-keep | VERB | 2,247 |
+| 19,884 | 即可 | keep | ADV | 2,245 |
+| 19,885 | 尾数 | keep | NOUN | 2,245 |
+| 19,892 | 严查 | keep | VERB | 2,244 |
+| 19,893 | 忠诚度 | keep | NOUN | 2,244 |
+| 19,905 | 双肩 | keep | NOUN | 2,242 |
+| 19,957 | 看护 | keep | NOUN | 2,233 |
+| 19,959 | 谷底 | keep | NOUN | 2,233 |
+| 19,967 | 可见一斑 | keep | NOUN | 2,231 |
+| 19,969 | 深水 | keep | NOUN | 2,231 |
+| 19,980 | 获赠 | review-keep | VERB | 2,230 |
+| 19,992 | 不一定 | keep | ADV | 2,228 |
+| 19,997 | 铁门 | keep | NOUN | 2,227 |
+| 19,998 | 好话 | keep | NOUN | 2,226 |
+| 20,000 | 认罪 | keep | VERB | 2,226 |
+| 20,011 | 痛经 | keep | NOUN | 2,224 |
+| 20,047 | 国家电网 | keep | NOUN | 2,218 |
+| 20,055 | 悉心 | keep | NOUN | 2,217 |
+| 20,058 | 识破 | keep | VERB | 2,217 |
+| 20,084 | 屠夫 | keep | NOUN | 2,213 |
+| 20,090 | 光团 | review-keep | NOUN | 2,212 |
+| 20,105 | 战技 | review-keep | NOUN | 2,210 |
+| 20,112 | 爹娘 | keep | VERB | 2,209 |
+| 20,115 | 天体 | keep | NOUN | 2,208 |
+| 20,132 | 带球 | keep | VERB | 2,206 |
+| 20,138 | 典 | review-keep | NOUN | 2,205 |
 
 ## 30 keeps around 25,000
 
 | list position | lemma | action | POS | frequency |
 |---:|---|---|---|---:|
-| 24,855 | 郎君 | keep | NOUN | 1,604 |
-| 24,857 | 阿波罗 | review-keep | PROPN | 1,604 |
-| 24,880 | 友友 | review-keep | VERB | 1,601 |
-| 24,887 | 黑心 | keep | NOUN | 1,601 |
-| 24,894 | 杀气腾腾 | keep | NOUN | 1,600 |
-| 24,901 | 免冠 | keep | VERB | 1,599 |
-| 24,909 | 窝囊 | keep | NOUN | 1,599 |
-| 24,910 | 绝情 | keep | NOUN | 1,599 |
-| 24,917 | 微臣 | keep | NOUN | 1,598 |
-| 24,918 | 教化 | keep | NOUN | 1,598 |
-| 24,940 | 耐性 | keep | NOUN | 1,596 |
-| 24,946 | 算数 | keep | ADJ | 1,595 |
-| 24,947 | 纳粹 | keep | VERB | 1,595 |
-| 24,951 | 支持率 | keep | NOUN | 1,594 |
-| 24,976 | 篮球场 | keep | NOUN | 1,592 |
-| 24,988 | 退伍军人 | review-keep | PROPN | 1,591 |
-| 25,009 | 转矩 | keep | VERB | 1,589 |
-| 25,020 | 方寸 | keep | NOUN | 1,588 |
-| 25,022 | 沟壑 | keep | VERB | 1,588 |
-| 25,042 | 注塑机 | review-keep | PROPN | 1,586 |
-| 25,046 | 出租屋 | keep | NOUN | 1,585 |
-| 25,053 | 踌躇 | keep | VERB | 1,585 |
-| 25,059 | 油液 | keep | NOUN | 1,584 |
-| 25,064 | 铝业 | keep | NOUN | 1,584 |
-| 25,079 | 备选 | keep | NOUN | 1,582 |
-| 25,088 | 利润分配 | review-keep | PROPN | 1,581 |
-| 25,099 | 木箱 | keep | NOUN | 1,580 |
-| 25,110 | 北风 | keep | NOUN | 1,579 |
-| 25,136 | 扬州市 | review-keep | PROPN | 1,577 |
-| 25,139 | 逃脱 | keep | VERB | 1,577 |
+| 24,855 | 阿波罗 | review-keep | PROPN | 1,604 |
+| 24,857 | 骁龙 | review-keep | NOUN | 1,604 |
+| 24,880 | 梯子 | keep | NOUN | 1,601 |
+| 24,887 | 兽皮 | keep | NOUN | 1,600 |
+| 24,894 | 货币基金 | keep | NOUN | 1,600 |
+| 24,901 | 商旅 | keep | NOUN | 1,599 |
+| 24,909 | 记号 | keep | NOUN | 1,599 |
+| 24,910 | 话锋一转 | review-keep | PROPN | 1,599 |
+| 24,917 | 有感 | review-keep | PROPN | 1,598 |
+| 24,918 | 精心组织 | review-keep | NOUN | 1,598 |
+| 24,940 | 魔君 | review-keep | NOUN | 1,596 |
+| 24,946 | 一饮而尽 | review-keep | ADJ | 1,594 |
+| 24,947 | 咨询师 | keep | NOUN | 1,594 |
+| 24,951 | 机舱 | keep | NOUN | 1,594 |
+| 24,976 | 迈开 | review-keep | NOUN | 1,592 |
+| 24,988 | 铁骑 | keep | NOUN | 1,591 |
+| 25,009 | 陡 | review-keep | ADJ | 1,589 |
+| 25,020 | 沟壑 | keep | VERB | 1,588 |
+| 25,022 | 谎称 | review-keep | PROPN | 1,588 |
+| 25,042 | 颤栗 | keep | NOUN | 1,586 |
+| 25,046 | 彩霞 | keep | NOUN | 1,585 |
+| 25,053 | 伟哥 | review-keep | NOUN | 1,584 |
+| 25,059 | 特困 | keep | NOUN | 1,584 |
+| 25,064 | 中心区 | keep | NOUN | 1,583 |
+| 25,079 | 武夷山 | review-keep | PROPN | 1,582 |
+| 25,088 | 接触器 | keep | NOUN | 1,581 |
+| 25,099 | 法诀 | review-keep | NOUN | 1,580 |
+| 25,110 | 宜春 | review-keep | NOUN | 1,579 |
+| 25,136 | 起眼 | keep | ADJ | 1,577 |
+| 25,139 | 雄鹰 | keep | NOUN | 1,577 |
 
 ## 30 keeps around 30,000
 
 | list position | lemma | action | POS | frequency |
 |---:|---|---|---|---:|
-| 29,850 | 恍如 | keep | VERB | 1,206 |
-| 29,854 | 读书人 | keep | VERB | 1,206 |
-| 29,857 | 须臾 | review-keep | PROPN | 1,206 |
-| 29,860 | 伏笔 | keep | NOUN | 1,205 |
-| 29,871 | 卧房 | keep | NOUN | 1,204 |
-| 29,887 | 钙化 | keep | NOUN | 1,204 |
-| 29,888 | 面授 | keep | NOUN | 1,204 |
-| 29,896 | 品相 | keep | NOUN | 1,203 |
-| 29,901 | 本溪 | review-keep | NOUN | 1,203 |
-| 29,924 | 见惯 | review-keep | VERB | 1,202 |
-| 29,945 | 主楼 | review-keep | VERB | 1,200 |
-| 29,956 | 芦苇 | keep | NOUN | 1,200 |
-| 29,957 | 貌美 | review-keep | PROPN | 1,200 |
-| 29,958 | 贫困家庭 | review-keep | PROPN | 1,200 |
-| 29,959 | 转载稿 | review-keep | PROPN | 1,200 |
-| 29,974 | 送医 | keep | VERB | 1,199 |
-| 29,982 | 痛哭 | keep | VERB | 1,198 |
-| 29,988 | 齑粉 | keep | NOUN | 1,198 |
-| 30,001 | 生理学 | keep | NOUN | 1,197 |
-| 30,005 | 苗圃 | keep | NOUN | 1,197 |
-| 30,018 | 畅想 | keep | VERB | 1,196 |
-| 30,038 | 迎新 | review-keep | NOUN | 1,195 |
-| 30,040 | 野花 | keep | NOUN | 1,195 |
-| 30,047 | 塑像 | keep | NOUN | 1,194 |
-| 30,051 | 布鲁塞尔 | review-keep | PROPN | 1,194 |
-| 30,052 | 弹指 | keep | NOUN | 1,194 |
-| 30,065 | 布告 | keep | NOUN | 1,193 |
-| 30,076 | 举手投足 | review-keep | PROPN | 1,192 |
-| 30,145 | 生理功能 | keep | NOUN | 1,187 |
-| 30,148 | 阀体 | keep | NOUN | 1,187 |
+| 29,850 | 读书人 | keep | VERB | 1,206 |
+| 29,854 | 马航 | review-keep | PROPN | 1,206 |
+| 29,857 | 压铸 | keep | NOUN | 1,205 |
+| 29,860 | 少尉 | keep | NOUN | 1,205 |
+| 29,871 | 思想家 | keep | NOUN | 1,204 |
+| 29,887 | 中坚力量 | review-keep | PROPN | 1,203 |
+| 29,888 | 压岁钱 | keep | NOUN | 1,203 |
+| 29,896 | 有机溶剂 | review-keep | VERB | 1,203 |
+| 29,901 | 稻谷 | keep | NOUN | 1,203 |
+| 29,924 | 驻马店 | review-keep | PROPN | 1,202 |
+| 29,945 | 垮塌 | keep | NOUN | 1,200 |
+| 29,956 | 霓裳 | review-keep | NOUN | 1,200 |
+| 29,957 | 吉凶 | keep | NOUN | 1,199 |
+| 29,958 | 垂体 | keep | NOUN | 1,199 |
+| 29,959 | 大忌 | keep | NOUN | 1,199 |
+| 29,974 | 工友 | keep | NOUN | 1,198 |
+| 29,982 | 鄱阳湖 | review-keep | PROPN | 1,198 |
+| 29,988 | 充电站 | keep | VERB | 1,197 |
+| 30,001 | 苗圃 | keep | NOUN | 1,197 |
+| 30,005 | 云水 | review-keep | NOUN | 1,196 |
+| 30,018 | 给付 | keep | VERB | 1,196 |
+| 30,038 | 陵园 | keep | NOUN | 1,195 |
+| 30,040 | 佛家 | keep | NOUN | 1,194 |
+| 30,047 | 布鲁塞尔 | review-keep | PROPN | 1,194 |
+| 30,051 | 智障 | review-keep | ADJ | 1,194 |
+| 30,052 | 暴徒 | keep | NOUN | 1,194 |
+| 30,065 | 时效性 | keep | NOUN | 1,193 |
+| 30,076 | 包容性 | keep | NOUN | 1,192 |
+| 30,145 | 阿拉斯加 | review-keep | PROPN | 1,187 |
+| 30,148 | 会计报表 | keep | NOUN | 1,186 |
 
 ## 30 keeps around 35,000
 
 | list position | lemma | action | POS | frequency |
 |---:|---|---|---|---:|
-| 34,869 | 定时炸弹 | keep | NOUN | 928 |
-| 34,874 | 绕城 | review-keep | VERB | 928 |
-| 34,890 | 一般无二 | review-keep | ADJ | 927 |
-| 34,903 | 炒锅 | review-keep | VERB | 927 |
-| 34,905 | 电灯 | keep | NOUN | 927 |
-| 34,915 | 北极星 | review-keep | PROPN | 926 |
-| 34,919 | 岂非 | keep | NOUN | 926 |
-| 34,928 | 身负 | keep | VERB | 926 |
-| 34,931 | 阴云 | keep | NOUN | 926 |
-| 34,943 | 心照不宣 | keep | NOUN | 925 |
-| 34,947 | 汩汩 | keep | VERB | 925 |
-| 34,950 | 蟠桃 | keep | VERB | 925 |
-| 34,966 | 桀骜不驯 | review-keep | PROPN | 924 |
-| 34,972 | 神经外科 | keep | ADJ | 924 |
-| 34,977 | 药粉 | keep | NOUN | 924 |
-| 34,980 | 飞越 | keep | NOUN | 924 |
-| 34,981 | 鸵鸟 | review-keep | VERB | 924 |
-| 35,000 | 药房 | keep | NOUN | 923 |
-| 35,009 | 土层 | keep | NOUN | 922 |
-| 35,047 | 接触式 | keep | NOUN | 920 |
-| 35,048 | 操盘手 | review-keep | PROPN | 920 |
-| 35,050 | 无厘头 | keep | NOUN | 920 |
-| 35,065 | 圆珠笔 | keep | NOUN | 919 |
-| 35,082 | 诗集 | keep | NOUN | 919 |
-| 35,097 | 主罚 | keep | NOUN | 917 |
-| 35,101 | 口试 | keep | NOUN | 917 |
-| 35,112 | 泣不成声 | keep | VERB | 917 |
-| 35,133 | 超级计算机 | keep | NOUN | 916 |
-| 35,144 | 盯住 | keep | VERB | 915 |
-| 35,150 | 趴在 | keep | VERB | 915 |
+| 34,869 | 绕城 | review-keep | VERB | 928 |
+| 34,874 | 虚报 | keep | NOUN | 928 |
+| 34,890 | 复诊 | review-keep | PROPN | 927 |
+| 34,903 | 老少 | keep | NOUN | 927 |
+| 34,905 | 蚊帐 | keep | NOUN | 927 |
+| 34,915 | 布鲁克林 | review-keep | PROPN | 926 |
+| 34,919 | 教育界 | keep | NOUN | 926 |
+| 34,928 | 前朝 | keep | NOUN | 925 |
+| 34,931 | 双掌 | keep | NOUN | 925 |
+| 34,943 | 热土 | review-keep | VERB | 925 |
+| 34,947 | 赠予 | keep | NOUN | 925 |
+| 34,950 | 东山再起 | keep | NOUN | 924 |
+| 34,966 | 炒饭 | keep | VERB | 924 |
+| 34,972 | 药粉 | keep | NOUN | 924 |
+| 34,977 | 个体差异 | review-keep | NOUN | 923 |
+| 34,980 | 复兴号 | review-keep | NOUN | 923 |
+| 34,981 | 干杯 | keep | NOUN | 923 |
+| 35,000 | 靠垫 | keep | VERB | 923 |
+| 35,009 | 接警 | keep | VERB | 922 |
+| 35,047 | 水疱 | keep | NOUN | 920 |
+| 35,048 | 生发 | keep | NOUN | 920 |
+| 35,050 | 胸肌 | keep | NOUN | 920 |
+| 35,065 | 手拉手 | keep | NOUN | 919 |
+| 35,082 | 哨声 | keep | NOUN | 918 |
+| 35,097 | 国电 | review-keep | NOUN | 917 |
+| 35,101 | 山洪 | keep | NOUN | 917 |
+| 35,112 | 谋反 | keep | NOUN | 917 |
+| 35,133 | 取货 | keep | VERB | 915 |
+| 35,144 | 贩 | review-keep | NOUN | 915 |
+| 35,150 | 后起之秀 | keep | NOUN | 914 |
 
 ## 30 keeps around 40,000
 
 | list position | lemma | action | POS | frequency |
 |---:|---|---|---|---:|
-| 39,858 | 总人数 | keep | NOUN | 731 |
-| 39,873 | 仙台 | review-keep | PROPN | 730 |
-| 39,880 | 录取率 | keep | NOUN | 730 |
-| 39,885 | 暂行条例 | review-keep | PROPN | 730 |
-| 39,887 | 深空 | review-keep | NOUN | 730 |
-| 39,897 | 鹤壁市 | review-keep | NOUN | 730 |
-| 39,914 | 杜鹃花 | review-keep | PROPN | 729 |
-| 39,917 | 正像 | review-keep | ADV | 729 |
-| 39,920 | 生物体 | keep | NOUN | 729 |
-| 39,939 | 总领馆 | keep | NOUN | 728 |
-| 39,940 | 扒皮 | keep | VERB | 728 |
-| 39,954 | 西塘 | review-keep | NOUN | 728 |
-| 39,958 | 高个子 | review-keep | PROPN | 728 |
-| 39,966 | 全面性 | review-keep | PROPN | 727 |
-| 39,977 | 拖住 | keep | VERB | 727 |
-| 39,987 | 研报 | review-keep | NOUN | 727 |
-| 39,993 | 冰点 | keep | NOUN | 726 |
-| 39,994 | 单片 | keep | ADJ | 726 |
-| 40,019 | 吸湿 | keep | VERB | 725 |
-| 40,035 | 盆子 | keep | NOUN | 725 |
-| 40,038 | 笙歌 | keep | NOUN | 725 |
-| 40,060 | 单张 | keep | NOUN | 724 |
-| 40,078 | 电脑桌面 | keep | NOUN | 724 |
-| 40,080 | 笑语 | keep | NOUN | 724 |
-| 40,095 | 发寒 | keep | VERB | 723 |
-| 40,116 | 脱脂 | keep | VERB | 723 |
-| 40,117 | 茂名市 | review-keep | PROPN | 723 |
-| 40,121 | 不领情 | keep | VERB | 722 |
-| 40,136 | 弯管机 | review-keep | ADV | 722 |
-| 40,142 | 揉揉 | keep | VERB | 722 |
+| 39,858 | 电磁辐射 | keep | NOUN | 731 |
+| 39,873 | 姜片 | keep | NOUN | 730 |
+| 39,880 | 暂行条例 | review-keep | PROPN | 730 |
+| 39,885 | 禅寺 | keep | NOUN | 730 |
+| 39,887 | 解法 | keep | NOUN | 730 |
+| 39,897 | 伤身 | keep | NOUN | 729 |
+| 39,914 | 牙疼 | keep | NOUN | 729 |
+| 39,917 | 轧制 | keep | NOUN | 729 |
+| 39,920 | 逗笑 | keep | NOUN | 729 |
+| 39,939 | 木结构 | review-keep | PROPN | 728 |
+| 39,940 | 温煦 | review-keep | PROPN | 728 |
+| 39,954 | 齐整 | keep | NOUN | 728 |
+| 39,958 | 传译 | keep | ADJ | 727 |
+| 39,966 | 差遣 | keep | NOUN | 727 |
+| 39,977 | 旺铺 | review-keep | NOUN | 727 |
+| 39,987 | 公尺 | keep | NOUN | 726 |
+| 39,993 | 布展 | review-keep | NOUN | 726 |
+| 39,994 | 引智 | review-keep | VERB | 726 |
+| 40,019 | 堰 | review-keep | NOUN | 725 |
+| 40,035 | 纯金 | keep | NOUN | 725 |
+| 40,038 | 贫民窟 | keep | NOUN | 725 |
+| 40,060 | 并驾齐驱 | review-keep | PROPN | 724 |
+| 40,078 | 金枪鱼 | review-keep | PROPN | 724 |
+| 40,080 | 餐盘 | keep | NOUN | 724 |
+| 40,095 | 彩衣 | keep | NOUN | 723 |
+| 40,116 | 不领情 | keep | VERB | 722 |
+| 40,117 | 东北三省 | review-keep | NOUN | 722 |
+| 40,121 | 加盐 | review-keep | PROPN | 722 |
+| 40,136 | 排污泵 | keep | NOUN | 722 |
+| 40,142 | 润燥 | keep | NOUN | 722 |
 
 ## 30 keeps around 45,000
 
 | list position | lemma | action | POS | frequency |
 |---:|---|---|---|---:|
-| 44,854 | 不拘 | keep | ADV | 610 |
-| 44,855 | 不苟言笑 | keep | VERB | 610 |
-| 44,858 | 中野 | keep | NOUN | 610 |
-| 44,859 | 之争 | keep | ADP | 610 |
-| 44,861 | 侦察兵 | keep | NOUN | 610 |
-| 44,867 | 坚韧不拔 | keep | PROPN | 610 |
-| 44,868 | 城镇化率 | keep | NOUN | 610 |
-| 44,869 | 夏宇 | keep | NOUN | 610 |
-| 44,871 | 大好机会 | keep | NOUN | 610 |
-| 44,883 | 攻击机 | keep | NOUN | 610 |
-| 44,884 | 旮旯 | keep | NOUN | 610 |
-| 44,885 | 易感 | keep | NOUN | 610 |
-| 44,910 | 一九一八 | keep | NUM | 609 |
-| 44,929 | 宣武 | keep | PROPN | 609 |
-| 44,931 | 巷口 | keep | NOUN | 609 |
-| 44,937 | 很严 | keep | PROPN | 609 |
-| 44,940 | 意气用事 | keep | VERB | 609 |
-| 44,941 | 慈禧太后 | keep | PROPN | 609 |
-| 44,944 | 搜房网 | keep | PROPN | 609 |
-| 44,959 | 白菜价 | keep | PROPN | 609 |
-| 44,961 | 福寿 | keep | NOUN | 609 |
-| 44,965 | 菊花茶 | keep | PROPN | 609 |
-| 44,971 | 进厂 | keep | VERB | 609 |
-| 44,973 | 阿森 | keep | PROPN | 609 |
-| 44,979 | 世世代代 | keep | NOUN | 608 |
-| 44,983 | 余量 | keep | NOUN | 608 |
-| 44,991 | 后援 | keep | NOUN | 608 |
-| 44,994 | 大白鲨 | keep | NOUN | 608 |
-| 44,998 | 微控制器 | keep | PROPN | 608 |
-| 44,999 | 心尖 | keep | ADJ | 608 |
+| 44,854 | 之争 | keep | ADP | 610 |
+| 44,855 | 乔什 | keep | PROPN | 610 |
+| 44,858 | 兰芝 | keep | PROPN | 610 |
+| 44,859 | 分类目录 | keep | NOUN | 610 |
+| 44,861 | 圈钱 | keep | VERB | 610 |
+| 44,867 | 失地 | keep | VERB | 610 |
+| 44,868 | 将计就计 | keep | PROPN | 610 |
+| 44,869 | 居高不下 | keep | NOUN | 610 |
+| 44,871 | 平底锅 | keep | PROPN | 610 |
+| 44,883 | 板报 | keep | VERB | 610 |
+| 44,884 | 标准煤 | keep | NOUN | 610 |
+| 44,885 | 死皮赖脸 | keep | ADJ | 610 |
+| 44,910 | 出人命 | keep | VERB | 609 |
+| 44,929 | 常住人口 | keep | NOUN | 609 |
+| 44,931 | 当之 | keep | NOUN | 609 |
+| 44,937 | 手中 | keep | NOUN | 609 |
+| 44,940 | 新街 | keep | NOUN | 609 |
+| 44,941 | 旅行箱 | keep | NOUN | 609 |
+| 44,944 | 标志物 | keep | PROPN | 609 |
+| 44,959 | 聆 | keep | NOUN | 609 |
+| 44,961 | 萨姆 | keep | PROPN | 609 |
+| 44,965 | 踌躇满志 | keep | NOUN | 609 |
+| 44,971 | 香醇 | keep | NOUN | 609 |
+| 44,973 | 三化 | keep | NOUN | 608 |
+| 44,979 | 出自于 | keep | VERB | 608 |
+| 44,983 | 十一点三 | keep | NUM | 608 |
+| 44,991 | 寸步不离 | keep | VERB | 608 |
+| 44,994 | 心尖 | keep | ADJ | 608 |
+| 44,998 | 擦亮 | keep | VERB | 608 |
+| 44,999 | 斗转星移 | keep | PROPN | 608 |
 
 ## 50 random drops
 
 | rank | lemma | how | flags | reviewers' reason |
 |---:|---|---|---|---|
-| 4,482 | 康 | review-drop |  |  |
-| 4,770 | 薛 | review-drop | propn_band: tagged PROPN by the release (no case or dictionary evidence) |  |
-| 5,198 | 四十二 | number-drop |  |  |
-| 6,455 | 邓 | review-drop |  |  |
-| 7,701 | 江帆 | review-drop | diversity: in 427 documents, 0.05 of the 9,223 occurrences' random spread (thres |  |
-| 7,794 | 八百八十八 | number-drop |  |  |
-| 13,273 | 亨利 | review-drop |  |  |
-| 13,981 | 卓版 | review-drop |  |  |
-| 14,364 | 一九八五 | review-drop |  |  |
-| 14,749 | 美乳 | review-drop |  |  |
-| 15,121 | 充分体现 | review-drop |  |  |
-| 17,359 | 绿城 | review-drop |  |  |
-| 17,540 | 千亿 | review-drop |  |  |
-| 19,860 | 三点八 | review-drop |  |  |
-| 22,033 | 林允 | review-drop |  |  |
-| 24,634 | 艹 | review-drop |  |  |
-| 26,663 | 牧野 | review-drop |  |  |
-| 27,444 | 〇七五五 | review-drop |  |  |
-| 27,989 | 七点八 | review-drop |  |  |
-| 28,397 | 武峰 | review-drop | diversity: in 77 documents, 0.05 of the 1,470 occurrences' random spread (thresh |  |
-| 28,499 | 雅典娜 | review-drop | propn_band: tagged PROPN by the release (no case or dictionary evidence) |  |
-| 31,266 | 克林顿 | review-drop | propn_band: tagged PROPN by the release (no case or dictionary evidence) |  |
-| 31,807 | 五道 | review-drop |  |  |
-| 32,787 | 一九五一 | review-drop |  |  |
-| 32,948 | 华联 | review-drop | propn_band: tagged PROPN by the release (no case or dictionary evidence) |  |
-| 33,592 | 玄气 | review-drop |  |  |
-| 35,050 | 明德 | review-drop | propn_band: tagged PROPN by the release (no case or dictionary evidence) |  |
-| 35,640 | 一九四一 | review-drop |  |  |
-| 35,789 | 荀彧 | review-drop | diversity: in 206 documents, 0.20 of the 1,039 occurrences' random spread (thres |  |
-| 36,018 | 嫩穴 | review-drop |  |  |
-| 36,780 | 海珠 | review-drop |  |  |
-| 37,416 | 顺义区 | review-drop | propn_band: tagged PROPN by the release (no case or dictionary evidence) |  |
-| 37,460 | 运通 | review-drop |  |  |
-| 38,520 | 一千多 | review-drop |  |  |
-| 38,603 | 五千八百 | number-drop |  |  |
-| 39,313 | 一九三九 | review-drop |  | spelled-out year number |
-| 39,566 | 怀远 | review-drop |  |  |
-| 40,439 | 妖灵 | review-drop |  | game/fiction name |
-| 40,758 | 护国 | review-drop |  | name fragment (street/temple), no standalone use |
-| 41,224 | 一点九五 | review-drop |  | spelled number |
-| 41,280 | 五百九十九 | number-drop |  |  |
-| 41,335 | 一九二一 | review-drop |  | digit-by-digit year |
-| 42,060 | 石景山区 | review-drop |  | Beijing district, not nationally famous |
-| 42,232 | 约什 | review-drop | propn_band: tagged PROPN by the release (no case or dictionary evidence) | Foreign given name |
-| 42,246 | 风吟 | review-drop |  |  |
-| 43,185 | 凌仙 | review-drop | diversity: in 73 documents, 0.10 of the 768 occurrences' random spread (threshol |  |
-| 44,522 | 用布 | review-drop |  | mis-cut phrase 用 + 布 |
-| 44,855 | 吴虎臣 | review-drop | diversity: in 60 documents, 0.08 of the 723 occurrences' random spread (threshol |  |
-| 44,946 | 大力神 | review-drop |  | mythic figure Hercules; examples are film, pill and fiction names (people rule,  |
-| 47,878 | 彵 | drop | diversity: in 39 documents, 0.06 of the 651 occurrences' random spread (threshol |  |
+| 4,443 | 杨欢 | review-drop | propn_band: tagged PROPN by the release (no case or dictionary evidence) |  |
+| 4,766 | 南安普敦 | review-drop |  |  |
+| 5,175 | 二〇〇二 | review-drop |  |  |
+| 6,418 | 曹 | review-drop |  |  |
+| 7,672 | 马克 | review-drop | propn_band: tagged PROPN by the release (no case or dictionary evidence) |  |
+| 7,767 | 瑞 | review-drop | propn_band: tagged PROPN by the release (no case or dictionary evidence) |  |
+| 13,257 | 周恩来 | review-drop | propn_band: tagged PROPN by the release (no case or dictionary evidence) |  |
+| 13,977 | 赵家 | review-drop |  |  |
+| 14,356 | 彩独胆 | review-drop | diversity: in 616 documents, 0.16 of the 3,913 occurrences' random spread (thres |  |
+| 14,729 | 三类 | review-drop |  |  |
+| 15,118 | 一万两千 | review-drop |  |  |
+| 17,349 | 两千八百 | review-drop |  |  |
+| 17,528 | 伊布拉希 | review-drop | propn_band: tagged PROPN by the release (no case or dictionary evidence) |  |
+| 19,854 | 战战 | review-drop |  | cut from 战战兢兢; examples are game jargon |
+| 22,018 | 传奇世界 | review-drop |  |  |
+| 24,626 | 热火 | review-drop |  |  |
+| 26,650 | 两万五千 | review-drop |  |  |
+| 27,419 | 一九三七 | review-drop |  |  |
+| 27,982 | 丹丹 | review-drop |  |  |
+| 28,368 | 王力宏 | review-drop | propn_band: tagged PROPN by the release (no case or dictionary evidence) |  |
+| 28,495 | 薇薇 | review-drop |  |  |
+| 31,241 | 雍 | review-drop | shape: length 1 |  |
+| 31,798 | 汉武帝 | review-drop | propn_band: tagged PROPN by the release (no case or dictionary evidence) |  |
+| 32,749 | 一九四二 | review-drop |  |  |
+| 32,907 | 帝俊 | review-drop | diversity: in 182 documents, 0.15 of the 1,182 occurrences' random spread (thres |  |
+| 33,572 | 小薇 | review-drop |  |  |
+| 35,035 | 两千零一十六 | review-drop |  |  |
+| 35,613 | 两百零四 | review-drop |  |  |
+| 35,766 | 马刺队 | review-drop | propn_band: tagged PROPN by the release (no case or dictionary evidence) |  |
+| 35,999 | 宏远 | review-drop |  |  |
+| 36,757 | 萧焚 | review-drop | diversity: in 56 documents, 0.06 of the 996 occurrences' random spread (threshol |  |
+| 37,397 | 凝冰 | review-drop | diversity: in 141 documents, 0.15 of the 970 occurrences' random spread (thresho |  |
+| 37,427 | 安琪 | review-drop |  | given name |
+| 38,489 | 陈老师 | review-drop |  |  |
+| 38,570 | 鲁班 | review-drop |  |  |
+| 39,297 | 大生 | review-drop |  |  |
+| 39,522 | 之二 | review-drop |  |  |
+| 40,403 | 华西都市报 | review-drop | propn_band: tagged PROPN by the release (no case or dictionary evidence) | regional paper |
+| 40,725 | 横山 | review-drop |  |  |
+| 41,194 | 亚伦 | review-drop | propn_band: tagged PROPN by the release (no case or dictionary evidence) |  |
+| 41,243 | 铁山 | review-drop |  |  |
+| 41,317 | 崎 | review-drop | shape: length 1 | only occurs inside names/words, no examples |
+| 42,003 | 聚宝 | review-drop |  | shop/company name, spam examples |
+| 42,202 | 贼兵 | review-drop |  |  |
+| 42,214 | 喆 | review-drop | shape: length 1 | Given-name character, only used in names |
+| 43,164 | 峰山 | review-drop |  | minor place name |
+| 44,490 | 欧阳修 | review-drop | propn_band: tagged PROPN by the release (no case or dictionary evidence) | person |
+| 44,840 | 三百一十二 | number-drop |  |  |
+| 44,913 | 果子吃 | review-drop |  | mis-cut fragment of 没有好果子吃 |
+| 47,420 | 亘 | drop | diversity: in 113 documents, 0.17 of the 661 occurrences' random spread (thresho |  |
 
 ## Merges (102)
 
@@ -431,10 +431,11 @@ Bands are positions in the cleaned list (the kept count), so a band holds what a
 | 金白银 | 真金白银 | cut-off piece of 真金白银 | agreed (screen3) |
 | 颠峰 | 巅峰 | variant spelling of 巅峰 | agreed (screen3) |
 
-## Questions for the developer (282 lemmas; first question per lemma)
+## Questions for the developer (283 lemmas; first question per lemma)
 
 # question 溧阳: county-level city, not prefecture-level and not clearly nationally famous like 义乌/昆山; kept as a known city (tourism, Nanjing Ming-era history), but call 1 would drop it if not nationally famous.
 # question 竹叶青: also a well-known tea and a baijiu-type liquor (common noun use); the counts show tea use, but I treated it as a minor brand and fictional character name
+# question 马扎: none of the examples shows the common sense (counts come from cut Italian names 马扎里诺/马扎里 and a mis-cut 马|扎上). Is a moderately common word kept when it is absent from the examples but not rare? Kept here on that reading.
 # question 一点红: also a name in fiction and company text; kept as the idiom 万绿丛中一点红
 # question 万家乐: appliance brand, borderline household name; dropped as a lesser brand
 # question 东阳市: Dongyang is county-level and known for Hengdian; unclear whether it counts as nationally famous like 义乌 and 昆山. I dropped it.
