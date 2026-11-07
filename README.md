@@ -53,7 +53,7 @@ original post-processing ideas the review report now carries on.
 | --- | --- |
 | `config.py` | typed manifest (pydantic): per-language data, never code branches |
 | `sources.py` | resumable HTTP stream, zstd/gzip/bz2, HPLT JSONL and TSV readers |
-| `hygiene.py` | length/alpha/stripped-link `GAP`, exact + normalised-line dedup, py3langid |
+| `hygiene.py` | length/alpha/stripped-link `GAP`, exact + normalised-line dedup, py3langid (with `langid_aliases`), Simplified-only (`simplified_only`: OpenCC `t2s`) |
 | `shards.py` | cut a stream into fixed-size shards; done-markers; skip finished shards |
 | `runtime.py` | load the backend and lemma release outside the app; run the sentence stage |
 | `counting.py` | the worker: runtime -> per-shard counts file and co-occurrence file |
@@ -291,6 +291,15 @@ manifest scales that source's frequency in the score (the Tatoeba blend knob); t
 re-sorts entries by their summed `frequency` whenever an override file is non-empty, which would
 silently undo a dispersion ranking. See the report's note in the pilot summary.
 
+### Chinese (zh)
+
+zh counts through `jieba-zh` with lemma release 1.6.4 (its segmenter decides the words; units give separable verbs
+and 成语). **Simplified only, never folded** (Honeyeater doc 06): with `hygiene.simplified_only` a line OpenCC
+`t2s` changes is dropped, and a document whose lines are at least `traditional_doc_share` (0.2) Traditional is
+dropped whole. `langid_aliases: [wuu]` keeps the Mandarin py3langid labels Wu. Both options stay out of a shard's
+config hash at their defaults, so es/de/ja shards keep their identity. With no case and no proper-noun dictionary,
+`propn_evidence: tag` reviews every PROPN-majority lemma. The run: `full/zh/steps.md`.
+
 ### Exclusions
 
 `corpora/exclude/<lang>.tsv` (`frequer/exclude.py`) is a reviewed list of lemmas the snapshot leaves
@@ -481,8 +490,8 @@ checked against `reference/licenses/{es,de,ja}.md`:
 | source | licence | obligation |
 | --- | --- | --- |
 | ParaCrawl en-es (es side) | CC0 | none |
-| HPLT v2 `deu_Latn` / `jpn_Jpan` cleaned | CC0 | none |
-| Tatoeba (spa, deu, jpn) | CC BY 2.0 FR (subset CC0) | attribute Tatoeba; recorded in each language's licence manifest |
+| HPLT v2 `deu_Latn` / `jpn_Jpan` / `zho_Hans` cleaned | CC0 | none |
+| Tatoeba (spa, deu, jpn, cmn) | CC BY 2.0 FR (subset CC0) | attribute Tatoeba; recorded in each language's licence manifest |
 
 A source can read files an earlier source already read to its cap, deeper: `skip_chars` skips each URL's
 documents by the same stopping test (`hplt-v2-de-deep` starts at exactly the document after `hplt-v2-de`'s

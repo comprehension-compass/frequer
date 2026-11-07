@@ -89,3 +89,15 @@ loaded es/de/ja snapshots added. No snapshot until the coordinator confirms the 
    `zh (dry run): 40000 ranked entries — 0 existing rows re-ranked, 40000 new, 0 demoted, 0 skipped; 147 unit
    headwords, 222 homograph keys [sha256 7c0748aebab2]`. No learnable names are appended (Honeyeater has no zh names
    list yet).
+
+## 9. Cut confirmation and the records (2026-11-07)
+
+1. The band files regenerated from the final list (`band-report.md`, glossed `band-samples.md`: corpus, split-half
+   and per-million tables, 25 glossed keeps per band to 45k, the last 60 before 40,000, the same positions in the
+   loaded es/de/ja lists). The call-25 drops pulled 马扎 into the window; round 11 kept it; nothing pending. The
+   top 40,000 equals `snapshots/zh.json` (sha256 `7c0748ae…`).
+2. DECISIONS: zh Simplified-only, R12 names, people/deities (call 25), the release's word cut. README: zh.
+3. Developer (via the coordinator): the 40k cut confirmed; the snapshot stands. **Open:** when Honeyeater #813
+   (`reference/learnable-names/zh.json`, built from `learnable-names.tsv` plus CLDR language names) merges, rebuild
+   with `append_learnable_names: true` and `--reference-root` at that commit, so every listed name not already on
+   the list gets an entry (ruling 2026-11-02), dry-run, and send the new sha256.
