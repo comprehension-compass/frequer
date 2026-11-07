@@ -100,10 +100,16 @@ apply the name rules above.
 3. **Companies and brands**: household-name companies and marques a reader meets by name in the news keep (华为, 阿里, 腾讯, 百度, 小米, 京东, 比亚迪, 丰田, 奔驰, 宝马, 宜家, and the major state-owned groups 中石油, 中石化, 中粮, 中铁, 国家电网); car models, product lines, lesser brands and companies drop (凯美瑞, 斯柯达 models; small firms). Major sports leagues keep (中超, 英超, NBA in Chinese 美职篮); clubs drop.
 4. **People drop, mythic and literary figures included** (盘古, 孙悟空, 孔子, 毛泽东): the people ruling stands. **Canonical works** a schoolchild learns by name keep as cultural landmarks (三国演义, 红楼梦, 西游记, 水浒传, 论语, 诗经); other titles drop.
 5. **Historical titles and offices** are ordinary words (司马 as an office, 太尉, 丞相): `keep` (a surname-only use still drops: see the surname rule).
-6. **Fused verb + complement words** the segmenter made (涌现出, 走出来) keep: the release's cut stands beside its #comp lemmas.
+6. **Fused verb + complement or particle**: a lexicalised verb + complement word the segmenter made keeps (看出, 想起, 涌现出 where it reads as one verb); a transparent verb + 出/到/起 complement, or a verb + aspect particle 着/了/过 or + 于 (流露出, 觉察到, 凝视着, 沉迷于), is the release's mis-cut (the guide splits them): `merge:` the verb.
 7. **Variant characters** (异体字: 飚 for 飙): `merge:` the standard Simplified form, as for a Traditional spelling.
 8. **Quarter and period words** (一季度, 二季度, 上半年) are words: keep. Number + measure word (三次, 四位) stays a drop.
 9. **Genre words** in wide use (修仙, 穿越, 玄幻) keep even when the examples are fiction; generic game names that are common nouns (百家乐 baccarat, 麻将) keep; titles of games drop.
 10. **A single character with no examples**: keep when modern Chinese uses it as a word on its own (dictionary standalone use, literary included); drop when it only occurs inside words or names.
+
+11. **Adverb or conjunction + 是**: dictionary words keep (只是, 还是, 就是, 于是, 但是, 正是, 竟是 as the release's cut); 无论是, 不管是 merge into 无论, 不管 (the guide splits them).
+12. **Number words**: fractions (三分之一), approximate pairs (三四, 七八), reduplicated 一 + measure (一个个, 一道道) and ordinal + measure (第三节) are spelled numbers or number + measure: `drop`. Number + 大 / 级 words with a meaning of their own keep (四大, 八大, 四级 and 六级 the exams).
+13. **Web-fiction words**: genre-internal common nouns that are not names keep (灵石, 丹药, 法宝, 散修); character, sect and place names of fiction drop.
+14. **A person's name that became an everyday common term** keeps (雷锋 in 学雷锋); otherwise people drop.
+15. **A lemma whose counts include another word** (故 also holding 固): decide by the lemma's own reading; the counts cannot be split here (listed for the lemmatiser).
 
 When the rules don't settle a case, still decide, and add a line `# question <lemma>: <what is unclear>`.
