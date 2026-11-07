@@ -114,3 +114,27 @@ and are listed in `learnable-multiword-names.tsv` (unit-training input). `snapsh
 sha256 `ba8d5325a1ed20c6cb8bc3206e9725dcbe0c02257f67ecebd44e0fc6266fe4ed`. `load_lemmas zh --dry-run` at `9da747a`:
 `zh (dry run): 40069 ranked entries — 0 existing rows re-ranked, 40069 new, 0 demoted, 0 skipped; 147 unit
 headwords, 222 homograph keys [sha256 ba8d5325a1ed]`.
+
+## 11. Recount through the registry guard (Honeyeater #820, 2026-11-07)
+
+#820 (head `259e4dd`, not merged at the time) makes the zh lemma step replace a model lemma whose key neither the
+homograph registry nor training knows (入#jiàn, 卡#zhòng) with the form's commonest listed lemma, or the form. That
+changes the runtime's per-token output, so the `8bc1817` shards could not be restamped: the same 120 shards were
+recounted at `259e4dd` (skip list `zh-shards-setup:skip/zh2.txt`), 8 parts on branches `zh2-shards-p*`; this
+machine's part 0 was killed by repeated container restarts after 7 of its 15 shards, and its last 8 were counted by
+two further sessions (`zh2a`/`zh2b` skip lists, branches `zh2a-`/`zh2b-shards-p0`, without co-occurrence). frequer
+`dcb22cd` hands the release the registry as `nlp.lemma_releases._lemmatiser` does (without it, registered keys
+training never saw would fold too).
+
+Build at frequer `dcb22cd`, runtime `259e4dd`, `--reference-root` Honeyeater main `7e4a448`: **818,620,585 tokens**
+(8,751 fewer: tokens the guard maps to lemmas the pattern does not count); `snapshots/zh.json` 40,069 entries,
+sha256 `f2d8fe9456a0c9f4d9c55c4e4e18ae5cadcb518ba685d6e1ff407e59d02bcc7b`; `load_lemmas zh --dry-run` at `7e4a448`:
+40,069 new, 0 skipped; 147 unit headwords, 166 homograph keys (was 222). Against `ba8d5325`: 56 keyed entries gone
+(入#jiàn, 卡#zhòng, 落#comp …), 56 entered at the tail (all inside the reviewed 40.5k window), no new entries in the
+top 10k; 6,881 top-10k entries moved, 15 by 50 ranks or more (the gaining lemmas: 入#comp 428 → 334, 卡#kǎ 1,636 →
+1,296, 落#là, 空#kōng, 背#bèi).
+
+**Open:** 23 keys outside the registry remain (书面#noodle, 成功率#lǜ, 打卡#kǎ, 流云#cloud …). They are one-token
+compounds (`compound1`) whose headword the unit splitter (`nlp/unit_splitter.py` `split`) builds as the modifier plus
+the head part's *lemma*: 书面 → 书 + 面, 面's commonest lemma `面#noodle` → `书面#noodle`. The word stage itself
+gives 书面. A fix there changes the runtime again (a recount).
