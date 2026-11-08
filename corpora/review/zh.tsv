@@ -15814,3 +15814,63 @@ baidu.com	drop	Latin script/domain
 炎帝	drop	coordinator: a legendary person, as 黄帝, 尧, 舜, 禹 (call 4; redecided, was keep)
 # round 11 (the edge after the call-25 re-decisions)
 马扎	keep	马扎 (folding stool) is an everyday common noun, so it is not "rare"; the name and mis-cut examples do not make the real word junk
+# round 12 (the 22 keys new to the 40k after the splitter-fix recount; the keyed forms were release entries, never screened)
+书面	keep	ordinary word (written form), common
+关卡	keep	ordinary noun (checkpoint, game level)
+发生率	keep	word the segmenter made, ordinary vocabulary
+计划表	keep	release's cut word, plan schedule
+使用率	keep	release's cut word, usage rate
+登记表	keep	release's cut word, registration form
+打卡	keep	common word, separable verb unit
+碰面	keep	ordinary word, meet up
+变种	keep	ordinary word, variant/mutation
+照面	keep	dictionary word, encounter
+水表	keep	ordinary word, water meter
+树种	keep	ordinary word, tree species
+人面	keep	real word (human face, literary), also the piece of 人面桃花/人面兽心; call 23 keeps real-word pieces and the release's cut stands
+点卡	keep	real word, game time card
+工作面	keep	real word (work face/surface)
+冒烟	keep	ordinary verb-object word
+用表	merge:万用表	mis-cut: every example is 万用表 (multimeter), so that word plainly carries the counts
+破处	drop	adult jargon made frequent by spam
+偷东西	keep	ordinary verb-object phrase, release's unit
+调查表	keep	release's cut word, survey form
+语种	keep	ordinary word, language type
+人烟	keep	ordinary word, signs of habitation
+# round 13 (flagged lemmas new to the window after the splitter-fix recount)
+噌	keep	onomatopoeia in ordinary use (噌的一声)
+警惕性	keep	ordinary noun (vigilance); PROPN tag is a tagger error
+俞正声	drop	person's name
+张玉宁	drop	person's name (footballer)
+旅行包	keep	ordinary common noun (travel bag); spam examples don't matter
+武士刀	keep	ordinary common noun (samurai sword)
+# round 13s (suspects among 52 keeps new to the window after the recounts)
+北京航空	drop	mis-cut piece of 北京航空航天大学; no single word carries counts
+匾额	keep	ordinary noun (inscribed board); POS tag irrelevant
+司马迁	drop	historical person
+咣当	keep	real onomatopoeia word
+国奥	drop	abbreviation for national Olympic team; sports team
+建成投产	keep	segmenter's word, ordinary vocabulary, not junk
+法轮大法	drop	cult name/slogan, spam-like propaganda text
+贵方	keep	real polite pronoun ("your side")
+迷昏药	drop	spam-driven compound, jargon only web spam makes frequent
+雅芳	drop	Avon is not a household-name marque in today's news, and two of the three examples are given names (图恩雅芳, 孙雅芳)
+两截	drop	number + measure glued (两 + 截 "two sections"), not a dictionary word; 一截 / 两截 are productive like 三个
+哼道	drop	fiction dialogue tag, verb + 道 fragment
+圆睁	keep	real verb (to open wide), ordinary vocabulary
+宏基	keep	Acer (宏碁) is a household-name Taiwanese brand on a par with 华硕 under call 17, and the example shows ordinary computer talk
+抹胸	keep	ordinary clothing word (tube top)
+搓揉	keep	real verb (to rub, knead)
+斑斑	keep	real reduplicated word (spotted, stained), as in 血迹斑斑
+毛子	drop	slur for Russians/foreigners
+水立方	keep	famous landmark in Beijing (Water Cube)
+# round 14 (cascade)
+狭	keep	standalone word (narrow), as in 狭窄; literary/formal use
+罗莎	drop	personal given name (Rosa), names in examples only
+# round 14s (cascade)
+类产品	merge:产品	mis-cut across a word boundary (圆弧类|产品, 电子商务类|产品); 产品 is the whole word and carries the meaning (rule 24)
+红砖	keep	ordinary common noun (red brick); duplicate surface is just a variant form of the same word
+织田	drop	Japanese surname/name fragment (Oda), not a common word
+# round 15s (cascade)
+萧山区	drop	district of Hangzhou, not nationally famous; suffixed form follows the place (call 1, 2)
+贡献度	keep	segmenter's word cut; a real compound meaning "degree of contribution", kept as the release's word
