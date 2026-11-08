@@ -15,7 +15,7 @@ case "$LANG_CODE" in   # the lemma release each language counts with (its wheel 
       SYNC_GROUP=() ;;
   zh) WHEEL=honeyeater_lemma_zh-1.6.4-py3-none-any.whl
       WHEEL_SHA=27abd5c0320580550aad309c25eab062f1f53dd15f6132650a454b7858d75f91
-      HE_COMMIT=259e4dd56192d4170818eba59d59bf5311900110   # Honeyeater #820 head: zh 1.6.4 with the registry guard (was 8bc1817)
+      HE_COMMIT=557148c3d5971bfe30650ab07c031413d1282e1c   # Honeyeater main: zh 1.6.4, registry guard (#820) and splitter fix (#829)
       SYNC_GROUP=() ;;
   de) WHEEL=honeyeater_lemma_de-1.5.1-py3-none-any.whl
       WHEEL_SHA=f14d4d64be671ac155c5dc6f9c67d98e851ee9e507e27c2705ad0338c27f7822
