@@ -134,10 +134,21 @@ sha256 `f2d8fe9456a0c9f4d9c55c4e4e18ae5cadcb518ba685d6e1ff407e59d02bcc7b`; `load
 top 10k; 6,881 top-10k entries moved, 15 by 50 ranks or more (the gaining lemmas: 入#comp 428 → 334, 卡#kǎ 1,636 →
 1,296, 落#là, 空#kōng, 背#bèi).
 
-**Open:** 23 keys outside the registry remain (书面#noodle, 成功率#lǜ, 打卡#kǎ, 流云#cloud …). They are one-token
-compounds (`compound1`) whose headword the unit splitter (`nlp/unit_splitter.py` `split`) builds as the modifier plus
-the head part's *lemma*: 书面 → 书 + 面, 面's commonest lemma `面#noodle` → `书面#noodle`. The word stage itself
-gives 书面. A fix there changes the runtime again (a recount).
+Interim: Honeyeater #828 loaded this snapshot (`f2d8fe94`); 23 keys outside the registry remained (书面#noodle,
+成功率#lǜ, 打卡#kǎ …), one-token compounds whose headword the unit splitter built as the modifier plus the head
+part's *lemma* (书面 → 书 + 面#noodle). Honeyeater #829 fixed the splitter.
+
+**Final recount at Honeyeater main `557148c`** (#820 guard + #829 splitter fix + #830, 2026-11-08): the same 120
+shards; Tatoeba counted here with co-occurrence, the rest by nine sessions (parts 1-7 on `zh3-shards-p*`, part 0's
+HPLT shards in two halves on `zh3a-`/`zh3b-shards-p0`, without co-occurrence), since container restarts kept killing
+long counts here. The 23 compounds now count as bare words. Their bare keys had never been judged (the screener
+leaves the release's keyed entries out), so they went through the protocol with the window's new entrants (rounds
+12-15: 破处 drop, 用表 → 万用表, names, slurs and mis-cuts drop; the last keep to enter the margin, 铣刀, read by the
+coordinator). Build at frequer `903dcc8`: **818,620,667 tokens**; `snapshots/zh.json` 40,069 entries, sha256
+`b1a44d12dc10b33ce34f071994de5a9d3cdcb88071836a30f034e72451c10830`; **0 keys outside
+`reference/homographs/zh.json`** (143 homograph keys, all registered); `load_lemmas zh --dry-run` at `557148c`:
+`40069 ranked entries — 0 existing rows re-ranked, 40069 new, 0 demoted, 0 skipped; 147 unit headwords (12
+constructions), 143 homograph keys [sha256 b1a44d12dc10]`. Kept rank 40,000: 币种 (f 724).
 
 **To recount again** (after the splitter fix; coordinator 2026-11-07: same build, registry check must pass): set
 `HE_COMMIT` for zh in `scripts/remote-part.sh` to the fixed Honeyeater commit; count the same 120 shards with
