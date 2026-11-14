@@ -18690,3 +18690,72 @@ G20峰会	drop	contains Latin letters and digits
 黄南	keep	autonomous prefecture (call 1)
 龙袍	keep	ordinary noun "imperial robe"
 伤口处	keep	the release's cut word
+# round 18 (cascade)
+山涧	keep	ordinary noun, mountain stream
+感知力	keep	ordinary word, perception ability
+抗疲劳	keep	ordinary term, anti-fatigue
+曼陀罗	keep	real plant word (datura), common noun
+李弘	drop	person name
+沓	keep	real standalone measure word (a stack)
+脚后跟	keep	ordinary noun, heel
+英国广播公司	keep	famous broadcaster (BBC)
+郑洲	drop	mis-cut; lemma is 郑 surname, counts are a name piece (郑州 not obvious)
+长江路	drop	street name
+顾小艾	drop	fictional character name
+马塞洛	drop	person name
+马腾	drop	historical person name
+写作文	keep	verb-object unit, ordinary phrase
+开发板	keep	ordinary technical noun
+王陌	drop	person name
+秦阳	drop	fictional character name
+穆浩	drop	fictional character name
+苏有朋	drop	person name
+刘浪	drop	person name
+坦桑尼亚	keep	country
+罗睺	drop	mythic figure/astral name, not a deity worship use in examples; fiction character
+藏传	keep	real word in 藏传佛教, ordinary modifier
+防御工事	keep	ordinary noun, fortifications
+阿布扎比	keep	well-known city abroad, capital of UAE
+休息日	keep	ordinary noun, rest day
+储藏室	keep	ordinary noun, storeroom
+唐恩	drop	fictional character name
+奥委会	keep	established abbreviation of Olympic committee
+贝齿	keep	real literary word, pearly teeth
+中央美术学院	keep	nationally famous university
+# round 18s (cascade)
+包小包	merge:大包小包	mis-cut of 大包小包
+港城	drop	nickname for port city, minor
+神户	keep	Kobe, well-known foreign city
+金靴	keep	Golden Boot, ordinary sports word
+雄县	drop	county-level place
+飞燕	keep	swallow in flight, real word
+高尔基	drop	person
+乌海	keep	prefecture-level city
+双塔	keep	ordinary word (twin towers / twin centres)
+团糟	merge:一团糟	cut-off piece of 一团糟
+洗洗	keep	reduplicated verb, ordinary word
+程家	drop	surname + 家
+类食品	merge:食品	mis-cut across a word boundary (肉类|食品, 6类|食品); 食品 is the whole word and carries the meaning (call 24)
+踏空	keep	real word (step into void; miss a rally)
+南关	drop	minor place/district
+双眉	keep	real word, both eyebrows
+成丹	keep	web-fiction common term
+毕露	keep	real word (as in 锋芒毕露, 曲线毕露)
+离心式	keep	real technical word
+阻塞性	keep	real word, obstructive
+魏忠贤	drop	historical person
+俯下	merge:俯	transparent verb + 下 complement, not a dictionary word (the lexicalised forms are 俯身/俯下身); 俯 stands alone in literary prose (call 6)
+内陷	keep	real word, sink inward
+刘鹤	drop	person
+君不	merge:君不见	cut-off piece of 君不见
+彩钢	keep	real word, colour-coated steel
+昔年	keep	real literary word
+本杰明	drop	given name
+李沧	drop	district
+梁子	keep	common sense 梁子 (feud, 结梁子) in examples
+樟木头	drop	town
+横线	keep	real word, horizontal line
+真金	keep	real word, pure gold (真金不怕火炼)
+脑壳	keep	dialect but common word, head
+那群	drop	demonstrative + measure word, like number + measure (三个); neither 那 nor 群 alone carries the meaning, so drop as 那伙 was in round 17 (call 24)
+龙枪	drop	fiction item name
