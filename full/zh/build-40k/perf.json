@@ -1,121 +1,121 @@
 {
  "language": "zh",
  "scope": "full",
- "tokens": 818620667,
+ "tokens": 818671745,
  "documents": 1049587,
- "lemma_types_ranked": 148695,
- "snapshot_entries": 40069,
+ "lemma_types_ranked": 147173,
+ "snapshot_entries": 40061,
  "stages": [
   {
    "stage": "fetch_decode",
    "what": "download, decompress, parse (main process)",
-   "core_seconds": 471.08,
-   "tokens_per_second": 1737737
+   "core_seconds": 355.92,
+   "tokens_per_second": 2300186
   },
   {
    "stage": "hygiene",
    "what": "length/alpha/GAP/dedup filters (main process)",
-   "core_seconds": 2781.26,
-   "tokens_per_second": 294335
+   "core_seconds": 2751.02,
+   "tokens_per_second": 297588
   },
   {
    "stage": "langid",
    "what": "py3langid (main process)",
-   "core_seconds": 2473.1,
-   "tokens_per_second": 331009
+   "core_seconds": 2387.94,
+   "tokens_per_second": 342836
   },
   {
    "stage": "read_shard",
    "what": "read the cleaned shard file (worker)",
-   "core_seconds": 59.38,
-   "tokens_per_second": 13787274
+   "core_seconds": 57.15,
+   "tokens_per_second": 14325528
   },
   {
    "stage": "segment",
    "what": "backend sentence segmentation (worker; German: the full parse)",
-   "core_seconds": 201.23,
-   "tokens_per_second": 4068058
+   "core_seconds": 209.08,
+   "tokens_per_second": 3915512
   },
   {
    "stage": "sentence_stage",
    "what": "analyse_sentence minus the release: tokenize, candidates, numbers, unit merge (worker)",
-   "core_seconds": 190201.98,
-   "tokens_per_second": 4304
+   "core_seconds": 197370.01,
+   "tokens_per_second": 4148
   },
   {
    "stage": "lemma_step",
    "what": "the release's lemma + UPOS (model on every sentence) (worker)",
-   "core_seconds": 35399.31,
-   "tokens_per_second": 23125
+   "core_seconds": 37232.31,
+   "tokens_per_second": 21988
   },
   {
    "stage": "units",
    "what": "the release's unit step: list candidates, spancat, parts list, splitter (worker)",
-   "core_seconds": 24650.77,
-   "tokens_per_second": 33209
+   "core_seconds": 26398.85,
+   "tokens_per_second": 31012
   },
   {
    "stage": "count",
    "what": "tally lemmas, forms, POS, readings, units (worker)",
-   "core_seconds": 2650.59,
-   "tokens_per_second": 308845
+   "core_seconds": 2700.29,
+   "tokens_per_second": 303179
   },
   {
    "stage": "cooc",
    "what": "co-occurrence n-grams, pairs, marginals (worker)",
-   "core_seconds": 2.11,
-   "tokens_per_second": 387798193
+   "core_seconds": 1.77,
+   "tokens_per_second": 462495570
   },
   {
    "stage": "cooc_write",
    "what": "write the sorted co-occurrence file (worker)",
-   "core_seconds": 0.74,
-   "tokens_per_second": 1100384394
+   "core_seconds": 0.68,
+   "tokens_per_second": 1203141119
   },
   {
    "stage": "worker_total",
    "what": "everything a worker does per shard",
-   "core_seconds": 254484.22,
-   "tokens_per_second": 3217
+   "core_seconds": 265311.39,
+   "tokens_per_second": 3086
   }
  ],
  "build_seconds": {
-  "merge": 340.29,
-  "rank": 16.29,
-  "snapshot": 3.95,
-  "cooc": 0.71,
-  "report": 70.96
+  "merge": 303.88,
+  "rank": 13.49,
+  "snapshot": 3.41,
+  "cooc": 1.92,
+  "report": 57.12
  },
- "worker_peak_rss_mb": 1419,
- "build_process_peak_rss_mb": 1604,
+ "worker_peak_rss_mb": 1354,
+ "build_process_peak_rss_mb": 1600,
  "host_tokens": 0,
  "occurrence_kinds": {
-  "word": 806196688,
-  "compound1": 4941046,
-  "phrase": 3226624,
-  "construction": 3957374,
-  "compound": 298935
+  "word": 803221427,
+  "compound1": 7115584,
+  "phrase": 3187688,
+  "construction": 4732344,
+  "compound": 414702
  },
- "uncounted_occurrences": 11238653,
+ "uncounted_occurrences": 10509336,
  "sentences": 41099091,
- "units_found": 5031,
+ "units_found": 9889,
  "cooc": {
-  "merged_rows_at_min_count": 21069,
-  "scored": 12164,
+  "merged_rows_at_min_count": 21163,
+  "scored": 12237,
   "by_kind": {
-   "n2": 8036,
-   "n3": 3524,
-   "n4": 604
+   "n2": 8085,
+   "n3": 3551,
+   "n4": 601
   },
-  "shipped_rows": 8087,
-  "table_bytes": 130299,
+  "shipped_rows": 8122,
+  "table_bytes": 130801,
   "queue_rows": 2000
  },
  "checks": {
-  "form_ratio": 190,
+  "form_ratio": 212,
   "plural": 0,
   "consistency": 2,
-  "short": 1620,
+  "short": 1491,
   "case": 0
  },
  "excluded_from_top_n": 0,

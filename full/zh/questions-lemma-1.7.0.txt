@@ -1,0 +1,294 @@
+## round16
+# question 上半: counts may belong to 上半年/上半场, but examples are garbled spam so no clear merge target; dropped.
+# question 上半: examples are garbled spam; 上半 could be a real word piece (上半年, 上半场) but no single whole word is plainly carried
+# question 东岳: also a name for Mount Tai (泰山) in literary use; examples show only a branch name, a person and a classical quote, so dropped.
+# question 东岳: also a name for Mount Tai in literary use (the Eastern Peak); counts here are a bank branch and a given name, so dropped as rare
+# question 中王: no examples; could be a piece of a longer word or name, dropped as unattested
+# question 中甲: league is second-tier (China League One); treated as a major league under call 3, not a club.
+# question 中甲: league is second-tier; treated as a major league under call 3 rather than a club.
+# question 中证: borderline between finance institution abbreviation (中证指数公司) and cut piece; kept as well-known finance-news word.
+# question 中证: kept as abbreviation of 中证指数 institution; the examples only show it as part of 中证指数有限公司
+# question 中青: abbreviation of 中国青年报 / 中青在线; dropped as a cut-off piece, though a national paper might keep under call 16.
+# question 乐视网: borderline household-name test (company in decline, but widely known as a video platform); kept.
+# question 九重天: counts mix spam and fiction (武神九重天) but "ninth heaven" is a real word.
+# question 二十大: kept as an established abbreviation, though it is a named event (Party Congress); rules do not mention it explicitly.
+# question 京: no examples; kept as standalone dictionary word (Beijing abbreviation, 京 as 10^16), but counts may be mostly in names.
+# question 京: no examples; kept as standalone word under call 10 (Beijing abbreviation / number).
+# question 元力: call 13 keeps genre-internal common nouns (灵石, 丹药); 元力 reads as a fantasy energy term used generically, so keep may be the better call, but it was dropped here as uncertain between a common noun and a setting-specific term.
+# question 元力: fiction "energy" term could count as a genre common noun (call 13) like 灵石; dropped since it is a made-up power-system word with no established general use.
+# question 八九: rule 12 drops approximate pairs (三四, 七八), but 八九 is a different case with 十之八九; kept anyway, uncertain.
+# question 分分: examples missing; judged as real reduplicated word (分分钟 cut / 分分) but unsure what the lemma actually covers
+# question 刘诗: the merge target 刘诗诗 is a person's name, which the rules drop; I chose merge per the cut-off-name instruction, but drop may be intended.
+# question 前苏联: kept as a territory name, though it is the 前 + 苏联 form of a defunct state
+# question 华强北: treated as a nationally famous commercial area, not as a minor street or district.
+# question 占中: abbreviation of a political movement; kept as news term, could be treated as a proper noun event name
+# question 占中: it is a named political event, but also an ordinary news abbreviation of 占领中环; kept as vocabulary.
+# question 可儿: counts mix names (朱可儿) and the broken 可爱 variant 可儿; dropped as no clear single word.
+# question 启示录: could be the Book of Revelation (religious scripture, ordinary word 启示录 "apocalypse") rather than a work title; dropped as a title since examples are mixed titles.
+# question 周公: counts come from the dream-dictionary name 周公解梦; treated as a person, not a deity
+# question 周公: counts come from 周公解梦 (dream-interpretation); treated as the historical person, though 周公 also appears as a dream-god figure.
+# question 唐德: counts are mixed between a person's name and the company 唐德影视; dropped as a minor company/name.
+# question 唐风: also a common term for Tang style (唐风 as 'Tang-era style'), but the examples show only names, so dropped.
+# question 嗓: all examples are 开嗓, and 嗓子 is the usual standalone word; I dropped it rather than merge into 开嗓.
+# question 嚣: rule 10 on single characters with no examples is not exactly applicable; literary standalone use is rare, so dropped
+# question 国土局: abbreviation of 国土资源局 kept as ordinary institutional vocabulary; could be seen as a minor local body name.
+# question 塔利班: an armed group/organisation rather than a state body or party; kept as a news-famous named organisation, but the rules do not list militant groups.
+# question 塔利班: treated as a named group/organisation in the news, kept under the "named groups" and famous organisations rulings; not explicitly covered.
+# question 大不大: A-not-A frame of 大; kept as the release's cut but could be argued a mis-cut of 大
+# question 大城: only two examples, one a firm name and one "Japan's 13th largest city"; unclear whether "big city" sense is in use.
+# question 大英帝国: historical state name rather than a modern country; kept as a place/polity name a reader meets.
+# question 大风车: TV show title and a basketball dunk sense; titles drop but the common sense is rare, decided drop.
+# question 天不怕地: merge target 天不怕地不怕 assumed to be the list's lemma; confirm it exists.
+# question 天外天: ordinary phrase "beyond the heavens" vs fiction realm name; kept as ordinary word but could be web-fiction place name (call 13)
+# question 安全卫士: 360 安全卫士 is a well-known everyday product, but examples also show a generic phrase; dropped as a minor product
+# question 宝来: no examples; treated as a car model/name (VW Bora) so dropped, though it could be a common word.
+# question 小灵通: a defunct product, kept as an everyday-use term that readers still meet.
+# question 小灵通: kept as a household-name product; could also be read as a minor product, so the rules leave it unclear.
+# question 山中: could be read as the ordinary locative phrase "in the mountains", but counts are mostly names (山中井野), so dropped.
+# question 山中: ordinary phrase "in the mountains" (山 + 中) vs. name 山中井野; dropped as likely a cut, could be kept as a word.
+# question 布下: 下 may be a transparent complement (布+下); kept as lexicalised verb since 布下 is used as one verb meaning to deploy.
+# question 带天窗: could also be dropped as a mis-cut with no obvious carrier; merged into 天窗 on the assumption it is on the list
+# question 广西南宁: could be merged into 南宁, but the counts cover a province plus city string, so I dropped it.
+# question 彩概率: mis-cut of 时时彩概率; no single whole word clearly carries the counts, so dropped
+# question 往前: no examples; kept as an ordinary word (adverb + verb cut, rule 22)
+# question 徒然: examples mostly use it as a misspelling of 突然 (fiction), but the standard word 徒然 exists, so kept on its own reading.
+# question 徒然: examples mostly use it as a variant of 突然 (e.g. 徒然卷起), but 徒然 is a real word meaning "in vain", so it is kept rather than merged.
+# question 朝日: counts mix 朝日新闻/朝日电视台 names and the rare 朝日 "toward the sun"; kept as a real word, could drop as a name.
+# question 欧姆龙: examples are industrial-component spam, but the company is a well-known foreign brand, so kept
+# question 毛泽东思想: contains a person's name but is a political doctrine term, kept as a fixed expression
+# question 毛泽东思想: contains a person's name, but it is an established doctrine term, not a person; kept.
+# question 氟磷酸锂: counts appear to come from 六氟磷酸锂 (the lemma is a cut of it); kept as a chemical term, but it may be a mis-cut if 六氟磷酸锂 is on the list.
+# question 求职网: generic word 求职网 (job-search site) with boilerplate examples; dropped as a site name, but could be read as an ordinary compound.
+# question 沪港通: kept as a named financial scheme in news, not clearly covered by the name categories.
+# question 沽: could be kept as a literary standalone (沽酒) but examples show only 沽空; dropped.
+# question 湘南: regional name (southern Hunan) rather than a province, city or major landmark; kept as a major region.
+# question 猫和: only 猫和老鼠 examples; treated as a mis-cut of a work title, with no single word to merge into on the list.
+# question 玄冥: also a mythic water deity in Chinese lore, but examples are fiction/game names, so dropped
+# question 瓦努阿图: counts are 3,282 as 瓦 (watt/tile) and only 360 as 瓦努阿图; kept for the country name, but the counts look mixed (rule 15).
+# question 瓦努阿图: counts are mostly 瓦 (3,282) against 瓦努阿图 (360), so the lemma's frequency is mostly another word; decided by the lemma's own reading as a country.
+# question 祖师爷: counts may include fictional sect founders; kept as a common term for founder/patron master
+# question 穷奇: mythical beast; kept as common noun, though examples also use it as fiction character label.
+# question 穷奇: mythical creature rather than person; kept, but examples are web-fiction
+# question 第七条: ordinals 第一 to 第三十 stay, but this is a legal-article number; kept as ordinal word, unclear whether 第N条 counts as ordinal + measure (call 12 would drop)
+# question 类目的: lemma spelling 类目的 never occurs as written; all counts are 类目, so merged to 类目 (assuming 类目 is on the list).
+# question 英语六级: kept by analogy with the 四级/六级 exam ruling (call 12); the rules do not say whether a prefixed exam name counts.
+# question 莫三比克: the lemma is written 莫 (22,302) vs 莫三比克 (9); I merged into 莫 as the counts are the 莫 word, but the country name itself would keep if the list holds it separately.
+# question 莫三比克: the lemma's counts are almost all 莫 (22,302 of 22,311), so it is filed as a mis-cut of 莫 even though 莫三比克 (Mozambique) is a real country name; merged because the lemma's surface counts are the single character.
+# question 谣: no examples; kept under call 10 on weak dictionary standalone use (as in 民谣 compounds, rarely alone).
+# question 越西兰: lemma shown as 越 in "written as" with no examples; mis-cut name or broken form, dropped
+# question 酬: used mostly as a piece of 报酬/酬劳 and in 难酬; kept as a literary standalone verb, but could be a cut piece.
+# question 陈诉: examples all read as 陈述/报告 garbled text spin; merged to 陈述 guessing the list holds it.
+# question 陈诉: the examples read as spun text where 陈诉 stands in for 报告 (also 处置惩罚 for 处置); I dropped it rather than merge into 报告.
+# question 陛: no examples; kept as a literary standalone noun (the steps to the throne), though it mostly occurs in 陛下.
+# question 陛: no examples; kept under call 10 because 陛 is literary standalone only in 陛下, which is borderline.
+# question 雷神: could be Thor (a character, drop) or a thunder god; examples are Marvel and brand text; kept as a deity under rule 25.
+# question 雷神: examples are Marvel Thor, product names and a sound effect, but the lemma is also the thunder god, so kept under the deity rule (R25).
+# question 霍然: counts may be mostly the surname/name 霍然; kept for the adverb sense shown in examples
+# question 青松: counts look like brand/name uses, but 青松 "green pine" is a common literary phrase; dropped as name-dominated.
+# question 香港特别: the release may hold 香港特别行政区 or 香港 as its lemma; I merged into 香港特别行政区 on the examples, but if the list has no such lemma, 香港 would be the target.
+# question 马会: no examples shown; judged as the Jockey Club/gambling-spam name rather than a word for 'horse meeting'.
+# question 马会: no examples; read as spam-driven 香港马会 name, though 马会 could mean a riding club in general
+# question 鲁教版: textbook edition label, treated as template text rather than a real word.
+# question 市民政局: is 市/省/县 + institution (市民政局, 省教育厅) a call-2 suffixed form whose cut stands, or a call-24 mis-cut to merge?
+# question 斗不过: verb + potential complement (V不过, V得过, V不了) fused by the segmenter isn't covered by call 6; keep as the release's cut, or merge into the verb?
+# question 莫三比克: this is the Taiwan spelling (the mainland form is 莫桑比克); should Taiwan-variant place names keep, or merge into the mainland form like Traditional or variant spellings?
+## screen16
+# question 一声: it is a dictionary word (first tone, 一声不响), but no examples are available; dropped as number + measure.
+# question 一环: kept as the noun "a link/part" (重要一环); the number + measure rule could be read to drop it.
+# question 三室: housing-ad number + noun; kept as a word with its own meaning (3-bedroom)
+# question 三室: housing-listing term (number + measure-like), kept as a word in its own right; the rules on number + measure could also drop it
+# question 下定: a transparent verb + complement, or a lexicalised one as in 下定决心? Kept as lexicalised.
+# question 不亚: the target 不亚于 may not exist as a lemma in the list; if absent, drop would be the fallback
+# question 个劲地: the merge target 一个劲地 is assumed to be a lemma in the list; if it is not, drop.
+# question 临死前: 临死 + 前 is transparent but a segmenter word; kept under the release's-cut rule
+# question 久经: adverb + verb fused from 久经考验; could be treated as a fragment, kept as a dictionary word
+# question 久经: merged into 久经考验 on the same assumption.
+# question 九重: examples mix 九重 as a word (nine-fold, 九重天) with 李九重回 and 九重武徒 (fiction rank); kept on the common sense
+# question 了算: no example in the sample; the 说了算 reading is inferred from the screener's note
+# question 了算: no examples; probably 说了算, but I could not confirm, so I dropped it rather than merging.
+# question 交银: 交银 is a short form of 交通银行 and is also ordinary 交 + 银 in the examples; if the list wants major-bank abbreviations kept, this may flip to keep.
+# question 京华时报: nationally known paper (closed 2016) or regional? Treated as regional.
+# question 低着头: no rule covers verb + 着 + noun exactly; applied call 6 by analogy, dropping rather than merging since 低头 is not clearly carrying the counts.
+# question 倒: no examples; kept as the standalone adverb/verb 倒 under rule 10
+# question 偏弱: 偏 as degree adverb (call 22) would make this a merge into 弱; kept because 偏弱 is a standard finance/assessment term.
+# question 共产: no examples to show whether the counts come from 共产党 or 共产主义; dropped as a fragment.
+# question 农副: merge target 农副产品 assumed to be in the list; 农副 might otherwise be an ordinary abbreviation word to keep
+# question 冠军杯: could be read as a competition title (drop) or the common noun; kept as the common noun.
+# question 冠军杯: generic noun or event title? Kept as a common word.
+# question 冰河: kept as a common noun (冰河世纪, 铁马冰河), though one example is a company name
+# question 冷冷地: reduplicated adverb + 地; rules 22 and 6 don't cover this case directly, so I merged it into 冷冷 on the grounds that the guide splits 地.
+# question 冷冷地: the rules say nothing on a reduplicated adjective with 地 glued on. Merged into 冷冷 by analogy with the other mis-cut forms.
+# question 净流: could merge to 净流入 but that lemma isn't shown in the list, so dropped.
+# question 准提: Buddhist bodhisattva name, but the examples are Fengshen/洪荒 fiction, so I treated it as a character and dropped it.
+# question 准提: a Buddhist bodhisattva name (准提菩萨) but here a fiction character; dropped as a person
+# question 几分: no examples available; kept as a standalone word per rule 10.
+# question 分不清: potential-form phrase; unclear whether the guide splits it into 分 + 不清; decided keep
+# question 别怕: could count as a dictionary-style phrase; merged under rule 18.
+# question 前两: no examples; read as 前两 + measure/noun fragment, dropped.
+# question 前因: no examples found; kept as a dictionary word (前因后果)
+# question 劫后: kept under rule 23 as a real-word piece of 劫后余生; if the lemmatiser treats it as a mis-cut, merge into 劫后余生 instead.
+# question 十一五: a named plan period (十一五规划), but built only of number words, so dropped under the numbers rule
+# question 十八届三中全会: event name not covered by the names list; kept as the release's own long fixed term.
+# question 华帝: borderline household-name appliance brand; I dropped it under the lesser-brand rule.
+# question 可图: counts come from 有利可图, 暴利可图 and 无利可图; I dropped it because no single listed word plainly carries them.
+# question 可没: counts come from 功不可没, but 可没 is also a colloquial phrase; dropped as a mis-cut since no whole word carries the counts
+# question 可测: examples hold 深不可测, 不可测 and 可测成份; no single whole word plainly carries the counts, so dropped
+# question 周恩: I chose merge:周恩来 in line, but 周恩来 is a person (drops) and not necessarily a listed lemma; if it is not in the list, this should be drop.
+# question 囊卵巢: 多囊卵巢 not shown in the list; merge assumes it exists, otherwise drop.
+# question 因私: could be seen as a mis-cut of 因私出境, but it is a dictionary word (因私 vs 因公), so kept.
+# question 国公府: could be fiction-place name; kept as a common historical-office residence noun
+# question 国公府: fiction examples but a real historical term; kept
+# question 国际在线: famous state-media site of China Radio International; ruled as a website name (drop), but could count as a broadcaster-affiliated institution under call 16.
+# question 多普勒: a physicist's name, but it appears in the everyday term 多普勒超声, so I kept it under rule 14.
+# question 多普勒: foreign scientist's name, but the counts are the common term 多普勒超声; kept under the name-plus-common-sense rule.
+# question 大师姐: kept as a common title word, though examples are fiction
+# question 大足: county-level place, kept as nationally famous via 大足石刻; borderline.
+# question 太白: a piece of 太白金星 and also a courtesy name, with no clear everyday sense; dropped, but could be kept under the real-word-piece rule
+# question 头戴: could be seen as a fragment of 头戴式; kept as modifier word
+# question 婴期: merge target 元婴期 assumed to be in the list; drop if it is not
+# question 安全部: could be a department of its own or a piece of 国家安全部; examples mostly show the ministry's full name, so I merged it.
+# question 安拉: counts mix 阿拉 and 安拉 (the 阿拉巴 example is a footballer's name); decided on the Allah reading
+# question 己身: no examples found; kept as a literary reflexive word, may be a cut piece of a longer word
+# question 弑神: a real genre word, but the examples are game and novel titles; I dropped it.
+# question 弑神: the examples are mostly game titles; I judged the word itself, as a genre word that keeps under call 9.
+# question 悦动: car model; brand-model call 3 drops it, though 现代 is a brand.
+# question 情药: merge target 催情药 is assumed held; otherwise drop
+# question 成区: example sentences show 建成区 as the whole word, and the lemma 建成区 is assumed to exist in the list
+# question 成百: 成百上千 may not be in the list; if it isn't, this should drop.
+# question 抛向: verb + 向 is not covered by call 6 (出/到/起/着/了/过/于); treated as the same kind of transparent mis-cut and merged into 抛
+# question 报名条件: an ordinary noun phrase the segmenter cut, or template text? Dropped as template.
+# question 报名条件: borderline template phrase, kept as the segmenter's word.
+# question 拒不: dictionary standing as adverb is borderline; kept as established legal word
+# question 拟聘: 聘 is not clearly a listed lemma; merge target assumed, drop if 聘 is absent.
+# question 拳砸: mis-cut of 一拳|砸; merged into 砸 as the verb that carries the meaning
+# question 排入: same issue with 入 as the complement; I merged it into 排.
+# question 揉揉: reduplicated verb, no rule on whether it splits; kept as the release's cut.
+# question 提不: could merge into 提不起 if the list holds it; dropped as no whole word clearly carries the counts.
+# question 提不: counts mostly 提不起; no single whole word (提不起) plainly carries it, dropped
+# question 擅于: a common variant of 善于/擅长; no rule names a standard form, so I merged into 善于 (could instead be kept as the release's own word).
+# question 是假: no examples; could be a mis-cut of e.g. 是假的, dropped
+# question 有势: 有势 only occurs in 有钱有势, kept as a dictionary-style word; could be argued a mis-cut
+# question 本区: kept as a real word despite template-like counts; "this district" is ordinary usage.
+# question 来登: could merge into 喜来登 if the list holds it; dropped because it is a hotel name
+# question 杨凌: nationally known agricultural zone vs. county-level district; ruling 20 (development zones) is borderline, kept as the famous one.
+# question 梦工厂: company name, but borderline as a household name; kept under call 17
+# question 汶川地震: the rules list no category for named events; kept as a landmark historical event, drop if events count as other names
+# question 深不: examples show both 深不可测 and 深不见底; merged into 深不可测 as the most frequent plausible whole
+# question 渐行: merged into 渐行渐远 on the assumption that lemma exists in the list; otherwise drop.
+# question 满清: variant term for 清朝 not a Traditional variant of a listed word; kept as era name
+# question 炷香: 一炷香 may not be a lemma of its own, so I dropped it instead of merging
+# question 熟练地: merge target 熟练 assumed present in the list.
+# question 犯不: counts spread over 犯不着 and 犯不上, so no single word plainly carries them; dropped rather than merged
+# question 独当: 独当一面 is an established expression but the lemma is only the cut-off fragment, so dropped
+# question 真诚地: merge target 真诚 assumed present in the list.
+# question 瞒不过: it is a complete potential form, but the rules only cover 出/到/起 complements, so I treated 过 the same way.
+# question 神偷: also a film title (岁月神偷), but the common noun is the ordinary sense.
+# question 神境: a cultivation realm label; kept as a genre common noun, but it could be read as a fiction-internal name that drops.
+# question 神尊: could be read as a fiction title/rank (keep under call 13) or as a name; decided keep
+# question 神尊: fantasy rank titles treated as web-fiction common nouns (call 13); could be read as character titles.
+# question 神皇: same as 神尊, decided keep
+# question 算不算: A-not-A form with no clear rule; merged into 算 as not a dictionary word, but it could be kept as a construction.
+# question 算得: no examples; judged as 算 + 得 mis-cut, but 算得 could also be a real word (算得上).
+# question 给人: could be read as a mis-cut of 给人以; kept as a verb-object word
+# question 继电: could merge into 继电器 if that lemma exists in the list; dropped as unsure
+# question 继电: 继电器 is not among the lemmas here, so no merge target is confirmed; dropped.
+# question 自以为: could be read as a cut piece of 自以为是, but 自以为 is itself a dictionary word, so kept.
+# question 自担: a cut piece of 风险自担; kept under rule 23, but it is not a standalone dictionary word, so drop is also defensible
+# question 药品监督: merge target 药品监督管理局 assumed to be in the list; the counts also include 药品监督管理 and 药品监督管理局
+# question 融于: 融 is not itself a clearly listed standalone lemma; merged per rule 6 anyway.
+# question 论谈: dropped as garbled; 谈论 or 论坛 might be the intended word, but neither plainly carries the counts.
+# question 论谈: possibly a variant of 论坛 or 谈论; neither is clear enough to merge, so dropped
+# question 豁出: it could instead be treated as a transparent verb + 出 complement and merged into 豁出去 or 豁
+# question 趁此: merged into 趁 as transparent; could be kept as a dictionary-style word.
+# question 趣阁: merge target 笔趣阁 is a website name that would itself drop under the rules; if it drops, 趣阁 should drop too.
+# question 路透: kept as a famous agency under call 16, though tagged/used mostly as part of 路透社 or 汤森路透.
+# question 路透: the rules name 新华社 and 央视, but 路透 is a foreign agency; kept under the household-name test of call 3 and call 16.
+# question 软化水: kept/dropped is borderline; dropped as product-listing spam though it is a real technical term
+# question 适时地: 适时 assumed to be a lemma in the list.
+# question 邵氏: surname 邵氏 vs company; kept as the Shaw Brothers company name, a borderline household-name brand.
+# question 酷派: borderline between a household-name brand and a lesser brand; kept because it was a major Chinese phone maker
+# question 重于: 重于 is listed in some dictionaries as a word; I treated it as adjective + 于 and merged it into 重.
+# question 靠谱吗: the lemma 靠谱 is assumed to be on the list; the examples are spam titles
+# question 高梅: counts are 美高梅 (MGM brand); merge target may not be in the list, drop if 美高梅 is not held
+# question 鬼吹: no 鬼吹灯 lemma in the batch to merge into, so dropped
+# question 魂力: it is a term from one popular web-novel setting (斗罗大陆), so it may count as a fiction-specific name rather than a genre-wide common noun. Kept under call 13.
+# question 黄色片: ordinary adult word or web-spam jargon; examples are all spam but the word is real, so keep.
+# question 黑丝: black stockings is an ordinary clothing word, but the counts are all adult spam; dropped under the adult-jargon rule
+# question 黑丝: examples are all adult spam, but the word is an everyday fashion term, kept under the real-word rule
+# question 黑天: may be a plain word (dark sky/night) but the counts look like fiction fragments, so dropped.
+# question 黑狼: examples read as a fiction creature or clan; kept as a plain common noun, but it could be read as a character name
+# question 人体内, 虚空中: is a noun + localiser string (whole word + 内/中) the release's cut to keep, or a mis-cut to merge into the noun, as noun + 的 is?
+# question 住气, 成竹, 成百: these are merged into the fixed expressions 沉住气, 胸有成竹 and 成百上千. If the release does not list those as lemmas, should the pieces drop instead?
+# question 偏弱: confirm 偏 (偏高, 偏低, 偏弱, 偏大) counts as a degree adverb under call 22, or whether 偏X words are lexicalised and keep
+# question 别动: call 18 names 未/不 only; confirm the negative imperative 别/甭 + verb is split the same way
+# question 实践中, 池内, 锅内: noun + localiser fusions (中/内/上) were treated as mis-cuts and merged to the noun. Please rule on where these stop and lexical ones (室内, 体内, 国内) begin.
+# question 惹不: is 惹不起 a lemma of the release? If it is, merge:惹不起 would be the better target, because it is a lexicalised potential-complement word ("can't afford to offend").
+# question 打开门: is a free verb + object phrase made of two whole words a word of the list, or a mis-cut to merge into the verb, by analogy with call 6?
+# question 揉揉, 算不算: please confirm a general rule that reduplicated verbs and A-not-A forms keep as the release's cut (round 16 kept 大不大).
+# question 擅于: it is a widespread non-standard word form, not a 异体字 or Traditional spelling; confirm it should merge into 善于 like a variant rather than keep as its own word.
+# question 烧热, 差远: call 6 names only 出/到/起; should other transparent resultatives (热, 远, 好, 完) also merge into the verb, or do they keep as the release's cut?
+# question 独当, 不亚: if the full form (独当一面, 不亚于) is not a listed lemma, should these cut-off pieces drop instead of merging?
+# question 着牙, 情药, 说白: is it acceptable to merge into a word the string does not fully contain (咬牙) or one that may not be listed (催情药, 说白了)?
+# question 瞒不过: potential forms V不C/V得C (瞒不过, 斗不过, 受得了, 耐不住, 配不上, 惹不起): rule whether they are the release's cut (keep), merge into the verb, or merge into the dictionary entry when one exists; also whether merge targets like 配不上 are listed
+# question 超一: should 超一流 count as a degree adverb + adjective fusion that merges into 一流 (as assumed here), or as a word of its own that would be the merge target?
+# question 长江大桥: this generic bridge name covers many bridges, though the Wuhan and Nanjing ones are famous landmarks. Is it kept as a landmark or dropped as a named facility?
+# question 顾得: should a verb + potential 得 piece (顾得, cf. 顾得上/顾不得) merge into the verb under call 6? Or should it merge into 顾得上, if that is listed?
+## round17
+# question 九寨: 九寨 is used for 九寨沟 in the examples, but 九寨沟 is not among the lemmas shown, so I could not merge it; dropped as a piece of a cut name.
+# question 利马: examples are mixed (a Lima landmark and a surname 利马 in a name); kept as the capital city
+# question 天字: could be a real word in 天字第一号; examples are gang names and spam, so dropped.
+# question 弯着腰: 弯腰 is not shown in the examples as a list lemma; merge target assumed to be the list's spelling of the verb.
+# question 愤: no examples; kept as a literary standalone word (愤 in 愤而, 发愤), but it mostly occurs inside words
+# question 智多星: also a dictionary nickname for a resourceful strategist; examples are only titles and company names, so dropped.
+# question 智多星: common sense (resourceful person) vs. show titles/company names; kept as the common word
+# question 温布利: Wembley is a famous stadium abroad; the rules drop named facilities except famous landmarks, so this call is borderline.
+# question 温布利: Wembley is a famous stadium abroad; treated as a named facility under the rules, but it could count as a landmark
+# question 瓦房店: a county-level city under Dalian; call 1 says county-level places drop unless nationally famous. I kept it, but it may be better dropped.
+# question 联大: could also be read as the 西南联大 abbreviation (a historical university); kept as the UN General Assembly sense plus established abbreviation.
+# question 联大: examples mix 西南联大 (the wartime university, cut to 联大) and the UN General Assembly; I wrote drop in the line above but a keep is defensible as the UN General Assembly abbreviation (王毅在联大); rules don't settle which sense dominates.
+# question 苏方: the examples mix 苏方 (Soviet side) with a piece of 苏方达水; I decided by the common reading.
+# question 青浦区: a Shanghai district; call 1 says districts drop unless nationally famous, but call 2 keeps the suffixed form only when the place keeps. I dropped nothing here and kept it as a Shanghai municipal district; this is a judgement call, and the rules arguably point to drop.
+# question 贝因美: mid-tier listed consumer brands that appear in industry news (dairy, formula) sit on the line of call 3's household-name test; should a threshold be set, such as listed companies or top-N brands in a sector?
+## screen17
+# question 不复返: merged into 复返 as the piece of 一去不复返; no 一去不复返 lemma is shown, drop is the alternative.
+# question 叹一口气: the real word 叹气 may not be in the list; drop if it is absent
+# question 山西太原: could merge:太原 (a keep city), but the string is a province+city pair; chose drop
+# question 幽幽地: I took 幽幽 as the carrier; drop if 幽幽 is absent
+# question 幽幽地: 幽幽 is not in the list as given; merge target assumed
+# question 广佛: a regional abbreviation; I treated it as news vocabulary, but it could be seen as a minor regional name
+# question 拿不定: lexicalised verb + complement or transparent negated potential form; kept as the release's cut.
+# question 拿不定: lexicalised word or mis-cut of 拿不定主意? Kept as a dictionary-style word.
+# question 欧罗巴: keeps as Europe, but counts are mostly the 欧罗巴联赛 league
+# question 水门: 水门 could be a minor named site (悬壁长城 water gate) but also a common noun; kept for the common sense.
+# question 江户: historical capital name (Edo) vs. minor place; kept as era/period name used in 江户时代.
+# question 沙田: Hong Kong district; districts drop unless nationally famous, keep chosen because 沙田 is well-known in HK news; may need to be drop.
+# question 满洲里: county-level city (under Hulunbuir) but nationally known border port; kept as nationally famous.
+# question 满洲里: county-level city under Hulunbuir, but nationally famous border port; kept.
+# question 疲于: dictionary lists 疲于 as a pattern word; merged into 疲 per rule 6, but it could be kept as a fixed construction piece.
+# question 疲于: pattern word 疲于应付 with 疲 as the base; merged into 疲 by analogy with call 6, though 疲 may not be a standalone lemma in the list.
+# question 百世: counts are mostly the express company, but 百世 also has a literary common sense; kept under call 3.
+# question 胶州: county-level city (Qingdao), so call 1 would drop it unless nationally famous; I dropped-or-kept? Decision above is keep, but the rules say drop for county-level not famous. Treat as drop if you disagree.
+# question 花莲: Taiwan county/city; kept as well-known place, though rules only list mainland prefecture-level cities
+# question 轻轻叹: merged into 叹 (for 叹气); dropping would also be defensible if 叹 is not held as a lemma.
+# question 哄哄: do reduplicated verbs (哄哄, 看看, 试试) keep as the release's cut or merge into the base verb?
+# question 英甲: where is the line for "major sports leagues" under call 3? Do second and lower tiers (英冠, 英甲, 中甲) keep or drop?
+# question 蓉城: do established city nicknames (蓉城, 羊城, 鹏城, 春城, 申城) keep as place vocabulary when much of the count comes from club names?
+# question 订好: does call 6's merge extend to verb + resultative 好/完/成 (订好, 写完) or only to 出/到/起, aspect particles and 于?
+## round18
+# question 罗睺: Rahu is a deity/celestial body in Buddhist/Indian myth (could count under rule 25 or astral names); examples are fiction and astrology, dropped as a mythic figure.
+# question 罗睺: a deity/astrological node in Indian and Buddhist myth; the deity rule (call 25) might make it keep, but examples are mostly fiction and it reads as a character name, so dropped.
+# question 郑洲: lemma is written as 郑 but filed as 郑洲; surname-only counts, no obvious merge target, dropped.
+# question 郑洲: lemma is written as 郑 in the text with no examples; could be a mis-cut of 郑州 (Zhengzhou, which would keep) but the evidence doesn't show it, so dropped.
+## screen18
+# question 君不: merged into 君不见, assuming it is in the list as the whole word.
+# question 成丹: a cultivation-fiction term with few other uses; kept under the web-fiction rule, but it may be a mis-cut 成 + 丹
+# question 梁子: names dominate the examples, but the common sense 结梁子 is in everyday use.
+# question 那群: no lemma 那 is listed; merged into the measure word 群 as the real word of the cut.
+# question 俯下: call 6 lists only 出/到/起 complements; confirm that transparent verb + 下 (俯下, 跪下, 坐下-type) merges the same way, and which 下 words count as lexicalised keeps
+# question 那群: confirm that demonstrative + measure fusions (那群, 这群, 那伙, 这批) drop as a class, like number + measure, rather than merging into the measure word
+## round19
+
+## screen19
+# question 招标网: could be read as the generic "tender site" word (keep), but the counts come from site names and notice templates, so I dropped it.
+# question 招标网: could be read as 招标 + 网 (a compound), but treated as a site-type template term
+# question 沙县: famous for 沙县小吃 snacks, but the lemma itself is a county; dropped under the county rule

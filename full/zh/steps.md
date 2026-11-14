@@ -157,3 +157,51 @@ constructions), 143 homograph keys [sha256 b1a44d12dc10]`. Kept rank 40,000: 币
 `frequer.transport.receive(..., prefix=...)` and check the counts directory holds exactly the 120 names; build with
 `--reference-root` at Honeyeater main; dry-run; check that every `#` key in the snapshot is a `(lemma, key)` pair of
 `lexicon.homographs.registered_keys("zh")`.
+
+## 12. Recount through zh lemma release 1.7.0 (2026-11-14, Honeyeater #886)
+
+The 1.6.4 run reproduced with release 1.7.0 (Honeyeater #885: wheel sha256 `8adc0855…`, rebuilt byte for byte
+from honeyeater-lemmatiser `92b8680` and added to `zh-shards-setup`), `HE_COMMIT` Honeyeater main `4cd1389` (#885
+with its homograph registry). The same 120 shards: `SKIP_NAME=zh2`, prefix `zh4-shards-`, parts 1-7 remote,
+part 0's HPLT in two halves (`zh3a`/`zh3b` skip lists, prefixes `zh4a-`/`zh4b-shards-`), Tatoeba counted here with
+co-occurrence. The 2-hour background limit killed most remote parts once (each resumed); part 4's container
+restarted before its last three shards (20.1, 28.1, 44.1) could finish, so they were counted here with the same
+command (`--part 4/8 --no-cooc`, skip list zh2 plus part 4's shipped files). The counts directory holds exactly
+the 1.6.4 run's 120 names. Tatoeba is the weekly export of 2026-11-14 (sha256 `262a48ca…`; 39,747 Traditional
+lines dropped), so it differs from the 1.6.4 run's export.
+
+Honeyeater main merged #893 and #897 (zh spelled-out number spans) after the counts began; the counts are at
+`4cd1389`, before them (coordinator, 2026-11-14: no recount, number lemmas come from the number rule).
+
+Review (config `/home/user/zhrev/config.json`, window 40,500; the example sample is HPLT files 2, 6, 11, 16, 19,
+33, 47, 61 to 16M characters each plus Tatoeba, since the 1.6.4 sample settings were not recorded): routing found
+1,308 flagged lemmas pending, 1,021 of them `propn_band` (1.7.0 tags many ordinary words PROPN: 布置, 密码, 损伤,
+维生素; 626 were 1.6.4 keeps), and 2,432 keeps new to the window, many cut-off pieces of idioms and fixed terms
+(起彼伏, 突如其, 恰到). Every one went through the protocol under the recorded rules; no rule changed. Rounds:
+
+| round | lemmas | keep | drop | merge |
+|---|---|---|---|---|
+| 16 (flagged) | 1,308 | 869 | 424 | 15 |
+| 16s (suspects among 2,432 new keeps) | 1,154 | 558 | 373 | 223 |
+| 17 / 17s (cascade; 646 new keeps) | 152 / 198 | 80 / 112 | 71 / 63 | 1 / 23 |
+| 18 / 18s (114 new keeps) | 31 / 36 | 18 / 19 | 13 / 12 | 0 / 5 |
+| 19 / 19s (28 new keeps) | 5 / 6 | 3 / 4 | 2 / 2 | 0 |
+| 20 | 0 | (3 new keeps, no suspects) | | |
+
+Gate queries re-examined agreed rows against the calls (莫三比克 under call 15 keep; 山中 under the word-cut ruling
+keep; 嗓 keep; 比高 drop under call 24; 瞒不过, 算不算, 订好, 那群 decided consistently with earlier rounds). The
+adjudicators' questions are in `questions-lemma-1.7.0.txt`; the new classes for the developer: verb + potential
+complement (斗不过, 瞒不过, 受得了) and verb + resultative 好/完/下 (call 6 names only 出/到/起, aspect particles
+and 于; kept as the release's cut for now); Taiwan-transliteration place names (莫三比克 for 莫桑比克; kept);
+level prefix + institution (市民政局; merged into 民政局 under call 24); demonstrative + measure (那群, 那伙;
+dropped); reduplicated verbs (哄哄); city nicknames (蓉城); lower-tier leagues (英甲, 中甲).
+
+Build at frequer `44c8be7`, `--reference-root` Honeyeater `4cd1389`: **818,671,745 tokens** in 1,049,587
+documents; `snapshots/zh.json` 40,061 entries (40,000 + 61 appended learnable names), sha256
+`eb33dc5e22eaecce684a1c0defe26b9e75c109e7b2dffec09eff187c90aa90c7`; **0 keys outside the registry** (171
+homograph keys of 216 registered pairs); `load_lemmas zh --dry-run` at `4cd1389`: `40061 ranked entries — 0
+existing rows re-ranked, 40061 new, 0 demoted, 0 skipped; 176 unit headwords (11 constructions), 171 homograph keys
+[sha256 eb33dc5e22ea]`. Kept rank 40,000: 药箱 (f 679). Against `b1a44d12`: top-1,000 overlap 960, top-10,000
+9,498, top-40,000 37,401; 2,602 entries in, 2,610 out. Release-side findings for the next zh release: the PROPN
+over-tagging above; idioms cut into pieces; 莫 filed under the lemma 莫三比克 (22,302 of its 22,311 counts are
+莫) and 瓦 under 瓦努阿图; common words the 1.7.0 cut no longer emits (各种, 还有, 看起来, 是不是, 便是).
