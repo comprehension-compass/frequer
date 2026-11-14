@@ -17183,3 +17183,1158 @@ AC米兰	drop	Latin letters, sports club
 欧姆龙	keep	household-name foreign company (Omron), call 3 and 17
 物理化学	keep	ordinary academic subject word
 中秋佳节	keep	holiday expression, established fixed phrase
+# round 16s (suspects among 2,432 keeps new to the window after the lemma 1.7.0 recount)
+怀中	keep	locative noun, a real word
+欢少爷	drop	fictional character name
+这样一	merge:这样一来	cut-off piece of 这样一来
+网页版	keep	ordinary word "web version"; spam only supplies some examples
+站式	merge:一站式	cut-off piece of 一站式
+不一会	merge:不一会儿	cut-off piece of 不一会儿
+血红	keep	real adjective, also in 血红蛋白
+符文	keep	"rune", a real word and common genre term
+修炼者	keep	genre word; 修练者 is a variant spelling inside the counts
+说罢	keep	dictionary word, standard narrative formula
+值得一提的	merge:值得一提	mis-cut with 的
+用不	merge:用不着	cut-off piece of 用不着
+突如其	merge:突如其来	cut-off piece of 突如其来
+难不	merge:难不成	cut-off piece of 难不成
+需求量	keep	ordinary compound noun
+冷冷地	merge:冷冷	adverb with 地 glued on, a mis-cut
+不合格	keep	ordinary word
+呆呆	keep	real reduplicated adjective
+氨基丁	merge:氨基丁酸	cut-off piece of γ-氨基丁酸
+大湾	merge:大湾区	cut-off piece of 大湾区
+各区	keep	release's cut, ordinary word
+乐高	keep	household-name brand
+恒大	keep	household-name company in the news
+大喝	keep	dictionary verb "shout loudly"
+着牙	merge:咬牙	cross-boundary piece of 咬着牙; 咬牙 carries the counts (rule 6)
+禁不	merge:禁不住	cut-off piece of 禁不住
+着脸	drop	mis-cut of 沉着脸, no real word to merge into
+活生生	keep	real word
+恰到	merge:恰到好处	cut-off piece of 恰到好处
+提振	keep	real verb
+下子	merge:一下子	cut-off piece of 一下子
+云天	keep	real literary word "clouds and sky"; name use is secondary
+立高	drop	company name, no examples
+货到	merge:货到付款	cut-off piece of the template phrase 货到付款
+引人	merge:引人入胜	cut-off piece of 引人入胜
+分钱	drop	mis-cut of number + 分钱 ("一分钱", "4分钱")
+彩定胆	drop	lottery spam
+吸脂	keep	ordinary medical vocabulary
+层楼	merge:更上一层楼	counts come from the idiom 更上一层楼
+魂力	keep	web-fiction common noun
+大早	merge:一大早	mis-cut of 一大早 (一 + 大早 in examples)
+诸神	keep	deities, religious vocabulary (rule 25)
+来水	merge:自来水	mis-cut piece of 自来水
+神念	keep	web-fiction common noun (rule 13)
+可测	drop	mis-cut piece of 深不可测/不可测, no whole word carries counts
+落到实处	keep	established fixed expression
+起彼伏	merge:此起彼伏	cut-off piece of the idiom 此起彼伏
+牛逼	keep	vulgar slang but in ordinary use, not a slur
+前一	drop	mis-cut fragment (前一天 etc.)
+重重地	keep	adverb with 地 as the release's cut, real word
+打麻	merge:打麻将	cut-off piece of 打麻将
+下期	keep	ordinary word (next issue)
+彩经	drop	lottery spam term only spam makes frequent (rule 19)
+彩助	drop	lottery spam from 时时彩助赢 (rule 19)
+句话	merge:一句话	mis-cut of 一句话 / 一 + 句话
+提质	keep	real abbreviation, ordinary news vocabulary (提质增效)
+不问	keep	real word (not to ask/care), dictionary-level verb
+十分之一	drop	fraction, spelled number (rule 12)
+情药	merge:催情药	cut-off piece of 催情药 (aphrodisiac), which every example shows
+封盘	keep	ordinary word (close the market, finish a session), also in finance and real estate
+着头	drop	mis-cut (摇着头 etc.), verb + particle
+神域	drop	fantasy/game place name (rule 13)
+眸光	keep	genre-internal common noun (rule 13)
+台	keep	real standalone word (stage, platform, measure word)
+高梅	drop	piece of 美高梅 (MGM hotel and casino brand); minor brand name
+血雾	keep	genre common noun (rule 13)
+彩神	drop	lottery spam site name (rule 19)
+说白	keep	release's verb + complement cut, with 了 split off; 说白(了) is a word a learner meets
+面露	keep	lexicalised word (face showing an expression), literary verb
+级片	merge:三级片	mis-cut piece of 三级片
+赵丽颖	drop	real person (rule 4)
+为重	drop	mis-cut fragment (以…为重)
+九重	keep	real word (nine layers, heavens), ordinary vocabulary
+发短信	keep	verb-object unit headword (separable-verb unit)
+种多样	merge:多种多样	cut-off piece of 多种多样
+久之	merge:久而久之	cut-off piece of 久而久之
+深不	merge:深不可测	cut-off piece of 深不可测 / 深不见底
+龙虎合	drop	lottery spam term (rule 19)
+黑丝	keep	everyday term (black stockings) met outside spam; judge the word, not the documents
+妖王	keep	genre-internal common noun (rule 13)
+农副	merge:农副产品	cut-off piece of 农副产品
+比力	merge:比较	garbled form of 比较
+经不	drop	fragment of 经不起/经不住
+婴期	merge:元婴期	cut-off piece of 元婴期
+药品监督	keep	release's compound (药品监督 + 管理局); no word boundary crossed
+时时彩	drop	lottery spam name (rule 19)
+十一五	drop	spelled number built only from number words, plan-period name
+天狼	drop	fiction/product name; the common sense is rare
+有加	drop	mis-cut of 关怀有加/有加无已
+本店	keep	ordinary word "this shop"
+改委	merge:发改委	cut-off piece of 发改委
+对号	keep	ordinary word (check mark, 对号入座)
+片空白	merge:一片空白	cut-off piece of 一片空白
+啪啪啪	drop	adult onomatopoeia spam
+比得	drop	mis-cut piece of 比得上/比得过
+人体内	keep	whole noun + localiser in the release's cut; holds no piece of another word
+年四季	merge:一年四季	cut-off piece of 一年四季
+近十	drop	mis-cut number fragment
+豁出	keep	lexicalised verb (豁出去/豁出性命)
+精灵族	keep	genre-internal common noun (rule 13)
+不甘	keep	ordinary word
+本正经	merge:一本正经	cut-off piece of 一本正经
+久而	merge:久而久之	cut-off piece of 久而久之
+刀切	merge:一刀切	cut-off piece of 一刀切
+行之	merge:行之有效	cut-off piece of 行之有效
+摸不	drop	mis-cut fragment of 摸不着/摸不透
+幕幕	drop	mis-cut of 一幕幕
+仙道	keep	genre word in wide use (rule 9)
+不相	merge:不相上下	cut-off piece of the 成语 不相上下, which the example shows
+酷派	drop	lesser phone brand today, not a household name (call 3)
+虚空中	keep	whole noun + localiser in the release's cut, as 人体内
+轰的	merge:轰	onomatopoeia + 的 mis-cut (as 书目的); 轰 carries the counts
+方家	drop	counts are surname + 家 (rule 21); the literary sense is rare
+博狗	drop	gambling site name
+前段	keep	ordinary word
+见钟情	merge:一见钟情	cut-off piece of 一见钟情
+尽管…却	keep	construction with slots, a unit headword
+灭世	keep	genre word
+以〜为由	keep	construction with slots, a unit headword
+赢彩	drop	gambling spam
+满天	keep	real word "all over the sky", dictionary entry
+灵草	keep	web-fiction common noun (call 13)
+节课	merge:课	measure + noun mis-cut from 一节课; whole word 课 carries the meaning (call 24)
+上角	merge:右上角	cut-off piece of 右上角, which all the examples show
+满清	keep	dynasty/era name (variant of 清朝, a word in use)
+沪指	keep	established finance abbreviation in news
+恭敬地	merge:恭敬	adverb with 地 glued, mis-cut
+打开门	keep	whole verb + whole object; not a mis-cut under the definition, so the release's cut stands
+问起	merge:问	transparent verb + 起 complement (call 6)
+非诚	drop	mis-cut piece of 非诚勿扰 (title)
+必得	drop	mis-cut fragment of 势在必得/志在必得
+自〜开始	keep	construction with slots, release's own entry
+追究其	merge:追究	mis-cut 追究 + 其
+过手	keep	过手 (to handle) is a real word; decided by the lemma's own reading (call 15)
+直到〜为止	keep	construction with slots, release's own entry
+灵根	keep	web-fiction common noun (call 13)
+天材	merge:天材地宝	piece of the web-fiction fixed term (call 13); every example shows 天材地宝
+资管	keep	established finance abbreviation (资产管理)
+淫水	drop	adult jargon only web spam makes frequent
+人与	drop	mis-cut crossing word boundary (人与自然)
+种规格	merge:规格	mis-cut across 各种|规格; whole word 规格 carries the meaning (call 24)
+合院	keep	real architectural word (合院式, 三合院); real-word piece of 四合院 (call 23)
+中国梦	keep	well-known slogan term, established fixed expression
+扫一	merge:扫一扫	cut-off piece of 扫一扫, which every example shows
+头戴	keep	lexicalised word (头戴式, 头戴钢盔), not a fragment
+文明办	keep	established abbreviation of state body
+天宗	drop	web-novel sect name
+平特	drop	gambling jargon from spam
+七夜	drop	fiction/title name
+胆码	drop	gambling jargon from spam
+了眼	drop	mis-cut 了 + 眼
+追问道	merge:追问	verb + 道 mis-cut
+只用	keep	adverb + verb word, release's cut (call 22)
+彩奇妙	drop	gambling spam string
+上眼	drop	mis-cut of 闭上眼
+十八届三中全会	keep	fixed political term, release's word
+死我活	merge:你死我活	mis-cut fragment of the 成语
+大剑	keep	ordinary word "greatsword"
+去何	merge:何去何从	cut-off piece of the 成语 何去何从
+别怕	merge:怕	negator + verb fused, not a dictionary word (call 18)
+周恩	drop	piece of a person's name (周恩来); people drop
+杀怪	keep	game/fiction verb-object in wide use
+新月异	merge:日新月异	mis-cut of the 成语
+怪叫	keep	real word, "to yell weirdly"
+多少少	merge:多多少少	mis-cut of the reduplicated word
+切实做	merge:切实	mis-cut across 切实|做好; whole word 切实 carries the counts (call 24)
+记不	drop	mis-cut fragment of 记不住/记不清
+闪而	merge:一闪而过	cut-off piece of the fixed expression 一闪而过
+体化	drop	no examples; piece of 一体化, 具体化 and others, so no single target is clear
+天剑	drop	fiction/game name
+朱一	drop	piece of a person's name
+英媒	keep	ordinary news abbreviation
+汉军	keep	ordinary historical-military term (Han army, 汉军八旗)
+有气	drop	fragment, no examples
+叶问	drop	person
+有所思	merge:若有所思	mis-cut of the 成语
+创富心	drop	lottery-spam fragment
+能带	drop	mis-cut 能 + 带
+人为本	merge:以人为本	mis-cut of the fixed expression
+放矢	merge:有的放矢	mis-cut of the 成语
+天华	drop	company/place name
+血魔	drop	fiction monster/skill name
+要强	keep	real adjective, "eager to excel"
+学法	keep	release's verb-object cut and a real word (学法指导, 尊法学法守法)
+荣威	keep	major Chinese car marque
+亲卫	keep	real word, "personal guard"
+报名条件	keep	ordinary compound in the segmenter's cut; a heading, not spam
+一动	drop	mis-cut fragment of 一动不动
+交响	keep	real word (symphonic; 交响诗/交响曲); 交响|乐团 is a plausible cut
+筑基期	keep	web-fiction common noun
+到之处	merge:所到之处	mis-cut of 所到之处
+原石	keep	real word, "raw stone"
+几道	drop	number + measure, mis-cut
+第九条	drop	ordinal + measure
+欲罢不	merge:欲罢不能	mis-cut of the 成语
+下定	keep	lexicalised verb + complement (下定决心)
+为力	merge:无能为力	mis-cut of the 成语
+国恩	drop	minor company/team name
+受得	merge:受得了	cut-off piece; every example is 受得了, which carries the counts
+控卫	keep	real sports term, "point guard"
+条腿	drop	number+measure glued fragment (两条腿)
+黑狗	keep	ordinary compound noun, black dog
+风生水	merge:风生水起	mis-cut of 风生水起
+审计工作	keep	segmenter's multi-char word, ordinary vocabulary
+大力气	keep	ordinary word/phrase as cut (下大力气)
+此款	keep	real word "this model/style"
+步之遥	merge:一步之遥	mis-cut of 一步之遥
+几分	keep	real word (some degree, 几分钟 not); dictionary word
+国科大	keep	established abbreviation of nationally known university
+轰杀	keep	real verb, fiction-use common word
+上书	keep	real verb, dictionary word
+大儿子	keep	ordinary word, eldest son
+来人往	merge:人来人往	mis-cut of 人来人往
+满不	merge:满不在乎	mis-cut of 满不在乎
+彩金	keep	ordinary gambling/lottery prize word
+红姐心	drop	gambling spam, mis-cut of 红姐心水
+了动	drop	mis-cut fragment across boundary
+谈一谈	keep	release's cut verb phrase; ordinary word
+势在	merge:势在必行	mis-cut of 势在必行
+可没	drop	mis-cut from 功不可没
+脱贫攻坚战	keep	established political term, one word
+功不	merge:功不可没	mis-cut of 功不可没
+热刺	drop	sports club
+至高无	merge:至高无上	mis-cut of 至高无上
+中有数	merge:心中有数	mis-cut of 心中有数
+副区长	keep	ordinary title word
+学学	keep	real reduplicated verb, ordinary
+正因	keep	real word (正因为/正因如此), adverb
+开放型	keep	real word, ordinary vocabulary
+提不	drop	mis-cut from 提不起
+未尽	keep	real word (未尽事宜), dictionary
+除此	keep	real word (除此之外), dictionary
+孙俪	drop	person name
+筑牢	keep	real verb
+种植牙	keep	ordinary noun, dental implant
+前两	drop	number fragment, mis-cut
+许多多	merge:许许多多	mis-cut of 许许多多
+开心心	merge:开开心心	mis-cut of 开开心心
+神帝	drop	fiction title/character name
+只求	keep	real word, dictionary
+国人民	merge:中国人民	cut-off piece of 中国人民
+忽略不计	keep	established fixed expression
+声不吭	merge:一声不吭	cut-off piece of 一声不吭
+审判决	merge:判决	mis-cut across 一审|判决 holds the whole word 判决, which carries the meaning (call 24)
+高科	merge:高科技	cut-off piece of 高科技
+周迅	drop	person name
+楚天	drop	name of a hotel/regional literary name; rare common use
+真灵	keep	genre-internal common noun (web fiction term)
+等一	drop	mis-cut, fragment (等一下 etc.)
+死吧	drop	phrase fragment, verb + particle
+行政管理局	keep	generic institution word, the release's cut; not a name
+风刃	keep	web-fiction common noun (skill/spell)
+条不紊	merge:有条不紊	cut-off piece of 有条不紊
+到极	drop	mis-cut fragment
+深有	drop	mis-cut fragment (深有体会)
+神石	keep	web-fiction common noun
+大盛	keep	ordinary word "greatly flourish" (杀气大盛, 名气大盛), shown in the examples
+队内	keep	real word "within the team"
+趣阁	drop	piece of the novel-site name 笔趣阁; website names drop
+各具	keep	real word (各具特色), dictionary-style compound
+明摆	merge:明摆着	cut-off piece of 明摆着
+云台	keep	common noun (camera gimbal, also 云台)
+缺一	merge:缺一不可	cut-off piece of the fixed expression, which plainly carries the counts
+股脑	merge:一股脑	cut-off piece of 一股脑
+激活码	keep	everyday common noun
+文旅	keep	established abbreviation in everyday news
+趁此	keep	趁 + literary 此, a valid cut before 机会; the release's word
+里人	merge:城里人	cut-off piece of 城里人
+梦之	merge:梦之队	cut-off piece of 梦之队
+名扬	keep	real word (名扬天下)
+赫连	drop	compound surname, name only
+船用	keep	real word attributive "marine"
+气劲	keep	genre common noun, also real word
+猪场	keep	ordinary common noun (pig farm)
+彻彻底	merge:彻彻底底	cut-off piece of 彻彻底底
+不适用	merge:适用	negator + verb fused (call 18)
+冠军杯	keep	common noun for championship cup competitions
+九成新	keep	set expression "90% new" in everyday use
+适用房	merge:经济适用房	cut-off piece of 经济适用房
+耐不	merge:耐不住	cut-off piece of 耐不住 (按|耐不住), which carries the counts
+成不变	merge:一成不变	mis-cut of 一成不变
+白灵	drop	fictional character name
+羊羊	drop	cartoon character name (喜羊羊/美羊羊)
+之用	drop	mis-cut fragment; no whole word to merge
+新濠	drop	casino/brand name from spam
+覆去	merge:翻来覆去	mis-cut of 翻来覆去
+安笒	drop	fictional character name
+杨凌	keep	nationally famous national agricultural demonstration zone, "中国农科城" (call 20)
+净流	drop	piece of 净流入/净流出; the counts split between two words, so neither plainly carries them
+急招	drop	recruitment spam template
+渠成	merge:水到渠成	mis-cut of 水到渠成
+排列五	drop	lottery game name
+魔修	keep	web-fiction genre common noun
+没话	merge:没话说	cut-off piece of 没话说, as in the examples
+第一道	drop	ordinal + measure word
+半死	keep	real word (半死 "half dead", 吓个半死)
+水利部	keep	state ministry
+事到	merge:事到如今	cut-off piece of the fixed expression
+蛋疼	keep	common slang word in ordinary use
+熟练地	merge:熟练	adverb + 地 mis-cut
+相似之处	keep	ordinary word the release cut
+可遇	merge:可遇不可求	cut-off piece of the idiom
+血狼	drop	fantasy/game name
+重卡	keep	ordinary abbreviation for heavy truck
+初具	keep	real word (初具规模), lexicalised verb
+杨宇	drop	person name
+分不清	keep	ordinary word the release cut (potential-form verb)
+唐三	drop	fictional character name
+陈赫	drop	person name
+真诚地	merge:真诚	adverb + 地 mis-cut
+前十	drop	number phrase (前 + number)
+应收款	keep	ordinary accounting term
+彩任	drop	garbled spam
+名车	keep	ordinary word "famous car"
+神尊	keep	web-fiction genre common noun (title/rank)
+商务网	drop	website template text
+囊卵巢	merge:多囊卵巢	cut piece of 多囊卵巢综合征
+中	keep	real standalone character (中 in 中奖, 中的)
+神皇	keep	web-fiction genre common noun (title/rank)
+环亚	drop	gambling/company name
+久坐	keep	adverb + verb, the release's cut
+串串	keep	real food word (skewers)
+比高	drop	mis-cut 占|比高|达 does not hold 高达; no whole word to merge into (call 24)
+别动	merge:动	negative imperative 别 + verb fused, treated like call 18
+血池	keep	web-fiction common noun
+得瑟	keep	dialect word in everyday use
+凤舞	drop	fiction or gang name
+白羽	drop	name; counts mostly names and characters
+来登	drop	cut from the hotel brand 喜来登, a named facility
+玄天	drop	fiction name
+配不	merge:配不上	cut-off piece of the potential form 配不上, as in the example
+琳达	drop	given name
+准提	drop	fiction character in 洪荒 novels
+乱飞	keep	adverb + verb, the release's cut
+手持式	keep	real word
+时侯	merge:时候	variant misspelling
+妖修	keep	web-fiction common noun
+纷歧样	merge:不一样	garbled form
+秦朗	drop	person name
+可享	keep	modal adverb + verb, the release's cut (call 22, last sentence)
+前期工作	keep	release's multi-character word
+惹不	merge:惹	cut-off piece of 惹不起 (every example); the verb 惹 carries the meaning, as call 6 does for verb + complement mis-cuts
+商超	keep	ordinary abbreviation
+归根	merge:归根到底	cut-off piece of the idiom
+圈地	keep	real word
+中下旬	keep	period word
+侧重于	merge:侧重	verb + 于 mis-cut
+安拉	keep	deity (Allah); religious vocabulary
+魔化	keep	genre word
+事成	merge:心想事成	cut-off piece of the idiom
+抵挡不	merge:抵挡	mis-cut of 抵挡不住
+溜烟	merge:一溜烟	cut-off piece of 一溜烟
+熊出	drop	cut title 熊出没; titles of works drop
+狼王	keep	real common noun
+黑甲	keep	common noun
+了算	drop	mis-cut of 说了算; no examples to confirm
+分一秒	drop	mis-cut of 一分一秒; reduplicated 一 + measure
+中公	drop	education company, minor brand
+口价	merge:一口价	cut-off piece of 一口价
+方面军	keep	military term, common noun
+瞒不过	keep	V不过 potential form is not in call 6's list; consistent with round 16's 斗不过 keep
+神位	keep	spirit tablet and rank of a god, ordinary religious vocabulary
+不定胆	drop	lottery jargon that only spam makes frequent
+结清	keep	real verb, "settle up"
+车源	keep	real trade word for the supply of vehicles for sale
+可拨打	merge:拨打	可 + 拨打, a mis-cut
+排入	merge:排	transparent verb + 入 complement
+月经期	keep	ordinary word
+国防军	keep	ordinary common noun, "national defence army"
+妥妥	keep	real colloquial word (妥妥的)
+液晶显示	keep	word of the release's cut
+小视	drop	mis-cut fragment, no examples
+天启	keep	era name (Tianqi reign)
+李四	drop	placeholder personal name
+授牌	keep	real verb-object word
+学佛	keep	real verb-object word
+有生	drop	fragment of 有生之年 with no examples
+大得	merge:大	adjective + 得, a mis-cut (大得多)
+凯龙	drop	piece of the name 红星美凯龙
+仅此	keep	set expression (仅此而已)
+停不	merge:停	potential form fragment (停不下来)
+全封闭	keep	ordinary word
+风火	drop	fiction name or a piece of 风火轮
+次感	merge:层次感	piece of 层次感
+炷香	drop	measure + noun piece of 一炷香
+梦工厂	keep	DreamWorks, a household-name foreign company
+陈静	drop	person name
+大屏	keep	real word, "big screen"
+一闪而	merge:一闪而过	cut-off piece of 一闪而过
+天境	drop	fiction or game name
+新晋	keep	real word, "newly promoted"
+白杨	keep	poplar tree, an ordinary word
+美林	drop	brand or personal name
+年生	merge:多年生	cut-off piece of 多年生
+比斗	keep	real word, "contest"
+从无	drop	counts come from the 从无到有 mis-cut
+和〜相比	keep	construction headword with slots
+劳逸	keep	real word "work and rest" (劳逸不均); real-word piece of 劳逸结合 (call 23)
+去活	merge:死去活来	piece crossing inside the 成语 死去活来
+总比分	keep	word of the release's cut
+红姐	drop	fictional character name
+大主宰	drop	novel title
+二净	drop	opera role, counts come from 一干二净 mis-cut
+爱阅者	drop	site spam text
+日媒	keep	ordinary abbreviation for Japanese media
+包胆	drop	gambling spam jargon
+遁光	keep	web-fiction common noun
+重庄	drop	gambling spam jargon
+说一	merge:说	piece of the reduplication 说一说; it holds the whole word 说 (call 24)
+过望	merge:大喜过望	cut-off piece of the 成语 大喜过望
+星独胆	drop	gambling spam jargon
+死光	keep	real verb-complement word, lexicalised
+胸大	drop	adult spam phrase
+唐门	drop	fiction sect name
+滑块	keep	real technical word (slider)
+给人	keep	verb + object (给人以), the release's cut; it crosses no word boundary
+证道	keep	web-fiction genre word
+我往	merge:你来我往	cut-off piece of the fixed expression 你来我往
+国模	drop	adult spam jargon
+仙王	keep	web-fiction common noun (title/rank)
+霎那	merge:刹那	variant spelling of 刹那
+执行人	keep	ordinary legal word
+漆面	keep	real word (paint surface)
+紧抓	keep	adverb + verb word, release's cut
+偏弱	merge:弱	偏 as a degree adverb + adjective (call 22)
+隆重召开	keep	adverb + verb is the release's cut (call 22, last clause)
+读读	keep	reduplicated verb, real word
+止不	merge:止不住	cut-off piece of 止不住, which carries the counts
+分众	drop	brand name, counts include 分钟 mis-cut
+光剑	keep	common noun (lightsaber)
+挺起	merge:挺	transparent verb + 起 complement (call 6)
+身长	keep	real word (body length)
+大镜	merge:放大镜	cut-off piece of 放大镜 in every example
+算得	merge:算	transparent verb + 得 mis-cut
+一块	keep	word in own right (together, a piece)
+相一致	keep	adverb + verb is the release's cut, not a mis-cut (call 22)
+黑狼	keep	common noun "black wolf"; not a character name in the examples (call 13)
+找死	keep	common verb phrase word
+甄嬛	drop	fictional character
+监督局	keep	ordinary institutional word
+别具	keep	dictionary word 别具(特色), release's cut
+再而三	drop	mis-cut of 一而再再而三; no single word carries counts
+秦昊	drop	person name
+冰河	keep	common noun (glacier/ice river), 冰河世纪
+猛操	drop	vulgar spam jargon
+欢乐颂	drop	title of work
+比达尔	drop	person name
+倍加	keep	dictionary adverb 倍加(珍惜)
+白狼	keep	real word "white wolf"; also a piece of 空手套白狼 (call 23)
+连连看	keep	generic name for a tile-matching game type, not a title (call 9)
+汶川地震	keep	well-known event, release's word, learnable name
+但他	drop	mis-cut conjunction + pronoun
+发展银行	keep	sum-of-parts word "development bank", the release's cut
+小敏	drop	given name
+直招	drop	recruitment spam/odd mis-cut
+倒	keep	real standalone word/adverb
+小宇	drop	given name
+挡得	merge:挡	verb + 得 potential complement mis-cut
+十五章	drop	number + measure
+冷哼道	merge:冷哼	verb + 道 speech tag is a mis-cut; merge the verb (call 6 analogue)
+合在	drop	mis-cut, no examples
+分步	keep	real word (step by step), appears in 分步实施
+林夕	drop	person name
+创富	keep	real word (create wealth)
+逗比	keep	widely used slang word
+哪几	drop	mis-cut 哪 + 几
+行云	keep	real word (drifting clouds)
+文职	keep	real word (civilian post)
+圣级	keep	genre-internal common noun in web fiction
+格量	drop	garbled, no examples
+金钥匙	keep	common noun (golden key), figurative use in examples
+成圣	keep	real word (become a sage), also genre word
+副团长	keep	title compound, release's cut
+含税	keep	real everyday business word
+幅幅	drop	reduplicated measure word mis-cut of 一幅幅
+林奇	drop	person name
+独当	merge:独当一面	cut-off piece; every example is 独当一面
+一后	drop	mis-cut from 一前一后
+身居	keep	real literary verb (身居高位)
+小爷	keep	common colloquial self-reference word
+小梅	drop	given name
+舞美	keep	real word: stage art/design, ordinary theatre vocabulary
+借壳	keep	real finance term (backdoor listing)
+春花	keep	common noun: spring flowers
+谁家	keep	real word: whose family / which household
+大疆	keep	household-name company (DJI)
+晴儿	drop	given name
+张晓	drop	person name
+中山路	drop	street name
+说走就	merge:说走就走	mis-cut, whole word 说走就走 in examples
+排空	keep	real verb: to empty/expel
+老和	merge:老和尚	cut-off piece of 老和尚
+入夜	keep	real word: nightfall
+拦不	drop	mis-cut verb + negator complement (拦不住)
+大忙	keep	real word: 帮大忙, 大忙人
+狮鹫	keep	common fantasy creature noun (griffin), genre-internal common noun
+是假	drop	mis-cut, no examples
+白洁	drop	person name
+目中	merge:目中无人	cut-off piece of 目中无人
+睁不	drop	mis-cut (睁不开)
+重甲	keep	real word: heavy armour
+三室	keep	housing term (three-bedroom) used as a word
+经审查	drop	mis-cut: 经 + 审查
+元境	drop	fiction realm name
+宝贝儿	keep	real word: 宝贝 with erhua, everyday
+临死前	keep	segmenter's word, sum of parts, crosses no boundary
+视而不	merge:视而不见	cut-off piece of 视而不见
+近在	drop	mis-cut, no examples
+杨紫	drop	person name
+了心	drop	mis-cut (操碎了心, 伤透了心)
+天羽	drop	name, no examples
+妖丹	keep	genre-internal common noun (call 13)
+拒不	keep	real adverb: refuse to (拒不执行), legal term
+淡然道	drop	fiction template: 淡然 + 道
+瑞达	drop	minor company/name
+一排排	drop	reduplicated 一 + measure (call 12)
+翻翻	keep	reduplicated verb, real word (翻翻书)
+马蓉	drop	person name
+前因	keep	real word: cause, antecedent (前因后果)
+国公府	keep	historical title residence, ordinary word
+体机	merge:一体机	cut-off piece of 一体机
+分货	drop	mis-cut of 一分钱一分货, no single word carries it
+天长地久	keep	chengyu
+校生	merge:在校生	cut-off piece of 在校生
+京华时报	drop	regional newspaper
+全行	drop	odd compound, no examples
+较慢	merge:慢	degree adverb + adjective
+降耗	keep	established abbreviation, ordinary vocabulary
+一圈圈	drop	reduplicated 一 + measure word
+技能型	keep	release's own word
+无源	keep	real technical word
+供选择	merge:选择	mis-cut of 可供|选择 holding the whole word 选择 (call 24)
+第三期	drop	ordinal + measure word
+吸塑	keep	real word
+朝一夕	merge:一朝一夕	cut-off piece of the chengyu
+杨波	drop	person name
+渐行	merge:渐行渐远	cut-off piece of the fixed expression
+神君	drop	fiction title or name
+继往	merge:继往开来	cut-off piece of the chengyu
+久经	keep	real literary word (久经考验, 久经沙场) (call 23)
+敏锐地	merge:敏锐	adjective + 地 mis-cut
+刷图	keep	common gaming verb
+反舰	keep	real-word piece of a split fixed term
+自拔	keep	dictionary word
+面带	keep	dictionary verb
+家小	drop	counts are mis-cuts (14家|小贷, 智能家|小)
+剑神	drop	fiction title or name
+十一点	drop	number + measure word
+办公用房	keep	release's own word
+流大学	merge:一流大学	cut-off piece of 一流大学
+胜局	keep	real word
+中央财经	merge:中央财经大学	cut-off piece of the university name
+仙门	keep	genre-internal common noun
+东皇	drop	fictional or mythic name
+半圣	keep	genre-internal common noun
+侧翻	keep	real word
+波多	drop	piece of a cut name
+会计制度	keep	release's own word
+医疗保障	keep	release's own word
+掷地	merge:掷地有声	cut-off piece of the chengyu
+神子	keep	genre-internal common noun/title, not a specific name (call 13)
+站不	drop	mis-cut fragment of 站不住/站不稳
+过意不	merge:过意不去	cut-off piece of 过意不去
+有变	drop	fragment, no real word
+塑胶原料	keep	segmenter's word, ordinary trade noun
+暗卫	keep	web-fiction common noun (call 13)
+内购	keep	in-app purchase, everyday app word
+低着头	merge:低头	verb + 着 is a mis-cut; merge the verb (call 6)
+全球通	drop	minor brand/platform name
+发生争执	keep	release's cut, sum of parts, not a mis-cut
+强降雨	keep	weather news term, one word
+犯不	drop	mis-cut fragment of 犯不着/犯不上
+黑魔	drop	fiction name
+内膜炎	merge:子宫内膜炎	cut-off piece of 子宫内膜炎 in every example
+差远	merge:差	transparent verb + resultative 远 (call 6 analogue)
+本区	keep	real word "this district", segmenter's cut
+神盾	drop	fiction/brand name
+统战工作	keep	segmenter's word, ordinary political term
+何以堪	keep	established literary fixed expression
+连发	keep	real verb "issue consecutively / rapid-fire"
+黑煞	drop	fiction name
+特别之处	keep	segmenter's word, ordinary noun phrase
+凤凰城	keep	Phoenix, a well-known US city with a Chinese name
+千家	drop	number + measure glued
+排排	drop	fragment of 一排排/排排网
+云中	drop	fragment/name
+雨舒	drop	given name
+格挡	keep	real verb "to parry/block"
+再起	keep	real word (东山再起, 再起 "rise again")
+无法挽回	keep	segmenter's word, ordinary expression
+正对	keep	real word "directly facing"
+菜场	keep	ordinary word "food market"
+各派	keep	real word "the various schools/factions"
+这么些	keep	dictionary pronoun/determiner
+耐冲击	keep	segmenter's technical adjective word
+赌神	keep	common sense "gambling master" shows in the examples
+体式	keep	real word "form, style"
+洞房	keep	ordinary word "bridal chamber"
+地仙	keep	web-fiction/religious common noun (call 13)
+二条	drop	number + measure, "article 12" fragment/mahjong tile
+复合管	keep	technical noun, the release's cut
+吊起	merge:吊	transparent verb + 起 complement
+凌天	drop	fiction character name
+特莱斯	merge:奥特莱斯	cut-off piece of 奥特莱斯
+的确确	merge:的的确确	mis-cut of 的的确确
+经办人	keep	ordinary word, the release's cut
+上装	keep	real word: top garment
+产品种类	keep	the release's cut
+不明不白	keep	fixed expression
+大帐	keep	real word: military tent
+恒温恒湿	keep	the release's cut
+进厂	keep	verb-object word
+安德	drop	given name
+烧热	merge:烧	transparent verb + resultative 热 (call 6 analogue)
+交行	keep	household-name bank abbreviation
+信誉至	merge:信誉至上	cut-off piece of 信誉至上
+化神	keep	web-fiction cultivation stage term
+激发出	merge:激发	transparent verb + 出 complement
+航天局	keep	institution
+算不算	keep	A-not-A form is the release's cut; consistent with 大不大
+一声	drop	number + measure glued
+新闻办	keep	state-body abbreviation
+老酒	keep	ordinary word
+脚踢	merge:踢	mis-cut (抬脚|踢)
+郑和	drop	person
+双膝	keep	ordinary noun, the release's cut
+只限	keep	adverb + verb, the release's cut
+期特码	drop	gambling spam
+百分之五十	drop	spelled-out number
+陈晨	drop	person name
+堂课	merge:课	mis-cut of 一|堂课 holding the whole word 课 (call 24)
+安装版	keep	ordinary software term
+为数	keep	real word (为数不少)
+揉揉	keep	reduplicated verb is the release's cut, not a mis-cut
+相比较	keep	release's cut, parallel to 相一致; not a mis-cut
+魔宗	drop	fiction sect name
+凤九	drop	fictional character name
+双轮	keep	ordinary word
+五百年	drop	number + measure glued
+份儿	keep	real word (erhua form of 份)
+入流	keep	real verb, "enter the ranks"
+关外	keep	real word, "beyond the pass"
+乔峰	drop	fictional character
+分为二	merge:一分为二	mis-cut of the 成语
+合乐	drop	fragment of gambling-site name
+里根	drop	person name
+教育法	keep	ordinary legal term, the release's cut
+交收	keep	real finance word, "settlement"
+天两	drop	mis-cut of 一天两天
+小灵	drop	character name
+小盘	keep	real word, "small-cap", seen in 小盘股
+奶爸	keep	everyday internet word
+扬名	keep	real verb
+紧跟着	merge:紧跟	verb + 着 mis-cut
+缩头	keep	real verb-object word
+喃喃地	merge:喃喃	word + 地 mis-cut
+刘强	drop	person name
+陈宫	drop	historical person
+十字军	keep	common historical noun
+交强险	keep	established abbreviation in everyday use
+瞪圆	keep	lexicalised verb + complement
+膝下	keep	real word
+黑眸	keep	real literary word
+自担	keep	real-word piece of the fixed term 风险自担 (rule 23)
+赵玉	drop	piece of the name 赵玉清
+第十九条	drop	ordinal + measure
+韩信	drop	historical person
+赌客	keep	ordinary gambling vocabulary
+银行家	keep	ordinary word
+天赋异禀	keep	fixed expression
+抽风	keep	real word
+阳光房	keep	real noun
+太白	drop	counts are name pieces (太白金星, 太白米)
+茶汤	keep	real word
+轮滑	keep	real word, "roller skating"
+吨位	keep	real word
+白龙	drop	fictional name
+双修	keep	religious and genre term
+肿瘤医院	keep	common-noun word of the release's cut
+董卿	drop	person name
+挂号费	keep	ordinary noun (registration fee), not junk despite the template-like examples
+牛叉	keep	common slang adjective
+顾小	drop	cut piece of a name
+再犯	keep	adverb + verb word the release cut; also the noun for reoffending
+水嫩	keep	real adjective; spam examples don't matter
+灰指甲	keep	ordinary medical noun (fungal nail)
+综上	keep	real formal word ("in sum")
+升幅	keep	ordinary financial noun (size of a rise)
+成一片	drop	mis-cut from 打成一片 / 连成一片, no single word carries the counts
+神境	keep	cultivation realm term, a genre common noun (call 13)
+认不	drop	mis-cut from 认不出; no listed whole word to merge into
+停停	keep	reduplicated verb, a real word
+哪有	keep	dictionary word ("how could there be")
+酱香	keep	ordinary liquor-flavour term
+顺企网	drop	minor website
+分光	keep	dictionary technical word
+供图	keep	common news-caption word
+及至	keep	literary function word
+呲牙	keep	real word ("bare teeth"); 龇牙 is the standard spelling, but the examples are 呲牙 in emoji tags and 呲牙咧嘴, and I am not sure 龇牙 is in the list
+海妖	keep	generic fantasy creature noun
+靠谱吗	merge:靠谱	word + 吗 mis-cut
+工薪	keep	ordinary word (wage and salary)
+机关报	keep	ordinary word (organ newspaper)
+虎哥	drop	nickname or person
+野结	drop	garbled piece of the name 波多野结衣
+暗夜	keep	ordinary literary word
+死气	keep	real word (also in 死气沉沉)
+榜上	keep	real noun + localiser piece of 榜上有名 (call 23)
+要数	keep	dictionary word ("to count as the best")
+不亚	merge:不亚于	cut-off piece of the dictionary word 不亚于
+忠厚	keep	ordinary adjective
+热式	drop	mis-cut piece of 即热式 / 蓄热式
+郜林	drop	person
+九头蛇	keep	generic mythical creature noun (hydra)
+刀口	keep	ordinary noun (blade edge, incision)
+上百人	drop	number + measure glued
+哆	drop	only occurs inside words and names (哆啦A梦)
+终究会	merge:终究	mis-cut 终究 + 会
+罡气	keep	genre-internal common noun (rule 13)
+题记	keep	ordinary word (epigraph, inscription)
+挂载	keep	real technical verb (mount), ordinary in IT reading
+换妻	drop	adult term whose frequency comes from porn spam
+瘦脸针	keep	ordinary noun, release's cut word
+自下而	merge:自下而上	cut-off piece of 自下而上
+郑智	drop	person name
+黑炎	drop	fiction/game name
+背带	keep	real word (suspenders, straps)
+追不	merge:追	verb + 不 mis-cut (追不上)
+劫后	keep	real word, piece of 劫后余生 / 劫后重生 (call 23)
+第八条	drop	ordinal + measure word, higher than the kept ordinals
+顾得	merge:顾	verb + potential 得 piece of 顾得上/顾得过来; treated as verb + particle under call 6
+小脸蛋	keep	ordinary noun, release's cut word
+心地	keep	real word (heart, disposition)
+中福	drop	minor company/name
+劲往	drop	mis-cut across a word boundary
+港珠	merge:港珠澳大桥	piece of the cut landmark name
+联发	merge:联发科	cut piece of the household-name company 联发科
+成竹	merge:胸有成竹	every example is the 成语 胸有成竹, which carries the counts
+卫计委	keep	established abbreviation for a state body
+朱俊州	drop	person name
+风影	drop	fictional name
+实践中	merge:实践	mis-cut: 实践 + localiser 中 crosses a word boundary
+剧烈地	merge:剧烈	adjective + 地 mis-cut
+自以为	keep	dictionary word (to think oneself)
+黑天	keep	real colloquial word (night, 黑天白日); the common sense shows in the examples
+编制工作	keep	release's cut word, not junk
+九幽	drop	fiction place name
+王丽	drop	person name
+高清晰	keep	ordinary adjective word, release's cut
+传奇搜	drop	spam site name
+剑修	keep	web-fiction genre common noun
+可以看	drop	mis-cut modal + verb phrase
+球探	keep	ordinary common noun (scout)
+着玩	drop	mis-cut fragment of 闹着玩
+赵敏	drop	fictional character
+小美	drop	given name
+王杰	drop	person name
+雪狼	keep	common noun (snow wolf); examples show the animal sense
+平特心	drop	gambling spam
+生俱来	merge:与生俱来	fragment of the 成语
+红玉	drop	given name / fiction character
+行测	keep	exam name (行政职业能力测验), ordinary term for civil-service exam
+刷水	drop	gambling spam jargon
+国际在线	drop	website name, nobody meets by name as a word... minor site
+赵氏	drop	surname + 氏, name
+不像	keep	dictionary verb "not resemble"
+彩赌博	merge:赌博	mis-cut 时时彩|赌博; the whole word 赌博 carries the meaning (call 24)
+无情地	merge:无情	adjective + 地 mis-cut
+笑盈盈	keep	ordinary descriptive adjective
+陈雪	drop	person name
+容不	drop	mis-cut fragment, no single whole word
+考辛斯	drop	foreign person name
+血影	drop	fiction name
+众泰	drop	minor car brand
+狼族	drop	fiction group name
+有何	keep	literary dictionary word
+白富	merge:白富美	cut fragment of 白富美
+野结衣	drop	piece of a cut person name
+旁若	merge:旁若无人	cut fragment of idiom
+刘玉	drop	person name
+懵逼	keep	common slang in wide use
+来劲	keep	ordinary dictionary word
+过世面	merge:世面	mis-cut of 见|过|世面; it holds the whole word 世面 (call 24)
+十六章	drop	number + measure word
+局机关	drop	mis-cut 局 + 机关
+惊怒	keep	real literary verb
+榴弹	keep	ordinary military noun
+伪劣	keep	ordinary word (伪劣产品)
+路透	keep	Reuters, famous news agency
+交银	drop	minor bank abbreviation
+十一章	drop	number + measure word
+建院	keep	verb-object unit, ordinary word
+标机	drop	mis-cut fragment (打标机/套标机)
+大东	drop	minor name
+状物	drop	mis-cut fragment (带状物), 状 + 物
+盈丰	drop	minor company
+飘然而	drop	mis-cut fragment, no single whole word to merge
+世俗界	keep	genre-internal common noun
+五虎	drop	name / team fragment of 五虎将
+分分彩刷	drop	gambling spam, mis-cut
+脓性	keep	real medical term (purulent), the release's own word
+大公会	keep	the release's cut of a game-guild term, not a name
+扬长而	merge:扬长而去	cut-off piece of the 成语
+晓晓	drop	given name
+罗天	drop	fictional person name
+美妆	keep	ordinary vocabulary (beauty and make-up)
+胡润	drop	person name
+个劲地	merge:一个劲	mis-cut of 一个劲 + 地#de; 一个劲 plainly carries the counts
+最高点	keep	ordinary word
+等式	keep	ordinary word (equation)
+耸了	merge:耸	verb + 了 mis-cut
+见度	merge:能见度	cut-off piece of 能见度
+见笑	keep	dictionary word
+防城	merge:防城港	cut-off piece of the prefecture-level city 防城港
+雅美	drop	given name
+为伴	keep	dictionary word
+小芳	drop	given name
+来都	drop	mis-cut across a word boundary
+该区	drop	mis-cut of 该 + 区
+共产	keep	no examples; its own reading is a dictionary word, and 共产党 vs 共产主义 is not plain (call 15)
+猪八	drop	piece of the cut name 猪八戒
+历尽	keep	real word
+重于	merge:重	adjective + 于 mis-cut
+华新	drop	minor company
+细细地	merge:细细	adverb + 地 mis-cut
+老徐	drop	person name
+食尸	merge:食尸鬼	cut-off piece of 食尸鬼
+G20峰会	drop	contains Latin letters and digits
+为数不	merge:为数不少	cut-off piece of 为数不少
+云溪	drop	minor place
+吴端	drop	person name
+四区	drop	ordinal + measure fragment, minor place
+水木	drop	forum or name; the common sense is rare here
+事无成	merge:一事无成	cut-off piece of the 成语
+华帝	drop	lesser appliance brand, with names and spam in the counts
+性强	drop	mis-cut suffix fragment
+易峰	drop	person name
+求成	merge:急于求成	cut-off piece of 急于求成
+凝心	merge:凝心聚力	cut-off piece of the fixed expression
+继父	keep	ordinary word (stepfather)
+鬼吹	drop	piece of title 鬼吹灯; 鬼吹灯 not a listed word, no clear merge
+令人瞩目	keep	established fixed expression
+伟大旗帜	keep	release's one-word cut of a fixed political phrase; not junk
+嫩嫩	keep	real reduplicated adjective (嫩嫩滑滑); judge the word, not the spam
+徐达	drop	historical person
+以利于	keep	dictionary-style function phrase, release's cut
+心经	keep	canonical Buddhist scripture, cultural landmark
+十二章	drop	number + measure
+废柴	keep	common internet slang word in wide use
+悦动	drop	car model
+先入	drop	mis-cut of 先入为主
+法决	drop	fictional term, mis-cut
+陆逊	drop	historical person
+池内	merge:池	mis-cut: 池 + localiser 内, not a lexical compound
+魔导士	keep	genre-internal common noun
+小桃	drop	given name
+成化	keep	its own reading is a Ming reign-era name; 集成化 pieces are noise (call 15)
+气不	drop	mis-cut fragment
+手房	merge:二手房	cut-off piece of 二手房
+神体	keep	web-fiction common noun
+凡客	drop	minor brand
+切实增强	drop	mis-cut verb phrase, adverb + verb template
+如此一	merge:如此一来	cut-off of 如此一来; counts match examples
+自付	keep	real word (self-pay)
+双剑	keep	ordinary noun, two swords
+乐在	drop	mis-cut piece of 乐在其中
+原原本	merge:原原本本	cut-off of 原原本本
+在短期内	drop	mis-cut phrase crossing boundaries, 在 + 短期内
+神偷	keep	ordinary word, master thief
+连用	keep	real word, to use consecutively
+锅内	merge:锅	mis-cut: 锅 + localiser 内, not a lexical compound
+网片	keep	real noun, mesh sheet
+坊市	keep	real historical/fiction common noun
+有价	drop	mis-cut, 有 + 价 fragment
+有势	keep	real-word piece of the split fixed term 有钱有势 (call 23)
+雷克	drop	name fragment
+占地约	drop	mis-cut, 占地 + 约
+常绿	keep	real adjective, evergreen
+当	keep	real standalone character word
+百分之三十	drop	spelled-out number
+眼眶里	merge:眼眶	眼眶 + localiser 里, mis-cut
+贝利	drop	person name
+云州	drop	district-level place (Datong)
+节约型	keep	real term (节约型社会), the release's cut
+各型	drop	mis-cut 各 + 型, no single word carries it
+灵子	drop	fiction names (云灵子, 天灵子)
+白露	keep	solar term, calendar name
+今曰	merge:今日	variant/garbled spelling of 今日
+党团	keep	ordinary word
+土生	drop	mis-cut (土生白人, 土生金); no single word carries it
+说有笑	merge:有说有笑	mis-cut of 有说有笑
+天阳	drop	minor company name
+薯条	keep	ordinary noun
+味十足	drop	mis-cut (女人味十足, 男人味十足)
+家校	keep	ordinary word (家校沟通)
+老蒋	drop	person nickname
+详询	keep	real formal word
+主材	keep	real word in the decoration trade
+定档	keep	real media word
+赛会	keep	real word (赛会制)
+下无双	merge:天下无双	mis-cut of 天下无双
+皮箱	keep	ordinary noun
+相连接	keep	adverb 相 + verb, the release's cut (call 22)
+一般般	keep	colloquial word
+原煤	keep	ordinary noun
+吴晓	drop	person name
+夏夜	keep	ordinary compound noun
+少废话	merge:废话	mis-cut phrase 少 + 废话
+弑神	drop	counts are game and novel titles and names; not a genre word in wide use
+行房	keep	ordinary reading word
+金烈	drop	person name, spam text
+问询函	keep	real regulatory term
+动不	merge:动不动	mis-cut of 动不动
+可图	drop	mis-cut of 有利可图 and similar, no single word carries it
+特码王	drop	gambling spam
+影儿	keep	real colloquial word (没影儿)
+敌不过	keep	dictionary-style verb with potential complement
+有卖	drop	mis-cut, no examples
+艺龙	drop	minor company
+陈杰	drop	person name
+成百	merge:成百上千	piece of the fixed expression, which carries all the counts
+因私	keep	real word, opposite of 因公
+大美	merge:美女	mis-cut 大|美女; every example is 大美女
+截教	drop	fiction sect name
+资质等级	keep	release's cut word, a real term
+众矢之	merge:众矢之的	cut-off idiom
+优衣库	keep	household-name brand
+彩龙	drop	minor name, no examples
+神职	keep	religious vocabulary
+袖袍	keep	ordinary word (robe sleeve)
+三脚架	keep	ordinary noun, tripod
+化龙	keep	established fiction/folk term (蛇化龙, 鱼跃化龙); the name use 余化龙 is a minority (call 13)
+命格	keep	real word (fate chart)
+滚回	merge:滚	transparent verb + directional complement (call 6)
+万世	keep	literary word
+判令	keep	legal verb
+皇太	merge:皇太后	cut-off word
+十七条	drop	number + measure
+安全部	keep	real noun (security department/ministry), state-body sense
+炎性	keep	real medical word
+可扩展性	keep	ordinary term (scalability)
+永葆	keep	literary verb
+玩笑话	keep	ordinary word
+位一体	merge:三位一体	cut-off fixed term
+好头	drop	mis-cut (开好头, 带好头)
+扩增	keep	real word (amplification)
+镇区	keep	common noun (town area), not a place name
+概不	keep	dictionary adverb (概不负责)
+毫发	keep	real word (毫发无伤)
+瞧不	merge:瞧不起	cut-off word
+邵氏	keep	famous film company (Shaw Brothers)
+云游	keep	real word
+兽交	drop	spam jargon
+活期	keep	banking word
+涉及面	keep	ordinary word
+装糊涂	keep	ordinary word
+临头	keep	ordinary verb
+云团	keep	ordinary noun
+错话	drop	mis-cut from 说错话
+魔武	drop	fiction term, name
+雷兽	drop	fictional creature name, fiction-specific
+作者简介	drop	site template phrase
+杨阳	drop	person name
+软化水	keep	real technical noun, release's cut
+十五六	drop	approximate number pair
+夜夜撸	drop	adult spam jargon
+拳砸	merge:砸	mis-cut 一拳|砸; the whole word 砸 carries the verb (call 24)
+住气	merge:沉住气	piece of 沉住气/沉得住气, which carries the counts
+克不及	drop	garbled form, no clear target
+关中	keep	well-known major region (Shaanxi Guanzhong plain)
+分阶段	keep	release's cut adverbial phrase, ordinary word-like unit
+自动关机	keep	segmenter's word, ordinary vocabulary
+角钢	keep	ordinary technical noun (angle steel)
+课桌椅	keep	ordinary noun, release's cut
+道君	drop	fiction title/name
+黔东南	keep	autonomous prefecture of China
+奈子	drop	given name fragment
+死鸟	drop	mis-cut piece of 不死鸟, not a word
+竹海	keep	common noun (bamboo sea), scenic term in everyday use
+价格不菲	keep	established fixed expression
+减至	merge:减	verb + 至 complement mis-cut
+区外	keep	ordinary word (outside the district/zone)
+杉杉	drop	brand/name, mainly given name or fiction character
+长江大桥	keep	the Wuhan and Nanjing bridges are famous landmarks a reader meets
+易胜博	drop	gambling site name
+主阀	keep	ordinary technical noun
+价格公道	keep	fixed expression
+控制板	keep	ordinary noun
+竭诚欢迎	keep	fixed expression
+九名	drop	number + measure word
+仙兽	keep	web-fiction genre common noun
+适时地	merge:适时	adverb + 地 mis-cut
+六五	drop	spelled number fragment
+没把握	keep	ordinary phrase word, release's cut
+略为	keep	dictionary adverb
+继电	drop	cut-off piece of 继电器
+融于	merge:融	verb + 于 mis-cut
+十七章	drop	number + measure word
+墙砖	keep	ordinary noun
+憋不	drop	mis-cut fragment of 憋不住, no whole word carried
+抛向	merge:抛	verb + directional 向, the guide splits it
+模具钢	keep	ordinary technical noun, the release's cut
+潜水泵	keep	ordinary technical noun
+灌区	keep	real word (irrigation district)
+论谈	drop	garbled form of 谈论/论坛, no single word clearly carries the counts
+陈立	drop	person name
+三十几	drop	spelled approximate number built from number words
+作主	merge:做主	variant spelling
+子龙	drop	person name
+钢珠	keep	ordinary noun
+闭式	keep	real technical word (closed-type: 闭式系统, 常闭式)
+靠得	merge:靠得住	cut-off piece, examples are 靠得住
+一环	keep	word in its own right ("a link", 重要一环)
+到哪	drop	mis-cut phrase, no clear word to merge into
+詹皇	drop	nickname of a person
+步登天	merge:一步登天	cut-off piece of the 成语
+满屋	keep	real word ("filling the room"), the release's cut
+玻璃棉	keep	ordinary material noun
+徐家汇	keep	nationally famous district and landmark of Shanghai (call 1)
+招招	keep	real reduplicated word ("every move")
+排污泵	keep	ordinary technical noun
+杂毛	drop	insult/odd, examples are abusive or fiction
+轮圈	keep	ordinary noun (wheel rim)
+叶面	keep	real noun (leaf surface)
+咚咚咚	keep	onomatopoeia
+商都	drop	mis-cut across 商|都 in the examples
+温升	keep	real technical word
+警句	keep	ordinary word
+长存	keep	ordinary word
+人流术	drop	mainly spam-driven medical term
+奇珍	keep	real word
+法制办	keep	established institutional abbreviation
+照护	keep	ordinary word
+交通委	keep	established institutional abbreviation
+半数以上	keep	release's cut, a word of the list
+无界	keep	real word ("boundless")
+昌都	keep	prefecture-level city (call 1)
+董洁	drop	person name
+货值	keep	ordinary trade word
+黑如墨	drop	ad hoc phrase, piece of 漆黑如墨
+不合格者	keep	X者 noun is the release's cut (cf. 参与者); no rule splits 者
+双拼	keep	real word (double-flavour / shuangpin input), segmenter's cut
+新华路	drop	street name
+电子注册	keep	ordinary term in education context, segmenter's word
+登录器	drop	game spam tool (call 19)
+缓闭	drop	technical fragment (e.g. 缓闭止回阀), no examples
+副处级	keep	bureaucratic grade word, ordinary in news
+副镇长	keep	ordinary title word (call 5)
+南越	keep	historical kingdom/era name (Nanyue; also South Vietnam)
+大骇	keep	real literary verb/adjective
+成区	merge:建成区	mis-cut of 建成区 (examples show 建成区)
+擅于	merge:善于	non-standard spelling of 善于 (擅 for 善), treated like a variant spelling of a listed word
+棕熊	keep	ordinary animal word
+歌王	keep	ordinary honorific common noun
+母女俩	keep	real word (mother and daughter), 俩 inherent
+水利建设	keep	segmenter's word, ordinary news term
+细细的	merge:细细	mis-cut: reduplicated adjective + 的
+联排	keep	real estate term in ordinary use (联排别墅)
+秃驴	drop	slur
+软件技术	keep	segmenter's word, ordinary term
+〇二九	drop	spelled-out digit code (area code)
+嗔道	keep	literary verb of speech in wide use
+大印	keep	real word (official seal)
+消纳	keep	real word in energy/waste news
+热映	keep	real word (in cinemas now)
+布冯	drop	person name
+绯色	keep	real colour word
+闭路	keep	real word (闭路电视)
+下岗职工	keep	ordinary word
+做市商	keep	finance term in ordinary use
+坦白说	keep	fixed adverbial expression
+外立面	keep	ordinary architecture term
+收费公路	keep	ordinary word
+教练席	keep	ordinary common noun (coach's bench)
+渝北	drop	district name, not nationally famous
+麻省理工学院	keep	world-famous institution
+东北角	keep	ordinary word (northeast corner)
+具体做法	keep	segmenter's word, ordinary
+圆头	keep	ordinary word (round head/toe)
+外痔	keep	ordinary medical word
+导图	merge:思维导图	cut-off piece of 思维导图 (examples all 思维导图)
+成投产	merge:投产	mis-cut 建成|投产; the whole word 投产 inside it carries the meaning (call 24)
+战兽	keep	fiction genre common noun (call 13)
+有售	keep	ordinary dictionary verb "on sale"
+满意率	keep	ordinary word, segmenter's cut
+胸有	merge:胸有成竹	cut-off piece of idiom 胸有成竹
+腺瘤	keep	medical noun, real word
+〇二三	drop	area code / digit string
+农夫山泉	keep	household-name brand (call 3)
+吴昊	drop	person name
+头雾水	merge:一头雾水	cut-off piece of 一头雾水
+焊丝	keep	real technical word
+脸皮厚	keep	common expression, release's cut
+锣鼓	keep	ordinary noun
+防虫	keep	real word
+飞羽	drop	fiction place/faction name, rare common sense
+黄色片	keep	ordinary adult-vocabulary word, dictionary term
+三公主	drop	fictional character
+买药	keep	ordinary verb-object word
+大师姐	keep	common title/kinship-type word in wide use
+大足	keep	Chongqing district but nationally famous for 大足石刻 (World Heritage); examples show it
+江小	merge:江小白	cut-off piece of 江小白
+相关者	keep	release's word cut ("those concerned"); real-word piece of 利益相关者 (call 23)
+答对	keep	real verb + complement word (lexicalised)
+管不	drop	mis-cut of 管不住, no whole word carries counts
+内嵌	keep	real technical verb
+出人命	keep	established expression, release's cut
+大学校长	keep	release's cut word, sum of parts still a word
+山东鲁能	drop	sports club
+拟聘	keep	real bureaucratic adverb + verb word ("proposed for hire"); adverb + verb cuts keep (call 22)
+省直机关	keep	release's cut word, common in news
+香浓	keep	real adjective
+黑夜里	merge:黑夜	word + localiser mis-cut
+己身	keep	literary word 己身 "oneself"
+排线	keep	real word (ribbon cable / hatching)
+片材	keep	real technical noun
+超一	merge:一流	cut-off piece of 超一流 = degree 超 + 一流; under R13/call 22 the counts belong to 一流
+华远	drop	minor company name
+周氏	drop	surname + 氏 name use
+小柔	drop	given name
+潘石屹	drop	person
+磁芯	keep	ordinary technical noun
+花都区	drop	Guangzhou district, not nationally famous
+丹道	keep	web-fiction common noun (rule 13)
+奔小康	keep	established fixed expression
+活泼开朗	keep	segmenter's word, sum of parts
+直落	keep	real word, straight sets
+真实写照	keep	established fixed expression
+离团	keep	real verb-object word
+缴款	keep	real word
+莫拉塔	drop	person
+配合默契	keep	segmenter's word
+人际沟通	keep	segmenter's word
+制毒	keep	real word
+叶飞	drop	person
+多普勒	keep	everyday science term (Doppler ultrasound), not just a name
+宋玉	drop	historical person
+精矿	keep	real word
+观音桥	drop	minor place
+钱德勒	drop	person or small foreign place
+韩雪	drop	person
+享原价	drop	spam template
+刀架	keep	real noun
+反吹	keep	real word
+姆巴佩	drop	person
+抗静电	keep	real word
+振国	drop	given name
+申城	keep	common nickname for Shanghai in news
+秦州	drop	district-level place
+一式两份	keep	established fixed expression
+云堡	drop	fiction place name
+前值	keep	real finance term
+协会理事	keep	real title phrase, segmenter's word
+国兴	drop	given name
