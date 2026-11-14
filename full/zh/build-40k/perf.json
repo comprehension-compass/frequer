@@ -80,14 +80,14 @@
   }
  ],
  "build_seconds": {
-  "merge": 303.88,
-  "rank": 13.49,
-  "snapshot": 3.41,
-  "cooc": 1.92,
-  "report": 57.12
+  "merge": 289.84,
+  "rank": 13.68,
+  "snapshot": 3.89,
+  "cooc": 1.93,
+  "report": 72.07
  },
  "worker_peak_rss_mb": 1354,
- "build_process_peak_rss_mb": 1600,
+ "build_process_peak_rss_mb": 1598,
  "host_tokens": 0,
  "occurrence_kinds": {
   "word": 803221427,
@@ -108,14 +108,14 @@
    "n4": 601
   },
   "shipped_rows": 8122,
-  "table_bytes": 130801,
+  "table_bytes": 130800,
   "queue_rows": 2000
  },
  "checks": {
   "form_ratio": 212,
   "plural": 0,
   "consistency": 2,
-  "short": 1491,
+  "short": 1492,
   "case": 0
  },
  "excluded_from_top_n": 0,

@@ -205,3 +205,14 @@ existing rows re-ranked, 40061 new, 0 demoted, 0 skipped; 176 unit headwords (11
 9,498, top-40,000 37,401; 2,602 entries in, 2,610 out. Release-side findings for the next zh release: the PROPN
 over-tagging above; idioms cut into pieces; 莫 filed under the lemma 莫三比克 (22,302 of its 22,311 counts are
 莫) and 瓦 under 瓦努阿图; common words the 1.7.0 cut no longer emits (各种, 还有, 看起来, 是不是, 便是).
+
+**Coordinator-directed merges (2026-11-14, after review of Honeyeater #900).** Release 1.7.0's `lookup.json` maps
+莫 → 莫三比克 and 瓦 → 瓦努阿图, each from one labelled abbreviation; the developer approved desk overrides 莫→莫
+and 瓦→瓦 (`LemmaOverride`, source=manual) in production. The review file records `莫三比克 → merge:莫` and
+`瓦努阿图 → merge:瓦` (re-decided over round 16's keeps; the full names' own counts, 9 and 360, are below the
+cut, so neither keeps an entry). No recount. Rebuilt at frequer `5c77f34`: 818,671,745 tokens; 40,061 entries,
+sha256 `55368013854a0d0a194b4ac8423cde7f0ac51073952e52a3f557aaf8cd3ff75f`; 171 homograph keys, 0 outside the
+registry; 莫 at 3,910 and 瓦 at 14,107 replace the two names, nothing else moves; `load_lemmas zh --dry-run`:
+`40061 ranked entries — 0 existing rows re-ranked, 40061 new, 0 demoted, 0 skipped; 176 unit headwords (11
+constructions), 171 homograph keys [sha256 55368013854a]`. The other one-example single-character mappings
+(肾→甚至, 目→目的, 恩→嗯, 墨→墨西哥, 乐→了) are left to the next release (developer).
