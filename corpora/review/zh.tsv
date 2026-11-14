@@ -15874,3 +15874,1312 @@ baidu.com	drop	Latin script/domain
 # round 15s (cascade)
 萧山区	drop	district of Hangzhou, not nationally famous; suffixed form follows the place (call 1, 2)
 贡献度	keep	segmenter's word cut; a real compound meaning "degree of contribution", kept as the release's word
+# round 16 (flagged lemmas in the window after the lemma 1.7.0 recount)
+张	keep	measure word and common surname-character; ordinary word
+码	keep	real standalone word (code, number, yard); examples are ordinary
+金	keep	gold/metal, ordinary word also a surname
+美	keep	beautiful, also America abbreviation; ordinary word
+分分彩	drop	spam lottery name only spam makes frequent
+号码	keep	ordinary word (number)
+龙	keep	dragon, ordinary word
+东方	keep	ordinary word (the East, Orient)
+世界杯	keep	World Cup, a major event in ordinary use
+中华	keep	established word/name (中华民族), everyday in news
+基层	keep	ordinary word (grassroots)
+青岛	keep	well-known prefecture-level city
+春节	keep	festival name
+布置	keep	ordinary verb
+密码	keep	ordinary word (password)
+促销	keep	ordinary word
+海南	keep	province
+维生素	keep	ordinary word (vitamin)
+莫三比克	keep	Call 15: judged by its own reading, Mozambique, a country; the 莫 counts cannot be split, so this is not merged
+损伤	keep	ordinary word
+山西	keep	province
+江南	keep	well-known region
+长江	keep	major river
+薄	keep	ordinary adjective (thin), counts include 薄薄
+宁波	keep	major city
+蛋白质	keep	ordinary word
+央视	keep	broadcaster abbreviation, named in rules
+中原	keep	major region and ordinary word
+万一	keep	word in its own right per number rules
+温泉	keep	ordinary word (hot spring)
+绽放	keep	ordinary verb
+政协	keep	state body abbreviation
+黑白	keep	ordinary word
+二手房	keep	ordinary word
+智力	keep	ordinary word
+饱满	keep	ordinary adjective
+国企	keep	ordinary abbreviation
+特斯拉	keep	household-name company/marque
+加息	keep	ordinary finance word
+理财产品	keep	word the segmenter made; ordinary vocabulary
+解放军	keep	famous state body (PLA)
+紫外线	keep	ordinary word, ultraviolet
+旺盛	keep	ordinary adjective
+油脂	keep	ordinary noun, fat/oil
+内线	keep	ordinary word (inside line, basketball inside)
+捷克	keep	country
+蜘蛛	keep	ordinary noun, spider
+后排	keep	ordinary word, back row
+云南省	keep	province with suffix, call 2
+父子	keep	ordinary word, father and son
+香气	keep	ordinary noun, fragrance
+坦言	keep	ordinary verb, frankly say
+马桶	keep	ordinary noun, toilet
+变频器	keep	ordinary noun, frequency converter
+万千	keep	ordinary word, myriad
+商品房	keep	ordinary noun, commercial housing
+古镇	keep	ordinary noun, ancient town
+乙酰溴	drop	chemical spam product name
+分分	drop	No examples and very low diversity; not a standalone word, likely a piece of 分分钟 or of the lottery-spam term 分分彩
+两会	keep	established abbreviation, NPC and CPPCC sessions
+姐夫	keep	ordinary kinship word despite spam examples
+中队	keep	ordinary word, squadron/company
+安保	keep	ordinary abbreviation, security
+脚本	keep	ordinary word, script
+加固	keep	ordinary verb, reinforce
+俄国	keep	country name
+韩立	drop	fiction character name
+神测	drop	lottery spam site name
+设计图	keep	ordinary noun, design drawing
+约合	keep	ordinary word, equivalent to
+羞涩	keep	ordinary adjective, shy
+青山	keep	ordinary word, green hills
+小哥	keep	ordinary colloquial word, young guy
+中超	keep	major sports league, call 3
+往日	keep	ordinary word, former days
+小康社会	keep	established political term
+常委会	keep	ordinary institutional word, standing committee
+旺季	keep	ordinary word, peak season
+锂电池	keep	ordinary noun, lithium battery
+招商引资	keep	established fixed expression
+身体素质	keep	ordinary compound word, segmenter's cut
+古朴	keep	real adjective
+税费	keep	real word (taxes and fees)
+噻吩乙	drop	chemical fragment from spam procurement text
+情不自禁	keep	established 成语
+奴婢	keep	ordinary historical vocabulary
+后视镜	keep	everyday word (rear-view mirror)
+波纹	keep	real word (ripple)
+纺	keep	real standalone verb (to spin), in 纺织 etc.; no examples, dictionary standalone use
+建设银行	keep	household-name state bank
+小狗	keep	ordinary word (puppy)
+财税	keep	real word (finance and tax)
+中科院	keep	famous institution, established abbreviation
+爱尔兰	keep	country
+新浪微博	keep	well-known platform
+中年人	keep	ordinary word
+触摸屏	keep	ordinary word
+最高人民法院	keep	state body
+滞后	keep	real word (lag)
+中国联通	keep	household-name company
+党组书记	keep	ordinary official title word
+憧憬	keep	real word
+温水	keep	ordinary word
+矿泉水	keep	ordinary word
+催化剂	keep	ordinary word
+综合治理	keep	established term
+可返	drop	spam template text (可 + 返), low diversity
+AC米兰	drop	Latin letters, sports club
+台式	keep	real word (desktop, Taiwan-style)
+雌激素	keep	ordinary word (oestrogen)
+头目的	merge:头目	cut form of 头目; examples all 头目
+陈佳	drop	person name, low diversity
+显而易见	keep	established 成语
+妇产科	keep	ordinary word
+剧毒	keep	real word
+高性价比	keep	word the segmenter made
+机械化	keep	real word
+瓦努阿图	keep	country; the lemma's counts are mostly 瓦 but the word is the country name
+举手	keep	real word (raise hand)
+利润率	keep	ordinary word
+超低	keep	real word: ultra-low (超低排放)
+美容院	keep	ordinary word: beauty salon
+硬着头皮	keep	established idiom
+冷战	keep	ordinary word: Cold War
+新式	keep	ordinary adjective: new-style
+智利	keep	country
+石油化工	keep	segmenter's word, petrochemical industry
+白金	keep	ordinary word: platinum
+臭氧	keep	ordinary word: ozone
+共产主义	keep	ordinary word: communism
+娴熟	keep	ordinary adjective: skilled
+萧华	drop	person name, fiction, low diversity
+特殊性	keep	ordinary noun: particularity
+青年报	keep	nationally famous paper (中国青年报) as cut
+爱国主义	keep	ordinary word: patriotism
+绩效考核	keep	segmenter's word: performance appraisal
+普通高校	keep	segmenter's word: regular universities
+青蛙	keep	ordinary word: frog
+免税	keep	ordinary word: tax-free
+陆辰	drop	fiction character name
+贝贝	drop	given name, spam examples
+宝来	drop	car model/name, no examples
+税务机关	keep	ordinary word: tax authority
+端午	keep	festival name
+静脉曲张	keep	ordinary medical term: varicose veins
+卓求	drop	minor brand/training name, one document set
+内心深处	keep	segmenter's word: deep within
+万能	keep	ordinary adjective: all-purpose
+子剑	drop	fiction item name, low diversity
+硅谷	keep	well-known place: Silicon Valley
+格栅	keep	ordinary word: grille
+中亚	keep	major region
+颈椎病	keep	ordinary disease word
+管理学	keep	ordinary word: management studies
+筹建	keep	ordinary verb: to prepare to establish
+收费站	keep	ordinary word: toll station
+标段	keep	ordinary word: bid section
+容错	keep	ordinary word: fault tolerance
+格调	keep	ordinary word: style, taste
+视网膜	keep	ordinary word: retina
+伊布拉希莫维奇	drop	person name (Ibrahimović)
+白云区	drop	district, not nationally famous (suffixed form follows the place)
+古巴	keep	country
+李逸	drop	person name, fiction character
+浙江大学	keep	nationally famous university
+甘愿	keep	real word "be willing"
+岳重	drop	name fragment, no examples, spam/fiction
+九重天	keep	real word, the nine heavens (religious/literary vocabulary)
+物业公司	keep	real word, property management company
+台球	keep	real word, billiards
+分版	drop	mis-cut from 不分版本/不分版别 boilerplate
+犹太	keep	Jewish/Judea, ethnic group
+黑彩	drop	spam jargon only gambling spam makes frequent
+所作所为	keep	established expression
+天国	keep	religious vocabulary, heavenly kingdom
+手忙脚乱	keep	成语
+覆盖率	keep	real word, coverage rate
+试一试	keep	release's cut word, in ordinary use
+蠢蠢欲动	keep	成语
+冷轩	drop	fiction character name
+敞	keep	real standalone word (open wide, literary)
+周期性	keep	real word, periodicity
+情节严重	keep	established fixed expression
+一般而言	keep	fixed expression
+新闻出版	keep	real word, release's cut
+耸耸肩	keep	real verb phrase, the release's cut
+团圆	keep	real word, reunion
+城际	keep	real word, intercity
+陈浩	drop	person name
+德育	keep	real word, moral education
+毅然	keep	real adverb
+矿井	keep	real word, mine shaft
+可儿	drop	given name, no word use (温顺可儿 is a broken form)
+蹊跷	keep	real word, suspicious
+镂空	keep	real word, hollowed out
+京	keep	standalone literary word and abbreviation for Beijing, rule 10
+古籍	keep	real word, ancient books
+蹙眉	keep	real word, to knit the brows
+波浪	keep	real word, waves
+十年	drop	Plain number + unit glued together (like 五年), covered by the general number rule; not a word in its own right
+国际足联	keep	FIFA, famous international body
+坏处	keep	ordinary word 'disadvantage'
+突飞猛进	keep	established 成语
+联考	keep	ordinary word, joint exam
+聚宝盆	keep	ordinary word 'treasure bowl', common noun
+母乳喂养	keep	segmenter word, ordinary vocabulary
+阿哥	keep	ordinary word (elder brother, Qing prince title); examples are fiction but the word is real
+人民大会堂	keep	famous landmark
+天君	keep	Daoist title for a heavenly lord; religious vocabulary and a title (calls 5, 25), not a personal name
+三分球	keep	ordinary basketball word
+溺水	keep	ordinary verb
+遵纪守法	keep	established 成语
+罪魁祸首	keep	established 成语
+底层	keep	ordinary word
+大中城市	keep	segmenter word, ordinary vocabulary
+数控机床	keep	segmenter word, ordinary vocabulary
+半成品	keep	ordinary word
+荷叶	keep	ordinary word
+欧亚	keep	Eurasia, continent names
+触目惊心	keep	established 成语
+轻叹	keep	ordinary verb
+班子成员	keep	segmenter word, ordinary vocabulary
+基准利率	keep	ordinary finance term
+上半身	keep	ordinary word
+本题	keep	ordinary word 'this question'
+二维	keep	ordinary word 'two-dimensional'; not a spelled number
+海关总署	keep	state body
+专利技术	keep	segmenter word, ordinary vocabulary
+美工	keep	ordinary word
+荷尔蒙	keep	ordinary loanword
+国家电网	keep	major state-owned group, call 3
+脚手架	keep	ordinary word
+秦宇	drop	fictional character name
+物美价廉	keep	established 成语
+马会	drop	gambling site name (Jockey Club spam) with no examples
+控股集团	keep	ordinary business word, segmenter cut
+温小喵	drop	fictional character name, one document
+苍玄	drop	fiction sect/character name
+弟兄们	keep	ordinary word
+物流业	keep	ordinary word
+许枫	drop	person name from fiction/web novel
+中段	keep	ordinary word "middle section"; examples are place descriptions but the word is common
+原汁原味	keep	established four-character expression "original flavour"
+联运	keep	real word "through/combined transport"
+林铮	drop	fictional character name
+无纺布袋	keep	Release's one-word cut, "non-woven bag", an ordinary noun; shop-text examples don't make it junk
+意料之外	keep	fixed expression "unexpected"
+心理素质	keep	real word "psychological quality"
+白热化	keep	real word "reach white heat"
+休克	keep	real word "(medical) shock"
+物流配送	keep	segmenter's word, logistics distribution
+方寒	drop	fictional character name
+剪切	keep	real word "shear/cut"
+战战兢兢	keep	成语 "trembling with fear"
+定速巡航	keep	real word "cruise control"
+木瓜	keep	real word "papaya"; spam examples don't matter
+理直气壮	keep	成语 "justified and bold"
+量刑	keep	real legal word "sentencing"
+膝关节	keep	real word "knee joint"
+自尊心	keep	real word "self-esteem"
+万圣节	keep	holiday name
+地税	keep	real word, local tax bureau/tax
+杆菌	keep	real word "bacillus"
+波段	keep	real word "waveband"
+木雕	keep	real word "wood carving"
+蜥蜴	keep	real word "lizard"
+西餐	keep	real word "Western food"
+大城	drop	mostly minor place/company-name use; not an ordinary word
+浅笑	keep	real word "faint smile"
+红宝石	keep	real word "ruby"
+天峰	drop	name pieces (mountain/character names)
+金刚石	keep	real word "diamond"
+世外桃源	keep	成语 "Shangri-La"
+台当局	keep	established term "Taiwan authorities"
+熔断器	keep	real word "fuse"
+聚氯乙烯	keep	real word "PVC"
+元力	drop	web-fiction term but mostly fiction-specific energy; ambiguous
+揣摩	keep	real word "ponder"
+英语口语	keep	segmenter's word, spoken English
+撕心裂肺	keep	成语 "heart-rending"
+薄弱环节	keep	ordinary word "weak link", segmenter's cut
+吉吉	drop	name/video site brand, not a word
+楚云	drop	fiction character name
+陆渐	drop	fragment of character name 陆渐红
+惨不忍睹	keep	成语
+话音未落	keep	fixed expression
+山崖	keep	ordinary noun "cliff"
+哈佛大学	keep	famous foreign university
+联机	keep	ordinary word "online/networked play"
+北京师范大学	keep	nationally famous university
+判决书	keep	ordinary word "written judgment"
+保护器	keep	ordinary word "protector (device)"
+轻轻地	keep	adverb form made by the segmenter, ordinary word
+雷神	keep	deity Thor/god of thunder, religious vocabulary
+理工学院	keep	ordinary word "institute of technology"
+周维	drop	fragment of character name 周维清
+中国社会科学院	keep	famous national institution
+城市群	keep	ordinary word "urban agglomeration"
+新格局	keep	segmenter's word "new pattern"
+土工格栅	keep	real technical word despite product-page examples
+验资	keep	real word "capital verification"
+浅析	keep	real word "brief analysis"
+李凌	drop	person name
+目不转睛	keep	成语
+万无一失	keep	成语
+佳节	keep	ordinary word "festive occasion"
+专利申请	keep	ordinary word "patent application"
+全系列	keep	segmenter's word "entire series"
+三部曲	keep	ordinary word "trilogy"; not a number+measure drop
+中甲	keep	major football league, league ruling (call 3)
+烟头	keep	ordinary word "cigarette butt"
+哗啦啦	keep	onomatopoeia in ordinary use
+把戏	keep	ordinary word "trick"
+稳固剂	keep	real word "stabilizer", technical noun
+秘书处	keep	ordinary word "secretariat"
+生命科学	keep	ordinary word "life sciences"
+赵钢镚	drop	fiction character name
+云烨	drop	fiction character name
+火锅店	keep	ordinary word "hotpot restaurant"
+老街	keep	ordinary word "old street"
+普普通通	keep	real reduplicated adjective, ordinary word
+大摇大摆	keep	established 成语-like expression
+纪天宇	drop	fictional character name
+促进会	keep	ordinary word "promotion association", common organisation noun
+算数	keep	real word "to count / hold good"
+寄生虫	keep	ordinary noun parasite
+烟雨	keep	real word, misty rain
+假冒伪劣	keep	established fixed expression
+陛	keep	standalone literary word (as in 陛下 only); rule 10 literary use
+蓝衣	keep	ordinary word "blue clothes"
+开题	keep	real word, thesis proposal
+心脑血管	keep	segmenter's word, ordinary medical term
+电加热	keep	segmenter's word, ordinary term
+卷土重来	keep	成语
+行政诉讼	keep	ordinary legal term
+呵呵呵	keep	ordinary onomatopoeia/interjection
+马特	drop	given name (Matt)
+韩宇	drop	person name
+史书	keep	ordinary word, history book
+胶粘剂	keep	ordinary technical noun, adhesive
+黑木耳	keep	ordinary food word
+仙人掌	keep	ordinary plant word
+植物油	keep	ordinary word
+会员单位	keep	ordinary word
+沉甸甸	keep	ordinary adjective
+益气	keep	real word (TCM, boost qi)
+政治局	keep	state body, Politburo
+楚梦	drop	fictional character name
+课题组	keep	ordinary word, research group
+窃窃私语	keep	成语
+居民消费	keep	segmenter's word, ordinary term
+龙舟	keep	ordinary word, dragon boat, festival-related
+可用性	keep	ordinary word
+空港	keep	ordinary word, airport (air port)
+新专辑	keep	segmenter's word, ordinary term
+印刷厂	keep	ordinary word
+松树	keep	ordinary word
+正常人	keep	ordinary word
+古琴	keep	ordinary word, guqin instrument
+驾驶者	keep	ordinary word, driver
+物有所值	keep	established 成语-like fixed expression
+范华	drop	garbled spam text/name
+大批量	keep	ordinary word (in large batches)
+念念不忘	keep	成语
+商用车	keep	ordinary word (commercial vehicle)
+招架	keep	real verb (fend off)
+醒目的	merge:醒目	的 attached; the word is 醒目
+也门	keep	country
+中层	keep	ordinary word (middle level)
+脚垫	keep	ordinary noun (foot mat)
+莫过于	keep	real construction/word
+密封性	keep	ordinary word (sealing property)
+欢迎惠顾	keep	fixed expression, common shop greeting
+下午茶	keep	ordinary word
+秦羽	drop	fictional character name
+秦霄	drop	fictional character name
+天辰	drop	name, fiction/company
+林默	drop	person name
+布艺	keep	ordinary word (fabric goods)
+林齐	drop	fictional character name
+触角	keep	ordinary word (antenna)
+本学期	keep	ordinary word (this semester)
+叶知秋	drop	fictional character name
+杀气腾腾	keep	成语
+唐风	drop	name (person/business); Tang style rare
+文明城市	keep	common word in Chinese news
+逆变器	keep	ordinary technical word (inverter)
+长篇	keep	ordinary word (long form)
+毛坯	keep	ordinary word (unfinished/rough)
+光棍	keep	ordinary word (bachelor)
+国家体育总局	keep	state body
+争先恐后	keep	成语
+物力	keep	ordinary word (material resources)
+布衣	keep	ordinary word (commoner)
+布下	keep	lexicalised verb + complement (lay out), release's cut
+雷雨	keep	ordinary word (thunderstorm)
+展望未来	keep	fixed expression
+叶重	drop	fictional character name
+安乐	keep	ordinary word (comfort, ease)
+姬动	drop	fictional character name
+克里斯蒂亚诺	drop	person's given name (Ronaldo)
+生机勃勃	keep	real idiom, tagger PROPN only
+周琦	drop	person (basketball player)
+上海证券交易所	keep	famous institution (stock exchange)
+丝巾	keep	ordinary word (silk scarf), spam examples only
+明明白白	keep	real word (clear, plain), reduplicated adjective
+条件反射	keep	real term (conditioned reflex)
+武侠小说	keep	genre word in wide use
+一定量	keep	real word (a certain amount)
+溺爱	keep	real verb (to dote on, spoil)
+金牛座	keep	constellation
+银白色	keep	ordinary colour word
+偷偷摸摸	keep	real idiom/expression
+脱胎换骨	keep	成语
+广告投放	keep	segmenter's word, ordinary term
+台海	keep	established abbreviation (Taiwan Strait), news vocabulary
+陈九	drop	fictional character name
+兄弟俩	keep	real word (the two brothers)
+肾结石	keep	ordinary medical term
+锂离子	keep	real term (lithium ion)
+陈彬	drop	person name
+密封胶	keep	real word (sealant)
+妊娠期	keep	real term (pregnancy period)
+聂云	drop	fictional character name (聂云飞)
+预备党员	keep	real term (probationary party member)
+英豪	keep	real word (heroes, outstanding figures)
+云枫	drop	fictional character name
+灌浆料	keep	real technical word (grouting material)
+送风	keep	real word (air supply)
+仁义	keep	real word (benevolence and righteousness)
+雷击	keep	real word (lightning strike)
+炉子	keep	real word (stove, furnace)
+私信	keep	real word (private message), everyday use
+秦洛	drop	fictional character name
+类目的	merge:类目	mis-cut 类目 + 的; written form is 类目, a real word
+翩翩	keep	real literary word (gracefully)
+青松	keep	Ordinary word "green pine", shown in its common sense (青松翠柏)
+淋浴房	keep	real word (shower enclosure)
+适用性	keep	real word (applicability)
+顿悟	keep	real word (sudden enlightenment)
+当机立断	keep	established 成语
+中央政治局常委	keep	state body/office, famous institution term
+唐重	drop	name, low diversity
+环卫工人	keep	ordinary word, segmenter's cut
+萧云	drop	fictional character name
+育婴师	keep	ordinary occupation word
+建档立卡	keep	established policy term, fixed expression
+陈青帝	drop	fictional character name
+小灵通	keep	well-known phone product/term, everyday in China
+建议您	merge:建议	verb + pronoun mis-cut
+摩擦力	keep	ordinary word
+深圳证券交易所	keep	famous institution
+庄子晴	drop	fictional character name
+醇厚	keep	ordinary adjective
+温度计	keep	ordinary word
+乙烯	keep	ordinary chemistry word
+高深莫测	keep	成语
+目光望	drop	mis-cut: 目光 + 望
+柯震东	drop	person name
+李浩	drop	person name
+苏白山	drop	fictional character name
+跌宕起伏	keep	成语
+乐视网	keep	household-name platform/company
+云淡风轻	keep	established fixed expression
+千军万马	keep	成语
+三合一	keep	ordinary word in own right
+李智	drop	person name
+旧版	keep	ordinary word
+嘹亮	keep	ordinary adjective
+万万不	drop	mis-cut: 万万 + 不
+天极	drop	minor website name
+膀胱炎	keep	ordinary disease word
+大放异彩	keep	established fixed expression
+益生菌	keep	ordinary word
+脊柱炎	keep	ordinary disease word
+龙眼	keep	ordinary word (fruit)
+督导组	keep	ordinary word, segmenter's cut
+萤火虫	keep	ordinary word
+天马行空	keep	成语
+孟晚舟	drop	person name
+刻不容缓	keep	established 成语 (urgent, cannot be delayed)
+赵楠	drop	fictional character name
+萧风	drop	fictional character name
+白晨	drop	fictional character name
+王宝强	drop	real person
+谢娜	drop	real person
+瞬息之间	keep	fixed expression, a word of the release's cut
+马场	keep	ordinary word (racecourse, horse ground), examples are common-noun uses
+万劫不复	keep	established 成语
+思想品德	keep	ordinary word (moral education), release's cut
+资源化	keep	ordinary word (turning into resources), release's cut
+林晨	drop	fictional character name
+念力	keep	ordinary word (psychic power), genre vocabulary
+保持稳定	keep	release's cut, a word of the list even if transparent
+波涛	keep	ordinary word (billows)
+胶原蛋白	keep	ordinary word (collagen)
+别具一格	keep	established 成语
+林采	drop	cut-off name piece of 林采儿, a character
+楚云浩	drop	fictional character name
+林恩	drop	transliterated given name
+往前	keep	ordinary word (forward), adverb + verb cut that is a real word
+钟点工	keep	ordinary word (hourly worker)
+五湖四海	keep	established 成语
+重点学科	keep	ordinary word (key discipline)
+许立	drop	fictional character name
+张建	drop	person name, piece of 张建利 and similar
+占有率	keep	ordinary word (market share)
+米线	keep	ordinary word (rice noodles)
+沙特阿拉伯	keep	country
+林丹	drop	real person
+确定性	keep	ordinary word (certainty)
+彩霸主	drop	spam fragment of 时时彩霸主 software name
+板栗	keep	ordinary word (chestnut)
+甜言蜜语	keep	established 成语
+妇科病	keep	ordinary word (gynecological disease)
+李龙	drop	person name
+蛋蛋刷蛋器	drop	spam tool name
+前苏联	keep	ordinary word for the former Soviet Union, a country name
+官僚主义	keep	ordinary word (bureaucracy)
+翟天临	drop	real person
+喜怒哀乐	keep	established four-character expression
+李维	drop	person's name
+小东西	keep	ordinary word "little thing"
+联想集团	keep	household-name company (联想 ruling)
+附着力	keep	ordinary technical noun "adhesion"
+物理学家	keep	ordinary word "physicist"
+萧平	drop	fictional character name
+辅助工具	keep	word cut by the segmenter
+吉祥坊	drop	gambling site name
+智能型	keep	word cut by the segmenter
+先进事迹	keep	ordinary word cut by the segmenter
+胆战心惊	keep	成语
+熙熙攘攘	keep	成语
+喜出望外	keep	成语
+安全系数	keep	ordinary word
+电动工具	keep	ordinary word
+风浩	drop	fiction character name
+天经地义	keep	成语
+五彩缤纷	keep	成语
+江风	keep	ordinary word "river breeze", though some examples are names
+现实主义	keep	ordinary word "realism"
+摩拳擦掌	keep	成语
+柳致知	drop	fiction character name
+世贸组织	keep	major international body
+赵阳	drop	person's name
+凶多吉少	keep	成语
+街舞	keep	ordinary word "street dance"
+骷髅头	keep	ordinary word "skull"
+李晓	drop	person's name
+牡丹江	keep	prefecture-level city
+义不容辞	keep	成语
+徒然	keep	real word "futile", also used as a misspelling of 突然 but the lemma stands
+稀奇古怪	keep	成语
+举一反三	keep	成语
+营养价值	keep	ordinary word
+陈凯	drop	person's name
+社科院	keep	famous institution, established abbreviation
+高血脂	keep	ordinary medical word
+税务师	keep	ordinary profession word
+芈	drop	surname/name character only, from a TV title
+贝里	drop	piece of a transliterated name (里贝里), person
+智能机	keep	ordinary word, smartphone
+揭幕战	keep	ordinary sports word, opening match
+上老君	merge:太上老君	cut-off of 太上老君; deity
+陈奕迅	drop	person
+毛绒玩具	keep	ordinary compound word
+骂骂咧咧	keep	ordinary expression
+可塑性	keep	ordinary word
+订量	drop	piece of 起订量, shop boilerplate
+道陵	drop	piece of name 张道陵, person
+国家专利	keep	segmenter's word, ordinary term
+清洁卫生	keep	ordinary word
+气势磅礴	keep	成语
+新纪元	keep	ordinary word
+硬质合金	keep	ordinary term
+摩洛哥	keep	country
+望而却步	keep	成语
+艺术馆	keep	ordinary word
+青水	drop	no examples, low diversity, name/fragment
+包容性	keep	ordinary word
+毛泽东思想	keep	established political term, fixed expression
+马儿	keep	ordinary word
+香港特别	merge:香港特别行政区	Cut-off piece of 香港特别行政区 in every example; the SAR name is learnable
+旗帜鲜明	keep	成语
+转向灯	keep	ordinary word
+麦子	keep	ordinary word
+妈祖	keep	deity
+实心	keep	ordinary word
+杨雪	drop	person
+珠宝首饰	keep	ordinary word
+雷蒙	drop	person
+嚣	drop	only occurs inside words (嚣张), not standalone
+立于不败之地	keep	fixed expression
+卫小	drop	mis-cut of 卫小主, fiction
+发包人	keep	ordinary legal term
+秦明	drop	person
+秦烈	drop	fiction character
+韩东	drop	person
+志愿军	keep	ordinary word, historical force
+毛茸茸	keep	ordinary word
+杜兰德	drop	person name (Durand), few documents
+生殖系统	keep	ordinary anatomical word, segmenter's cut
+薄片	keep	ordinary word "thin slice"
+记录表	keep	ordinary word "record form", segmenter's cut
+黎巴嫩	keep	country
+李桂	drop	surname + given-name piece, person name
+炎炎夏日	keep	established fixed expression
+云剑	drop	fiction/person name, low diversity
+智能卡	keep	ordinary word "smart card"
+布告	keep	ordinary word "notice"; examples are garbled text but word is real
+土生土长	keep	成语 / fixed expression
+练习生	keep	ordinary word "trainee", common in entertainment news
+刘海瑞	drop	person name
+爱恨	keep	ordinary word, segmenter's cut (爱恨情仇)
+这么一	drop	mis-cut, 这么 + 一, no examples
+畅通无阻	keep	成语
+薄利多销	keep	成语
+二十大	keep	established abbreviation for the Party's 20th Congress, ordinary news vocabulary
+渣滓	keep	ordinary word "dregs"
+林雷	drop	fiction character name
+黑恶势力	keep	established fixed term in news
+吞吞吐吐	keep	fixed expression
+福少时	drop	mis-cut of 福少 + 时时彩 spam
+天奇	drop	fiction/place name, low diversity
+叶修	drop	fiction character name
+流线型	keep	ordinary word "streamlined"
+叶帆	drop	person name
+金泰妍	drop	person name
+陈峰	drop	person name
+唐心	drop	fiction character name
+李刚	drop	person name
+立体声	keep	ordinary word "stereo"
+确确实实	keep	ordinary reduplicated adverb
+塔利班	keep	well-known organisation/group in news
+脑出血	keep	named disease, ordinary word
+贝索斯	drop	person name
+蓝皮书	keep	ordinary word "blue book" (official report)
+浑浑噩噩	keep	成语
+热带雨林	keep	ordinary word "tropical rainforest"
+北非	keep	major region
+概念车	keep	ordinary common noun (concept car)
+禁不住	keep	real verb phrase word, cannot help doing
+世界领先	keep	segmenter's word, common phrase
+秦轩	drop	fiction character name
+赵硕	drop	fiction character name
+法布雷加斯	drop	person name (footballer)
+霉变	keep	ordinary word (to go mouldy)
+陈晋	drop	person name
+内应	keep	real word (inside collaborator)
+刘氏	drop	surname + 氏, name
+天麻	keep	ordinary word (gastrodia herb)
+天邪	drop	fiction sect name fragment
+孙宏	drop	cut person name (孙宏斌)
+儿童用品	keep	ordinary word, segmenter's cut
+林白	drop	person name; 白 not separate here
+台胞	keep	ordinary word (Taiwan compatriot)
+生生不息	keep	成语
+翩翩起舞	keep	成语/fixed expression
+店小二	keep	ordinary word (innkeeper's waiter)
+彩概率	drop	mis-cut of 时时彩概率, spam
+夏亚	drop	fiction place/character name
+蒸压釜	keep	ordinary technical noun (autoclave)
+功亏一篑	keep	成语
+喋喋不休	keep	成语
+嫣然一笑	keep	established fixed expression
+吕重	drop	fiction character name
+关晓彤	drop	person name
+庄继	drop	cut person name (庄继华)
+长治久安	keep	成语
+上流社会	keep	ordinary word
+叶少枫	drop	fiction character name
+宇航	keep	ordinary word (spaceflight), abbreviation
+自助游	keep	ordinary word
+劳动模范	keep	ordinary word, established term
+团团围	drop	mis-cut of 团团围住
+林阳	drop	fiction character name
+韩权佑	drop	person name
+宁飞	drop	fiction character name
+春夏秋冬	keep	established fixed expression
+夜殇	drop	fiction/name-like, no examples, not a standard word
+荆飞	drop	fiction character name
+韩漠	drop	fiction character name
+吐鲁番	keep	well-known Xinjiang prefecture-level city
+阴森森	keep	ordinary adjective
+吴莱	drop	person name
+擀	keep	real standalone verb (roll dough)
+啼笑皆非	keep	established 成语
+龙云	drop	fiction character name (龙云风 cut)
+刘诗	drop	Piece of a person's name (刘诗诗); people drop
+对照表	keep	ordinary word, segmenter's cut
+国土局	keep	ordinary institutional word, abbreviation of 国土资源局
+方森岩	drop	person name
+陈阳	drop	person name
+摧枯拉朽	keep	established 成语
+李文	drop	person name
+富丽堂皇	keep	established 成语
+王轲	drop	fiction character name
+许阳	drop	fiction character name
+进进出出	keep	ordinary reduplicated verb expression
+口腔医院	keep	ordinary word, segmenter's cut
+延年益寿	keep	established 成语
+科莫娃	drop	person name
+阳叶盛	drop	person name
+陆峰	drop	fiction character name
+热熔	keep	real technical word, ordinary vocabulary
+大红袍	keep	famous tea, everyday product name
+辛亥革命	keep	historical event name a reader meets constantly
+路西恩	drop	fiction character name
+姬长空	drop	fiction character name
+最高级	keep	ordinary word (superlative, top-grade)
+李天奇	drop	person name
+偷吃	keep	real verb (sneak food), ordinary word
+轻车熟路	keep	established 成语
+休息区	keep	ordinary word, segmenter's cut
+广西南宁	drop	mis-cut crossing province and city; 广西 and 南宁 are separate words
+甄游	drop	person name
+闻所未闻	keep	established 成语
+双流彭	drop	mis-cut, place plus surname
+沪港通	keep	well-known stock connect scheme, everyday finance term
+勤俭节约	keep	established fixed expression
+林飞	drop	person name (fiction character)
+领悟到	merge:领悟	transparent verb + 到 complement, mis-cut
+秦凡	drop	fiction character name
+综合国力	keep	ordinary word cut by segmenter
+习以为常	keep	established 成语
+亚游	drop	gambling site name
+沟槽	keep	real word (groove, trench)
+秦渊	drop	fiction character name
+陈曦	drop	person name
+全国人民代表大会	keep	famous state body
+凌雪	drop	fiction character name
+思想汇报	keep	real word, segmenter's cut
+真心实意	keep	established 成语
+张三丰	drop	person name (legendary)
+叶白	drop	fiction character name
+王俊凯	drop	person name
+霍建华	drop	person name
+刑事诉讼法	keep	well-known law, ordinary term
+台资	keep	real word (Taiwan capital)
+孔径	keep	real word (aperture)
+明眸	keep	real literary word (bright eyes)
+彻头彻尾	keep	established 成语
+中王	drop	mis-cut/name, no examples
+陈楚	drop	person name
+刘镒	drop	cut person name
+根利	drop	no examples, not a word, low diversity
+霍然	keep	real adverb (suddenly), also surname
+红彤彤	keep	real word (bright red)
+苏唐	drop	name, no examples
+吉普	keep	real word (jeep)
+篮板球	keep	real word (rebound)
+狙击步枪	keep	real word (sniper rifle)
+云霞	keep	real word (rosy clouds)
+杨峰	drop	person name
+李铮	drop	person name
+方炎	drop	fiction character name
+孙豪	drop	person name, no examples
+秦浩	drop	fiction character name
+杨云	drop	person name
+炅	drop	only occurs in name 何炅, not a standalone word
+人机界面	keep	ordinary tech term (human-machine interface), segmenter's word
+声线	keep	real word, voice quality
+操作工	keep	real word, machine operator
+平刷王	drop	lottery spam tool name
+林昊	drop	fiction character name
+柯文哲	drop	person
+量力而行	keep	established 成语
+华强	drop	surname+given name/minor company, names only
+求职网	drop	job site boilerplate, minor website
+读书人	keep	real word, scholar/educated person
+棋牌室	keep	ordinary word, mahjong/card room
+绽	keep	real standalone word (to burst open), literary use
+赵立	drop	person name
+慈善机构	keep	ordinary word, charity organisation
+萧强	drop	fiction character name
+睦	keep	real word in 不睦, 和睦, literary standalone use
+娥	drop	given-name character, only in names
+陆轩	drop	fiction character name
+刘欣	drop	person name
+辰南	drop	fiction character name
+台积电	keep	household-name company (TSMC)
+中青	drop	fragment/abbreviation of 中青在线, minor
+第七条	drop	Ordinal + measure word (article seven), a drop under call 12 (like 第三节)
+造型师	keep	real word, stylist
+寡人	keep	real word, royal first-person pronoun
+林子闲	drop	fiction character name
+漫山遍野	keep	established 成语
+白素	drop	fictional character name
+李静	drop	person name
+冷眼旁观	keep	established 成语
+张良	drop	historical person
+旧情	keep	real word, old feelings
+李孝利	drop	person name
+刮板	keep	real word, scraper/squeegee
+基本特征	keep	release's cut word, meaning sum of parts
+安全卫士	drop	product name (360 security software) and generic slogan; minor product
+惊魂未定	keep	established 成语
+刘芒	drop	person name
+丙烯酰胺	keep	real word, acrylamide chemical
+夏宇	drop	fiction character name
+大内	keep	historical term for the imperial palace, ordinary word in history texts
+阳顶	drop	fiction character name 阳顶天, cut piece
+刘烨	drop	person name
+大局意识	keep	ordinary political vocabulary word
+蔓儿	drop	piece of fiction name 连蔓儿
+费耶诺德	drop	foreign sports club (Feyenoord)
+血瞳	drop	fiction-specific name/term, spam-ish diversity, not a general word
+国立大学	keep	ordinary common noun "national university"
+真人版	keep	ordinary word "live-action version"
+从古至今	keep	established fixed expression
+直属单位	keep	ordinary institutional word
+谢玲	drop	person name
+新快报	drop	regional newspaper
+诺坎普	drop	stadium, named facility
+陈妍希	drop	person name
+唐少哲	drop	fiction character name
+天井	keep	ordinary word (courtyard skylight well)
+雷欧	drop	character name
+南北朝	keep	era/dynasty name
+摩擦系数	keep	segmenter's word, ordinary technical term
+陈氏	drop	surname + 氏, name
+认同感	keep	ordinary word
+王攀	drop	person name
+香港大学	keep	nationally famous university
+重庆大学	keep	nationally famous university
+从容不迫	keep	成语
+余额宝	keep	everyday platform product
+祖师爷	keep	ordinary word, founder/patron master, also deity-like worship
+消暑	keep	ordinary verb word
+勤勤恳恳	keep	ordinary reduplicated idiom word
+林寒	drop	fiction character name
+德里克	drop	foreign given name
+直挺挺	keep	ordinary adverb/adjective
+裆	keep	real standalone word (crotch)
+光泽度	keep	segmenter's word, ordinary term
+李安	drop	person name (director)
+萧铁柱	drop	fiction character name
+图片素材	keep	segmenter's word, ordinary compound
+新闻学	keep	ordinary academic field word
+火冒三丈	keep	成语
+国家博物馆	keep	famous national landmark institution
+扬眉吐气	keep	established 成语
+方卓	drop	fiction character name
+东伯雪鹰	drop	fiction character name
+白云飞	drop	person name; examples are mis-cut 白云 + 飞
+城管局	keep	ordinary institutional word in news, release's cut
+梁笑	drop	person name
+港媒	keep	ordinary news abbreviation for Hong Kong media
+李风	drop	person/fiction name
+三字经	keep	canonical work schoolchildren learn
+方理	drop	fiction/person name
+火龙果	keep	common fruit word
+明白人	keep	ordinary word, release's cut
+烊	drop	only occurs in name 易烊千玺 (and 打烊 piece)
+运筹帷幄	keep	established 成语
+六盘水	keep	prefecture-level city
+大肚子	keep	ordinary word despite spam examples
+蛋蛋刷蛋	drop	gambling spam tool name
+波动值	drop	lottery spam jargon
+加工时	drop	mis-cut 加工 + 时
+账号密码	keep	ordinary compound word, release's cut
+唐舞麟	drop	fiction character name
+开间	keep	real architecture term
+越西兰	drop	broken lemma, no evidence; piece of a name
+名牌大学	keep	ordinary word, release's cut
+城市交通	keep	ordinary compound word, release's cut
+天旋地转	keep	established 成语
+有机酸	keep	ordinary chemistry word
+穿透力	keep	ordinary word
+中证	keep	well-known index/securities body abbreviation in finance news
+深入浅出	keep	established 成语
+漆黑一片	keep	fixed expression
+人声鼎沸	keep	established 成语
+湖州市	keep	prefecture-level city with suffix, rule 2
+陈羽	drop	person name
+毁于	merge:毁	verb + 于 mis-cut
+氮氧化物	keep	ordinary chemistry term
+薛之	drop	cut piece of person name 薛之谦
+焦飞	drop	fiction name, no examples
+穷奇	keep	mythic creature in web-fiction/classical vocabulary, not a person
+北国	keep	ordinary literary word "northern land", common in prose
+李锦记	keep	household-name sauce company/brand (call 3)
+北极熊	keep	ordinary common noun "polar bear"
+钴	keep	real standalone noun (cobalt)
+吉利心	drop	gambling-spam forum fragment (心水论坛), mis-cut
+林逸轩	drop	fiction character name
+煤层气	keep	real technical noun (coalbed methane)
+孢子	keep	ordinary noun (spore)
+秦墨	drop	fiction character name
+王博	drop	person's name
+彩购彩	drop	spam mis-cut from 时时彩购彩
+朝霞	keep	ordinary word "morning glow"
+富豪榜	keep	ordinary word, rich list
+斗智斗勇	keep	established four-character expression
+李耀	drop	fiction character name
+念珠菌	keep	named microorganism/disease term, real word
+李敏	drop	person's name
+物质基础	keep	segmenter's word, ordinary compound
+钳工	keep	ordinary occupation noun
+杨轩	drop	fiction character name
+测试数据	keep	segmenter's word, ordinary compound
+全国人民代表大会常务委员会	keep	famous state body (全国人大常委会)
+零排放	keep	segmenter's word, ordinary compound
+紧要关头	keep	established fixed expression
+阿凡达	drop	title of a work (film)
+寒暑假	keep	ordinary word, winter and summer holidays
+林木森	drop	person's name
+药用价值	keep	segmenter's word, ordinary compound
+刘畅	drop	person's name
+叱咤风云	keep	成语
+吴晨	drop	person's name
+曲檀	drop	piece of a fiction character name (曲檀儿)
+李林	drop	person's name
+装逼	keep	common vulgar slang verb met in ordinary reading, not a slur
+抗美援朝	keep	established historical campaign name/slogan, learnable
+硬物	keep	ordinary word "hard object"
+上半	drop	mis-cut fragment (上半场/上半年), examples garbled spam
+宁采臣	drop	fictional character name
+痴人说梦	keep	成语
+秦奋	drop	fiction character name
+海地	keep	country (Haiti)
+刘浩	drop	person name
+宇辰	drop	given name
+康剑飞	drop	person name
+绿意	keep	ordinary word, "touch of green"
+剑尘	drop	fiction character
+叶天辰	drop	fiction character
+盐城市	keep	prefecture-level city, suffixed form stands
+天浩	drop	given name
+肉毒素	keep	real word, botulinum toxin
+千秋子	drop	fiction character
+整体橱柜	keep	release's word cut, real term
+网络红人	keep	ordinary word
+马其顿	keep	country (North Macedonia)
+林克	drop	game character
+烫金	keep	real word, hot-foil stamping
+古拉	drop	name, no examples
+食物中毒	keep	ordinary word
+井水	keep	real word, well water
+娓娓道	merge:娓娓道来	cut-off form of 娓娓道来
+神算子	drop	spam nickname
+从头到脚	keep	fixed expression
+黄渤	drop	person name
+保安员	keep	ordinary word
+天外天	drop	Mostly a fiction realm and a place name; not an established common term (the idiom is 天外有天)
+庄飞	drop	person name
+心肌炎	keep	named disease
+震撼人心	keep	established expression
+占中	keep	established news term for the Hong Kong event
+摩天轮	keep	ordinary word, Ferris wheel
+李锋	drop	person name
+林潇	drop	fiction character
+常务委员会	keep	state body term
+陈潇	drop	person name
+华春莹	drop	person name
+真皮沙发	keep	release's word cut, real term
+明儿	keep	colloquial "tomorrow"
+王虎	drop	fiction character
+一拍即合	keep	established expression
+关横	drop	name fragment, no examples
+封建社会	keep	ordinary word, release's cut
+烂摊子	keep	common idiom-like noun
+小卖部	keep	everyday word
+金尊	drop	spam/fiction title, not a real word
+徐云	drop	person name
+房屋产权	keep	ordinary compound word
+澳博	drop	casino brand, spam
+穆飞	drop	fiction character name
+主任委员	keep	ordinary title word
+杨逸	drop	character name
+柳如	drop	cut-off character name
+热塑性	keep	real technical word
+蒸蒸日上	keep	成语
+东盟国家	keep	ordinary word, release's cut
+真空度	keep	real word
+胆囊炎	keep	ordinary disease word
+周衍	drop	character name
+利息收入	keep	ordinary word
+山中	keep	Release's cut, "in the mountains", ordinary use shown (从山中采伐); a compositional cut stands
+勿乞	drop	fiction character name
+坯料	keep	real technical word
+托福考试	keep	ordinary word, release's cut
+轻触	keep	real word (light touch), release's cut
+唐太宗	drop	historical person
+基层单位	keep	ordinary word
+罗林	drop	character name
+霍芬海姆	drop	sports club
+抗腐蚀	keep	real word
+楚风	drop	name/brand, not a word learners need
+本来面目	keep	established 成语
+接地线	keep	real word
+杨皓	drop	character name
+陆宇	drop	character name
+赵伏波	drop	person name
+叶东	drop	character name
+杀菌剂	keep	ordinary word
+直属机构	keep	ordinary word
+学龄前	keep	ordinary word
+谣	keep	standalone in 歌谣/造谣 literary use, dictionary character
+跨学科	keep	ordinary word
+严小	drop	name fragment (严小稣, 严小开, 严小平)
+妖魔鬼怪	keep	成语 in ordinary use
+萧遥	drop	fictional character name
+葡萄干	keep	ordinary noun (raisin)
+马修	drop	foreign personal name
+秦唐	drop	fiction name or place, no word sense
+丰硕成果	keep	segmenter's word, ordinary phrase
+综合料	drop	gambling spam term
+黄雀	keep	real word (oriole), also in 黄雀在后
+中情局	keep	famous state body (CIA)
+马报	drop	gambling spam
+梁振英	drop	person
+冷却器	keep	ordinary noun
+擎天柱	keep	common-word sense (pillar holding up the sky), not only the character name
+孤注一掷	keep	成语
+胸有成竹	keep	成语
+陈诉	keep	A real dictionary word ("to state, to complain") in its own reading; spun-text examples don't change the word
+林风	drop	fictional character name
+陈雨舒	drop	fictional character name
+雷风	drop	spam software name
+光洁度	keep	ordinary technical noun (smoothness)
+刘威	drop	person name
+尺子	keep	ordinary noun (ruler)
+林亘	drop	fictional character name
+八九	drop	Approximate number pair, a drop under call 12
+秦殊	drop	fictional character name
+胜券在握	keep	成语
+周泽	drop	fictional character name
+叨叨	keep	real word (to chatter)
+叶恒	drop	fictional character name
+林弈	drop	fictional character name
+太子爷	keep	common term (scion of a wealthy or powerful family)
+揣着	merge:揣	verb + 着 mis-cut
+导电性	keep	ordinary technical noun
+沽	keep	Used on its own in literary and financial prose (待价而沽, 沽酒, sell in HK finance); call 10 / shape rule
+错别字	keep	ordinary noun
+嗓	keep	Used as a free noun "voice" (开嗓, 亮开嗓, 扯着嗓); the example shows it as the object in 开嗓
+捡漏	keep	ordinary colloquial verb
+滞纳金	keep	ordinary noun (late fee)
+主体工程	keep	segmenter's word, ordinary noun
+刘波	drop	person name
+苏炳	drop	cut-off person name (苏炳添)
+线路图	keep	ordinary word, segmenter's cut
+正反面	keep	ordinary word, segmenter's cut
+塑料托盘	keep	ordinary compound word
+马杜罗	drop	person name
+刑事诉讼	keep	ordinary legal term
+密宗	keep	Tantric Buddhism, religious term
+李察	drop	person name
+林若溪	drop	fiction character name
+柳风	drop	fiction name, spam-concentrated
+英语六级	keep	exam name, like 四级/六级 ruling
+天呐	keep	interjection
+林洛	drop	fiction character name
+随处可见	keep	fixed expression
+拉货	keep	ordinary verb-object word
+赤手空拳	keep	成语
+酬	keep	real standalone word in literary use (酬, 报酬)
+古战场	keep	ordinary word
+可溶性	keep	ordinary word
+足球彩票	keep	ordinary gambling vocabulary (彩票)
+二氧化硅	keep	ordinary chemistry word
+刘云山	drop	person name
+美育	keep	ordinary word
+安全期	keep	ordinary word
+外形尺寸	keep	ordinary compound word
+孙红雷	drop	person name
+邺	drop	only occurs in place names, minor ancient place
+促发展	drop	mis-cut of 促+发展
+斯图	drop	cut-off name piece
+中山公园	drop	named facility, not a famous landmark
+凌楚汐	drop	fiction character name
+刘煜	drop	fiction character name
+实至名归	keep	成语
+呕	keep	real standalone verb
+恒潇	drop	name, spam-concentrated
+旧车	keep	ordinary word
+乱成一团	keep	fixed expression
+帕子	keep	ordinary word (handkerchief)
+李秋	drop	person name, cut-off 李秋元
+牡丹花	keep	ordinary word, peony flower
+任苍穹	drop	fiction character name
+刘国梁	drop	person name
+土地储备	keep	ordinary economic term
+喜滋滋	keep	real adjective, happy
+货币化	keep	real word, monetisation
+劳教所	keep	real institution term, ordinary word
+联欢晚会	keep	ordinary word, gala party
+冤大头	keep	real colloquial word, sucker
+念诵	keep	real verb, to chant
+浓墨重彩	keep	established 成语
+罗城	drop	minor place or fiction place name
+李愔	drop	person name
+测试题	keep	ordinary word, test question
+世界贸易组织	keep	major international body
+朝日	drop	Counts are mostly names (朝日新闻, 朝日电视台); the literary "morning sun" sense is rare, and one example is a typo for 早日
+杨昊	drop	person name
+斗不过	keep	Lexicalised potential form "can't beat", the release's cut; call 6 covers only 出/到/起 and the particles
+克扣	keep	real verb, to withhold unfairly
+助人为乐	keep	established 成语
+土工膜	keep	real technical noun, release's cut
+密探	keep	real word, secret agent
+原始凭证	keep	ordinary accounting term
+聂空	drop	fiction character name
+吴昕	drop	person name
+师范学校	keep	ordinary word, normal school
+张爱玲	drop	person name
+联邦调查局	keep	famous state body, FBI
+谢晨	drop	person name
+雅居乐	drop	minor company, property developer
+刘协	drop	historical person name
+氟磷酸锂	keep	real chemical term, lithium fluorophosphate; 六氟磷酸锂 supplies examples
+鲁教版	drop	textbook edition label, spam-like template text
+天不怕地	merge:天不怕地不怕	Cut-off fixed expression; every example is 天不怕地不怕
+塑料机械	keep	real word, release's cut
+拥军	keep	real verb, support the army
+奋发有为	keep	established 成语
+形影不离	keep	established 成语
+炼气士	keep	web-fiction common noun
+乔家	drop	surname + 家 is a name
+赵煜	drop	person's name
+妇幼保健	keep	ordinary compound word (maternal and child health), the release's cut
+彭远征	drop	person's name
+林非	drop	person's name (fictional/real), not an ordinary word
+玉皇大帝	keep	deity, religious vocabulary (call 25)
+可兑换	keep	ordinary word "exchangeable"; the release's cut stands
+唐德	drop	name of person/minor company
+大不大	keep	A-not-A question form, ordinary words; the release's cut stands
+小农	keep	ordinary word (smallholder)
+蛆	keep	real standalone word (maggot)
+债权债务	keep	ordinary compound word
+刘敏	drop	person's name
+王国华	drop	person's name
+长安区	drop	district (Shijiazhuang), not nationally famous
+云图	keep	ordinary word (cloud chart/satellite image)
+关宇	drop	person's name
+华晨宇	drop	person's name
+解剖学	keep	ordinary word (anatomy)
+七台河	keep	prefecture-level city (call 1)
+肢	keep	real word (limb), literary/standalone use; no examples (call 10)
+上海交大	keep	famous university, established abbreviation
+卡纸	keep	ordinary word (cardstock)
+李儒	drop	person's name (historical/fictional)
+消防大队	keep	ordinary institutional term (fire brigade)
+林武	drop	person's name
+萧雨	drop	person's name
+里里外外	keep	ordinary reduplicated word (inside and out)
+陈东	drop	person's name
+青城山	keep	famous mountain, World Heritage site
+刘奇	drop	person's name
+哆哆嗦嗦	keep	ordinary reduplicated word (trembling)
+芃	drop	given-name character only
+万民	keep	ordinary word (the people)
+千羽	drop	fictional character name
+残疾儿童	keep	ordinary compound word
+玄冥	drop	fiction name/ game item; not a common word
+丁字裤	keep	ordinary word (thong), met in ordinary reading
+珍珠港	keep	well-known place/landmark (Pearl Harbor)
+马鞭	keep	ordinary word (horsewhip)
+加州大学	keep	famous university
+磁珠法	keep	technical word, the segmenter's own cut
+雷辰逸	drop	person's name
+刘宇	drop	person's name
+带天窗	merge:天窗	Verb 带 + 天窗; per call 24, the whole word 天窗 carries the meaning
+屡禁不止	keep	成语
+市民政局	merge:民政局	市 + 民政局 fused; per call 24, the institution word 民政局 carries the meaning
+廉政建设	keep	ordinary word
+楚扬	drop	fictional character
+罗修	drop	fictional character
+罗塞尔	drop	person's name
+刘轩	drop	fictional character
+基因突变	keep	ordinary word
+陆尘	drop	fictional character
+中端	keep	ordinary word (mid-range)
+奥沙利	drop	cut-off piece of a person's name
+氩弧焊	keep	ordinary technical word
+穆帅	drop	nickname of a person
+西洋参	keep	ordinary word
+刘晓庆	drop	person's name
+国药	keep	household-name company (Sinopharm)
+夏云杰	drop	person's name
+戏志才	drop	historical or fictional person
+李玄	drop	person's name
+黄磊	drop	person's name
+中央书记处	keep	state body
+奥巴梅	drop	cut-off piece of a person's name
+谢傲宇	drop	fictional character
+费尽心思	keep	fixed expression
+内容提要	keep	ordinary word
+牛鼻子	keep	ordinary word, also figurative use
+赵无极	drop	person's name
+达芬奇	drop	person's name
+李麟	drop	person's name
+王阳	drop	person's name
+秦鹏	drop	fictional character
+兰多夫	drop	person's name
+包罗万象	keep	成语
+古典家具	keep	ordinary word
+周公	drop	legendary or historical person; counts come from 周公解梦
+坎贝尔	drop	person's name
+彩儿	drop	person/character name
+方源	drop	fiction character / minor org name
+紧身衣	keep	ordinary word (tights/bodysuit), PROPN tag wrong
+山海经	keep	canonical classic work
+服务台	keep	ordinary word (service desk)
+李丽	drop	person name
+碟中谍	drop	film title
+管理委员会	keep	ordinary word/institution term cut by release
+到擒来	merge:手到擒来	broken cut of 成语 手到擒来
+赵雅	drop	person name
+韩森	drop	person name
+卡通动漫	keep	ordinary word cut by release
+苏晴	drop	person name
+轰轰轰	keep	onomatopoeia in ordinary use
+辛辛苦	merge:辛辛苦苦	cut-off of 辛辛苦苦
+生死关头	keep	fixed expression
+颅脑	keep	medical common word
+林虎	drop	person name
+湘南	drop	Minor regional name (southern Hunan, also Japanese Shōnan); not a province, city or major region
+青年才俊	keep	established fixed expression
+冯绍峰	drop	person name
+启示录	keep	Ordinary word "revelation/apocalypse", also the Book of Revelation; religious vocabulary, not just a title
+孙圣	drop	person name
+彩春节	drop	mis-cut spam (时时彩春节)
+爵士舞	keep	ordinary word (jazz dance)
+陈星	drop	person name
+陈梦	drop	person name
+赦	keep	standalone literary word (pardon)
+北爱尔兰	keep	well-known territory
+叶羽	drop	fiction character name
+大风车	keep	Ordinary word "windmill/pinwheel", also a basketball dunk term; the TV-show title is only one use
+奇门遁甲	keep	established fixed term
+李云	drop	person name
+绞肉机	keep	ordinary word (meat grinder)
+诚惶诚恐	keep	成语
+阿牛	drop	person name/nickname
+斯图尔特	drop	foreign person name
+南郊	keep	ordinary word (southern suburb)
+周立波	drop	person name
+袁姗姗	drop	person name
+大英帝国	keep	historical empire/state name, a country-like place name learners meet
+恩里克	drop	person's name
+北京人民大会堂	keep	famous landmark
+排气量	keep	ordinary technical noun (engine displacement)
+李密	drop	historical person
+黑洞洞	keep	real descriptive word (pitch-dark)
+千言万语	keep	established 成语
+华强北	keep	nationally famous Shenzhen electronics district/landmark
+平常人	keep	ordinary word (ordinary person)
+库尔德	keep	ethnic group name
+猫和	drop	mis-cut of 猫和老鼠 (title), crosses word boundary
+米酒	keep	ordinary word (rice wine)
+功率因数	keep	ordinary technical term
+华信	drop	minor company name
+叶昭	drop	fictional character name
+周宇	drop	person's name
+宝格丽	keep	household-name luxury brand
+李彦	drop	person's name
+红蜘蛛	keep	ordinary word (red spider mite)
+胡作非为	keep	established 成语
+越加	keep	real adverb (all the more)
+陈小春	drop	person's name
+雷耀	drop	small company/person name, low diversity
+中级法院	keep	ordinary institutional term (intermediate court)
+厄齐尔	drop	person's name (footballer)
+夏阳	drop	person/character name
+泰晤士报	keep	famous newspaper
+科班	keep	ordinary word (formal professional training)
+陈果	drop	person's name
+琴棋书画	keep	established four-character expression
+综合排名	keep	segmenter-cut word, ordinary term
+脑组织	keep	ordinary medical term
+长短途	keep	segmenter-cut word, ordinary term
+塑料模具	keep	segmenter-cut word, ordinary term
+肛管	keep	ordinary anatomical term
+吴浩	drop	person's name
+外资银行	keep	segmenter-cut word, ordinary term
+物理性能	keep	segmenter-cut word, ordinary term
+重特大	keep	real word in news usage (major and extraordinarily serious)
+中试	keep	real technical word (pilot-scale test)
+刀光剑影	keep	established 成语, one word to learn
+萧峰	drop	fictional character name
+化学性质	keep	segmenter's word, ordinary technical vocabulary
+安委会	keep	established abbreviation (安全生产委员会) in ordinary news vocabulary
+形态各异	keep	established 成语-like fixed expression
+臭丫头	keep	ordinary colloquial word, not a name
+王师傅	drop	surname + title, a person reference
+紫黑色	keep	ordinary colour word, the release's cut
+舒雅	keep	Real adjective "comfortable and elegant", shown in the examples; also being a given name doesn't change that
+莲湖	drop	minor district/village name
+超额完成	keep	real verb word, segmenter's cut (not negator or degree fusion)
+南开区	drop	district, not nationally famous
+普通本科	keep	ordinary education term, the release's cut
+莫里森	drop	person's name
+为人处事	keep	established fixed expression
+李志	drop	person's name, cut of a longer name
+灵心	drop	fiction character name, counts are names
+东岳	drop	counts are a bank branch and a given name; rare common sense
+拉丁舞	keep	ordinary word for a dance genre
+文汇报	keep	nationally famous newspaper
+李欣	drop	fictional character name
+温开水	keep	ordinary common noun
+常德市	keep	prefecture-level city with suffix, call 1 and 2
+惠城区	drop	district, not nationally famous
+杯水车薪	keep	established 成语
+欧姆龙	keep	household-name foreign company (Omron), call 3 and 17
+物理化学	keep	ordinary academic subject word
+中秋佳节	keep	holiday expression, established fixed phrase
