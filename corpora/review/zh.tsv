@@ -15893,7 +15893,7 @@ baidu.com	drop	Latin script/domain
 促销	keep	ordinary word
 海南	keep	province
 维生素	keep	ordinary word (vitamin)
-莫三比克	keep	Call 15: judged by its own reading, Mozambique, a country; the 莫 counts cannot be split, so this is not merged
+莫三比克	merge:莫	coordinator 2026-11-14 (developer-approved desk override 莫→莫, LemmaOverride source=manual): release 1.7.0 lookup maps 莫 to 莫三比克 from one labelled abbreviation; 22,302 of 22,311 counts are 莫; the full name (9) is below the cut (was keep: Call 15: judged by its own reading, Mozambique, a country; the 莫 counts cannot be split, so this is not merged)
 损伤	keep	ordinary word
 山西	keep	province
 江南	keep	well-known region
@@ -15992,7 +15992,7 @@ AC米兰	drop	Latin letters, sports club
 剧毒	keep	real word
 高性价比	keep	word the segmenter made
 机械化	keep	real word
-瓦努阿图	keep	country; the lemma's counts are mostly 瓦 but the word is the country name
+瓦努阿图	merge:瓦	coordinator 2026-11-14 (developer-approved desk override 瓦→瓦, LemmaOverride source=manual): release 1.7.0 lookup maps 瓦 to 瓦努阿图 from one labelled abbreviation; 3,282 of 3,642 counts are 瓦; the full name (360) is below the cut (was keep: country; the lemma's counts are mostly 瓦 but the word is the country name)
 举手	keep	real word (raise hand)
 利润率	keep	ordinary word
 超低	keep	real word: ultra-low (超低排放)
