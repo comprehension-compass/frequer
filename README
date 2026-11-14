@@ -1,1 +1,2 @@
 zh distributed count setup: the zh 1.6.4 lemma wheel, rebuilt byte-identically from honeyeater-lemmatiser fa4d132 (model/releases/1.6.4/WHEELS.md).
+zh 1.7.0 recount (2026-11-14): the zh 1.7.0 lemma wheel, rebuilt byte-identically from honeyeater-lemmatiser 92b8680 (model/releases/1.7.0/WHEELS.md); parts 1-7 with SKIP_NAME=zh2, part 0's HPLT halves with zh3a/zh3b; Tatoeba counted by the orchestrator.
