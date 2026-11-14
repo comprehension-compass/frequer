@@ -18759,3 +18759,16 @@ G20峰会	drop	contains Latin letters and digits
 脑壳	keep	dialect but common word, head
 那群	drop	demonstrative + measure word, like number + measure (三个); neither 那 nor 群 alone carries the meaning, so drop as 那伙 was in round 17 (call 24)
 龙枪	drop	fiction item name
+# round 19 (cascade)
+南沙群岛	keep	Spratly Islands: major region/landmark a news reader meets
+户型图	keep	ordinary word (floor plan), segmenter's word despite PROPN tag
+梅艳芳	drop	person's name
+民俗风情	keep	ordinary word (folk customs), segmenter's cut
+王羲之	drop	historical person's name
+# round 19s (cascade)
+头牌	keep	real word (top-billed performer, headliner) in ordinary use, even though examples are spam
+山花	keep	ordinary word (mountain wildflowers), common sense shows in examples
+所得税法	keep	release's cut word, a legal term for income tax law, not a specific title
+招标网	drop	website-type name and template term, not a general word
+沙县	drop	county-level place, not nationally famous as a place name
+滚圆	keep	real word (perfectly round, to roll into a ball), in everyday use
